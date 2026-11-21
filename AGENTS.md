@@ -97,6 +97,15 @@ questoes = [to_questao(q, meta) for q in prova.questoes]  # needs gabaritos
   `pdftotext -layout` — free and exact, whereas LLM extraction misread 3 of
   24 items on the first try. `X` means the item was anulado: skip it, do not
   emit a record.
+- For Cebraspe provas the zero-credit path is preferred: download the PDF
+  with `curl`, parse items with a coordinate-based `pdftohtml -xml` script
+  (item numbers sit at the column edge, continuations are indented) and the
+  gabarito with `pdftotext -layout`. The PF 2025 batch showed LLM `json`
+  extraction is unreliable — it misnumbered items, pasted base text as
+  enunciados and truncated statements — so the local parse is authoritative
+  for numero/enunciado. Working scripts live in `/tmp/pf25/` and `/tmp/ibama25/`
+  (`local_parse.py`, `assemble.py`, `parse_gab.py`); rebuild from those if
+  still present, and audit dropped lines between items before assembling.
 - Cebraspe URL discovery is free: the SPA calls
   `https://apis.cebraspe.org.br/cebraspe/eventos/tipo/concursos` (list) and
   `.../eventos/<ID>` (detail with `arquivosGabarito`, which holds provas and
