@@ -67,7 +67,9 @@ def muda_sentido(so_ref: list[str], so_pdf: list[str], voc: Counter) -> str:
     trocadas_pdf = [w for w in pdf_w if w not in ref_w]
     if (set(trocadas_ref) | set(trocadas_pdf)) & NEGACAO:
         return "**sim** (negação)"
-    if any(w.isdigit() for w in trocadas_ref + trocadas_pdf):
+    # número: só se os dígitos mudam de fato (subscrito fora de ordem não conta)
+    digitos = lambda ts: Counter(ch for t in ts for ch in t if ch.isdigit())
+    if digitos(so_ref) != digitos(so_pdf):
         return "**sim** (número)"
     # palavra do dataset que aparece em ≥ 2 outros registros é palavra real:
     # a troca pode mudar o sentido; senão, provável erro de grafia

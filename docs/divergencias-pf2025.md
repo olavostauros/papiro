@@ -6,7 +6,7 @@ Gerado em 2026-11-21 por `python -m crawler.divergencias` a partir do benchmark 
 
 **Coluna “muda o sentido?” (heurística, revisar):** *sim* quando a diferença envolve negação (não/nem/sem…) ou número; *possível* quando a palavra do dataset é uma palavra real (aparece em ≥ 3 registros do dataset) trocada por outra; *não (grafia)* quando a palavra do dataset não aparece em outros registros — provável erro de digitação.
 
-**Total:** 67 itens — não: 48, possível: 16, sim: 3 (mais 8 só de notação, listados ao final). Como os cadernos de conhecimentos básicos são compartilhados por vários cargos, cada item pode corresponder a mais de um registro (coluna *registros*).
+**Total:** 65 itens — não: 48, possível: 16, sim: 1 (mais 8 só de notação, listados ao final). Como os cadernos de conhecimentos básicos são compartilhados por vários cargos, cada item pode corresponder a mais de um registro (coluna *registros*).
 
 ## Destaque
 
@@ -62,9 +62,7 @@ Gerado em 2026-11-21 por `python -m crawler.divergencias` a partir do benchmark 
 | 106_PF_008_01 | 55 | vontade da vitima. | vontade da vítima. | não (grafia) | 1 | `cebraspe-2025-pf-perito-medicina-legal-055` |
 | 106_PF_008_01 | 105 | A prodigialidade, condição elencada | A prodigalidade, condição elencada | não (grafia) | 1 | `cebraspe-2025-pf-perito-medicina-legal-105` |
 | 106_PF_008_01 | 113 | transtornos mentais refratórios a tratamento | transtornos mentais refratários a tratamento | não (grafia) | 1 | `cebraspe-2025-pf-perito-medicina-legal-113` |
-| 106_PF_009_01 | 54 | igual a r1/r2. | igual a ௥భ. ௥మ | não (grafia) | 1 | `cebraspe-2025-pf-perito-fisica-054` |
-| 106_PF_009_01 | 55 | proporcional a 1/r, em que … da órbita. | proporcional a ଵ, em que … da órbita. ௥ | **sim** (número) | 1 | `cebraspe-2025-pf-perito-fisica-055` |
-| 106_PF_009_01 | 63 | proporcional a v 2, em que … em que v é a … da velocidade 0 0 inicial. | proporcional a v02, em que … em que v0 é a … da velocidade inicial. | **sim** (número) | 1 | `cebraspe-2025-pf-perito-fisica-063` |
+| 106_PF_009_01 | 63 | proporcional a v 2, em que … em que v é a … da velocidade 0 0 inicial. | proporcional a v02, em que … em que v0 é a … da velocidade inicial. | não (grafia) | 1 | `cebraspe-2025-pf-perito-fisica-063` |
 | 106_PF_010_01 | 72 | tipo com realizes autoportantes, em | tipo com realces autoportantes, em | não (grafia) | 1 | `cebraspe-2025-pf-perito-eng-minas-072` |
 | 106_PF_010_01 | 78 | dos elementos via em função | dos elementos pode variar em função | possível (palavra trocada por outra) | 1 | `cebraspe-2025-pf-perito-eng-minas-078` |
 | 106_PF_010_01 | 87 | Paracatu e Araxão, no estado | Paracatu e Araxá, no estado | não (grafia) | 1 | `cebraspe-2025-pf-perito-eng-minas-087` |

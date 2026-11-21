@@ -265,7 +265,7 @@ def itens_do_texto(texto: str, esperados: Optional[Iterable[int]] = None) -> dic
     return {n: _juntar(p) for n, p in itens.items()}
 
 
-_ILEGIVEL = re.compile("[\u0590-\u08FF\u0D80-\u0DFF\u202A-\u202E\uFB1D-\uFDFF\uFE70-\uFEFF]")  # hebraico/árabe/siríaco/cingalês: glifos de fórmula
+_ILEGIVEL = re.compile("[\u0590-\u0DFF\u202A-\u202E\uFB1D-\uFDFF\uFE70-\uFEFF]")  # hebraico…cingalês (inclui oriá/tâmil/canarês) e formas árabes: glifos de fórmula
 
 
 def ilegiveis(itens: dict[int, str]) -> list[int]:
