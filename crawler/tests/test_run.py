@@ -302,3 +302,31 @@ def test_teto_zero_fallback_para_antes_de_gastar(ambiente):
     rep = _rodar(ambiente, extrator="hibrido", pdf_itens=_locais(range(1, 11), ilegiveis={5}),
                  teto=0, chamadas=chamadas)
     assert rep["parado"] and chamadas == []
+
+
+# --- priorização ---------------------------------------------------------------
+
+def test_parse_anos():
+    assert run.parse_anos("2022-2024") == {2022, 2023, 2024}
+    assert run.parse_anos("2021, 2023") == {2021, 2023}
+    assert run.parse_anos(None) is None
+
+
+def test_filtros_anos_orgao_prioridade(ambiente):
+    _, _, ds_path = ambiente
+    ds = run.Dataset.carregar(ds_path)
+    man = {"provas": [
+        entrada(caderno="tj", evento="TJ_CE_25", orgao="Tribunal de Justiça do Ceará", ano=2025),
+        entrada(caderno="pc", evento="PC_PE_26", orgao="Polícia Civil de Pernambuco", ano=2026),
+        entrada(caderno="see", evento="SEE_PE_22", evento_nome="SEE PE 22 ANA ASS",
+                orgao="Secretaria de Educação de Pernambuco", ano=2022),
+        entrada(caderno="anm", evento="ANM_24", orgao="Agência Nacional de Mineração", ano=2024),
+        entrada(caderno="mjsp", evento="MJSP_21_PSS", orgao="Ministério da Justiça", ano=2021),
+    ]}
+    cads = lambda **kw: [e["caderno"] for e in run.selecionar(man, ds, **kw)[0]]
+    assert cads(anos={2024, 2025, 2026}) == ["pc", "tj", "anm"]
+    assert cads(orgaos=["pernambuco"]) == ["pc", "see"]
+    # prioridade define a ordem; "ANA" de Analista e "Justiça" de ministério não casam
+    assert cads(prioridade=["policias", "tribunais", "agencias"]) == ["pc", "tj", "anm"]
+    with pytest.raises(ValueError):
+        run.selecionar(man, ds, prioridade=["inexistente"])

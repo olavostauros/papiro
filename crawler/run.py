@@ -109,12 +109,64 @@ def tipo_caderno(descricao: str) -> Optional[int]:
     return int(m.group(1)) if m else None
 
 
+# Categorias de prioridade, na ordem em que são processadas. Casam com
+# norm("<eventoURL> <eventoNomeAbreviado> <órgão>") (maiúsculas, sem acento).
+PRIORIDADES: dict[str, str] = {
+    "tribunais": r"\bTRIBUNA|\b(TJ|TJDFT|TJM|TRF|TRT|TRE|STJ|STF|STM|TST|TSE|TCU|TCE|TCM|TC|CNJ|"
+                 r"CPNUJE)\b|\b(TRF|TRT)\d",
+    "policias": r"\bPOLICIA|\bPOLICIAL|\b(PF|PRF|PC|PM|PCDF|PJC|POLC|PP|PPF|DPF|DEPEN|SEAP|SSP|"
+                r"CBM|CBMDF)\b|PENITENCI|BOMBEIRO",
+    "inss": r"\bINSS\b|SEGURO SOCIAL",
+    "bancos": r"\bBANCO\b|\b(BB|BCB|BACEN|CAIXA|CEF|BNB|BASA|BRB|BNDES|BDMG|BANRISUL|BANESE|"
+              r"BANPARA)\b",
+    # só reguladoras: agências nacionais e estaduais de regulação
+    # (sem a sigla ANA solta: "ANA" também abrevia "Analista" nos nomes de evento)
+    "agencias": r"AGENCIA NACIONAL|REGULACAO|REGULADORA|AGUAS E SANEAMENTO|"
+                r"\b(ANAC|ANATEL|ANEEL|ANP|ANS|ANTAQ|ANTT|ANVISA|ANM|"
+                r"ANCINE|ARSAL|ARSESP|ADASA|AGERGS|AGER|AGEPAR|ARCE|ARSAE)\b",
+}
+
+
+def parse_anos(texto: Optional[str]) -> Optional[set[int]]:
+    """'2022-2026' → {2022,…,2026}; '2021,2023' → {2021, 2023}."""
+    if not texto:
+        return None
+    anos: set[int] = set()
+    for parte in texto.split(","):
+        parte = parte.strip()
+        m = re.fullmatch(r"(\d{4})\s*-\s*(\d{4})", parte)
+        if m:
+            anos.update(range(int(m.group(1)), int(m.group(2)) + 1))
+        elif parte:
+            anos.add(int(parte))
+    return anos
+
+
+def categoria_de(e: dict, categorias: Iterable[str]) -> Optional[str]:
+    texto = discover.norm(f"{e.get('evento', '')} {e.get('evento_nome') or ''} {e.get('orgao', '')}")
+    for c in categorias:
+        if re.search(PRIORIDADES[c], texto):
+            return c
+    return None
+
+
 def selecionar(manifesto: dict, ds: Dataset, *, eventos: Iterable[str] = (),
-               cadernos: Iterable[str] = (), incluir_curso_formacao: bool = False
-               ) -> tuple[list[dict], list[dict]]:
-    """Retorna (candidatas, puladas[{caderno, evento, motivo}])."""
+               cadernos: Iterable[str] = (), incluir_curso_formacao: bool = False,
+               anos: Optional[set[int]] = None, orgaos: Iterable[str] = (),
+               prioridade: Iterable[str] = ()) -> tuple[list[dict], list[dict]]:
+    """Retorna (candidatas, puladas[{caderno, evento, motivo}]).
+
+    Filtros de priorização: ``anos`` (conjunto), ``orgaos`` (trechos de texto
+    casados com evento/órgão, sem acento) e ``prioridade`` (categorias de
+    ``PRIORIDADES``, que também definem a ordem). Sem prioridade: mais
+    recentes primeiro."""
     evs = {e.upper() for e in eventos}
     cads = {c.upper() for c in cadernos}
+    orgs = [discover.norm(o) for o in orgaos if o.strip()]
+    prio = [p.strip().lower() for p in prioridade if p.strip()]
+    for p in prio:
+        if p not in PRIORIDADES:
+            raise ValueError(f"prioridade desconhecida: {p!r} (use {', '.join(PRIORIDADES)})")
     cand, pul = [], []
     for e in manifesto["provas"]:
         def pula(motivo: str):
@@ -123,6 +175,16 @@ def selecionar(manifesto: dict, ds: Dataset, *, eventos: Iterable[str] = (),
             continue
         if cads and e["caderno"].upper() not in cads:
             continue
+        if anos is not None and e.get("ano") not in anos:
+            continue
+        if orgs:
+            texto = discover.norm(f"{e['evento']} {e.get('evento_nome') or ''} {e.get('orgao', '')}")
+            if not any(o in texto for o in orgs):
+                continue
+        if prio:
+            e = dict(e, _categoria=categoria_de(e, prio))
+            if e["_categoria"] is None:
+                continue
         if not e.get("url_gabarito"):
             pula("sem gabarito definitivo"); continue
         if not e.get("cargos"):
@@ -136,8 +198,10 @@ def selecionar(manifesto: dict, ds: Dataset, *, eventos: Iterable[str] = (),
         if motivo:
             pula(motivo); continue
         cand.append(e)
-    # mais recentes primeiro; dentro do evento, ordem estável do manifesto
-    cand.sort(key=lambda e: -(e.get("ano") or 0))
+    # categoria de prioridade (na ordem pedida), depois mais recentes primeiro;
+    # dentro do evento, ordem estável do manifesto
+    rank = {p: i for i, p in enumerate(prio)}
+    cand.sort(key=lambda e: (rank.get(e.get("_categoria"), 0), -(e.get("ano") or 0)))
     return cand, pul
 
 
@@ -441,15 +505,69 @@ def executar(manifesto: dict, ds: Dataset, *, limite: int, teto: int,
 # CLI
 # ---------------------------------------------------------------------------
 
+def estimar_custo(cand: list[dict], *, amostra: int, gab_loader: GabLoader,
+                  pdf_itens: PdfItens, page_counter: PageCounter, semente: int = 0,
+                  log=print) -> dict:
+    """Custo (só fallbacks Firecrawl) do modo híbrido. Grátis: baixa gabarito e
+    prova e roda o extrator local; exato se a seleção cabe na amostra, senão
+    extrapola a média da amostra aleatória para o total."""
+    import random
+    sel = cand if len(cand) <= amostra else random.Random(semente).sample(cand, amostra)
+    tipos: Counter = Counter()
+    custos: list[int] = []
+    for i, e in enumerate(sel, 1):
+        if i % 20 == 0:
+            log(f"  … estimando {i}/{len(sel)}")
+        try:
+            gab = gab_loader(e["url_gabarito"])
+            pl = planejar(e, gab, extrator="hibrido", pdf_itens=pdf_itens)
+            c = custo_estimado(e, pl, page_counter)
+        except Exception:  # noqa: BLE001 — prova sem gabarito/PDF legível não é processada
+            tipos["erro (não processada, 0 crédito)"] += 1
+            custos.append(0)
+            continue
+        if pl.firecrawl is None:
+            tipos["100% local"] += 1
+        elif pl.firecrawl == "itens":
+            tipos["fallback por item (fórmula)"] += 1
+        elif "múltipla escolha" in pl.motivo:
+            tipos["fallback por prova (múltipla escolha)"] += 1
+        else:
+            tipos["fallback por prova (cobertura)"] += 1
+        custos.append(c)
+    media = sum(custos) / max(1, len(custos))
+    return {
+        "provas": len(cand), "amostra": len(sel), "exato": len(sel) == len(cand),
+        "creditos_amostra": sum(custos), "media_por_prova": round(media, 2),
+        "estimativa_total": round(media * len(cand)), "por_tipo": dict(tipos),
+    }
+
+
+def _filtros(args) -> dict:
+    return {"anos": parse_anos(args.anos), "orgaos": args.orgao,
+            "prioridade": [p for p in (args.prioridade or "").split(",") if p.strip()]}
+
+
 def plano(manifesto: dict, ds: Dataset, args) -> int:
     cand, pul = selecionar(manifesto, ds, eventos=args.evento, cadernos=args.caderno,
-                           incluir_curso_formacao=args.incluir_curso_formacao)
-    from collections import Counter
+                           incluir_curso_formacao=args.incluir_curso_formacao, **_filtros(args))
     print(f"manifesto: {manifesto['resumo']}")
     print(f"candidatas: {len(cand)} provas em {len({e['evento'] for e in cand})} eventos "
           f"| puladas: {len(pul)}")
+    if any(e.get("_categoria") for e in cand):
+        for cat, n in Counter(e["_categoria"] for e in cand).items():
+            print(f"  prioridade {cat}: {n} provas")
     for motivo, n in Counter(p["motivo"] for p in pul).most_common(8):
         print(f"  pulada ({n}): {motivo}")
+    if args.estimar_custo:
+        est = estimar_custo(cand, amostra=args.amostra, gab_loader=gabmod.carregar,
+                            pdf_itens=itens_do_pdf_url, page_counter=contar_paginas,
+                            semente=args.semente)
+        tipo = "exato" if est["exato"] else f"amostra de {est['amostra']}"
+        print(f"custo estimado (só fallbacks, {tipo}): ~{est['estimativa_total']} créditos "
+              f"(média {est['media_por_prova']}/prova; amostra gastaria {est['creditos_amostra']})")
+        for t, n in sorted(est["por_tipo"].items(), key=lambda x: -x[1]):
+            print(f"  {t}: {n}/{est['amostra']}")
     print(f"próximas {min(args.limite_provas or 10, len(cand))} (dry-run, zero créditos):")
     for e in cand[: args.limite_provas or 10]:
         cs = ", ".join(c["nome"] for c in e["cargos"][:3])
@@ -470,6 +588,16 @@ def main(argv: Optional[list[str]] = None) -> int:
     ap.add_argument("--caderno", action="append", default=[], help="filtra por caderno")
     ap.add_argument("--descobrir", action="store_true", help="regera o manifesto antes (grátis)")
     ap.add_argument("--incluir-curso-formacao", action="store_true")
+    ap.add_argument("--anos", help="ex.: 2022-2026 ou 2021,2023")
+    ap.add_argument("--orgao", action="append", default=[],
+                    help="trecho do órgão/evento (sem acento/maiúscula), repetível")
+    ap.add_argument("--prioridade",
+                    help="categorias em ordem, separadas por vírgula: " + ",".join(PRIORIDADES))
+    ap.add_argument("--estimar-custo", action="store_true",
+                    help="no --dry-run: estima créditos dos fallbacks (grátis; baixa PDFs)")
+    ap.add_argument("--amostra", type=int, default=60,
+                    help="provas usadas na estimativa (exata se a seleção couber)")
+    ap.add_argument("--semente", type=int, default=0)
     ap.add_argument("--extrator", choices=EXTRATORES, default="hibrido",
                     help="local (zero crédito), firecrawl, ou hibrido (padrão: local + "
                          "Firecrawl por item p/ fórmula e por prova p/ cobertura incompleta)")
@@ -504,6 +632,7 @@ def main(argv: Optional[list[str]] = None) -> int:
                    extractor=extractor, gab_loader=gabmod.carregar,
                    page_counter=contar_paginas, pdf_itens=itens_do_pdf_url,
                    extrator=args.extrator, eventos=args.evento, cadernos=args.caderno,
+                   filtros=_filtros(args),
                    incluir_curso_formacao=args.incluir_curso_formacao)
     REPORTS.mkdir(parents=True, exist_ok=True)
     out = REPORTS / f"run-{datetime.now():%Y%m%d-%H%M%S}.json"
