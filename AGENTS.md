@@ -50,6 +50,72 @@ The keyless endpoint exposes `firecrawl_search`, `firecrawl_scrape`, and
 See the tool reference for which tool to use when:
 https://docs.firecrawl.dev/mcp-server/tools
 
+### Structured extraction (crawler-olavo)
+
+crawler-olavo extracts exam questions (provas/questões) as structured JSON
+straight from the Firecrawl API — it does NOT work with markdown. Never scrape
+a prova into markdown and parse it by hand; use the `json` format with an
+explicit schema and prompt instead.
+
+The MCP `firecrawl_scrape` tool has no `json` format — for structured
+extraction, call the API/Python SDK directly. Canonical schemas and helpers
+live in `crawler/` (`pip install -r crawler/requirements.txt`):
+
+- `crawler/models.py` — `ProvaExtraida`/`QuestaoExtraida` (extraction
+  schema), `ProvaMeta` (per-job metadata), `Questao` (dataset record matching
+  `web/src/data/questions.json` exactly), `to_questao()` normalization and id
+  slug generation (`<banca>-<ano>-<orgao>-<cargo>-NNN`).
+- `crawler/extract.py` — `make_app()` (loads the key from
+  `.env/FIRECRAWL_API_KEY`, never printed) and `extract_prova()` (one scrape
+  → validated `ProvaExtraida`, credits auto-logged).
+- `crawler/usage.py` — `log_call()` appends to `FIRECRAWL_USAGE.md` and
+  refreshes its totals.
+
+```python
+from crawler.extract import make_app, extract_prova
+from crawler.models import ProvaMeta, to_questao
+
+app = make_app()
+prova = extract_prova(app, url_da_prova, task="cebraspe-2024-pf-escrivao")
+meta = ProvaMeta(
+    banca="Cebraspe", orgao="Polícia Federal",
+    cargo="Escrivão de Polícia Federal", ano=2024,
+    fonte="https://cdn.cebraspe.org.br/concursos/PF_24/",
+    id_orgao="pf", id_cargo="escrivao",
+)
+questoes = [to_questao(q, meta) for q in prova.questoes]  # needs gabaritos
+```
+
+- Gabaritos are usually published as a separate document — expect a second
+  extraction pass to join answers onto questions (`to_questao` refuses to
+  emit a record without a valid gabarito).
+- NEVER trust `QuestaoExtraida.gabarito` from a prova scrape — the extractor
+  hallucinates answers when none are printed (observed 2026-11-21: it
+  invented mostly-wrong gabaritos on a Cebraspe prova). Always override with
+  the official gabarito document via `to_questao(q, meta, gabarito=...)`.
+- Cebraspe gabarito PDFs are simple text tables: parse them locally with
+  `pdftotext -layout` — free and exact, whereas LLM extraction misread 3 of
+  24 items on the first try. `X` means the item was anulado: skip it, do not
+  emit a record.
+- Cebraspe URL discovery is free: the SPA calls
+  `https://apis.cebraspe.org.br/cebraspe/eventos/tipo/concursos` (list) and
+  `.../eventos/<ID>` (detail with `arquivosGabarito`, which holds provas and
+  gabaritos). Files download from
+  `https://cdn.cebraspe.org.br/concursos/<ID>/arquivos/<nomeArquivo>` —
+  `curl` works directly, no Firecrawl needed. Prova objetiva files follow
+  `<seq>_<EVENTO>_<cargo>_01.pdf` (e.g. `106_PF_015_01.pdf`).
+- For multi-page provas, prefer `app.crawl`/`batch_scrape` with the same
+  `formats` over looping single `scrape` calls.
+
+### Credit control
+
+Operação papiro runs on a limited Firecrawl credit budget. Every Firecrawl
+call — MCP tool or Python SDK — MUST be logged in `FIRECRAWL_USAGE.md` at the
+repo root: date, task, tool, item count, and `creditsUsed` from the response,
+keeping the running totals current. See that file for the cost guide;
+prefer cheap paths (`map` for URL discovery, `maxAge` cache, basic proxy)
+before spending on stealth or retries.
+
 ## Secrets
 
 Secrets live in the `.env/` directory at the repo root. It is fully
