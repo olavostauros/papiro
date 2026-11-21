@@ -70,7 +70,8 @@ def _faixas(nums: list[int]) -> str:
 
 def validar(prova: ProvaExtraida, gab: Gabarito, *, caderno: str = "",
             url_prova: str = "", url_gabarito: str = "",
-            itens_pdf: Optional[dict[int, str]] = None) -> Relatorio:
+            itens_pdf: Optional[dict[int, str]] = None,
+            so_indicativo: Optional[set[int]] = None) -> Relatorio:
     """``itens_pdf`` (numero → texto do item, de ``extract_local.itens_do_pdf``)
     liga o cruzamento com o PDF: renumeração ou item pulado reprovam."""
     r = Relatorio(caderno=caderno, url_prova=url_prova,
@@ -89,7 +90,10 @@ def validar(prova: ProvaExtraida, gab: Gabarito, *, caderno: str = "",
     if dup:
         r.erros.append(f"numeração duplicada: {_faixas(dup)}")
     uniq = sorted(set(nums))
-    buracos = sorted(set(range(uniq[0], uniq[-1] + 1)) - set(uniq))
+    # buraco = número do gabarito, dentro do intervalo extraído, que não veio
+    # (item omitido de propósito não está no gabarito considerado)
+    buracos = sorted((set(range(uniq[0], uniq[-1] + 1)) - set(uniq))
+                     & (set(gab.itens) or set(range(uniq[0], uniq[-1] + 1))))
     if buracos:
         r.erros.append(f"buracos na numeração: {_faixas(buracos)}")
 
@@ -140,7 +144,7 @@ def validar(prova: ProvaExtraida, gab: Gabarito, *, caderno: str = "",
                         f"{_faixas(alt_ruins)}")
 
     if itens_pdf is not None:
-        conferir_com_pdf(prova, itens_pdf, r, esperados=gab.itens)
+        conferir_com_pdf(prova, itens_pdf, r, esperados=gab.itens, so_indicativo=so_indicativo)
 
     r.registros_validos = validos
     r.aprovada = not r.erros
@@ -176,8 +180,13 @@ def confere(extraido: str, do_pdf: str) -> bool:
 
 
 def conferir_com_pdf(prova: ProvaExtraida, itens_pdf: dict[int, str], r: Relatorio,
-                     esperados: Optional[Iterable[int]] = None) -> None:
-    """Reprova renumeração e item pulado, mesmo que a contagem feche."""
+                     esperados: Optional[Iterable[int]] = None,
+                     so_indicativo: Optional[set[int]] = None) -> None:
+    """Reprova renumeração e item pulado, mesmo que a contagem feche.
+
+    ``so_indicativo``: itens cujo texto local está ilegível (fórmula) — para
+    eles a divergência vira aviso, não erro."""
+    so_indicativo = so_indicativo or set()
     esperados = sorted(set(esperados or itens_pdf))
     cobertura = len(set(itens_pdf) & set(esperados)) / max(1, len(esperados))
     if cobertura < COBERTURA_MINIMA:
@@ -193,6 +202,11 @@ def conferir_com_pdf(prova: ProvaExtraida, itens_pdf: dict[int, str], r: Relator
             continue
         if confere(q.enunciado, texto_pdf):
             casados.add(q.numero)
+            continue
+        if q.numero in so_indicativo:
+            casados.add(q.numero)
+            r.avisos.append(f"item {q.numero}: texto local ilegível (fórmula), cruzamento "
+                            f"com o PDF só indicativo")
             continue
         outro = next((m for m, t in itens_pdf.items() if m != q.numero and confere(q.enunciado, t)),
                      None)

@@ -27,13 +27,14 @@ import argparse
 import json
 import re
 import sys
+from collections import Counter
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
 from typing import Callable, Iterable, Optional
 
 from . import discover, gabarito as gabmod, usage
-from .models import ProvaExtraida, ProvaMeta, Questao, to_questao
+from .models import ProvaExtraida, ProvaMeta, Questao, QuestaoExtraida, to_questao
 from .validate import Relatorio, formatar, validar
 
 HERE = Path(__file__).resolve().parent
@@ -190,6 +191,55 @@ def montar_questoes(e: dict, prova: ProvaExtraida, gab: gabmod.Gabarito) -> list
 
 
 @dataclass
+class Plano:
+    """Decisão (grátis) de qual extrator gera cada item de uma prova."""
+    gab: gabmod.Gabarito
+    itens_local: Optional[dict[int, str]] = None
+    firecrawl: Optional[str] = None          # None | "itens" | "prova"
+    itens_fallback: list[int] = field(default_factory=list)
+    motivo: str = ""
+
+
+EXTRATORES = ("local", "firecrawl", "hibrido")
+
+
+def planejar(e: dict, gab: gabmod.Gabarito, *, extrator: str,
+             pdf_itens: Optional[PdfItens]) -> Plano:
+    """local: só o extrator local. firecrawl: só Firecrawl. hibrido: local, com
+    Firecrawl POR ITEM para fórmula ilegível e POR PROVA quando a cobertura não
+    fecha com o gabarito (ou a prova não é certo/errado)."""
+    from . import extract_local
+    pl = Plano(gab=gab)
+    if pdf_itens is not None:
+        try:
+            pl.itens_local = pdf_itens(e["url_prova"], gab.itens)
+        except Exception as exc:  # noqa: BLE001
+            pl.motivo = f"extrator local falhou: {type(exc).__name__}: {exc}"
+    if extrator == "firecrawl":
+        pl.firecrawl, pl.motivo = "prova", "--extrator firecrawl"
+        return pl
+    if gab.tipo != "certo_errado":
+        pl.firecrawl, pl.motivo = "prova", "múltipla escolha (extrator local só faz certo/errado)"
+        return pl
+    if pl.itens_local is None:
+        pl.firecrawl, pl.motivo = "prova", pl.motivo or "extrator local indisponível"
+        return pl
+    faltam = sorted(set(gab.itens) - set(pl.itens_local))
+    if faltam:
+        cob = 1 - len(faltam) / len(gab.itens)
+        pl.firecrawl = "prova"
+        pl.motivo = (f"cobertura local {cob:.0%} "
+                     f"(faltam {faltam[:8]}{'…' if len(faltam) > 8 else ''})")
+        return pl
+    # fórmula ilegível só importa em item que vira registro (anulado não entra)
+    ileg = [n for n in extract_local.ilegiveis(pl.itens_local) if n not in gab.anulados]
+    if ileg:
+        pl.firecrawl, pl.itens_fallback = "itens", ileg
+        pl.motivo = f"fórmula ilegível nos itens {ileg}"
+    return pl
+
+
+@dataclass
 class Resultado:
     entrada: dict
     relatorio: Optional[Relatorio] = None
@@ -199,63 +249,95 @@ class Resultado:
     adicionadas: int = 0
     colisoes: list[str] = field(default_factory=list)
     mensagem: str = ""
+    origem: dict[int, str] = field(default_factory=dict)  # item → local | firecrawl | omitido
+    fallback: str = ""
 
 
-def processar(e: dict, ds: Dataset, *, extractor: Extractor, gab_loader: GabLoader,
-              ledger: Path, estimativa: int,
-              pdf_itens: Optional[PdfItens] = None) -> Resultado:
-    res = Resultado(entrada=e)
-    # 1) gabarito primeiro: é grátis e, se falhar, nenhum crédito é gasto
-    try:
-        gab = gab_loader(e["url_gabarito"])
-    except Exception as exc:  # noqa: BLE001
-        res.status, res.mensagem = "erro", f"gabarito: {type(exc).__name__}: {exc}"
-        return res
-
-    # 2) extração (cache → zero crédito)
+def _firecrawl(e: dict, res: Resultado, *, extractor: Extractor, ledger: Path,
+               estimativa: int) -> Optional[ProvaExtraida]:
+    """Extração Firecrawl da prova inteira (cache → zero crédito)."""
     cpath = extracao_cache(e)
     if cpath.exists():
-        prova = ProvaExtraida.model_validate_json(cpath.read_text(encoding="utf-8"))
         res.cache = True
-    else:
-        antes = total_ledger(ledger)
-        try:
-            prova = extractor(e["url_prova"], task_de(e))
-        except Exception as exc:  # noqa: BLE001
-            depois = total_ledger(ledger)
-            res.creditos = depois - antes
-            res.status, res.mensagem = "erro", f"extração: {type(exc).__name__}: {exc}"
-            return res
-        depois = total_ledger(ledger)
-        res.creditos = depois - antes
-        if res.creditos <= 0:
-            # extract_prova só registra quando a resposta traz creditsUsed
-            usage.log_call(task=task_de(e), tool="sdk:scrape[json]", items=1,
-                           credits=estimativa, path=ledger,
-                           notes=f"{e['url_prova']} - creditsUsed ausente; estimativa run.py")
-            res.creditos = estimativa
-            res.mensagem = "creditsUsed ausente na resposta: estimativa registrada no ledger"
-        cpath.parent.mkdir(parents=True, exist_ok=True)
-        cpath.write_text(prova.model_dump_json(indent=2), encoding="utf-8")
+        return ProvaExtraida.model_validate_json(cpath.read_text(encoding="utf-8"))
+    antes = total_ledger(ledger)
+    try:
+        prova = extractor(e["url_prova"], task_de(e))
+    except Exception as exc:  # noqa: BLE001
+        res.creditos = total_ledger(ledger) - antes
+        res.status, res.mensagem = "erro", f"extração: {type(exc).__name__}: {exc}"
+        return None
+    res.creditos = total_ledger(ledger) - antes
+    if res.creditos <= 0:
+        # extract_prova só registra quando a resposta traz creditsUsed
+        usage.log_call(task=task_de(e), tool="sdk:scrape[json]", items=1,
+                       credits=estimativa, path=ledger,
+                       notes=f"{e['url_prova']} - creditsUsed ausente; estimativa run.py")
+        res.creditos = estimativa
+        res.mensagem = "creditsUsed ausente na resposta: estimativa registrada no ledger"
+    cpath.parent.mkdir(parents=True, exist_ok=True)
+    cpath.write_text(prova.model_dump_json(indent=2), encoding="utf-8")
+    return prova
 
-    # 3) validação (+ cruzamento com o texto do PDF, grátis)
-    itens_pdf, aviso_pdf = None, None
-    if pdf_itens is not None:
-        try:
-            itens_pdf = pdf_itens(e["url_prova"], gab.itens)
-        except Exception as exc:  # noqa: BLE001
-            aviso_pdf = f"cruzamento com o PDF falhou: {type(exc).__name__}: {exc}"
-    rel = validar(prova, gab, caderno=f"{e['evento']}/{e['caderno']}",
+
+def _da_local(itens: dict[int, str], numeros: Iterable[int]) -> list[QuestaoExtraida]:
+    return [QuestaoExtraida(numero=n, enunciado=itens[n], alternativas=["Certo", "Errado"])
+            for n in sorted(numeros) if n in itens]
+
+
+def processar(e: dict, ds: Dataset, *, plano: Plano, extrator: str, extractor: Extractor,
+              ledger: Path, estimativa: int) -> Resultado:
+    res = Resultado(entrada=e, fallback=plano.motivo)
+    gab = plano.gab
+    omitidos: list[int] = []
+
+    if plano.firecrawl is None:                         # 100% local, zero crédito
+        prova = ProvaExtraida(questoes=_da_local(plano.itens_local, gab.itens))
+        res.origem = {q.numero: "local" for q in prova.questoes}
+    elif extrator == "local":                           # nunca gasta crédito
+        if plano.firecrawl == "prova":
+            res.status, res.mensagem = "erro", f"--extrator local: {plano.motivo}"
+            return res
+        omitidos = plano.itens_fallback                 # fórmula ilegível fica de fora
+        prova = ProvaExtraida(questoes=_da_local(
+            plano.itens_local, [n for n in gab.itens if n not in omitidos]))
+        res.origem = {q.numero: "local" for q in prova.questoes}
+        res.origem.update({n: "omitido (fórmula ilegível)" for n in omitidos})
+    else:
+        fc = _firecrawl(e, res, extractor=extractor, ledger=ledger, estimativa=estimativa)
+        if fc is None:
+            return res
+        if plano.firecrawl == "prova":
+            prova = fc
+            res.origem = {q.numero: "firecrawl" for q in prova.questoes}
+        else:                                           # por item: só as fórmulas
+            do_fc = {q.numero: q for q in fc.questoes}
+            questoes = _da_local(plano.itens_local,
+                                 [n for n in gab.itens if n not in plano.itens_fallback])
+            res.origem = {q.numero: "local" for q in questoes}
+            for n in plano.itens_fallback:
+                if n in do_fc:
+                    questoes.append(QuestaoExtraida(numero=n, enunciado=do_fc[n].enunciado,
+                                                    alternativas=["Certo", "Errado"]))
+                    res.origem[n] = "firecrawl"
+            prova = ProvaExtraida(questoes=sorted(questoes, key=lambda q: q.numero))
+
+    # validação (+ cruzamento com o texto do PDF, grátis). Com itens omitidos, o
+    # gabarito considerado é o dos itens que de fato entram.
+    gab_val = gab if not omitidos else gabmod.Gabarito(
+        respostas={n: r for n, r in gab.respostas.items() if n not in omitidos}, url=gab.url)
+    rel = validar(prova, gab_val, caderno=f"{e['evento']}/{e['caderno']}",
                   url_prova=e["url_prova"], url_gabarito=e["url_gabarito"],
-                  itens_pdf=itens_pdf)
-    if aviso_pdf:
-        rel.avisos.append(aviso_pdf)
+                  itens_pdf=plano.itens_local, so_indicativo=set(plano.itens_fallback))
+    if plano.motivo and plano.firecrawl:
+        rel.avisos.append(f"fallback Firecrawl ({plano.firecrawl}): {plano.motivo}")
+    if omitidos:
+        rel.avisos.append(f"--extrator local: itens com fórmula ilegível omitidos: {omitidos}")
     res.relatorio = rel
     if not rel.aprovada:
         res.status = "reprovada"
         return res
 
-    # 4) append
     try:
         novas = montar_questoes(e, prova, gab)
     except ValueError as exc:
@@ -268,37 +350,53 @@ def processar(e: dict, ds: Dataset, *, extractor: Extractor, gab_loader: GabLoad
     return res
 
 
+def custo_estimado(e: dict, plano: Plano, page_counter: PageCounter) -> int:
+    """Créditos que esta prova vai gastar (0 se 100% local ou já em cache)."""
+    if plano.firecrawl is None or extracao_cache(e).exists():
+        return 0
+    return page_counter(e["url_prova"]) + CUSTO_FIXO
+
+
 def executar(manifesto: dict, ds: Dataset, *, limite: int, teto: int,
              extractor: Extractor, gab_loader: GabLoader, page_counter: PageCounter,
              ledger: Path = usage.LEDGER, eventos: Iterable[str] = (),
              cadernos: Iterable[str] = (), incluir_curso_formacao: bool = False,
-             pdf_itens: Optional[PdfItens] = None, log=print) -> dict:
+             pdf_itens: Optional[PdfItens] = None, extrator: str = "hibrido",
+             filtros: Optional[dict] = None, log=print) -> dict:
     cand, pul = selecionar(manifesto, ds, eventos=eventos, cadernos=cadernos,
-                           incluir_curso_formacao=incluir_curso_formacao)
+                           incluir_curso_formacao=incluir_curso_formacao, **(filtros or {}))
     gasto = 0
     resultados: list[Resultado] = []
     parado = None
     for e in cand:
         if len(resultados) >= limite:
             break
-        if not extracao_cache(e).exists():
+        # gabarito e extrator local primeiro: grátis; se falharem, nada é gasto
+        try:
+            gab = gab_loader(e["url_gabarito"])
+        except Exception as exc:  # noqa: BLE001
+            resultados.append(Resultado(entrada=e, status="erro",
+                                        mensagem=f"gabarito: {type(exc).__name__}: {exc}"))
+            continue
+        plano = planejar(e, gab, extrator=extrator, pdf_itens=pdf_itens)
+        est = 0
+        if extrator != "local":
             try:
-                est = page_counter(e["url_prova"]) + CUSTO_FIXO
+                est = custo_estimado(e, plano, page_counter)
             except Exception as exc:  # noqa: BLE001
                 resultados.append(Resultado(entrada=e, status="erro",
                                             mensagem=f"download da prova: {exc}"))
                 continue
-            if gasto + est > teto:
+            if est and gasto + est > teto:
                 parado = (f"teto de créditos: gasto {gasto} + estimativa {est} "
                           f"> {teto} ({e['caderno']})")
                 log(f"PARANDO — {parado}")
                 break
-        else:
-            est = 0
-        log(f"→ {e['evento']}/{e['caderno']} ({len(e['cargos'])} cargo(s), "
+        modo = "local" if plano.firecrawl is None else f"firecrawl/{plano.firecrawl}"
+        log(f"→ {e['evento']}/{e['caderno']} ({len(e['cargos'])} cargo(s), {modo}, "
             f"estimativa {est} créditos)")
-        r = processar(e, ds, extractor=extractor, gab_loader=gab_loader,
-                      ledger=ledger, estimativa=est, pdf_itens=pdf_itens)
+        r = processar(e, ds, plano=plano, extrator=extrator, extractor=extractor,
+                      ledger=ledger, estimativa=est)
         gasto += r.creditos
         resultados.append(r)
         if r.relatorio:
@@ -314,6 +412,7 @@ def executar(manifesto: dict, ds: Dataset, *, limite: int, teto: int,
         ds.salvar()
     return {
         "executado_em": datetime.now().isoformat(timespec="seconds"),
+        "extrator": extrator,
         "limite_provas": limite,
         "teto_creditos": teto,
         "creditos_gastos": gasto,
@@ -330,6 +429,9 @@ def executar(manifesto: dict, ds: Dataset, *, limite: int, teto: int,
             "adicionadas": r.adicionadas,
             "colisoes": r.colisoes,
             "mensagem": r.mensagem,
+            "fallback": r.fallback,
+            "itens_por_extrator": dict(Counter(r.origem.values())),
+            "extrator_por_item": {str(n): o for n, o in sorted(r.origem.items())},
             "validacao": r.relatorio.to_dict() if r.relatorio else None,
         } for r in resultados],
     }
@@ -368,6 +470,9 @@ def main(argv: Optional[list[str]] = None) -> int:
     ap.add_argument("--caderno", action="append", default=[], help="filtra por caderno")
     ap.add_argument("--descobrir", action="store_true", help="regera o manifesto antes (grátis)")
     ap.add_argument("--incluir-curso-formacao", action="store_true")
+    ap.add_argument("--extrator", choices=EXTRATORES, default="hibrido",
+                    help="local (zero crédito), firecrawl, ou hibrido (padrão: local + "
+                         "Firecrawl por item p/ fórmula e por prova p/ cobertura incompleta)")
     ap.add_argument("--manifesto", type=Path, default=discover.MANIFEST)
     ap.add_argument("--dataset", type=Path, default=DATASET)
     args = ap.parse_args(argv)
@@ -380,8 +485,11 @@ def main(argv: Optional[list[str]] = None) -> int:
     if args.dry_run:
         return plano(manifesto, ds, args)
 
-    if args.teto_creditos is None or args.limite_provas is None:
-        ap.error("--teto-creditos e --limite-provas são obrigatórios fora do --dry-run")
+    if args.limite_provas is None or (args.teto_creditos is None and args.extrator != "local"):
+        ap.error("--limite-provas (e --teto-creditos, exceto com --extrator local) são "
+                 "obrigatórios fora do --dry-run")
+    if args.extrator == "local":
+        args.teto_creditos = 0
 
     app = None
 
@@ -395,7 +503,7 @@ def main(argv: Optional[list[str]] = None) -> int:
     rep = executar(manifesto, ds, limite=args.limite_provas, teto=args.teto_creditos,
                    extractor=extractor, gab_loader=gabmod.carregar,
                    page_counter=contar_paginas, pdf_itens=itens_do_pdf_url,
-                   eventos=args.evento, cadernos=args.caderno,
+                   extrator=args.extrator, eventos=args.evento, cadernos=args.caderno,
                    incluir_curso_formacao=args.incluir_curso_formacao)
     REPORTS.mkdir(parents=True, exist_ok=True)
     out = REPORTS / f"run-{datetime.now():%Y%m%d-%H%M%S}.json"

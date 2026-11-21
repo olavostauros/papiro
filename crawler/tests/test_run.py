@@ -201,3 +201,104 @@ def test_cli_dry_run_zero_credito(tmp_path, capsys):
     assert run.main(["--dry-run", "--manifesto", str(man),
                      "--dataset", str(tmp_path / "q.json")]) == 0
     assert "candidatas: 1" in capsys.readouterr().out
+
+
+# --- modo híbrido ------------------------------------------------------------
+
+def _locais(nums, ilegiveis=()):
+    def pdf_itens(url, esperados):
+        return {n: (f"Item {n} com ‫ fórmula." if n in ilegiveis else f"Item {n}.")
+                for n in nums}
+    return pdf_itens
+
+
+def _rodar(ambiente, *, extrator, pdf_itens, gab_loader=None, chamadas=None, teto=30):
+    _, ledger, ds_path = ambiente
+    return run.executar({"provas": [entrada()]}, run.Dataset.carregar(ds_path), limite=1,
+                        teto=teto, extractor=fake_extractor(range(1, 11), ledger,
+                                                            chamadas=chamadas),
+                        gab_loader=gab_loader or fake_gab(), page_counter=lambda u: 2,
+                        ledger=ledger, pdf_itens=pdf_itens, extrator=extrator,
+                        log=lambda *_: None)
+
+
+def test_hibrido_100_local_nao_gasta(ambiente):
+    chamadas = []
+    rep = _rodar(ambiente, extrator="hibrido", pdf_itens=_locais(range(1, 11)), chamadas=chamadas)
+    p = rep["provas"][0]
+    assert chamadas == [] and rep["creditos_gastos"] == 0
+    assert p["status"] == "aprovada" and p["itens_por_extrator"] == {"local": 10}
+    assert p["adicionadas"] == 18
+
+
+def test_hibrido_formula_usa_firecrawl_so_no_item(ambiente):
+    chamadas = []
+    rep = _rodar(ambiente, extrator="hibrido", pdf_itens=_locais(range(1, 11), ilegiveis={5}),
+                 chamadas=chamadas)
+    p = rep["provas"][0]
+    assert len(chamadas) == 1 and rep["creditos_gastos"] == 7
+    assert p["status"] == "aprovada", p["validacao"]["erros"]
+    assert p["extrator_por_item"]["5"] == "firecrawl"
+    assert p["itens_por_extrator"] == {"local": 9, "firecrawl": 1}
+    assert "fórmula ilegível" in p["fallback"]
+
+
+def test_hibrido_formula_em_anulado_nao_gasta(ambiente):
+    chamadas = []      # item 3 é anulado no fake_gab: fórmula nele não importa
+    rep = _rodar(ambiente, extrator="hibrido", pdf_itens=_locais(range(1, 11), ilegiveis={3}),
+                 chamadas=chamadas)
+    assert chamadas == [] and rep["provas"][0]["status"] == "aprovada"
+
+
+def test_hibrido_cobertura_incompleta_vai_para_firecrawl_na_prova(ambiente):
+    chamadas = []
+    rep = _rodar(ambiente, extrator="hibrido", pdf_itens=_locais(range(1, 9)), chamadas=chamadas)
+    p = rep["provas"][0]
+    assert len(chamadas) == 1 and p["itens_por_extrator"] == {"firecrawl": 10}
+    assert "cobertura local 80%" in p["fallback"]
+
+
+def test_hibrido_multipla_escolha_vai_para_firecrawl(ambiente):
+    chamadas = []
+    mc = lambda url: Gabarito(respostas={n: "A" for n in range(1, 11)}, url=url)
+    rep = _rodar(ambiente, extrator="hibrido", pdf_itens=_locais(range(1, 11)),
+                 gab_loader=mc, chamadas=chamadas)
+    assert len(chamadas) == 1 and "múltipla escolha" in rep["provas"][0]["fallback"]
+
+
+def test_local_omite_formula_e_nunca_gasta(ambiente):
+    chamadas = []
+    rep = _rodar(ambiente, extrator="local", pdf_itens=_locais(range(1, 11), ilegiveis={5}),
+                 chamadas=chamadas, teto=0)
+    p = rep["provas"][0]
+    assert chamadas == [] and p["status"] == "aprovada"
+    assert p["extrator_por_item"]["5"].startswith("omitido")
+    assert p["adicionadas"] == 16          # 8 itens (sem o anulado 3 e o 5) × 2 cargos
+
+
+def test_local_cobertura_incompleta_erro_sem_gastar(ambiente):
+    chamadas = []
+    rep = _rodar(ambiente, extrator="local", pdf_itens=_locais(range(1, 9)), chamadas=chamadas,
+                 teto=0)
+    assert chamadas == [] and rep["provas"][0]["status"] == "erro"
+
+
+def test_firecrawl_forcado(ambiente):
+    chamadas = []
+    rep = _rodar(ambiente, extrator="firecrawl", pdf_itens=_locais(range(1, 11)),
+                 chamadas=chamadas)
+    assert len(chamadas) == 1 and rep["provas"][0]["itens_por_extrator"] == {"firecrawl": 10}
+
+
+def test_teto_zero_prova_local_passa(ambiente):
+    chamadas = []      # teto 0: prova 100% local não gasta, então passa
+    rep = _rodar(ambiente, extrator="hibrido", pdf_itens=_locais(range(1, 11)), teto=0,
+                 chamadas=chamadas)
+    assert rep["provas"][0]["status"] == "aprovada" and chamadas == []
+
+
+def test_teto_zero_fallback_para_antes_de_gastar(ambiente):
+    chamadas = []
+    rep = _rodar(ambiente, extrator="hibrido", pdf_itens=_locais(range(1, 11), ilegiveis={5}),
+                 teto=0, chamadas=chamadas)
+    assert rep["parado"] and chamadas == []
