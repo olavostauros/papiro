@@ -164,6 +164,18 @@ def itens_do_texto(texto: str, esperados: Optional[Iterable[int]] = None) -> dic
     for linha in linhas_em_ordem(texto):
         if linha.strip() and not _LONE_NUM.match(linha):
             linhas.append((len(linha) - len(linha.lstrip(" ")), linha.strip()))
+    # variante "prova com justificativas": descarta cada bloco
+    # "JUSTIFICATIVA - …" até o marcador "<FimJust>"
+    if any("<FimJust>" in c for _, c in linhas):
+        sem_just, dentro = [], False
+        for recuo, c in linhas:
+            if c.upper().startswith("JUSTIFICATIVA"):
+                dentro = True
+            if not dentro:
+                sem_just.append((recuo, c))
+            if "<FimJust>" in c:
+                dentro = False
+        linhas = sem_just
     # capa com instruções numeradas (PF 2021): começa no marcador, se houver
     marco = next((k for k, (_, c) in enumerate(linhas) if _MARCADOR_PROVA.match(c)), None)
     if marco is not None:

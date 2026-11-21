@@ -107,3 +107,10 @@ def test_juntar_hifen_e_simbolos():
 
 def test_ilegiveis():
     assert xl.ilegiveis({1: "texto normal", 2: "forma geral ‫ ܫ"}) == [2]
+
+
+def test_prova_com_justificativas_descarta_blocos():
+    texto = ("Julgue os itens.\n1 Primeiro item.\nJUSTIFICATIVA - Errado. Porque sim.\n"
+             "continua a justificativa.\n<FimJust>\n2 Segundo item.\n"
+             "JUSTIFICATIVA - Certo. Ok.\n<FimJust>")
+    assert xl.itens_do_texto(texto, [1, 2]) == {1: "Primeiro item.", 2: "Segundo item."}
