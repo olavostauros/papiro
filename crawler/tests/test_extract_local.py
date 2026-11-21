@@ -62,11 +62,30 @@ def test_colunas_sinteticas():
                      12: "Item da direita que continua aqui.", 13: "Outro item."}
 
 
-def test_limitacao_texto_sem_comando_e_absorvido():
-    # Sem "julgue"/citação até o próximo item, a linha na borda é tratada como
-    # parte do item (tabela, código, continuação desalinhada). Na Cebraspe todo
-    # texto-base termina num comando "julgue", então isso só ocorre no fim da prova.
-    assert xl.itens_do_texto("1 Item.\nLinha solta.", [1]) == {1: "Item. Linha solta."}
+def test_texto_na_borda_apos_frase_completa_e_texto_base():
+    # frase completa + linha na borda com maiúscula = começo de texto-base
+    assert xl.itens_do_texto("1 Item completo.\nLinha solta.", [1]) == {1: "Item completo."}
+    # frase interrompida: a linha desalinhada pelo -layout continua o item
+    assert xl.itens_do_texto("1 Se duas placas forem\ndia entre as placas.", [1]) == \
+        {1: "Se duas placas forem dia entre as placas."}
+    # depois de ":", as linhas na borda são a lista do item
+    assert xl.itens_do_texto("1 Considere:\nA: x.\nB: y.\n     Nesse caso, z.", [1]) == \
+        {1: "Considere: A: x. B: y. Nesse caso, z."}
+
+
+def test_capa_com_instrucoes_numeradas_e_ignorada():
+    texto = ("7 A desobediência a qualquer das instruções.\n-- PROVA OBJETIVA --\n"
+             "Julgue os itens.\n7 Item de verdade.")
+    assert xl.itens_do_texto(texto, [7]) == {7: "Item de verdade."}
+
+
+def test_letras_matematicas():
+    assert xl._juntar(["\U0001D44B e \U0001D44C são independentes."]) == \
+        "X e Y são independentes."
+
+
+def test_codigo_de_barras_do_rodape_e_ignorado():
+    assert xl.itens_do_texto("1 Item.\n82201201497573", [1]) == {1: "Item."}
 
 
 def test_numeracao_de_linha_e_instrucoes_nao_viram_item():

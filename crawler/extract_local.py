@@ -26,6 +26,7 @@ comando).
 from __future__ import annotations
 
 import re
+import unicodedata
 from collections import Counter
 from pathlib import Path
 from typing import Iterable, Optional
@@ -37,10 +38,12 @@ GAP_MIN = 2            # espaços que separam as colunas numa linha
 CONT_MIN, CONT_MAX = 2, 7
 MAX_RECUO_ITEM = 7         # nº de item desalinhado pelo -layout
 MAX_LINHAS_EMBUTIDAS = 40  # tabela/código/lista dentro de um item
+MAX_SALTO = 2              # itens que o parser pode perder sem perder a sequência
 
 _HEADER = re.compile(r"^\s*(CEBRASPE\s+[–—-]|Espa[çc]o\s+livre\s*$)", re.I)
 _ITEM = re.compile(r"^(\d{1,3})\s+(\S.*)$")
-_LONE_NUM = re.compile(r"^\s*\d{1,3}\s*$")
+# número solto (linha do texto-base, página) ou código de barras/rodapé
+_LONE_NUM = re.compile(r"^\s*(\d{1,3}|\d{8,})\s*$")
 
 
 # ---------------------------------------------------------------------------
@@ -124,6 +127,8 @@ def _juntar(partes: list[str]) -> str:
     out = ""
     for p in partes:
         p = re.sub("[-]", " ", p).strip()  # marcadores da fonte Symbol (PUA)
+        # letras matemáticas (𝑋, 𝐾…) → letra comum
+        p = re.sub("[\U0001D400-\U0001D7FF]", lambda m: unicodedata.normalize("NFKC", m.group(0)), p)
         if not p:
             continue
         if not out:
@@ -138,7 +143,12 @@ def _juntar(partes: list[str]) -> str:
 # Todo texto-base/comando da Cebraspe termina num comando "julgue …" antes do
 # próximo item ("jugue" aparece com erro de digitação nas provas; a seção de
 # inglês usa "judge"); uma citação de fonte também indica texto-base.
-_FIM_DE_ITEM = re.compile(r"\bj[uú]l?gue\b|\bjudge\b|com adapta[çc][õo]es\)", re.I)
+_COMANDO = re.compile(r"\bj[uú]l?gue\b|\bjudge\b", re.I)
+# rótulo de texto-base das provas mais antigas ("Texto 12A1AAA", "Texto CB1A1-I")
+_ROTULO_TEXTO = re.compile(r"^Texto\s+[0-9A-Z][\w.-]*$")
+_FIM_DE_ITEM = re.compile(_COMANDO.pattern + r"|com adapta[çc][õo]es\)|" + _ROTULO_TEXTO.pattern,
+                          re.I)
+_MARCADOR_PROVA = re.compile(r"^(--\s*)?PROVAS?\s+OBJETIVAS?\b")
 
 
 def itens_do_texto(texto: str, esperados: Optional[Iterable[int]] = None) -> dict[int, str]:
@@ -154,12 +164,33 @@ def itens_do_texto(texto: str, esperados: Optional[Iterable[int]] = None) -> dic
     for linha in linhas_em_ordem(texto):
         if linha.strip() and not _LONE_NUM.match(linha):
             linhas.append((len(linha) - len(linha.lstrip(" ")), linha.strip()))
+    # capa com instruções numeradas (PF 2021): começa no marcador, se houver
+    marco = next((k for k, (_, c) in enumerate(linhas) if _MARCADOR_PROVA.match(c)), None)
+    if marco is not None:
+        linhas = linhas[marco + 1:]
 
     itens: dict[int, list[str]] = {}
     atual: Optional[int] = None
     ultimo = 0
 
-    def aceita(i: int, ultimo: int) -> Optional[int]:
+    def numeracao_de_linha(i: int, n: int) -> bool:
+        """Número na borda que é numeração de linha do texto-base (1, 4, 7, …):
+        perto dele (até 7 linhas) aparece n±3/n±5 na borda antes de n±1 (itens
+        avançam de 1 em 1)."""
+        for passo, faixa in ((1, range(i + 1, min(len(linhas), i + 8))),
+                             (-1, range(i - 1, max(-1, i - 8), -1))):
+            for k in faixa:
+                m = _ITEM.match(linhas[k][1])
+                if not m or linhas[k][0] > MAX_RECUO_ITEM:
+                    continue
+                vizinho = int(m.group(1))
+                if vizinho == n + passo:
+                    break
+                if vizinho in (n + 3 * passo, n + 5 * passo):
+                    return True
+        return False
+
+    def aceita(i: int, ultimo: int, so_proximo: bool = False) -> Optional[int]:
         """Número do item que começa na linha i, ou None."""
         recuo, corpo = linhas[i]
         m = _ITEM.match(corpo)
@@ -168,11 +199,16 @@ def itens_do_texto(texto: str, esperados: Optional[Iterable[int]] = None) -> dic
         n = int(m.group(1))
         if n <= ultimo:
             return None
-        if recuo <= 1:
-            ok = n in esperado if esperado else (n == ultimo + 1 or ultimo == 0)
-        else:  # número desalinhado pelo -layout: só o próximo item esperado
-            prox = [x for x in esperado if x > ultimo][:1] if esperado else [ultimo + 1]
+        seguintes = [x for x in esperado if x > ultimo] if esperado else [ultimo + 1]
+        prox = seguintes[:1]
+        if recuo <= 1 and not so_proximo:
+            # o gabarito é contínuo (inclui anulados): tolera até MAX_SALTO itens
+            # perdidos, nunca um salto grande (numeração de linha alta do texto-base)
+            ok = (n in seguintes[:MAX_SALTO + 1]) if esperado else (n == ultimo + 1 or ultimo == 0)
+        else:  # nº desalinhado pelo -layout (ou busca adiante): só o próximo esperado
             ok = bool(prox) and n == prox[0]
+        if ok and numeracao_de_linha(i, n):
+            return None
         return n if ok else None
 
     def inicio_paragrafo(k: int) -> bool:
@@ -188,7 +224,7 @@ def itens_do_texto(texto: str, esperados: Optional[Iterable[int]] = None) -> dic
             return True
         fim = i + MAX_LINHAS_EMBUTIDAS
         for k in range(i, min(len(linhas), fim)):
-            if aceita(k, ultimo) is not None:
+            if aceita(k, ultimo, so_proximo=True) is not None:
                 return False
             if _FIM_DE_ITEM.search(linhas[k][1]):
                 return True
@@ -197,18 +233,35 @@ def itens_do_texto(texto: str, esperados: Optional[Iterable[int]] = None) -> dic
         # fim da prova sem comando: ainda é o último item; bloco longo demais: texto-base
         return len(linhas) >= fim
 
+    em_lista = False   # item terminou em ":" e as linhas na borda são a lista dele
     for i, (recuo, corpo) in enumerate(linhas):
         n = aceita(i, ultimo)
         if n is not None:
-            atual = ultimo = n
+            atual, ultimo, em_lista = n, n, False
             itens[n] = [_ITEM.match(corpo).group(2)]
             continue
         if atual is None:
             continue
-        if CONT_MIN <= recuo <= CONT_MAX or not encerra(i):
+        anterior = itens[atual][-1].rstrip()
+        meio_de_frase = (not re.search(r"[.?!:;”\"')]$", anterior)) and corpo[:1].islower()
+        if CONT_MIN <= recuo <= CONT_MAX or meio_de_frase:
+            # recuo de continuação, ou a frase segue em minúscula (inclusive no
+            # topo da coluna seguinte, com outro recuo)
+            continua = True
+        elif recuo <= 1:
+            # na borda: lista após ":", ou frase interrompida (continuação
+            # desalinhada pelo -layout); frase completa + maiúscula = texto-base
+            if anterior.endswith(":"):
+                em_lista = True
+            frase_aberta = not re.search(r"[.?!:;”\"')]$", anterior) or corpo[:1].islower()
+            continua = (em_lista or frase_aberta) and not encerra(i)
+        else:
+            # muito recuada: código, fórmula, tabela (ou parágrafo de texto-base)
+            continua = not encerra(i)
+        if continua:
             itens[atual].append(corpo)
             continue
-        atual = None  # comando ou texto-base: o item acabou
+        atual, em_lista = None, False  # comando ou texto-base: o item acabou
     return {n: _juntar(p) for n, p in itens.items()}
 
 
