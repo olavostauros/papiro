@@ -154,3 +154,15 @@ def test_cargos_conhecidos_le_slug_dos_ids(tmp_path):
                                "orgao": "IBAMA", "cargo": "Analista Ambiental – Tema 2"}]),
                   encoding="utf-8")
     assert d.cargos_conhecidos(ds) == {("IBAMA", "Analista Ambiental – Tema 2"): "ambiental-tema-2"}
+
+
+def test_orgao_por_sigla_do_evento():
+    assert d.orgao_por_sigla("PC_MG") == "Polícia Civil de Minas Gerais"
+    assert d.orgao_por_sigla("CBM_MA") == "Corpo de Bombeiros Militar do Maranhão"
+    assert d.orgao_por_sigla("POLC_AL") == "Polícia Científica de Alagoas"
+    assert d.orgao_por_sigla("TRF6") is None
+    ev = {"eventoURL": "PM_PA_23_CFP", "eventoNomeCompleto": "Praças da Polícia Militar do Pará"}
+    assert d.orgao_de(ev, {})[:2] == ("Polícia Militar do Pará", "pmpa")
+    # órgão já conhecido no dataset tem precedência
+    assert d.orgao_de({"eventoURL": "PC_DF_26_DELEGADO"}, {"PC_DF": ("Polícia Civil do Distrito Federal", "pcdf")})[0] \
+        == "Polícia Civil do Distrito Federal"

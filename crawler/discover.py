@@ -348,6 +348,30 @@ def orgaos_conhecidos(dataset: Path = DATASET) -> dict[str, tuple[str, str]]:
     return out
 
 
+UFS = {
+    "AC": "do Acre", "AL": "de Alagoas", "AP": "do Amapá", "AM": "do Amazonas", "BA": "da Bahia",
+    "CE": "do Ceará", "DF": "do Distrito Federal", "ES": "do Espírito Santo", "GO": "de Goiás",
+    "MA": "do Maranhão", "MT": "de Mato Grosso", "MS": "de Mato Grosso do Sul",
+    "MG": "de Minas Gerais", "PA": "do Pará", "PB": "da Paraíba", "PR": "do Paraná",
+    "PE": "de Pernambuco", "PI": "do Piauí", "RJ": "do Rio de Janeiro",
+    "RN": "do Rio Grande do Norte", "RS": "do Rio Grande do Sul", "RO": "de Rondônia",
+    "RR": "de Roraima", "SC": "de Santa Catarina", "SP": "de São Paulo", "SE": "de Sergipe",
+    "TO": "do Tocantins",
+}
+ORGAOS_UF = {
+    "PC": "Polícia Civil", "PM": "Polícia Militar", "CBM": "Corpo de Bombeiros Militar",
+    "POLC": "Polícia Científica", "PJC": "Polícia Judiciária Civil", "PP": "Polícia Penal",
+}
+
+
+def orgao_por_sigla(pref: str) -> Optional[str]:
+    """PC_MG → "Polícia Civil de Minas Gerais"; CBM_MA → "Corpo de Bombeiros Militar do Maranhão"."""
+    m = re.fullmatch(r"([A-Z]+)_?([A-Z]{2})", pref or "")
+    if m and m.group(1) in ORGAOS_UF and m.group(2) in UFS:
+        return f"{ORGAOS_UF[m.group(1)]} {UFS[m.group(2)]}"
+    return None
+
+
 def orgao_de(evento: dict, conhecidos: dict[str, tuple[str, str]]) -> tuple[str, str, str]:
     """(orgao, id_orgao, origem)."""
     url = evento.get("eventoURL") or ""
@@ -355,6 +379,9 @@ def orgao_de(evento: dict, conhecidos: dict[str, tuple[str, str]]) -> tuple[str,
     if pref in conhecidos:
         o, i = conhecidos[pref]
         return o, i, "dataset"
+    por_sigla = orgao_por_sigla(pref)
+    if por_sigla:
+        return por_sigla, slugify(pref).replace("-", ""), "sigla do evento"
     completo = (evento.get("eventoNomeCompleto") or "").strip()
     if completo and norm(completo) != norm(url):
         nome = re.sub(r"\s*\([^)]*\)\s*", " ", completo)
