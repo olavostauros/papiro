@@ -89,14 +89,14 @@ def comparar(local: dict[int, str], ref: dict[int, str], pdf_plano: str = "") ->
     for n, r in sorted(ref.items()):
         l = local.get(n)
         if l is None:
-            div.append({"item": n, "tipo": "ausente no local", "ref": r[:300], "local": None})
+            div.append({"item": n, "tipo": "ausente no local", "ref": r, "local": None})
         elif l == r:
             exato += 1
         elif normalizar(l) == normalizar(r):
             norm += 1
         else:
             div.append({"item": n, "tipo": classificar(l, r, pdf_plano),
-                        "ref": r[:300], "local": l[:300]})
+                        "ref": r, "local": l})
     return {"exato": exato, "normalizado": norm, "divergencias": div}
 
 
