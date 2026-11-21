@@ -102,3 +102,55 @@ def test_descobrir_offline(fake_fetch):
     só = d.descobrir(fake_fetch, eventos_filtro=["ibama_25"], conhecidos={}, workers=1,
                      log=lambda *_: None)
     assert só["resumo"]["eventos_listados"] == 1
+
+
+def test_slug_cargo_curto_sem_quebrar_palavra():
+    assert d.slug_cargo("Técnico Legislativo – Especialidade: Policial Legislativo Federal")[0] \
+        == "policial-legislativo"
+    assert d.slug_cargo("Especialista em Regulação de Aviação Civil – Área 1")[0] \
+        == "especialista-area-1"
+    assert d.slug_cargo("Analista Ambiental – Tema 2: Manejo, Conservação e Reabilitação")[0] \
+        == "analista-tema-2"
+    assert d.slug_cargo("Analista Judiciário – Área: Administrativa – Sem especialidade")[0] \
+        == "administrativa"
+    assert d.slug_cargo("Agente de Polícia Federal")[0] == "agente-policia-federal"
+    longo = "Tecnologista – Área de Atuação: Desenvolvimento Tecnológico Voltado à Infraestrutura"
+    s = d.slug_cargo(longo)[0]
+    assert len(s) <= d.SLUG_MAX_CHARS
+    palavras_ok = set(d._palavras(longo))
+    assert all(w in palavras_ok for w in s.split("-"))      # nenhuma palavra cortada
+
+
+def test_slug_repetido_no_evento_desempata():
+    ev = {"eventoCargos": [
+        {"idArea": "01", "area": "CARGO 1: ANALISTA – ESPECIALIDADE: CONTABILIDADE"},
+        {"idArea": "02", "area": "CARGO 2: TÉCNICO – ESPECIALIDADE: CONTABILIDADE"},
+        {"idArea": "03", "area": "CARGO 3: TÉCNICO – ESPECIALIDADE: DIREITO"},
+    ]}
+    c = d.cargos_do_evento(ev)
+    assert c[1]["id_cargo"] == "analista-contabilidade"
+    assert c[2]["id_cargo"] == "tecnico-contabilidade"
+    assert c[3]["id_cargo"] == "direito"
+    assert len({x["id_cargo"] for x in c.values()}) == 3
+
+
+def test_reaproveita_slug_do_dataset(evento):
+    # cargo já ingerido → mesmo id_cargo do dataset (ids existentes não mudam)
+    known = {("IBAMA", "Analista Administrativo"): "analista-administrativo",
+             ("IBAMA", "Analista Ambiental – Tema 1: Proteção, Licenciamento, Monitoramento "
+                       "e Qualidade Ambiental"): "ambiental-tema-1"}
+    m = d.mapear_evento(evento("IBAMA_25"), {"IBAMA": ("IBAMA", "ibama")}, known)
+    p = {x["caderno"]: x for x in m["provas"]}
+    assert p["057_IBAMA_001_01"]["cargos"][0]["id_cargo"] == "analista-administrativo"
+    ids = {c["nome"]: c["id_cargo"] for c in p["057_IBAMA_CB2_01"]["cargos"]}
+    assert "ambiental-tema-1" in ids.values()               # reaproveitado
+    assert "analista-tema-2" in ids.values()                # novo, curto
+
+
+def test_cargos_conhecidos_le_slug_dos_ids(tmp_path):
+    import json
+    ds = tmp_path / "q.json"
+    ds.write_text(json.dumps([{"id": "cebraspe-2025-ibama-ambiental-tema-2-051",
+                               "orgao": "IBAMA", "cargo": "Analista Ambiental – Tema 2"}]),
+                  encoding="utf-8")
+    assert d.cargos_conhecidos(ds) == {("IBAMA", "Analista Ambiental – Tema 2"): "ambiental-tema-2"}

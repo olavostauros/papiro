@@ -176,6 +176,63 @@ def cargo_numero(c: dict, i: int) -> int:
     return int(m.group(2)) if m else i + 1
 
 
+_SLUG_STOP = {"de", "da", "do", "das", "dos", "e", "em", "na", "no", "nas", "nos", "a", "o",
+              "as", "os", "para", "com", "por", "ao", "aos"}
+_ROTULOS = r"(especialidade|[áa]rea(?: de atua[çc][ãa]o)?|[êe]nfase|perfil|emprego|disciplina|tema)"
+SLUG_MAX_PALAVRAS = 3
+SLUG_MAX_CHARS = 24
+
+
+def _palavras(texto: str) -> list[str]:
+    return [w for w in slugify(texto).split("-") if w and w not in _SLUG_STOP]
+
+
+def _curto(palavras: list[str], max_palavras: int = SLUG_MAX_PALAVRAS,
+           max_chars: int = SLUG_MAX_CHARS) -> str:
+    """Até max_palavras palavras / max_chars caracteres, sem quebrar palavra."""
+    out: list[str] = []
+    for w in palavras[:max_palavras]:
+        if out and len("-".join(out + [w])) > max_chars:
+            break
+        out.append(w)
+    return "-".join(out)
+
+
+def _longo(palavras: list[str]) -> str:
+    return _curto(palavras, max_palavras=6, max_chars=48)
+
+
+def slug_cargo(nome: str) -> tuple[str, str]:
+    """Slug curto do cargo e slug de desempate (com o cargo-base).
+
+    "Técnico Legislativo – Especialidade: Policial Legislativo Federal"
+        → ("policial-legislativo", "tecnico-policial-legislativo-federal")
+    "Especialista em Regulação de Aviação Civil – Área 1"
+        → ("especialista-area-1", ...)
+    """
+    partes = [p.strip() for p in re.split(r"\s+[–—-]\s+", nome) if p.strip()]
+    base = partes[0] if partes else nome
+    especifico = ""
+    for p in reversed(partes[1:]):
+        # "Tema 2: Manejo…" / "Área 3" → base + rótulo + número (analista-tema-2)
+        mnum = re.match(rf"^{_ROTULOS}\s*(\d+|[ivxlc]+)\b", p, flags=re.I)
+        if mnum:
+            w = _palavras(base)[:1] + _palavras(mnum.group(0))
+            return _curto(w), _longo(_palavras(base) + _palavras(p))
+        p2 = re.sub(rf"^{_ROTULOS}\s*:?\s*", "", p, flags=re.I).strip()
+        if re.fullmatch(r"sem especialidade", p2, flags=re.I):
+            continue
+        if re.fullmatch(r"\d+|[ivxlc]+", p2, flags=re.I):  # "Área 1" → base + área-1
+            base_w = _palavras(base)[:1] + _palavras(p)
+            return _curto(base_w), _longo(_palavras(base) + _palavras(p))
+        if p2:
+            especifico = p2
+            break
+    principal = _palavras(especifico) if especifico else _palavras(base)
+    desempate = _palavras(base)[:1] + principal if especifico else _palavras(base)
+    return _curto(principal), _longo(desempate)
+
+
 def cargos_do_evento(evento: dict) -> dict[int, dict]:
     out: dict[int, dict] = {}
     for i, c in enumerate(evento.get("eventoCargos") or []):
@@ -183,7 +240,31 @@ def cargos_do_evento(evento: dict) -> dict[int, dict]:
         nome = limpar_cargo(c.get("area") or "")
         if not nome:
             continue
-        out[n] = {"numero": n, "nome": nome, "id_cargo": slugify(nome)[:60].strip("-")}
+        curto, desempate = slug_cargo(nome)
+        out[n] = {"numero": n, "nome": nome, "id_cargo": curto, "_desempate": desempate}
+    # slugs repetidos no mesmo evento → versão com o cargo-base; ainda repetido → nº do cargo
+    for rodada in ("desempate", "numero"):
+        cont: dict[str, int] = {}
+        for c in out.values():
+            cont[c["id_cargo"]] = cont.get(c["id_cargo"], 0) + 1
+        for c in out.values():
+            if cont[c["id_cargo"]] > 1:
+                c["id_cargo"] = (c["_desempate"] if rodada == "desempate"
+                                 else f"{c['id_cargo']}-{c['numero']}")
+    for c in out.values():
+        c.pop("_desempate", None)
+    return out
+
+
+def cargos_conhecidos(dataset: Path = DATASET) -> dict[tuple[str, str], str]:
+    """(orgao, cargo) → id_cargo já usado no dataset, para não mudar ids existentes."""
+    out: dict[tuple[str, str], str] = {}
+    if not dataset.exists():
+        return out
+    for q in json.loads(dataset.read_text(encoding="utf-8")):
+        m = re.match(r"^[a-z0-9]+-\d{4}-([a-z0-9]+)-(.+)-\d{3}$", q.get("id", ""))
+        if m:
+            out.setdefault((q["orgao"], q["cargo"]), m.group(2))
     return out
 
 
@@ -299,7 +380,8 @@ def cdn_url(evento_url: str, nome: str) -> str:
     return f"{CDN}/{evento_url}/arquivos/{nome}"
 
 
-def mapear_evento(evento: dict, conhecidos: dict[str, tuple[str, str]] | None = None) -> dict:
+def mapear_evento(evento: dict, conhecidos: dict[str, tuple[str, str]] | None = None,
+                  cargos_ids: dict[tuple[str, str], str] | None = None) -> dict:
     """Transforma o detalhe de um evento em entradas de manifesto."""
     conhecidos = conhecidos or {}
     ev = evento.get("eventoURL") or ""
@@ -381,6 +463,9 @@ def mapear_evento(evento: dict, conhecidos: dict[str, tuple[str, str]] | None = 
 
     cargos = cargos_do_evento(evento)
     orgao, id_orgao, orgao_origem = orgao_de(evento, conhecidos)
+    for c in cargos.values():  # cargo já no dataset → mesmo slug (ids estáveis)
+        if (orgao, c["nome"]) in (cargos_ids or {}):
+            c["id_cargo"] = cargos_ids[(orgao, c["nome"])]
     entradas = []
     for p, g, como in pares:
         desc = p.get("descricaoArquivo") or ""
@@ -467,12 +552,14 @@ def listar_eventos(fetch: Fetch) -> list[dict]:
 
 def descobrir(fetch: Fetch, *, eventos_filtro: Iterable[str] = (),
               conhecidos: dict[str, tuple[str, str]] | None = None,
+              cargos_ids: dict[tuple[str, str], str] | None = None,
               workers: int = 4, log=print) -> dict:
     lista = listar_eventos(fetch)
     filtro = {e.upper() for e in eventos_filtro}
     if filtro:
         lista = [e for e in lista if (e.get("eventoURL") or "").upper() in filtro]
     conhecidos = orgaos_conhecidos() if conhecidos is None else conhecidos
+    cargos_ids = cargos_conhecidos() if cargos_ids is None else cargos_ids
 
     def detalhe(e: dict):
         try:
@@ -488,7 +575,7 @@ def descobrir(fetch: Fetch, *, eventos_filtro: Iterable[str] = (),
             if err:
                 falhas.append({"evento": e.get("eventoURL"), "erro": err})
                 continue
-            m = mapear_evento(det, conhecidos)
+            m = mapear_evento(det, conhecidos, cargos_ids)
             if not m["provas"]:
                 sem_provas.append(e.get("eventoURL"))
             provas.extend(m["provas"])
