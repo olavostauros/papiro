@@ -31,6 +31,14 @@ and adapt them per concurso; `/tmp` may not survive reboots, so rebuild
 from this document if gone. Known layout variants: some provas print
 numbered instructions before the `-- PROVA OBJETIVA` marker (gate parsing
 on the marker and require sequential item numbers — see `/tmp/pf21/`).
+PF_18-era provas use a harder two-column variant: the base text sits in
+the left column with its own lone line-number markers (1,4,7,...) at the
+column edge while the item number is a separate edge-aligned element that
+merges at the START of the item's first line. Fix: require item-start
+lines to have non-empty text after the number, ignore lone-number lines
+entirely, and treat situação/command first-lines that got appended to an
+item's end as dropped (truncate at the last complete sentence) — see
+`/tmp/pf18/` (`parse3.py`, `assemble.py`).
 
 ## Development
 
