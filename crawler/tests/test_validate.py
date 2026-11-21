@@ -59,3 +59,50 @@ def test_multipla_escolha():
     g = Gabarito(respostas={1: "A", 2: "E", 3: "X"})
     r = validar(prova([1, 2, 3], alts=list("abcde")), g)
     assert r.aprovada and r.registros_validos == 2
+
+
+# --- cruzamento com o PDF ----------------------------------------------------
+
+def _cd(fixtures):
+    import json
+    from crawler import extract_local as xl
+    texto = (fixtures / "prova_cd26pl_cg.layout.txt").read_text(encoding="utf-8")
+    resp = {int(k): v for k, v in json.loads(
+        (fixtures / "gab_cd26pl_cg.json").read_text(encoding="utf-8")).items()}
+    prova = ProvaExtraida.model_validate_json(
+        (fixtures / "firecrawl_cd26pl_cg.json").read_text(encoding="utf-8"))
+    return prova, Gabarito(respostas=resp), xl.itens_do_texto(texto, resp)
+
+
+def test_cd26pl_firecrawl_renumerado_reprova(fixtures):
+    prova, gab, itens_pdf = _cd(fixtures)
+    r = validar(prova, gab, itens_pdf=itens_pdf)
+    assert not r.aprovada
+    assert any("renumeração" in e and "84→88, 85→89, 86→90" in e for e in r.erros)
+    assert any("pulados pela extração: 84–87" in e for e in r.erros)
+
+
+def test_cd26pl_reprova_mesmo_com_contagem_fechando(fixtures):
+    prova, gab, itens_pdf = _cd(fixtures)
+    gab86 = Gabarito(respostas={n: x for n, x in gab.respostas.items() if n <= 86})
+    sem_cruzar = validar(prova, gab86)
+    assert sem_cruzar.aprovada                          # a contagem sozinha não pega
+    r = validar(prova, gab86, itens_pdf=itens_pdf)
+    assert not r.aprovada and any("renumeração" in e for e in r.erros)
+
+
+def test_cruzamento_aceita_texto_base_antes_e_trecho_final():
+    from crawler.validate import confere
+    item = "A autoridade policial está vinculada ao requerimento do advogado da vítima."
+    assert confere("Considerando a situação hipotética, julgue o item. " + item, item)
+    assert confere("Com base no argumento cujas premissas sejam A, B e C, é correto concluir",
+                   "Considere as seguintes proposições: A: x. Com base no argumento cujas "
+                   "premissas sejam A, B e C, é correto concluir")
+    assert not confere("Um dos princípios de uma VPN é garantir a privacidade",
+                       "O relacionamento N:N entre duas tabelas no modelo lógico")
+
+
+def test_cruzamento_com_parser_local_falho_so_avisa():
+    from crawler.validate import validar as v
+    r = v(prova(range(1, 11)), gab(1, 10), itens_pdf={1: "Item."})
+    assert r.aprovada and any("não aplicado" in a for a in r.avisos)

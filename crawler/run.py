@@ -45,6 +45,7 @@ CUSTO_FIXO = 4  # créditos de json-extraction por prova, além de 1/página
 Extractor = Callable[[str, str], ProvaExtraida]          # (url, task) -> prova
 GabLoader = Callable[[str], gabmod.Gabarito]             # url -> gabarito
 PageCounter = Callable[[str], int]                       # url -> nº de páginas
+PdfItens = Callable[[str, list[int]], dict[int, str]]    # url, itens -> texto por item
 
 
 # ---------------------------------------------------------------------------
@@ -157,6 +158,11 @@ def contar_paginas(url: str) -> int:
     return max(1, gabmod.pdf_to_text(pdf).count("\f"))
 
 
+def itens_do_pdf_url(url: str, esperados: list[int]) -> dict[int, str]:
+    from . import extract_local
+    return extract_local.itens_do_pdf(gabmod.baixar(url), esperados)
+
+
 def task_de(e: dict) -> str:
     return f"cebraspe-{e.get('ano')}-{e.get('id_orgao')}-{e['caderno']}".lower()
 
@@ -196,7 +202,8 @@ class Resultado:
 
 
 def processar(e: dict, ds: Dataset, *, extractor: Extractor, gab_loader: GabLoader,
-              ledger: Path, estimativa: int) -> Resultado:
+              ledger: Path, estimativa: int,
+              pdf_itens: Optional[PdfItens] = None) -> Resultado:
     res = Resultado(entrada=e)
     # 1) gabarito primeiro: é grátis e, se falhar, nenhum crédito é gasto
     try:
@@ -231,9 +238,18 @@ def processar(e: dict, ds: Dataset, *, extractor: Extractor, gab_loader: GabLoad
         cpath.parent.mkdir(parents=True, exist_ok=True)
         cpath.write_text(prova.model_dump_json(indent=2), encoding="utf-8")
 
-    # 3) validação
+    # 3) validação (+ cruzamento com o texto do PDF, grátis)
+    itens_pdf, aviso_pdf = None, None
+    if pdf_itens is not None:
+        try:
+            itens_pdf = pdf_itens(e["url_prova"], gab.itens)
+        except Exception as exc:  # noqa: BLE001
+            aviso_pdf = f"cruzamento com o PDF falhou: {type(exc).__name__}: {exc}"
     rel = validar(prova, gab, caderno=f"{e['evento']}/{e['caderno']}",
-                  url_prova=e["url_prova"], url_gabarito=e["url_gabarito"])
+                  url_prova=e["url_prova"], url_gabarito=e["url_gabarito"],
+                  itens_pdf=itens_pdf)
+    if aviso_pdf:
+        rel.avisos.append(aviso_pdf)
     res.relatorio = rel
     if not rel.aprovada:
         res.status = "reprovada"
@@ -256,7 +272,7 @@ def executar(manifesto: dict, ds: Dataset, *, limite: int, teto: int,
              extractor: Extractor, gab_loader: GabLoader, page_counter: PageCounter,
              ledger: Path = usage.LEDGER, eventos: Iterable[str] = (),
              cadernos: Iterable[str] = (), incluir_curso_formacao: bool = False,
-             log=print) -> dict:
+             pdf_itens: Optional[PdfItens] = None, log=print) -> dict:
     cand, pul = selecionar(manifesto, ds, eventos=eventos, cadernos=cadernos,
                            incluir_curso_formacao=incluir_curso_formacao)
     gasto = 0
@@ -282,7 +298,7 @@ def executar(manifesto: dict, ds: Dataset, *, limite: int, teto: int,
         log(f"→ {e['evento']}/{e['caderno']} ({len(e['cargos'])} cargo(s), "
             f"estimativa {est} créditos)")
         r = processar(e, ds, extractor=extractor, gab_loader=gab_loader,
-                      ledger=ledger, estimativa=est)
+                      ledger=ledger, estimativa=est, pdf_itens=pdf_itens)
         gasto += r.creditos
         resultados.append(r)
         if r.relatorio:
@@ -378,7 +394,8 @@ def main(argv: Optional[list[str]] = None) -> int:
 
     rep = executar(manifesto, ds, limite=args.limite_provas, teto=args.teto_creditos,
                    extractor=extractor, gab_loader=gabmod.carregar,
-                   page_counter=contar_paginas, eventos=args.evento, cadernos=args.caderno,
+                   page_counter=contar_paginas, pdf_itens=itens_do_pdf_url,
+                   eventos=args.evento, cadernos=args.caderno,
                    incluir_curso_formacao=args.incluir_curso_formacao)
     REPORTS.mkdir(parents=True, exist_ok=True)
     out = REPORTS / f"run-{datetime.now():%Y%m%d-%H%M%S}.json"
