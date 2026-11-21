@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(.env)",
+      "Read(.env/**)",
+      "Read(.env*)",
+      "Read(*.pem)",
+      "Read(*.key)",
+      "Read(.devin/mcp_config.local.json)",
+      "Write(.env)",
+      "Write(.env/**)",
+      "Write(.env*)",
+      "Write(*.pem)",
+      "Write(*.key)"
+    ]
+  }
+}
