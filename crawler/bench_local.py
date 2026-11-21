@@ -20,6 +20,7 @@ import sys
 import unicodedata
 from datetime import datetime
 from pathlib import Path
+from typing import Optional
 
 from . import discover, extract_local, gabarito as gabmod
 from .models import ProvaExtraida
@@ -157,12 +158,78 @@ def tabela(linhas: list[dict]) -> str:
     return "\n".join(out)
 
 
+def cobertura(entradas: list[dict], dataset: Optional[list[dict]] = None) -> list[dict]:
+    """Sem referência de texto: valida pela contagem e pelo gabarito."""
+    linhas = []
+    for e in entradas:
+        base = {"evento": e["evento"], "caderno": e["caderno"], "ano": e.get("ano"),
+                "arquivo": e["url_prova"].rsplit("/", 1)[1]}
+        try:
+            gab = gabmod.carregar(e["url_gabarito"])
+        except Exception as exc:  # noqa: BLE001
+            linhas.append({**base, "status": f"gabarito ilegível: {exc}"[:120]})
+            continue
+        if gab.tipo != "certo_errado":
+            linhas.append({**base, "esperados": len(gab.itens), "status": "múltipla escolha (fora)"})
+            continue
+        try:
+            local = extract_local.itens_do_pdf(gabmod.baixar(e["url_prova"]), gab.itens)
+        except Exception as exc:  # noqa: BLE001
+            linhas.append({**base, "esperados": len(gab.itens), "status": f"erro: {exc}"[:120]})
+            continue
+        achados = set(local) & set(gab.itens)
+        cob = len(achados) / max(1, len(gab.itens))
+        ileg = extract_local.ilegiveis(local)
+        linha = {**base, "esperados": len(gab.itens), "anulados": len(gab.anulados),
+                 "extraidos": len(achados), "cobertura": round(cob, 4),
+                 "faltando": sorted(set(gab.itens) - achados), "ilegiveis": ileg,
+                 "status": "ok" if cob == 1 else "cobertura incompleta → fallback da prova"}
+        if dataset is not None:   # informação extra, quando houver referência
+            validos = set(gab.itens) - set(gab.anulados)
+            ref = {n: t for n, t in referencia_dataset(dataset, e["url_prova"]).items()
+                   if n in validos}
+            if ref:
+                iguais = sum(1 for n, t in ref.items()
+                             if n in local and normalizar(local[n]) == normalizar(t))
+                linha["iguais_dataset"] = f"{iguais}/{len(ref)}"
+        linhas.append(linha)
+    return linhas
+
+
+def tabela_cobertura(linhas: list[dict]) -> str:
+    out = ["| evento (ano) | arquivo | gabarito | extraídos | cobertura | ilegíveis | faltando "
+           "| iguais ao dataset | status |", "|---|---|---:|---:|---:|---:|---|---:|---|"]
+    for l in linhas:
+        cob = f"{l['cobertura']:.0%}" if "cobertura" in l else "—"
+        falt = l.get("faltando") or []
+        falt_s = (", ".join(map(str, falt[:6])) + ("…" if len(falt) > 6 else "")) if falt else "—"
+        out.append(f"| {l['evento']} ({l.get('ano')}) | {l['arquivo'][:34]} | {l.get('esperados', '—')} "
+                   f"| {l.get('extraidos', '—')} | {cob} | {len(l.get('ilegiveis', []))} | {falt_s} "
+                   f"| {l.get('iguais_dataset', '—')} | {l['status']} |")
+    return "\n".join(out)
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description="benchmark do extrator local (zero crédito)")
     ap.add_argument("--evento", action="append", default=[])
     ap.add_argument("--caderno", action="append", default=[])
     ap.add_argument("--exemplos", type=int, default=3)
+    ap.add_argument("--cobertura", action="store_true",
+                    help="sem referência de texto: só contagem/gabarito por prova")
     args = ap.parse_args(argv)
+    if args.cobertura:
+        man = json.loads(discover.MANIFEST.read_text(encoding="utf-8"))
+        evs = {x.upper() for x in args.evento}
+        ents = [e for e in man["provas"] if e.get("url_gabarito") and e.get("fase") == "objetiva"
+                and e["evento"].upper() in evs]
+        dataset = json.loads(discover.DATASET.read_text(encoding="utf-8"))
+        linhas = cobertura(ents, dataset)
+        print(tabela_cobertura(linhas))
+        out = HERE / "reports" / f"bench-cobertura-{datetime.now():%Y%m%d-%H%M%S}.json"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(json.dumps(linhas, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"\nrelatório: {out}")
+        return 0
     man = json.loads(discover.MANIFEST.read_text(encoding="utf-8"))
     evs = {x.upper() for x in args.evento}
     cads = {x.upper() for x in args.caderno}
