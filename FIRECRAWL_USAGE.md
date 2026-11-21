@@ -14,8 +14,8 @@ level; the Python SDK exposes it on the scrape/crawl response metadata.
 
 | Period       | Credits used |
 | ------------ | ------------ |
-| All time     | 38            |
-| Current week | 38            |
+| All time     | 152            |
+| Current week | 152            |
 
 ## Cost guide (approximate — check the docs before big runs)
 
@@ -45,3 +45,18 @@ Rate card reference: https://docs.firecrawl.dev/
 | 2026-11-21 | cebraspe-2025-pf-escrivao-bas-bloco2 | sdk:scrape[json] | 1 | 6 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_CG1_01.pdf |
 | 2026-11-21 | cebraspe-2025-pf-cargo016-especificos | sdk:scrape[json] | 1 | 6 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_016_01.pdf |
 | 2026-11-21 | cebraspe-2025-pf-cargo017-especificos | sdk:scrape[json] | 1 | 6 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_017_01.pdf |
+| 2026-11-21 | cebraspe-2025-pf-prova-CB1 | sdk:scrape[json] | 1 | 7 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_CB1_01.pdf |
+| 2026-11-21 | cebraspe-2025-pf-prova-001 | sdk:scrape[json] | 1 | 10 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_001_01.pdf |
+| 2026-11-21 | cebraspe-2025-pf-prova-002 | sdk:scrape[json] | 1 | 8 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_002_01.pdf |
+| 2026-11-21 | cebraspe-2025-pf-prova-003 | sdk:scrape[json] | 1 | 7 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_003_01.pdf |
+| 2026-11-21 | cebraspe-2025-pf-prova-004 | sdk:scrape[json] | 1 | 8 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_004_01.pdf |
+| 2026-11-21 | cebraspe-2025-pf-prova-005 | sdk:scrape[json] | 1 | 7 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_005_01.pdf |
+| 2026-11-21 | cebraspe-2025-pf-prova-006 | sdk:scrape[json] | 1 | 7 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_006_01.pdf |
+| 2026-11-21 | cebraspe-2025-pf-prova-007 | sdk:scrape[json] | 1 | 7 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_007_01.pdf |
+| 2026-11-21 | cebraspe-2025-pf-prova-008 | sdk:scrape[json] | 1 | 7 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_008_01.pdf |
+| 2026-11-21 | cebraspe-2025-pf-prova-009 | sdk:scrape[json] | 1 | 9 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_009_01.pdf |
+| 2026-11-21 | cebraspe-2025-pf-prova-010 | sdk:scrape[json] | 1 | 7 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_010_01.pdf |
+| 2026-11-21 | cebraspe-2025-pf-prova-011 | sdk:scrape[json] | 1 | 8 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_011_01.pdf |
+| 2026-11-21 | cebraspe-2025-pf-prova-012 | sdk:scrape[json] | 1 | 7 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_012_01.pdf |
+| 2026-11-21 | cebraspe-2025-pf-prova-013 | sdk:scrape[json] | 1 | 7 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_013_01.pdf |
+| 2026-11-21 | cebraspe-2025-pf-prova-014 | sdk:scrape[json] | 1 | 8 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_014_01.pdf |
