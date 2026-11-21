@@ -1,3 +1,37 @@
+## Operação papiro — autonomous operation
+
+This is an **ongoing dataset-building campaign**. The agent operates
+autonomously: do NOT stop to ask which concurso to ingest next or wait for
+confirmation between batches. Keep going until told to stop.
+
+Loop:
+
+1. Pick the next target from the Cebraspe events API
+   (`https://apis.cebraspe.org.br/cebraspe/eventos/tipo/concursos`, then
+   `.../eventos/<ID>` for `arquivosGabarito`). Prefer recent, high-audience
+   concursos and ones that add depth to cargos already in the dataset
+   (e.g. previous editions of PF/PRF/IBAMA exams).
+2. Download prova + gabarito PDFs from the CDN with `curl` (free).
+3. Extract with the zero-credit local pipeline (see "Structured
+   extraction"): `pdftohtml -xml` coordinate parse for items,
+   `pdftotext -layout` for gabaritos. Audit dropped lines between items —
+   comandos and base texts are dropped on purpose (dataset convention:
+   enunciado = item statement only); anything else needs a fix — render
+   the page to PNG and transcribe by hand when necessary.
+4. Skip `X` (anulado) items, dedup by `id`, append to
+   `web/src/data/questions.json` via `crawler.models.to_questao()`.
+5. Verify (counts match gabarito ranges, no id collisions, gabaritos
+   valid) and commit each concurso batch with a message describing cargo
+   coverage and anulados. Log Firecrawl calls in `FIRECRAWL_USAGE.md` if
+   any are made (the local path should need none).
+
+Working scripts from previous batches live in `/tmp/pf25/`, `/tmp/ibama25/`
+and `/tmp/pf21/` (`local_parse.py`, `assemble.py`, `parse_gab.py`) — copy
+and adapt them per concurso; `/tmp` may not survive reboots, so rebuild
+from this document if gone. Known layout variants: some provas print
+numbered instructions before the `-- PROVA OBJETIVA` marker (gate parsing
+on the marker and require sequential item numbers — see `/tmp/pf21/`).
+
 ## Development
 
 The site lives in `web/` — run all npm/Astro commands from that directory.
