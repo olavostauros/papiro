@@ -14,8 +14,8 @@ level; the Python SDK exposes it on the scrape/crawl response metadata.
 
 | Period       | Credits used |
 | ------------ | ------------ |
-| All time     | 26            |
-| Current week | 26            |
+| All time     | 38            |
+| Current week | 38            |
 
 ## Cost guide (approximate — check the docs before big runs)
 
@@ -43,3 +43,5 @@ Rate card reference: https://docs.firecrawl.dev/
 | 2026-11-21 | cebraspe-2025-pf-escrivao-especificos-gabarito | sdk:scrape[json] | 1 | 5 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/570C8865F7DDA1651ED10E330A6297A95466A2393EEEC633290FE754912D6143.pdf |
 | 2026-11-21 | cebraspe-2025-pf-escrivao-bas-bloco1 | sdk:scrape[json] | 1 | 8 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_CB2_01.pdf |
 | 2026-11-21 | cebraspe-2025-pf-escrivao-bas-bloco2 | sdk:scrape[json] | 1 | 6 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_CG1_01.pdf |
+| 2026-11-21 | cebraspe-2025-pf-cargo016-especificos | sdk:scrape[json] | 1 | 6 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_016_01.pdf |
+| 2026-11-21 | cebraspe-2025-pf-cargo017-especificos | sdk:scrape[json] | 1 | 6 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_017_01.pdf |
