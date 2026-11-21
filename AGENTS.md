@@ -25,8 +25,9 @@ Loop:
    coverage and anulados. Log Firecrawl calls in `FIRECRAWL_USAGE.md` if
    any are made (the local path should need none).
 
-Working scripts from previous batches live in `/tmp/pf25/`, `/tmp/ibama25/`
-and `/tmp/pf21/` (`local_parse.py`, `assemble.py`, `parse_gab.py`) — copy
+Working scripts from previous batches live in `/tmp/pf25/`, `/tmp/ibama25/`,
+`/tmp/pf21/` and `/tmp/pf18/` (`local_parse.py`, `assemble.py`, `parse_gab.py`,
+plus `parse3.py` for the two-column variant) — copy
 and adapt them per concurso; `/tmp` may not survive reboots, so rebuild
 from this document if gone. Known layout variants: some provas print
 numbered instructions before the `-- PROVA OBJETIVA` marker (gate parsing
@@ -94,10 +95,12 @@ https://docs.firecrawl.dev/mcp-server/tools
 
 ### Structured extraction (crawler-olavo)
 
-crawler-olavo extracts exam questions (provas/questões) as structured JSON
-straight from the Firecrawl API — it does NOT work with markdown. Never scrape
-a prova into markdown and parse it by hand; use the `json` format with an
-explicit schema and prompt instead.
+crawler-olavo extracts exam questions (provas/questões) as structured JSON.
+Two paths exist — for Cebraspe provas the zero-credit local pipeline is the
+preferred and authoritative one (see the bullet below); use the Firecrawl
+`json` format path only for sources the local parser cannot reach. When
+extracting via Firecrawl, never scrape a prova into markdown and parse it by
+hand; use the `json` format with an explicit schema and prompt instead.
 
 The MCP `firecrawl_scrape` tool has no `json` format — for structured
 extraction, call the API/Python SDK directly. Canonical schemas and helpers
@@ -145,16 +148,21 @@ questoes = [to_questao(q, meta) for q in prova.questoes]  # needs gabaritos
   gabarito with `pdftotext -layout`. The PF 2025 batch showed LLM `json`
   extraction is unreliable — it misnumbered items, pasted base text as
   enunciados and truncated statements — so the local parse is authoritative
-  for numero/enunciado. Working scripts live in `/tmp/pf25/` and `/tmp/ibama25/`
-  (`local_parse.py`, `assemble.py`, `parse_gab.py`); rebuild from those if
-  still present, and audit dropped lines between items before assembling.
+  for numero/enunciado. Working scripts live in `/tmp/pf25/`, `/tmp/ibama25/`
+  and `/tmp/pf18/` (`local_parse.py`, `assemble.py`, `parse_gab.py`,
+  `parse3.py`); rebuild from those if still present, and audit dropped lines
+  between items before assembling.
 - Cebraspe URL discovery is free: the SPA calls
   `https://apis.cebraspe.org.br/cebraspe/eventos/tipo/concursos` (list) and
   `.../eventos/<ID>` (detail with `arquivosGabarito`, which holds provas and
   gabaritos). Files download from
   `https://cdn.cebraspe.org.br/concursos/<ID>/arquivos/<nomeArquivo>` —
-  `curl` works directly, no Firecrawl needed. Prova objetiva files follow
-  `<seq>_<EVENTO>_<cargo>_01.pdf` (e.g. `106_PF_015_01.pdf`).
+  `curl` works directly, no Firecrawl needed. Prova objetiva naming varies by
+  event: `<seq>_<EVENTO>_<cargo>_01.pdf` (e.g. `106_PF_015_01.pdf`,
+  `651_IBAMA_CB1_01.PDF`, `956_ANVISA_CC1_01.PDF`) or, for pre-2021 events,
+  `MATRIZ_<seq>_<EVENTO>..._PAG_N.PDF` with `GAB_DEFINITIVO_*` gabaritos —
+  always list `arquivosGabarito` and match files by `GAB_`/`MATRIZ`/`DISC`
+  prefixes rather than assuming one pattern.
 - For multi-page provas, prefer `app.crawl`/`batch_scrape` with the same
   `formats` over looping single `scrape` calls.
 
