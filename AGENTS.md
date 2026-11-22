@@ -69,6 +69,16 @@ Docker crawler. `web/src/data/questions.ts` is the interim stub (empty
 typed list + `Questao` interface) until the API client lands — do not
 re-add dataset imports or `import.meta.glob` over the shards in `web/`.
 
+**Next stage — Postgres + Docker + API** (plan:
+`.agents/docs/docker-postgres.md`, audit numbers dated 2026-11-22): the
+shards become transport/backup format; the query store is a Postgres
+container on the VM, populated by an idempotent shard→DB sync
+(`crawler/db.py`, schema normalized from `Questao`). Single `papiro`
+Docker image (`python:3.12-slim` + `poppler-utils`) backs both `crawler`
+and `api` (FastAPI) services in `compose.yaml`, alongside
+`postgres:17-alpine`. Until the loader exists, keep writing shards via
+`write_shard` — the DB must stay reproducible from `data/questions/`.
+
 ## Development
 
 The site lives in `web/` — run all npm/Astro commands from that directory.
