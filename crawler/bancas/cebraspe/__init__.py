@@ -104,6 +104,12 @@ class Cebraspe:
         return api.cdn_url(evento, arquivo)
 
     @staticmethod
+    def chave_prova(fonte_ou_nome: str) -> str:
+        """Chave do caderno a partir de URL/nome de arquivo — invariante a
+        revisões do arquivo (``_OK``/``_atualizado``) no CDN."""
+        return api.name_key(Path(str(fonte_ou_nome)).name, "prova")
+
+    @staticmethod
     def draft_job(detalhe: dict, manifest: dict[str, str], workdir: Path) -> dict:
         """Rascunho de job.json: pareia prova↔gabarito por cargos declarados
         na descrição dos arquivos; sobras caem em ``unmatched``."""
@@ -111,11 +117,15 @@ class Cebraspe:
         evento = det["eventoURL"]
         arqs = [a for a in det.get("arquivosGabarito") or []
                 if api.arquivo_kind(a) in ("prova", "gabarito")]
-        cargos = [{"idArea": c["idArea"],
-                   "cargo": re.sub(r"^CARGO\s*\d+\s*[:-]?\s*", "", c["area"]).strip(),
-                   "id_cargo": _slug(re.sub(r"^CARGO\s*\d+\s*[:-]?\s*", "", c["area"]))[:40],
-                   "provas": []}
-                  for c in det.get("eventoCargos") or []]
+        por_numero = api.cargos_do_evento(det)
+        cargos = []
+        for i, c in enumerate(det.get("eventoCargos") or []):
+            info = por_numero.get(api.cargo_numero(c, i), {})
+            nome = re.sub(r"^CARGO\s*\d+\s*[:-]?\s*", "", c["area"]).strip()
+            cargos.append({"idArea": c["idArea"],
+                           "cargo": info.get("nome") or nome,
+                           "id_cargo": info.get("id_cargo") or _slug(nome)[:40],
+                           "provas": []})
         provas = {a["nomeArquivo"]: a for a in arqs if api.arquivo_kind(a) == "prova"}
         gabs = {a["nomeArquivo"]: a for a in arqs if api.arquivo_kind(a) == "gabarito"}
         unmatched = []

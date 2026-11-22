@@ -65,28 +65,39 @@ class Dataset:
     ids: set[str] = field(default_factory=set)
     fontes: set[str] = field(default_factory=set)
     eventos_pasta: set[str] = field(default_factory=set)  # fonte = só a pasta do evento
+    cadernos: dict[str, set[str]] = field(default_factory=dict)  # evento → chaves de prova
+    _chave: Optional[Callable[[str], str]] = field(default=None, repr=False)
     _novos: list[dict] = field(default_factory=list)    # p/ upsert no banco
     _dirty: set[str] = field(default_factory=set)       # eventos a regravar
 
     @classmethod
-    def carregar(cls, path: Path = DATASET) -> "Dataset":
+    def carregar(cls, path: Path = DATASET, adapter=None) -> "Dataset":
         # path = diretório de shards (padrão) ou um JSON flat legado
         qs = list(shards.iter_records(path))
-        ds = cls(path=path, questoes=qs)
+        ds = cls(path=path, questoes=qs,
+                 _chave=getattr(adapter, "chave_prova", None))
         for q in qs:
             ds.ids.add(q["id"])
             f = q.get("fonte", "")
             ds.fontes.add(f.lower())
+            if ds._chave:
+                ds.cadernos.setdefault(
+                    shards.evento_key(f, q), set()).add(ds._chave(f))
             m = re.search(r"/concursos/([^/]+)/(?:arquivos/?)?$", f)
             if m:
                 ds.eventos_pasta.add(m.group(1).upper())
         return ds
 
-    def ja_ingerida(self, entrada: dict) -> Optional[str]:
+    def ja_ingerida(self, entrada: dict, adapter=None) -> Optional[str]:
         if entrada["url_prova"].lower() in self.fontes:
             return "url da prova já é fonte no dataset"
         if entrada["evento"].upper() in self.eventos_pasta:
             return "evento já ingerido (fonte só com a pasta do evento)"
+        if self._chave:
+            chave = adapter.chave_prova(entrada["url_prova"]) if adapter \
+                else self._chave(entrada["url_prova"])
+            if chave in self.cadernos.get(entrada["evento"], set()):
+                return "prova já ingerida (outra revisão do arquivo)"
         return None
 
     def append(self, novas: list[Questao]) -> tuple[int, list[str]]:
@@ -101,6 +112,9 @@ class Dataset:
             self._dirty.add(evento_key(q.fonte, d))
             self.ids.add(q.id)
             self.fontes.add(q.fonte.lower())
+            if self._chave:
+                self.cadernos.setdefault(
+                    evento_key(q.fonte, d), set()).add(self._chave(q.fonte))
             add += 1
         return add, colisoes
 
@@ -184,7 +198,7 @@ def selecionar(manifesto: dict, ds: Dataset, *, adapter=None, eventos: Iterable[
         t = adapter.tipo_caderno(e.get("descricao", ""))
         if t is not None and t != 1:
             pula(f"caderno TIPO {t} (só o TIPO 1 é ingerido)"); continue
-        motivo = ds.ja_ingerida(e)
+        motivo = ds.ja_ingerida(e, adapter)
         if motivo:
             pula(motivo); continue
         cand.append(e)
@@ -699,7 +713,7 @@ def main(argv: Optional[list[str]] = None) -> int:
     if args.descobrir or not args.manifesto.exists():
         adapter.regen_manifest(args.manifesto)
     manifesto = json.loads(args.manifesto.read_text(encoding="utf-8"))
-    ds = Dataset.carregar(args.dataset)
+    ds = Dataset.carregar(args.dataset, adapter)
 
     if args.dry_run:
         return plano(manifesto, ds, args, adapter)

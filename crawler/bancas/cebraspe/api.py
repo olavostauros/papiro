@@ -132,23 +132,48 @@ def arquivo_kind(arq: dict) -> str:
     desc = (arq.get("descricaoArquivo") or "").upper()
     if "DISCURSIVA" in desc or "CAPA" in desc:
         return "outro"
-    if nome.startswith("GAB") or "GABARITO" in desc:
+    if "SEM EFEITO" in desc:
+        return "outro"
+    if (nome.startswith(("GAB", "RESP")) or desc.startswith("GABARITO")
+            or "RESPOSTA" in desc):
         return "gabarito"
-    if "RESPOSTA" in desc or nome.startswith("RESP"):
+    # "PROVA OBJETIVA ... E GABARITO PRELIMINAR COM JUSTIFICATIVAS" é caderno
+    if "PROVA" in desc or "PROVA" in nome:
+        return "prova"
+    if "GABARITO" in desc:
         return "gabarito"
     if nome.startswith(("DISC", "EDIT")) or "EDITAL" in desc:
         return "outro"
     return "prova"
 
 
-# "CARGO 3", "DISCIPLINA 10", "ÁREA 01" etc -> idArea list
-_CARGO_RE = re.compile(r"(?:CARGOS?|DISCIPLINAS?|ÁREAS?)\s*(?:DE\s*)?(\d+)", re.I)
+# "CARGO 3", "CARGOS 1 AO 18", "CARGOS 19 A 26 E 28, EXCETO CARGO 27"
+_CARGO_PHRASE = re.compile(
+    r"(?:CARGOS?|DISCIPLINAS?|[ÁA]REAS?)\s*(?:DE\s*)?"
+    r"((?:\d+\s*(?:,|E|A[O]?)\s*)*\d+)", re.I)
+_CARGO_RANGE = re.compile(r"(\d+)\s+A[O]?\s+(\d+)")
+_EXCETO_RE = re.compile(r"EXCETO\s+CARGO\s*(\d+)", re.I)
 
 
 def arquivo_cargos(arq: dict) -> list[str]:
-    """Cargo idAreas referenced by this arquivo's descricao."""
+    """Cargo idAreas referenced by this arquivo's descricao: listas,
+    intervalos ('CARGOS 1 AO 18' → 1..18) e exclusões ('EXCETO CARGO 27')."""
     desc = arq.get("descricaoArquivo") or ""
-    return _CARGO_RE.findall(desc)
+    exc = {int(n) for n in _EXCETO_RE.findall(desc)}
+    desc = re.sub(r",?\s*EXCETO\s+CARGO\s*\d+", "", desc, flags=re.I)
+    out: set[int] = set()
+    for m in _CARGO_PHRASE.finditer(desc):
+        numlist = m.group(1)
+        spans = []
+        for r in _CARGO_RANGE.finditer(numlist):
+            a, b = int(r.group(1)), int(r.group(2))
+            out.update(range(min(a, b), max(a, b) + 1))
+            spans.append(r.span())
+        rest = "".join(numlist[i:j] for i, j in
+                       zip([0] + [e for _, e in spans],
+                           [s for s, _ in spans] + [len(numlist)]))
+        out.update(int(n) for n in re.findall(r"\d+", rest))
+    return sorted((str(n) for n in out - exc), key=int)
 
 
 _GAB_PREFIX = re.compile(r"^(GAB(ARITO)?_DEFINITIVO_)(MATRIZ_)?")
@@ -299,7 +324,7 @@ def cargos_conhecidos(dataset: Path = DATASET) -> dict[tuple[str, str], str]:
     for q in iter_records(dataset):
         m = re.match(r"^[a-z0-9]+-\d{4}-([a-z0-9]+)-(.+)-\d{3}$", q.get("id", ""))
         if m:
-            out.setdefault((q["orgao"], q["cargo"]), m.group(2))
+            out.setdefault((norm(q["orgao"]), norm(q["cargo"])), m.group(2))
     return out
 
 
@@ -524,8 +549,8 @@ def mapear_evento(evento: dict, conhecidos: dict[str, tuple[str, str]] | None = 
     cargos = cargos_do_evento(evento)
     orgao, id_orgao, orgao_origem = orgao_de(evento, conhecidos)
     for c in cargos.values():  # cargo já no dataset → mesmo slug (ids estáveis)
-        if (orgao, c["nome"]) in (cargos_ids or {}):
-            c["id_cargo"] = cargos_ids[(orgao, c["nome"])]
+        if (norm(orgao), norm(c["nome"])) in (cargos_ids or {}):
+            c["id_cargo"] = cargos_ids[(norm(orgao), norm(c["nome"]))]
     entradas = []
     for p, g, como in pares:
         desc = p.get("descricaoArquivo") or ""

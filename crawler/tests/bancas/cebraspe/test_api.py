@@ -136,9 +136,10 @@ def test_slug_repetido_no_evento_desempata():
 
 def test_reaproveita_slug_do_dataset(evento):
     # cargo já ingerido → mesmo id_cargo do dataset (ids existentes não mudam)
-    known = {("IBAMA", "Analista Administrativo"): "analista-administrativo",
-             ("IBAMA", "Analista Ambiental – Tema 1: Proteção, Licenciamento, Monitoramento "
-                       "e Qualidade Ambiental"): "ambiental-tema-1"}
+    # cargos_ids é chaveado por (norm(orgao), norm(cargo)) — ver cargos_conhecidos
+    known = {(d.norm("IBAMA"), d.norm("Analista Administrativo")): "analista-administrativo",
+             (d.norm("IBAMA"), d.norm("Analista Ambiental – Tema 1: Proteção, Licenciamento, "
+                                      "Monitoramento e Qualidade Ambiental")): "ambiental-tema-1"}
     m = d.mapear_evento(evento("IBAMA_25"), {"IBAMA": ("IBAMA", "ibama")}, known)
     p = {x["caderno"]: x for x in m["provas"]}
     assert p["057_IBAMA_001_01"]["cargos"][0]["id_cargo"] == "analista-administrativo"
@@ -153,7 +154,9 @@ def test_cargos_conhecidos_le_slug_dos_ids(tmp_path):
     ds.write_text(json.dumps([{"id": "cebraspe-2025-ibama-ambiental-tema-2-051",
                                "orgao": "IBAMA", "cargo": "Analista Ambiental – Tema 2"}]),
                   encoding="utf-8")
-    assert d.cargos_conhecidos(ds) == {("IBAMA", "Analista Ambiental – Tema 2"): "ambiental-tema-2"}
+    # chaves normalizadas (norm): casa com qualquer casing/acento do manifesto
+    assert d.cargos_conhecidos(ds) == \
+        {("IBAMA", "ANALISTA AMBIENTAL TEMA 2"): "ambiental-tema-2"}
 
 
 def test_orgao_por_sigla_do_evento():
