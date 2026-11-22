@@ -1,0 +1,52 @@
+{
+ "evento": "MMA_23",
+ "workdir": "/tmp/mma_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "MMA",
+  "ano": 2023,
+  "id_orgao": "mma"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "ANALISTA AMBIENTAL",
+   "id_cargo": "analista-ambiental",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_MMA_CB1_01.pdf",
+     "gabarito": "gab_MMA_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "929_MMA_CB1_01.PDF"
+    },
+    {
+     "key": "esp",
+     "prova": "pro_MMA_001_01.pdf",
+     "gabarito": "gab_MMA_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "929_MMA_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [
+  {
+   "key": "MMA_CB1_01",
+   "prova": "pro_MMA_CB1_01.pdf",
+   "gabarito": "gab_MMA_001_01.pdf",
+   "tipo": "ce",
+   "arquivo": "929_MMA_CB1_01.PDF"
+  },
+  {
+   "key": "MMA_001_01",
+   "prova": "pro_MMA_001_01.pdf",
+   "gabarito": "gab_MMA_001_01.pdf",
+   "tipo": "ce",
+   "arquivo": "929_MMA_001_01.PDF"
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

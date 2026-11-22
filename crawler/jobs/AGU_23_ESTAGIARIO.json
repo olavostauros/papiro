@@ -1,0 +1,31 @@
+{
+ "evento": "AGU_23_ESTAGIARIO",
+ "workdir": "/tmp/agu_23_estagiario",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "ADVOCACIA-GERAL DA UNIÃO",
+  "ano": 2023,
+  "id_orgao": "agu"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "ESTÁGIO REMUNERADO DE PÓS-GRADUAÇÃO EM DIREITO",
+   "id_cargo": "estagiario",
+   "provas": [
+    {
+     "key": "p1",
+     "prova": "gab_AGU_23_ESTAGIARIO_GABARI.pdf",
+     "gabarito": "gab_AGU_23_ESTAGIARIO_GABARI.pdf",
+     "tipo": "gabanot",
+     "arquivo": "920_AGU_23_ESTAGIARIO_GABARITO_DEFINITIVO.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {},
+ "nota": "Combined prova+gabarito-anotado PDF; parsed by parse.py in workdir (margin QUESTÃO/verdict labels). 60 questões, 5 anuladas (19,21,52,56,60)."
+}

@@ -1,0 +1,27 @@
+{
+ "evento": "PGM_CUIABA_24_PROCURADOR",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "PGM Cuiabá",
+  "ano": 2024,
+  "id_orgao": "pgm-cuiaba"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Procurador Substituto do Município",
+   "id_cargo": "procurador",
+   "provas": [
+    {
+     "key": "obj",
+     "prova": "pro_PGM_CUIABA_001_01.pdf",
+     "gabarito": "gab_PGM_CUIABA_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "983_PGM_CUIABA_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {}
+}

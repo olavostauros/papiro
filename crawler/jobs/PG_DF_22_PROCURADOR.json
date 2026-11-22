@@ -1,0 +1,30 @@
+{
+ "evento": "PG_DF_22_PROCURADOR",
+ "workdir": "/tmp/pg_df_22_procurador",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Procuradoria-Geral do Distrito Federal",
+  "ano": 2022,
+  "id_orgao": "pg-df"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "PROCURADOR DO DISTRITO FEDERAL, CATEGORIA I",
+   "id_cargo": "procurador-do-distrito-federal",
+   "provas": [
+    {
+     "key": "PG_DF_001",
+     "prova": "pro_PG_DF_001_COM_JUST.pdf",
+     "gabarito": "gab_MATRIZ_685_PG_DF_001_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_685_PG_DF_001_COM_JUST.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

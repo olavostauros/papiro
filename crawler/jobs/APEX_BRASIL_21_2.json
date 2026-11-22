@@ -1,0 +1,65 @@
+{
+ "evento": "APEX_BRASIL_21_2",
+ "workdir": "/tmp/apex_brasil_21_2",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Agência Brasileira de Promoção de Exportações e Investimentos",
+  "ano": 2021,
+  "id_orgao": "apex"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista I.1 – Negócios Internacionais",
+   "id_cargo": "analista-negocios-internacionais",
+   "provas": [
+    {
+     "key": "cb01",
+     "prova": "pro_CARGO_1.pdf",
+     "gabarito": "gab_CB1.txt",
+     "tipo": "mc",
+     "arquivo": "CARGO_1.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_CARGO_1.pdf",
+     "gabarito": "gab_CARGO1.txt",
+     "tipo": "mc",
+     "arquivo": "CARGO_1.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Assistente I.1 – Apoio Administrativo",
+   "id_cargo": "assistente-apoio-administrativo",
+   "provas": [
+    {
+     "key": "cb02",
+     "prova": "pro_CARGO_2.pdf",
+     "gabarito": "gab_CB2.txt",
+     "tipo": "mc",
+     "arquivo": "CARGO_2.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_CARGO_2.pdf",
+     "gabarito": "gab_CARGO2.txt",
+     "tipo": "mc",
+     "arquivo": "CARGO_2.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {
+  "cb01": [
+   36
+  ],
+  "cb02": [
+   38
+  ]
+ },
+ "patch": {}
+}

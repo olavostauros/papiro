@@ -1,0 +1,339 @@
+{
+ "evento": "UNIVESP_25_PSS",
+ "workdir": "/tmp/univesp_25_pss",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Universidade Virtual do Estado de São Paulo",
+  "ano": 2025,
+  "id_orgao": "univesp"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Administração e Áreas Afins",
+   "id_cargo": "administracao-e-areas-afins",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_UNIVESP_PSS_CG1_01.pdf",
+     "gabarito": "gab_UNIVESP_PSS_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "082_UNIVESP_PSS_CG1_01.pdf"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_UNIVESP_PSS_001_01.pdf",
+     "gabarito": "gab_UNIVESP_PSS_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "082_UNIVESP_PSS_001_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Computação e Áreas Afins",
+   "id_cargo": "computacao-e-areas-afins",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_UNIVESP_PSS_CG1_01.pdf",
+     "gabarito": "gab_UNIVESP_PSS_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "082_UNIVESP_PSS_CG1_01.pdf"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_UNIVESP_PSS_002_01.pdf",
+     "gabarito": "gab_UNIVESP_PSS_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "082_UNIVESP_PSS_002_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Educação Com Foco em Educação Especial ou Inclusiva",
+   "id_cargo": "educacao-com-foco-em-educacao-especial-ou-inclusiva",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_UNIVESP_PSS_CG1_01.pdf",
+     "gabarito": "gab_UNIVESP_PSS_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "082_UNIVESP_PSS_CG1_01.pdf"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_UNIVESP_PSS_003_01.pdf",
+     "gabarito": "gab_UNIVESP_PSS_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "082_UNIVESP_PSS_003_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Educação Matemática e Áreas Afins",
+   "id_cargo": "educacao-matematica-e-areas-afins",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_UNIVESP_PSS_CG1_01.pdf",
+     "gabarito": "gab_UNIVESP_PSS_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "082_UNIVESP_PSS_CG1_01.pdf"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_UNIVESP_PSS_004_01.pdf",
+     "gabarito": "gab_UNIVESP_PSS_004_01.pdf",
+     "tipo": "mc",
+     "arquivo": "082_UNIVESP_PSS_004_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Engenharia de Computação e Áreas Afins",
+   "id_cargo": "engenharia-de-computacao-e-areas-afins",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_UNIVESP_PSS_CG1_01.pdf",
+     "gabarito": "gab_UNIVESP_PSS_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "082_UNIVESP_PSS_CG1_01.pdf"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_UNIVESP_PSS_005_01.pdf",
+     "gabarito": "gab_UNIVESP_PSS_005_01.pdf",
+     "tipo": "mc",
+     "arquivo": "082_UNIVESP_PSS_005_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Engenharia de Produção e Áreas Afins",
+   "id_cargo": "engenharia-de-producao-e-areas-afins",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_UNIVESP_PSS_CG1_01.pdf",
+     "gabarito": "gab_UNIVESP_PSS_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "082_UNIVESP_PSS_CG1_01.pdf"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_UNIVESP_PSS_006_01.pdf",
+     "gabarito": "gab_UNIVESP_PSS_006_01.pdf",
+     "tipo": "mc",
+     "arquivo": "082_UNIVESP_PSS_006_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Letras, Linguística e Áreas de Língua Inglesa",
+   "id_cargo": "letras-linguistica-e-areas-de-lingua-inglesa",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_UNIVESP_PSS_CG1_01.pdf",
+     "gabarito": "gab_UNIVESP_PSS_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "082_UNIVESP_PSS_CG1_01.pdf"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_UNIVESP_PSS_007_01.pdf",
+     "gabarito": "gab_UNIVESP_PSS_007_01.pdf",
+     "tipo": "mc",
+     "arquivo": "082_UNIVESP_PSS_007_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Letras, Linguística e Áreas de Língua Portuguesa",
+   "id_cargo": "letras-linguistica-e-areas-de-lingua-portuguesa",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_UNIVESP_PSS_CG1_01.pdf",
+     "gabarito": "gab_UNIVESP_PSS_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "082_UNIVESP_PSS_CG1_01.pdf"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_UNIVESP_PSS_008_01.pdf",
+     "gabarito": "gab_UNIVESP_PSS_008_01.pdf",
+     "tipo": "mc",
+     "arquivo": "082_UNIVESP_PSS_008_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Matemática e Áreas Afins",
+   "id_cargo": "matematica-e-areas-afins",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_UNIVESP_PSS_CG1_01.pdf",
+     "gabarito": "gab_UNIVESP_PSS_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "082_UNIVESP_PSS_CG1_01.pdf"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_UNIVESP_PSS_009_01.pdf",
+     "gabarito": "gab_UNIVESP_PSS_009_01.pdf",
+     "tipo": "mc",
+     "arquivo": "082_UNIVESP_PSS_009_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Pedagogia",
+   "id_cargo": "pedagogia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_UNIVESP_PSS_CG1_01.pdf",
+     "gabarito": "gab_UNIVESP_PSS_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "082_UNIVESP_PSS_CG1_01.pdf"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_UNIVESP_PSS_010_01.pdf",
+     "gabarito": "gab_UNIVESP_PSS_010_01.pdf",
+     "tipo": "mc",
+     "arquivo": "082_UNIVESP_PSS_010_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Geral",
+   "id_cargo": "geral",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_UNIVESP_PSS_CG1_01.pdf",
+     "gabarito": "gab_UNIVESP_PSS_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "082_UNIVESP_PSS_CG1_01.pdf"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_UNIVESP_PSS_011_01.pdf",
+     "gabarito": "gab_UNIVESP_PSS_011_01.pdf",
+     "tipo": "mc",
+     "arquivo": "082_UNIVESP_PSS_011_01.pdf"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "cg": {
+   "11": {
+    "enunciado": "Em determinada costa, dois faróis marítimos A e B piscam periodicamente. De certo ponto do mar, é possível observar que o farol A pisca a cada 24 segundos, enquanto o farol B pisca a cada 42 segundos. Nesse caso, se for observado, no instante t = 0, que as luzes de A e B piscaram juntas, então o próximo momento em que as luzes piscarão juntas ocorrerá após"
+   }
+  },
+  "esp04": {
+   "33": {
+    "enunciado": "Um triângulo ΔABC foi inscrito em uma circunferência de raio 5 cm. H corresponde ao pé da altura relativa ao vértice A e o centro da circunferência é um ponto no interior do triângulo ΔAHC. Na situação apresentada, se A̅H̅ = C̅H̅ = 7 cm, então o segmento A̅B̅ mede"
+   },
+   "34": {
+    "enunciado": "Considere um triângulo ΔABC, em que ∠BAC = 135° e ∠ABC = 15°. Nesse caso, se A̅B̅ = 2 cm, então o comprimento da aresta A̅C̅ é igual a",
+    "alternativas": [
+     "√6 − √2 cm.",
+     "√3/2 cm.",
+     "1/√2 cm.",
+     "1/2 cm.",
+     "√6 + √2 cm."
+    ]
+   },
+   "35": {
+    "enunciado": "Suponha que, em um triângulo retângulo ΔABC, em que ∠BAC = 90°, P corresponda ao pé da altura relativa ao vértice A. Nesse caso, se A̅B̅ = 6 cm e C̅P̅ = 9 cm, então o comprimento de A̅C̅ é igual a"
+   },
+   "36": {
+    "enunciado": "Na figura precedente, Q é um quadrado e H, um hexágono regular. Se a área do quadrado Q for igual a 16 m² e ω = 15°, então a área de H será igual a"
+   },
+   "37": {
+    "enunciado": "Considere que o pentágono P tenha sido inscrito em uma circunferência de raio R, e que o pentágono Q seja formado pelos pontos médios dos lados consecutivos de P. Nessa situação, se Q fosse inscrito em uma circunferência, o raio desta circunferência seria igual a",
+    "alternativas": [
+     "R/2.",
+     "R − Rcos(36°).",
+     "R sen(36°).",
+     "R sen(54°).",
+     "R cos(54°)."
+    ]
+   },
+   "38": {
+    "enunciado": "Se tg(θ) = √5 e 0 ≤ θ < π/2, então o valor de cos(3θ) deverá ser igual a",
+    "alternativas": [
+     "√5/3.",
+     "√30/6.",
+     "−1.",
+     "−7√6/18.",
+     "−2/3."
+    ]
+   },
+   "39": {
+    "enunciado": "Suponha que o triângulo ΔABC tenha área igual a 10√3 cm². Nesse caso, considerando-se que A̅B̅ = 8 cm, A̅C̅ = 5 cm e ∠BAC ∈ (0, π/2), o valor do ângulo ∠BAC deverá ser igual a"
+   },
+   "40": {
+    "enunciado": "Se t = tg(x/2), então o valor de cosec(x) − cotg(x) em função de t é igual a",
+    "alternativas": [
+     "1/t.",
+     "(1−t)/(1+t).",
+     "t.",
+     "2t/(1+t²).",
+     "(1−t²)/(1+t²)."
+    ]
+   },
+   "42": {
+    "enunciado": "Considerando dois planos, P₁ e P₂, no espaço tridimensional e um terceiro plano, P₃, perpendicular a P₁ e paralelo distinto a P₂, julgue os itens a seguir. I Os planos P₁ e P₂ são ortogonais. II Os planos P₂ e P₃ não se intersectam. III Os planos P₁ e P₂ possuem vetores normais colineares. IV O produto interno entre os vetores normais dos planos P₁ e P₃ é diferente de zero. Estão certos apenas os itens"
+   },
+   "46": {
+    "enunciado": "Os estudantes observaram que o ponto satisfazia a equação a seguir. x²/9 + y²/4 = 1 Nessa situação hipotética, a equação descreve uma"
+   }
+  },
+  "esp09": {
+   "38": {
+    "enunciado": "Um triângulo ΔABC foi inscrito em uma circunferência de raio 5 cm. H corresponde ao pé da altura relativa ao vértice A e o centro da circunferência é um ponto no interior do triângulo ΔAHC. Na situação apresentada, se A̅H̅ = C̅H̅ = 7 cm, então o segmento A̅B̅ mede"
+   },
+   "39": {
+    "enunciado": "Suponha que, em um triângulo retângulo ΔABC, em que ∠BAC = 90°, P corresponda ao pé da altura relativa ao vértice A. Nesse caso, se A̅B̅ = 6 cm e C̅P̅ = 9 cm, então o comprimento de A̅C̅ é igual a"
+   },
+   "40": {
+    "enunciado": "Se tg(θ) = √5 e 0 ≤ θ < π/2, então o valor de cos(3θ) deverá ser igual a",
+    "alternativas": [
+     "√5/3.",
+     "√30/6.",
+     "−1.",
+     "−7√6/18.",
+     "−2/3."
+    ]
+   },
+   "41": {
+    "enunciado": "Suponha que o triângulo ΔABC tenha área igual a 10√3 cm². Nesse caso, considerando-se que A̅B̅ = 8 cm, A̅C̅ = 5 cm e ∠BAC ∈ (0, π/2), o valor do ângulo ∠BAC deverá ser igual a"
+   },
+   "42": {
+    "enunciado": "Considerando dois planos, P₁ e P₂, no espaço tridimensional e um terceiro plano, P₃, perpendicular a P₁ e paralelo distinto a P₂, julgue os itens a seguir. I Os planos P₁ e P₂ são ortogonais. II Os planos P₂ e P₃ não se intersectam. III Os planos P₁ e P₂ possuem vetores normais colineares. IV O produto interno entre os vetores normais dos planos P₁ e P₃ é diferente de zero. Estão certos apenas os itens"
+   },
+   "46": {
+    "enunciado": "Os estudantes observaram que o ponto satisfazia a equação a seguir. x²/9 + y²/4 = 1 Nessa situação hipotética, a equação descreve uma"
+   }
+  }
+ }
+}

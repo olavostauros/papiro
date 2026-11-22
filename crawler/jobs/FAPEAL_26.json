@@ -1,0 +1,135 @@
+{
+ "evento": "FAPEAL_26",
+ "workdir": "/tmp/fapeal_26",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Fundação de Amparo à Pesquisa de Alagoas (Fapeal)",
+  "ano": 2026,
+  "id_orgao": "fapeal"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Gestor Especializado em Ciência e Tecnologia – Administração",
+   "id_cargo": "gestor-ciencia-tecnologia-administracao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_364DD8751E3B0065D4AEBA66.pdf",
+     "gabarito": "gab_A8AF465DF3AF94276558CA36.pdf",
+     "tipo": "ce",
+     "arquivo": "364DD8751E3B0065D4AEBA66D4B0449C5CB4AB8A0DA9E3ECFE124BA2DBF5FE70.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_AA68900DF257694A8E153100.pdf",
+     "gabarito": "gab_9D03D8FDD30B807E7D4CC246.pdf",
+     "tipo": "ce",
+     "arquivo": "AA68900DF257694A8E1531006E429F4AAD7507DD52290C00279C345C9D18C846.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Gestor Especializado em Ciência e Tecnologia – Contabilidade",
+   "id_cargo": "gestor-ciencia-tecnologia-contabilidade",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_364DD8751E3B0065D4AEBA66.pdf",
+     "gabarito": "gab_A8AF465DF3AF94276558CA36.pdf",
+     "tipo": "ce",
+     "arquivo": "364DD8751E3B0065D4AEBA66D4B0449C5CB4AB8A0DA9E3ECFE124BA2DBF5FE70.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_A1990F1542DE0F0833F7B0B1.pdf",
+     "gabarito": "gab_96BB19CB52D81E29154B1E69.pdf",
+     "tipo": "ce",
+     "arquivo": "A1990F1542DE0F0833F7B0B1C757FA6CF71756A1F1B2FB4738132399AE7BF822.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Gestor Especializado em Ciência e Tecnologia – Economia",
+   "id_cargo": "gestor-ciencia-tecnologia-economia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_364DD8751E3B0065D4AEBA66.pdf",
+     "gabarito": "gab_A8AF465DF3AF94276558CA36.pdf",
+     "tipo": "ce",
+     "arquivo": "364DD8751E3B0065D4AEBA66D4B0449C5CB4AB8A0DA9E3ECFE124BA2DBF5FE70.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_81891879392B2149CA581B15.pdf",
+     "gabarito": "gab_F4375D830E09E3BB4F4B985C.pdf",
+     "tipo": "ce",
+     "arquivo": "81891879392B2149CA581B15DF376F4213027AE12BDC8B8CF158E1F384423A3B.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Gestor Especializado em Ciência e Tecnologia – Jornalismo",
+   "id_cargo": "gestor-ciencia-tecnologia-jornalismo",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_364DD8751E3B0065D4AEBA66.pdf",
+     "gabarito": "gab_A8AF465DF3AF94276558CA36.pdf",
+     "tipo": "ce",
+     "arquivo": "364DD8751E3B0065D4AEBA66D4B0449C5CB4AB8A0DA9E3ECFE124BA2DBF5FE70.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_1D8BD3D2015BA9F2D131644A.pdf",
+     "gabarito": "gab_D8A2888E7F2996860A9F7591.pdf",
+     "tipo": "ce",
+     "arquivo": "1D8BD3D2015BA9F2D131644A692E0A2D9D76A0EE895CB2D31E98F5027CEBDD6C.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Gestor Especializado em Ciência e Tecnologia – Tecnologia da Informação",
+   "id_cargo": "gestor-ciencia-tecnologia-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_364DD8751E3B0065D4AEBA66.pdf",
+     "gabarito": "gab_A8AF465DF3AF94276558CA36.pdf",
+     "tipo": "ce",
+     "arquivo": "364DD8751E3B0065D4AEBA66D4B0449C5CB4AB8A0DA9E3ECFE124BA2DBF5FE70.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_AFC3621DCE5976025DBE1928.pdf",
+     "gabarito": "gab_5D04B5567164BBC14AE4A654.pdf",
+     "tipo": "ce",
+     "arquivo": "AFC3621DCE5976025DBE1928E7FAA3142A8F0D9607C0AE2175607EB002231DF1.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp03": {
+   "103": "Um fundo de investimento A tem uma taxa de juros mensal que é 25% maior do que a taxa de juros mensal do fundo B, ambos com capitalização composta. Nesse caso, se o fundo B levar 18 meses para produzir determinado valor em juros sobre um capital inicial, o tempo t que o fundo A levará para produzir exatamente o mesmo valor de juros é solução da equação (1 + iB)¹⁸ = (1 + 0,25iB)^t, em que iB corresponde à taxa de juros do investimento B.",
+   "113": "E(Y | X = 0) = E(Y | X = 2) = 0,15."
+  }
+ }
+}

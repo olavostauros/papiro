@@ -1,0 +1,226 @@
+{
+ "evento": "SEE_PE_22",
+ "workdir": "/tmp/see_pe_22",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Secretaria de Educação de Pernambuco",
+  "ano": 2022,
+  "id_orgao": "see-pe"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista em Gestão Educacional – Geral",
+   "id_cargo": "analista-em-gestao-educacional-geral",
+   "provas": [
+    {
+     "key": "cg01",
+     "prova": "pro_SEEPEANALISTAASSISTENTE_.pdf",
+     "gabarito": "gab_SEEPEANALISTAASSISTENTE_.pdf",
+     "tipo": "ce",
+     "arquivo": "736_SEEPEANALISTAASSISTENTE_CG2_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_SEEPEANALISTAASSISTENTE__4.pdf",
+     "gabarito": "gab_SEEPEANALISTAASSISTENTE__4.pdf",
+     "tipo": "ce",
+     "arquivo": "736_SEEPEANALISTAASSISTENTE_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista em Gestão Educacional – Biblioteconomia",
+   "id_cargo": "analista-em-gestao-educacional-biblioteconomia",
+   "provas": [
+    {
+     "key": "cg02",
+     "prova": "pro_SEEPEANALISTAASSISTENTE_.pdf",
+     "gabarito": "gab_SEEPEANALISTAASSISTENTE_.pdf",
+     "tipo": "ce",
+     "arquivo": "736_SEEPEANALISTAASSISTENTE_CG2_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_SEEPEANALISTAASSISTENTE__5.pdf",
+     "gabarito": "gab_SEEPEANALISTAASSISTENTE__5.pdf",
+     "tipo": "ce",
+     "arquivo": "736_SEEPEANALISTAASSISTENTE_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista em Gestão Educacional – Ciências Contábeis",
+   "id_cargo": "analista-em-gestao-educacional-ciencias-contabeis",
+   "provas": [
+    {
+     "key": "cg03",
+     "prova": "pro_SEEPEANALISTAASSISTENTE_.pdf",
+     "gabarito": "gab_SEEPEANALISTAASSISTENTE_.pdf",
+     "tipo": "ce",
+     "arquivo": "736_SEEPEANALISTAASSISTENTE_CG2_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_SEEPEANALISTAASSISTENTE__6.pdf",
+     "gabarito": "gab_SEEPEANALISTAASSISTENTE__6.pdf",
+     "tipo": "ce",
+     "arquivo": "736_SEEPEANALISTAASSISTENTE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista em Gestão Educacional – Direito",
+   "id_cargo": "analista-em-gestao-educacional-direito",
+   "provas": [
+    {
+     "key": "cg04",
+     "prova": "pro_SEEPEANALISTAASSISTENTE__2.pdf",
+     "gabarito": "gab_SEEPEANALISTAASSISTENTE__2.pdf",
+     "tipo": "ce",
+     "arquivo": "736_SEEPEANALISTAASSISTENTE_CG1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_SEEPEANALISTAASSISTENTE__7.pdf",
+     "gabarito": "gab_SEEPEANALISTAASSISTENTE__7.pdf",
+     "tipo": "ce",
+     "arquivo": "736_SEEPEANALISTAASSISTENTE_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Analista em Gestão Educacional – Fonoaudiologia",
+   "id_cargo": "analista-em-gestao-educacional-fonoaudiologia",
+   "provas": [
+    {
+     "key": "cg05",
+     "prova": "pro_SEEPEANALISTAASSISTENTE_.pdf",
+     "gabarito": "gab_SEEPEANALISTAASSISTENTE_.pdf",
+     "tipo": "ce",
+     "arquivo": "736_SEEPEANALISTAASSISTENTE_CG2_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_SEEPEANALISTAASSISTENTE__8.pdf",
+     "gabarito": "gab_SEEPEANALISTAASSISTENTE__8.pdf",
+     "tipo": "ce",
+     "arquivo": "736_SEEPEANALISTAASSISTENTE_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Analista em Gestão Educacional – Nutrição",
+   "id_cargo": "analista-em-gestao-educacional-nutricao",
+   "provas": [
+    {
+     "key": "cg06",
+     "prova": "pro_SEEPEANALISTAASSISTENTE_.pdf",
+     "gabarito": "gab_SEEPEANALISTAASSISTENTE_.pdf",
+     "tipo": "ce",
+     "arquivo": "736_SEEPEANALISTAASSISTENTE_CG2_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_SEEPEANALISTAASSISTENTE__9.pdf",
+     "gabarito": "gab_SEEPEANALISTAASSISTENTE__9.pdf",
+     "tipo": "ce",
+     "arquivo": "736_SEEPEANALISTAASSISTENTE_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Analista em Gestão Educacional – Pedagogia",
+   "id_cargo": "analista-em-gestao-educacional-pedagogia",
+   "provas": [
+    {
+     "key": "cg07",
+     "prova": "pro_SEEPEANALISTAASSISTENTE_.pdf",
+     "gabarito": "gab_SEEPEANALISTAASSISTENTE_.pdf",
+     "tipo": "ce",
+     "arquivo": "736_SEEPEANALISTAASSISTENTE_CG2_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_SEEPEANALISTAASSISTENTE__10.pdf",
+     "gabarito": "gab_SEEPEANALISTAASSISTENTE__10.pdf",
+     "tipo": "ce",
+     "arquivo": "736_SEEPEANALISTAASSISTENTE_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Analista em Gestão Educacional – Psicologia",
+   "id_cargo": "analista-em-gestao-educacional-psicologia",
+   "provas": [
+    {
+     "key": "cg08",
+     "prova": "pro_SEEPEANALISTAASSISTENTE_.pdf",
+     "gabarito": "gab_SEEPEANALISTAASSISTENTE_.pdf",
+     "tipo": "ce",
+     "arquivo": "736_SEEPEANALISTAASSISTENTE_CG2_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_SEEPEANALISTAASSISTENTE__11.pdf",
+     "gabarito": "gab_SEEPEANALISTAASSISTENTE__11.pdf",
+     "tipo": "ce",
+     "arquivo": "736_SEEPEANALISTAASSISTENTE_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Analista em Gestão Educacional – Serviço Social",
+   "id_cargo": "analista-em-gestao-educacional-servico-social",
+   "provas": [
+    {
+     "key": "cg09",
+     "prova": "pro_SEEPEANALISTAASSISTENTE_.pdf",
+     "gabarito": "gab_SEEPEANALISTAASSISTENTE_.pdf",
+     "tipo": "ce",
+     "arquivo": "736_SEEPEANALISTAASSISTENTE_CG2_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_SEEPEANALISTAASSISTENTE__12.pdf",
+     "gabarito": "gab_SEEPEANALISTAASSISTENTE__12.pdf",
+     "tipo": "ce",
+     "arquivo": "736_SEEPEANALISTAASSISTENTE_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Assistente Administrativo Educacional",
+   "id_cargo": "assistente-administrativo-educacional",
+   "provas": [
+    {
+     "key": "cg10",
+     "prova": "pro_SEEPEANALISTAASSISTENTE__3.pdf",
+     "gabarito": "gab_SEEPEANALISTAASSISTENTE__3.pdf",
+     "tipo": "ce",
+     "arquivo": "736_SEEPEANALISTAASSISTENTE_CG3_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_SEEPEANALISTAASSISTENTE__13.pdf",
+     "gabarito": "gab_SEEPEANALISTAASSISTENTE__13.pdf",
+     "tipo": "ce",
+     "arquivo": "736_SEEPEANALISTAASSISTENTE_010_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

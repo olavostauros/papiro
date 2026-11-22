@@ -1,0 +1,645 @@
+{
+ "evento": "PREF_CACHOEIRO_24_ADM",
+ "workdir": "/tmp/pref_cachoeiro_24_adm",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Prefeitura de Cachoeiro de Itapemirim",
+  "ano": 2024,
+  "id_orgao": "cachoeiro"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista de Sistemas",
+   "id_cargo": "analista-de-sistemas",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_PCI_ADMINISTRATIVO_001_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_001_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Arquiteto",
+   "id_cargo": "arquiteto",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_PCI_ADMINISTRATIVO_002_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_002_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Assistente Social",
+   "id_cargo": "assistente-social",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_PCI_ADMINISTRATIVO_003_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_003_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Auditor Fiscal de Defesa do Consumidor",
+   "id_cargo": "auditor-fiscal-de-defesa-do-consumidor",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_PCI_ADMINISTRATIVO_004_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_004_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Auditor Fiscal de Meio Ambiente",
+   "id_cargo": "auditor-fiscal-de-meio-ambiente",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB1_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_PCI_ADMINISTRATIVO_005_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_005_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Auditor Fiscal de Obras",
+   "id_cargo": "auditor-fiscal-de-obras",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB1_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_PCI_ADMINISTRATIVO_006_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_006_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Auditor Fiscal de Posturas",
+   "id_cargo": "auditor-fiscal-de-posturas",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB1_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_PCI_ADMINISTRATIVO_007_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_007_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Auditor Fiscal de Transportes",
+   "id_cargo": "auditor-fiscal-de-transportes",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB1_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_PCI_ADMINISTRATIVO_008_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_008_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Auditor Fiscal de Tributos Municipais",
+   "id_cargo": "auditor-fiscal-de-tributos-municipais",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB1_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_PCI_ADMINISTRATIVO_009_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_009_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Auditor Fiscal Sanitário",
+   "id_cargo": "auditor-fiscal-sanitario",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB1_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_PCI_ADMINISTRATIVO_010_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_010_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Bibliotecário",
+   "id_cargo": "bibliotecario",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB1_01.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_PCI_ADMINISTRATIVO_011_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_011_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Biólogo",
+   "id_cargo": "biologo",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB1_01.PDF"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_PCI_ADMINISTRATIVO_012_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_012_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Contador",
+   "id_cargo": "contador",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB1_01.PDF"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_PCI_ADMINISTRATIVO_013_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_013_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_013_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "Engenheiro Agrimensor",
+   "id_cargo": "engenheiro-agrimensor",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB1_01.PDF"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_PCI_ADMINISTRATIVO_014_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_014_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_014_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "Engenheiro Agrônomo",
+   "id_cargo": "engenheiro-agronomo",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB1_01.PDF"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_PCI_ADMINISTRATIVO_015_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_015_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_015_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "Engenheiro Ambiental",
+   "id_cargo": "engenheiro-ambiental",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB1_01.PDF"
+    },
+    {
+     "key": "esp16",
+     "prova": "pro_PCI_ADMINISTRATIVO_016_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_016_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_016_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "17",
+   "cargo": "Engenheiro Civil",
+   "id_cargo": "engenheiro-civil",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB1_01.PDF"
+    },
+    {
+     "key": "esp17",
+     "prova": "pro_PCI_ADMINISTRATIVO_017_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_017_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_017_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "18",
+   "cargo": "Engenheiro de Minas",
+   "id_cargo": "engenheiro-de-minas",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB1_01.PDF"
+    },
+    {
+     "key": "esp18",
+     "prova": "pro_PCI_ADMINISTRATIVO_018_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_018_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_018_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "19",
+   "cargo": "Engenheiro de Trânsito e Tráfego",
+   "id_cargo": "engenheiro-de-transito-e-trafego",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB1_01.PDF"
+    },
+    {
+     "key": "esp19",
+     "prova": "pro_PCI_ADMINISTRATIVO_019_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_019_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_019_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "20",
+   "cargo": "Engenheiro Eletricista",
+   "id_cargo": "engenheiro-eletricista",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB1_01.PDF"
+    },
+    {
+     "key": "esp20",
+     "prova": "pro_PCI_ADMINISTRATIVO_020_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_020_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_020_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "21",
+   "cargo": "Engenheiro Florestal",
+   "id_cargo": "engenheiro-florestal",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB1_01.PDF"
+    },
+    {
+     "key": "esp21",
+     "prova": "pro_PCI_ADMINISTRATIVO_021_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_021_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_021_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "22",
+   "cargo": "Agente Administrativo",
+   "id_cargo": "agente-administrativo",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB2_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB2_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB2_01.PDF"
+    },
+    {
+     "key": "esp22",
+     "prova": "pro_PCI_ADMINISTRATIVO_022_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_022_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_022_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "23",
+   "cargo": "Agente de Apoio Educacional",
+   "id_cargo": "agente-de-apoio-educacional",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB2_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB2_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB2_01.PDF"
+    },
+    {
+     "key": "esp23",
+     "prova": "pro_PCI_ADMINISTRATIVO_023_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_023_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_023_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "24",
+   "cargo": "Técnico de Laboratório em Análises Clínicas",
+   "id_cargo": "tecnico-de-laboratorio-em-analises-clinicas",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB2_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB2_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB2_01.PDF"
+    },
+    {
+     "key": "esp24",
+     "prova": "pro_PCI_ADMINISTRATIVO_024_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_024_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_024_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "25",
+   "cargo": "Técnico de Segurança do Trabalho",
+   "id_cargo": "tecnico-de-seguranca-do-trabalho",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB2_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB2_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB2_01.PDF"
+    },
+    {
+     "key": "esp25",
+     "prova": "pro_PCI_ADMINISTRATIVO_025_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_025_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_025_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "26",
+   "cargo": "Técnico em Informática",
+   "id_cargo": "tecnico-em-informatica",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB2_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB2_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB2_01.PDF"
+    },
+    {
+     "key": "esp26",
+     "prova": "pro_PCI_ADMINISTRATIVO_026_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_026_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_026_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "27",
+   "cargo": "Topógrafo",
+   "id_cargo": "topografo",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB2_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB2_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB2_01.PDF"
+    },
+    {
+     "key": "esp27",
+     "prova": "pro_PCI_ADMINISTRATIVO_027_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_027_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_027_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "28",
+   "cargo": "Auxiliar Administrativo",
+   "id_cargo": "auxiliar-administrativo",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB3_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB3_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB3_01.PDF"
+    },
+    {
+     "key": "esp28",
+     "prova": "pro_PCI_ADMINISTRATIVO_028_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_028_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_028_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "29",
+   "cargo": "Auxiliar de Educação",
+   "id_cargo": "auxiliar-de-educacao",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_PCI_ADMINISTRATIVO_CB3_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_CB3_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_CB3_01.PDF"
+    },
+    {
+     "key": "esp29",
+     "prova": "pro_PCI_ADMINISTRATIVO_029_0.pdf",
+     "gabarito": "gab_PCI_ADMINISTRATIVO_029_0.pdf",
+     "tipo": "ce",
+     "arquivo": "937_PCI_ADMINISTRATIVO_029_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "cb3": {
+   "30": "4 + 2 · √3 > 6,5.",
+   "31": "A dízima periódica 2,555… é inferior a 70/30.",
+   "32": "∛3 > 7/6.",
+   "33": "1,4 + 13/5 < 4,3.",
+   "34": "O valor da divisão de 2/5 por 1,6 é maior que 0,3."
+  },
+  "esp20": {
+   "63": "Caso se desejasse obter o circuito equivalente de Thévenin a partir dos terminais de R4, a resistência equivalente de Thévenin seria igual a ((R1R3/(R1+R3) + R5)·R2)/(R1R3/(R1+R3) + R5 + R2).",
+   "79": "Para ambos os circuitos, a resposta ao degrau unitário, a partir do instante t = 0 s, é v0(t) = 1 − e^(−t/(RC)).",
+   "80": "O módulo da função de transferência do circuito (b) no domínio da frequência é |H(j2πf)| = 1/√(1 + (2πRCf)^2).",
+   "89": "A transformada Z do filtro digital com equação das diferenças apresentada a seguir é H(z) = (b0 + b1z^−1 + b2z^−2)/(1 − a1z^−1 + a2z^−2)."
+  },
+  "esp03": {
+   "66": "O trabalho de assessoria no âmbito do serviço social deve pautar-se pela neutralidade profissional, não cabendo ao assistente social expressar concepções de profissão, de valores e noções de bem viver que se manifestam no cotidiano."
+  },
+  "esp14": {
+   "73": "A integral de convolução é uma propriedade da transformada de Fourier usada para a transformação de uma função definida no domínio do espaço para o domínio da frequência; dadas duas funções h(x, y) e g(x, y), a integral de convolução é representada por h(x, y)/g(x, y), em que h representa a altura normal, g, a aceleração da gravidade, e x e y, as coordenadas de um sistema cartesiano."
+  }
+ }
+}

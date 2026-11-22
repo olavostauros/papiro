@@ -1,0 +1,567 @@
+{
+ "evento": "DATAPREV_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Dataprev",
+  "ano": 2023,
+  "id_orgao": "dataprev"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista de Processamento",
+   "id_cargo": "analista-de-processamento",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_DATAPREV_001_01.pdf",
+     "gabarito": "gab_DATAPREV_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de TI – Advocacia",
+   "id_cargo": "analista-de-ti-advocacia",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_DATAPREV_002_01.pdf",
+     "gabarito": "gab_DATAPREV_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de TI – Análise de Negócio",
+   "id_cargo": "analista-de-ti-analise-de-negocio",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_DATAPREV_003_01.pdf",
+     "gabarito": "gab_DATAPREV_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de TI – Arquitetura e Engenharia Tecnológica",
+   "id_cargo": "analista-de-ti-arquitetura-e-engenharia-tecnologica",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_DATAPREV_004_01.pdf",
+     "gabarito": "gab_DATAPREV_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de TI – Comunicação Social",
+   "id_cargo": "analista-de-ti-comunicacao-social",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_DATAPREV_005_01.pdf",
+     "gabarito": "gab_DATAPREV_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de TI – Contabilidade",
+   "id_cargo": "analista-de-ti-contabilidade",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_DATAPREV_006_01.pdf",
+     "gabarito": "gab_DATAPREV_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de TI – Desenvolvimento e Software",
+   "id_cargo": "analista-de-ti-desenvolvimento-e-software",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_DATAPREV_007_01.pdf",
+     "gabarito": "gab_DATAPREV_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de TI – Engenharia Civil",
+   "id_cargo": "analista-de-ti-engenharia-civil",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_DATAPREV_008_01.pdf",
+     "gabarito": "gab_DATAPREV_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de TI – Engenharia Elétrica",
+   "id_cargo": "analista-de-ti-engenharia-eletrica",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_DATAPREV_009_01.pdf",
+     "gabarito": "gab_DATAPREV_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de TI – Engenharia Mecânica",
+   "id_cargo": "analista-de-ti-engenharia-mecanica",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_DATAPREV_010_01.pdf",
+     "gabarito": "gab_DATAPREV_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de TI – Engenheiro de Dados",
+   "id_cargo": "analista-de-ti-engenheiro-de-dados",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_DATAPREV_011_01.pdf",
+     "gabarito": "gab_DATAPREV_011_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de TI – Estratégia e Governança",
+   "id_cargo": "analista-de-ti-estrategia-e-governanca",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_DATAPREV_012_01.pdf",
+     "gabarito": "gab_DATAPREV_012_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de TI – Gestão de Pessoas",
+   "id_cargo": "analista-de-ti-gestao-de-pessoas",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_DATAPREV_013_01.pdf",
+     "gabarito": "gab_DATAPREV_013_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_013_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de TI – Gestão de Serviços de TIC",
+   "id_cargo": "analista-de-ti-gestao-de-servicos-de-tic",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_DATAPREV_014_01.pdf",
+     "gabarito": "gab_DATAPREV_014_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_014_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de TI – Gestão Econômico-Financeira",
+   "id_cargo": "analista-de-ti-gestao-economico-financeira",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_DATAPREV_015_01.pdf",
+     "gabarito": "gab_DATAPREV_015_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_015_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de TI – Infraestrutura e Operações",
+   "id_cargo": "analista-de-ti-infraestrutura-e-operacoes",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp16",
+     "prova": "pro_DATAPREV_016_01.pdf",
+     "gabarito": "gab_DATAPREV_016_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_016_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de TI – Inteligência da Informação",
+   "id_cargo": "analista-de-ti-inteligencia-da-informacao",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp17",
+     "prova": "pro_DATAPREV_017_01.pdf",
+     "gabarito": "gab_DATAPREV_017_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_017_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de TI – Logística, Aquisições e Contratos",
+   "id_cargo": "analista-de-ti-logistica-aquisicoes-e-contratos",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp18",
+     "prova": "pro_DATAPREV_018_01.pdf",
+     "gabarito": "gab_DATAPREV_018_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_018_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de TI – Segurança Cibernética",
+   "id_cargo": "analista-de-ti-seguranca-cibernetica",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp19",
+     "prova": "pro_DATAPREV_019_01.pdf",
+     "gabarito": "gab_DATAPREV_019_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_019_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de TI – Segurança da Informação e Proteção de Dados",
+   "id_cargo": "analista-de-ti-seguranca-da-informacao-e-protecao-de-dados",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp20",
+     "prova": "pro_DATAPREV_020_01.pdf",
+     "gabarito": "gab_DATAPREV_020_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_020_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de TI – Sustentação Tecnológica",
+   "id_cargo": "analista-de-ti-sustentacao-tecnologica",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp21",
+     "prova": "pro_DATAPREV_021_01.pdf",
+     "gabarito": "gab_DATAPREV_021_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_021_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Engenheiro de Segurança do Trabalho",
+   "id_cargo": "engenheiro-de-seguranca-do-trabalho",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp22",
+     "prova": "pro_DATAPREV_022_01.pdf",
+     "gabarito": "gab_DATAPREV_022_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_022_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Médico do Trabalho",
+   "id_cargo": "medico-do-trabalho",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_DATAPREV_CG1_01.pdf",
+     "gabarito": "gab_DATAPREV_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG1_01.PDF"
+    },
+    {
+     "key": "esp23",
+     "prova": "pro_DATAPREV_023_01.pdf",
+     "gabarito": "gab_DATAPREV_023_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_023_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Auxiliar de Enfermagem do Trabalho",
+   "id_cargo": "auxiliar-de-enfermagem-do-trabalho",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_DATAPREV_CG2_01.pdf",
+     "gabarito": "gab_DATAPREV_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG2_01.PDF"
+    },
+    {
+     "key": "esp24",
+     "prova": "pro_DATAPREV_024_01.pdf",
+     "gabarito": "gab_DATAPREV_024_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_024_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Técnico de Segurança do Trabalho",
+   "id_cargo": "tecnico-de-seguranca-do-trabalho",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_DATAPREV_CG2_01.pdf",
+     "gabarito": "gab_DATAPREV_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_CG2_01.PDF"
+    },
+    {
+     "key": "esp25",
+     "prova": "pro_DATAPREV_025_01.pdf",
+     "gabarito": "gab_DATAPREV_025_01.pdf",
+     "tipo": "ce",
+     "arquivo": "893_DATAPREV_025_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {
+  "esp08": {
+   "86": "O coeficiente de correlação linear de Pearson entre as variáveis X e Y é superior a 0,6.",
+   "87": "O modelo Ŷ = 2X − 10 representa a reta de regressão linear simples da variável Y sobre a variável X ajustada pelo método de mínimos quadrados ordinários.",
+   "88": "Se Z = (2X + Y)/3, então a média amostral de Z é igual a 8.",
+   "89": "A variância amostral da diferença X − Y é igual a 11.",
+   "90": "Os eventos A e B são independentes.",
+   "91": "O valor da probabilidade condicional P(B|B ∪ C) é igual a 0,3.",
+   "92": "P(A ∪ C) = 0,7.",
+   "93": "P(A ∩ B ∩ C) = 0,03.",
+   "97": "Se o tamanho da amostra fosse maior que 30, então o valor da probabilidade P(T > 1,7) seria superior a 0,05."
+  },
+  "esp09": {
+   "86": "O coeficiente de correlação linear de Pearson entre as variáveis X e Y é superior a 0,6.",
+   "87": "O modelo Ŷ = 2X − 10 representa a reta de regressão linear simples da variável Y sobre a variável X ajustada pelo método de mínimos quadrados ordinários.",
+   "88": "Se Z = (2X + Y)/3, então a média amostral de Z é igual a 8.",
+   "89": "A variância amostral da diferença X − Y é igual a 11.",
+   "90": "Os eventos A e B são independentes.",
+   "91": "O valor da probabilidade condicional P(B|B ∪ C) é igual a 0,3.",
+   "92": "P(A ∪ C) = 0,7.",
+   "93": "P(A ∩ B ∩ C) = 0,03.",
+   "97": "Se o tamanho da amostra fosse maior que 30, então o valor da probabilidade P(T > 1,7) seria superior a 0,05."
+  },
+  "esp10": {
+   "86": "O coeficiente de correlação linear de Pearson entre as variáveis X e Y é superior a 0,6.",
+   "87": "Se Z = (2X + Y)/3, então a média amostral de Z é igual a 8.",
+   "88": "O modelo Ŷ = 2X − 10 representa a reta de regressão linear simples da variável Y sobre a variável X ajustada pelo método de mínimos quadrados ordinários.",
+   "89": "A variância amostral da diferença X − Y é igual a 11.",
+   "90": "Os eventos A e B são independentes.",
+   "91": "O valor da probabilidade condicional P(B|B ∪ C) é igual a 0,3.",
+   "92": "P(A ∪ C) = 0,7.",
+   "93": "P(A ∩ B ∩ C) = 0,03.",
+   "97": "Se o tamanho da amostra fosse maior que 30, então o valor da probabilidade P(T > 1,7) seria superior a 0,05."
+  },
+  "esp17": {
+   "51": "∫₀^+∞ g(x)dx > 2.",
+   "52": "Para x > 0, é correto afirmar que g(ln x) = ln x − x.",
+   "53": "lim (x→+∞) g(x) = 0.",
+   "54": "dg(x)/dx (em x = 0) = g(0) + 1.",
+   "55": "Para todo x ∈ ℝ, d²g(x)/dx² < 0.",
+   "56": "O valor mínimo global da função S(x) é S(b), em que b = (1/n)·∑(i=1 a n) aᵢ.",
+   "57": "Definindo-se os vetores a⃗ = (a₁, …, aₙ)′ e u⃗ₓ = x·(1, …, 1)′, ambos de dimensões n × 1, a função S(x) pode ser escrita na forma de um produto vetorial como S(x) = (a⃗ − u⃗ₓ) × (a⃗ − u⃗ₓ).",
+   "58": "A⁻¹ = ((0,5, 0), (0, 0,5)) representa a matriz inversa de A.",
+   "59": "Os autovalores de A são −2 e +2.",
+   "60": "Denotando-se a matriz transposta de A como Aᵀ, é correto afirmar que Aᵀ = A.",
+   "61": "P(Y = 1|X = 0) = 1/7.",
+   "62": "A covariância entre as variáveis X e Y é positiva.",
+   "63": "A variância da distribuição de X é maior do que a de Y.",
+   "64": "As variáveis X e Y possuem a mesma esperança.",
+   "65": "P(V > 1|V > 2) = 1.",
+   "66": "A esperança e a variância de V são iguais a 1.",
+   "67": "P(V = 0) = exp(0)."
+  }
+ }
+}

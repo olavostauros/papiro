@@ -1,0 +1,129 @@
+{
+ "evento": "TCE_RS_25",
+ "workdir": "/tmp/tce_rs_25",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Tribunal de Contas do Estado do Rio Grande do Sul",
+  "ano": 2025,
+  "id_orgao": "tcers"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Auditor de Controle Externo – Arquitetura",
+   "id_cargo": "auditor-de-controle-externo-arquitetura",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A07A9AB36794D46172971974.pdf",
+     "gabarito": "gab_ED939BAF5B74F70525E21D4D.pdf",
+     "tipo": "ce",
+     "arquivo": "A07A9AB36794D46172971974AB0E10DD59F725E5E98C1B038920626F1434115E.pdf"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_2498E3C7584F604DC8E95B12.pdf",
+     "gabarito": "gab_914267BDB7DDDCC5DEB863C7.pdf",
+     "tipo": "ce",
+     "arquivo": "2498E3C7584F604DC8E95B1290A88F561AFCEBFE69251C4FD3BD3D6702C38DC9.pdf",
+     "num_offset": 80
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Auditor de Controle Externo – Ciências Contábeis",
+   "id_cargo": "auditor-de-controle-externo-ciencias-contabeis",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A07A9AB36794D46172971974.pdf",
+     "gabarito": "gab_ED939BAF5B74F70525E21D4D.pdf",
+     "tipo": "ce",
+     "arquivo": "A07A9AB36794D46172971974AB0E10DD59F725E5E98C1B038920626F1434115E.pdf"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_FD83AE51F34342C493C9F564.pdf",
+     "gabarito": "gab_9A072FA510173DBFAE65E477.pdf",
+     "tipo": "ce",
+     "arquivo": "FD83AE51F34342C493C9F56457B6F5D8389E342467CBCBB8EC3F06C8169F8922.pdf",
+     "num_offset": 80
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Auditor de Controle Externo – Engenharia Civil",
+   "id_cargo": "auditor-de-controle-externo-engenharia-civil",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A07A9AB36794D46172971974.pdf",
+     "gabarito": "gab_ED939BAF5B74F70525E21D4D.pdf",
+     "tipo": "ce",
+     "arquivo": "A07A9AB36794D46172971974AB0E10DD59F725E5E98C1B038920626F1434115E.pdf"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_E2A1E0D5A7404F18827AD152.pdf",
+     "gabarito": "gab_8FAF111DF5B2A86B536D1EFC.pdf",
+     "tipo": "ce",
+     "arquivo": "E2A1E0D5A7404F18827AD15288FF48BCF5CCE2BC6C087C34D0BD28293B8C1FC8.pdf",
+     "num_offset": 80
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Auditor de Controle Externo – Tecnologia da Informação",
+   "id_cargo": "auditor-de-controle-externo-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A07A9AB36794D46172971974.pdf",
+     "gabarito": "gab_ED939BAF5B74F70525E21D4D.pdf",
+     "tipo": "ce",
+     "arquivo": "A07A9AB36794D46172971974AB0E10DD59F725E5E98C1B038920626F1434115E.pdf"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_DE7B045AFABB3135BF40C992.pdf",
+     "gabarito": "gab_8A75D46D7873A4767936A670.pdf",
+     "tipo": "ce",
+     "arquivo": "DE7B045AFABB3135BF40C9921A2CAF11683F92EA6C9177DE24BEE3C028563F86.pdf",
+     "num_offset": 80
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Oficial de Controle Externo – Oficial Instrutivo",
+   "id_cargo": "oficial-de-controle-externo-oficial-instrutivo",
+   "provas": [
+    {
+     "key": "cg5",
+     "prova": "pro_055D4A4B243CE5153990547D.pdf",
+     "gabarito": "gab_B813ED4C7EC4364B0E065666.pdf",
+     "tipo": "ce",
+     "arquivo": "055D4A4B243CE5153990547DCA7C8366A58E7F84F2375349810A43265AF8A939.pdf"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_877A4AC2DDD6EBE7E2BFD3D7.pdf",
+     "gabarito": "gab_9C04C8B977600E25B7AD360E.pdf",
+     "tipo": "ce",
+     "arquivo": "877A4AC2DDD6EBE7E2BFD3D7547822BF761DF6F2473F18041246B3886C9CB15E.pdf"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp01": {
+   "13": "O plano diretor, aprovado por lei municipal, é o instrumento básico da política de desenvolvimento e expansão urbana."
+  }
+ }
+}

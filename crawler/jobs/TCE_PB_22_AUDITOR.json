@@ -1,0 +1,30 @@
+{
+ "evento": "TCE_PB_22_AUDITOR",
+ "workdir": "/tmp/tce_pb_22_auditor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Tribunal de Contas do Estado da Paraíba",
+  "ano": 2022,
+  "id_orgao": "tce-pb"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Auditor – Conselheiro Substituto",
+   "id_cargo": "auditor",
+   "provas": [
+    {
+     "key": "001",
+     "prova": "pro_TCEPB_AUDITOR_001_01.pdf",
+     "gabarito": "gab_TCEPB_AUDITOR_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "723_TCEPB_AUDITOR_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

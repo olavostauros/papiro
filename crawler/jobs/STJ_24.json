@@ -1,0 +1,437 @@
+{
+  "evento": "STJ_24",
+  "workdir": "/tmp/stj_24",
+  "meta": {
+    "banca": "Cebraspe",
+    "orgao": "Superior Tribunal de Justiça",
+    "ano": 2024,
+    "id_orgao": "stj"
+  },
+  "cargos": [
+    {
+      "idArea": "01",
+      "cargo": "Analista Judiciário – Área: Administrativa",
+      "id_cargo": "administrativa",
+      "provas": [
+        {
+          "key": "cb2",
+          "prova": "pro_STJ_CB2_01.pdf",
+          "gabarito": "gab_STJ_CB2_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_CB2_01.PDF"
+        },
+        {
+          "key": "esp001",
+          "prova": "pro_STJ_001_01.pdf",
+          "gabarito": "gab_STJ_001_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_001_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "02",
+      "cargo": "Analista Judiciário – Área: Administrativa – Inspetor da Polícia Judicial",
+      "id_cargo": "administrativa-inspetor-da-policia-judicial",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_STJ_CB1_01.pdf",
+          "gabarito": "gab_STJ_CB1_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_CB1_01.PDF"
+        },
+        {
+          "key": "esp002",
+          "prova": "pro_STJ_002_01.pdf",
+          "gabarito": "gab_STJ_002_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_002_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "03",
+      "cargo": "Analista Judiciário – Área: Apoio Especializado – Análise de Sistemas de Informação",
+      "id_cargo": "apoio-especializado-analise-de-sistemas-de-informacao",
+      "provas": [
+        {
+          "key": "cb3",
+          "prova": "pro_STJ_CB3_01.pdf",
+          "gabarito": "gab_STJ_CB3_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_CB3_01.PDF"
+        },
+        {
+          "key": "esp003",
+          "prova": "pro_STJ_003_01.pdf",
+          "gabarito": "gab_STJ_003_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_003_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "04",
+      "cargo": "Analista Judiciário – Área: Apoio Especializado – Arquitetura",
+      "id_cargo": "apoio-especializado-arquitetura",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_STJ_CB1_01.pdf",
+          "gabarito": "gab_STJ_CB1_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_CB1_01.PDF"
+        },
+        {
+          "key": "esp004",
+          "prova": "pro_STJ_004_01.pdf",
+          "gabarito": "gab_STJ_004_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_004_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "05",
+      "cargo": "Analista Judiciário – Área: Apoio Especializado – Biblioteconomia",
+      "id_cargo": "apoio-especializado-biblioteconomia",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_STJ_CB1_01.pdf",
+          "gabarito": "gab_STJ_CB1_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_CB1_01.PDF"
+        },
+        {
+          "key": "esp005",
+          "prova": "pro_STJ_005_01.pdf",
+          "gabarito": "gab_STJ_005_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_005_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "06",
+      "cargo": "Analista Judiciário – Área: Apoio Especializado – Comunicação Social",
+      "id_cargo": "apoio-especializado-comunicacao-social",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_STJ_CB1_01.pdf",
+          "gabarito": "gab_STJ_CB1_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_CB1_01.PDF"
+        },
+        {
+          "key": "esp006",
+          "prova": "pro_STJ_006_01.pdf",
+          "gabarito": "gab_STJ_006_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_006_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "07",
+      "cargo": "Analista Judiciário – Área: Apoio Especializado – Contadoria",
+      "id_cargo": "apoio-especializado-contadoria",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_STJ_CB1_01.pdf",
+          "gabarito": "gab_STJ_CB1_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_CB1_01.PDF"
+        },
+        {
+          "key": "esp007",
+          "prova": "pro_STJ_007_01.pdf",
+          "gabarito": "gab_STJ_007_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_007_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "08",
+      "cargo": "Analista Judiciário – Área: Apoio Especializado – Enfermagem",
+      "id_cargo": "apoio-especializado-enfermagem",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_STJ_CB1_01.pdf",
+          "gabarito": "gab_STJ_CB1_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_CB1_01.PDF"
+        },
+        {
+          "key": "esp008",
+          "prova": "pro_STJ_008_01.pdf",
+          "gabarito": "gab_STJ_008_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_008_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "09",
+      "cargo": "Analista Judiciário – Área: Apoio Especializado – Engenharia Civil",
+      "id_cargo": "apoio-especializado-engenharia-civil",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_STJ_CB1_01.pdf",
+          "gabarito": "gab_STJ_CB1_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_CB1_01.PDF"
+        },
+        {
+          "key": "esp009",
+          "prova": "pro_STJ_009_01.pdf",
+          "gabarito": "gab_STJ_009_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_009_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "10",
+      "cargo": "Analista Judiciário – Área: Apoio Especializado – Engenharia Elétrica",
+      "id_cargo": "apoio-especializado-engenharia-eletrica",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_STJ_CB1_01.pdf",
+          "gabarito": "gab_STJ_CB1_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_CB1_01.PDF"
+        },
+        {
+          "key": "esp010",
+          "prova": "pro_STJ_010_01.pdf",
+          "gabarito": "gab_STJ_010_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_010_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "11",
+      "cargo": "Analista Judiciário – Área: Apoio Especializado – Engenharia Mecânica",
+      "id_cargo": "apoio-especializado-engenharia-mecanica",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_STJ_CB1_01.pdf",
+          "gabarito": "gab_STJ_CB1_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_CB1_01.PDF"
+        },
+        {
+          "key": "esp011",
+          "prova": "pro_STJ_011_01.pdf",
+          "gabarito": "gab_STJ_011_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_011_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "12",
+      "cargo": "Analista Judiciário – Área: Apoio Especializado – Medicina (Ramo: Cardiologia)",
+      "id_cargo": "apoio-especializado-medicina-ramo-cardiologia",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_STJ_CB1_01.pdf",
+          "gabarito": "gab_STJ_CB1_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_CB1_01.PDF"
+        },
+        {
+          "key": "esp012",
+          "prova": "pro_STJ_012_01.pdf",
+          "gabarito": "gab_STJ_012_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_012_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "13",
+      "cargo": "Analista Judiciário – Área: Apoio Especializado – Medicina (Ramo: Clínica Médica)",
+      "id_cargo": "apoio-especializado-medicina-ramo-clinica-medica",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_STJ_CB1_01.pdf",
+          "gabarito": "gab_STJ_CB1_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_CB1_01.PDF"
+        },
+        {
+          "key": "esp013",
+          "prova": "pro_STJ_013_01.pdf",
+          "gabarito": "gab_STJ_013_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_013_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "14",
+      "cargo": "Analista Judiciário – Área: Apoio Especializado – Medicina (Ramo: Ortopedia)",
+      "id_cargo": "apoio-especializado-medicina-ramo-ortopedia",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_STJ_CB1_01.pdf",
+          "gabarito": "gab_STJ_CB1_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_CB1_01.PDF"
+        },
+        {
+          "key": "esp014",
+          "prova": "pro_STJ_014_01.pdf",
+          "gabarito": "gab_STJ_014_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_014_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "15",
+      "cargo": "Analista Judiciário – Área: Apoio Especializado – Odontologia – (Ramo: Dentística)",
+      "id_cargo": "apoio-especializado-odontologia-ramo-dentistica",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_STJ_CB1_01.pdf",
+          "gabarito": "gab_STJ_CB1_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_CB1_01.PDF"
+        },
+        {
+          "key": "esp015",
+          "prova": "pro_STJ_015_01.pdf",
+          "gabarito": "gab_STJ_015_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_015_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "16",
+      "cargo": "Analista Judiciário – Área: Apoio Especializado – Pedagogia",
+      "id_cargo": "apoio-especializado-pedagogia",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_STJ_CB1_01.pdf",
+          "gabarito": "gab_STJ_CB1_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_CB1_01.PDF"
+        },
+        {
+          "key": "esp016",
+          "prova": "pro_STJ_016_01.pdf",
+          "gabarito": "gab_STJ_016_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_016_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "17",
+      "cargo": "Analista Judiciário – Área: Apoio Especializado – Psicologia",
+      "id_cargo": "apoio-especializado-psicologia",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_STJ_CB1_01.pdf",
+          "gabarito": "gab_STJ_CB1_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_CB1_01.PDF"
+        },
+        {
+          "key": "esp017",
+          "prova": "pro_STJ_017_01.pdf",
+          "gabarito": "gab_STJ_017_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_017_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "18",
+      "cargo": "Analista Judiciário – Área: Apoio Especializado – Suporte em Tecnologia da Informação",
+      "id_cargo": "apoio-especializado-suporte-em-tecnologia-da-informacao",
+      "provas": [
+        {
+          "key": "cb3",
+          "prova": "pro_STJ_CB3_01.pdf",
+          "gabarito": "gab_STJ_CB3_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_CB3_01.PDF"
+        },
+        {
+          "key": "esp018",
+          "prova": "pro_STJ_018_01.pdf",
+          "gabarito": "gab_STJ_018_01_ATUALIZADO.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_018_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "19",
+      "cargo": "Analista Judiciário – Área: Judiciária",
+      "id_cargo": "judiciaria",
+      "provas": [
+        {
+          "key": "cb4",
+          "prova": "pro_STJ_CB4_01.pdf",
+          "gabarito": "gab_STJ_CB4_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_CB4_01.PDF"
+        },
+        {
+          "key": "esp019",
+          "prova": "pro_STJ_019_01.pdf",
+          "gabarito": "gab_STJ_019_01.pdf",
+          "tipo": "ce",
+          "arquivo": "018_STJ_019_01.PDF"
+        }
+      ]
+    }
+  ],
+  "unmatched": [],
+  "variant": "modern",
+  "skip": {},
+  "patch": {
+    "esp001": {
+      "89": "O SIOP é uma ferramenta utilizada pelo governo federal para gerenciar o processo de elaboração, acompanhamento e revisão dos instrumentos de planejamento do governo, como o plano plurianual (PPA), a lei de diretrizes orçamentárias (LDO) e a lei orçamentária anual (LOA)."
+    },
+    "esp010": {
+      "58": "O circuito apresentado corresponde a um filtro do tipo passa-baixa de primeira ordem.",
+      "59": "A expressão v_s(t) = u(t)·e^(−Lt/R) corresponde à resposta do circuito ao degrau unitário u(t)."
+    },
+    "esp011": {
+      "84": "Suponha que, sob carga estática, um elemento de tensão em um ponto de um corpo submetido a um estado plano de tensões tenha tensões principais σ1 e σ2 com valores positivos. Nesse caso, a máxima tensão de cisalhamento, τmáx, equivale a τmáx = (σ1 − σ2)/2.",
+      "87": "A equação da linha elástica de uma viga submetida à flexão, expressa por 1/ρ = M/(EI), em que ρ é a curvatura, M, o momento fletor, E, o módulo de elasticidade e I, o momento de inércia, é aplicável a vigas de material não homogêneo, isotrópico e elástico linear, desde que as deformações, as rotações e os deslocamentos da viga sejam grandes.",
+      "88": "O elemento de tensão na figura a seguir mostra as tensões atuantes no ponto C, que equivalem a σx = −4P/(πD²) − 32FL/(πD³) e τxz = 16T/(πD³).",
+      "94": "Considere que, no movimento da barra OA ilustrada na figura a seguir, os componentes da aceleração no ponto A sejam dados, em função de r, θ, ṙ, θ̇, r̈ e θ̈, por a_r = r̈ − r·θ̇² = r̈ − v_θ²/r e a_θ = r·θ̈ + 2·ṙ·θ̇. Nesse caso, a parcela de a_θ expressa em função de ṙ e θ̇ é denominada aceleração do Coriolis.",
+      "95": "A compressão provocada em uma mola de constante k por uma esfera de massa M que se desloca sobre uma superfície plana sem fricção, com velocidade inicial V, até que V = 0, equivale a x = √(M/k)·V."
+    },
+    "esp013": {
+      "72": "A fisiopatologia da doença do paciente em questão tem como fator predisponente a presença do aumento da pressão intra-abdominal."
+    },
+    "esp018": {
+      "75": "Considere o seguinte código, escrito em Java. class Main { public static void main(String[] args) { int x = 11, y = -7, z = 22; int resultado = (x >= y) ? ((x >= z) ? x : z) : ((y >= z) ? y : z); System.out.println(\"Resultado: \" + resultado); } } A partir do código precedente, é correto afirmar que a execução desse código apresentará o seguinte resultado. Resultado: 22",
+      "94": "Em uma VPN, o tráfego de dados é levado pela rede pública por meio de protocolos de criptografia por tunelamento, como o SSL, que define um tipo de cabeçalho de autenticação (AH – authentication header), garantindo a confidencialidade dos dados."
+    }
+  }
+}

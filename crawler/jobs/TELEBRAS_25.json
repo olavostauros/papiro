@@ -1,0 +1,388 @@
+{
+ "evento": "TELEBRAS_25",
+ "workdir": "/tmp/telebras_25",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Telebrás",
+  "ano": 2025,
+  "id_orgao": "telebras"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Especialista em Gestão de Telecomunicações – Advogado",
+   "id_cargo": "advogado",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_EBA0393B46705ED9FA8370B2.pdf",
+     "gabarito": "gab_374364890113AA9043F5CFCB.pdf",
+     "tipo": "ce",
+     "arquivo": "EBA0393B46705ED9FA8370B249D93C6351B12ABED98840C43E2E13A1B377A982.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_D948921D90B352CC587DB74A.pdf",
+     "gabarito": "gab_233F57CF661B88042DFA9460.pdf",
+     "tipo": "ce",
+     "arquivo": "D948921D90B352CC587DB74AC63F4E7EC80C9D161A2B8499973315935808511B.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Especialista em Gestão de Telecomunicações – Analista de Tecnologia da Informação",
+   "id_cargo": "analista-de-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_EBA0393B46705ED9FA8370B2.pdf",
+     "gabarito": "gab_374364890113AA9043F5CFCB.pdf",
+     "tipo": "ce",
+     "arquivo": "EBA0393B46705ED9FA8370B249D93C6351B12ABED98840C43E2E13A1B377A982.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_A6B9F82B9941174FD606106F.pdf",
+     "gabarito": "gab_2F385A3EB20206F89F80123E.pdf",
+     "tipo": "ce",
+     "arquivo": "A6B9F82B9941174FD606106FBEF89D5B4FCEB698687057117320C717A8B496F6.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Especialista em Gestão de Telecomunicações – Analista Superior – Administrativo",
+   "id_cargo": "analista-superior-administrativo",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_EBA0393B46705ED9FA8370B2.pdf",
+     "gabarito": "gab_374364890113AA9043F5CFCB.pdf",
+     "tipo": "ce",
+     "arquivo": "EBA0393B46705ED9FA8370B249D93C6351B12ABED98840C43E2E13A1B377A982.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_02A841CD7E3B256A0F85C409.pdf",
+     "gabarito": "gab_3586BBD69D6FCE74C2B891E0.pdf",
+     "tipo": "ce",
+     "arquivo": "02A841CD7E3B256A0F85C4096A481C4BE5C82237B440909486D211B69F01732E.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Especialista em Gestão de Telecomunicações – Analista Superior – Auditoria",
+   "id_cargo": "analista-superior-auditoria",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_EBA0393B46705ED9FA8370B2.pdf",
+     "gabarito": "gab_374364890113AA9043F5CFCB.pdf",
+     "tipo": "ce",
+     "arquivo": "EBA0393B46705ED9FA8370B249D93C6351B12ABED98840C43E2E13A1B377A982.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_1DDB3EEB4D15DB93E90448F3.pdf",
+     "gabarito": "gab_E1566630CA1304B748046D66.pdf",
+     "tipo": "ce",
+     "arquivo": "1DDB3EEB4D15DB93E90448F378BC811C4156BC8A7E2A6833CBCA093C21D2438B.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Especialista em Gestão de Telecomunicações – Analista Superior – Comercial",
+   "id_cargo": "analista-superior-comercial",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_EBA0393B46705ED9FA8370B2.pdf",
+     "gabarito": "gab_374364890113AA9043F5CFCB.pdf",
+     "tipo": "ce",
+     "arquivo": "EBA0393B46705ED9FA8370B249D93C6351B12ABED98840C43E2E13A1B377A982.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_2674085EC4BD06F038C4F781.pdf",
+     "gabarito": "gab_1B88EA65F7BB9E4AC16D0045.pdf",
+     "tipo": "ce",
+     "arquivo": "2674085EC4BD06F038C4F781375511F5EE6A9836AE402A6DEBAB4969F1142A3E.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Especialista em Gestão de Telecomunicações – Analista Superior – Estatística",
+   "id_cargo": "analista-superior-estatistica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_EBA0393B46705ED9FA8370B2.pdf",
+     "gabarito": "gab_374364890113AA9043F5CFCB.pdf",
+     "tipo": "ce",
+     "arquivo": "EBA0393B46705ED9FA8370B249D93C6351B12ABED98840C43E2E13A1B377A982.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_15599C67B1BBBE7E19C1A15B.pdf",
+     "gabarito": "gab_3C8234514488AD8D1BA04123.pdf",
+     "tipo": "ce",
+     "arquivo": "15599C67B1BBBE7E19C1A15BF18F20A90106DB50BDBFAF2A47BF08681395BD83.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Especialista em Gestão de Telecomunicações – Analista Superior – Finanças",
+   "id_cargo": "analista-superior-financas",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_EBA0393B46705ED9FA8370B2.pdf",
+     "gabarito": "gab_374364890113AA9043F5CFCB.pdf",
+     "tipo": "ce",
+     "arquivo": "EBA0393B46705ED9FA8370B249D93C6351B12ABED98840C43E2E13A1B377A982.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_92FB4B86D7C5AC2A5CC08DF9.pdf",
+     "gabarito": "gab_7005A9FEEB9349464573BE2F.pdf",
+     "tipo": "ce",
+     "arquivo": "92FB4B86D7C5AC2A5CC08DF9CD991140E639B55610EE5900A299D821FFFBB14F.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Especialista em Gestão de Telecomunicações – Analista Superior – Marketing",
+   "id_cargo": "analista-superior-marketing",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_EBA0393B46705ED9FA8370B2.pdf",
+     "gabarito": "gab_374364890113AA9043F5CFCB.pdf",
+     "tipo": "ce",
+     "arquivo": "EBA0393B46705ED9FA8370B249D93C6351B12ABED98840C43E2E13A1B377A982.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_E745E981210ACFFB42534842.pdf",
+     "gabarito": "gab_4138A1702D3E4697BE26B8BE.pdf",
+     "tipo": "ce",
+     "arquivo": "E745E981210ACFFB4253484290CCDA28BDD29A946F7EAADA73A5B6899C2A2327.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Especialista em Gestão de Telecomunicações – Analista Superior – Psicologia",
+   "id_cargo": "analista-superior-psicologia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_EBA0393B46705ED9FA8370B2.pdf",
+     "gabarito": "gab_374364890113AA9043F5CFCB.pdf",
+     "tipo": "ce",
+     "arquivo": "EBA0393B46705ED9FA8370B249D93C6351B12ABED98840C43E2E13A1B377A982.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_AB9F654593FB5D3D6B0C102B.pdf",
+     "gabarito": "gab_B8BF6B40E620BE39ED9FBA4C.pdf",
+     "tipo": "ce",
+     "arquivo": "AB9F654593FB5D3D6B0C102BA439F0553EDE3DB8F7BA68E88CCBBCD243A83F6F.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Especialista em Gestão de Telecomunicações – Contador",
+   "id_cargo": "contador",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_EBA0393B46705ED9FA8370B2.pdf",
+     "gabarito": "gab_374364890113AA9043F5CFCB.pdf",
+     "tipo": "ce",
+     "arquivo": "EBA0393B46705ED9FA8370B249D93C6351B12ABED98840C43E2E13A1B377A982.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_E9833EC4FF5FC50CC007365E.pdf",
+     "gabarito": "gab_84C9955A23036043A635DF3D.pdf",
+     "tipo": "ce",
+     "arquivo": "E9833EC4FF5FC50CC007365ED3BCD842C5D20DD218A5EA4BE24EFB8E79FC7F91.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Especialista em Gestão de Telecomunicações – Engenheiro Aeroespacial",
+   "id_cargo": "engenheiro-aeroespacial",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_EBA0393B46705ED9FA8370B2.pdf",
+     "gabarito": "gab_374364890113AA9043F5CFCB.pdf",
+     "tipo": "ce",
+     "arquivo": "EBA0393B46705ED9FA8370B249D93C6351B12ABED98840C43E2E13A1B377A982.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_D67F94FC90B3C6E74F8E0239.pdf",
+     "gabarito": "gab_7E42B5B3C84134728A033D81.pdf",
+     "tipo": "ce",
+     "arquivo": "D67F94FC90B3C6E74F8E0239BD76E159815273F974C663F2E7FEE6E7FEC329A6.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Especialista em Gestão de Telecomunicações – Engenheiro Civil",
+   "id_cargo": "engenheiro-civil",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_EBA0393B46705ED9FA8370B2.pdf",
+     "gabarito": "gab_374364890113AA9043F5CFCB.pdf",
+     "tipo": "ce",
+     "arquivo": "EBA0393B46705ED9FA8370B249D93C6351B12ABED98840C43E2E13A1B377A982.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_1DC5A5C6E33295AFF0ED4742.pdf",
+     "gabarito": "gab_04F4D212DBE1FA13A7482216.pdf",
+     "tipo": "ce",
+     "arquivo": "1DC5A5C6E33295AFF0ED4742C9843FE1CEB82C1CC8F82AB35835920D00786CF5.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Especialista em Gestão de Telecomunicações – Engenheiro de Redes",
+   "id_cargo": "engenheiro-de-redes",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_EBA0393B46705ED9FA8370B2.pdf",
+     "gabarito": "gab_374364890113AA9043F5CFCB.pdf",
+     "tipo": "ce",
+     "arquivo": "EBA0393B46705ED9FA8370B249D93C6351B12ABED98840C43E2E13A1B377A982.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_66B8A74657B32B6D0ECD5820.pdf",
+     "gabarito": "gab_8F83326C70B502DAE448BF0B.pdf",
+     "tipo": "ce",
+     "arquivo": "66B8A74657B32B6D0ECD58201CDAA7A33EA7D52901F6C5DAFC08A5F805C77BF9.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "Especialista em Gestão de Telecomunicações – Engenheiro Eletricista",
+   "id_cargo": "engenheiro-eletricista",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_EBA0393B46705ED9FA8370B2.pdf",
+     "gabarito": "gab_374364890113AA9043F5CFCB.pdf",
+     "tipo": "ce",
+     "arquivo": "EBA0393B46705ED9FA8370B249D93C6351B12ABED98840C43E2E13A1B377A982.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_6FC54C1FD27975172D8C299E.pdf",
+     "gabarito": "gab_EAB3CF0A9A42456CA0E6EBAD.pdf",
+     "tipo": "ce",
+     "arquivo": "6FC54C1FD27975172D8C299E58C33F2A438D323D7AFDFCB0EBAC49E54015B81E.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "Especialista em Gestão de Telecomunicações – Engenheiro de Telecomunicações",
+   "id_cargo": "engenheiro-de-telecomunicacoes",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_EBA0393B46705ED9FA8370B2.pdf",
+     "gabarito": "gab_374364890113AA9043F5CFCB.pdf",
+     "tipo": "ce",
+     "arquivo": "EBA0393B46705ED9FA8370B249D93C6351B12ABED98840C43E2E13A1B377A982.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_D7ED76295EB9B984F8715964.pdf",
+     "gabarito": "gab_3251A2E8696317CB688E0CC8.pdf",
+     "tipo": "ce",
+     "arquivo": "D7ED76295EB9B984F87159647196F2BEAC7D8B512221591908C4266400904AB0.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp04": {
+   "93": "A hipótese alternativa referente ao teste F da ANOVA é H₁: μA ≠ μB ≠ μC."
+  },
+  "esp05": {
+   "60": "O plano anual de contratações da TELEBRAS constitui instrumento de governança que deve estar alinhado com o planejamento estratégico e o plano de negócios."
+  },
+  "esp06": {
+   "78": "A função de densidade de Y = X² é fY(y) = {C·y³, se y ∈ [0,1]; 0, se y ∉ [0,1]}.",
+   "79": "C = 2/7.",
+   "80": "A variância de X é igual a 2C/9.",
+   "83": "O teorema central do limite estabelece que (Sₙ − 2)/√n converge em distribuição para a distribuição normal padrão, à medida que n tende para o infinito.",
+   "84": "De acordo com a lei fraca dos grandes números, à medida que o tamanho da amostra aumenta, S̄ₙ converge em probabilidade para uma distribuição normal.",
+   "93": "Considerando-se que X₁, X₂ e X₃ denotem cópias independentes e identicamente distribuídas de uma variável aleatória X com distribuição de Poisson (θ), cuja função de probabilidade é dada por Pθ(X = x) = (θˣ/x!)·e^(−θ), em que x = 0, 1, 2, ..., é correto afirmar que T = X₁ + X₂ é uma estatística suficiente para θ.",
+   "102": "Se a estatística observada for χ²obs = 9,10, não haverá evidências suficientes para rejeitar H0 ao nível de significância de 3%.",
+   "106": "Fixados z_γ e e, o tamanho da amostra previsto pela fórmula n = z_γ²·p(1−p)/e² será tanto maior quanto maior for a estimativa inicial usada para a proporção populacional."
+  },
+  "esp11": {
+   "59": "Em primeira aproximação (problema de dois corpos e órbita circular), a velocidade orbital da Lua ao redor do Terra é dada por v = √(GM/r), em que M é a massa da Terra, r é o raio orbital e G é a constante gravitacional."
+  },
+  "esp14": {
+   "52": "No nó A, (VA − VE)/R − I1 − (VA − VC)/R = 0.",
+   "55": "vs = −gm·(ro·RC/(ro + RC))·ve.",
+   "77": "A impedância intrínseca do meio de propagação é menor que 50 Ω."
+  },
+  "esp15": {
+   "79": "O ângulo de polarização na passagem de uma onda eletromagnética de um meio com ε₁ = 10 para um meio com ε₂ = 30 é maior que 45°."
+  }
+ }
+}

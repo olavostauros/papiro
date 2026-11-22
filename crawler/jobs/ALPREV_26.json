@@ -1,0 +1,153 @@
+{
+ "evento": "ALPREV_26",
+ "workdir": "/tmp/alprev_26",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Alagoas Previdência (Alprev)",
+  "ano": 2026,
+  "id_orgao": "alprev"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista Previdenciário – Administrativa",
+   "id_cargo": "analista-previdenciario-administrativa",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_3E6570424D99A5B79C8D21E5.pdf",
+     "gabarito": "gab_C81B2EF42E9934AEC9A76ABC.pdf",
+     "tipo": "ce",
+     "arquivo": "3E6570424D99A5B79C8D21E59BF8E0E5C0586B83AA49EB89EE1FD9C5EB866006.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_F4FBEEAEBF031B5F964E5D2A.pdf",
+     "gabarito": "gab_52FBC84D7E84305BF4FE9812.pdf",
+     "tipo": "ce",
+     "arquivo": "F4FBEEAEBF031B5F964E5D2AEF7294D0413E20A76D09F0ED2FFDC6DC165E273D.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista Previdenciário – Contábil",
+   "id_cargo": "analista-previdenciario-contabil",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_3E6570424D99A5B79C8D21E5.pdf",
+     "gabarito": "gab_C81B2EF42E9934AEC9A76ABC.pdf",
+     "tipo": "ce",
+     "arquivo": "3E6570424D99A5B79C8D21E59BF8E0E5C0586B83AA49EB89EE1FD9C5EB866006.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_D319FEA3B9C966CAEF73F885.pdf",
+     "gabarito": "gab_6E84C048809298E5BD9735BA.pdf",
+     "tipo": "ce",
+     "arquivo": "D319FEA3B9C966CAEF73F885A33F7B155153E782C037353BE443DA4874AC41DD.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista Previdenciário – Financeira",
+   "id_cargo": "analista-previdenciario-financeira",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_3E6570424D99A5B79C8D21E5.pdf",
+     "gabarito": "gab_C81B2EF42E9934AEC9A76ABC.pdf",
+     "tipo": "ce",
+     "arquivo": "3E6570424D99A5B79C8D21E59BF8E0E5C0586B83AA49EB89EE1FD9C5EB866006.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_6D786E8CC8B7C25036FA4AC9.pdf",
+     "gabarito": "gab_2B0D3008A8B2FB5ED58B9D52.pdf",
+     "tipo": "ce",
+     "arquivo": "6D786E8CC8B7C25036FA4AC96190F08BC1BB55CD31EF1C4ADD25D6CD78D675B1.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista Previdenciário – Jurídica",
+   "id_cargo": "analista-previdenciario-juridica",
+   "provas": [
+    {
+     "key": "cb4",
+     "prova": "pro_CFF6685B42D9D745D6586F70.pdf",
+     "gabarito": "gab_1C855D9CD7C4653FE9723B1F.pdf",
+     "tipo": "ce",
+     "arquivo": "CFF6685B42D9D745D6586F70973833CE00330D0AC0AF610882A603A7C4263AD3.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_B12E14396CBC4603568E099C.pdf",
+     "gabarito": "gab_E36D44FEC036815E43582386.pdf",
+     "tipo": "ce",
+     "arquivo": "B12E14396CBC4603568E099C510907BF0A9CFE395D7E404F0B91D773C9898924.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Analista Previdenciário – Serviço Social",
+   "id_cargo": "analista-previdenciario-servico-social",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_3E6570424D99A5B79C8D21E5.pdf",
+     "gabarito": "gab_C81B2EF42E9934AEC9A76ABC.pdf",
+     "tipo": "ce",
+     "arquivo": "3E6570424D99A5B79C8D21E59BF8E0E5C0586B83AA49EB89EE1FD9C5EB866006.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_7620DBD8C2BCE18FABEE697E.pdf",
+     "gabarito": "gab_570D05D950B53175EC506AE7.pdf",
+     "tipo": "ce",
+     "arquivo": "7620DBD8C2BCE18FABEE697E10C81AD5E285C2098056D85E2B38A52933BF7A24.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Analista Previdenciário – Tecnologia da Informação",
+   "id_cargo": "analista-previdenciario-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_3E6570424D99A5B79C8D21E5.pdf",
+     "gabarito": "gab_C81B2EF42E9934AEC9A76ABC.pdf",
+     "tipo": "ce",
+     "arquivo": "3E6570424D99A5B79C8D21E59BF8E0E5C0586B83AA49EB89EE1FD9C5EB866006.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_C50407BB0ECE941FB99FF45F.pdf",
+     "gabarito": "gab_554EED38E51A534164C4B481.pdf",
+     "tipo": "ce",
+     "arquivo": "C50407BB0ECE941FB99FF45FBF00B1C51B44EDC1B2B68B3E807F1F7BC64F670F.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

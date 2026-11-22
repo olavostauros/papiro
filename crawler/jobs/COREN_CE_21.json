@@ -1,0 +1,62 @@
+{
+ "evento": "COREN_CE_21",
+ "workdir": "/tmp/coren_ce_21",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Conselho Regional de Enfermagem do Ceará",
+  "ano": 2021,
+  "id_orgao": "coren-ce"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Enfermeiro Fiscal",
+   "id_cargo": "enfermeiro-fiscal",
+   "provas": [
+    {
+     "key": "cg01",
+     "prova": "pro_CARGO_1.pdf",
+     "gabarito": "gab_MATRIZ_599_COREN_CE_CG1_.pdf",
+     "tipo": "mc",
+     "arquivo": "CARGO_1.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_CARGO_1.pdf",
+     "gabarito": "gab_MATRIZ_599_COREN_CE_001_.pdf",
+     "tipo": "mc",
+     "arquivo": "CARGO_1.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Técnico Administrativo",
+   "id_cargo": "tecnico-administrativo",
+   "provas": [
+    {
+     "key": "cg02",
+     "prova": "pro_CARGO_2.pdf",
+     "gabarito": "gab_MATRIZ_599_COREN_CE_CG2_.pdf",
+     "tipo": "mc",
+     "arquivo": "CARGO_2.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_CARGO_2.pdf",
+     "gabarito": "gab_MATRIZ_599_COREN_CE_002_.pdf",
+     "tipo": "mc",
+     "arquivo": "CARGO_2.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp02": {
+   "42": "Considere que, na confecção de cada comprimido de três tipos de medicamentos — A, B e C —, uma farmacêutica utilize três insumos (i1, i2, i3) em diferentes quantidades, em miligramas por comprimido: medicamento A: i1=100, i2=300, i3=500; medicamento B: i1=200, i2=200, i3=400; medicamento C: i1=300, i2=500, i3=100. Considere, ainda, que, para a produção de x comprimidos do medicamento A, de y comprimidos do medicamento B e de z comprimidos do medicamento C, tenham sido utilizados 2,8 g do insumo i1; 4,4 g do insumo i2; e 4 g do insumo i3. Com base nessas informações, assinale a opção que apresenta o número de comprimidos produzidos pela farmacêutica."
+  }
+ }
+}

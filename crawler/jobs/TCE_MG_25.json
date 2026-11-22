@@ -1,0 +1,225 @@
+{
+ "evento": "TCE_MG_25",
+ "workdir": "/tmp/tce_mg_25",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Tribunal de Contas do Estado de Minas Gerais",
+  "ano": 2025,
+  "id_orgao": "tcemg"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista de controle externo – ciência da computação",
+   "id_cargo": "analista-de-controle-externo-ciencia-da-computacao",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_320D70B97CC0EDBE166890B5.pdf",
+     "gabarito": "gab_F6CF40CFC4CE65D590EE9EC5.pdf",
+     "tipo": "mc",
+     "arquivo": "320D70B97CC0EDBE166890B55FCDA7A4D04AC4E219402DE1DDEE1BDC051EC6F5.pdf"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_C8E90765DF4F7D7B2FBCC7F3.pdf",
+     "gabarito": "gab_95B28874A5BBD4AC9DBC3AE8.pdf",
+     "tipo": "mc",
+     "arquivo": "C8E90765DF4F7D7B2FBCC7F3F1D8EC0DACC552563907792148F9160AB5706AC8.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista de controle externo – ciências atuariais",
+   "id_cargo": "analista-de-controle-externo-ciencias-atuariais",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_320D70B97CC0EDBE166890B5.pdf",
+     "gabarito": "gab_F6CF40CFC4CE65D590EE9EC5.pdf",
+     "tipo": "mc",
+     "arquivo": "320D70B97CC0EDBE166890B55FCDA7A4D04AC4E219402DE1DDEE1BDC051EC6F5.pdf"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_512692B98B3E5F4D82561D61.pdf",
+     "gabarito": "gab_94A057866C0CDE89523D94C3.pdf",
+     "tipo": "mc",
+     "arquivo": "512692B98B3E5F4D82561D61412B87CB2380FB644A5BCE3EDC2E4E176F14836F.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista de controle externo – ciências contábeis",
+   "id_cargo": "analista-de-controle-externo-ciencias-contabeis",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_320D70B97CC0EDBE166890B5.pdf",
+     "gabarito": "gab_F6CF40CFC4CE65D590EE9EC5.pdf",
+     "tipo": "mc",
+     "arquivo": "320D70B97CC0EDBE166890B55FCDA7A4D04AC4E219402DE1DDEE1BDC051EC6F5.pdf"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_3422016E039040021DE299BA.pdf",
+     "gabarito": "gab_81168576449F21A275AC980C.pdf",
+     "tipo": "mc",
+     "arquivo": "3422016E039040021DE299BA96CF130F5FD3F653FDDAA2F4183B89EC70E49ACB.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista de controle externo – direito",
+   "id_cargo": "analista-de-controle-externo-direito",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_320D70B97CC0EDBE166890B5.pdf",
+     "gabarito": "gab_F6CF40CFC4CE65D590EE9EC5.pdf",
+     "tipo": "mc",
+     "arquivo": "320D70B97CC0EDBE166890B55FCDA7A4D04AC4E219402DE1DDEE1BDC051EC6F5.pdf"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_1BE88E5CAB961D2715C5F565.pdf",
+     "gabarito": "gab_59F3EFF687EA09C7C01F661F.pdf",
+     "tipo": "mc",
+     "arquivo": "1BE88E5CAB961D2715C5F5658004FAE90A1B371535394273449447D23021EBE5.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Analista de controle externo – engenharia",
+   "id_cargo": "analista-de-controle-externo-engenharia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_320D70B97CC0EDBE166890B5.pdf",
+     "gabarito": "gab_F6CF40CFC4CE65D590EE9EC5.pdf",
+     "tipo": "mc",
+     "arquivo": "320D70B97CC0EDBE166890B55FCDA7A4D04AC4E219402DE1DDEE1BDC051EC6F5.pdf"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_359AC4F44E1A3E183222198E.pdf",
+     "gabarito": "gab_BF64F9CBDB78B8B8F90AEC66.pdf",
+     "tipo": "mc",
+     "arquivo": "359AC4F44E1A3E183222198EE2C93F7EC574FE9EB577DB1126988D26F1BA8FC4.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Arquivista",
+   "id_cargo": "arquivista",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_320D70B97CC0EDBE166890B5.pdf",
+     "gabarito": "gab_F6CF40CFC4CE65D590EE9EC5.pdf",
+     "tipo": "mc",
+     "arquivo": "320D70B97CC0EDBE166890B55FCDA7A4D04AC4E219402DE1DDEE1BDC051EC6F5.pdf"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_722978F212C4C1FC816EFAB0.pdf",
+     "gabarito": "gab_AC57DA264B9ED16803B09798.pdf",
+     "tipo": "mc",
+     "arquivo": "722978F212C4C1FC816EFAB03D8D8DC0128A84530A6F0B4E3E27DF476DB322A7.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Bibliotecário",
+   "id_cargo": "bibliotecario",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_320D70B97CC0EDBE166890B5.pdf",
+     "gabarito": "gab_F6CF40CFC4CE65D590EE9EC5.pdf",
+     "tipo": "mc",
+     "arquivo": "320D70B97CC0EDBE166890B55FCDA7A4D04AC4E219402DE1DDEE1BDC051EC6F5.pdf"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_C60373A77C83FA035B8CF21D.pdf",
+     "gabarito": "gab_31981519ADF8E8290DDCB384.pdf",
+     "tipo": "mc",
+     "arquivo": "C60373A77C83FA035B8CF21DE398159F4CBDB36E8985C0A30BE1D79C9F5EB691.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Comunicador social",
+   "id_cargo": "comunicador-social",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_320D70B97CC0EDBE166890B5.pdf",
+     "gabarito": "gab_F6CF40CFC4CE65D590EE9EC5.pdf",
+     "tipo": "mc",
+     "arquivo": "320D70B97CC0EDBE166890B55FCDA7A4D04AC4E219402DE1DDEE1BDC051EC6F5.pdf"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_A1559974E62EFEE70A476728.pdf",
+     "gabarito": "gab_A35044DF07E64EA13ED9971F.pdf",
+     "tipo": "mc",
+     "arquivo": "A1559974E62EFEE70A476728E778E766A05DAD5986180CD64DCE4634728CF0A4.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Psicólogo",
+   "id_cargo": "psicologo",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_320D70B97CC0EDBE166890B5.pdf",
+     "gabarito": "gab_F6CF40CFC4CE65D590EE9EC5.pdf",
+     "tipo": "mc",
+     "arquivo": "320D70B97CC0EDBE166890B55FCDA7A4D04AC4E219402DE1DDEE1BDC051EC6F5.pdf"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_A0975A53B51C23A08DD7956A.pdf",
+     "gabarito": "gab_2B16F337DDC06528F508CA69.pdf",
+     "tipo": "mc",
+     "arquivo": "A0975A53B51C23A08DD7956AE1979BC7C50E0EA2AE9DEDDC5062F1AE2812099F.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Médico",
+   "id_cargo": "medico",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_320D70B97CC0EDBE166890B5.pdf",
+     "gabarito": "gab_F6CF40CFC4CE65D590EE9EC5.pdf",
+     "tipo": "mc",
+     "arquivo": "320D70B97CC0EDBE166890B55FCDA7A4D04AC4E219402DE1DDEE1BDC051EC6F5.pdf"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_C8D2A3F70139AA0566BC43B3.pdf",
+     "gabarito": "gab_FECA4ABDAFB93A835A6247E4.pdf",
+     "tipo": "mc",
+     "arquivo": "C8D2A3F70139AA0566BC43B34D4AEE1FA49667E3121C4F304DF910BD2A4869D6.pdf"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

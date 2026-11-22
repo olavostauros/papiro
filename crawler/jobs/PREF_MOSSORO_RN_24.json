@@ -1,0 +1,171 @@
+{
+ "evento": "PREF_MOSSORO_RN_24",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Prefeitura de Mossoró",
+  "ano": 2024,
+  "id_orgao": "pref-mossoro-rn"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista de Procuradoria – Contabilidade",
+   "id_cargo": "analista-de-procuradoria-contabilidade",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PREF_MOSSORO_ANALISTA_PR.pdf",
+     "gabarito": "gab_PREF_MOSSORO_ANALISTA_PR.pdf",
+     "tipo": "ce",
+     "arquivo": "968_PREF_MOSSORO_ANALISTA_PROCURADOR_CB1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_PREF_MOSSORO_ANALISTA_PR_2.pdf",
+     "gabarito": "gab_PREF_MOSSORO_ANALISTA_PR_2.pdf",
+     "tipo": "ce",
+     "arquivo": "968_PREF_MOSSORO_ANALISTA_PROCURADOR_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Procuradoria – Direito",
+   "id_cargo": "analista-de-procuradoria-direito",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PREF_MOSSORO_ANALISTA_PR.pdf",
+     "gabarito": "gab_PREF_MOSSORO_ANALISTA_PR.pdf",
+     "tipo": "ce",
+     "arquivo": "968_PREF_MOSSORO_ANALISTA_PROCURADOR_CB1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_PREF_MOSSORO_ANALISTA_PR_3.pdf",
+     "gabarito": "gab_PREF_MOSSORO_ANALISTA_PR_3.pdf",
+     "tipo": "ce",
+     "arquivo": "968_PREF_MOSSORO_ANALISTA_PROCURADOR_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Auditor Fiscal de Tributos Municipais",
+   "id_cargo": "auditor-fiscal-de-tributos-municipais",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_PREF_MOSSORO_ANALISTA_AU.pdf",
+     "gabarito": "gab_PREF_MOSSORO_ANALISTA_AU.pdf",
+     "tipo": "ce",
+     "arquivo": "968_PREF_MOSSORO_ANALISTA_AUDITOR_CB2_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_PREF_MOSSORO_ANALISTA_AU_2.pdf",
+     "gabarito": "gab_PREF_MOSSORO_ANALISTA_AU_2.pdf",
+     "tipo": "ce",
+     "arquivo": "968_PREF_MOSSORO_ANALISTA_AUDITOR_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Auditor Fiscal de Tributos Municipais – Ciências Contábeis",
+   "id_cargo": "auditor-fiscal-de-tributos-municipais-ciencias-contabeis",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_PREF_MOSSORO_ANALISTA_AU.pdf",
+     "gabarito": "gab_PREF_MOSSORO_ANALISTA_AU.pdf",
+     "tipo": "ce",
+     "arquivo": "968_PREF_MOSSORO_ANALISTA_AUDITOR_CB2_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_PREF_MOSSORO_ANALISTA_AU_3.pdf",
+     "gabarito": "gab_PREF_MOSSORO_ANALISTA_AU_3.pdf",
+     "tipo": "ce",
+     "arquivo": "968_PREF_MOSSORO_ANALISTA_AUDITOR_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Auditor Fiscal de Tributos Municipais – Direito",
+   "id_cargo": "auditor-fiscal-de-tributos-municipais-direito",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_PREF_MOSSORO_ANALISTA_AU.pdf",
+     "gabarito": "gab_PREF_MOSSORO_ANALISTA_AU.pdf",
+     "tipo": "ce",
+     "arquivo": "968_PREF_MOSSORO_ANALISTA_AUDITOR_CB2_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_PREF_MOSSORO_ANALISTA_AU_4.pdf",
+     "gabarito": "gab_PREF_MOSSORO_ANALISTA_AU_4.pdf",
+     "tipo": "ce",
+     "arquivo": "968_PREF_MOSSORO_ANALISTA_AUDITOR_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Auditor Fiscal de Tributos Municipais – Engenharia",
+   "id_cargo": "auditor-fiscal-de-tributos-municipais-engenharia",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_PREF_MOSSORO_ANALISTA_AU.pdf",
+     "gabarito": "gab_PREF_MOSSORO_ANALISTA_AU.pdf",
+     "tipo": "ce",
+     "arquivo": "968_PREF_MOSSORO_ANALISTA_AUDITOR_CB2_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_PREF_MOSSORO_ANALISTA_AU_5.pdf",
+     "gabarito": "gab_PREF_MOSSORO_ANALISTA_AU_5.pdf",
+     "tipo": "ce",
+     "arquivo": "968_PREF_MOSSORO_ANALISTA_AUDITOR_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Auditor Fiscal de Tributos Municipais – Tecnologia da Informação",
+   "id_cargo": "auditor-fiscal-de-tributos-municipais-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_PREF_MOSSORO_ANALISTA_AU.pdf",
+     "gabarito": "gab_PREF_MOSSORO_ANALISTA_AU.pdf",
+     "tipo": "ce",
+     "arquivo": "968_PREF_MOSSORO_ANALISTA_AUDITOR_CB2_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_PREF_MOSSORO_ANALISTA_AU_6.pdf",
+     "gabarito": "gab_PREF_MOSSORO_ANALISTA_AU_6.pdf",
+     "tipo": "ce",
+     "arquivo": "968_PREF_MOSSORO_ANALISTA_AUDITOR_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Procurador do Município",
+   "id_cargo": "procurador-do-municipio",
+   "provas": [
+    {
+     "key": "p8",
+     "prova": "pro_PREF_MOSSORO_PROCURADOR_.pdf",
+     "gabarito": "gab_PREF_MOSSORO_PROCURADOR_.pdf",
+     "tipo": "ce",
+     "arquivo": "967_PREF_MOSSORO_PROCURADOR_008_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {
+  "cb1": {
+   "9": "Sem prejuízo da coerência e da correção gramatical do texto, o trecho “o governo português tinha estritamente em vista a continuidade da casa reinante em Portugal” (último período) poderia ser reescrito da seguinte forma: o governo português visava precisamente à continuidade da casa reinante em Portugal."
+  }
+ }
+}

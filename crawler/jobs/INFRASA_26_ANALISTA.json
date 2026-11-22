@@ -1,0 +1,281 @@
+{
+ "evento": "INFRASA_26_ANALISTA",
+ "workdir": "/tmp/infrasa_26_analista",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Infra S.A.",
+  "ano": 2026,
+  "id_orgao": "infrasa"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista – Administrador",
+   "id_cargo": "analista-administrador",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_9768E3C308D12FE9C03F9CDB.pdf",
+     "gabarito": "gab_AF3EE7E6FD76CDC1110C0643.pdf",
+     "tipo": "ce",
+     "arquivo": "9768E3C308D12FE9C03F9CDBF03E2DC1E7BD91CB01C5CD7805833A95E7A3AFF2.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_1C1668CD3507A43FF9F24428.pdf",
+     "gabarito": "gab_686BA145A69230A753F7C4C7.pdf",
+     "tipo": "ce",
+     "arquivo": "1C1668CD3507A43FF9F244281621EEB862E40BE78DB828914CF3C9E32F9FA996.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista de Sistemas",
+   "id_cargo": "analista-de-sistemas",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_9768E3C308D12FE9C03F9CDB.pdf",
+     "gabarito": "gab_AF3EE7E6FD76CDC1110C0643.pdf",
+     "tipo": "ce",
+     "arquivo": "9768E3C308D12FE9C03F9CDBF03E2DC1E7BD91CB01C5CD7805833A95E7A3AFF2.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_FFBDFDD029A3100A430BBE3A.pdf",
+     "gabarito": "gab_7944AB4B7941159976852E9E.pdf",
+     "tipo": "ce",
+     "arquivo": "FFBDFDD029A3100A430BBE3AFF3F3570154DBA24ADD3514177FB5F4B15616D63.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista – Biólogo",
+   "id_cargo": "analista-biologo",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_9768E3C308D12FE9C03F9CDB.pdf",
+     "gabarito": "gab_AF3EE7E6FD76CDC1110C0643.pdf",
+     "tipo": "ce",
+     "arquivo": "9768E3C308D12FE9C03F9CDBF03E2DC1E7BD91CB01C5CD7805833A95E7A3AFF2.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_775C84B4D15ECE2C147A2714.pdf",
+     "gabarito": "gab_3D9A828F02CDF715D39DEA8C.pdf",
+     "tipo": "ce",
+     "arquivo": "775C84B4D15ECE2C147A27142729CAF4759EB1190EC3C80AEE1E857B51A3C6E6.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista – Contador",
+   "id_cargo": "analista-contador",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_9768E3C308D12FE9C03F9CDB.pdf",
+     "gabarito": "gab_AF3EE7E6FD76CDC1110C0643.pdf",
+     "tipo": "ce",
+     "arquivo": "9768E3C308D12FE9C03F9CDBF03E2DC1E7BD91CB01C5CD7805833A95E7A3AFF2.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_A82C46CEB166C9652BD880B3.pdf",
+     "gabarito": "gab_3E22A201BCA2C8A5E0905E75.pdf",
+     "tipo": "ce",
+     "arquivo": "A82C46CEB166C9652BD880B38CD545A5AC25C47AF0D355078F8590AB75425545.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Analista – Economista",
+   "id_cargo": "analista-economista",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_9768E3C308D12FE9C03F9CDB.pdf",
+     "gabarito": "gab_AF3EE7E6FD76CDC1110C0643.pdf",
+     "tipo": "ce",
+     "arquivo": "9768E3C308D12FE9C03F9CDBF03E2DC1E7BD91CB01C5CD7805833A95E7A3AFF2.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_AF60733C8307488BD4E37955.pdf",
+     "gabarito": "gab_FF526176ACC7F9543B23AC44.pdf",
+     "tipo": "ce",
+     "arquivo": "AF60733C8307488BD4E379555C5436F05D8A5F681656156974FE9B5133271C58.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Analista – Engenheiro Agrônomo",
+   "id_cargo": "analista-engenheiro-agronomo",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_9768E3C308D12FE9C03F9CDB.pdf",
+     "gabarito": "gab_AF3EE7E6FD76CDC1110C0643.pdf",
+     "tipo": "ce",
+     "arquivo": "9768E3C308D12FE9C03F9CDBF03E2DC1E7BD91CB01C5CD7805833A95E7A3AFF2.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_6958F2476CE52D298D37088B.pdf",
+     "gabarito": "gab_4FC99C1DB6FCC8F8071C9964.pdf",
+     "tipo": "ce",
+     "arquivo": "6958F2476CE52D298D37088B4FC15EE20C1B797FDFB5B7D8F6AF9F9113DB47B2.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Analista – Engenheiro Ambiental",
+   "id_cargo": "analista-engenheiro-ambiental",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_9768E3C308D12FE9C03F9CDB.pdf",
+     "gabarito": "gab_AF3EE7E6FD76CDC1110C0643.pdf",
+     "tipo": "ce",
+     "arquivo": "9768E3C308D12FE9C03F9CDBF03E2DC1E7BD91CB01C5CD7805833A95E7A3AFF2.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_5DEDC1BE7B3926F675A2D21A.pdf",
+     "gabarito": "gab_68E6A1B7A8D733C1E74EABBF.pdf",
+     "tipo": "ce",
+     "arquivo": "5DEDC1BE7B3926F675A2D21ADC60184A1599CD26C78277CFF14ACC9224BC895E.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Analista – Engenheiro Civil",
+   "id_cargo": "analista-engenheiro-civil",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_9768E3C308D12FE9C03F9CDB.pdf",
+     "gabarito": "gab_AF3EE7E6FD76CDC1110C0643.pdf",
+     "tipo": "ce",
+     "arquivo": "9768E3C308D12FE9C03F9CDBF03E2DC1E7BD91CB01C5CD7805833A95E7A3AFF2.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_3197D34D830B6233CB615393.pdf",
+     "gabarito": "gab_E60C8DB636552A6AF7151304.pdf",
+     "tipo": "ce",
+     "arquivo": "3197D34D830B6233CB61539378E94F246AE8247CD98BDD34AD105813BD52748E.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Analista – Engenheiro Florestal",
+   "id_cargo": "analista-engenheiro-florestal",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_9768E3C308D12FE9C03F9CDB.pdf",
+     "gabarito": "gab_AF3EE7E6FD76CDC1110C0643.pdf",
+     "tipo": "ce",
+     "arquivo": "9768E3C308D12FE9C03F9CDBF03E2DC1E7BD91CB01C5CD7805833A95E7A3AFF2.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_6AB59E6D1AC0E153E171D6FA.pdf",
+     "gabarito": "gab_72AB7BFB2DE65E32E97F187C.pdf",
+     "tipo": "ce",
+     "arquivo": "6AB59E6D1AC0E153E171D6FA7A0E0CF131A8804E737D38C14085CFC1501BAE54.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Analista – Geógrafo",
+   "id_cargo": "analista-geografo",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_9768E3C308D12FE9C03F9CDB.pdf",
+     "gabarito": "gab_AF3EE7E6FD76CDC1110C0643.pdf",
+     "tipo": "ce",
+     "arquivo": "9768E3C308D12FE9C03F9CDBF03E2DC1E7BD91CB01C5CD7805833A95E7A3AFF2.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_066ACE5149126130DF11E4E1.pdf",
+     "gabarito": "gab_1640D034833716A12DDA3A29.pdf",
+     "tipo": "ce",
+     "arquivo": "066ACE5149126130DF11E4E10D5F293AFCCC2C617ADF05AA0CFA3C325E16F7E8.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Analista – Geólogo",
+   "id_cargo": "analista-geologo",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_9768E3C308D12FE9C03F9CDB.pdf",
+     "gabarito": "gab_AF3EE7E6FD76CDC1110C0643.pdf",
+     "tipo": "ce",
+     "arquivo": "9768E3C308D12FE9C03F9CDBF03E2DC1E7BD91CB01C5CD7805833A95E7A3AFF2.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_EE5CF699737E346EF48C857F.pdf",
+     "gabarito": "gab_7D0ED3A54B1134853B0870DB.pdf",
+     "tipo": "ce",
+     "arquivo": "EE5CF699737E346EF48C857F74A7DE5F0066C1AF8B4BECFBEED9190642E8A3D8.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp02": {
+   "47": "A execução da função fun1(), apresentada no código Python a seguir, resultará em um erro do tipo UnboundLocalError. Var1 = 10 def fun1(): print(Var1); Var1 += 1",
+   "48": "A execução do código Python a seguir não terá qualquer tipo de parada. def calcula_area(l, c): area = l * c; breakpoint(); return area"
+  },
+  "esp03": {
+   "57": "A imagem a seguir apresenta um balão volumétrico, que é apropriado para a medição de diferentes volumes com alta precisão.",
+   "58": "A seguinte figura ilustra uma bureta, que deve ser utilizada sempre na posição vertical, para permitir a leitura correta do menisco."
+  },
+  "esp05": {
+   "52": "Com base na maximização condicionada do lucro da firma, com C = 20, é correto afirmar que a quantidade máxima de quilômetros asfaltados é igual a 40.",
+   "58": "Se, para cada (Y, i), a função L se reduzir, então, para dado nível de renda Y e oferta real de moeda M/P, a taxa de juros necessária para equilibrar o mercado será menor."
+  }
+ }
+}

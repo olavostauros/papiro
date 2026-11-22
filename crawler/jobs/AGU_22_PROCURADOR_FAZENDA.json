@@ -1,0 +1,30 @@
+{
+ "evento": "AGU_22_PROCURADOR_FAZENDA",
+ "workdir": "/tmp/agu_22_procurador_fazenda",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Advocacia-Geral da União",
+  "ano": 2022,
+  "id_orgao": "agu"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "PROCURADOR DA FAZENDA NACIONAL",
+   "id_cargo": "procurador-da-fazenda-nacional",
+   "provas": [
+    {
+     "key": "AGU_PFN_001_01",
+     "prova": "pro_AGU_PFN_001_01.pdf",
+     "gabarito": "gab_AGU_PFN_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "805_AGU_PFN_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

@@ -1,0 +1,67 @@
+{
+ "evento": "BANESE_21",
+ "workdir": "/tmp/banese_21",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Banco do Estado de Sergipe",
+  "ano": 2021,
+  "id_orgao": "banese"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Técnico Bancário III – Informática – Desenvolvimento",
+   "id_cargo": "tecnico-bancario-iii-informatica-desenvolvimento",
+   "provas": [
+    {
+     "key": "cb01",
+     "prova": "pro_CARGO_1.pdf",
+     "gabarito": "gab_MATRIZ_583_BANESE_CB1_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_1.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_CARGO_1.pdf",
+     "gabarito": "gab_MATRIZ_583_BANESE_001_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_1.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Técnico Bancário I",
+   "id_cargo": "tecnico-bancario-i",
+   "provas": [
+    {
+     "key": "cb02",
+     "prova": "pro_CARGO_2.pdf",
+     "gabarito": "gab_MATRIZ_583_BANESE_CB2_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_2.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_CARGO_2.pdf",
+     "gabarito": "gab_MATRIZ_583_BANESE_002_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_2.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {
+  "cb01": [
+   41
+  ]
+ },
+ "patch": {
+  "esp01": {
+   "77": "Considerando o conjunto de dados formado por pares de pontos {(1,3), (2,4), (3,2), (4,4), (5,2)}, o código a seguir produz um gráfico de dispersão na forma ilustrada na figura anterior. import numpy; import matplotlib.pyplot as plt; x = numpy.array([1,2,3,4,5]); y = numpy.array([3,4,2,4,2]); plt.scatter(x, y); plt.show()",
+   "78": "A figura anterior é gerada pelo seguinte código. import numpy; import matplotlib.pyplot as plt; y = numpy.array([[0, 0], [1, 1], [2, 2], [1,3]]); plt.plot(y); plt.show()"
+  }
+ }
+}

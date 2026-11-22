@@ -1,0 +1,221 @@
+{
+ "evento": "SEBRAE_24",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "SEBRAE",
+  "ano": 2024,
+  "id_orgao": "sebrae"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista Técnico II – Cerimonial e Eventos",
+   "id_cargo": "analista-cerimonial",
+   "provas": [
+    {
+     "key": "obj1",
+     "prova": "pro_SEBRAE_001_01.pdf",
+     "gabarito": "gab_SEBRAE_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "004_SEBRAE_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Técnico II – Design de Experiência do Usuário",
+   "id_cargo": "analista-ux",
+   "provas": [
+    {
+     "key": "obj2",
+     "prova": "pro_SEBRAE_002_01.pdf",
+     "gabarito": "gab_SEBRAE_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "004_SEBRAE_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Técnico II – Design",
+   "id_cargo": "analista-design",
+   "provas": [
+    {
+     "key": "obj3",
+     "prova": "pro_SEBRAE_003_01.pdf",
+     "gabarito": "gab_SEBRAE_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "004_SEBRAE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Técnico II – Comércio Exterior",
+   "id_cargo": "analista-comercio-exterior",
+   "provas": [
+    {
+     "key": "obj4",
+     "prova": "pro_SEBRAE_004_01.pdf",
+     "gabarito": "gab_SEBRAE_004_01.pdf",
+     "tipo": "mc",
+     "arquivo": "004_SEBRAE_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Técnico II – Políticas Públicas em Educação",
+   "id_cargo": "analista-educacao",
+   "provas": [
+    {
+     "key": "obj5",
+     "prova": "pro_SEBRAE_005_01.pdf",
+     "gabarito": "gab_SEBRAE_005_01.pdf",
+     "tipo": "mc",
+     "arquivo": "004_SEBRAE_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Técnico II – Processo Legislativo",
+   "id_cargo": "analista-processo-legislativo",
+   "provas": [
+    {
+     "key": "obj6",
+     "prova": "pro_SEBRAE_006_01.pdf",
+     "gabarito": "gab_SEBRAE_006_01.pdf",
+     "tipo": "mc",
+     "arquivo": "004_SEBRAE_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Técnico II – Proposição Parlamentar",
+   "id_cargo": "analista-proposicao-parlamentar",
+   "provas": [
+    {
+     "key": "obj7",
+     "prova": "pro_SEBRAE_007_01.pdf",
+     "gabarito": "gab_SEBRAE_007_01.pdf",
+     "tipo": "mc",
+     "arquivo": "004_SEBRAE_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Técnico II – Dados BI",
+   "id_cargo": "analista-dados-bi",
+   "provas": [
+    {
+     "key": "obj8",
+     "prova": "pro_SEBRAE_008_01.pdf",
+     "gabarito": "gab_SEBRAE_008_01.pdf",
+     "tipo": "mc",
+     "arquivo": "004_SEBRAE_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Técnico II – Infraestrutura Rede",
+   "id_cargo": "analista-infraestrutura-rede",
+   "provas": [
+    {
+     "key": "obj9",
+     "prova": "pro_SEBRAE_009_01.pdf",
+     "gabarito": "gab_SEBRAE_009_01.pdf",
+     "tipo": "mc",
+     "arquivo": "004_SEBRAE_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Técnico II – Governança de TI",
+   "id_cargo": "analista-governanca-ti",
+   "provas": [
+    {
+     "key": "obj10",
+     "prova": "pro_SEBRAE_010_01.pdf",
+     "gabarito": "gab_SEBRAE_010_01.pdf",
+     "tipo": "mc",
+     "arquivo": "004_SEBRAE_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Técnico II – Desenvolvimento Software",
+   "id_cargo": "analista-desenvolvimento",
+   "provas": [
+    {
+     "key": "obj11",
+     "prova": "pro_SEBRAE_011_01.pdf",
+     "gabarito": "gab_SEBRAE_011_01.pdf",
+     "tipo": "mc",
+     "arquivo": "004_SEBRAE_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Técnico II – Banco de Dados",
+   "id_cargo": "analista-banco-dados",
+   "provas": [
+    {
+     "key": "obj12",
+     "prova": "pro_SEBRAE_012_01.pdf",
+     "gabarito": "gab_SEBRAE_012_01.pdf",
+     "tipo": "mc",
+     "arquivo": "004_SEBRAE_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Técnico II – Infraestrutura e Sistemas",
+   "id_cargo": "analista-infraestrutura",
+   "provas": [
+    {
+     "key": "obj13",
+     "prova": "pro_SEBRAE_013_01.pdf",
+     "gabarito": "gab_SEBRAE_013_01.pdf",
+     "tipo": "mc",
+     "arquivo": "004_SEBRAE_013_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Técnico II – Cientista de Dados",
+   "id_cargo": "analista-cientista-dados",
+   "provas": [
+    {
+     "key": "obj14",
+     "prova": "pro_SEBRAE_014_01.pdf",
+     "gabarito": "gab_SEBRAE_014_01.pdf",
+     "tipo": "mc",
+     "arquivo": "004_SEBRAE_014_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {
+  "obj8": {
+   "24": {
+    "alternativas": [
+     "otimizada para inserção, alteração e consultas de pequenas partes do banco de dados, com foco em normalização, para reduzir as redundâncias e permitir a consistência; nesse modelo, os dados são voláteis e passíveis de alteração.",
+     "uma representação do banco de dados a partir de uma coleção de relações para suportar o processamento de transações online (OLTP – Online Transaction Processing).",
+     "uma técnica de modelagem de banco de dados voltada para consultas de diferentes perspectivas em um data warehouse e otimizada para consultas analíticas (OLAP – Online Analytical Processing).",
+     "um conjunto de uma ou mais relações com diferentes nomes, sendo o esquema do seu banco de dados a coleção dos esquemas de cada relação que os compõe."
+    ]
+   }
+  },
+  "obj14": {
+   "18": {
+    "enunciado": "A respeito do modelo de séries temporais St = εt + εt−12 + εt−24 + εt−36 + ⋯ = Σk=0..+∞ εt−12k, no qual t ∈ ℤ representa um índice temporal e εt denota um erro aleatório no instante t, que segue uma distribuição normal com média zero e desvio padrão 5, assinale a opção correta.",
+    "alternativas": [
+     "A média da série temporal {St} descreve um padrão sazonal com período igual a 12.",
+     "A série temporal diferenciada {St − St−12} apresenta um padrão sazonal.",
+     "A série temporal {St} não é estacionária.",
+     "A variância da variável St é igual a 25."
+    ]
+   },
+   "20": "Em um modelo de regressão linear simples na forma y = ax + b + ε, x representa a variável regressora, y denota a variável resposta e ε é um erro aleatório com média zero e variância 100. Nessa hipótese, considerando-se que â denote o estimador de mínimos quadrados ordinários do coeficiente a produzido por uma amostra aleatória de tamanho igual a 101 e que o desvio padrão amostral da variável regressora seja igual a 2, é correto afirmar que o desvio padrão de â será igual a",
+   "22": "Supondo-se que a variável aleatória X possa assumir valores 0, 1, 2 ou 3 conforme a função de distribuição de probabilidade P(X = h) = 6 × (0,2^h)/h! × (0,8^(3−h))/(3−h)!, na qual h ∈ {0,1,2,3}, é correto afirmar que o valor esperado de X seja igual a",
+   "23": "Se N for uma variável aleatória que siga uma distribuição normal com média igual a 10 e desvio padrão igual a 5 e se Z = (N − 10)/5, então a probabilidade de ocorrência do evento “Z = 1,96” será igual a"
+  }
+ }
+}

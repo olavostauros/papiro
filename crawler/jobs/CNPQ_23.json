@@ -1,0 +1,183 @@
+{
+ "evento": "CNPQ_23",
+ "workdir": "/tmp/cnpq_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "CNPQ_23",
+  "ano": 2023,
+  "id_orgao": "cnpq"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista em Ciência e Tecnologia Pleno I - Administração E Recursos Logísticos",
+   "id_cargo": "analista-em-ciencia-e-tecnologia-pleno-i-administracao-e-recursos-logisticos",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_CNPQ_ANALISTA_CG2_01.pdf",
+     "gabarito": "gab_CNPQ_ANALISTA_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "917_CNPQ_ANALISTA_CG2_01.PDF"
+    },
+    {
+     "key": "esp001",
+     "prova": "pro_CNPQ_ANALISTA_001_01.pdf",
+     "gabarito": "gab_CNPQ_ANALISTA_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "917_CNPQ_ANALISTA_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista em Ciência e Tecnologia Pleno I - Desenvolvimento E  Arquitetura De Software",
+   "id_cargo": "analista-em-ciencia-e-tecnologia-pleno-i-desenvolvimento-e-arquitetura-de-software",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_CNPQ_ANALISTA_CG1_01.pdf",
+     "gabarito": "gab_CNPQ_ANALISTA_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "917_CNPQ_ANALISTA_CG1_01.PDF"
+    },
+    {
+     "key": "esp002",
+     "prova": "pro_CNPQ_ANALISTA_002_01.pdf",
+     "gabarito": "gab_CNPQ_ANALISTA_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "917_CNPQ_ANALISTA_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista em Ciência e Tecnologia Pleno I - Gestão De Dados  Corporativos",
+   "id_cargo": "analista-em-ciencia-e-tecnologia-pleno-i-gestao-de-dados-corporativos",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_CNPQ_ANALISTA_CG1_01.pdf",
+     "gabarito": "gab_CNPQ_ANALISTA_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "917_CNPQ_ANALISTA_CG1_01.PDF"
+    },
+    {
+     "key": "esp003",
+     "prova": "pro_CNPQ_ANALISTA_003_01.pdf",
+     "gabarito": "gab_CNPQ_ANALISTA_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "917_CNPQ_ANALISTA_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista em Ciência e Tecnologia Pleno I - Gestão E  Acompanhamento De Projetos E Programas Em Ct&I",
+   "id_cargo": "analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-acompanhamento-de-projetos-e-programas-em-ct-i",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_CNPQ_ANALISTA_CG2_01.pdf",
+     "gabarito": "gab_CNPQ_ANALISTA_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "917_CNPQ_ANALISTA_CG2_01.PDF"
+    },
+    {
+     "key": "esp004",
+     "prova": "pro_CNPQ_ANALISTA_004_01.pdf",
+     "gabarito": "gab_CNPQ_ANALISTA_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "917_CNPQ_ANALISTA_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Analista em Ciência e Tecnologia Pleno I - Gestão E Governança  De Tecnologia Da Informação",
+   "id_cargo": "analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-governanca-de-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_CNPQ_ANALISTA_CG1_01.pdf",
+     "gabarito": "gab_CNPQ_ANALISTA_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "917_CNPQ_ANALISTA_CG1_01.PDF"
+    },
+    {
+     "key": "esp005",
+     "prova": "pro_CNPQ_ANALISTA_005_01.pdf",
+     "gabarito": "gab_CNPQ_ANALISTA_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "917_CNPQ_ANALISTA_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Analista em Ciência e Tecnologia Pleno I - Gestão Orçamentária,  Financeira E Contábil",
+   "id_cargo": "analista-em-ciencia-e-tecnologia-pleno-i-gestao-orcamentaria-financeira-e-contabil",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_CNPQ_ANALISTA_CG2_01.pdf",
+     "gabarito": "gab_CNPQ_ANALISTA_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "917_CNPQ_ANALISTA_CG2_01.PDF"
+    },
+    {
+     "key": "esp006",
+     "prova": "pro_CNPQ_ANALISTA_006_01.pdf",
+     "gabarito": "gab_CNPQ_ANALISTA_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "917_CNPQ_ANALISTA_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Analista em Ciência e Tecnologia Pleno I - Infraestrutura De  Tecnologia Da Informação",
+   "id_cargo": "analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_CNPQ_ANALISTA_CG1_01.pdf",
+     "gabarito": "gab_CNPQ_ANALISTA_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "917_CNPQ_ANALISTA_CG1_01.PDF"
+    },
+    {
+     "key": "esp007",
+     "prova": "pro_CNPQ_ANALISTA_007_01.pdf",
+     "gabarito": "gab_CNPQ_ANALISTA_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "917_CNPQ_ANALISTA_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Analista Pleno I - Administração De Pessoal",
+   "id_cargo": "analista-pleno-i-administracao-de-pessoal",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_CNPQ_ANALISTA_CG2_01.pdf",
+     "gabarito": "gab_CNPQ_ANALISTA_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "917_CNPQ_ANALISTA_CG2_01.PDF"
+    },
+    {
+     "key": "esp008",
+     "prova": "pro_CNPQ_ANALISTA_008_01.pdf",
+     "gabarito": "gab_CNPQ_ANALISTA_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "917_CNPQ_ANALISTA_008_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

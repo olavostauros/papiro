@@ -1,0 +1,40 @@
+{
+ "evento": "TJ_MT_25_NOTARIOS",
+ "workdir": "/tmp/tj_mt_25_notarios",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Tribunal de Justiça de Mato Grosso",
+  "ano": 2025,
+  "id_orgao": "tjmt"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Notário — Outorga por Provimento",
+   "id_cargo": "notario-provimento",
+   "provas": [
+    {
+     "key": "objprov",
+     "prova": "pro_E8790E73E144A9BDAF6B0FC2.pdf",
+     "gabarito": "gab_AC049C45E817444A5C57213E.pdf",
+     "tipo": "mc",
+     "arquivo": "E8790E73E144A9BDAF6B0FC269782453E9217B3E5CBF4C89F3B67E91D228EED5.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Notário — Outorga por Remoção",
+   "id_cargo": "notario-remocao",
+   "provas": [
+    {
+     "key": "objrem",
+     "prova": "pro_C8D35A16E1678E72BD3670DF.pdf",
+     "gabarito": "gab_B803C0415E15BB9D01D87E43.pdf",
+     "tipo": "mc",
+     "arquivo": "C8D35A16E1678E72BD3670DF3D82D63A360FE0AEFD7471B9EA7DD0146DDC5978.pdf"
+    }
+   ]
+  }
+ ]
+}

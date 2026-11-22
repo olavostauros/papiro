@@ -20,7 +20,7 @@ import Check from '../design/components/icons/Check.astro';
 import X from '../design/components/icons/X.astro';
 import Sun from '../design/components/icons/Sun.astro';
 import Moon from '../design/components/icons/Moon.astro';
-import questions from '../data/questions.json';
+import questions from '../data/questions';
 
 const secoes = [
   { id: 'cores', label: 'Cores' },
@@ -59,7 +59,20 @@ const feedback = [
 ];
 const raios = ['sm', 'md', 'lg', 'xl'];
 
-const exemplo = questions.find((q) => q.tipo === 'multipla_escolha') ?? questions[0];
+const exemplo = questions.find((q) => q.tipo === 'multipla_escolha') ?? questions[0] ?? {
+  id: 'exemplo',
+  banca: 'Cebraspe',
+  orgao: 'Polícia Federal',
+  cargo: 'Escrivão de Polícia Federal',
+  ano: 2024,
+  assunto: 'Direito Administrativo',
+  tipo: 'certo_errado' as const,
+  enunciado:
+    'A respeito dos atos administrativos, julgue o item a seguir. O atributo da presunção de legitimidade torna o ato administrativo presumivelmente válido até prova em contrário.',
+  alternativas: ['Certo', 'Errado'],
+  gabarito: 'certo',
+  fonte: 'https://cdn.cebraspe.org.br/concursos/PF_24/',
+};
 ---
 
 <Layout

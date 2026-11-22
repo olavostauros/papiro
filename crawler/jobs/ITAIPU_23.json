@@ -1,0 +1,744 @@
+{
+  "evento": "ITAIPU_23",
+  "workdir": "/tmp/itaipu_23",
+  "meta": {
+    "banca": "Cebraspe",
+    "orgao": "ITAIPU BINACIONAL",
+    "ano": 2023,
+    "id_orgao": "itaipu"
+  },
+  "cargos": [
+    {
+      "idArea": "01",
+      "cargo": "Administrador",
+      "id_cargo": "administrador",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_ITAIPU_CB1_01.pdf",
+          "gabarito": "gab_ITAIPU_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB1_01.PDF"
+        },
+        {
+          "key": "esp001",
+          "prova": "pro_ITAIPU_001_01.pdf",
+          "gabarito": "gab_ITAIPU_001_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_001_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "02",
+      "cargo": "Advogado",
+      "id_cargo": "advogado",
+      "provas": [
+        {
+          "key": "cb2",
+          "prova": "pro_ITAIPU_CB2_01.pdf",
+          "gabarito": "gab_ITAIPU_CB2_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB2_01.PDF"
+        },
+        {
+          "key": "esp002",
+          "prova": "pro_ITAIPU_002_01.pdf",
+          "gabarito": "gab_ITAIPU_002_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_002_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "03",
+      "cargo": "Analista De Sistemas",
+      "id_cargo": "analista-de-sistemas",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_ITAIPU_CB1_01.pdf",
+          "gabarito": "gab_ITAIPU_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB1_01.PDF"
+        },
+        {
+          "key": "esp003",
+          "prova": "pro_ITAIPU_003_01.pdf",
+          "gabarito": "gab_ITAIPU_003_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_003_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "04",
+      "cargo": "Analista De Suporte",
+      "id_cargo": "analista-de-suporte",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_ITAIPU_CB1_01.pdf",
+          "gabarito": "gab_ITAIPU_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB1_01.PDF"
+        },
+        {
+          "key": "esp004",
+          "prova": "pro_ITAIPU_004_01.pdf",
+          "gabarito": "gab_ITAIPU_004_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_004_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "05",
+      "cargo": "Arquiteto",
+      "id_cargo": "arquiteto",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_ITAIPU_CB1_01.pdf",
+          "gabarito": "gab_ITAIPU_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB1_01.PDF"
+        },
+        {
+          "key": "esp005",
+          "prova": "pro_ITAIPU_005_01.pdf",
+          "gabarito": "gab_ITAIPU_005_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_005_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "06",
+      "cargo": "Assistente Social",
+      "id_cargo": "assistente-social",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_ITAIPU_CB1_01.pdf",
+          "gabarito": "gab_ITAIPU_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB1_01.PDF"
+        },
+        {
+          "key": "esp006",
+          "prova": "pro_ITAIPU_006_01.pdf",
+          "gabarito": "gab_ITAIPU_006_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_006_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "07",
+      "cargo": "Biólogo",
+      "id_cargo": "biologo",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_ITAIPU_CB1_01.pdf",
+          "gabarito": "gab_ITAIPU_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB1_01.PDF"
+        },
+        {
+          "key": "esp007",
+          "prova": "pro_ITAIPU_007_01.pdf",
+          "gabarito": "gab_ITAIPU_007_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_007_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "08",
+      "cargo": "Contador",
+      "id_cargo": "contador",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_ITAIPU_CB1_01.pdf",
+          "gabarito": "gab_ITAIPU_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB1_01.PDF"
+        },
+        {
+          "key": "esp008",
+          "prova": "pro_ITAIPU_008_01.pdf",
+          "gabarito": "gab_ITAIPU_008_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_008_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "09",
+      "cargo": "Engenheiro Civil",
+      "id_cargo": "engenheiro-civil",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_ITAIPU_CB1_01.pdf",
+          "gabarito": "gab_ITAIPU_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB1_01.PDF"
+        },
+        {
+          "key": "esp009",
+          "prova": "pro_ITAIPU_009_01.pdf",
+          "gabarito": "gab_ITAIPU_009_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_009_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "10",
+      "cargo": "Engenheiro Eletricista Ou De Produção Ou Mecânico (Projetos)",
+      "id_cargo": "engenheiro-eletricista-ou-de-producao-ou-mecanico-projetos",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_ITAIPU_CB1_01.pdf",
+          "gabarito": "gab_ITAIPU_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB1_01.PDF"
+        },
+        {
+          "key": "esp010",
+          "prova": "pro_ITAIPU_010_01.pdf",
+          "gabarito": "gab_ITAIPU_010_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_010_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "11",
+      "cargo": "Engenheiro De Segurança Do Trabalho",
+      "id_cargo": "engenheiro-de-seguranca-do-trabalho",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_ITAIPU_CB1_01.pdf",
+          "gabarito": "gab_ITAIPU_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB1_01.PDF"
+        },
+        {
+          "key": "esp011",
+          "prova": "pro_ITAIPU_011_01.pdf",
+          "gabarito": "gab_ITAIPU_011_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_011_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "12",
+      "cargo": "Engenheiro Eletricista",
+      "id_cargo": "engenheiro-eletricista",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_ITAIPU_CB1_01.pdf",
+          "gabarito": "gab_ITAIPU_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB1_01.PDF"
+        },
+        {
+          "key": "esp012",
+          "prova": "pro_ITAIPU_012_01.pdf",
+          "gabarito": "gab_ITAIPU_012_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_012_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "13",
+      "cargo": "Engenheiro Eletricista (Turno De Revezamento)",
+      "id_cargo": "engenheiro-eletricista-turno-de-revezamento",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_ITAIPU_CB1_01.pdf",
+          "gabarito": "gab_ITAIPU_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB1_01.PDF"
+        },
+        {
+          "key": "esp013",
+          "prova": "pro_ITAIPU_013_01.pdf",
+          "gabarito": "gab_ITAIPU_013_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_013_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "14",
+      "cargo": "Engenheiro Eletrônico",
+      "id_cargo": "engenheiro-eletronico",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_ITAIPU_CB1_01.pdf",
+          "gabarito": "gab_ITAIPU_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB1_01.PDF"
+        },
+        {
+          "key": "esp014",
+          "prova": "pro_ITAIPU_014_01.pdf",
+          "gabarito": "gab_ITAIPU_014_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_014_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "15",
+      "cargo": "Engenheiro Hídrico",
+      "id_cargo": "engenheiro-hidrico",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_ITAIPU_CB1_01.pdf",
+          "gabarito": "gab_ITAIPU_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB1_01.PDF"
+        },
+        {
+          "key": "esp015",
+          "prova": "pro_ITAIPU_015_01.pdf",
+          "gabarito": "gab_ITAIPU_015_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_015_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "16",
+      "cargo": "Engenheiro Mecânico",
+      "id_cargo": "engenheiro-mecanico",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_ITAIPU_CB1_01.pdf",
+          "gabarito": "gab_ITAIPU_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB1_01.PDF"
+        },
+        {
+          "key": "esp016",
+          "prova": "pro_ITAIPU_016_01.pdf",
+          "gabarito": "gab_ITAIPU_016_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_016_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "17",
+      "cargo": "Geógrafo",
+      "id_cargo": "geografo",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_ITAIPU_CB1_01.pdf",
+          "gabarito": "gab_ITAIPU_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB1_01.PDF"
+        },
+        {
+          "key": "esp017",
+          "prova": "pro_ITAIPU_017_01.pdf",
+          "gabarito": "gab_ITAIPU_017_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_017_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "18",
+      "cargo": "Jornalista",
+      "id_cargo": "jornalista",
+      "provas": [
+        {
+          "key": "cb2",
+          "prova": "pro_ITAIPU_CB2_01.pdf",
+          "gabarito": "gab_ITAIPU_CB2_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB2_01.PDF"
+        },
+        {
+          "key": "esp018",
+          "prova": "pro_ITAIPU_018_01.pdf",
+          "gabarito": "gab_ITAIPU_018_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_018_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "19",
+      "cargo": "Publicitário",
+      "id_cargo": "publicitario",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_ITAIPU_CB1_01.pdf",
+          "gabarito": "gab_ITAIPU_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB1_01.PDF"
+        },
+        {
+          "key": "esp019",
+          "prova": "pro_ITAIPU_019_01.pdf",
+          "gabarito": "gab_ITAIPU_019_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_019_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "20",
+      "cargo": "Relações Públicas",
+      "id_cargo": "relacoes-publicas",
+      "provas": [
+        {
+          "key": "cb2",
+          "prova": "pro_ITAIPU_CB2_01.pdf",
+          "gabarito": "gab_ITAIPU_CB2_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB2_01.PDF"
+        },
+        {
+          "key": "esp020",
+          "prova": "pro_ITAIPU_020_01.pdf",
+          "gabarito": "gab_ITAIPU_020_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_020_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "21",
+      "cargo": "Repórter Fotográfico",
+      "id_cargo": "reporter-fotografico",
+      "provas": [
+        {
+          "key": "cb2",
+          "prova": "pro_ITAIPU_CB2_01.pdf",
+          "gabarito": "gab_ITAIPU_CB2_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB2_01.PDF"
+        },
+        {
+          "key": "esp021",
+          "prova": "pro_ITAIPU_021_01.pdf",
+          "gabarito": "gab_ITAIPU_021_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_021_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "22",
+      "cargo": "Turismólogo",
+      "id_cargo": "turismologo",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "pro_ITAIPU_CB1_01.pdf",
+          "gabarito": "gab_ITAIPU_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB1_01.PDF"
+        },
+        {
+          "key": "esp022",
+          "prova": "pro_ITAIPU_022_01.pdf",
+          "gabarito": "gab_ITAIPU_022_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_022_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "23",
+      "cargo": "Técnico Agrícola",
+      "id_cargo": "tecnico-agricola",
+      "provas": [
+        {
+          "key": "cb3",
+          "prova": "pro_ITAIPU_CB3_01.pdf",
+          "gabarito": "gab_ITAIPU_CB3_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB3_01.PDF"
+        },
+        {
+          "key": "esp023",
+          "prova": "pro_ITAIPU_023_01.pdf",
+          "gabarito": "gab_ITAIPU_023_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_023_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "24",
+      "cargo": "Técnico Em Edificações",
+      "id_cargo": "tecnico-em-edificacoes",
+      "provas": [
+        {
+          "key": "cb3",
+          "prova": "pro_ITAIPU_CB3_01.pdf",
+          "gabarito": "gab_ITAIPU_CB3_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB3_01.PDF"
+        },
+        {
+          "key": "esp024",
+          "prova": "pro_ITAIPU_024_01.pdf",
+          "gabarito": "gab_ITAIPU_024_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_024_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "25",
+      "cargo": "Técnico Em Hidrologia",
+      "id_cargo": "tecnico-em-hidrologia",
+      "provas": [
+        {
+          "key": "cb3",
+          "prova": "pro_ITAIPU_CB3_01.pdf",
+          "gabarito": "gab_ITAIPU_CB3_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB3_01.PDF"
+        },
+        {
+          "key": "esp025",
+          "prova": "pro_ITAIPU_025_01.pdf",
+          "gabarito": "gab_ITAIPU_025_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_025_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "26",
+      "cargo": "Técnico Em Elétrica",
+      "id_cargo": "tecnico-em-eletrica",
+      "provas": [
+        {
+          "key": "cb3",
+          "prova": "pro_ITAIPU_CB3_01.pdf",
+          "gabarito": "gab_ITAIPU_CB3_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB3_01.PDF"
+        },
+        {
+          "key": "esp026",
+          "prova": "pro_ITAIPU_026_01.pdf",
+          "gabarito": "gab_ITAIPU_026_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_026_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "27",
+      "cargo": "Técnico Em Eletrônica",
+      "id_cargo": "tecnico-em-eletronica",
+      "provas": [
+        {
+          "key": "cb3",
+          "prova": "pro_ITAIPU_CB3_01.pdf",
+          "gabarito": "gab_ITAIPU_CB3_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB3_01.PDF"
+        },
+        {
+          "key": "esp027",
+          "prova": "pro_ITAIPU_027_01.pdf",
+          "gabarito": "gab_ITAIPU_027_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_027_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "28",
+      "cargo": "Técnico Em Mecânica",
+      "id_cargo": "tecnico-em-mecanica",
+      "provas": [
+        {
+          "key": "cb3",
+          "prova": "pro_ITAIPU_CB3_01.pdf",
+          "gabarito": "gab_ITAIPU_CB3_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB3_01.PDF"
+        },
+        {
+          "key": "esp028",
+          "prova": "pro_ITAIPU_028_01.pdf",
+          "gabarito": "gab_ITAIPU_028_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_028_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "29",
+      "cargo": "Operador De Usina",
+      "id_cargo": "operador-de-usina",
+      "provas": [
+        {
+          "key": "cb3",
+          "prova": "pro_ITAIPU_CB3_01.pdf",
+          "gabarito": "gab_ITAIPU_CB3_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB3_01.PDF"
+        },
+        {
+          "key": "esp029",
+          "prova": "pro_ITAIPU_029_01.pdf",
+          "gabarito": "gab_ITAIPU_029_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_029_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "30",
+      "cargo": "Administrativo",
+      "id_cargo": "administrativo",
+      "provas": [
+        {
+          "key": "cb3",
+          "prova": "pro_ITAIPU_CB3_01.pdf",
+          "gabarito": "gab_ITAIPU_CB3_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB3_01.PDF"
+        },
+        {
+          "key": "esp030",
+          "prova": "pro_ITAIPU_030_01.pdf",
+          "gabarito": "gab_ITAIPU_030_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_030_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "31",
+      "cargo": "Agente De Segurança",
+      "id_cargo": "agente-de-seguranca",
+      "provas": [
+        {
+          "key": "cb3",
+          "prova": "pro_ITAIPU_CB3_01.pdf",
+          "gabarito": "gab_ITAIPU_CB3_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_CB3_01.PDF"
+        },
+        {
+          "key": "esp031",
+          "prova": "pro_ITAIPU_031_01.pdf",
+          "gabarito": "gab_ITAIPU_031_01.pdf",
+          "tipo": "mc",
+          "arquivo": "924_ITAIPU_031_01.PDF"
+        }
+      ]
+    }
+  ],
+  "unmatched": [],
+  "variant": "modern",
+  "skip": {
+    "esp026": [
+      42
+    ]
+  },
+  "patch": {
+    "cb2": {
+      "20": {
+        "alternativas": [
+          "1 − 0,9^5.",
+          "0,9^5.",
+          "0,9.",
+          "1 − 0,1^5.",
+          "0,1^5."
+        ]
+      }
+    },
+    "esp012": {
+      "22": {
+        "alternativas": [
+          "O equivalente de Thévenin do circuito é uma fonte de tensão de 125 V em série com uma resistência de 30 Ω.",
+          "A tensão entre os terminais a e b é menor que 50 V.",
+          "Se ocorrer um curto-circuito entre os terminais a e b, então a corrente de curto-circuito terá valor maior que 4 A.",
+          "A resistência de Thévenin do circuito é menor que 30 Ω.",
+          "Para que haja máxima transferência de potência para uma carga resistiva conectada aos terminais a e b, essa carga deverá ter resistência igual a 30 Ω."
+        ]
+      },
+      "23": {
+        "alternativas": [
+          "A tensão entre os terminais a e b é maior que 90 V.",
+          "Se ocorrer um curto-circuito entre os terminais a e b, então a corrente de curto-circuito terá valor menor que 1 A.",
+          "A resistência de Thévenin do circuito é maior que 100 Ω.",
+          "O equivalente de Norton do circuito é uma fonte de corrente de 1 A em paralelo com uma resistência de 100 Ω.",
+          "Para que haja máxima transferência de potência para uma carga resistiva conectada aos terminais a e b, essa carga deverá ter resistência igual a 90 Ω."
+        ]
+      }
+    },
+    "esp013": {
+      "38": {
+        "alternativas": [
+          "A tensão entre os terminais a e b é menor que 50 V.",
+          "Se ocorrer um curto-circuito entre os terminais a e b, então a corrente de curto-circuito terá valor maior que 4 A.",
+          "A resistência de Thévenin do circuito é menor que 30 Ω.",
+          "O equivalente de Thévenin do circuito é uma fonte de tensão de 125 V em série com uma resistência de 30 Ω.",
+          "Para que haja máxima transferência de potência para uma carga resistiva conectada aos terminais a e b, essa carga deverá ter resistência igual a 30 Ω."
+        ]
+      },
+      "39": {
+        "alternativas": [
+          "A tensão entre os terminais a e b é maior que 90 V.",
+          "Se ocorrer um curto-circuito entre os terminais a e b, então a corrente de curto-circuito terá valor menor que 1 A.",
+          "O equivalente de Norton do circuito é uma fonte de corrente de 1 A em paralelo com uma resistência de 100 Ω.",
+          "A resistência de Thévenin do circuito é maior que 100 Ω.",
+          "Para que haja máxima transferência de potência para uma carga resistiva conectada aos terminais a e b, essa carga deverá ter resistência igual a 90 Ω."
+        ]
+      }
+    },
+    "esp024": {
+      "34": "A fim de evitar o uso de fôrma na construção da sapata da estrutura ilustrada na figura 24A2, o ângulo α deve ser, preferencialmente, igual ou inferior a"
+    },
+    "esp026": {
+      "36": "Para o transformador apresentado na figura precedente, R1 é 1 Ω, a carga ZL tem indutância real de 2 Ω, o valor da fonte V, em módulo, é 30 V e a relação N1:N2 é de 10:1. O fluxo magnético através da bobina primária é 40 µWb e o fluxo acoplado na bobina secundária é 30 µWb. Com base nessas informações, assinale a opção correta."
+    },
+    "esp028": {
+      "24": "O corpo de prova cilíndrico e de aço representado na figura precedente tem, antes do ensaio, as seguintes dimensões: d0 = 20 mm e altura hc = 100 mm. Suponha que ele tenha sido submetido a um ensaio de compressão com a aplicação de uma força axial F = 33 kN, até atingir o diâmetro df. Considerando π = 3, assinale a opção que apresenta o valor da tensão (T) absorvida pelo corpo de prova."
+    },
+    "esp029": {
+      "35": {
+        "alternativas": [
+          "A deformação de uma barra é calculada por τ = Pmédio/A, em que τ é a deformação, em kPA, P é o valor médio da carga aplicada na superfície da barra e A é a área da superfície da barra.",
+          "Em um projeto de estruturas, a escolha de um coeficiente de segurança muito grande pode levar a estruturas com uma possibilidade de falha desnecessariamente alta.",
+          "A tensão de cisalhamento em uma barra é calculada por σ = P/A, em que σ é a tensão de cisalhamento, P é o valor da carga aplicada na secção transversal da barra e A é a área da seção transversal da barra.",
+          "A tensão de esmagamento em uma conexão entre uma placa e um parafuso é calculada por σe = P/(t·d), em que P é a carga feita pelo parafuso na placa, t é a espessura da placa e d é o diâmetro do parafuso.",
+          "A carga que um elemento estrutural ou um membro de máquina poderá suportar sob condições normais de utilização é chamada valor de carga-limite."
+        ]
+      },
+      "38": "O sistema de aterramento de uma torre de alta tensão foi projetado como uma malha e possui corrente de choque igual a 9 A. Nessas condições, a resistência do corpo de uma pessoa é igual a 950 Ω, a resistência de contato entre o pé da pessoa e o solo é igual a 100 Ω, a resistência máxima de uma haste é igual a 50 Ω e o condutor que liga as hastes possui resistência irrelevante. Acerca dessa situação hipotética, assinale a opção correta."
+    }
+  }
+}

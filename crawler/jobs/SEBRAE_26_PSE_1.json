@@ -1,0 +1,84 @@
+{
+ "evento": "SEBRAE_26_PSE_1",
+ "workdir": "/tmp/sebrae_26_pse_1",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Sebrae",
+  "ano": 2026,
+  "id_orgao": "sebrae"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista Técnico I – Projetos",
+   "id_cargo": "analista-tecnico-i-projetos",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_31675101D06EBD1BAAD25AC3.pdf",
+     "gabarito": "gab_6E61BF5696B4ADEAFCB58E7E.pdf",
+     "tipo": "mc",
+     "arquivo": "31675101D06EBD1BAAD25AC3A2608282521D3E96BC176AB0AD1D4FD5EF0C3E4A.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp1",
+     "prova": "pro_6D05A69D8FEFCFEB486F41A8.pdf",
+     "gabarito": "gab_4DAE431C6A7BEA53A6A827EF.pdf",
+     "tipo": "mc",
+     "arquivo": "6D05A69D8FEFCFEB486F41A81DDEB136115A49159FDDB3BF1FDE39F8F21A2F2F.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista Técnico II – Educação",
+   "id_cargo": "analista-tecnico-ii-educacao",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_31675101D06EBD1BAAD25AC3.pdf",
+     "gabarito": "gab_6E61BF5696B4ADEAFCB58E7E.pdf",
+     "tipo": "mc",
+     "arquivo": "31675101D06EBD1BAAD25AC3A2608282521D3E96BC176AB0AD1D4FD5EF0C3E4A.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp2",
+     "prova": "pro_E21CE1CB15D57AB1B2C7F15F.pdf",
+     "gabarito": "gab_0248D8B95847B7C67FC3AC82.pdf",
+     "tipo": "mc",
+     "arquivo": "E21CE1CB15D57AB1B2C7F15FA3C062B37132053C2FE06B5687A60CAC435A9233.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista Técnico II – Arquivologia",
+   "id_cargo": "analista-tecnico-ii-arquivologia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_31675101D06EBD1BAAD25AC3.pdf",
+     "gabarito": "gab_6E61BF5696B4ADEAFCB58E7E.pdf",
+     "tipo": "mc",
+     "arquivo": "31675101D06EBD1BAAD25AC3A2608282521D3E96BC176AB0AD1D4FD5EF0C3E4A.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp3",
+     "prova": "pro_792B1D0E520E1BAA543F9240.pdf",
+     "gabarito": "gab_27BE6A59AA64D4E10E7E2583.pdf",
+     "tipo": "mc",
+     "arquivo": "792B1D0E520E1BAA543F9240D7C2AA6D8B86C5FD368F294C465BCEDBBCFF7ADB.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

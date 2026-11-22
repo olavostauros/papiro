@@ -1,0 +1,254 @@
+{
+ "evento": "FUNPRESP_24_EXE",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "FUNPRESP-EXE",
+  "ano": 2024,
+  "id_orgao": "funpresp-exe"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista de Previdência Complementar – Administração e Planejamento",
+   "id_cargo": "analista-de-previdencia-complementar-administracao-e-planejamento",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_FUNPRESPEXE_CB1_01.pdf",
+     "gabarito": "gab_FUNPRESPEXE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "040_FUNPRESPEXE_CB1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_FUNPRESPEXE_001_01.pdf",
+     "gabarito": "gab_FUNPRESPEXE_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "040_FUNPRESPEXE_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Previdência Complementar – Governança, Auditoria, Controle e Conformidade",
+   "id_cargo": "analista-de-previdencia-complementar-governanca-auditoria-controle-e-conformidade",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_FUNPRESPEXE_CB1_01.pdf",
+     "gabarito": "gab_FUNPRESPEXE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "040_FUNPRESPEXE_CB1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_FUNPRESPEXE_002_01.pdf",
+     "gabarito": "gab_FUNPRESPEXE_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "040_FUNPRESPEXE_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Previdência Complementar – Previdência",
+   "id_cargo": "analista-de-previdencia-complementar-previdencia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_FUNPRESPEXE_CB1_01.pdf",
+     "gabarito": "gab_FUNPRESPEXE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "040_FUNPRESPEXE_CB1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_FUNPRESPEXE_003_01.pdf",
+     "gabarito": "gab_FUNPRESPEXE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "040_FUNPRESPEXE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Previdência Complementar – Comercial, Marketing e Comunicação Social",
+   "id_cargo": "analista-de-previdencia-complementar-comercial-marketing-e-comunicacao-social",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_FUNPRESPEXE_CB1_01.pdf",
+     "gabarito": "gab_FUNPRESPEXE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "040_FUNPRESPEXE_CB1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_FUNPRESPEXE_004_01.pdf",
+     "gabarito": "gab_FUNPRESPEXE_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "040_FUNPRESPEXE_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Previdência Complementar – Gestão de Investimentos e Riscos de Investimentos",
+   "id_cargo": "analista-de-previdencia-complementar-gestao-de-investimentos-e-riscos-de-investimentos",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_FUNPRESPEXE_CB1_01.pdf",
+     "gabarito": "gab_FUNPRESPEXE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "040_FUNPRESPEXE_CB1_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_FUNPRESPEXE_005_01.pdf",
+     "gabarito": "gab_FUNPRESPEXE_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "040_FUNPRESPEXE_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Previdência Complementar – Jurídica",
+   "id_cargo": "analista-de-previdencia-complementar-juridica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_FUNPRESPEXE_CB1_01.pdf",
+     "gabarito": "gab_FUNPRESPEXE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "040_FUNPRESPEXE_CB1_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_FUNPRESPEXE_006_01.pdf",
+     "gabarito": "gab_FUNPRESPEXE_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "040_FUNPRESPEXE_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Previdência Complementar – Atuária",
+   "id_cargo": "analista-de-previdencia-complementar-atuaria",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_FUNPRESPEXE_CB1_01.pdf",
+     "gabarito": "gab_FUNPRESPEXE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "040_FUNPRESPEXE_CB1_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_FUNPRESPEXE_007_01.pdf",
+     "gabarito": "gab_FUNPRESPEXE_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "040_FUNPRESPEXE_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Previdência Complementar – Estatística, Ciência de Dados e Inovação",
+   "id_cargo": "analista-de-previdencia-complementar-estatistica-ciencia-de-dados-e-inovacao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_FUNPRESPEXE_CB1_01.pdf",
+     "gabarito": "gab_FUNPRESPEXE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "040_FUNPRESPEXE_CB1_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_FUNPRESPEXE_008_01.pdf",
+     "gabarito": "gab_FUNPRESPEXE_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "040_FUNPRESPEXE_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Previdência Complementar – Sistemas e Governança de Tecnologia da Informação",
+   "id_cargo": "analista-de-previdencia-complementar-sistemas-e-governanca-de-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_FUNPRESPEXE_CB1_01.pdf",
+     "gabarito": "gab_FUNPRESPEXE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "040_FUNPRESPEXE_CB1_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_FUNPRESPEXE_009_01.pdf",
+     "gabarito": "gab_FUNPRESPEXE_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "040_FUNPRESPEXE_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Previdência Complementar – Infraestrutura e Cibersegurança",
+   "id_cargo": "analista-de-previdencia-complementar-infraestrutura-e-ciberseguranca",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_FUNPRESPEXE_CB1_01.pdf",
+     "gabarito": "gab_FUNPRESPEXE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "040_FUNPRESPEXE_CB1_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_FUNPRESPEXE_010_01.pdf",
+     "gabarito": "gab_FUNPRESPEXE_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "040_FUNPRESPEXE_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Previdência Complementar – Contabilidade",
+   "id_cargo": "analista-de-previdencia-complementar-contabilidade",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_FUNPRESPEXE_CB1_01.pdf",
+     "gabarito": "gab_FUNPRESPEXE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "040_FUNPRESPEXE_CB1_01.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_FUNPRESPEXE_011_01.pdf",
+     "gabarito": "gab_FUNPRESPEXE_011_01.pdf",
+     "tipo": "ce",
+     "arquivo": "040_FUNPRESPEXE_011_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {
+  "cb": {
+   "50": "Valda foi admitida no cargo de analista da FUNPRESP-EXE, após ter sido aprovada em concurso público. Nesse caso, o vínculo jurídico funcional mantido entre Valda e a FUNPRESP-EXE é regulado pelo regime jurídico único dos servidores públicos federais."
+  },
+  "esp05": {
+   "81": "a_{24|3%} < a_{24|2%} < a_{25|2%}.",
+   "82": "No momento do pagamento da décima prestação, o saldo devedor será amortizado em (0,98·D·a_{15|2%})/a_{24|2%} reais.",
+   "83": "O valor de cada prestação a ser paga é de D/a_{24|2%} reais.",
+   "84": "O saldo devedor logo após o pagamento da décima prestação será de (D·a_{14|2%})/a_{24|2%} reais."
+  },
+  "esp07": {
+   "56": "Se um bem for vendido em seis parcelas iguais e mensais de R$ 1.200, e se a taxa de juros desse financiamento for de 5% ao mês, então o valor presente será igual a 1.200 · [1 − (1,05)^-6] reais.",
+   "62": "Considere que uma pessoa de x anos de idade pague um prêmio único puro de valor P em um seguro de vida dotal puro. Considere ainda que o seu plano seja receber, caso esteja vivo, o valor do seguro em n anos. Nessa situação, o valor a ser recebido será P · (1 + i)^n · (ℓx/ℓx+n), em que i é a taxa de juros anual.",
+   "63": "O modelo de Gompertz-Makeham para a força de mortalidade de um indivíduo é dado pela função μ(t) = a · e^(b·t), em que a e b são parâmetros positivos, e t é a idade.",
+   "64": "Para a construção de uma tábua de vida, a probabilidade de que alguém que já viveu x anos irá sobreviver por mais t anos é dada pela razão ℓx+t/ℓx.",
+   "89": "O valor presente atuarial do capital acumulado por Paulo para atingir seu intento é dado por ∑t=1^300 3.500/(1,008)^t."
+  },
+  "esp11": {
+   "75": "A reversão líquida de contingências – gestão previdencial deve ser apresentada como uma dedução na demonstração da mutação do patrimônio social da EFPC."
+  }
+ }
+}

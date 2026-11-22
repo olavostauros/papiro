@@ -1,0 +1,30 @@
+{
+ "evento": "MPE_AC_22_PROMOTOR",
+ "workdir": "/tmp/mpe_ac_22_promotor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Ministério Público do Estado do Acre",
+  "ano": 2022,
+  "id_orgao": "mpe-ac"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "PROMOTOR DE JUSTIÇA SUBSTITUTO",
+   "id_cargo": "promotor-de-justica-substituto",
+   "provas": [
+    {
+     "key": "MPEAC_001_01",
+     "prova": "pro_MPEAC_001_01.pdf",
+     "gabarito": "gab_MPEAC_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "681_MPEAC_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

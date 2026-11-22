@@ -1,0 +1,98 @@
+{
+ "evento": "AEB_24",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "AEB",
+  "ano": 2024,
+  "id_orgao": "aeb"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista em Ciência e Tecnologia Júnior – Cooperação Internacional",
+   "id_cargo": "analista-cooperacao",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_AEB_24_CB2_01.pdf",
+     "gabarito": "gab_AEB_24_CB2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "051_AEB_24_CB2_01.pdf"
+    },
+    {
+     "key": "esp1",
+     "prova": "pro_AEB_24_001_01.pdf",
+     "gabarito": "gab_AEB_24_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "051_AEB_24_001_01.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista em Ciência e Tecnologia Júnior – Qualquer Área",
+   "id_cargo": "analista-qualquer-area",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_AEB_24_CB1_01.pdf",
+     "gabarito": "gab_AEB_24_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "051_AEB_24_CB1_01.pdf"
+    },
+    {
+     "key": "esp2",
+     "prova": "pro_AEB_24_002_01.pdf",
+     "gabarito": "gab_AEB_24_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "051_AEB_24_002_01.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Tecnologista Júnior – Desenvolvimento Tecnológico",
+   "id_cargo": "tecnologista-desenvolvimento",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_AEB_24_CB1_01.pdf",
+     "gabarito": "gab_AEB_24_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "051_AEB_24_CB1_01.pdf"
+    },
+    {
+     "key": "esp3",
+     "prova": "pro_AEB_24_003_01.pdf",
+     "gabarito": "gab_AEB_24_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "051_AEB_24_003_01.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Tecnologista Júnior – Tecnologia da Informação",
+   "id_cargo": "tecnologista-ti",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_AEB_24_CB1_01.pdf",
+     "gabarito": "gab_AEB_24_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "051_AEB_24_CB1_01.pdf"
+    },
+    {
+     "key": "esp4",
+     "prova": "pro_AEB_24_004_01.pdf",
+     "gabarito": "gab_AEB_24_004_01.pdf",
+     "tipo": "mc",
+     "arquivo": "051_AEB_24_004_01.pdf"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {
+  "esp3": {
+   "45": "Considerando que um veículo lançador de dois estágios opera com hidrocarboneto da família dos alcanos CnH2n+2 como combustível e oxigênio líquido como oxidante, assinale a opção correta, com base no par propelente."
+  }
+ }
+}

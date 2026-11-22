@@ -1,0 +1,93 @@
+{
+ "evento": "FNDE_23_ESPECIALISTA",
+ "workdir": "/tmp/fnde_23_especialista",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "FNDE_23_ESPECIALISTA",
+  "ano": 2023,
+  "id_orgao": "fnde"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Especialista Em Financiamento E Execução De Programas E Projetos Educacionais",
+   "id_cargo": "especialista-financiamento-programas-educacionais",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_FNDE_CB1_01.pdf",
+     "gabarito": "gab_FNDE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "913_FNDE_CB1_01.PDF"
+    },
+    {
+     "key": "esp",
+     "prova": "pro_FNDE_002_01.pdf",
+     "gabarito": "gab_FNDE_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "913_FNDE_002_01.PDF",
+     "num_offset": 50
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Especialista Em Financiamento E Execução De Programas E Projetos Educacionais – Curso De Formação",
+   "id_cargo": "especialista-financiamento-programas-educacionais-cf",
+   "provas": [
+    {
+     "key": "cf",
+     "prova": "pro_FNDE_CF_001_01.pdf",
+     "gabarito": "gab_FNDE_CF_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "978_FNDE_CF_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Especialista Em Financiamento E Execução De Programas E Projetos Educacionais – Curso De Formação 2ª Turma",
+   "id_cargo": "especialista-financiamento-programas-educacionais-cf-turma-2",
+   "provas": [
+    {
+     "key": "cf2",
+     "prova": "pro_78C0C2E5AD8965EFE9F965D5.pdf",
+     "gabarito": "gab_40B19CED3BBCC1AE913C5E8B.pdf",
+     "tipo": "ce",
+     "arquivo": "78C0C2E5AD8965EFE9F965D54DA0D8279C9CD5FFDA91507C09E5737A67135E82.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Especialista Em Financiamento E Execução De Programas E Projetos Educacionais – Curso De Formação 3ª Turma",
+   "id_cargo": "especialista-financiamento-programas-educacionais-cf-turma-3",
+   "provas": [
+    {
+     "key": "cf3",
+     "prova": "pro_F5B93FCE414FA9EFEB326C4C.pdf",
+     "gabarito": "gab_08139B1A7C38AC1F4E0AA3D6.pdf",
+     "tipo": "ce",
+     "arquivo": "F5B93FCE414FA9EFEB326C4CB4C843E5BC6A114A475C95FC6857308FC8531144.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Especialista Em Financiamento E Execução De Programas E Projetos Educacionais – Curso De Formação 4ª Turma",
+   "id_cargo": "especialista-financiamento-programas-educacionais-cf-turma-4",
+   "provas": [
+    {
+     "key": "cf4",
+     "prova": "pro_1E27E622663AF7F0592AC959.pdf",
+     "gabarito": "gab_CE09106EC9DE719C4B5427B6.pdf",
+     "tipo": "ce",
+     "arquivo": "1E27E622663AF7F0592AC9592888621388C17C896BAC31DB73A0BEF77B72F3FF.pdf"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

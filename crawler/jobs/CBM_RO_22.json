@@ -1,0 +1,50 @@
+{
+ "evento": "CBM_RO_22",
+ "workdir": "/tmp/cbm_ro_22",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Corpo de Bombeiros Militar do Estado de Rondônia",
+  "ano": 2022,
+  "id_orgao": "cbm-ro"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Cargo 1: Oficial Bombeiro Militar Combatente",
+   "id_cargo": "oficial-combatente",
+   "provas": [
+    {
+     "key": "CBM_RO_001",
+     "prova": "pro_CBM_RO_OFICIAL_001_01.pdf",
+     "gabarito": "gab_CBM_RO_OFICIAL_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "734_CBM_RO_OFICIAL_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Cargo 2: Oficial Bombeiro Militar Complementar – Engenheiro Civil",
+   "id_cargo": "oficial-complementar-engenheiro-civil",
+   "provas": [
+    {
+     "key": "CBM_RO_002",
+     "prova": "pro_CBM_RO_OFICIAL_002_01.pdf",
+     "gabarito": "gab_CBM_RO_OFICIAL_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "734_CBM_RO_OFICIAL_002_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "CBM_RO_002": {
+   "41": "Em um terminal do Ubuntu, uma das distribuições do sistema operacional Linux, a execução do comando ls exibiu a lista de arquivos a seguir: edificacoes.pdf, instituicoes.pdf, Instrucao_tecnica.pdf, museus.pdf. Com base nessas informações, assinale a opção que corresponde ao resultado da execução do comando ls i* .",
+   "43": "Com base na imagem precedente, que representa parte da tela de edição do programa LibreOffice Writer, versão 7.2, assinale a opção que corresponde ao resultado gerado após o usuário selecionar apenas o título do documento e, em seguida, clicar o botão referente à remoção de formatação (exibido como um ícone de letra A acompanhada de uma borracha) .",
+   "46": "Ao abrir o programa de navegação Google Chrome, será exibida no canto inferior direito a opção Personalizar o Chrome, a qual permite ao usuário"
+  }
+ }
+}

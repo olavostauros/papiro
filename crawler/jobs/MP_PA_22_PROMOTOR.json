@@ -1,0 +1,30 @@
+{
+ "evento": "MP_PA_22_PROMOTOR",
+ "workdir": "/tmp/mp_pa_22_promotor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Ministério Público do Pará",
+  "ano": 2022,
+  "id_orgao": "mp-pa"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Promotor de Justiça de Primeira Entrância e Promotor de Justiça Substituto de Primeira Entrância",
+   "id_cargo": "promotor",
+   "provas": [
+    {
+     "key": "obj",
+     "prova": "pro_MPPA_PROMOTOR_OBJ_001_01.pdf",
+     "gabarito": "gab_MPPA_PROMOTOR_OBJ_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "782_MPPA_PROMOTOR_OBJ_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

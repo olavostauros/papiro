@@ -1,0 +1,184 @@
+{
+ "evento": "ARSAL_26",
+ "workdir": "/tmp/arsal_26",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Agência Reguladora de Serviços Públicos do Estado de Alagoas (Arsal)",
+  "ano": 2026,
+  "id_orgao": "arsal"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista de Regulação – Administração",
+   "id_cargo": "analista-de-regulacao-administracao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_BE1B4749E62E13D8161DB621.pdf",
+     "gabarito": "gab_F7D58D24B7A4D199820100D8.pdf",
+     "tipo": "ce",
+     "arquivo": "BE1B4749E62E13D8161DB62194B7CC536291DC120AEB1F6ECB58737F03AF6A25.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_354521FD1EC7B4DDA778306A.pdf",
+     "gabarito": "gab_2DB393997063B8757A050A4E.pdf",
+     "tipo": "ce",
+     "arquivo": "354521FD1EC7B4DDA778306ACB2FD36917A2E68584459F9A7F54A0F799927A05.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista de Regulação – Ciências Contábeis",
+   "id_cargo": "analista-de-regulacao-ciencias-contabeis",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_BE1B4749E62E13D8161DB621.pdf",
+     "gabarito": "gab_F7D58D24B7A4D199820100D8.pdf",
+     "tipo": "ce",
+     "arquivo": "BE1B4749E62E13D8161DB62194B7CC536291DC120AEB1F6ECB58737F03AF6A25.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_B4E9F263EFD61289816BA47D.pdf",
+     "gabarito": "gab_F4C405708BB5B63E90A08474.pdf",
+     "tipo": "ce",
+     "arquivo": "B4E9F263EFD61289816BA47D9F06CD31528F0CD564E8855134E94FF1EB81C46B.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista de Regulação – Direito",
+   "id_cargo": "analista-de-regulacao-direito",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_BAD198C5A989FD40FEFA6629.pdf",
+     "gabarito": "gab_F93FCCABA72987BCAF35352D.pdf",
+     "tipo": "ce",
+     "arquivo": "BAD198C5A989FD40FEFA6629C85AE547AFC05A73D2D8C3F1455A86DDD0AA61A0.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_EED98570A79710883A93F053.pdf",
+     "gabarito": "gab_0FF6389FD56A448A5520DC5F.pdf",
+     "tipo": "ce",
+     "arquivo": "EED98570A79710883A93F05346AAEB644C4CBFFFB8004CBCC4158822A1261539.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista de Regulação – Economia",
+   "id_cargo": "analista-de-regulacao-economia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_BE1B4749E62E13D8161DB621.pdf",
+     "gabarito": "gab_F7D58D24B7A4D199820100D8.pdf",
+     "tipo": "ce",
+     "arquivo": "BE1B4749E62E13D8161DB62194B7CC536291DC120AEB1F6ECB58737F03AF6A25.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_BE7006EE02A0E014F0D012F5.pdf",
+     "gabarito": "gab_AD608264A1734C6499BE86B7.pdf",
+     "tipo": "ce",
+     "arquivo": "BE7006EE02A0E014F0D012F550BD28DA62C1C3EDFEE1ABE17133B6F0A5828C69.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Analista de Regulação – Engenharia Civil",
+   "id_cargo": "analista-de-regulacao-engenharia-civil",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_BE1B4749E62E13D8161DB621.pdf",
+     "gabarito": "gab_F7D58D24B7A4D199820100D8.pdf",
+     "tipo": "ce",
+     "arquivo": "BE1B4749E62E13D8161DB62194B7CC536291DC120AEB1F6ECB58737F03AF6A25.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_FA1258B6A1BCDE4204446DE9.pdf",
+     "gabarito": "gab_3F5CC58382F74C66DD8AB12E.pdf",
+     "tipo": "ce",
+     "arquivo": "FA1258B6A1BCDE4204446DE9A77226F834606280875CD7FE90FBDD26AD0489C1.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Analista de Regulação – Engenharia Elétrica",
+   "id_cargo": "analista-de-regulacao-engenharia-eletrica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_BE1B4749E62E13D8161DB621.pdf",
+     "gabarito": "gab_F7D58D24B7A4D199820100D8.pdf",
+     "tipo": "ce",
+     "arquivo": "BE1B4749E62E13D8161DB62194B7CC536291DC120AEB1F6ECB58737F03AF6A25.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_CCCB01135912CA9D3EB46C71.pdf",
+     "gabarito": "gab_2C892383519B527AC06C2197.pdf",
+     "tipo": "ce",
+     "arquivo": "CCCB01135912CA9D3EB46C71CCE35FFED6CADB9D4B9A1C0F1D82111C6C218953.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Analista de Regulação – Engenharia Química",
+   "id_cargo": "analista-de-regulacao-engenharia-quimica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_BE1B4749E62E13D8161DB621.pdf",
+     "gabarito": "gab_F7D58D24B7A4D199820100D8.pdf",
+     "tipo": "ce",
+     "arquivo": "BE1B4749E62E13D8161DB62194B7CC536291DC120AEB1F6ECB58737F03AF6A25.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_DAEA17ED16463C4405142311.pdf",
+     "gabarito": "gab_226C26C9754CF3FA6A7D5795.pdf",
+     "tipo": "ce",
+     "arquivo": "DAEA17ED16463C4405142311A2BA182B2D1D7747B4A9BD49F1EA4E7A33CF9804.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp04": {
+   "55": "Uma firma que funcione segundo a função de produção y = 20K^0,6·L^0,4 terá rendimentos crescentes de escala.",
+   "56": "Uma firma que funcione sob a função de produção y = 30√(KL), com capital fixado em K = 250.000, obedecerá à lei dos rendimentos decrescentes em relação ao fator de produção trabalho."
+  },
+  "esp07": {
+   "68": "Considere que, em uma solução aquosa de ácido acético no equilíbrio a 25 °C, as concentrações de reagentes e produtos sejam as seguintes: [HC₂H₃O₂] = 1,65 × 10⁻² mol/L; [H⁺] = 5,44 × 10⁻⁴ mol/L; e [C₂H₃O₂⁻] = 5,44 × 10⁻⁴ mol/L. Nesse caso, a constante de ionização do ácido acético na temperatura em questão é inferior a 2 × 10⁻⁵."
+  }
+ }
+}

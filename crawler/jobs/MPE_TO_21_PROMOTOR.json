@@ -1,0 +1,30 @@
+{
+  "evento": "MPE_TO_21_PROMOTOR",
+  "workdir": "/tmp/mpe_to_21_promotor",
+  "meta": {
+    "banca": "Cebraspe",
+    "orgao": "Ministério Público do Estado do Tocantins",
+    "ano": 2021,
+    "id_orgao": "mpe-to"
+  },
+  "cargos": [
+    {
+      "idArea": "01",
+      "cargo": "Promotor de Justiça Substituto",
+      "id_cargo": "promotor-justica-substituto",
+      "provas": [
+        {
+          "key": "MPE_TO_001_01",
+          "prova": "pro_MPE_TO_001_01.pdf",
+          "gabarito": "gab_MPE_TO_001_01.pdf",
+          "tipo": "mc",
+          "arquivo": "646_MPE_TO_001_01.PDF"
+        }
+      ]
+    }
+  ],
+  "unmatched": [],
+  "variant": "modern",
+  "skip": {},
+  "patch": {}
+}

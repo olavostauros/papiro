@@ -1,0 +1,36 @@
+{
+ "evento": "PREF_CACHOEIRO_24_GUARDA",
+ "workdir": "/tmp/pref_cachoeiro_24_guarda",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Prefeitura de Cachoeiro de Itapemirim",
+  "ano": 2024,
+  "id_orgao": "pref-cachoeiro"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "CARGO DE GUARDA CIVIL MUNICIPAL DO MUNICÍPIO DE CACHOEIRO DE ITAPEMIRIM",
+   "id_cargo": "guarda-civil-municipal",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_PCI_GCM_CB1_01.pdf",
+     "gabarito": "gab_PCI_GCM_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "948_PCI_GCM_CB1_01.PDF"
+    },
+    {
+     "key": "esp",
+     "prova": "pro_PCI_GCM_001_01.pdf",
+     "gabarito": "gab_PCI_GCM_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "948_PCI_GCM_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

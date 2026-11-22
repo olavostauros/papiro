@@ -1,0 +1,426 @@
+{
+ "evento": "CTI_23",
+ "workdir": "/tmp/cti_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "CTI_RENATO_ARCHER_2023",
+  "ano": 2023,
+  "id_orgao": "cti"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Pesquisador Associado I – Micro E Nanoeletrônica",
+   "id_cargo": "pesquisador-associado-i-micro-e-nanoeletronica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_CG1_01.PDF"
+    },
+    {
+     "key": "esp001",
+     "prova": "pro_MCTI_RENATO_ARCHER_001_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_001_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Pesquisador Associado I – Manufatura Aditiva, Simulação Computacional E Processamento De Imagens Aplicados À Saúde",
+   "id_cargo": "pesquisador-associado-i-manufatura-aditiva-simulacao-computacional-e-processamento-de-imagens-aplicados-a-saude",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_CG1_01.PDF"
+    },
+    {
+     "key": "esp002",
+     "prova": "pro_MCTI_RENATO_ARCHER_002_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_002_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Pesquisador Associado I – Biossensores E Biofabricação",
+   "id_cargo": "pesquisador-associado-i-biossensores-e-biofabricacao",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_CG1_01.PDF"
+    },
+    {
+     "key": "esp003",
+     "prova": "pro_MCTI_RENATO_ARCHER_003_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_003_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Tecnologista Pleno 2 – I – Nanotecnologia E Materiais Avançados Aplicados A Fotônica Ou Energia",
+   "id_cargo": "tecnologista-pleno-2-i-nanotecnologia-e-materiais-avancados-aplicados-a-fotonica-ou-energia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_CG1_01.PDF"
+    },
+    {
+     "key": "esp004",
+     "prova": "pro_MCTI_RENATO_ARCHER_004_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_004_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Tecnologista Pleno 2 – I – Micro E Nanoeletrônica",
+   "id_cargo": "tecnologista-pleno-2-i-micro-e-nanoeletronica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_CG1_01.PDF"
+    },
+    {
+     "key": "esp001",
+     "prova": "pro_MCTI_RENATO_ARCHER_001_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_001_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Tecnologista Pleno 2 – I – Inteligência Artificial E Ciência De Dados",
+   "id_cargo": "tecnologista-pleno-2-i-inteligencia-artificial-e-ciencia-de-dados",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_CG1_01.PDF"
+    },
+    {
+     "key": "esp005",
+     "prova": "pro_MCTI_RENATO_ARCHER_005_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_005_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Tecnologista Pleno 2 – I – Manufatura Aditiva, Simulação Computacional E Processamento De Imagens Aplicados À Saúde",
+   "id_cargo": "tecnologista-pleno-2-i-manufatura-aditiva-simulacao-computacional-e-processamento-de-imagens-aplicados-a-saude",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_CG1_01.PDF"
+    },
+    {
+     "key": "esp002",
+     "prova": "pro_MCTI_RENATO_ARCHER_002_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_002_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Tecnologista Pleno 2 – I – Biossensores E Biofabricação",
+   "id_cargo": "tecnologista-pleno-2-i-biossensores-e-biofabricacao",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_CG1_01.PDF"
+    },
+    {
+     "key": "esp003",
+     "prova": "pro_MCTI_RENATO_ARCHER_003_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_003_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Tecnologista Pleno 1 – I – Micro E Nanoeletrônica",
+   "id_cargo": "tecnologista-pleno-1-i-micro-e-nanoeletronica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_CG1_01.PDF"
+    },
+    {
+     "key": "esp001",
+     "prova": "pro_MCTI_RENATO_ARCHER_001_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_001_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Tecnologista Pleno 1 – I – Inteligência Artificial E Ciência De Dados",
+   "id_cargo": "tecnologista-pleno-1-i-inteligencia-artificial-e-ciencia-de-dados",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_CG1_01.PDF"
+    },
+    {
+     "key": "esp005",
+     "prova": "pro_MCTI_RENATO_ARCHER_005_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_005_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Tecnologista Pleno 1 – I – Manufatura Aditiva, Simulação Computacional E Processamento De Imagens Aplicados À Saúde",
+   "id_cargo": "tecnologista-pleno-1-i-manufatura-aditiva-simulacao-computacional-e-processamento-de-imagens-aplicados-a-saude",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_CG1_01.PDF"
+    },
+    {
+     "key": "esp002",
+     "prova": "pro_MCTI_RENATO_ARCHER_002_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_002_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Tecnologista Pleno 1 – I – Sistemas Ciberfísicos E Cidades Inteligentes",
+   "id_cargo": "tecnologista-pleno-1-i-sistemas-ciberfisicos-e-cidades-inteligentes",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_CG1_01.PDF"
+    },
+    {
+     "key": "esp006",
+     "prova": "pro_MCTI_RENATO_ARCHER_006_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_006_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Tecnologista Júnior – I – Nanotecnologia E Materiais Avançados Aplicados A Fotônica Ou Energia",
+   "id_cargo": "tecnologista-junior-i-nanotecnologia-e-materiais-avancados-aplicados-a-fotonica-ou-energia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_CG1_01.PDF"
+    },
+    {
+     "key": "esp004",
+     "prova": "pro_MCTI_RENATO_ARCHER_004_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_004_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "Tecnologista Júnior – I – Micro E Nanoeletrônica",
+   "id_cargo": "tecnologista-junior-i-micro-e-nanoeletronica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_CG1_01.PDF"
+    },
+    {
+     "key": "esp001",
+     "prova": "pro_MCTI_RENATO_ARCHER_001_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_001_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "Tecnologista Júnior – I – Biossensores E Biofabricação",
+   "id_cargo": "tecnologista-junior-i-biossensores-e-biofabricacao",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_CG1_01.PDF"
+    },
+    {
+     "key": "esp003",
+     "prova": "pro_MCTI_RENATO_ARCHER_003_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_003_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "Tecnologista Júnior – I – Manufatura Aditiva, Simulação Computacional E Processamento De Imagens Aplicados À Saúde",
+   "id_cargo": "tecnologista-junior-i-manufatura-aditiva-simulacao-computacional-e-processamento-de-imagens-aplicados-a-saude",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_CG1_01.PDF"
+    },
+    {
+     "key": "esp002",
+     "prova": "pro_MCTI_RENATO_ARCHER_002_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_002_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "17",
+   "cargo": "Tecnologista Júnior – I – Desenvolvimento Tecnológico E Apoio À Gestão De Projetos De Pesquisa, Desenvolvimento E Inovação (P,D&I) E Parque Tecnológico",
+   "id_cargo": "tecnologista-junior-i-desenvolvimento-tecnologico-e-apoio-a-gestao-de-projetos-de-pesquisa-desenvolvimento-e-inovacao-p-d-i-e-parque-tecnologico",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_CG1_01.PDF"
+    },
+    {
+     "key": "esp007",
+     "prova": "pro_MCTI_RENATO_ARCHER_007_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_007_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "18",
+   "cargo": "Tecnologista Júnior – I – Desenvolvimento Tecnológico Voltado À Infraestrutura De Pesquisa E Parque Tecnológico",
+   "id_cargo": "tecnologista-junior-i-desenvolvimento-tecnologico-voltado-a-infraestrutura-de-pesquisa-e-parque-tecnologico",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_CG1_01.PDF"
+    },
+    {
+     "key": "esp008",
+     "prova": "pro_MCTI_RENATO_ARCHER_008_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_008_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "19",
+   "cargo": "Tecnologista Júnior – I – Desenvolvimento Tecnológico Voltado À Infraestrutura De Tecnologia Da Informação E Comunicação",
+   "id_cargo": "tecnologista-junior-i-desenvolvimento-tecnologico-voltado-a-infraestrutura-de-tecnologia-da-informacao-e-comunicacao",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_CG1_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_CG1_01.PDF"
+    },
+    {
+     "key": "esp009",
+     "prova": "pro_MCTI_RENATO_ARCHER_009_0.pdf",
+     "gabarito": "gab_MCTI_RENATO_ARCHER_009_0.pdf",
+     "tipo": "ce",
+     "arquivo": "922_MCTI_RENATO_ARCHER_009_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp001": {
+   "111": "A tensão Hall no dispositivo é igual a 10 µV para uma corrente de 25 A, com um campo magnético de 4 teslas imposto a uma direção perpendicular à corrente.",
+   "113": "A condutividade elétrica do material de construção do dispositivo em questão é maior que 2×10⁵ (Ω∙m)⁻¹.",
+   "72": "O diagrama a seguir ilustra uma configuração compatível com uma porta lógica inversora CMOS, com a entrada representada por Vₑ e a saída, pela tensão Vₛ."
+  },
+  "esp004": {
+   "119": "Para o mesmo peso, uma bateria de níquel-cádmio é capaz de fornecer maior quantidade de watts-hora que uma bateria de íon-lítio, mas em um intervalo de tempo maior."
+  },
+  "esp005": {
+   "96": "Considere que o índice de calor (I) em determinado local depende da temperatura T (em graus Celsius), da umidade H e da velocidade do vento s (em m/s). Considere, ainda, que um modelo de regressão múltipla para I seja descrito por I (H, T) = T + 5,9 H – 0,42 s. Nessa situação, para um dia com temperatura de 31 °C, umidade igual a 0,84 e velocidade do vento de 12 m/s, o índice de calor médio será superior a 35,00."
+  }
+ }
+}

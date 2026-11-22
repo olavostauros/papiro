@@ -1,0 +1,30 @@
+{
+ "evento": "DPE_RO_22_DEFENSOR",
+ "workdir": "/tmp/dpe_ro_22_defensor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Defensoria Pública do Estado de Rondônia",
+  "ano": 2022,
+  "id_orgao": "dpe-ro"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "CARGO DE DEFENSOR PÚBLICO SUBSTITUTO",
+   "id_cargo": "defensor-publico-substituto",
+   "provas": [
+    {
+     "key": "DPE_RO_001_01",
+     "prova": "pro_DPE_RO_001_01.pdf",
+     "gabarito": "gab_DPE_RO_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "783_DPE_RO_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

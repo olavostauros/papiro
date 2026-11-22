@@ -1,0 +1,38 @@
+{
+ "evento": "AGU_26_ESTAGIARIO",
+ "workdir": "/tmp/agu_26_estagiario",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Advocacia-Geral da União",
+  "ano": 2026,
+  "id_orgao": "agu"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Estagiário",
+   "id_cargo": "estagiario",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A781B8BACC7B697102855B4C.pdf",
+     "gabarito": "gab_664614EAA30B6CE3521FF4D8.pdf",
+     "tipo": "mc",
+     "arquivo": "A781B8BACC7B697102855B4CA36D737E2F36D3A7EB65DB459E104357F8644B1F.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp",
+     "prova": "pro_321110F47F86EF3D27E0DB71.pdf",
+     "gabarito": "gab_D0A1EEF81219880ED326E07D.pdf",
+     "tipo": "mc",
+     "arquivo": "321110F47F86EF3D27E0DB71084BE67193B1488C2248183B7F8F6C4938511EB6.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

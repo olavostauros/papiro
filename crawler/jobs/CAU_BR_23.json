@@ -1,0 +1,254 @@
+{
+ "evento": "CAU_BR_23",
+ "workdir": "/tmp/cau_br_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "CAU BR 23",
+  "ano": 2023,
+  "id_orgao": "cau"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Advogado",
+   "id_cargo": "advogado",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_CAU_BR_CB2_01.pdf",
+     "gabarito": "gab_CAU_BR_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "921_CAU_BR_CB2_01.PDF"
+    },
+    {
+     "key": "esp001",
+     "prova": "pro_CAU_BR_001_01.pdf",
+     "gabarito": "gab_CAU_BR_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "921_CAU_BR_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista De Geotecnologia",
+   "id_cargo": "analista-de-geotecnologia",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_CAU_BR_CB3_01.pdf",
+     "gabarito": "gab_CAU_BR_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "921_CAU_BR_CB3_01.PDF"
+    },
+    {
+     "key": "esp002",
+     "prova": "pro_CAU_BR_002_01.pdf",
+     "gabarito": "gab_CAU_BR_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "921_CAU_BR_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista De Infraestrutura De Tecnologia Da Informação",
+   "id_cargo": "analista-de-infraestrutura-de-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_CAU_BR_CB1_01.pdf",
+     "gabarito": "gab_CAU_BR_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "921_CAU_BR_CB1_01.PDF"
+    },
+    {
+     "key": "esp003",
+     "prova": "pro_CAU_BR_003_01.pdf",
+     "gabarito": "gab_CAU_BR_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "921_CAU_BR_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista De Sistema De Informação",
+   "id_cargo": "analista-de-sistema-de-informacao",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_CAU_BR_CB1_01.pdf",
+     "gabarito": "gab_CAU_BR_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "921_CAU_BR_CB1_01.PDF"
+    },
+    {
+     "key": "esp004",
+     "prova": "pro_CAU_BR_004_01.pdf",
+     "gabarito": "gab_CAU_BR_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "921_CAU_BR_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Analista Técnico",
+   "id_cargo": "analista-tecnico",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_CAU_BR_CB3_01.pdf",
+     "gabarito": "gab_CAU_BR_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "921_CAU_BR_CB3_01.PDF"
+    },
+    {
+     "key": "esp005",
+     "prova": "pro_CAU_BR_005_01.pdf",
+     "gabarito": "gab_CAU_BR_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "921_CAU_BR_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Arquiteto E Urbanista",
+   "id_cargo": "arquiteto-e-urbanista",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_CAU_BR_CB3_01.pdf",
+     "gabarito": "gab_CAU_BR_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "921_CAU_BR_CB3_01.PDF"
+    },
+    {
+     "key": "esp006",
+     "prova": "pro_CAU_BR_006_01.pdf",
+     "gabarito": "gab_CAU_BR_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "921_CAU_BR_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Contador",
+   "id_cargo": "contador",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_CAU_BR_CB3_01.pdf",
+     "gabarito": "gab_CAU_BR_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "921_CAU_BR_CB3_01.PDF"
+    },
+    {
+     "key": "esp007",
+     "prova": "pro_CAU_BR_007_01.pdf",
+     "gabarito": "gab_CAU_BR_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "921_CAU_BR_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Jornalista",
+   "id_cargo": "jornalista",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_CAU_BR_CB3_01.pdf",
+     "gabarito": "gab_CAU_BR_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "921_CAU_BR_CB3_01.PDF"
+    },
+    {
+     "key": "esp008",
+     "prova": "pro_CAU_BR_008_01.pdf",
+     "gabarito": "gab_CAU_BR_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "921_CAU_BR_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Assistente Administrativo",
+   "id_cargo": "assistente-administrativo",
+   "provas": [
+    {
+     "key": "cb5",
+     "prova": "pro_CAU_BR_CB5_01.pdf",
+     "gabarito": "gab_CAU_BR_CB5_01.pdf",
+     "tipo": "ce",
+     "arquivo": "921_CAU_BR_CB5_01.PDF"
+    },
+    {
+     "key": "esp009",
+     "prova": "pro_CAU_BR_009_01.pdf",
+     "gabarito": "gab_CAU_BR_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "921_CAU_BR_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Assistente De Tecnologia Da Informação",
+   "id_cargo": "assistente-de-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cb4",
+     "prova": "pro_CAU_BR_CB4_01.pdf",
+     "gabarito": "gab_CAU_BR_CB4_01.pdf",
+     "tipo": "ce",
+     "arquivo": "921_CAU_BR_CB4_01.PDF"
+    },
+    {
+     "key": "esp010",
+     "prova": "pro_CAU_BR_010_01.pdf",
+     "gabarito": "gab_CAU_BR_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "921_CAU_BR_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Assistente Técnico-Financeiro",
+   "id_cargo": "assistente-tecnico-financeiro",
+   "provas": [
+    {
+     "key": "cb5",
+     "prova": "pro_CAU_BR_CB5_01.pdf",
+     "gabarito": "gab_CAU_BR_CB5_01.pdf",
+     "tipo": "ce",
+     "arquivo": "921_CAU_BR_CB5_01.PDF"
+    },
+    {
+     "key": "esp011",
+     "prova": "pro_CAU_BR_011_01.pdf",
+     "gabarito": "gab_CAU_BR_011_01.pdf",
+     "tipo": "ce",
+     "arquivo": "921_CAU_BR_011_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp002": {
+   "60": "As projeções cartográficas podem ser classificadas de acordo com o método de projeção, sendo o método geográfico o mais utilizado na cartografia moderna.",
+   "117": "O coeficiente angular da reta de regressão linear simples da variável resposta Y sobre a variável regressora W — considerando que o intercepto não seja nulo — é igual a 2,4."
+  },
+  "esp011": {
+   "108": "O foco do IGP-M, em sua cesta de apuração, recai sobre os bens de consumo final."
+  }
+ }
+}

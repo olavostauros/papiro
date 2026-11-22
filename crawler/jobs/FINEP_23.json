@@ -1,0 +1,165 @@
+{
+ "evento": "FINEP_23",
+ "workdir": "/tmp/finep_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "FINANCIADORA DE ESTUDOS E PROJETOS",
+  "ano": 2023,
+  "id_orgao": "finep"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista –Análise Estratégica Em Ciência, Tecnologia E Inovação",
+   "id_cargo": "analista-analise-estrategica-em-ciencia-tecnologia-e-inovacao",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_FINEP_CG1_01_OUTRA.pdf",
+     "gabarito": "gab_FINEP_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "931_FINEP_CG1_01_OUTRA.PDF"
+    },
+    {
+     "key": "esp001",
+     "prova": "pro_FINEP_001_01.pdf",
+     "gabarito": "gab_FINEP_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "931_FINEP_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista –Crédito, Finanças E Orçamento",
+   "id_cargo": "analista-credito-financas-e-orcamento",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_FINEP_CG1_01_OUTRA.pdf",
+     "gabarito": "gab_FINEP_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "931_FINEP_CG1_01_OUTRA.PDF"
+    },
+    {
+     "key": "esp002",
+     "prova": "pro_FINEP_002_01.pdf",
+     "gabarito": "gab_FINEP_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "931_FINEP_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista – Jurídica",
+   "id_cargo": "analista-juridica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_FINEP_CG1_01_OUTRA.pdf",
+     "gabarito": "gab_FINEP_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "931_FINEP_CG1_01_OUTRA.PDF"
+    },
+    {
+     "key": "esp003",
+     "prova": "pro_FINEP_003_01.pdf",
+     "gabarito": "gab_FINEP_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "931_FINEP_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista – Gestão Corporativa",
+   "id_cargo": "analista-gestao-corporativa",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_FINEP_CG1_01_OUTRA.pdf",
+     "gabarito": "gab_FINEP_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "931_FINEP_CG1_01_OUTRA.PDF"
+    },
+    {
+     "key": "esp004",
+     "prova": "pro_FINEP_004_01.pdf",
+     "gabarito": "gab_FINEP_004_01.pdf",
+     "tipo": "mc",
+     "arquivo": "931_FINEP_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Analista –Tecnologia Da Informação – Infraestrutura",
+   "id_cargo": "analista-tecnologia-da-informacao-infraestrutura",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_FINEP_CG1_01_OUTRA.pdf",
+     "gabarito": "gab_FINEP_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "931_FINEP_CG1_01_OUTRA.PDF"
+    },
+    {
+     "key": "esp005",
+     "prova": "pro_FINEP_005_01.pdf",
+     "gabarito": "gab_FINEP_005_01.pdf",
+     "tipo": "mc",
+     "arquivo": "931_FINEP_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Analista – Tecnologia Da Informação – Software",
+   "id_cargo": "analista-tecnologia-da-informacao-software",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_FINEP_CG1_01_OUTRA.pdf",
+     "gabarito": "gab_FINEP_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "931_FINEP_CG1_01_OUTRA.PDF"
+    },
+    {
+     "key": "esp006",
+     "prova": "pro_FINEP_006_01.pdf",
+     "gabarito": "gab_FINEP_006_01.pdf",
+     "tipo": "mc",
+     "arquivo": "931_FINEP_006_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp002": {
+   "31": {
+    "enunciado": "x: 0, 1, 2, 3, 4, 5; y: 0, 1, 3, 13, 14, 25. Considerando que a tabela precedente exibe uma amostra aleatória bivariada (x,y) de tamanho n = 6, na qual y representa uma variável dependente e x denota uma variável regressora, assinale a opção que apresenta uma curva de regressão (ŷ) ajustada para esse conjunto de dados mediante aplicação do método de mínimos quadrados ordinários.",
+    "alternativas": [
+     "ŷ = 0,5x² + 12,5",
+     "ŷ = 5x − 2",
+     "ŷ = x²",
+     "ŷ = 3,73 x",
+     "ŷ = 11,2"
+    ]
+   }
+  },
+  "esp006": {
+   "59": {
+    "alternativas": [
+     "− 1",
+     "− 2",
+     "2",
+     "3",
+     "4"
+    ]
+   }
+  }
+ }
+}

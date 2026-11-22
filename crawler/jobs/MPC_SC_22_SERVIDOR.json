@@ -1,0 +1,112 @@
+{
+ "evento": "MPC_SC_22_SERVIDOR",
+ "workdir": "/tmp/mpc_sc_22_servidor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Ministério Público de Contas do Estado de Santa Catarina",
+  "ano": 2022,
+  "id_orgao": "mpc-sc"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "ANALISTA DE CONTAS PÚBLICAS – ESPECIALIDADE: DIREITO",
+   "id_cargo": "analista-contas-direito",
+   "provas": [
+    {
+     "key": "MPC_SC_CB1",
+     "prova": "pro_MPC_SC_SERVIDOR_CB1_01.pdf",
+     "gabarito": "gab_MPC_SC_SERVIDOR_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "727_MPC_SC_SERVIDOR_CB1_01.PDF"
+    },
+    {
+     "key": "MPC_SC_001",
+     "prova": "pro_MPC_SC_SERVIDOR_001_01.pdf",
+     "gabarito": "gab_MPC_SC_SERVIDOR_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "727_MPC_SC_SERVIDOR_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "ANALISTA DE CONTAS PÚBLICAS – ESPECIALIDADES: ADMINISTRAÇÃO, CONTABILIDADE, ECONOMIA OU ENGENHARIA",
+   "id_cargo": "analista-contas-especialidades",
+   "provas": [
+    {
+     "key": "MPC_SC_CB1",
+     "prova": "pro_MPC_SC_SERVIDOR_CB1_01.pdf",
+     "gabarito": "gab_MPC_SC_SERVIDOR_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "727_MPC_SC_SERVIDOR_CB1_01.PDF"
+    },
+    {
+     "key": "MPC_SC_002",
+     "prova": "pro_MPC_SC_SERVIDOR_002_01.pdf",
+     "gabarito": "gab_MPC_SC_SERVIDOR_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "727_MPC_SC_SERVIDOR_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "TÉCNICO EM ATIVIDADES ADMINISTRATIVAS",
+   "id_cargo": "tecnico-atividades-administrativas",
+   "provas": [
+    {
+     "key": "MPC_SC_CB2",
+     "prova": "pro_MPC_SC_SERVIDOR_CB2_01.pdf",
+     "gabarito": "gab_MPC_SC_SERVIDOR_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "727_MPC_SC_SERVIDOR_CB2_01.PDF"
+    },
+    {
+     "key": "MPC_SC_003",
+     "prova": "pro_MPC_SC_SERVIDOR_003_01.pdf",
+     "gabarito": "gab_MPC_SC_SERVIDOR_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "727_MPC_SC_SERVIDOR_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "TÉCNICO EM CONTAS PÚBLICAS",
+   "id_cargo": "tecnico-contas-publicas",
+   "provas": [
+    {
+     "key": "MPC_SC_CB2",
+     "prova": "pro_MPC_SC_SERVIDOR_CB2_01.pdf",
+     "gabarito": "gab_MPC_SC_SERVIDOR_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "727_MPC_SC_SERVIDOR_CB2_01.PDF"
+    },
+    {
+     "key": "MPC_SC_004",
+     "prova": "pro_MPC_SC_SERVIDOR_004_01.pdf",
+     "gabarito": "gab_MPC_SC_SERVIDOR_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "727_MPC_SC_SERVIDOR_004_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "MPC_SC_002": {
+   "115": "Considerando a figura que representa a distribuição da variável quantitativa discreta X — frequência relativa 0,1 para X = 0; 0,5 para X = 1; 0,2 para X = 2; 0,1 para X = 3; 0,1 para X = 4 —, julgue os itens a seguir.\nA mediana de X é igual a 2.",
+   "116": "Considerando a figura que representa a distribuição da variável quantitativa discreta X — frequência relativa 0,1 para X = 0; 0,5 para X = 1; 0,2 para X = 2; 0,1 para X = 3; 0,1 para X = 4 —, julgue os itens a seguir.\nSe μ e M representam, respectivamente, a média e a moda da distribuição da variável X, então μ − M = 0,6.",
+   "117": "Considerando a figura que representa a distribuição da variável quantitativa discreta X — frequência relativa 0,1 para X = 0; 0,5 para X = 1; 0,2 para X = 2; 0,1 para X = 3; 0,1 para X = 4 —, julgue os itens a seguir.\nO desvio padrão da variável X é superior a 2.",
+   "118": "Em relação a uma variável aleatória Y que segue uma distribuição binomial com parâmetros n e p = 0,4, julgue os itens que se seguem.\nA partir de um valor n suficientemente grande, com base no teorema central do limite, é correto afirmar que a variável padronizada (Y − 0,4n)/(0,4n) segue, aproximadamente, a distribuição normal padrão.",
+   "119": "Em relação a uma variável aleatória Y que segue uma distribuição binomial com parâmetros n e p = 0,4, julgue os itens que se seguem.\nA variância de Y é igual a 0,24 × n."
+  },
+  "MPC_SC_CB2": {
+   "29": "O conjunto de listas que não apresentam os nomes de Alberto nem de Bruna pode ser corretamente representado por W − A ∩ B .",
+   "30": "O conjunto de listas que apresentam apenas um dos nomes Alberto ou Bruna pode ser corretamente representado por ( A − B ) ∪ (B − A) ."
+  }
+ }
+}

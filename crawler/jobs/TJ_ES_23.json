@@ -1,0 +1,571 @@
+{
+ "evento": "TJ_ES_23",
+ "workdir": "/tmp/tj_es_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Tribunal de Justiça do Espírito Santo (TJ/ES)",
+  "id_orgao": "tj-es",
+  "ano": 2023,
+  "evento": "TJ_ES_23"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista Judiciário — Área: Administrativa",
+   "id_cargo": "analista-judiciario-administrativa",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_TJ_ES_001_01.pdf",
+     "gabarito": "gab_TJ_ES_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista Judiciário — Apoio Especializado — Especialidade: Administração",
+   "id_cargo": "analista-judiciario-administracao",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_TJ_ES_002_01.pdf",
+     "gabarito": "gab_TJ_ES_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista Judiciário — Apoio Especializado — Especialidade — Arquitetura",
+   "id_cargo": "analista-judiciario-arquitetura",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_TJ_ES_003_01.pdf",
+     "gabarito": "gab_TJ_ES_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista Judiciário — Apoio Especializado — Especialidade — Arquivologia",
+   "id_cargo": "analista-judiciario-arquivologia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_TJ_ES_004_01.pdf",
+     "gabarito": "gab_TJ_ES_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Analista Judiciário — Apoio Especializado — Especialidade — Biblioteconomia",
+   "id_cargo": "analista-judiciario-biblioteconomia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_TJ_ES_005_01.pdf",
+     "gabarito": "gab_TJ_ES_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Analista Judiciário — Apoio Especializado — Especialidade — Comunicação Social",
+   "id_cargo": "analista-judiciario-comunicacao-social",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_TJ_ES_006_01.pdf",
+     "gabarito": "gab_TJ_ES_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Analista Judiciário — Apoio Especializado — Especialidade — Contabilidade",
+   "id_cargo": "analista-judiciario-contabilidade",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_TJ_ES_007_01.pdf",
+     "gabarito": "gab_TJ_ES_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Analista Judiciário — Apoio Especializado — Especialidade — Direito",
+   "id_cargo": "analista-judiciario-direito",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_TJ_ES_008_01.pdf",
+     "gabarito": "gab_TJ_ES_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Analista Judiciário — Apoio Especializado — Especialidade — Economia",
+   "id_cargo": "analista-judiciario-economia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_TJ_ES_009_01.pdf",
+     "gabarito": "gab_TJ_ES_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Analista Judiciário — Apoio Especializado — Especialidade — Enfermagem",
+   "id_cargo": "analista-judiciario-enfermagem",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_TJ_ES_010_01.pdf",
+     "gabarito": "gab_TJ_ES_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Analista Judiciário — Apoio Especializado — Especialidade — Engenharia Civil",
+   "id_cargo": "analista-judiciario-engenharia-civil",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_TJ_ES_011_01.pdf",
+     "gabarito": "gab_TJ_ES_011_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Analista Judiciário — Apoio Especializado — Especialidade — Engenharia Elétrica",
+   "id_cargo": "analista-judiciario-engenharia-eletrica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_TJ_ES_012_01.pdf",
+     "gabarito": "gab_TJ_ES_012_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Analista Judiciário — Apoio Especializado — Especialidade — Engenharia Mecânica",
+   "id_cargo": "analista-judiciario-engenharia-mecanica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_TJ_ES_013_01.pdf",
+     "gabarito": "gab_TJ_ES_013_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_013_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "Analista Judiciário — Apoio Especializado — Especialidade — Estatística",
+   "id_cargo": "analista-judiciario-estatistica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_TJ_ES_014_01.pdf",
+     "gabarito": "gab_TJ_ES_014_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_014_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "Analista Judiciário — Apoio Especializado — Especialidade — Licenciatura Letras",
+   "id_cargo": "analista-judiciario-licenciatura-letras",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_TJ_ES_015_01.pdf",
+     "gabarito": "gab_TJ_ES_015_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_015_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "Analista Judiciário — Apoio Especializado — Especialidade — Medicina Do Trabalho",
+   "id_cargo": "analista-judiciario-medicina-do-trabalho",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp16",
+     "prova": "pro_TJ_ES_016_01.pdf",
+     "gabarito": "gab_TJ_ES_016_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_016_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "17",
+   "cargo": "Analista Judiciário — Apoio Especializado — Especialidade — Pedagogia",
+   "id_cargo": "analista-judiciario-pedagogia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp17",
+     "prova": "pro_TJ_ES_017_01.pdf",
+     "gabarito": "gab_TJ_ES_017_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_017_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "18",
+   "cargo": "Analista Judiciário — Apoio Especializado — Especialidade — Psicologia",
+   "id_cargo": "analista-judiciario-psicologia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp18",
+     "prova": "pro_TJ_ES_018_01.pdf",
+     "gabarito": "gab_TJ_ES_018_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_018_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "19",
+   "cargo": "Analista Judiciário — Apoio Especializado — Especialidade — Serviço Social",
+   "id_cargo": "analista-judiciario-servico-social",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp19",
+     "prova": "pro_TJ_ES_019_01.pdf",
+     "gabarito": "gab_TJ_ES_019_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_019_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "20",
+   "cargo": "Analista Judiciário — Apoio Especializado — Especialidade — Taquigrafia",
+   "id_cargo": "analista-judiciario-taquigrafia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp20",
+     "prova": "pro_TJ_ES_020_01.pdf",
+     "gabarito": "gab_TJ_ES_020_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_020_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "21",
+   "cargo": "Analista Judiciário — Área Judiciária — Especialidade — Comissário De Justiça Da Infância E Juventude",
+   "id_cargo": "analista-judiciario-judiciaria-comissario-infancia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp21",
+     "prova": "pro_TJ_ES_021_01.pdf",
+     "gabarito": "gab_TJ_ES_021_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_021_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "22",
+   "cargo": "Analista Judiciário — Área Judiciária — Especialidade — Direito",
+   "id_cargo": "analista-judiciario-judiciaria-direito",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp22",
+     "prova": "pro_TJ_ES_022_01.pdf",
+     "gabarito": "gab_TJ_ES_022_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_022_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "23",
+   "cargo": "Analista Judiciário — Área Judiciária — Especialidade — Execução Penal",
+   "id_cargo": "analista-judiciario-judiciaria-execucao-penal",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp23",
+     "prova": "pro_TJ_ES_023_01.pdf",
+     "gabarito": "gab_TJ_ES_023_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_023_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "24",
+   "cargo": "Analista Judiciário — Área Judiciária — Especialidade — Oficial De Justiça Avaliador",
+   "id_cargo": "analista-judiciario-judiciaria-oficial-justica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp24",
+     "prova": "pro_TJ_ES_024_01.pdf",
+     "gabarito": "gab_TJ_ES_024_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_024_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "25",
+   "cargo": "Analista Judiciário Especial — Área Judiciária — Especialidade — Contador",
+   "id_cargo": "analista-judiciario-especial-contador",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJ_ES_CG1_01.pdf",
+     "gabarito": "gab_TJ_ES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_CG1_01.PDF"
+    },
+    {
+     "key": "esp25",
+     "prova": "pro_TJ_ES_025_01.pdf",
+     "gabarito": "gab_TJ_ES_025_01.pdf",
+     "tipo": "ce",
+     "arquivo": "803_TJ_ES_025_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "cg": {
+   "34": "Suponha que um arquivo contenha 12 pastas numeradas de 1 a 12, ordenadas de forma aleatória, e que uma advogada precise retirar desse arquivo as pastas 2, 3, 7 e 9. Nessa situação, a probabilidade de que a advogada retire exatamente duas pastas certas e duas pastas erradas, em uma única tentativa, é 56/165."
+  },
+  "esp09": {
+   "57": "No longo-prazo, o custo total equivale a 2Y."
+  },
+  "esp13": {
+   "51": "Pela lei do movimento para a translação, dada a aceleração da gravidade g, tem-se que a força de atrito estático é representada pela expressão F⃗ₑ = (9.000 × aₜ)/g."
+  },
+  "esp14": {
+   "52": "Com n = 17, a variância amostral segue uma distribuição simétrica em torno de 4.",
+   "53": "A variância de S² é igual a 2.",
+   "54": "A variância da razão (X̄ − μ)/S é inferior a 0,5.",
+   "55": "P(X = 1, Y = 1 | Z = 1) = 15 × e⁻⁸.",
+   "56": "P(T = 3) = 243 × e⁻⁹.",
+   "58": "O desvio padrão da diferença T − X é igual a 2.",
+   "59": "A covariância entre T e Z é igual a 1.",
+   "60": "A média de X é inferior a 4.",
+   "61": "P(X ≥ 4) = 0,25.",
+   "62": "Se X > 8, a função de densidade de probabilidade de X é igual a zero.",
+   "63": "P(X ≤ 5|X < 1) = 1.",
+   "65": "A variável aleatória D = e^(−5X) segue distribuição uniforme no intervalo [0, 1].",
+   "66": "A função de densidade da soma Y = X₁ + ⋯ + Xₙ é dada por f(y) = 5ⁿ·y⁴·e^(−5y)/4!, se y ≥ 0, e f(y) = 0, se y < 0.",
+   "67": "A função de densidade da variável aleatória W = 5X é dada por f(w) = 5·e^(−w), se w ≥ 0, e f(w) = 0, se w < 0.",
+   "68": "Se M = min{X₁, …, Xₙ}, então P(M > 1) = e^(−5n).",
+   "69": "Com base na lei fraca dos grandes números, Sₙ converge, em probabilidade, para 2.",
+   "70": "Para uma amostra suficientemente grande, Sₙ segue, aproximadamente, uma distribuição normal.",
+   "73": "Na situação descrita, o intervalo de confiança pode ser corretamente calculado pela fórmula x̄ ± t_{γ/2,(n−1)}·Var(x̄), em que γ corresponde ao nível de confiança e n é o tamanho da amostra."
+  }
+ }
+}

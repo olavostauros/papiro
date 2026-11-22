@@ -1,0 +1,116 @@
+{
+ "evento": "SEFAZ_CE_21",
+ "workdir": "/tmp/sefaz_ce_21",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Secretaria da Fazenda do Estado do Ceará",
+  "ano": 2021,
+  "id_orgao": "sefaz-ce"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Auditor Fiscal da Receita Estadual",
+   "id_cargo": "auditor-fiscal",
+   "provas": [
+    {
+     "key": "cb01",
+     "prova": "pro_SEFAZ_001.pdf",
+     "gabarito": "gab_MATRIZ_598_SEFAZ_CB1_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_598_SEFAZ_001.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_SEFAZ_001.pdf",
+     "gabarito": "gab_MATRIZ_598_SEFAZ_001_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_598_SEFAZ_001.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Auditor Fiscal Contábil-Financeiro da Receita Estadual",
+   "id_cargo": "auditor-fiscal-contabil-financeiro",
+   "provas": [
+    {
+     "key": "cb02",
+     "prova": "pro_SEFAZ_002.pdf",
+     "gabarito": "gab_MATRIZ_598_SEFAZ_CB1_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_598_SEFAZ_002.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_SEFAZ_002.pdf",
+     "gabarito": "gab_MATRIZ_598_SEFAZ_002_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_598_SEFAZ_002.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Auditor Fiscal Jurídico da Receita Estadual",
+   "id_cargo": "auditor-fiscal-juridico",
+   "provas": [
+    {
+     "key": "cb03",
+     "prova": "pro_SEFAZ_003.pdf",
+     "gabarito": "gab_MATRIZ_598_SEFAZ_CB1_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_598_SEFAZ_003.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_SEFAZ_003.pdf",
+     "gabarito": "gab_MATRIZ_598_SEFAZ_003_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_598_SEFAZ_003.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Auditor Fiscal de Tecnologia da Informação da Receita Estadual",
+   "id_cargo": "auditor-fiscal-ti",
+   "provas": [
+    {
+     "key": "cb04",
+     "prova": "pro_SEFAZ_004.pdf",
+     "gabarito": "gab_MATRIZ_598_SEFAZ_CB1_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_598_SEFAZ_004.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_SEFAZ_004.pdf",
+     "gabarito": "gab_MATRIZ_598_SEFAZ_004_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_598_SEFAZ_004.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp01": {
+   "141": "O desvio padrão da variável aleatória Y é igual a 5 transações por semana.",
+   "142": "Se μ e σ representam, respectivamente, a média e o desvio padrão da variável aleatória Y, então o Teorema Central do Limite estabelece que a quantidade Z = (Y − μ)/(σ/√5) segue a distribuição normal padrão.",
+   "143": "P(Y = 0) = P(X1 = 0) + P(X2 = 0) + P(X3 = 0) + P(X4 = 0) + P(X5 = 0) = 5 × e^−5."
+  },
+  "esp02": {
+   "131": "O desvio padrão da variável aleatória Y é igual a 5 transações por semana.",
+   "132": "Se μ e σ representam, respectivamente, a média e o desvio padrão da variável aleatória Y, então o Teorema Central do Limite estabelece que a quantidade Z = (Y − μ)/(σ/√5) segue a distribuição normal padrão.",
+   "133": "P(Y = 0) = P(X1 = 0) + P(X2 = 0) + P(X3 = 0) + P(X4 = 0) + P(X5 = 0) = 5 × e^−5."
+  },
+  "esp04": {
+   "93": "O desvio padrão da variável aleatória Y é igual a 5 transações por semana.",
+   "94": "Se μ e σ representam, respectivamente, a média e o desvio padrão da variável aleatória Y, então o Teorema Central do Limite estabelece que a quantidade Z = (Y − μ)/(σ/√5) segue a distribuição normal padrão.",
+   "95": "P(Y = 0) = P(X1 = 0) + P(X2 = 0) + P(X3 = 0) + P(X4 = 0) + P(X5 = 0) = 5 × e^−5."
+  }
+ }
+}

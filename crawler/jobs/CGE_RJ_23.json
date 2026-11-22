@@ -1,0 +1,36 @@
+{
+ "evento": "CGE_RJ_23",
+ "workdir": "/tmp/cge_rj_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "CONTROLADORIA-GERAL DO ESTADO DO RIO DE JANEIRO",
+  "ano": 2023,
+  "id_orgao": "cge-rj"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Auditor Do Estado",
+   "id_cargo": "auditor-do-estado",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_CGE_RJ_CG1_01.pdf",
+     "gabarito": "gab_CGE_RJ_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "925_CGE_RJ_CG1_01.PDF"
+    },
+    {
+     "key": "esp",
+     "prova": "pro_CGE_RJ_001_01.pdf",
+     "gabarito": "gab_CGE_RJ_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "925_CGE_RJ_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

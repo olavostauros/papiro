@@ -1,0 +1,492 @@
+{
+ "evento": "SESI_SP_23",
+ "workdir": "/tmp/sesi_sp_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "SESI SP 23",
+  "ano": 2023,
+  "id_orgao": "sesi"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Educação Física",
+   "id_cargo": "educacao-fisica",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_SESI_SP_CB1_01.pdf",
+     "gabarito": "gab_SESI_SP_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CB1_01.PDF"
+    },
+    {
+     "key": "esp001",
+     "prova": "pro_SESI_SP_001_01.pdf",
+     "gabarito": "gab_SESI_SP_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Pedagogia",
+   "id_cargo": "pedagogia",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_SESI_SP_CB1_01.pdf",
+     "gabarito": "gab_SESI_SP_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CB1_01.PDF"
+    },
+    {
+     "key": "esp002",
+     "prova": "pro_SESI_SP_002_01.pdf",
+     "gabarito": "gab_SESI_SP_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Arte",
+   "id_cargo": "arte",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_SESI_SP_CB2_01.pdf",
+     "gabarito": "gab_SESI_SP_CB2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CB2_01.PDF"
+    },
+    {
+     "key": "cg1",
+     "prova": "pro_SESI_SP_CG1_01.pdf",
+     "gabarito": "gab_SESI_SP_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CG1_01.PDF"
+    },
+    {
+     "key": "esp003",
+     "prova": "pro_SESI_SP_003_01.pdf",
+     "gabarito": "gab_SESI_SP_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Biologia",
+   "id_cargo": "biologia",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_SESI_SP_CB2_01.pdf",
+     "gabarito": "gab_SESI_SP_CB2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CB2_01.PDF"
+    },
+    {
+     "key": "cg2",
+     "prova": "pro_SESI_SP_CG2_01.pdf",
+     "gabarito": "gab_SESI_SP_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CG2_01.PDF"
+    },
+    {
+     "key": "esp004",
+     "prova": "pro_SESI_SP_004_01.pdf",
+     "gabarito": "gab_SESI_SP_004_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Ciências Da Natureza",
+   "id_cargo": "ciencias-da-natureza",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_SESI_SP_CB2_01.pdf",
+     "gabarito": "gab_SESI_SP_CB2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CB2_01.PDF"
+    },
+    {
+     "key": "cg2",
+     "prova": "pro_SESI_SP_CG2_01.pdf",
+     "gabarito": "gab_SESI_SP_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CG2_01.PDF"
+    },
+    {
+     "key": "esp005",
+     "prova": "pro_SESI_SP_005_01.pdf",
+     "gabarito": "gab_SESI_SP_005_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Filosofia",
+   "id_cargo": "filosofia",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_SESI_SP_CB2_01.pdf",
+     "gabarito": "gab_SESI_SP_CB2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CB2_01.PDF"
+    },
+    {
+     "key": "cg3",
+     "prova": "pro_SESI_SP_CG3_01.pdf",
+     "gabarito": "gab_SESI_SP_CG3_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CG3_01.PDF"
+    },
+    {
+     "key": "esp006",
+     "prova": "pro_SESI_SP_006_01.pdf",
+     "gabarito": "gab_SESI_SP_006_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Física",
+   "id_cargo": "fisica",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_SESI_SP_CB2_01.pdf",
+     "gabarito": "gab_SESI_SP_CB2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CB2_01.PDF"
+    },
+    {
+     "key": "cg2",
+     "prova": "pro_SESI_SP_CG2_01.pdf",
+     "gabarito": "gab_SESI_SP_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CG2_01.PDF"
+    },
+    {
+     "key": "esp007",
+     "prova": "pro_SESI_SP_007_01.pdf",
+     "gabarito": "gab_SESI_SP_007_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Geografia",
+   "id_cargo": "geografia",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_SESI_SP_CB2_01.pdf",
+     "gabarito": "gab_SESI_SP_CB2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CB2_01.PDF"
+    },
+    {
+     "key": "cg3",
+     "prova": "pro_SESI_SP_CG3_01.pdf",
+     "gabarito": "gab_SESI_SP_CG3_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CG3_01.PDF"
+    },
+    {
+     "key": "esp008",
+     "prova": "pro_SESI_SP_008_01.pdf",
+     "gabarito": "gab_SESI_SP_008_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "História",
+   "id_cargo": "historia",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_SESI_SP_CB2_01.pdf",
+     "gabarito": "gab_SESI_SP_CB2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CB2_01.PDF"
+    },
+    {
+     "key": "cg3",
+     "prova": "pro_SESI_SP_CG3_01.pdf",
+     "gabarito": "gab_SESI_SP_CG3_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CG3_01.PDF"
+    },
+    {
+     "key": "esp009",
+     "prova": "pro_SESI_SP_009_01.pdf",
+     "gabarito": "gab_SESI_SP_009_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Língua Inglesa",
+   "id_cargo": "lingua-inglesa",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_SESI_SP_CB2_01.pdf",
+     "gabarito": "gab_SESI_SP_CB2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CB2_01.PDF"
+    },
+    {
+     "key": "cg1",
+     "prova": "pro_SESI_SP_CG1_01.pdf",
+     "gabarito": "gab_SESI_SP_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CG1_01.PDF"
+    },
+    {
+     "key": "esp010",
+     "prova": "pro_SESI_SP_010_01.pdf",
+     "gabarito": "gab_SESI_SP_010_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Língua Portuguesa",
+   "id_cargo": "lingua-portuguesa",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_SESI_SP_CB2_01.pdf",
+     "gabarito": "gab_SESI_SP_CB2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CB2_01.PDF"
+    },
+    {
+     "key": "cg1",
+     "prova": "pro_SESI_SP_CG1_01.pdf",
+     "gabarito": "gab_SESI_SP_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CG1_01.PDF"
+    },
+    {
+     "key": "esp011",
+     "prova": "pro_SESI_SP_011_01.pdf",
+     "gabarito": "gab_SESI_SP_011_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Matemática",
+   "id_cargo": "matematica",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_SESI_SP_CB2_01.pdf",
+     "gabarito": "gab_SESI_SP_CB2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CB2_01.PDF"
+    },
+    {
+     "key": "cg4",
+     "prova": "pro_SESI_SP_CG4_01.pdf",
+     "gabarito": "gab_SESI_SP_CG4_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CG4_01.PDF"
+    },
+    {
+     "key": "esp012",
+     "prova": "pro_SESI_SP_012_01.pdf",
+     "gabarito": "gab_SESI_SP_012_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Programação E Robótica",
+   "id_cargo": "programacao-e-robotica",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_SESI_SP_CB2_01.pdf",
+     "gabarito": "gab_SESI_SP_CB2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CB2_01.PDF"
+    },
+    {
+     "key": "cg2",
+     "prova": "pro_SESI_SP_CG2_01.pdf",
+     "gabarito": "gab_SESI_SP_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CG2_01.PDF"
+    },
+    {
+     "key": "esp013",
+     "prova": "pro_SESI_SP_013_01.pdf",
+     "gabarito": "gab_SESI_SP_013_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_013_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "Química",
+   "id_cargo": "quimica",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_SESI_SP_CB2_01.pdf",
+     "gabarito": "gab_SESI_SP_CB2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CB2_01.PDF"
+    },
+    {
+     "key": "cg2",
+     "prova": "pro_SESI_SP_CG2_01.pdf",
+     "gabarito": "gab_SESI_SP_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CG2_01.PDF"
+    },
+    {
+     "key": "esp014",
+     "prova": "pro_SESI_SP_014_01.pdf",
+     "gabarito": "gab_SESI_SP_014_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_014_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "Sociologia",
+   "id_cargo": "sociologia",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_SESI_SP_CB2_01.pdf",
+     "gabarito": "gab_SESI_SP_CB2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CB2_01.PDF"
+    },
+    {
+     "key": "cg3",
+     "prova": "pro_SESI_SP_CG3_01.pdf",
+     "gabarito": "gab_SESI_SP_CG3_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_CG3_01.PDF"
+    },
+    {
+     "key": "esp015",
+     "prova": "pro_SESI_SP_015_01.pdf",
+     "gabarito": "gab_SESI_SP_015_01.pdf",
+     "tipo": "mc",
+     "arquivo": "919_SESI_SP_015_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {
+  "esp014": [
+   28
+  ]
+ },
+ "patch": {
+  "cg2": {
+   "39": "Em uma equação química, os coeficientes descrevem relações fixas entre as quantidades dos reagentes e dos produtos. Considere a equação a seguir, que representa simplificadamente a reação de combustão do metano, em que a, b, c e d representam os coeficientes estequiométricos. a {metano} + b {oxigênio} → c {dióxido de carbono} + d {água} Assinale a opção que apresenta os menores coeficientes estequiométricos inteiros que balanceiam a equação química em tela."
+  },
+  "esp005": {
+   "29": {
+    "alternativas": [
+     "0 °C",
+     "127 °C",
+     "150 °C",
+     "373 °C",
+     "273 °C"
+    ]
+   }
+  },
+  "esp007": {
+   "26": {
+    "alternativas": [
+     "2π/3",
+     "5π/3",
+     "20π/3",
+     "10π/3",
+     "5π"
+    ]
+   },
+   "28": {
+    "enunciado": "Considere uma mola de constante elástica k = 500 N/m com uma de suas extremidades fixada em uma parede e a outra, em um bloco de massa igual a 1 kg, que pode se movimentar em uma superfície horizontal sem atrito. Assinale a opção que apresenta corretamente a frequência angular, em s⁻¹, desse bloco.",
+    "alternativas": [
+     "10√5",
+     "√5/5",
+     "√5/10",
+     "√5/2",
+     "2√5"
+    ]
+   },
+   "29": {
+    "enunciado": "Considere um bloco de material transparente que esteja sendo atravessado por um feixe luminoso. Admita a velocidade da luz, ao atravessar o bloco, de 1,8 × 10⁸ m/s e considere a velocidade da luz no vácuo igual a 3 × 10⁸ m/s. Assinale a opção que apresenta corretamente o índice de refração do bloco de material transparente.",
+    "alternativas": [
+     "6/5",
+     "2/5",
+     "1/3",
+     "10/3",
+     "5/3"
+    ]
+   }
+  },
+  "esp012": {
+   "19": {
+    "enunciado": "A fração (1,6̅ · 2,25 + 3,4̅)/6,94̅ pode ser reescrita corretamente na forma",
+    "alternativas": [
+     "1,069/1,032",
+     "350/347",
+     "217/347",
+     "20.957/3.817",
+     "387/347"
+    ]
+   },
+   "26": {
+    "alternativas": [
+     "N = n – 6",
+     "N = 6n – 6",
+     "N = n : 6",
+     "N = n mod 6 e N = 0 ⇒ N = 6",
+     "N = 6(n – 2)"
+    ]
+   }
+  }
+ }
+}

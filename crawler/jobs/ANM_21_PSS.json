@@ -1,0 +1,37 @@
+{
+ "evento": "ANM_21_PSS",
+ "workdir": "/tmp/anm_21_pss",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Agência Nacional de Mineração",
+  "ano": 2021,
+  "id_orgao": "anm"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Técnico em Segurança de Barragens",
+   "id_cargo": "tecnico-seguranca-barragens",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_ANM.pdf",
+     "gabarito": "gab_MATRIZ_579_ANM_CB1_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_579_ANM.PDF"
+    },
+    {
+     "key": "esp",
+     "prova": "pro_ANM.pdf",
+     "gabarito": "gab_MATRIZ_579_ANM_001_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_579_ANM.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

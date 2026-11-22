@@ -1,0 +1,1173 @@
+{
+ "evento": "PREF_CAMACARI_BA_23",
+ "workdir": "/tmp/pref_camacari_ba_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Prefeitura de Camaçari/BA",
+  "id_orgao": "camacari",
+  "ano": 2023,
+  "evento": "PREF_CAMACARI_BA_23"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "ASSISTENTE SOCIAL",
+   "id_cargo": "assistente-social",
+   "provas": [
+    {
+     "key": "cg01",
+     "prova": "pro_PREF_CAMACARI_CG1_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_PREF_CAMACARI_CG1_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_PREF_CAMACARI_001_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "COORDENADOR PEDAGÓGICO",
+   "id_cargo": "coordenador-pedagogico",
+   "provas": [
+    {
+     "key": "cg02",
+     "prova": "pro_PREF_CAMACARI_CG1_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_PREF_CAMACARI_002_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "ENFERMEIRO DO TRABALHO",
+   "id_cargo": "enfermeiro-do-trabalho",
+   "provas": [
+    {
+     "key": "cg03",
+     "prova": "pro_PREF_CAMACARI_CG1_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_PREF_CAMACARI_003_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "MÉDICO – ESPECIALIDADE: ACUPUNTURISTA",
+   "id_cargo": "medico-especialidade-acupunturista",
+   "provas": [
+    {
+     "key": "cg04",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_004_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_PREF_CAMACARI_004_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_004_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "MÉDICO – ESPECIALIDADE: ANGIOLOGISTA",
+   "id_cargo": "medico-especialidade-angiologista",
+   "provas": [
+    {
+     "key": "cg05",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_PREF_CAMACARI_005_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_005_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "MÉDICO – ESPECIALIDADE: CARDIOLOGISTA",
+   "id_cargo": "medico-especialidade-cardiologista",
+   "provas": [
+    {
+     "key": "cg06",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_PREF_CAMACARI_006_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_006_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "MÉDICO – ESPECIALIDADE: CLÍNICO DO POSTO DE SAÚDE DA FAMÍLIA (PSF)",
+   "id_cargo": "medico-especialidade-clinico-do-posto-de",
+   "provas": [
+    {
+     "key": "cg07",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_PREF_CAMACARI_007_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_007_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "MÉDICO – ESPECIALIDADE: DERMATOLOGISTA",
+   "id_cargo": "medico-especialidade-dermatologista",
+   "provas": [
+    {
+     "key": "cg08",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_PREF_CAMACARI_008_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_008_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "MÉDICO – ESPECIALIDADE: ENDOCRINOLOGISTA",
+   "id_cargo": "medico-especialidade-endocrinologista",
+   "provas": [
+    {
+     "key": "cg09",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_PREF_CAMACARI_009_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_009_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "MÉDICO – ESPECIALIDADE: GASTROENTEROLOGISTA",
+   "id_cargo": "medico-especialidade-gastroenterologista",
+   "provas": [
+    {
+     "key": "cg10",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_PREF_CAMACARI_010_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_010_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "MÉDICO – ESPECIALIDADE: GASTROENTEROLOGISTA INFANTIL",
+   "id_cargo": "medico-especialidade-gastroenterologista",
+   "provas": [
+    {
+     "key": "cg11",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_PREF_CAMACARI_011_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_011_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "MÉDICO – ESPECIALIDADE: GERIATRA",
+   "id_cargo": "medico-especialidade-geriatra",
+   "provas": [
+    {
+     "key": "cg12",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_PREF_CAMACARI_012_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_012_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "MÉDICO – ESPECIALIDADE: GINECOLOGISTA",
+   "id_cargo": "medico-especialidade-ginecologista",
+   "provas": [
+    {
+     "key": "cg13",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_PREF_CAMACARI_013_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_013_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_013_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "MÉDICO – ESPECIALIDADE: HEMATOLOGISTA",
+   "id_cargo": "medico-especialidade-hematologista",
+   "provas": [
+    {
+     "key": "cg14",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_PREF_CAMACARI_014_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_014_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_014_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "MÉDICO – ESPECIALIDADE: INFECTOLOGISTA",
+   "id_cargo": "medico-especialidade-infectologista",
+   "provas": [
+    {
+     "key": "cg15",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_PREF_CAMACARI_015_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_015_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_015_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "MÉDICO – ESPECIALIDADE: MASTOLOGISTA",
+   "id_cargo": "medico-especialidade-mastologista",
+   "provas": [
+    {
+     "key": "cg16",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp16",
+     "prova": "pro_PREF_CAMACARI_016_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_016_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_016_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "17",
+   "cargo": "MÉDICO – ESPECIALIDADE: NEFROPEDIATRA",
+   "id_cargo": "medico-especialidade-nefropediatra",
+   "provas": [
+    {
+     "key": "cg17",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp17",
+     "prova": "pro_PREF_CAMACARI_017_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_017_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_017_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "18",
+   "cargo": "MÉDICO – ESPECIALIDADE: NEUROLOGISTA",
+   "id_cargo": "medico-especialidade-neurologista",
+   "provas": [
+    {
+     "key": "cg18",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp18",
+     "prova": "pro_PREF_CAMACARI_018_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_018_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_018_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "19",
+   "cargo": "MÉDICO – ESPECIALIDADE: NEUROPEDIATRA",
+   "id_cargo": "medico-especialidade-neuropediatra",
+   "provas": [
+    {
+     "key": "cg19",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp19",
+     "prova": "pro_PREF_CAMACARI_019_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_019_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_019_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "20",
+   "cargo": "MÉDICO – ESPECIALIDADE: OFTALMOLOGISTA",
+   "id_cargo": "medico-especialidade-oftalmologista",
+   "provas": [
+    {
+     "key": "cg20",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp20",
+     "prova": "pro_PREF_CAMACARI_020_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_020_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_020_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "22",
+   "cargo": "MÉDICO – ESPECIALIDADE: ORTOPEDISTA",
+   "id_cargo": "medico-especialidade-ortopedista",
+   "provas": [
+    {
+     "key": "cg22",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp22",
+     "prova": "pro_PREF_CAMACARI_022_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_022_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_022_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "23",
+   "cargo": "MÉDICO – ESPECIALIDADE: PEDIATRA",
+   "id_cargo": "medico-especialidade-pediatra",
+   "provas": [
+    {
+     "key": "cg23",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp23",
+     "prova": "pro_PREF_CAMACARI_023_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_023_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_023_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "24",
+   "cargo": "MÉDICO – ESPECIALIDADE: PNEUMOLOGISTA",
+   "id_cargo": "medico-especialidade-pneumologista",
+   "provas": [
+    {
+     "key": "cg24",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp24",
+     "prova": "pro_PREF_CAMACARI_024_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_024_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_024_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "25",
+   "cargo": "MÉDICO – ESPECIALIDADE: PROCTOLOGISTA",
+   "id_cargo": "medico-especialidade-proctologista",
+   "provas": [
+    {
+     "key": "cg25",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp25",
+     "prova": "pro_PREF_CAMACARI_025_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_025_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_025_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "26",
+   "cargo": "MÉDICO – ESPECIALIDADE: PSIQUIATRA",
+   "id_cargo": "medico-especialidade-psiquiatra",
+   "provas": [
+    {
+     "key": "cg26",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp26",
+     "prova": "pro_PREF_CAMACARI_026_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_026_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_026_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "27",
+   "cargo": "MÉDICO – ESPECIALIDADE: REGULADOR",
+   "id_cargo": "medico-especialidade-regulador",
+   "provas": [
+    {
+     "key": "cg27",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp27",
+     "prova": "pro_PREF_CAMACARI_027_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_027_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_027_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "28",
+   "cargo": "MÉDICO – ESPECIALIDADE: REUMATOLOGISTA",
+   "id_cargo": "medico-especialidade-reumatologista",
+   "provas": [
+    {
+     "key": "cg28",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp28",
+     "prova": "pro_PREF_CAMACARI_028_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_028_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_028_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "29",
+   "cargo": "MÉDICO – ESPECIALIDADE: SOCORRISTA",
+   "id_cargo": "medico-especialidade-socorrista",
+   "provas": [
+    {
+     "key": "cg29",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp29",
+     "prova": "pro_PREF_CAMACARI_029_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_029_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_029_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "30",
+   "cargo": "MÉDICO – ESPECIALIDADE: UROLOGISTA",
+   "id_cargo": "medico-especialidade-urologista",
+   "provas": [
+    {
+     "key": "cg30",
+     "prova": "pro_PREF_CAMACARI_CG2_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG2_01.PDF"
+    },
+    {
+     "key": "esp30",
+     "prova": "pro_PREF_CAMACARI_030_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_030_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_030_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "32",
+   "cargo": "NUTRICIONISTA",
+   "id_cargo": "nutricionista",
+   "provas": [
+    {
+     "key": "cg32",
+     "prova": "pro_PREF_CAMACARI_CG1_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG1_01.PDF"
+    },
+    {
+     "key": "esp32",
+     "prova": "pro_PREF_CAMACARI_032_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_032_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_032_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "33",
+   "cargo": "PROCURADOR DO MUNICÍPIO",
+   "id_cargo": "procurador-do-municipio",
+   "provas": [
+    {
+     "key": "esp33",
+     "prova": "pro_PREF_CAMACARI_033_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_033_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_033_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "34",
+   "cargo": "PROFESSOR – DISCIPLINA: CIÊNCIAS",
+   "id_cargo": "professor-disciplina-ciencias",
+   "provas": [
+    {
+     "key": "cg34",
+     "prova": "pro_PREF_CAMACARI_CG1_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG1_01.PDF"
+    },
+    {
+     "key": "esp34",
+     "prova": "pro_PREF_CAMACARI_034_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_034_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_034_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "35",
+   "cargo": "PROFESSOR – DISCIPLINA: EDUCAÇÃO ARTÍSTICA",
+   "id_cargo": "professor-disciplina-educacao-artistica",
+   "provas": [
+    {
+     "key": "cg35",
+     "prova": "pro_PREF_CAMACARI_CG1_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG1_01.PDF"
+    },
+    {
+     "key": "esp35",
+     "prova": "pro_PREF_CAMACARI_035_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_035_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_035_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "36",
+   "cargo": "PROFESSOR – DISCIPLINA: EDUCAÇÃO FÍSICA",
+   "id_cargo": "professor-disciplina-educacao-fisica",
+   "provas": [
+    {
+     "key": "cg36",
+     "prova": "pro_PREF_CAMACARI_CG1_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG1_01.PDF"
+    },
+    {
+     "key": "esp36",
+     "prova": "pro_PREF_CAMACARI_036_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_036_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_036_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "37",
+   "cargo": "PROFESSOR – DISCIPLINA: EDUCAÇÃO INFANTIL E ENSINO FUNDAMENTAL (1º AO 5º ANO)",
+   "id_cargo": "professor-disciplina-educacao-infantil-e",
+   "provas": [
+    {
+     "key": "cg37",
+     "prova": "pro_PREF_CAMACARI_CG1_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG1_01.PDF"
+    },
+    {
+     "key": "esp37",
+     "prova": "pro_PREF_CAMACARI_037_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_037_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_037_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "38",
+   "cargo": "PROFESSOR – DISCIPLINA: FILOSOFIA",
+   "id_cargo": "professor-disciplina-filosofia",
+   "provas": [
+    {
+     "key": "cg38",
+     "prova": "pro_PREF_CAMACARI_CG1_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG1_01.PDF"
+    },
+    {
+     "key": "esp38",
+     "prova": "pro_PREF_CAMACARI_038_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_038_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_038_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "39",
+   "cargo": "PROFESSOR – DISCIPLINA: GEOGRAFIA",
+   "id_cargo": "professor-disciplina-geografia",
+   "provas": [
+    {
+     "key": "cg39",
+     "prova": "pro_PREF_CAMACARI_CG1_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG1_01.PDF"
+    },
+    {
+     "key": "esp39",
+     "prova": "pro_PREF_CAMACARI_039_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_039_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_039_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "40",
+   "cargo": "PROFESSOR – DISCIPLINA: HISTÓRIA",
+   "id_cargo": "professor-disciplina-historia",
+   "provas": [
+    {
+     "key": "cg40",
+     "prova": "pro_PREF_CAMACARI_CG1_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG1_01.PDF"
+    },
+    {
+     "key": "esp40",
+     "prova": "pro_PREF_CAMACARI_040_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_040_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_040_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "41",
+   "cargo": "PROFESSOR – DISCIPLINA: LÍNGUA INGLESA",
+   "id_cargo": "professor-disciplina-lingua-inglesa",
+   "provas": [
+    {
+     "key": "cg41",
+     "prova": "pro_PREF_CAMACARI_CG1_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG1_01.PDF"
+    },
+    {
+     "key": "esp41",
+     "prova": "pro_PREF_CAMACARI_041_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_041_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_041_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "42",
+   "cargo": "PROFESSOR – DISCIPLINA: LÍNGUA PORTUGUESA",
+   "id_cargo": "professor-disciplina-lingua-portuguesa",
+   "provas": [
+    {
+     "key": "cg42",
+     "prova": "pro_PREF_CAMACARI_CG1_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG1_01.PDF"
+    },
+    {
+     "key": "esp42",
+     "prova": "pro_PREF_CAMACARI_042_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_042_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_042_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "43",
+   "cargo": "PROFESSOR – DISCIPLINA: MATEMÁTICA",
+   "id_cargo": "professor-disciplina-matematica",
+   "provas": [
+    {
+     "key": "cg43",
+     "prova": "pro_PREF_CAMACARI_CG1_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG1_01.PDF"
+    },
+    {
+     "key": "esp43",
+     "prova": "pro_PREF_CAMACARI_043_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_043_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_043_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "44",
+   "cargo": "PSICÓLOGO",
+   "id_cargo": "psicologo",
+   "provas": [
+    {
+     "key": "cg44",
+     "prova": "pro_PREF_CAMACARI_CG1_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG1_01.PDF"
+    },
+    {
+     "key": "esp44",
+     "prova": "pro_PREF_CAMACARI_044_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_044_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_044_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "45",
+   "cargo": "TÉCNICO FAZENDÁRIO",
+   "id_cargo": "tecnico-fazendario",
+   "provas": [
+    {
+     "key": "cg45",
+     "prova": "pro_PREF_CAMACARI_CG1_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG1_01.PDF"
+    },
+    {
+     "key": "esp45",
+     "prova": "pro_PREF_CAMACARI_045_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_045_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_045_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "46",
+   "cargo": "AGENTE COMUNITÁRIO DE SAÚDE",
+   "id_cargo": "agente-comunitario-de-saude",
+   "provas": [
+    {
+     "key": "cg46",
+     "prova": "pro_PREF_CAMACARI_CG3_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG3_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG3_01.PDF"
+    },
+    {
+     "key": "esp46",
+     "prova": "pro_PREF_CAMACARI_046_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_046_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_046_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "47",
+   "cargo": "AGENTE DE COMBATE ÀS ENDEMIAS",
+   "id_cargo": "agente-de-combate-as-endemias",
+   "provas": [
+    {
+     "key": "cg47",
+     "prova": "pro_PREF_CAMACARI_CG3_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG3_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG3_01.PDF"
+    },
+    {
+     "key": "esp47",
+     "prova": "pro_PREF_CAMACARI_047_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_047_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_047_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "48",
+   "cargo": "ASSISTENTE ADMINISTRATIVO",
+   "id_cargo": "assistente-administrativo",
+   "provas": [
+    {
+     "key": "cg48",
+     "prova": "pro_PREF_CAMACARI_CG3_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG3_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG3_01.PDF"
+    },
+    {
+     "key": "esp48",
+     "prova": "pro_PREF_CAMACARI_048_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_048_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_048_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "49",
+   "cargo": "CUIDADOR EDUCACIONAL",
+   "id_cargo": "cuidador-educacional",
+   "provas": [
+    {
+     "key": "cg49",
+     "prova": "pro_PREF_CAMACARI_CG3_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG3_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG3_01.PDF"
+    },
+    {
+     "key": "esp49",
+     "prova": "pro_PREF_CAMACARI_049_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_049_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_049_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "50",
+   "cargo": "FISCAL DO USO DO SOLO E MEIO AMBIENTE",
+   "id_cargo": "fiscal-do-uso-do-solo-e-meio-ambiente",
+   "provas": [
+    {
+     "key": "cg50",
+     "prova": "pro_PREF_CAMACARI_CG3_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG3_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG3_01.PDF"
+    },
+    {
+     "key": "esp50",
+     "prova": "pro_PREF_CAMACARI_050_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_050_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_050_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "51",
+   "cargo": "INTÉRPRETE DE LÍNGUA DE SINAIS",
+   "id_cargo": "interprete-de-lingua-de-sinais",
+   "provas": [
+    {
+     "key": "cg51",
+     "prova": "pro_PREF_CAMACARI_CG3_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG3_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG3_01.PDF"
+    },
+    {
+     "key": "esp51",
+     "prova": "pro_PREF_CAMACARI_051_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_051_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_051_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "52",
+   "cargo": "TRANSCRITOR DO SISTEMA BRAILLE",
+   "id_cargo": "transcritor-do-sistema-braille",
+   "provas": [
+    {
+     "key": "cg52",
+     "prova": "pro_PREF_CAMACARI_CG3_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG3_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG3_01.PDF"
+    },
+    {
+     "key": "esp52",
+     "prova": "pro_PREF_CAMACARI_052_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_052_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_052_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "53",
+   "cargo": "OPERADOR DE RÁDIO",
+   "id_cargo": "operador-de-radio",
+   "provas": [
+    {
+     "key": "cg53",
+     "prova": "pro_PREF_CAMACARI_CG3_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG3_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG3_01.PDF"
+    },
+    {
+     "key": "esp53",
+     "prova": "pro_PREF_CAMACARI_053_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_053_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_053_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "54",
+   "cargo": "TÉCNICO EM ENFERMAGEM DO TRABALHO",
+   "id_cargo": "tecnico-em-enfermagem-do-trabalho",
+   "provas": [
+    {
+     "key": "cg54",
+     "prova": "pro_PREF_CAMACARI_CG3_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG3_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG3_01.PDF"
+    },
+    {
+     "key": "esp54",
+     "prova": "pro_PREF_CAMACARI_054_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_054_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_054_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "55",
+   "cargo": "TÉCNICO EM SEGURANÇA DO TRABALHO",
+   "id_cargo": "tecnico-em-seguranca-do-trabalho",
+   "provas": [
+    {
+     "key": "cg55",
+     "prova": "pro_PREF_CAMACARI_CG3_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_CG3_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_CG3_01.PDF"
+    },
+    {
+     "key": "esp55",
+     "prova": "pro_PREF_CAMACARI_055_01.pdf",
+     "gabarito": "gab_PREF_CAMACARI_055_01.pdf",
+     "tipo": "mc",
+     "arquivo": "891_PREF_CAMACARI_055_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {
+  "esp48": [
+   40
+  ]
+ },
+ "patch": {
+  "esp43": {
+   "21": "Acerca das operações entre números irracionais, julgue os itens a seguir, considerando que a e b sejam números irracionais (I) distintos. I Se c = a + b, então, para todo a e b ∈ I, c é irracional. II Se c = a × b, então, para todo a e b ∈ I, c é irracional. III Se c = aⁿ, sendo n um número natural (N), então, para todo a ∈ I e para todo n ∈ N, c é irracional. Assinale a opção correta.",
+   "31": {
+    "enunciado": "A equação polinomial 1 + x + x² + x³ + x⁴ + x⁵ = 0 possui dois pares de raízes complexas conjugadas e uma raiz real. Considerando i² = −1, assinale a opção que apresenta as raízes complexas dessa equação.",
+    "alternativas": [
+     "x₁ = e^(πi/3), x₂ = e^(2πi/3), x₃ = e^(4πi/3) e x₄ = e^(5πi/3)",
+     "x₁ = e^(πi/5), x₂ = e^(2πi/5), x₃ = e^(3πi/5) e x₄ = e^(4πi/5)",
+     "x₁ = e^(πi/6), x₂ = e^(πi/3), x₃ = e^(πi/2) e x₄ = e^(2πi/3)",
+     "x₁ = e^(πi/3), x₂ = e^(2πi/3), x₃ = e^(πi) e x₄ = e^(4πi/3)",
+     "x₁ = e^(πi/5), x₂ = e^(3πi/5), x₃ = e^(6πi/5) e x₄ = e^(7πi/5)"
+    ]
+   },
+   "32": {
+    "alternativas": [
+     "6/23.",
+     "11/23.",
+     "12/23.",
+     "1/4.",
+     "1/2."
+    ]
+   },
+   "33": {
+    "enunciado": "O conjunto de dados x₁, x₂, …, xₙ tem variância amostral σ² e média aritmética x̄. Se o dado x_{n+1} for incluído nesse conjunto de forma que a média do novo conjunto de dados permaneça inalterada, assinale a opção que apresenta a variância s² do novo conjunto de dados.",
+    "alternativas": [
+     "s² = (1 − 1/n)²σ²",
+     "s² = (1 − 1/(n+1))σ²",
+     "s² = (1 + 1/(n+1))σ²",
+     "s² = (1 − 1/n)σ²",
+     "s² = (1 + 1/n)σ²"
+    ]
+   }
+  }
+ }
+}

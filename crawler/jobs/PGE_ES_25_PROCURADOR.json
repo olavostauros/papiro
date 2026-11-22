@@ -1,0 +1,27 @@
+{
+ "evento": "PGE_ES_25_PROCURADOR",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "PGE-ES",
+  "ano": 2025,
+  "id_orgao": "pge-es"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Procurador do Estado",
+   "id_cargo": "procurador-do-estado",
+   "provas": [
+    {
+     "key": "obj",
+     "prova": "pro_B74D957199F41F1F09471843.pdf",
+     "gabarito": "gab_C3001B6627B2DCD5570E3B4D.pdf",
+     "tipo": "mc",
+     "arquivo": "B74D957199F41F1F09471843AFEE009AE57464FCB4EF02AA9684E2E2206FD832.pdf"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {}
+}

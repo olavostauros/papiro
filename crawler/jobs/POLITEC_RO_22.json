@@ -1,0 +1,399 @@
+{
+ "evento": "POLITEC_RO_22",
+ "workdir": "/tmp/politec_ro_22",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Polícia Técnico-Científica de Rondônia",
+  "ano": 2021,
+  "id_orgao": "politec"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Cargo 1: Perito Criminal – Área 1",
+   "id_cargo": "perito-criminal-area-1",
+   "provas": [
+    {
+     "key": "POLITEC_PERITO_001_01",
+     "prova": "pro_POLITEC_PERITO_001_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_001_01.PDF"
+    },
+    {
+     "key": "POLITEC_PERITO_CG1_01",
+     "prova": "pro_POLITEC_PERITO_CG1_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Cargo 2: Perito Criminal – Área 2",
+   "id_cargo": "perito-criminal-area-2",
+   "provas": [
+    {
+     "key": "POLITEC_PERITO_002_01",
+     "prova": "pro_POLITEC_PERITO_002_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_002_01.PDF"
+    },
+    {
+     "key": "POLITEC_PERITO_CG1_01",
+     "prova": "pro_POLITEC_PERITO_CG1_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Cargo 3: Perito Criminal – Área 3",
+   "id_cargo": "perito-criminal-area-3",
+   "provas": [
+    {
+     "key": "POLITEC_PERITO_003_01",
+     "prova": "pro_POLITEC_PERITO_003_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_003_01.PDF"
+    },
+    {
+     "key": "POLITEC_PERITO_CG1_01",
+     "prova": "pro_POLITEC_PERITO_CG1_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Cargo 4: Perito Criminal – Área 4",
+   "id_cargo": "perito-criminal-area-4",
+   "provas": [
+    {
+     "key": "POLITEC_PERITO_004_01",
+     "prova": "pro_POLITEC_PERITO_004_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_004_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_004_01.PDF"
+    },
+    {
+     "key": "POLITEC_PERITO_CG1_01",
+     "prova": "pro_POLITEC_PERITO_CG1_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Cargo 5: Perito Criminal – Área 5",
+   "id_cargo": "perito-criminal-area-5",
+   "provas": [
+    {
+     "key": "POLITEC_PERITO_005_01",
+     "prova": "pro_POLITEC_PERITO_005_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_005_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_005_01.PDF"
+    },
+    {
+     "key": "POLITEC_PERITO_CG1_01",
+     "prova": "pro_POLITEC_PERITO_CG1_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Cargo 6: Perito Criminal – Área 6",
+   "id_cargo": "perito-criminal-area-6",
+   "provas": [
+    {
+     "key": "POLITEC_PERITO_CG2_01",
+     "prova": "pro_POLITEC_PERITO_CG2_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_CG2_01.PDF"
+    },
+    {
+     "key": "POLITEC_PERITO_006_01",
+     "prova": "pro_POLITEC_PERITO_006_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_006_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Cargo 7: Perito Criminal – Área 7",
+   "id_cargo": "perito-criminal-area-7",
+   "provas": [
+    {
+     "key": "POLITEC_PERITO_007_01",
+     "prova": "pro_POLITEC_PERITO_007_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_007_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_007_01.PDF"
+    },
+    {
+     "key": "POLITEC_PERITO_CG1_01",
+     "prova": "pro_POLITEC_PERITO_CG1_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Cargo 8: Perito Criminal – Área 8",
+   "id_cargo": "perito-criminal-area-8",
+   "provas": [
+    {
+     "key": "POLITEC_PERITO_008_01",
+     "prova": "pro_POLITEC_PERITO_008_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_008_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_008_01.PDF"
+    },
+    {
+     "key": "POLITEC_PERITO_CG1_01",
+     "prova": "pro_POLITEC_PERITO_CG1_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Cargo 9: Perito Criminal – Área 9",
+   "id_cargo": "perito-criminal-area-9",
+   "provas": [
+    {
+     "key": "POLITEC_PERITO_009_01",
+     "prova": "pro_POLITEC_PERITO_009_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_009_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_009_01.PDF"
+    },
+    {
+     "key": "POLITEC_PERITO_CG1_01",
+     "prova": "pro_POLITEC_PERITO_CG1_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Cargo 10: Perito Criminal – Área 10",
+   "id_cargo": "perito-criminal-area-10",
+   "provas": [
+    {
+     "key": "POLITEC_PERITO_010_01",
+     "prova": "pro_POLITEC_PERITO_010_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_010_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_010_01.PDF"
+    },
+    {
+     "key": "POLITEC_PERITO_CG1_01",
+     "prova": "pro_POLITEC_PERITO_CG1_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Cargo 11: Perito Criminal – Área 11",
+   "id_cargo": "perito-criminal-area-11",
+   "provas": [
+    {
+     "key": "POLITEC_PERITO_011_01",
+     "prova": "pro_POLITEC_PERITO_011_01.pdf",
+     "gabarito": "gab_011_fixed.txt",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_011_01.PDF"
+    },
+    {
+     "key": "POLITEC_PERITO_CG1_01",
+     "prova": "pro_POLITEC_PERITO_CG1_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Cargo 12: Perito Criminal – Área 12",
+   "id_cargo": "perito-criminal-area-12",
+   "provas": [
+    {
+     "key": "POLITEC_PERITO_012_01",
+     "prova": "pro_POLITEC_PERITO_012_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_012_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_012_01.PDF"
+    },
+    {
+     "key": "POLITEC_PERITO_CG1_01",
+     "prova": "pro_POLITEC_PERITO_CG1_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Cargo 13: Perito Criminal – Área 13",
+   "id_cargo": "perito-criminal-area-13",
+   "provas": [
+    {
+     "key": "POLITEC_PERITO_013_01",
+     "prova": "pro_POLITEC_PERITO_013_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_013_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_013_01.PDF"
+    },
+    {
+     "key": "POLITEC_PERITO_CG1_01",
+     "prova": "pro_POLITEC_PERITO_CG1_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "Cargo 14: Perito Criminal – Área 14",
+   "id_cargo": "perito-criminal-area-14",
+   "provas": [
+    {
+     "key": "POLITEC_PERITO_014_01",
+     "prova": "pro_POLITEC_PERITO_014_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_014_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_014_01.PDF"
+    },
+    {
+     "key": "POLITEC_PERITO_CG1_01",
+     "prova": "pro_POLITEC_PERITO_CG1_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "Cargo 15: Perito Criminal – Área 15",
+   "id_cargo": "perito-criminal-area-15",
+   "provas": [
+    {
+     "key": "POLITEC_PERITO_015_01",
+     "prova": "pro_POLITEC_PERITO_015_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_015_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_015_01.PDF"
+    },
+    {
+     "key": "POLITEC_PERITO_CG1_01",
+     "prova": "pro_POLITEC_PERITO_CG1_01.pdf",
+     "gabarito": "gab_POLITEC_PERITO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "697_POLITEC_PERITO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "Cargo 16: Agente de Criminalística",
+   "id_cargo": "agente-criminalistica",
+   "provas": [
+    {
+     "key": "POLITEC_AGENTE_001_01",
+     "prova": "pro_POLITEC_AGENTE_001_01.pdf",
+     "gabarito": "gab_POLITEC_AGENTE_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "698_POLITEC_AGENTE_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {
+  "POLITEC_PERITO_CG2_01": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "POLITEC_PERITO_006_01": [
+   93
+  ],
+  "POLITEC_PERITO_007_01": [
+   81,
+   82,
+   83,
+   84,
+   85,
+   86,
+   89,
+   90,
+   91,
+   92,
+   93,
+   98,
+   99
+  ],
+  "POLITEC_PERITO_008_01": [
+   92,
+   97
+  ],
+  "POLITEC_PERITO_010_01": [
+   71,
+   75,
+   76,
+   77,
+   78,
+   79
+  ],
+  "POLITEC_PERITO_011_01": [
+   76,
+   80
+  ],
+  "POLITEC_PERITO_012_01": [
+   84,
+   91,
+   92,
+   95
+  ],
+  "POLITEC_AGENTE_001_01": [
+   43,
+   46,
+   49,
+   52,
+   68
+  ]
+ },
+ "patch": {}
+}

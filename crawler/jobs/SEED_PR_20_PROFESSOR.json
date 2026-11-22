@@ -1,0 +1,856 @@
+{
+  "evento": "SEED_PR_20_PROFESSOR",
+  "workdir": "/tmp/seed_pr_20_professor",
+  "meta": {
+    "banca": "Cebraspe",
+    "orgao": "Secretaria de Estado da Educação do Paraná",
+    "ano": 2020,
+    "id_orgao": "seed-pr"
+  },
+  "cargos": [
+    {
+      "idArea": "01",
+      "cargo": "Arte",
+      "id_cargo": "arte",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_001_01",
+          "prova": "pro_SEED_001_01.pdf",
+          "gabarito": "gab_SEED_001_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_001_01.PDF",
+          "num_offset": 8
+        }
+      ]
+    },
+    {
+      "idArea": "02",
+      "cargo": "Educação Física",
+      "id_cargo": "educacao-fisica",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_002_01",
+          "prova": "pro_SEED_002_01.pdf",
+          "gabarito": "gab_SEED_002_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_002_01.PDF",
+          "num_offset": 8
+        }
+      ]
+    },
+    {
+      "idArea": "03",
+      "cargo": "Língua Inglesa",
+      "id_cargo": "lingua-ingles",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_003_01",
+          "prova": "pro_SEED_003_01.pdf",
+          "gabarito": "gab_SEED_003_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_003_01.PDF",
+          "num_offset": 8
+        }
+      ]
+    },
+    {
+      "idArea": "04",
+      "cargo": "Língua Espanhola",
+      "id_cargo": "lingua-espanhol",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_004_01",
+          "prova": "pro_SEED_004_01.pdf",
+          "gabarito": "gab_SEED_004_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_004_01.PDF",
+          "num_offset": 8
+        }
+      ]
+    },
+    {
+      "idArea": "05",
+      "cargo": "Língua Portuguesa",
+      "id_cargo": "lingua-portuguesa",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_005_01",
+          "prova": "pro_SEED_005_01.pdf",
+          "gabarito": "gab_SEED_005_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_005_01.PDF",
+          "num_offset": 8
+        }
+      ]
+    },
+    {
+      "idArea": "06",
+      "cargo": "Matemática",
+      "id_cargo": "matematica",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_006_01",
+          "prova": "pro_SEED_006_01.pdf",
+          "gabarito": "gab_SEED_006_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_006_01.PDF",
+          "num_offset": 8
+        }
+      ]
+    },
+    {
+      "idArea": "07",
+      "cargo": "Ciências",
+      "id_cargo": "ciencias",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_007_01",
+          "prova": "pro_SEED_007_01.pdf",
+          "gabarito": "gab_SEED_007_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_007_01.PDF",
+          "num_offset": 8
+        }
+      ]
+    },
+    {
+      "idArea": "08",
+      "cargo": "Biologia",
+      "id_cargo": "biologia",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_008_01",
+          "prova": "pro_SEED_008_01.pdf",
+          "gabarito": "gab_SEED_008_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_008_01.PDF",
+          "num_offset": 8
+        }
+      ]
+    },
+    {
+      "idArea": "09",
+      "cargo": "Física",
+      "id_cargo": "fisica",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_009_01",
+          "prova": "pro_SEED_009_01.pdf",
+          "gabarito": "gab_SEED_009_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_009_01.PDF",
+          "num_offset": 8
+        }
+      ]
+    },
+    {
+      "idArea": "10",
+      "cargo": "Química",
+      "id_cargo": "quimica",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_010_01",
+          "prova": "pro_SEED_010_01.pdf",
+          "gabarito": "gab_SEED_010_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_010_01.PDF",
+          "num_offset": 8
+        }
+      ]
+    },
+    {
+      "idArea": "11",
+      "cargo": "Filosofia",
+      "id_cargo": "filosofia",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_011_01",
+          "prova": "pro_SEED_011_01.pdf",
+          "gabarito": "gab_SEED_011_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_011_01.PDF",
+          "num_offset": 8
+        }
+      ]
+    },
+    {
+      "idArea": "12",
+      "cargo": "Geografia",
+      "id_cargo": "geografia",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_012_01",
+          "prova": "pro_SEED_012_01.pdf",
+          "gabarito": "gab_SEED_012_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_012_01.PDF",
+          "num_offset": 8
+        }
+      ]
+    },
+    {
+      "idArea": "13",
+      "cargo": "História",
+      "id_cargo": "historia",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_013_01",
+          "prova": "pro_SEED_013_01.pdf",
+          "gabarito": "gab_SEED_013_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_013_01.PDF",
+          "num_offset": 8
+        }
+      ]
+    },
+    {
+      "idArea": "14",
+      "cargo": "Sociologia",
+      "id_cargo": "sociologia",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_014_01",
+          "prova": "pro_SEED_014_01.pdf",
+          "gabarito": "gab_SEED_014_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_014_01.PDF",
+          "num_offset": 8
+        }
+      ]
+    },
+    {
+      "idArea": "15",
+      "cargo": "Professor para Séries Iniciais",
+      "id_cargo": "series-iniciais",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_015_01",
+          "prova": "pro_SEED_015_01.pdf",
+          "gabarito": "gab_SEED_015_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_015_01.PDF",
+          "num_offset": 8
+        }
+      ]
+    },
+    {
+      "idArea": "16",
+      "cargo": "Professor da Educação Especial",
+      "id_cargo": "educacao-especial",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_016_01",
+          "prova": "pro_SEED_016_01.pdf",
+          "gabarito": "gab_SEED_016_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_016_01.PDF",
+          "num_offset": 8
+        }
+      ]
+    },
+    {
+      "idArea": "17",
+      "cargo": "Professor Pedagogo",
+      "id_cargo": "pedagogo",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_017_01",
+          "prova": "pro_SEED_017_01.pdf",
+          "gabarito": "gab_SEED_017_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_017_01.PDF",
+          "num_offset": 8
+        }
+      ]
+    },
+    {
+      "idArea": "18",
+      "cargo": "Formação de Docentes",
+      "id_cargo": "formacao-docentes",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_018_01",
+          "prova": "pro_SEED_018_01.pdf",
+          "gabarito": "gab_SEED_018_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_018_01.PDF",
+          "num_offset": 8
+        }
+      ]
+    },
+    {
+      "idArea": "19",
+      "cargo": "EP: Ambiente e Saúde",
+      "id_cargo": "ep-ambiente-saude",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_019_01",
+          "prova": "pro_SEED_019_01.pdf",
+          "gabarito": "gab_SEED_019_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_019_01.PDF",
+          "num_offset": 8
+        },
+        {
+          "key": "SEED_CB2_01",
+          "prova": "pro_SEED_CB2_01.pdf",
+          "gabarito": "gab_SEED_CB2_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB2_01.PDF",
+          "num_offset": 40
+        }
+      ]
+    },
+    {
+      "idArea": "20",
+      "cargo": "EP: Controle e Processos Industriais",
+      "id_cargo": "ep-controle-processos-industriais",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_020_01",
+          "prova": "pro_SEED_020_01.pdf",
+          "gabarito": "gab_SEED_020_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_020_01.PDF",
+          "num_offset": 8
+        },
+        {
+          "key": "SEED_CB2_01",
+          "prova": "pro_SEED_CB2_01.pdf",
+          "gabarito": "gab_SEED_CB2_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB2_01.PDF",
+          "num_offset": 40
+        }
+      ]
+    },
+    {
+      "idArea": "21",
+      "cargo": "EP: Gestão e Negócios",
+      "id_cargo": "ep-gestao-negocios",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_021_01",
+          "prova": "pro_SEED_021_01.pdf",
+          "gabarito": "gab_SEED_021_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_021_01.PDF",
+          "num_offset": 8
+        },
+        {
+          "key": "SEED_CB2_01",
+          "prova": "pro_SEED_CB2_01.pdf",
+          "gabarito": "gab_SEED_CB2_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB2_01.PDF",
+          "num_offset": 40
+        }
+      ]
+    },
+    {
+      "idArea": "22",
+      "cargo": "EP: Informação e Comunicação",
+      "id_cargo": "ep-informacao-comunicacao",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_022_01",
+          "prova": "pro_SEED_022_01.pdf",
+          "gabarito": "gab_SEED_022_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_022_01.PDF",
+          "num_offset": 8
+        },
+        {
+          "key": "SEED_CB2_01",
+          "prova": "pro_SEED_CB2_01.pdf",
+          "gabarito": "gab_SEED_CB2_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB2_01.PDF",
+          "num_offset": 40
+        }
+      ]
+    },
+    {
+      "idArea": "23",
+      "cargo": "EP: Infraestrutura",
+      "id_cargo": "ep-infraestrutura",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_023_01",
+          "prova": "pro_SEED_023_01.pdf",
+          "gabarito": "gab_SEED_023_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_023_01.PDF",
+          "num_offset": 8
+        },
+        {
+          "key": "SEED_CB2_01",
+          "prova": "pro_SEED_CB2_01.pdf",
+          "gabarito": "gab_SEED_CB2_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB2_01.PDF",
+          "num_offset": 40
+        }
+      ]
+    },
+    {
+      "idArea": "24",
+      "cargo": "EP: Produção Alimentícia",
+      "id_cargo": "ep-producao-alimenticia",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_024_01",
+          "prova": "pro_SEED_024_01.pdf",
+          "gabarito": "gab_SEED_024_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_024_01.PDF",
+          "num_offset": 8
+        },
+        {
+          "key": "SEED_CB2_01",
+          "prova": "pro_SEED_CB2_01.pdf",
+          "gabarito": "gab_SEED_CB2_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB2_01.PDF",
+          "num_offset": 40
+        }
+      ]
+    },
+    {
+      "idArea": "25",
+      "cargo": "EP: Produção Cultural e Design",
+      "id_cargo": "ep-producao-cultural-design",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_025_01",
+          "prova": "pro_SEED_025_01.pdf",
+          "gabarito": "gab_SEED_025_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_025_01.PDF",
+          "num_offset": 8
+        },
+        {
+          "key": "SEED_CB2_01",
+          "prova": "pro_SEED_CB2_01.pdf",
+          "gabarito": "gab_SEED_CB2_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB2_01.PDF",
+          "num_offset": 40
+        }
+      ]
+    },
+    {
+      "idArea": "26",
+      "cargo": "EP: Produção Industrial",
+      "id_cargo": "ep-producao-industrial",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_026_01",
+          "prova": "pro_SEED_026_01.pdf",
+          "gabarito": "gab_SEED_026_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_026_01.PDF",
+          "num_offset": 8
+        },
+        {
+          "key": "SEED_CB2_01",
+          "prova": "pro_SEED_CB2_01.pdf",
+          "gabarito": "gab_SEED_CB2_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB2_01.PDF",
+          "num_offset": 40
+        }
+      ]
+    },
+    {
+      "idArea": "27",
+      "cargo": "EP: Recursos Naturais",
+      "id_cargo": "ep-recursos-naturais",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_027_01",
+          "prova": "pro_SEED_027_01.pdf",
+          "gabarito": "gab_SEED_027_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_027_01.PDF",
+          "num_offset": 8
+        },
+        {
+          "key": "SEED_CB2_01",
+          "prova": "pro_SEED_CB2_01.pdf",
+          "gabarito": "gab_SEED_CB2_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB2_01.PDF",
+          "num_offset": 40
+        }
+      ]
+    },
+    {
+      "idArea": "28",
+      "cargo": "EP: Segurança",
+      "id_cargo": "ep-seguranca",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_028_01",
+          "prova": "pro_SEED_028_01.pdf",
+          "gabarito": "gab_SEED_028_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_028_01.PDF",
+          "num_offset": 8
+        },
+        {
+          "key": "SEED_CB2_01",
+          "prova": "pro_SEED_CB2_01.pdf",
+          "gabarito": "gab_SEED_CB2_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB2_01.PDF",
+          "num_offset": 40
+        }
+      ]
+    },
+    {
+      "idArea": "29",
+      "cargo": "EP: Turismo, Hospitalidade e Lazer",
+      "id_cargo": "ep-turismo-hospitalidade-lazer",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_029_01",
+          "prova": "pro_SEED_029_01.pdf",
+          "gabarito": "gab_SEED_029_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_029_01.PDF",
+          "num_offset": 8
+        },
+        {
+          "key": "SEED_CB2_01",
+          "prova": "pro_SEED_CB2_01.pdf",
+          "gabarito": "gab_SEED_CB2_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB2_01.PDF",
+          "num_offset": 40
+        }
+      ]
+    },
+    {
+      "idArea": "30",
+      "cargo": "Programação – Ampliação de Jornada",
+      "id_cargo": "programacao-ampliacao-jornada",
+      "provas": [
+        {
+          "key": "SEED_CB1_01",
+          "prova": "pro_SEED_CB1_01.pdf",
+          "gabarito": "gab_SEED_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_CB1_01.PDF"
+        },
+        {
+          "key": "SEED_030_01",
+          "prova": "pro_SEED_030_01.pdf",
+          "gabarito": "gab_SEED_030_01.pdf",
+          "tipo": "mc",
+          "arquivo": "566_SEED_030_01.PDF",
+          "num_offset": 8
+        }
+      ]
+    }
+  ],
+  "unmatched": [],
+  "variant": "modern",
+  "skip": {
+    "SEED_001_01": [
+      7,
+      15,
+      17,
+      21,
+      27
+    ],
+    "SEED_004_01": [
+      11,
+      12
+    ],
+    "SEED_005_01": [
+      21,
+      29
+    ],
+    "SEED_006_01": [
+      4,
+      8,
+      9,
+      11,
+      14,
+      18
+    ],
+    "SEED_007_01": [
+      3,
+      7,
+      9,
+      13
+    ],
+    "SEED_008_01": [
+      22,
+      26,
+      31,
+      32
+    ],
+    "SEED_009_01": [
+      21,
+      23,
+      25,
+      27,
+      28,
+      29,
+      30
+    ],
+    "SEED_010_01": [
+      6,
+      7,
+      22,
+      23,
+      24,
+      30
+    ],
+    "SEED_012_01": [
+      7,
+      28
+    ],
+    "SEED_013_01": [
+      25,
+      31
+    ],
+    "SEED_015_01": [
+      17,
+      20
+    ],
+    "SEED_016_01": [
+      10
+    ],
+    "SEED_017_01": [
+      5
+    ],
+    "SEED_018_01": [
+      1
+    ],
+    "SEED_020_01": [
+      8,
+      12
+    ],
+    "SEED_023_01": [
+      5,
+      16
+    ],
+    "SEED_025_01": [
+      11
+    ],
+    "SEED_030_01": [
+      14
+    ],
+    "SEED_CB2_01": [
+      11,
+      16
+    ]
+  },
+  "patch": {}
+}

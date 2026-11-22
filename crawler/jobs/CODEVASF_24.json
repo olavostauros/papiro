@@ -1,0 +1,273 @@
+{
+ "evento": "CODEVASF_24",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Codevasf",
+  "ano": 2024,
+  "id_orgao": "codevasf"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista em Desenvolvimento Regional – Administração",
+   "id_cargo": "analista-administracao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_CODEVASF_CB1_01.pdf",
+     "gabarito": "gab_CODEVASF_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "989_CODEVASF_CB1_01.PDF"
+    },
+    {
+     "key": "esp1",
+     "prova": "pro_CODEVASF_001_01.pdf",
+     "gabarito": "gab_CODEVASF_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "989_CODEVASF_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista em Desenvolvimento Regional – Contabilidade",
+   "id_cargo": "analista-contabilidade",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_CODEVASF_CB1_01.pdf",
+     "gabarito": "gab_CODEVASF_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "989_CODEVASF_CB1_01.PDF"
+    },
+    {
+     "key": "esp2",
+     "prova": "pro_CODEVASF_002_01.pdf",
+     "gabarito": "gab_CODEVASF_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "989_CODEVASF_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista em Desenvolvimento Regional – Economia",
+   "id_cargo": "analista-economia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_CODEVASF_CB1_01.pdf",
+     "gabarito": "gab_CODEVASF_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "989_CODEVASF_CB1_01.PDF"
+    },
+    {
+     "key": "esp3",
+     "prova": "pro_CODEVASF_003_01.pdf",
+     "gabarito": "gab_CODEVASF_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "989_CODEVASF_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista em Desenvolvimento Regional – Engenharia Civil",
+   "id_cargo": "analista-engenharia-civil",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_CODEVASF_CB1_01.pdf",
+     "gabarito": "gab_CODEVASF_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "989_CODEVASF_CB1_01.PDF"
+    },
+    {
+     "key": "esp4",
+     "prova": "pro_CODEVASF_004_01.pdf",
+     "gabarito": "gab_CODEVASF_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "989_CODEVASF_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista em Desenvolvimento Regional – Engenharia Mecânica",
+   "id_cargo": "analista-engenharia-mecanica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_CODEVASF_CB1_01.pdf",
+     "gabarito": "gab_CODEVASF_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "989_CODEVASF_CB1_01.PDF"
+    },
+    {
+     "key": "esp5",
+     "prova": "pro_CODEVASF_005_01.pdf",
+     "gabarito": "gab_CODEVASF_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "989_CODEVASF_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista em Desenvolvimento Regional – Engenharia de Pesca e Aquicultura",
+   "id_cargo": "analista-engenharia-pesca",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_CODEVASF_CB1_01.pdf",
+     "gabarito": "gab_CODEVASF_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "989_CODEVASF_CB1_01.PDF"
+    },
+    {
+     "key": "esp6",
+     "prova": "pro_CODEVASF_006_01.pdf",
+     "gabarito": "gab_CODEVASF_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "989_CODEVASF_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista em Desenvolvimento Regional – Estatística",
+   "id_cargo": "analista-estatistica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_CODEVASF_CB1_01.pdf",
+     "gabarito": "gab_CODEVASF_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "989_CODEVASF_CB1_01.PDF"
+    },
+    {
+     "key": "esp7",
+     "prova": "pro_CODEVASF_007_01.pdf",
+     "gabarito": "gab_CODEVASF_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "989_CODEVASF_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista em Desenvolvimento Regional – Geologia",
+   "id_cargo": "analista-geologia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_CODEVASF_CB1_01.pdf",
+     "gabarito": "gab_CODEVASF_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "989_CODEVASF_CB1_01.PDF"
+    },
+    {
+     "key": "esp8",
+     "prova": "pro_CODEVASF_008_01.pdf",
+     "gabarito": "gab_CODEVASF_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "989_CODEVASF_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista em Comunicação – Jornalismo",
+   "id_cargo": "analista-jornalismo",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_CODEVASF_CB1_01.pdf",
+     "gabarito": "gab_CODEVASF_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "989_CODEVASF_CB1_01.PDF"
+    },
+    {
+     "key": "esp9",
+     "prova": "pro_CODEVASF_009_01.pdf",
+     "gabarito": "gab_CODEVASF_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "989_CODEVASF_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista em Desenvolvimento Regional – Publicidade e Propaganda",
+   "id_cargo": "analista-publicidade",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_CODEVASF_CB1_01.pdf",
+     "gabarito": "gab_CODEVASF_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "989_CODEVASF_CB1_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_CODEVASF_010_01.pdf",
+     "gabarito": "gab_CODEVASF_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "989_CODEVASF_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista em Desenvolvimento Regional – Tecnologia da Informação",
+   "id_cargo": "analista-ti",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_CODEVASF_CB1_01.pdf",
+     "gabarito": "gab_CODEVASF_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "989_CODEVASF_CB1_01.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_CODEVASF_011_01.pdf",
+     "gabarito": "gab_CODEVASF_011_01.pdf",
+     "tipo": "ce",
+     "arquivo": "989_CODEVASF_011_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {
+  "esp5": {
+   "68": "O momento angular do rotor em relação ao seu eixo de rotação é de 0,1 kg·m^2/s.",
+   "71": "Quando o reservatório quente (Tq) estiver em 1.000 K e o frio (Tf), em 250 K, a eficiência máxima (η), chamada eficiência de Carnot, será: η = 1 − Tq/Tf = 75%.",
+   "78": "Uma engrenagem é caracterizada pelo módulo (M), obtido por M = π·Dp, em que Dp é diâmetro primitivo da engrenagem; o passo (P) é obtido por P = M/z, em que z é o número de dentes.",
+   "87": "Nos compressores parafuso, a razão de redução de volumes do compressor é dada por Vi = Vs/Vd, em que Vs é o volume na sucção e Vd é o volume na descarga; a pressão, no compressor, é obtida por Pi = Vi·cp, em que cp é o calor específico do gás."
+  },
+  "esp7": {
+   "53": "O valor esperado de X é igual a 1.",
+   "54": "P(X = 0) = 2/3.",
+   "55": "A variância de X é igual a 0,75.",
+   "56": "P(T > 0) = P(W ≥ 1).",
+   "57": "Se U for uma variável aleatória uniforme contínua no intervalo [0,1] e se fU(u) denota sua função de densidade de probabilidade, então P(W ≥ w|T = t) = fU(u), em que u = w − t, para quaisquer w ≥ 0 e t ∈ {0,1,2,3, ...}.",
+   "58": "É correto afirmar que P(T = 1) = P(T = 0) × P(W ≤ 1).",
+   "59": "O valor esperado de T é igual a 0,5.",
+   "60": "P(T = 3|W ≥ 3) = P(W ≤ 1).",
+   "61": "A diferença D = Z1 − Z2 e a soma S = Z1 + Z2 são variáveis aleatórias normais independentes.",
+   "62": "P(R^2 > 1) = 0,5.",
+   "63": "A soma dos quadrados Z1^2 + Z2^2 se distribui conforme uma distribuição χ² com dois graus de liberdade.",
+   "64": "A média da distribuição da razão R é igual a 1.",
+   "65": "A variância do quadrado da razão, R^2, é igual a 1.",
+   "66": "P(Y < 0,95) = 0,90.",
+   "67": "E[ln(Y)] ≥ −0,5.",
+   "68": "A variância de Y é igual a 0,25.",
+   "69": "A mediana de Y é igual a 0,5.",
+   "70": "Y^4 segue uma distribuição beta.",
+   "71": "A razão (Sn − 1)/√(2/n) segue uma distribuição t de Student com n − 1 graus de liberdade.",
+   "72": "lim(n→∞) E[Sn] = 1.",
+   "73": "A variância de Sn tende para zero à medida que n aumenta.",
+   "74": "Sn converge em probabilidade para o valor da média populacional.",
+   "75": "Sn segue uma distribuição normal para qualquer tamanho de amostra n ≥ 1.",
+   "86": "No caso de a média populacional ser μ = 2, basta calcular poder = 1 − P(x̄ ≥ 1,5|μ = 2) para se determinar o poder do teste, independentemente do nível de significância do teste.",
+   "89": "Uma hipótese alternativa de um teste para a média populacional poderia ser escrita como H1: x̄ ≤ 1,5.",
+   "90": "Considerando-se que os dados seguem uma distribuição normal e sabendo-se que Σ(i=1 a 10)(xi − x̄)^2 = 2,1, é correto afirmar que a estatística do teste t de Student para a média populacional é inferior a 1, em valor absoluto.",
+   "91": "Os intervalos de confiança e de credibilidade propiciam a mesma interpretação do ponto de vista estatístico.",
+   "92": "Se Var(x̄) = σ^2/n e Var(Md) = σ^2·π/(2n), então a média (x̄) e a mediana (Md) são igualmente eficientes.",
+   "99": "A correlação entre M̂ e N é igual a 1.",
+   "100": "As estimativas dos coeficientes do modelo invertido (N̂ = 10/3 + M/3) resultam da aplicação do critério de mínimos quadrados ordinários."
+  }
+ }
+}

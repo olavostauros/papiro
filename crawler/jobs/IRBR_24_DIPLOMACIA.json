@@ -1,0 +1,34 @@
+{
+ "evento": "IRBR_24_DIPLOMACIA",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Instituto Rio Branco",
+  "ano": 2024,
+  "id_orgao": "irbr"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Diplomata (Terceiro Secretário)",
+   "id_cargo": "diplomata-terceiro-secretario",
+   "provas": [
+    {
+     "key": "manha",
+     "prova": "pro_IRBRCACD_001_01.pdf",
+     "gabarito": "gab_IRBRCACD_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "001_IRBRCACD_001_01.PDF"
+    },
+    {
+     "key": "tarde",
+     "prova": "pro_IRBRCACD_002_01.pdf",
+     "gabarito": "gab_IRBRCACD_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "001_IRBRCACD_002_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {}
+}

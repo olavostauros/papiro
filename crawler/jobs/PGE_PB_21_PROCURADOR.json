@@ -1,0 +1,30 @@
+{
+ "evento": "PGE_PB_21_PROCURADOR",
+ "workdir": "/tmp/pge_pb_21_procurador",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "PROCURADORIA-GERAL DO ESTADO DA PARAÍBA",
+  "ano": 2021,
+  "id_orgao": "pge-pb"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Procurador do Estado da Paraíba",
+   "id_cargo": "procurador",
+   "provas": [
+    {
+     "key": "BONECA_601_PGEPB_OBJ",
+     "prova": "pro_BONECA_601_PGEPB_OBJ.pdf",
+     "gabarito": "gab_MATRIZ_601_PGEPB_001.pdf",
+     "tipo": "mc",
+     "arquivo": "BONECA_601_PGEPB_OBJ.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

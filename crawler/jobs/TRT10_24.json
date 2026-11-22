@@ -1,0 +1,333 @@
+{
+ "evento": "TRT10_24",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "TRT 10ª Região",
+  "ano": 2024,
+  "id_orgao": "trt10"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista Judiciário – Contabilidade",
+   "id_cargo": "analista-judiciario-contabilidade",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TRT10_CB1_01.pdf",
+     "gabarito": "gab_TRT10_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_CB1_01.pdf"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_TRT10_001_01.pdf",
+     "gabarito": "gab_TRT10_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_001_01.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Arquitetura",
+   "id_cargo": "analista-judiciario-arquitetura",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TRT10_CB1_01.pdf",
+     "gabarito": "gab_TRT10_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_CB1_01.pdf"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_TRT10_002_01.pdf",
+     "gabarito": "gab_TRT10_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_002_01.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Arquivologia",
+   "id_cargo": "analista-judiciario-arquivologia",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TRT10_CB1_01.pdf",
+     "gabarito": "gab_TRT10_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_CB1_01.pdf"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_TRT10_003_01.pdf",
+     "gabarito": "gab_TRT10_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_003_01.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Comunicação Social",
+   "id_cargo": "analista-judiciario-comunicacao-social",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TRT10_CB1_01.pdf",
+     "gabarito": "gab_TRT10_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_CB1_01.pdf"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_TRT10_004_01.pdf",
+     "gabarito": "gab_TRT10_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_004_01.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Enfermagem do Trabalho",
+   "id_cargo": "analista-judiciario-enfermagem-do-trabalho",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TRT10_CB1_01.pdf",
+     "gabarito": "gab_TRT10_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_CB1_01.pdf"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_TRT10_005_01.pdf",
+     "gabarito": "gab_TRT10_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_005_01.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Engenharia Civil",
+   "id_cargo": "analista-judiciario-engenharia-civil",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TRT10_CB1_01.pdf",
+     "gabarito": "gab_TRT10_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_CB1_01.pdf"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_TRT10_006_01.pdf",
+     "gabarito": "gab_TRT10_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_006_01.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Estatística",
+   "id_cargo": "analista-judiciario-estatistica",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TRT10_CB1_01.pdf",
+     "gabarito": "gab_TRT10_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_CB1_01.pdf"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_TRT10_007_01.pdf",
+     "gabarito": "gab_TRT10_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_007_01.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – História",
+   "id_cargo": "analista-judiciario-historia",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TRT10_CB1_01.pdf",
+     "gabarito": "gab_TRT10_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_CB1_01.pdf"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_TRT10_008_01.pdf",
+     "gabarito": "gab_TRT10_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_008_01.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Medicina (Cardiologia)",
+   "id_cargo": "analista-judiciario-medicina-cardiologia",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TRT10_CB1_01.pdf",
+     "gabarito": "gab_TRT10_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_CB1_01.pdf"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_TRT10_009_01.pdf",
+     "gabarito": "gab_TRT10_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_009_01.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Serviço Social",
+   "id_cargo": "analista-judiciario-servico-social",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TRT10_CB1_01.pdf",
+     "gabarito": "gab_TRT10_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_CB1_01.pdf"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_TRT10_010_01.pdf",
+     "gabarito": "gab_TRT10_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_010_01.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Tecnologia da Informação",
+   "id_cargo": "analista-judiciario-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_TRT10_CB2_01.pdf",
+     "gabarito": "gab_TRT10_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_CB2_01.pdf"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_TRT10_011_01.pdf",
+     "gabarito": "gab_TRT10_011_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_011_01.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Área Judiciária",
+   "id_cargo": "analista-judiciario-area-judiciaria",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_TRT10_CB3_01.pdf",
+     "gabarito": "gab_TRT10_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_CB3_01.pdf"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_TRT10_012_01.pdf",
+     "gabarito": "gab_TRT10_012_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_012_01.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Oficial de Justiça Avaliador",
+   "id_cargo": "analista-judiciario-oficial-de-justica-avaliador",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_TRT10_CB3_01.pdf",
+     "gabarito": "gab_TRT10_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_CB3_01.pdf"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_TRT10_013_01.pdf",
+     "gabarito": "gab_TRT10_013_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_013_01.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Técnico Judiciário – Área Administrativa",
+   "id_cargo": "tecnico-judiciario-area-administrativa",
+   "provas": [
+    {
+     "key": "cb4",
+     "prova": "pro_TRT10_CB4_01.pdf",
+     "gabarito": "gab_TRT10_CB4_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_CB4_01.pdf"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_TRT10_014_01.pdf",
+     "gabarito": "gab_TRT10_014_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_014_01.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Técnico Judiciário – Agente da Polícia Judicial",
+   "id_cargo": "tecnico-judiciario-agente-da-policia-judicial",
+   "provas": [
+    {
+     "key": "cb4",
+     "prova": "pro_TRT10_CB4_01.pdf",
+     "gabarito": "gab_TRT10_CB4_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_CB4_01.pdf"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_TRT10_015_01.pdf",
+     "gabarito": "gab_TRT10_015_01.pdf",
+     "tipo": "ce",
+     "arquivo": "050_TRT10_015_01.pdf"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {
+  "esp07": {
+   "85": "A distribuição amostral da razão t segue uma distribuição t de Student com 10 graus de liberdade.",
+   "86": "Se o coeficiente angular do modelo for removido do modelo de regressão, então o R² do modelo resultante (sem coeficiente angular) deverá produzir um valor superior ao R² do modelo original (com coeficiente angular).",
+   "88": "Se Z₁ = (X₁ − 2)/3 e Z₂ = (X₂ − 1)/2, então Z = (Z₁, Z₂)′ distribui-se conforme uma normal bivariada com E[Z] = (0, 0)′ e Var[Z] = ((1, 0), (0, 1)).",
+   "89": "A respeito da média condicional, é correto afirmar que E[X₁|X₂ = x] = 1,5 + 0,5x.",
+   "90": "X₂ segue uma distribuição normal com média 1 e desvio padrão 2.",
+   "91": "Var[X₁ − X₂] ≥ 10.",
+   "92": "A correlação linear entre X₁ e X₂ é igual a 0,5.",
+   "94": "O modelo de regressão de Poisson segue a forma da expressão log(Y) = β₀ + β₁X₁ + β₂X₂, em que β₀, β₁ e β₂ são os coeficientes do modelo.",
+   "116": "No teste Wald-Wolfowitz para aleatoriedade, é superior a 4 o número esperado de sequências para uma série com o número de sinais (−) igual a 3 vezes o número de sinais (+).",
+   "117": "No teste qui-quadrado para independência, o número de graus de liberdade da estatística de teste é (a − 1) × (b − 1), em que a é o número de categorias da 1.ª variável e b é o número de categorias da 2.ª variável."
+  },
+  "esp09": {
+   "72": "Em caso de paciente com ataque isquêmico transitório (AIT) recente, a detecção de microembolia distalmente à placa estenótica carotídea em doppler transcraniano indica risco elevado de acidente vascular cerebral, sendo recomendada a intensificação da terapia medicamentosa ou antecipação de intervenção cirúrgica ou percutânea."
+  },
+  "esp11": {
+   "70": "Considere que os três gráficos identificados por #1, #2 e #3 a seguir representem resultados de modelos de classificação em uma base de treinamento com dados de uma agência bancária e que neles a linha separe duas situações: indicativo de não pagamento de empréstimo e indicativo de pagamento de empréstimo. Com base nessas informações e nos gráficos apresentados, é correto afirmar que #1 é o modelo mais simples e performático com baixo viés, o modelo #2 tem acurácia média e alto viés e #3 é o modelo ideal, em comparação aos demais, pois tem alto viés e alta acurácia."
+  }
+ }
+}

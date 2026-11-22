@@ -1,0 +1,29 @@
+{
+ "evento": "TC_DF_24_PROCURADOR",
+ "workdir": "/tmp/tc_df_24_procurador",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Tribunal de Contas do Distrito Federal",
+  "ano": 2024,
+  "id_orgao": "tc-df"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Procurador do Ministério Público de Contas junto ao TCDF",
+   "id_cargo": "procurador",
+   "provas": [
+    {
+     "key": "obj",
+     "prova": "gab_TCDF_PROCURADOR_001_01_2.pdf",
+     "gabarito": "gab_TCDF_PROCURADOR_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "013_TCDF_PROCURADOR_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

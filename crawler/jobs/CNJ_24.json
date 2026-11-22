@@ -1,0 +1,189 @@
+{
+ "evento": "CNJ_24",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "CNJ",
+  "ano": 2024,
+  "id_orgao": "cnj"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista Judiciário – Pedagogia",
+   "id_cargo": "analista-pedagogia",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_CNJ_CB1_01.pdf",
+     "gabarito": "gab_CNJ_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "979_CNJ_CB1_01.PDF"
+    },
+    {
+     "key": "esp1",
+     "prova": "pro_CNJ_001_01.pdf",
+     "gabarito": "gab_CNJ_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "979_CNJ_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Análise de Sistemas",
+   "id_cargo": "analista-analise-sistemas",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_CNJ_CB1_01.pdf",
+     "gabarito": "gab_CNJ_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "979_CNJ_CB1_01.PDF"
+    },
+    {
+     "key": "esp2",
+     "prova": "pro_CNJ_002_01.pdf",
+     "gabarito": "gab_CNJ_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "979_CNJ_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Arquitetura",
+   "id_cargo": "analista-arquitetura",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_CNJ_CB1_01.pdf",
+     "gabarito": "gab_CNJ_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "979_CNJ_CB1_01.PDF"
+    },
+    {
+     "key": "esp3",
+     "prova": "pro_CNJ_003_01.pdf",
+     "gabarito": "gab_CNJ_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "979_CNJ_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Ciências Sociais",
+   "id_cargo": "analista-ciencias-sociais",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_CNJ_CB1_01.pdf",
+     "gabarito": "gab_CNJ_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "979_CNJ_CB1_01.PDF"
+    },
+    {
+     "key": "esp4",
+     "prova": "pro_CNJ_004_01.pdf",
+     "gabarito": "gab_CNJ_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "979_CNJ_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Engenharia Elétrica",
+   "id_cargo": "analista-engenharia-eletrica",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_CNJ_CB1_01.pdf",
+     "gabarito": "gab_CNJ_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "979_CNJ_CB1_01.PDF"
+    },
+    {
+     "key": "esp5",
+     "prova": "pro_CNJ_005_01.pdf",
+     "gabarito": "gab_CNJ_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "979_CNJ_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Área Judiciária",
+   "id_cargo": "analista-judiciaria",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_CNJ_CB2_01.pdf",
+     "gabarito": "gab_CNJ_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "979_CNJ_CB2_01.PDF"
+    },
+    {
+     "key": "esp6",
+     "prova": "pro_CNJ_006_01.pdf",
+     "gabarito": "gab_CNJ_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "979_CNJ_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Técnico Judiciário – Administrativa",
+   "id_cargo": "tecnico-administrativa",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_CNJ_CB3_01.pdf",
+     "gabarito": "gab_CNJ_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "979_CNJ_CB3_01.PDF"
+    },
+    {
+     "key": "esp7",
+     "prova": "pro_CNJ_007_01.pdf",
+     "gabarito": "gab_CNJ_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "979_CNJ_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Técnico Judiciário – Programação de Sistemas",
+   "id_cargo": "tecnico-programacao",
+   "provas": [
+    {
+     "key": "cb4",
+     "prova": "pro_CNJ_CB4_01.pdf",
+     "gabarito": "gab_CNJ_CB4_01.pdf",
+     "tipo": "ce",
+     "arquivo": "979_CNJ_CB4_01.PDF"
+    },
+    {
+     "key": "esp8",
+     "prova": "pro_CNJ_008_01.pdf",
+     "gabarito": "gab_CNJ_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "979_CNJ_008_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {
+  "esp5": {
+   "51": "Para a fonte v2(t) curto-circuitada, o modelo equivalente de Thévenin visto a partir dos terminais da tensão vs(t) será composto por uma tensão VTH = 2 V, em série com uma resistência RTH = 2/3 kΩ.",
+   "53": "vs(t) = 2 + sen(140πt) V.",
+   "55": "Considere que duas cargas pontuais, q1 = −3 μC e q2 = −3 μC, estejam localizadas no vácuo a uma distância de 30 cm uma da outra. Nesse caso, sabendo-se que a constante de Coulomb é igual a 9 × 10^9 N·m^2/C^2, conclui-se que o valor do módulo do campo elétrico na menor distância equidistante às cargas é de 2,4 × 10^6 N/C.",
+   "56": "A expressão booleana mínima, na forma soma de produtos, que relaciona a saída S com as variáveis de entrada, é dada por S = A̅B̅C + A̅BD + BC̅D + B̅CD.",
+   "57": "Para o circuito a seguir, cujos componentes são ideais, é válida a expressão vo(t) = 4·[1 − vi(t)].",
+   "58": "Para o circuito a seguir, cujos componentes são ideais, a função de transferência é dada por vo(s)/vi(s) = −(R2/R1)·1/(1+sR2C).",
+   "64": "Se o capacitor C1 for substituído por outro de valor igual a 1.000 μF, então a tensão de ripple será reduzida para a metade do valor original, e a tensão média de saída no resistor RL aumentará."
+  },
+  "esp4": {
+   "113": "A média de X é inferior a 1.",
+   "114": "A moda da variável X é igual a 4.",
+   "115": "A mediana de X é igual a 2."
+  }
+ }
+}

@@ -1,0 +1,209 @@
+{
+ "evento": "DETRAN_AL_26",
+ "workdir": "/tmp/detran_al_26",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Departamento Estadual de Trânsito de Alagoas (Detran-AL)",
+  "ano": 2026,
+  "id_orgao": "detranal"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista de Trânsito – Administração",
+   "id_cargo": "analista-de-transito-administracao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_30BEF4AC0815DF4248C1246A.pdf",
+     "gabarito": "gab_E64DC3CEB205CA17BC7A2DC3.pdf",
+     "tipo": "ce",
+     "arquivo": "30BEF4AC0815DF4248C1246AAB60C43FAD965E3867B6C00794B17BADE0726101.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_7B386FFC1D4685C8FA00382D.pdf",
+     "gabarito": "gab_2A29538FBD8E94A6A2C3E8DC.pdf",
+     "tipo": "ce",
+     "arquivo": "7B386FFC1D4685C8FA00382DC2C450755E30DEC80D56926CE02C3C1A96BFE6BB.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista de Trânsito – Análise de Sistemas",
+   "id_cargo": "analista-de-transito-analise-de-sistemas",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_30BEF4AC0815DF4248C1246A.pdf",
+     "gabarito": "gab_E64DC3CEB205CA17BC7A2DC3.pdf",
+     "tipo": "ce",
+     "arquivo": "30BEF4AC0815DF4248C1246AAB60C43FAD965E3867B6C00794B17BADE0726101.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_8AE3E8ABD4F6F0163F15CA36.pdf",
+     "gabarito": "gab_7C27072143B445F3ABBCD610.pdf",
+     "tipo": "ce",
+     "arquivo": "8AE3E8ABD4F6F0163F15CA3612B338B49DEB65B41E3B8FDFECA1AA795D3E4BDF.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista de Trânsito – Contabilidade",
+   "id_cargo": "analista-de-transito-contabilidade",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_30BEF4AC0815DF4248C1246A.pdf",
+     "gabarito": "gab_E64DC3CEB205CA17BC7A2DC3.pdf",
+     "tipo": "ce",
+     "arquivo": "30BEF4AC0815DF4248C1246AAB60C43FAD965E3867B6C00794B17BADE0726101.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_D04B75B2B15B14789915F0AF.pdf",
+     "gabarito": "gab_775B2630A28D882C77D20BE7.pdf",
+     "tipo": "ce",
+     "arquivo": "D04B75B2B15B14789915F0AF44F81F7560D4BA7443CC35B1B6D164C78901A9A3.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista de Trânsito – Direito",
+   "id_cargo": "analista-de-transito-direito",
+   "provas": [
+    {
+     "key": "cb4",
+     "prova": "pro_5CF4B1CDB453FC59FCB38FA7.pdf",
+     "gabarito": "gab_49AEA11A7714FCCFDD2FC69F.pdf",
+     "tipo": "ce",
+     "arquivo": "5CF4B1CDB453FC59FCB38FA79EC6027F4B8ED066949C4F7940F0D65C33309048.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_CA70534E72810F0DAC1B4F97.pdf",
+     "gabarito": "gab_5371C4AB7ABC13692B680800.pdf",
+     "tipo": "ce",
+     "arquivo": "CA70534E72810F0DAC1B4F9723C2ACBD6085122D8F3A0BD945DC52BC9AD88B55.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Analista de Trânsito – Engenharia Civil",
+   "id_cargo": "analista-de-transito-engenharia-civil",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_30BEF4AC0815DF4248C1246A.pdf",
+     "gabarito": "gab_E64DC3CEB205CA17BC7A2DC3.pdf",
+     "tipo": "ce",
+     "arquivo": "30BEF4AC0815DF4248C1246AAB60C43FAD965E3867B6C00794B17BADE0726101.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_31CE64D9A32F98070705B7D0.pdf",
+     "gabarito": "gab_45EF4B83531C48DB29CB59F7.pdf",
+     "tipo": "ce",
+     "arquivo": "31CE64D9A32F98070705B7D00D80DA7E9D75151DF17784CCB0DE26B5F53B4D73.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Analista de Trânsito – Estatística",
+   "id_cargo": "analista-de-transito-estatistica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_30BEF4AC0815DF4248C1246A.pdf",
+     "gabarito": "gab_E64DC3CEB205CA17BC7A2DC3.pdf",
+     "tipo": "ce",
+     "arquivo": "30BEF4AC0815DF4248C1246AAB60C43FAD965E3867B6C00794B17BADE0726101.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_F6CE97F21DBCAA1F653CF30B.pdf",
+     "gabarito": "gab_DD48836525828A0B1E26C38B.pdf",
+     "tipo": "ce",
+     "arquivo": "F6CE97F21DBCAA1F653CF30B5D2C42D1C18BF80FC8ACA8DDD045B3B6031EFF50.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Analista de Trânsito – Pedagogia",
+   "id_cargo": "analista-de-transito-pedagogia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_30BEF4AC0815DF4248C1246A.pdf",
+     "gabarito": "gab_E64DC3CEB205CA17BC7A2DC3.pdf",
+     "tipo": "ce",
+     "arquivo": "30BEF4AC0815DF4248C1246AAB60C43FAD965E3867B6C00794B17BADE0726101.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_9DFBED868CBD7B6BEA22D430.pdf",
+     "gabarito": "gab_B973288BBEE65AEC62184FCE.pdf",
+     "tipo": "ce",
+     "arquivo": "9DFBED868CBD7B6BEA22D4303ABFC1916CD999DD5D48BAFEAAE38DE822A846A6.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Assistente de Trânsito – Qualquer Área de Formação",
+   "id_cargo": "assistente-de-transito-qualquer-area-de-formacao",
+   "provas": [
+    {
+     "key": "cb8",
+     "prova": "pro_5CC93D25E0CCA2345FADFCB7.pdf",
+     "gabarito": "gab_204F97564D3C99DB6D67A9DD.pdf",
+     "tipo": "ce",
+     "arquivo": "5CC93D25E0CCA2345FADFCB746743E99C6EEE53D26560DE5DC6FE2CCCD6DB57B.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_961168A38E8CF40CA07F9095.pdf",
+     "gabarito": "gab_C225656F88D9F5A1CCB0A92C.pdf",
+     "tipo": "ce",
+     "arquivo": "961168A38E8CF40CA07F90957473E67A235EBB8D267E0F04DA6C96543312FC45.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp06": {
+   "86": "P(X ≥ 3) = 8/125.",
+   "87": "Var(X | X ≤ 2) = 230/507.",
+   "89": "O valor esperado de X é superior a 54/125.",
+   "91": "P(V = v | T = t) = t^(v+1) e^(−t)/v!, em que v ∈ {0,1,2,…} e t > 0",
+   "96": "A razão R = 1/(1 + exp((D − 10)/10)) segue uma distribuição uniforme contínua.",
+   "102": "Se X̃ₙ representa a mediana amostral, então Var[X̃ₙ] ≅ 1/n, para um tamanho amostral n suficientemente grande.",
+   "107": "A variância amostral definida como S² = (1/n)∑(Xᵢ − X̄)² é um estimador não viesado de σ²."
+  }
+ }
+}

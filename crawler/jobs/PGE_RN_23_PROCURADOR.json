@@ -1,0 +1,30 @@
+{
+ "evento": "PGE_RN_23_PROCURADOR",
+ "workdir": "/tmp/pge_rn_23_procurador",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "PROCURADORIA-GERAL DO ESTADO DO RIO GRANDE DO NORTE",
+  "ano": 2023,
+  "id_orgao": "pge-rn"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "CARGO DE PROCURADOR DO ESTADO DO RIO GRANDE DE 3ª CLASSE",
+   "id_cargo": "procurador-do-estado",
+   "provas": [
+    {
+     "key": "p1",
+     "prova": "pro_PGE_RN_PROCURADOR_001_01.pdf",
+     "gabarito": "gab_PGE_RN_PROCURADOR_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "932_PGE_RN_PROCURADOR_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

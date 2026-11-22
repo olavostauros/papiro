@@ -1,0 +1,178 @@
+{
+ "evento": "MCTI_LNA_23_TECNOLOGISTA",
+ "workdir": "/tmp/mcti_lna_23_tecnologista",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "LABORATÓRIO NACIONAL DE ASTROFÍSICA",
+  "ano": 2023,
+  "id_orgao": "mcti"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Tecnologista – Especialidade: Desenvolvimento E Arquitetura De Software",
+   "id_cargo": "tecnologista-especialidade-desenvolvimento-e-arquitetura-de-software",
+   "provas": [
+    {
+     "key": "esp001",
+     "prova": "pro_LNA_TECNOLOGISTA_001_01.pdf",
+     "gabarito": "gab_LNA_TECNOLOGISTA_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "941_LNA_TECNOLOGISTA_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Tecnologista – Especialidade: Infraestrutura De Redes",
+   "id_cargo": "tecnologista-especialidade-infraestrutura-de-redes",
+   "provas": [
+    {
+     "key": "esp002",
+     "prova": "pro_LNA_TECNOLOGISTA_002_01.pdf",
+     "gabarito": "gab_LNA_TECNOLOGISTA_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "941_LNA_TECNOLOGISTA_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Tecnologista – Especialidade: Desenvolvimento De Projetos Mecânicos Com Foco Em Instrumentação Científica",
+   "id_cargo": "tecnologista-especialidade-desenvolvimento-de-projetos-mecanicos-com-foco-em-instrumentacao-cientifica",
+   "provas": [
+    {
+     "key": "esp003",
+     "prova": "pro_LNA_TECNOLOGISTA_003_01.pdf",
+     "gabarito": "gab_LNA_TECNOLOGISTA_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "941_LNA_TECNOLOGISTA_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Tecnologista – Especialidade: Desenvolvimento De Projetos E Coordenação De Fabricação Mecânica Com Foco Em Instrumentação Científica",
+   "id_cargo": "tecnologista-especialidade-desenvolvimento-de-projetos-e-coordenacao-de-fabricacao-mecanica-com-foco-em-instrumentacao-cientifica",
+   "provas": [
+    {
+     "key": "esp004",
+     "prova": "pro_LNA_TECNOLOGISTA_004_01.pdf",
+     "gabarito": "gab_LNA_TECNOLOGISTA_004_01.pdf",
+     "tipo": "mc",
+     "arquivo": "941_LNA_TECNOLOGISTA_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Tecnologista – Especialidade: Sistemas  De Controle Com Foco Em Eletrônica,  Automação E Programação De Instrumentação  Científica",
+   "id_cargo": "tecnologista-especialidade-sistemas-de-controle-com-foco-em-eletronica-automacao-e-programacao-de-instrumentacao-cientifica",
+   "provas": [
+    {
+     "key": "esp005",
+     "prova": "pro_LNA_TECNOLOGISTA_005_01.pdf",
+     "gabarito": "gab_LNA_TECNOLOGISTA_005_01.pdf",
+     "tipo": "mc",
+     "arquivo": "941_LNA_TECNOLOGISTA_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Tecnologista – Especialidade:  Desenvolvimento E Integração De Instrumentação Científica E Planejamento E  Execução De Atividades Em Laboratórios De  Pesquisa E Desenvolvimento Tecnológico",
+   "id_cargo": "tecnologista-especialidade-desenvolvimento-e-integracao-de-instrumentacao-cientifica-e-planejamento-e-execucao-de-atividades-em-laboratorios-de-pesquisa-e-desenvolvimento-tecnologico",
+   "provas": [
+    {
+     "key": "esp006",
+     "prova": "pro_LNA_TECNOLOGISTA_006_01.pdf",
+     "gabarito": "gab_LNA_TECNOLOGISTA_006_01.pdf",
+     "tipo": "mc",
+     "arquivo": "941_LNA_TECNOLOGISTA_006_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {
+  "esp003": [
+   11
+  ]
+ },
+ "patch": {
+  "esp003": {
+   "12": {
+    "alternativas": [
+     "rugosidade superficial com remoção de material facultativa, rugosidade mínima de 2,5 µm e máxima de 3,2 µm, por um processo de retifica (X).",
+     "rugosidade superficial com remoção obrigatória de material, comprimento da amostragem de 2,5 mm, rugosidade de 3,2 µm, tendo as estrias duas direções oblíquas (X).",
+     "velocidade de corte a ser usada (3,2 m/min), do avanço (2,5 mm) e do material da ferramenta de corte “X” (aço rápido).",
+     "dureza superficial máxima (3,2) e mínima (2,5) e do método de medição da dureza “X” (dureza Vickers).",
+     "dureza superficial média (3,2) e mínima (2,5) e do método de medição da dureza “X” (dureza Rockwell)."
+    ]
+   },
+   "13": {
+    "alternativas": [
+     "geométrica para a planicidade da superfície do furo, que não deve ser menor que 0,2 mm.",
+     "dimensional para o diâmetro do furo, que deve estar dentro de ± 0,2 mm.",
+     "geométrica para a posição do centro do furo, que deve estar contido em uma circunferência de raio 0,1 mm.",
+     "dimensional para o raio do furo, que deve estar dentro de ± 0,2 mm.",
+     "geométrica para a circularidade do furo, tal que a diferença de dois diâmetros medidos em dois diâmetros defasados de 90° não deve superar 0,2 mm."
+    ]
+   },
+   "29": {
+    "alternativas": [
+     "O torque de E₂ é 400 Nm.",
+     "Não é possível calcular a potência transmitida sem a informação da velocidade angular de E₂.",
+     "A velocidade tangencial de E₁ é 400 × π mm/min.",
+     "A relação de transmissão é igual a 4.",
+     "O módulo de E₁ é 4 mm."
+    ]
+   }
+  },
+  "esp004": {
+   "2": "Assinale a opção que melhor descreve o princípio de funcionamento do processo de conformação próxima ao formato final via laser (LENS – laser engineered net shaping).",
+   "3": {
+    "alternativas": [
+     "forjamento",
+     "fusão seletiva a laser (SLM)",
+     "usinagem CNC (controle numérico computadorizado)",
+     "polyjet",
+     "modelagem por deposição de material fundido (FDM – fused deposition modeling)"
+    ]
+   },
+   "12": {
+    "enunciado": "Na peça 4A2-I, os símbolos ⌭ 0,15 e ⏥ 0,01 são tolerâncias geométricas de"
+   }
+  },
+  "esp005": {
+   "1": "Dois sinais de tensão, I e II, têm as seguintes características: o sinal I é um sinal senoidal, com período de 20 ms, tensão mínima de −100 V e tensão máxima de 100 V; o sinal II é um sinal periódico em que cada período é composto por uma tensão de 0 V, nos primeiros 800 µs, e de 100 V nos próximos 200 µs. Com base nessas informações, assinale a opção correta.",
+   "5": {
+    "alternativas": [
+     "ligar o terminal positivo da fonte ao catodo do LED, ligar o anodo do LED ao terminal negativo da fonte, e ligar, em paralelo ao LED, um resistor de 330 Ω com capacidade de dissipar uma potência de 50 mW.",
+     "ligar o terminal positivo da fonte ao anodo do LED e ligar o catodo do LED ao terminal negativo do fonte.",
+     "ligar o terminal positivo da fonte ao catodo do LED, ligar o anodo do LED a um terminal de um resistor de 1 kΩ com capacidade de dissipar uma potência de 80 mW, e ligar o outro terminal do resistor ao terminal negativo da fonte.",
+     "ligar o terminal positivo da fonte a um terminal de um resistor de 150 Ω com capacidade de dissipar uma potência de 80 mW, ligar o outro terminal do resistor ao anodo do LED e ligar o catodo do LED ao terminal negativo da fonte.",
+     "ligar o terminal positivo da fonte ao anodo do LED, ligar o catodo do LED ao terminal negativo da fonte, ligar, em paralelo ao LED, um resistor de 250 Ω com capacidade de dissipar uma potência de 50 mW."
+    ]
+   },
+   "11": {
+    "alternativas": [
+     "− 10 V.",
+     "30 V.",
+     "20 V.",
+     "− 20 V.",
+     "10 V."
+    ]
+   },
+   "18": {
+    "alternativas": [
+     "Vout = 1,2 (1 + R₂/R₁) V, em que 1,2 V é a tensão de referência entre os pinos de saída e de ajuste.",
+     "Vout = 1,2 (1 + R₁/R₂) V, em que 1,2 V é a tensão de referência entre os pinos de saída e de ajuste.",
+     "Vout = R₂ × Iadj V, em que Iadj = 10 mA.",
+     "Vout = R₁ × Iadj V, em que Iadj = 10 mA.",
+     "Vout = (R₁ + R₂) × Iadj V, em que Iadj = 10 mA."
+    ]
+   }
+  }
+ }
+}

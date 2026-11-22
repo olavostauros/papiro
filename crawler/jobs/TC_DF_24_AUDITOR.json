@@ -1,0 +1,99 @@
+{
+ "evento": "TC_DF_24_AUDITOR",
+ "workdir": "/tmp/tc_df_24_auditor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Tribunal de Contas do Distrito Federal",
+  "ano": 2024,
+  "id_orgao": "tc-df"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Auditor de Controle Externo — Especialidade Arquivologia",
+   "id_cargo": "auditor-arquivologia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "gab_TCDF_AUDITOR_CB1_01_2.pdf",
+     "gabarito": "gab_TCDF_AUDITOR_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "012_TCDF_AUDITOR_CB1_01.PDF"
+    },
+    {
+     "key": "cg01",
+     "prova": "gab_TCDF_AUDITOR_CG1_01_2.pdf",
+     "gabarito": "gab_TCDF_AUDITOR_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "012_TCDF_AUDITOR_CG1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "gab_TCDF_AUDITOR_001_01_2.pdf",
+     "gabarito": "gab_TCDF_AUDITOR_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "012_TCDF_AUDITOR_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Auditor de Controle Externo — Especialidade Psicologia",
+   "id_cargo": "auditor-psicologia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "gab_TCDF_AUDITOR_CB1_01_2.pdf",
+     "gabarito": "gab_TCDF_AUDITOR_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "012_TCDF_AUDITOR_CB1_01.PDF"
+    },
+    {
+     "key": "cg02",
+     "prova": "gab_TCDF_AUDITOR_CG2_01_2.pdf",
+     "gabarito": "gab_TCDF_AUDITOR_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "012_TCDF_AUDITOR_CG2_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "gab_TCDF_AUDITOR_002_01_2.pdf",
+     "gabarito": "gab_TCDF_AUDITOR_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "012_TCDF_AUDITOR_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Auditor de Controle Externo — Especialidade Tecnologia da Informação — Orientação Microinformática e Infraestrutura de TI",
+   "id_cargo": "auditor-ti",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "gab_TCDF_AUDITOR_CB1_01_2.pdf",
+     "gabarito": "gab_TCDF_AUDITOR_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "012_TCDF_AUDITOR_CB1_01.PDF"
+    },
+    {
+     "key": "cg03",
+     "prova": "gab_TCDF_AUDITOR_CG3_01_2.pdf",
+     "gabarito": "gab_TCDF_AUDITOR_CG3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "012_TCDF_AUDITOR_CG3_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "gab_TCDF_AUDITOR_003_01_2.pdf",
+     "gabarito": "gab_TCDF_AUDITOR_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "012_TCDF_AUDITOR_003_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

@@ -1,0 +1,197 @@
+{
+ "evento": "PREF_SAO_CRISTOVAO_SE_23",
+ "workdir": "/tmp/pref_sao_cristovao_se_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "PREFEITURA MUNICIPAL DE SÃO CRISTÓVÃO",
+  "ano": 2023,
+  "id_orgao": "pref"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista Ambiental",
+   "id_cargo": "analista-ambiental",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PREF_SAO_CRISTOVAO_CB1_0.pdf",
+     "gabarito": "gab_PREF_SAO_CRISTOVAO_CB1_0.pdf",
+     "tipo": "mc",
+     "arquivo": "823_PREF_SAO_CRISTOVAO_CB1_01_(NVEL_SUPERIOR).PDF"
+    },
+    {
+     "key": "esp001",
+     "prova": "pro_PREF_SAO_CRISTOVAO_001_0.pdf",
+     "gabarito": "gab_PREF_SAO_CRISTOVAO_001_0.pdf",
+     "tipo": "mc",
+     "arquivo": "823_PREF_SAO_CRISTOVAO_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Arquiteto Substituto",
+   "id_cargo": "arquiteto-substituto",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PREF_SAO_CRISTOVAO_CB1_0.pdf",
+     "gabarito": "gab_PREF_SAO_CRISTOVAO_CB1_0.pdf",
+     "tipo": "mc",
+     "arquivo": "823_PREF_SAO_CRISTOVAO_CB1_01_(NVEL_SUPERIOR).PDF"
+    },
+    {
+     "key": "esp002",
+     "prova": "pro_PREF_SAO_CRISTOVAO_002_0.pdf",
+     "gabarito": "gab_PREF_SAO_CRISTOVAO_002_0.pdf",
+     "tipo": "mc",
+     "arquivo": "823_PREF_SAO_CRISTOVAO_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Assistente Social",
+   "id_cargo": "assistente-social",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PREF_SAO_CRISTOVAO_CB1_0.pdf",
+     "gabarito": "gab_PREF_SAO_CRISTOVAO_CB1_0.pdf",
+     "tipo": "mc",
+     "arquivo": "823_PREF_SAO_CRISTOVAO_CB1_01_(NVEL_SUPERIOR).PDF"
+    },
+    {
+     "key": "esp003",
+     "prova": "pro_PREF_SAO_CRISTOVAO_003_0.pdf",
+     "gabarito": "gab_PREF_SAO_CRISTOVAO_003_0.pdf",
+     "tipo": "mc",
+     "arquivo": "823_PREF_SAO_CRISTOVAO_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Engenheiro Civil Substituto",
+   "id_cargo": "engenheiro-civil-substituto",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PREF_SAO_CRISTOVAO_CB1_0.pdf",
+     "gabarito": "gab_PREF_SAO_CRISTOVAO_CB1_0.pdf",
+     "tipo": "mc",
+     "arquivo": "823_PREF_SAO_CRISTOVAO_CB1_01_(NVEL_SUPERIOR).PDF"
+    },
+    {
+     "key": "esp004",
+     "prova": "pro_PREF_SAO_CRISTOVAO_004_0.pdf",
+     "gabarito": "gab_PREF_SAO_CRISTOVAO_004_0.pdf",
+     "tipo": "mc",
+     "arquivo": "823_PREF_SAO_CRISTOVAO_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Nutricionista",
+   "id_cargo": "nutricionista",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PREF_SAO_CRISTOVAO_CB1_0.pdf",
+     "gabarito": "gab_PREF_SAO_CRISTOVAO_CB1_0.pdf",
+     "tipo": "mc",
+     "arquivo": "823_PREF_SAO_CRISTOVAO_CB1_01_(NVEL_SUPERIOR).PDF"
+    },
+    {
+     "key": "esp005",
+     "prova": "pro_PREF_SAO_CRISTOVAO_005_0.pdf",
+     "gabarito": "gab_PREF_SAO_CRISTOVAO_005_0.pdf",
+     "tipo": "mc",
+     "arquivo": "823_PREF_SAO_CRISTOVAO_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Psicólogo",
+   "id_cargo": "psicologo",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PREF_SAO_CRISTOVAO_CB1_0.pdf",
+     "gabarito": "gab_PREF_SAO_CRISTOVAO_CB1_0.pdf",
+     "tipo": "mc",
+     "arquivo": "823_PREF_SAO_CRISTOVAO_CB1_01_(NVEL_SUPERIOR).PDF"
+    },
+    {
+     "key": "esp006",
+     "prova": "pro_PREF_SAO_CRISTOVAO_006_0.pdf",
+     "gabarito": "gab_PREF_SAO_CRISTOVAO_006_0.pdf",
+     "tipo": "mc",
+     "arquivo": "823_PREF_SAO_CRISTOVAO_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Guarda Municipal",
+   "id_cargo": "guarda-municipal",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_PREF_SAO_CRISTOVAO_CB2_0.pdf",
+     "gabarito": "gab_PREF_SAO_CRISTOVAO_CB2_0.pdf",
+     "tipo": "mc",
+     "arquivo": "823_PREF_SAO_CRISTOVAO_CB2_01_(NVEL_MDIO).PDF"
+    },
+    {
+     "key": "esp007",
+     "prova": "pro_PREF_SAO_CRISTOVAO_007_0.pdf",
+     "gabarito": "gab_PREF_SAO_CRISTOVAO_007_0.pdf",
+     "tipo": "mc",
+     "arquivo": "823_PREF_SAO_CRISTOVAO_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Técnico Ambiental",
+   "id_cargo": "tecnico-ambiental",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PREF_SAO_CRISTOVAO_CB1_0.pdf",
+     "gabarito": "gab_PREF_SAO_CRISTOVAO_CB1_0.pdf",
+     "tipo": "mc",
+     "arquivo": "823_PREF_SAO_CRISTOVAO_CB1_01_(NVEL_SUPERIOR).PDF"
+    },
+    {
+     "key": "esp008",
+     "prova": "pro_PREF_SAO_CRISTOVAO_008_0.pdf",
+     "gabarito": "gab_PREF_SAO_CRISTOVAO_008_0.pdf",
+     "tipo": "mc",
+     "arquivo": "823_PREF_SAO_CRISTOVAO_008_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {
+  "cb1": [
+   19
+  ],
+  "cb2": [
+   19
+  ]
+ },
+ "patch": {
+  "esp002": {
+   "70": "Em organizações e órgãos da administração pública direta e indireta, as condições de trabalho são regidas pela norma NR 17 – Ergonomia, cuja redação é dada pela Portaria MPT n.º 423/2021. De acordo com essa portaria, a organização deve realizar uma avaliação ergonômica preliminar das situações de trabalho e(ou) uma análise ergonômica do trabalho (AET) a fim de produzir o programa de gerenciamento de riscos (PGR). Nesse contexto, assinale a opção correta."
+  },
+  "esp008": {
+   "95": "Considerando que a temperatura média (T₀) de incêndios florestais é de 300 K e que o comprimento de onda ideal (λi) para monitorá-los via imagens de satélite é dado pela equação λi = 3.000/T, em que λi é medido em µm e T é medido em K, é correto afirmar que o comprimento de onda ideal para monitorar incêndios florestais é igual a"
+  }
+ }
+}

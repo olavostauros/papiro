@@ -1,0 +1,118 @@
+{
+ "evento": "MP_GO_24_SERVIDOR",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "MP-GO",
+  "ano": 2024,
+  "id_orgao": "mp-go"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista Ambiental – Engenharia Agronômica",
+   "id_cargo": "analista-ambiental",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MPGO_CG1_01.pdf",
+     "gabarito": "gab_MPGO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "964_MPGO_CG1_01.PDF"
+    },
+    {
+     "key": "esp1",
+     "prova": "pro_MPGO_001_01.pdf",
+     "gabarito": "gab_MPGO_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "964_MPGO_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista em Edificações – Engenharia Civil",
+   "id_cargo": "analista-engenharia-civil",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MPGO_CG1_01.pdf",
+     "gabarito": "gab_MPGO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "964_MPGO_CG1_01.PDF"
+    },
+    {
+     "key": "esp2",
+     "prova": "pro_MPGO_002_01.pdf",
+     "gabarito": "gab_MPGO_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "964_MPGO_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista em Edificações – Engenharia Elétrica",
+   "id_cargo": "analista-engenharia-eletrica",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MPGO_CG1_01.pdf",
+     "gabarito": "gab_MPGO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "964_MPGO_CG1_01.PDF"
+    },
+    {
+     "key": "esp3",
+     "prova": "pro_MPGO_003_01.pdf",
+     "gabarito": "gab_MPGO_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "964_MPGO_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista em Edificações – Engenharia Mecânica",
+   "id_cargo": "analista-engenharia-mecanica",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MPGO_CG1_01.pdf",
+     "gabarito": "gab_MPGO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "964_MPGO_CG1_01.PDF"
+    },
+    {
+     "key": "esp4",
+     "prova": "pro_MPGO_004_01.pdf",
+     "gabarito": "gab_MPGO_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "964_MPGO_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista em Informática",
+   "id_cargo": "analista-informatica",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_MPGO_CG2_01.pdf",
+     "gabarito": "gab_MPGO_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "964_MPGO_CG2_01.PDF"
+    },
+    {
+     "key": "esp5",
+     "prova": "pro_MPGO_005_01.pdf",
+     "gabarito": "gab_MPGO_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "964_MPGO_005_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {
+  "esp3": {
+   "62": "Caso um capacitor de 100 nF seja conectado em paralelo com o resistor de 9 kΩ , será acrescentado ao circuito o comportamento de um filtro passa-alta de primeira ordem, com frequência de corte igual a 1 kHz."
+  }
+ }
+}

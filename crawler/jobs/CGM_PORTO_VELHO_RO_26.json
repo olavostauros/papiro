@@ -1,0 +1,84 @@
+{
+ "evento": "CGM_PORTO_VELHO_RO_26",
+ "workdir": "/tmp/cgm_porto_velho_ro_26",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Controladoria Geral do Município de Porto Velho",
+  "ano": 2026,
+  "id_orgao": "cgmpv"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Auditor",
+   "id_cargo": "auditor",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_2B0AA311FB1CDEC9C1AC8AC3.pdf",
+     "gabarito": "gab_9B041111FB0F5C49C1ADF4F2.pdf",
+     "tipo": "mc",
+     "arquivo": "2B0AA311FB1CDEC9C1AC8AC3318B712AFDC0E7248BEF86D3FB02C5B9BA133C8C.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp1",
+     "prova": "pro_2559554662B5E5D9594E6E42.pdf",
+     "gabarito": "gab_ADDC4DCC2133882E801EB6E9.pdf",
+     "tipo": "mc",
+     "arquivo": "2559554662B5E5D9594E6E426AEED58F3469E6B856573355FD8B3C9D7BF8A30A.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Contador",
+   "id_cargo": "contador",
+   "provas": [
+    {
+     "key": "cg23",
+     "prova": "pro_7C73763D840AA3CA1AE5B754.pdf",
+     "gabarito": "gab_65FF76A79D12A58B2FF6EAD3.pdf",
+     "tipo": "mc",
+     "arquivo": "7C73763D840AA3CA1AE5B7542A435F57C7F61A0DD4CE073F237681A341F9AEC5.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp2",
+     "prova": "pro_9178D4C76EE9A3EBE3E77FA1.pdf",
+     "gabarito": "gab_25AC500E5E69DAC7053C350B.pdf",
+     "tipo": "mc",
+     "arquivo": "9178D4C76EE9A3EBE3E77FA147CA5D0C4592C48F8AB9D8A21BD51EACCB455ED4.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Técnico de Controle Interno",
+   "id_cargo": "tecnico-de-controle-interno",
+   "provas": [
+    {
+     "key": "cg23",
+     "prova": "pro_7C73763D840AA3CA1AE5B754.pdf",
+     "gabarito": "gab_65FF76A79D12A58B2FF6EAD3.pdf",
+     "tipo": "mc",
+     "arquivo": "7C73763D840AA3CA1AE5B7542A435F57C7F61A0DD4CE073F237681A341F9AEC5.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp3",
+     "prova": "pro_28BA80C977E13BBA58DA4FEA.pdf",
+     "gabarito": "gab_777C1BA37F90B18714357D2B.pdf",
+     "tipo": "mc",
+     "arquivo": "28BA80C977E13BBA58DA4FEAE89F1DEA2CB163440C88A5F11C3DDA5486DC27F7.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

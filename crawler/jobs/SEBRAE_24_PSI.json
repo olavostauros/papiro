@@ -1,0 +1,40 @@
+{
+ "evento": "SEBRAE_24_PSI",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "SEBRAE",
+  "ano": 2024,
+  "id_orgao": "sebrae"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista Técnico II",
+   "id_cargo": "analista-ii",
+   "provas": [
+    {
+     "key": "obj",
+     "prova": "pro_SEBRAE_PSI_001_01.pdf",
+     "gabarito": "gab_SEBRAE_PSI_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "030_SEBRAE_PSI_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Técnico I",
+   "id_cargo": "analista-i",
+   "provas": [
+    {
+     "key": "obj",
+     "prova": "pro_SEBRAE_PSI_002_01.pdf",
+     "gabarito": "gab_SEBRAE_PSI_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "030_SEBRAE_PSI_002_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {}
+}

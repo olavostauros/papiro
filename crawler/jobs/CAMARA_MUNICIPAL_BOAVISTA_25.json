@@ -1,0 +1,27 @@
+{
+ "evento": "CAMARA_MUNICIPAL_BOAVISTA_25",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Câmara Municipal de Boa Vista",
+  "ano": 2025,
+  "id_orgao": "camara-boavista"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Procurador do Legislativo",
+   "id_cargo": "procurador-legislativo",
+   "provas": [
+    {
+     "key": "obj",
+     "prova": "pro_3967D9EEFF7AEDFAEE38E160.pdf",
+     "gabarito": "gab_D0D6BF85BDB4817E74D07649.pdf",
+     "tipo": "mc",
+     "arquivo": "3967D9EEFF7AEDFAEE38E160948D12514F4E6C8DABB5752808482751CB14D038.pdf"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {}
+}

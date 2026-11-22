@@ -1,0 +1,423 @@
+{
+ "evento": "FUB_25",
+ "workdir": "/tmp/fub_25",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Fundação Universidade de Brasília",
+  "ano": 2025,
+  "id_orgao": "fub"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Administrador",
+   "id_cargo": "administrador",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_CB1_01.pdf"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_FUB_001_01.pdf",
+     "gabarito": "gab_FUB_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_001_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Arquiteto e Urbanista",
+   "id_cargo": "arquiteto-e-urbanista",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_CB1_01.pdf"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_FUB_002_01.pdf",
+     "gabarito": "gab_FUB_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_002_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Auditor",
+   "id_cargo": "auditor",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_CB1_01.pdf"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_FUB_003_01.pdf",
+     "gabarito": "gab_FUB_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_003_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Biólogo",
+   "id_cargo": "biologo",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_CB1_01.pdf"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_FUB_004_01.pdf",
+     "gabarito": "gab_FUB_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_004_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Contador",
+   "id_cargo": "contador",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_CB1_01.pdf"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_FUB_005_01.pdf",
+     "gabarito": "gab_FUB_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_005_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Engenheiro Agrônomo",
+   "id_cargo": "engenheiro-agronomo",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_CB1_01.pdf"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_FUB_006_01.pdf",
+     "gabarito": "gab_FUB_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_006_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Engenheiro – Área: Produção",
+   "id_cargo": "engenheiro-area-producao",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_CB1_01.pdf"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_FUB_007_01.pdf",
+     "gabarito": "gab_FUB_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_007_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Engenheiro – Área: Elétrica",
+   "id_cargo": "engenheiro-area-eletrica",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_CB1_01.pdf"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_FUB_008_01.pdf",
+     "gabarito": "gab_FUB_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_008_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Farmacêutico",
+   "id_cargo": "farmaceutico",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_CB1_01.pdf"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_FUB_009_01.pdf",
+     "gabarito": "gab_FUB_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_009_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Médico – Área: Trabalho",
+   "id_cargo": "medico-area-trabalho",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_CB1_01.pdf"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_FUB_010_01.pdf",
+     "gabarito": "gab_FUB_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_010_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Produtor Cultural",
+   "id_cargo": "produtor-cultural",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_CB1_01.pdf"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_FUB_011_01.pdf",
+     "gabarito": "gab_FUB_011_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_011_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Técnico em Assuntos Educacionais",
+   "id_cargo": "tecnico-em-assuntos-educacionais",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_CB1_01.pdf"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_FUB_012_01.pdf",
+     "gabarito": "gab_FUB_012_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_012_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Tecnólogo – Área: Produção Audiovisual",
+   "id_cargo": "tecnologo-area-producao-audiovisual",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_CB1_01.pdf"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_FUB_013_01.pdf",
+     "gabarito": "gab_FUB_013_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_013_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "Tecnólogo – Área: Sistemas de Telecomunicações",
+   "id_cargo": "tecnologo-area-sistemas-de-telecomunicacoes",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_CB1_01.pdf"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_FUB_014_01.pdf",
+     "gabarito": "gab_FUB_014_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_014_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "Assistente em Administração",
+   "id_cargo": "assistente-em-administracao",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_FUB_CB3_01.pdf",
+     "gabarito": "gab_FUB_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_CB3_01.pdf"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_FUB_015_01.pdf",
+     "gabarito": "gab_FUB_015_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_015_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "Técnico de Laboratório – Área: Análises Clínicas",
+   "id_cargo": "tecnico-de-laboratorio-area-analises-clinicas",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_FUB_CB2_01.pdf",
+     "gabarito": "gab_FUB_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_CB2_01.pdf"
+    },
+    {
+     "key": "esp16",
+     "prova": "pro_FUB_016_01.pdf",
+     "gabarito": "gab_FUB_016_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_016_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "17",
+   "cargo": "Técnico de Laboratório – Área: Industrial",
+   "id_cargo": "tecnico-de-laboratorio-area-industrial",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_FUB_CB2_01.pdf",
+     "gabarito": "gab_FUB_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_CB2_01.pdf"
+    },
+    {
+     "key": "esp17",
+     "prova": "pro_FUB_017_01.pdf",
+     "gabarito": "gab_FUB_017_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_017_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "18",
+   "cargo": "Técnico de Tecnologia da Informação",
+   "id_cargo": "tecnico-de-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cb4",
+     "prova": "pro_FUB_CB4_01.pdf",
+     "gabarito": "gab_FUB_CB4_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_CB4_01.pdf"
+    },
+    {
+     "key": "esp18",
+     "prova": "pro_FUB_018_01.pdf",
+     "gabarito": "gab_FUB_018_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_018_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "19",
+   "cargo": "Técnico em Contabilidade",
+   "id_cargo": "tecnico-em-contabilidade",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_FUB_CB2_01.pdf",
+     "gabarito": "gab_FUB_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_CB2_01.pdf"
+    },
+    {
+     "key": "esp19",
+     "prova": "pro_FUB_019_01.pdf",
+     "gabarito": "gab_FUB_019_01.pdf",
+     "tipo": "ce",
+     "arquivo": "088_FUB_019_01.pdf"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp08": {
+   "57": "Caso a tensão de saída seja VR(t), o circuito se comportará como um filtro passa-alta de primeira ordem.",
+   "82": "Em materiais condutores, a velocidade de deriva (vd) pode ser calculada por vd = I/(n·e), em que I é a corrente elétrica que passa pelo condutor, n é a densidade eletrônica e e é a carga elétrica elementar."
+  },
+  "esp18": {
+   "75": "Considerando o código em Python precedente, é correto afirmar que sua execução apresentará o resultado a seguir."
+  }
+ },
+ "fonte": "https://cdn.cebraspe.org.br/concursos/FUB_25/arquivos/"
+}

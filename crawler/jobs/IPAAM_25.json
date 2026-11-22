@@ -1,0 +1,436 @@
+{
+ "evento": "IPAAM_25",
+ "workdir": "/tmp/ipaam_25",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Instituto de Proteção Ambiental do Amazonas",
+  "ano": 2025,
+  "id_orgao": "ipaam"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista Ambiental – Especialidade: Administração",
+   "id_cargo": "analista-ambiental-especialidade-administracao",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A11711ECA664656C239F53F2.pdf",
+     "gabarito": "gab_83F354827B2B59E546D0BD20.pdf",
+     "tipo": "mc",
+     "arquivo": "A11711ECA664656C239F53F258FDB67F43A2318114811C4E6EACF5A6C84668F0.pdf"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_0B8A5C3FBE80059370675147.pdf",
+     "gabarito": "gab_C96483D05515B6EA48E1544A.pdf",
+     "tipo": "mc",
+     "arquivo": "0B8A5C3FBE8005937067514727A2DA03F075545AE0CEE054DCF494C4CFCB215A.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista Ambiental – Especialidade: Análise de Sistemas",
+   "id_cargo": "analista-ambiental-especialidade-analise-de-sistemas",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A11711ECA664656C239F53F2.pdf",
+     "gabarito": "gab_83F354827B2B59E546D0BD20.pdf",
+     "tipo": "mc",
+     "arquivo": "A11711ECA664656C239F53F258FDB67F43A2318114811C4E6EACF5A6C84668F0.pdf"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_2DD5B0EA8E0BC9C3873B4E72.pdf",
+     "gabarito": "gab_7CAF68D9050C0FDDB8E8554E.pdf",
+     "tipo": "mc",
+     "arquivo": "2DD5B0EA8E0BC9C3873B4E72EA2452ECE6DE2BDAF413A6A268CEE3C7B9F38341.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista Ambiental – Especialidade: Antropologia",
+   "id_cargo": "analista-ambiental-especialidade-antropologia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A11711ECA664656C239F53F2.pdf",
+     "gabarito": "gab_83F354827B2B59E546D0BD20.pdf",
+     "tipo": "mc",
+     "arquivo": "A11711ECA664656C239F53F258FDB67F43A2318114811C4E6EACF5A6C84668F0.pdf"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_B784CA5E8E7CA33A0B3234D5.pdf",
+     "gabarito": "gab_973739FD2E32260E42EBA608.pdf",
+     "tipo": "mc",
+     "arquivo": "B784CA5E8E7CA33A0B3234D50216DC5A581CDA32A0E998A275A7BEB18EE9ED13.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista Ambiental – Especialidade: Biologia",
+   "id_cargo": "analista-ambiental-especialidade-biologia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A11711ECA664656C239F53F2.pdf",
+     "gabarito": "gab_83F354827B2B59E546D0BD20.pdf",
+     "tipo": "mc",
+     "arquivo": "A11711ECA664656C239F53F258FDB67F43A2318114811C4E6EACF5A6C84668F0.pdf"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_F4B61E95DC2B70C6E83806FA.pdf",
+     "gabarito": "gab_8EDC17B66DC8377A2A274C54.pdf",
+     "tipo": "mc",
+     "arquivo": "F4B61E95DC2B70C6E83806FA25320D61433D7455372CFD3137BBA5C77B857EEE.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Analista Ambiental – Especialidade: Ciências Contábeis",
+   "id_cargo": "analista-ambiental-especialidade-ciencias-contabeis",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A11711ECA664656C239F53F2.pdf",
+     "gabarito": "gab_83F354827B2B59E546D0BD20.pdf",
+     "tipo": "mc",
+     "arquivo": "A11711ECA664656C239F53F258FDB67F43A2318114811C4E6EACF5A6C84668F0.pdf"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_0F6A7CA5ED274B30F9275D4E.pdf",
+     "gabarito": "gab_D450333A7CAE8C3FF7FE7AB7.pdf",
+     "tipo": "mc",
+     "arquivo": "0F6A7CA5ED274B30F9275D4EF97F03683331E024DFA3F80C38C6D2430516A4AF.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Analista Ambiental – Especialidade: Direito (bacharel)",
+   "id_cargo": "analista-ambiental-especialidade-direito-bacharel",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A11711ECA664656C239F53F2.pdf",
+     "gabarito": "gab_83F354827B2B59E546D0BD20.pdf",
+     "tipo": "mc",
+     "arquivo": "A11711ECA664656C239F53F258FDB67F43A2318114811C4E6EACF5A6C84668F0.pdf"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_8334BC805367599171A5F4EA.pdf",
+     "gabarito": "gab_758EEAA8326E50FC0E2B7F4A.pdf",
+     "tipo": "mc",
+     "arquivo": "8334BC805367599171A5F4EA8DD2454546C928EC02A8ADF03B3EBA4884DA001E.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Analista Ambiental – Especialidade: Engenharia Agronômica",
+   "id_cargo": "analista-ambiental-especialidade-engenharia-agronomica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A11711ECA664656C239F53F2.pdf",
+     "gabarito": "gab_83F354827B2B59E546D0BD20.pdf",
+     "tipo": "mc",
+     "arquivo": "A11711ECA664656C239F53F258FDB67F43A2318114811C4E6EACF5A6C84668F0.pdf"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_6B33C88AED92E7367DE9F936.pdf",
+     "gabarito": "gab_59A01DE77C11D42127FF5A18.pdf",
+     "tipo": "mc",
+     "arquivo": "6B33C88AED92E7367DE9F93695D56FE451EEA3D58709721C7F46095FFB3D892D.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Analista Ambiental – Especialidade: Engenharia Ambiental/Sanitarista",
+   "id_cargo": "analista-ambiental-especialidade-engenharia-ambiental-sanitarista",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A11711ECA664656C239F53F2.pdf",
+     "gabarito": "gab_83F354827B2B59E546D0BD20.pdf",
+     "tipo": "mc",
+     "arquivo": "A11711ECA664656C239F53F258FDB67F43A2318114811C4E6EACF5A6C84668F0.pdf"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_34EBB084E96B22976BFA5C99.pdf",
+     "gabarito": "gab_95786E021022B9C9E452163C.pdf",
+     "tipo": "mc",
+     "arquivo": "34EBB084E96B22976BFA5C9978DEB912F2294B05F4C28545A4E4237472F4B505.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Analista Ambiental – Especialidade: Engenharia Civil",
+   "id_cargo": "analista-ambiental-especialidade-engenharia-civil",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A11711ECA664656C239F53F2.pdf",
+     "gabarito": "gab_83F354827B2B59E546D0BD20.pdf",
+     "tipo": "mc",
+     "arquivo": "A11711ECA664656C239F53F258FDB67F43A2318114811C4E6EACF5A6C84668F0.pdf"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_A128178974B30D6D0833C5EF.pdf",
+     "gabarito": "gab_52A83A34E70FB9D6935341E8.pdf",
+     "tipo": "mc",
+     "arquivo": "A128178974B30D6D0833C5EF673F47EAA1B61217DE9CB980802A556519704250.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Analista Ambiental – Especialidade: Engenharia de Pesca",
+   "id_cargo": "analista-ambiental-especialidade-engenharia-de-pesca",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A11711ECA664656C239F53F2.pdf",
+     "gabarito": "gab_83F354827B2B59E546D0BD20.pdf",
+     "tipo": "mc",
+     "arquivo": "A11711ECA664656C239F53F258FDB67F43A2318114811C4E6EACF5A6C84668F0.pdf"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_9A78CA4F54FB1728068EFD7F.pdf",
+     "gabarito": "gab_40C636DDE66C03A7BB9990FA.pdf",
+     "tipo": "mc",
+     "arquivo": "9A78CA4F54FB1728068EFD7F75BDD207D7117437D38F15ECD5FE85D603A627AC.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Analista Ambiental – Especialidade: Engenharia Elétrica",
+   "id_cargo": "analista-ambiental-especialidade-engenharia-eletrica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A11711ECA664656C239F53F2.pdf",
+     "gabarito": "gab_83F354827B2B59E546D0BD20.pdf",
+     "tipo": "mc",
+     "arquivo": "A11711ECA664656C239F53F258FDB67F43A2318114811C4E6EACF5A6C84668F0.pdf"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_971407980C6CF70A40836253.pdf",
+     "gabarito": "gab_F9CDD8BA7DE9354FFBA6C22D.pdf",
+     "tipo": "mc",
+     "arquivo": "971407980C6CF70A4083625395D90B18C194A7E78EE2B35CFAA5135EBB82380E.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Analista Ambiental – Especialidade: Engenharia Florestal",
+   "id_cargo": "analista-ambiental-especialidade-engenharia-florestal",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A11711ECA664656C239F53F2.pdf",
+     "gabarito": "gab_83F354827B2B59E546D0BD20.pdf",
+     "tipo": "mc",
+     "arquivo": "A11711ECA664656C239F53F258FDB67F43A2318114811C4E6EACF5A6C84668F0.pdf"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_05B763FE92BA0590ED77E486.pdf",
+     "gabarito": "gab_52288570D0A3D804F5B18DD9.pdf",
+     "tipo": "mc",
+     "arquivo": "05B763FE92BA0590ED77E486175F9AB4C09D728E574952FA7463A0AA2DDB89E4.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Analista Ambiental – Especialidade: Engenharia Química",
+   "id_cargo": "analista-ambiental-especialidade-engenharia-quimica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A11711ECA664656C239F53F2.pdf",
+     "gabarito": "gab_83F354827B2B59E546D0BD20.pdf",
+     "tipo": "mc",
+     "arquivo": "A11711ECA664656C239F53F258FDB67F43A2318114811C4E6EACF5A6C84668F0.pdf"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_92A47103843E78FADCD0B63A.pdf",
+     "gabarito": "gab_76D08D23F63202F752BA5411.pdf",
+     "tipo": "mc",
+     "arquivo": "92A47103843E78FADCD0B63AE3FA35D03A9C54C0DA4C072B9CB301F4B491179C.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "Analista Ambiental – Especialidade: Geografia",
+   "id_cargo": "analista-ambiental-especialidade-geografia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A11711ECA664656C239F53F2.pdf",
+     "gabarito": "gab_83F354827B2B59E546D0BD20.pdf",
+     "tipo": "mc",
+     "arquivo": "A11711ECA664656C239F53F258FDB67F43A2318114811C4E6EACF5A6C84668F0.pdf"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_256676F094417B9C9B5F25D4.pdf",
+     "gabarito": "gab_24497C03996D488417F555EB.pdf",
+     "tipo": "mc",
+     "arquivo": "256676F094417B9C9B5F25D44B3F2395DE11543637C5B499BDDD279F408BFFA3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "Analista Ambiental – Especialidade: Geologia",
+   "id_cargo": "analista-ambiental-especialidade-geologia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A11711ECA664656C239F53F2.pdf",
+     "gabarito": "gab_83F354827B2B59E546D0BD20.pdf",
+     "tipo": "mc",
+     "arquivo": "A11711ECA664656C239F53F258FDB67F43A2318114811C4E6EACF5A6C84668F0.pdf"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_1ADDEBC0DF2669E1B1D2774D.pdf",
+     "gabarito": "gab_9A6541A61DA649822E3F15D1.pdf",
+     "tipo": "mc",
+     "arquivo": "1ADDEBC0DF2669E1B1D2774D802E6A70DC25CCD7B186C3C3D0856DCF8EAF5C0D.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "Analista Ambiental – Especialidade: Medicina Veterinária",
+   "id_cargo": "analista-ambiental-especialidade-medicina-veterinaria",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A11711ECA664656C239F53F2.pdf",
+     "gabarito": "gab_83F354827B2B59E546D0BD20.pdf",
+     "tipo": "mc",
+     "arquivo": "A11711ECA664656C239F53F258FDB67F43A2318114811C4E6EACF5A6C84668F0.pdf"
+    },
+    {
+     "key": "esp16",
+     "prova": "pro_06EDA2F14B997434121B3ECE.pdf",
+     "gabarito": "gab_22FB398E594CBF00AD5048BC.pdf",
+     "tipo": "mc",
+     "arquivo": "06EDA2F14B997434121B3ECE529AB811B16C664EE841ECD87324BFA6FEFBC798.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "17",
+   "cargo": "Analista Ambiental – Especialidade: Pedagogia",
+   "id_cargo": "analista-ambiental-especialidade-pedagogia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A11711ECA664656C239F53F2.pdf",
+     "gabarito": "gab_83F354827B2B59E546D0BD20.pdf",
+     "tipo": "mc",
+     "arquivo": "A11711ECA664656C239F53F258FDB67F43A2318114811C4E6EACF5A6C84668F0.pdf"
+    },
+    {
+     "key": "esp17",
+     "prova": "pro_6ACB07A800F699DBDA45579B.pdf",
+     "gabarito": "gab_60703C2FCA0A05A42BA7EF11.pdf",
+     "tipo": "mc",
+     "arquivo": "6ACB07A800F699DBDA45579B53D30A9FBD5044A4355B18BC81A40D007E718982.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "18",
+   "cargo": "Analista Ambiental – Especialidade: Química",
+   "id_cargo": "analista-ambiental-especialidade-quimica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A11711ECA664656C239F53F2.pdf",
+     "gabarito": "gab_83F354827B2B59E546D0BD20.pdf",
+     "tipo": "mc",
+     "arquivo": "A11711ECA664656C239F53F258FDB67F43A2318114811C4E6EACF5A6C84668F0.pdf"
+    },
+    {
+     "key": "esp18",
+     "prova": "pro_7A5A94C369E5005B98BA20EB.pdf",
+     "gabarito": "gab_31CA03061B743AE3F5792256.pdf",
+     "tipo": "mc",
+     "arquivo": "7A5A94C369E5005B98BA20EB80E43F01B6CA6816312EB170DCD7667D64927572.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "19",
+   "cargo": "Analista Ambiental – Especialidade: Sociologia",
+   "id_cargo": "analista-ambiental-especialidade-sociologia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_A11711ECA664656C239F53F2.pdf",
+     "gabarito": "gab_83F354827B2B59E546D0BD20.pdf",
+     "tipo": "mc",
+     "arquivo": "A11711ECA664656C239F53F258FDB67F43A2318114811C4E6EACF5A6C84668F0.pdf"
+    },
+    {
+     "key": "esp19",
+     "prova": "pro_29F0707AE74BAF4907009FC7.pdf",
+     "gabarito": "gab_6087234ED08CAF1800E8F731.pdf",
+     "tipo": "mc",
+     "arquivo": "29F0707AE74BAF4907009FC7C2F4EA4F246857D79617BA7AECF26F38EC260B22.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "20",
+   "cargo": "Assistente Ambiental – Especialidade: Assistência Ambiental",
+   "id_cargo": "assistente-ambiental-especialidade-assistencia-ambiental",
+   "provas": [
+    {
+     "key": "cg20",
+     "prova": "pro_9A57F43629151AF72AA1A3F1.pdf",
+     "gabarito": "gab_212F8DAC5D45AFFC8D10BD3D.pdf",
+     "tipo": "mc",
+     "arquivo": "9A57F43629151AF72AA1A3F11FDCCEC07D20FC24C1D98BC12BB0BE5D4DBEBAED.pdf"
+    },
+    {
+     "key": "esp20",
+     "prova": "pro_B1E7F8BC154EC6333F7BE375.pdf",
+     "gabarito": "gab_5BDC6AE22CDB03EF29B05C2D.pdf",
+     "tipo": "mc",
+     "arquivo": "B1E7F8BC154EC6333F7BE3754F3094BD3CD2CFF7343CEE2F27B8F3B76AEC3A7B.pdf"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {},
+ "fonte": "https://cdn.cebraspe.org.br/concursos/IPAAM_25/arquivos/"
+}

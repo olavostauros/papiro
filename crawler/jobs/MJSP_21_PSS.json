@@ -1,0 +1,95 @@
+{
+ "evento": "MJSP_21_PSS",
+ "workdir": "/tmp/mjsp_21_pss",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "MINISTÉRIO DA JUSTIÇA E SEGURANÇA PÚBLICA",
+  "ano": 2021,
+  "id_orgao": "mjsp"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Perfil profissional 1: Técnico Especializado em Formação e Capacitação",
+   "id_cargo": "tecnico-formacao-capacitacao",
+   "provas": [
+    {
+     "key": "MJSP_001_01",
+     "prova": "pro_MJSP_001_01.pdf",
+     "gabarito": "gab_MJSP_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "642_MJSP_001_01.PDF"
+    },
+    {
+     "key": "MJSP_CG1_01",
+     "prova": "pro_MJSP_CG1_01.pdf",
+     "gabarito": "gab_MJSP_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "642_MJSP_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Perfil profissional 2: Técnico Especializado em Gestão de Ativos e Parcerias",
+   "id_cargo": "tecnico-gestao-ativos-parcerias",
+   "provas": [
+    {
+     "key": "MJSP_002_01",
+     "prova": "pro_MJSP_002_01.pdf",
+     "gabarito": "gab_MJSP_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "642_MJSP_002_01.PDF"
+    },
+    {
+     "key": "MJSP_CG1_01",
+     "prova": "pro_MJSP_CG1_01.pdf",
+     "gabarito": "gab_MJSP_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "642_MJSP_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Perfil profissional 3: Técnico Especializado em Pesquisa e Análise de Dados",
+   "id_cargo": "tecnico-pesquisa-analise-dados",
+   "provas": [
+    {
+     "key": "MJSP_003_01",
+     "prova": "pro_MJSP_003_01.pdf",
+     "gabarito": "gab_MJSP_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "642_MJSP_003_01.PDF"
+    },
+    {
+     "key": "MJSP_CG1_01",
+     "prova": "pro_MJSP_CG1_01.pdf",
+     "gabarito": "gab_MJSP_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "642_MJSP_CG1_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "MJSP_001_01": {
+   "108": "O Brasil adotou a forma federativa de Estado. Com relação a esse assunto, julgue os seguintes itens. Os municípios são regidos por suas leis orgânicas, cuja aprovação depende de voto favorável de dois terços dos membros da respectiva câmara municipal, e possuem competência para regular, entre outras matérias, a organização do Poder Judiciário local."
+  },
+  "MJSP_CG1_01": {
+   "41": "Em um jogo de cara e coroa disputado com uma moeda não viciada, um pai criou a seguinte regra, visando aumentar as chances de sua filha vencer a disputa: a moeda seria lançada certa quantidade de vezes, n , definida previamente, e o pai só sairia vencedor caso a moeda apontasse cara em todos os n lançamentos. Tendo como referência essa situação hipotética, julgue os itens que se seguem. 10 é o menor número de lançamentos que asseguraria à filha chance de vencer de pelo menos 95%."
+  },
+  "MJSP_002_01": {
+   "115": "No que concerne a apreensão, arrecadação e destinação de bens em procedimentos criminais, tendo em vista a Lei n.º 11.343/2006 e suas alterações, julgue os itens a seguir. No caso de apreensão de veículos, maquinários e armas utilizados para a prática dos crimes previstos na referida lei, estes bens serão alienados de pronto pelo juiz criminal competente."
+  },
+  "MJSP_003_01": {
+   "56": "uma população uniforme e contínua no intervalo [ , + 1] , em que ∈ ℝ é um parâmetro desconhecido. Considerando que seja a média amostral e que ( ଵ ) = min ଵ , … , ௡ e ( ௡ ) = max { ଵ , … , ௡ } denotem as estatísticas extremais, julgue os itens que se seguem. − ଵ é um estimador não viciado para o parâmetro .",
+   "58": "uma população uniforme e contínua no intervalo [ , + 1] , em que ∈ ℝ é um parâmetro desconhecido. Considerando que seja a média amostral e que ( ଵ ) = min ଵ , … , ௡ e ( ௡ ) = max { ଵ , … , ௡ } denotem as estatísticas extremais, julgue os itens que se seguem. ( ௡ ) − 1 é um estimador de máxima verossimilhança para o parâmetro .",
+   "59": "uma população uniforme e contínua no intervalo [ , + 1] , em que ∈ ℝ é um parâmetro desconhecido. Considerando que seja a média amostral e que ( ଵ ) = min ଵ , … , ௡ e ( ௡ ) = max { ଵ , … , ௡ } denotem as estatísticas extremais, julgue os itens que se seguem. ( ଵ ) segue, assintoticamente, distribuição normal.",
+   "106": "O Brasil adotou a forma federativa de Estado. Com relação a esse assunto, julgue os seguintes itens. Os municípios são regidos por suas leis orgânicas, cuja aprovação depende de voto favorável de dois terços dos membros da respectiva câmara municipal, e possuem competência para regular, entre outras matérias, a organização do Poder Judiciário local."
+  }
+ }
+}

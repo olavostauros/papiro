@@ -1,0 +1,54 @@
+{
+ "evento": "SEBRAE_25_PSE_1",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "SEBRAE",
+  "ano": 2025,
+  "id_orgao": "sebrae"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista Técnico II – Auditoria Interna",
+   "id_cargo": "analista-tecnico-ii-auditoria-interna",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_SEBRAE_PSE_CG1_01.pdf",
+     "gabarito": "gab_SEBRAE_PSE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "053_SEBRAE_PSE_CG1_01.PDF"
+    },
+    {
+     "key": "esp1",
+     "prova": "pro_SEBRAE_PSE_001_01.pdf",
+     "gabarito": "gab_SEBRAE_PSE_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "053_SEBRAE_PSE_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Técnico II – Universidade Corporativa Sebrae",
+   "id_cargo": "analista-tecnico-ii-universidade-corporativa-sebrae",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_SEBRAE_PSE_CG1_01.pdf",
+     "gabarito": "gab_SEBRAE_PSE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "053_SEBRAE_PSE_CG1_01.PDF"
+    },
+    {
+     "key": "esp2",
+     "prova": "pro_SEBRAE_PSE_002_01.pdf",
+     "gabarito": "gab_SEBRAE_PSE_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "053_SEBRAE_PSE_002_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {}
+}

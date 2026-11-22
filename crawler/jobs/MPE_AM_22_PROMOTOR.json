@@ -1,0 +1,35 @@
+{
+ "evento": "MPE_AM_22_PROMOTOR",
+ "workdir": "/tmp/mpe_am_22_promotor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Ministério Público do Estado do Amazonas",
+  "ano": 2022,
+  "id_orgao": "mpe-am"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "CARGO DE PROMOTOR DE JUSTIÇA SUBSTITUTO",
+   "id_cargo": "promotor-de-justica-substituto",
+   "provas": [
+    {
+     "key": "MPE_AM_001_01",
+     "prova": "pro_MPE_AM_001_01.pdf",
+     "gabarito": "gab_MPE_AM_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "779_MPE_AM_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "MPE_AM_001_01": {
+   "71": "Situação hipotética 1A12-I: Em determinado estado brasileiro, uma investigação revelou um esquema criminoso que envolvia a competição futebolística estadual: Cavalcante, empresário no ramo do futebol, dono do time Tapauense, conseguia cooptar árbitros e jogadores de clubes de outros municípios para criar situações em momentos críticos durante as partidas, com o objetivo de manipular resultados. A promessa era de que, após os jogos, o empresário faria investimentos para ajudar os envolvidos a migrar para o mercado de futebol no Sudeste do país. Quanto à comissão de arbitragem, constatou-se que seu presidente simulava os sorteios com um assistente e, assim, conseguia indicar árbitros que se alinhavam ao esquema. Aos árbitros honestos eram destinados os mais distantes jogos e as piores condições de trabalho. Para os jogadores, a vantagem prometida ou a transferência em dinheiro nunca eram realizadas, ao passo que aos árbitros era pago o dinheiro mediante a sua contratação falsa como professores de treino de uma escolinha particular de futebol, que sequer existia. Everton respondia pela escolinha e era professor aposentado da secretaria de educação e desporto do estado. A investigação avançou devido à colaboração do jogador de futebol Kiko Jr., que havia participado do esquema por indicação de Alves, um dos árbitros. Segundo o próprio jogador, Alves combinara com ele a marcação de um pênalti resultante de falta provocada pelo zagueiro Kiko Jr. em determinado momento da partida contra o Tapauense, o que foi feito. No entanto, como não fora atendido nas promessas feitas dentro do esquema, Kiko Jr. se revoltou e, então, procurou a polícia, revelando os fatos até então desconhecidos.\nTendo como referência a situação hipotética 1A12-I e a legislação especial pertinente, assinale a opção correta.",
+   "72": "Situação hipotética 1A12-I: Em determinado estado brasileiro, uma investigação revelou um esquema criminoso que envolvia a competição futebolística estadual: Cavalcante, empresário no ramo do futebol, dono do time Tapauense, conseguia cooptar árbitros e jogadores de clubes de outros municípios para criar situações em momentos críticos durante as partidas, com o objetivo de manipular resultados. A promessa era de que, após os jogos, o empresário faria investimentos para ajudar os envolvidos a migrar para o mercado de futebol no Sudeste do país. Quanto à comissão de arbitragem, constatou-se que seu presidente simulava os sorteios com um assistente e, assim, conseguia indicar árbitros que se alinhavam ao esquema. Aos árbitros honestos eram destinados os mais distantes jogos e as piores condições de trabalho. Para os jogadores, a vantagem prometida ou a transferência em dinheiro nunca eram realizadas, ao passo que aos árbitros era pago o dinheiro mediante a sua contratação falsa como professores de treino de uma escolinha particular de futebol, que sequer existia. Everton respondia pela escolinha e era professor aposentado da secretaria de educação e desporto do estado. A investigação avançou devido à colaboração do jogador de futebol Kiko Jr., que havia participado do esquema por indicação de Alves, um dos árbitros. Segundo o próprio jogador, Alves combinara com ele a marcação de um pênalti resultante de falta provocada pelo zagueiro Kiko Jr. em determinado momento da partida contra o Tapauense, o que foi feito. No entanto, como não fora atendido nas promessas feitas dentro do esquema, Kiko Jr. se revoltou e, então, procurou a polícia, revelando os fatos até então desconhecidos.\nAinda considerando a situação hipotética 1A12-I, assinale a opção correta relativamente à conduta de Kiko Jr."
+  }
+ }
+}

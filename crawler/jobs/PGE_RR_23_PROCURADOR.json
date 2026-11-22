@@ -1,0 +1,30 @@
+{
+ "evento": "PGE_RR_23_PROCURADOR",
+ "workdir": "/tmp/pge_rr_23_procurador",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "PROCURADORIA-GERAL DO ESTADO DE RORAIMA (PGE/RR)",
+  "ano": 2023,
+  "id_orgao": "pge-rr"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "PROCURADOR DO ESTADO SUBSTITUTO",
+   "id_cargo": "procurador-do-estado-substituto",
+   "provas": [
+    {
+     "key": "p1",
+     "prova": "pro_PGE_RR_001_01.pdf",
+     "gabarito": "gab_PGE_RR_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "831_PGE_RR_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

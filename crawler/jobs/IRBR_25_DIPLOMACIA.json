@@ -1,0 +1,33 @@
+{
+ "evento": "IRBR_25_DIPLOMACIA",
+ "workdir": "/tmp/irbr_25_diplomacia",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Instituto Rio Branco",
+  "ano": 2025,
+  "id_orgao": "irbr"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Diplomata",
+   "id_cargo": "diplomata",
+   "provas": [
+    {
+     "key": "manha",
+     "prova": "pro_IRBRCACDOBJ_001_01.pdf",
+     "gabarito": "gab_1AEF42AC2E961318A1CEAAD5.pdf",
+     "tipo": "ce",
+     "arquivo": "101_IRBRCACDOBJ_001_01.pdf"
+    },
+    {
+     "key": "tarde",
+     "prova": "pro_IRBRCACDOBJ_002_01.pdf",
+     "gabarito": "gab_5489DFECC0CC7A0CCC189179.pdf",
+     "tipo": "ce",
+     "arquivo": "101_IRBRCACDOBJ_002_01.pdf"
+    }
+   ]
+  }
+ ]
+}

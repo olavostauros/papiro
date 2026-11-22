@@ -1,0 +1,66 @@
+{
+ "evento": "BANCO_DO_NORDESTE_22",
+ "workdir": "/tmp/banco_do_nordeste_22",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Banco do Nordeste do Brasil",
+  "ano": 2022,
+  "id_orgao": "bnb"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Cargo 1: Técnico – Analista de Sistemas – Perfil 1: Desenvolvimento de Sistemas",
+   "id_cargo": "analista-desenvolvimento-sistemas",
+   "provas": [
+    {
+     "key": "BNB_CG1",
+     "prova": "pro_BNB_CG1_01.pdf",
+     "gabarito": "gab_BNB_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "772_BNB_CG1_01.PDF"
+    },
+    {
+     "key": "BNB_001",
+     "prova": "pro_BNB_001_01.pdf",
+     "gabarito": "gab_BNB_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "772_BNB_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Cargo 2: Técnico – Analista de Sistemas – Perfil 2: Infraestrutura e Segurança da informação",
+   "id_cargo": "analista-infraestrutura-seguranca",
+   "provas": [
+    {
+     "key": "BNB_CG1",
+     "prova": "pro_BNB_CG1_01.pdf",
+     "gabarito": "gab_BNB_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "772_BNB_CG1_01.PDF"
+    },
+    {
+     "key": "BNB_002",
+     "prova": "pro_BNB_002_01.pdf",
+     "gabarito": "gab_BNB_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "772_BNB_002_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "BNB_002": {
+   "89": "A tabela de compras, representada a seguir, está na 3.ª forma normal.\nnumero_compra (PK) | codigo_produto (PK)(FK) | quantidade_produto | valor_unitario_produto | valor_total_produto\n527 | 33 | 1 | 29,07 | 29,07\n527 | 46 | 5 | 23,78 | 118,90\n527 | 81 | 2 | 14,06 | 28,12",
+   "95": "Considere-se o código Power Shell a seguir.\n$x = 30\n$y = 10\nif($x -eq 30){\nif($y -eq 10) {\nwrite-host(“X = 30 and Y = 10”)\n}\n}\nA execução do código Power Shell precedente terá o seguinte resultado.\nX = 30 and Y = 10",
+   "103": "Considerando a figura a seguir — ciclo DevOps composto pelas etapas plan, code, build, test, release, deploy, operate e monitor —, julgue os próximos itens, acerca dos conceitos de DevOps.\nSituação hipotética: Alguns funcionários de determinada organização foram encarregados de selecionar uma ferramenta para auxiliar os gestores na execução das atividades relacionadas à fase build dos projetos da empresa. Após se reunirem para debater o assunto, os funcionários optaram pela ferramenta puppet . Assertiva: Nessa situação, os funcionários da empresa escolheram a ferramenta mais adequada, uma vez que o puppet é utilizado para realizar, de forma padronizada, a automação e construção de código, verificando-se as dependências necessárias durante o processo de compilação das aplicações.",
+   "104": "Considerando a figura a seguir — ciclo DevOps composto pelas etapas plan, code, build, test, release, deploy, operate e monitor —, julgue os próximos itens, acerca dos conceitos de DevOps.\nCom base nas etapas do DevOps, é correto afirmar que a ferramenta Jenkins está mais relacionada à etapa monitor que à etapa deploy .",
+   "105": "Considerando a figura a seguir — ciclo DevOps composto pelas etapas plan, code, build, test, release, deploy, operate e monitor —, julgue os próximos itens, acerca dos conceitos de DevOps.\nA ferramenta RedHat Ansible está mais relacionada à etapa deploy do que à etapa plan ."
+  }
+ }
+}

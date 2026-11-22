@@ -1,0 +1,30 @@
+{
+ "evento": "PGM_SP_23_PROCURADOR",
+ "workdir": "/tmp/pgm_sp_23_procurador",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "PROCURADORIA-GERAL DO MUNICÍPIO DE SÃO PAULO",
+  "ano": 2023,
+  "id_orgao": "pgm-sp"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "PROCURADOR DO MUNICÍPIO DE SÃO PAULO – PRM I",
+   "id_cargo": "procurador",
+   "provas": [
+    {
+     "key": "p1",
+     "prova": "pro_PGM_SP_23_PROCURADOR_001.pdf",
+     "gabarito": "gab_PGM_SP_23_PROCURADOR_001.pdf",
+     "tipo": "mc",
+     "arquivo": "830_PGM_SP_23_PROCURADOR_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

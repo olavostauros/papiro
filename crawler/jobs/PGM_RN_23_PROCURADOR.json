@@ -1,0 +1,30 @@
+{
+ "evento": "PGM_RN_23_PROCURADOR",
+ "workdir": "/tmp/pgm_rn_23_procurador",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "PROCURADORIA-GERAL DO MUNICÍPIO DE NATAL/RN",
+  "ano": 2023,
+  "id_orgao": "pgm-rn"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "CARGO DE PROCURADOR DO MUNICÍPIO",
+   "id_cargo": "procurador-do-municipio",
+   "provas": [
+    {
+     "key": "p1",
+     "prova": "pro_PGM_NATAL_001_01.pdf",
+     "gabarito": "gab_PGM_NATAL_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "851_PGM_NATAL_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

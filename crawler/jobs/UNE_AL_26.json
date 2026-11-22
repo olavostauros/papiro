@@ -1,0 +1,291 @@
+{
+ "evento": "UNE_AL_26",
+ "workdir": "/tmp/une_al_26",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Universidade Estadual de Alagoas (Uneal)",
+  "ano": 2026,
+  "id_orgao": "uneal"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista Administrativo – Análise de Sistemas",
+   "id_cargo": "analista-administrativo-analise-de-sistemas",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_4220F306D5DDA8A7BCDF2CC3.pdf",
+     "gabarito": "gab_D55542050C39240BE83BD433.pdf",
+     "tipo": "ce",
+     "arquivo": "4220F306D5DDA8A7BCDF2CC3227927CFFC9BEB67BE3E63ADE35E83B7DDAA03A9.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_0E621058417426CE958867D0.pdf",
+     "gabarito": "gab_2DCCDB103DB5A622F84BAC98.pdf",
+     "tipo": "ce",
+     "arquivo": "0E621058417426CE958867D049F56817DBE0D2804FF92D7D812119A8EA94AC85.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista Administrativo – Assistência Social",
+   "id_cargo": "analista-administrativo-assistencia-social",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_4220F306D5DDA8A7BCDF2CC3.pdf",
+     "gabarito": "gab_D55542050C39240BE83BD433.pdf",
+     "tipo": "ce",
+     "arquivo": "4220F306D5DDA8A7BCDF2CC3227927CFFC9BEB67BE3E63ADE35E83B7DDAA03A9.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_32CD33CE65205C330CC5131C.pdf",
+     "gabarito": "gab_753A8A8AC0B44BA2B65B48B3.pdf",
+     "tipo": "ce",
+     "arquivo": "32CD33CE65205C330CC5131C2B3F1D701D87F2BFC72515F9DB9A49D11A7D7B21.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista Administrativo – Biblioteconomia",
+   "id_cargo": "analista-administrativo-biblioteconomia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_4220F306D5DDA8A7BCDF2CC3.pdf",
+     "gabarito": "gab_D55542050C39240BE83BD433.pdf",
+     "tipo": "ce",
+     "arquivo": "4220F306D5DDA8A7BCDF2CC3227927CFFC9BEB67BE3E63ADE35E83B7DDAA03A9.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_61B2A6C854905B141DA904CC.pdf",
+     "gabarito": "gab_3222CFF95C08AC9FACF86CBB.pdf",
+     "tipo": "ce",
+     "arquivo": "61B2A6C854905B141DA904CCD53E40C675B161C8D6BF6CD1346F4072D81E7289.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista Administrativo – Ciências Contábeis",
+   "id_cargo": "analista-administrativo-ciencias-contabeis",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_4220F306D5DDA8A7BCDF2CC3.pdf",
+     "gabarito": "gab_D55542050C39240BE83BD433.pdf",
+     "tipo": "ce",
+     "arquivo": "4220F306D5DDA8A7BCDF2CC3227927CFFC9BEB67BE3E63ADE35E83B7DDAA03A9.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_DBB537D6EDEB4AC885A32E7E.pdf",
+     "gabarito": "gab_A8E683DECC28E5A4DA65843B.pdf",
+     "tipo": "ce",
+     "arquivo": "DBB537D6EDEB4AC885A32E7EAEF2C3E321A84D3AC014137BDA434940BE34FAB1.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Analista Administrativo – Desenvolvimento e Inovação",
+   "id_cargo": "analista-administrativo-desenvolvimento-e-inovacao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_4220F306D5DDA8A7BCDF2CC3.pdf",
+     "gabarito": "gab_D55542050C39240BE83BD433.pdf",
+     "tipo": "ce",
+     "arquivo": "4220F306D5DDA8A7BCDF2CC3227927CFFC9BEB67BE3E63ADE35E83B7DDAA03A9.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_C94B70A5B9388A01FE1A236C.pdf",
+     "gabarito": "gab_4042B822D124A228A488BED8.pdf",
+     "tipo": "ce",
+     "arquivo": "C94B70A5B9388A01FE1A236C2AF8BEE7FD615430236F9FB541A84BC292FCFDB4.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Analista Administrativo – Direito",
+   "id_cargo": "analista-administrativo-direito",
+   "provas": [
+    {
+     "key": "cb6",
+     "prova": "pro_EC8CD9A13219A6B891B8FF9D.pdf",
+     "gabarito": "gab_F48574AEF76C3E614583643D.pdf",
+     "tipo": "ce",
+     "arquivo": "EC8CD9A13219A6B891B8FF9D71BB5C7D50C2C949D63553BCBA08AD363D581864.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_B4EFD5069559791E1545D691.pdf",
+     "gabarito": "gab_34174F80907EC22E0D898B9A.pdf",
+     "tipo": "ce",
+     "arquivo": "B4EFD5069559791E1545D6919181985ED536EB2D43BFB9B978202E063D54EBBA.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Analista Administrativo – Psicologia",
+   "id_cargo": "analista-administrativo-psicologia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_4220F306D5DDA8A7BCDF2CC3.pdf",
+     "gabarito": "gab_D55542050C39240BE83BD433.pdf",
+     "tipo": "ce",
+     "arquivo": "4220F306D5DDA8A7BCDF2CC3227927CFFC9BEB67BE3E63ADE35E83B7DDAA03A9.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_2D0F0D4CCE2E457E51405AF3.pdf",
+     "gabarito": "gab_1C4091D71CA47426BF590FCE.pdf",
+     "tipo": "ce",
+     "arquivo": "2D0F0D4CCE2E457E51405AF3CFB478D65AC00EE7B37EA2374C33FEF0D7211A58.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Analista Administrativo – Secretariado",
+   "id_cargo": "analista-administrativo-secretariado",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_4220F306D5DDA8A7BCDF2CC3.pdf",
+     "gabarito": "gab_D55542050C39240BE83BD433.pdf",
+     "tipo": "ce",
+     "arquivo": "4220F306D5DDA8A7BCDF2CC3227927CFFC9BEB67BE3E63ADE35E83B7DDAA03A9.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_95634E380230FBD1802B658B.pdf",
+     "gabarito": "gab_5E5077950AE560EA1968FC86.pdf",
+     "tipo": "ce",
+     "arquivo": "95634E380230FBD1802B658B8BB785594EE7EE1A0806E564C528F27273776205.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Analista Administrativo – Técnico em Assuntos Educacionais",
+   "id_cargo": "analista-administrativo-tecnico-em-assuntos-educacionais",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_4220F306D5DDA8A7BCDF2CC3.pdf",
+     "gabarito": "gab_D55542050C39240BE83BD433.pdf",
+     "tipo": "ce",
+     "arquivo": "4220F306D5DDA8A7BCDF2CC3227927CFFC9BEB67BE3E63ADE35E83B7DDAA03A9.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_D3FB7E1BE12DB0335EE0C56D.pdf",
+     "gabarito": "gab_AF428272D9FDFD3BBD859097.pdf",
+     "tipo": "ce",
+     "arquivo": "D3FB7E1BE12DB0335EE0C56D13A3937E6C2AAED0A51B945A543D71C3BEA1FE35.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Analista Administrativo – Técnico Especializado em Linguagem de Sinais (Libras)",
+   "id_cargo": "analista-administrativo-tecnico-especializado-em-linguagem-de-sinais-libras",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_4220F306D5DDA8A7BCDF2CC3.pdf",
+     "gabarito": "gab_D55542050C39240BE83BD433.pdf",
+     "tipo": "ce",
+     "arquivo": "4220F306D5DDA8A7BCDF2CC3227927CFFC9BEB67BE3E63ADE35E83B7DDAA03A9.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_96CB838D76915B6C53A8A68F.pdf",
+     "gabarito": "gab_8DB51165AB969F1A01003F98.pdf",
+     "tipo": "ce",
+     "arquivo": "96CB838D76915B6C53A8A68FB992413BDB5351047BA0BB7AC194C0B53EB17D88.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Gestor em Planejamento de Educação – Planejamento",
+   "id_cargo": "gestor-em-planejamento-de-educacao-planejamento",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_4220F306D5DDA8A7BCDF2CC3.pdf",
+     "gabarito": "gab_D55542050C39240BE83BD433.pdf",
+     "tipo": "ce",
+     "arquivo": "4220F306D5DDA8A7BCDF2CC3227927CFFC9BEB67BE3E63ADE35E83B7DDAA03A9.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_4DF13BD8691B45FE5B53BAC3.pdf",
+     "gabarito": "gab_4C7498C1FAF7597EB1EE6433.pdf",
+     "tipo": "ce",
+     "arquivo": "4DF13BD8691B45FE5B53BAC3ED01E974B8EA90FD64FAEF7E365DF424AB57DBC2.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Gestor em Planejamento de Educação – Gestão",
+   "id_cargo": "gestor-em-planejamento-de-educacao-gestao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_4220F306D5DDA8A7BCDF2CC3.pdf",
+     "gabarito": "gab_D55542050C39240BE83BD433.pdf",
+     "tipo": "ce",
+     "arquivo": "4220F306D5DDA8A7BCDF2CC3227927CFFC9BEB67BE3E63ADE35E83B7DDAA03A9.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_2004AA6DA0505B16DCF9DF02.pdf",
+     "gabarito": "gab_B76600BB5CBEE1C78A462216.pdf",
+     "tipo": "ce",
+     "arquivo": "2004AA6DA0505B16DCF9DF02C43662BB1BF52E614A8F2B501E29DEE0839EDACD.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

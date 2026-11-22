@@ -1,0 +1,345 @@
+{
+ "evento": "SESAU_AL_26",
+ "workdir": "/tmp/sesau_al_26",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Secretaria de Estado da Saúde de Alagoas",
+  "ano": 2026,
+  "id_orgao": "sesaual"
+ },
+ "cargos": [
+  {
+   "cargo": "Especialista em Saúde – Especialidade: Biologia",
+   "id_cargo": "especialista-saude-biologia",
+   "provas": [
+    {
+     "key": "cb_esp",
+     "prova": "pro_010F79884369C458D960294A.pdf",
+     "gabarito": "gab_05D03982A53A46FC2DAA1A5B.pdf",
+     "tipo": "ce",
+     "arquivo": "010F79884369C458D960294A69A1AC37AA5C110CF4111CC3B57867530E0498E4.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_E35A26929F90FCCCDAEBE8F4.pdf",
+     "gabarito": "gab_25041D3F238559650345A4F8.pdf",
+     "tipo": "ce",
+     "arquivo": "E35A26929F90FCCCDAEBE8F46D097143084B39BB5657B8E76AF004F858F24A70.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Saúde – Especialidade: Biomedicina",
+   "id_cargo": "especialista-saude-biomedicina",
+   "provas": [
+    {
+     "key": "cb_esp",
+     "prova": "pro_010F79884369C458D960294A.pdf",
+     "gabarito": "gab_05D03982A53A46FC2DAA1A5B.pdf",
+     "tipo": "ce",
+     "arquivo": "010F79884369C458D960294A69A1AC37AA5C110CF4111CC3B57867530E0498E4.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_64C1BA5566249C97356ED4BA.pdf",
+     "gabarito": "gab_B9BF8196DCD244EB8206903E.pdf",
+     "tipo": "ce",
+     "arquivo": "64C1BA5566249C97356ED4BAF4EA633FE9422304291458170B697624494EF4A9.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Saúde – Especialidade: Enfermagem",
+   "id_cargo": "especialista-saude-enfermagem",
+   "provas": [
+    {
+     "key": "cb_esp",
+     "prova": "pro_010F79884369C458D960294A.pdf",
+     "gabarito": "gab_05D03982A53A46FC2DAA1A5B.pdf",
+     "tipo": "ce",
+     "arquivo": "010F79884369C458D960294A69A1AC37AA5C110CF4111CC3B57867530E0498E4.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_5E12B51EDBF99967C6DA20FF.pdf",
+     "gabarito": "gab_1E19B57F2CA5BE77CE28E8C3.pdf",
+     "tipo": "ce",
+     "arquivo": "5E12B51EDBF99967C6DA20FF64F9EDF4E2031F217029731630ECE19171F6F43A.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Saúde – Especialidade: Farmácia",
+   "id_cargo": "especialista-saude-farmacia",
+   "provas": [
+    {
+     "key": "cb_esp",
+     "prova": "pro_010F79884369C458D960294A.pdf",
+     "gabarito": "gab_05D03982A53A46FC2DAA1A5B.pdf",
+     "tipo": "ce",
+     "arquivo": "010F79884369C458D960294A69A1AC37AA5C110CF4111CC3B57867530E0498E4.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_D0C02092DD67AA6AACA27A17.pdf",
+     "gabarito": "gab_CD6F72A362E26120E7F7D15A.pdf",
+     "tipo": "ce",
+     "arquivo": "D0C02092DD67AA6AACA27A17362F7FBAB5C243C19CF08CBD86963EF12F6A8127.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Saúde – Especialidade: Fisioterapia",
+   "id_cargo": "especialista-saude-fisioterapia",
+   "provas": [
+    {
+     "key": "cb_esp",
+     "prova": "pro_010F79884369C458D960294A.pdf",
+     "gabarito": "gab_05D03982A53A46FC2DAA1A5B.pdf",
+     "tipo": "ce",
+     "arquivo": "010F79884369C458D960294A69A1AC37AA5C110CF4111CC3B57867530E0498E4.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_26E78D3A4E94374809CE8D48.pdf",
+     "gabarito": "gab_F138550562F413C0668A157A.pdf",
+     "tipo": "ce",
+     "arquivo": "26E78D3A4E94374809CE8D484A2C2FD1B4116223B5571278E2E86262CCEE637F.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Saúde – Especialidade: Fonoaudiologia",
+   "id_cargo": "especialista-saude-fonoaudiologia",
+   "provas": [
+    {
+     "key": "cb_esp",
+     "prova": "pro_010F79884369C458D960294A.pdf",
+     "gabarito": "gab_05D03982A53A46FC2DAA1A5B.pdf",
+     "tipo": "ce",
+     "arquivo": "010F79884369C458D960294A69A1AC37AA5C110CF4111CC3B57867530E0498E4.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_3CDAAD8B8001919EA3745E4E.pdf",
+     "gabarito": "gab_20ECE190B28CA7159D854EA8.pdf",
+     "tipo": "ce",
+     "arquivo": "3CDAAD8B8001919EA3745E4EDB1D228001C0C309A98BD5B21A120B89C6364A48.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Saúde – Especialidade: Nutrição",
+   "id_cargo": "especialista-saude-nutricao",
+   "provas": [
+    {
+     "key": "cb_esp",
+     "prova": "pro_010F79884369C458D960294A.pdf",
+     "gabarito": "gab_05D03982A53A46FC2DAA1A5B.pdf",
+     "tipo": "ce",
+     "arquivo": "010F79884369C458D960294A69A1AC37AA5C110CF4111CC3B57867530E0498E4.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_FFFA30F3B5697102F92A348D.pdf",
+     "gabarito": "gab_11A4993CF4C51D9CCC0E1675.pdf",
+     "tipo": "ce",
+     "arquivo": "FFFA30F3B5697102F92A348D4DB97F8848A4EFD2E5C7FA8CD865B960407FD402.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Saúde – Especialidade: Odontologia (Bucomaxilofacial)",
+   "id_cargo": "especialista-saude-odontologia-bucomaxilo",
+   "provas": [
+    {
+     "key": "cb_esp",
+     "prova": "pro_010F79884369C458D960294A.pdf",
+     "gabarito": "gab_05D03982A53A46FC2DAA1A5B.pdf",
+     "tipo": "ce",
+     "arquivo": "010F79884369C458D960294A69A1AC37AA5C110CF4111CC3B57867530E0498E4.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_A6E8DAB15D475625121EC1AA.pdf",
+     "gabarito": "gab_B204673C5D5D9802F68A81CE.pdf",
+     "tipo": "ce",
+     "arquivo": "A6E8DAB15D475625121EC1AAA53F2DD41A5CD4D44E80D49504FF4BFD25A8908D.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Saúde – Especialidade: Odontologia (Hospitalar)",
+   "id_cargo": "especialista-saude-odontologia-hospitalar",
+   "provas": [
+    {
+     "key": "cb_esp",
+     "prova": "pro_010F79884369C458D960294A.pdf",
+     "gabarito": "gab_05D03982A53A46FC2DAA1A5B.pdf",
+     "tipo": "ce",
+     "arquivo": "010F79884369C458D960294A69A1AC37AA5C110CF4111CC3B57867530E0498E4.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_667C8986843BC5C4BECA586C.pdf",
+     "gabarito": "gab_C8D4AE815B681D8E69D94E64.pdf",
+     "tipo": "ce",
+     "arquivo": "667C8986843BC5C4BECA586C03E6E40010D2C2E612C080E84819B948AA75024E.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Saúde – Especialidade: Psicologia",
+   "id_cargo": "especialista-saude-psicologia",
+   "provas": [
+    {
+     "key": "cb_esp",
+     "prova": "pro_010F79884369C458D960294A.pdf",
+     "gabarito": "gab_05D03982A53A46FC2DAA1A5B.pdf",
+     "tipo": "ce",
+     "arquivo": "010F79884369C458D960294A69A1AC37AA5C110CF4111CC3B57867530E0498E4.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_C0691E42FE9B1EE85D7EA6BE.pdf",
+     "gabarito": "gab_5DE80574E9ECFD52A89C84FA.pdf",
+     "tipo": "ce",
+     "arquivo": "C0691E42FE9B1EE85D7EA6BEB1ACC14CB080B61D6CB4A444C0CF6A59AC5E26FA.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Saúde – Especialidade: Serviço Social",
+   "id_cargo": "especialista-saude-servico-social",
+   "provas": [
+    {
+     "key": "cb_esp",
+     "prova": "pro_010F79884369C458D960294A.pdf",
+     "gabarito": "gab_05D03982A53A46FC2DAA1A5B.pdf",
+     "tipo": "ce",
+     "arquivo": "010F79884369C458D960294A69A1AC37AA5C110CF4111CC3B57867530E0498E4.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_EAD84D6F1AEABEF88A0B2D2A.pdf",
+     "gabarito": "gab_3A59A294A878FB6456B98FDB.pdf",
+     "tipo": "ce",
+     "arquivo": "EAD84D6F1AEABEF88A0B2D2A2642489568BA8A37EF9CE204B0053255F5794FA5.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Saúde – Especialidade: Terapia Ocupacional",
+   "id_cargo": "especialista-saude-terapia-ocupacional",
+   "provas": [
+    {
+     "key": "cb_esp",
+     "prova": "pro_010F79884369C458D960294A.pdf",
+     "gabarito": "gab_05D03982A53A46FC2DAA1A5B.pdf",
+     "tipo": "ce",
+     "arquivo": "010F79884369C458D960294A69A1AC37AA5C110CF4111CC3B57867530E0498E4.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_9ABDCDC0AA6D5AA9A990B749.pdf",
+     "gabarito": "gab_A5C5E735233EE788C12DF7F1.pdf",
+     "tipo": "ce",
+     "arquivo": "9ABDCDC0AA6D5AA9A990B749C61C76541FD010365363DD30E36766D97C34DBD4.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "cargo": "Assistente em Saúde – Especialidade: Enfermagem",
+   "id_cargo": "assistente-saude-enfermagem",
+   "provas": [
+    {
+     "key": "cb_ass",
+     "prova": "pro_327B99804FBF7F3BF9CCBAD7.pdf",
+     "gabarito": "gab_96FEF1DF02F4B24B4EB6BE6D.pdf",
+     "tipo": "ce",
+     "arquivo": "327B99804FBF7F3BF9CCBAD71AFE1B7E2CCC6E9C20E0AFAC597BB09E5B39B6A4.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_8D9BB6DFA2B30925FDE538DC.pdf",
+     "gabarito": "gab_9E6D77F300BE3B6F9A76353F.pdf",
+     "tipo": "ce",
+     "arquivo": "8D9BB6DFA2B30925FDE538DCE499A407C004027960B8B0E6C6D8E8AFB1D9EAEB.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "cargo": "Assistente em Saúde – Especialidade: Laboratório",
+   "id_cargo": "assistente-saude-laboratorio",
+   "provas": [
+    {
+     "key": "cb_ass",
+     "prova": "pro_327B99804FBF7F3BF9CCBAD7.pdf",
+     "gabarito": "gab_96FEF1DF02F4B24B4EB6BE6D.pdf",
+     "tipo": "ce",
+     "arquivo": "327B99804FBF7F3BF9CCBAD71AFE1B7E2CCC6E9C20E0AFAC597BB09E5B39B6A4.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_AFD65CD246B03C353F823069.pdf",
+     "gabarito": "gab_EDC20D99363AF39E780E37FC.pdf",
+     "tipo": "ce",
+     "arquivo": "AFD65CD246B03C353F823069A14160F8C34FA488005470F80F0CBEAB247151AC.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "cargo": "Assistente em Saúde – Especialidade: Radiologia",
+   "id_cargo": "assistente-saude-radiologia",
+   "provas": [
+    {
+     "key": "cb_ass",
+     "prova": "pro_327B99804FBF7F3BF9CCBAD7.pdf",
+     "gabarito": "gab_96FEF1DF02F4B24B4EB6BE6D.pdf",
+     "tipo": "ce",
+     "arquivo": "327B99804FBF7F3BF9CCBAD71AFE1B7E2CCC6E9C20E0AFAC597BB09E5B39B6A4.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_C9677E65305E92BBD5DE2B65.pdf",
+     "gabarito": "gab_A8E217273DE7E838618F06A5.pdf",
+     "tipo": "ce",
+     "arquivo": "C9677E65305E92BBD5DE2B6514EBF306E982B57E7D4A2E45D1592A3F52EEF1E5.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

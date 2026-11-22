@@ -1,0 +1,100 @@
+{
+ "evento": "PGE_RJ_22",
+ "workdir": "/tmp/pge_rj_22",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Procuradoria-Geral do Estado do Rio de Janeiro",
+  "ano": 2022,
+  "id_orgao": "pge-rj"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Cargo 1: Analista Contábil",
+   "id_cargo": "analista-contabil",
+   "provas": [
+    {
+     "key": "PGERJ_CG1",
+     "prova": "pro_PGERJ_CG1_01.pdf",
+     "gabarito": "gab_PGERJ_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "679_PGERJ_CG1_01.PDF"
+    },
+    {
+     "key": "PGERJ_001_01",
+     "prova": "pro_PGERJ_001_01.pdf",
+     "gabarito": "gab_PGERJ_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "679_PGERJ_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Cargo 2: Analista de Sistemas e Métodos",
+   "id_cargo": "analista-sistemas-metodos",
+   "provas": [
+    {
+     "key": "PGERJ_CG1",
+     "prova": "pro_PGERJ_CG1_01.pdf",
+     "gabarito": "gab_PGERJ_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "679_PGERJ_CG1_01.PDF"
+    },
+    {
+     "key": "PGERJ_002_01",
+     "prova": "pro_PGERJ_002_01.pdf",
+     "gabarito": "gab_PGERJ_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "679_PGERJ_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Cargo 3: Analista Processual",
+   "id_cargo": "analista-processual",
+   "provas": [
+    {
+     "key": "PGERJ_CG1",
+     "prova": "pro_PGERJ_CG1_01.pdf",
+     "gabarito": "gab_PGERJ_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "679_PGERJ_CG1_01.PDF"
+    },
+    {
+     "key": "PGERJ_003_01",
+     "prova": "pro_PGERJ_003_01.pdf",
+     "gabarito": "gab_PGERJ_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "679_PGERJ_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Cargo 4: Técnico Processual",
+   "id_cargo": "tecnico-processual",
+   "provas": [
+    {
+     "key": "PGERJ_CG2",
+     "prova": "pro_PGERJ_CG2_01.pdf",
+     "gabarito": "gab_PGERJ_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "679_PGERJ_CG2_01.PDF"
+    },
+    {
+     "key": "PGERJ_004_01",
+     "prova": "pro_PGERJ_004_01.pdf",
+     "gabarito": "gab_PGERJ_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "679_PGERJ_004_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

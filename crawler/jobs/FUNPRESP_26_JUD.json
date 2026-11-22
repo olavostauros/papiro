@@ -1,0 +1,291 @@
+{
+ "evento": "FUNPRESP_26_JUD",
+ "workdir": "/tmp/funpresp_26_jud",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Funpresp-Jud",
+  "ano": 2026,
+  "id_orgao": "funprespjud"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Advogado",
+   "id_cargo": "advogado",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_88BBEB8DE4C9C9A4512BD77B.pdf",
+     "gabarito": "gab_85698C75B92C173CEDBB3954.pdf",
+     "tipo": "ce",
+     "arquivo": "88BBEB8DE4C9C9A4512BD77B353886CFCE5F0D458D3B08FCEDD6B546E36DA4AA.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_D9B117E1C0C88B4793520A34.pdf",
+     "gabarito": "gab_C6BBCBD0C25CBF90027668CE.pdf",
+     "tipo": "ce",
+     "arquivo": "D9B117E1C0C88B4793520A340A26AFB74885EDD4B8CFB38F84B88C3E8F302912.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista – Administração, Governança e Planejamento",
+   "id_cargo": "analista-especialidade-administracao-governanca-e-planejamento",
+   "provas": [
+    {
+     "key": "cg28",
+     "prova": "pro_D476DE009221387237833051.pdf",
+     "gabarito": "gab_1B8C2FCD9006B7C094346DC0.pdf",
+     "tipo": "ce",
+     "arquivo": "D476DE009221387237833051B68F28E15BE910C32CF9699361DF7892E0E6029F.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_736784910F427F215FCAA4CE.pdf",
+     "gabarito": "gab_25B76B976B0EC4DBF057B4EC.pdf",
+     "tipo": "ce",
+     "arquivo": "736784910F427F215FCAA4CEC7E34E7E3DE8A1D9173FE0E2C489EFF8B7093033.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista – Auditoria e Controle Interno",
+   "id_cargo": "analista-especialidade-auditoria-e-controle-interno",
+   "provas": [
+    {
+     "key": "cg28",
+     "prova": "pro_D476DE009221387237833051.pdf",
+     "gabarito": "gab_1B8C2FCD9006B7C094346DC0.pdf",
+     "tipo": "ce",
+     "arquivo": "D476DE009221387237833051B68F28E15BE910C32CF9699361DF7892E0E6029F.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_449DB077293A0D672A4D8A23.pdf",
+     "gabarito": "gab_E74405349257F743B365031B.pdf",
+     "tipo": "ce",
+     "arquivo": "449DB077293A0D672A4D8A23B8B5C5D5ED890FCEE7A58C3B87632D5BB1B48644.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista – Comunicação Social – Jornalismo",
+   "id_cargo": "analista-especialidade-comunicacao-social-jornalismo",
+   "provas": [
+    {
+     "key": "cg28",
+     "prova": "pro_D476DE009221387237833051.pdf",
+     "gabarito": "gab_1B8C2FCD9006B7C094346DC0.pdf",
+     "tipo": "ce",
+     "arquivo": "D476DE009221387237833051B68F28E15BE910C32CF9699361DF7892E0E6029F.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_F6273CFE773BA55D1C079F1C.pdf",
+     "gabarito": "gab_76C52821AE534B6CFC2E0DF3.pdf",
+     "tipo": "ce",
+     "arquivo": "F6273CFE773BA55D1C079F1C3863ED970ECF8055D6CE5021EB931DDAAAF6691B.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Analista – Comunicação Social – Publicidade e Propaganda",
+   "id_cargo": "analista-especialidade-comunicacao-social-publicidade-e-propaganda",
+   "provas": [
+    {
+     "key": "cg28",
+     "prova": "pro_D476DE009221387237833051.pdf",
+     "gabarito": "gab_1B8C2FCD9006B7C094346DC0.pdf",
+     "tipo": "ce",
+     "arquivo": "D476DE009221387237833051B68F28E15BE910C32CF9699361DF7892E0E6029F.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_C4A6B006AE90243DAC8E8FC7.pdf",
+     "gabarito": "gab_AEE58581EE3C00C2BA0E78DC.pdf",
+     "tipo": "ce",
+     "arquivo": "C4A6B006AE90243DAC8E8FC725C598DFE1545DA10B31B9C85EABBC33A4F41E42.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Analista – Contabilidade",
+   "id_cargo": "analista-especialidade-contabilidade",
+   "provas": [
+    {
+     "key": "cg28",
+     "prova": "pro_D476DE009221387237833051.pdf",
+     "gabarito": "gab_1B8C2FCD9006B7C094346DC0.pdf",
+     "tipo": "ce",
+     "arquivo": "D476DE009221387237833051B68F28E15BE910C32CF9699361DF7892E0E6029F.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_3AED22D3CC857A2B312DAB7A.pdf",
+     "gabarito": "gab_CE2B6FDDCDA8ACB608960748.pdf",
+     "tipo": "ce",
+     "arquivo": "3AED22D3CC857A2B312DAB7A65D7F13662028F9F7C70EA8862A35CD9CE307764.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Analista – Gestão e Risco de Investimentos",
+   "id_cargo": "analista-especialidade-gestao-e-risco-de-investimentos",
+   "provas": [
+    {
+     "key": "cg28",
+     "prova": "pro_D476DE009221387237833051.pdf",
+     "gabarito": "gab_1B8C2FCD9006B7C094346DC0.pdf",
+     "tipo": "ce",
+     "arquivo": "D476DE009221387237833051B68F28E15BE910C32CF9699361DF7892E0E6029F.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_5ECF051C22FA0B1556BE79A9.pdf",
+     "gabarito": "gab_8E3374E72653C0598C618110.pdf",
+     "tipo": "ce",
+     "arquivo": "5ECF051C22FA0B1556BE79A9671F86EEF6E3697A37E05CE1440CCF3CF646F13E.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Analista – Seguridade",
+   "id_cargo": "analista-especialidade-seguridade",
+   "provas": [
+    {
+     "key": "cg28",
+     "prova": "pro_D476DE009221387237833051.pdf",
+     "gabarito": "gab_1B8C2FCD9006B7C094346DC0.pdf",
+     "tipo": "ce",
+     "arquivo": "D476DE009221387237833051B68F28E15BE910C32CF9699361DF7892E0E6029F.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_94FD586AC6DBC7ABA4AC09AD.pdf",
+     "gabarito": "gab_4EB72C4AF1312B909E454291.pdf",
+     "tipo": "ce",
+     "arquivo": "94FD586AC6DBC7ABA4AC09AD9A18672EA1127CB9B72DEA5CB2BFBC58A2739EF2.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Analista de Tecnologia da Informação – Ciência de Dados e Inovação",
+   "id_cargo": "analista-de-tecnologia-da-informacao-especialidade-ciencia-de-dados-e-inovacao",
+   "provas": [
+    {
+     "key": "cg911",
+     "prova": "pro_D67C3A83B4B032E2714F5779.pdf",
+     "gabarito": "gab_727F3686AE4B0DA2CEA1F8C4.pdf",
+     "tipo": "ce",
+     "arquivo": "D67C3A83B4B032E2714F57792081AD60B231EFEE90E005826804D0BD3E0AE911.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_7E92AF127EDC1384FBB1947B.pdf",
+     "gabarito": "gab_E13E2B3833C356EA314B5FC4.pdf",
+     "tipo": "ce",
+     "arquivo": "7E92AF127EDC1384FBB1947BDFA3C6AE05877B614EC4ADBEDDF4F8CF7BEC6EB7.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Analista de Tecnologia da Informação – Desenvolvimento de Sistemas",
+   "id_cargo": "analista-de-tecnologia-da-informacao-especialidade-desenvolvimento-de-sistemas",
+   "provas": [
+    {
+     "key": "cg911",
+     "prova": "pro_D67C3A83B4B032E2714F5779.pdf",
+     "gabarito": "gab_727F3686AE4B0DA2CEA1F8C4.pdf",
+     "tipo": "ce",
+     "arquivo": "D67C3A83B4B032E2714F57792081AD60B231EFEE90E005826804D0BD3E0AE911.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_53B8C3BA148907A01557B09C.pdf",
+     "gabarito": "gab_7934BD17E445571BAA6246E6.pdf",
+     "tipo": "ce",
+     "arquivo": "53B8C3BA148907A01557B09C617EDF8930D28884B2D50D99C0F77DC9DC17C754.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Analista de Tecnologia da Informação – Infraestrutura e Segurança da Informação",
+   "id_cargo": "analista-de-tecnologia-da-informacao-especialidade-infraestrutura-e-seguranca-da-informacao",
+   "provas": [
+    {
+     "key": "cg911",
+     "prova": "pro_D67C3A83B4B032E2714F5779.pdf",
+     "gabarito": "gab_727F3686AE4B0DA2CEA1F8C4.pdf",
+     "tipo": "ce",
+     "arquivo": "D67C3A83B4B032E2714F57792081AD60B231EFEE90E005826804D0BD3E0AE911.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_B3DF9D689AA4BBA73EC96465.pdf",
+     "gabarito": "gab_2087C7D2FF3794B9C585C186.pdf",
+     "tipo": "ce",
+     "arquivo": "B3DF9D689AA4BBA73EC964650A5970097E9938E2825FA82C143CAF64C9E40A68.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Atuário",
+   "id_cargo": "atuario",
+   "provas": [
+    {
+     "key": "cg28",
+     "prova": "pro_D476DE009221387237833051.pdf",
+     "gabarito": "gab_1B8C2FCD9006B7C094346DC0.pdf",
+     "tipo": "ce",
+     "arquivo": "D476DE009221387237833051B68F28E15BE910C32CF9699361DF7892E0E6029F.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_B216B20A396B05ABB8CBE959.pdf",
+     "gabarito": "gab_B0F741E726AE607E963B02C5.pdf",
+     "tipo": "ce",
+     "arquivo": "B216B20A396B05ABB8CBE95916D25E117ED51C2D7ACAE51E243FCF80238A9117.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

@@ -1,0 +1,159 @@
+{
+ "evento": "SEPLAG_AL_26_ESPECIALISTA",
+ "workdir": "/tmp/seplag_al_26_especialista",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Secretaria de Estado do Planejamento, Gestão e Patrimônio de Alagoas (Seplag)",
+  "ano": 2026,
+  "id_orgao": "seplagal"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Especialista em Gestão Pública – Administração",
+   "id_cargo": "especialista-gestao-publica-administracao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_7383CAB38CC1A1B0149023F3.pdf",
+     "gabarito": "gab_5D9CABFAA485F572B19B89D0.pdf",
+     "tipo": "ce",
+     "arquivo": "7383CAB38CC1A1B0149023F3C37ACBFEA41DFB538EDCF6AEE7EB7A1978F5D8E6.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_9F4D4873A5553A00DEF0D6D3.pdf",
+     "gabarito": "gab_D857619426498D5639D453AD.pdf",
+     "tipo": "ce",
+     "arquivo": "9F4D4873A5553A00DEF0D6D3E6100B367821EF1E2766424A6544AB7F0D3FD9C4.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Especialista em Gestão Pública – Análise de Sistemas",
+   "id_cargo": "especialista-gestao-publica-analise-de-sistemas",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_7383CAB38CC1A1B0149023F3.pdf",
+     "gabarito": "gab_5D9CABFAA485F572B19B89D0.pdf",
+     "tipo": "ce",
+     "arquivo": "7383CAB38CC1A1B0149023F3C37ACBFEA41DFB538EDCF6AEE7EB7A1978F5D8E6.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_8E27E8F4EF3392772023B473.pdf",
+     "gabarito": "gab_7F4C4E5C8897E78652F0384C.pdf",
+     "tipo": "ce",
+     "arquivo": "8E27E8F4EF3392772023B473E1D0898222E41ACD0F5E450528A9732624CDBFFF.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Especialista em Gestão Pública – Arquivologia",
+   "id_cargo": "especialista-gestao-publica-arquivologia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_7383CAB38CC1A1B0149023F3.pdf",
+     "gabarito": "gab_5D9CABFAA485F572B19B89D0.pdf",
+     "tipo": "ce",
+     "arquivo": "7383CAB38CC1A1B0149023F3C37ACBFEA41DFB538EDCF6AEE7EB7A1978F5D8E6.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_559A9913B7C9A8EA26383209.pdf",
+     "gabarito": "gab_D5E1773CFEC1DEE660F48AC9.pdf",
+     "tipo": "ce",
+     "arquivo": "559A9913B7C9A8EA263832091B870A6C74B9820273BE29057B881CB03A5EF65A.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Especialista em Gestão Pública – Contabilidade",
+   "id_cargo": "especialista-gestao-publica-contabilidade",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_7383CAB38CC1A1B0149023F3.pdf",
+     "gabarito": "gab_5D9CABFAA485F572B19B89D0.pdf",
+     "tipo": "ce",
+     "arquivo": "7383CAB38CC1A1B0149023F3C37ACBFEA41DFB538EDCF6AEE7EB7A1978F5D8E6.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_11CED9A443879D028798126E.pdf",
+     "gabarito": "gab_5DF05F56B77A386188372793.pdf",
+     "tipo": "ce",
+     "arquivo": "11CED9A443879D028798126E63ACF18906D748AE2D9B220C624258BC2AF7F6CD.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Especialista em Gestão Pública – Geografia",
+   "id_cargo": "especialista-gestao-publica-geografia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_7383CAB38CC1A1B0149023F3.pdf",
+     "gabarito": "gab_5D9CABFAA485F572B19B89D0.pdf",
+     "tipo": "ce",
+     "arquivo": "7383CAB38CC1A1B0149023F3C37ACBFEA41DFB538EDCF6AEE7EB7A1978F5D8E6.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_97F56CBDD584D151D690C0F2.pdf",
+     "gabarito": "gab_8868EA7277D3FF8CA0E4A99B.pdf",
+     "tipo": "ce",
+     "arquivo": "97F56CBDD584D151D690C0F26193FBB455FC3A0473973B16EB9D115AD3E4E9C7.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Especialista em Gestão Pública – Planejamento",
+   "id_cargo": "especialista-gestao-publica-planejamento",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_7383CAB38CC1A1B0149023F3.pdf",
+     "gabarito": "gab_5D9CABFAA485F572B19B89D0.pdf",
+     "tipo": "ce",
+     "arquivo": "7383CAB38CC1A1B0149023F3C37ACBFEA41DFB538EDCF6AEE7EB7A1978F5D8E6.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_636C6CB32C05D9410B788D9F.pdf",
+     "gabarito": "gab_E4C4598D00ED1DAE378477A7.pdf",
+     "tipo": "ce",
+     "arquivo": "636C6CB32C05D9410B788D9FD3338A2A138858B35F5A24454A5A5FEFC50A4DBF.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp02": {
+   "81": "Intranets e extranets diferenciam-se da Internet por exigirem infraestrutura física própria e protocolos exclusivos, não utilizando protocolos típicos da Web, como HTTP e HTTPS.",
+   "82": "No trecho de código React a seguir, o uso de itens.push(\"produto\"), seguido de setItens(itens), atualiza corretamente o estado, pois o React trata a alteração interna do array como suficiente, ainda que sua referência permaneça a mesma.",
+   "83": "No componente Vue 3 a seguir, a diretiva v-if controla a renderização condicional dos elementos no DOM, de modo que apenas uma das mensagens será renderizada conforme o estado de logado."
+  }
+ }
+}

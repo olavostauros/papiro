@@ -1,0 +1,30 @@
+{
+ "evento": "PREF_PORTO_VELHO_26_PROCURADOR",
+ "workdir": "/tmp/pref_porto_velho_26_procurador",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Prefeitura de Porto Velho",
+  "ano": 2026,
+  "id_orgao": "prefpvh"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Procurador do Município",
+   "id_cargo": "procurador-do-municipio",
+   "provas": [
+    {
+     "key": "p1",
+     "prova": "pro_D7D0156B9F8B9FE194A27B75.pdf",
+     "gabarito": "gab_1BE27D4EA11F046AAA865011.pdf",
+     "tipo": "mc",
+     "arquivo": "D7D0156B9F8B9FE194A27B7538F9CF7BDC768DB52C70EB6B1DC59DCAE4812033.pdf",
+     "assunto": "Prova Objetiva"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

@@ -1,0 +1,360 @@
+{
+ "evento": "PREF_JOINVILLE_SC_23",
+ "workdir": "/tmp/pref_joinville_sc_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Prefeitura de Joinville/SC",
+  "id_orgao": "joinville",
+  "ano": 2023,
+  "evento": "PREF_JOINVILLE_SC_23"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Professor Bilíngue Letras/Libras",
+   "id_cargo": "professor-bilingue-letras-libras",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_PREF_JOINVILLE_001_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Professor De Arte",
+   "id_cargo": "professor-de-arte",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_PREF_JOINVILLE_002_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Professor De Ciências",
+   "id_cargo": "professor-de-ciencias",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_PREF_JOINVILLE_003_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Professor De Ciências Da Religião",
+   "id_cargo": "professor-de-ciencias-da-religiao",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_PREF_JOINVILLE_004_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_004_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Professor De Educação Física",
+   "id_cargo": "professor-de-educacao-fisica",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_PREF_JOINVILLE_005_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_005_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Professor De Educação Infantil",
+   "id_cargo": "professor-de-educacao-infantil",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_PREF_JOINVILLE_006_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_006_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Professor De Geografia",
+   "id_cargo": "professor-de-geografia",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_PREF_JOINVILLE_007_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_007_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Professor De História",
+   "id_cargo": "professor-de-historia",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_PREF_JOINVILLE_008_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_008_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Professor De Língua Inglesa",
+   "id_cargo": "professor-de-lingua-inglesa",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_PREF_JOINVILLE_009_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_009_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Professor De Língua Portuguesa",
+   "id_cargo": "professor-de-lingua-portuguesa",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_PREF_JOINVILLE_010_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_010_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Professor De Língua Portuguesa Com Habilitação Em Espanhol",
+   "id_cargo": "professor-de-lingua-portuguesa-com-habil",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_PREF_JOINVILLE_011_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_011_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Professor De Matemática",
+   "id_cargo": "professor-de-matematica",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_PREF_JOINVILLE_012_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_012_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Professor De Séries Iniciais",
+   "id_cargo": "professor-de-series-iniciais",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_PREF_JOINVILLE_013_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_013_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_013_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "Auxiliar De Educador",
+   "id_cargo": "auxiliar-de-educador",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_PREF_JOINVILLE_CB2_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_CB2_01.PDF"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_PREF_JOINVILLE_014_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_014_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_014_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "Auxiliar Escolar",
+   "id_cargo": "auxiliar-escolar",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_PREF_JOINVILLE_CB2_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_CB2_01.PDF"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_PREF_JOINVILLE_015_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_015_01.pdf",
+     "tipo": "mc",
+     "arquivo": "926_PREF_JOINVILLE_015_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "cb1": {
+   "19": {
+    "enunciado": "No processo de ensino-aprendizagem, a consideração das dimensões intelectual, social, emocional e afetiva dos estudantes possibilita a formação de sujeitos críticos, intelectualmente honestos e comprometidos com a sociedade. Essa perspectiva implica pensar a organização e a gestão do currículo segundo várias abordagens, entre as quais se incluem a interdisciplinar e a transdisciplinar. A respeito da abordagem interdisciplinar, assinale a opção correta.",
+    "alternativas": [
+     "Na interdisciplinaridade, um objeto de uma disciplina é estudado pelo ângulo de várias outras ao mesmo tempo, em uma correlação sem um objetivo em comum, fortalecendo-se a separação dos saberes.",
+     "Essa abordagem é definida como uma maneira de organizar e delimitar um território de trabalho, de concentrar a pesquisa e as experiências dentro de um determinado ângulo de visão; configura-se pela departamentalização do saber em diversas disciplinas, sendo cada uma delas abordada isoladamente das demais.",
+     "A abordagem interdisciplinar consiste em um processo de ligação entre duas ou mais disciplinas, a partir de algo que lhes seja comum; propõe a capacidade de diálogo entre as diversas ciências, entendendo o saber como um todo, e não como partes fragmentadas do conhecimento.",
+     "A principal característica da interdisciplinaridade é a hierarquização das disciplinas, sendo um objeto de conhecimento de determinada disciplina estudado por várias delas ao mesmo tempo; essa abordagem, embora ultrapasse as disciplinas, continua inscrita na estrutura da pesquisa disciplinar.",
+     "Na interdisciplinaridade, há uma tal intercomunicação entre as disciplinas que as fronteiras entre elas deixam de existir; nessa abordagem, as disciplinas não apenas colaboram entre si, mas são organizadas por um pensamento complexo que ultrapassa as próprias disciplinas."
+    ]
+   }
+  },
+  "esp03": {
+   "47": "Nas viagens por rodovias, é possível perceber que algumas curvas são compensadas, ou seja, a rodovia é inclinada em relação à horizontal. A finalidade dessa compensação é diminuir o risco de derrapagem dos veículos, principalmente quando o atrito pode diminuir na situação de pista molhada. A seguir é ilustrado, de forma esquemática, um automóvel de massa m que trafega com velocidade de módulo constante e igual a V, e efetua uma curva compensada de raio R, com uma inclinação igual a θ. Considerando as informações do texto e da figura precedentes, julgue os itens a seguir e, se necessário, para efeitos de cálculo, considere que o veículo tenha dimensões desprezíveis. I Quando o automóvel realiza a curva sem derrapar, o atrito entre os seus pneus e o piso da rodovia é do tipo estático. II O ângulo θ para o qual a resultante centrípeta permita que o carro seja mantido na pista, sem a necessidade de atrito, é igual a arctan(V²/(R·g)). III Caso os atritos sejam desprezíveis, a velocidade que o veículo deverá ter para executar a curva será V = √(R·g·tanθ). IV Caso a rodovia seja plana e horizontal (θ = 0°), é possível efetuar a curva desde que exista atrito entre os pneus do veículo e o piso da rodovia. Assinale a opção correta."
+  },
+  "esp12": {
+   "34": {
+    "enunciado": "Os números racionais A = 335/179, B = 432/231 e C = 367/196 satisfazem a ordem",
+    "alternativas": [
+     "A < C < B.",
+     "B < C < A.",
+     "B < A < C.",
+     "C < B < A.",
+     "C < A < B."
+    ]
+   }
+  }
+ }
+}

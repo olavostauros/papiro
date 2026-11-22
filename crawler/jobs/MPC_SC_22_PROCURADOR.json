@@ -1,0 +1,43 @@
+{
+ "evento": "MPC_SC_22_PROCURADOR",
+ "workdir": "/tmp/mpc_sc_22_procurador",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Ministério Público de Contas do Estado de Santa Catarina",
+  "ano": 2022,
+  "id_orgao": "mpc"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Procurador de Contas",
+   "id_cargo": "procurador",
+   "provas": [
+    {
+     "key": "001",
+     "prova": "pro_MPC_SC_001_01.pdf",
+     "gabarito": "gab_MPC_SC_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "728_MPC_SC_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "001": {
+   "22": "Determinado registrador oficial, no exercício de suas funções notariais e de registro no ano de 2022, agiu com negligência, ocasionando lesão ao erário e danos a terceiros. Tendo como referência essa situação hipotética e as disposições da Constituição Federal de 1988, da legislação pertinente e da jurisprudência do Supremo Tribunal Federal relativas aos atos de tabeliães e registradores oficiais, julgue o item a seguir. O Estado responderá objetivamente pelo ato do registrador oficial que causar dano a terceiro, assegurado o dever de regresso contra o responsável nos casos de dolo ou culpa.",
+   "23": "Determinado registrador oficial, no exercício de suas funções notariais e de registro no ano de 2022, agiu com negligência, ocasionando lesão ao erário e danos a terceiros. Tendo como referência essa situação hipotética e as disposições da Constituição Federal de 1988, da legislação pertinente e da jurisprudência do Supremo Tribunal Federal relativas aos atos de tabeliães e registradores oficiais, julgue o item a seguir. Na situação narrada, a averiguação da responsabilidade civil do Estado orienta-se pela teoria da culpa do serviço.",
+   "24": "Determinado registrador oficial, no exercício de suas funções notariais e de registro no ano de 2022, agiu com negligência, ocasionando lesão ao erário e danos a terceiros. Tendo como referência essa situação hipotética e as disposições da Constituição Federal de 1988, da legislação pertinente e da jurisprudência do Supremo Tribunal Federal relativas aos atos de tabeliães e registradores oficiais, julgue o item a seguir. Caso a conduta do registrador público em questão seja reconhecida em decisão do Tribunal de Contas do Estado de Santa Catarina (TCE/SC), a pretensão de ressarcimento ao erário decorrente dessa decisão será prescritível.",
+   "25": "Determinado registrador oficial, no exercício de suas funções notariais e de registro no ano de 2022, agiu com negligência, ocasionando lesão ao erário e danos a terceiros. Tendo como referência essa situação hipotética e as disposições da Constituição Federal de 1988, da legislação pertinente e da jurisprudência do Supremo Tribunal Federal relativas aos atos de tabeliães e registradores oficiais, julgue o item a seguir. Na situação apresentada, a conduta do registrador oficial da qual decorreu lesão ao erário não é passível de ser caracterizada como ato de improbidade administrativa.",
+   "102": "O órgão responsável pelo regime próprio de previdência social (RPPS) de um município catarinense foi comunicado acerca de cautelar proferida em sede de ação distribuída no juizado da comarca. Na decisão, determinou-se a inclusão de gratificação nos proventos de aposentadoria de um servidor, já tendo sido o respectivo ato concessório registrado pelo Tribunal de Contas do Estado de Santa Catarina (TCE/SC), em instrução que se mostrou incontroversa quanto à legalidade do ato na forma em que foi originalmente praticado. A decisão do tribunal de contas transitou em julgado em data anterior à do ajuizamento da ação. Após dar cumprimento ao mandado, o RPPS ainda alterou os proventos de outros servidores que percebiam, enquanto na atividade, a mesma gratificação objeto da decisão. Com base nessa situação hipotética, julgue o item a seguir. Errou o RPPS ao promover a retificação dos proventos do autor da ação, pois a estabilização da questão no tribunal de contas prejudicou a reinvestigação do mérito no juízo não especializado.",
+   "103": "O órgão responsável pelo regime próprio de previdência social (RPPS) de um município catarinense foi comunicado acerca de cautelar proferida em sede de ação distribuída no juizado da comarca. Na decisão, determinou-se a inclusão de gratificação nos proventos de aposentadoria de um servidor, já tendo sido o respectivo ato concessório registrado pelo Tribunal de Contas do Estado de Santa Catarina (TCE/SC), em instrução que se mostrou incontroversa quanto à legalidade do ato na forma em que foi originalmente praticado. A decisão do tribunal de contas transitou em julgado em data anterior à do ajuizamento da ação. Após dar cumprimento ao mandado, o RPPS ainda alterou os proventos de outros servidores que percebiam, enquanto na atividade, a mesma gratificação objeto da decisão. Com base nessa situação hipotética, julgue o item a seguir. O princípio da colegialidade que caracteriza a jurisdição de contas determina que as decisões do TCE/SC, tal como a originariamente adotada no registro da aposentadoria mencionada, sejam adotadas por órgão colegiado, motivo pelo qual a medida disponível seria a ação de revisão de julgado, no prazo de dois anos.",
+   "104": "O órgão responsável pelo regime próprio de previdência social (RPPS) de um município catarinense foi comunicado acerca de cautelar proferida em sede de ação distribuída no juizado da comarca. Na decisão, determinou-se a inclusão de gratificação nos proventos de aposentadoria de um servidor, já tendo sido o respectivo ato concessório registrado pelo Tribunal de Contas do Estado de Santa Catarina (TCE/SC), em instrução que se mostrou incontroversa quanto à legalidade do ato na forma em que foi originalmente praticado. A decisão do tribunal de contas transitou em julgado em data anterior à do ajuizamento da ação. Após dar cumprimento ao mandado, o RPPS ainda alterou os proventos de outros servidores que percebiam, enquanto na atividade, a mesma gratificação objeto da decisão. Com base nessa situação hipotética, julgue o item a seguir. Acertou o RPPS ao promover a retificação dos proventos do autor da ação, devendo oferecer a apostila praticada a registro no TCE/SC, mesmo que o ato tenha decorrido de mandado judicial.",
+   "109": "O prefeito de um município catarinense apresentou projeto de lei à câmara municipal no qual propôs a alteração do estatuto do RPPS local, com a inclusão, no rol de beneficiários do seguro de pensão por morte, dos menores de idade sob sua guarda. Com base na situação hipotética narrada e tendo a Constituição Federal de 1988 como parâmetro, julgue o item a seguir. Caso o projeto não indique a fonte para custeio total, será caracterizado vício de constitucionalidade.",
+   "110": "O prefeito de um município catarinense apresentou projeto de lei à câmara municipal no qual propôs a alteração do estatuto do RPPS local, com a inclusão, no rol de beneficiários do seguro de pensão por morte, dos menores de idade sob sua guarda. Com base na situação hipotética narrada e tendo a Constituição Federal de 1988 como parâmetro, julgue o item a seguir. O projeto apresenta vício de iniciativa, pois a competência é privativa do chefe da unidade gestora do RPPS no âmbito do município.",
+   "111": "O prefeito de um município catarinense apresentou projeto de lei à câmara municipal no qual propôs a alteração do estatuto do RPPS local, com a inclusão, no rol de beneficiários do seguro de pensão por morte, dos menores de idade sob sua guarda. Com base na situação hipotética narrada e tendo a Constituição Federal de 1988 como parâmetro, julgue o item a seguir. O projeto apresenta vício de competência, pois legislar acerca de seguridade social é matéria de competência privativa da União."
+  }
+ }
+}

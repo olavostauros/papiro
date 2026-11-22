@@ -1,0 +1,60 @@
+{
+ "evento": "PM_AL_21",
+ "workdir": "/tmp/pm_al_21",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "POLÍCIA MILITAR DO ESTADO DE ALAGOAS",
+  "ano": 2021,
+  "id_orgao": "pm"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "OFICIAL COMBATENTE",
+   "id_cargo": "oficial-combatente",
+   "provas": [
+    {
+     "key": "PMAL_001_MATRIZ",
+     "prova": "pro_PMAL_001_MATRIZ.pdf",
+     "gabarito": "gab_MATRIZ_596_PMAL_001_00.pdf",
+     "tipo": "ce",
+     "arquivo": "596_PMAL_001_MATRIZ.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "SOLDADO COMBATENTE",
+   "id_cargo": "soldado-combatente",
+   "provas": [
+    {
+     "key": "PMAL_002_MATRIZ",
+     "prova": "pro_PMAL_002_MATRIZ.pdf",
+     "gabarito": "gab_MATRIZ_596_PMAL_002_00.pdf",
+     "tipo": "ce",
+     "arquivo": "596_PMAL_002_MATRIZ.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "PMAL_001_MATRIZ": {
+   "76": "A velocidade média de um satélite GPS cujo raio de órbita mede 24 × 10^3 km é inferior a 4 km/s.",
+   "79": "A razão entre os raios médios das órbitas de satélites geoestacionários e satélites GPS é igual a ∛4.",
+   "84": "Em 2 mols de moléculas de luminol, existem 14 × 10^23 átomos de hidrogênio.",
+   "86": "O coeficiente do termo independente no desenvolvimento de ((x − 2)/x)^10 é −4032.",
+   "87": "Se os números 2, a e b estão em progressão aritmética e os números 2, (a − 4) e b estão em progressão geométrica, então existem a e b tais que a progressão geométrica 2, (a − 4) e b tem razão −1.",
+   "88": "Durante uma caminhada, uma pessoa que segurava na mão uma pequena bola de gude tropeçou em um obstáculo fixo no solo, o que fez a bola ser lançada para frente e cair no chão. A trajetória percorrida pela bola — da mão da pessoa até o chão, suposto plano e horizontal — segue a função espacial y(x) = −x^2 + x + 1, em que as distâncias consideradas estão todas em metros e x é não negativo. Nesse caso, considerando-se que x = 0 corresponda à localização do obstáculo, conclui-se que a maior altura alcançada pela bola durante o voo é igual a 1,25 metro e que a distância do ponto do tropeço até o ponto em que a bola atingiu o chão é superior a 1 metro.",
+   "89": "Considerando-se os números complexos z1 = √3/2 + i/2 e z2 = √2/2 + i√2/2, em que i é a unidade imaginária, é correto afirmar que a multiplicação z1·z2 representa geometricamente a rotação do número z1 por um ângulo de 30º.",
+   "90": "A equação exponencial 4^x + 6^x = 9^x tem apenas uma solução, que é dada por x = log_{2/3}((√5 − 1)/2)."
+  },
+  "PMAL_002_MATRIZ": {
+   "40": "Em uma cidade, existem três antenas de celular — A, B e C —, representadas em um plano cartesiano de tal forma que A(0, 0), B(2, 0) e C(1/2, √3/2), em que as unidades estão em quilômetros. As antenas A e B captam um telefone celular que está em um ponto P(x0, y0) localizado a 2 km de distância de cada uma delas, e a antena C também recebe sinal desse aparelho. Nesse caso, sabendo-se que y0 > 0, conclui-se que a distância entre P e C é igual a 1 km.",
+   "44": "Sendo ABC um triângulo, em que Â = 45°, B̂ = 60° e AB = 1, então a altura h relativa ao vértice C tem comprimento dado por h = (3 − √3)/2.",
+   "47": "O maior valor da função trigonométrica f(x) = sen^2(x) − 4sen(x) + 5 é 10."
+  }
+ }
+}

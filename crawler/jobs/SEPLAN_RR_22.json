@@ -1,0 +1,58 @@
+{
+ "evento": "SEPLAN_RR_22",
+ "workdir": "/tmp/seplan_rr_22",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Secretaria de Planejamento e Orçamento de Roraima",
+  "ano": 2022,
+  "id_orgao": "seplan-rr"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista de Planejamento e Orçamento – Planejamento e Orçamento",
+   "id_cargo": "analista-planejamento-e-orcamento",
+   "provas": [
+    {
+     "key": "SEPLAN_RR_CB1_01",
+     "prova": "pro_SEPLAN_RR_CB1_01.pdf",
+     "gabarito": "gab_SEPLAN_RR_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEPLAN_RR_CB1_01.PDF"
+    },
+    {
+     "key": "SEPLAN_RR_001_01",
+     "prova": "pro_SEPLAN_RR_001_01.pdf",
+     "gabarito": "gab_SEPLAN_RR_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEPLAN_RR_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista de Planejamento e Orçamento – Tecnologia da Informação",
+   "id_cargo": "analista-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "SEPLAN_RR_CB1_01",
+     "prova": "pro_SEPLAN_RR_CB1_01.pdf",
+     "gabarito": "gab_SEPLAN_RR_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEPLAN_RR_CB1_01.PDF"
+    },
+    {
+     "key": "SEPLAN_RR_002_01",
+     "prova": "pro_SEPLAN_RR_002_01.pdf",
+     "gabarito": "gab_SEPLAN_RR_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEPLAN_RR_002_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

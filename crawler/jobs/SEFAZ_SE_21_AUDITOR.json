@@ -1,0 +1,125 @@
+{
+  "evento": "SEFAZ_SE_21_AUDITOR",
+  "workdir": "/tmp/sefaz_se_21_auditor",
+  "meta": {
+    "banca": "Cebraspe",
+    "orgao": "Secretaria de Fazenda do Estado de Sergipe",
+    "ano": 2021,
+    "id_orgao": "sefaz-se"
+  },
+  "cargos": [
+    {
+      "idArea": "01",
+      "cargo": "Auditor Técnico de Tributos",
+      "id_cargo": "auditor-tecnico-tributos",
+      "provas": [
+        {
+          "key": "SEFAZ_SE_CG1_01",
+          "prova": "pro_SEFAZ_SE_CG1_01.pdf",
+          "gabarito": "gab_SEFAZ_SE_CG1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "667_SEFAZ_SE_CG1_01.PDF"
+        },
+        {
+          "key": "SEFAZ_SE_001_01",
+          "prova": "pro_SEFAZ_SE_001_01.pdf",
+          "gabarito": "gab_SEFAZ_SE_001_01.pdf",
+          "tipo": "mc",
+          "arquivo": "667_SEFAZ_SE_001_01.PDF"
+        },
+        {
+          "key": "SEFAZ_SE_CG2_01",
+          "prova": "pro_SEFAZ_SE_CG2_01.pdf",
+          "gabarito": "gab_SEFAZ_SE_CG2_01.pdf",
+          "tipo": "mc",
+          "arquivo": "667_SEFAZ_SE_CG2_01.PDF",
+          "num_offset": 100
+        },
+        {
+          "key": "SEFAZ_SE_002_01",
+          "prova": "pro_SEFAZ_SE_002_01.pdf",
+          "gabarito": "gab_SEFAZ_SE_002_01.pdf",
+          "tipo": "mc",
+          "arquivo": "667_SEFAZ_SE_002_01.PDF",
+          "num_offset": 100
+        },
+        {
+          "key": "SEFAZ_SE_CF_001_01",
+          "prova": "pro_SEFAZ_SE_CF_001_01.pdf",
+          "gabarito": "gab_SEFAZ_SE_CF_001_01_1_31_.pdf",
+          "tipo": "ce",
+          "arquivo": "764_SEFAZ_SE_CF_001_01.PDF",
+          "num_offset": 200
+        },
+        {
+          "key": "SEFAZ_SE_21_AUDITOR_001_",
+          "prova": "pro_SEFAZ_SE_21_AUDITOR_001_.pdf",
+          "gabarito": "gab_SEFAZ_SE_21_AUDITOR_001_.pdf",
+          "tipo": "ce",
+          "arquivo": "776_SEFAZ_SE_21_AUDITOR_001_01_PROVA_2.PDF",
+          "num_offset": 250
+        },
+        {
+          "key": "SEFAZ3_001_01",
+          "prova": "pro_SEFAZ3_001_01.pdf",
+          "gabarito": "gab_SEFAZ3_001_01_3_1_12_22.pdf",
+          "tipo": "ce",
+          "arquivo": "777_SEFAZ3_001_01.PDF",
+          "num_offset": 300
+        },
+        {
+          "key": "SEFAZ4_001_01",
+          "prova": "pro_SEFAZ4_001_01.pdf",
+          "gabarito": "gab_SEFAZ4_001_01_4_18_12_22.pdf",
+          "tipo": "ce",
+          "arquivo": "778_SEFAZ4_001_01.PDF",
+          "num_offset": 350
+        }
+      ]
+    }
+  ],
+  "unmatched": [],
+  "variant": "modern",
+  "skip": {
+    "SEFAZ_SE_CG1_01": [
+      8,
+      9
+    ]
+  },
+  "patch": {
+    "SEFAZ_SE_CG1_01": {},
+    "SEFAZ_SE_CG2_01": {
+      "7": {
+        "enunciado": "Para a obtenção de projeções de resultados financeiros de empresas de determinado ramo de negócios, será ajustado um modelo de regressão linear simples na forma y = ax + b + ε, no qual x representa o grau de endividamento; y denota um índice contábil; o termo ε é o erro aleatório, que segue uma distribuição com média nula e variância σ²; e a e b são os coeficientes do modelo, com b ≠ 0. A correlação linear entre as variáveis x e y é positiva e algumas medidas descritivas referentes às variáveis x e y se encontram na tabela a seguir: média amostral — y = 2, x = 4; desvio padrão amostral — y = 0,4, x = 8. Com base nessa situação hipotética e considerando que o coeficiente de determinação proporcionado pelo modelo em tela seja R² = 0,81, assinale a opção em que é apresentada a reta ajustada pelo critério de mínimos quadrados ordinários.",
+        "alternativas": [
+          "ŷ = 0,045x + 1,82",
+          "ŷ = 0,5x",
+          "ŷ = 0,4x + 0,4 + ε",
+          "ŷ = 18x − 70.",
+          "ŷ = 18x − 70 + ε"
+        ]
+      },
+      "8": {
+        "enunciado": "Considerando uma variável aleatória contínua X, tal que sua função de densidade de probabilidade seja f(x) = 0 para |x| > 1, assinale a opção em que é apresentada uma função de densidade de probabilidade para |x| ≤ 1.",
+        "alternativas": [
+          "f(x) = 1.",
+          "f(x) = x",
+          "f(x) = x + 1/2",
+          "f(x) = |x|",
+          "f(x) = −x^2"
+        ]
+      },
+      "9": "Texto CG2A4-I — Proposição P: Se o auditor for diligente e a auditoria bem planejada, a fraude será encontrada e o responsável será punido. O número de linhas da tabela verdade associada à proposição P, mencionada no texto CG2A4-I, é igual a",
+      "10": "Texto CG2A4-I — Proposição P: Se o auditor for diligente e a auditoria bem planejada, a fraude será encontrada e o responsável será punido. Considerando a proposição P, mencionada no texto CG2A4-I, que é constituída de várias proposições lógicas simples, assinale a opção em que é apresentado o número mínimo dessas proposições lógicas simples que, tendo seus valores lógicos determinados, garantirá que a proposição P seja verdadeira, independentemente dos valores lógicos atribuídos às demais proposições lógicas simples."
+    },
+    "SEFAZ_SE_001_01": {
+      "33": "Situação hipotética 1A5-I: A empresa Alfa-X Ltda., administrada pelo sócio-gerente Túlio, teve lavrado contra si auto de infração de ICMS em 2017, acompanhado de multas moratória e punitiva. O auditor responsável verificou que a empresa efetuou várias operações de venda de produtos com preço superior ao registrado na nota fiscal. Após a lavratura do citado auto de infração, a empresa foi incorporada em 2018 pela Beta-Y Ltda., que prosseguiu na exploração do objeto social, tendo Túlio e os demais sócios da Alfa-X se retirado do quadro social. No ano de 2019, a procuradoria-geral do estado promoveu execução fiscal do crédito tributário relativo ao auto de infração de 2017 contra a empresa Beta-Y, nessa oportunidade administrada pelo sócio-gerente Mauro. Após diligências na tentativa de citar a empresa, o oficial de justiça certificou a informação de que a empresa Beta-Y não mais funcionava no domicílio fiscal declarado. De acordo com a situação hipotética 1A5-I, quanto ao crédito tributário constituído contra a empresa Alfa-X, é correto afirmar que a empresa Beta-Y",
+      "34": "Situação hipotética 1A5-I: A empresa Alfa-X Ltda., administrada pelo sócio-gerente Túlio, teve lavrado contra si auto de infração de ICMS em 2017, acompanhado de multas moratória e punitiva. O auditor responsável verificou que a empresa efetuou várias operações de venda de produtos com preço superior ao registrado na nota fiscal. Após a lavratura do citado auto de infração, a empresa foi incorporada em 2018 pela Beta-Y Ltda., que prosseguiu na exploração do objeto social, tendo Túlio e os demais sócios da Alfa-X se retirado do quadro social. No ano de 2019, a procuradoria-geral do estado promoveu execução fiscal do crédito tributário relativo ao auto de infração de 2017 contra a empresa Beta-Y, nessa oportunidade administrada pelo sócio-gerente Mauro. Após diligências na tentativa de citar a empresa, o oficial de justiça certificou a informação de que a empresa Beta-Y não mais funcionava no domicílio fiscal declarado. Ainda considerando a situação hipotética 1A5-I, assinale a opção correta, a respeito da responsabilidade tributária dos sócios das pessoas jurídicas Alfa-X e Beta-Y."
+    },
+    "SEFAZ_SE_002_01": {
+      "21": "Situação hipotética 2A3-I: Determinada indústria produz um conjunto para jardim constituído de uma mesa e quatro cadeiras. As peças do conjunto não são vendidas separadamente. A empresa utiliza, para fins fiscais e societários, o sistema de custeio por absorção. Os custos estimados para o próximo período foram: matérias-primas de uso direto R$ 950 mil; mão de obra direta R$ 160 mil; supervisão e apoio à produção R$ 40 mil; depreciação de equipamentos fabris R$ 120 mil; materiais de consumo industrial R$ 60 mil; consumo de água e luz na área industrial R$ 20 mil; depreciação das instalações industriais R$ 24 mil; custo do almoxarifado de produtos acabados R$ 18 mil; comissão sobre vendas de produtos acabados R$ 45 mil; gastos gerais administrativos R$ 16 mil; salários e honorários da administração geral R$ 80 mil; materiais e consumo administrativos R$ 5 mil. OBS.: (i) o tempo improdutivo da mão de obra direta é alocado como despesa; (ii) a depreciação é calculada pelo método linear. Considerando-se as informações apresentadas na situação hipotética 2A3-I, o total de custos de produção total variáveis ou mistos estimado para o próximo período será um valor",
+      "22": "Situação hipotética 2A3-I: Determinada indústria produz um conjunto para jardim constituído de uma mesa e quatro cadeiras. As peças do conjunto não são vendidas separadamente. A empresa utiliza, para fins fiscais e societários, o sistema de custeio por absorção. Os custos estimados para o próximo período foram: matérias-primas de uso direto R$ 950 mil; mão de obra direta R$ 160 mil; supervisão e apoio à produção R$ 40 mil; depreciação de equipamentos fabris R$ 120 mil; materiais de consumo industrial R$ 60 mil; consumo de água e luz na área industrial R$ 20 mil; depreciação das instalações industriais R$ 24 mil; custo do almoxarifado de produtos acabados R$ 18 mil; comissão sobre vendas de produtos acabados R$ 45 mil; gastos gerais administrativos R$ 16 mil; salários e honorários da administração geral R$ 80 mil; materiais e consumo administrativos R$ 5 mil. OBS.: (i) o tempo improdutivo da mão de obra direta é alocado como despesa; (ii) a depreciação é calculada pelo método linear. A partir da situação hipotética 2A3-I, julgue os itens a seguir. I As matérias-primas destinadas à produção ingressam na entidade como um investimento, depois são transformadas em custo de produção e, finalmente, em um tipo de despesa. II O custo de mão de obra direta, quando produtivo, é um custo que pode ser estocado. III O custo com o almoxarifado de produtos acabados é um custo indireto de produção. IV A departamentalização, quando aplicada a um sistema de custeio por absorção, permite que os gastos administrativos empregados na aquisição de insumos para a produção sejam alocados ao custo dos produtos. Assinale a opção correta.",
+      "23": "Situação hipotética 2A3-I: Determinada indústria produz um conjunto para jardim constituído de uma mesa e quatro cadeiras. As peças do conjunto não são vendidas separadamente. A empresa utiliza, para fins fiscais e societários, o sistema de custeio por absorção. Os custos estimados para o próximo período foram: matérias-primas de uso direto R$ 950 mil; mão de obra direta R$ 160 mil; supervisão e apoio à produção R$ 40 mil; depreciação de equipamentos fabris R$ 120 mil; materiais de consumo industrial R$ 60 mil; consumo de água e luz na área industrial R$ 20 mil; depreciação das instalações industriais R$ 24 mil; custo do almoxarifado de produtos acabados R$ 18 mil; comissão sobre vendas de produtos acabados R$ 45 mil; gastos gerais administrativos R$ 16 mil; salários e honorários da administração geral R$ 80 mil; materiais e consumo administrativos R$ 5 mil. OBS.: (i) o tempo improdutivo da mão de obra direta é alocado como despesa; (ii) a depreciação é calculada pelo método linear. Caso a empresa produza 10 mil conjuntos para jardim, realizando de forma produtiva todo o custo previsto, o custo unitário de cada conjunto produzido será um valor"
+    }
+  }
+}

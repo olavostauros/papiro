@@ -1,0 +1,587 @@
+{
+ "evento": "TRT8_22",
+ "workdir": "/tmp/trt8_22",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "TRIBUNAL REGIONAL DO TRABALHO – TRT 8ª REGIÃO",
+  "ano": 2022,
+  "id_orgao": "trt8"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "ANALISTA JUDICIÁRIO – ÁREA: ADMINISTRATIVA",
+   "id_cargo": "analista-administrativa",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_TRT8_CG1_01.pdf",
+     "gabarito": "gab_TRT8_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_CG1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_TRT8_001_01.pdf",
+     "gabarito": "gab_TRT8_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "ANALISTA JUDICIÁRIO – ÁREA: ADMINISTRATIVA – ESPECIALIDADE: CONTABILIDADE",
+   "id_cargo": "analista-contabilidade",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_TRT8_CG1_01.pdf",
+     "gabarito": "gab_TRT8_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_CG1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_TRT8_002_01.pdf",
+     "gabarito": "gab_TRT8_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: ARQUITETURA",
+   "id_cargo": "analista-arquitetura",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_TRT8_CG1_01.pdf",
+     "gabarito": "gab_TRT8_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_CG1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_TRT8_003_01.pdf",
+     "gabarito": "gab_TRT8_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: ARQUIVOLOGIA",
+   "id_cargo": "analista-arquivologia",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_TRT8_CG1_01.pdf",
+     "gabarito": "gab_TRT8_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_CG1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_TRT8_004_01.pdf",
+     "gabarito": "gab_TRT8_004_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: BIBLIOTECONOMIA",
+   "id_cargo": "analista-biblioteconomia",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_TRT8_CG1_01.pdf",
+     "gabarito": "gab_TRT8_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_CG1_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_TRT8_005_01.pdf",
+     "gabarito": "gab_TRT8_005_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: ENFERMAGEM",
+   "id_cargo": "analista-enfermagem",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_TRT8_CG1_01.pdf",
+     "gabarito": "gab_TRT8_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_CG1_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_TRT8_006_01.pdf",
+     "gabarito": "gab_TRT8_006_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: ENGENHARIA CIVIL",
+   "id_cargo": "analista-engenharia-civil",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_TRT8_CG1_01.pdf",
+     "gabarito": "gab_TRT8_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_CG1_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_TRT8_007_01.pdf",
+     "gabarito": "gab_TRT8_007_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: ENGENHARIA ELÉTRICA",
+   "id_cargo": "analista-engenharia-eletrica",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_TRT8_CG1_01.pdf",
+     "gabarito": "gab_TRT8_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_CG1_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_TRT8_008_01.pdf",
+     "gabarito": "gab_TRT8_008_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: ESTATÍSTICA",
+   "id_cargo": "analista-estatistica",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_TRT8_CG1_01.pdf",
+     "gabarito": "gab_TRT8_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_CG1_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_TRT8_009_01.pdf",
+     "gabarito": "gab_TRT8_009_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: MEDICINA",
+   "id_cargo": "analista-medicina",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_TRT8_CG1_01.pdf",
+     "gabarito": "gab_TRT8_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_CG1_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_TRT8_010_01.pdf",
+     "gabarito": "gab_TRT8_010_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: MEDICINA DO TRABALHO",
+   "id_cargo": "analista-medicina-do-trabalho",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_TRT8_CG1_01.pdf",
+     "gabarito": "gab_TRT8_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_CG1_01.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_TRT8_011_01.pdf",
+     "gabarito": "gab_TRT8_011_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: ODONTOLOGIA",
+   "id_cargo": "analista-odontologia",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_TRT8_CG1_01.pdf",
+     "gabarito": "gab_TRT8_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_CG1_01.PDF"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_TRT8_012_01.pdf",
+     "gabarito": "gab_TRT8_012_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: PSICOLOGIA",
+   "id_cargo": "analista-psicologia",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_TRT8_CG1_01.pdf",
+     "gabarito": "gab_TRT8_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_CG1_01.PDF"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_TRT8_013_01.pdf",
+     "gabarito": "gab_TRT8_013_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_013_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: SERVIÇO SOCIAL",
+   "id_cargo": "analista-servico-social",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_TRT8_CG1_01.pdf",
+     "gabarito": "gab_TRT8_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_CG1_01.PDF"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_TRT8_014_01.pdf",
+     "gabarito": "gab_TRT8_014_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_014_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "ANALISTA JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: TECNOLOGIA DA INFORMAÇÃO",
+   "id_cargo": "analista-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_TRT8_CG1_01.pdf",
+     "gabarito": "gab_TRT8_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_CG1_01.PDF"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_TRT8_015_01.pdf",
+     "gabarito": "gab_TRT8_015_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_015_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "ANALISTA JUDICIÁRIO – ÁREA: JUDICIÁRIA",
+   "id_cargo": "analista-judiciaria",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_TRT8_CG1_01.pdf",
+     "gabarito": "gab_TRT8_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_CG1_01.PDF"
+    },
+    {
+     "key": "esp16",
+     "prova": "pro_TRT8_016_01.pdf",
+     "gabarito": "gab_TRT8_016_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_016_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "17",
+   "cargo": "ANALISTA JUDICIÁRIO – ÁREA: JUDICIÁRIA – ESPECIALIDADE: OFICIAL DE JUSTIÇA AVALIADOR FEDERAL",
+   "id_cargo": "analista-oficial-de-justica-avaliador-federal",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_TRT8_CG1_01.pdf",
+     "gabarito": "gab_TRT8_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_CG1_01.PDF"
+    },
+    {
+     "key": "esp17",
+     "prova": "pro_TRT8_017_01.pdf",
+     "gabarito": "gab_TRT8_017_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_017_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "18",
+   "cargo": "TÉCNICO JUDICIÁRIO – ÁREA: ADMINISTRATIVA",
+   "id_cargo": "tecnico-administrativa",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_TRT8_CG2_01.pdf",
+     "gabarito": "gab_TRT8_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_CG2_01.PDF"
+    },
+    {
+     "key": "esp18",
+     "prova": "pro_TRT8_018_01.pdf",
+     "gabarito": "gab_TRT8_018_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_018_01.PDF"
+    },
+    {
+     "key": "cb1r",
+     "prova": "pro_TRT8_REAPLICACAO_CB1_01.pdf",
+     "gabarito": "gab_TRT8_REAPLICACAO_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "793_TRT8_REAPLICACAO_CB1_01.PDF",
+     "num_offset": 100
+    },
+    {
+     "key": "espr",
+     "prova": "pro_TRT8_REAPLICACAO_018_01.pdf",
+     "gabarito": "gab_TRT8_REAPLICACAO_018_01.pdf",
+     "tipo": "mc",
+     "arquivo": "793_TRT8_REAPLICACAO_018_01.PDF",
+     "num_offset": 100
+    }
+   ]
+  },
+  {
+   "idArea": "19",
+   "cargo": "TÉCNICO JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: ENFERMAGEM",
+   "id_cargo": "tecnico-enfermagem",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_TRT8_CG2_01.pdf",
+     "gabarito": "gab_TRT8_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_CG2_01.PDF"
+    },
+    {
+     "key": "esp19",
+     "prova": "pro_TRT8_019_01.pdf",
+     "gabarito": "gab_TRT8_019_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_019_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "20",
+   "cargo": "TÉCNICO JUDICIÁRIO – ÁREA: APOIO ESPECIALIZADO – ESPECIALIDADE: TECNOLOGIA DA INFORMAÇÃO",
+   "id_cargo": "tecnico-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_TRT8_CG2_01.pdf",
+     "gabarito": "gab_TRT8_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_CG2_01.PDF"
+    },
+    {
+     "key": "esp20",
+     "prova": "pro_TRT8_020_01.pdf",
+     "gabarito": "gab_TRT8_020_01.pdf",
+     "tipo": "mc",
+     "arquivo": "759_TRT8_020_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {
+  "esp03": [
+   23
+  ],
+  "esp09": [
+   38
+  ]
+ },
+ "patch": {
+  "esp09": {
+   "21": "Se X e Y forem duas variáveis aleatórias independentes tais que X~Bernoulli(p = 0,8) e Y~Binomial(n = 3; p = 0,8), então P(X⁴ + Y = 1) é igual a",
+   "22": {
+    "enunciado": "Considerando que Q₂₀ e Q₁₅ representam variáveis aleatórias independentes que seguem distribuições qui-quadrado, respectivamente, com 20 e 15 graus de liberdade, assinale a opção correta no que se refere à diferença D = Q₂₀ − Q₁₅.",
+    "alternativas": [
+     "D segue uma distribuição qui-quadrado.",
+     "Se P(D < 0) representa a probabilidade de ocorrência do evento [D < 0], então P(D < 0) = 0.",
+     "O valor esperado da variável D é igual a zero.",
+     "A distribuição da variável D é simétrica em torno da sua média.",
+     "A variância da diferença D é igual a 70."
+    ]
+   },
+   "23": "O número N de pessoas que chegam diariamente em uma fila de atendimento segue uma distribuição de Poisson com média igual a 500. Se Y representa o número diário dessas pessoas que recebem atendimento preferencial, e se P(Y = y|N = n) = C(n,y)·0,1ʸ·0,9ⁿ⁻ʸ, em que 0 ≤ y ≤ n, então Var[Y] é igual a",
+   "24": {
+    "enunciado": "Considerando que a distribuição conjunta entre duas variáveis aleatórias contínuas X e Y é dada pela expressão f(x,y) = 8xy/3 + x², se (x,y) ∈ [0,1] × [0,1], e f(x,y) = 0, se (x,y) ∉ [0,1] × [0,1], a probabilidade P(X + Y > 1) é igual a",
+    "alternativas": [
+     "2/9.",
+     "7/36.",
+     "29/36.",
+     "1/2.",
+     "2/9."
+    ]
+   },
+   "25": "Se X for uma variável aleatória contínua cuja função de densidade de probabilidade é f(x) = 50 exp(−100|x|), em que x ∈ ℝ, então o valor esperado de X será igual a",
+   "26": "Considere duas variáveis aleatórias X₁ e X₂, tais que E(X₁) = E(X₂) = 1 e Var(X₁) = Var(X₂) = 4. Se X₁ e X₂ forem variáveis aleatórias independentes, então a variância do produto X₁X₂ será igual a",
+   "27": "Considerando a combinação linear Wₙ = 4 Σₕ₌₁ⁿ 0,2ʰ Xₕ, na qual X₁, …, Xₙ constitui uma amostra aleatória simples retirada de uma população com média 0 e variância 1,5, a distribuição assintótica lim ₙ→∞ Wₙ segue uma distribuição com média zero e variância igual a",
+   "28": "Se uma amostra aleatória simples de tamanho n = 4, representada por X₁, X₂, X₃, X₄, for retirada de uma distribuição exponencial com média igual a 2, então o valor esperado de X₍₁₎ = min{X₁, X₂, X₃, X₄} será igual a",
+   "30": {
+    "enunciado": "Seja X₁, X₂, X₃, X₄, X₅ uma amostra aleatória simples retirada de uma população uniforme discreta com desvio padrão igual a 5. Com respeito à variância amostral S², assinale a opção correta.",
+    "alternativas": [
+     "E[√S²] = 5.",
+     "4S²/5 segue distribuição qui-quadrado com 4 graus de liberdade.",
+     "O valor esperado de S² é igual a 25.",
+     "A razão √S²/X̄, na qual X̄ representa a média amostral, segue uma distribuição normal.",
+     "A variância amostral S² é uma variável aleatória correlacionada com a média amostral X̄."
+    ]
+   },
+   "31": {
+    "enunciado": "Um estatístico deseja modelar o tempo de espera dos requerentes da justiça do trabalho até a primeira audiência. Para tal, ele considera dez amostras aleatórias X₁, X₂, …, X₁₀ modeladas por uma distribuição Gama(3,θ), sendo θ o parâmetro de escala. As amostras utilizadas são o tempo, em meses, conforme mostra a tabela a seguir.\n\nx₁ x₂ x₃ x₄ x₅ x₆ x₇ x₈ x₉ x₁₀\n1 2 2 3 1 3 3 2 1 4\n\nNesse caso, para os dados apresentados, a estimativa de máxima verossimilhança para o parâmetro θ será",
+    "alternativas": [
+     "15/11.",
+     "22/3.",
+     "3/22.",
+     "11/5.",
+     "11/15."
+    ]
+   },
+   "32": {
+    "enunciado": "A tabela a seguir apresenta um conjunto de dados.\n\n(x₁,y₁) (x₂,y₂) (x₃,y₃) (x₄,y₄) (x₅,y₅)\n(1,1) (2,3) (3,2) (5,4) (7,6)\n\nCom base na tabela precedente e considerando-se que o modelo de regressão linear simples ajustado para os dados fornecidos seja dado pela reta ŷ = (3/4)x + (1/2), é correto afirmar que a estatística F é dada por",
+    "alternativas": [
+     "F = 783/35.",
+     "F = 261/35.",
+     "F = 35/261.",
+     "F = 296/35.",
+     "F = 888/35."
+    ]
+   },
+   "33": {
+    "enunciado": "Um estatístico que está estudando os processos que se encontram no arquivo do referido tribunal escolheu, aleatoriamente, uma amostra de 9 processos. Ele verificou que os processos amostrados possuem os números de páginas de acordo com a tabela seguinte.\n\nP₁ P₂ P₃ P₄ P₅ P₆ P₇ P₈ P₉\n1100 1250 1250 1250 1250 1100 1200 1225 1175\n\nEle supõe que o número de páginas dos processos seja normalmente distribuído com média μ e variância σ² desconhecidas. Com base nessa situação hipotética e nas informações presentes na tabela a seguir, assinale a opção que apresenta o intervalo de confiança de 95% para a média μ, assumindo que σ = 62,50.",
+    "alternativas": [
+     "[13835/12, 14965/12].",
+     "[9145/8, 10055/8].",
+     "[27875/24, 29725/24].",
+     "[13825/12, 14975/12].",
+     "[13855/12, 14945/12]."
+    ]
+   },
+   "34": "Determinado estatístico deseja avaliar se a justiça do trabalho é justa ou tendenciosa. Com esse objetivo, ele avaliou 256 casos trabalhistas entre empregadores e empregados e verificou que, em 140 casos, o empregado ganhou a ação. Definindo-se q₀ como a probabilidade de o empregado ganhar a ação, deseja-se testar as seguintes hipóteses.\n\nH₀: A justiça é justa, isto é, q₀ = 1/2\nH₁: A justiça é tendenciosa, isto é, q₀ > 1/2\n\nConsiderando essa situação hipotética e com auxílio da tabela a seguir, assinale a opção que apresenta o valor-p para esse teste.\n\nz Φ(z)\n0,50 0,6915\n0,75 0,7734\n1,00 0,8413\n1,25 0,8944\n1,50 0,9332\n1,75 0,9599\n2,00 0,9772",
+   "35": {
+    "enunciado": "A tabela a seguir mostra um conjunto de pontos.\n\n(x₁,y₁) (x₂,y₂) (x₃,y₃) (x₄,y₄) (x₅,y₅) (x₆,y₆)\n(1,3/4) (2,2) (3,7/2) (4,3) (5,4) (6,7)\n\nConsiderando-se a tabela apresentada, o modelo de regressão linear simples ajustado para os dados fornecidos será",
+    "alternativas": [
+     "ŷ = 733/10 x − 2337/140.",
+     "ŷ = 21/20 x − 3/10.",
+     "ŷ = 441/4 x − 63/2.",
+     "ŷ = −63/2 x + 441/4.",
+     "ŷ = −3/10 x + 21/20."
+    ]
+   },
+   "36": {
+    "enunciado": "Considere que X₁, X₂, …, X₁₀ sejam amostras aleatórias de uma distribuição X com função densidade de probabilidade f(X|γ) = γ(1−x)^(γ−1), 0 ≤ x ≤ 1, γ > 0, cujos valores observados são dados na tabela a seguir.\n\nx₁ x₂ x₃ x₄ x₅ x₆ x₇ x₈ x₉ x₁₀\n1/3 1/2 3/4 2/3 3/8 3/4 1/8 2/5 4/5 2/3\n\nPara os dados informados, a estimativa do parâmetro γ pelo método dos momentos é",
+    "alternativas": [
+     "161/139.",
+     "161/461.",
+     "151/149.",
+     "139/161.",
+     "461/161."
+    ]
+   },
+   "37": "Considere que X denote a idade de um juiz do trabalho selecionado aleatoriamente dentre uma população e que X seja normalmente distribuído com média μ desconhecida e desvio padrão 15. Considere, ainda, que dessa população foram tomadas 25 amostras aleatórias, sendo o nível de significância α = 0,05 e as hipóteses a serem testadas mostradas a seguir.\n\nH₀: μ = 45\nH₁: μ > 45\n\nCom base nas informações precedentes e na tabela seguinte, assinale a opção que apresenta a potência do teste caso a média real da população seja μ = 52,335.\n\nz Φ(z) | z Φ⁻¹(z)\n-1,00 0,1587 | 0,025 1,960\n-0,80 0,2119 | 0,050 1,645\n-0,60 0,2743 | 0,075 1,439\n-0,40 0,3446 | 0,100 1,281\n-0,20 0,4207 | 0,125 1,150",
+   "39": "Determinado tribunal deseja realizar um estudo local para saber quantos de seus 768 servidores almoçam fora. Como não há nenhuma informação prévia sobre esse dado, o estatístico do tribunal irá supor que a metade dos servidores tenha esse hábito, garantindo assim a maior variabilidade possível.\n\nConsiderando que sejam desejados 95% de confiança e 5% de precisão e utilizando o método de Cochran, assim como os dados presentes na tabela a seguir, assinale a opção que indica o número de pessoas que a amostra deverá ter.\n\nz Φ⁻¹(z)\n0,025 1,960\n0,050 1,645"
+  },
+  "cg1": {
+   "12": {
+    "alternativas": [
+     "Editar → Referência.",
+     "Estilos → Título.",
+     "Ferramentas → Estilos.",
+     "Editar → Título.",
+     "Formatar → Estilo de página padrão."
+    ]
+   },
+   "13": {
+    "alternativas": [
+     "Editar → Colar especial.",
+     "Exibir → Limites do texto.",
+     "Formatar disposição do texto.",
+     "Inserir → Quebra de página.",
+     "Formatar → Espaçamento."
+    ]
+   }
+  },
+  "cg2": {
+   "12": {
+    "alternativas": [
+     "Fechar → Não salvar.",
+     "Salvar.",
+     "Salvar como modelo.",
+     "Salvar como.",
+     "Exportar diretamente como PDF."
+    ]
+   }
+  },
+  "cb1r": {
+   "9": "Considere-se a seguinte proposição P: “O juiz atendeu ao pedido do promotor e determinou a suspensão do porte de arma do suspeito.” A quantidade de linhas da tabela-verdade associada à proposição P é igual a",
+   "10": "Considere-se a seguinte proposição P: “O juiz atendeu ao pedido do promotor e determinou a suspensão do porte de arma do suspeito.” Assinale a opção que indica corretamente a negação da proposição P.",
+   "11": "Considere-se a seguinte proposição P: “O juiz atendeu ao pedido do promotor e determinou a suspensão do porte de arma do suspeito.” Assinale a opção que, sob o ponto de vista da lógica sentencial, apresenta uma proposição equivalente à proposição P."
+  }
+ }
+}

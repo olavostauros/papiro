@@ -1,0 +1,29 @@
+{
+ "evento": "CBM_PA_23_CFP",
+ "workdir": "/tmp/cbm_pa_23_cfp",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Praças do Corpo de Bombeiros Militar (CFP/BM/2023)",
+  "ano": 2023,
+  "id_orgao": "cbm-pa"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Praça Do Corpo De Bombeiros Militar Do Estado Do Pará",
+   "id_cargo": "praca-cbm",
+   "provas": [
+    {
+     "key": "esp",
+     "prova": "pro_CBM_PA_CFP_001_01.pdf",
+     "gabarito": "gab_CBM_PA_CFP_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "928_CBM_PA_CFP_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

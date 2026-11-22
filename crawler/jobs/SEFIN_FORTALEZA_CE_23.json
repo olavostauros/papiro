@@ -1,0 +1,225 @@
+{
+ "evento": "SEFIN_FORTALEZA_CE_23",
+ "workdir": "/tmp/sefin_fortaleza_ce_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "SECRETARIA MUNICIPAL DAS FINANÇAS (SEFIN)",
+  "ano": 2023,
+  "id_orgao": "sefin"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista Fazendário Municipal - Administração",
+   "id_cargo": "analista-fazendario-municipal-administracao",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_SEFIN_CE_ANALISTA_CG1_01.pdf",
+     "gabarito": "gab_SEFIN_CE_ANALISTA_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "848_SEFIN_CE_ANALISTA_CG1_01.PDF"
+    },
+    {
+     "key": "esp001",
+     "prova": "pro_SEFIN_CE_ANALISTA_001_01.pdf",
+     "gabarito": "gab_SEFIN_CE_ANALISTA_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "848_SEFIN_CE_ANALISTA_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista Fazendário Municipal - Ciência Da Computação, Informática / Processamento De Dados",
+   "id_cargo": "analista-fazendario-municipal-ciencia-da-computacao-informatica-processamento-de-dados",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_SEFIN_CE_ANALISTA_CG1_01.pdf",
+     "gabarito": "gab_SEFIN_CE_ANALISTA_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "848_SEFIN_CE_ANALISTA_CG1_01.PDF"
+    },
+    {
+     "key": "esp002",
+     "prova": "pro_SEFIN_CE_ANALISTA_002_01.pdf",
+     "gabarito": "gab_SEFIN_CE_ANALISTA_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "848_SEFIN_CE_ANALISTA_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista Fazendário Municipal - Ciências Econômicas/Finanças",
+   "id_cargo": "analista-fazendario-municipal-ciencias-economicas-financas",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_SEFIN_CE_ANALISTA_CG1_01.pdf",
+     "gabarito": "gab_SEFIN_CE_ANALISTA_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "848_SEFIN_CE_ANALISTA_CG1_01.PDF"
+    },
+    {
+     "key": "esp003",
+     "prova": "pro_SEFIN_CE_ANALISTA_003_01.pdf",
+     "gabarito": "gab_SEFIN_CE_ANALISTA_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "848_SEFIN_CE_ANALISTA_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista Fazendário Municipal - Contabilidade",
+   "id_cargo": "analista-fazendario-municipal-contabilidade",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_SEFIN_CE_ANALISTA_CG1_01.pdf",
+     "gabarito": "gab_SEFIN_CE_ANALISTA_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "848_SEFIN_CE_ANALISTA_CG1_01.PDF"
+    },
+    {
+     "key": "esp004",
+     "prova": "pro_SEFIN_CE_ANALISTA_004_01.pdf",
+     "gabarito": "gab_SEFIN_CE_ANALISTA_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "848_SEFIN_CE_ANALISTA_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Analista Fazendário Municipal - Direito",
+   "id_cargo": "analista-fazendario-municipal-direito",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_SEFIN_CE_ANALISTA_CG1_01.pdf",
+     "gabarito": "gab_SEFIN_CE_ANALISTA_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "848_SEFIN_CE_ANALISTA_CG1_01.PDF"
+    },
+    {
+     "key": "esp005",
+     "prova": "pro_SEFIN_CE_ANALISTA_005_01.pdf",
+     "gabarito": "gab_SEFIN_CE_ANALISTA_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "848_SEFIN_CE_ANALISTA_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Analista Fazendário Municipal - Engenharia Civil",
+   "id_cargo": "analista-fazendario-municipal-engenharia-civil",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_SEFIN_CE_ANALISTA_CG1_01.pdf",
+     "gabarito": "gab_SEFIN_CE_ANALISTA_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "848_SEFIN_CE_ANALISTA_CG1_01.PDF"
+    },
+    {
+     "key": "esp006",
+     "prova": "pro_SEFIN_CE_ANALISTA_006_01.pdf",
+     "gabarito": "gab_SEFIN_CE_ANALISTA_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "848_SEFIN_CE_ANALISTA_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Analista Fazendário Municipal - Geografia",
+   "id_cargo": "analista-fazendario-municipal-geografia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_SEFIN_CE_ANALISTA_CG1_01.pdf",
+     "gabarito": "gab_SEFIN_CE_ANALISTA_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "848_SEFIN_CE_ANALISTA_CG1_01.PDF"
+    },
+    {
+     "key": "esp007",
+     "prova": "pro_SEFIN_CE_ANALISTA_007_01.pdf",
+     "gabarito": "gab_SEFIN_CE_ANALISTA_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "848_SEFIN_CE_ANALISTA_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Analista Fazendário Municipal - Psicologia",
+   "id_cargo": "analista-fazendario-municipal-psicologia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_SEFIN_CE_ANALISTA_CG1_01.pdf",
+     "gabarito": "gab_SEFIN_CE_ANALISTA_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "848_SEFIN_CE_ANALISTA_CG1_01.PDF"
+    },
+    {
+     "key": "esp008",
+     "prova": "pro_SEFIN_CE_ANALISTA_008_01.pdf",
+     "gabarito": "gab_SEFIN_CE_ANALISTA_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "848_SEFIN_CE_ANALISTA_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Auditor do Tesouro Municipal",
+   "id_cargo": "auditor-do-tesouro-municipal",
+   "provas": [
+    {
+     "key": "cga",
+     "prova": "pro_SEFIN_CE_AUDITOR_CG1_01.pdf",
+     "gabarito": "gab_SEFIN_CE_AUDITOR_CG1_01_.pdf",
+     "tipo": "ce",
+     "arquivo": "847_SEFIN_CE_AUDITOR_CG1_01.PDF"
+    },
+    {
+     "key": "espa",
+     "prova": "pro_SEFIN_CE_AUDITOR_001_01.pdf",
+     "gabarito": "gab_SEFIN_CE_AUDITOR_001_01_.pdf",
+     "tipo": "ce",
+     "arquivo": "847_SEFIN_CE_AUDITOR_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp002": {
+   "64": "O selection sort (ordenamento por seleção) faz sempre (n² − n)/2 comparações, independentemente do vetor inicial."
+  },
+  "esp003": {
+   "112": "Caso o escritório decida estimar o tempo médio gasto com a declaração de imposto de renda de seus clientes, poderá fazê-lo por meio do teorema central do limite, o qual permite usar a distribuição qui-quadrado (χ²) para estimar a média da população a partir da média amostral."
+  },
+  "esp006": {
+   "122": "Com base na análise de variância (ANOVA), é correto afirmar que o valor da estatística F de Snedecor para testar a hipótese nula H₀: a = 0 contra a hipótese alternativa H₁: a ≠ 0 é igual a 8,1.",
+   "123": "A média amostral da variável y é igual a 3.",
+   "124": "O coeficiente de correlação linear de Pearson entre as variáveis x e y é igual ou superior a 0,85.",
+   "125": "As variáveis x e y possuem o mesmo desvio padrão amostral.",
+   "126": "A estimativa da variância do erro aleatório ε é igual ou inferior a 2.",
+   "130": "Se A e B forem eventos independentes, então P(A ∪ B) é igual a 0,83.",
+   "131": "Se B ⊂ A, então P(A ∩ B) = 0,1342.",
+   "138": "O código\n\nlibrary(readr)\nendereco = \"/home/sec/sefin.csv\"\nsefin <- read.csv(endereco, sep=\";\")\nhead(sefin,2,3)\n\nproduzirá, ao ser executado, o resultado a seguir.\n\n1 nome\n2 Quarup\n3 Mirafiori\n4 Scopa Residenza",
+   "141": "O código\n\nlibrary(readr)\ntexto <- read.delim(\"/home/sec/sefin.txt\", header = F)\nhead(texto,3)\n\nproduzirá, ao ser executado, o resultado a seguir.\n\n1 id; nome; cartografia; tipo\n2 3; Quarup; 48-110-130; Médio\n3 4; Mirafiori; 48-110-172; Superior",
+   "145": "O código\n\nvector <- c(1,2,3,4,5,6)\ndim(vector) <- c(2,3)\nvector\n\napresentará, ao ser executado, o resultado a seguir.\n\n     [,1] [,2] [,3]\n[1,]    1    3    5\n[2,]    2    4    6",
+   "146": "O código\n\nx <- data.frame(\"id\" = 1:5, \"idade\" = c(33,50,47,51,54), \"nome\" = c(\"Yeshua\",\"Mariah\",\"Paul\",\"John\",\"Peter\"))\nx[3]\n\napresentará, ao ser executado, o resultado a seguir.\n\n   id idade   nome\n1   1    33 Yeshua\n2   2    50 Mariah\n3   3    47   Paul",
+   "148": "Caso o código\n\nx <- c(2, 4, 6, 8)\ny <- c(4, 8, 12, 16)\nz <- c(3, 5, 7, 9)\n\nseja utilizado para se criar uma regressão linear multivariada, em que a variável y é a alvo, e as variáveis x e z são preditoras, então, para isso, é correto usar o comando a seguir.\n\nf <- lm(y > x+z)."
+  }
+ }
+}

@@ -1,0 +1,310 @@
+{
+ "evento": "DPE_RO_21_SERVIDOR",
+ "workdir": "/tmp/dpe_ro_21_servidor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "DEFENSORIA PÚBLICA DO ESTADO DE RONDÔNIA",
+  "ano": 2021,
+  "id_orgao": "dpe-ro"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Cargo 1: Analista da Defensoria Pública – Especialidade: Administração",
+   "id_cargo": "analista-administracao",
+   "provas": [
+    {
+     "key": "DPE_RO_001_01",
+     "prova": "pro_DPE_RO_001_01.pdf",
+     "gabarito": "gab_DPE_RO_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_001_01.PDF"
+    },
+    {
+     "key": "DPE_RO_CG1_01",
+     "prova": "pro_DPE_RO_CG1_01.pdf",
+     "gabarito": "gab_DPE_RO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Cargo 2: Analista da Defensoria Pública – Especialidade: Assistência Social",
+   "id_cargo": "analista-assistencia-social",
+   "provas": [
+    {
+     "key": "DPE_RO_002_01",
+     "prova": "pro_DPE_RO_002_01.pdf",
+     "gabarito": "gab_DPE_RO_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_002_01.PDF"
+    },
+    {
+     "key": "DPE_RO_CG1_01",
+     "prova": "pro_DPE_RO_CG1_01.pdf",
+     "gabarito": "gab_DPE_RO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Cargo 3: Analista da Defensoria Pública – Especialidade: Contabilidade",
+   "id_cargo": "analista-contabilidade",
+   "provas": [
+    {
+     "key": "DPE_RO_003_01",
+     "prova": "pro_DPE_RO_003_01.pdf",
+     "gabarito": "gab_DPE_RO_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_003_01.PDF"
+    },
+    {
+     "key": "DPE_RO_CG1_01",
+     "prova": "pro_DPE_RO_CG1_01.pdf",
+     "gabarito": "gab_DPE_RO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Cargo 4: Analista da Defensoria Pública – Especialidade: Engenharia Civil",
+   "id_cargo": "analista-engenharia-civil",
+   "provas": [
+    {
+     "key": "DPE_RO_004_01",
+     "prova": "pro_DPE_RO_004_01.pdf",
+     "gabarito": "gab_DPE_RO_004_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_004_01.PDF"
+    },
+    {
+     "key": "DPE_RO_CG1_01",
+     "prova": "pro_DPE_RO_CG1_01.pdf",
+     "gabarito": "gab_DPE_RO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Cargo 5: Analista da Defensoria Pública – Especialidade: Jornalismo",
+   "id_cargo": "analista-jornalismo",
+   "provas": [
+    {
+     "key": "DPE_RO_005_01",
+     "prova": "pro_DPE_RO_005_01.pdf",
+     "gabarito": "gab_DPE_RO_005_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_005_01.PDF"
+    },
+    {
+     "key": "DPE_RO_CG1_01",
+     "prova": "pro_DPE_RO_CG1_01.pdf",
+     "gabarito": "gab_DPE_RO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Cargo 6: Analista da Defensoria Pública – Especialidade: Jurídica",
+   "id_cargo": "analista-juridica",
+   "provas": [
+    {
+     "key": "DPE_RO_006_01",
+     "prova": "pro_DPE_RO_006_01.pdf",
+     "gabarito": "gab_DPE_RO_006_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_006_01.PDF"
+    },
+    {
+     "key": "DPE_RO_CG1_01",
+     "prova": "pro_DPE_RO_CG1_01.pdf",
+     "gabarito": "gab_DPE_RO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Cargo 7: Analista da Defensoria Pública – Especialidade: Programação",
+   "id_cargo": "analista-programacao",
+   "provas": [
+    {
+     "key": "DPE_RO_007_01",
+     "prova": "pro_DPE_RO_007_01.pdf",
+     "gabarito": "gab_DPE_RO_007_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_007_01.PDF"
+    },
+    {
+     "key": "DPE_RO_CG1_01",
+     "prova": "pro_DPE_RO_CG1_01.pdf",
+     "gabarito": "gab_DPE_RO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Cargo 8: Analista da Defensoria Pública – Especialidade: Psicologia",
+   "id_cargo": "analista-psicologia",
+   "provas": [
+    {
+     "key": "DPE_RO_008_01",
+     "prova": "pro_DPE_RO_008_01.pdf",
+     "gabarito": "gab_DPE_RO_008_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_008_01.PDF"
+    },
+    {
+     "key": "DPE_RO_CG1_01",
+     "prova": "pro_DPE_RO_CG1_01.pdf",
+     "gabarito": "gab_DPE_RO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Cargo 9: Analista da Defensoria Pública – Especialidade: Redes e Comunicação de Dados",
+   "id_cargo": "analista-redes-comunicacao-dados",
+   "provas": [
+    {
+     "key": "DPE_RO_009_01",
+     "prova": "pro_DPE_RO_009_01.pdf",
+     "gabarito": "gab_DPE_RO_009_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_009_01.PDF"
+    },
+    {
+     "key": "DPE_RO_CG1_01",
+     "prova": "pro_DPE_RO_CG1_01.pdf",
+     "gabarito": "gab_DPE_RO_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Cargo 10: Oficial de Diligência",
+   "id_cargo": "oficial-de-diligencia",
+   "provas": [
+    {
+     "key": "DPE_RO_010_01",
+     "prova": "pro_DPE_RO_010_01.pdf",
+     "gabarito": "gab_DPE_RO_010_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_010_01.PDF"
+    },
+    {
+     "key": "DPE_RO_CG2_01",
+     "prova": "pro_DPE_RO_CG2_01.pdf",
+     "gabarito": "gab_DPE_RO_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_CG2_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Cargo 11: Técnico Administrativo",
+   "id_cargo": "tecnico-administrativo",
+   "provas": [
+    {
+     "key": "DPE_RO_011_01",
+     "prova": "pro_DPE_RO_011_01.pdf",
+     "gabarito": "gab_DPE_RO_011_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_011_01.PDF"
+    },
+    {
+     "key": "DPE_RO_CG2_01",
+     "prova": "pro_DPE_RO_CG2_01.pdf",
+     "gabarito": "gab_DPE_RO_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_CG2_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Cargo 12: Técnico em Contabilidade",
+   "id_cargo": "tecnico-contabilidade",
+   "provas": [
+    {
+     "key": "DPE_RO_012_01",
+     "prova": "pro_DPE_RO_012_01.pdf",
+     "gabarito": "gab_DPE_RO_012_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_012_01.PDF"
+    },
+    {
+     "key": "DPE_RO_CG2_01",
+     "prova": "pro_DPE_RO_CG2_01.pdf",
+     "gabarito": "gab_DPE_RO_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_CG2_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Cargo 13: Técnico em Informática",
+   "id_cargo": "tecnico-informatica",
+   "provas": [
+    {
+     "key": "DPE_RO_013_01",
+     "prova": "pro_DPE_RO_013_01.pdf",
+     "gabarito": "gab_DPE_RO_013_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_013_01.PDF"
+    },
+    {
+     "key": "DPE_RO_CG2_01",
+     "prova": "pro_DPE_RO_CG2_01.pdf",
+     "gabarito": "gab_DPE_RO_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "641_DPE_RO_CG2_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {
+  "DPE_RO_001_01": [
+   52,
+   70
+  ],
+  "DPE_RO_004_01": [
+   43,
+   44
+  ],
+  "DPE_RO_005_01": [
+   67
+  ],
+  "DPE_RO_007_01": [
+   25
+  ],
+  "DPE_RO_011_01": [
+   58
+  ],
+  "DPE_RO_CG2_01": [
+   14
+  ]
+ },
+ "patch": {}
+}

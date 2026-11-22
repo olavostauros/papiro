@@ -1,0 +1,36 @@
+{
+ "evento": "PM_PA_23_CFP",
+ "workdir": "/tmp/pm_pa_23_cfp",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Praças da Polícia Militar do Pará",
+  "ano": 2023,
+  "id_orgao": "pm-pa"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Praça Da Polícia Militar Do Estado Do Pará",
+   "id_cargo": "praca-pm",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_PMPA_CFP_CB1_01.pdf",
+     "gabarito": "gab_PMPA_CFP_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "916_PMPA_CFP_CB1_01.PDF"
+    },
+    {
+     "key": "esp",
+     "prova": "pro_PMPA_CFP_001_01.pdf",
+     "gabarito": "gab_PMPA_CFP_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "916_PMPA_CFP_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

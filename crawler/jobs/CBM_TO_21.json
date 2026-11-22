@@ -1,0 +1,78 @@
+{
+ "evento": "CBM_TO_21",
+ "workdir": "/tmp/cbm_to_21",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Corpo de Bombeiros Militar do Tocantins",
+  "ano": 2021,
+  "id_orgao": "cbm-to"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Cadete",
+   "id_cargo": "cadete",
+   "provas": [
+    {
+     "key": "CBMTO_001_00",
+     "prova": "pro_CBMTO_001_00.pdf",
+     "gabarito": "gab_MATRIZ_581_CBMTO_001_00.pdf",
+     "tipo": "mc",
+     "arquivo": "MATRIZ_581_CBMTO_001_00.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Aluno-Soldado",
+   "id_cargo": "aluno-soldado",
+   "provas": [
+    {
+     "key": "CBMTO_002_00",
+     "prova": "pro_CBMTO_002_00.pdf",
+     "gabarito": "gab_MATRIZ_581_CBMTO_002_00.pdf",
+     "tipo": "mc",
+     "arquivo": "MATRIZ_581_CBMTO_002_00.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {
+  "CBMTO_001_00": [
+   19,
+   34
+  ]
+ },
+ "patch": {
+  "CBMTO_001_00": {
+   "13": {
+    "alternativas": [
+     "r²l(π/3 − √3/4)",
+     "r²l(π/6 − √3/4)",
+     "πr³/2",
+     "r²l(2π/3 − √3/2)"
+    ]
+   },
+   "29": {
+    "enunciado": "Atingido o equilíbrio, foi verificada uma concentração de 1 × 10^−4 mol/L de pentacloreto de fósforo. Admitindo que, a 180 °C, a constante do equilíbrio em apreço seja igual a 0,64, assinale a opção que indica a concentração de cloro gasoso presente no equilíbrio.",
+    "alternativas": [
+     "1,56 × 10^−6 mol/L",
+     "8,00 × 10^−3 mol/L",
+     "6,40 × 10^−5 mol/L",
+     "1,25 × 10^−2 mol/L"
+    ]
+   },
+   "31": {
+    "enunciado": "O gás propano, um dos componentes do gás de cozinha, pode ser preparado pela reação entre carvão — C(s) — e hidrogênio gasoso — H2(g). C3H8(g) + 5 O2(g) → 3 CO2(g) + 4 H2O(l) ΔH° = −2.220 kJ C(s) + O2(g) → CO2(g) ΔH° = −394 kJ H2(g) + ½ O2(g) → H2O(l) ΔH° = −286 kJ Com base nos calores de formação fornecidos, e sabendo-se que M(H) = 1 g/mol, M(C) = 12 g/mol e M(O) = 16 g/mol, é correto concluir que o módulo da variação de entalpia (ΔH_1g) obtida na preparação de 1 g de propano pelo processo citado, nas condições padrão, é tal que",
+    "alternativas": [
+     "1 kJ ≤ ΔH_1g < 100 kJ.",
+     "100 kJ ≤ ΔH_1g < 1.000 kJ.",
+     "1.000 kJ ≤ ΔH_1g < 2.000 kJ.",
+     "ΔH_1g ≥ 2.000 kJ."
+    ]
+   }
+  }
+ }
+}

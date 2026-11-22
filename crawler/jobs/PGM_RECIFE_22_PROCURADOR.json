@@ -1,0 +1,30 @@
+{
+ "evento": "PGM_RECIFE_22_PROCURADOR",
+ "workdir": "/tmp/pgm_recife_22_procurador",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Procuradoria-Geral do Município do Recife",
+  "ano": 2022,
+  "id_orgao": "pgm-recife"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Procurador Judicial Municipal",
+   "id_cargo": "procurador",
+   "provas": [
+    {
+     "key": "001",
+     "prova": "pro_PGM_RECIFE_001_01.pdf",
+     "gabarito": "gab_PGM_RECIFE_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "773_PGM_RECIFE_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

@@ -1,0 +1,34 @@
+{
+ "evento": "PREF_CACHOEIRO_24_PROCURADOR",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Prefeitura de Cachoeiro de Itapemirim",
+  "ano": 2024,
+  "id_orgao": "cachoeiro-itapemirim"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Procurador",
+   "id_cargo": "procurador",
+   "provas": [
+    {
+     "key": "p1",
+     "prova": "pro_PCI_PROCURADOR_CG1_01.pdf",
+     "gabarito": "gab_PCI_PROCURADOR_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "938_PCI_PROCURADOR_CG1_01.PDF"
+    },
+    {
+     "key": "p2",
+     "prova": "pro_PCI_PROCURADOR_001_01.pdf",
+     "gabarito": "gab_PCI_PROCURADOR_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "938_PCI_PROCURADOR_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {}
+}

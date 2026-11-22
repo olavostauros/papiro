@@ -1,0 +1,79 @@
+{
+  "evento": "APEX_BRASIL_21_ANALISTA",
+  "workdir": "/tmp/apex_brasil_21_analista",
+  "meta": {
+    "banca": "Cebraspe",
+    "orgao": "APEX BRASIL",
+    "ano": 2021,
+    "id_orgao": "apex2"
+  },
+  "cargos": [
+    {
+      "idArea": "01",
+      "cargo": "Analista I.1 – Processos Jurídicos",
+      "id_cargo": "analista-processos-juridicos",
+      "provas": [
+        {
+          "key": "APEX_001_01",
+          "prova": "pro_APEX_001_01.pdf",
+          "gabarito": "gab_APEX_001_01.pdf",
+          "tipo": "mc",
+          "arquivo": "582_APEX_001_01.PDF"
+        },
+        {
+          "key": "APEX_CB1_01",
+          "prova": "pro_APEX_CB1_01.pdf",
+          "gabarito": "gab_APEX_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "582_APEX_CB1_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "02",
+      "cargo": "Analista I.1 – Processos Contábeis",
+      "id_cargo": "analista-processos-contabeis",
+      "provas": [
+        {
+          "key": "APEX_002_01",
+          "prova": "pro_APEX_002_01.pdf",
+          "gabarito": "gab_APEX_002_01.pdf",
+          "tipo": "mc",
+          "arquivo": "582_APEX_002_01.PDF"
+        },
+        {
+          "key": "APEX_CB1_01",
+          "prova": "pro_APEX_CB1_01.pdf",
+          "gabarito": "gab_APEX_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "582_APEX_CB1_01.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "03",
+      "cargo": "Analista I.1 – Tecnologia da Informação e Comunicação",
+      "id_cargo": "analista-ti-comunicacao",
+      "provas": [
+        {
+          "key": "APEX_003_01",
+          "prova": "pro_APEX_003_01.pdf",
+          "gabarito": "gab_APEX_003_01.pdf",
+          "tipo": "mc",
+          "arquivo": "582_APEX_003_01.PDF"
+        },
+        {
+          "key": "APEX_CB1_01",
+          "prova": "pro_APEX_CB1_01.pdf",
+          "gabarito": "gab_APEX_CB1_01.pdf",
+          "tipo": "mc",
+          "arquivo": "582_APEX_CB1_01.PDF"
+        }
+      ]
+    }
+  ],
+  "unmatched": [],
+  "variant": "modern",
+  "skip": {},
+  "patch": {}
+}

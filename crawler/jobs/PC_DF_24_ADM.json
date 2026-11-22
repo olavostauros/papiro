@@ -1,0 +1,389 @@
+{
+  "evento": "PC_DF_24_ADM",
+  "workdir": "/tmp/pcdf_24",
+  "meta": {
+    "banca": "Cebraspe",
+    "orgao": "Polícia Civil do Distrito Federal",
+    "id_orgao": "pcdf",
+    "ano": 2024
+  },
+  "cargos": [
+    {
+      "idArea": "01",
+      "cargo": "GESTOR DE APOIO ÀS ATIVIDADES POLICIAIS CIVIS – ESPECIALIDADE: ANALISTA DE INFORMÁTICA – ÁREA DE ATUAÇÃO: BANCO DE DADOS",
+      "id_cargo": "analista-de-informatica-area-de-atuacao-banco-de-dados",
+      "provas": [
+        {
+          "key": "cb2",
+          "prova": "gab_PCDF_CB2_01_2.pdf",
+          "gabarito": "gab_PCDF_CB2_01.pdf",
+          "arquivo": "021_PCDF_CB2_01.PDF",
+          "tipo": "ce"
+        },
+        {
+          "key": "esp01",
+          "prova": "gab_PCDF_001_01_3.pdf",
+          "gabarito": "gab_PCDF_001_01.pdf",
+          "arquivo": "021_PCDF_001_01.PDF",
+          "tipo": "ce"
+        }
+      ]
+    },
+    {
+      "idArea": "02",
+      "cargo": "GESTOR DE APOIO ÀS ATIVIDADES POLICIAIS CIVIS – ESPECIALIDADE: ANALISTA DE INFORMÁTICA – ÁREA DE ATUAÇÃO: DESENVOLVIMENTO DE SISTEMAS",
+      "id_cargo": "analista-de-informatica-area-de-atuacao-desenvolvimento-de-sistemas",
+      "provas": [
+        {
+          "key": "cb2",
+          "prova": "gab_PCDF_CB2_01_2.pdf",
+          "gabarito": "gab_PCDF_CB2_01.pdf",
+          "arquivo": "021_PCDF_CB2_01.PDF",
+          "tipo": "ce"
+        },
+        {
+          "key": "esp02",
+          "prova": "gab_PCDF_002_01_2.pdf",
+          "gabarito": "gab_PCDF_002_01.pdf",
+          "arquivo": "021_PCDF_002_01.PDF",
+          "tipo": "ce"
+        }
+      ]
+    },
+    {
+      "idArea": "03",
+      "cargo": "GESTOR DE APOIO ÀS ATIVIDADES POLICIAIS CIVIS – ESPECIALIDADE: ANALISTA DE INFORMÁTICA – ÁREA DE ATUAÇÃO: REDE DE COMPUTADORES",
+      "id_cargo": "analista-de-informatica-area-de-atuacao-rede-de-computadores",
+      "provas": [
+        {
+          "key": "cb2",
+          "prova": "gab_PCDF_CB2_01_2.pdf",
+          "gabarito": "gab_PCDF_CB2_01.pdf",
+          "arquivo": "021_PCDF_CB2_01.PDF",
+          "tipo": "ce"
+        },
+        {
+          "key": "esp03",
+          "prova": "gab_PCDF_003_01_2.pdf",
+          "gabarito": "gab_PCDF_003_01.pdf",
+          "arquivo": "021_PCDF_003_01.PDF",
+          "tipo": "ce"
+        }
+      ]
+    },
+    {
+      "idArea": "04",
+      "cargo": "GESTOR DE APOIO ÀS ATIVIDADES POLICIAIS CIVIS – ESPECIALIDADE: ARQUIVISTA",
+      "id_cargo": "arquivista",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "gab_PCDF_CB1_01_3.pdf",
+          "gabarito": "gab_PCDF_CB1_01.pdf",
+          "arquivo": "021_PCDF_CB1_01.PDF",
+          "tipo": "ce"
+        },
+        {
+          "key": "esp04",
+          "prova": "gab_PCDF_004_01_2.pdf",
+          "gabarito": "gab_PCDF_004_01.pdf",
+          "arquivo": "021_PCDF_004_01.PDF",
+          "tipo": "ce"
+        }
+      ]
+    },
+    {
+      "idArea": "05",
+      "cargo": "GESTOR DE APOIO ÀS ATIVIDADES POLICIAIS CIVIS – ESPECIALIDADE: ASSISTENTE SOCIAL",
+      "id_cargo": "assistente-social",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "gab_PCDF_CB1_01_3.pdf",
+          "gabarito": "gab_PCDF_CB1_01.pdf",
+          "arquivo": "021_PCDF_CB1_01.PDF",
+          "tipo": "ce"
+        },
+        {
+          "key": "esp05",
+          "prova": "gab_PCDF_005_01_2.pdf",
+          "gabarito": "gab_PCDF_005_01.pdf",
+          "arquivo": "021_PCDF_005_01.PDF",
+          "tipo": "ce"
+        }
+      ]
+    },
+    {
+      "idArea": "06",
+      "cargo": "GESTOR DE APOIO ÀS ATIVIDADES POLICIAIS CIVIS – ESPECIALIDADE: BIBLIOTECÁRIO",
+      "id_cargo": "bibliotecario",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "gab_PCDF_CB1_01_3.pdf",
+          "gabarito": "gab_PCDF_CB1_01.pdf",
+          "arquivo": "021_PCDF_CB1_01.PDF",
+          "tipo": "ce"
+        },
+        {
+          "key": "esp06",
+          "prova": "gab_PCDF_006_01_2.pdf",
+          "gabarito": "gab_PCDF_006_01.pdf",
+          "arquivo": "021_PCDF_006_01.PDF",
+          "tipo": "ce"
+        }
+      ]
+    },
+    {
+      "idArea": "07",
+      "cargo": "GESTOR DE APOIO ÀS ATIVIDADES POLICIAIS CIVIS – ESPECIALIDADE: CONTADOR",
+      "id_cargo": "contador",
+      "provas": [
+        {
+          "key": "cb2",
+          "prova": "gab_PCDF_CB2_01_2.pdf",
+          "gabarito": "gab_PCDF_CB2_01.pdf",
+          "arquivo": "021_PCDF_CB2_01.PDF",
+          "tipo": "ce"
+        },
+        {
+          "key": "esp07",
+          "prova": "gab_PCDF_007_01_2.pdf",
+          "gabarito": "gab_PCDF_007_01.pdf",
+          "arquivo": "021_PCDF_007_01.PDF",
+          "tipo": "ce"
+        }
+      ]
+    },
+    {
+      "idArea": "08",
+      "cargo": "GESTOR DE APOIO ÀS ATIVIDADES POLICIAIS CIVIS – ESPECIALIDADE: ENFERMEIRO",
+      "id_cargo": "enfermeiro",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "gab_PCDF_CB1_01_3.pdf",
+          "gabarito": "gab_PCDF_CB1_01.pdf",
+          "arquivo": "021_PCDF_CB1_01.PDF",
+          "tipo": "ce"
+        },
+        {
+          "key": "esp08",
+          "prova": "gab_PCDF_008_01_2.pdf",
+          "gabarito": "gab_PCDF_008_01.pdf",
+          "arquivo": "021_PCDF_008_01.PDF",
+          "tipo": "ce"
+        }
+      ]
+    },
+    {
+      "idArea": "09",
+      "cargo": "GESTOR DE APOIO ÀS ATIVIDADES POLICIAIS CIVIS – ESPECIALIDADE: FARMACÊUTICO",
+      "id_cargo": "farmaceutico",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "gab_PCDF_CB1_01_3.pdf",
+          "gabarito": "gab_PCDF_CB1_01.pdf",
+          "arquivo": "021_PCDF_CB1_01.PDF",
+          "tipo": "ce"
+        },
+        {
+          "key": "esp09",
+          "prova": "gab_PCDF_009_01_2.pdf",
+          "gabarito": "gab_PCDF_009_01.pdf",
+          "arquivo": "021_PCDF_009_01.PDF",
+          "tipo": "ce"
+        }
+      ]
+    },
+    {
+      "idArea": "10",
+      "cargo": "GESTOR DE APOIO ÀS ATIVIDADES POLICIAIS CIVIS – ESPECIALIDADE: FISIOTERAPEUTA",
+      "id_cargo": "fisioterapeuta",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "gab_PCDF_CB1_01_3.pdf",
+          "gabarito": "gab_PCDF_CB1_01.pdf",
+          "arquivo": "021_PCDF_CB1_01.PDF",
+          "tipo": "ce"
+        },
+        {
+          "key": "esp10",
+          "prova": "gab_PCDF_010_01_2.pdf",
+          "gabarito": "gab_PCDF_010_01.pdf",
+          "arquivo": "021_PCDF_010_01.PDF",
+          "tipo": "ce"
+        }
+      ]
+    },
+    {
+      "idArea": "11",
+      "cargo": "GESTOR DE APOIO ÀS ATIVIDADES POLICIAIS CIVIS – ESPECIALIDADE: FONOAUDIÓLOGO",
+      "id_cargo": "fonoaudiologo",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "gab_PCDF_CB1_01_3.pdf",
+          "gabarito": "gab_PCDF_CB1_01.pdf",
+          "arquivo": "021_PCDF_CB1_01.PDF",
+          "tipo": "ce"
+        },
+        {
+          "key": "esp11",
+          "prova": "gab_PCDF_011_01_2.pdf",
+          "gabarito": "gab_PCDF_011_01.pdf",
+          "arquivo": "021_PCDF_011_01.PDF",
+          "tipo": "ce"
+        }
+      ]
+    },
+    {
+      "idArea": "12",
+      "cargo": "GESTOR DE APOIO ÀS ATIVIDADES POLICIAIS CIVIS – ESPECIALIDADE: NUTRICIONISTA",
+      "id_cargo": "nutricionista",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "gab_PCDF_CB1_01_3.pdf",
+          "gabarito": "gab_PCDF_CB1_01.pdf",
+          "arquivo": "021_PCDF_CB1_01.PDF",
+          "tipo": "ce"
+        },
+        {
+          "key": "esp12",
+          "prova": "gab_PCDF_012_01_2.pdf",
+          "gabarito": "gab_PCDF_012_01.pdf",
+          "arquivo": "021_PCDF_012_01.PDF",
+          "tipo": "ce"
+        }
+      ]
+    },
+    {
+      "idArea": "13",
+      "cargo": "GESTOR DE APOIO ÀS ATIVIDADES POLICIAIS CIVIS – ESPECIALIDADE: ODONTÓLOGO",
+      "id_cargo": "odontologo",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "gab_PCDF_CB1_01_3.pdf",
+          "gabarito": "gab_PCDF_CB1_01.pdf",
+          "arquivo": "021_PCDF_CB1_01.PDF",
+          "tipo": "ce"
+        },
+        {
+          "key": "esp13",
+          "prova": "gab_PCDF_013_01_2.pdf",
+          "gabarito": "gab_PCDF_013_01.pdf",
+          "arquivo": "021_PCDF_013_01.PDF",
+          "tipo": "ce"
+        }
+      ]
+    },
+    {
+      "idArea": "14",
+      "cargo": "GESTOR DE APOIO ÀS ATIVIDADES POLICIAIS CIVIS – ESPECIALIDADE: PEDAGOGO",
+      "id_cargo": "pedagogo",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "gab_PCDF_CB1_01_3.pdf",
+          "gabarito": "gab_PCDF_CB1_01.pdf",
+          "arquivo": "021_PCDF_CB1_01.PDF",
+          "tipo": "ce"
+        },
+        {
+          "key": "esp14",
+          "prova": "gab_PCDF_014_01_2.pdf",
+          "gabarito": "gab_PCDF_014_01.pdf",
+          "arquivo": "021_PCDF_014_01.PDF",
+          "tipo": "ce"
+        }
+      ]
+    },
+    {
+      "idArea": "15",
+      "cargo": "GESTOR DE APOIO ÀS ATIVIDADES POLICIAIS CIVIS – ESPECIALIDADE: PSICOLOGIA",
+      "id_cargo": "psicologia",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "gab_PCDF_CB1_01_3.pdf",
+          "gabarito": "gab_PCDF_CB1_01.pdf",
+          "arquivo": "021_PCDF_CB1_01.PDF",
+          "tipo": "ce"
+        },
+        {
+          "key": "esp15",
+          "prova": "gab_PCDF_015_01_2.pdf",
+          "gabarito": "gab_PCDF_015_01.pdf",
+          "arquivo": "021_PCDF_015_01.PDF",
+          "tipo": "ce"
+        }
+      ]
+    },
+    {
+      "idArea": "16",
+      "cargo": "GESTOR DE APOIO ÀS ATIVIDADES POLICIAIS CIVIS – ESPECIALIDADE: PROFISSIONAL DE EDUCAÇÃO FÍSICA",
+      "id_cargo": "profissional-de-educacao-fisica",
+      "provas": [
+        {
+          "key": "cb1",
+          "prova": "gab_PCDF_CB1_01_3.pdf",
+          "gabarito": "gab_PCDF_CB1_01.pdf",
+          "arquivo": "021_PCDF_CB1_01.PDF",
+          "tipo": "ce"
+        },
+        {
+          "key": "esp16",
+          "prova": "gab_PCDF_016_01_2.pdf",
+          "gabarito": "gab_PCDF_016_01.pdf",
+          "arquivo": "021_PCDF_016_01.PDF",
+          "tipo": "ce"
+        }
+      ]
+    },
+    {
+      "idArea": "17",
+      "cargo": "ANALISTA DE APOIO ÀS ATIVIDADES POLICIAIS CIVIS – ESPECIALIDADE: AGENTE ADMINISTRATIVO",
+      "id_cargo": "agente-administrativo",
+      "provas": [
+        {
+          "key": "cb17",
+          "prova": "gab_PCDF_CB1_01_COM_JUSTIFIC.pdf",
+          "gabarito": "gab_PCDF_CB1_01_2.pdf",
+          "arquivo": "022_PCDF_CB1_01_COM_JUSTIFICATIVA.PDF",
+          "tipo": "ce"
+        },
+        {
+          "key": "esp17",
+          "prova": "gab_PCDF_001_01_COM_JUSTIFIC.pdf",
+          "gabarito": "gab_PCDF_001_01_2.pdf",
+          "arquivo": "022_PCDF_001_01_COM_JUSTIFICATIVA.PDF",
+          "tipo": "ce"
+        }
+      ]
+    }
+  ],
+  "unmatched": [],
+  "variant": "modern",
+  "skip": {},
+  "patch": {
+    "cb2": {
+      "24": "Se uma senha numérica usada por um hacker foi identificada por um algoritmo para análise criptográfica como sendo (x^4 − y^4)/(x − y), em que os valores de x e y são números naturais distintos e positivos, então, nesse caso, essa senha pode ser escrita como o produto de dois números naturais maiores que 2."
+    },
+    "cb17": {
+      "40": "O descumprimento da decisão judicial que defere medidas protetivas de urgência configura crime e, na hipótese de prisão em flagrante do agente que o cometer, a fiança poderá ser concedida pela autoridade policial ou judicial."
+    },
+    "esp02": {
+      "102": "Em conformidade com o formato JSON, os dados de um cliente podem ser representados da forma apresentada a seguir. { \"cliente:\" { \"nome:\" \"João da Silva\", \"cpf:\" \"123.456.789-10\" } }"
+    },
+    "esp09": {
+      "59": "A primeira solução a ser preparada possui a concentração de 200 µg/mL."
+    },
+    "esp12": {
+      "103": "A pré-eclâmpsia é uma doença de baixo risco que provoca pressão alta, igual ou superior a 140 mmHg × 90 mmHg, presença de proteínas na urina e inchaço do corpo da gestante, podendo ser controlada com redução de ingesta hídrica."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+ "evento": "TJ_MA_22_JUIZ",
+ "workdir": "/tmp/tj_ma_22_juiz",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Tribunal de Justiça do Estado do Maranhão",
+  "ano": 2022,
+  "id_orgao": "tj-ma"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "JUIZ SUBSTITUTO DE ENTRÂNCIA INICIAL",
+   "id_cargo": "juiz-substituto",
+   "provas": [
+    {
+     "key": "TJMA_001_01",
+     "prova": "pro_TJMA_001_01.pdf",
+     "gabarito": "gab_TJMA_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "694_TJMA_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}
