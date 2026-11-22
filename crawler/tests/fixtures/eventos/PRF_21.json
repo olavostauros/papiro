@@ -1,0 +1,287 @@
+{
+ "idEvento": 1777,
+ "eventoNomeAbreviado": "PRF 2021",
+ "eventoNomeCompleto": "POLÍCIA RODOVIÁRIA FEDERAL",
+ "eventoTotalVagas": "1500",
+ "eventoSalarioMaximo": null,
+ "strEventoSalarioMaximo": "R$ ",
+ "eventoURL": "PRF_21",
+ "eventoStatus": "Encerrado",
+ "eventoTipo": "concursos",
+ "eventoAno": 2021,
+ "periodoInscricao": "",
+ "eventoCargos": [
+  {
+   "idArea": "01",
+   "area": "Cargo 1: POLICIAL RODOVIÁRIO FEDERAL - Subsídio inicial de R$ 9.899,88."
+  }
+ ],
+ "arquivosEdital": null,
+ "arquivosGabarito": [
+  {
+   "tipoExtensaoArquivo": "_.pdf",
+   "dataArquivo": "17/06/2025 16:35",
+   "nomeArquivo": "Gab_Definitivo_085_PRFCF_001_01.pdf",
+   "descricaoArquivo": "GABARITO DEFINITIVO – CURSO DE FORMAÇÃO POLICIAL - 1ª PROVA (3ª TURMA)",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2025-06-17T16:35:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_.pdf",
+   "dataArquivo": "17/06/2025 16:35",
+   "nomeArquivo": "Gab_Definitivo_091_PRFCF2_001_01.pdf",
+   "descricaoArquivo": "GABARITO DEFINITIVO – CURSO DE FORMAÇÃO POLICIAL - 2ª PROVA (3ª TURMA)",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2025-06-17T16:35:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_.pdf",
+   "dataArquivo": "11/06/2025 19:00",
+   "nomeArquivo": "091_PRFCF2_001_01.pdf",
+   "descricaoArquivo": "PROVA OBJETIVA – CURSO DE FORMAÇÃO POLICIAL - 2ª PROVA (3ª TURMA)",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2025-06-11T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_.pdf",
+   "dataArquivo": "07/05/2025 19:00",
+   "nomeArquivo": "085_PRFCF_001_01.pdf",
+   "descricaoArquivo": "PROVA OBJETIVA – CURSO DE FORMAÇÃO POLICIAL - 1ª PROVA (3ª TURMA)",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2025-05-07T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "10/10/2022 14:30",
+   "nomeArquivo": "GAB_DEFINITIVO_746_PRF_21_CFP_2_001_01.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO - CURSO DE FORMAÇÃO - 18/9",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2022-10-10T14:30:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "19/09/2022 19:00",
+   "nomeArquivo": "746_PRF_21_CFP_2_001_01.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA - CURSO DE FORMAÇÃO - 18/9/2022",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2022-09-19T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "19/06/2022 17:15",
+   "nomeArquivo": "699_PRF_CF_001_01.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA - CURSO DE FORMAÇÃO (VAGAS REMANESCENTES DA PRIMEIRA TURMA)",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2022-06-19T17:15:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "19/06/2022 17:15",
+   "nomeArquivo": "GAB_PRELIMINAR_699_PRF_CF_001_01.PDF",
+   "descricaoArquivo": "GABARITO PRELIMINAR - PROVA OBJETIVA - CURSO DE FORMAÇÃO (VAGAS REMANESCENTES DA PRIMEIRA TURMA)",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2022-06-19T17:15:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "07/12/2021 07:48",
+   "nomeArquivo": "633_PRF_CF_001.PDF",
+   "descricaoArquivo": "2.ª PROVA OBJETIVA - CURSO DE FORMAÇÃO",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-12-07T07:48:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "06/12/2021 08:00",
+   "nomeArquivo": "GAB_PRELIMINAR_633_PRF_001_00.PDF",
+   "descricaoArquivo": "GABARITO PRELIMINAR - 2.ª PROVA OBJETIVA - CURSO DE FORMAÇÃO",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-12-06T08:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "14/11/2021 21:00",
+   "nomeArquivo": "GAB_PRELIMINAR_632_PRF_001_01.PDF",
+   "descricaoArquivo": "GABARITO PRELIMINAR - 1.ª PROVA OBJETIVA - CURSO DE FORMAÇÃO",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-11-14T21:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "14/11/2021 21:00",
+   "nomeArquivo": "632_PRF_CF_001_01.PDF",
+   "descricaoArquivo": "1.ª PROVA OBJETIVA - CURSO DE FORMAÇÃO",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-11-14T21:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "31/05/2021 10:50",
+   "nomeArquivo": "578_PRF_ING_01.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA - ITENS DE 1 A 8 - LÍNGUA INGLESA",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-05-31T10:50:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "31/05/2021 10:50",
+   "nomeArquivo": "578_PRF_ESP_02.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA - ITENS DE 1 A 8 - LÍNGUA ESPANHOLA",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-05-31T10:50:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "31/05/2021 10:50",
+   "nomeArquivo": "578_PRF_001_01.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA - ITENS DE 9 A 120",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-05-31T10:50:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "31/05/2021 10:50",
+   "nomeArquivo": "GAB_DEFINITIVO_578_PRF_ING_01.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO - ITENS DE 1 A 8 - LÍNGUA INGLESA",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-05-31T10:50:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "31/05/2021 10:50",
+   "nomeArquivo": "GAB_DEFINITIVO_578_PRF_ESP_02.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO - ITENS DE 1 A 8 - LÍNGUA ESPANHOLA",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-05-31T10:50:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "31/05/2021 10:50",
+   "nomeArquivo": "GAB_DEFINITIVO_578_PRF_001_01.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO - ITENS DE 9 A 120",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-05-31T10:50:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "28/05/2021 10:00",
+   "nomeArquivo": "PRF_21_PADRAO_DE_RESPOSTA_DEFINITIVO.PDF",
+   "descricaoArquivo": "PADRÃO DE RESPOSTA DEFINITIVO - PROVA DISCURSIVA",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-05-28T10:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "11/05/2021 19:00",
+   "nomeArquivo": "PRF_21_PROVA_DISCURSIVA.PDF",
+   "descricaoArquivo": "PROVA DISCURSIVA",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-05-11T19:00:00"
+  }
+ ],
+ "aplicativos": [
+  {
+   "nomeAplicativo": "Espelho individual do resultado final na investigação social",
+   "link": "https://security.cebraspe.org.br/PRF_21/Recursos/ApresentacaoDocumentos/ResultadoProvisorio_3456E101-C5F7-46FA-8943",
+   "strDataInicio": "18/09/2026 10:00",
+   "dataInicio": "2026-09-18T10:00:00"
+  },
+  {
+   "nomeAplicativo": "Respostas aos recursos interpostos contra o resultado provisório na avaliação de títulos - sub judice",
+   "link": "https://security.cebraspe.org.br/PRF_21/Recursos/Titulos/Resposta_A404-FDF8-1E6C-4736-A0C0",
+   "strDataInicio": "18/09/2026 10:00",
+   "dataInicio": "2026-09-18T10:00:00"
+  },
+  {
+   "nomeAplicativo": "Resposta aos recursos interpostos contra o resultado provisório no procedimento de heteroidentificação dos candidatos que se autodeclararam negros - sub judice",
+   "link": "https://security.cebraspe.org.br/PRF_21/Recursos/Cotas/ResultadoDefinitivo_080155DC-2852-4748-AE68/",
+   "strDataInicio": "28/08/2026 10:00",
+   "dataInicio": "2026-08-28T10:00:00"
+  },
+  {
+   "nomeAplicativo": "Consulta individual ao espelho definitivo de desempenho e(ou) às respostas aos recursos interpostos contra o resultado provisório no exame de aptidão física - sub judice",
+   "link": "https://security.cebraspe.org.br/PRF_21/Recursos/TAF/ResultadoDefinitivo_607C4FEA-6701-4563-8D80",
+   "strDataInicio": "12/08/2026 15:10",
+   "dataInicio": "2026-08-12T15:10:00"
+  },
+  {
+   "nomeAplicativo": "Resultado provisório avaliação psicológica regular/continuada/emergencial",
+   "link": "https://security.cebraspe.org.br/PRF_21/Recursos/Psicologica/ResultadoProvisorio_DA6004E4-DDBD-4A1D-9D92",
+   "strDataInicio": "16/07/2026 01:00",
+   "dataInicio": "2026-07-16T01:00:00"
+  },
+  {
+   "nomeAplicativo": "Atualização de informações na Ficha de Informações Pessoais (FIP) 5.ª Turma",
+   "link": "https://security.cebraspe.org.br/PRF_21/FIC/",
+   "strDataInicio": "08/07/2026 11:45",
+   "dataInicio": "2026-07-08T11:45:00"
+  },
+  {
+   "nomeAplicativo": "Consulta ao espelho definitivo e(ou) às respostas aos recursos interpostos contra o resultado provisório nos testes de aptidão física complementares  aplicados no Curso de Formação Profissional - Regulares e Sub judice",
+   "link": "https://security.cebraspe.org.br/PRF_21/Recursos/TAFComplementar/ResultadoDefinitivo_E0CB07F9-7C0B-441B-8BA1-804A56019A8B",
+   "strDataInicio": "28/05/2026 10:00",
+   "dataInicio": "2026-05-28T10:00:00"
+  },
+  {
+   "nomeAplicativo": "Resposta aos recursos interpostos contra o resultado provisório na avaliação de saúde",
+   "link": "http://security.cebraspe.org.br/PRF_21/Recursos/ExameMedico/ResultadoDefinitivo_ABE1-4C69-BWRS",
+   "strDataInicio": "27/02/2026 10:00",
+   "dataInicio": "2026-02-27T10:00:00"
+  },
+  {
+   "nomeAplicativo": "Respostas aos recursos interpostos contra o resultado provisório na prova discursiva - sub judice",
+   "link": "https://security.cebraspe.org.br/PRF_21/Recursos/Discursiva/ResultadoDefinitivo_5B11A81C-99B3-42CB-9B41-FF7FBABB",
+   "strDataInicio": "04/02/2026 10:00",
+   "dataInicio": "2026-02-04T10:00:00"
+  },
+  {
+   "nomeAplicativo": "Resultado provisório do procedimento de heteroidentificação para concorrer às vagas reservadas aos candidatos negros",
+   "link": "https://security.cebraspe.org.br/PRF_21/Recursos/Cotas/ResultadoProvisorio_BE1F508A-DBA4-4138/",
+   "strDataInicio": "22/01/2026 18:09",
+   "dataInicio": "2026-01-22T18:09:00"
+  },
+  {
+   "nomeAplicativo": "Consulta ao laudo-síntese da avaliação psicológica",
+   "link": "https://security.cebraspe.org.br/PRF_21/Recursos/LaudoSintese/Consulta_71E41E6E-D721-4800-84C6",
+   "strDataInicio": "17/12/2025 10:00",
+   "dataInicio": "2025-12-17T10:00:00"
+  },
+  {
+   "nomeAplicativo": "Resultado definitivo na avaliação psicológica regular/continuada/emergencial",
+   "link": "https://security.cebraspe.org.br/PRF_21/Recursos/Psicologica/ResultadoDefinitivo_208AA029-577D-4D75-AD4F",
+   "strDataInicio": "16/12/2025 10:00",
+   "dataInicio": "2025-12-16T10:00:00"
+  },
+  {
+   "nomeAplicativo": "Consulta ao resultado provisório no exame de aptidão física - sub judice",
+   "link": "https://security.cebraspe.org.br/PRF_21/Recursos/TAF/ResultadoProvisorio_824CB9DB-CCA3-4D36-9845/",
+   "strDataInicio": "25/11/2025 10:00",
+   "dataInicio": "2025-11-25T10:00:00"
+  }
+ ],
+ "isInscricaoAberta": false,
+ "isDBCriado": 0,
+ "tituloCargos": "Cargos",
+ "tituloCardCargos": "Cargo",
+ "areaCandidato": false
+}

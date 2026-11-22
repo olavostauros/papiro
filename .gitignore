@@ -34,3 +34,7 @@ pnpm-debug.log*
 
 # agent config (local only)
 .devin/
+
+# crawler local cache and run reports
+crawler/.cache/
+crawler/reports/

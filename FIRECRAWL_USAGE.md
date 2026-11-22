@@ -14,8 +14,8 @@ level; the Python SDK exposes it on the scrape/crawl response metadata.
 
 | Period       | Credits used |
 | ------------ | ------------ |
-| All time     | 152            |
-| Current week | 152            |
+| All time     | 177            |
+| Current week | 177            |
 
 ## Cost guide (approximate — check the docs before big runs)
 
@@ -60,3 +60,6 @@ Rate card reference: https://docs.firecrawl.dev/
 | 2026-11-21 | cebraspe-2025-pf-prova-012 | sdk:scrape[json] | 1 | 7 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_012_01.pdf |
 | 2026-11-21 | cebraspe-2025-pf-prova-013 | sdk:scrape[json] | 1 | 7 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_013_01.pdf |
 | 2026-11-21 | cebraspe-2025-pf-prova-014 | sdk:scrape[json] | 1 | 8 | https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_014_01.pdf |
+| 2026-11-21 | cebraspe-2026-cd-6ba6c911910a9996895927100e426bd4733c0601f6e27f998fd96d420a356edc | sdk:scrape[json] | 1 | 10 | https://cdn.cebraspe.org.br/concursos/CD_26_PL/arquivos/6BA6C911910A9996895927100E426BD4733C0601F6E27F998FD96D420A356EDC.pdf |
+| 2026-11-21 | cebraspe-2023-pmpa-916_pmpa_cfp_cb1_01 | sdk:scrape[json] | 1 | 7 | https://cdn.cebraspe.org.br/concursos/PM_PA_23_CFP/arquivos/916_PMPA_CFP_CB1_01.PDF |
+| 2026-11-21 | cebraspe-2022-pces-729_pc_es_cg1_01 | sdk:scrape[json] | 1 | 8 | https://cdn.cebraspe.org.br/concursos/PC_ES_22_DELEGADO/arquivos/729_PC_ES_CG1_01.PDF |
