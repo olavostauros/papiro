@@ -1,0 +1,1792 @@
+{
+ "evento": "PGM_RECIFE_22_PROCURADOR",
+ "banca": "Cebraspe",
+ "orgaos": [
+  "Procuradoria-Geral do Município do Recife"
+ ],
+ "cargos": [
+  "Procurador Judicial Municipal"
+ ],
+ "assuntos": [
+  "DIREITO CONSTITUCIONAL",
+  "DIREITO ADMINISTRATIVO",
+  "DIREITO PROCESSUAL CIVIL",
+  "DIREITO AMBIENTAL E URBANÍSTICO",
+  "DIREITO TRIBUTÁRIO",
+  "DIREITO FINANCEIRO E ORÇAMENTÁRIO",
+  "DIREITO CIVIL",
+  "DIREITO PREVIDENCIÁRIO",
+  "DIREITO DO TRABALHO E PROCESSUAL DO TRABALHO"
+ ],
+ "provas": [
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/PGM_RECIFE_22_PROCURADOR/arquivos/773_PGM_RECIFE_001_01.PDF"
+  }
+ ],
+ "itens": [
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-001",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que diz respeito à interpretação das normas constitucionais, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "O intérprete da Constituição deve levar em conta que algumas normas constitucionais são desprovidas de eficácia.",
+    "Não há consenso na doutrina acerca de um método de interpretação constitucional previamente definido que sirva para todas as situações.",
+    "Prepondera na doutrina a concepção de que a interpretação constitucional é tarefa técnica, que deve ficar restrita às instâncias jurídicas oficiais.",
+    "Do ponto de vista metodológico, a doutrina aponta a importância de separar rigorosamente, como autônomos, os atos de interpretação e aplicação das normas constitucionais.",
+    "Decorrência dos princípios de interpretação constitucional é o reconhecimento na doutrina de normas constitucionais inconstitucionais no texto originário da Constituição."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-002",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação aos princípios fundamentais da República, definidos na Constituição Federal de 1988 (CF), assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Os objetivos fundamentais da República não se aplicam aos gestores da administração pública.",
+    "As normas que enumeram os objetivos fundamentais da República, embora sejam regras constitucionais dotadas de eficácia, não produzem todos os seus efeitos potenciais imediatamente.",
+    "As diretrizes das relações internacionais do Brasil, como a prevalência dos direitos humanos e a igualdade entre os Estados, são preceitos tecnicamente classificados como regras jurídicas.",
+    "Devido à vagueza dos objetivos da República definidos na CF, não se aplica à interpretação deles o princípio da máxima efetividade das normas constitucionais.",
+    "O princípio constitucional da dignidade humana depende de regulamentação infraconstitucional para obter eficácia."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-003",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito das normas constitucionais de eficácia plena, contida e limitada, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Normas de eficácia plena não são passíveis de regulamentação infraconstitucional.",
+    "Mesmo as normas constitucionais de eficácia limitada são dotadas de algum nível de eficácia imediata.",
+    "Direitos fundamentais prescindem de regulamentação para ter plena eficácia.",
+    "A eficácia negativa das normas constitucionais é a que produz efeitos apenas para o futuro, ao impedir que o legislador aprove leis em sentido contrário a elas.",
+    "As normas constitucionais que consubstanciam direitos fundamentais não podem ter regulamentação que as relativize."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-004",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que concerne às normas programáticas, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "As normas programáticas não gozam de imperatividade, conforme a concepção predominante.",
+    "O sentido da discricionariedade das normas programáticas é o de que seus destinatários na administração pública sempre têm a possibilidade de somente aplicá-las se o julgarem apropriado.",
+    "Prevalece na doutrina a noção de que, na aplicação das normas programáticas, a cláusula de reserva do possível autoriza aos gestores públicos, em qualquer caso, negar-lhes eficácia.",
+    "O principal meio processual para atribuir eficácia às normas programáticas é a arguição de descumprimento de preceito fundamental.",
+    "O Poder Judiciário também é destinatário das normas programáticas."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-005",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que tange aos direitos e deveres individuais e coletivos na CF, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Pelo fato de o Brasil adotar uma Constituição analítica, são reconhecidos como direitos fundamentais apenas aqueles expressos no texto constitucional.",
+    "Apenas têm o status de direitos fundamentais aqueles indicados no art. 5.o da CF.",
+    "Estrangeiros não residentes no Brasil não podem ser titulares de direitos fundamentais no país.",
+    "O processo de reconhecimento das gerações de direitos fundamentais tem caráter cumulativo, de modo que gerações subsequentes não excluem as anteriores.",
+    "Para a incorporação ao direito brasileiro de um tratado internacional de direitos humanos, é bastante que ele seja aprovado nas duas casas do Congresso Nacional."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-006",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Relativamente aos direitos e deveres individuais e coletivos, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Pessoas jurídicas de direito público são obrigadas a respeitar os direitos fundamentais, de modo que não podem ser titulares deles.",
+    "Prevalece o entendimento de que as pessoas jurídicas podem ser titulares de direitos fundamentais, mesmo na falta de atribuição expressa na CF, desde que esses direitos sejam compatíveis com a condição dos referidos entes.",
+    "Direitos fundamentais somente podem sofrer as limitações expressamente previstas no texto constitucional.",
+    "Como desdobramento do direito fundamental à privacidade, o sigilo de dados fiscais e bancários somente pode ser afastado por ordem judicial.",
+    "Locais não destinados à residência de pessoas não são abrangidos pela proteção constitucional da inviolabilidade de domicílio."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-007",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Para caracterizar um Estado federal, é necessário haver",
+   "gabarito": "b",
+   "alternativas": [
+    "hierarquia entre as ordens jurídicas dos diferentes entes que o componham.",
+    "superposição de ordens jurídicas, uma correspondente à União e outra, aos entes federados.",
+    "apenas descentralização do exercício do poder.",
+    "divisão territorial do Estado, para fins administrativos.",
+    "existência de entes subnacionais dotados de algum grau de soberania."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-008",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A intervenção, como um dos mecanismos de garantia da Federação,",
+   "gabarito": "e",
+   "alternativas": [
+    "pode ser manejada somente pela União, como ente central da República.",
+    "depende de julgamento judicial de pedido interventivo formulado nos termos constitucionais.",
+    "é essencial ao próprio conceito de Federação, que não existe sem ela.",
+    "como ato político puro, não está sujeita a controle judicial.",
+    "possui caráter excepcional — visto que a regra é a não intervenção — e limitado."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-009",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que diz respeito aos servidores públicos, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "A União e os estados-membros da Federação devem adotar o mesmo regime jurídico para seus servidores.",
+    "Entre as espécies de agentes públicos incluem-se os contratados para atender à necessidade temporária de excepcional interesse público, que podem ser designados para atender aos serviços comuns da administração pública.",
+    "Além dos cargos em comissão de livre nomeação, nem todo provimento de cargo público depende de aprovação em concurso público.",
+    "Conforme o Supremo Tribunal Federal (STF), a remuneração de servidores públicos não pode sofrer desconto em decorrência de greve, visto que esta última é um direito que a CF lhes assegura.",
+    "O ingresso na atividade notarial e registral independe de aprovação em concurso público dado o caráter privado do exercício dessa função."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-010",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com as regras da CF em relação aos servidores públicos,",
+   "gabarito": "c",
+   "alternativas": [
+    "estrangeiros não podem ocupar cargo público no Brasil.",
+    "a proibição de acumular cargos públicos não alcança a administração pública indireta.",
+    "o padrão máximo de vencimentos é a remuneração paga no Poder Executivo.",
+    "concursos públicos têm prazo de validade bienal, improrrogável.",
+    "os trabalhadores dos conselhos de fiscalização profissional devem submeter-se ao regime estatutário."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-011",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Determinado presidente da República praticou ato que atenta contra a Constituição Federal de 1988 (CF) e contra a lei orçamentária. Nessa situação hipotética, caso a acusação contra esse presidente seja admitida",
+   "gabarito": "c",
+   "alternativas": [
+    "por um terço dos membros da Câmara dos Deputados, ele será submetido a julgamento junto ao Supremo Tribunal Federal, nas infrações penais comuns, ou perante o Senado Federal, nos crimes de responsabilidade.",
+    "por um terço dos membros da Câmara dos Deputados, ele será submetido a julgamento junto ao Supremo Tribunal Federal, nos crimes de responsabilidade, ou perante o Senado Federal, nas infrações penais comuns.",
+    "por dois terços dos membros da Câmara dos Deputados, ele será submetido a julgamento junto ao Supremo Tribunal Federal, nas infrações penais comuns, ou perante o Senado Federal, nos crimes de responsabilidade.",
+    "por dois terços dos membros do Senado Federal, ele será submetido a julgamento junto ao Supremo Tribunal Federal, nos crimes de responsabilidade, ou perante a Câmara dos Deputados, nas infrações penais comuns.",
+    "por dois terços dos membros do Senado Federal, ele será submetido a julgamento junto ao Supremo Tribunal Federal, nas infrações penais comuns, ou perante a Câmara dos Deputados, nos crimes de responsabilidade."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-012",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A aprovação prévia da escolha dos chefes de missão diplomática de caráter permanente compete",
+   "gabarito": "b",
+   "alternativas": [
+    "exclusivamente à Câmara dos Deputados.",
+    "privativamente ao Senado Federal.",
+    "privativamente à Câmara dos Deputados.",
+    "exclusivamente ao Congresso Nacional.",
+    "exclusivamente ao presidente da República."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-013",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Desde a expedição do diploma, os deputados e os senadores",
+   "gabarito": "e",
+   "alternativas": [
+    "não poderão ser proprietários, controladores ou diretores de empresa que goze de favor decorrente de contrato com pessoa jurídica de direito público, ou nela exercer função remunerada.",
+    "não poderão ser titulares de mais de um cargo ou mandato público eletivo.",
+    "poderão patrocinar causa em que seja interessada pessoa jurídica de direito público, autarquia, empresa pública, sociedade de economia mista ou empresa concessionária de serviço público.",
+    "poderão aceitar ou exercer cargo, função ou emprego remunerado, inclusive os que sejam demissíveis ad nutum , junto a pessoa jurídica de direito público, autarquia, empresa pública, sociedade de economia mista ou empresa concessionária de serviço público.",
+    "não poderão firmar ou manter contrato com pessoa jurídica de direito público, autarquia, empresa pública, sociedade de economia mista ou empresa concessionária de serviço público, salvo quando o contrato obedecer a cláusulas uniformes."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-014",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Matéria constante em projeto de lei rejeitado somente poderá constituir objeto de novo projeto de lei, na mesma sessão legislativa, mediante proposta",
+   "gabarito": "c",
+   "alternativas": [
+    "do presidente da República ou da maioria simples dos membros de qualquer das casas do Congresso Nacional.",
+    "da maioria simples dos membros de qualquer das casas do Congresso Nacional.",
+    "da maioria absoluta dos membros de qualquer das casas do Congresso Nacional.",
+    "da maioria simples dos membros da Câmara dos Deputados.",
+    "do presidente da República ou da maioria absoluta dos membros do Senado Federal."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-015",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito da escolha dos ministros do Tribunal de Contas da União (TCU), prevista no texto constitucional, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Um terço dos ministros será escolhido pelo presidente da República e dois terços pelo Congresso Nacional, entre brasileiros que tenham, entre outros requisitos, mais de trinta e menos de sessenta e cinco anos de idade, idoneidade moral e reputação ilibada.",
+    "Um terço dos ministros será escolhido pelo presidente da República e dois terços pelo Congresso Nacional, entre brasileiros que tenham, entre outros requisitos, mais de trinta e cinco e menos de setenta anos de idade, e notórios conhecimentos jurídicos, contábeis, econômicos e financeiros ou de administração pública.",
+    "Um terço dos ministros será escolhido pelo Congresso Nacional e dois terços pelo presidente da República, entre brasileiros que tenham, entre outros requisitos, mais de trinta e cinco e menos de sessenta e cinco anos de idade, idoneidade moral e reputação ilibada.",
+    "Um terço dos ministros será escolhido pelo Congresso Nacional e dois terços pelo presidente da República, entre brasileiros que tenham, entre outros requisitos, idoneidade moral e reputação ilibada, e notórios conhecimentos jurídicos, contábeis, econômicos e financeiros ou de administração pública.",
+    "Um terço dos ministros será escolhido pelo Congresso Nacional e dois terços pelo presidente da República, entre brasileiros que tenham, entre outros requisitos, mais de trinta e cinco e menos de setenta anos de idade, e notórios conhecimentos jurídicos, contábeis, econômicos e financeiros ou de administração pública."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-016",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Compete ao Superior Tribunal de Justiça (STJ) processar e julgar,",
+   "gabarito": "a",
+   "alternativas": [
+    "originariamente, nos crimes comuns, os governadores dos estados e do Distrito Federal.",
+    "originariamente, nas infrações penais comuns, o presidente da República.",
+    "em recurso ordinário, as revisões criminais e as ações rescisórias de seus julgados.",
+    "originariamente, nas infrações penais comuns, o procurador- geral da República.",
+    "em recurso ordinário, crime político."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-017",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Leis complementares da União e dos estados, cuja iniciativa é facultada aos respectivos procuradores-gerais, estabelecerão a organização, as atribuições e o estatuto de cada Ministério Público, observada, relativamente a seus membros, a garantia da",
+   "gabarito": "c",
+   "alternativas": [
+    "vitaliciedade, somente após três anos de exercício.",
+    "inamovibilidade, ainda que haja interesse público.",
+    "irredutibilidade de subsídio.",
+    "da vitaliciedade, somente após cinco anos de exercício.",
+    "inamovibilidade, salvo por motivo de interesse público, mediante decisão do presidente do Supremo Tribunal Federal."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-018",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A ação direta de inconstitucionalidade poderá ser proposta",
+   "gabarito": "b",
+   "alternativas": [
+    "pelo presidente da República, que poderá desistir da sua propositura até o despacho que a receber.",
+    "pelos governadores dos estados e do Distrito Federal, sendo vedada, por lei, a desistência após a sua propositura.",
+    "pelo procurador-geral da República, que poderá desistir da sua propositura até o despacho que a receber.",
+    "pelos conselhos seccionais da Ordem dos Advogados do Brasil, sendo vedada, por lei, a desistência após a sua propositura.",
+    "por qualquer partido político constituído há pelo menos três anos, sendo vedada, por lei, a desistência após a sua propositura."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-019",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "As súmulas vinculantes podem ser",
+   "gabarito": "c",
+   "alternativas": [
+    "editadas por meio de decisão tomada por um terço dos membros do Supremo Tribunal Federal, em sessão plenária, medida que pode ser proposta pelo município incidentalmente ao curso de processo em que seja parte, o que não autoriza a suspensão do processo.",
+    "revisadas por meio de decisão tomada por um terço dos membros do Supremo Tribunal Federal, em sessão plenária, medida que pode ser proposta pelo município incidentalmente ao curso de processo em que seja parte, o que autoriza a suspensão do processo.",
+    "canceladas por meio de decisão tomada por dois terços dos membros do Supremo Tribunal Federal, em sessão plenária, medida que pode ser proposta pelo município incidentalmente ao curso de processo em que seja parte, o que não autoriza a suspensão do processo.",
+    "revisadas por meio de decisão tomada por dois terços dos membros do Supremo Tribunal Federal, em sessão plenária, medida que não pode ser proposta pelo município incidentalmente no curso de um processo, ainda que dele seja parte.",
+    "editadas por meio de decisão tomada por dois terços dos membros do Supremo Tribunal Federal, em sessão plenária, medida que pode ser proposta pelo município incidentalmente ao curso de processo em que seja parte, o que autoriza a suspensão do processo."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-020",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A intervenção estadual espontânea ocorrerá diante do descumprimento",
+   "gabarito": "c",
+   "alternativas": [
+    "de lei estadual.",
+    "de ordem judicial.",
+    "da aplicação mínima da receita municipal na saúde e na educação.",
+    "da Constituição estadual.",
+    "do pagamento de dívida fundada, independentemente do motivo e do lapso temporal."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-021",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O prefeito do município X publicou ato de concessão de pensão vitalícia para a primeira dama, com valor equivalente a 50% da remuneração do chefe do Poder Executivo municipal, a ter início a partir do término de seu mandato. Nessa situação hipotética,",
+   "gabarito": "c",
+   "alternativas": [
+    "a administração poderá anular o ato dentro do prazo de cinco anos, contados da data de sua publicação.",
+    "o prazo decadencial para a anulação do ato somente será contado a partir da fruição de seus efeitos.",
+    "não se aplica o prazo decadencial de cinco anos para a anulação do ato, haja vista a flagrante violação ao direito constitucional.",
+    "o exercício do poder de autotutela prescinde da instauração de processo administrativo.",
+    "as verbas que forem recebidas de boa-fé poderão ser repetidas, independentemente de prévia instauração de processo administrativo."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-022",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito do regime constitucional dos servidores públicos, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "A aposentadoria especial do professor somente será concedida aos que exercerem atividade em efetiva docência, descontado o período de direção em unidade escolar.",
+    "É possível converter o tempo de serviço especial de professor em tempo comum, desde que exercido após a promulgação da Constituição Federal de 1988.",
+    "A falta de estabilidade dos empregados públicos implica a possibilidade de estes serem despedidos imotivadamente.",
+    "Nas situações em que seja possível a acumulação de cargos públicos, o teto constitucional para a remuneração dos servidores públicos é aplicado por cargo.",
+    "O teto remuneratório constitucional incide sobre o somatório de remuneração ou provento e pensão percebida por servidor, desde que a morte do instituidor tenha ocorrido após a promulgação da Constituição Federal de 1988."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-023",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere ao direito de greve do servidor, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "A competência para a apreciação dos processos que versem sobre direito de greve de servidores estatutários tem relação direta com o ente ao qual o servidor esteja vinculado juridicamente.",
+    "Lei complementar vedou o direito de greve dos servidores públicos, impondo a instauração de dissídio nos casos de conduta ilegal da administração pública.",
+    "É vedado o direito de greve de servidor municipal que atue na área de segurança pública, salvo em caso de atraso de salário.",
+    "Em virtude da suspensão do vínculo jurídico, a administração pública poderá descontar os dias de salário do período não trabalhado, ainda que se demonstre que a greve decorreu de conduta ilícita do poder público.",
+    "O Supremo Tribunal Federal não admite a vedação absoluta ao direito de greve por considerá-lo um direito fundamental de segunda geração."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-024",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Secretaria de Educação de determinado município concedeu aposentadoria especial, com proventos integrais e paritários, a professor admitido no serviço público em 2005. O ato foi encaminhado ao tribunal de contas em 2008 e, em 2011, a aposentadoria foi cassada, por ter sido julgada ilegal. Considerando a situação hipotética apresentada, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "A cassação da aposentadoria foi legal, visto que o prazo decadencial apenas se iniciou com a entrada do processo no tribunal de contas, em 2008.",
+    "O princípio da juridicidade torna possível a cassação do ato, respeitado o prazo prescricional, uma vez que não há aposentadoria especial com proventos integrais.",
+    "Como o ato é simples, ele somente se perfectibilizaria em 2013, e o prazo para a anulação se esgotaria em 2018, desde que respeitada a boa-fé.",
+    "Como o ato é complexo, o princípio da supremacia do interesse público autoriza a anulação, até sua apreciação final, pelo tribunal de contas, resguardadas as verbas recebidas de boa-fé.",
+    "É imprescritível a pretensão de ressarcimento ao erário das verbas recebidas indevidamente, desde que a decisão advenha de tribunal de contas."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-025",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta acerca da responsabilidade civil do Estado.",
+   "gabarito": "a",
+   "alternativas": [
+    "A concessão de licença para o funcionamento de estabelecimento que exerça atividade perigosa sem as cautelas legais atrai a responsabilidade estatal quando há danos decorrentes da atividade realizada.",
+    "A responsabilidade civil da pessoa jurídica de direito privado prestadora de serviço público é subjetiva em relação a terceiro não usuário do serviço.",
+    "A teoria do risco integral é rechaçada em qualquer caso pelo ordenamento jurídico brasileiro.",
+    "O Estado responde civilmente por danos causados a profissional de imprensa ferido em cobertura jornalística de manifestação popular apenas se demonstrada a conduta culposa do agente de segurança municipal.",
+    "A teoria do risco administrativo não admite as excludentes de responsabilidade, como a culpa exclusiva da vítima."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-026",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que concerne aos princípios que regem a administração pública, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "A proibição do nepotismo, que culminou na edição da Súmula Vinculante n.o 13, é uma decorrência direta dos princípios contidos no artigo 37 da Constituição Federal de 1988.",
+    "A aplicação do princípio da supremacia do interesse público exclui a observância dos direitos fundamentais de primeira geração pela administração pública.",
+    "O princípio da publicidade tem aplicação absoluta nos Estados que adotam a República como forma de governo.",
+    "O princípio da moralidade, por ser apenas um valor constitucional, não pode ser utilizado como parâmetro de controle do ato administrativo.",
+    "O princípio da juridicidade é uma expressão do princípio da legalidade, consubstanciada na submissão da administração à jurisprudência dos tribunais superiores."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-027",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere aos serviços públicos, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "A centralização do Sistema Único de Saúde na União é uma diretriz constitucional.",
+    "É inconstitucional a regra que veda, no âmbito do Sistema Único de Saúde, atendimento diferenciado por médico conveniado, mediante o pagamento da diferença dos valores correspondentes, por violação ao princípio da livre iniciativa.",
+    "É inconstitucional a cobrança das operadoras de saúde pelos serviços utilizados por seus consumidores em instituições integrantes do Sistema Único de Saúde.",
+    "Não cabe aos municípios a responsabilidade pelo fornecimento de medicamento sem registro na ANVISA.",
+    "Não cabe aos municípios financiar o Sistema Único de Saúde."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-028",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da forma de prestação dos serviços públicos, de acordo com a Lei n.o 8.987/1995, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "A concessão de serviço público será sempre precedida de licitação na modalidade concorrência ou diálogo competitivo.",
+    "As empresas brasileiras não gozam de preferências na concorrência pela concessão de serviço público.",
+    "A permissão de serviço público não pode ser feita em favor de pessoa física.",
+    "A interrupção do serviço público é legalmente vedada, ainda que haja inadimplemento do usuário.",
+    "O serviço público adequado pode prescindir do critério da atualidade."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-029",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito dos agentes públicos, seus direitos, seus deveres e suas responsabilidades, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Está expressamente previsto na Constituição Federal de 1988 que o sistema remuneratório de cargos públicos observará, especialmente, o grau acadêmico de cada servidor.",
+    "O prazo de licença-maternidade da servidora adotante poderá ser inferior ao da licença-maternidade da servidora gestante, observados os critérios da legislação.",
+    "O parecerista público não é passível de responsabilização por decisões do administrador público, ainda que pratique erro grave ou grosseiro.",
+    "É constitucional a limitação da jornada semanal com o objetivo de limitar a acumulação lícita de cargos públicos.",
+    "A Constituição Federal de 1988, em seu texto original, previu reserva de percentual dos cargos e empregos públicos para as pessoas com deficiência."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-030",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca dos poderes da administração pública, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "A ordem manifestamente ilegal, proveniente do superior hierárquico, gera para o servidor o dever de representação.",
+    "O exercício do poder hierárquico é incompatível com o serviço civil público.",
+    "A anulação de atos administrativos ilegais é uma decorrência do poder regulamentar.",
+    "O exercício ilegítimo de prerrogativas configura o abuso de poder sem configurar uma ilegalidade.",
+    "A avocação é ato discricionário do superior hierárquico, decorrente do poder de autotutela administrativa."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-031",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando as regras estabelecidas na Lei n.o 8.666/1993, julgue os itens a seguir. I Nas hipóteses de inexigibilidade, embora seja viável a disputa entre eventuais interessados, a lei isenta a realização da licitação. II O credenciamento é modalidade de inexigibilidade expressamente previsto na lei. III A justificativa do preço deve constar da instrução do processo de contratação direta. IV A ocorrência de grave perturbação da ordem é uma das hipóteses de dispensa de licitação. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e IV estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Apenas os itens III e IV estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-032",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "As regras sobre licitação e contratos públicos previstas na Lei n.o 14.133/2021 são aplicáveis a",
+   "gabarito": "a",
+   "alternativas": [
+    "fundos especiais indiretamente controlados pela administração pública.",
+    "sociedade de economia mista.",
+    "subsidiária de sociedade de economia mista.",
+    "empresa pública.",
+    "sociedade empresária privada."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-033",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção em que é apresentado o critério previsto na Lei n.o 14.133/2021 a ser utilizado exclusivamente para a celebração de contrato de eficiência.",
+   "gabarito": "b",
+   "alternativas": [
+    "menor preço",
+    "maior retorno econômico",
+    "maior desconto",
+    "técnica e preço",
+    "melhor técnica"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-034",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme previsão expressa na Lei n.o 14.133/2021, constitui hipótese de contratação direta por dispensa de licitação o(a)",
+   "gabarito": "d",
+   "alternativas": [
+    "restauração de obras de arte e de bens de valor histórico.",
+    "locação de imóvel.",
+    "contratação de auditoria financeira.",
+    "licenciamento de direito de uso ou de exploração de criação protegida.",
+    "aperfeiçoamento de pessoal."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-035",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção em que é apresentada hipótese autorizativa de alteração unilateral do contrato pela administração, segundo a Lei n.o 14.133/2021.",
+   "gabarito": "a",
+   "alternativas": [
+    "modificação do valor contratual em decorrência de acréscimo quantitativo de seu objeto",
+    "conveniência da substituição da garantia de execução",
+    "necessidade de modificação da forma de pagamento por imposição de circunstâncias supervenientes",
+    "necessidade de modificação do modo de fornecimento decorrente da verificação técnica da inaplicabilidade dos termos contratuais originários",
+    "restabelecimento do equilíbrio econômico-financeiro inicial do contrato, em caso de força maior"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-036",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Segundo as disposições da Lei n.o 14.133/2021, o prazo máximo dos contratos que impliquem a elaboração de benfeitorias permanentes que, realizadas exclusivamente a expensas do contratado, serão revertidas ao patrimônio da administração pública poderá ser de até",
+   "gabarito": "d",
+   "alternativas": [
+    "5 anos.",
+    "15 anos.",
+    "25 anos.",
+    "35 anos.",
+    "45 anos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-037",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme previsto na Lei n.o 10.520/2002, a fase externa do pregão se iniciará com o(a)",
+   "gabarito": "d",
+   "alternativas": [
+    "pagamento das taxas e emolumentos relativos à habilitação dos concorrentes.",
+    "definição do objeto.",
+    "expedição da justificativa da necessidade de contratação.",
+    "convocação dos interessados.",
+    "definição da garantia da proposta."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-038",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Incluídas eventuais prorrogações, o prazo de validade da ata de registro de preços, previsto no Decreto n.o 7.892/2013, será, no máximo, de",
+   "gabarito": "b",
+   "alternativas": [
+    "6 meses.",
+    "12 meses.",
+    "18 meses.",
+    "24 meses.",
+    "30 meses."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-039",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando a atual redação da Lei n.o 13.019/2014, julgue os itens a seguir. I É inaplicável o disposto na Lei n.o 8.666/1993 ao termo de colaboração e ao termo de fomento. II O débito decorrente de atraso na liberação de repasse pela administração pública não configura impedimento para a celebração de parceria. III Em regra, o chamamento público será o procedimento adotado para a seleção de organização da sociedade civil para firmar a parceria com o poder público. IV A movimentação financeira no âmbito da parceria será realizada por transferência eletrônica com identificação do beneficiário final. Assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e IV estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Apenas os itens I, III e IV estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-040",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Segundo a Lei n.o 13.019/2014, o instrumento por meio do qual são formalizadas as parcerias estabelecidas pela administração pública com organizações da sociedade civil para a consecução de finalidades de interesse público e recíproco que, propostas pelas organizações da sociedade civil, envolvam a transferência de recursos financeiros é denominado",
+   "gabarito": "d",
+   "alternativas": [
+    "convênio.",
+    "termo de colaboração.",
+    "parceria.",
+    "termo de fomento.",
+    "acordo de cooperação."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-041",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a jurisprudência dos tribunais superiores em relação ao mandado de segurança, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "É incabível mandado de segurança para impugnar ato de comissão de licitação de sociedade de economia mista.",
+    "O prazo decadencial previsto em lei aplica-se ao mandado de segurança preventivo e repressivo.",
+    "O pedido de reconsideração na via administrativa interrompe o prazo para a impetração do mandado de segurança.",
+    "É incabível a impetração de mandado de segurança no qual se impugne decisão proferida em processo criminal.",
+    "É cabível a impugnação por mandado de segurança de atos praticados por representante de empresa concessionária."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-042",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando a jurisprudência acerca da ação popular, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "O mecanismo processual adequado para a defesa dos interesses individuais homogêneos é a ação popular.",
+    "A pessoa física, desde que tenha pelo menos dezoito anos completos de idade, possui legitimidade ativa para propor ação popular.",
+    "O fato de não haver prejuízo material aos cofres públicos não prejudica o ajuizamento da ação nas situações impugnáveis por ação popular.",
+    "A viabilidade da ação popular depende da demonstração de prejuízo material aos cofres públicos.",
+    "A propositura da ação popular com a finalidade de desconstituir ato de conteúdo jurisdicional é cabível."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-043",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando a jurisprudência acerca da ação civil pública, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "O Ministério Público possui legitimidade para ajuizar ação civil pública que, em defesa dos contribuintes, questione a constitucionalidade ou legalidade de tributo.",
+    "A condenação por danos morais coletivos em ação civil pública é possível.",
+    "A Defensoria Pública, ao ajuizar ação civil pública, deverá comprovar documentalmente quem são os titulares dos direitos coletivos a serem beneficiados com a procedência da ação, sob pena de indeferimento da inicial.",
+    "A Lei da Ação Civil Pública prevê as hipóteses de cabimento dessa ação em rol taxativo.",
+    "O Ministério Público não tem legitimidade para propor ação civil pública em defesa do patrimônio público."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-044",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Tendo em vista o entendimento do Supremo Tribunal Federal (STF) a respeito da reclamação constitucional, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "É incabível a utilização da reclamação na hipótese de descumprimento de verbete de súmula sem efeito vinculante .",
+    "É cabível a reclamação com o objetivo de corrigir eventuais equívocos na aplicação da repercussão geral, à exceção de evidente decisão teratológica.",
+    "Será cabível a reclamação ainda que não haja aderência estrita entre o objeto do ato reclamado e o conteúdo do paradigma tido como violado.",
+    "Tem-se admitido a utilização da reclamação com a finalidade de servir como sucedâneo recursal.",
+    "Admite-se a utilização da reclamação como substituto de ação rescisória."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-045",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ao despachar a inicial do mandado de segurança, o juiz ordenará que a representação judicial da pessoa jurídica",
+   "gabarito": "d",
+   "alternativas": [
+    "apresente contestação em nome da autoridade coatora.",
+    "apresente contestação em nome da pessoa jurídica interessada.",
+    "apresente informações em nome da pessoa jurídica interessada.",
+    "tome ciência do feito, momento em que lhe será enviada cópia da inicial sem documentos, para, caso queira, ingressar no processo.",
+    "tome ciência do feito, momento em que lhe será enviada cópia da inicial sem documentos, para, caso queira, apresentar contestação em nome da autoridade coatora."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-047",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Proposta ação rescisória junto ao STJ, o ministro relator, em seu juízo de admissibilidade, indeferiu monocraticamente a petição inicial, julgando extinta sem resolução de mérito a ação, ante a ausência de demonstração efetiva, concreta e objetiva dos requisitos legais que viabilizassem a propositura da ação rescisória. Nessa situação hipotética, considerada a atual posição do STJ, o ministro relator",
+   "gabarito": "c",
+   "alternativas": [
+    "deverá converter em multa a integralidade do depósito judicial, que é de 5% sobre o valor da causa.",
+    "deverá converter em multa a metade do depósito judicial, que é de 10% sobre o valor da causa.",
+    "poderá facultar ao autor o levantamento da integralidade do depósito judicial, que é de 5% sobre o valor da causa.",
+    "deverá converter em multa a integralidade do depósito judicial, que é de 10% sobre o valor da causa.",
+    "poderá facultar ao autor o levantamento da metade do depósito judicial, que é de 5% sobre o valor da causa."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-048",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "O STJ julgou incidente de assunção de competência por meio do qual fixou o entendimento de que seria da competência da justiça estadual o julgamento de determinada matéria. Em momento posterior, sob o argumento de que o acórdão prolatado no incidente havia sido descumprido por um juiz de primeiro grau, foi proposta reclamação junto ao STJ. Considerando a situação hipotética apresentada e a jurisprudência do STJ, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "A reclamação não poderá ser conhecida, pois o requisito de exaurimento das instâncias ordinárias é imprescindível à ação quando sua intenção for preservar a competência do tribunal.",
+    "A superveniência de sentença substitutiva da decisão interlocutória reclamada que tenha tratado de questão de mérito resulta na perda de objeto da reclamação.",
+    "A reclamação não poderá ser conhecida por ausência de cumprimento do requisito de exaurimento das instâncias ordinárias.",
+    "A superveniência de sentença substitutiva da decisão interlocutória reclamada que tenha tratado de questão de mérito não resulta na perda de objeto da reclamação.",
+    "A superveniência de sentença substitutiva da decisão interlocutória reclamada resulta na perda de objeto da reclamação, pois diz respeito a questão preliminar ao mérito."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-049",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do incidente de arguição de inconstitucionalidade, previsto no Código de Processo Civil (CPC), assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "A decisão do órgão fracionário que tiver rejeitado a arguição de inconstitucionalidade deverá ser referendada pelo plenário ou órgão especial do tribunal para que possa produzir efeitos.",
+    "A instauração do incidente de arguição é necessária à declaração de inconstitucionalidade de lei ou ato normativo nas vias dos controles difuso e concentrado.",
+    "Os órgãos fracionários dos tribunais deverão, em qualquer caso, submeter o incidente de arguição de inconstitucionalidade ao plenário ou órgão especial competente para julgar o incidente.",
+    "O legitimado ativo para a propositura da ação direta de inconstitucionalidade poderá manifestar-se por escrito no incidente quanto à questão constitucional que nele estiver sendo analisada.",
+    "A pessoa jurídica de direito público que tenha editado o ato questionado deverá manifestar-se no incidente, sob pena de configuração de nulidade insanável."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-050",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme o entendimento do STJ, a utilização da técnica da ampliação do colegiado no agravo de instrumento é cabível desde que, por maioria de votos, esse recurso seja",
+   "gabarito": "c",
+   "alternativas": [
+    "improvido, e a decisão agravada tenha julgado parcialmente o mérito e alguma questão preliminar.",
+    "provido, e a decisão agravada tenha ou não julgado questão de mérito.",
+    "provido, e a decisão agravada tenha julgado parcialmente o mérito.",
+    "improvido, e a decisão agravada tenha julgado parcialmente o mérito.",
+    "improvido, e a decisão agravada tenha ou não julgado questão de mérito."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-051",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Segundo o STJ, o acolhimento de pedido formulado na petição inicial que não conste no tópico relativo aos pedidos",
+   "gabarito": "a",
+   "alternativas": [
+    "não ofende o princípio da congruência, desde que nos limites do pedido e adotado a partir de uma interpretação lógica e sistemática de toda a petição inicial.",
+    "ofende o princípio da congruência por incorrer em julgamento ultra ou extra petita .",
+    "ofende o princípio da vedação à decisão surpresa.",
+    "não ofende o princípio da vedação à decisão surpresa, podendo, inclusive, resultar em condenação da parte a quantidade superior ao que foi demandado.",
+    "não ofende o princípio da congruência, podendo, inclusive, resultar em condenação à parte em bem de natureza diversa ao que foi demandado."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-052",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o STJ, configura hipótese de decisão recorrível por meio de agravo de instrumento aquela que",
+   "gabarito": "c",
+   "alternativas": [
+    "homologa acordo extrajudicial apresentado pelas partes.",
+    "determina a intimação do município para recolher as despesas de citação postal, sob pena de extinção da ação, em execução fiscal cujo valor da causa seja inferior a cinquenta obrigações do Tesouro Nacional.",
+    "indefere pedido de habilitação de crédito no inventário.",
+    "decide sobre a instrução probatória, especialmente a respeito do exercício do direito à ampla defesa.",
+    "homologa a transação, em ação de exclusão de sócio, quanto à saída da sociedade e fixa critérios para a apuração dos haveres."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-053",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base no disposto na Lei n.o 9.985/2000, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Uso sustentável é a manutenção dos ecossistemas livres de alterações causadas por interferência humana, admitindo-se apenas o uso indireto dos seus atributos naturais.",
+    "Plano de manejo é o conjunto de métodos, procedimentos e políticas que visam à proteção a longo prazo das espécies, seu habitat e ecossistemas, além da manutenção dos processos ecológicos, para prevenir a simplificação dos sistemas naturais.",
+    "Zonas de amortecimento são porções de ecossistemas naturais que ligam unidades de conservação, possibilitado, entre elas, o fluxo de genes e o movimento da biota e facilitando a dispersão de espécies e a recolonização de áreas degradadas.",
+    "Recuperação é todo procedimento que vise assegurar a conservação da diversidade biológica e dos ecossistemas.",
+    "Conservação in situ é aquela que busca a conservação de ecossistemas e habitats naturais e a manutenção e recuperação de populações viáveis de espécies em seus meios naturais e, no caso de espécies domesticadas ou cultivadas, nos meios onde tenham desenvolvido suas propriedades características."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-054",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "As diretrizes gerais de ação aptas a implementar a Política Nacional de Recursos Hídricos (PNRH) incluem a",
+   "gabarito": "c",
+   "alternativas": [
+    "gestão sistemática dos recursos hídricos, ainda que dissociada dos aspectos de quantidade e qualidade.",
+    "integração da gestão das bacias hidrográficas com a pesquisa multidisciplinar de biomas estuarinos e zonas costeiras e com a prospecção petrolífera na plataforma continental.",
+    "adequação da gestão de recursos hídricos às diversidades físicas, bióticas, demográficas, econômicas, sociais e culturais das diversas regiões do país.",
+    "articulação do planejamento de recursos hídricos com os projetos e programas dos diversos setores usuários e com os planejamentos públicos e privados das microrregiões metropolitanas.",
+    "articulação da gestão de recursos hídricos com a do uso do solo e a exploração sustentável dos recursos edáficos e genômicos das unidades de conservação."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-055",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Sistema Nacional de Unidades de Conservação (SNUC) deverá ser regido por diretrizes que visem",
+   "gabarito": "a",
+   "alternativas": [
+    "assegurar que o processo de criação e a gestão das unidades de conservação sejam feitos de forma integrada com as políticas de administração das terras e águas circundantes, consideradas as condições e necessidades sociais e econômicas locais.",
+    "buscar o apoio e a cooperação dos Estados-membros da Organização Mundial do Comércio e instituições financeiras para o desenvolvimento de estudos, pesquisas científicas, práticas de educação ambiental, atividades de lazer e de turismo ecológico, monitoramento, manutenção e outras atividades de gestão das unidades de conservação.",
+    "incentivar as populações locais e as organizações públicas a estabelecerem e administrarem unidades de conservação dentro do Sistema Nacional de Recursos Hídricos, promovendo a recuperação de nascentes e o manejo da fauna que se desenvolve nos rios, manguezais, lagos e lagoas.",
+    "assegurar, nos casos possíveis, a sustentabilidade econômica das unidades de conservação por meio de parcerias público-privadas, especialmente nas áreas de demarcação contínua das terras indígenas.",
+    "garantir às populações urbanas e rurais a utilização de recursos naturais existentes no interior das unidades de conservação e aos povos tradicionais os meios de consumo alternativos ou a justa indenização pelos recursos perdidos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-056",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Segundo o disposto na Lei n.o 6.938/1981, que dispõe sobre a Política Nacional do Meio Ambiente, o instrumento ou o termo de instituição da servidão ambiental deve incluir, entre outros aspectos, I o objeto da servidão ambiental. II os direitos e deveres do usufrutuário. III o prazo durante o qual a área permanecerá como servidão ambiental. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-057",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o Código Florestal, são consideradas áreas de preservação permanente, quando declaradas de interesse social por ato do chefe do Poder Executivo, as áreas cobertas com florestas ou outras formas de vegetação destinadas, entre outras finalidades, a",
+   "gabarito": "d",
+   "alternativas": [
+    "conter a erosão do solo, eliminando riscos de enchentes e deslizamentos de terra e de rochas nas regiões de restingas ou veredas que abriguem espécies da fauna e flora nativas usadas como meio de subsistência pelas populações autóctones.",
+    "proteger várzeas contidas ou contíguas às zonas de desenvolvimento econômico que abriguem exemplares da fauna ou da flora com potencial para o ecoturismo e o turismo rural.",
+    "formar faixas de proteção ao longo de rodovias, ferrovias e hidrovias, especialmente as de importância nacional.",
+    "proteger sítios de excepcional beleza ou de valor científico, cultural ou histórico.",
+    "auxiliar a defesa do território nacional contra ameaças não-tradicionais, a critério das autoridades militares brasileiras em ações conjuntas com as forças de paz da Organização das Nações Unidas."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-058",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Constituem objetivo da Política Nacional do Meio Ambiente",
+   "gabarito": "d",
+   "alternativas": [
+    "o estabelecimento de medidas de racionalização do uso do solo, do subsolo, da água e do ar e a proteção dos ecossistemas, com a preservação integral de todo o território nacional.",
+    "o planejamento e a fiscalização do uso dos recursos ambientais e do material genético humano, animal e vegetal que represente ameaça à biossegurança dos povos tradicionais.",
+    "a implementação de controle e zoneamento das atividades potencial ou efetivamente poluidoras e a proteção de áreas ameaçadas de degradação nas regiões limítrofes das áreas de mineração.",
+    "a preservação, a melhoria e a recuperação da qualidade ambiental propícia à vida, visando assegurar ao país condições ao desenvolvimento socioeconômico, aos interesses da segurança nacional e à proteção da dignidade da vida humana.",
+    "a efetivação do acompanhamento do estado da qualidade ambiental e a recuperação de áreas degradadas contíguas aos mananciais e corpos hídricos sujeitos à descarga de efluentes industriais."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-059",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Os loteamentos urbanos devem estar adequados às políticas urbanas em razão dos frequentes impactos ambientais que geram, tais como supressão da vegetação nativa, carreamento de sedimentos para corpos d’água, poluição do ar, erosão e compactação do solo, e, para tanto, devem ser atendidos os requisitos urbanísticos previstos na Lei de Parcelamento do Solo Urbano, segundo a qual",
+   "gabarito": "a",
+   "alternativas": [
+    "as áreas destinadas a sistemas de circulação, a implantação de equipamento urbano e comunitário, bem como a espaços livres de uso público, deverão ser proporcionais à densidade de ocupação prevista pelo plano diretor ou aprovada por lei municipal para a zona em que se situem.",
+    "os lotes deverão ter área mínima de cento e vinte e cinco metros quadrados e frente mínima de cinco metros, inclusive quando o loteamento se destinar a urbanização específica ou edificação de conjuntos habitacionais de interesse social, previamente aprovados pelos órgãos públicos competentes.",
+    "as áreas de faixas não edificáveis ao longo das águas correntes e dormentes deverão estar de acordo com o que determina a lei municipal ou distrital que aprovar o instrumento de planejamento territorial e que definir e regulamentar a largura das faixas marginais de cursos d’água naturais em área urbana consolidada, respeitados os limites de profundidade dos leitos dos rios.",
+    "a reserva de faixa não edificável, ao longo das faixas de domínio público das rodovias, de, no mínimo, quinze metros de cada lado, não poderá ser reduzida por lei municipal ou distrital que aprovar o instrumento do planejamento territorial.",
+    "será obrigatória, ao longo da faixa de domínio das ferrovias, a reserva de uma faixa não edificável de, no mínimo, quinze metros de cada lado, salvo em trechos demarcados para a travessia de semoventes."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-060",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta no que diz respeito ao tratamento constitucional dado ao patrimônio cultural brasileiro.",
+   "gabarito": "d",
+   "alternativas": [
+    "A lei estabelecerá incentivos para a produção e o conhecimento de bens e valores culturais, excetuados os documentos e os sítios detentores de reminiscências históricas dos antigos quilombos, cuja gestão é feita pela UNESCO.",
+    "O patrimônio cultural é constituído pelos bens de natureza material e imaterial, tomados coletivamente, portadores de referência à identidade dos povos colonizadores, ao gênero expressivo, à ação política e à memória dos diferentes grupos formadores da sociedade brasileira.",
+    "A gestão da documentação governamental e as providências para franquear sua consulta a quantos dela necessitem cabem ao terceiro setor, na forma da lei.",
+    "O poder público, com a colaboração da comunidade, promoverá e protegerá o patrimônio cultural brasileiro, por meio de inventários, registros, vigilância, tombamento e desapropriação, bem como de outras formas de acautelamento e preservação.",
+    "É facultado aos estados e ao Distrito Federal vincular ao orçamento federal de fomento à cultura até cinco por cento de sua receita tributária líquida para o financiamento de programas e projetos culturais que visem à efetivação da cidadania."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-061",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o Estatuto da Cidade, o plano diretor é obrigatório para as cidades incluídas no cadastro nacional de municípios com áreas suscetíveis à ocorrência de deslizamentos de grande impacto, inundações bruscas ou processos geológicos ou hidrológicos correlatos e, nesse caso, deverá também conter, entre outros requisitos,",
+   "gabarito": "d",
+   "alternativas": [
+    "parâmetros de parcelamento, uso e ocupação do solo, bem como o mapeamento contendo as áreas suscetíveis à ocorrência de deslizamentos de grande impacto, inundações bruscas, processos geológicos ou hidrológicos correlatos que possam, em conjunto ou isoladamente, acirrar as desigualdades sociais e o aumento da criminalidade urbana.",
+    "os mapeamentos de identificação e as diretrizes para a preservação e ocupação das áreas verdes municipais, quando for o caso, com vistas à implementação das medidas de impermeabilização das cidades.",
+    "planejamento de ações de intervenção preventiva e realocação de população de áreas de risco de desastre, priorizando a retirada imediata de crianças e animais silvestres, de modo a promover a pluralidade de ações necessárias para a proteção integral da diversidade socioambiental.",
+    "as medidas de drenagem urbana necessárias à prevenção e à mitigação de impactos de desastres e o planejamento de ações de intervenção preventiva e realocação de população de áreas de risco de desastre.",
+    "as diretrizes para a desocupação de assentamentos urbanos irregulares, observadas as normas federais e estaduais pertinentes, e a previsão de áreas para habitação de interesse social por meio da demarcação de zonas especiais de interesse social e de outros instrumentos de política urbana, onde o uso habitacional for permitido."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-062",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "A gestão democrática da cidade possibilita a participação da sociedade na elaboração, realização e monitoramento de programas, planos e projetos que afetem o espaço urbano. Como instrumentos a serem usados para garantir essa gestão, entre outros previstos no Estatuto da Cidade, estão",
+   "gabarito": "d",
+   "alternativas": [
+    "a auditoria da dívida pública e os núcleos de desenvolvimento urbano integrado.",
+    "projetos de lei, planos, programas e projetos de desenvolvimento urbano, social e econômico regionais, de iniciativa popular, visando à integração do cone-sul.",
+    "os órgãos colegiados de política urbana, nos níveis nacional e estadual, conjugados com o Programa Nacional de Cidades Ecológicas, no nível municipal.",
+    "os debates, as audiências e as consultas públicas.",
+    "as conferências sobre assuntos de interesse urbano, nos níveis nacional, estadual e municipal que reunirem as cidades das macrorregiões metropolitanas, e os seminários regionais para as cidades com menos de vinte mil habitantes."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-063",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Para a concessão de licenças ou autorizações de construção, ampliação ou funcionamento de atividades e empreendimentos privados ou públicos em áreas urbanas, lei municipal deve exigir a elaboração de estudo prévio de impacto de vizinhança (EIV), o qual deverá incluir a análise de questões como",
+   "gabarito": "c",
+   "alternativas": [
+    "déficit habitacional.",
+    "equipamentos de patrulha e controle comunitários.",
+    "uso e ocupação do solo, bem como iluminação e ventilação.",
+    "desvalorização das áreas suburbanas.",
+    "expansão do tráfico de drogas nas portas das escolas."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-064",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Para que a propriedade urbana cumpra sua função social, faz-se necessário o atendimento de exigências fundamentais de ordenação da cidade expressas no plano diretor, respeitadas as diretrizes gerais previstas na política urbana, entre as quais se inclui",
+   "gabarito": "e",
+   "alternativas": [
+    "a intervenção urbana nas áreas ocupadas por comunidades de baixa renda mediante o estabelecimento de normas especiais de segregação populacional no uso e ocupação do solo e edificação, consideradas a situação socioeconômica da população e as normas ambientais.",
+    "a condição diferenciada para os agentes públicos e privados na promoção de empreendimentos e atividades relativos ao processo de urbanização, atendido o interesse social.",
+    "a simplificação da legislação de parcelamento, uso e ocupação do solo e das normas edilícias, com vistas a permitir a redução da ocupação irregular das populações de alta renda e a limitação na oferta dos lotes e unidades habitacionais para as classes C e D.",
+    "o estímulo à utilização, nos parcelamentos do solo e nas edificações urbanas, de sistemas operacionais, padrões construtivos e aportes tecnológicos que objetivem a redução do tamanho médio das unidades habitacionais.",
+    "a garantia de condições condignas de acessibilidade, utilização e conforto nas dependências internas das edificações urbanas, inclusive nas destinadas à moradia e ao serviço dos trabalhadores domésticos, observados requisitos mínimos de dimensionamento, ventilação, iluminação, ergonomia, privacidade e qualidade dos materiais empregados."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-065",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o que dispõe o Código Tributário Nacional (CTN), constitui hipótese de exclusão do crédito tributário",
+   "gabarito": "e",
+   "alternativas": [
+    "compensação.",
+    "moratória.",
+    "pagamento.",
+    "remissão.",
+    "anistia."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-066",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito da compensação tributária, observada a jurisprudência dos tribunais dos superiores e o CTN, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A compensação tributária realizada pelo contribuinte pode ser convalidada por meio de mandado de segurança.",
+    "A compensação tributária é disciplinada pela lei vigente no momento da ocorrência do fato gerador dos tributos.",
+    "A compensação de ofício promovida unilateralmente pela administração tributária, ainda que presente a reciprocidade de dívidas com o contribuinte, viola a liberdade negocial do credor, não sendo admitida no ordenamento jurídico.",
+    "É vedada a alegação de compensação nos embargos à execução fiscal, independentemente de esta ter sido ou não efetuada à época do ajuizamento da execução.",
+    "Uma vez ajuizada ação de repetição de indébito e tendo sido este reconhecido, a compensação dos valores recolhidos a maior está condicionada ao trânsito em julgado da demanda, mesmo nas hipóteses de reconhecida inconstitucionalidade do tributo indevidamente recolhido."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-067",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito do imposto sobre serviços de qualquer natureza (ISS) e do imposto sobre circulação de mercadorias e serviços (ICMS), julgue os itens a seguir, à luz da Constituição Federal de 1988 (CF) e da jurisprudência do Supremo Tribunal Federal (STF). I A atividade exclusiva de locação de bens móveis está sujeita à incidência do ISS. II Os serviços prestados pelas operadoras de plano de saúde estão sujeitos à incidência de ISS. III Os contratos de franquia estão sujeitos à incidência do ICMS. Assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-068",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito da sujeição passiva e da responsabilidade tributária, assinale a opção correta, com base no CTN e na jurisprudência dos tribunais superiores.",
+   "gabarito": "e",
+   "alternativas": [
+    "A falta de pagamento do tributo por determinada empresa é suficiente para atrair a responsabilidade subsidiária de seus sócios.",
+    "A responsabilidade tributária é excluída pela denúncia espontânea, sendo, nesse caso, prescindível o pagamento do tributo devido.",
+    "A pessoa jurídica de direito privado que resultar da fusão de outras duas responde apenas pelos tributos devidos após o ato de fusão.",
+    "A aferição da responsabilidade por infração à lei tributária está condicionada à extensão do dano ocasionado.",
+    "A extensão da responsabilidade tributária de determinada pessoa jurídica em relação aos tributos devidos até a data de aquisição do estabelecimento comercial, em caso de continuação da exploração comercial pela adquirente, está condicionada à continuidade da atividade empresarial do alienante."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-069",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que concerne à progressividade e seletividade do imposto sobre a propriedade predial e territorial urbana (IPTU), assinale a opção correta com base na CF e na jurisprudência dos tribunais superiores.",
+   "gabarito": "c",
+   "alternativas": [
+    "A utilização da progressividade da cobrança do IPTU somente foi possível após a edição de lei complementar nacional, que disciplinou a matéria.",
+    "A progressividade do IPTU conforme o valor venal do imóvel é válida desde a promulgação da CF.",
+    "A seletividade da cobrança do IPTU, consideradas a destinação e situação do imóvel, é legítima em todo o período de vigência da CF.",
+    "A progressividade do IPTU para fazer cumprir a função social da propriedade somente foi viável após a manifestação do poder constituinte derivado, por meio da Emenda Constitucional n.o 29/2000.",
+    "Desde o advento da CF, não se admite a técnica da progressividade do IPTU, considerado o caráter real do imposto."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-070",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "Levando em consideração o CTN e a jurisprudência dos tribunais superiores, assinale a opção correta a respeito da certidão de dívida ativa.",
+   "gabarito": "c",
+   "alternativas": [
+    "A declaração de inconstitucionalidade de norma que ampare a cobrança de determinado tributo afasta automaticamente a presunção de certeza e liquidez da certidão de dívida ativa.",
+    "A dívida, quando regularmente inscrita, goza de presunção absoluta de certeza e liquidez, porquanto já exercido o contraditório, oportunizando ao contribuinte a possibilidade de impugnar a formação do título.",
+    "O protesto das certidões de dívida ativa é meio extrajudicial de cobrança do crédito disponível a todos os entes federados, nos diferentes níveis.",
+    "O termo de inscrição da dívida ativa dispensa a indicação da natureza do crédito e o demonstrativo de cálculo do débito.",
+    "A omissão da data em que seja inscrita a dívida é causa de nulidade da certidão de dívida ativa, passível de saneamento até a oposição de embargos à execução."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-071",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "Julgue os seguintes itens em relação à possibilidade de cada uma das taxas mencionadas poder ser instituída pelo município para aumentar a arrecadação de receitas tributárias, conforme a CF e a jurisprudência do STF. I taxa a ser cobrada em contrapartida à disponibilização de serviço público de prevenção e combate a incêndios II taxa de ocupação do solo em face das concessionárias prestadoras de serviço de energia elétrica III taxa de coleta de lixo domiciliar Assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-072",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção em que é apresentado o atributo da competência tributária descrito no fragmento de texto precedente.",
+   "gabarito": "b",
+   "alternativas": [
+    "obrigatoriedade",
+    "incaducabilidade",
+    "indelegabilidade",
+    "inalterabilidade",
+    "irrenunciabilidade"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-073",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "São, conforme o CTN, normas complementares das leis tributárias",
+   "gabarito": "e",
+   "alternativas": [
+    "os tratados e convenções internacionais.",
+    "os decretos.",
+    "os enunciados das jornadas de direito tributário.",
+    "as decisões do STF em repercussão geral.",
+    "as decisões colegiadas dos órgãos de jurisdição administrativa a que a lei atribua eficácia normativa."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-074",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito da repartição de receitas tributárias, julgue os itens a seguir, com base na CF e na jurisprudência do STF. I Pertence ao somente município a titularidade das receitas arrecadadas a título de imposto de renda retido na fonte incidente sobre rendimentos pagos por ele, suas autarquias e fundações a servidores ou empregados públicos pertencentes ao quadro de pessoal, não alcançando imposto de renda retido em decorrência de pagamentos realizados a pessoas jurídicas, considerada a prestação de serviços. II O imposto sobre transmissão causa mortis (ITCMD) arrecadado pelos estados não é repartido constitucionalmente com os municípios. III É vedado à União e aos estados restringir ou condicionar a entrega de recursos relativos ao fundo de participação dos municípios a qualquer critério. Assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-075",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Câmara de Vereadores do Município X não recolheu as contribuições previdenciárias devidas perante a União. Buscando assegurar os repasses relativos a convênios firmados com a União, o município X formalizou pedido de certidão de regularidade fiscal, tendo este sido rejeitado pelo ente central em razão daqueles débitos do Legislativo municipal. Nessa situação hipotética, a decisão da administração pública federal, de acordo com a CF, o CTN e a jurisprudência do STF, deve ser considerada",
+   "gabarito": "e",
+   "alternativas": [
+    "acertada, porquanto não é possível a expedição de certidão de regularidade fiscal em favor do município X, visto que este, na condição de ente uno, responde pelos débitos dos órgãos componentes dos Poderes Executivo, Legislativo e Judiciário.",
+    "equivocada, devendo ser expedida, em favor do município X, certidão negativa de débito, em respeito à autonomia dos poderes adstritos ao ente municipal.",
+    "equivocada, porquanto a Câmara de Vereadores é pessoa jurídica que responde pelos seus próprios débitos, não podendo a restrição alcançar o município como um todo.",
+    "equivocada, porquanto não se exige a prova de quitação de tributos entre entes federados.",
+    "equivocada, devendo ser expedida, em favor do município X, certidão positiva com efeitos de negativa, em respeito à autonomia dos poderes adstritos ao ente municipal."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-076",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "A administração tributária, no curso de processo administrativo fiscal (PAF) para apurar omissões tributárias de determinado contribuinte, requisitou diretamente às instituições financeiras dados atinentes às transações por ele realizadas relacionadas com as omissões tributárias investigadas, tendo assegurado o sigilo dessas informações. Ao verificar indícios da prática de ilícitos penais, a administração encaminhou o PAF diretamente ao Ministério Público. O parquet, por sua vez, ao receber o processo administrativo fiscal, verificou tratar-se de contribuinte investigado em relação a outra conduta sem relação com aquelas objeto do PAF em questão e, aproveitando o recente fluxo de informações, requisitou diretamente à administração tributária dados fiscais sigilosos a respeito dessa outra conduta. A respeito do sigilo bancário e fiscal, assinale a opção correta à luz do disposto na CF e da jurisprudência dos tribunais superiores.",
+   "gabarito": "b",
+   "alternativas": [
+    "Todas as requisições e trocas de informações promovidas entre administração tributária e o Ministério Público foram regulares, uma vez que a reserva de jurisdição é prescindível.",
+    "A requisição direta de dados sigilosos formalizada pelo Ministério Público perante a administração tributária foi a única conduta ilegal, porquanto realizada sem reserva de jurisdição.",
+    "Todas as requisições e as trocas de informações promovidas pela administração tributária e Ministério Público foram irregulares, visto que é imprescindível a reserva de jurisdição.",
+    "A requisição direta de dados bancários formalizada pela administração tributária perante as instituições financeiras caracterizou quebra de sigilo fiscal, sendo imprescindível a reserva de jurisdição.",
+    "A única irregularidade verificada na situação foi o compartilhamento direto do PAF realizado pela administração tributária com o Ministério Público, visto que, ante a presença de dados sigilosos, o referido ato não poderia ser realizado sem o crivo do Judiciário."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-077",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "Precatório judicial expedido em face de município e que tenha sido apresentado em 5/6/2022 deverá ser pago até",
+   "gabarito": "e",
+   "alternativas": [
+    "31/12/2022.",
+    "30/6/2023.",
+    "31/12/2023.",
+    "30/6/2024.",
+    "31/12/2024."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-078",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "Lei municipal que concede isenção de imposto sobre serviços de qualquer natureza (ISS) a determinada atividade econômica sem prévia estimativa de impacto orçamentário-financeiro",
+   "gabarito": "b",
+   "alternativas": [
+    "é ineficaz.",
+    "é inconstitucional e viola a Lei de Responsabilidade Fiscal.",
+    "viola a Lei de Responsabilidade Fiscal, mas não é inconstitucional.",
+    "é inconstitucional, mas não viola a Lei de Responsabilidade Fiscal.",
+    "é constitucional e legal."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-079",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base na legislação aplicável ao direito financeiro, julgue, entre os recursos listados a seguir, aqueles que são considerados disponíveis para a abertura de créditos suplementares e especiais, desde que não comprometidos. I superávit financeiro apurado em balanço patrimonial do exercício anterior II recursos provenientes de excesso de arrecadação III recursos resultantes de anulação parcial ou total de dotações orçamentárias ou de créditos adicionais autorizados em lei IV produto de operações de crédito autorizadas, de forma que juridicamente possibilite ao poder executivo realizá-las V recursos que, em decorrência de veto, emenda ou rejeição do projeto de lei orçamentária anual, ficarem sem despesas correspondentes, mediante prévia e específica autorização legislativa Assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Apenas os itens I, III e V estão certos.",
+    "Apenas os itens I, II, III e IV estão certos.",
+    "Apenas os itens I, II, IV e V estão certos.",
+    "Apenas os itens II, III, IV e V estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-080",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "Particular ofereceu ao município do Recife um crédito líquido e certo, adquirido de terceiro, reconhecido definitivamente por sentença judicial transitada em julgado em desfavor do município, para a quitação de débitos relativos a imposto predial e territorial urbano inscritos em dívida ativa. Nessa situação, considerada a inexistência de norma regulamentadora de tal possibilidade no município, a oferta deverá ser",
+   "gabarito": "e",
+   "alternativas": [
+    "deferida, porque existe dispositivo constitucional expresso e autoaplicável que autoriza tal operação.",
+    "deferida, pois existe lei federal que permite tal operação.",
+    "indeferida, pois há a necessidade de prévio decreto do prefeito autorizando tal operação.",
+    "deferida, haja vista a existência de lei estadual que autoriza a operação.",
+    "indeferida, porque há a necessidade de regulamentação legal de tal operação no município."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-081",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Câmara Municipal do Recife aprovou projeto de lei cujo artigo 1.o está assim redigido: Art. 1.o Fica destinado o percentual de 10% (dez por cento) de recursos do Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação (FUNDEB) ao combate da pandemia de covid-19. O prefeito do Recife encaminhou demanda à Procuradoria do Município do Recife solicitando análise do texto do projeto para fim de sanção ou veto. Consoante a jurisprudência do Supremo Tribunal Federal, o dispositivo do projeto de lei mencionado na situação hipotética é",
+   "gabarito": "a",
+   "alternativas": [
+    "inconstitucional, haja vista que os recursos do FUNDEB possuem destinação específica e não podem ser utilizados para despesas não destinadas à educação.",
+    "legal, pois a lei de criação do FUNDEB permite a destinação de seus recursos à saúde mediante autorização legislativa.",
+    "constitucional e legal, uma vez que compete ao município prioritariamente atender à saúde da população.",
+    "constitucional e legal, haja vista o caráter de excepcionalidade e emergência da pandemia.",
+    "constitucional, haja vista que a Constituição Federal de 1988 possibilita a destinação de recursos do FUNDEB à saúde mediante autorização legislativa."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-082",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "O parecer prévio sobre as contas anuais do prefeito do município do Recife será emitido pelo(a)",
+   "gabarito": "d",
+   "alternativas": [
+    "Tribunal de Contas da União.",
+    "Tribunal de Contas Municipal do Recife.",
+    "Câmara Municipal do Recife.",
+    "Tribunal de Contas do Estado de Pernambuco.",
+    "Tribunal de Contas dos Municípios do Estado de Pernambuco."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-083",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Lei de Responsabilidade Fiscal considera dívida pública mobiliária",
+   "gabarito": "b",
+   "alternativas": [
+    "as obrigações financeiras do ente federativo, assumidas em virtude de leis, contratos, convênios ou tratados e da realização de operações de crédito, para amortização em prazo superior a doze meses.",
+    "a representada por títulos públicos emitidos pelos entes federativos.",
+    "o compromisso financeiro assumido pelo ente federativo em razão de mútuo, abertura de crédito, emissão e aceite de título, aquisição financiada de bens, recebimento antecipado de valores provenientes da venda a termo de bens e serviços, arrendamento mercantil e outras operações assemelhadas, inclusive com o uso de derivativos financeiros.",
+    "os precatórios judiciais não pagos durante a execução do orçamento em que houverem sido incluídos.",
+    "a assunção, o reconhecimento ou a confissão de dívidas pelo ente federativo."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-084",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta de acordo com as disposições da Lei de Introdução às Normas do Direito Brasileiro (LINDB).",
+   "gabarito": "d",
+   "alternativas": [
+    "As autoridades públicas devem promover a segurança jurídica na elaboração das decisões administrativas, com a adoção de regulamentos, súmulas administrativas e respostas a consultas, instrumentos esses que não têm caráter vinculante em relação aos órgãos ou entidades a que se destinam, em decorrência da independência técnica dos servidores públicos.",
+    "Na intepretação de normas sobre gestão pública, é vedado ao gestor invocar o consequencialismo como elemento da decisão administrativa.",
+    "A decisão que decretar a invalidação de ato administrativo ostenta efeito retroativo, sendo prescindível a indicação expressa das consequências jurídicas e administrativas da decisão.",
+    "A motivação da administração pública deve demonstrar a necessidade e a adequação da medida imposta ou da invalidação de ato, contrato, ajuste, processo ou norma administrativa, inclusive em face das possíveis alternativas.",
+    "A cláusula geral do erro administrativo, ao prescrever que a responsabilidade alcança atos praticados por dolo ou erro grosseiro, restringe-se aos servidores públicos efetivos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-085",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação às pessoas jurídicas, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Quando os recursos destinados à constituição de fundação privada forem insuficientes, os bens a ela destinados serão devolvidos ao instituidor ou a seus herdeiros, se de outro modo não dispuser o instituidor.",
+    "As associações se constituem pela união de pessoas que se organizam para fins econômicos.",
+    "No âmbito das associações, é possível haver disposição estatutária que estabeleça direitos especiais ou situação privilegiada de uns associados em detrimento de outros.",
+    "As pessoas jurídicas de direito privado não poderão realizar suas assembleias gerais por meio eletrônico.",
+    "Nas associações, a exclusão do associado é possível em regra, desde que haja justa causa e seja assegurado o direito de defesa e de recurso, salvo quando o estatuto estabelecer a hipótese de exclusão sumária sem contraditório, em situações graves."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-086",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta no que tange à responsabilidade civil.",
+   "gabarito": "c",
+   "alternativas": [
+    "Com a sucessão causa mortis , a obrigação de pedir e prestar reparação é extinta, não havendo transmissão dessas responsabilidades aos herdeiros.",
+    "É objetiva a responsabilidade civil do Estado em relação a profissional da imprensa ferido por agentes policiais durante cobertura jornalística, em manifestações nas quais haja tumulto ou conflitos entre policiais e manifestantes, não sendo possível a incidência de excludentes de responsabilidade.",
+    "A fuga de presidiário do estabelecimento prisional seguida da prática de crime ocorrido após consolidação da fuga e sem nexo de causalidade com o evento fuga exclui a responsabilidade civil do Estado.",
+    "Em se tratando de responsabilidade extracontratual, os juros moratórios incidem da data da sentença.",
+    "Empregado de condomínio edilício que, fora de seu horário de expediente, mas, em razão de seu trabalho, dirija o veículo de um dos condôminos e cause evento danoso enquanto estiver dirigindo, não pratica conduta que atraia a responsabilidade civil do condomínio."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-087",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando as disposições do Código Civil e a jurisprudência a respeito dos contratos, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "O magistrado não poderá reduzir de ofício cláusula penal manifestamente excessiva, demanda esta que deve ser objeto de requerimento expresso da parte interessada.",
+    "A abusividade dos encargos acessórios do contrato descaracteriza a mora.",
+    "Ao prever os contratos em espécie, o Código Civil veda expressamente a possibilidade de as partes estipularem contratos atípicos.",
+    "A herança de pessoa viva pode ser objeto de contrato.",
+    "O prazo prescricional da responsabilidade contratual, em regra, é de dez anos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-089",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito da aquisição da propriedade, assinale a opção correta com base na legislação de regência e na jurisprudência.",
+   "gabarito": "b",
+   "alternativas": [
+    "A propriedade do solo alcança o espaço aéreo e o subsolo, pouco importando a altura ou profundidade, motivo por que abrange as jazidas, minas e demais recursos minerais.",
+    "A transferência de propriedade de veículo automotor ocorre com a tradição, sendo o registro no órgão de trânsito requisito de publicidade, ou seja, para que seja oponível a terceiros.",
+    "A transferência da propriedade mobiliária tem natureza jurídica independente para negócio jurídico subjacente, isto é, a nulidade do negócio jurídico originador não afeta a transferência da propriedade mobiliária.",
+    "O possuidor de boa-fé responde pela perda ou deterioração da coisa a que não tenha dado causa.",
+    "A celebração de escritura pública é suficiente para a transferência da propriedade imobiliária."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-090",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Para efeitos legais, consideram-se bens móveis",
+   "gabarito": "d",
+   "alternativas": [
+    "os direitos reais sobre imóveis.",
+    "os materiais provisoriamente separados de um prédio para nele se reempregarem.",
+    "o direito à sucessão aberta e as ações que o asseguram.",
+    "os direitos reais sobre objetos móveis e as ações correspondentes.",
+    "as edificações que, separadas do solo, mas com unidade conservada, forem removidas para outro local."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-091",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 7,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere-se que João seja servidor do município do Recife e que Maria seja aposentada por invalidez na mesma localidade, em virtude de portar doença incapacitante. Nessa situação, para fins de custeio do regime próprio de previdência municipal (RPPM), João",
+   "gabarito": "c",
+   "alternativas": [
+    "deve contribuir para o RPPM sobre a totalidade de sua remuneração, incluídos os valores recebidos em decorrência do exercício de cargo em comissão, e Maria é isenta de contribuir, independentemente do valor de seus proventos.",
+    "é segurado obrigatório e sua contribuição incide sobre os seus vencimentos, mas Maria é isenta de contribuição, por ser aposentada por invalidez em razão de doença incapacitante.",
+    "deve contribuir para o RPPM à alíquota de catorze por cento sobre o valor total de sua remuneração, e Maria é isenta de contribuição até o valor do dobro do teto de benefícios do regime geral de previdência social (RGPS).",
+    "é segurado obrigatório do RPPM e Maria também, mas esta só contribuirá se seus proventos ultrapassarem o teto de benefícios do regime geral de previdência social (RGPS).",
+    "é isento de contribuição até o valor do salário mínimo e Maria deve contribuir para o RPPM se o valor de seus proventos ultrapassar quatro vezes o teto de benefícios do regime geral de previdência social (RGPS)."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-092",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 7,
+   "tipo": "multipla_escolha",
+   "enunciado": "Um servidor do município do Recife que tenha tomado posse no serviço público municipal em 2022 e entrado em exercício nesse mesmo ano, deve cumprir, cumulativamente, para poder se aposentar voluntariamente, os seguintes requisitos:",
+   "gabarito": "d",
+   "alternativas": [
+    "ter sessenta e dois anos de idade, vinte e cinco anos de contribuição, desde que cumpridos dez anos de efetivo serviço público e cinco anos de efetivo exercício no cargo.",
+    "ter sessenta e um anos de idade, trinta anos de contribuição, desde que cumpridos quinze anos no serviço público e dez anos de efetivo exercício no cargo.",
+    "ter sessenta e cinco anos de idade, trinta anos de contribuição, desde que cumpridos cinco anos de efetivo exercício no serviço público e dez anos de efetivo exercício no cargo.",
+    "ter sessenta e quatro anos de idade, vinte e cinco anos de contribuição, desde que cumpridos dez anos de efetivo serviço público e cinco anos de efetivo exercício no cargo.",
+    "ter sessenta e três anos de idade, trinta e cinco anos de contribuição, desde que cumpridos quinze anos de efetivo serviço público e cinco anos de efetivo exercício no cargo."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-093",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 7,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação ao regime de previdência complementar do município do Recife, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Procurador de município de outra unidade federativa que assume sem solução de continuidade o cargo de procurador do município do Recife tem direito a não se submeter ao limite máximo para aposentadoria e pensão instituído pela Lei Municipal n.o 18.810/2021, quando se aposentar.",
+    "Contribuições são os valores vertidos ao plano de benefícios previdenciários complementares pelos participantes; e patrocínio diz respeito às contribuições vertidas pelo município do Recife, considerado patrocinador.",
+    "Nos planos de benefícios constantes do regulamento do regime de previdência complementar do município do Recife, são admitidas as modalidades de contribuição definida e variável.",
+    "Submetem-se ao limite máximo para aposentadorias e pensões, bem como são participantes obrigatórios do regime de previdência complementar do Recife os servidores municipais que ingressaram no serviço público municipal após a edição da Lei Municipal n.o 18.810/2021, que instituiu esse regime.",
+    "É vedado ao servidor exclusivamente ocupante de cargo em comissão a adesão ao regime previdenciário complementar do município do Recife."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-094",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 7,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere à contagem recíproca de tempo de serviço e de contribuição e à respectiva compensação financeira entre regimes previdenciários, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "É admitida a contagem de tempo de serviço unicamente para efeito de disponibilidade do servidor público.",
+    "Se o servidor, enquanto empregado, tiver prestado serviço remunerado a ente federativo, o respectivo tempo de contribuição dispensa a emissão da certidão de tempo de contribuição.",
+    "É admitida a desaverbação de tempo em regime próprio de previdência social quando o tempo averbado tiver gerado a concessão de vantagens remuneratórias ao servidor público em atividade, para fins de contagem recíproca.",
+    "No sistema de compensação financeira entre regimes de previdência, a União é o órgão central.",
+    "Caso empregado vinculado ao RGPS se aposente em regime próprio de previdência, este será considerado o regime de origem do benefício previdenciário e aquele o regime instituidor, que deu origem ao direito previdenciário."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-095",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 7,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o princípio da seletividade dos benefícios e serviços,",
+   "gabarito": "e",
+   "alternativas": [
+    "apenas algumas prestações sociais serão devidas à população.",
+    "a saúde e a assistência social não integram a seguridade social.",
+    "as prestações da seguridade social devem ser fornecidas apenas aos trabalhadores que contribuem para o sistema.",
+    "somente pessoas carentes terão direito a prestações da seguridade social.",
+    "somente alguns riscos sociais serão custeados pela seguridade social."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-096",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 8,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base na legislação atual e jurisprudência majoritária com relação ao contrato de trabalho terceirizado, é correto afirmar que",
+   "gabarito": "a",
+   "alternativas": [
+    "a pessoa física pode contratar empresa de prestação de serviços para realização de sua atividade principal.",
+    "ao terceirizado é vedado o regime de teletrabalho em razão da incompatibilidade entre os institutos.",
+    "a pessoa jurídica cujo sócio, já aposentado, tenha prestado serviços à contratante na qualidade de empregado nos últimos dezoito meses não pode ser contratada como terceirizada.",
+    "é obrigatória, nos termos da lei, a equivalência salarial entre o empregado terceirizado e o empregado do tomador de serviços que exerça a mesma atividade.",
+    "o mero inadimplemento das obrigações trabalhistas assumidas pela prestadora de serviços contratada enseja a responsabilidade subsidiária do ente da administração pública que se beneficiou da força de trabalho."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-097",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 8,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em virtude de problemas econômicos, um dos setores da empresa XY Ltda. foi extinto. Por essa razão, a sociedade determinou a realocação de todos os empregados do setor, oferecendo capacitação e adaptação conforme suas capacidades de trabalho, com manutenção dos salários. O novo setor se localiza no mesmo endereço do extinto, porém um dos empregados se negou, injustificadamente, a mudar para o espaço designado, motivo por que recebeu advertência e, posteriormente, foi suspenso. Com base na situação hipotética apresentada, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "O empregado não poderia ter sido advertido ou suspenso em razão da negativa de ir para o novo espaço, porquanto a alteração de seu contrato de trabalho somente poderia ter sido feita com mútuo consentimento.",
+    "Conforme a Consolidação das Leis do Trabalho (CLT), em virtude da transferência, os empregados que mudaram de setor terão direito a acréscimo salarial de 25%.",
+    "A alteração de setor somente poderia ter sido realizada após negociação coletiva com participação do Ministério Público.",
+    "A alteração do contrato pela empresa foi ilícita e arbitrária, sendo passível de gerar pedido pelo empregado advertido de indenização por danos morais.",
+    "Diante da negativa do empregado e da gradação de penalidades demonstrada, o empregado poderá ser demitido por justa causa."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-098",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 8,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta em relação ao direito de greve.",
+   "gabarito": "c",
+   "alternativas": [
+    "A declaração de abusividade do movimento grevista não impede o estabelecimento de vantagens e garantias aos participantes da greve.",
+    "Nos termos da legislação, é proibida a greve de trabalhadores que laborem em atividades consideradas essenciais.",
+    "A manutenção da paralisação após a celebração de acordo é causa para rescisão do contrato laboral e contratação de trabalhadores substitutos.",
+    "Constitui abuso ao exercício do direito de greve a paralisação que tenha por objeto exigir o cumprimento de cláusula durante a vigência de sentença normativa.",
+    "É abusiva a suspensão do contrato de trabalho do empregado em virtude de sua participação em greve."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-099",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 8,
+   "tipo": "multipla_escolha",
+   "enunciado": "Das decisões proferidas no processo trabalhista, cabe(m) I embargos. II recurso ordinário. III agravo. IV apelação. V recurso de revista. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas os itens I, III e V estão certos.",
+    "Apenas os itens II, III e IV estão certos.",
+    "Apenas os itens I, II, III e V estão certos.",
+    "Apenas os itens II, III, IV e V estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pgm-recife-procurador-100",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 8,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que concerne ao dissídio individual, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Dissídio individual em desfavor de autarquia, cujo valor não exceda a quarenta vezes o salário mínimo vigente na data do ajuizamento da reclamação, ficará submetido ao procedimento sumaríssimo.",
+    "Em audiência, é facultado ao reclamado fazer-se substituir por preposto que necessariamente seja seu empregado, sob pena de confissão.",
+    "A ausência do reclamante à audiência sem motivo legalmente justificável tem como consequência o arquivamento da reclamação, além de sua condenação ao pagamento das custas processuais.",
+    "A ausência do reclamado em audiência importará na aplicação dos efeitos da revelia, ainda que o litígio verse sobre direitos indisponíveis.",
+    "A exceção de incompetência territorial deverá ser apresentada no prazo de oito dias a contar da notificação, antes da audiência e em peça que sinalize a existência de exceção."
+   ]
+  }
+ ]
+}

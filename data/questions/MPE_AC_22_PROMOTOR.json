@@ -1,0 +1,1751 @@
+{
+ "evento": "MPE_AC_22_PROMOTOR",
+ "banca": "Cebraspe",
+ "orgaos": [
+  "Ministério Público do Estado do Acre"
+ ],
+ "cargos": [
+  "PROMOTOR DE JUSTIÇA SUBSTITUTO"
+ ],
+ "assuntos": [
+  "GRUPO TEMÁTICO I",
+  "GRUPO TEMÁTICO II",
+  "GRUPO TEMÁTICO III",
+  "GRUPO TEMÁTICO IV"
+ ],
+ "provas": [
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/MPE_AC_22_PROMOTOR/arquivos/681_MPEAC_001_01.PDF"
+  }
+ ],
+ "itens": [
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-001",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da aplicação da lei penal, assinale a opção correta, de acordo com o entendimento doutrinário e jurisprudencial dominantes.",
+   "gabarito": "b",
+   "alternativas": [
+    "A lei penal mais grave retroagirá para atingir o crime permanente, se a sua vigência for anterior à cessação da permanência, mas esse entendimento não se aplicará ao crime continuado, pois se trata de ficção jurídica que incide sobre crimes já consumados.",
+    "A lei nova que proíba a extradição por determinada infração penal será retroativa.",
+    "A retroatividade da lei não se aplica à hipótese em que haja redução da pena de multa, pois sua natureza é extrapenal.",
+    "Não retroagirá a lei que, sem modificar o quantum da pena, altere a sua modalidade de detenção para prisão simples.",
+    "Não retroagirá a lei que inclua uma hipótese de inimputabilidade se essa inovação legislativa estabelecer a aplicação de medida de segurança para a mesma situação."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-002",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Tendo em vista que os tipos penais recebem diversas classificações doutrinárias, assinale a opção correta a esse respeito.",
+   "gabarito": "e",
+   "alternativas": [
+    "Os tipos congruentes apresentam simetria entre o elemento objetivo e o subjetivo, como ocorre nos crimes preterdolosos.",
+    "Os tipos simples são aqueles cuja conduta nuclear pode ser praticada por apenas um agente, tal como previsto no homicídio.",
+    "Os tipos fundamentais estabelecem a conduta básica caracterizadora da infração penal e são previstos sempre no caput do dispositivo legal.",
+    "Os tipos abertos demandam do operador do direito conhecimento que ultrapasse o teor literal da norma para a sua completa integração, como nos casos de leis penais em branco.",
+    "Os tipos preventivos são aqueles que antecipam a tutela penal, punindo condutas que servem, em regra, como preparação para outros delitos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-003",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Júlio, recém-habilitado para a condução de veículos automotores, pegou emprestado o carro de seu pai, Pedro, para ir a um evento. Pouco tempo depois, ao tentar fazer uma ultrapassagem, Júlio invadiu a calçada, atropelou e matou uma criança que se encontrava parada em um ponto de ônibus. Acerca dessa situação hipotética e de aspectos legais a ela pertinentes, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Pedro não poderá ser responsabilizado pela conduta de Júlio, porque o ordenamento jurídico pátrio não admite o concurso de pessoas nos delitos culposos.",
+    "Pedro deverá ser responsabilizado pela sua conduta negligente, na condição de partícipe.",
+    "Os crimes culposos admitem a coautoria e a participação, porém, na hipótese em apreço, Pedro não deverá ser responsabilizado, pois sua conduta não deu causa ao resultado.",
+    "O ordenamento jurídico brasileiro não admite a participação em crime culposo, e Pedro não poderá ser responsabilizado, porquanto não violou nenhum dever jurídico apto a gerar consequências penais.",
+    "Pedro e Júlio são igualmente coautores do homicídio culposo, porquanto deram causa ao resultado em razão da falta do dever de cuidado objetivo, presente na conduta de ambos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-004",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Lúcio, após ter ingerido bebida alcóolica, foi parado em uma blitz . Os policiais constataram a existência de claros sinais de embriaguez, porém Lúcio insistiu em que fosse realizado o exame do etilômetro, o qual constatou a presença de concentração alcoólica cinco vezes acima do limite exigido para a caracterização do crime de embriaguez ao volante. Após o teste, Lúcio admitiu o consumo de álcool. Nessa situação hipotética, segundo a jurisprudência do STJ, caso venha a ser condenado, Lúcio",
+   "gabarito": "d",
+   "alternativas": [
+    "não poderá ter a pena base aumentada devido à alta concentração de álcool constatada pelo exame do etilômetro, e será possível o reconhecimento da atenuante da confissão.",
+    "poderá ter a pena atenuada pela confissão espontânea e, também, pela realização voluntária do exame do etilômetro.",
+    "não poderá ter a pena atenuada pela confissão espontânea, pois houve a constatação do crime por prova técnica.",
+    "poderá ter a pena base aumentada devido à alta concentração de álcool constatada pelo exame do etilômetro, e a realização voluntária do teste não autorizará o reconhecimento da atenuante inominada, caso tenha havido a confissão do agente.",
+    "não poderá ter a pena base aumentada devido à alta concentração de álcool constatada pelo exame do etilômetro, e não será possível o reconhecimento da atenuante da confissão, já suprida pela prova técnica."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-005",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Paulo, nascido em 5/1/1994, praticou, em 2/1/2017, os delitos de furto qualificado pelo concurso de agentes, conforme dispositivo do Código Penal, e corrupção de menor, segundo dispositivo do Estatuto da Criança e do Adolescente. A denúncia pertinente foi recebida em 10/2/2017. A sentença, publicada em 15/3/2019, julgou procedente a pretensão punitiva e condenou Paulo, por ambas as infrações, às penas mínimas de: dois anos de reclusão pelo furto e um ano de reclusão pela corrupção de menor. Contudo, foi reconhecido o concurso formal, e a pena final foi consolidada em dois anos e quatro meses de reclusão. Não houve recurso, e a condenação transitou em julgado no dia 20/4/2019. Acerca dessa situação hipotética, desconsideradas quaisquer informações nela não contidas, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Está prescrita a pretensão punitiva unicamente em relação à corrupção de menor, pois, entre a data do fato e o recebimento da denúncia, foi ultrapassado o prazo legal.",
+    "Está prescrita a pretensão punitiva em relação a ambos os delitos, pois, entre a data do recebimento da denúncia e a publicação da sentença condenatória, foi ultrapassado o prazo legal.",
+    "Está prescrita a pretensão punitiva unicamente em relação à corrupção de menor, pois, entre a data do recebimento da denúncia e a publicação da sentença condenatória, foi ultrapassado o prazo legal.",
+    "Não está prescrita a pretensão punitiva em relação a nenhum dos crimes, pois o prazo legal não foi ultrapassado entre nenhum dos marcos interruptivos.",
+    "Está prescrita a pretensão punitiva em relação a ambos os delitos, pois, entre a data do fato e o recebimento da denúncia, foi ultrapassado o prazo legal."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-006",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Amanda estava em um ponto de ônibus, quando foi surpreendida por um indivíduo que, munido de arma de fogo, subtraiu-lhe a bolsa mediante grave ameaça. Após garantir a posse dos pertences da vítima, o agente, ainda se valendo da arma de fogo, constrangeu-a a fornecer a senha de seu cartão bancário, a fim de sacar dinheiro de sua conta-corrente, e, em seguida, fugiu. Nessa situação hipotética, de acordo com a jurisprudência dos tribunais superiores, o agente criminoso praticou",
+   "gabarito": "a",
+   "alternativas": [
+    "roubo e extorsão, em concurso material.",
+    "um único roubo.",
+    "roubo e extorsão, em concurso formal.",
+    "roubo e constrangimento ilegal, em concurso formal.",
+    "roubo e extorsão, em continuidade delitiva."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-007",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Gabriel, lutador profissional de boxe na categoria peso pesado, assistia a um jogo de futebol em um bar. Em determinado momento, inconformado com a derrota de seu time, desferiu um soco na cabeça de uma mulher que estava ao seu lado e que também lamentava o resultado negativo, causando-lhe a morte. Nessa situação hipotética, conforme a jurisprudência dos tribunais superiores,",
+   "gabarito": "e",
+   "alternativas": [
+    "caracterizado o dolo eventual, Gabriel deverá responder por homicídio qualificado por motivo torpe.",
+    "Gabriel deverá responder por homicídio simples, sendo afastada a qualificadora relacionada ao motivo fútil, pela sua incompatibilidade com o dolo eventual.",
+    "caracterizada a violenta emoção, Gabriel deverá responder por homicídio privilegiado.",
+    "por se tratar de vítima do sexo feminino, Gabriel deverá responder por feminicídio.",
+    "caracterizado o dolo eventual, Gabriel deverá responder por homicídio qualificado por motivo fútil."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-008",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Mauro é proprietário de uma residência localizada nas proximidades de uma lagoa. No lote vizinho, funciona um hospital veterinário, legalmente constituído na forma da lei civil. Em comum acordo, Mauro e o proprietário do hospital veterinário decidiram ampliar os limites dos fundos de ambos os lotes e, para isso, construíram extensão dos respectivos muros, destruindo uma área de Mata Atlântica, razão pela qual o Ministério Público ofereceu denúncia contra ambos. Acerca dessa situação hipotética, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "A pena dos agentes criminosos poderá ser agravada se a conduta tiver sido praticada em sábado, domingo ou feriado.",
+    "A pena a ser aplicada à pessoa jurídica poderá ser atenuada caso ela seja mantida, total ou parcialmente, por verbas públicas ou beneficiada por incentivos fiscais.",
+    "Caso o hospital veterinário seja condenado, não será possível a imposição da pena de prestação de serviços à comunidade, por se tratar de pessoa jurídica.",
+    "Mauro poderá ter a pena: atenuada, se ficar caracterizado o seu baixo grau de instrução; agravada, se a conduta houver sido cometida à noite.",
+    "A suspensão total de atividades não poderá ser aplicada ao hospital veterinário em caso de condenação criminal, haja vista a ausência de previsão legal."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-009",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação ao acordo de não persecução penal (ANPP), assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "O Ministério Público é obrigado a notificar o investigado no caso de recusa do oferecimento do ANPP.",
+    "O magistrado pode determinar compulsoriamente que o Ministério Público ofereça o acordo, caso verifique a presença dos requisitos legais para tanto.",
+    "Não é cabível o ANPP na prática de crime cometido com grave ameaça, ainda que a pena mínima seja inferior a quatro anos.",
+    "O ANPP constitui direito subjetivo do investigado.",
+    "O ANPP só se aplica aos fatos ocorridos posteriormente à entrada em vigor da Lei n.o 13.964/2019."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-010",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando o princípio da congruência no processo penal, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "As regras de emendatio libelli e mutatio libelli não se aplicam às qualificadoras, devendo tais normas ser adotadas apenas no que se refere às circunstâncias elementares do tipo penal base.",
+    "O juízo competente deve ser definido de acordo com o pedido feito pelo dominus litis .",
+    "O oferecimento da ação penal que implique tipo penal diverso do correto resulta, por si só, na possibilidade de rejeição da denúncia.",
+    "O tribunal de justiça pode realizar eventual mutatio libelli , caso verifique a necessidade de uma nova definição jurídica ao fato delituoso, em razão de circunstância elementar não narrada na denúncia.",
+    "Caso o juiz julgue necessária uma nova definição jurídica do fato, sendo aplicada, assim, pena mais grave, sem que haja, entretanto, modificação da descrição do fato narrado na denúncia, poderá ele proferir decisão sem precisar abrir vista para manifestação da defesa."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-011",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A., residente em Xapuri-AC, praticou injúria contra B., residente em Cruzeiro do Sul – AC, local em que tomou conhecimento das ofensas, que ocorreram por via de aplicativo de mensagens diretas da Internet. O servidor de Internet de ambos está sediado na capital do estado, Rio Branco, e, conforme apurado, a mensagem foi enviada diretamente, não tendo sido feita por nenhum meio de divulgação pública. Nesse caso, a competência para julgar o ato delituoso será a justiça",
+   "gabarito": "d",
+   "alternativas": [
+    "federal, em Cruzeiro do Sul – AC.",
+    "federal, em Rio Branco – AC.",
+    "estadual, em Xapuri – AC.",
+    "estadual, em Cruzeiro do Sul – AC.",
+    "estadual, em Rio Branco – AC."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-013",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considera-se prova ilícita",
+   "gabarito": "e",
+   "alternativas": [
+    "o dado obtido mediante o acesso, sem prévia ordem judicial, a aparelho telefônico encontrado no interior de estabelecimento prisional.",
+    "o documento apresentado um dia útil antes da abertura de prazo para as alegações finais da defesa.",
+    "a gravação ambiental realizada por um dos interlocutores sem conhecimento do outro, quando não versar sobre causa legal de sigilo ou reserva de conversação.",
+    "o termo circunstanciado lavrado por soldado da Polícia Militar e que tenha sido diretamente encaminhado ao Ministério Público e servido de base para a persecução penal.",
+    "a resultante da prática do fishing expedition na busca e apreensão."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-014",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que diz respeito às prisões preventivas, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Caberá prisão preventiva quando houver dúvida sobre a identidade civil da pessoa.",
+    "O transcurso do prazo de 90 dias, sem que haja expressa renovação do mandado de prisão, torna automaticamente ilegal a prisão.",
+    "A prisão preventiva poderá ser decretada com a finalidade de antecipação do cumprimento da pena.",
+    "Em nenhuma hipótese é permitida prisão preventiva caso a pena máxima do crime seja inferior ou igual a 4 anos.",
+    "A prisão preventiva pode ser decretada de ofício pelo juiz, desde que ocorra durante a ação penal."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-015",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Na hipótese de o juiz recusar homologação à proposta de acordo de não persecução penal (ANPP), cabe interposição de",
+   "gabarito": "d",
+   "alternativas": [
+    "apelação.",
+    "agravo.",
+    "recurso inominado dirigido ao órgão superior do Ministério Público.",
+    "recurso em sentido estrito.",
+    "carta testemunhável."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-016",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Podem participar do mesmo conselho de sentença",
+   "gabarito": "e",
+   "alternativas": [
+    "indivíduos que sejam cunhados entre si.",
+    "sogro e nora.",
+    "avô e neto.",
+    "marido e mulher.",
+    "indivíduos que sejam primos entre si."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-017",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Quatro indivíduos, presos condenados a pena privativa de liberdade, participaram de movimento para subverter a disciplina do estabelecimento prisional. Nessa situação hipotética,",
+   "gabarito": "e",
+   "alternativas": [
+    "para evitar tratamento desigual entre os presos, será permitida sanção coletiva.",
+    "não havendo dano ao patrimônio público, admitir-se-á a sanção de advertência ou repreensão.",
+    "os quatro indivíduos poderão ser incluídos no regime disciplinar diferenciado por ato motivado do diretor do presídio.",
+    "será vedado o isolamento dos presos na cela, por essa medida constituir violação da dignidade da pessoa humana.",
+    "a sanção poderá consistir em suspensão ou restrição de direitos, como a de recebimento de correspondência e(ou) de visitas."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-018",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação à Lei de Execução Penal (LEP), assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "A execução da pena privativa de liberdade ficará sujeita à forma regressiva quando o condenado praticar crime doloso, independentemente de sua prévia oitiva.",
+    "Juntado aos autos relatório de verificação da cessação da periculosidade do agente, serão ouvidos, sucessivamente, o curador, o defensor e o Ministério Público, e então os autos serão conclusos para decisão.",
+    "Publicada a portaria do indulto, o juiz deverá aguardar manifestação do conselho penitenciário e, após parecer do Ministério Público, extinguir a pena ou fazer a comutação desta.",
+    "A penitenciária feminina terá de manter creche para crianças maiores de seis meses e menores de sete anos, com a finalidade de assistir a criança desamparada cuja responsável esteja presa.",
+    "Praticada pelo liberado nova infração penal, o juiz poderá revogar o livramento condicional, dando vista ao Ministério Público e ao conselho penitenciário para manifestação."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-019",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Aldo cumpre pena em regime fechado e sua mãe está acometida de grave doença. Ruy, que está em regime semiaberto, cumprindo pena por crime hediondo com resultado morte, foi aprovado em vestibular do curso de direito. Nessas situações hipotéticas,",
+   "gabarito": "b",
+   "alternativas": [
+    "Aldo terá direito a permissão de saída sem escolta e Ruy não terá direito a saída temporária.",
+    "Aldo terá direito a permissão de saída mediante escolta e Ruy não terá direito a saída temporária.",
+    "Ruy e Aldo terão direito a saída temporária sem escolta.",
+    "Aldo e Ruy não terão direito a autorização de saída do estabelecimento prisional.",
+    "Ruy e Aldo terão direito a permissão de saída sem escolta."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-020",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conf orme o que a LEP prevê relativamente ao preso e ao egresso, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "A concessão de alojamento e alimentação ao egresso pelo prazo de dois meses poderá ser prorrogada uma vez, desde que seja comprovado o empenho dele na obtenção de emprego.",
+    "A assistência à saúde do preso e do internado de caráter preventivo e curativo compreenderá atendimento médico, psicológico e odontológico.",
+    "O estudo será obrigatório, integrando-se ao sistema escolar municipal, mas mantido pela administração penitenciária.",
+    "Consideram-se egressos o liberado definitivo e o liberado condicional, desde sua saída até a sua reabilitação.",
+    "A assistência material é dever da administração, sendo vedada a comercialização de produtos dentro do estabelecimento prisional."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-021",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Tendo em vista as disposições da LEP relativas ao trabalho do preso, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "O trabalho do preso não está sujeito ao regime da CLT, mas a ele é assegurada remuneração não inferior ao salário-mínimo.",
+    "Para o preso provisório, o trabalho é obrigatório e permite a remição da pena, mas só poderá ser executado no interior do estabelecimento prisional.",
+    "A administração pública não poderá adquirir, ainda que participando de concorrência pública, os bens e produtos do trabalho prisional, os quais deverão ser destinados a venda ou a leilão para particulares.",
+    "O trabalho pode ser gerenciado por empresa pública, a qual tem autonomia para supervisionar a produção com métodos empresariais, encarregar-se da comercialização e suportar despesas, como o pagamento de remuneração adequada.",
+    "A jornada normal de trabalho não poderá ser inferior a quatro nem superior a oito horas, com descanso preferencialmente aos domingos e feriados."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-022",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "W., enquadrado na lei de violência doméstica contra sua ex-companheira, descumpriu as medidas protetivas de urgências deferidas judicialmente em seu desfavor. Nessa situação hipotética,",
+   "gabarito": "c",
+   "alternativas": [
+    "W. responderá pelo crime de desobediência previsto no Código Penal, sem prejuízo das demais sanções cíveis.",
+    "se W. for militar, ele perderá o direito de posse e de porte de arma de fogo, a qual deverá ser entregue ao seu superior imediato na corporação.",
+    "caso ocorra a prisão em flagrante de W., apenas a autoridade judicial poderá arbitrar a fiança.",
+    "haverá crime desde que as medidas protetivas de urgência tenham sido deferidas por juízo de competência criminal.",
+    "o crime cometido por W. é inafiançável, cabendo ao Ministério Público manifestar-se a respeito de sua prisão preventiva."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-023",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Caso seja configurada situação de violência doméstica com violência sexual contra a mulher,",
+   "gabarito": "a",
+   "alternativas": [
+    "a ofendida terá acesso a contracepção de emergência, a profilaxia de DSTs e a procedimentos médicos necessários.",
+    "o juiz assegurará à vítima, se necessário o seu afastamento do local de trabalho, a manutenção do vínculo trabalhista enquanto durar a situação de violência.",
+    "a vítima será incluída em programas assistenciais do governo federal, estadual e municipal, por prazo indeterminado.",
+    "o agressor fará jus ao reconhecimento de atenuante da pena aplicada se ressarcir ao SUS os custos relativos aos serviços de saúde prestados para o total tratamento da ofendida.",
+    "a ofendida terá preferência na matrícula dos filhos em instituição de educação infantil próxima ao seu domicílio, mediante declaração da situação de vulnerabilidade."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-024",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "À luz do disposto na Lei n.o 11.340/2006, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Nas ações penais privadas e nas ações públicas condicionadas, a desistência ocorre em audiência designada para tal finalidade, após manifestação do Ministério Público.",
+    "A mulher vítima de violência doméstica pode propor a ação de divórcio no juizado de violência doméstica e familiar contra a mulher, inclusive para solucionar a partilha de bens.",
+    "A acareação entre indivíduo agressor e vítima será realizada na presença da autoridade policial que zelará pela integridade física da vítima.",
+    "A mulher vítima de violência doméstica tem direito a um atendimento policial e pericial capacitado, feito em etapas e prestado por servidores preferencialmente do sexo feminino.",
+    "Havendo risco de violência doméstica, o indivíduo agressor será afastado do lar pelo policial, quando o município não for sede de comarca e não houver delegado disponível."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-025",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando a jurisprudência do STJ acerca da Lei n.o 11.340/2006, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Admite-se a prisão preventiva do autor de contravenção penal caso o ato seja praticado no âmbito de violência doméstica.",
+    "Descaracteriza a violência doméstica contra a mulher, afastando a aplicação da Lei Maria da Penha, a agressão cometida por ex-namorado.",
+    "A reconciliação entre a vítima e o indivíduo agressor, no âmbito da violência doméstica, é suficiente para afastar a necessidade de reparação dos danos causados pelo crime.",
+    "É possível a aplicação dos dispositivos da Lei Maria da Penha à violência praticada por irmão contra irmã, ainda que eles não residam mais sob o mesmo teto.",
+    "A ação penal relativa aos crimes de ameaça e de lesão corporal resultante de violência doméstica contra a mulher é pública condicionada à representação."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-026",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Estado Liberal do Direito, em contraposição ao Estado Constitucional de Direito, caracteriza-se",
+   "gabarito": "c",
+   "alternativas": [
+    "pela existência de Constituição rígida.",
+    "pela força normativa da Constituição.",
+    "pelo princípio da legalidade como axioma prevalente.",
+    "pela aplicação direta das normas constitucionais.",
+    "pela garantia judicial da Constituição."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-027",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No julgamento da ADI 815 (Rel. Moreira Alves, DJ 10/5/1996), o STF julgou importante questão jurídica sobre interpretação das normas constitucionais. Observe o seguinte trecho da ementa: A tese de que há hierarquia entre normas constitucionais originárias dando azo a declaração de inconstitucionalidade de umas em face de outras é incompossível com o sistema de Constituição rígida. — Na atual Carta Magna “compete ao Supremo Tribunal Federal, precipuamente, a guarda da Constituição” (art. 102, caput ), o que implica dizer que essa jurisdição lhe é atribuída para impedir que se desrespeite a Constituição como um todo, e não para, com relação a ela, exercer o papel de fiscal do poder constituinte originário, a fim de verificar se este teria, ou não, violado os princípios de direito suprapositivo que ele próprio havia incluído no texto da mesma Constituição. Conforme o excerto acima, é correto afirmar que o STF, para concluir pela impossibilidade do controle de constitucionalidade sobre norma constitucional originária, tendo como parâmetro outra norma constitucional originária, utilizou o princípio de interpretação constitucional denominado",
+   "gabarito": "e",
+   "alternativas": [
+    "princípio da interpretação das leis conforme a Constituição.",
+    "princípio da força normativa da Constituição.",
+    "princípio da razoabilidade de proporcionalidade.",
+    "princípio da supremacia da Constituição.",
+    "princípio da unidade da Constituição."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-028",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O fenômeno da colisão de normas constitucionais caracteriza-se pela I insuficiência de critérios tradicionais de solução de conflitos. II adequação da técnica de subsunção para decidir casos concretos. III necessidade de ponderação para encontrar resultado adequado. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-029",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Previstas na Constituição Federal de 1988 (CF), as prerrogativas dos deputados federais",
+   "gabarito": "c",
+   "alternativas": [
+    "incluem a inviolabilidade civil e penal por quaisquer opiniões, palavras e votos, ainda que o parlamentar esteja licenciado para o exercício de cargo no Poder Executivo.",
+    "são privilégios destinados à proteção de interesses pessoais desses parlamentares.",
+    "compreendem o foro por prerrogativa de função e a isenção do serviço militar.",
+    "não se aplicam aos deputados estaduais.",
+    "aplicam-se aos deputados estaduais apenas se estiverem previstas na Constituição estadual."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-030",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Julgue os itens a seguir, referentes ao controle incidental de constitucionalidade. I Os legitimados para provocar a jurisdição constitucional abrangem qualquer das partes envolvidas em controvérsia judicial, inclusive terceiros intervenientes (litisconsortes, assistentes, opoentes etc.) e o Ministério Público que oficie no feito. II O controle em apreço pode ser incitado por juízo de primeiro grau nas causas submetidas a sua apreciação, mesmo quando as partes não o tiverem feito. III O controle em questão pode ser exercido por qualquer juiz ou tribunal com competência para julgar a causa, incluindo-se os juizados especiais e as turmas recursais de todo o país. Assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-031",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O STF, no Habeas Corpus n.o 69.657/SP, julgado em 18/12/1992, havia reconhecido a constitucionalidade do regime integralmente fechado para o cumprimento de penas por crime hediondo previsto no art. 2.o, parágrafo 1.o, da Lei n.o 8.072/1990 (Lei dos Crimes Hediondos) por ausência de violação ao princípio da individualização da pena (CF, art. 5.o, XLVI). Contudo, no julgamento do Habeas Corpus n.o 82.959/SP, em 23/2/2006, essa corte declarou a inconstitucionalidade do art. 2.o, parágrafo 1.o, da Lei n.o 8.072/1990, o qual vedava a progressão de regime, por afronta ao princípio da individualização da pena (CF, art. 5.o, XLVI). Na situação descrita anteriormente, ocorreu o fenômeno da",
+   "gabarito": "a",
+   "alternativas": [
+    "mutação constitucional.",
+    "não recepção.",
+    "desconstitucionalização.",
+    "aplicação do poder constituinte reformador.",
+    "repristinação."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-032",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Tipificada como medida excepcional, a intervenção de um estado federado em um de seus municípios poderá ocorrer quando",
+   "gabarito": "d",
+   "alternativas": [
+    "houver, sem justo motivo, impontualidade no pagamento de empréstimo garantido pelo referido estado.",
+    "deixar de ser paga, em qualquer hipótese, por dois anos consecutivos, a dívida fundada do município.",
+    "tal medida se destinar a garantir o livre exercício de qualquer um dos poderes municipais.",
+    "não tiver sido aplicado o mínimo exigido da receita municipal na manutenção e no desenvolvimento do ensino e nas ações e serviços públicos de saúde.",
+    "forem praticados, na administração municipal, atos de corrupção devidamente comprovados."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-033",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Levando em consideração as regras estabelecidas na Lei Orgânica do Ministério Público do Estado do Acre, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "A promotoria de justiça será obrigatoriamente cumulativa se os cargos que a integrarem contiverem na sua denominação indicativo de espécie de infração penal, de relação jurídica de direito civil ou de órgão jurisdicional com competência definida exclusivamente em razão da matéria.",
+    "As promotorias de justiça são órgãos de administração do Ministério Público com pelo menos um cargo de promotor de justiça e serviços auxiliares necessários ao desempenho das suas funções.",
+    "A exclusão, a inclusão ou outra modificação nas atribuições das promotorias de justiça ou dos cargos dos promotores que as integrem terão de ser efetuadas mediante proposta do Colégio de Procuradores, aprovada pelo procurador-geral.",
+    "As atribuições das promotorias de justiça e dos cargos dos promotores que as integrem serão fixadas por resolução do Colégio de Procuradores de Justiça, mediante proposta da Corregedoria-Geral.",
+    "É atribuição exclusiva do titular da promotoria manter o controle da assiduidade e do desempenho dos servidores das promotorias de justiça da comarca, remetendo ao procurador- geral, quando solicitado, relatório circunstanciado e individual relativo à atuação de cada um."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-034",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Marília foi aprovada em concurso público de provas e títulos para o cargo de promotor de justiça substituto do estado do Acre. Considerando essa situação hipotética, assinale a opção correta, conforme as disposições da Lei Orgânica do Ministério Público do Estado do Acre.",
+   "gabarito": "b",
+   "alternativas": [
+    "Marília terá direito a férias depois de contado um ano da sua entrada em efetivo exercício e, caso opte por gozá-las, o período em que ela permanecer afastada será contado para fins de vitaliciamento.",
+    "As férias que forem concedidas a Marília poderão ser suspensas por iniciativa do procurador-geral de justiça, em caso de necessidade de serviço, ressalvado o usufruto oportuno.",
+    "Se vier a ser promovida e, por essa razão, for obrigada a alterar seu domicílio legal, Marília terá direito a ajuda de custo para custear os gastos com a mudança, independentemente de comprovação de despesas.",
+    "Após cinco anos contados da sua entrada em exercício, se preenchidos os requisitos legais, Marília terá direito a licença- prêmio por assiduidade não indenizável, consistente em três meses de afastamento remunerado.",
+    "Marília poderá se afastar de suas atribuições por até quatro meses para elaborar dissertação de mestrado ou tese de doutorado, mediante aprovação prévia do procurador-geral de justiça."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-036",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em razão de uma intensa chuva, diversas casas de determinado município foram inundadas, o que obrigou os moradores a deixarem suas residências. Por essa razão, o prefeito do município cogitou abrigá-los no ginásio de uma escola particular que funciona na cidade. Nessa situação hipotética,",
+   "gabarito": "e",
+   "alternativas": [
+    "como a situação envolve aspectos meramente particulares, o prefeito não poderia transformar o ginásio em abrigo, sob pena de violação ao direito de propriedade.",
+    "o município poderia realizar a ocupação temporária do ginásio particular, independentemente de procedimento administrativo prévio, mas seria devida indenização ao particular caso se constatasse dano decorrente da utilização do referido espaço.",
+    "o município poderia realizar a requisição administrativa do ginásio particular, independentemente de procedimento administrativo prévio, até a extinção da situação de perigo, garantindo-se ao particular indenização pelo tempo de uso do bem.",
+    "o município poderia realizar a ocupação temporária do ginásio particular, independentemente de procedimento administrativo prévio, mas seria garantida ao particular indenização pelo tempo de uso do bem.",
+    "o município poderia realizar a requisição administrativa do ginásio particular, independentemente de procedimento administrativo prévio, até a extinção da situação de perigo, mas seria devida indenização ao particular caso se constatasse dano decorrente da utilização do citado espaço."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-037",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Determinado ente da Federação realizou a construção de uma estrada e, depois de concluída a obra, remanesceu área pública inaproveitável isoladamente, lindeira a imóvel de um particular. Nessa situação hipotética, considerando as disposições da Lei n.o 8.666/1993, a administração poderá se desfazer da área pública remanescente",
+   "gabarito": "d",
+   "alternativas": [
+    "mediante licitação na modalidade leilão, condicionada a autorização legislativa e avaliação prévia.",
+    "mediante licitação na modalidade leilão, condicionada unicamente a avaliação prévia.",
+    "por meio de investidura ao proprietário do imóvel lindeiro, por preço não inferior a 75% da avaliação e não superior ao valor máximo permitido para a dispensa de licitação de bens e serviços.",
+    "por meio de investidura ao proprietário do imóvel lindeiro, por preço não inferior ao da avaliação e não superior a 50% do valor máximo permitido para a modalidade convite, destinada a compra e serviços diversos de engenharia.",
+    "por meio de investidura ao proprietário do imóvel lindeiro, por preço não inferior ao da avaliação e não superior ao valor máximo permitido para a dispensa de licitação de bens e serviços."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-038",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em 5/1/2018, Bruno requereu à administração municipal autorização para promover o fechamento de uma via pública, com o intuito de realizar festa junina em 30/6/2018. Passados 120 dias do pedido, não houve nenhuma resposta do órgão competente. Nessa situação hipotética,",
+   "gabarito": "e",
+   "alternativas": [
+    "o silêncio administrativo não poderia ter sido interpretado como consentimento estatal, de forma que Bruno poderia ter ajuizado demanda judicial, a fim de obter do Poder Judiciário a autorização necessária.",
+    "o silêncio administrativo deveria ter sido interpretado como consentimento estatal, de forma que Bruno poderia ter promovido a festa nos termos que constavam do requerimento inicial.",
+    "o silêncio administrativo não poderia ter sido interpretado como consentimento estatal, porém o único meio de que Bruno dispunha para obrigar a manifestação administrativa seria peticionar diretamente ao órgão competente, pleiteando a análise do seu pedido.",
+    "o silêncio administrativo deveria ter sido interpretado como consentimento estatal, porém a realização do evento dependeria da mobilização das forças de segurança para garantir a paz pública.",
+    "o silêncio administrativo não poderia ter sido interpretado como consentimento estatal, razão por que Bruno poderia ter ajuizado demanda judicial a fim de obter do Poder Judiciário provimento que obrigasse a manifestação de vontade da administração."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-039",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Uma sociedade empresária venceu procedimento licitatório cuja finalidade era a realização de obra pública no estado do Acre. Nessa situação hipotética, conforme as regras da Lei n.o 8.666/1993,",
+   "gabarito": "d",
+   "alternativas": [
+    "por se tratar de procedimento impessoal de escolha, a obra deverá ser integral e necessariamente executada pelo vencedor da licitação, sob pena de burla aos princípios da administração pública.",
+    "admite-se a subcontratação parcial do objeto do contrato, até o limite autorizado pela administração, independentemente de previsão no edital do procedimento licitatório.",
+    "admite-se a subcontratação total do objeto do contrato, desde que haja autorização da administração.",
+    "admite-se a subcontratação parcial do objeto do contrato, até o limite autorizado pela administração, desde que haja previsão no edital de licitação e no contrato.",
+    "admite-se a subcontratação parcial do objeto do contrato, independentemente de autorização administrativa."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-040",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Segundo a teoria do ordenamento jurídico, entende-se por incoerência",
+   "gabarito": "b",
+   "alternativas": [
+    "a exclusão de todas as situações em que haja no sistema normas que se contradizem.",
+    "a existência, em um mesmo sistema, tanto da norma que proíbe um comportamento quanto da que o permite.",
+    "a inexistência, em um sistema, de norma que proíba e de norma que permita um comportamento.",
+    "a existência de um sistema pelo qual um ordenamento jurídico preveja uma norma para regular qualquer comportamento.",
+    "a exclusão de todas as situações em não pertence ao sistema nenhuma das normas que se contradizem."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-041",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A teoria segundo a qual o direito subjetivo constitui o poder ou domínio da vontade livre do homem que o ordenamento protege e confere é denominada teoria",
+   "gabarito": "e",
+   "alternativas": [
+    "do interesse.",
+    "da autonomia.",
+    "da garantia.",
+    "da pretensão.",
+    "da vontade."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-042",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação a regras e princípios, é correto afirmar que",
+   "gabarito": "d",
+   "alternativas": [
+    "regras colidem.",
+    "princípios conflitam.",
+    "conflito de princípios e de regras se resolve no âmbito da validade.",
+    "colisão de princípios se resolve na dimensão do valor.",
+    "conflito de regras se resolve na dimensão do peso."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-043",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O conceito de política como “o conjunto dos esforços que se faz em vista de participar do poder ou influenciar a divisão do poder entre os estados ou entre os diversos grupos no interior do mesmo Estado” foi definido por",
+   "gabarito": "a",
+   "alternativas": [
+    "Max Weber.",
+    "Immanuel Kant.",
+    "Nicolau Maquiavel.",
+    "Karl Marx.",
+    "Thomas Hobbes."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-044",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em determinado estado brasileiro, os seguintes agentes públicos praticaram, no exercício de suas funções, atos de improbidade administrativa: Lúcio, governador do estado; Ana, desembargadora do tribunal de justiça do estado; e Sandra, conselheira de tribunal de contas do estado. Nessa situação hipotética, segundo entendimento do Superior Tribunal de Justiça, a competência para processar e julgar as ações de improbidade administrativa será do",
+   "gabarito": "a",
+   "alternativas": [
+    "juízo de 1.a instância, nos casos de Lúcio, Ana e Sandra.",
+    "juízo de 2.a instância, nos casos de Ana e Sandra.",
+    "juízo de 2.a instância, no caso de Lúcio, apenas.",
+    "Superior Tribunal de Justiça, no caso de Lúcio.",
+    "Superior Tribunal de Justiça, no caso de Sandra."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-045",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Determinado agente público praticou ato de improbidade administrativa, com o envolvimento de pessoa jurídica de direito privado. Nessa situação hipotética, respondem por improbidade administrativa imputada à referida pessoa jurídica os",
+   "gabarito": "e",
+   "alternativas": [
+    "sócios, independentemente de sua participação no ato, dada a responsabilidade solidária.",
+    "sócios, pelo ato praticado, independentemente de qualquer participação ou benefício diretos, dada a responsabilidade subsidiária.",
+    "cotistas, independentemente de terem praticado o ato, dada a responsabilidade subsidiária.",
+    "diretores, pelo ato praticado, independentemente de qualquer participação.",
+    "diretores, nos limites da participação de cada um deles e caso tenha havido benefício direto."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-046",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Três agentes públicos, no exercício de suas funções, praticaram atos de improbidade administrativa: Pedro realizou operação financeira sem observância das normas legais e regulamentares; Lucas agiu ilicitamente na arrecadação de tributo; e Caio deixou de prestar contas, mesmo estando obrigado a fazê-lo e tendo condições de realizá-lo, com vistas a ocultar irregularidade. Nessa situação hipotética, conforme prevê a Lei n.o 8.429/1992, constitui conduta que atenta contra os princípios da administração pública aquela praticada por",
+   "gabarito": "b",
+   "alternativas": [
+    "Pedro, Lucas e Caio.",
+    "Caio, somente.",
+    "Pedro e Lucas, somente.",
+    "Lucas e Caio, somente.",
+    "Pedro, somente."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-047",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Três agentes públicos do estado do Acre, no exercício de suas funções, cometeram atos de improbidade administrativa: Frederico praticou ato que importou em enriquecimento ilícito; Rafael, um ato que causou prejuízo ao erário; e Josias, ato que atentou contra os princípios da administração pública. Nessa situação hipotética, nos termos da Lei n.o 8.429/1992, a penalidade de perda do cargo é aplicável a",
+   "gabarito": "b",
+   "alternativas": [
+    "Josias e Rafael, somente.",
+    "Rafael e Frederico, somente.",
+    "Frederico, somente.",
+    "Josias, somente.",
+    "Rafael, somente."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-048",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sílvia, Patrícia e Ricardo, agentes públicos do estado do Acre, cometeram ato de improbidade administrativa no mesmo dia, no exercício de suas funções: Sílvia cumpria mandato eletivo; Patrícia ocupava cargo comissionado; e Ricardo atuava em função de confiança. Nessa situação hipotética, eventual ação para a aplicação das sanções previstas na Lei n.o 8.429/1992 prescreverá no mesmo prazo no que diz respeito",
+   "gabarito": "c",
+   "alternativas": [
+    "a Sílvia, Patrícia e Ricardo, e a instauração de processo administrativo interromperá o curso do prazo prescricional.",
+    "a Sílvia, Patrícia e Ricardo, e o ajuizamento da ação de improbidade administrativa suspenderá o curso do prazo prescricional.",
+    "a Sílvia, Patrícia e Ricardo, e a publicação de eventual sentença condenatória de improbidade administrativa interromperá o curso do prazo prescricional.",
+    "apenas a Patrícia e Ricardo, e a instauração de processo administrativo suspenderá o curso do prazo prescricional.",
+    "apenas a Sílvia e Patrícia, e a instauração de processo administrativo suspenderá o curso do prazo prescricional."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-049",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Nos termos da Lei n.o 8.429/1992, em caso de processo judicial por ato de improbidade administrativa, é possível a decretação de",
+   "gabarito": "d",
+   "alternativas": [
+    "indisponibilidade de bens, desde que garantida a oitiva prévia do réu.",
+    "indisponibilidade de bens, desde que mediante representação do Ministério Público.",
+    "indisponibilidade de bens de família do réu, em qualquer situação.",
+    "indisponibilidade de bens, que deverá priorizar, por exemplo, veículos de via terrestre.",
+    "indisponibilidade de bens de qualquer valor depositado em caderneta de poupança."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-050",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A responsabilidade civil, em caso de ato de improbidade administrativa, é",
+   "gabarito": "c",
+   "alternativas": [
+    "objetiva, independentemente do tipo de ato de improbidade administrativa.",
+    "objetiva apenas em relação aos atos que causem prejuízo ao erário.",
+    "subjetiva em relação a todos os atos de improbidade administrativa.",
+    "objetiva apenas no que se refere aos atos que importem enriquecimento ilícito.",
+    "subjetiva apenas no que diz respeito aos atos que causem prejuízo ao erário."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-051",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "A ação de um empresário que concede, mediante remuneração, o uso de marca sua a terceiro, prestando os serviços de organização empresarial, caracteriza",
+   "gabarito": "a",
+   "alternativas": [
+    "uma franquia.",
+    "um arrendamento mercantil.",
+    "um mandato mercantil.",
+    "um leasing .",
+    "uma faturização."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-052",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "A obrigação cuja exigibilidade esteja subordinada a um evento futuro e certo é denominada obrigação",
+   "gabarito": "c",
+   "alternativas": [
+    "disjuntiva.",
+    "modal.",
+    "a termo.",
+    "condicionada.",
+    "de garantia."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-053",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "A lei civil estabelece impedimento ao casamento no caso de",
+   "gabarito": "d",
+   "alternativas": [
+    "a pretendente ser viúva e ter filho do cônjuge falecido.",
+    "os pretendentes serem o irmão do curador e a pessoa curatelada.",
+    "os pretendentes serem o sobrinho do tutor e a pessoa tutelada.",
+    "os pretendentes serem o adotado e o filho do adotante.",
+    "divorciado, enquanto não houver a partilha dos bens."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-054",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Se tiver motivo para duvidar da declaração de nascimento feita pelo genitor, o oficial poderá I intimar o médico que realizou o parto. II verificar os documentos do hospital em que ocorreu o nascimento. III ir à casa do recém-nascido verificar a sua existência. IV solicitar a presença em cartório do recém-nascido. V exigir o testemunho de duas pessoas quaisquer. Assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens II, III e IV estão certos.",
+    "Apenas os itens III, IV e V estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-055",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "O prazo para anular a constituição das pessoas jurídicas de direito privado conta-se do(a)",
+   "gabarito": "c",
+   "alternativas": [
+    "conhecimento da irregularidade.",
+    "assinatura do ato constitutivo.",
+    "publicação da inscrição no registro.",
+    "início das atividades.",
+    "primeira reunião deliberativa."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-056",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que concerne às normas sobre gestão pública, a LINDB estabelece que o intérprete considere",
+   "gabarito": "c",
+   "alternativas": [
+    "as dificuldades reais do gestor e as exigências das políticas públicas a seu cargo, bem como os princípios da eficiência e da economicidade.",
+    "os obstáculos do gestor, o interesse público e o princípio da eficiência.",
+    "os obstáculos e as dificuldades reais do gestor e as exigências das políticas públicas a seu cargo.",
+    "as dificuldades reais do gestor e a primazia da realidade nas relações.",
+    "os obstáculos e as dificuldades reais do gestor e o ato jurídico perfeito."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-057",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "É vedado o parcelamento do solo em terrenos",
+   "gabarito": "e",
+   "alternativas": [
+    "alagadiços.",
+    "com declividade superior a 30%.",
+    "sujeitos a inundações.",
+    "aterrados com material nocivo à saúde.",
+    "onde as condições geológicas não aconselhem a edificação."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-058",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca das despesas, dos honorários advocatícios, das multas e da gratuidade da justiça, assinale a opção correta com base no Código de Processo Civil (CPC) vigente e no entendimento dos tribunais superiores.",
+   "gabarito": "b",
+   "alternativas": [
+    "Suscitada a insuficiência de recursos por pessoa jurídica ou natural, deve ser presumida como verdadeira sua declaração para fins de concessão da gratuidade de justiça.",
+    "A gratuidade da justiça passou a poder ser concedida a estrangeiro não residente no Brasil após a entrada em vigor do atual CPC.",
+    "Não é admissível o deferimento de assistência judiciária gratuita a jurisdicionado que tenha firmado com seu advogado contrato de honorários com cláusula ad exitum .",
+    "Nas causas em que for inestimável ou irrisório o proveito econômico, os honorários advocatícios deverão ser fixados com base no valor da causa.",
+    "O indivíduo beneficiário da justiça gratuita que for derrotado na ação não terá responsabilidade pelas despesas processuais e pelos honorários decorrentes da sucumbência."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-059",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Um advogado que aufere mensalmente o salário de trinta mil reais propôs ação ordinária pelo procedimento comum contra o plano de saúde Z, com pedido de tutela provisória de urgência, a fim de obrigá-lo a custear cirurgia no montante de duzentos mil reais. Na decisão, o juízo, embora reconhecesse a existência da probabilidade do direito suscitado, condicionou a concessão da tutela provisória de urgência à prestação de caução equivalente a sessenta mil reais, visando ressarcir eventuais prejuízos que o plano de saúde Z pudesse sofrer caso houvesse a cessação de eficácia da medida. Nessa situação hipotética,",
+   "gabarito": "d",
+   "alternativas": [
+    "não cabe recurso contra a decisão judicial que condicionou a concessão de tutela provisória de urgência à prestação de caução.",
+    "a referida decisão judicial contrariou o CPC, uma vez que a caução exigível para a concessão de tutela provisória deve alcançar, no mínimo, 40% do valor econômico pretendido.",
+    "a caução exigida pelo juízo não tem fundamento legal no CPC, tendo sido fruto de uma construção jurisprudencial.",
+    "a decisão judicial que condicionou a concessão de tutela provisória de urgência à prestação de caução encontra-se amparada no CPC como forma de ressarcir os danos que o requerido possa vir a sofrer, em razão do deferimento da tutela.",
+    "somente seria admissível a exigência de caução de natureza real para fins de condicionar a concessão de tutela provisória de urgência."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-060",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Do relacionamento entre Mateus, servidor público, e Luísa, estudante de medicina, foi gerada Raquel, nascida em 2/9/2015. Mateus iniciou um novo relacionamento e rompeu com Luísa. Em 2021, diante da pouca ajuda financeira recebida do pai, Raquel, representada por sua mãe, ajuizou ação de alimentos na comarca de sua cidade, tendo o juiz fixado, em sentença, pensão alimentícia em um percentual de 35% dos ganhos líquidos do requerido, determinando ainda a sua incidência sobre o terço constitucional das férias e o décimo terceiro salário. Com o trânsito em julgado da decisão, foi deflagrado o cumprimento de sentença com pedido de prisão civil. A partir dessa situação hipotética, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "O débito alimentar que autoriza a prisão civil do devedor é o que compreende até as três prestações alimentares anteriores ao ajuizamento da execução, excluídas as que vencerem no curso do processo.",
+    "Segundo o STJ, o décimo terceiro salário e o terço constitucional de férias não comporão a base de cálculo da pensão alimentícia quando esta tiver sido estabelecida em percentual do salário do devedor.",
+    "Há proibição, no CPC, do desconto de mais de 30% dos ganhos líquidos do devedor de alimentos.",
+    "O cumprimento da pena de prisão isenta o executado do pagamento da dívida.",
+    "O atraso de uma só prestação alimentícia, compreendida entre as três últimas atuais devidas, já é hábil a autorizar o pedido de prisão do devedor, nos termos do CPC."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-061",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Um militar, para a defesa de seus direitos, impetrou mandado de segurança (MS) no STJ para questionar ato coator que, conforme sua alegação, teria sido praticado pelo comandante do Exército com abuso de poder, violando o seu direito líquido e certo. Embora a autoridade supostamente coatora tenha prestado informações e defendido o mérito do ato praticado, o relator do MS constatou que, na realidade, o responsável pela prática do ato teria sido um coronel subordinado hierarquicamente ao comandante. Os demais requisitos legais do writ constitucional foram todos atendidos. Considerando essa situação hipotética, assinale a opção correta à luz do entendimento do STJ acerca da disciplina do mandado de segurança e da teoria da encampação.",
+   "gabarito": "c",
+   "alternativas": [
+    "Na hipótese em apreço, ao defender o mérito nas informações, a autoridade apontada como coatora consentiu tacitamente com o ato questionado, razão pela qual é admissível a aplicação da teoria da encampação.",
+    "O STJ admite a aplicação da teoria da encampação para mitigar a indicação errônea da autoridade coatora, desde que não exista vínculo hierárquico entre a autoridade que prestou informações e a que ordenou a prática do ato impugnado, tampouco haja manifestação a respeito do mérito nas informações prestadas.",
+    "Não se aplica a teoria da encampação na situação hipotética em consideração, pois o erro na indicação do polo passivo implicou a modificação da competência constitucionalmente estabelecida.",
+    "Deve ser aplicada a teoria da encampação na hipótese em apreço, devendo o processo tramitar regularmente, uma vez que há hierarquia entre a autoridade que prestou as informações e a que praticou o ato.",
+    "Não se aplica a teoria da encampação na situação hipotética em questão, devendo o relator invalidar as informações prestadas e determinar o chamamento ao processo da autoridade correta."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-062",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta acerca da sentença e da coisa julgada.",
+   "gabarito": "c",
+   "alternativas": [
+    "É válida a fundamentação que emprega conceitos jurídicos indeterminados, sem explicar o motivo concreto de sua incidência no caso, desde que proferida em decisão interlocutória.",
+    "Os motivos fazem coisa julgada, pois eles são importantes para determinar o alcance da parte dispositiva da sentença.",
+    "A decisão que condenar o réu ao pagamento de prestação consistente em dinheiro e a que determinar a conversão de prestação de fazer, de não fazer ou de dar coisa em prestação pecuniária, mesmo que impugnadas por recurso dotado de efeito suspensivo, valerão como título constitutivo de hipoteca judiciária.",
+    "A questão prejudicial, decidida expressa e incidentemente no processo, fará coisa julgada mesmo se houver revelia.",
+    "Após a publicação da sentença, o juiz não poderá alterá-la de ofício."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-063",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conf orme o vigente CPC, nas causas que dispensem a f ase instrutória, o juiz, ao se deparar com pedido que contrarie enunciado de súmula do STF ou do STJ, deverá",
+   "gabarito": "c",
+   "alternativas": [
+    "determinar que o autor emende a inicial.",
+    "indeferir a petição inicial.",
+    "julgar liminarmente improcedente o pedido sem citar o réu.",
+    "suspender o processo.",
+    "citar o réu para apresentar contestação."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-065",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando que o Tribunal Superior Eleitoral publica, por meio de resolução, o calendário eleitoral para sistematizar os prazos previstos na legislação eleitoral a serem cumpridos pelos partidos políticos, candidatos e população em geral no ano das eleições, julgue os itens a seguir. I A data limite para a publicação das resoluções relativas às eleições é até o dia 5 de março do ano em que se realiza o pleito eleitoral. II A janela de migração partidária em que se considera justificável a desfiliação partidária se inicia trinta dias antes do prazo de filiação partidária para os detentores de cargo de deputado federal que pretendam concorrer às eleições ao término do seu mandato vigente. III Para concorrer a outro cargo eletivo, o governador de estado deve renunciar ao respectivo mandato até quatro meses antes do pleito eleitoral. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Todos os itens estão certos.",
+    "Apenas o item I está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens II e III estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-066",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Tendo em vista que a legislação eleitoral obriga os agentes públicos detentores de cargos eletivos a seguirem determinadas imposições legais, sob pena de serem responsabilizados, julgue os itens seguintes. I Na circunscrição do pleito, a revisão da remuneração dos servidores pode ir além da recomposição da perda do seu poder aquisitivo ao longo do ano eleitoral. II Independentemente do período do ano eleitoral, é permitida a nomeação para cargos do Poder Judiciário, do Ministério Público e dos tribunais ou conselhos de contas. III É proibido aos candidatos comparecerem, nos três meses que precedem o pleito, a inaugurações de obras públicas, sob pena de pagamento de multa eleitoral. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Todos os itens estão certos.",
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-067",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "À luz do que dispõe a legislação eleitoral e do entendimento do Tribunal Superior Eleitoral, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Aos partidos políticos é assegurada a prioridade postal durante os sessenta dias anteriores à realização das eleições, para a remessa de material de propaganda de seus candidatos registrados.",
+    "A partir do início da propaganda eleitoral, é permitida a formalização de contratos que gerem despesas e gastos com a instalação física e virtual de comitês de candidatos e de partidos políticos.",
+    "Durante todo o período de propaganda eleitoral, o Tribunal Superior Eleitoral divulgará propaganda institucional destinada a incentivar a participação feminina, dos jovens, de pessoas com deficiência e da comunidade negra na política.",
+    "Os prazos processuais, durante todo o ano das eleições, serão contados de forma contínua e não serão prorrogados quando se vencerem aos sábados, domingos e feriados.",
+    "A partir do início do período da propaganda eleitoral até o final do segundo turno das eleições, o Ministério Público Eleitoral será intimado das decisões e dos despachos por meio eletrônico, e dos acórdãos, em sessão de julgamento, quando nela forem publicados."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-068",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca dos direitos e deveres a serem observados no período eleitoral, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Até às 23h59min do dia anterior ao das eleições, é permitida a distribuição de material gráfico aos eleitores.",
+    "Até cinco dias depois do pleito eleitoral, nenhum eleitor poderá ser preso ou detido, salvo em flagrante delito.",
+    "O prazo limite para os candidatos arrecadarem recursos para a quitação de despesas de campanha é um dia antes do dia do primeiro turno das eleições.",
+    "A propaganda eleitoral gratuita na rádio e na televisão relativa ao primeiro turno das eleições pode ser transmitida até o dia que antecede as eleições.",
+    "O dia das eleições é o prazo limite para o partido político requerer o cancelamento do registro de candidato regularmente expulso de seus quadros."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-069",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Relativamente à necessidade de contraprestação pelo Estado, os tributos podem ser classificados em vinculados e não vinculados. Os tributos não vinculados incluem",
+   "gabarito": "d",
+   "alternativas": [
+    "o IPVA, a contribuição previdenciária e as taxas.",
+    "as taxas, a contribuição de melhoria e as contribuições especiais.",
+    "as contribuições especiais, o IPTU e a contribuição de melhoria.",
+    "o imposto de renda, o IPVA e o IPTU.",
+    "a contribuição de iluminação pública, o imposto de renda e o empréstimo compulsório."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-070",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em um estado federado da região Norte, pretende-se criar uma alíquota progressiva de ICMS para vendas que tenham origem ou destino em estados que não sejam da região Norte ou da região Nordeste. Nessa situação hipotética, à luz da Constituição Federal de 1988 (CF), se for criado, o tributo será",
+   "gabarito": "e",
+   "alternativas": [
+    "constitucional, pois a CF não veda a diferenciação de tributação por região geográfica, notadamente quando se trata de incentivo ao desenvolvimento regional.",
+    "constitucional, pois a CF criou uma exceção expressa para a proteção da Zona Franca de Manaus, permitindo que se institua esse tipo de barreira tributária.",
+    "constitucional, pois cada estado possui autonomia federativa para instituir o ICMS e fixar as suas alíquotas, desde que tal medida seja feita por lei.",
+    "inconstitucional, pois é vedado que a União institua tributo que não seja uniforme em todo o território nacional ou que implique distinção ou preferência em relação a determinado estado.",
+    "inconstitucional, pois a CF veda expressamente que os estados estabeleçam diferença tributária em razão da procedência ou do destino de bens e serviços."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-071",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Lei de Sigilo Bancário (Lei Complementar n. o 105/2001) prevê um rol de instituições financeiras obrigadas a conservar sigilo nas suas operações e nos serviços por elas prestados. Além das instituições expressamente listadas, a referida lei admite que outras sociedades venham a ser consideradas como instituições financeiras em razão da natureza de suas operações, desde que tal se dê por decisão",
+   "gabarito": "b",
+   "alternativas": [
+    "do Ministério da Economia.",
+    "do Conselho Monetário Nacional.",
+    "da Receita Federal do Brasil.",
+    "do Banco Central do Brasil.",
+    "da Comissão de Valores Mobiliários."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-072",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Segundo as normas gerais de direito financeiro, consideram-se como subvenções econômicas",
+   "gabarito": "d",
+   "alternativas": [
+    "as dotações destinadas ao aumento do capital de entidades ou empresas que visem a objetivos comerciais ou financeiros, inclusive operações bancárias ou de seguros.",
+    "as dotações para investimentos ou inversões financeiras que outras pessoas de direito público ou privado devam realizar, independentemente de contraprestação direta em bens ou serviços.",
+    "as aquisições de títulos representativos do capital de empresas ou entidades de qualquer espécie, já constituídas, quando a operação não importe aumento do capital.",
+    "as transferências destinadas a cobrir despesas de custeio de empresas públicas ou privadas de caráter industrial, comercial, agrícola ou pastoril.",
+    "as transferências destinadas a cobrir despesas de custeio de instituições públicas ou privadas de caráter assistencial ou cultural sem finalidade lucrativa."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-073",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme o entendimento majoritário e atual do STJ, o pedido de parcelamento do crédito tributário que tenha sido indeferido",
+   "gabarito": "a",
+   "alternativas": [
+    "interrompe o prazo de prescrição.",
+    "suspende o prazo de prescrição.",
+    "interrompe o prazo da decadência.",
+    "não interrompe nem suspende o prazo da prescrição ou da decadência.",
+    "suspende o prazo da decadência."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-074",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "A capacidade tributária da pessoa física",
+   "gabarito": "e",
+   "alternativas": [
+    "é atingida quando ela completa dezesseis anos de idade.",
+    "é atingida quando ela completa dezoito anos de idade.",
+    "inicia-se quando ela assume a administração direta de seus bens ou negócios.",
+    "é atingida quando ela completa vinte e um anos de idade.",
+    "independe da sua capacidade civil."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-075",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No direito tributário, o sucessor pode ser pessoalmente responsável pelos tributos devidos pelo de cujus . Sob o aspecto temporal, a responsabilidade do sucessor se limita aos tributos devidos até a data",
+   "gabarito": "a",
+   "alternativas": [
+    "da partilha ou adjudicação.",
+    "da constituição do espólio.",
+    "do início do inventário.",
+    "do falecimento do de cujus .",
+    "da abertura da sucessão."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-076",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta com referência ao direito das vítimas.",
+   "gabarito": "d",
+   "alternativas": [
+    "O termo instituições de garantia, nas quais se enquadra o Ministério Público — referência feita por Luigi Ferrajoli —, é fruto das chamadas Constituições de segunda geração, como a Constituição Portuguesa de 1976.",
+    "O garantismo hiperbólico é uma consequência da racionalidade do garantismo monocular, que, por sua vez, acarreta uma proteção sistêmica.",
+    "O garantismo penal se confunde com o legalismo, porque ambas as teorias estão calcadas no Estado Democrático de Direito.",
+    "O garantismo penal evoluiu para uma visão integral, protegendo, além dos direitos individuais, também direitos sociais e coletivos, bem como os deveres, nos quais se insere, além do dever de investigar, processar e punir, também o direito das vítimas.",
+    "A visão atual de garantismo penal, a partir da ideia de instituições de garantia, é a de que existe mais de um garantismo: o garantismo do delinquente, calcado no status libertatis ; e o garantismo das vítimas, fundamentado na prevenção da pena."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-077",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do dever de respeitar e garantir, assinale a opção correta. Nesse sentido, considere que a sigla CIDH, sempre que empregada, se refere à Corte Interamericana de Direitos Humanos.",
+   "gabarito": "e",
+   "alternativas": [
+    "Tal dever é materializado a partir de medidas positivas gerais, compreendido como um direito adicional e complementar, e de medidas positivas especiais, dirigidas à população em geral, decorrentes da obrigação de assegurar vigência às normas internacionais de proteção aos direitos humanos no âmbito interno pelo Estado.",
+    "No Caso Família Barrios versus Venezuela, a falta de diligências adequadas para prevenir uma violação por particulares não pode configurar a responsabilidade do Estado.",
+    "A CIDH considera como núcleos do dever de investigar, processar e punir, exclusivamente, o direito à vida das vítimas e a proteção judicial.",
+    "O dever de proteção e garantia não encontra previsão nos tratados do sistema onusiano, especialmente nos Protocolos Internacionais de Direitos Civis e Políticos e Econômicos, Sociais e Culturais, razão pela qual é reconhecido como uma criação da CIDH.",
+    "O dever de investigar, processar e punir deriva do dever de respeitar e garantir, conforme jurisprudência da CIDH desde o Caso Velásquez Rodriguez versus Honduras."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-078",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do caso Povo Indígena Xucuru e seus Membros, em que houve a condenação do Brasil na CIDH, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "A condenação deveu-se, entre outros fatores, à omissão estatal no que se refere a reconhecer, demarcar e titular os territórios indígenas do Povo Indígena Xucuru.",
+    "Na sentença, não houve nenhuma menção ao processo de desintrusão do território Xucuru, o que atrasou a implementação da decisão pelo país, fato que pode levar o Brasil a uma segunda condenação no âmbito do mesmo caso.",
+    "Diferentemente das comunidades quilombolas, como no Caso Povo Saramaka versus Suriname, não houve no referido caso a interpretação do direito de propriedade comunal à luz da Convenção Americana, mas, sim, com a natureza de bem público, como determina a vigente Constituição brasileira.",
+    "A CIDH reconheceu que não foram esgotados os recursos internos e, desse modo, determinou que a vítima e seus representantes provassem, em juízo de admissibilidade, a superação do mencionado requisito.",
+    "Na decisão, não houve menção à Convenção 169 OIT e à Declaração da ONU sobre Direito dos Povos Indígenas, uma vez que a CIDH somente pode julgar com base nos tratados e normas de soft law do Sistema Interamericano de Direitos Humanos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-079",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta com relação ao conteúdo da sentença da CIDH no Caso Trabalhadores da Fazenda Brasil Verde.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apesar de a matéria ter sido ventilada na petição do caso, não houve o reconhecimento da discriminação estrutural.",
+    "Além do Caso José Pereira, trata-se da segunda condenação do Brasil por trabalho escravo na jurisprudência da CIDH.",
+    "Houve o reconhecimento da proibição do trabalho escravo como norma de jus cogens e obrigação erga omnes .",
+    "Não houve a adoção do conceito evolutivo de escravidão, mas, sim, do conceito tradicional, a chamada escravidão chattel.",
+    "Diferentemente do desaparecimento forçado, a jurisprudência da CIDH não reconheceu a imprescritibilidade do crime de escravidão."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-080",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação ao mandado de segurança coletivo, assinale a opção correta, à luz dos dispositivos legais e do entendimento jurisprudencial.",
+   "gabarito": "a",
+   "alternativas": [
+    "Em se tratando dos legitimados expressamente elencados no texto constitucional, o STF entende não ser necessária autorização dos substituídos para a propositura de mandado de segurança coletivo.",
+    "Os partidos políticos, legitimados para a propositura do referido writ por expressa disposição constitucional, deverão possuir representação no Congresso Nacional durante todo o curso da demanda.",
+    "As organizações sindicais são legitimadas para representar os interesses de seus membros em mandado de segurança coletivo desde que estejam em funcionamento há, pelo menos, um ano.",
+    "O mandado de segurança coletivo poderá ser impetrado contra ato, comissivo ou omisso, de autoridade pública ou agente de pessoa jurídica no exercício de atribuições do poder público, ainda que inexista prova pré-constituída do direito violado.",
+    "Para fins de legitimação para a propositura do referido writ , aplica-se o requisito de pré-constituição há um ano tanto às associações quanto às entidades de classe."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-081",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta, considerados os dispositivos legais e o entendimento jurisprudencial acerca da ação civil pública.",
+   "gabarito": "c",
+   "alternativas": [
+    "O objeto da ação civil pública consistirá em uma obrigação de fazer ou de não fazer, vedada a condenação em pecúnia.",
+    "Os órgãos públicos legitimados poderão tomar dos interessados compromisso de ajustamento de sua conduta às exigências legais mediante cominações, o qual terá eficácia de título executivo judicial.",
+    "Poderá ser ajuizada ação cautelar objetivando evitar dano, por exemplo, ao patrimônio público e social, ao meio ambiente, ao consumidor, à honra e à dignidade de grupos raciais, étnicos ou religiosos.",
+    "Entre os legitimados para propor a ação principal e a ação cautelar, inserem-se o Ministério Público, a União, os estados, o Distrito Federal e os municípios, os presidentes do Senado Federal e da Câmara dos Deputados, as associações e as cooperativas constituídas há, pelo menos, um ano.",
+    "O Ministério Público, se não intervier no processo como parte, atuará facultativamente como custos legis ."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-082",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta, com base nos dispositivos legais e no entendimento jurisprudencial acerca da ação popular.",
+   "gabarito": "d",
+   "alternativas": [
+    "A competência para julgar ação popular contra ato do presidente da República, é, via de regra, do Supremo Tribunal Federal.",
+    "A competência para processar e julgar ação popular, quando proposta contra todos os juízes e desembargadores de tribunal de justiça estadual, é originária do Superior Tribunal de Justiça.",
+    "São exclusivamente legitimados os brasileiros natos para pleitear a anulação ou a declaração de nulidade de atos lesivos ao patrimônio da União, do Distrito Federal, dos Estados, dos Municípios e de quaisquer pessoas jurídicas ou entidades subvencionadas pelos cofres públicos.",
+    "Não é condição para o cabimento da ação popular a demonstração de prejuízo material aos cofres públicos, dado que o art. 5.o, inciso LXXIII, da Constituição Federal estabelece que qualquer cidadão é parte legítima para propor ação popular e impugnar, ainda que separadamente, ato lesivo ao patrimônio material, moral, cultural ou histórico do Estado ou de entidade de que ele participe.",
+    "Para instruir a inicial, o legitimado deverá requerer às entidades as certidões e informações que julgar necessárias, bastando para isso indicar a finalidade das mesmas, sendo vedada a recusa de seu fornecimento em qualquer hipótese."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-083",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta acerca dos institutos da coisa julgada e da litispendência nos processos coletivos.",
+   "gabarito": "c",
+   "alternativas": [
+    "A coisa julgada, em relação às ações que tratam de direitos difusos, será erga omnes ainda que o pedido seja julgado improcedente por falta de provas.",
+    "Em regra, a sorte da ação coletiva influencia o resultado da ação individual quando ambas versarem sobre o mesmo tema, forem fundadas na mesma causa de pedir e contiverem o mesmo pedido.",
+    "Na ação coletiva para a defesa de direitos coletivos ( stricto sensu ), a coisa julgada opera-se ultra partes , ou seja, para além das partes do processo, atingindo a todo o grupo, categoria ou classe a quem pertence o direito discutido, ressalvada a hipótese de improcedência por falta de prova.",
+    "A existência de ação coletiva de direitos individuais homogêneos não obsta o ajuizamento de ações individuais, sendo o autor da ação individual beneficiado pela coisa julgada da ação coletiva ainda que, ciente nos autos da demanda individual a respeito do ajuizamento da ação coletiva, não requerer a suspensão do processo no prazo de 15 dias.",
+    "Há litispendência no cotejo entre ação individual e as ações para a tutela de direitos difusos e coletivos, não ocorrendo litispendência, entretanto, entre a ação individual e a ação para a tutela de direitos individuais homogêneos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-084",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Convenção das Nações Unidas sobre os Direitos da Criança consiste no instrumento de direitos humanos mais aceito na história universal, já tendo sido ratificada por 196 países. De acordo com essa convenção, ratificada pelo Brasil em 1990 e, no mesmo ano, promulgada em âmbito interno pelo Decreto n.o 99.710/1990,",
+   "gabarito": "c",
+   "alternativas": [
+    "considera-se como criança todo ser humano com menos de quatorze anos de idade, a não ser que, em conformidade com a lei aplicável à criança, a maioridade seja alcançada antes.",
+    "a criança deverá ser registrada em até trinta dias após seu nascimento e terá direito, desde o momento em que nascer, a um nome, a uma nacionalidade e, na medida do possível, a conhecer seus pais e a ser cuidada por eles.",
+    "os Estados-partes assegurarão à criança que estiver capacitada a formular seus próprios juízos o direito de expressar suas opiniões livremente sobre todos os assuntos relacionados a ela, levando-se devidamente em consideração essas opiniões, em função da idade e maturidade da criança. Com tal propósito, será proporcionada à criança, em particular, a oportunidade de ser ouvida em todo processo judicial ou administrativo que a afete, quer diretamente, quer por intermédio de um representante ou órgão apropriado, em conformidade com as regras processuais da legislação nacional.",
+    "os Estados-partes terão de zelar para que nenhuma criança seja submetida a tortura nem a outros tratamentos ou penas cruéis, desumanos ou degradantes; e aos menores de vinte anos de idade não será imposta a pena de morte nem a prisão perpétua sem possibilidade de livramento por delitos por eles cometidos.",
+    "os Estados-partes reconhecem o direito da criança à educação e, a fim de que ela possa exercer progressivamente e em igualdade de condições esse direito, eles devem especialmente: tornar o ensino primário e secundário obrigatórios e disponíveis gratuitamente para todos; tornar o ensino superior acessível a todos com base na capacidade individual e por todos os meios adequados; tornar a informação e a orientação educacional e profissional disponíveis e acessíveis a todas as crianças."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-085",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando que o Estatuto da Criança e do Adolescente (ECA) dispõe acerca dos atos infracionais praticados por crianças e adolescentes, bem como sobre as respectivas medidas aplicáveis, assinale a opção correta com base na legislação e no entendimento dos tribunais superiores sobre o tema.",
+   "gabarito": "b",
+   "alternativas": [
+    "A inexistência de vaga para o cumprimento de medida de privação da liberdade em unidade próxima da residência do adolescente infrator impõe a sua inclusão em programa de regime meio aberto de cumprimento da medida socioeducativa.",
+    "De acordo com o entendimento exarado pelo STJ, o adolescente infrator, em regra, não tem direito de aguardar em liberdade o julgamento de apelação interposta contra sentença que lhe tiver imposto a medida de internação.",
+    "O STF entende ser possível a aplicação de medida socioeducativa de internação ou de semiliberdade ao adolescente que tenha praticado ato infracional análogo ao crime consistente em adquirir, guardar, ter em depósito ou portar, para consumo pessoal, drogas sem autorização ou em desacordo com determinação legal.",
+    "A jurisprudência dominante dos tribunais superiores exige a prática de, ao menos, três infrações de natureza grave para ensejar a aplicação da medida social de internação com fulcro em artigo do ECA que trata da reiteração no cometimento de outras infrações graves.",
+    "De acordo com a jurisprudência do STJ, é inválida a extinção de medida socioeducativa de internação ainda que o juízo da execução, diante da superveniência de processo-crime após a maioridade penal do infrator, entenda que não restem objetivos pedagógicos na execução."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-087",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando o sistema recursal dos procedimentos afetos à justiça da infância e da juventude, assinale a opção correta. Nesse sentido, considere que a sigla CPC, sempre que empregada, refere-se ao Código de Processo Civil.",
+   "gabarito": "a",
+   "alternativas": [
+    "Os prazos, por força do critério da especialidade, são contados em dias corridos, não havendo aplicação subsidiária do artigo do CPC que restringe essa contagem apenas aos dias úteis.",
+    "Segundo o texto expresso do ECA, serão contados em dobro os prazos recursais para a fazenda pública e para o Ministério Público.",
+    "Os prazos recursais serão contados apenas em dias úteis, por força da aplicação subsidiária da sistemática do CPC.",
+    "De acordo com o texto expresso do ECA, somente o Ministério Público gozará do prazo em dobro.",
+    "O prazo de todos os recursos, inclusive dos embargos de declaração, será decenal e sua contagem ocorrerá de forma corrida, excluído o dia do começo e incluído o do vencimento."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-088",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Os requisitos legais para que jovens e adultos com deficiência sejam acolhidos em residências inclusivas abrangem I situação de dependência. II ausência de condições de autossustentabilidade. III vínculos familiares fragilizados ou rompidos. IV ausência de casa própria. V ausência de parentes. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens IV e V estão certos.",
+    "Apenas os itens I, II e III estão certos.",
+    "Apenas os itens III, IV e V estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-089",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Aquele que negar emprego a alguém por motivo de idade estará sujeito a punição",
+   "gabarito": "b",
+   "alternativas": [
+    "limitada ao pagamento de multa.",
+    "com pena de reclusão e multa.",
+    "limitada à pena de reclusão.",
+    "com pena de detenção e multa.",
+    "limitada à pena de detenção."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-090",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "A construção de edificação de uso privado multifamiliar deve atender aos preceitos",
+   "gabarito": "d",
+   "alternativas": [
+    "de inclusividade residencial.",
+    "de adequação das estruturas.",
+    "arquitetônicos pertinentes a barreiras.",
+    "de acessibilidade.",
+    "de razoabilidade de adaptações."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-091",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "A curatela afetará os atos relacionados aos direitos de natureza",
+   "gabarito": "b",
+   "alternativas": [
+    "negocial e laboral.",
+    "patrimonial e negocial.",
+    "patrimonial e laboral.",
+    "eleitoral e matrimonial.",
+    "educacional e eleitoral."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-092",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "À luz da jurisprudência do STJ, julgue os itens que se seguem. I Não será tida como abusiva cláusula contratual de plano privado de assistência à saúde que estabeleça a coparticipação do usuário nas despesas médico-hospitalares em percentual sobre o custo de tratamento médico realizado sem internação, desde que a coparticipação não caracterize financiamento integral do procedimento por parte do usuário, ou fator restritor do acesso aos serviços. II É legítima, em regra, a recusa do plano de saúde em custear medicação importada não registrada pela ANVISA. Deverá o plano de saúde, entretanto, custear medicamento importado que, ainda que não seja registrado pela ANVISA, possua autorização para importação em caráter excepcional. III O plano de saúde coletivo pode ser rescindido ou suspenso imotivadamente, após a vigência do período de doze meses e mediante prévia notificação do usuário com antecedência mínima de sessenta dias. Nada obstante, no caso de usuário em estado de saúde grave, independentemente do regime de contratação do plano de saúde, deve-se aguardar a conclusão do tratamento médico garantidor da sobrevivência e(ou) incolumidade física para se pôr fim à avença. IV Não será abusiva a negativa de custeio, pela operadora do plano de saúde, do tratamento de fertilização in vitro , quando não houver previsão contratual expressa. Assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Apenas os itens I, II e III estão certos.",
+    "Apenas os itens I, II e IV estão certos.",
+    "Apenas os itens I, III e IV estão certos.",
+    "Apenas os itens II, III e IV estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-093",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o dispositivo pertinente do Código de Defesa do Consumidor (CDC), o conceito correto de fornecedor é",
+   "gabarito": "a",
+   "alternativas": [
+    "toda pessoa física ou jurídica, pública ou privada, nacional ou estrangeira, bem como os entes despersonalizados, que desenvolvem atividade de produção, montagem, criação, construção, transformação, importação, exportação, distribuição ou comercialização de produtos ou prestação de serviços.",
+    "toda pessoa jurídica, pública ou privada, bem como os entes despersonalizados, que desenvolvem atividade de produção, montagem, criação, construção, transformação, importação, exportação, distribuição ou comercialização de produtos ou prestação de serviços.",
+    "toda pessoa física ou jurídica que adquire ou utiliza produto ou serviço.",
+    "toda pessoa jurídica, pública ou privada, desde que nacional, bem como os entes despersonalizados, que desenvolvem atividade de produção, montagem, criação, construção, transformação, importação, exportação, distribuição ou comercialização de produtos ou prestação de serviços.",
+    "toda pessoa física privada, nacional ou estrangeira, que desenvolve atividade de produção, construção, transformação, importação, exportação, distribuição ou comercialização de produtos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-094",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando-se que o CDC assegura a defesa judicial dos interesses e direitos dos consumidores e das vítimas, de forma individual ou coletiva, é correto afirmar que, nos termos do referido código e de acordo com a jurisprudência, são legitimados para postular judicialmente a defesa coletiva",
+   "gabarito": "c",
+   "alternativas": [
+    "exclusivamente o Ministério Público e a União, os estados federados, os municípios e o DF.",
+    "concorrentemente o Ministério Público e as associações legalmente constituídas há pelo menos dois anos e que incluam entre seus fins institucionais a defesa dos interesses e direitos protegidos pelo CDC, dispensada a autorização por assembleia.",
+    "concorrentemente o Ministério Público, a Defensoria Pública, a União, os estados federados, os municípios e o DF, as entidades e os órgãos da administração pública direta ou indireta, ainda que sem personalidade jurídica, especificamente destinados à defesa dos interesses e direitos dos consumidores e as associações legalmente constituídas há pelo menos um ano e que incluam entre seus f ins institucionais a defesa dos interesses e direitos protegidos pelo CDC, dispensada a autorização por assembleia.",
+    "exclusivamente o Ministério Público e a Defensoria Pública.",
+    "concorrentemente o Ministério Público, a União, os estados federados, os municípios e o DF, as entidades e os órgãos da administração pública direta ou indireta, ainda que sem personalidade jurídica, especificamente destinados à defesa dos interesses e direitos dos consumidores, e as associações legalmente constituídas há pelo menos um ano e que incluam entre seus fins institucionais a defesa dos interesses e direitos protegidos pelo CDC, dispensada a autorização por assembleia."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-095",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da responsabilização administrativa das pessoas jurídicas por infrações ambientais, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "A responsabilidade das pessoas jurídicas exclui a das pessoas físicas partícipes do mesmo fato.",
+    "As penas de multa, de restrição de direitos e de prestação de serviços à comunidade podem ser aplicadas cumulativamente.",
+    "A pena de restrição de liberdade será aplicável às pessoas jurídicas apenas quando a atuação for dolosa.",
+    "A pena de proibição de contratar com o poder público não poderá exceder o prazo de cinco anos.",
+    "A pena de suspensão de atividades será aplicada quando o estabelecimento estiver funcionando sem a devida autorização."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-096",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do licenciamento ambiental, julgue os seguintes itens. I A exigência de estudo de impacto ambiental (EIA) para o licenciamento de atividade apta a causar degradação ao ambiente decorre do princípio da prevenção. II O licenciamento ambiental é procedimento administrativo restrito à concessão de licença prévia aos empreendimentos de grande porte. III O órgão ambiental está vinculado às conclusões do EIA, de modo que, se este for desfavorável à concessão da licença ambiental, a administração não poderá concedê-la. Assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-097",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a legislação de regência, o indivíduo que, sem autorização do órgão público competente, pichar monumento público tombado pelo poder público",
+   "gabarito": "a",
+   "alternativas": [
+    "estará sujeito a denúncia por crime com previsão de pena de detenção e multa.",
+    "estará sujeito a denúncia por contravenção penal com previsão de pena de prisão simples ou multa.",
+    "não estará sujeito a denúncia, pois, considerada manifestação artística, a pichação é permitida, independentemente do consentimento do proprietário.",
+    "estará sujeito a denúncia por crime com previsão de pena de reclusão, por se tratar de bem público tombado.",
+    "não estará sujeito a denúncia, pois o ato em questão não está legalmente tipificado como crime nem como contravenção penal."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-098",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "A inamovibilidade é garantia constitucional dos membros do Ministério Público. Todavia, a Constituição Federal de 1988 dispõe que, por motivo de interesse público, mediante decisão do órgão colegiado competente, o promotor de justiça pode ser removido de seu ofício. No MPE/AC, na forma da Lei Complementar Estadual n.o 291/2014, o membro do Ministério Público que vier a ser removido de sua promotoria poderá recorrer de tal decisão",
+   "gabarito": "a",
+   "alternativas": [
+    "ao Colégio de Procuradores.",
+    "ao Conselho Superior.",
+    "ao procurador-geral de justiça.",
+    "apenas ao Poder Judiciário, haja vista a falta de previsão legal do referido recurso.",
+    "apenas ao Conselho Nacional do Ministério Público (CNMP)."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-099",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em um procedimento investigatório criminal no estado do Amazonas, um promotor do Ministério Público do Estado do Amazonas (MPE/AM) entendeu que a demanda deveria ser de atribuição do MPE/AC. Chegando o feito ao MPE/AC, o promotor de justiça responsável entendeu que a atribuição era, na verdade, do MPE/AM, e não do MPE/AC, motivo pelo qual suscitou conflito de atribuições. Nessa situação hipotética, a referida suscitação de conflito de atribuição deve ser encaminhada ao",
+   "gabarito": "a",
+   "alternativas": [
+    "Conselho Nacional do Ministério Público.",
+    "Supremo Tribunal Federal.",
+    "procurador-geral da República.",
+    "juiz com tal atribuição no TJ/AC.",
+    "Superior Tribunal de Justiça."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-mpe-ac-promotor-de-justica-substituto-100",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme a Lei Complementar Estadual n.o 291/2014, a exclusão de atribuição das promotorias de justiça deverá ser efetuada por proposta",
+   "gabarito": "b",
+   "alternativas": [
+    "de qualquer membro do Ministério Público, devendo ser fixada por resolução do Colégio de Procuradores.",
+    "do procurador-geral de justiça, devendo ser fixada por resolução do Colégio de Procuradores.",
+    "do procurador-geral de justiça, devendo ser fixada por resolução do Colégio de Promotores.",
+    "do procurador-geral de justiça, devendo ser fixada por resolução do Conselho Superior.",
+    "de qualquer membro do Ministério Público, devendo ser fixada por resolução do Conselho Superior."
+   ]
+  }
+ ]
+}
