@@ -166,3 +166,8 @@ def test_orgao_por_sigla_do_evento():
     # órgão já conhecido no dataset tem precedência
     assert d.orgao_de({"eventoURL": "PC_DF_26_DELEGADO"}, {"PC_DF": ("Polícia Civil do Distrito Federal", "pcdf")})[0] \
         == "Polícia Civil do Distrito Federal"
+
+
+def test_limpar_cargo_quase_todo_maiusculo():
+    assert d.limpar_cargo("CARGO 3: SOLDADO DO QUADRO DE PRAÇAS MÚSICOS (QPMus) – ESPECIALIDADE: CLARINETE") \
+        .startswith("Soldado do Quadro de Praças Músicos")

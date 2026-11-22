@@ -393,7 +393,7 @@ def processar(e: dict, ds: Dataset, *, plano: Plano, extrator: str, extractor: E
     rel = validar(prova, gab_val, caderno=f"{e['evento']}/{e['caderno']}",
                   url_prova=e["url_prova"], url_gabarito=e["url_gabarito"],
                   itens_pdf=plano.itens_local, so_indicativo=set(plano.itens_fallback))
-    if plano.motivo and plano.firecrawl:
+    if plano.motivo and plano.firecrawl and extrator != "local":
         rel.avisos.append(f"fallback Firecrawl ({plano.firecrawl}): {plano.motivo}")
     if omitidos:
         rel.avisos.append(f"--extrator local: itens com fórmula ilegível omitidos: {omitidos}")

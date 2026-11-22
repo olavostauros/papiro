@@ -165,6 +165,10 @@ def limpar_cargo(area: str) -> str:
     a = re.sub(r"^CARGO\s*(DE|:)\s*", "", a, flags=re.I)
     a = re.split(r"\s+[-–]\s+(Subs[ií]dio|Remunera|C[óo]digo)", a, flags=re.I)[0]
     a = a.strip(" .-–")
+    letras = [c for c in a if c.isalpha()]
+    quase_maiusculo = letras and sum(c.isupper() for c in letras) / len(letras) > 0.8
+    if quase_maiusculo and not a.isupper():
+        a = a.upper()   # senão titulo() trataria cada palavra maiúscula como sigla
     return titulo(a) if a.isupper() or a.islower() else a
 
 
