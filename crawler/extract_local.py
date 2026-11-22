@@ -171,6 +171,8 @@ def itens_do_texto(texto: str, esperados: Optional[Iterable[int]] = None) -> dic
         for recuo, c in linhas:
             if c.upper().startswith("JUSTIFICATIVA"):
                 dentro = True
+            elif dentro and recuo <= 1 and _ITEM.match(c):
+                dentro = False   # bloco sem <FimJust>: o próximo item encerra
             if not dentro:
                 sem_just.append((recuo, c))
             if "<FimJust>" in c:
