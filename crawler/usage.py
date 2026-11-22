@@ -10,7 +10,8 @@ import re
 from datetime import date, timedelta
 from pathlib import Path
 
-LEDGER = Path(__file__).resolve().parent.parent / "FIRECRAWL_USAGE.md"
+LEDGER = (Path(__file__).resolve().parent.parent
+          / ".agents" / "docs" / "FIRECRAWL_USAGE.md")
 _ROW = re.compile(r"^\| *(\d{4}-\d{2}-\d{2}) *\|")
 
 

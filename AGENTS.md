@@ -35,8 +35,8 @@ repo root with `.venv/bin/python`):
    `to_questao()` + `crawler/shards.py` (one shard per evento, interned
    dimensions; `shard_to_records()` flattens back).
 6. Commit each concurso batch with a message describing cargo coverage
-   and anulados. Log Firecrawl calls in `FIRECRAWL_USAGE.md` if any are
-   made (the local path should need none).
+   and anulados. Log Firecrawl calls in `.agents/docs/FIRECRAWL_USAGE.md`
+   if any are made (the local path should need none).
 
 Parsers: `crawler/cebraspe/items.py` (certo/errado; `variant="old"` for
 PF_18-era provas where the item number merges at the END of the item's
@@ -141,8 +141,8 @@ live in `crawler/` (`pip install -r crawler/requirements.txt`):
 - `crawler/extract.py` — `make_app()` (loads the key from
   `.env/FIRECRAWL_API_KEY`, never printed) and `extract_prova()` (one scrape
   → validated `ProvaExtraida`, credits auto-logged).
-- `crawler/usage.py` — `log_call()` appends to `FIRECRAWL_USAGE.md` and
-  refreshes its totals.
+- `crawler/usage.py` — `log_call()` appends to
+  `.agents/docs/FIRECRAWL_USAGE.md` and refreshes its totals.
 
 ```python
 from crawler.extract import make_app, extract_prova
@@ -197,8 +197,9 @@ questoes = [to_questao(q, meta) for q in prova.questoes]  # needs gabaritos
 ### Credit control
 
 Operação papiro runs on a limited Firecrawl credit budget. Every Firecrawl
-call — MCP tool or Python SDK — MUST be logged in `FIRECRAWL_USAGE.md` at the
-repo root: date, task, tool, item count, and `creditsUsed` from the response,
+call — MCP tool or Python SDK — MUST be logged in
+`.agents/docs/FIRECRAWL_USAGE.md`: date, task, tool, item count, and
+`creditsUsed` from the response,
 keeping the running totals current. See that file for the cost guide;
 prefer cheap paths (`map` for URL discovery, `maxAge` cache, basic proxy)
 before spending on stealth or retries.
