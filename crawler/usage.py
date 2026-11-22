@@ -1,17 +1,32 @@
 """Append credit-usage entries to FIRECRAWL_USAGE.md and refresh totals.
 
 The "## Log" section must stay the last section of that file so rows can be
-appended at EOF.
+appended at EOF. The ledger path resolves to `$PAPIRO_LEDGER`, else the repo
+`.agents/docs/FIRECRAWL_USAGE.md`, else `crawler/.cache/` — so in the Docker
+image (no `.agents/`) calls still get logged into the cache volume instead of
+crashing the extraction.
 """
 
 from __future__ import annotations
 
+import os
 import re
+import sys
 from datetime import date, timedelta
 from pathlib import Path
 
-LEDGER = (Path(__file__).resolve().parent.parent
-          / ".agents" / "docs" / "FIRECRAWL_USAGE.md")
+HERE = Path(__file__).resolve().parent
+_REPO_LEDGER = HERE.parent / ".agents" / "docs" / "FIRECRAWL_USAGE.md"
+_FALLBACK_LEDGER = HERE / ".cache" / "FIRECRAWL_USAGE.md"
+
+
+def ledger_path() -> Path:
+    if p := os.environ.get("PAPIRO_LEDGER"):
+        return Path(p)
+    return _REPO_LEDGER if _REPO_LEDGER.exists() else _FALLBACK_LEDGER
+
+
+LEDGER = ledger_path()
 _ROW = re.compile(r"^\| *(\d{4}-\d{2}-\d{2}) *\|")
 
 
@@ -21,15 +36,22 @@ def log_call(
     items: int | str,
     credits: int,
     notes: str = "",
-    path: Path = LEDGER,
+    path: Path | None = None,
     day: date | None = None,
 ) -> None:
+    path = path or ledger_path()
     day = day or date.today()
-    text = path.read_text()
-    if not text.endswith("\n"):
-        text += "\n"
-    text += f"| {day.isoformat()} | {task} | {tool} | {items} | {credits} | {notes} |\n"
-    path.write_text(_refresh_totals(text))
+    row = f"| {day.isoformat()} | {task} | {tool} | {items} | {credits} | {notes} |"
+    try:
+        text = path.read_text() if path.exists() else ""
+        if text and not text.endswith("\n"):
+            text += "\n"
+        text += row + "\n"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(_refresh_totals(text))
+    except OSError as exc:
+        print(f"!! ledger não gravável ({path}): {exc} — linha: {row}",
+              file=sys.stderr)
 
 
 def _refresh_totals(text: str) -> str:

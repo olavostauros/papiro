@@ -43,15 +43,22 @@ services:
   crawler:
     build: .
     profiles: ["crawler"]
+    command: ["python", "-m", "crawler.cebraspe", "next", "--probe", "30"]
     environment:
       DATABASE_URL: postgresql://papiro:${POSTGRES_PASSWORD}@db:5432/papiro
       FIRECRAWL_API_KEY: ${FIRECRAWL_API_KEY:-}
+      PAPIRO_LEDGER: /app/crawler/.cache/FIRECRAWL_USAGE.md
+      PAPIRO_WORKDIR: /app/work
     volumes:
       - ./data:/app/data              # shards = backup versionável + insumo do sync
       - ./crawler/jobs:/app/crawler/jobs
+      - crawler-cache:/app/crawler/.cache   # PDFs + extrações Firecrawl (créditos!)
+      - crawler-work:/app/work              # workdirs de job (/app/work/<evento>)
     depends_on:
       db:
         condition: service_healthy
 
 volumes:
   pgdata:
+  crawler-cache:
+  crawler-work:

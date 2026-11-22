@@ -1,7 +1,8 @@
-"""Structured prova extraction via Firecrawl `json` format (crawler-olavo)."""
+"""Structured prova extraction via Firecrawl `json` format."""
 
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 from firecrawl import Firecrawl
@@ -18,7 +19,10 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 def make_app() -> Firecrawl:
-    key = (ROOT / ".env" / "FIRECRAWL_API_KEY").read_text().strip()
+    """Firecrawl client — key from env (container) or `.env/` (repo)."""
+    key = os.environ.get("FIRECRAWL_API_KEY", "").strip()
+    if not key:
+        key = (ROOT / ".env" / "FIRECRAWL_API_KEY").read_text().strip()
     return Firecrawl(api_key=key)
 
 

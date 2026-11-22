@@ -1,6 +1,7 @@
 """CLI for the zero-credit Cebraspe ingestion loop. See package docstring."""
 import argparse
 import json
+import os
 import re
 import sys
 import unicodedata
@@ -89,7 +90,8 @@ def _key_for(nome):
 def cmd_fetch(args):
     det = api.get_evento(args.evento)
     evento = det["eventoURL"]
-    workdir = Path(args.workdir or f"/tmp/{evento.lower()}")
+    workdir = Path(args.workdir or
+                   f"{os.environ.get('PAPIRO_WORKDIR', '/tmp')}/{evento.lower()}")
     workdir.mkdir(parents=True, exist_ok=True)
     arqs = [a for a in det.get("arquivosGabarito") or []
             if api.arquivo_kind(a) in ("prova", "gabarito")]
