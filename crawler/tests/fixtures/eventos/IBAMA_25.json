@@ -1,0 +1,180 @@
+{
+ "idEvento": 3168,
+ "eventoNomeAbreviado": "IBAMA_25",
+ "eventoNomeCompleto": "INST. BRAS. DO MEIO AMB. E DOS REC. NAT. REN. - IBAMA/CGFIN",
+ "eventoTotalVagas": null,
+ "eventoSalarioMaximo": null,
+ "strEventoSalarioMaximo": "R$ ",
+ "eventoURL": "IBAMA_25",
+ "eventoStatus": "Encerrado",
+ "eventoTipo": "concursos",
+ "eventoAno": 2025,
+ "periodoInscricao": "De 30/01/2025 até 18/02/2025 às 18:00, horário oficial de Brasília/DF",
+ "eventoCargos": [
+  {
+   "idArea": "01",
+   "area": "CARGO 1: ANALISTA ADMINISTRATIVO"
+  },
+  {
+   "idArea": "02",
+   "area": "CARGO 2: ANALISTA  AMBIENTAL  –  TEMA  1:  PROTEÇÃO,  LICENCIAMENTO,  MONITORAMENTO  E  QUALIDADE AMBIENTAL "
+  },
+  {
+   "idArea": "03",
+   "area": "CARGO 3: ANALISTA AMBIENTAL – TEMA 2: MANEJO, CONSERVAÇÃO E REABILITAÇÃO DA FAUNA SILVESTRE"
+  }
+ ],
+ "arquivosEdital": null,
+ "arquivosGabarito": [
+  {
+   "tipoExtensaoArquivo": "_.PDF",
+   "dataArquivo": "07/05/2025 11:10",
+   "nomeArquivo": "Gab_Definitivo_057_IBAMA_CB1_01.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS BÁSICOS PARA O CARGO 1",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2025-05-07T11:10:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_.PDF",
+   "dataArquivo": "07/05/2025 11:10",
+   "nomeArquivo": "Gab_Definitivo_057_IBAMA_CB2_01.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS BÁSICOS PARA OS CARGOS 2 E 3",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2025-05-07T11:10:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_.PDF",
+   "dataArquivo": "07/05/2025 11:10",
+   "nomeArquivo": "Gab_Definitivo_057_IBAMA_001_01.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS PARA O CARGO 1",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2025-05-07T11:10:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_.PDF",
+   "dataArquivo": "07/05/2025 11:10",
+   "nomeArquivo": "Gab_Definitivo_057_IBAMA_002_01.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS PARA O CARGO 2",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2025-05-07T11:10:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_.PDF",
+   "dataArquivo": "07/05/2025 11:10",
+   "nomeArquivo": "Gab_Definitivo_057_IBAMA_003_01.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS PARA O CARGO 3",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2025-05-07T11:10:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_.pdf",
+   "dataArquivo": "07/05/2025 10:50",
+   "nomeArquivo": "PADRÃO_RESPOSTA_DEFINITIVO_CARGO_1.pdf",
+   "descricaoArquivo": "PADRÃO DEFINITIVO DE RESPOSTA – PROVA DISCURSIVA – CARGO 1",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2025-05-07T10:50:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_.pdf",
+   "dataArquivo": "07/05/2025 10:50",
+   "nomeArquivo": "PADRÃO_RESPOSTA_DEFINITIVO_CARGO_2.pdf",
+   "descricaoArquivo": "PADRÃO DEFINITIVO DE RESPOSTA – PROVA DISCURSIVA – CARGO 2",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2025-05-07T10:50:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_.pdf",
+   "dataArquivo": "07/05/2025 10:50",
+   "nomeArquivo": "PADRÃO_RESPOSTA_DEFINITIVO_CARGO_3.pdf",
+   "descricaoArquivo": "PADRÃO DEFINITIVO DE RESPOSTA – PROVA DISCURSIVA – CARGO 3",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2025-05-07T10:50:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_.pdf",
+   "dataArquivo": "11/04/2025 19:00",
+   "nomeArquivo": "057_IBAMA_CB1_01.pdf",
+   "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS BÁSICOS PARA O CARGO 1",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2025-04-11T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_.pdf",
+   "dataArquivo": "11/04/2025 19:00",
+   "nomeArquivo": "057_IBAMA_CB2_01.pdf",
+   "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS BÁSICOS PARA OS CARGOS 2 E 3",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2025-04-11T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_.pdf",
+   "dataArquivo": "11/04/2025 19:00",
+   "nomeArquivo": "057_IBAMA_001_01.pdf",
+   "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS PARA O CARGO 1",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2025-04-11T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_.pdf",
+   "dataArquivo": "11/04/2025 19:00",
+   "nomeArquivo": "057_IBAMA_002_01.pdf",
+   "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS PARA O CARGO 2",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2025-04-11T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_.pdf",
+   "dataArquivo": "11/04/2025 19:00",
+   "nomeArquivo": "057_IBAMA_003_01.pdf",
+   "descricaoArquivo": "PROVA OBJETIVA – CONHECIMENTOS ESPECÍFICOS PARA O CARGO 3",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2025-04-11T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_.pdf",
+   "dataArquivo": "08/04/2025 19:00",
+   "nomeArquivo": "057_IBAMA_001_DISC.pdf",
+   "descricaoArquivo": "PROVA DISCURSIVA – CARGO 1",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2025-04-08T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_.pdf",
+   "dataArquivo": "08/04/2025 19:00",
+   "nomeArquivo": "057_IBAMA_002_DISC.pdf",
+   "descricaoArquivo": "PROVA DISCURSIVA – CARGO 2",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2025-04-08T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_.pdf",
+   "dataArquivo": "08/04/2025 19:00",
+   "nomeArquivo": "057_IBAMA_003_DISC.pdf",
+   "descricaoArquivo": "PROVA DISCURSIVA – CARGO 3",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2025-04-08T19:00:00"
+  }
+ ],
+ "aplicativos": null,
+ "isInscricaoAberta": false,
+ "isDBCriado": 0,
+ "tituloCargos": "Cargos",
+ "tituloCardCargos": "Cargo",
+ "areaCandidato": false
+}

@@ -1,0 +1,257 @@
+{
+ "idEvento": 1776,
+ "eventoNomeAbreviado": "PF 2021",
+ "eventoNomeCompleto": "POLÍCIA FEDERAL",
+ "eventoTotalVagas": "1500",
+ "eventoSalarioMaximo": 23692.74,
+ "strEventoSalarioMaximo": "R$ 23.692,74",
+ "eventoURL": "PF_21",
+ "eventoStatus": "Encerrado",
+ "eventoTipo": "concursos",
+ "eventoAno": 2021,
+ "periodoInscricao": "De 30/03/2021 até 01/04/2021 às 18:00, horário oficial de Brasília/DF",
+ "eventoCargos": [
+  {
+   "idArea": "01",
+   "area": "Cargo 1: Delegado de Polícia Federal"
+  },
+  {
+   "idArea": "02",
+   "area": "Cargo 2: Agente de Polícia Federal"
+  },
+  {
+   "idArea": "03",
+   "area": "Cargo 3: Escrivão de Polícia Federal"
+  },
+  {
+   "idArea": "04",
+   "area": "Cargo 4: Papiloscopista Policial Federal"
+  }
+ ],
+ "arquivosEdital": null,
+ "arquivosGabarito": [
+  {
+   "tipoExtensaoArquivo": "_.pdf",
+   "dataArquivo": "27/07/2026 17:00",
+   "nomeArquivo": "B46611F19D70F07B019A795D3367C491A414D10BDA1A195E23AFF756A8FE9CE4.pdf",
+   "descricaoArquivo": "PROVA ORAL - CARGO DELEGADO (APLICADO DIA 19/7/2026) SUB JUDICE",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2026-07-27T17:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "12/08/2024 13:00",
+   "nomeArquivo": "999_PF_ORAL_001_COMPADRAO.PDF",
+   "descricaoArquivo": "PROVA ORAL E PADRÃO DE RESPOSTAS - CARGO DELEGADO (APLICADO EM 11/08/2024) SUB JUDICE",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2024-08-12T13:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "24/01/2023 15:05",
+   "nomeArquivo": "794_PF_21_ORAL_SUBJUDICE_001_COMPADRO.PDF",
+   "descricaoArquivo": "PROVA ORAL E PADRÃO DE RESPOSTAS SUB JUDICE - DELEGADO (APLICADO EM 22/01/23)",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-01-24T15:05:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "11/10/2022 17:30",
+   "nomeArquivo": "753_DGP_PF_ORAL_001_COMPADRAO.PDF",
+   "descricaoArquivo": "PROVA ORAL E PADRÃO DE RESPOSTAS SUB JUDICE - CARGO DE DELEGADO",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2022-10-11T17:30:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "25/10/2021 17:15",
+   "nomeArquivo": "616_PF_DELEGADO_ORAL_COM_PADRO.PDF",
+   "descricaoArquivo": "PROVA ORAL E PADRÃO DE RESPOSTAS - CARGO DE DELEGADO",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-10-25T17:15:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "25/10/2021 17:15",
+   "nomeArquivo": "PF_ESCRIVO_617.PDF",
+   "descricaoArquivo": "PROVA DE DIGITAÇÃO - CARGO DE ESCRIVÃO",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-10-25T17:15:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "14/06/2021 16:00",
+   "nomeArquivo": "PF_21_PADRO_DE_RESPOSTA_DEFINITIVO_COMPLETO_VF.PDF",
+   "descricaoArquivo": "PADRÃO DE RESPOSTA DEFINITIVO - DELEGADO DE POLÍCIA FEDERAL - ATUALIZADO EM 14/6/2021",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-06-14T16:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "11/06/2021 12:00",
+   "nomeArquivo": "PF_DISC_PADRO_DE_RESPOSTA_DEFINITIVO__DEMAIS_CARGOS.PDF",
+   "descricaoArquivo": "PADRÃO DE RESPOSTA DEFINITIVO - DEMAIS CARGOS",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-06-11T12:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "11/06/2021 11:25",
+   "nomeArquivo": "CARGO_1_DELEGADO_DE_POLCIA_FEDERAL.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA - CARGO 1: DELEGADO DE POLÍCIA FEDERAL",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-06-11T11:25:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "11/06/2021 11:25",
+   "nomeArquivo": "CARGO_2_AGENTE_DE_POLCIA_FEDERAL.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA - CARGO 2: AGENTE DE POLÍCIA FEDERAL",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-06-11T11:25:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "11/06/2021 11:25",
+   "nomeArquivo": "CARGO_3_ESCRIVO_DE_POLCIA_FEDERAL.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA - CARGO 3: ESCRIVÃO DE POLÍCIA FEDERAL",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-06-11T11:25:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "11/06/2021 11:25",
+   "nomeArquivo": "CARGO_4_PAPILOSCOPISTA_POLICIAL_FEDERAL.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA - CARGO 4: PAPILOSCOPISTA DE POLÍCIA FEDERAL",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-06-11T11:25:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "11/06/2021 11:25",
+   "nomeArquivo": "GAB_DEFINITIVO_MATRIZ_577_PF_001_00.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO - CARGO 1: DELEGADO DE POLÍCIA FEDERAL",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-06-11T11:25:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "11/06/2021 11:25",
+   "nomeArquivo": "GAB_DEFINITIVO_MATRIZ_577_PF_002_00.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO - CARGO 2: AGENTE DE POLÍCIA FEDERAL",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-06-11T11:25:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "11/06/2021 11:25",
+   "nomeArquivo": "GAB_DEFINITIVO_MATRIZ_577_PF_003_00.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO - CARGO 3: ESCRIVÃO DE POLÍCIA FEDERAL",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-06-11T11:25:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "11/06/2021 11:25",
+   "nomeArquivo": "GAB_DEFINITIVO_MATRIZ_577_PF_004_00.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO - CARGO 4: PAPILOSCOPISTA DE POLÍCIA FEDERAL",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-06-11T11:25:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "25/05/2021 19:00",
+   "nomeArquivo": "PF_21_PROVA_DISCURSIVA_DEMAIS_CARGOS.PDF",
+   "descricaoArquivo": "PROVA DISCURSIVA - demais cargos",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-05-25T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "25/05/2021 19:00",
+   "nomeArquivo": "PF_21_PROVA_DISCURSIVA_DELEGADO.PDF",
+   "descricaoArquivo": "PROVA DISCURSIVA - Delegado de Polícia Federal",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2021-05-25T19:00:00"
+  }
+ ],
+ "aplicativos": [
+  {
+   "nomeAplicativo": "Parecer da junta médica (sub judice)",
+   "link": "https://security.cebraspe.org.br/PF_21/Recursos/ExameMedico/ConsultaProvisoria_B727-4725-E89B-4474",
+   "strDataInicio": "10/11/2026 10:00",
+   "dataInicio": "2026-11-10T10:00:00"
+  },
+  {
+   "nomeAplicativo": "Respostas aos recursos interpostos contra o resultado provisório na prova oral - Sub judice",
+   "link": "https://security.cebraspe.org.br/PF_21/Resultados/Resposta_Oral_51288F23-AD94-4D7F-A107/",
+   "strDataInicio": "05/08/2026 10:00",
+   "dataInicio": "2026-08-05T10:00:00"
+  },
+  {
+   "nomeAplicativo": "Resposta aos recursos interpostos contra o resultado provisório do procedimento de heteroidentificação dos candidatos que se autodeclararam negros - sub judice",
+   "link": "https://security.cebraspe.org.br/PF_21/Recursos/Cotas/Resposta_11D7EAC9-BE9C-46C0-86CC/",
+   "strDataInicio": "02/07/2026 10:00",
+   "dataInicio": "2026-07-02T10:00:00"
+  },
+  {
+   "nomeAplicativo": "Respostas aos recursos interpostos contra o resultado provisório na prova discursiva - sub judice",
+   "link": "https://security.cebraspe.org.br/PF_21/Resultados/Resposta_Discursiva_4C6540A2-789E-4B40",
+   "strDataInicio": "18/06/2026 10:00",
+   "dataInicio": "2026-06-18T10:00:00"
+  },
+  {
+   "nomeAplicativo": "Consulta ao resultado provisório na avaliação psicológica - Sub Judice - DPF_14_AGENTE",
+   "link": "https://security.cebraspe.org.br/PF_21/Recursos/PsicologicaDPF14/ResultadoProvisorio_77A17FA6-36FF-4FA8/",
+   "strDataInicio": "10/04/2026 13:10",
+   "dataInicio": "2026-04-10T13:10:00"
+  },
+  {
+   "nomeAplicativo": "Consulta ao resultado final no exame de aptidão física - sub judice",
+   "link": "https://security.cebraspe.org.br/PF_21/Recursos/TAF/ResultadoDefinitivo_0553CB44-DEB3-4196-AEF2/",
+   "strDataInicio": "19/03/2026 10:00",
+   "dataInicio": "2026-03-19T10:00:00"
+  },
+  {
+   "nomeAplicativo": "Consulta ao resultado provisório no exame de aptidão física - sub judice",
+   "link": "https://security.cebraspe.org.br/PF_21/Recursos/TAF/ResultadoProvisorio_361A-44EE-9WRS/",
+   "strDataInicio": "04/03/2026 10:00",
+   "dataInicio": "2026-03-04T10:00:00"
+  },
+  {
+   "nomeAplicativo": "Respostas aos recursos interpostos contra o resultado provisório da avaliação psicológica",
+   "link": "https://security.cebraspe.org.br/PF_21/Recursos/Psicologica/ResultadoDefinitivo_8FD825CA-66D3-43EB-8DAD/",
+   "strDataInicio": "18/12/2025 10:00",
+   "dataInicio": "2025-12-18T10:00:00"
+  },
+  {
+   "nomeAplicativo": "Consulta ao resultado provisório na avaliação psicológica - Sub Judice",
+   "link": "https://security.cebraspe.org.br/PF_21/Recursos/Psicologica/ResultadoProvisorio_E0B8-457C-8WRS/",
+   "strDataInicio": "09/12/2025 10:00",
+   "dataInicio": "2025-12-09T10:00:00"
+  }
+ ],
+ "isInscricaoAberta": false,
+ "isDBCriado": 0,
+ "tituloCargos": "Cargos",
+ "tituloCardCargos": "Cargo",
+ "areaCandidato": false
+}

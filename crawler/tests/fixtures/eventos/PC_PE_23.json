@@ -1,0 +1,256 @@
+{
+ "idEvento": 3052,
+ "eventoNomeAbreviado": "PC PE 23",
+ "eventoNomeCompleto": "POLÍCIA CIVIL DE PERNAMBUCO (PC/PE)",
+ "eventoTotalVagas": null,
+ "eventoSalarioMaximo": null,
+ "strEventoSalarioMaximo": "R$ ",
+ "eventoURL": "PC_PE_23",
+ "eventoStatus": "Encerrado",
+ "eventoTipo": "concursos",
+ "eventoAno": 2023,
+ "periodoInscricao": "",
+ "eventoCargos": [
+  {
+   "idArea": "01",
+   "area": "CARGO 1: AGENTE DE POLÍCIA"
+  },
+  {
+   "idArea": "02",
+   "area": "CARGO 2: DELEGADO DE POLÍCIA"
+  },
+  {
+   "idArea": "03",
+   "area": "CARGO 3: ESCRIVÃO DE POLÍCIA"
+  }
+ ],
+ "arquivosEdital": null,
+ "arquivosGabarito": [
+  {
+   "tipoExtensaoArquivo": "_.pdf",
+   "dataArquivo": "21/05/2025 18:00",
+   "nomeArquivo": "087_PC_PE_DELEGADO_ORAL_SJ_001.pdf",
+   "descricaoArquivo": "PROVA ORAL - CARGO DELEGADO (APLICADO EM 18/05/2025) SUB JUDICE",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2025-05-21T18:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "18/02/2025 18:45",
+   "nomeArquivo": "P_MALOTE1_052_PC_PE_23_ORAL_COMPADRAO.PDF",
+   "descricaoArquivo": "PROVA ORAL - CARGO DELEGADO (APLICADO EM 16/02/2025) SUB JUDICE",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2025-02-18T18:45:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "03/12/2024 16:20",
+   "nomeArquivo": "MALOTE1_027_PC_PE_23_ORAL_COM_PADRAO.PDF",
+   "descricaoArquivo": "PROVA ORAL - MALOTE 1",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2024-12-03T16:20:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "03/12/2024 16:20",
+   "nomeArquivo": "MALOTE2_027_PC_PE_23_ORAL_COM_PADRAO.PDF",
+   "descricaoArquivo": "PROVA ORAL - MALOTE 2",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2024-12-03T16:20:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "01/04/2024 20:45",
+   "nomeArquivo": "PC_PE_23_PADRO_DE_RESPOSTA_DEFINITIVO_CARGO_01.PDF",
+   "descricaoArquivo": "PADRÃO DEFINITIVO DE RESPOSTA – PROVA DISCURSIVA – CARGO 1",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2024-04-01T20:45:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "01/04/2024 20:45",
+   "nomeArquivo": "PC_PE_23_PADRO_DE_RESPOSTA_DEFINITIVO_CARGO_02_(2).PDF",
+   "descricaoArquivo": "PADRÃO DEFINITIVO DE RESPOSTAS – PROVA DISCURSIVA – CARGO 2",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2024-04-01T20:45:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "01/04/2024 20:45",
+   "nomeArquivo": "PC_PE_23_PADRO_DE_RESPOSTA_DEFINITIVO_CARGO_03.PDF",
+   "descricaoArquivo": "PADRÃO DEFINITIVO DE RESPOSTA – PROVA DISCURSIVA – CARGO 3",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2024-04-01T20:45:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "01/04/2024 17:40",
+   "nomeArquivo": "GAB_DEFINITIVO_MATRIZ_954PC_PECB1_00.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS BÁSICOS (P1) – CARGO 1",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2024-04-01T17:40:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "01/04/2024 17:40",
+   "nomeArquivo": "GAB_DEFINITIVO_MATRIZ_954PC_PECB2_00.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS BÁSICOS (P1) – CARGO 3",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2024-04-01T17:40:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "01/04/2024 17:40",
+   "nomeArquivo": "GAB_DEFINITIVO_MATRIZ_954PC_PE001_00.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS (P2) – CARGO 1",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2024-04-01T17:40:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "01/04/2024 17:40",
+   "nomeArquivo": "GAB_DEFINITIVO_MATRIZ_954PC_PE002_00.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO – CONHECIMENTOS ESPECÍFICOS (P2) – CARGO 3",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2024-04-01T17:40:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "01/04/2024 17:40",
+   "nomeArquivo": "GAB_DEFINITIVO_MATRIZ_955PC_PE_DELEGADO001_00.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO (P1) – CARGO 2",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2024-04-01T17:40:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "15/03/2024 10:30",
+   "nomeArquivo": "MATRIZ_955PC_PE_DELEGADO001_00_COM_JUSTIFICATIVAS_ATUALIZADO.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA (P1) E GABARITO PRELIMINAR COM JUSTIFICATIVAS - CARGO 2_ATUALIZADO",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2024-03-15T10:30:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "05/03/2024 19:00",
+   "nomeArquivo": "955_PC_PE_DELEGADO_DISC.PDF",
+   "descricaoArquivo": "PROVA DISCURSIVA – CARGO 2",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2024-03-05T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "05/03/2024 19:00",
+   "nomeArquivo": "MATRIZ_955PC_PE_DELEGADO001_00_COM_JUSTIFICATIVAS.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA (P1) E GABARITO PRELIMINAR COM JUSTIFICATIVAS - CARGO 2 - SEM EFEITO",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2024-03-05T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "27/02/2024 19:00",
+   "nomeArquivo": "954_PC_PE_DISC_01.PDF",
+   "descricaoArquivo": "PROVA DISCURSIVA – CARGO 1",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2024-02-27T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "27/02/2024 19:00",
+   "nomeArquivo": "954_PC_PE_DISC_02.PDF",
+   "descricaoArquivo": "PROVA DISCURSIVA – CARGO 3",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2024-02-27T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "27/02/2024 19:00",
+   "nomeArquivo": "MATRIZ_954PC_PECB1_00_COM_JUSTIFICATIVA.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA (P1) E GABARITO PRELIMINAR COM JUSTIFICATIVAS - CARGO 1",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2024-02-27T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "27/02/2024 19:00",
+   "nomeArquivo": "MATRIZ_954PC_PE001_00_COM_JUSTIFICATIVA.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA (P2) E GABARITO PRELIMINAR COM JUSTIFICATIVAS - CARGO 1",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2024-02-27T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "27/02/2024 19:00",
+   "nomeArquivo": "MATRIZ_954PC_PECB2_00_COM_JUSTIFICATIVA.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA (P1) E GABARITO PRELIMINAR COM JUSTIFICATIVAS - CARGO 3",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2024-02-27T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "27/02/2024 19:00",
+   "nomeArquivo": "MATRIZ_954PC_PE002_00_COM_JUSTIFICATIVA.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA (P2) E GABARITO PRELIMINAR COM JUSTIFICATIVAS - CARGO 3",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2024-02-27T19:00:00"
+  }
+ ],
+ "aplicativos": [
+  {
+   "nomeAplicativo": "Respostas aos recursos interpostos contra o resultado provisório na investigação social",
+   "link": "https://security.cebraspe.org.br/PC_PE_23/Recursos/InvestigacaoSocial/ResultadoDefinitivo_2462C629-88CB-449C-AD00/",
+   "strDataInicio": "22/10/2026 10:00",
+   "dataInicio": "2026-10-22T10:00:00"
+  },
+  {
+   "nomeAplicativo": "Resultado na investigação social - sub judice",
+   "link": "https://security.cebraspe.org.br/PC_PE_23/Recursos/InvestigacaoSocial/ResultadoProvisorio_EF9AED3F-DA30-4BC0-95E3",
+   "strDataInicio": "21/09/2026 10:00",
+   "dataInicio": "2026-09-21T10:00:00"
+  },
+  {
+   "nomeAplicativo": "Acesso aos espelhos de resultados provisório e definitivo na avaliação psicológica, bem como recursos e respostas - Regulares e Sub judice",
+   "link": "https://security.cebraspe.org.br/PC_PE_23/Recursos/Psicologica/ResultadoDefinitivo_C227C62E-F74A-4086",
+   "strDataInicio": "21/09/2026 10:00",
+   "dataInicio": "2026-09-21T10:00:00"
+  },
+  {
+   "nomeAplicativo": "Resultado final na Prova de Capacidade Física - sub judice",
+   "link": "https://security.cebraspe.org.br/PC_PE_23/Recursos/TAF/Resposta_9CCC037A-9BB3-4C7F-8491",
+   "strDataInicio": "25/08/2026 10:00",
+   "dataInicio": "2026-08-25T10:00:00"
+  },
+  {
+   "nomeAplicativo": "Respostas aos recursos interpostos contra o resultado provisório na prova discursiva - TODOS OS CARGOS",
+   "link": "https://security.cebraspe.org.br/PC_PE_23/Resultados/Discursiva_EC8341A2-FA2F-48F7-8C23/",
+   "strDataInicio": "15/04/2026 10:00",
+   "dataInicio": "2026-04-15T10:00:00"
+  }
+ ],
+ "isInscricaoAberta": false,
+ "isDBCriado": 0,
+ "tituloCargos": "Cargos",
+ "tituloCardCargos": "Cargo",
+ "areaCandidato": false
+}

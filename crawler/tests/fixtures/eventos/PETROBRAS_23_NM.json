@@ -1,0 +1,306 @@
+{
+ "idEvento": 1971,
+ "eventoNomeAbreviado": "PETROBRAS 23 NM",
+ "eventoNomeCompleto": "PETROBRAS_23_NM",
+ "eventoTotalVagas": "373",
+ "eventoSalarioMaximo": 5563.9,
+ "strEventoSalarioMaximo": "R$ 5.563,90",
+ "eventoURL": "PETROBRAS_23_NM",
+ "eventoStatus": "Encerrado",
+ "eventoTipo": "concursos",
+ "eventoAno": 2023,
+ "periodoInscricao": "De 15/02/2023 até 17/03/2023 às 18:00, horário oficial de Brasília/DF",
+ "eventoCargos": [
+  {
+   "idArea": "01",
+   "area": "Ênfase 1: Enfermagem do Trabalho"
+  },
+  {
+   "idArea": "02",
+   "area": "Ênfase 2: Inspeção de Equipamentos e Instalações"
+  },
+  {
+   "idArea": "03",
+   "area": "Ênfase 3: Logística de Transportes – Controle"
+  },
+  {
+   "idArea": "04",
+   "area": "Ênfase 4: Manutenção – Elétrica"
+  },
+  {
+   "idArea": "05",
+   "area": "Ênfase 5: Manutenção – Instrumentação"
+  },
+  {
+   "idArea": "06",
+   "area": "Ênfase 6: Manutenção – Mecânica"
+  },
+  {
+   "idArea": "07",
+   "area": "Ênfase 7: Operação"
+  },
+  {
+   "idArea": "08",
+   "area": "Ênfase 8: Operação de Lastro"
+  },
+  {
+   "idArea": "09",
+   "area": "Ênfase 9: Projetos, Construção e Montagem – Elétrica"
+  },
+  {
+   "idArea": "10",
+   "area": "Ênfase 10: Projetos, Construção e Montagem – Mecânica"
+  },
+  {
+   "idArea": "11",
+   "area": "Ênfase 11: Segurança do Trabalho"
+  },
+  {
+   "idArea": "12",
+   "area": "Ênfase 12: Suprimento de Bens e Serviços – Administração"
+  }
+ ],
+ "arquivosEdital": null,
+ "arquivosGabarito": [
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "24/05/2023 15:30",
+   "nomeArquivo": "GAB_DEFINITIVO_822_PETROBRAS_23_CB1_01.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO - CONHECIMENTOS BÁSICOS PARA TODAS AS ÊNFASES",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-24T15:30:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "24/05/2023 15:30",
+   "nomeArquivo": "GAB_DEFINITIVO_822_PETROBRAS_23_001_01.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 1",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-24T15:30:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "24/05/2023 15:30",
+   "nomeArquivo": "GAB_DEFINITIVO_822_PETROBRAS_23_002_01.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 2",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-24T15:30:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "24/05/2023 15:30",
+   "nomeArquivo": "GAB_DEFINITIVO_822_PETROBRAS_23_003_01.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 3",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-24T15:30:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "24/05/2023 15:30",
+   "nomeArquivo": "GAB_DEFINITIVO_822_PETROBRAS_23_004_01.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 4",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-24T15:30:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "24/05/2023 15:30",
+   "nomeArquivo": "GAB_DEFINITIVO_822_PETROBRAS_23_005_01.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 5",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-24T15:30:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "24/05/2023 15:30",
+   "nomeArquivo": "GAB_DEFINITIVO_822_PETROBRAS_23_006_01.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 6",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-24T15:30:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "24/05/2023 15:30",
+   "nomeArquivo": "GAB_DEFINITIVO_822_PETROBRAS_23_007_01.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 7",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-24T15:30:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "24/05/2023 15:30",
+   "nomeArquivo": "GAB_DEFINITIVO_822_PETROBRAS_23_008_01.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 8",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-24T15:30:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "24/05/2023 15:30",
+   "nomeArquivo": "GAB_DEFINITIVO_822_PETROBRAS_23_009_01.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 9",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-24T15:30:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "24/05/2023 15:30",
+   "nomeArquivo": "GAB_DEFINITIVO_822_PETROBRAS_23_010_01.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 10",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-24T15:30:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "24/05/2023 15:30",
+   "nomeArquivo": "GAB_DEFINITIVO_822_PETROBRAS_23_011_01.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 11",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-24T15:30:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "24/05/2023 15:30",
+   "nomeArquivo": "GAB_DEFINITIVO_822_PETROBRAS_23_012_01.PDF",
+   "descricaoArquivo": "GABARITO DEFINITIVO - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 12",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-24T15:30:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "24/05/2023 15:30",
+   "nomeArquivo": "822_PETROBRAS_23_CB1_01.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA - CONHECIMENTOS BÁSICOS PARA TODAS AS ÊNFASES",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-24T15:30:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "24/05/2023 15:30",
+   "nomeArquivo": "822_PETROBRAS_23_002_01.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 2",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-24T15:30:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "24/05/2023 15:30",
+   "nomeArquivo": "822_PETROBRAS_23_011_01.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 11",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-24T15:30:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "05/05/2023 19:00",
+   "nomeArquivo": "822_PETROBRAS_23_001_01.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 1",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-05T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "05/05/2023 19:00",
+   "nomeArquivo": "822_PETROBRAS_23_003_01.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 3",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-05T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "05/05/2023 19:00",
+   "nomeArquivo": "822_PETROBRAS_23_004_01.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 4",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-05T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "05/05/2023 19:00",
+   "nomeArquivo": "822_PETROBRAS_23_005_01.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 5",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-05T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "05/05/2023 19:00",
+   "nomeArquivo": "822_PETROBRAS_23_006_01.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 6",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-05T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "05/05/2023 19:00",
+   "nomeArquivo": "822_PETROBRAS_23_007_01.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 7",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-05T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "05/05/2023 19:00",
+   "nomeArquivo": "822_PETROBRAS_23_008_01.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 8",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-05T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "05/05/2023 19:00",
+   "nomeArquivo": "822_PETROBRAS_23_009_01.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 9",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-05T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "05/05/2023 19:00",
+   "nomeArquivo": "822_PETROBRAS_23_010_01.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 10",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-05T19:00:00"
+  },
+  {
+   "tipoExtensaoArquivo": "_pdf",
+   "dataArquivo": "05/05/2023 19:00",
+   "nomeArquivo": "822_PETROBRAS_23_012_01.PDF",
+   "descricaoArquivo": "PROVA OBJETIVA - CONHECIMENTOS ESPECÍFICOS - ÊNFASE 12",
+   "isDataValid": true,
+   "isGuid": false,
+   "dataArquivoObj": "2023-05-05T19:00:00"
+  }
+ ],
+ "aplicativos": null,
+ "isInscricaoAberta": false,
+ "isDBCriado": 0,
+ "tituloCargos": "Cargos",
+ "tituloCardCargos": "Cargo",
+ "areaCandidato": false
+}
