@@ -437,8 +437,9 @@ def processar(e: dict, ds: Dataset, *, plano: Plano, extrator: str, extractor: E
     # validação (+ cruzamento com o texto do PDF, grátis). Texto conferido: itens
     # do Firecrawl e, em múltipla escolha, todas as questões.
     mc = gab.tipo != "certo_errado"
-    verificar = [q.numero for q in prova.questoes] if mc else \
-        [n for n, o in res.origem.items() if o == "firecrawl"]
+    # questão anulada não vira registro: não é cruzada com o PDF
+    verificar = [q.numero for q in prova.questoes if q.numero not in gab.anulados] if mc else \
+        [n for n, o in res.origem.items() if o == "firecrawl" and n not in gab.anulados]
     texto = None
     if verificar and pdf_texto is not None:
         try:
@@ -452,7 +453,8 @@ def processar(e: dict, ds: Dataset, *, plano: Plano, extrator: str, extractor: E
             respostas={n: r for n, r in gab.respostas.items() if n not in fora}, url=gab.url)
         return validar(prova_v, gab_v, caderno=f"{e['evento']}/{e['caderno']}",
                        url_prova=e["url_prova"], url_gabarito=e["url_gabarito"],
-                       itens_pdf=plano.itens_local, so_indicativo=set(plano.itens_fallback),
+                       itens_pdf=plano.itens_local,
+                       so_indicativo=set(plano.itens_fallback) | set(gab.anulados),
                        texto_pdf=texto, verificar_texto=[n for n in verificar if n not in fora])
 
     rel = _validar(prova, omitidos)

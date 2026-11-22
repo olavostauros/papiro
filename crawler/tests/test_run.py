@@ -392,3 +392,18 @@ def test_abaixo_de_90_por_cento_reprova_a_prova(ambiente):
 def test_mc_cobertura_local_incompleta_vai_para_firecrawl(ambiente):
     rep = _rodar_mc(ambiente, nums=range(1, 15), teto=30)
     assert "cobertura local 70%" in rep["provas"][0]["fallback"]
+
+
+def test_mc_anulada_com_falha_no_pdf_nao_reprova(ambiente):
+    _, ledger, ds_path = ambiente
+    mc_gab = lambda url: Gabarito(respostas={n: ("X" if n == 7 else "B") for n in range(1, 21)},
+                                  url=url)
+    rep = run.executar({"provas": [entrada()]}, run.Dataset.carregar(ds_path), limite=1, teto=0,
+                       extractor=fake_extractor(range(1, 21), ledger), gab_loader=mc_gab,
+                       page_counter=lambda u: 2, ledger=ledger, pdf_itens=_locais(range(1, 21)),
+                       pdf_mc=_mc_local(range(1, 21)),
+                       pdf_texto=_texto_pdf(range(1, 21), sem_alternativa={7}),
+                       extrator="local", log=lambda *_: None)
+    p = rep["provas"][0]
+    assert p["status"] == "aprovada", p["validacao"]["erros"]
+    assert p["questoes_descartadas"] == {} and p["adicionadas"] == 38   # 19 × 2 cargos
