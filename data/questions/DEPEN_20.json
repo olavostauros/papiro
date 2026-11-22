@@ -17,7 +17,8 @@
  "assuntos": [
   "Conhecimentos Básicos",
   "Conhecimentos Específicos",
-  "Conhecimentos Complementares"
+  "Conhecimentos Complementares",
+  ""
  ],
  "provas": [
   {
@@ -43,6 +44,12 @@
   },
   {
    "fonte": "https://cdn.cebraspe.org.br/concursos/DEPEN_20/arquivos/MATRIZ_541_DEPEN_008_00.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/DEPEN_20/arquivos/016_DEPEN20CF2_001_01.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/DEPEN_20/arquivos/011_DEPEN20CF_001_01.PDF"
   }
  ],
  "itens": [
@@ -10340,6 +10347,556 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Em penitenciária federal, a realização de pesquisa científica com preso depende da autorização do diretor e da assistência educacional da penitenciária, além do consentimento formal do preso. -- PROVA DISCURSIVA",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-001",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "O Supremo Tribunal Federal, apesar das massivas e recorrentes violações de direitos fundamentais, entendeu que não há um estado de coisas inconstitucional nas prisões brasileiras, determinando, tão somente, que sejam realizados procedimentos internos para apuração das ocorrências, o que resultou no processo de confecção do Plano Pena Justa.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-002",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "Ao contrário dos universalistas, os generalistas entendem que dignidade humana é valor inerente à condição humana.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-003",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "Segundo a Lei de Execução Penal, a Defensoria Pública é um dos órgãos de execução penal, assim como o Conselho da Comunidade.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-004",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "É permitido aos membros do Mecanismo Nacional de Prevenção e Combate à Tortura (MPNCT), órgão integrante da pasta que conduz a política de direitos humanos no país, solicitar a realização de perícias oficiais, em consonância com as normas e diretrizes internacionais e com o Código de Processo Penal.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-005",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "Entre os anos de 2000 e 2021, houve um aumento exponencial da população feminina encarcerada, superior percentualmente ao aumento da população masculina no mesmo período.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-006",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "O antigo Departamento Penitenciário Nacional (DEPEN), órgão executivo da Política Penitenciária, foi transformado na SENAPPEN, focada no planejamento e na coordenação das políticas nacionais de serviços penais, mudança por meio da qual se pretendia estabelecer a adoção da pena privativa de liberdade como medida excepcional e possibilidade mais gravosa de punição, conforme previsto pela norma constitucional.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-007",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "Não há, no Brasil, carência de espaços físicos prisionais, mas sim de estrutura física ideal, o que compromete a harmônica execução das penas, ressaltando-se que a existência de espaços estruturalmente adequados em ambientes prisionais é fator primordial para o cumprimento do que afirma a legislação em relação à pena de prisão.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-008",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "A monitoração eletrônica, instrumento eficaz para conter o encarceramento e reduzir o alto número de presos provisórios, deve ser utilizada como principal medida cautelar diversa da prisão, sendo recomendada, inclusive, durante a fase de execução penal.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-009",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "A SENAPPEN atua para fortalecer as políticas penais no que concerne à sua formulação, à sua implementação, à sua execução ou coordenação, ao seu monitoramento e à sua avaliação, etapas que compõem o ciclo das políticas públicas.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-010",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "O foco das alternativas penais, que devem ser aplicadas somente após o cumprimento de determinado percentual de pena privativa de liberdade, é o de contribuir para a redução da população carcerária no Brasil, bem como para a promoção de uma sociedade na qual predomine a resolução de conflitos por meios restaurativos em prol de uma cultura de paz, da manutenção dos laços familiares e sociais da pessoa em cumprimento de pena.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-011",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "A coordenação de saúde da Diretoria de Políticas Penitenciárias (DIRPP), unidade da SENAPPEN, é voltada à promoção da saúde em ambiente prisional, tendo por escopo ações cujo público-alvo exclusivo é a população privada de liberdade e cuja finalidade é tornar acessível o serviço de saúde pública para essa população.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-012",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "Através da articulação com o Ministério da Educação, a Coordenação de Educação, Cultura e Esporte da SENAPPEN (COECE) atua para a ampliação do número de pessoas presas envolvidas em atividades educacionais.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-013",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "A Força Penal Nacional (FPN) tem partido para uma lógica preventiva, com atuação anterior ao caráter de grave crise, podendo, assim, atuar com mais tranquilidade e de forma mais planejada, a fim de garantir segurança, estabilidade e direitos, além de possibilitar a execução de projetos que objetivem a melhoria do sistema prisional.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-014",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "A atuação de profissionais de nível operacional da execução penal não sofre reflexos decorrentes da atuação de facções criminosas no sistema prisional, justamente porque esses profissionais atuam de forma integrada, transversalizada e multidisciplinar.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-015",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "O uso da força parte da discricionariedade do agente federal de execução penal, com base nos princípios de oportunidade e conveniência, princípios basilares da administração pública. A2 – ÉTICA, POSTURA PROFISSIONAL E PROCEDIMENTOS DE CORREIÇÃO",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-016",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "O processo administrativo disciplinar e a sindicância investigativa podem ensejar a aplicação de penalidades disciplinares, motivo por que são aplicáveis a tais procedimentos os princípios constitucionais do contraditório e da ampla defesa.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-017",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "No caso de empregados públicos ou servidores não ocupantes de cargo efetivo, o termo de ajustamento de conduta (TAC) somente poderá ser celebrado nas infrações puníveis com a penalidade de advertência.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-018",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "As palavras ética e moral têm origem comum e seus significados se relacionam com o comportamento humano, razão pela qual devem ser compreendidas como sinônimas.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-019",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "Em regra, é defeso responsabilizar administrativamente um servidor público quando ele já tiver sido sancionado civil ou criminalmente pela ilicitude praticada.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-020",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "A Corregedoria-Geral da União (CRG) integra a Controladoria-Geral da União (CGU) — órgão central da estrutura correcional — e sua atuação correcional é tanto preventiva quanto repressiva.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-021",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "A instauração de processo disciplinar suspende a prescrição até a decisão final proferida por autoridade competente, ocasião em que o transcurso do prazo é retomado de onde parou quando da suspensão.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-022",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "Segundo a jurisprudência do STJ, não é cabível instaurar imediatamente o processo administrativo disciplinar com base exclusivamente em denúncia anônima.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-023",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "Conforme a jurisprudência do STF, a defesa técnica por advogado no processo administrativo disciplinar é imprescindível para a observância dos princípios constitucionais que regem o direito administrativo sancionador.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-024",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "De acordo com a jurisprudência do STJ, a utilização da prova emprestada no processo administrativo disciplinar depende da devida autorização judicial e do respeito aos princípios constitucionais do contraditório e da ampla defesa.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-025",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "Nos termos da Lei n.º 8.112/1990, a suspensão será aplicada em caso de reincidência das faltas punidas com multa e de violação das demais proibições que não tipifiquem infração sujeita à penalidade de demissão, não podendo exceder de 180 dias.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-026",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "O processo administrativo disciplinar em rito sumário é o meio idôneo para a apuração de responsabilidade nos casos de inassiduidade habitual, abandono de cargo e acúmulo ilegal de cargos, empregos ou funções públicas.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-027",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "A tipificação das condutas descritas na nova Lei de Abuso de Autoridade requer que o sujeito ativo do crime tenha agido com a finalidade específica de prejudicar outrem ou beneficiar a si mesmo ou a terceiro, ou, ainda, por mero capricho ou satisfação pessoal.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-028",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "A Lei n.º 8.112/1990 prevê um rol taxativo de deveres funcionais dos servidores públicos federais, sendo vedada a ampliação de tais obrigações por regulamentos ou normas internas.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-029",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "A infração disciplinar de abandono de cargo será configurada quando o servidor, intencionalmente, deixar de comparecer ao serviço por mais de 30 dias consecutivos, desconsiderados os sábados, domingos, feriados e dias de ponto facultativo.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-030",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "A caracterização das infrações relativas a valimento de cargo e improbidade administrativa depende da comprovação de que o servidor público praticante da falta disciplinar agiu dolosamente.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-031",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "São competências da Divisão de Inteligência das penitenciárias federais o planejamento e a execução das escoltas terrestres e aéreas de presos em âmbito local.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-032",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "Vinculada ao Ministério da Justiça e Segurança Pública, a SENAPPEN é um órgão executivo cujo escopo é a administração do Sistema Penitenciário Federal e do Fundo Penitenciário Nacional, bem como a fiscalização e promoção das normas contidas na Lei de Execuções Penais e das diretrizes dispostas pelo Conselho Nacional de Política Criminal e Penitenciária.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-033",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "Compete à Diretoria do Sistema Penitenciário Federal propor ao diretor-geral ações que visem à padronização dos procedimentos realizados nas cinco penitenciárias que integram o referido Sistema.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-034",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "Cabe à Diretoria do Sistema Penitenciário Federal estabelecer sistema de gerenciamento e banco de dados informatizado, com a finalidade de manter o controle da população carcerária do Sistema Penitenciário Federal.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-035",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "São incumbências da Coordenação-Geral de Assistências nas penitenciárias a orientação, a coordenação e o planejamento da execução de atividades direcionadas à assistência cultural e esportiva em prol dos presos provisórios e condenados ao regime fechado inseridos no Sistema Penitenciário Federal.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-036",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "No Posto de Serviço 0 (PS0), cabe a no mínimo dois policiais penais federais a inspeção do interior de veículos, bem como de cargas e encomendas que neles se encontrem, sendo obrigatória, em caso de negativa de ingresso, a comunicação ao diretor ou ao chefe de segurança da unidade.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-038",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "O controle de acesso às penitenciárias federais, dado que estas são unidades de segurança máxima, deve ser efetuado exclusivamente através de meios mecânicos e tecnológicos.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-039",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "A verificação realizada pelo leitor biométrico, um dos equipamentos utilizados para a monitoração dos acessos, combina o método da segurança do reconhecimento das impressões digitais do usuário com o suporte a cartões inteligentes sem contato.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-040",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "Os equipamentos de inspeção são instrumentos capazes de conferir maior eficiência e respeito à dignidade dos visitantes.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-041",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "Dentre os equipamentos de segurança usados para inspeções, o body scan é o único capaz de identificar a presença de pequenas massas metálicas inseridas em cavidades corporais.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-042",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "O emprego do nível de segurança 3 deve ocorrer em resposta a evento crítico e não pode ser provocado por ato discricionário do diretor da penitenciária, devendo se dar em conformidade com o plano de defesa.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-043",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "Os planos de defesa elaborados pelos diretores das unidades penitenciárias federais devem ser submetidos a revisão anual, bem como à aprovação do Diretor do Sistema Penitenciário.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-044",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "Em casos excepcionais, o chefe de segurança e disciplina poderá determinar o isolamento preventivo do preso por período não superior a 15 dias, como medida cautelar administrativa, independentemente de motivação.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-045",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "A liberação de presos para o banho de sol exige ronda prévia no pátio, revista manual de cada indivíduo, inspeção das roupas e algemamento durante o procedimento, sendo facultada a manutenção das algemas após o fechamento do portão de acesso ao pátio, conforme decisão do chefe da Divisão de Segurança e Disciplina.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-046",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "A submissão do preso ao regime disciplinar diferenciado, a existência de ameaça à sua integridade física em razão da condição de réu colaborador e o seu envolvimento em incidente grave de indisciplina no estabelecimento penal de origem são fatores que podem ensejar a inclusão do preso no Sistema Penitenciário Federal.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-047",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "Caso sejam observados, quando da inclusão de preso no Sistema Penitenciário Federal, quaisquer indícios de violação da integridade física ou moral do interno ou de debilidade da sua saúde, cabe ao policial penal federal responsável a imediata comunicação ao diretor da respectiva unidade penitenciária.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-048",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "Quanto aos níveis de força, atitudes de resistência passiva são classificadas como nível II e, para sua superação, indica-se a utilização de comandos verbais e a persuasão com objetivo de orientação e aconselhamentos.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-049",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "O emprego da força por agentes de segurança pública apenas se justifica se voltado para a garantia da preservação da integridade física, da vida e da dignidade das pessoas destinatárias, e se pauta pelos princípios da legalidade, da proporcionalidade, da economicidade, da conveniência e da eficiência.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-050",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "A terminologia “uso progressivo da força”, apesar de empregada por leigos, é inadequada, pois denota um percurso único de escalada, suprimindo a ideia de regressão ou abrandamento, que também podem ser necessários e suficientes em determinado caso.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-depen-agente-037",
+   "prova": 9,
+   "orgao": 0,
+   "cargo": 7,
+   "ano": 2020,
+   "assunto": 3,
+   "tipo": "certo_errado",
+   "enunciado": "Exige-se previsão legal dos espaços em que os cidadãos possam atuar na realização do controle social, tais como os conselhos de políticas públicas e as conferências.",
    "gabarito": "errado"
   }
  ]

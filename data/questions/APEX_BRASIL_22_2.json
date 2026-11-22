@@ -2,7 +2,8 @@
  "evento": "APEX_BRASIL_22_2",
  "banca": "Cebraspe",
  "orgaos": [
-  "Agência Brasileira de Promoção de Exportações e Investimentos"
+  "Agência Brasileira de Promoção de Exportações e Investimentos",
+  "Apex Brasil 2"
  ],
  "cargos": [
   "Perfil 1: Comunicação",
@@ -10,7 +11,8 @@
   "Perfil 3: Negócios Internacionais – Especialidade: Indústria e Serviços"
  ],
  "assuntos": [
-  ""
+  "",
+  "Conhecimentos Específicos"
  ],
  "provas": [
   {
@@ -24,6 +26,15 @@
   },
   {
    "fonte": "https://cdn.cebraspe.org.br/concursos/APEX_BRASIL_22_2/arquivos/APEX_BRASIL_003_01.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/APEX_BRASIL_22_2/arquivos/711_APEX_BRASIL_001_01.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/APEX_BRASIL_22_2/arquivos/711_APEX_BRASIL_002_01.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/APEX_BRASIL_22_2/arquivos/711_APEX_BRASIL_003_01.PDF"
   }
  ],
  "itens": [
@@ -4099,6 +4110,1995 @@
    "assunto": 0,
    "tipo": "multipla_escolha",
    "enunciado": "Assinale a opção que melhor corresponde ao mix de marketing .",
+   "gabarito": "a",
+   "alternativas": [
+    "necessidades do consumidor, custo do produto, conveniência para comprar, comunicação",
+    "necessidades do empresário, preço, distribuição, características do produto",
+    "análise de mercado, característica do produto, força de vendas, avaliação do desempenho comercial",
+    "ameaças, oportunidades, forças, fraquezas"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-041",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca dos conceitos de acontecimento, fato e notícia, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "O acontecimento é qualquer fenômeno digno de nota, mas nem todo acontecimento tem valor midiático.",
+    "O fato jornalístico confunde-se com o fato sociológico.",
+    "O valor-notícia é o que se paga às agências noticiosas pelo fato.",
+    "O registro fático cotidiano e interpessoal tem valor noticioso."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-042",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Algumas assessorias, no atendimento à imprensa em geral, optam, em paralelo, pela criação de um quadro de jornalistas, cujo credenciamento",
+   "gabarito": "c",
+   "alternativas": [
+    "é restrito a setores de cobertura de grandes eventos, como shows.",
+    "justifica-se apenas para a emissão de crachás de identificação na entrada de prédios.",
+    "facilita o relacionamento dos jornalistas com suas fontes, e vice-versa, incluída a própria assessoria.",
+    "é prática autoritária para controlar a circulação de repórteres em determinada área."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-043",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito de ferramentas digitais para profissionais de comunicação, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Proporcionar gratuitamente computadores, telefones e outros equipamentos de alto desempenho é a forma mais direta e operacional de auxiliar repórteres na era digital.",
+    "Oferecer presencialmente treinamentos periódicos em novas tecnologias no campo das comunicações representa um valor agregado ao cotidiano dos jornalistas.",
+    "Equipar uma sala de imprensa para o trabalho presencial de repórteres é bastante funcional, em razão da pressa, que é a principal característica dos repórteres.",
+    "Podem ser de grande utilidade para as rotinas produtivas jornalísticas os marcadores sociais, que compõem uma coleção de links correlatos aos assuntos da organização assessorada e abertos a uma comunidade."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-044",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A principal dinâmica do jornalismo participativo é a",
+   "gabarito": "a",
+   "alternativas": [
+    "criação coletiva de conteúdos.",
+    "criação apócrifa de conteúdos.",
+    "contribuição das fontes.",
+    "criação anônima de conteúdos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-045",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Suponha que um assessor de imprensa deva encaminhar press releases para veículos que praticam a comunicação pública e se depare com uma dúvida, ao verificar que há organizações da iniciativa privada no cadastro disponível. Nessa situação hipotética, o assessor deve I eliminar do cadastro as entidades do setor privado. II enviar press releases apenas para as empresas estatais, que são entidades públicas propriamente ditas. III enviar press releases a todo o cadastro, pois há entidades que, mesmo sendo consideradas do setor privado, são públicas. IV excluir do cadastro as organizações sociais (OS), que, mesmo financiadas pelo Estado, não se enquadram na categoria de comunicação pública. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens II e IV estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-046",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O executivo de uma organização recebeu um grupo de ambientalistas que propunha parceria na divulgação de uma campanha de enfrentamento a queimadas. Lamentando não dispor de verbas para a campanha, o executivo chamou para a reunião o assessor de imprensa da organização, que informou ter um mailing de jornais que integram um projeto de civic journalism e aos quais poderia ser proposta uma parceria para a obtenção, sem pagamento, de espaço midiático para a divulgação de conteúdos da campanha. Nessa situação hipotética, o assessor de imprensa sugeriu uma ação típica de",
+   "gabarito": "d",
+   "alternativas": [
+    "lobby.",
+    "ação promocional não mercadológica.",
+    "informe publicitário.",
+    "mídia gratuita."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-047",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Suponha que um assessorado concorde com a manutenção de conteúdos institucionais na Internet, mas não queira que estes estejam abertos a interações com o público. Nesse contexto, a solução para a visibilidade desejada consiste na",
+   "gabarito": "d",
+   "alternativas": [
+    "criação, em redes sociais, de perfis organizacionais, mas com bloqueio de mensagens.",
+    "criação, em redes sociais, de perfis institucionais, com dispensa de avaliações, como curtidas.",
+    "inserção de vídeos institucionais nos horários nobres da televisão por assinatura.",
+    "criação de hotsites, permanentes ou ocasionais."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-048",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Para solucionar o problema de uma personalidade antes prestigiada e agora insatisfeita com a baixa visibilidade e o baixo volume de curtidas nas redes sociais, o seu assessor de imprensa deverá",
+   "gabarito": "d",
+   "alternativas": [
+    "contratar a produção massiva de algoritmos por robôs eletrônicos programados para a realização de curtidas.",
+    "elaborar um plano de mídia social que abranja a compra de anúncios em redes sociais.",
+    "produzir diariamente conteúdos fomentadores de prestígio para o assessorado dessa personalidade nas redes sociais.",
+    "contratar um gestor de marketing digital encarregado da geração sucessiva de lides para as redes sociais. 711001_01N751615"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-049",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O assessor de imprensa de uma companhia de energia deseja promover uma ação institucional de comunicação que incentive o envolvimento de usuários de eletricidade no enfrentamento aos furtos de cabos de cobre, crime que resulta em prejuízos e cortes de luz para milhares de pessoas. Com relação a essa situação hipotética, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "A oferta percentual de redução de tarifas produz resultados líquidos e certos em matéria de comunicação institucional com o público usuário.",
+    "A premiação de fotos e reportagens na categoria jornalismo cidadão é uma iniciativa indicada para o objetivo em causa.",
+    "Uma ação de comunicação institucional efetiva consiste na presença constante e massiva de anúncios para esclarecer que a culpa dos cortes de luz não é da empresa de eletricidade, mas dos ladrões de cabos.",
+    "Uma ação comunicativa institucional com potencial de efetividade seria a veiculação de apelos pela vigilância das caixas de cabos eletrônicos, via mídia comunitária."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-050",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da conduta a ser adotada em face de comentários negativos ou agressivos nas redes sociais referentes à organização assessorada, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Repassar para um advogado os comentários ofensivos é, ainda, a forma mais efetiva de lidar com a destruição fácil de reputação e prestígio.",
+    "Devem-se responder de forma esclarecedora as repercussões, inclusive as adversas, porém sérias, já que simplesmente excluir os comentários e até os seus autores não levará a bons resultados.",
+    "Respostas corteses e padronizadas, do tipo “Obrigado por participar” ou “Respeitamos a sua opinião”, são formas de amenizar as atitudes hostis.",
+    "Responder no mesmo tom é seguir o padrão da agressividade dominante nas redes sociais e, portanto, é uma atitude natural para o meio."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-051",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Entre as atividades desenvolvidas pelo profissional da área de relações públicas, incluem-se",
+   "gabarito": "d",
+   "alternativas": [
+    "participação em eventos, organização das referências e criação de estratégias para a avaliação de pessoas.",
+    "monitoramento das informações internas, garantia da segurança das pessoas nas organizações e seleção de pessoas para cargos de diretoria.",
+    "conferência das notícias diárias, montagem de estandes e participação em feiras.",
+    "apoio a pesquisa, demonstração de contribuição como valor econômico e assessoria aos dirigentes."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-052",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação ao mapeamento dos públicos ligados a uma organização e à identificação dos possíveis públicos, que constituem uma etapa fundamental do processo de relações públicas, conforme a visão moderna, no contexto complexo contemporâneo, observa-se que",
+   "gabarito": "c",
+   "alternativas": [
+    "o estudo acerca do comportamento dos públicos diante de uma organização é irrelevante para o processo de planejamento.",
+    "o público interno são os funcionários, os stakeholders e os fornecedores.",
+    "a dinâmica histórica e as forças sociais do macroambiente são aspectos a serem considerados.",
+    "o público misto é constituído de diretores, empregados e seus familiares."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-053",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sob a perspectiva da divulgação da imagem corporativa pela assessoria de impressa, verifica-se que",
+   "gabarito": "c",
+   "alternativas": [
+    "os termos imagem e identidade, que integram o mundo corporativo, são conexos e, portanto, intercambiáveis.",
+    "a imagem e a identidade relacionam-se a apresentação visual, logos, nomes criativos e luminosos em pontos estratégicos, conforme definido pela organização.",
+    "a imagem é intangível, abstrata e privilegia a visão subjetiva de determinada realidade.",
+    "a identidade corporativa tem a subjetividade como principal atributo."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-054",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A relação com a imprensa deve ocorrer de acordo com a diplomacia, o respeito e as trocas responsáveis das informações, com observação, pelo assessor de imprensa, das seguintes diretrizes: I Criar articulações com profissionais da imprensa, valorizando a confiança e, em certos casos, a exclusividade noticiosa. II Trabalhar para a manutenção da identidade da organização. III Evidenciar as crises ao perfil dos dirigentes, privilegiando a informação a respeito da atuação deles. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-055",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito dos tipos de release, que é o material de divulgação produzido pela assessoria de imprensa destinado aos veículos de comunicação, observa-se que",
+   "gabarito": "d",
+   "alternativas": [
+    "o release dirigido deve ser enviado para diversos colunistas dos meios de comunicação.",
+    "o release dirigido é o que destaca a informação (o quê?), ou seja, o fato em si, e o público-alvo (a quem se destina).",
+    "o release de opinião considera as particularidades de determinado espaço jornalístico.",
+    "o release deve chamar atenção para o valor das informações, do texto e de sua apresentação visual."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-056",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "São elementos de um press-kit para um assessor de imprensa que organizará um evento",
+   "gabarito": "a",
+   "alternativas": [
+    "o levantamento estatístico dos principais temas abordados e a programação detalhada com um mapa de localização das salas.",
+    "a biografia do autor e a relação de obras publicadas.",
+    "o histórico da instituição e os documentos organizados de forma sequencial.",
+    "a sugestão de assuntos a serem abordados e o release de convocação."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-058",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Para elaborar o trabalho de preparar uma entrevista coletiva para atender às necessidades da organização ou instituição e da imprensa, o assessor de imprensa deve ter o cuidado de",
+   "gabarito": "a",
+   "alternativas": [
+    "comunicar a realização da entrevista coletiva a repórteres, pauteiros, chefes de reportagem e editores de cada veículo.",
+    "escolher o horário de acordo com o interesse da organização ou instituição.",
+    "liberar a participação de qualquer veículo que se interesse pelo assunto da entrevista coletiva.",
+    "utilizar os meios de comunicação para divulgar os dados básicos do anúncio da entrevista coletiva."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-059",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito da nota oficial, que é um texto distribuído em situações críticas, que necessitam de posicionamento decisivo do assessorado, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "O texto é jornalístico, com a estrutura do lide, conforme a orientação dos assessores.",
+    "A estrutura básica deve conter cabeçalho, introdução, desenvolvimento, encerramento e assinatura.",
+    "O texto pode ser enviado para veículos de comunicação em geral, para que decidam se o divulgarão.",
+    "O encerramento do texto deve conter a citação do motivo da nota, de forma velada."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-060",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O profissional de relações públicas, ao trabalhar o público interno da organização, poderá",
+   "gabarito": "d",
+   "alternativas": [
+    "sugerir remanejamento de funcionários.",
+    "participar dos processos seletivos em todos os setores.",
+    "organizar os planos de cargos e salários.",
+    "divulgar a missão e a visão da organização."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-061",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O serviço de apuração, coleção e fornecimento de recortes de jornais e revistas acerca de determinado assunto é denominado de",
+   "gabarito": "a",
+   "alternativas": [
+    "clipping.",
+    "sugestão de pauta.",
+    "pasta de imprensa.",
+    "análise."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-062",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No sistema comunicacional, o fluxo responsável pelo encaminhamento, aos níveis superiores da organização, de informações funcionais e operativas que saem das bases, com resultados dos estágios dos programas, anseios, expectativas e sugestões, é o fluxo",
+   "gabarito": "d",
+   "alternativas": [
+    "formal.",
+    "lateral.",
+    "descendente.",
+    "ascendente."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-063",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O planejamento da comunicação organizacional contempla características específicas, entre as quais a característica do processo, que prevê que o planejamento deve",
+   "gabarito": "a",
+   "alternativas": [
+    "ocorrer por meio de uma sucessão de fases interconectadas e contínuas.",
+    "envolver a totalidade da organização.",
+    "nortear-se para o futuro e assumir um caráter de longo prazo.",
+    "orientar-se por princípios que direcionem suas atividades em um clima favorável para a sua operacionalização."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-064",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No contexto da estrutura das organizações, refere-se à maneira preestabelecida e formalizada de efetuar as diversas operações que fazem funcionar uma organização o atributo da",
+   "gabarito": "c",
+   "alternativas": [
+    "territorialidade.",
+    "afiliação.",
+    "padronização.",
+    "especialização."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-065",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O meio representado por mapas, diagramas, pinturas, fotografias, desenhos, entre outros, de que se valem as organizações para viabilizar a comunicação com os mais diferentes públicos é o",
+   "gabarito": "d",
+   "alternativas": [
+    "oral.",
+    "escrito.",
+    "simbólico.",
+    "pictográfico."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-066",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O processo de comunicação instaurado entre o Estado, o governo e a sociedade cujo objetivo é informar para a construção da cidadania é denominado comunicação",
+   "gabarito": "d",
+   "alternativas": [
+    "governamental.",
+    "social.",
+    "política.",
+    "pública."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-067",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em comunicação pública, dizem respeito exclusivamente ao cidadão, à empresa ou à instituição as informações",
+   "gabarito": "c",
+   "alternativas": [
+    "de gestão.",
+    "institucionais.",
+    "de interesse privado.",
+    "de interesse público."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-068",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em vista da existência de várias classificações possíveis de públicos no âmbito das organizações do terceiro setor, quanto à natureza do vínculo com a instituição, o público agente é aquele formado por",
+   "gabarito": "b",
+   "alternativas": [
+    "clientes e público em geral.",
+    "voluntários, conselheiros, parceiros e fornecedores.",
+    "doadores, apoiadores, fornecedores e reguladores.",
+    "funcionários e suas famílias."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-069",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A imagem institucional resulta do balanço entre as percepções positivas e negativas que a empresa passa para seus públicos, e uma imagem institucional competitiva contribui para",
+   "gabarito": "a",
+   "alternativas": [
+    "gerar negócios, de forma a conquistar clientes, acionistas, parceiros, entre outros.",
+    "projetar uma imagem além do real, como meio de atrair mais clientes e aumentar as vendas.",
+    "manter os recursos humanos atuais da empresa, o que pode complicar a atração dos melhores profissionais do mercado em razão da cobrança agressiva de metas.",
+    "ampliar o descrédito de certos públicos em consequência da competição acirrada com os concorrentes. 711001_01N751615"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-070",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Tem como premissa a apresentação das atividades da instituição de forma a reforçar o seu discurso, às vezes de modo persuasivo, com evidenciação das opiniões e dos pontos de vista da empresa, o componente da identidade institucional conhecido como",
+   "gabarito": "c",
+   "alternativas": [
+    "diálogo.",
+    "proposta.",
+    "mensagem.",
+    "imagem."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-071",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Entre as funções básicas das relações públicas, constitui uma mediação, promovida pelo fornecimento de pareceres e recomendações devidamente detalhados, para que o sucesso da organização seja compartilhado por todos os participantes, a função de",
+   "gabarito": "d",
+   "alternativas": [
+    "assessoramento.",
+    "pesquisa.",
+    "planejamento.",
+    "coordenação."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-072",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme a classificação tradicional dos públicos de uma empresa, o público misto é composto",
+   "gabarito": "a",
+   "alternativas": [
+    "pelos fornecedores.",
+    "pelas famílias dos empregados da empresa.",
+    "pela imprensa.",
+    "pela comunidade."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-073",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A implementação do processo de relações públicas em apoio à alta administração de uma organização tem em vista",
+   "gabarito": "b",
+   "alternativas": [
+    "envolver a participação das esferas estratégicas da empresa ao incentivar a prática de conceitos e ideias mais elevadas.",
+    "possibilitar um comportamento sinérgico entre os níveis funcionais e os objetivos da organização.",
+    "permitir à empresa realizar a segregação do ambiente, a fim de promover uma evolução de desempenho menos reagente, amoldável e conservadora.",
+    "transformar a organização agente em uma entidade reativa."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-074",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Utilizado pelas relações públicas, o tipo de veículo de comunicação dirigida aproximativa para estabelecer relações com os públicos é denominado de",
+   "gabarito": "b",
+   "alternativas": [
+    "exposição.",
+    "visita guiada à empresa.",
+    "press release.",
+    "intranet."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-075",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação à tipologia, o evento cujo objetivo é o de aproximar empresas para realizar parcerias e negociar seus produtos e serviços é chamado de",
+   "gabarito": "b",
+   "alternativas": [
+    "brainstorming.",
+    "roda de negócios.",
+    "painel.",
+    "happy hour."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-076",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Quanto à administração de crises nas organizações, a crise que vai e volta, aparece e desaparece, e repete o fluxo de forma periódica, é classificada como",
+   "gabarito": "b",
+   "alternativas": [
+    "crônica.",
+    "ciclotímica.",
+    "tempestiva.",
+    "inusitada."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-077",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O texto informativo distribuído à imprensa para ser divulgado, de forma gratuita, entre as notícias publicadas pelo veículo recebe o nome de",
+   "gabarito": "b",
+   "alternativas": [
+    "súmula.",
+    "release.",
+    "press kit.",
+    "sinopse."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-078",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ao adquirir um produto, o cliente avalia o grau de satisfação por meio da apreciação dos atributos do item adquirido, considerando-se como desejados aqueles em que os atributos do produto",
+   "gabarito": "d",
+   "alternativas": [
+    "atendem à expectativa básica do cliente, sem grandes contentamentos ou descontentamentos, com oferta do mínimo esperado.",
+    "surpreendem as expectativas dos clientes com benefícios não esperados.",
+    "ultrapassam os básicos indispensáveis, ou seja, os essenciais que o cliente espera do produto.",
+    "são ofertados ao cliente quando ele não os espera, mas que ele os aprecia quando são oferecidos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-079",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que concerne ao sigilo profissional, quando o profissional de relações públicas",
+   "gabarito": "c",
+   "alternativas": [
+    "tiver a obrigação de manter sigilo de alguma ação, ele deverá fazê-lo mesmo se se tratar de fato delituoso, previsto em lei, a fim de preservar os públicos envolvidos da consequência inerente à denúncia do fato.",
+    "tenha de guardar sigilo de ações que lhe foram confiadas em razão de seu ofício, ele é obrigado a revelar assuntos ainda que sejam lesivos a seus clientes e empregadores ou que firam a sua lealdade com eles em funções que venham a exercer.",
+    "integra uma equipe, o cliente deverá ser informado de que seus membros poderão ter acesso a material referente a projetos e ações.",
+    "tiver de realizar uma perícia, deverá dispor de todas as informações pertinentes e servir à autoridade que o designou, expondo-as devida e necessariamente para a solução da demanda."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-1-comunicacao-080",
+   "prova": 4,
+   "orgao": 1,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Um dos elementos do conceito de opinião pública diz respeito",
+   "gabarito": "b",
+   "alternativas": [
+    "ao processo de discussão individual originado do debate privado e implícito, com potencial para se tornar um debate público explícito.",
+    "à necessidade de que haja expressão pública da opinião, a qual é um requisito para o debate.",
+    "à limitação da opinião quanto a seu sujeito, que pode corresponder à opinião de qualquer grupo de pessoas.",
+    "ao fato de que qualquer tema gera opinião, independentemente de sua relevância para gerar a discussão pública."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-041",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No contexto da comunicação integrada de marketing, a eficácia dos canais de comunicação pessoal",
+   "gabarito": "d",
+   "alternativas": [
+    "supõe a existência de constituintes idênticos nos canais defensores e nos canais sociais.",
+    "pressupõe a equivalência entre o marketing viral e o buzz marketing.",
+    "relaciona o marketing viral diretamente ao princípio da congruência.",
+    "provém das oportunidades de individualizar a apresentação e o feedback."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-042",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com referência aos conceitos relacionados ao mercado-alvo,",
+   "gabarito": "d",
+   "alternativas": [
+    "segmentar é a ação de escolher um mercado-alvo.",
+    "posicionar equivale a definir um mercado-alvo.",
+    "definir um mercado-alvo é indispensável quando se oferta um produto ou serviço no mercado.",
+    "delimitar qual segmento apresenta a maior oportunidade de tornar-se comprador é definir um mercado-alvo."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-043",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação a canais de marketing e a aspectos suscitados pelo tema, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Os canais de distribuição e a cadeia de suprimento confundem-se em suas funções na administração de marketing.",
+    "Os canais de comunicação, os canais de distribuição e os canais de serviços são os três tipos de canais de marketing.",
+    "Os canais de marketing e a cadeia de suprimento (supply chain) são expressões equivalentes.",
+    "A cadeia de suprimento é classificada como um dos tipos de canais de marketing."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-044",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No contexto da análise de ambiente de marketing,",
+   "gabarito": "b",
+   "alternativas": [
+    "a concorrência representa uma das forças do ambiente geral no qual uma empresa opera.",
+    "a concorrência, os intermediários de marketing, os fornecedores e o público são considerados forças do ambiente no qual as empresas operam.",
+    "a fusão entre o ambiente geral e o de tarefa, executada por empresas inteligentes, no século XXI, figura como expressiva mudança no planejamento estratégico de marketing.",
+    "o ambiente de tarefa das empresas, com o advento da globalização, passou a ser desconsiderado no marketing internacional."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-045",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sob a perspectiva do marketing internacional, para que uma empresa se torne global, é necessário que a administração tome uma série de decisões. A respeito de aspectos suscitados pelo assunto, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "No Brasil, todo processo de internacionalização (início de participação no comércio exterior) de uma empresa depende de patrocínio governamental com programas agressivos de promoção da exportação.",
+    "É preciso decidir sobre em que mercado(s) entrar e de que maneira se deve ingressar nele(s).",
+    "É impossível alcançar brand equity em um mercado internacionalizado.",
+    "Deve ser inserida uma marca em um mercado estrangeiro apenas se ela possuir brand equity no seu país de origem."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-046",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No cenário do marketing internacional, quanto ao processo de globalização de uma empresa,",
+   "gabarito": "c",
+   "alternativas": [
+    "o endomarketing só é possível se o serviço ofertado pela empresa internacionalmente não exigir a presença física do seu prestador.",
+    "o marketing internacional de um serviço virtual exige adequada logística de mercado.",
+    "o marketing internacional eficaz está diretamente ligado ao endomarketing.",
+    "o marketing internacional independe do marketing interno, pois os valores globais são diferentes dos organizacionais."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-047",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta a respeito de estratégia de posicionamento.",
+   "gabarito": "a",
+   "alternativas": [
+    "Os pontos de paridade referem-se a associações não necessariamente exclusivas à marca, mas que podem ser compartilhadas com outras marcas.",
+    "Estratégia de posicionamento, também conhecida como estratégia de diferenciação, relaciona-se a como criar diferencial para o produto por meio de seu posicionamento no mercado.",
+    "É importante que os profissionais de marketing de uma empresa que pretenda se destacar positivamente no mercado criem ações que diminuam os pontos de diferenças e que maximizem os pontos de paridade de seus produtos.",
+    "Os pontos de diferenciação de categoria são associações vistas pelos consumidores como essenciais para que um produto seja digno e confiável o suficiente para pertencer a determinada categoria de produto ou serviço."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-048",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com referência ao trade marketing, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "A experiência de trade marketing é impactada pela gestão de logística e distribuição, tanto em caso de B2B como de B2C.",
+    "Ações de trade marketing são dissociadas de estudos relativos a B2B.",
+    "É uma expressão relativa à experiência de compra do consumidor final e, por isso, independe do endomarketing da empresa.",
+    "A análise SWOT está ultrapassada quando se trata de estudos relativos a trade marketing."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-049",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O supply chain",
+   "gabarito": "c",
+   "alternativas": [
+    "carrega em si uma conotação relativa a ambiente demográfico e não deve ser atrelado a B2C.",
+    "equivale a marketing holístico.",
+    "refere-se à cadeia de suprimento.",
+    "relaciona-se exclusivamente a mercado global."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-050",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A análise SWOT",
+   "gabarito": "b",
+   "alternativas": [
+    "equivale ao ciclo PDCA e está relacionada a estudos de mercados-alvo.",
+    "relaciona-se a mapeamento ambiental e também recebe a designação de análise FOFA.",
+    "vincula-se ao ciclo de vida do produto.",
+    "relaciona-se exclusivamente a canais de marketing. 711002_01N722150"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-051",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base nos conceitos de marketing de conteúdo e de marketing inbound, julgue os itens que se seguem. I O marketing de conteúdo se funda no objetivo de conquistar o interesse das pessoas, em vez de coagi-las a comprar. II O marketing de conteúdo constitui uma estratégia para atrair clientes por meio de conteúdo relevante. III Inbound marketing é também denominado marketing de atração. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-052",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta em relação a persona e público alvo.",
+   "gabarito": "b",
+   "alternativas": [
+    "No marketing digital, esses termos são sinônimos, por isso são empregados alternadamente nas descrições de estratégias de negócios.",
+    "Nos negócios, é comum a criação de mais de uma persona na especificação do cliente.",
+    "A seguinte descrição constitui exemplo clássico de persona: homens e mulheres, entre 22 e 35 anos, formados em gestão, com interesse em gestão de empresas e negócios.",
+    "A descrição do público alvo é bem mais detalhada e minuciosa que a da persona."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-053",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que diz respeito a marketing tradicional e marketing digital, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Na promoção de produtos por meio das estratégias de marketing tradicional, é possível medir, em tempo real, a quantidade de pessoas interessadas na mensagem.",
+    "Por meio das estratégias de marketing digital, é possível criar, editar e substituir qualquer tipo de campanha em poucos minutos, sem a necessidade de conhecimento técnico aprofundado.",
+    "O custo para anunciar por meio de estratégias de marketing tradicional é consideravelmente mais baixo que o resultante do emprego de estratégias de marketing digital.",
+    "Na promoção de negócios e produtos por meio das estratégias de marketing tradicional, a interação com o público favorece o retorno da comunicação entre anunciante e destinatário da mensagem."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-054",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere a marketing de relacionamento, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "As estratégias de marketing de relacionamento são eficazes para a fidelização do cliente em todas as situações de venda.",
+    "De acordo com a concepção de marketing de relacionamento, é necessário conhecer as necessidades dos clientes e monitorar suas demandas para que sejam satisfeitas pela empresa.",
+    "A melhor estratégia de marketing de relacionamento para a fidelização de um consumidor é propor-lhe descontos, visto que o aspecto financeiro é determinante para a sua satisfação na compra.",
+    "No relacionamento com clientes-chave, a estratégia de marketing mais eficaz é estar em permanente contato telefônico com eles."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-055",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que concerne à análise de mercado com vistas ao desenvolvimento de estratégias de marketing, julgue os próximos itens. I Denomina-se mercado-alvo o grupo de pessoas para o qual a empresa decide direcionar seus esforções de marketing. II Os mercados se tornam, a cada dia, mais homogêneos e os consumidores cada vez mais motivados a seguir as tendências de influenciadores de escolhas. III O profissional de marketing pode desenvolver fórmula de previsão quantitativa para avaliar o volume global de vendas para um mercado específico. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-056",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Nos Estados Unidos da América, uma famosa fábrica produz várias versões de um mesmo refrigerante, com mais de 16 variedades de sabores. Essa estratégia de desenvolvimento da marca é chamada de",
+   "gabarito": "d",
+   "alternativas": [
+    "extensões de marca.",
+    "novas marcas.",
+    "multimarcas.",
+    "extensão de linha."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-057",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Julgue os itens seguintes, referentes a branding. I Os profissionais de marketing devem agregar, em suas estratégias, a missão e a visão da empresa. II O nome da marca pode ajudar ou prejudicar a aceitação desta no mercado-alvo. III Co-branding ocorre quando vários nomes de marcas aparecem em um mesmo produto. Assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-058",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Os principais fatores que influenciam o comportamento de compra do consumidor são",
+   "gabarito": "d",
+   "alternativas": [
+    "o comportamental, o processual, o de avaliação e o padrão.",
+    "o financeiro, o de aquisição, o informacional e o pessoal.",
+    "o econômico, o financeiro, o de difusão e o de opinião.",
+    "o cultural, o social, o pessoal e o psicológico."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-059",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Tendo como base os princípios de marketing, julgue os itens subsequentes. I Caracteriza-se o processo de adoção quando o consumidor conhece, pela primeira vez, um produto inovador e resolve fazer uso total e regular desse produto. II É irrelevante descobrir por que um produto disponível no mercado há algum tempo é desconhecido dos consumidores. III É indiferente para o fabricante o fato de o cliente consumir ou ignorar produto lançado em uma promoção. Assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos. 711002_01N722150"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-060",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Para planejar um mix de promoção em comunicação integrada, é necessário identificar o método que melhor se aplica ao orçamento da campanha, sendo os mais comuns o método dos recursos disponíveis, o da porcentagem sobre vendas, o da paridade com a concorrência e o dos objetivos e tarefas. A respeito desses métodos, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Na aplicação do método de recursos disponíveis, retira-se uma porcentagem da receita de vendas atual ou prevista.",
+    "Segundo o método da paridade com a concorrência, a empresa deve embasar seus gastos de acordo com o que acredita que ganhará com determinada promoção.",
+    "O melhor método para a empresa definir seu orçamento é o dos recursos disponíveis, pois ele equilibra os gastos com os lucros obtidos com as vendas.",
+    "O método de porcentagem sobre as vendas é complexo porque a variação do volume de vendas durante o ano torna difícil o planejamento, a longo prazo, de ganhos e gastos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-061",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação aos elementos que compõem a campanha publicitária, julgue os itens seguintes. I Briefing é o documento que guia o planejamento e a criação da campanha. II É o cliente que direciona os pontos principais da campanha, tais como objetivo e tipo de estratégia de comunicação. III Prescinde-se do briefing quando os profissionais da agência são muito experientes, com conhecimento suficiente para o planejamento da campanha. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens II e III estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-062",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito de planejamento de mídia, julgue os itens a seguir. I Para a transmissão eficaz e o alcance do objetivo da propaganda, o planejamento de mídia deve fornecer a melhor relação entre investimento no veículo e qualidade para o público ao qual se destina a mensagem. II Um planejamento de mídia que priorize os veículos on-line e sites de redes sociais, a eles direcionando suas estratégias, é eficaz e atinge o propósito da propaganda. III Para o alcance de seus objetivos, um planejamento de mídia deve ser norteado pela avaliação do âmbito da campanha, da natureza do produto e (ou) serviço, do tipo de mensagem e da atividade publicitária dos concorrentes. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-063",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação à tomada de decisões estratégicas e ao acompanhamento de projetos na gestão da comunicação, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "O desenvolvimento de plataformas de gestão ainda carece de um bom funcionamento que permita interações e cruzamento das informações para a avaliação e a mensuração dos processos.",
+    "O resultado obtido por meio das decisões estratégicas independe do acompanhamento das informações em face dos valores numéricos das vendas realizadas pelos distribuidores, visto que, na realidade, a experiência dos gestores é o fator determinante dos resultados positivos.",
+    "Quanto mais rápida a mensuração dos resultados obtidos na gestão, mais os indicadores consolidam as informações e passam a ser fonte de conhecimento, pois possibilitam que o profissional reinterprete a informação concreta adquirida em curto prazo.",
+    "A avaliação e o processo de tomada de decisão sobre investimentos são definidos com base em duas variáveis: a taxa de retorno, que é o rendimento que se espera de um projeto ou ação, e o período de retorno, ou seja, o tempo de retorno à empresa do valor investido."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-064",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "São elementos necessários para o planejamento de comunicação em uma campanha publicitária:",
+   "gabarito": "b",
+   "alternativas": [
+    "a publicidade; o merchandising; o marketing direto; as promoções, eventos e experiências; a assessoria de imprensa; e as mídias sociais.",
+    "o estabelecimento dos objetivos da comunicação; a descrição da estratégia da comunicação; o desenho das táticas, a implantação e acompanhamento do plano; o cronograma; e a especificação do modo de controle e de análise dos resultados.",
+    "produto; mercado; consumidor; distribuição; canais utilizados e percentual de distribuição; preços do produto versus preços da concorrência; razão de compra; concorrência; pesquisa; objetivos de mercado; objetivos de comunicação; conteúdo básico da comunicação; mídia e promoção; e merchandising.",
+    "a análise estratégica; a definição das estratégias e dos objetivos; a definição do marketing mix; os planos de ação; e a especificação do modo de implementação, acompanhamento, avaliação e controle."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-065",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A produção gráfica ou eletrônica é a etapa final do processo criativo, todavia ela é uma etapa tão importante quanto a criação de uma peça publicitária. A primeira etapa do processo de produção gráfica é a pré-produção e dela fazem parte",
+   "gabarito": "d",
+   "alternativas": [
+    "a construção dos efeitos e cenários, os ensaios, a criação e a escolha dos figurinos.",
+    "os ensaios, a edição, a criação e a escolha de adereços.",
+    "a aplicação dos gráficos e efeitos, e a documentação.",
+    "a decupagem, o storyboard e a concepção artística. 711002_01N722150"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-066",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Nas publicações, em geral, mesclam-se a linguagem verbal e a não verbal, e o que primeiro se vê numa página são as imagens, portanto estas devem ser usadas com propósito estratégico. Na narração de uma história, por exemplo, recomenda-se o uso de",
+   "gabarito": "a",
+   "alternativas": [
+    "imagens informacionais tratadas de modo simples para favorecer a credibilidade do fato narrado.",
+    "destaque especial, em tamanho grande, para imagens circunstanciais.",
+    "imagens circunstanciais, ou seja, documentais, factuais, realistas.",
+    "imagens com forte apelo emocional para documentar, por si mesmas, a situação narrada."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-067",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Folha de São Paulo. Não dá pra não ler. Jornal Folhaonline, 1998. Santander. O valor das ideias. Banco Santander, 2005. Fiat. Movidos pela paixão. Montadora Fiat do Brasil, 2002. Tendo os slogans precedentes como referência, assinale a opção correta no que refere à função do slogan na redação publicitária.",
+   "gabarito": "b",
+   "alternativas": [
+    "Os slogans caracterizam-se por sua efemeridade: assim como as próprias campanhas publicitárias, eles se renovam regularmente de acordo com a temática escolhida para representar o objetivo da marca.",
+    "Os slogans são elaborados para funcionar como uma extensão verbal das marcas anunciantes — sua assinatura verbal —, por longo período de tempo.",
+    "A principal função do slogan é referendar o conceito/tema de uma campanha publicitária específica, ao qual ele está intrinsecamente ligado.",
+    "Slogan consiste no título na peça publicitária, tanto no que se refere à forma quanto à função."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-068",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta no que concerne às funções da linguagem e a sua aplicação na redação publicitária.",
+   "gabarito": "c",
+   "alternativas": [
+    "Predomina a função referencial em textos inteiramente escritos em primeira pessoa do singular, nos quais se percebe a intenção do autor de transmitir impressões pessoais da realidade.",
+    "Revela-se a função fática nos textos em que se prioriza o sentimento do emissor, expresso por meio do emprego de formas verbais na terceira pessoa do singular ou do plural.",
+    "Evidencia-se a função metalinguística em textos didáticos, exemplificativos e autoexplicativos.",
+    "A função emotiva é também chamada de fática pelo seu nexo lógico, compromisso com a eficácia comunicativa e conteúdo relevante."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-069",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta a respeito de tipografia.",
+   "gabarito": "d",
+   "alternativas": [
+    "As fontes serifadas fornecem um desenho de letra muito uniforme, o que facilita a visualização de textos longos.",
+    "A utilização de fontes serifadas em fundos escuros facilita a leitura, por isso recomenda-se essa combinação para a escrita de textos que compõem apostilas e cadernos didáticos.",
+    "Os tipos decorativos assemelham-se à escrita manual, sendo, por isso, muito usados em textos longos destinados a leitura e estudo.",
+    "As fontes postScript permitem uma ótima resolução de impressão, seja em uma impressora laser, seja em uma imagessetters."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-070",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação aos processos aditivo e subtrativo de análise e escolha de cores, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "As cores conhecidas no processo RGB são amarelo, azul e laranja.",
+    "No processo aditivo, as cores de um objeto é resultado da absorção das ondas que irradiam o vermelho ou o azul.",
+    "O sistema CMYK é resultado do processo aditivo, usado em televisores e computadores.",
+    "A mistura dos pigmentos das cores primárias subtrativas em suas cargas máximas resulta em preto."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-071",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Na produção audiovisual, não basta ter as melhores câmeras e os melhores equipamentos de captação de áudio se a iluminação, um dos atributos mais importantes no processo de captação de imagem, não for respeitada. Uma das técnicas mais básicas de iluminação, a de três pontos, consiste em empregar três fontes de luz para iluminar uma cena. A fonte de luz que se localiza ao lado da pessoa que está sendo gravada, com a finalidade básica de suavizar sombras, é denominada",
+   "gabarito": "a",
+   "alternativas": [
+    "luz de preenchimento.",
+    "soft box.",
+    "contraluz.",
+    "luz principal."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-072",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que indica o processo eletrônico de ajuste de cores que consiste em apontar a câmera para uma superfície branca com a iluminação da cena de gravação e, em seguida, acionar um botão na câmera por alguns segundos, até surgir no visor a informação de que o ajuste foi concluído. Nessa ação, o circuito eletrônico da câmera iguala os níveis de cores, obtendo o branco correto R=G=B.",
+   "gabarito": "a",
+   "alternativas": [
+    "white balance",
+    "ajuste de shutter",
+    "fotometria",
+    "auto íris"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-073",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Uma ótima alternativa na produção audiovisual, a tecnologia HD-SDI oferece",
+   "gabarito": "c",
+   "alternativas": [
+    "um sistema de conexão de alta tecnologia que é capaz de transmitir áudio e vídeo através de um único cabo, para ser utilizado no segmento consumidor entre televisores HD, DVD players e dispositivos com sinal HDTV.",
+    "uma resolução de 1.080 × 1.920 pixels, a maior disponível em vários equipamentos de vídeo do mercado, proporcionando uma excelente qualidade de vídeo.",
+    "uma conexão para áudio e vídeo utilizada no segmento profissional em estúdios, conectando câmeras e VCRs entre si ou com sistemas de edição não linear, utilizando sinal digital de alta definição.",
+    "processo que permite o armazenamento em mídias em que partes da informação da imagem são descartadas, de maneira que o resultado final ocupe menos espaço de armazenamento."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-075",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O microfone é um dos equipamentos mais importantes para a qualidade do áudio, e existem vários tipos e modelos de acordo com a sensibilidade, a diretividade e outros critérios. Um dos mais usados é o do tipo condensador, que se caracteriza por",
+   "gabarito": "c",
+   "alternativas": [
+    "ser composto por um diafragma, uma bobina de voz e um ímã que formam um gerador elétrico de ondas de som. Basicamente, capta as ondas sonoras que fazem vibrar o diafragma e produzem uma corrente elétrica.",
+    "realizar a captação de sons que venham de frente e de trás, atenuando bastante sons que venham das laterais.",
+    "proporcionar maior sensibilidade e som mais suave e natural, especialmente nas frequências mais altas, usando o princípio do capacitor variável. Necessita de uma alimentação externa, que pode ser pilha, bateria ou phantom power.",
+    "fazer a captação do som frontal, de forma tal que seu posicionamento tende a ser na direção da fonte do som."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-076",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "As câmeras DSLR (digital single lens reflex)",
+   "gabarito": "d",
+   "alternativas": [
+    "recebem um sinal de vídeo e som e os decodifica para apresentação ao expectador, sendo o sinal de vídeo decodificado na tela que exibirá a imagem.",
+    "são dispositivos utilizados em vídeo para gerar letreiros que podem ser adicionados a imagens preexistentes; são bastante utilizados em estúdios de TV, para gerar informação adicional no conteúdo que está sendo transmitido.",
+    "atuam no processo de inserção de um vídeo para ser editado em um computador, efetuando a transferência dos dados (imagem + som) da câmera ou do videocassete para o disco rígido (HD) do microcomputador.",
+    "são uma excelente alternativa às câmeras de vídeo tradicionais do segmento semiprofissional, por possuírem sensor de tamanho grande e alto nível de processamento de imagem, além de permitirem a troca de lentes, o que proporciona versatilidade a um baixo custo."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-077",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Na estruturação do processo de desenvolvimento de uma pesquisa de marketing, a apresentação dos resultados é a última etapa. Imediatamente antes dela, existe uma etapa de fundamental importância para se obter um resultado sólido e consistente. Assinale a opção que identifica essa etapa, isto é, a penúltima etapa do referido processo.",
+   "gabarito": "b",
+   "alternativas": [
+    "coleta de dados",
+    "processamento, análise e interpretação dos dados",
+    "definição do problema e dos objetivos da pesquisa",
+    "elaboração do plano de pesquisa"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-078",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Merchandising são procedimentos de promoção e ação usados em pontos de vendas com a finalidade de aumentar a visibilidade do produto, facilitar e impulsionar o desejo de compra do consumidor. Para tanto, uma das estratégias mais eficientes é",
+   "gabarito": "b",
+   "alternativas": [
+    "a presença de um quadro de funcionários bem treinados, para que tenham condições de informar com clareza sobre o produto quando o cliente procurá-lo.",
+    "o destaque na exposição com relação a outros produtos.",
+    "o preço, independentemente do local de exposição.",
+    "a garantia de uma grande quantidade do produto em estoque."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-079",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que mostra ação que prepara o caminho para a venda, na medida em que é uma ferramenta de incentivo para estimular a compra mais rápida ou em maior volume pelo consumidor, de modo que ele tenha a sensação de obter vantagem naquela compra por adquirir um produto de qualidade pelo melhor custo-benefício.",
+   "gabarito": "b",
+   "alternativas": [
+    "técnica de venda",
+    "promoção de vendas",
+    "financiamento",
+    "divulgação em sistema de som"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-perfil-2-marketing-080",
+   "prova": 5,
+   "orgao": 1,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Entre outros aspectos, tem por objetivo coibir qualquer forma de publicidade enganosa que venha a gerar constrangimento ou prejuízo ao consumidor, além de atuar em prol da liberdade de expressão comercial,",
+   "gabarito": "b",
+   "alternativas": [
+    "o Código de Ética do Profissional de Propaganda (CENP).",
+    "o Conselho Nacional de Autorregulação Publicitária (CONAR).",
+    "a Lei Geral de Proteção de Dados (LGPD).",
+    "a Resolução CFM n.º 1.974/11."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-041",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Ministério do Comércio da China reiterou que adotará contramedidas se as tarifas anunciadas pelos Estados Unidos da América entrarem em vigor, instando Washington a reverter a decisão e retornar à mesa de negociação. “Quaisquer novas tarifas levarão a uma escalada nas fricções comerciais. As tarifas violaram severamente um consenso alcançado entre os países, e a China se opõe fortemente a elas”, disse o porta-voz da pasta, Gao Feng. Pequim. Agência Estado, 22/8/2019 (com adaptações). Em caso de controvérsia semelhante à retratada no fragmento de texto anterior e que envolva interesses do Brasil, o órgão brasileiro responsável por pronunciar-se sobre propostas relativas à aplicação de contramedidas é",
+   "gabarito": "b",
+   "alternativas": [
+    "o Ministério das Relações Exteriores.",
+    "o Conselho de Estratégia Comercial.",
+    "o Ministério da Economia.",
+    "a Secretaria de Comércio Exterior."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-042",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da estrutura do comércio exterior brasileiro, as atividades de divulgação de produtos e de empresas brasileiras no exterior voltadas ao incremento das exportações brasileiras e à captação de recursos estrangeiros são desempenhadas",
+   "gabarito": "d",
+   "alternativas": [
+    "pelo Departamento de Negociações Internacionais.",
+    "pela Secretaria da Receita Federal.",
+    "pela Câmara de Comércio Exterior.",
+    "pelo Ministério das Relações Exteriores."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-043",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A taxa de câmbio é livremente pactuada entre os agentes autorizados a operar no mercado de câmbio e possui diferentes formas de liquidação. A operação de câmbio em que a taxa de câmbio espelha o preço negociado da moeda na data da liquidação é chamada de",
+   "gabarito": "a",
+   "alternativas": [
+    "operação para liquidação a termo.",
+    "operação para liquidação à vista.",
+    "operação para liquidação futura.",
+    "operação para liquidação pronta."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-044",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere uma empresa exportadora que possui dívidas, em reais, indexadas à taxa DI e receitas, em dólar, decorrentes de suas exportações. Caso essa empresa opte por minimizar o risco de descasamento entre ativos e passivos, notadamente a diferença entre a variação cambial e o custo financeiro do seu passivo, ela deverá contratar um",
+   "gabarito": "b",
+   "alternativas": [
+    "termo de moedas, assumindo posição vendida em dólares.",
+    "swap cambial, assumindo posição comprada.",
+    "credit default swap, assumindo posição vendida.",
+    "futuro de taxa de câmbio de reais por dólar, assumindo posição comprada."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-045",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere um contrato de compra e venda internacional no qual o exportador encerre suas obrigações e responsabilidades quando a mercadoria, desembaraçada para a exportação, é entregue, arrumada, a bordo do navio no porto de embarque, conforme indicado pelo comprador, na data ou dentro do período acordado. Nesse contexto, o Termo Internacional do Comércio (INCOTERM) utilizado para descrever esse conjunto de responsabilidades e obrigações é o",
+   "gabarito": "c",
+   "alternativas": [
+    "EXW.",
+    "FCA.",
+    "FOB.",
+    "FAZ."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-046",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere que uma empresa brasileira deseje importar insumos do exterior voltados à reposição do estoque de insumos utilizados exclusivamente na produção de bens destinados à exportação. Nesse caso, o regime aduaneiro especial que permite a importação desses insumos pela empresa com isenção de impostos de importação e a redução a zero de alíquotas de outros tributos incidentes sobre a operação é denominado",
+   "gabarito": "b",
+   "alternativas": [
+    "trânsito aduaneiro.",
+    "drawback.",
+    "admissão temporária.",
+    "entreposto aduaneiro."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-048",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere um bloco econômico em que já foi implementada a eliminação de barreiras comercias tarifárias e não tarifárias; nesse bloco, há livre circulação de capital e mão de obra, bem como se encontra estabelecida uma tarifa externa comum para todos os países dele integrantes, a qual incide sobre o comércio de produtos e serviços extrabloco. Considerando as características desse acordo comercial, assinale a opção que mostra o estágio do processo de integração econômica no qual ele se encontra.",
+   "gabarito": "b",
+   "alternativas": [
+    "união aduaneira",
+    "mercado comum",
+    "união econômica",
+    "zona de livre comércio"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-049",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do sistema multilateral do comércio, julgue os itens a seguir. I Dentre as funções da Organização Mundial de Comércio destacam-se a promoção da estabilidade cambial e o auxílio ao estabelecimento de um sistema multilateral de pagamentos, de modo a favorecer a ampliação do comércio entre as nações. II Pelo princípio da nação mais favorecida, qualquer vantagem, favor, imunidade ou privilégio concedido por uma parte contratante em relação a um produto originário de ou destinado a qualquer outro país será, imediata e incondicionalmente, estendido ao produtor similar, originário do território de cada uma das outras partes contratantes ou a ele destinado. III Embora o Banco Mundial tenha como missão a redução da pobreza e a promoção do desenvolvimento, com foco prioritário nos países em desenvolvimento, os empréstimos concedidos pelo braço financeiro do grupo destinam-se a qualquer país-membro, independentemente do seu estágio de desenvolvimento. IV O Sistema Geral de Preferências permite que países desenvolvidos concedam tratamento tarifário preferencial para produtos oriundos de países em desenvolvimento e de países de menor desenvolvimento relativo. Estão certos apenas os itens",
+   "gabarito": "c",
+   "alternativas": [
+    "I e II.",
+    "I e III.",
+    "II e IV.",
+    "III e IV."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-050",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Nos termos da legislação em vigor, assinale a opção que indica o regime aduaneiro que permite a estocagem de materiais importados sem cobertura cambial e destinados à manutenção e ao reparo de embarcação ou aeronave pertencente a empresa autorizada a operar no transporte comercial internacional e utilizada nessa atividade, com suspensão de pagamento de impostos federais e de contribuições incidentes sobre a importação.",
+   "gabarito": "a",
+   "alternativas": [
+    "depósito afiançado",
+    "depósito franco",
+    "depósito especial",
+    "depósito alfandegado"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-051",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O balanced scorecard é uma metodologia que",
+   "gabarito": "c",
+   "alternativas": [
+    "não incorpora indicadores financeiros e foca em critérios qualitativos.",
+    "estabelece um sistema automático de informações.",
+    "descreve a estratégia nas perspectivas financeira, mercadológica, de processo interno e de inovação.",
+    "se destina a formular estratégias."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-052",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Tendo em vista os indicadores de desempenho das empresas, assinale a opção correta, quanto ao índice de relação entre as fontes de recursos (IRFR).",
+   "gabarito": "b",
+   "alternativas": [
+    "Quanto menor for o IRFR, menor será a intensidade de capitais próprios da empresa em relação a capitais de terceiros.",
+    "Quanto menor for o IRFR, maior será o capital próprio em relação aos recursos de terceiros.",
+    "Quanto menor for o IRFR, menor será o volume de recursos empregados em ativos imobilizados da empresa.",
+    "Quanto maior for o IRFR, maior será o volume de recursos de terceiros na empresa."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-053",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando uma empresa hipotética que deseje se internacionalizar e possua índice de liquidez corrente (ILC) de 3,00, segundo os dados de suas demonstrações contábeis, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "O ILC mensura a capacidade de pagamento de curto prazo, de modo que não é possível saber se a empresa terá condições de arcar com todos os seus compromissos.",
+    "A empresa possui plena capacidade de honrar suas obrigações, pois o ILC relaciona os vencimentos das obrigações e dos direitos.",
+    "A empresa possui elevado volume de caixa e tem plena capacidade de honrar seus compromissos.",
+    "A empresa pode apresentar descasamentos entre os vencimentos de seus direitos e suas obrigações, de modo a não ser capaz de honrar todos os seus compromissos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-054",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "As compras e vendas realizadas entre empresas e seus fornecedores são exemplos de negócio do tipo",
+   "gabarito": "a",
+   "alternativas": [
+    "B2B.",
+    "B2C.",
+    "C2B.",
+    "B2G."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-055",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No modelo de negócio B2G,",
+   "gabarito": "d",
+   "alternativas": [
+    "o relacionamento é ancorado majoritariamente no curto prazo.",
+    "as negociações são feitas entre empresas.",
+    "as operações são feitas no mercado de varejo.",
+    "as transações normalmente são baseadas em leis específicas."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-056",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando as operações financeiras realizadas por meio de adiantamento sobre contrato de câmbio, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Tais operações destinam-se ao capital de giro dos exportadores.",
+    "Nessas operações a taxa de juros é lastreada na SELIC.",
+    "Nessas operações incide imposto sobre operações financeiras.",
+    "Tais operações destinam-se ao financiamento de investimentos de longo prazo. 711003_01N318067"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-057",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando as principais regulamentações sobre o comércio internacional praticadas no âmbito da Organização Mundial do Comércio (OMC), assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Desde a criação da OMC, as medidas de salvaguarda estão proibidas aos seus países-membros.",
+    "É permitida a salvaguarda para proteger a indústria nacional.",
+    "A salvaguarda só é admitida em casos particulares de ameaça à indústria nacional, podendo a decisão ser adotada imediatamente, mesmo sem a devida comprovação.",
+    "A salvaguarda só é admitida após a adoção de processo investigativo que comprove prejuízo grave ou ameaça de prejuízo à indústria doméstica, com a necessidade de existência de nexo causal nos achados."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-058",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A prática de antidumping tem como objetivo evitar que produtores nacionais percam competitividade no mercado interno em razão de práticas adotadas por concorrentes internacionais. Com relação a esse assunto, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "A prática de dumping ocorre quando a oferta de um produto no comércio de outro país é realizada a preço inferior ao seu valor de mercado no país de origem.",
+    "Um produto é objeto de dumping quando introduzido no mercado de outro país a um preço inferior ao seu valor normal.",
+    "Se os produtos não forem importados diretamente do país de origem, não há possibilidade de medida antidumping.",
+    "Na presença de dumping, os países possuem o direito de impor tarifa sobre as importações que causarem dano à indústria nacional."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-059",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O conceito de planejamento estratégico refere-se à",
+   "gabarito": "c",
+   "alternativas": [
+    "análise micro e macroeconômica do ambiente de negócios.",
+    "formulação do modelo de negócios da empresa.",
+    "formulação e implementação da estratégia da empresa.",
+    "análise dos insumos e produtos utilizados no negócio."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-060",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Os principais responsáveis pelo planejamento estratégico nas organizações são",
+   "gabarito": "a",
+   "alternativas": [
+    "os altos executivos.",
+    "todos os funcionários.",
+    "os acionistas.",
+    "os gerentes."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-061",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Suponha que uma empresa brasileira de confecções venha apresentando excelentes resultados e gostaria de expandir suas operações para o exterior. Nesse caso, uma ação de promoção comercial adequada para essa empresa iniciar ou aumentar as exportações de seus produtos no longo prazo é",
+   "gabarito": "c",
+   "alternativas": [
+    "realizar ações promocionais sem prazo definido, de forma a tentar capturar o máximo de clientes possível em um curto espaço de tempo.",
+    "focar na preparação de funcionários de alto escalão hierárquico, a fim de qualificá-los e prepará-los para atuar no comércio exterior.",
+    "estabelecer o escopo do projeto comercial, com a definição do público-alvo, da região e dos produtos a serem trabalhados com o público externo.",
+    "obter informações a respeito de potenciais compradores por meio da Internet, haja vista os elevados custos de participação em feiras e missões internacionais."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-062",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Uma empresa do ramo de calçados, estudando a possibilidade de começar a exportar seus produtos para os países do MERCOSUL, encomendou a uma firma de consultoria um estudo de viabilidade econômica, que demonstrou que a operação internacional teria uma taxa interna de retorno entre 11% e 15% ao ano, com 95% de probabilidade, considerando-se uma projeção de fluxo de caixa para os próximos 5 anos, além de um período de perpetuidade. Nessa situação hipotética, a opção de exportar será a mais indicada caso",
+   "gabarito": "c",
+   "alternativas": [
+    "a empresa tenha uma rentabilidade sobre o patrimônio líquido em suas operações domésticas de 17,5%, com espaço para crescimento.",
+    "a empresa não disponha de recursos próprios para o início de sua operação internacional, mas consiga obter financiamento à taxa de 13% ao ano.",
+    "a taxa de oportunidade que a empresa tem em aplicar seus recursos disponíveis em títulos de renda fixa, de longo prazo, seja de 7,5% ao ano.",
+    "parte relevante da projeção de fluxo de caixa esteja no longo prazo (acima de 5 anos), o que exigirá um elevado comprometimento de caixa da empresa no curto prazo."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-063",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Uma empresa que pretende iniciar suas operações no comércio exterior deve considerar os interesses de seus shareholders e stakeholders. Nesse contexto, shareholders são",
+   "gabarito": "d",
+   "alternativas": [
+    "a sociedade e o meio ambiente.",
+    "fornecedores e parceiros comerciais.",
+    "agências governamentais e regulatórias.",
+    "os acionistas da empresa."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-064",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Suponha que uma empresa que tem em seu planejamento estratégico o início da venda de seus produtos para o exterior deva realizar um orçamento factível, considerando as necessidades de capital para a expansão de seus negócios. Nesse caso, é um fator de risco financeiro para essa empresa a",
+   "gabarito": "a",
+   "alternativas": [
+    "elevação do ciclo operacional, aumentando o financiamento da necessidade de capital de giro com recursos onerosos de curto prazo.",
+    "necessidade de adequação a normas e regulamentos do país estrangeiro.",
+    "utilização de recurso dos sócios para o financiamento das atividades no exterior.",
+    "presença de vantagem competitiva no processo de produção do produto a ser exportado."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-065",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ao participarem de eventos de promoção de vendas para clientes estrangeiros, as empresas têm diversos objetivos, primários e secundários. Um objetivo primário das empresas nesses eventos deve ser",
+   "gabarito": "c",
+   "alternativas": [
+    "a atualização e ampliação do cadastro de clientes.",
+    "a fixação da marca e o relacionamento com novos clientes.",
+    "o aumento do faturamento e da participação de mercado.",
+    "o lançamento e teste de novos produtos. 711003_01N318067"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-066",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere que uma empresa começará a exportar e pretende eliminar o risco da variação cambial para fins de viabilizar seu projeto de vendas para o exterior. Para atender essa finalidade, a opção mais eficiente é a",
+   "gabarito": "d",
+   "alternativas": [
+    "compra de dólares à vista.",
+    "compra de uma cesta de moedas ponderada pela participação dos países compradores nas exportações da empresa.",
+    "diversificação das exportações para vários países.",
+    "venda de contratos futuros de dólar americano e de outras moedas relevantes no contexto do comércio internacional."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-067",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere que o cronograma de exportações de uma empresa pertencente a um segmento com competição acirrada no mercado doméstico tenha atrasado por questões ligadas ao transporte de mercadorias. Isso acarreta para o ciclo operacional dessa empresa",
+   "gabarito": "b",
+   "alternativas": [
+    "o desvio dos produtos para outros mercados internacionais, mesmo sem o conhecimento prévio de potenciais compradores.",
+    "o acúmulo de estoques e a redução do saldo em tesouraria, por conta da postergação do recebimento das vendas planejadas.",
+    "o direcionamento das vendas para o mercado nacional, que tende a absorver rapidamente o volume que não foi exportado.",
+    "uma oportunidade para que ela repense seu projeto de expansão para o mercado internacional."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-068",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Projetos setoriais são plataformas de mapeamento, geração e exploração de oportunidades de negócios internacionais para os produtos e serviços brasileiros. Uma vantagem específica dessa modalidade é",
+   "gabarito": "c",
+   "alternativas": [
+    "a competição entre empresas de um mesmo setor, a fim de se obter maior fatia do mercado internacional.",
+    "a interação de empresas exportadoras de determinado setor com outras empresas de diferentes ramos de atuação.",
+    "a construção de uma estratégia setorial comum para fins de exportação.",
+    "o delineamento de diferentes estratégias para cada empresa, a partir das suas peculiaridades, ainda que as empresas sejam pertencentes ao mesmo setor."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-069",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "É um fator que pode dificultar a entrada de empresas brasileiras no mercado exportador",
+   "gabarito": "d",
+   "alternativas": [
+    "diferenciação por meio da propaganda.",
+    "existência de vantagem competitiva nos produtos nacionais.",
+    "maior eficiência nos processos de produção.",
+    "aposta em produtos tradicionais em mercados altamente competitivos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-070",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere uma empresa que cria valor econômico e obtém resultados acima de seu custo médio ponderado de capital. Para que um projeto de exportação seja capaz de continuar criando valor econômico para essa empresa, ele deve",
+   "gabarito": "a",
+   "alternativas": [
+    "gerar resultados para a empresa que cubram seus custos de dívida e o retorno esperado de seus acionistas.",
+    "abranger produtos inovadores ainda não explorados internacionalmente.",
+    "elevar a participação de mercado da empresa no comércio exterior.",
+    "ser suficiente para o pagamento dos credores, independentemente dos acionistas da empresa."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-071",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Suponha que uma nova empresa automobilística deseje vender um novo veículo no mercado europeu, e que, como estratégia de marketing, o gestor tenha decidido que o nome do produto, Nova, deva ser globalmente homogêneo, de modo a que os consumidores se identifiquem com o produto. Considerando-se essas informações, é correto afirmar que a estratégia",
+   "gabarito": "c",
+   "alternativas": [
+    "está correta, pois foca nos aspectos relacionados aos benefícios e na qualidade do produto, com nome fácil de ser pronunciado, o que torna o nome do produto inconfundível.",
+    "está correta, pois, como a empresa não possui uma marca conhecida no mercado global, invocar o nome Nova traz a ideia de novidade, considerando-se o ambiente cultural e linguístico alvo, e ajuda a reduzir os custos de marketing com a promoção da marca.",
+    "está errada, pois em determinados mercados o nome pode ter conotações distintas da esperada pelo departamento de marketing em virtude de aspectos linguísticos e culturais.",
+    "está errada, pois o nome é comum e não traz novidades e pode elevar a necessidade de dispêndio para a promoção comercial."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-072",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Uma empresa que possua o monopólio no seu mercado doméstico e perceba a entrada de novos atores no mercado devido à globalização deve se preparar para",
+   "gabarito": "b",
+   "alternativas": [
+    "mudança de localização.",
+    "competição.",
+    "economia de escala.",
+    "economia de escopo."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-073",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Uma estratégia global de localização e de inserção nos mercados internacionais envolve",
+   "gabarito": "d",
+   "alternativas": [
+    "produzir globalmente.",
+    "produzir localmente.",
+    "adotar um produto diferenciado e global, como as grandes marcas fazem.",
+    "adotar um mix de mercado para atender localmente os consumidores."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-074",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Suponha que, após uma ampla pesquisa de mercado, determinada empresa conclua que elevar o preço do seu produto possui baixo impacto sobre a quantidade de vendas. Com base nessa informação é correto concluir que",
+   "gabarito": "c",
+   "alternativas": [
+    "o produto possui baixa demanda.",
+    "a estratégia de marketing agregou valor ao produto.",
+    "a demanda é inelástica ao preço.",
+    "o mix de vendas é inadequado."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-075",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando a entrada em um mercado estrangeiro, assinale a opção que apresenta a melhor estratégia de internacionalização de uma empresa de serviços.",
+   "gabarito": "d",
+   "alternativas": [
+    "brokers e traders",
+    "exportação",
+    "importação",
+    "licenciamento, franquia ou investimento direto 711003_01N318067 CEBRASPE – ApexBrasil – Edital: 2022"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-076",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Empresas que busquem expandir internacionalmente suas operações, seja ela um exportador ou uma grande multinacional, deve buscar",
+   "gabarito": "a",
+   "alternativas": [
+    "um mix entre padronização do produto e avaliação da realidade local.",
+    "novo mercado e novo produto.",
+    "investimento externo direto.",
+    "novo mercado com mesmo produto."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-077",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Uma firma, preocupada apenas com o custo marginal do seu produto oferecido no mercado internacional, deve adotar como estratégia de fixação de preços o",
+   "gabarito": "d",
+   "alternativas": [
+    "custo de demanda.",
+    "custo total.",
+    "custo fixo.",
+    "custo variável."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-078",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A estratégia de negócios baseada na venda de ativos intangíveis possui maior aderência no modelo de",
+   "gabarito": "b",
+   "alternativas": [
+    "fusão e aquisição.",
+    "franquia.",
+    "alianças estratégicas.",
+    "investimento direto."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-079",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando-se a distribuição de mercadorias no mercado rápido das vendas de varejo, para a seleção de um intermediário deve-se considerar I sua cobertura de mercado. II sua capacidade para processamento e realização de pedidos. III a profundidade e a extensão das linhas por ele transportadas. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-apexbrasil-industria-servicos-080",
+   "prova": 6,
+   "orgao": 1,
+   "cargo": 2,
+   "ano": 2022,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que melhor corresponde ao mix de marketing.",
    "gabarito": "a",
    "alternativas": [
     "necessidades do consumidor, custo do produto, conveniência para comprar, comunicação",

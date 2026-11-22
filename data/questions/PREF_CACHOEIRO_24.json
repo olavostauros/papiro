@@ -2,7 +2,8 @@
  "evento": "PREF_CACHOEIRO_24",
  "banca": "Cebraspe",
  "orgaos": [
-  "Prefeitura de Cachoeiro de Itapemirim"
+  "Prefeitura de Cachoeiro de Itapemirim",
+  "PREF CACHOEIRO"
  ],
  "cargos": [
   "Enfermeiro",
@@ -30,10 +31,12 @@
   "Cuidador",
   "Técnico em Enfermagem",
   "Técnico em Enfermagem do Trabalho",
-  "Técnico em Radiologia"
+  "Técnico em Radiologia",
+  "Professor de Educação Básica – Peb D"
  ],
  "assuntos": [
-  ""
+  "",
+  "Conhecimentos Específicos"
  ],
  "provas": [
   {
@@ -122,6 +125,9 @@
   },
   {
    "fonte": "https://cdn.cebraspe.org.br/concursos/PREF_CACHOEIRO_24/arquivos/936_PCI_SAUDE_PROFESSOR_026_01.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/PREF_CACHOEIRO_24/arquivos/936_PCI_SAUDE_PROFESSOR_20_01.PDF"
   }
  ],
  "itens": [
@@ -27216,6 +27222,435 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sistema das glândulas endócrinas consiste em glândulas endócrinas e em órgãos que contêm tecidos endócrinos. A glândula tireoide localiza-se abaixo da laringe, onde estão localizadas também as glândulas paratireoides, incorporadas à superfície anterior da tireoide.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-061",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "O objetivo geral de um projeto deve detalhar os passos por meio dos quais esse projeto será realizado.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-062",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "O escopo de um projeto descreve todas as suas ações detalhadamente.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-063",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Um projeto bem elaborado independe da equipe nele envolvida para ser bem-sucedido.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-064",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Um projeto bem avaliado é aquele que é autossuficiente em relação a experiências anteriores.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-065",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Informações claras ajudam em tomadas de decisão no decorrer da execução de um projeto.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-066",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "A transdisciplinaridade se manifesta em projetos que visam ultrapassar um conjunto de regulamentos e ordens disciplinares.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-067",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "A multidisciplinaridade está presente em projetos que visam unir diversos conhecimentos com o mesmo fim.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-068",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Um projeto de formação continuada é considerado interdisciplinar quando atende a docentes de várias áreas do conhecimento.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-069",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "As instituições de ensino superior recebem credenciamento para a oferta de EaD a partir do quinto ano do credenciamento do primeiro curso de graduação presencial.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-070",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Os polos de EaD podem receber, também, as aulas dos cursos presenciais.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-071",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "A educação básica pode ser ofertada na modalidade EaD.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-072",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Uma instituição de ensino superior, com cursos de graduação presenciais, não credenciada na modalidade a distância, pode cadastrar seus programas de pós-graduação na modalidade EaD.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-073",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Os polos de EaD podem estar localizados em território nacional ou no exterior.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-074",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Softwares tutoriais são manuais disponibilizados online.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-075",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Sala de aula invertida é a metodologia em que o aluno assume o comando do todo ou de parte da disciplina.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-076",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Os jogos digitais facilitam a aprendizagem por descoberta.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-077",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Os jogos devem ocupar papel de protagonistas no processo educativo.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-078",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "TICs são todas as ferramentas que medeiam a comunicação entre as pessoas e que foram desenvolvidas antes do advento da Internet, enquanto TDICs se relacionam àquelas ferramentas conectadas à Internet.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-079",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "As informações técnicas do curso estão localizadas nos roteiros ou storyboards.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-080",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Comunidade virtual é a reunião de pessoas com os mesmos interesses de aprendizagem e disposição colaborativa.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-081",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "O material instrucional é a base didático-pedagógica da EaD.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-082",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "É chamada assíncrona a interação realizada nos encontros presenciais.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-083",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Como mecanismo de participação dos estudantes, o grêmio estudantil é um órgão independente da direção escolar ou de qualquer outra instância de controle ou tutoria.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-084",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "No âmbito da sociedade civil organizada, na gestão democrática, os fóruns dos conselhos escolares são definidos como conselhos consultivos, devendo ser compostos por, entre outros membros, dois representantes de cada conselho escolar.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-085",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "As normas da gestão democrática definidas em lei pelos estados e municípios e pelo Distrito Federal deverão prever, como um dos princípios de gestão, a participação de membros da comunidade local.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-086",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Em classes bilíngues de surdos, o professor deve assegurar o ensino do português escrito como primeira língua, conjugado ao ensino da língua brasileira de sinais (LIBRAS).",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-087",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "A terminalidade específica aos estudantes que não puderem atingir o nível exigido de conclusão do ensino fundamental é assegurada pelos sistemas de ensino.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-088",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "A educação especial deve ser ofertada, prioritariamente, em instituições especializadas e destinar-se aos educandos com deficiências, transtornos globais de desenvolvimento e altas habilidades ou superdotação.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-089",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "As estratégias de ensino norteadas por uma abordagem metacognitiva buscam desenvolver ações de autoavaliação e reflexão.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-090",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "O uso de um questionário pautado em mobilizar a memorização dos estudantes é um exemplo de estratégia suficiente para favorecer o processo de resolução de problemas.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-091",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "A educação integral pressupõe o aumento do tempo de jornada dos estudantes em atividades de contraturno realizadas em outras instituições sociais fora da escola, de modo a ampliar suas oportunidades formativas.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-092",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "A oferta de um currículo integrado pode ser vista como uma das modalidades de organização da educação integral por meio da articulação de conhecimentos, atitudes e práticas educativas diversificadas.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-094",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "A norma que rege o piso salarial aplicável aos profissionais da educação escolar pública é a lei federal, ainda que se trate de servidores estaduais ou municipais.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-095",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "O ensino é livre à iniciativa privada, independentemente de autorização ou permissão do poder público.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-096",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "As universidades devem observar o princípio da indissociabilidade entre ensino, pesquisa e extensão, o qual foi expressamente adotado pela CF.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-097",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "A educação básica obrigatória engloba, segundo previsão expressa na LDB, a pré-escola, o ensino fundamental e o ensino médio.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-098",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "A erradicação do analfabetismo até o ano de 2030 é uma diretriz explícita do Plano Municipal de Educação de Cachoeiro de Itapemirim.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-099",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "É direito da criança contestar os critérios avaliativos adotados pelo professor, devendo a escola permitir o uso de recurso às instâncias escolares superiores para a discussão desses critérios.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-prefcachoeiro-peb-d-100",
+   "prova": 29,
+   "orgao": 1,
+   "cargo": 26,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "O cordão de fita com desenhos de girassóis, símbolo nacional de identificação de pessoas com deficiências ocultas, de uso opcional, substitui o documento comprobatório da deficiência em todas as instâncias.",
    "gabarito": "errado"
   }
  ]

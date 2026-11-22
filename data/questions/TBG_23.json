@@ -2,7 +2,8 @@
  "evento": "TBG_23",
  "banca": "Cebraspe",
  "orgaos": [
-  "TBG"
+  "TBG",
+  "Transportadora Brasileira Gasoduto Bolívia-brasil S.a."
  ],
  "cargos": [
   "ANALISTA JÚNIOR — AUDITORIA E COMPLIANCE",
@@ -28,10 +29,12 @@
   "TÉCNICO JÚNIOR — GASODUTO, INSTRUMENTAÇÃO E AUTOMAÇÃO",
   "TÉCNICO JÚNIOR — GASODUTO, INTEGRIDADE DE DUTOS",
   "TÉCNICO JÚNIOR — GASODUTO, MECÂNICA",
-  "TÉCNICO JÚNIOR — GASODUTO, PROTEÇÃO CATÓDICA"
+  "TÉCNICO JÚNIOR — GASODUTO, PROTEÇÃO CATÓDICA",
+  "Engenheiro Júnior – Ênfase: Elétrica"
  ],
  "assuntos": [
-  ""
+  "",
+  "Conhecimentos Específicos"
  ],
  "provas": [
   {
@@ -114,6 +117,9 @@
   },
   {
    "fonte": "https://cdn.cebraspe.org.br/concursos/TBG_23/arquivos/888_TBG_024_01.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/TBG_23/arquivos/888_TBG_012_01_ATUALIZADA.PDF"
   }
  ],
  "itens": [
@@ -25679,6 +25685,710 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A classe de locação de gasodutos é determinada principalmente pela pressão de operação.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-031",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "A lei de Lenz é uma generalização da lei de Ampère, associando a geração de campo magnético à circulação de corrente elétrica.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-032",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "O campo magnético produzido pela corrente elétrica que circula em uma bobina de cobre depende do número de espiras da bobina e da magnitude da corrente.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-033",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "A lei de Faraday descreve o fenômeno da indução eletromagnética, concluindo que a força eletromotriz induzida em um condutor elétrico pela variação de fluxo magnético que o concatena terá sentido que se oponha à variação desse fluxo.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-034",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "A corrente nominal de linha do lado de alta tensão é igual a 10% da corrente nominal de linha do lado de baixa tensão.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-035",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "A corrente nominal de fase no lado de alta tensão é igual a 10% da corrente nominal de fase do lado de baixa tensão.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-036",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Se a corrente de linha do lado de baixa tensão for igual a (1.156/138) A, a potência aparente nominal do transformador será de aproximadamente 200 kVA.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-037",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Nesse tipo de transformador, existem perdas por efeito Joule.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-038",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Se o secundário tiver conexão em triângulo em vez de conexão em Y, as tensões de 180 Hz aplicadas à carga serão maiores.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-039",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Em um alternador, o enrolamento do rotor é denominado enrolamento de armadura.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-040",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Em um típico gerador hidrelétrico, as tensões nos enrolamentos do estator são induzidas pelo campo magnético produzido pelo rotor.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-041",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "A velocidade de rotação do eixo de um motor síncrono trifásico depende diretamente da velocidade de rotação do campo magnético girante do estator.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-042",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Uma das grandes vantagens técnicas do motor síncrono é o fato de ele possuir elevado conjugado de partida quando alimentado em frequência nominal, o que facilita o controle da velocidade do seu eixo.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-043",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Em certas aplicações, o motor monofásico é preferível ao trifásico porque aquele possui maior conjugado de partida, característica fundamental para partidas com carga pesada.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-044",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Um motor de indução trifásico em frequência de 60 Hz, com dois polos e cujo rotor gira a 3.456 rpm opera com escorregamento de 4%.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-045",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "O máximo escorregamento de um motor de indução trifásico ocorre quando ele está com carga nominal.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-046",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "No caso de motores de indução trifásicos em frequência de 60 Hz, o circuito equivalente apresenta apenas reatâncias indutivas, pois as resistências são desprezíveis.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-047",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "O rotor em gaiola de esquilo simplifica a operação dos motores de indução trifásicos, pois não exige controle da corrente no enrolamento de campo.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-048",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Um motor de corrente contínua em conexão série somente funciona se tiver escorvamento adequado.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-049",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "O funcionamento de um motor de corrente contínua de excitação independente exige alimentação por duas fontes diferentes.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-050",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Um gerador de corrente contínua em conexão shunt alimenta a carga a partir dos terminais do seu enrolamento de armadura.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-052",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Para um circuito elétrico constituído apenas de resistores e fontes de tensão CC, a matriz condutância empregada no método de análise nodal é igual à inversa da matriz resistência empregada no método de análise de malhas.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-054",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "A resposta transitória de um circuito RL série para um degrau de tensão V aplicado no instante t = 0 segundos é tal que a corrente pelo circuito terá uma resposta transitória com decaimento exponencial e, em regime permanente, será igual a zero.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-055",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Considere-se que uma fonte de tensão CA monofásica, de magnitude 100 V, alimenta um circuito RLC paralelo, com resistência de 50 Ω e valores de indutância e capacitância desconhecidos. Nesse caso, se a fonte fornece uma potência aparente igual a 200 VA, o circuito está em ressonância.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-057",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Para uma fonte trifásica equilibrada que alimenta uma carga também equilibrada com potência aparente trifásica de 100 VA, caso seja feita correção de fator de potência que diminua a potência aparente trifásica total da instalação para 80 VA, a magnitude das correntes de linha fornecidas pela fonte também serão reduzidas em exatamente 20%.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-058",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Em circuitos CA trifásicos equilibrados, a potência instantânea trifásica tem um comportamento senoidal e oscila com o dobro da frequência fundamental.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-059",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Se uma carga trifásica equilibrada, constituída de três resistores conectados em estrela não aterrada, for alimentada por uma fonte de tensão trifásica desequilibrada Va = 30∠0° V, Vb = 30∠60° V e Vc = 30∠ 60° V, a tensão no ponto central da carga será 20∠0° V.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-060",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Se uma fonte trifásica equilibrada com tensão nominal fase-terra de 100 V alimenta duas cargas trifásicas equilibradas, sendo uma delas constituída de impedâncias ZY = 20∠80 Ω conectadas em estrela, e a outra, de impedâncias ZΔ = 60∠80 Ω conectadas em Δ, a magnitude das correntes fornecidas pela fonte será de 10 A.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-061",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Considere-se que uma impedância Z conectada no secundário de um transformador monofásico ideal pode ser refletida para o primário como n2Z, sendo n a relação de transformação. Nesse caso, em valores p.u., essa impedância terá o mesmo valor se for referenciada ao primário ou ao secundário do transformador, desde que a potência base seja a mesma em ambos os enrolamentos e a razão entre a tensão base do primário e do secundário seja igual a n.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-062",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Em sistemas elétricos trifásicos, o valor base de corrente pode ser calculado dividindo-se a potência base trifásica pelo produto entre raiz de três e a tensão base de linha ou, alternativamente, como a potência base monofásica dividida pela tensão base fase-terra.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-063",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "De acordo com a teoria das componentes simétricas, a potência complexa trifásica pode ser obtida pela soma das potências complexas monofásicas calculadas para cada um dos circuitos equivalentes monofásicos de sequência zero, positiva e negativa.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-064",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Em uma linha de transmissão trifásica curta e perfeitamente transposta, a impedância série de sequência positiva é igual à de sequência negativa, mas é maior que a de sequência zero.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-065",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "No caso de um transformador trifásico do tipo Yd1, as tensões e correntes de sequência positiva no lado de alta tensão estão 30° atrasadas em relação às correspondentes grandezas no lado de baixa tensão.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-066",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Se a tensão de pré-falta for 1∠0° p.u., a impedância equivalente de sequência positiva, em p.u., será igual, no ponto do defeito, ao inverso do conjugado da potência de curto-circuito trifásico, em p.u., nesse mesmo ponto.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-067",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Em um curto-circuito monofásico franco, a corrente de falta \u0002∙\u0004\u0002 no ponto do defeito é calculada como , em que VF é \u0005\u0003 \u0006\u0005\u0004 \u0006\u0005\u0005 o fasor tensão de pré-falta no ponto do defeito, e Z0, Z1 e Z2 são, respectivamente, as impedâncias equivalentes de sequência zero, positiva e negativa no ponto do defeito.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-068",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Em pontos de um sistema elétrico de potência nos quais as impedâncias equivalentes de sequência positiva e negativa sejam iguais, a magnitude da corrente de curto-circuito bifásico franco é igual à metade da magnitude da corrente de curto-circuito trifásico franco.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-069",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "No cálculo de faltas bifásicas para a terra, os circuitos equivalentes de sequência são conectados de forma que a impedância equivalente de sequência zero fique conectada em série com a resistência de falta para terra.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-070",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Para as matrizes de impedâncias nodais, também conhecidas como matrizes Zbus ou Zbarra, de sequência zero, positiva e negativa, as quais são muitas vezes empregadas para o cálculo de faltas em sistemas elétricos de potência, os elementos da diagonal principal de cada uma das referidas matrizes correspondem às impedâncias equivalentes próprias de sequência de cada uma das barras do sistema.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-071",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Na associação em série de três diodos, cada um deles com tensão máxima reversa de 50 V, a tensão máxima reversa equivalente será de 75 V.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-072",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Em um conversor Buck-Boost, a tensão de saída é controlada por uma chave ativa, o transistor, e uma chave passiva, o diodo.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-073",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "O tiristor de controle de fase é construído com duas junções pn.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-074",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "A seguir, é apresentado um circuito retificador trifásico de meia onda ligado a uma carga resistiva.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-075",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "As funções de neutro e condutor de proteção são combinadas em um único condutor em parte de uma instalação que siga o esquema TN-C-S de aterramento.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-076",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Os transformadores de corrente usados em conjunto com instrumentos de proteção possuem um primário com poucas espiras e um secundário com um grande número de espiras.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-077",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "O relé eletrônico opera pelo movimento relativo de elementos mecânicos sob a ação de uma corrente elétrica em sua entrada.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-078",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "No esquema de aterramento TT, a alimentação e as massas da instalação estão ligadas ao mesmo eletrodo de aterramento.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-079",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Na figura apresentada, o circuito 1 é o de potência, e o circuito 2, o de comando.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-080",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Os dispositivos J e K no circuito 2 são botoeiras, sendo J uma normalmente fechada e K uma normalmente aberta.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-081",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Os dispositivos indicados pela letra E no circuito 1 são responsáveis pela proteção contra sobrecorrentes.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-082",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "O esquemático apresentado é recomendado para uma partida de motor elétrico com chave compensadora.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-083",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Um dos problemas da elevação do nível de tensão para a transmissão de energia é o correspondente aumento de corrente.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-084",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Nas redes radiais, as linhas de transmissão formam anéis, o que permite mais de um caminho para o fluxo de energia.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-085",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Entre os requisitos de um sistema de proteção, inclui-se a seletividade, que define zonas de cobertura de proteção para cada elemento de proteção.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-086",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "\b\u0004\u0002 \u0007 3\u0006 \u0007 0.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-087",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "O valor esperado e a mediana de \u0002 são iguais a 2,5.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-088",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "O volume total do combustível que vazou durante os 3 segundos foi inferior a 50 m3.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-089",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "L(t) foi máximo em t = 2/3 s. A altura e a forma de determinada colina, em coordenadas cartesianas xOy, são dadas pelo gráfico da função H(x, y) =",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-090",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Se c(t) = (x(t), y(t)), com x(t) = 1 2t, y(t) = 1 + sen(t) e 3 ≤ t ≤ 3, for um caminho no plano cartesiano, de modo que P(t) = (x(t), y(t)), f(x(t), y(t))) seja um caminho sobre a colina, \u000e então, em t = 0, a direção e sentido do vetor \u0007 \u000f\u0010 indica uma subida na colina.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-091",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "No ponto da colina cujas coordenadas planares xOy são P(1, 1), a direção de maior inclinação da colina, em relação ao plano xOy, é a direção do vetor v = (–3, –2).",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-092",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Se Y1(t) = 1 é solução da referida equação diferencial e as constantes A e B têm sinais contrários, então o problema de valor inicial \u000e\u000f \u0011\u0011 \u0004\u0010\u0006 \u0011 \u0012\u000f \u0011 \u0004\u0010\u0006 \u0011 \u0013\u000f\u0004\u0010\u0006 \u0007 0 \u0014 \u000f\u00040\u0006 \u0007 0 \u000f \u0011 \u00040\u0006 \u0007 1 terá solução limitada no intervalo t > 0.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-093",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Se y1(t) = cos(kt) e y2(t) = sen(kt), em que k é uma constante real não nula, são soluções da referida equação diferencial, então qualquer outra solução dessa equação deve ser uma combinação linear de y1(t) e y2(t).",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-094",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "O núcleo da transformação linear T é igual ao subespaço nulo V = {(0, 0, 0)}.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-095",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "A matriz da transformação linear T em relação à base canônica tem determinante igual a 0. O tráfego de veículos em dois cruzamentos é ilustrado pelo diagrama a seguir, em que as setas indicam o sentido do tráfego e x, y, z, a, b, c e d expressam as quantidades de veículos por hora que passam nos cruzamentos.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-096",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Se a = b = d = 100, então o valor de c não pode ser superior a 300.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2023-tbg-eletrica-097",
+   "prova": 27,
+   "orgao": 1,
+   "cargo": 24,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Se a = 600, b = 150, c = 300 e d = 450, então o valor de x + y + z é inferior a 1.200. 88801201562145 CEBRASPE – TBG – Edital: 2023",
    "gabarito": "certo"
   }
  ]

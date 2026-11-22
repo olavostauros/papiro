@@ -2,7 +2,8 @@
  "evento": "PREF_CAMACARI_BA_23",
  "banca": "Cebraspe",
  "orgaos": [
-  "Prefeitura de Camaçari/BA"
+  "Prefeitura de Camaçari/BA",
+  "Prefeitura de Camaçari Ba"
  ],
  "cargos": [
   "ASSISTENTE SOCIAL",
@@ -56,10 +57,14 @@
   "TRANSCRITOR DO SISTEMA BRAILLE",
   "OPERADOR DE RÁDIO",
   "TÉCNICO EM ENFERMAGEM DO TRABALHO",
-  "TÉCNICO EM SEGURANÇA DO TRABALHO"
+  "TÉCNICO EM SEGURANÇA DO TRABALHO",
+  "Assistente Social",
+  "Médico – Especialidade: Acupunturista",
+  "Médico – Especialidade: Gastroenterologista Infantil"
  ],
  "assuntos": [
-  ""
+  "",
+  "Conhecimentos Específicos"
  ],
  "provas": [
   {
@@ -220,6 +225,15 @@
   },
   {
    "fonte": "https://cdn.cebraspe.org.br/concursos/PREF_CAMACARI_BA_23/arquivos/891_PREF_CAMACARI_055_01.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/PREF_CAMACARI_BA_23/arquivos/891_PREF_CAMACARI_001_01.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/PREF_CAMACARI_BA_23/arquivos/891_PREF_CAMACARI_004_01.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/PREF_CAMACARI_BA_23/arquivos/891_PREF_CAMACARI_011_01.PDF"
   }
  ],
  "itens": [
@@ -45617,6 +45631,1608 @@
     "anualmente, conforme programação definida pelo SESMT.",
     "a cada dois anos, conforme programação definida pela própria CIPA.",
     "anualmente, conforme programação definida pela própria CIPA."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-021",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do ambiente de atuação do assistente social, bem como da formação desse profissional e da regulamentação pertinente, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "No que se refere à atuação do assistente social, a política institucional se sobrepõe às regulamentações do Conselho Federal de Serviço Social (CFESS).",
+    "A atuação profissional do assistente social ocorre, prioritariamente, por meio de instituições que prestam serviços públicos destinados a atender pessoas e comunidades.",
+    "As instituições de atuação do assistente social não podem ser de natureza privada nem vinculadas a organizações não governamentais (ONG).",
+    "O ambiente de atuação do assistente social é tecnocrático e elitista, distante do contexto em que se gestam as políticas sociais para o atendimento às sequelas da questão social.",
+    "A formação profissional do assistente social é particularista e endógena, permitindo apreender as questões psicossociais com uma base teórico-metodológica direcionada à compreensão dos processos relacionados à subjetividade."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-022",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Tendo em vista o compromisso histórico do serviço social brasileiro com a pesquisa, assinale a opção correta com relação à pesquisa em serviço social.",
+   "gabarito": "b",
+   "alternativas": [
+    "A investigação social é extrínseca ao serviço social.",
+    "O serviço social utiliza as técnicas disponíveis da pesquisa social.",
+    "A partir dos anos 1940, a profissão de assistente social inseriu-se como interlocutora das demais áreas do conhecimento e começou a responder por sua própria produção teórica, propiciando destaque à pesquisa acadêmica.",
+    "A pesquisa quantitativa não está entre os instrumentos de trabalho do assistente social.",
+    "A produção de conhecimento científico no serviço social brasileiro configura-se como um traço antigo da profissão, datado de meados dos anos 1930."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-023",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca das propostas de intervenção na área social, como planejamento estratégico, planos, programas, projetos e atividades de trabalho, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A incorporação do projeto de intervenção na prática cotidiana do assistente social constitui um obstáculo à dimensão qualitativa do trabalho.",
+    "O planejamento estanca a capacidade humana de responder às questões que se colocam como desafios.",
+    "A construção de projetos de intervenção não está presente na formação profissional do assistente social.",
+    "A elaboração de projetos para o serviço social é um instrumento asséptico, neutro e descarregado de intenções, no qual não deve ser reproduzida a visão de mundo dos sujeitos que os constroem.",
+    "No trabalho do assistente social, o projeto pode ser entendido como “a menor unidade do processo de planejamento”."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-024",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Alguns autores diferenciam avaliação de políticas públicas de outras modalidades de avaliação, que eles designam como avaliação política e análise de políticas públicas. Segundo eles, a avaliação política se dedicaria a analisar o processo de tomada de decisão que resulta na adoção de determinado tipo de política pública. A partir dessa informação, assinale a opção correta a respeito da avaliação de programas e políticas sociais.",
+   "gabarito": "e",
+   "alternativas": [
+    "O planejamento, em geral, é apresentado como o instrumento capaz de determinar a relação custo-benefício de um projeto.",
+    "As políticas sociais têm um papel regressivo em face da consolidação do Estado democrático de direito.",
+    "Toda avaliação de políticas sociais (ou de programas e projetos) deve submeter-se à composição de técnicas e instrumentos.",
+    "A produção de um sofisticado arsenal de métodos e técnicas de avaliação emergiu originalmente na China, na década de 60 do século passado.",
+    "A avaliação de uma política social pressupõe inseri-la na totalidade e dinamicidade da realidade."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-025",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca dos instrumentos e técnicas de intervenção do assistente social, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Na entrevista, muito mais do que ver ou olhar, é preciso direcionar as respostas do entrevistado para o que se pretende observar.",
+    "A entrevista social nada mais é do que um diálogo, um processo de comunicação direta entre o assistente social e um usuário (entrevista individual), ou mais de um (entrevista grupal).",
+    "A visita institucional é um instrumento que, ao final, aproxima a instituição que está atendendo ao usuário de sua realidade, via assistente social.",
+    "A reunião é uma técnica em que se utilizam jogos, brincadeiras, simulações de determinadas situações, com vistas a permitir que os membros do grupo produzam uma reflexão acerca de uma temática predefinida.",
+    "A dinâmica de grupo tem como objetivo a tomada de uma decisão sobre algum assunto."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-026",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da atuação profissional do assistente social junto a pessoas em situação de rua, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "A população em situação de rua não integra o público atendido por assistentes sociais nos diversos espaços sócio-ocupacionais.",
+    "O incentivo à orientação para a redução de danos e a intensificação da busca por uma sociedade sem drogas têm-se manifestado sob a ótica higienista em âmbito nacional.",
+    "Os assistentes sociais não podem ser requisitados para abordagens acompanhadas por agentes públicos das políticas de segurança e de ordem pública junto à população em situação de rua.",
+    "As demandas da população em situação de rua apresentam-se ao assistente social de forma fragmentada, emergencial e imediatizadas.",
+    "O serviço social brasileiro, por meio de suas entidades representativas, tem manifestado posicionamentos contrários aos direitos de pessoas em situação de rua e de pessoas que façam uso de álcool e outras drogas. 891001_01N127401"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-027",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Tendo em vista que o conhecimento científico e a reflexão ética são fundamentais para a posição que o profissional da assistência social assume nas relações com os sujeitos e nos registros e pareceres que emite, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Cabe à instituição empregadora do assistente social determinar os instrumentos que deverão ser utilizados para a realização do estudo social.",
+    "A entrevista é um dos procedimentos técnicos para a construção do estudo social.",
+    "As requisições profissionais ao assistente social demandam a capacidade de resposta imediata do profissional, focada na individualidade da demanda apresentada.",
+    "Os determinantes socioeconômicos e culturais não exercem influência nas demandas postas ao assistente social.",
+    "Ao realizar o estudo social, o assistente social estabelece relações abstratas, desconectadas da totalidade social."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-028",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da estrutura brasileira de recursos sociais e do uso de recursos institucionais e comunitários, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "O fundo público envolve toda a capacidade de mobilização de recursos do mercado e das empresas privadas.",
+    "No tocante às competências tributárias, o texto constitucional estabelece que o imposto sobre a renda e proventos de qualquer natureza – pessoa física e jurídica – é de competência estadual, razão por que os estados podem destinar recursos do imposto de renda diretamente a projetos sociais locais.",
+    "Uma das principais formas de constituição de fundo público ocorre por meio da extração de recursos da sociedade na forma de impostos, contribuições e taxas, da mais-valia socialmente produzida.",
+    "Após a promulgação da Constituição Federal de 1988, houve uma diminuição na responsabilidade das unidades federativas e dos munícipios na execução das políticas sociais, ao mesmo tempo em que se conferiu maior subordinação na arrecadação tributária.",
+    "A Constituição Federal de 1988 reforçou o processo de centralização de recursos e de atribuições entre a União, os estados e os municípios no campo das políticas sociais."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-029",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ainda acerca da estrutura brasileira de recursos sociais e do uso de recursos institucionais e comunitários, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Na esfera da política de assistência social, a descentralização foi concebida de forma que normas e regras gerais ficassem sob o comando da esfera municipal.",
+    "No Brasil, as despesas financeiras referentes ao pagamento de juros e amortização da dívida não incidem sobre o orçamento do fundo público.",
+    "O financiamento do fundo público brasileiro é extremamente progressivo, onerando os mais ricos em detrimento de taxações dos mais pobres na sociedade.",
+    "Por meio do orçamento público, o Poder Executivo procura cumprir determinado programa de governo ou viabilizar objetivos macroeconômicos.",
+    "Os benefícios previdenciários do regime geral de previdência social (RGPS) constituem despesas obrigatórias que podem ser contingenciadas para a realização de superávit primário."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-030",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Tendo em vista que a análise dos espaços ocupacionais do assistente social requer a sua inscrição na totalidade histórica, consideradas as formas assumidas pelo capital no processo de revitalização da acumulação no cenário da crise mundial, assinale a opção correta a respeito dos conceitos de instituição e de suas relações com o serviço social.",
+   "gabarito": "e",
+   "alternativas": [
+    "Uma empresa com capital aberto é um exemplo de instituição do terceiro setor.",
+    "Uma autarquia é um exemplo de empresa privada.",
+    "O assistente social não pode atuar como pessoa jurídica.",
+    "O CFSS é um exemplo de autarquia privada.",
+    "O assistente social pode atuar em todas as esferas institucionais, sejam elas públicas, privadas ou do terceiro setor."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-031",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "As diretrizes do Sistema Único de Saúde (SUS) incluem",
+   "gabarito": "c",
+   "alternativas": [
+    "fiscalização e formulação de políticas de manutenção para os alimentos de consumo humano e animal.",
+    "centralização do acesso aos serviços de saúde públicos.",
+    "organização de atendimento público para mulheres e vítimas de violência doméstica.",
+    "restrição à iniciativa privada de saúde.",
+    "priorização dos serviços assistenciais e de maior complexidade."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-032",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com as regras gerais da previdência social no Brasil, é assegurada a aposentadoria aos",
+   "gabarito": "e",
+   "alternativas": [
+    "sessenta e dois anos de idade para homens e mulheres.",
+    "sessenta anos de idade para professoras do ensino superior.",
+    "sessenta anos de idade, com remuneração de 80% do salário mínimo, para pescadores.",
+    "sessenta e dois anos de idade para trabalhadores domésticos, sem gratificação natalina.",
+    "sessenta anos de idade, se homem, e cinquenta e cinco anos de idade, se mulher, para garimpeiros."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-033",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Conselho Nacional de Assistência Social",
+   "gabarito": "a",
+   "alternativas": [
+    "tem caráter permanente e composição paritária entre governo e sociedade civil.",
+    "é composto de representantes com mandato de quatro anos, com direito a recondução.",
+    "é presidido por um membro indicado pelo ministro a que se vincula a assistência social.",
+    "divulga suas decisões por meio de regimento interno.",
+    "procede à transferência dos recursos destinados à assistência social."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-034",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação ao auxílio-inclusão, citado na Lei Orgânica da Assistência Social, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Esse benefício pode ser acumulado com o de prestação continuada.",
+    "O referido benefício está sujeito a descontos de contribuições.",
+    "O valor mensal desse benefício é idêntico ao da prestação continuada.",
+    "O pagamento do citado benefício pode ser acumulado com o de seguro-desemprego.",
+    "O referido benefício destina-se às pessoas com deficiência moderada ou grave que cumpram os requisitos da referida lei. 891001_01N127401"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-035",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a Lei de Diretrizes e Bases da Educação, o conselho escolar deve",
+   "gabarito": "a",
+   "alternativas": [
+    "ter caráter deliberativo e contar com a participação dos estudantes.",
+    "responsabilizar-se pelo transporte escolar dos estudantes.",
+    "informar aos pais a frequência do aluno.",
+    "administrar o pessoal da escola.",
+    "elaborar normas de ensino."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-036",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Maria tem sessenta anos de idade e mora com o seu esposo, José, de setenta e seis anos de idade. O casal vive da aposentadoria de José, que é equivalente a um salário mínimo, e ambos possuem doença grave que demanda acompanhamento médico muito frequente. Com base nas informações da situação hipotética precedente, assinale a opção correta de acordo com o estabelecido na Política Nacional do Idoso.",
+   "gabarito": "a",
+   "alternativas": [
+    "Maria e José são considerados idosos.",
+    "José é considerado incapaz devido a sua idade.",
+    "Devido à idade de José, Maria é a sua curadora.",
+    "Dado o estado de saúde de José e de Maria, eles devem ser encaminhados a uma instituição asilar de caráter social e lá permanecerem.",
+    "Maria ainda não tem direito de acesso a habitação popular."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-037",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A seguridade social, que abrange a saúde, a previdência e a assistência social, é regida pelo(s) princípio(s) da I irredutibilidade do valor dos benefícios. II universalidade da cobertura e do atendimento. III uniformidade e equivalência dos benefícios e serviços prestados às populações urbanas e rurais. Assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-038",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "São consideradas doenças sexualmente transmissíveis e estão no calendário de vacinação do SUS",
+   "gabarito": "c",
+   "alternativas": [
+    "a varicela e a hanseníase.",
+    "a febre amarela e a hanseníase.",
+    "a hepatite B e o papilomavírus humano (HPV).",
+    "a malária e a hepatite B.",
+    "a hepatite B e a hanseníase."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-039",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A família Silva mora na cidade de Camaçari há cinco anos, em uma casa alugada, e, no momento, os seus três membros, listados a seguir, estão desempregados ou sem fonte de renda: Ana tem sessenta e três anos de idade, é esposa de José e mãe de Carlos; José tem sessenta e cinco anos de idade e é marido de Ana; Carlos tem quarenta e cinco anos de idade e é portador de deficiência de natureza física, com impedimento de curto prazo. Considerando a situação hipotética precedente e os critérios básicos para o recebimento do benefício de prestação continuada, assinale a opção em que é citado o nome da pessoa que tem direito ao referido benefício.",
+   "gabarito": "d",
+   "alternativas": [
+    "Ana e José",
+    "Carlos",
+    "Ana e Carlos",
+    "José",
+    "Carlos e José"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-040",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme definido pelas regras da previdência social, o ministro de confissão religiosa e o membro de instituto de vida consagrada, de congregação ou de ordem religiosa é considerado segurado na qualidade de",
+   "gabarito": "d",
+   "alternativas": [
+    "empregado.",
+    "empregado doméstico.",
+    "trabalhador avulso.",
+    "contribuinte individual.",
+    "segurado especial."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-041",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme a política de assistência social, o assistente social, em sua atuação profissional, deve",
+   "gabarito": "d",
+   "alternativas": [
+    "desenvolver atividades pautadas nos documentos institucionais.",
+    "limitar suas atividades à gestão da pobreza.",
+    "abordar a questão social a partir de um viés moralizante.",
+    "cuidar para que haja integração e articulação entre a seguridade social e as demais políticas sociais.",
+    "considerar as necessidades sociais como problemas e responsabilidades individuais e grupais."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-042",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Resolução CFSS n.o 273/1993",
+   "gabarito": "a",
+   "alternativas": [
+    "determina a eliminação de preconceito, o respeito à diversidade, à participação de grupos socialmente discriminados e à discussão das diferenças.",
+    "não reconhece a autonomia e a plena expansão dos indivíduos sociais.",
+    "recomenda a construção de uma ordem societária baseada nos princípios da classe dominante.",
+    "admite, em restritas e específicas situações, a relativização dos direitos humanos e a opção pelo autoritarismo.",
+    "é omissa quanto ao comprometimento profissional na prestação dos serviços à população."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-043",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme a legislação brasileira, é considerado",
+   "gabarito": "c",
+   "alternativas": [
+    "criança o indivíduo com até quinze anos de idade completos.",
+    "adolescente o indivíduo entre os dez e os quatorze anos de idade.",
+    "criança o indivíduo com até doze anos de idade incompletos.",
+    "criança o indivíduo a partir dos dezesseis anos incompletos.",
+    "adolescente o indivíduo entre os onze anos de idade completos e os dezoito anos de idade incompletos. 891001_01N127401"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-044",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação ao conselho tutelar (CT), órgão autônomo e não jurisdicional responsável por zelar pelos direitos de crianças e adolescentes, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Podem atuar no mesmo CT marido e mulher, ascendentes e descendentes, sogro e genro ou nora, irmãos e cunhados.",
+    "A posse dos novos conselheiros tutelares deve ocorrer no dia dez de fevereiro do ano subsequente ao processo de escolha.",
+    "O processo de escolha de membros do CT será estabelecido em lei federal e realizado sob a responsabilidade do Conselho Nacional dos Direitos da Criança e do Adolescente.",
+    "Durante o processo de escolha de membros para o CT, é autorizada aos candidatos a distribuição de brindes aos eleitores, desde que de pequeno valor.",
+    "O processo de escolha de membros do CT ocorrerá em data unificada em todo o território nacional, a cada quatro anos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-045",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do processo de adoção de criança e adolescente, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "O adotante pode ser representado mediante procuração.",
+    "O processo de adoção é medida excepcional e irrevogável.",
+    "Os maiores de dezesseis anos de idade podem adotar.",
+    "Na adoção conjunta, não é necessário que os adotantes sejam casados civilmente ou que mantenham união estável.",
+    "O adotante deve ter dezoito anos de diferença do adotado."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-046",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "À luz da Lei n.o 14.344/2022 e tendo em vista as diretrizes e os protocolos específicos contemplados pelo sistema de proteção de crianças e adolescentes, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Omissão não configura violência familiar, ainda que dela decorra lesão ou sofrimento físico.",
+    "Violência doméstica é uma das violações dos direitos humanos.",
+    "A classificação de um ato como violência familiar depende da caracterização de local específico.",
+    "As estatísticas sobre violência doméstica devem ser inseridas nos órgãos não oficiais do Sistema de Garantia de Direitos.",
+    "Informações relacionadas à violência contra criança ou adolescente não requerem sigilo."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-047",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ainda à luz da Lei n.o 14.344/2022 e tendo em vista as diretrizes e os protocolos específicos contemplados pelo sistema de proteção de crianças e adolescentes, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "O atendimento à criança e ao adolescente vítima de violência compreenderá ações de saúde e segurança pública.",
+    "O sistema de garantia de direitos compreende somente o conselho tutelar e a assistência social.",
+    "A autoridade policial deverá encaminhar a criança e(ou) o adolescente em situação de violência para a escola.",
+    "Incumbe ao juiz, no prazo de 24 h, determinar a apreensão da criança e do adolescente em situação de violência doméstica.",
+    "O juiz, quando considerar necessário, poderá determinar que a criança vítima de violência familiar seja afastada de sua residência."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-048",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme os Princípios Orientadores das Nações Unidas para a Prevenção da Delinquência Juvenil, também conhecidos como Princípios Orientadores de Riad, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "A delinquência juvenil advém de uma orientação humanista em relação à sociedade e à vida.",
+    "O êxito na prevenção à delinquência juvenil depende da participação social.",
+    "Os programas de prevenção da delinquência juvenil devem envidar esforços prioritariamente a partir da juventude.",
+    "As políticas de prevenção da delinquência juvenil devem priorizar a penalização.",
+    "Os programas de prevenção da delinquência juvenil devem ser implementados somente pelas administrações públicas municipais."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-049",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ainda de acordo com os Princípios Orientadores de Riad, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "A família é a única responsável pela socialização da criança.",
+    "O acesso à educação pública não é dever do Estado.",
+    "A prevenção da delinquência juvenil deve dar-se por meio de ações integrativas de convivência familiar e comunitária.",
+    "Não cabe ao Estado adotar medidas de promoção dos direitos juvenis.",
+    "Ações de cooperação internacional devem ser evitadas para se preservar a integridade juvenil."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-assistente-social-050",
+   "prova": 53,
+   "orgao": 1,
+   "cargo": 52,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta no que se refere ao trabalho infanto-juvenil, de acordo com o previsto na legislação brasileira.",
+   "gabarito": "e",
+   "alternativas": [
+    "É permitido o trabalho a menores de quatorze anos de idade.",
+    "É assegurada bolsa de aprendizagem ao adolescente com quinze anos de idade.",
+    "É permitido o trabalho noturno ao adolescente aprendiz.",
+    "Em se tratando do direito à proteção no trabalho, a legislação desconsidera, em relação ao adolescente, a condição peculiar de pessoa em desenvolvimento.",
+    "Ao adolescente aprendiz são garantidos direitos trabalhistas."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-021",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com os quatro aspectos do relacionamento entre Yin e Yang, uma deficiência de Yang que ocorre em consequência de uma deficiência de Yin é explicada pela I oposição de Yin e Yang. II interdependência ou raiz recíproca de Yin e Yang. III intertransmutação ou intertransformação de Yin e Yang. IV infinita divisibilidade de Yin e de Yang. Assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Apenas o item IV está certo.",
+    "Nenhum item está certo."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-022",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a teoria dos cinco elementos ou movimentos, uma enfermidade causada pela madeira (Gan) ao atacar a terra (Pi) condiz com o princípio da",
+   "gabarito": "e",
+   "alternativas": [
+    "doença da mãe afetando o filho.",
+    "contradominância ou inversão do controle.",
+    "doença do filho afetando a mãe.",
+    "dominância ou controle.",
+    "sobredominância ou superdominância ou excesso de controle."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-023",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que indica o Qi que, ao circular nos vasos sanguíneos, pode transformar-se em Xuè (sangue).",
+   "gabarito": "e",
+   "alternativas": [
+    "Yuan Qi (Qi fonte ou primordial)",
+    "Xin Qi (Qi do coração)",
+    "Wei Qi (Qi de defesa)",
+    "Zhong Qi (Qi do Jiao médio)",
+    "Ying Qi (Qi de nutrição)"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-024",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A formação e distribuição de JinYe (líquidos orgânicos) depende das funções fisiológicas de",
+   "gabarito": "e",
+   "alternativas": [
+    "Wei (estômago), Pi (baço), Xin (coração) e SanJiao (triplo aquecedor).",
+    "Pi (baço), Xin (coração), SanJiao (triplo aquecedor) e Shèn (rins).",
+    "Wei (estômago), Xin (coração), SanJiao (triplo aquecedor) e Shèn (rins).",
+    "Wei (estômago), Fei (pulmão), SanJiao (triplo aquecedor) e Gan (fígado).",
+    "Pi (baço), Fei (pulmão), SanJiao (triplo aquecedor) e Shèn (rins)."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-025",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base nas teorias clássicas da medicina tradicional chinesa, é correto afirmar que Gan (fígado) I produz Xuè (sangue). II regula o volume de Xuè (sangue) em circulação, armazenando-o e liberando-o. III promove a circulação de Xuè (sangue), impulsionando-o. IV mantém Xuè (sangue) no interior dos Xuè Mai (vasos sanguíneos). Assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-026",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Estudos científicos empreendidos nas últimas décadas evidenciaram que o mecanismo da ação terapêutica da acupuntura está relacionado à atuação I das terminações nervosas livres das fibras A delta e C. II de determinados neurotransmissores, tais como os peptídeos opioides (encefalina, dinorfina e betaendorfina) e as monoaminas (serotonina, noradrenalina, histamina, dopamina). III de determinadas estruturas do sistema nervoso central, como a substância gelatinosa do corno posterior medular, tratos espinotalâmicos, bem como o sistema reticular ascendente e seus núcleos liberadores de neurotransmissores. IV do sistema inibidor descendente da dor, que inclui o córtex pré-frontal, o núcleo arqueado do hipotálamo, a hipófise, a substância cinzenta periaquedutal, núcleos da rafe, o locus ceruleos, o núcleo paragigantocelular, entre outras estruturas superiores. Assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-027",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação à neurobiologia envolvida no mecanismo de ação dos procedimentos acupunturais, é correto afirmar que I o estímulo das zonas neurorreativas pelos procedimentos acupunturais segmentares ativa um circuito que envolve células pedunculadas inibitórias encefalinérgicas na parte externa da lâmina II da substância gelatinosa do corno dorsal da sustância cinzenta espinhal, células estas que estão diretamente conectadas com fibras aferentes primárias mielinizadas A delta ou do grupo III na pele e no músculo. II o estímulo das zonas neurorreativas pelos procedimentos acupunturais heterossegmentares age por dois mecanismos: um de natureza neuro-hormonal generalizado (que envolve liberação de beta-endorfina e metencefalina) e outro de natureza neuronal descendente (tanto serotoninérgico quanto adrenérgico); o efeito DNIC (controle inibitório nóxico difuso) em definitivo não contribui para qualquer efeito da acupuntura. III a liberação de diferentes neurotransmissores depende, de forma importante, da frequência do eletroestímulo utilizado no procedimento acupuntural: a eletroacupuntura de baixa frequência libera, sobretudo, serotonina no pedúnculo cerebral e no hipotálamo e metencefalina e dinorfinas na medula espinhal; a eletroacupuntura de alta frequência libera, sobretudo, beta-endorfinas. Assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-028",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O canal do pulmão se origina no",
+   "gabarito": "d",
+   "alternativas": [
+    "pulmão.",
+    "Jiao superior.",
+    "tórax.",
+    "Jiao médio.",
+    "Jiao inferior."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-029",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Os meridianos regulares Yin e Yang se interconectam",
+   "gabarito": "b",
+   "alternativas": [
+    "na cabeça.",
+    "nos quatro membros.",
+    "na face.",
+    "no tórax.",
+    "no abdome."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-030",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Os meridianos extraordinários têm uma importância integradora sobre todo o funcionamento do organismo, pois agem como reservatórios do Qi de nutrição dos doze meridianos principais ou regulares, além de se conectarem com os meridianos distintos (ou divergentes) e com os meridianos colaterais (ou de conexão). Acerca desses aspectos, julgue os seguintes itens. I O Ren Mai (vaso concepção), o Du Mai (vaso governador) e o Chong Mai (vaso penetrador) originam-se do útero ou da próstata e emergem no períneo, de onde partem para diferentes vias, e circulam o Qi de defesa por todo o tórax, abdome e dorso. II O Dai Mai (vaso cintura) se origina no hipocôndrio e tem a função de conectar todos os meridianos principais ou regulares, sendo seu ponto de confluência (abertura) TE 5 (TA5). III Os doze meridianos tendinosos (ou tendineomusculares) realizam a integração do organismo, conectando-se com tendões, músculos e, diretamente, com os Zang Fu. IV Os doze meridianos divergentes (ou distintos) são importantes ramos que se separam ou divergem dos doze meridianos regulares (ou principais), indo para os membros superiores e inferiores. Assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas o item IV está certo.",
+    "Apenas os itens II e III estão certos.",
+    "Apenas os itens I, III e IV estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-031",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Um médico especialista em acupuntura optou, como estratégia de tratamento, pela intervenção por acupuntura, utilizando a associação do ponto fonte (Yuan) e do ponto Shu dorsal, tendo em conta o diagnóstico do padrão disfuncional segundo a racionalidade da medicina chinesa. Considerando essa situação hipotética, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Se o coração (Xin) for o órgão (Zang) disfuncional, o ponto fonte deve ser C9 (HT9), e o ponto Shu dorsal, B14 (BL14).",
+    "Se o baço (Pi) for o órgão (Zang) acometido, o ponto fonte deve ser BP3 (SP3), e o ponto Shu dorsal, B20 (BL20).",
+    "Se o padrão disfuncional for de fígado (Gan), o ponto fonte deve ser VB34 (GB34), e o ponto Shu dorsal, B18 (BL18).",
+    "Se o padrão disfuncional for de rim (Shen), o ponto fonte deve ser R1 (KI1), e o Shu dorsal, B23 (BL23).",
+    "Se o padrão disfuncional for de pulmão (Fei), o ponto fonte deve ser P1 (LU1), e o ponto Shu dorsal, B17 (BL17)."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-032",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca dos pontos de acupuntura, das suas funções e localizações, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "B13 (BL13) é o ponto de influência (Hui) dos ossos e o Shu dorsal dos rins (Shen).",
+    "Ren17 (CV17) é o ponto Mu frontal (ponto de alarme) do coração (Xin) e ponto de influência (Hui) dos órgãos Fu.",
+    "F3 (LR3) é o ponto fonte (Yuan) do baço (Pi).",
+    "E37 (ST37) é o ponto He (mar inferior) do estômago (Wei).",
+    "E25 (ST25) é o ponto Mu frontal (ponto de alarme) do intestino grosso (Da Chang)."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-033",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito do ponto Ren17 (CV17), julgue os itens a seguir. I O ponto Ren17 (CV17) é o ponto Mu frontal (ponto de alarme) do coração (Xin). II O ponto Ren17 (CV17) é o ponto de influência (Hui) do Qi. III O ponto Ren17 (CV17) é o ponto de Mu frontal (ponto de alarme) do pericárdio (Xin Bao). IV O ponto Ren17 (CV17) localiza-se na linha média anterior ao nível dos mamilos, à altura do 4.º espaço intercostal. V O agulhamento pode ser perpendicular ou oblíquo/tangencial, sem riscos ao paciente, já que a presença do esterno impede qualquer lesão às estruturas subjacentes. Assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Apenas o item III está certo.",
+    "Apenas o item V está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I, IV e V estão certos.",
+    "Apenas os itens II, III e IV estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-034",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Paciente com dor no ombro à direita apresenta tendinopatia do supraespinhal associada à rotura parcial e também tendinopatia bicipital. Adicionalmente, relata síndrome do túnel do carpo bilateral. Levando em consideração os conhecimentos sobre a racionalidade da medicina chinesa, o médico acupunturiatra optou por utilizar, em sua prescrição, um ponto de acupuntura que classicamente é tido como o de influência (Hui) sobre os tendões. Assinale a opção que indica o ponto da prescrição referida no caso anterior.",
+   "gabarito": "c",
+   "alternativas": [
+    "VB21 (GB21)",
+    "IG4 (LI4)",
+    "VB34 (GB34)",
+    "ID3 (SI3)",
+    "ID12 (SI12)"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-035",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme a racionalidade da medicina chinesa, com referência à localização anatômica e às indicações clássicas, o ponto IG4 (LI4, Hegu) I está localizado na face palmar, entre o segundo e o terceiro metacarpos. II atua, quando estimulado, principalmente sob o território do nervo ulnar. III é o ponto fonte (Yuan) do meridiano do intestino grosso (Yang Ming da mão), além de ser bastante importante para analgesia. IV está localizado no dermátomo de C8. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens III e IV estão certos.",
+    "Apenas os itens I, II e IV estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-036",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Uma paciente do sexo feminino procurou o médico especialista em acupuntura devido a alteração de humor iniciada após processo traumático de divórcio havia 8 meses, motivado por traição conjugal. Referiu sentir muita raiva e dificuldade em aceitar a situação. Desde então, tem apresentado episódios de irritabilidade, insônia e vertigem, além de cefaleia ocasional, distensão abdominal, constipação, dismenorreia, rubor facial, boca amarga e seca. Considerando a patogenia e os fatores patogênicos envolvidos no processo de adoecimento da paciente em questão, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "A vertigem apresentada pela paciente é decorrente do fator patogênico exógeno vento, estando caracterizada, nesse caso, uma síndrome de exterior.",
+    "Emoções têm importante papel no processo de adoecimento e são consideradas fatores patogênicos exógenos, pois causam respostas emocionais do indivíduo aos estímulos externos.",
+    "Trata-se, necessariamente, de uma síndrome de deficiência.",
+    "Emoções são fatores patogênicos internos que, quando em excesso, frequentemente provocam distúrbios internos — por exemplo, a raiva excessiva tende a causar mais comumente a disfunção do fígado (Gan).",
+    "Pelos sintomas apresentados pela paciente, é correto concluir que ela apresenta uma síndrome de frio."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-037",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Um paciente do sexo masculino, de 51 anos de idade, relatou episódios recorrentes de dor precordial com irradiação para o membro superior esquerdo, associados à dormência, além de palpitações e extremidades frias, com leve cianose de leito ungueal. Seu pulso apresentava-se filiforme e irregular, e sua língua estava púrpura e com áreas de equimoses. O médico acupunturiatra identificou sintomas compatíveis com angina e risco de infarto do miocárdio, então encaminhou o paciente ao cardiologista, para avaliação especializada, mas fez também o diagnóstico do padrão disfuncional com base na racionalidade da medicina chinesa. Com base no caso clínico apresentado, assinale a opção que apresenta o diagnóstico do padrão disfuncional do coração (Xin).",
+   "gabarito": "e",
+   "alternativas": [
+    "deficiência do sangue (Xue) do Xin",
+    "ascensão do fogo do Xin",
+    "deficiência do Qi do Xin",
+    "deficiência do Yin do Xin",
+    "estagnação do sangue (Xue) do Xin"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-038",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Paciente do sexo feminino, de 20 anos de idade, com história de asma induzida por atividade física, relatou tosse com expectoração fina, respiração curta e dispneia que piora com o exercício. Também se queixou de fadiga e transpiração espontânea, e referiu ter muitos episódios de resfriados. Ao exame, apresentava sibilos esparsos, compleição pálida, língua pálida e pulso profundo e fraco. Considerando-se as informações apresentadas, o padrão disfuncional de pulmão (Fei) é compatível com",
+   "gabarito": "a",
+   "alternativas": [
+    "deficiência do Qi do Fei.",
+    "deficiência do Yin do Fei.",
+    "obstrução do Fei por mucosidade/umidade.",
+    "invasão do Fei por vento/frio.",
+    "invasão do Fei por vento/calor."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-039",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Uma paciente de 33 anos de idade, com história de hipoacusia à direita desde a infância, leve atraso no desenvolvimento, baixo rendimento escolar, menarca aos 17 anos, menstruação de ciclos irregulares e vários períodos de amenorreia, relatou considerável perda de cabelo e também de alguns dentes, além de diminuição da memória para fatos recentes e muita fraqueza nas pernas. Ela estava preocupada, pois tentava engravidar havia três anos, mas sem sucesso. O caso apresentado é característico de",
+   "gabarito": "b",
+   "alternativas": [
+    "deficiência do Yang do Shen (rim).",
+    "deficiência do Jing do Shen (rim).",
+    "deficiência de Qi geral.",
+    "deficiência do Yin do Shen (rim).",
+    "perda da capacidade de controle do Shen (rim)."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-040",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Paciente do sexo masculino, de 52 anos de idade, referiu dor lombar baixa e desconforto no baixo ventre, associados a episódios de diarreia líquida com alimentos não digeridos e distensão abdominal, além de dor nos joelhos. A dor lombar melhorava um pouco com a aplicação local de calor. Apresentava edema de membros inferiores com cacifo (2+/4+). A língua estava pálida e edemaciada, com revestimento branco e úmido. O pulso apresentava-se profundo e filiforme. Esse é um caso clínico de síndrome complexa compatível com",
+   "gabarito": "a",
+   "alternativas": [
+    "deficiência do Yang de baço (Pi) e do rim (Shen).",
+    "deficiência do Yin do fígado (Gan) e do rim (Shen).",
+    "deficiência conjunta do coração (Xin) e do baço (Pi).",
+    "deficiência do Yang do coração (Xin) e do rim (Shen).",
+    "desarmonia entre fígado (Gan) e baço (Pi)."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-041",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A semiologia é de grande importância na medicina, orientando o médico quanto às hipóteses diagnósticas e aos exames complementares necessários para a melhor condução clínica. Em relação à semiologia, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Queda de cabelo pode indicar deficiência de Xuè (sangue), e, diante dessa queixa, cabe ao médico investigar um possível quadro de anemia.",
+    "Diarreia com sangue e muco indica excesso de calor e umidade, sem necessidade de exames complementares como exame de fezes ou colonoscopia.",
+    "Língua avermelhada e sem saburra (revestimento) indica deficiência do Yang e pode estar presente na mulher no climatério com queixa de fogachos.",
+    "A palpação de massa abdominal fixa e dura indica estase de Xuè (sangue) e não requer maior investigação etiológica.",
+    "Cansaço excessivo, sonolência, depressão, edema nos membros inferiores e pulso lento, vazio ou escondido podem ser decorrentes de hipotireoidismo e caracterizam deficiência de Jing (essência)."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-042",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A dor é uma das queixas mais prevalentes no ambulatório de acupuntura e deve ser corretamente interrogada para a melhor abordagem terapêutica. Acerca desse assunto, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Dor articular que piora com a movimentação e sobrecarga articular e que melhora com o repouso sugere padrão inflamatório, como observado na espondilite anquilosante.",
+    "A dor de origem neuropática não se diferencia da dor de origem miofascial, por isso o padrão de irradiação da dor tem pouca importância no diagnóstico.",
+    "Tratando-se de paciente com dor crônica, a avaliação do padrão alimentar e de possíveis carências vitamínicas não tem importância.",
+    "É importante interrogar o paciente com dor sobre histórico de neoplasia, uma vez que a dor pode ser decorrente de metástase ou recidiva, mesmo anos após o tratamento da doença.",
+    "A neuralgia do trigêmeo é um exemplo de dor nociplástica que surge de uma nocicepção alterada, mesmo sem evidência de lesão real aos nociceptores periféricos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-043",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base na identificação de padrões de acordo com os oito princípios da medicina tradicional chinesa, é correto afirmar que sensação de frio, fezes amolecidas, urina clara e abundante, dor que piora com a pressão, pulso profundo-cheio-tenso e ausência de sede e de sudorese indicam",
+   "gabarito": "c",
+   "alternativas": [
+    "síndrome interior de calor por deficiência.",
+    "síndrome exterior de frio por excesso.",
+    "síndrome interior de frio por excesso.",
+    "síndrome interior de frio por deficiência.",
+    "síndrome interior de calor por excesso."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-044",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A escolha dos locais para inserção das agulhas de acupuntura pode ser baseada na teoria da medicina tradicional chinesa ou nas evidências científicas modernas do mecanismo de ação da acupuntura. Com relação à seleção de pontos, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Na presença de dor associada a pontos-gatilhos miofasciais, a seleção de pontos correspondentes aos pontos-gatilhos ativos que reproduzem a dor do paciente, em geral, piora a dor e deve ser evitada.",
+    "No tratamento de distúrbios viscerais, a abordagem sempre será indireta segmentar, por meio da seleção de pontos localizados no mesmo segmento correspondente ao da inervação do órgão que se deseja tratar, uma vez que só é possível influenciar a função de um órgão pelo estímulo de seu viscerótomo.",
+    "De acordo com a medicina tradicional chinesa, quando a manifestação produz sintomas e sinais graves, a estratégia adequada é tratar apenas a manifestação, estando contraindicado o tratamento da raiz nesse momento.",
+    "Selecionar pontos locais é importante quando se deseja tratar condições somáticas como dor musculoesquelética.",
+    "O conhecimento dos dermátomos, miótomos, esclerótomos e viscerótomos não tem importância para a adequada seleção de pontos na abordagem segmentar da acupuntura."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-045",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Quanto à técnica da acupuntura, constitui boa prática",
+   "gabarito": "b",
+   "alternativas": [
+    "reutilizar as agulhas, mesmo as não esterilizadas, desde que pertençam ao próprio paciente.",
+    "conhecer adequadamente os tecidos nos quais a agulha será inserida e as estruturas anatômicas que devem ser evitadas no agulhamento de cada região, de modo a evitar acidentes e complicações.",
+    "manter o paciente em pé durante o agulhamento, para alcançar melhor os pontos e permitir a mobilização adequada, mesmo que o paciente tenha histórico de desmaio.",
+    "inserir, no agulhamento da região torácica, a agulha perpendicular e profundamente à caixa torácica, de modo a obter um adequado DeQi.",
+    "agulhar a pele ferida, infectada, inflamada ou queimada, desde que seja feita assepsia local."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-046",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A auriculoterapia consiste no estímulo no pavilhão auricular, que pode ser realizado percutaneamente por meio de agulhas ou por métodos não invasivos, como esferas de demora, laser, eletroestimulação transcutânea ou mesmo estimulação manual. Em relação à auriculoterapia, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "A sangria do pavilhão auricular é uma técnica simples e não requer maiores cuidados, uma vez que a vascularização arterial é pobre e apresenta baixo risco de hematoma subpericondral.",
+    "A cartilagem do pavilhão auricular é ricamente vascularizada, mas não há risco de condrite, mesmo na auriculoterapia com agulhas de demora.",
+    "A inervação sensorial da orelha externa é simples e bem delimitada, por isso cada ponto do mapa auricular aciona exatamente a região cortical correspondente ao ponto estimulado.",
+    "É possível estimular o ramo auricular do nervo vago e o sistema nervoso autônomo por meio da auriculoterapia nas conchas do pavilhão auricular.",
+    "Há evidências científicas do benefício da auriculoterapia apenas para o tratamento da ansiedade, não se mostrando útil no tratamento da dor ou de disfunções viscerais."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-047",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "É possível intensificar o efeito da acupuntura por meio da descarga de uma pequena corrente elétrica através das agulhas, técnica denominada eletroacupuntura. Em relação à eletroestimulação, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A eletroacupuntura é uma técnica bastante segura que pode ser utilizada sem restrições ou contraindicações, mesmo em gestantes, portadores de epilepsia e usuários de marca-passo.",
+    "Para a resposta analgésica adequada, a estimulação elétrica deve ser realizada nas agulhas, uma vez que a eletroestimulação transcutânea não possui eficácia comprovada no tratamento da dor.",
+    "A eletroestimulação com corrente alternada de alta frequência (acima de 70 Hz) causa neuromodulação predominantemente segmentar, uma vez que induz a liberação de colecistocinina (CCK) na medula espinal, sendo útil no tratamento da dor.",
+    "A intensidade da corrente elétrica deve ser a máxima possível para a melhor resposta terapêutica, mesmo que cause dor ou desconforto ao paciente.",
+    "A eletroestimulação com corrente alternada de baixa frequência (2 a 4 Hz) é útil para modular a nocicepção a nível do sistema nervoso central, uma vez que induz a liberação de beta-endorfina no hipotálamo e de metaencefalina no tronco cerebral. 89100401336277 CEBRASPE – PMC – Edital: 2023"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-048",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando os conhecimentos neuroanatômicos que baseiam uma das abordagens pela acupuntura na racionalidade ocidental, julgue os itens a seguir. I Em paciente com síndrome do túnel do carpo, o acuponto PC6 (CS6) pode ser utilizado para a neuromodulação do nervo mediano. II Em paciente com cefaleia, o acuponto BL10 (B10) pode ser utilizado para a neuromodulação do nervo occipital maior. III Em paciente com bexiga hiperativa, o acuponto SP6 (BP6) pode ser utilizado para a neuromodulação do nervo tibial posterior. IV Em paciente com enxaqueca, o acuponto GB14 (VB14) pode ser utilizado para a neuromodulação do nervo trigêmeo. Assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas os itens II e III estão certos.",
+    "Apenas os itens III e IV estão certos.",
+    "Apenas os itens I, II e IV estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-049",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Apesar das dificuldades metodológicas enfrentadas em pesquisas envolvendo a acupuntura, sobretudo a impossibilidade da utilização de um placebo verdadeiro, os mecanismos de ação da acupuntura vêm sendo investigados e comprovados à luz da metodologia científica, utilizando-se modelos de pesquisa básica em laboratório e estudos clínicos controlados. Com base nas evidências científicas atuais, assinale a opção que apresenta o acuponto indicado no tratamento da hiperemese gravídica.",
+   "gabarito": "b",
+   "alternativas": [
+    "LR3 (F3)",
+    "PC6 (CS6)",
+    "SP6 (BP6)",
+    "ST38 (E38)",
+    "LI4 (IG4)"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-acupunturista-050",
+   "prova": 54,
+   "orgao": 1,
+   "cargo": 53,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Paciente de 26 anos de idade, com queixa de dor na nádega esquerda irradiada pela face posterior do membro inferior esquerdo (ciatalgia) havia 30 dias, sem sintomas sistêmicos ou história de trauma, foi encaminhado para acupuntura. Negou o uso de drogas ilícitas ou comorbidades e referiu realizar musculação de cinco a seis vezes por semana. Nesse caso clínico, I a síndrome do piriforme à esquerda é uma hipótese diagnóstica e, conforme a racionalidade ocidental, pode ser abordada pelo agulhamento do músculo piriforme esquerdo. II a síndrome miofascial do músculo glúteo mínimo esquerdo é uma hipótese diagnóstica e, conforme a racionalidade ocidental, pode ser tratada com o agulhamento do glúteo mínimo à esquerda. III radiculopatia envolvendo o nível de S1 é uma hipótese diagnóstica e, conforme a racionalidade ocidental, pode ser tratada pelo estímulo segmentar da raiz acometida do lado da dor. Assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Nenhum item está certo.",
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-021",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A doença de Wilson é um transtorno do metabolismo do cobre com manifestações hepáticas e neuropsiquiátricas. No que se refere a essa patologia em pacientes pediátricos, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A manifestação da doença ocorre, comumente, no primeiro ano de vida.",
+    "O aconselhamento genético familiar, a despeito de seu custo acessível, não é recomendável.",
+    "A apresentação inicial da doença é neurológica na maioria dos casos.",
+    "O alto nível sérico de ceruloplasmina é essencial para o diagnóstico dessa enfermidade.",
+    "O dicloridrato de trientina, droga utilizada para o tratamento dessa doença, está relacionado ao desenvolvimento de lúpus."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-022",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta a respeito da atresia biliar, importante causa de morbidade hepática na infância.",
+   "gabarito": "b",
+   "alternativas": [
+    "A indicação de transplante hepático na infância, em decorrência dessa condição clínica, é rara.",
+    "Há relação dessa condição clínica com infecção in utero de rotavírus e Epstein-Barr vírus.",
+    "A remissão clínica espontânea ocorre em todos os casos de atresia biliar.",
+    "O aumento de bilirrubina indireta é a principal pista diagnóstica da atresia biliar.",
+    "As taxas de sobrevida dos pacientes pediátricos com atresia biliar submetidos ao transplante hepático não alcançam 40% em 10 anos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-023",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Pré-escolar de 3 anos de idade compareceu ao pronto-socorro com histórico de febre e dor abdominal havia 5 dias. À palpação do abdômen, queixou-se de dor no flanco e no hipocôndrio direitos. Após realização de ecografia com achado de massa mal caracterizada em lobo hepático direito, o paciente foi submetido à tomografia computadorizada com contraste, que sugeriu diagnóstico de abscesso hepático de 7 cm. Em relação ao caso clínico precedente, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A conduta deve ser cirúrgica nesse caso.",
+    "Os quadros respiratórios associados à condição clínica do paciente são raros.",
+    "O secnidazol é a primeira escolha de tratamento ao paciente.",
+    "A punção do abscesso é formalmente contraindicada.",
+    "Os abscessos amebianos são incomuns em crianças."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-024",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando a hipótese de prescrição de acetominofeno/paracetamol a crianças com menos de 12 anos de idade e menos de 40 kg, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "A dose terapêutica recomendável, na hipótese em questão, é entre 50 e 75 mg/kg ao dia.",
+    "Na hipótese sugerida, mesmo com insuficiência hepática grave por alta dosagem, o transplante é contraindicado.",
+    "Na hipótese apresentada, doses acima de 90 mg/kg são consideradas tóxicas para o fígado das crianças.",
+    "Caso sejam administradas doses hepatotóxicas, o aumento das transaminases será imediato.",
+    "A ingestão dessa substância associada à isoniazida tem efeito protetor hepático."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-025",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Criança de 12 anos de idade é encaminhada a avaliação médica por apresentar esteatose hepática em ecografia de avaliação para comorbidades, em razão de seu elevado índice de massa corporal, a saber, 36 kg/m2. Considerando o caso clínico apresentado, assinale a opção correta a respeito da doença hepática gordurosa em crianças.",
+   "gabarito": "b",
+   "alternativas": [
+    "Mudanças comportamentais são ineficazes na população pediátrica para o tratamento dessa doença.",
+    "A elastografia hepática deve ser solicitada no caso em apreço.",
+    "O uso de ácido ursodesoxicólico deve ser prescrito imediatamente ao paciente.",
+    "A evolução do quadro para fibrose hepática é rara em crianças.",
+    "A cirurgia bariátrica é formalmente contraindicada em crianças e adolescentes, ainda que apresentem comorbidades."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-026",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta a respeito da fibrose cística.",
+   "gabarito": "d",
+   "alternativas": [
+    "A fibrose cística está relacionada à infecção pelo vírus da hepatite B.",
+    "A fibrose cística é limitada a pacientes pancreatossuficientes.",
+    "O gene responsável pela fibrose cística não afeta os colangiócitos.",
+    "Uma das consequências da fibrose cística é a hipertensão portal sem cirrose.",
+    "As vias biliares, em especial a vesícula, raramente são acometidas pela fibrose cística."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-027",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Criança de 10 anos de idade, com diagnóstico de anemia falciforme, desenvolveu insuficiência hepática grave durante crise falcêmica. Com base nesse caso clínico, assinale a opção que apresenta o fator relacionado à fisiopatologia mencionada.",
+   "gabarito": "b",
+   "alternativas": [
+    "trombose aguda da veia esplênica",
+    "infarto sinusoidal",
+    "infecção pregressa pelo vírus da herpes",
+    "intoxicação por opioide",
+    "uso de hidratação vigorosa"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-028",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correspondente ao achado que sugere síndrome de Alagille.",
+   "gabarito": "e",
+   "alternativas": [
+    "obesidade",
+    "fácies cushingoides",
+    "micrognatia",
+    "baixa implantação das orelhas",
+    "colestase"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-029",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A hepatite autoimune em crianças apresenta diferenças em relação à encontrada e descrita em adultos. O tipo mais característico em crianças e o seu marcador sorológico são, respectivamente,",
+   "gabarito": "a",
+   "alternativas": [
+    "hepatite autoimune tipo 2 e anticorpos antifígado, rim e microssomo (LKM).",
+    "hepatite autoimune tipo 1 e anticorpo antimúsculo liso.",
+    "hepatite autoimune tipo 2 e fator antinuclear.",
+    "hepatite autoimune tipo 3 e anticorpo antimitocôndria.",
+    "hepatite autoimune tipo 1 e anticorpo antitransglutaminase."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-030",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando o atendimento a uma criança de 9 anos de idade em pronto-socorro, com suspeita de insuficiência hepática aguda, assinale a opção correta no que se refere aos critérios que sugerem o diagnóstico.",
+   "gabarito": "a",
+   "alternativas": [
+    "doença hepática aguda, tempo de atividade de protrombina maior que 15 segundos não corrigida por vitamina K e encefalopatia hepática.",
+    "doença hepática crônica, tempo de atividade de protrombina maior que 15 segundos não corrigida por vitamina K e encefalopatia hepática.",
+    "doença hepática aguda, tempo de atividade de protrombina maior que 15 segundos não corrigida por complexo protrombínico ativado e encefalopatia hepática.",
+    "doença hepática aguda, creatinina maior que 1,5 mg/dl e encefalopatia hepática.",
+    "doença hepática crônica, tempo de atividade de protrombina menor que 15 segundos não corrigida por vitamina K e encefalopatia hepática."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-031",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Durante atendimento a paciente com dor abdominal aguda em faixa em andar superior de abdome há 5 dias, foram realizadas coleta de amilase com valor de 115 UI (valores normais até 120 UI) e tomografia computadorizada de abdome sem contraste com achados inconclusivos. A lipase, porém, encontrava-se com valor de 240 UI (valores normais até 60 UI). A respeito do caso clínico hipotético apresentado, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "A lipase isoladamente elevada é incompatível com a suspeita de pancreatite.",
+    "O diagnóstico de pancreatite aguda está confirmado.",
+    "O critério de imagem é obrigatório para confirmar o diagnóstico de pancreatite.",
+    "A elevação da amilase em até 1,5 vezes é critério para pancreatite por hipertrigliceridemia.",
+    "O paciente apresentou apenas um critério de Atlanta."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-032",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere a pacientes com fibrose cística pancreatossuficientes, assinale a opção que indica a metodologia a ser adotada no seguimento laboratorial da função exócrina do pâncreas.",
+   "gabarito": "d",
+   "alternativas": [
+    "quimiotripsina fecal com valor de corte de 300 μg/g em fezes",
+    "wirsunografia por ressonância magnética e estímulo com secretina",
+    "exame laboratorial a cada 5 anos, visto que a evolução para insuficiência exócrina acontece apenas em período fetal",
+    "elastase pancreática fecal em quantidade inferior a 200 μg/g em fezes",
+    "aspirado duodenal com dosagem seriada de bicarbonato em 0, 15, 30 e 60 minutos após estímulo com colecistocinina"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-033",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Após realização de tomografia de abdome total com contraste para avaliação de cálculo renal, uma paciente adolescente, com 15 anos de idade, sexo feminino, recebeu o diagnóstico de lesão nodular em corpo/cauda do pâncreas com cerca de 8 cm. Tendo em vista a faixa etária da paciente na situação hipotética em questão, o diagnóstico é compatível com",
+   "gabarito": "b",
+   "alternativas": [
+    "neoplasia papilífera intraductal mucinosa.",
+    "neoplasia cística pseudopapilar.",
+    "cistoadenoma seroso.",
+    "adenocarcinoma.",
+    "cistoadenoma tubular."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-034",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Um adolescente do sexo masculino, com história de impactação alimentar recorrente, compareceu ao hospital para exame de endoscopia digestiva alta que revelou mucosa esofágica com estrias e alguns raros pontos esbranquiçados. Na situação hipotética apresentada, a realização de biópsia confirma o diagnóstico de esofagite eosinofílica caso haja evidências de",
+   "gabarito": "c",
+   "alternativas": [
+    "infiltrado neutrofílico com granuloma.",
+    "infiltrado eosinofílico com 5 eosinófilos por campo de grande aumento.",
+    "infiltrado eosinofílico com 20 eosinófilos por campo de grande aumento.",
+    "flebite obliterativa com plasmocitose basal.",
+    "espessamento mural com deposição de colágeno."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-035",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Criança com 3 anos de idade foi levada para atendimento no pronto-socorro, com ingesta, havia uma hora, de soda cáustica utilizada para fabricação de sabão caseiro. No caso hipotético em tela, a conduta a ser adotada é",
+   "gabarito": "a",
+   "alternativas": [
+    "realizar endoscopia digestiva até 24 horas após a ingestão.",
+    "proceder à lavagem gástrica com uso de carvão ativado.",
+    "administrar hidrocortisona endovenosa.",
+    "passar sonda nasogástrica.",
+    "iniciar antibioticoterapia de amplo espectro na admissão."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-036",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Paciente com hematêmese e melena foi admitido no hospital e, durante a endoscopia digestiva alta, foi identificada variz esofagogástrica do tipo II. Nessa situação hipotética, segundo o Baveno VII a opção terapêutica adequada para o paciente é",
+   "gabarito": "e",
+   "alternativas": [
+    "injeção de cola de fibrina.",
+    "injeção de polidocanol.",
+    "ligadura elástica.",
+    "plasma de argônio.",
+    "injeção de cianoacrilato de n-butila."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-037",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A ingestão de baterias circulares de equipamentos eletrônicos por pacientes pediátricos é frequente e traz preocupações na emergência e no seguimento desses casos. Acerca dessas ocorrências e dos múltiplos aspectos a elas relacionados, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A idade da criança ou o diâmetro da bateria não alteram a conduta quando a localização for gástrica.",
+    "Baterias circulares podem ser observadas apenas se a localização for abaixo do terço médio do esôfago.",
+    "A ingestão de substâncias ácidas deve ser estimulada para tamponamento da base forte presente na bateria.",
+    "A retirada endoscópica é contraindicada se a impactação tiver ocorrido há mais de 12 horas.",
+    "Hematêmese ocorrendo nas três primeiras semanas de retirada bem-sucedida é habitualmente causada por fístula aortoesofágica."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-039",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do diagnóstico e do tratamento de acalasia, transtorno motor de esôfago raro na população pediátrica, mas motivo de grande morbidade em portadores, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Endoscopia digestiva alta é padrão-ouro no diagnóstico de acalasia.",
+    "Cardiomiotomia de Heller é preferível à toxina botulínica como estratégia terapêutica.",
+    "Manometria esofágica de alta resolução não mostrou benefícios em discriminar subtipos de acalasia.",
+    "Dilatação com velas de Savary-Gilliard é a conduta mais resolutiva para esses pacientes.",
+    "Nitratos associados a betabloqueadores devem ser utilizados para potencialização de efeitos de medicação."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-040",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere à Helicobacter pylori, cuja infecção é responsável por manifestações fora do trato gastrointestinal, assinale a opção correspondente à doença associada que tem indicação de pesquisa.",
+   "gabarito": "c",
+   "alternativas": [
+    "catarata congênita",
+    "esquizofrenia",
+    "trombocitopenia",
+    "transtorno do espectro autista",
+    "anemia hemolítica"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-041",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A doença de Hirschsprung",
+   "gabarito": "e",
+   "alternativas": [
+    "decorre do excesso de produção de células nervosas no intestino grosso.",
+    "afeta, principalmente, adultos após dieta sem fibras.",
+    "é uma condição em que o cólon é muito curto.",
+    "é hereditária e afeta mais meninas que meninos.",
+    "envolve a ausência de células nervosas na parte inferior do cólon."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-042",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Uma criança com três anos de idade foi levada para a emergência com quadro de dor abdominal, vômito, febre e diarreia iniciado havia 24 horas. Não houve viagem recente e um colega de creche apresentou quadro semelhante no dia anterior. Ao exame físico, estavam ausentes sinais de abdome agudo. Considerando a situação hipotética descrita, assinale a opção que indica a etiologia mais comum associada à gastroenterite aguda em crianças.",
+   "gabarito": "c",
+   "alternativas": [
+    "estrongiloidíase",
+    "esquistossomose",
+    "rotavírus",
+    "ancilostomíase",
+    "ascaridíase"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-043",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Durante o banho, uma mãe notou protuberância umbilical em seu filho de um ano de idade. Não havia dor ou vermelhidão na pele. O ritmo intestinal continuava habitual e não havia febre. Após levar a criança ao hospital, constatou-se caso de hérnia umbilical. Acerca dessa condição clínica em crianças, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "É revertida com uso de antibióticos durante duas semanas.",
+    "É comum a criança apresentar dor abdominal intensa ao esforço.",
+    "É comum desaparecer naturalmente após os dois anos de idade.",
+    "É característica típica a presença de febre alta.",
+    "É deflagrada por infecção viral."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-044",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que apresenta característica típica do divertículo de Meckel que o diferencia de outras anomalias gastrointestinais congênitas.",
+   "gabarito": "b",
+   "alternativas": [
+    "presença de mucosa colônica ectópica no revestimento do divertículo",
+    "presença de mucosa gástrica ectópica no revestimento do divertículo",
+    "associação com doença celíaca",
+    "associação com pâncreas ectópico",
+    "associação com refluxo gastroesofágico"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-045",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que indica a condição considerada como hemocromatose hereditária com sobrecarga de ferro e que está fora da lista de doenças representantes da causa de ferropenia sem exteriorização de perdas em crianças de quatro anos de idade.",
+   "gabarito": "e",
+   "alternativas": [
+    "doença celíaca",
+    "ascaridíase intestinal",
+    "dieta pobre em ferro",
+    "doença inflamatória intestinal",
+    "homozigose do C282Y na mutação do gene HFE"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-046",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A principal característica de estenose pilórica em recém-nascidos é",
+   "gabarito": "d",
+   "alternativas": [
+    "a diminuição do tamanho do estômago.",
+    "a inflamação crônica do intestino grosso.",
+    "o desaparecimento espontâneo após os dois anos de idade.",
+    "o estreitamento da saída do estômago para o intestino delgado.",
+    "a febre vespertina como principal sintoma."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-047",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O câncer que normalmente se desenvolve em crianças menores de 5 anos de idade e acomete o sistema nervoso simpático, localizado em várias partes do corpo, incluindo abdome, tórax e glândulas suprarrenais, é o",
+   "gabarito": "b",
+   "alternativas": [
+    "disgerminoma.",
+    "neuroblastoma.",
+    "tumor de Wilms.",
+    "adenocarcinoma.",
+    "carcinoma medular de tireoide."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-048",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "É característica clínica comum em crianças com apendicite aguda apresentar",
+   "gabarito": "d",
+   "alternativas": [
+    "azia e sonolência.",
+    "diarreia crônica.",
+    "coceira na pele e erupções cutâneas.",
+    "febre alta.",
+    "disfagia e febre baixa. 89101101272711 CEBRASPE – PMC – Edital: 2023"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-049",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que apresenta uma característica clínica distintiva de síndrome de Peutz-Jeghers (SPJ) em crianças.",
+   "gabarito": "d",
+   "alternativas": [
+    "púrpura cutânea",
+    "baixa estatura",
+    "pólipo nasal",
+    "pigmentação escura nos lábios e em volta da boca",
+    "fotossensibilidade cutânea"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-prefcamacariba-medico-gastroenterologista-infantil-050",
+   "prova": 55,
+   "orgao": 1,
+   "cargo": 54,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação a aleitamento materno, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "O leite materno é a melhor fonte de nutrição para o bebê durante os primeiros meses de vida.",
+    "A amamentação pode ser interrompida sem impacto significativo na saúde do bebê.",
+    "O aleitamento materno é recomendado apenas por algumas semanas após o nascimento.",
+    "O aleitamento materno é contraindicado se a mãe for HBsAg positivo.",
+    "A amamentação exclusiva não é prática ideal para bebês recém-nascidos."
    ]
   }
  ]
