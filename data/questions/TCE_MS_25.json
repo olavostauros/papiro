@@ -13,6 +13,7 @@
  ],
  "assuntos": [
   "PROVAS OBJETIVAS",
+  "Conhecimentos Específicos",
   ""
  ],
  "provas": [
@@ -2031,7 +2032,7 @@
    "orgao": 0,
    "cargo": 1,
    "ano": 2025,
-   "assunto": 1,
+   "assunto": 2,
    "tipo": "multipla_escolha",
    "enunciado": "Assinale a opção correta no que se refere ao procedimento contábil aplicável à apresentação e à elaboração de demonstrações contábeis consolidadas, de acordo com o pronunciamento técnico do Comitê de Pronunciamentos Contábeis (CPC) que trata do tema.",
    "gabarito": "d",
@@ -2049,7 +2050,7 @@
    "orgao": 0,
    "cargo": 1,
    "ano": 2025,
-   "assunto": 1,
+   "assunto": 2,
    "tipo": "multipla_escolha",
    "enunciado": "e de vendas da empresa Com base na tabela precedente, na qual são apresentados os gastos de uma empresa industrial em determinado período, é correto afirmar que o custo de produção do período, calculado com base no custeio variável, totalizou",
    "gabarito": "c",
@@ -2391,7 +2392,7 @@
    "orgao": 0,
    "cargo": 1,
    "ano": 2025,
-   "assunto": 1,
+   "assunto": 2,
    "tipo": "multipla_escolha",
    "enunciado": "Considere que um depósito de R$ 200 seja realizado todos os meses, sempre no dia 10 de cada mês, em uma aplicação que rende 1% ao mês no regime de capitalização composta. Nessa situação, o investimento corresponderá a 100 vezes o valor do depósito mensal depois de decorridos exatamente",
    "gabarito": "e",
@@ -2409,7 +2410,7 @@
    "orgao": 0,
    "cargo": 1,
    "ano": 2025,
-   "assunto": 1,
+   "assunto": 2,
    "tipo": "multipla_escolha",
    "enunciado": "Acerca dos métodos para avaliação econômica de projetos, assinale a opção correta.",
    "gabarito": "a",
@@ -6009,7 +6010,7 @@
    "orgao": 0,
    "cargo": 3,
    "ano": 2025,
-   "assunto": 1,
+   "assunto": 2,
    "tipo": "multipla_escolha",
    "enunciado": "No dimensionamento de uma rede de esgoto sanitário, os elementos fundamentais para garantir o funcionamento adequado do sistema incluem I a vazão de contribuição da população. II a velocidade máxima de escoamento para evitar sedimentação. III a declividade mínima dos condutos. IV o nível de precipitação pluviométrica anual. V os coeficientes de retorno de consumo de água. Estão certos apenas os itens",
    "gabarito": "c",
@@ -7215,7 +7216,7 @@
    "orgao": 0,
    "cargo": 4,
    "ano": 2025,
-   "assunto": 1,
+   "assunto": 2,
    "tipo": "multipla_escolha",
    "enunciado": "1 class Funcionario: 2 def __init__(self, nome, salario): 3 self.nome = nome 4 self.salario = salario 5 6 def bonus(self): 7 return self.salario * 0.10 8 9 class Gerente(Funcionario): 10 def bonus(self): 11 return super().bonus() + 500 12 13 func = Funcionario(\"Ana\", 2000) 14 ger = Gerente(\"Bruno\", 3000) 15 16 print(func.bonus()) 17 print(ger.bonus()) 18 print(isinstance(ger, Funcionario)) Considere o código Python precedente. Assinale a opção que corresponde ao resultado da execução desse código.",
    "gabarito": "d",
@@ -7233,7 +7234,7 @@
    "orgao": 0,
    "cargo": 4,
    "ano": 2025,
-   "assunto": 1,
+   "assunto": 2,
    "tipo": "multipla_escolha",
    "enunciado": "1interface Pagavel { 2 double calcularPagamento(); 3 } 4 5 class Freelancer implements Pagavel { 6 double horasTrabalhadas; 7 double valorHora; 8 9 Freelancer(double horas, double valor) { 10 this.horasTrabalhadas = horas; 11 this.valorHora = valor; 1 2 } 13 14 public double calcularPagamento() { 15 return horasTrabalhadas * valorHora; 16 } 1 7 } 18 19 class Consultor extends Freelancer { 20 double bonus; 21 22 Consultor(double horas, double valor, double bonus) { 23 super( horas, valor); 24 this.bonus = bonus; 25 } 26 27 @Override 28 public double calcularPagamento() { 29 return super.calcularPagamento() + bonus; 30 } 31} 32 33 public class TestePagamento { 34 public static void main(String[] args) { 35 Pagavel f = new Freelancer(40, 50); 36 Pagavel c = new Consultor(30, 80, 500); 37 38 System.out.println(f.calcularPagamento()); 39 System.out.println(c.calcularPagamento()); 40 System.out.println(f instanceof Consultor); 41 } 42 } Considere o código Java 17 acima. Assinale a opção que corresponde ao resultado da execução do código em apreço no console.",
    "gabarito": "b",
@@ -8007,7 +8008,7 @@
    "orgao": 0,
    "cargo": 4,
    "ano": 2025,
-   "assunto": 1,
+   "assunto": 2,
    "tipo": "multipla_escolha",
    "enunciado": "Em um banco de dados, a instrução CREATE TABLE é um exemplo de",
    "gabarito": "c",
@@ -8089,6 +8090,78 @@
     "de armazenamento.",
     "externo.",
     "conceitual."
+   ]
+  },
+  {
+   "id": "cebraspe-2025-tcems-ciencias-contabeis-053",
+   "prova": 3,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "matéria-prima utilizada na produção R$ 5.000 mão de obra da fábrica, remunerada de acordo com R$ 20.000 a quantidade produzida gastos incorridos na fábrica classificados como R$ 3.000 indiretos e fixos R$ 2.000 gastos incorridos na fábrica classificados como R$ 20.000 indiretos e variáveis R$ 2.000 gastos fixos incorridos nas áreas administrativa e de vendas da empresa gastos variáveis incorridos nas áreas administrativa e de vendas da empresa Com base na tabela precedente, na qual são apresentados os gastos de uma empresa industrial em determinado período, é correto afirmar que o custo de produção do período, calculado com base no custeio variável, totalizou",
+   "gabarito": "c",
+   "alternativas": [
+    "R$ 9.000.",
+    "R$ 25.000.",
+    "R$ 27.000.",
+    "R$ 29.000.",
+    "R$ 30.000."
+   ]
+  },
+  {
+   "id": "cebraspe-2025-tcems-engenharia-civil-080",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 3,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No dimensionamento de uma rede de esgoto sanitário, os elementos fundamentais para garantir o funcionamento adequado do sistema incluem I a vazão de contribuição da população. evitar II a velocidade máxima de escoamento para sedimentação. III a declividade mínima dos condutos. IV o nível de precipitação pluviométrica anual. V os coeficientes de retorno de consumo de água. Estão certos apenas os itens",
+   "gabarito": "c",
+   "alternativas": [
+    "I, II e IV.",
+    "I, II e V.",
+    "I, III e V.",
+    "II, III e IV.",
+    "III, IV e V."
+   ]
+  },
+  {
+   "id": "cebraspe-2025-tcems-tecnologia-informacao-049",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "1 class Funcionario: 2 def __init__(self, nome, salario): 3 self.nome = nome 4 self.salario = salario 6 def bonus(self): 7 return self.salario * 0.10 9 class Gerente(Funcionario): 10 def bonus(self): 11 return super().bonus() + 500 13 func = Funcionario(\"Ana\", 2000) 14 ger = Gerente(\"Bruno\", 3000) 16 print(func.bonus()) 17 print(ger.bonus()) 18 print(isinstance(ger, Funcionario)) Considere o código Python precedente. Assinale a opção que corresponde ao resultado da execução desse código.",
+   "gabarito": "d",
+   "alternativas": [
+    "200.0 300.0 True",
+    "200.0 500.0 False",
+    "800.0 500.0 False",
+    "200.0 800.0 True",
+    "200.0 800.0 False"
+   ]
+  },
+  {
+   "id": "cebraspe-2025-tcems-tecnologia-informacao-096",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em um banco de dados, a instrução CREATE exemplo de",
+   "gabarito": "c",
+   "alternativas": [
+    "SQL.",
+    "DML.",
+    "DDL.",
+    "DCL.",
+    "NoSQL."
    ]
   }
  ]

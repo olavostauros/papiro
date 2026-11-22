@@ -6,7 +6,7 @@
  ],
  "cargos": [
   "Cargo 1: Oficial Bombeiro Militar Combatente",
-  "Cargo 2: Oficial Bombeiro Militar Complementar – Engenheiro Civil"
+  "Oficial Bombeiro Militar Complementar – Engenheiro Civil"
  ],
  "assuntos": [
   "DIREITO PENAL MILITAR",
@@ -23,6 +23,7 @@
   "HISTÓRIA E GEOGRAFIA DE RONDÔNIA",
   "MATEMÁTICA",
   "INFORMÁTICA BÁSICA",
+  "",
   "ENGENHARIA CIVIL"
  ],
  "provas": [
@@ -1799,78 +1800,6 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-001",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 10,
-   "tipo": "multipla_escolha",
-   "enunciado": "Os verbos empregados no primeiro período do texto 2A01 expressam",
-   "gabarito": "c",
-   "alternativas": [
-    "continuidade de ações não limitadas no tempo.",
-    "ideias invariáveis de tempo.",
-    "variações do tempo pretérito.",
-    "ações finalizadas em um mesmo momento.",
-    "ações momentâneas determinadas no tempo."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-002",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 10,
-   "tipo": "multipla_escolha",
-   "enunciado": "No texto 2A01, da leitura do trecho “Não teve tempo nem língua em que perguntasse ao desconhecido o que era.” (segundo período do terceiro parágrafo), infere-se que a forma como o termo “língua” está empregado está relacionada ao fato de o personagem principal",
-   "gabarito": "e",
-   "alternativas": [
-    "sentir-se incomodado por ter de se comunicar com o desconhecido.",
-    "ter outros tipos de habilidades que dispensavam a necessidade de se comunicar na situação descrita no texto.",
-    "ter superado o fato de que não sabia se comunicar na língua do lugar onde ocorreu a situação.",
-    "ter sido indiferente ao fato de não dominar plenamente a língua da região.",
-    "ter sido impelido ao resgate da vítima dada a situação e não saber se comunicar no idioma local."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-003",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 10,
-   "tipo": "multipla_escolha",
-   "enunciado": "Conclui-se da leitura do texto 2A01 que o sentimento predominante da personagem principal em relação ao fato narrado é de",
-   "gabarito": "d",
-   "alternativas": [
-    "frustração.",
-    "medo.",
-    "angústia.",
-    "alívio.",
-    "indiferença."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-004",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 10,
-   "tipo": "multipla_escolha",
-   "enunciado": "São acentuados graficamente de acordo com a mesma regra de acentuação gráfica os vocábulos",
-   "gabarito": "e",
-   "alternativas": [
-    "“aí” e “Calcutá”.",
-    "“incêndio” e “ninguém”.",
-    "“espreitá-lo” e “tábua”.",
-    "“pôde” e “angústia”.",
-    "“saído” e “aí”."
-   ]
-  },
-  {
    "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-005",
    "prova": 1,
    "orgao": 0,
@@ -1886,240 +1815,6 @@
     "“provavelmente” (sexto parágrafo)",
     "“ali” (sexto parágrafo)",
     "“aqui” (segundo período do último parágrafo)"
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-006",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 10,
-   "tipo": "multipla_escolha",
-   "enunciado": "No texto 2A01, a forma verbal “Transpondo” (terceiro período do sétimo parágrafo), corresponde, quanto ao sentido, no contexto em que é empregada, a",
-   "gabarito": "b",
-   "alternativas": [
-    "caso transpusesse.",
-    "ao transpor.",
-    "antes de transpor.",
-    "por transpor.",
-    "apesar de transpor."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-007",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 10,
-   "tipo": "multipla_escolha",
-   "enunciado": "O texto 2A01 classifica-se quanto à tipologia como",
-   "gabarito": "a",
-   "alternativas": [
-    "narrativo.",
-    "dissertativo-informativo.",
-    "dissertativo-argumentativo.",
-    "dissertativo-expositivo.",
-    "descritivo."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-008",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 10,
-   "tipo": "multipla_escolha",
-   "enunciado": "De acordo com o texto 2A02, as queimadas do período Siluriano, citado ao final do primeiro parágrafo,",
-   "gabarito": "d",
-   "alternativas": [
-    "teriam ocorrido por ação humana.",
-    "eram prejudiciais aos ciclos naturais da Terra na época.",
-    "ocorriam apesar dos baixos índices de oxigênio da Terra em comparação aos atuais.",
-    "ajudam a revelar ciclos ambientais relativos a muitos fatores naturais.",
-    "são estudadas a partir de hipóteses abstratas, sem base em materiais concretos."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-009",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 10,
-   "tipo": "multipla_escolha",
-   "enunciado": "Conforme sua tipologia e seu gênero, o texto 2A02",
-   "gabarito": "d",
-   "alternativas": [
-    "é um artigo científico, pela temática que aborda.",
-    "combina fatos e opiniões, podendo ser classificado como um texto predominantemente opinativo.",
-    "é uma resenha, pois reporta o que é tratado em um livro.",
-    "apresenta recursos da tipologia textual dissertativa.",
-    "é um resumo, pois visa apresentar os detalhes de uma pesquisa ao leitor."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-010",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 10,
-   "tipo": "multipla_escolha",
-   "enunciado": "Assinale a opção que representa a ideia retomada pela expressão “Esse achado”, no penúltimo parágrafo do texto 2A02.",
-   "gabarito": "a",
-   "alternativas": [
-    "“informações valiosas”, no primeiro parágrafo",
-    "“depósitos de carvão”, no primeiro parágrafo",
-    "“As queimadas”, no terceiro parágrafo",
-    "“O fato”, no quarto parágrafo",
-    "“incêndios florestais”, no sexto parágrafo"
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-011",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 10,
-   "tipo": "multipla_escolha",
-   "enunciado": "A correção gramatical e o sentido do texto 2A02 seriam preservados caso o trecho “não chegaram a existir”, no primeiro período do segundo parágrafo, fosse substituído por",
-   "gabarito": "b",
-   "alternativas": [
-    "não chegarão a surgir.",
-    "não chegaram a surgir.",
-    "não conseguiriam surgir.",
-    "não almejaram a existir.",
-    "não chegariam a existir."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-012",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 10,
-   "tipo": "multipla_escolha",
-   "enunciado": "No primeiro período do quarto parágrafo do texto 2A02, o núcleo do sujeito da forma verbal “eram” é o termo",
-   "gabarito": "b",
-   "alternativas": [
-    "“pesquisadores”.",
-    "“níveis”.",
-    "“oxigênio”.",
-    "“depósitos”.",
-    "“incêndios”."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-013",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 10,
-   "tipo": "multipla_escolha",
-   "enunciado": "No segundo período do primeiro parágrafo do texto 2A02, o pronome “eles” retoma o termo",
-   "gabarito": "c",
-   "alternativas": [
-    "“fósseis”.",
-    "“antigos”.",
-    "“pesquisadores”.",
-    "“florestais”.",
-    "“depósitos”."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-014",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 10,
-   "tipo": "multipla_escolha",
-   "enunciado": "No último parágrafo do texto 2A02, as vírgulas foram empregadas, respectivamente, para",
-   "gabarito": "d",
-   "alternativas": [
-    "isolar um aposto explicativo e separar uma oração coordenada.",
-    "separar uma oração coordenada e marcar o deslocamento de um adjunto adverbial.",
-    "separar termos de uma enumeração e introduzir um aposto explicativo.",
-    "separar uma oração coordenada e isolar um termo explicativo.",
-    "isolar uma oração coordenada e separar termos de uma enumeração."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-015",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 10,
-   "tipo": "multipla_escolha",
-   "enunciado": "“que exige um trabalho em áreas diversas do conhecimento” – no sexto parágrafo “que a pesquisa de incêndios florestais tem no mapeamento da história geológica” – no sétimo parágrafo Com relação às orações acima, ambas reproduzidas do texto 2A02, assinale a opção correta.",
-   "gabarito": "b",
-   "alternativas": [
-    "Em ambas as orações, o termo inicial “que” tem a mesma função sintática.",
-    "Nas duas orações, o termo inicial “que” tem funções diferentes.",
-    "Ambas as orações se relacionam com as respectivas orações anteriores por meio de uma relação de coordenação.",
-    "As duas orações representam um complemento em relação às respectivas orações precedentes.",
-    "As duas orações representam uma explicação em relação às respectivas orações precedentes."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-016",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 12,
-   "tipo": "multipla_escolha",
-   "enunciado": "Considere que acidentes de trabalho ocorridos em dias diferentes sejam eventos independentes e que ontem não tenha ocorrido acidente de trabalho em uma obra da construtora citada no texto 2A3-I na qual atua uma equipe não treinada. Com base nessas informações e no texto 2A3-I, é correto afirmar que a probabilidade de ocorrer um acidente de trabalho hoje nessa obra, com a atuação da mesma equipe, é de",
-   "gabarito": "b",
-   "alternativas": [
-    "9%.",
-    "10%.",
-    "81%.",
-    "90%.",
-    "91%."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-017",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 12,
-   "tipo": "multipla_escolha",
-   "enunciado": "A partir das informações do texto 2A3-I, é correto afirmar que, caso um acidente de trabalho tenha ocorrido em certo dia em uma das obras da construtora em questão, a probabilidade de esse acidente ter ocorrido quando trabalhava na obra uma equipe não treinada é",
-   "gabarito": "d",
-   "alternativas": [
-    "inferior a 10%.",
-    "superior ou igual a 10% e inferior a 20%.",
-    "superior ou igual a 20% e inferior a 30%.",
-    "superior ou igual a 30% e inferior a 40%.",
-    "superior ou igual a 40%."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-018",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 12,
-   "tipo": "multipla_escolha",
-   "enunciado": "Suponha que, na situação apresentada no texto 2A3-I, a fim de minimizar o risco de ocorrência de acidente de trabalho, a direção da construtora tenha selecionado 10 trabalhadores, dos quais 5 tenham participado do treinamento e 5 não tenham participado do treinamento, para formarem duas equipes, cada qual com 5 trabalhadores. Com base nessas informações e no texto 2A3-I, assinale a opção que indica a quantidade de maneiras distintas de distribuir os 10 trabalhadores nessas duas equipes de tal forma que cada equipe tenha pelo menos um trabalhador que já participou do treinamento.",
-   "gabarito": "c",
-   "alternativas": [
-    "20",
-    "250",
-    "251",
-    "252",
-    "504"
    ]
   },
   {
@@ -2159,60 +1854,6 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-021",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 12,
-   "tipo": "multipla_escolha",
-   "enunciado": "Em uma região plana da cidade sobre a qual é posicionado um sistema de coordenadas cartesianas com escala em quilômetros, uma estrada é aproximada pela reta de equação 5 x + 3 y = 30. Ao projetar um viaduto sobre essa rodovia, um engenheiro estimou que sua projeção sobre o plano deveria ser perpendicular à rodovia e sua reta suporte deveria passar pela origem do sistema cartesiano. Nesse caso, a equação da reta de suporte é corretamente expressa por",
-   "gabarito": "c",
-   "alternativas": [
-    "5 x + 3 y = 0.",
-    "5 x – 3 y = 0.",
-    "3 x – 5 y = 0.",
-    "3 x + 5 y = 0.",
-    "3 x – 5 y = 30."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-022",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 12,
-   "tipo": "multipla_escolha",
-   "enunciado": "O ângulo de 1 radiano equivale, em graus, a um ângulo",
-   "gabarito": "e",
-   "alternativas": [
-    "menor que 15°.",
-    "maior ou igual a 60°.",
-    "maior ou igual a 15° e menor que 30°.",
-    "maior ou igual a 30° e menor que 45°.",
-    "maior ou igual a 45° e menor que 60°."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-023",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 12,
-   "tipo": "multipla_escolha",
-   "enunciado": "O valor da soma da distância entre os pontos P e A com a distância entre os pontos P e B é",
-   "gabarito": "e",
-   "alternativas": [
-    "inferior a 25 m.",
-    "superior a 25 m e inferior a 35 m.",
-    "superior a 35 m e inferior a 45 m.",
-    "superior a 55 m.",
-    "superior a 45 m e inferior a 55 m."
-   ]
-  },
-  {
    "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-024",
    "prova": 1,
    "orgao": 0,
@@ -2228,42 +1869,6 @@
     "α > θ e a área do triângulo AOB é maior do que a área do triângulo APB.",
     "α < θ e a área do triângulo AOB é menor do que a área do triângulo APB.",
     "α < θ e a área do triângulo AOB é maior do que a área do triângulo APB."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-025",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 12,
-   "tipo": "multipla_escolha",
-   "enunciado": "Considere que, no momento do corte da árvore, o caule não tenha se separado completamente da parte restante, já que esta havia permanecido unida às raízes. Considere, ainda, que as cordas haviam sido amarradas para que a árvore não caísse. Nessa situação, se a árvore não tivesse sido amarrada, a área total que ela poderia atingir na queda seria",
-   "gabarito": "d",
-   "alternativas": [
-    "inferior a 500 m 2 .",
-    "superior a 2000 m 2 .",
-    "superior a 500 m 2 e inferior a 1000 m 2 .",
-    "superior a 1000 m 2 e inferior a 1500 m 2 .",
-    "superior a 1500 m 2 e inferior a 2000 m 2 ."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-026",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 12,
-   "tipo": "multipla_escolha",
-   "enunciado": "Considere que, para evitar um provável rompimento da corda que unia o ponto P ao ponto B, uma terceira corda tenha sido amarrada na árvore a 12 m de altura do solo e esticada até um ponto C no solo. Nessa situação, se essa nova corda tivesse ficado paralela à corda que estava unindo os pontos P e B, então, o ponto C localizar-se-ia sobre o segmento OB",
-   "gabarito": "e",
-   "alternativas": [
-    "a 4 m do ponto O.",
-    "a 4 m do ponto B.",
-    "a 18 m do ponto O.",
-    "a 7,5 m do ponto O.",
-    "a 7,5 m do ponto B."
    ]
   },
   {
@@ -2285,60 +1890,6 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-028",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 12,
-   "tipo": "multipla_escolha",
-   "enunciado": "Considerando-se essas informações, é correto afirmar que a média de duração dessas chamadas telefônicas corresponde a",
-   "gabarito": "d",
-   "alternativas": [
-    "73 s.",
-    "12 s.",
-    "30 s.",
-    "45 s.",
-    "60 s."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-029",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 12,
-   "tipo": "multipla_escolha",
-   "enunciado": "A mediana do tempo das ligações é igual a",
-   "gabarito": "c",
-   "alternativas": [
-    "4,8 s.",
-    "11,25 s.",
-    "41,25 s.",
-    "15 s.",
-    "30 s."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-030",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 12,
-   "tipo": "multipla_escolha",
-   "enunciado": "Considere que, em 3 ligações com duração entre 90 e 120 s, os tempos de ligação tenham sido, respectivamente, iguais a 100 s, 101 s e 102 s. Nessa situação, o desvio padrão entre essas ligações terá sido",
-   "gabarito": "b",
-   "alternativas": [
-    "inferior a 1 s.",
-    "igual a 1 s.",
-    "igual a 2 s.",
-    "igual a 3 s.",
-    "superior a 3 s."
-   ]
-  },
-  {
    "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-031",
    "prova": 1,
    "orgao": 0,
@@ -2354,24 +1905,6 @@
     "O segundo governador do Território Federal do Guaporé era sobrinho do marechal Cândido Rondon e foi ele quem propôs à Câmara dos Deputados a mudança do nome de Território Federal do Guaporé para Território Federal de Rondônia.",
     "No ato de sua criação, o Território Federal do Guaporé tinha quatro municípios pertencentes ao estado do Mato Grosso, que foram desmembrados e passaram a fazer parte da nova divisão.",
     "A mudança de Território Federal do Guaporé para Território Federal de Rondônia aconteceu por meio do desmembramento de terras do Amazonas e do Mato Grosso, no início da ditadura militar."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-032",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 11,
-   "tipo": "multipla_escolha",
-   "enunciado": "Em relação aos limites de Rondônia, assinale a opção correta.",
-   "gabarito": "b",
-   "alternativas": [
-    "Seu limite ao norte, que faz fronteira com o estado do Amazonas, corresponde à maior extensão de fronteira territorial rondoniense.",
-    "Rondônia faz fronteira com três estados e um país; e um desses estados foi território nacional até a década de 1960.",
-    "O limite do estado de Rondônia com a Bolívia possui rios navegáveis ao sul, como o Madeira e o Guaporé.",
-    "Rondônia faz fronteira com quatro estados e um país; e o referido país foi território de contenda resolvida no início do século XX.",
-    "Apesar de também ter se envolvido no tratado de Petrópolis, o estado de Rondônia não possui fronteira com o Acre."
    ]
   },
   {
@@ -2537,24 +2070,6 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-042",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 13,
-   "tipo": "multipla_escolha",
-   "enunciado": "Em um quartel do Corpo de Bombeiros, o soldado João, ao utilizar o seu computador de trabalho, excluiu, via rede, um arquivo no computador do soldado Pedro, que estava em outra seção do quartel. Os dois militares usavam o mesmo sistema operacional, o Windows 10. Considerando-se essa situação hipotética e o sistema operacional utilizado, o Windows 10, é correto afirmar que",
-   "gabarito": "c",
-   "alternativas": [
-    "o arquivo excluído poderá ser recuperado se Pedro selecioná- lo na Lixeira de seu computador; em seguida, clicar o botão direito do mouse ; e, por fim, escolher a opção Restaurar .",
-    "o soldado João, por ter sido o responsável pela remoção do arquivo, será a única pessoa capaz de recuperá-lo, usando, nesse caso, as teclas de atalho Ctrl+Z .",
-    "o arquivo não se encontra na Lixeira do computador do soldado Pedro.",
-    "o arquivo encontra-se na Lixeira do computador do soldado João.",
-    "o arquivo foi enviado diretamente para as Lixeiras dos dois computadores envolvidos na conexão devido ao fato de ele ter sido excluído via rede."
-   ]
-  },
-  {
    "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-043",
    "prova": 1,
    "orgao": 0,
@@ -2570,42 +2085,6 @@
     "A formatação do título será removida, entretanto ele permanecerá no centro.",
     "O título será removido do documento.",
     "Será removido apenas o negrito do título."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-044",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 13,
-   "tipo": "multipla_escolha",
-   "enunciado": "No programa MS Excel 2016, a função utilizada para contar o número de células que atendam a determinado critério, como, por exemplo, contabilizar o número de vezes que um soldado específico aparece em uma lista de punidos, é a função",
-   "gabarito": "d",
-   "alternativas": [
-    "CORREL .",
-    "CURT .",
-    "CONT.VALORES .",
-    "CONT.SE .",
-    "CONT.NUM ."
-   ]
-  },
-  {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-045",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2022,
-   "assunto": 13,
-   "tipo": "multipla_escolha",
-   "enunciado": "Conhecido como NIC ( Network Interface Card ), o equipamento interno instalado nos computadores que torna possível a comunicação entre uma estação de trabalho e o servidor denomina-se",
-   "gabarito": "d",
-   "alternativas": [
-    "proxy .",
-    "hub .",
-    "switch .",
-    "placa de rede.",
-    "gateway ."
    ]
   },
   {
@@ -2627,7 +2106,763 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-047",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-001",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 10,
+   "tipo": "multipla_escolha",
+   "enunciado": "Os verbos empregados no primeiro período do texto 2A01 expressam",
+   "gabarito": "c",
+   "alternativas": [
+    "continuidade de ações não limitadas no tempo.",
+    "ideias invariáveis de tempo.",
+    "variações do tempo pretérito.",
+    "ações finalizadas em um mesmo momento.",
+    "ações momentâneas determinadas no tempo."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-002",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 10,
+   "tipo": "multipla_escolha",
+   "enunciado": "No texto 2A01, da leitura do trecho “Não teve tempo nem língua em que perguntasse ao desconhecido o que era.” (segundo período do terceiro parágrafo), infere-se que a forma como o termo “língua” está empregado está relacionada ao fato de o personagem principal",
+   "gabarito": "e",
+   "alternativas": [
+    "sentir-se incomodado por ter de se comunicar com o desconhecido.",
+    "ter outros tipos de habilidades que dispensavam a necessidade de se comunicar na situação descrita no texto.",
+    "ter superado o fato de que não sabia se comunicar na língua do lugar onde ocorreu a situação.",
+    "ter sido indiferente ao fato de não dominar plenamente a língua da região.",
+    "ter sido impelido ao resgate da vítima dada a situação e não saber se comunicar no idioma local."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-003",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 10,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conclui-se da leitura do texto 2A01 que o sentimento predominante da personagem principal em relação ao fato narrado é de",
+   "gabarito": "d",
+   "alternativas": [
+    "frustração.",
+    "medo.",
+    "angústia.",
+    "alívio.",
+    "indiferença."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-004",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 10,
+   "tipo": "multipla_escolha",
+   "enunciado": "São acentuados graficamente de acordo com a mesma regra de acentuação gráfica os vocábulos",
+   "gabarito": "e",
+   "alternativas": [
+    "“aí” e “Calcutá”.",
+    "“incêndio” e “ninguém”.",
+    "“espreitá-lo” e “tábua”.",
+    "“pôde” e “angústia”.",
+    "“saído” e “aí”."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-005",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 14,
+   "tipo": "multipla_escolha",
+   "enunciado": "contexto Assinale a opção em que o termo destacado 2A01 funciona como advérbio de tempo no sintático-semântico em que se insere.",
+   "gabarito": "a",
+   "alternativas": [
+    "“logo” (primeiro período do terceiro parágrafo)",
+    "“onde” (segundo período do último parágrafo)",
+    "“provavelmente” (sexto parágrafo)",
+    "“ali” (sexto parágrafo)",
+    "“aqui” (segundo período do último parágrafo)"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-006",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 10,
+   "tipo": "multipla_escolha",
+   "enunciado": "No texto 2A01, a forma verbal “Transpondo” (terceiro período do sétimo parágrafo), corresponde, quanto ao sentido, no contexto em que é empregada, a",
+   "gabarito": "b",
+   "alternativas": [
+    "caso transpusesse.",
+    "ao transpor.",
+    "antes de transpor.",
+    "por transpor.",
+    "apesar de transpor."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-007",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 10,
+   "tipo": "multipla_escolha",
+   "enunciado": "O texto 2A01 classifica-se quanto à tipologia como",
+   "gabarito": "a",
+   "alternativas": [
+    "narrativo.",
+    "dissertativo-informativo.",
+    "dissertativo-argumentativo.",
+    "dissertativo-expositivo.",
+    "descritivo."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-008",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 10,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o texto 2A02, as queimadas do período Siluriano, citado ao final do primeiro parágrafo,",
+   "gabarito": "d",
+   "alternativas": [
+    "teriam ocorrido por ação humana.",
+    "eram prejudiciais aos ciclos naturais da Terra na época.",
+    "ocorriam apesar dos baixos índices de oxigênio da Terra em comparação aos atuais.",
+    "ajudam a revelar ciclos ambientais relativos a muitos fatores naturais.",
+    "são estudadas a partir de hipóteses abstratas, sem base em materiais concretos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-009",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 10,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme sua tipologia e seu gênero, o texto 2A02",
+   "gabarito": "d",
+   "alternativas": [
+    "é um artigo científico, pela temática que aborda.",
+    "combina fatos e opiniões, podendo ser classificado como um texto predominantemente opinativo.",
+    "é uma resenha, pois reporta o que é tratado em um livro.",
+    "apresenta recursos da tipologia textual dissertativa.",
+    "é um resumo, pois visa apresentar os detalhes de uma pesquisa ao leitor."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-010",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 10,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que representa a ideia retomada pela expressão “Esse achado”, no penúltimo parágrafo do texto 2A02.",
+   "gabarito": "a",
+   "alternativas": [
+    "“informações valiosas”, no primeiro parágrafo",
+    "“depósitos de carvão”, no primeiro parágrafo",
+    "“As queimadas”, no terceiro parágrafo",
+    "“O fato”, no quarto parágrafo",
+    "“incêndios florestais”, no sexto parágrafo"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-011",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 10,
+   "tipo": "multipla_escolha",
+   "enunciado": "A correção gramatical e o sentido do texto 2A02 seriam preservados caso o trecho “não chegaram a existir”, no primeiro período do segundo parágrafo, fosse substituído por",
+   "gabarito": "b",
+   "alternativas": [
+    "não chegarão a surgir.",
+    "não chegaram a surgir.",
+    "não conseguiriam surgir.",
+    "não almejaram a existir.",
+    "não chegariam a existir."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-012",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 10,
+   "tipo": "multipla_escolha",
+   "enunciado": "No primeiro período do quarto parágrafo do texto 2A02, o núcleo do sujeito da forma verbal “eram” é o termo",
+   "gabarito": "b",
+   "alternativas": [
+    "“pesquisadores”.",
+    "“níveis”.",
+    "“oxigênio”.",
+    "“depósitos”.",
+    "“incêndios”."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-013",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 10,
+   "tipo": "multipla_escolha",
+   "enunciado": "No segundo período do primeiro parágrafo do texto 2A02, o pronome “eles” retoma o termo",
+   "gabarito": "c",
+   "alternativas": [
+    "“fósseis”.",
+    "“antigos”.",
+    "“pesquisadores”.",
+    "“florestais”.",
+    "“depósitos”."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-014",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 10,
+   "tipo": "multipla_escolha",
+   "enunciado": "No último parágrafo do texto 2A02, as vírgulas foram empregadas, respectivamente, para",
+   "gabarito": "d",
+   "alternativas": [
+    "isolar um aposto explicativo e separar uma oração coordenada.",
+    "separar uma oração coordenada e marcar o deslocamento de um adjunto adverbial.",
+    "separar termos de uma enumeração e introduzir um aposto explicativo.",
+    "separar uma oração coordenada e isolar um termo explicativo.",
+    "isolar uma oração coordenada e separar termos de uma enumeração."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-015",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 10,
+   "tipo": "multipla_escolha",
+   "enunciado": "“que exige um trabalho em áreas diversas do conhecimento” – no sexto parágrafo “que a pesquisa de incêndios florestais tem no mapeamento da história geológica” – no sétimo parágrafo Com relação às orações acima, ambas reproduzidas do texto 2A02, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Em ambas as orações, o termo inicial “que” tem a mesma função sintática.",
+    "Nas duas orações, o termo inicial “que” tem funções diferentes.",
+    "Ambas as orações se relacionam com as respectivas orações anteriores por meio de uma relação de coordenação.",
+    "As duas orações representam um complemento em relação às respectivas orações precedentes.",
+    "As duas orações representam uma explicação em relação às respectivas orações precedentes."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-016",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 12,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere que acidentes de trabalho ocorridos em dias diferentes sejam eventos independentes e que ontem não tenha ocorrido acidente de trabalho em uma obra da construtora citada no texto 2A3-I na qual atua uma equipe não treinada. Com base nessas informações e no texto 2A3-I, é correto afirmar que a probabilidade de ocorrer um acidente de trabalho hoje nessa obra, com a atuação da mesma equipe, é de",
+   "gabarito": "b",
+   "alternativas": [
+    "9%.",
+    "10%.",
+    "81%.",
+    "90%.",
+    "91%."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-017",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 12,
+   "tipo": "multipla_escolha",
+   "enunciado": "A partir das informações do texto 2A3-I, é correto afirmar que, caso um acidente de trabalho tenha ocorrido em certo dia em uma das obras da construtora em questão, a probabilidade de esse acidente ter ocorrido quando trabalhava na obra uma equipe não treinada é",
+   "gabarito": "d",
+   "alternativas": [
+    "inferior a 10%.",
+    "superior ou igual a 10% e inferior a 20%.",
+    "superior ou igual a 20% e inferior a 30%.",
+    "superior ou igual a 30% e inferior a 40%.",
+    "superior ou igual a 40%."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-018",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 12,
+   "tipo": "multipla_escolha",
+   "enunciado": "Suponha que, na situação apresentada no texto 2A3-I, a fim de minimizar o risco de ocorrência de acidente de trabalho, a direção da construtora tenha selecionado 10 trabalhadores, dos quais 5 tenham participado do treinamento e 5 não tenham participado do treinamento, para formarem duas equipes, cada qual com 5 trabalhadores. Com base nessas informações e no texto 2A3-I, assinale a opção que indica a quantidade de maneiras distintas de distribuir os 10 trabalhadores nessas duas equipes de tal forma que cada equipe tenha pelo menos um trabalhador que já participou do treinamento.",
+   "gabarito": "c",
+   "alternativas": [
+    "20",
+    "250",
+    "251",
+    "252",
+    "504"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-021",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 12,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em uma região plana da cidade sobre a qual é posicionado um sistema de coordenadas cartesianas com escala em quilômetros, uma estrada é aproximada pela reta de equação 5 x + 3 y = 30. Ao projetar um viaduto sobre essa rodovia, um engenheiro estimou que sua projeção sobre o plano deveria ser perpendicular à rodovia e sua reta suporte deveria passar pela origem do sistema cartesiano. Nesse caso, a equação da reta de suporte é corretamente expressa por",
+   "gabarito": "c",
+   "alternativas": [
+    "5 x + 3 y = 0.",
+    "5 x – 3 y = 0.",
+    "3 x – 5 y = 0.",
+    "3 x + 5 y = 0.",
+    "3 x – 5 y = 30."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-022",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 12,
+   "tipo": "multipla_escolha",
+   "enunciado": "O ângulo de 1 radiano equivale, em graus, a um ângulo",
+   "gabarito": "e",
+   "alternativas": [
+    "menor que 15°.",
+    "maior ou igual a 60°.",
+    "maior ou igual a 15° e menor que 30°.",
+    "maior ou igual a 30° e menor que 45°.",
+    "maior ou igual a 45° e menor que 60°."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-023",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 12,
+   "tipo": "multipla_escolha",
+   "enunciado": "O valor da soma da distância entre os pontos P e A com a distância entre os pontos P e B é",
+   "gabarito": "e",
+   "alternativas": [
+    "inferior a 25 m.",
+    "superior a 25 m e inferior a 35 m.",
+    "superior a 35 m e inferior a 45 m.",
+    "superior a 55 m.",
+    "superior a 45 m e inferior a 55 m."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-025",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 12,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere que, no momento do corte da árvore, o caule não tenha se separado completamente da parte restante, já que esta havia permanecido unida às raízes. Considere, ainda, que as cordas haviam sido amarradas para que a árvore não caísse. Nessa situação, se a árvore não tivesse sido amarrada, a área total que ela poderia atingir na queda seria",
+   "gabarito": "d",
+   "alternativas": [
+    "inferior a 500 m 2 .",
+    "superior a 2000 m 2 .",
+    "superior a 500 m 2 e inferior a 1000 m 2 .",
+    "superior a 1000 m 2 e inferior a 1500 m 2 .",
+    "superior a 1500 m 2 e inferior a 2000 m 2 ."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-026",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 12,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere que, para evitar um provável rompimento da corda que unia o ponto P ao ponto B, uma terceira corda tenha sido amarrada na árvore a 12 m de altura do solo e esticada até um ponto C no solo. Nessa situação, se essa nova corda tivesse ficado paralela à corda que estava unindo os pontos P e B, então, o ponto C localizar-se-ia sobre o segmento OB",
+   "gabarito": "e",
+   "alternativas": [
+    "a 4 m do ponto O.",
+    "a 4 m do ponto B.",
+    "a 18 m do ponto O.",
+    "a 7,5 m do ponto O.",
+    "a 7,5 m do ponto B."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-028",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 12,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando-se essas informações, é correto afirmar que a média de duração dessas chamadas telefônicas corresponde a",
+   "gabarito": "d",
+   "alternativas": [
+    "73 s.",
+    "12 s.",
+    "30 s.",
+    "45 s.",
+    "60 s."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-029",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 12,
+   "tipo": "multipla_escolha",
+   "enunciado": "A mediana do tempo das ligações é igual a",
+   "gabarito": "c",
+   "alternativas": [
+    "4,8 s.",
+    "11,25 s.",
+    "41,25 s.",
+    "15 s.",
+    "30 s."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-030",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 12,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere que, em 3 ligações com duração entre 90 e 120 s, os tempos de ligação tenham sido, respectivamente, iguais a 100 s, 101 s e 102 s. Nessa situação, o desvio padrão entre essas ligações terá sido",
+   "gabarito": "b",
+   "alternativas": [
+    "inferior a 1 s.",
+    "igual a 1 s.",
+    "igual a 2 s.",
+    "igual a 3 s.",
+    "superior a 3 s."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-031",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 14,
+   "tipo": "multipla_escolha",
+   "enunciado": "Internet: https://www.historia-brasil.com/mapas/brasil-1944.htm. A respeito da criação do Território Federal do Guaporé, ilustrado na figura acima, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "O governo de Getúlio Vargas criou, por meio do Decreto n.º 5.812/1943, o Território Federal do Guaporé, o que foi noticiado por toda a imprensa nacional, por tratar-se de decreto de um único território federal.",
+    "O comando do Território Federal do Guaporé foi exercido por governadores e, durante a sua existência, três foram os mandatários indicados pelo presidente da República Federativa do Brasil.",
+    "O segundo governador do Território Federal do Guaporé era sobrinho do marechal Cândido Rondon e foi ele quem propôs à Câmara dos Deputados a mudança do nome de Território Federal do Guaporé para Território Federal de Rondônia.",
+    "No ato de sua criação, o Território Federal do Guaporé tinha quatro municípios pertencentes ao estado do Mato Grosso, que foram desmembrados e passaram a fazer parte da nova divisão.",
+    "A mudança de Território Federal do Guaporé para Território Federal de Rondônia aconteceu por meio do desmembramento de terras do Amazonas e do Mato Grosso, no início da ditadura militar."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-032",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 11,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação aos limites de Rondônia, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Seu limite ao norte, que faz fronteira com o estado do Amazonas, corresponde à maior extensão de fronteira territorial rondoniense.",
+    "Rondônia faz fronteira com três estados e um país; e um desses estados foi território nacional até a década de 1960.",
+    "O limite do estado de Rondônia com a Bolívia possui rios navegáveis ao sul, como o Madeira e o Guaporé.",
+    "Rondônia faz fronteira com quatro estados e um país; e o referido país foi território de contenda resolvida no início do século XX.",
+    "Apesar de também ter se envolvido no tratado de Petrópolis, o estado de Rondônia não possui fronteira com o Acre."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-033",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 14,
+   "tipo": "multipla_escolha",
+   "enunciado": "Quarenta lideranças indígenas, de vinte etnias de Rondônia, de todos os corredores etnoambientais, foram a Porto Velho para discutir o desenvolvimento sustentável das terras indígenas e a política estadual indígena. Foi criada a Coordenadoria dos Povos Indígenas de Rondônia – COPIR, ligada à SEDAM para atender uma demanda dos povos indígenas na participação, discussão, elaboração e implementação de políticas públicas voltadas para os indígenas, promovendo a defesa de seu espaço físico territorial, valores culturais, tradições, usos e costumes. Internet: http://www.kaninde.org.br (com adaptações). No que diz respeito aos povos indígenas de Rondônia, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A Constituição Federal de 1988 foi a causa legal para a demarcação e regularização, pela FUNAI-RO, de todas as terras indígenas do estado de Rondônia.",
+    "O aumento da reserva extrativista Jaci-Paraná e do parque estadual Guajará-Mirim, por lei complementar, é a maior proteção que ainda possui o povo indígena de Roraima.",
+    "A política de incentivo à migração, nas décadas de 1930 e 1940, incorporou os indígenas nas cidades do estado, o que fez a população decrescer nas terras indígenas e aumentar nas cidades.",
+    "A terra indígena Karipuna, situada entre as usinas de Jirau e Santo Antônio, sofre com a ocupação de grileiros e a violência pela exploração de diamante dentro da reserva.",
+    "Rondônia está na região de maior quantitativo de indígenas do Brasil e é um dos estados do país que possui vasta diversidade de povos originários."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-034",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 14,
+   "tipo": "multipla_escolha",
+   "enunciado": "Rondônia possui 103 produtores de café de qualidade, segundo a Secretaria de Estado da Agricultura (SEAGRI). Essa classificação inclui cafeicultores que atingiram 80 pontos ou mais no Concurso de Qualidade e Sustentabilidade do Café de Rondônia (CONCAFÉ) 2021. Internet: <https://g1.globo.com> (com adaptações). Em relação à produção de café em Rondônia, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "A quantidade de produtores de café de qualidade em Rondônia só não é maior que em São Paulo.",
+    "O café em Rondônia só perde, em valor bruto, para a soja, no que diz respeito à produção agropecuária do estado.",
+    "O agronegócio rondoniense tem no café o grão de maior produção agrícola do estado.",
+    "Rondônia é o maior produtor de café da região Norte e está entre os grandes produtores do Brasil.",
+    "O café arábico rondoniense é do mesmo tipo do produzido em São Paulo, devido à semelhança entre os climas dos dois estados. 734002_01N551497"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-035",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 14,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Brasil conheceu vários ciclos na economia que renderam vultosas produções e um expressivo quantitativo econômico. Entre os ciclos que tiveram importância significativa em território brasileiro, pode-se destacar o do pau-brasil, o da cana-de-açúcar, o do ouro, o do algodão, o do café e o da borracha. Internet: <https://abralic.org.br> (com adaptações). A respeito do ciclo da borracha, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "A propriedade da seringueira foi descoberta pelos migrantes vindos do Nordeste, no século XIX, devido à seca que castigava o sertão dessa região.",
+    "O Brasil se manteve por quase dois séculos na hegemonia da exportação de borracha natural, mas hoje divide a liderança da produção com países do sudeste asiático.",
+    "Os seringais foram trazidos pelo colonizador no início da ocupação, pois os europeus já conheciam as propriedades do látex no cotidiano da época.",
+    "O ciclo gomífero foi simultâneo ao do café, mas não teve a mesma importância e os mesmos investimentos do governo central que este último.",
+    "O megaprojeto da Fordlândia foi próspero no auge do ciclo da borracha, ao final do século XIX, mas dificuldades regionais inviabilizaram o investimento."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-036",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 14,
+   "tipo": "multipla_escolha",
+   "enunciado": "O projeto do complexo hidrelétrico do Rio Madeira resultou na construção de duas grandes usinas neste rio: a hidrelétrica Jirau, com uma potência instalada de até 3.300 MW, e a hidrelétrica Santo Antônio, de 3.150 MW, para a produção de energia elétrica para o ONS, com o objetivo de substituir uma série de termelétricas consumidoras de combustível fóssil. Walter Gustavo da Silva Lemos. O complexo de usinas do rio madeira e o desenvolvimento sustentável: uma análise dos impactos das obras nas relações de trabalho. In: Revista de Direitos Fundamentais nas Relações do Trabalho, Sociais e Empresariais. 2021 (com adaptações). A respeito da construção das usinas de Jirau e Santo Antônio no Baixo Madeira, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "A tentativa de manter a navegabilidade do rio Madeira, da fronteira com a Bolívia até Porto Velho, fez com que o alagamento da barragem fosse maior que o previsto.",
+    "Os estudos sobre o aproveitamento do rio Madeira para a construção das usinas apontaram impactos devido à insuficiência de desníveis naturais e à ausência de canais de fuga para a água.",
+    "O exercício do trabalho durante a construção das usinas no Baixo Madeira impactou positivamente a região, devido ao aumento do emprego e da renda dos trabalhadores, além do total respeito aos seus direitos e às garantias trabalhistas.",
+    "O rio Madeira, tendo uma grande vazão e sendo o maior afluente do rio Amazonas, possibilitou a adoção de uma categoria de turbina que não exige grandes reservatórios.",
+    "A construção das usinas de Jirau e Santo Antônio, apesar dos impactos ambientais causados, não afetou as populações do entorno e manteve a mesma intensidade urbana em Porto Velho."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-037",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 14,
+   "tipo": "multipla_escolha",
+   "enunciado": "As discussões havidas na Câmara dos Deputados e no Senado acerca da política a ser empreendida pelo Brasil no tocante à navegação contribuíram para a fixação das linhas mestras da ação do governo em relação à abertura do rio Amazonas a todas as bandeiras, uma vez que, ao polarizarem as duas casas quanto ao enfoque da questão, revelaram que a tendência liberalizante era crescentemente majoritária entre os congressistas, o que, certamente, não podia ser ignorado pelo gabinete. Internet: <http://funag.gov.br> (com adaptações). No contexto do debate sobre a abertura do rio Amazonas à navegação internacional havia um receio, tanto do ministro das relações exteriores, Teixeira de Mello, quanto do imperador do Brasil, Dom Pedro II, que se relacionava",
+   "gabarito": "b",
+   "alternativas": [
+    "à guerra seringalista contra a Bolívia.",
+    "à soberania nacional.",
+    "ao nacionalismo dos liberais.",
+    "ao pragmatismo mercantil.",
+    "ao monopólio do Barão de Mauá."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-038",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 14,
+   "tipo": "multipla_escolha",
+   "enunciado": "Trecho em construção da ferrovia Madeira-Mamoré. Internet: https://drupal-multisite-s3-uol.s3-us-west-2.amazonaws.com/files/ ferrovia_do_diabo_-_madeira-mamore_-_amazonas_-_construcao_- _obras_-_history_channel_brasil.jpg. Relacionando a hidrografia ao traçado original da ferrovia Madeira-Mamoré, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "A ferrovia seguia o contorno do rio Madeira e, no rio Mamoré, na altura da cidade de Nova Mamoré, seguia também o contorno do rio Jaci-Paraná.",
+    "Na altura da cidade de Abunã, a ferrovia atravessava o rio Mamoré por uma ponte que hoje foi substituída por uma ponte rodoviária de acesso a Porto Velho e ao Acre.",
+    "O nome da ferrovia foi influenciado pelos municípios de início e final do traçado original. Porto Velho, às margens do rio Madeira e Nova Mamoré, nas margens do rio homônimo ao município.",
+    "O nome da ferrovia é inspirado nos nomes dos rios homônimos, cujo contorno a ferrovia segue, da cidade de Guajará-Mirim até Porto Velho.",
+    "Seguindo a margem do rio pela ferrovia, o trajeto de Jaci- Paraná até Porto Velho também poderia ser feito pela hidrovia do rio Madeira. 734002_01N551497"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-039",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 14,
+   "tipo": "multipla_escolha",
+   "enunciado": "Durante o ano de 1902, houve tentativas de tropas bolivianas de ocupar o território acreano. Os bolivianos foram atacados por tropas, lideradas por um militar brasileiro, que defendiam os seringais dos brasileiros. Tratava-se de batalha travada entre o exército boliviano e os revolucionários acreanos, que até então não contavam com o respaldo oficial do governo brasileiro, apesar do forte apoio do governo do estado do Amazonas, do financiamento de capital particular brasileiro e do respaldo na opinião pública nacional. Internet: <https://cpdoc.fgv.br> (com adaptações). O líder a que se refere o texto chamava-se",
+   "gabarito": "a",
+   "alternativas": [
+    "José Plácido de Castro.",
+    "Rodrigues Alves.",
+    "Barão do Rio Branco.",
+    "Luis Gálvez de Arias.",
+    "Alexandre de Gusmão."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-040",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 14,
+   "tipo": "multipla_escolha",
+   "enunciado": "Na mansão do Barão do Rio Branco, se reuniram os delegados da Bolívia e do Brasil para firmar o Tratado de 17 de novembro de 1903. Internet: https://www.soldepando.com/wp-content/uploads/ 2016/11/Tratado-Petropolis-Firmantes.jpg. A respeito do contexto que antecedeu aos eventos que culminariam na assinatura do Tratado de Petrópolis, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "O Tratado de Petrópolis estabelecia que a contrapartida da Bolívia seria a criação do Bolivian Syndicate, uma organização de proteção aos seringalistas brasileiros.",
+    "Os migrantes seringalistas bolivianos já haviam ocupado densamente as terras quando os seringalistas brasileiros chegaram, causando o conflito da Revolução Acreana.",
+    "A última estratégia da Bolívia para estabelecer a colonização boliviana no território do Acre foi a criação da companhia Bolivian Syndicate.",
+    "A composição do Tratado de Petrópolis previa uma indenização aos seringalistas brasileiros caso a negociação não se concretizasse e o Acre ficasse com a Bolívia.",
+    "A negociação do tratado, o qual foi assinado na sede do Bolivian Syndicate pelo Barão do Rio Branco, envolveu dois milhões de libras esterlinas e a ferrovia Madeira-Mamoré."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-041",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 14,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base nas informações da figura precedente de um terminal do Ubuntu, uma das distribuições do sistema operacional Linux, assinale a opção que corresponde ao resultado da execução do comando ls i*.",
+   "gabarito": "e",
+   "alternativas": [
+    "Será mostrado o total, em bytes, do espaço em disco utilizado por todos os arquivos que possuem a letra “i” em seu nome.",
+    "Serão mostrados os arquivos instituicoes.pdf e Instrucao_tecnica.pdf, pois ambos começam com a letra “i”.",
+    "Será mostrado o arquivo que foi criado por último.",
+    "Serão mostrados todos os arquivos, exceto o arquivo museus.pdf, devido ao fato de este não possuir a letra “i”.",
+    "Será mostrado apenas o arquivo instituicoes.pdf."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-042",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 13,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em um quartel do Corpo de Bombeiros, o soldado João, ao utilizar o seu computador de trabalho, excluiu, via rede, um arquivo no computador do soldado Pedro, que estava em outra seção do quartel. Os dois militares usavam o mesmo sistema operacional, o Windows 10. Considerando-se essa situação hipotética e o sistema operacional utilizado, o Windows 10, é correto afirmar que",
+   "gabarito": "c",
+   "alternativas": [
+    "o arquivo excluído poderá ser recuperado se Pedro selecioná- lo na Lixeira de seu computador; em seguida, clicar o botão direito do mouse ; e, por fim, escolher a opção Restaurar .",
+    "o soldado João, por ter sido o responsável pela remoção do arquivo, será a única pessoa capaz de recuperá-lo, usando, nesse caso, as teclas de atalho Ctrl+Z .",
+    "o arquivo não se encontra na Lixeira do computador do soldado Pedro.",
+    "o arquivo encontra-se na Lixeira do computador do soldado João.",
+    "o arquivo foi enviado diretamente para as Lixeiras dos dois computadores envolvidos na conexão devido ao fato de ele ter sido excluído via rede."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-043",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 14,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base na imagem precedente, que representa parte da tela de edição do programa LibreOffice Writer, versão 7.2, assinale a opção que corresponde ao resultado gerado após o usuário selecionar apenas o título do documento e, em seguida, clicar o botão .",
+   "gabarito": "b",
+   "alternativas": [
+    "Será removido apenas o sublinhado do título.",
+    "A formatação do título será removida e ele será alinhado à esquerda.",
+    "A formatação do título será removida, entretanto ele permanecerá no centro.",
+    "O título será removido do documento.",
+    "Será removido apenas o negrito do título. 734002_01N551497"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-044",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 13,
+   "tipo": "multipla_escolha",
+   "enunciado": "No programa MS Excel 2016, a função utilizada para contar o número de células que atendam a determinado critério, como, por exemplo, contabilizar o número de vezes que um soldado específico aparece em uma lista de punidos, é a função",
+   "gabarito": "d",
+   "alternativas": [
+    "CORREL .",
+    "CURT .",
+    "CONT.VALORES .",
+    "CONT.SE .",
+    "CONT.NUM ."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-045",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 13,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conhecido como NIC ( Network Interface Card ), o equipamento interno instalado nos computadores que torna possível a comunicação entre uma estação de trabalho e o servidor denomina-se",
+   "gabarito": "d",
+   "alternativas": [
+    "proxy .",
+    "hub .",
+    "switch .",
+    "placa de rede.",
+    "gateway ."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-046",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 14,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ao abrir o programa de navegação Google Chrome, será exibida no canto inferior direito a opção , a qual permite ao usuário",
+   "gabarito": "d",
+   "alternativas": [
+    "alterar o tamanho da fonte.",
+    "definir um zoom padrão.",
+    "bloquear a página para impressão.",
+    "ocultar atalhos na página de inicialização.",
+    "definir a quantidade de abas que poderão ser abertas."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-047",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
@@ -2645,7 +2880,7 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-048",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-048",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
@@ -2663,7 +2898,7 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-049",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-049",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
@@ -2681,7 +2916,7 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-050",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-050",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
@@ -2699,12 +2934,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-051",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-051",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Considerando as várias técnicas e métodos utilizados para o planejamento de obras de construção civil, assinale a opção que apresenta a técnica ou método mais indicado para determinar a duração de uma obra, bem como visualizar seu caminho crítico.",
    "gabarito": "c",
@@ -2717,12 +2952,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-052",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-052",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Ao planejar uma obra de construção civil, um engenheiro civil elaborou peça técnica contendo, entre outros elementos, todos os subsídios necessários à elaboração do projeto básico, sendo a proposta de concepção da obra embasada em projetos anteriores. Nessa situação hipotética, a peça técnica elaborada pelo engenheiro é denominada",
    "gabarito": "a",
@@ -2735,12 +2970,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-053",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-053",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "A formação do preço de uma obra depende da correta estimativa de custos e despesas e da definição da margem de lucro que se espera auferir ao final do contrato. Nesse contexto, os custos referentes a logística, infraestrutura e gestão necessárias para a realização de uma obra de construção civil são denominados",
    "gabarito": "c",
@@ -2753,12 +2988,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-054",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-054",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "De acordo com as informações constantes no texto 2A07-I, é possível determinar, entre outros parâmetros do solo,",
    "gabarito": "a",
@@ -2771,12 +3006,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-055",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-055",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "A partir dos valores dos parâmetros constantes da figura do texto 2A07-I, é correto inferir que se trata de uma amostra de solo",
    "gabarito": "d",
@@ -2789,12 +3024,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-056",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-056",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Para uma obra de edificações, o traço de argamassa com as proporções em volume 1:2:8 de cimento, cal e areia, respectivamente, é mais indicado para",
    "gabarito": "b",
@@ -2807,12 +3042,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-057",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-057",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "A utilização de aditivos incorporadores de ar em concretos é uma prática comum e sua aplicação influencia diversas propriedades do concreto nos estados fresco e endurecido. Nesse contexto, tendo em vista que algumas características responsáveis pela qualidade final do concreto devem ser verificadas antes de seu processo de endurecimento, a determinação do teor de ar no concreto fresco pode ser realizada por meio do",
    "gabarito": "d",
@@ -2825,12 +3060,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-058",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-058",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Quando o lançamento do concreto for interrompido, formando uma junta de concretagem não prevista em projeto, devem ser tomadas as devidas precauções para garantir a ligação do concreto já endurecido com o novo. A aderência entre essas camadas pode ser obtida mediante a utilização de",
    "gabarito": "a",
@@ -2843,12 +3078,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-059",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-059",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Quanto ao equilíbrio estático, a estrutura mostrada na figura do texto 2A07-II é classificada como",
    "gabarito": "a",
@@ -2861,12 +3096,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-060",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-060",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "O grau de indeterminação estática do pórtico objeto do texto 2A07-II é igual a",
    "gabarito": "c",
@@ -2879,12 +3114,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-061",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-061",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Ao avaliar as condições de operação de um trecho de uma via arterial, um engenheiro civil verificou que a operação, nesse trecho, encontrava-se no limite da capacidade. Nessa situação hipotética, o trecho de via arterial observado pelo engenheiro apresentou o nível de serviço",
    "gabarito": "a",
@@ -2897,12 +3132,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-062",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-062",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "A estrutura do pavimento flexível de uma rodovia pode ser composta por diversas camadas, a depender da concepção do projeto. Nesse contexto, o terreno de fundação desse tipo de pavimento é denominado",
    "gabarito": "e",
@@ -2915,12 +3150,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-063",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-063",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Para que haja drenagem eficiente do corpo estradal, os dispositivos de drenagem devem funcionar de forma integrada. Nesse contexto, os dispositivos geralmente localizados no fundo dos talvegues são denominados",
    "gabarito": "e",
@@ -2933,12 +3168,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-064",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-064",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "A figura precedente representa a seção transversal de uma marquise em concreto armado, em balanço com engaste na parede, recebendo no ponto 1 uma sobrecarga além do previsto em projeto. Nesse caso, a patologia que surgirá antes da marquise entrar em colapso é o surgimento de trincas na região do ponto",
    "gabarito": "b",
@@ -2951,12 +3186,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-065",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-065",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "De acordo com as normas vigentes em relação aos sistemas prediais de combate a incêndio, assinale a opção correta, acerca de exigências relativas ao reservatório de água.",
    "gabarito": "b",
@@ -2969,12 +3204,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-066",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-066",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Considerando a figura precedente, que representa uma edificação de alvenaria, com uma estrutura em concreto armado, é correto afirmar que a patologia apresentada em forma de fissuras nas paredes externas é ocasionada por",
    "gabarito": "d",
@@ -2987,12 +3222,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-067",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-067",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Em relação aos andaimes suspensos em um canteiro de obras, as normas de segurança preveem que se deve",
    "gabarito": "e",
@@ -3005,12 +3240,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-068",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-068",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Na execução de atividades de engenharia, a anotação de responsabilidade técnica (ART) que indica que uma atividade caracterizada como executiva, objeto de contrato único, é desenvolvida em conjunto por mais de um profissional de mesma competência é denominada ART",
    "gabarito": "a",
@@ -3023,12 +3258,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-069",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-069",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Conforme normas de segurança vigentes, a cor que é utilizada para caracterizar segurança, sendo empregada, por exemplo, para identificar a localização de caixas de equipamentos de primeiros socorros, é a",
    "gabarito": "a",
@@ -3041,12 +3276,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-070",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-070",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "A respeito da denominação das águas de acordo com a presença de certas impurezas, a água dura ou salobra é aquela",
    "gabarito": "b",
@@ -3059,12 +3294,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-071",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-071",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Na instalação hidráulica de um prédio, o barrilete tem a função de ligar",
    "gabarito": "c",
@@ -3077,12 +3312,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-072",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-072",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Em uma instalação hidráulica predial, ao passar por um joelho ou curva, a perda de energia no deslocamento da água é chamada de",
    "gabarito": "e",
@@ -3095,12 +3330,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-073",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-073",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Em uma rede de esgotos, o condutor final de um sistema de esgoto sanitário que recebe esgoto exclusivamente em sua extremidade de montante e que se destina ao afastamento dos efluentes da rede para o ponto de descarga ou de tratamento é denominado",
    "gabarito": "b",
@@ -3113,12 +3348,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-074",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-074",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "No combate a incêndios, a água em forma de jato ou esguicho pode ser empregada apenas em fogos da(s) classe(s)",
    "gabarito": "a",
@@ -3131,12 +3366,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-075",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-075",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Considerando-se que, devido às irregularidades da superfície terrestre, utilizam-se modelos para a sua representação, aquele definido teoricamente como sendo o nível médio dos mares em repouso, prolongado através dos continentes, e que mais se aproxima da forma da Terra é modelo",
    "gabarito": "b",
@@ -3149,12 +3384,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-076",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-076",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Com base na Lei n.o 3.924/2016, que dispõe sobre normas de segurança contra incêndio e evacuação de pessoas e bens no estado de Rondônia, quando um imóvel apresentar grave e iminente risco para a incolumidade das pessoas e(ou) do patrimônio, o CBM/RO, no exercício do seu poder de polícia administrativa, poderá, preliminarmente,",
    "gabarito": "c",
@@ -3167,12 +3402,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-077",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-077",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "O auto de vistoria contra incêndio e pânico (AVCIP) é o documento emitido pelo corpo de bombeiros",
    "gabarito": "c",
@@ -3185,12 +3420,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-078",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-078",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "A proteção contra incêndio envolve um conjunto de medidas ativas e passivas para a detecção e o controle do crescimento do fogo e a sua consequente contenção ou extinção. Nesse contexto, as medidas ativas incluem",
    "gabarito": "a",
@@ -3203,12 +3438,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-079",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-079",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Com base na Instrução Técnica n.o 3 (IT 03), que trata da terminologia de segurança contra incêndio, a combustão ativa",
    "gabarito": "b",
@@ -3221,12 +3456,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-080",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-080",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Conforme a IT 07, que trata de separação entre edificações, edificação em exposição é a construção",
    "gabarito": "c",
@@ -3239,12 +3474,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-081",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-081",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "De acordo com a IT 09, que dispõe sobre as compartimentações horizontal e vertical de edificações, caso uma edificação possua telhado combustível distanciado de 1,2 m da parede de compartimentação, essa parede deverá estender-se acima da linha da cobertura em, no mínimo,",
    "gabarito": "e",
@@ -3257,12 +3492,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-082",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-082",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Para atendimento à IT 06, a via de acesso de viaturas deve",
    "gabarito": "d",
@@ -3275,12 +3510,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-084",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-084",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "É considerado pressurizado o espaço que receba um suprimento de ar que possibilite manter um diferencial de pressão entre esse espaço e os adjacentes. Para esse suprimento de ar, o sistema de pressurização pode ser de um ou dois estágios. De acordo com a IT 13, que dispõe sobre a pressurização de escadas de segurança, o sistema de pressurização em dois estágios",
    "gabarito": "d",
@@ -3293,12 +3528,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-085",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-085",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "De acordo com a IT 14, carga de incêndio é",
    "gabarito": "e",
@@ -3311,12 +3546,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-086",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-086",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Os circuitos de alimentação das instalações de segurança devem ter suas canalizações elétricas, embutidas ou aparentes, protegidas por elementos que assegurem, em caso de incêndio, a sua integridade durante o tempo mínimo de",
    "gabarito": "e",
@@ -3329,12 +3564,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-087",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-087",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Julgue os itens as seguir com base nas partes 1 e 2 da IT 15, que dispõe sobre o controle de fumaça. I As edificações devem ser dotadas de meios de controle de fumaça que promovam a extração (mecânica ou natural) dos gases e da fumaça do local de origem do incêndio. II A lógica de funcionamento do controle de fumaça deve ser concebida de forma que a área sinistrada seja colocada em pressão positiva em relação às áreas adjacentes. III O efeito chaminé é caracterizado pelo fluxo de ar vertical dentro das edificações, causado pela diferença entre as temperaturas interna e externa. IV As edificações sem janelas devem ser dotadas de exaustão mecânica com capacidade mínima de cinco trocas do seu volume de ar por hora, acionada manualmente depois do sinal do alarme do sistema de detecção de fumaça. Estão certos apenas os itens",
    "gabarito": "b",
@@ -3347,12 +3582,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-088",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-088",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "A respeito do uniforme do brigadista efetivo, assinale a opção correta.",
    "gabarito": "e",
@@ -3365,12 +3600,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-089",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-089",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Em edificação ou área de risco que tenha de ser dotada de sistema de detecção e alarme de incêndio,",
    "gabarito": "b",
@@ -3383,12 +3618,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-090",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-090",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "O projeto de um sistema de sinalização de emergência deverá prever",
    "gabarito": "d",
@@ -3401,12 +3636,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-091",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-091",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Com relação ao sistema de hidrante e de mangotinho para o combate a incêndio, assinale a opção correta.",
    "gabarito": "d",
@@ -3419,12 +3654,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-092",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-092",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Na ampliação ou modificação de um sistema de chuveiro automático, pode-se",
    "gabarito": "c",
@@ -3437,12 +3672,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-093",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-093",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "O sistema de proteção contra incêndio envolvendo líquidos combustíveis e inflamáveis deverá",
    "gabarito": "b",
@@ -3455,12 +3690,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-094",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-094",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "De acordo com a IT 26 do CBM/RO, que dispõe sobre o sistema fixo de gases, é necessário o uso desse sistema para",
    "gabarito": "a",
@@ -3473,12 +3708,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-095",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-095",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Com relação à segurança contra incêndio na manipulação e utilização de uma central de GLP, assinale a opção correta.",
    "gabarito": "e",
@@ -3491,12 +3726,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-096",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-096",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "De acordo com a IT 30, que dispõe sobre fogos de artifício,",
    "gabarito": "e",
@@ -3509,12 +3744,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-097",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-097",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "As instalações que armazenam e manipulam produtos perigosos deverão",
    "gabarito": "b",
@@ -3527,12 +3762,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-098",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-098",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Com referência à instalação de hidrantes urbanos, assinale a opção correta.",
    "gabarito": "b",
@@ -3545,12 +3780,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-099",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-099",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Conforme a IT 38, que dispõe sobre segurança contra incêndio em cozinha industrial, assinale a opção que apresenta associação correta entre o equipamento de cozinha e o seu grau de risco para incêndio.",
    "gabarito": "e",
@@ -3563,12 +3798,12 @@
    ]
   },
   {
-   "id": "cebraspe-2022-cbm-ro-oficial-complementar-engenheiro-civil-100",
+   "id": "cebraspe-2022-cbmro-engenheiro-civil-100",
    "prova": 1,
    "orgao": 0,
    "cargo": 1,
    "ano": 2022,
-   "assunto": 14,
+   "assunto": 15,
    "tipo": "multipla_escolha",
    "enunciado": "Os sistemas de proteção contra descargas atmosféricas (SPDAs) são de grande importância para a proteção contra incêndio, razão por que são inspecionados pelo corpo de bombeiros. De acordo com a IT 40, para fins de emissão do certificado de conformidade de SPDA,",
    "gabarito": "e",

@@ -11,7 +11,8 @@
  ],
  "assuntos": [
   "Conhecimentos Básicos",
-  "Conhecimentos Específicos"
+  "Conhecimentos Específicos",
+  ""
  ],
  "provas": [
   {
@@ -28,6 +29,9 @@
   },
   {
    "fonte": "https://cdn.cebraspe.org.br/concursos/PC_PE_23/arquivos/MATRIZ_955PC_PE_DELEGADO001_00_COM_JUSTIFICATIVAS.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/PC_PE_23/arquivos/MATRIZ_955PC_PE_DELEGADO001_00_COM_JUSTIFICATIVAS_ATUALIZADO.PDF"
   }
  ],
  "itens": [
@@ -3656,6 +3660,1752 @@
    "cargo": 2,
    "ano": 2024,
    "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Segundo a Lei n.º 9.985/2000, que dispõe sobre o Sistema Nacional de Unidades de Conservação da Natureza (SNUC), a unidade de conservação que tem como objetivo básico a preservação de ecossistemas naturais de grande relevância ecológica e beleza cênica, possibilitando a realização de pesquisas científicas e o desenvolvimento de atividades de educação e interpretação ambiental, de recreação em contato com a natureza e de turismo ecológico é denominada",
+   "gabarito": "c",
+   "alternativas": [
+    "estação ecológica.",
+    "monumento natural.",
+    "parque nacional.",
+    "refúgio de vida silvestre.",
+    "reserva biológica."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-001",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que diz respeito a poder constituinte, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Não existiu poder constituinte originário nos países de constituição flexível.",
+    "O titular do poder constituinte é o órgão que produz normas de natureza constitucional.",
+    "O caráter inicial do poder constituinte originário consiste no fato de que ele não se fundamenta em outro, mas cria uma nova ordem jurídica.",
+    "No plano jurídico doméstico, o poder constituinte originário encontra limite nos tratados e convenções internacionais.",
+    "Na Constituição Federal de 1988, a principal limitação material ao poder de revisão consiste na proibição de sua reforma durante a vigência de intervenção, estado de defesa ou estado de sítio."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-002",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "A arguição de descumprimento de preceito fundamental (ADPF)",
+   "gabarito": "a",
+   "alternativas": [
+    "pode ser liminarmente indeferida pelo relator, se sua petição inicial for inepta.",
+    "pode ser proposta por entidade voltada à defesa de direitos difusos e coletivos, desde que constituída há mais de um ano.",
+    "deve ter sua petição inicial acompanhada de certidão autêntica do ato normativo impugnado.",
+    "é cabível, independentemente da existência de outra via processual adequada para impugnar ato normativo, no campo do controle concentrado de constitucionalidade.",
+    "dispensa intervenção do Procurador-Geral da República, se atacar norma infralegal."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-003",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito dos direitos fundamentais, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Os direitos e as garantias fundamentais estão taxativamente enumerados no art. 5.º da Constituição Federal de 1988.",
+    "Os direitos fundamentais, como as garantias, possuem caráter instrumental, isto é, denotam aspecto exclusivamente acessório em relação a outros direitos.",
+    "A característica da imprescritibilidade estabelece que os direitos fundamentais assistem a todas as pessoas.",
+    "Os direitos fundamentais previstos na Constituição Federal de 1988 aplicam-se apenas aos brasileiros e aos residentes no país.",
+    "Alguns direitos fundamentais aplicam-se não só nas relações dos indivíduos com o Estado, mas também entre pessoas privadas, no que se conhece como eficácia horizontal desses direitos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-004",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação aos remédios processuais constitucionais, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "A ação de habeas corpus é cabível apenas quando alguém tenha sofrido restrição ilegal de sua liberdade de locomoção e não deve substituir recurso no processo penal.",
+    "A ação de habeas corpus não é adequada para proteger o direito dos usuários de internet navegarem por sítios eletrônicos, porque a liberdade de locomoção que ela protege é a física.",
+    "Com o advento da Lei Geral de Proteção de Dados Pessoais (LGPD), firmou-se o entendimento de que não mais cabe habeas data contra pessoa jurídica de direito privado.",
+    "Não cabe ação de mandado de segurança contra atos praticados em sociedade de economia mista, dada a natureza delas de pessoa jurídica de direito privado.",
+    "Devido à existência do controle concentrado de constitucionalidade, não cabe mandado de segurança contra ato do Poder Legislativo."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-005",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que diz respeito às atribuições das polícias na Constituição Federal de 1988 (CF), julgue os seguintes itens. I Cabe às polícias civis a apuração de todas as infrações penais, salvo as infrações militares. II É juridicamente válida a criação, por lei estadual, de órgão de polícia científica que não necessariamente componha a estrutura da Polícia Civil. III As polícias de investigação criminal também exercem atividade administrativa não voltada à elucidação de infrações penais. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-006",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito da Convenção Americana sobre Direitos Humanos (CADH), também conhecida como Pacto de São José da Costa Rica, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "No sistema da CADH, os direitos essenciais das pessoas dependem da nacionalidade delas.",
+    "Os Estados signatários da CADH têm não somente o dever de obedecer às disposições da convenção como o de aprovar medidas internas, legislativas e de outras espécies, conforme necessário, a fim de gerar plena observância dela.",
+    "A CADH não veda nem estabelece restrições à aplicação da pena de morte, desde que esta esteja definida na legislação dos países e desde que estes garantam o devido processo legal aos acusados.",
+    "O direito ao duplo grau de jurisdição, que é aplicado em todos os processos criminais no Brasil, decorre da CADH.",
+    "A CADH protege, sem limitações, o direito de reunião pacífica e sem armas."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-007",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere aos estados federados, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "As competências dos estados federados são orientadas pelo princípio da exclusividade do interesse, o qual dispõe que as matérias de interesse exclusivamente regional interessam apenas aos estados.",
+    "Em virtude da repartição de competências que a CF define, os estados federados encontram espaço para exercer certo grau de soberania, embora de forma limitada.",
+    "O poder constituinte que os estados podem exercer na produção de suas constituições se caracteriza por ser inicial e independente, embora não seja ilimitado.",
+    "Na repartição de competências não tributárias, as competências que a CF não tenha atribuído à União ou aos municípios cabem, em princípio, aos estados-membros.",
+    "Em respeito às competências dos estados e à capacidade de que produzam sua própria constituição, as limitações ao poder decorrente são apenas as expressas na CF."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-008",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação aos servidores públicos, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Quaisquer servidores públicos eleitos para exercer mandato eletivo precisam afastar-se do exercício de suas funções anteriores.",
+    "O tempo de serviço do servidor afastado para exercer mandato eletivo contará para todos os fins legais, inclusive para efeito de promoções por merecimento.",
+    "Os servidores públicos em geral gozam das garantias de estabilidade e efetividade.",
+    "O tempo de serviço prestado a um ente da federação deve ser computado no estágio probatório do servidor aprovado para cargo de outro ente.",
+    "A legislação infraconstitucional não pode, em princípio, definir a remuneração de um cargo público como percentual da remuneração de outro cargo."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-009",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que diz respeito ao Ministério Público, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Como órgão essencial à função jurisdicional, o Ministério Público deve intervir em todos os processos judiciais.",
+    "A defesa do regime democrático por parte do Ministério Público compreende apenas a atuação do órgão no processo eleitoral.",
+    "O princípio da indivisibilidade é o que fundamenta a possibilidade de substituição de membros do Ministério Público uns pelos outros em processos.",
+    "Os membros do Ministério Público são regidos pelo regime estatutário dos servidores públicos em geral.",
+    "Em casos excepcionais, a fim de evitar atrasos na prestação jurisdicional, um juiz pode designar membro do Ministério Público ad hoc, para atuar em um processo."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-010",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que diz respeito a impostos, julgue os seguintes itens. I Característica fundamental dos impostos é a de serem desvinculados de qualquer atividade específica do Estado. II No caso de impostos ligados a fatos geradores específicos, como o imposto sobre a propriedade territorial urbana, sua receita é atrelada a determinados gastos do ente tributante. III A União e os estados-membros, mas não os municípios, podem instituir impostos sobre fatos geradores não discriminados na CF, desde que observem as garantias dos contribuintes nela previstas. Assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-011",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere à política urbana, agrícola e fundiária e à reforma agrária, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Na execução da política fundiária, todos os imóveis classificados como latifúndios se sujeitam, em princípio, a desapropriação para fins de reforma agrária.",
+    "Aspectos ligados ao cumprimento da legislação trabalhista não são juridicamente apropriados para definição de imóveis aptos a desapropriação para fins de reforma agrária.",
+    "Em respeito à autonomia municipal, a CF preconiza a adoção de plano diretor como recomendação para os municípios, sem caráter vinculante.",
+    "Um imóvel pode ser produtivo e, ao mesmo tempo, não cumprir sua função social, caso em que poderá ser objeto de desapropriação para fins de reforma agrária.",
+    "Devido à proteção do direito de propriedade como direito fundamental, são limitados os meios de execução da política urbana, sendo proibido ao poder público, por exemplo, exigir edificação compulsória em imóvel."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-012",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação à segurança pública, assinale a opção correta de acordo com a constituição do estado de Pernambuco.",
+   "gabarito": "a",
+   "alternativas": [
+    "Os órgãos que compõem a segurança pública no estado de Pernambuco organizam-se em carreira e de forma hierarquizada.",
+    "São órgãos permanentes da segurança pública do estado de Pernambuco apenas a Polícia Civil, a Polícia Militar e o Corpo de Bombeiros Militar.",
+    "A única finalidade da segurança pública, no sistema da Constituição de Pernambuco, é preservar a ordem pública.",
+    "O órgão de polícia científica no Estado de Pernambuco deve ser chefiado por delegado de polícia.",
+    "A atividade de polícia ostensiva compete, no Estado de"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-013",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Secretaria de Estado X do estado Y pretende: (a) adquirir material que só possa ser fornecido por empresa exclusiva; (b) realizar a contratação de profissionais técnicos de notória especialização para compor a comissão de avaliação de critérios de técnica; (c) realizar contratação que tenha por objeto hortifrutigranjeiro, no período necessário para a realização do processo licitatório correspondente. Nessa situação hipotética, a licitação será",
+   "gabarito": "c",
+   "alternativas": [
+    "dispensável nos casos (a) e (b).",
+    "inexigível nos casos (a) e (b).",
+    "dispensável nos casos (b) e (c).",
+    "inexigível nos casos (b) e (c).",
+    "dispensável nos casos (a), (b) e (c)."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-014",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Quando a administração pública utiliza propriedade particular, mediante indenização dos prejuízos que venha a causar, para prestar comodidade/utilidade à comunidade, a exemplo da passagem de um gasoduto, ocorre a intervenção do Estado denominada",
+   "gabarito": "a",
+   "alternativas": [
+    "servidão administrativa.",
+    "ocupação administrativa.",
+    "limitação administrativa.",
+    "requisição administrativa.",
+    "tombamento administrativo."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-015",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Quando a administração pública avoca atribuições que não sejam da competência exclusiva do órgão subordinado, delega atribuições que não lhes sejam privativas, e cria limitações administrativas, ela exerce, respectivamente, os poderes",
+   "gabarito": "b",
+   "alternativas": [
+    "hierárquico, de polícia e de polícia.",
+    "hierárquico, hierárquico e de polícia.",
+    "de polícia, hierárquico e de polícia.",
+    "hierárquico, hierárquico e hierárquico.",
+    "de polícia, de polícia e de polícia."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-016",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere aos atos administrativos, são passíveis de revogação I as férias concedidas a servidor e completamente gozadas. II os atestados e pareceres expedidos. III as portarias publicadas com a finalidade de nomear comissão para apresentar proposta de regulamento de determinado órgão. Assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-017",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base no disposto na Lei n.º 9.784/1999, julgue os itens a seguir, no que se refere à possibilidade de delegação de cada uma das competências administrativas descritas. I edição de atos normativos II decisão acerca de recursos administrativos por meio da autoridade de maior hierarquia III deliberação sobre matérias de competência não exclusiva do órgão Assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-018",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No estado X, houve a concessão de determinado serviço público, tendo o poder concedente retomado o serviço durante o prazo da concessão, por motivo de interesse público, mediante lei autorizativa específica e após prévio pagamento de indenização. Nessa situação hipotética, a extinção da concessão do serviço público, nos termos da Lei n.º 8.987/1995, é denominada",
+   "gabarito": "d",
+   "alternativas": [
+    "reversão.",
+    "rescisão.",
+    "caducidade.",
+    "encampação.",
+    "extinção."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-019",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Determinado órgão público do estado de Pernambuco celebrou os seguintes contratos administrativos de concessão: Contrato A — contrato de prestação de serviços em que a administração pública é a usuária direta, envolvendo a instalação de bens; Contrato B — contrato de prestação de serviços em que a administração pública é a usuária indireta, envolvendo a execução de obra; Contrato C — concessão de serviço público, previsto na Lei n.º 8.987/1995, envolvendo, adicionalmente à tarifa cobrada dos usuários, contraprestação pecuniária do parceiro público ao parceiro privado. Na situação hipotética apresentada, ocorreram, de acordo com a Lei n.º 11.079/2004, parcerias público-privadas na modalidade",
+   "gabarito": "d",
+   "alternativas": [
+    "patrocinada, nos contratos A, B e C.",
+    "administrativa, nos contratos A, B e C.",
+    "patrocinada, apenas nos contratos A e B.",
+    "administrativa, apenas nos contratos A e B.",
+    "patrocinada, apenas nos contratos A e C."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-020",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "A prerrogativa da administração pública de invalidar atos administrativos ilegítimos e revogar atos administrativos inoportunos caracteriza a aplicação do princípio administrativo da",
+   "gabarito": "d",
+   "alternativas": [
+    "supremacia do interesse público.",
+    "indisponibilidade.",
+    "continuidade.",
+    "autotutela.",
+    "finalidade."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-021",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em determinada secretaria de estado de Pernambuco, ocorreram as seguintes situações, envolvendo funcionárias públicas no exercício de suas funções: Cecília percebeu vantagem econômica indireta para facilitar a alienação de bem público; Tatiana facilitou a aquisição de bem pelo órgão por preço superior ao valor de mercado; Cíntia revelou fato de que teve ciência em razão das atribuições e sobre o qual deveria ter permanecido em segredo, propiciando beneficiamento de outrem por informação privilegiada. Os atos praticados pelas três funcionárias públicas ocorreram por omissão dolosa. A partir da situação hipotética apresentada, é correto afirmar, com base na Lei n.º 8.429/1992, que responderá(rão) por ato de improbidade administrativa",
+   "gabarito": "b",
+   "alternativas": [
+    "Tatiana e Cecília, apenas.",
+    "Tatiana e Cíntia, apenas.",
+    "Cecília e Cíntia, apenas.",
+    "Tatiana, apenas.",
+    "Cecília, apenas."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-022",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "A distribuição de competência dentro de uma mesma pessoa jurídica de direito público; a criação de uma autarquia para lhe atribuir a titularidade e a execução de determinado serviço público; e a transferência da execução de determinado serviço público, por meio de contrato ou ato administrativo unilateral, caracterizam-se, respectivamente, como",
+   "gabarito": "a",
+   "alternativas": [
+    "desconcentração, descentralização funcional e descentralização por colaboração.",
+    "desconcentração, descentralização funcional e descentralização funcional.",
+    "descentralização funcional, descentralização funcional e descentralização por colaboração.",
+    "descentralização funcional, descentralização por colaboração e descentralização funcional.",
+    "descentralização por colaboração, descentralização por colaboração e descentralização funcional."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-023",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere à vinculação e à discricionariedade dos atos administrativos em espécie, é correto afirmar que as autorizações administrativas, as permissões e as licenças são, respectivamente, atos administrativos",
+   "gabarito": "d",
+   "alternativas": [
+    "vinculados, discricionários e discricionários.",
+    "vinculados, vinculados e discricionários.",
+    "vinculados, discricionários e vinculados.",
+    "discricionários, discricionários e vinculados.",
+    "discricionários, vinculados e discricionários."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-024",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Secretaria de Estado X do estado Y praticou os seguintes três atos administrativos: o primeiro foi praticado com vício de forma, não sendo esta essencial à validade do ato; o segundo foi praticado por sujeito incompetente, não tendo tratado de competência exclusiva; e o terceiro foi praticado com vício de finalidade. Os atos administrativos descritos na situação hipotética apresentada são, respectivamente,",
+   "gabarito": "e",
+   "alternativas": [
+    "nulo, nulo e anulável.",
+    "nulo, nulo e nulo.",
+    "nulo, anulável e anulável.",
+    "anulável, nulo e nulo.",
+    "anulável, anulável e nulo."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-025",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o entendimento jurisprudencial do Supremo Tribunal Federal (STF) acerca dos princípios penais fundamentais, a aplicabilidade do princípio da insignificância deve ser analisada em conexão com os postulados",
+   "gabarito": "a",
+   "alternativas": [
+    "da fragmentariedade e da intervenção mínima.",
+    "do controle social e da fragmentariedade.",
+    "do controle social e da subsidiariedade.",
+    "da subsidiariedade e da intervenção mínima.",
+    "do controle social e da intervenção mínima."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-026",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o que prevê o Código Penal (CP) acerca dos crimes contra a pessoa, caracteriza, obrigatoriamente, uma qualificadora do crime de homicídio o seu cometimento",
+   "gabarito": "d",
+   "alternativas": [
+    "contra vítima menor de 14 anos, apenas quando praticado na modalidade culposa.",
+    "por motivo de vingança.",
+    "contra a mulher, apenas no caso de menosprezo ou discriminação em razão do seu gênero.",
+    "com emprego de arma de fogo de uso restrito.",
+    "contra primo de policial civil, em razão da função exercida."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-027",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme o que dispõe o CP quanto aos crimes de infanticídio, cuja pena aplicável é de detenção de dois a seis anos, a prescrição, em regra, ocorrerá em",
+   "gabarito": "d",
+   "alternativas": [
+    "4 anos.",
+    "6 anos.",
+    "8 anos.",
+    "12 anos.",
+    "16 anos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-028",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere aos crimes contra o patrimônio previstos no CP, de acordo com a jurisprudência do Superior Tribunal de Justiça (STJ), a restituição imediata, voluntária e integral do bem furtado constitui, por si só, motivo suficiente para",
+   "gabarito": "d",
+   "alternativas": [
+    "conversão do fato em irrelevante penal.",
+    "incidência do princípio da insignificância.",
+    "aplicação do instituto do arrependimento eficaz.",
+    "aplicação do instituto do arrependimento posterior.",
+    "desclassificação do crime para mera contravenção penal."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-030",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o entendimento do STJ, ainda que o agente não seja reincidente em crime doloso e as circunstâncias judiciais lhes sejam favoráveis, é vedada a substituição da pena privativa de liberdade por outra pena restritiva de direitos na hipótese de condenação por",
+   "gabarito": "b",
+   "alternativas": [
+    "furto qualificado.",
+    "roubo tentado praticado com simulacro de arma de fogo.",
+    "homicídio culposo.",
+    "peculato doloso.",
+    "corrupção ativa."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-031",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Durante o carnaval, Alberto supôs que Bruno estaria olhando para sua namorada. Estando sob efeito de álcool, Alberto agrediu Bruno com chutes e joelhadas na região do abdômen, o que ocasionou a queda de Bruno, fazendo-o chocar-se contra o meio-fio da calçada, onde bateu a cabeça, vindo a óbito. No exame pericial, constatou-se que a causa da morte foi hemorragia encefálica em razão da ruptura de um aneurisma cerebral congênito, situação desconhecida tanto pelo autor, como pela vítima e por seus familiares. Nessa situação hipotética, de acordo com o entendimento do STJ, a conduta de Alberto configura",
+   "gabarito": "e",
+   "alternativas": [
+    "fato atípico.",
+    "lesão corporal de natureza grave.",
+    "lesão corporal seguida de morte.",
+    "homicídio qualificado pela torpeza.",
+    "lesão corporal simples."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-032",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o entendimento jurisprudencial do STJ, o agente que, mediante violência ou grave ameaça pelo uso de arma fogo, subtrai coisa alheia móvel para usá-la, sem intenção de tê-la como própria, ou seja, sem o ânimo de apossamento definitivo, configura",
+   "gabarito": "e",
+   "alternativas": [
+    "conduta atípica.",
+    "tentativa de roubo.",
+    "constrangimento ilegal.",
+    "furto consumado.",
+    "roubo consumado."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-033",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere que João tenha induzido Maria, menor de 14 anos, a satisfazer a lascívia de Paulo, seu irmão. Nesse caso, João praticou o crime de",
+   "gabarito": "e",
+   "alternativas": [
+    "importunação sexual.",
+    "estupro de vulnerável.",
+    "registro não autorizado da intimidade sexual.",
+    "satisfação de lascívia mediante presença de criança ou adolescente.",
+    "corrupção sexual de menores."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-034",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Carlos, policial militar, em policiamento ostensivo, deu ordem legal de parada ao veículo dirigido por Marcos, que tinha acabado de praticar um roubo. Mesmo recebendo a ordem de parada do policial, Marcos saiu em fuga, tendo sido capturado posteriormente. Na situação hipotética apresentada, conforme o entendimento do STJ, Marcos praticou",
+   "gabarito": "d",
+   "alternativas": [
+    "roubo, apenas.",
+    "roubo em concurso com o crime de desacato.",
+    "roubo em concurso com o crime de resistência.",
+    "roubo em concurso com o crime de desobediência.",
+    "roubo em concurso com o crime de evasão mediante violência contra a pessoa."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-035",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere aos crimes contra a paz pública, caracteriza o crime de constituição de milícia privada a conduta de",
+   "gabarito": "d",
+   "alternativas": [
+    "associarem-se quatro pessoas para o fim específico de cometer crimes.",
+    "associarem-se três pessoas para o fim específico de cometer crimes com a participação de criança ou adolescente.",
+    "policial integrar grupo criminoso juntamente com mais três pessoas visando à prática de crimes.",
+    "integrar organização paramilitar com a finalidade de praticar crimes exclusivamente previstos no Código Penal.",
+    "custear organização paramilitar com a finalidade de praticar crimes de qualquer espécie, inclusive aqueles previstos em legislação penal especial."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-036",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No âmbito dos crimes contra a administração pública, o ato de solicitar para si vantagem a pretexto de influir em ato praticado por funcionário público, insinuando o agente que a vantagem é também destinada ao funcionário público, caracteriza o crime de",
+   "gabarito": "d",
+   "alternativas": [
+    "corrupção ativa.",
+    "corrupção passiva.",
+    "tráfico de influência na modalidade comum.",
+    "tráfico de influência com causa de aumento de pena.",
+    "prevaricação."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-037",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere à prescrição conforme o CP, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A prescrição da pretensão executória não se aplica àqueles que estejam submetidos ao regime de medida de segurança.",
+    "Aplica-se a redução do prazo prescricional ao maior de 60 anos, na data da sentença, conforme recente entendimento do STJ.",
+    "Aplica-se a redução do prazo prescricional na hipótese de o acusado completar 70 anos entre a data de prolação da sentença condenatória e a data do trânsito em julgado para a condenação.",
+    "Calcula-se a prescrição, antes do trânsito em julgado, pela pena em abstrato, incluindo-se as causas de aumento de pena, entre elas eventual concurso de crimes.",
+    "Aplica-se a redução do prazo prescricional ao indivíduo que tenha respondido ao processo penal e que possua 20 anos de idade na data da sentença."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-038",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Entre os crimes contra as instituições democráticas, a conduta de tentar depor, por meio de grave ameaça, o governo legitimamente constituído é considerada",
+   "gabarito": "c",
+   "alternativas": [
+    "atípica.",
+    "crime definido pelo CP como golpe de Estado, devendo ser aplicada a redução da pena de um a dois terços em razão da tentativa.",
+    "crime definido pelo CP como golpe de Estado, não havendo previsão de redução da pena em razão da tentativa.",
+    "crime à luz do Código Penal, inclusive quando praticada por meio de manifestação crítica aos poderes constitucionais.",
+    "crime definido pelo CP como violência política, quando ocasionar a destruição de estabelecimentos, instalações ou serviços destinados à defesa nacional."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-039",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se relaciona à incomunicabilidade do acusado, julgue os itens a seguir, de acordo com o Código de Processo Penal (CPP). I A incomunicabilidade do indiciado dependerá sempre de despacho nos autos e somente será permitida quando o interesse da sociedade ou a conveniência da investigação o exigir. II A incomunicabilidade, que não excederá de três dias, será decretada por despacho fundamentado do juiz, a requerimento da autoridade policial, desde que oficiada pelo órgão do Ministério Público. III Nos crimes contra a saúde pública, a incomunicabilidade só poderá ser decretada se houver requerimento do ministro da Justiça. Assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Nenhum item está certo.",
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-040",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assim que a autoridade policial tomar conhecimento da ocorrência de infração penal, deverá, dentre outras providências,",
+   "gabarito": "c",
+   "alternativas": [
+    "dirigir-se ao local, apreender os objetos que tiverem relação com o fato, providenciando para que não se alterem estado e conservação das coisas após o término da perícia criminal.",
+    "oficiar o juiz de garantias, dirigir-se ao local, apreender os menores infratores que tiverem relação com o fato, providenciando para que não se alterem estado e conservação das coisas após o término da perícia criminal.",
+    "dirigir-se ao local, providenciando para que não se alterem estado e conservação das coisas até a chegada dos peritos criminais e apreender os objetos que tiverem relação com o fato, após liberados pelos peritos criminais.",
+    "encaminhar os objetos que tiverem relação com o fato, providenciando a liberação do local onde ocorreu a prática delituosa para a execução da perícia criminal.",
+    "dirigir-se ao local, providenciar a simulação do fato utilizando-se dos objetos encontrados em posse do(s) agente(s), enquanto a perícia criminal se inicia."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-041",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se relaciona à produção de provas no processo penal, julgue os itens seguintes. I A prova da alegação incumbirá a quem a fizer, não sendo facultado ao juiz de ofício ordenar, antes de iniciada a ação penal, a produção antecipada de provas, ainda que consideradas urgentes e relevantes, em razão do respeito às garantias constitucionais do indiciado. II O juiz formará sua convicção pela livre apreciação da prova produzida em contraditório judicial, não podendo fundamentar sua decisão exclusivamente nos elementos informativos colhidos na investigação, ressalvadas as provas cautelares, não repetíveis e antecipadas. III São inadmissíveis as provas derivadas das ilícitas, salvo quando não evidenciado o nexo de causalidade entre umas e outras, ou quando as derivadas puderem ser obtidas por uma fonte independente das primeiras. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-042",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que diz respeito ao termo circunstanciado de ocorrência assinale a opção correta, com base na Lei n.º 9.099/1995.",
+   "gabarito": "a",
+   "alternativas": [
+    "Cabe à autoridade policial que tomar conhecimento da ocorrência lavrar o termo circunstanciado e encaminhá-lo imediatamente ao juizado, com o autor do fato e a vítima, providenciando-se as requisições dos exames periciais necessários.",
+    "Cabe à autoridade policial que tomar conhecimento da ocorrência requerer a prisão preventiva ao parquet, com o autor do fato e a vítima, providenciando-se as requisições dos exames periciais necessários.",
+    "Cabe ao Ministério Público, ao tomar conhecimento da ocorrência, lavrar o termo circunstanciado e encaminhá-lo imediatamente à autoridade policial, com o autor do fato e a vítima, para que sejam por esta providenciadas as requisições dos exames periciais necessários.",
+    "Ao autor de crime inafiançável que, após a lavratura do termo circunstanciado, for imediatamente encaminhado ao juizado ou assumir o compromisso de a ele comparecer, não se imporá prisão em flagrante.",
+    "Na audiência preliminar, presente o representante do Ministério Público, o autor do fato e a vítima e, se possível, o responsável civil, acompanhados por seus advogados, o juiz esclarecerá sobre a possibilidade da composição dos danos e da aceitação da proposta de aplicação imediata de pena em regime semiaberto."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-043",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Na execução penal, o ato praticado além dos limites fixados na sentença, em normas legais ou regulamentares, caracteriza",
+   "gabarito": "e",
+   "alternativas": [
+    "exacerbação do ius puniendi em confronto com o princípio da proporcionalidade.",
+    "aplicação da imputação objetiva.",
+    "cerceamento de defesa.",
+    "violação do contraditório.",
+    "excesso ou desvio de execução."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-044",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se relaciona ao indulto individual, julgue os itens a seguir. I O indulto individual poderá ser provocado por petição do condenado, por iniciativa do Ministério Público, do Conselho Penitenciário, ou da autoridade administrativa. II A petição do indulto, acompanhada dos documentos que a instruírem, será entregue ao Conselho Penitenciário, para a elaboração de parecer e posterior encaminhamento ao Ministério da Justiça. III O indulto individual não poderá ser concedido pelo Conselho Penitenciário sem iniciativa prévia do Ministério Público e da autoridade administrativa. IV Se o sentenciado for beneficiado por indulto coletivo, o juiz, de ofício, a requerimento do interessado, do Ministério Público, ou por iniciativa do Conselho Penitenciário ou da autoridade administrativa, providenciará escolta policial para a condução do apenado ao instituto de criminalística. Estão certos apenas os itens",
+   "gabarito": "a",
+   "alternativas": [
+    "I e II.",
+    "I e III.",
+    "II e IV.",
+    "I, III e IV.",
+    "II, III e IV."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-045",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "O juiz, para decretar a prisão preventiva, deverá",
+   "gabarito": "e",
+   "alternativas": [
+    "abster-se de seguir enunciado de súmula, jurisprudência ou precedente invocado pela parte, justificando sua posição no princípio do in dubio pro societate.",
+    "limitar-se à indicação de ato normativo, prescindindo de explicações quanto à sua relação com a causa ou a questão decidida.",
+    "empregar conceitos jurídicos indeterminados, explicitando os motivos jusfilosóficos que condicionam sua incidência teórica.",
+    "invocar precedente ou enunciado de súmulas e construir teses novas sobre os fundamentos determinantes que afastam a inimputabilidade do agente.",
+    "indicar concretamente a existência de fatos novos ou contemporâneos que justifiquem a aplicação da medida adotada."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-046",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que apresenta e descreve corretamente as fases do procedimento probatório.",
+   "gabarito": "c",
+   "alternativas": [
+    "A investigação é a etapa em que se requer a produção dos meios de prova; a pronúncia consiste na avaliação dos requerimentos feitos na fase anterior com deferimento ou indeferimento; a fundamentação corresponde à realização dos atos processuais destinados à produção da prova; a sentença ocorre no momento em que o juiz aprecia as provas produzidas ao longo da fase probatória e profere a decisão.",
+    "O indiciamento é a etapa em que se requer a produção dos meios de prova; a triagem consiste na avaliação dos requerimentos feitos na fase anterior com deferimento ou indeferimento; a argumentação corresponde à realização dos atos processuais destinados à produção da prova; e a valoração ocorre no momento em que o juiz aprecia as provas produzidas ao longo da fase probatória e profere a decisão.",
+    "A proposição é a etapa em que se requer a produção dos meios de prova; a admissão consiste na avaliação dos requerimentos feitos na fase anterior com deferimento ou indeferimento; a produção corresponde à realização dos atos processuais destinados à produção da prova; e a valoração ocorre no momento em que o juiz aprecia as provas produzidas ao longo da fase probatória e profere a decisão.",
+    "A tese é a etapa em que se requer a produção dos meios de prova; a antítese consiste na avaliação dos requerimentos feitos na fase anterior com deferimento ou indeferimento; a conclusão corresponde à realização dos atos processuais destinados à produção da prova; e o recurso ocorre no momento em que o juiz aprecia as provas produzidas ao longo da fase probatória e profere a decisão.",
+    "As preliminares são a etapa em que se requer a produção dos meios de prova; a revisão consiste na avaliação dos requerimentos feitos na fase anterior com deferimento ou indeferimento; a produção corresponde à realização dos atos processuais destinados à produção da prova; e a verificação ocorre no momento em que o juiz aprecia as provas produzidas ao longo da fase probatória e profere a decisão."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-047",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "O princípio do devido processo legal",
+   "gabarito": "a",
+   "alternativas": [
+    "tem suas raízes no princípio da legalidade e garante que o indivíduo somente seja processado e punido se houver lei penal anterior definindo determinada conduta como crime, cominando-lhe pena.",
+    "tem sua fundamentação na teoria da imputação objetiva e expressa uma concepção puramente legalista, excludente e supremacista do processo penal.",
+    "tem origem no sistema inquisitorial misto das tribos germânicas e serviu de base para a teoria do direito penal do inimigo de Gunther Jakobs.",
+    "se baseia na tradição romana do fas e no uso do fascio como instrumento de dominação usado pelos patres familiae.",
+    "se baseia no eficientismo penal e no movimento da Lei e da Ordem (Law and Order) de Dahrendorf."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-048",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Julgue os itens a seguir, no que se refere ao sistema inquisitivo. I O sistema inquisitivo é caracterizado pela concentração de poder nas mãos do julgador, que exerce, também, a função de acusador. II No sistema inquisitivo, a confissão do réu é considerada a rainha das provas. III O sistema inquisitivo privilegia os debates orais, com procedimentos escritos formalizados. IV No sistema inquisitivo, o procedimento é público, pautado pelo princípio do contraditório, e a defesa do réu é atuante. Estão certos apenas os itens",
+   "gabarito": "a",
+   "alternativas": [
+    "I e II.",
+    "I e IV.",
+    "II e III.",
+    "I, III e IV.",
+    "II, III e IV."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-049",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No sistema misto, o processo se divide em",
+   "gabarito": "d",
+   "alternativas": [
+    "duas grandes fases: na fase de instrução preliminar, com elementos do sistema acusatório, predomina o procedimento público, escrito e sujeito ao contraditório, enquanto, na fase de julgamento, com a predominância do sistema inquisitivo, a oralidade, o sigilo e a intervenção de juízes togados conduzem a valoração das provas.",
+    "três fases distintas: na primeira, há predominância do viés inquisitorial, com formalismo excessivo e pouco espaço para a ampla defesa e o contraditório; na segunda fase, predomina a argumentação e o contraditório; na terceira fase, há a participação popular efetivada pela atuação dos tribunos e dos juízes leigos.",
+    "três fases distintas e interligadas: na primeira, há predominância do viés inquisitorial, com formalismo nas reduções a termo e pouco espaço para a ampla defesa e o contraditório; na segunda fase, predomina a consulta popular com a participação dos jurisconsultos que mediam os debates; na terceira, há o envio dos autos para o oficial da ouvidoria real para a chancela do soberano.",
+    "duas grandes fases: na fase de instrução preliminar, com os elementos do sistema inquisitivo, predomina a procedimento secreto, escrito e sem contraditório; enquanto, na fase de julgamento, com a predominância do sistema acusatório, presentes se fazem a oralidade, a publicidade, o contraditório, a concentração dos atos processuais, a intervenção de juízes populares e a livre apreciação das provas.",
+    "duas fases: na primeira fase há predominância da oralidade, o libelo acusatório é lido e a pronúncia é formalizada; e, na segunda fase, ocorre o debate entre defesa e acusação."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-050",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que concerne à nulidade absoluta, julgue os itens a seguir. I O reconhecimento de uma nulidade absoluta está condicionado à comprovação do prejuízo. II A nulidade absoluta pode ser declarada de ofício ou mediante invocação da parte interessada. III O prejuízo e o não atingimento dos fins são presumidos na nulidade absoluta. IV A nulidade absoluta é insanável, não se convalida e tampouco é convalidada pela preclusão ou trânsito em julgado. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Apenas os itens I, II e III estão certos.",
+    "Apenas os itens I, II e IV estão certos.",
+    "Apenas os itens I, III e IV estão certos.",
+    "Apenas os itens II, III e IV estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-051",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que concerne à nulidade relativa, julgue os itens a seguir. I Caracteriza nulidade relativa a violação de norma infraconstitucional que tutela interesse preponderante das partes. II A nulidade relativa não pode ser conhecida de ofício, dependendo da postulação da parte interessada e a parte deve demonstrar o prejuízo sofrido. III A nulidade relativa não convalida com a preclusão. Assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Nenhum item está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-052",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Define-se fumus commissi delicti como",
+   "gabarito": "d",
+   "alternativas": [
+    "o fato constante na delatio criminis que dá ensejo à pronúncia.",
+    "o objeto da ação penal em sua fase recursal frente aos tribunais superiores.",
+    "o fato que dá origem à ação penal por crime de deserção no Superior Tribunal Militar.",
+    "o fato constante na notitia criminis, objeto da investigação preliminar que dá origem à investigação e sobre o qual recai a totalidade dos atos desenvolvidos nessa fase.",
+    "o elemento central do libelo acusatório apresentado nos tribunais de exceção da Idade Média."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-053",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base na Lei n.º 13.869/2019 (Lei de Abuso de Autoridade), julgue os itens a seguir. I Ainda que primário, o condenado por crime de abuso de autoridade previsto na Lei n.º 13.869/2019 deve ser condenado a perder o cargo, o mandato ou a função pública. II Comete crime de abuso de autoridade o agente que praticar uma das condutas delituosas previstas na lei, ainda que sem a finalidade específica de prejudicar outrem ou beneficiar a si mesmo ou a terceiro, ausente mero capricho ou satisfação pessoal. III Comete crime de abuso de autoridade quem antecipa o responsável pelas investigações, por meio de comunicação, inclusive em rede social, e atribui culpa, antes de concluídas as apurações e formalizada a acusação, podendo ser condenado a pena de detenção. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Nenhum item está certo.",
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-054",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta de acordo com a Lei n.º 14.344/2022 (Lei Henry Borel).",
+   "gabarito": "a",
+   "alternativas": [
+    "Configura violência doméstica e familiar contra a criança e o adolescente qualquer ação ou omissão que lhe cause dano patrimonial, em qualquer relação doméstica e familiar na qual o agressor conviva ou tenha convivido com a vítima, independentemente de coabitação.",
+    "Apesar de seu combate ter ampla relevância social, a violência doméstica e familiar contra a criança e o adolescente não constitui uma das formas de violação dos direitos humanos.",
+    "Caso a lei comine pena máxima não superior a dois anos por prática de crime cometido contra a criança e o adolescente, será possível o julgamento do caso por juizado especial criminal.",
+    "A autoridade policial poderá conceder fiança na hipótese de prisão em flagrante por descumprimento de decisão judicial que defere medida protetiva de urgência prevista na Lei Henry Borel.",
+    "Na hipótese de crimes, previstos na Lei Henry Borel, de violência doméstica e familiar contra a criança e o adolescente punidos com pena de detenção, é possível a substituição da pena privativa de liberdade pela restritiva de direitos na modalidade de prestação pecuniária."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-055",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base na Lei n.º 8.078/1990 (Código de Defesa do Consumidor), julgue os itens a seguir. I Comete crime, punido com pena de detenção, o fornecedor de produtos ou serviços que permitir o ingresso em estabelecimentos comerciais de um número maior de consumidores que o máximo fixado pela autoridade administrativa. II As infrações penais previstas na Lei n.º 8.078/1990 demandam, necessariamente, a existência de dolo para que haja condenação. III Constitui infração penal empregar, na reparação de produtos, peça ou componentes de reposição usados, sem autorização do consumidor. IV Além das penas privativas de liberdade e de multa, é possível a imposição, cumulativa ou alternadamente, de publicação em órgãos de comunicação de grande circulação ou audiência, às expensas do condenado, de notícia sobre os fatos e a condenação. Estão certos apenas os itens",
+   "gabarito": "d",
+   "alternativas": [
+    "I e II.",
+    "I e III.",
+    "II e IV.",
+    "I, III e IV.",
+    "II, III e IV."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-056",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "À luz da Lei n.º 9.807/1999, que disciplina, eminentemente, a proteção a vítimas e testemunhas, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "É possível a proteção concedida pelos programas a indiciados ou acusados sob prisão cautelar em qualquer de suas modalidades.",
+    "As medidas de proteção requeridas por testemunhas de crimes que estejam coagidas a grave ameaça em razão de colaborarem com a investigação ou processo criminal serão prestadas pela União, pelos estados, pelo Distrito Federal e pelos municípios, no âmbito das respectivas competências.",
+    "O juiz pode conceder o perdão judicial e a consequente extinção da punibilidade ao acusado que, sendo primário, tenha colaborado efetiva e voluntariamente com a investigação e o processo criminal, desde que dessa colaboração tenha resultado a recuperação total ou parcial do produto do crime.",
+    "A proteção oferecida pelos programas especiais de proteção a vítimas e testemunhas deve ter a duração máxima de dois anos, sendo tal período improrrogável.",
+    "Ainda que por solicitação do próprio interessado, não poderá haver a exclusão da pessoa protegida de programa de proteção a vítimas e a testemunhas enquanto não expirado o prazo inicialmente determinado."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-057",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito dos crimes de trânsito, julgue os itens a seguir, com base na Lei n.º 9.503/1997. I A penalidade de suspensão ou de proibição de se obter a permissão ou a habilitação para dirigir veículo automotor não se inicia enquanto o sentenciado, por efeito de condenação penal, estiver em regime aberto, na modalidade de prisão domiciliar. II Constitui crime, punido com reclusão, a participação, na direção de veículo automotor, na via pública, em corrida, disputa ou competição automobilística ou ainda em exibição ou demonstração de perícia em manobra de veículo automotor, não autorizada pela autoridade competente, que gere situação de risco à incolumidade pública ou privada. III Em determinados crimes previstos no Código de Trânsito Brasileiro, é permitida a substituição de pena privativa de liberdade por pena restritiva de direitos, na modalidade de prestação de serviços à comunidade, consistente em trabalho, aos fins de semana, em equipes de resgate dos corpos de bombeiros e em outras unidades móveis especializadas no atendimento a vítimas de trânsito. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Nenhum item está certo.",
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-058",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da Lei n.º 8.072/1990 (Lei de Crimes Hediondos), assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Após as alterações promovidas na Lei de Crimes Hediondos pelo Pacote Anticrime, o crime de roubo circunstanciado, em qualquer de suas modalidades, passou a ser considerado delito hediondo.",
+    "O delito de furto qualificado pelo emprego de explosivo ou de artefato análogo que cause perigo comum é insuscetível de indulto.",
+    "O delito de extorsão, quando praticado com emprego de arma de fogo, é inafiançável.",
+    "Nos crimes hediondos, a prisão temporária terá o prazo de trinta dias, podendo ser prorrogada, de forma automática, por igual período.",
+    "O condenado unicamente por crime de importunação sexual somente poderá obter livramento condicional após o cumprimento de mais de dois terços da pena."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-059",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca dos ditames legais referentes ao instituto da saída temporária, assinale a opção correta, com base na Lei n.º 7.210/1984 (Lei de Execução Penal – LEP).",
+   "gabarito": "c",
+   "alternativas": [
+    "O condenado em regime inicial semiaberto poderá usufruir do benefício de saída temporária imediatamente após o início do cumprimento da pena.",
+    "Se primário, o condenado por delito hediondo praticado após a vigência da Lei n.º 13.964/2019 somente fará jus ao benefício de saída temporária após o cumprimento de 40% da pena, independentemente de seu total.",
+    "Não terá direito à saída temporária o condenado que estiver cumprindo pena pela prática de crime hediondo que tenha resultado em morte.",
+    "A lei determina que o gozo do benefício da saída temporária deve ocorrer sem vigilância direta, impedindo, portanto, que o juízo determine a utilização de equipamento de monitoração eletrônica pelo condenado.",
+    "A autorização para saída temporária será concedida pelo prazo de sete a quinze dias, podendo ser renovada mais quatro vezes durante o ano."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-060",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ainda no que se refere à Lei de Execução Penal e às suas alterações, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "O condenado por crime doloso praticado com violência grave contra a pessoa, bem como por crime contra a vida, contra a liberdade sexual ou por crime sexual contra vulnerável, poderá ser submetido, a critério do juiz, à identificação do perfil genético, mediante extração de DNA, a partir de técnica adequada e indolor, por ocasião do ingresso no estabelecimento prisional.",
+    "É autorizada a utilização da amostra biológica eventualmente coletada do condenado por crime doloso praticado com violência grave contra a pessoa, bem como por crime contra a vida, contra a liberdade sexual ou por crime sexual contra vulnerável, para fins de busca familiar, caso o condenado não tenha familiares conhecidos.",
+    "A pena privativa de liberdade será executada em forma progressiva com a transferência para regime menos rigoroso, a ser determinada pelo juiz, quando o preso tiver cumprido ao menos 30% da pena, se o apenado for primário e o crime tiver sido cometido com violência à pessoa ou grave ameaça.",
+    "No caso de mulher gestante ou que seja mãe ou responsável por crianças ou pessoas com deficiência, um dos requisitos para a progressão de regime é o cumprimento de ao menos um oitavo da pena no regime anterior.",
+    "O condenado que cumpre pena em regime aberto e o que usufrui liberdade condicional poderão remir, por trabalho, parte do tempo de execução da pena ou do período de prova, à razão de um dia de pena a cada três dias de trabalho."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-061",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta de acordo com a Lei n.º 11.343/2006 (Lei de Drogas).",
+   "gabarito": "a",
+   "alternativas": [
+    "O indiciado ou acusado que colaborar voluntariamente com a investigação policial e o processo criminal na identificação dos demais coautores ou partícipes do crime e na recuperação total ou parcial do produto do crime, no caso de condenação, terá pena reduzida de um terço a dois terços.",
+    "É possível a concessão de indulto à pena imposta por condenação relativa ao crime de associação para a prática de tráfico ilícito de entorpecentes.",
+    "Ao agente que pratica o delito de tráfico ilícito de entorpecentes e, em razão da dependência, era, ao tempo da ação, inteiramente incapaz de entender o caráter ilícito do fato, deve ser imposta uma causa de diminuição de pena, de metade a dois terços.",
+    "Verificando-se a conduta de posse de entorpecentes, o autor do fato será preso em flagrante, devendo ser encaminhado, em até 24 horas, para a autoridade judicial, a fim de que seja submetido à audiência de custódia.",
+    "Ocorrendo prisão em flagrante, a autoridade de polícia judiciária fará, em até 24 horas, comunicação ao juiz competente, remetendo-lhe cópia do auto lavrado, do qual será dada vista ao Ministério Público, em no máximo 48 horas."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-062",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Há quase duas décadas, vigora no Brasil a Lei n.º 11.340/2006, denominada Lei Maria da Penha. Com relação a este diploma legal, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Verificada a existência de risco atual ou iminente ou à integridade física e psicológica da mulher em situação de violência doméstica e familiar, a autoridade policial, quando o município não for sede de comarca, poderá aplicar, provisoriamente, até deliberação judicial, a medida protetiva de urgência consistente em encaminhamento da ofendida e seus dependentes a programa oficial ou comunitário de proteção ou de atendimento.",
+    "Resta configurada a violência doméstica e familiar contra a mulher em qualquer ação ou omissão baseada no gênero que lhe cause morte, lesão, sofrimento físico, sexual ou psicológico e dano moral ou patrimonial, em qualquer relação íntima de afeto, na qual o agressor conviva ou tenha convivido com a ofendida, desde que haja ou tenha havido coabitação.",
+    "Uma das formas de violência doméstica e familiar contra a mulher é a violência psicológica, entendida como qualquer conduta que configure calúnia, difamação ou injúria.",
+    "O delegado de polícia, nos termos da Lei Maria da Penha, assegurará à mulher em situação de violência doméstica e familiar, para preservar sua integridade física e psicológica, acesso prioritário à remoção quando servidora pública, integrante da administração direta ou indireta.",
+    "Nas causas decorrentes da prática de violência doméstica e familiar contra a mulher, a ofendida tem a opção de propor ação de divórcio ou de dissolução de união estável em juizado de violência doméstica e familiar contra a mulher."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-063",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a Constituição do Estado de Pernambuco, a repressão da criminalidade cabe I à polícia civil. II à polícia militar. III à polícia penal. IV ao corpo de bombeiros militar. Assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens III e IV estão certos.",
+    "Apenas os itens II, III e IV estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-064",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a Lei Estadual n.º 6.425/1972, que dispõe sobre o regime jurídico dos policiais civis da Secretaria da Segurança Pública do Estado de Pernambuco (Estatuto Policial), a remoção do policial civil por conveniência da disciplina deverá ser expressamente justificada pelo",
+   "gabarito": "b",
+   "alternativas": [
+    "secretário da segurança pública.",
+    "chefe do serviço em que estiver lotado.",
+    "diretor do departamento de pessoal.",
+    "Conselho Superior de Polícia.",
+    "governador do estado."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-065",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a Lei Estadual n.º 6.123/1968, na promoção por antiguidade de servidor público do Estado de Pernambuco, havendo empate na classificação por antiguidade na classe, o primeiro critério de preferência a ser adotado será o(a)",
+   "gabarito": "c",
+   "alternativas": [
+    "idade.",
+    "exercício de substituição não remunerada.",
+    "tempo de serviço público prestado ao Estado e respectivas autarquias.",
+    "tempo no serviço público.",
+    "número de filhos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-066",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a Lei Complementar Estadual n.º 137/2008, que institui o plano de cargos, carreiras e vencimentos no âmbito da Polícia Civil do Estado de Pernambuco, julgue os itens seguintes. I A carreira de policial civil caracteriza-se pela autonomia e independência funcional, exigência de formação especificamente policial e multidisciplinaridade de conhecimento técnico-científico em situações que implicam risco de vida ou saúde de seus integrantes. II É vedada a cessão de servidores ocupantes de cargos integrantes do grupo ocupacional de polícia civil, salvo para o exercício de cargo em comissão compatível com as atribuições do cargo de provimento efetivo, em que a cessão é condicionada à prévia anuência do Conselho Superior de Política de Pessoal (CSPP). III O servidor que tiver sido condenado criminalmente por sentença transitada em julgado ou punido disciplinarmente com pena de suspensão somente poderá concorrer à progressão se já houver cumprido a pena ou punição disciplinar que lhe tenha sido imputada. Assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-067",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a Lei Complementar Estadual n.º 317/2015, que regulamenta a Constituição do Estado de Pernambuco, julgue os itens seguintes. I As funções de polícia judiciária e de apuração de infrações penais exercidas pelo delegado de polícia são de natureza administrativa, jurídica e policial, essenciais e exclusivas de Estado. II No ato da posse para o ingresso no cargo de delegado de polícia, exigem-se o diploma de bacharel em direito e a comprovação de três anos de atividade jurídica ou policial. III A remoção do delegado de polícia dar-se-á somente por ato devidamente fundamentado. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-068",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No âmbito das lesões corporais, a sugilação",
+   "gabarito": "a",
+   "alternativas": [
+    "é um aglomerado de petéquias.",
+    "caracteriza-se por uma pequena área de efusão sanguínea.",
+    "é uma lesão equimótica com aspecto de petéquia.",
+    "apresenta espectro equimótico que não sofre variação na sua coloração durante sua evolução temporal.",
+    "apresenta-se sempre na forma de petéquias dispersas."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-069",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Para analisar um corpo humano em estado adiantado de putrefação encontrado em um manguezal, é necessário o conhecimento dos fenômenos cadavéricos. A esse respeito, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "A perda da consciência e a abolição do tônus muscular com imobilidade são fenômenos bióticos imediatos.",
+    "Manchas de hipóstase e livores cadavéricos são fenômenos bióticos imediatos e intempestivos.",
+    "Nos cadáveres em decúbito dorsal, a rigidez se inicia pela face, pela mandíbula e pela nuca, seguidas pelos músculos do tronco, os membros superiores e, por último, os membros inferiores, desaparecendo a rigidez, posteriormente, na mesma ordem em que surgiu.",
+    "À maneira das hipóstases viscerais, os livores cutâneos, constantes, são vistos nas primeiras 8 a 12 horas após o óbito e podem deslocar-se com as mudanças de posição do cadáver dentro das próximas 16 a 24 horas, após as quais fixam-se definitivamente.",
+    "A saponificação que pode ocorrer após a morte é um fenômeno transformativo destrutivo."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-070",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "As oito legiões de Mégnin são grupos de insetos que compõem a fauna cadavérica, cujo estudo é importante no âmbito da cronotanatognose por serem as evidências entomológicas um dos elementos mais relevantes na estimativa do intervalo post mortem. A esse respeito, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "O uso da fauna cadavérica no estudo em relação ao cadáver exposto ao ar livre tem valor conclusivo absoluto na determinação da cronotanatognose.",
+    "A 1.ª legião da fauna cadavérica surge com o odor cadavérico e permanece, conforme a temperatura do meio ambiente, por cerca de 15 a 20 dias.",
+    "A 2.ª legião da fauna cadavérica aparece em média entre 3 a 6 meses após a morte, com a fermentação ácida das substâncias graxas do corpo.",
+    "A 7.ª legião desseca todos os humores que ainda restam no cadáver.",
+    "A 8.ª legião consome, cerca de 3 anos após a morte, todos os resquícios orgânicos porventura deixados pelas precedentes."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-071",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito de acidentes seguidos ou não de mortes decorrentes da ação elétrica, da ação térmica ou de baropatias, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Com a frequência de aumento das tempestades, observam-se acidentes denominados eletroplessões ocasionados pelos raios cósmicos (naturais).",
+    "A eletricidade industrial que age letalmente sobre o homem e os animais é denominada fulminação e, quando apenas determina danos corporais, fulguração.",
+    "A marca elétrica de Jellineck tem valor médico-legal para indicar a porta de saída da corrente elétrica no organismo.",
+    "A diminuição da pressão atmosférica é a responsável pela patogenia de descompressão em mergulhadores, podendo ocasionar a morte por embolias gasosas formadas pelo nitrogênio anteriormente dissolvido sob pressão no soro sanguíneo.",
+    "A intermação é uma termonose que se manifesta em espaços abertos e bem arejados."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-072",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito de asfixias, que ocorrem em diversos tipos de crimes e acidentes, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "A fase de esgotamento envolve o período de dispneia inspiratória, com cerca de um minuto de duração, durante o qual o asfíxico, sem perder a consciência, sorve desordenadamente, em grandes haustos, o ar.",
+    "Não há sinais patognomônicos característicos nas asfixias mecânicas em geral.",
+    "A procidência da língua é característica exclusiva no enforcamento.",
+    "As manchas de Tardieu são encontradas exclusivamente nas pleuras pulmonares.",
+    "As manchas de Paltauf são as petéquias encontradas frequentemente no timo dos indivíduos enforcados."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-073",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta, com referência ao abortamento e ao infanticídio.",
+   "gabarito": "e",
+   "alternativas": [
+    "No abortamento espontâneo, não ocorrem fatores gametogênicos masculinos.",
+    "O abortamento criminoso é caracterizado pela ocorrência após a 20.ª semana de gestação ou no caso de o feto apresentar massa corporal igual ou superior a 500 gramas.",
+    "A mera tentativa de abortamento não caracteriza crime, por não ser hipótese tipificada criminalmente pelo Código Penal.",
+    "A docimásia de Icard na avaliação de infanticídio embasa-se na diferença entre a densidade do pulmão que respirou e a do que não respirou.",
+    "Não será punido o aborto praticado por médico se não houver outro meio de salvar a vida da gestante ou se a gravidez tiver decorrido de estupro e o aborto for precedido do consentimento da gestante."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-074",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção em que são apresentados corretamente dois exemplos de formas de prevenção terciária do crime.",
+   "gabarito": "d",
+   "alternativas": [
+    "programas de combate à fome e financiamento de moradias",
+    "financiamento estudantil e programa de incentivo ao primeiro emprego",
+    "programas de reabilitação do recluso e financiamento estudantil",
+    "práticas de ressocialização e de reabilitação dos apenados",
+    "financiamento de moradias e programas de combate ao desemprego"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-075",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Entre as teorias sociológicas do crime, aquela que buscou explicar os crimes de colarinho branco (white-collar crimes) foi a",
+   "gabarito": "b",
+   "alternativas": [
+    "teoria da anomia, desenvolvida por Robert King Merton, com base na doutrina de Durkheim.",
+    "teoria da associação diferencial, desenvolvida pelo sociólogo americano Edwin Sutherland, com base nos pensamentos de Gabriel Tarde.",
+    "escola de Chicago, cujos estudos se iniciaram nas décadas de 20 e 30 do século XX.",
+    "teoria da subcultura delinquente, desenvolvida por Erving Goffman e Howard Becker, na década de 50 do século XX.",
+    "teoria do labelling approach, desenvolvida a partir do trabalho do sociológo holandês Bonger, na década de 60 do século XX."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-076",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que apresenta corretamente o teórico que classificava os criminosos nas três categorias seguintes: criminoso assassino, criminoso enérgico ou violento, e ladrão ou neurastênico.",
+   "gabarito": "e",
+   "alternativas": [
+    "Cesare Lombroso",
+    "Enrico Ferri",
+    "Giovanni Carmignani",
+    "Francesco Carrara",
+    "Raffaele Garofalo"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-077",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ao contrário do direito penal, que se utiliza do método dedutivo, a criminologia se utiliza do método de trabalho empírico e indutivo, observando todo o processo criminógeno. No que se refere às técnicas de investigação utilizadas pelo método empírico-indutivo no âmbito da criminologia, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "A técnica de perfilamento criminal (criminal profiling) reflete a aplicação de conhecimentos multidisciplinares à investigação criminal, sendo considerada uma técnica de investigação criminal que adiciona às competências do investigador o conhecimento sobre o comportamento humano do criminoso.",
+    "Os testes de personalidade projetivos compreendem o emprego de técnica direcionada a explorar minuciosamente as intenções presentes e futuras do agente, retirando-lhe, entre outros aspectos, as suas crenças e potencialidades lesivas, os freios de contenção de boas condutas, o estilo de vida, o porquê da vida criminal e o porquê da imposição de sofrimento às vítimas.",
+    "Os testes de personalidade prospectivos são aqueles que buscam medir a personalidade do agente por meio do uso de jogos, quadros e figuras, que imprimem estímulos na pessoa examinada e que, consequentemente, provocam reações das quais resultam as respostas que servirão de base para a interpretação dos resultados desejados.",
+    "Os testes de inteligência, na criminologia, não buscam medir a inteligência por meio do quociente de inteligência (QI), mas pela capacidade de raciocínio e entendimento da pessoa examinada.",
+    "O teste de Rorschach possui a finalidade de traçar a personalidade do indivíduo por meio do desenho de uma árvore, de uma casa e de uma pessoa."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-078",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que apresenta corretamente a teoria que defende a ideia de que a conduta criminosa resulta de uma série de estímulos contínuos na vida do indivíduo, sendo produto de suas experiências passadas.",
+   "gabarito": "c",
+   "alternativas": [
+    "teoria do reforço diferencial",
+    "teoria dos instintos",
+    "teoria do condicionamento operante",
+    "teoria da identificação diferencial",
+    "teoria dos tipos de autor"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-079",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere à vigência e à revogação das leis disciplinadas na Lei de Introdução às Normas do Direito Brasileiro (LINDB), assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Quando a lei não estabelece, expressamente, a data do início de sua vigência, ela começa a vigorar no dia seguinte à sua publicação.",
+    "A obrigatoriedade da lei brasileira admitida nos Estados estrangeiros se inicia 45 dias após oficialmente publicada.",
+    "Em caso de não se destinar à vigência temporária, a lei vigorará até que outra a modifique ou revogue.",
+    "A lei revogada se restaura automaticamente por ter a lei revogadora perdido a vigência.",
+    "A lei nova, que estabeleça disposições gerais ou especiais a par das já existentes, revoga ou modifica a lei anterior."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-081",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "São requisitos para a aquisição da propriedade de bem imóvel na modalidade usucapião ordinária",
+   "gabarito": "b",
+   "alternativas": [
+    "animus domini; inexistência de oposição à posse; e posse ininterrupta por quinze anos.",
+    "animus domini; inexistência de oposição à posse; existência de justo título; existência de boa-fé; e posse ininterrupta por dez anos.",
+    "animus domini; inexistência de oposição à posse; posse ininterrupta por cinco anos; utilização do imóvel para moradia; imóvel de área não superior a 50 hectares; e não propriedade de outro imóvel, urbano ou rural.",
+    "animus domini; inexistência de oposição à posse; posse ininterrupta por cinco anos; utilização do imóvel para moradia própria ou da família; imóvel de área não superior a 250 m2; não propriedade de outro imóvel, urbano ou rural; inexistência de reconhecimento anterior dessa forma de usucapião.",
+    "animus domini; inexistência de oposição à posse; posse ininterrupta por dois anos; utilização do imóvel para moradia própria ou da família; imóvel de área não superior a 250m²; não propriedade de outro imóvel, urbano ou rural; abandono do lar pelo outro cônjuge."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-082",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito de recuperação judicial e extrajudicial, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "No momento do pedido de recuperação judicial, o devedor deve estar exercendo regularmente suas atividades há pelo menos cinco anos.",
+    "Pode requerer recuperação judicial o devedor que não seja falido; caso o tenha sido, as responsabilidades daí decorrentes devem estar declaradas extintas, por sentença transitada em julgado.",
+    "O devedor pode requerer recuperação judicial desde que não tenha, há menos de dois anos, obtido concessão de recuperação judicial.",
+    "Estão sujeitos à recuperação extrajudicial todos os créditos existentes na data do pedido de recuperação extrajudicial.",
+    "O plano de recuperação extrajudicial poderá contemplar o pagamento antecipado de dívidas que alcancem até vinte por cento do total sujeito à recuperação."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-083",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base na Lei n.º 11.101/2005, assinale a opção correta acerca de recuperação judicial.",
+   "gabarito": "d",
+   "alternativas": [
+    "É competente para deferir a recuperação judicial o juízo de onde se localize qualquer estabelecimento do devedor.",
+    "São exigíveis do devedor todas as despesas que os credores fizerem para tomar parte na recuperação judicial.",
+    "O deferimento do processamento da recuperação judicial não implica a suspensão do curso da prescrição das obrigações do devedor sujeitas ao regime da recuperação.",
+    "O deferimento da recuperação judicial suspende as execuções ajuizadas contra o devedor relativas a créditos ou obrigações sujeitos à recuperação judicial.",
+    "O processamento da recuperação judicial torna ineficaz a convenção de arbitragem, impedindo a instauração de procedimento arbitral."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-084",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No âmbito dos tipos de créditos existentes na falência, consideram-se créditos extraconcursais",
+   "gabarito": "a",
+   "alternativas": [
+    "as custas judiciais relativas às ações em que a massa falida tenha sido vencida.",
+    "os créditos derivados da legislação trabalhista e os créditos tributários.",
+    "as multas contratuais e as penas pecuniárias por infração das leis penais ou administrativas, incluídas as multas tributárias.",
+    "os créditos quirografários e os créditos subordinados.",
+    "os créditos gravados com direito real de garantia até o limite do valor do bem gravado."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-085",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Segundo o Código de Processo Civil, as partes podem eleger foro em que será proposta ação oriunda de direitos e obrigações. Nesse caso, antes da citação, a cláusula de eleição de foro, se abusiva, pode ser reputada",
+   "gabarito": "b",
+   "alternativas": [
+    "nula de ofício pelo juiz.",
+    "ineficaz de ofício pelo juiz.",
+    "ineficaz, desde que haja requerimento da parte.",
+    "nula, desde que haja requerimento da parte.",
+    "anulável, desde que haja requerimento da parte."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-086",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Segundo o Superior Tribunal de Justiça, impõe-se aos juízes o dever de facultar prévia manifestação dos sujeitos processuais a respeito de elementos a serem considerados pelo órgão julgador. Tal exigência aplica-se",
+   "gabarito": "c",
+   "alternativas": [
+    "unicamente em caso de elementos jurídicos e matérias necessariamente ordem pública e cognoscíveis de ofício.",
+    "unicamente em caso de elementos fáticos e matérias necessariamente de ordem pública e cognoscíveis de ofício.",
+    "em caso de elementos fáticos e jurídicos, tratando-se ou não de matérias de ordem pública e cognoscíveis de ofício.",
+    "unicamente em caso de elementos jurídicos e matérias necessariamente não de ordem pública ou não cognoscíveis de ofício.",
+    "unicamente em caso de elementos fáticos e matérias necessariamente não de ordem pública ou não cognoscíveis de ofício."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-087",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o Código de Processo Civil, a concessão da tutela de urgência",
+   "gabarito": "d",
+   "alternativas": [
+    "deve ser concedida liminarmente e exige que seja prestada caução real, não sendo admitida caução fidejussória.",
+    "deve ser concedida liminarmente e exige que seja prestada caução fidejussória, não sendo admitida caução real.",
+    "pode ser concedida liminarmente ou após justificação prévia e exige caução real, não sendo admitida caução fidejussória.",
+    "pode ser concedida liminarmente ou após justificação prévia, admitindo-se a dispensa da caução quando a parte não puder oferecê-la por ser economicamente hipossuficiente.",
+    "pode ser concedida quando houver perigo de irreversibilidade dos efeitos da decisão de natureza cautelar ou antecipada."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-088",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Código de Processo Civil estabelece que o ônus da prova compete ao",
+   "gabarito": "c",
+   "alternativas": [
+    "autor, quando se tratar do fato constitutivo do seu direito, sendo vedado às partes convencionarem a distribuição do ônus probatório de modo diverso.",
+    "réu, quando se tratar da existência de fato extintivo do direito do autor, sendo admitida a distribuição diversa do ônus da prova em qualquer situação em que as partes considerarem conveniente.",
+    "réu, quando se tratar da existência de fato modificativo do direito do autor, sendo admitida a distribuição diversa do ônus da prova por convenção entre as partes, não podendo esse ajuste recair sobre direito indisponível de alguma delas.",
+    "autor em qualquer hipótese, mas se admite que as partes convencionem a distribuição do ônus probatório para o fim de atribuí-lo ao réu.",
+    "autor, quando se tratar de prova excessivamente difícil de ser produzida, sendo vedado às partes convencionarem a distribuição do ônus probatório de modo diverso."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-089",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o Código de Processo Civil, a ação em que o incapaz for réu será proposta",
+   "gabarito": "a",
+   "alternativas": [
+    "no foro de domicílio de seu representante ou assistente.",
+    "no foro de sua residência.",
+    "no foro de residência de seu representante ou assistente.",
+    "no foro de seu domicílio.",
+    "em qualquer foro localizado no território nacional desde que não lhe cause prejuízo."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-090",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Determinado estado da Federação editou lei estadual por meio da qual foi criada uma vara especializada que, localizada na capital do estado, seria juízo privativo para o processo e julgamento das ações coletivas que fossem propostas na justiça estadual daquela unidade federativa. Considerando-se a situação hipotética precedente e o entendimento do Superior Tribunal de Justiça acerca desse tema, e de acordo com a Lei n.º 7.347/1985 (Lei de Ação Civil Pública), é correto afirmar que a existência de vara privativa instituída por lei estadual",
+   "gabarito": "e",
+   "alternativas": [
+    "altera a competência territorial estabelecida na Constituição Federal de 1988.",
+    "apenas não altera a competência territorial que esteja prevista no regimento interno dos tribunais.",
+    "apenas não altera a competência territorial que esteja prevista na Constituição Federal de 1988.",
+    "altera a competência territorial estabelecida em leis de processo.",
+    "não altera a competência territorial resultante das leis de processo."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-091",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base na jurisprudência predominante, na legislação vigente e na doutrina majoritária, julgue os itens a seguir. I Sujeita-se ao princípio da anterioridade a norma legal que altera o prazo de recolhimento de obrigação tributária. II O princípio da legalidade tributária impede a instituição de quaisquer impostos mediante medida provisória. III O princípio da irretroatividade veda a cobrança de tributos em relação a fatos geradores pretéritos ao início da vigência da lei que os houver instituído ou aumentado. IV O Estado tributa com a finalidade precípua, mas não exclusiva, de arrecadar recursos para os cofres públicos. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e IV estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Apenas os itens III e IV estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-093",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Segundo o CTN, na ausência de disposição expressa, a autoridade competente para aplicar a legislação tributária utilizará, prioritariamente,",
+   "gabarito": "a",
+   "alternativas": [
+    "a analogia.",
+    "os costumes.",
+    "a equidade.",
+    "os princípios gerais de direito tributário.",
+    "os princípios gerais de direito público."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-094",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o CTN, excluem o crédito tributário",
+   "gabarito": "e",
+   "alternativas": [
+    "o pagamento e a transação.",
+    "a moratória e o parcelamento.",
+    "as reclamações e os recursos.",
+    "a prescrição e a decadência.",
+    "a anistia e a isenção."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-095",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere ao ilícito tributário, julgue os itens a seguir, com fundamento na jurisprudência dos tribunais superiores e na legislação vigente. I Constitui mero ilícito administrativo tributário fazer declaração falsa ou omitir declaração sobre rendas, bens ou fatos, ou empregar outra fraude, para eximir-se, total ou parcialmente, de pagamento de tributo. II De acordo com a jurisprudência do STF, os crimes contra a ordem tributária são consumados, em regra, com a constituição do crédito tributário. III Excepcionalmente, a jurisprudência do STF admite que se inicie a persecução penal antes de encerrado o procedimento administrativo, nos casos de embaraço à fiscalização tributária ou diante de indícios da prática de outros delitos, de natureza não fiscal. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-096",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca dos princípios do direito ambiental, julgue os itens a seguir, com base nas jurisprudências do Supremo Tribunal Federal (STF) e do Superior Tribunal de Justiça (STJ). I O princípio da prevenção impede o estabelecimento de procedimento de licenciamento ambiental estadual que torne menos eficiente a proteção do meio ambiente equilibrado quanto às atividades de mineração. II O afastamento do licenciamento de atividades potencialmente poluidoras afronta os princípios da prevenção, da precaução e da proibição de retrocesso em matéria socioambiental. III Qualquer que seja a qualificação jurídica do degradador, público ou privado, a responsabilidade civil pelo dano ambiental é de natureza objetiva, solidária e ilimitada, sendo regida pelos princípios do poluidor-pagador, da reparação in integrum, da prioridade da reparação in natura e do favor debilis. Assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-097",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando as disposições da Constituição Federal de 1988 (CF) acerca do meio ambiente, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Qualquer pessoa é parte legítima para propor ação civil pública que vise a anular ato lesivo ao meio ambiente.",
+    "A proteção do meio ambiente e o combate à poluição em qualquer de suas formas integram o rol de competências exclusivas da União.",
+    "A União, mediante lei complementar, poderá autorizar os estados a legislar sobre questões específicas acerca de florestas, caça, pesca, fauna, conservação da natureza, defesa do solo e dos recursos naturais, proteção do meio ambiente e controle da poluição.",
+    "As condutas e atividades consideradas lesivas ao meio ambiente sujeitarão os infratores, pessoas físicas ou jurídicas, a sanções penais e administrativas, independentemente da obrigação de reparar os danos causados.",
+    "Embora todos tenham direito ao meio ambiente ecologicamente equilibrado, o dever de defendê-lo e preservá-lo para as presentes e futuras gerações é imposto privativamente ao poder público."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-098",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Nos termos da Lei n.º 12.651/2012 (Código Florestal), a área protegida, coberta ou não por vegetação nativa, com a função ambiental de preservar os recursos hídricos, a paisagem, a estabilidade geológica e a biodiversidade, bem como facilitar o fluxo gênico de fauna e flora, proteger o solo e assegurar o bem-estar das populações humanas, é denominada",
+   "gabarito": "b",
+   "alternativas": [
+    "Amazônia Legal.",
+    "área de preservação permanente.",
+    "área rural consolidada.",
+    "área verde urbana.",
+    "reserva legal."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-099",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere aos crimes e às infrações administrativas contra o meio ambiente, julgue os próximos itens, com base na Lei n.º 9.605/1998. I A autoridade ambiental que tiver conhecimento de infração ambiental é obrigada a promover a sua apuração imediata, mediante processo administrativo próprio, sob pena de corresponsabilidade. II Não configura crime contra a fauna o abate de animal, quando realizado para proteger lavouras, pomares e rebanhos da ação predatória, desde que legal e expressamente autorizado pela autoridade competente. III A mera fabricação de balões que possam provocar incêndios nas florestas e demais formas de vegetação, em áreas urbanas ou qualquer tipo de assentamento humano, não configura crime contra a flora. IV Ainda que o infrator cometa, simultaneamente, duas ou mais infrações administrativas, a legislação veda expressamente a aplicação cumulativa das sanções a elas cominadas, com fundamento no princípio do non bis in idem. Assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e IV estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Apenas os itens III e IV estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pcpe-delegado-100",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2023,
+   "assunto": 2,
    "tipo": "multipla_escolha",
    "enunciado": "Segundo a Lei n.º 9.985/2000, que dispõe sobre o Sistema Nacional de Unidades de Conservação da Natureza (SNUC), a unidade de conservação que tem como objetivo básico a preservação de ecossistemas naturais de grande relevância ecológica e beleza cênica, possibilitando a realização de pesquisas científicas e o desenvolvimento de atividades de educação e interpretação ambiental, de recreação em contato com a natureza e de turismo ecológico é denominada",
    "gabarito": "c",

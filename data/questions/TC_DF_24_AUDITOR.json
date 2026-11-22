@@ -5,8 +5,8 @@
   "Tribunal de Contas do Distrito Federal"
  ],
  "cargos": [
-  "Auditor de Controle Externo — Especialidade Arquivologia",
-  "Auditor de Controle Externo — Especialidade Psicologia",
+  "Auditor de Controle Externo – Área Especializada – Especialidade Arquivologia",
+  "Auditor de Controle Externo – Área Especializada – Especialidade Psicologia",
   "Auditor de Controle Externo — Especialidade Tecnologia da Informação — Orientação Microinformática e Infraestrutura de TI"
  ],
  "assuntos": [
@@ -17,22 +17,22 @@
    "fonte": "https://cdn.cebraspe.org.br/concursos/TC_DF_24_AUDITOR/arquivos/012_TCDF_AUDITOR_CB1_01.PDF"
   },
   {
-   "fonte": "https://cdn.cebraspe.org.br/concursos/TC_DF_24_AUDITOR/arquivos/012_TCDF_AUDITOR_CG1_01.PDF"
-  },
-  {
    "fonte": "https://cdn.cebraspe.org.br/concursos/TC_DF_24_AUDITOR/arquivos/012_TCDF_AUDITOR_001_01.PDF"
   },
   {
    "fonte": "https://cdn.cebraspe.org.br/concursos/TC_DF_24_AUDITOR/arquivos/012_TCDF_AUDITOR_CG2_01.PDF"
   },
   {
-   "fonte": "https://cdn.cebraspe.org.br/concursos/TC_DF_24_AUDITOR/arquivos/012_TCDF_AUDITOR_002_01.PDF"
-  },
-  {
    "fonte": "https://cdn.cebraspe.org.br/concursos/TC_DF_24_AUDITOR/arquivos/012_TCDF_AUDITOR_CG3_01.PDF"
   },
   {
    "fonte": "https://cdn.cebraspe.org.br/concursos/TC_DF_24_AUDITOR/arquivos/012_TCDF_AUDITOR_003_01.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/TC_DF_24_AUDITOR/arquivos/012_TCDF_AUDITOR_CG1_01.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/TC_DF_24_AUDITOR/arquivos/012_TCDF_AUDITOR_002_01.PDF"
   }
  ],
  "itens": [
@@ -400,657 +400,8 @@
    "gabarito": "certo"
   },
   {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-036",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A gestão orientada para resultados efetivos depende, especialmente, do nível de qualificação profissional e remuneração das carreiras de Estado, bem como da geração de estímulos para a formação de novas lideranças no setor público.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-037",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A governança refere-se, entre outros aspectos, à capacidade dos poderes públicos de intermediar os interesses da sociedade civil.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-038",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "O paradigma para a ação pública centrada no Estado regulador busca a redução da intervenção direta e a ampliação de suas capacidades de coordenação.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-039",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A visão de governo empreendedor se baseia na prestação de serviço mais eficiente para a população, apoiado nas práticas burocráticas e na busca de uma gestão por resultados, da promoção da transparência e do controle social.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-040",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Caracteriza-se como determinante estrutural da corrupção a maior dificuldade que certas estruturas burocráticas impõem aos agentes econômicos, o que aumenta a possibilidade de corrupção para se contornarem os empecilhos impostos pelo excesso de legislação.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-041",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Na análise custo-benefício aplicada à política pública, é possível comparar os custos monetários com os impactos positivos e benefícios gerados por um programa governamental.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-042",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Uma política pública começa após a formulação de alternativas para a resolução de um problema, visto que, para que um problema comece a ser resolvido, é necessário que se encontrem soluções para ele na agenda do governo.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-043",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "No processo de formulação de políticas públicas, os atores interagem, alocam recursos, constroem coalizões e resolvem conflitos em um cenário político.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-044",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Um indicador de desempenho é uma medida em geral quantitativa dotada de significado social substantivo.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-045",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A análise SWOT deve considerar como insumos os resultados da revisão documental, entrevista com as lideranças e pesquisa com servidores, visando à busca de oportunidades de melhoria, à evidência de pontos fracos e ameaças e à otimização do desempenho.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-046",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "O critério utilizado nas auditorias operacionais e avaliações de programas de governo pode basear-se no conhecimento do auditor acerca das melhores práticas relacionadas ao modo como as atividades são realizadas para serem mais econômicas e eficientes.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-047",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A materialidade corresponde ao valor financeiro envolvido diretamente na execução do objeto auditado.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-048",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "O Poder Legislativo pode demandar ao tribunal de contas a realização de uma avaliação de política pública.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-049",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Se o auditor optar pela realização de uma análise de problema, ele deve, após identificar os riscos gerais e os específicos, avaliar as respostas da administração a esses riscos, inclusive no tocante ao desenho e implementação de controles internos.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-050",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Em se tratando de auditoria de demonstrações contábeis, o planejamento poderá ser mais extenso na primeira auditoria conduzida na entidade.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-051",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Na elaboração da matriz de planejamento, é prescindível a previsão de campo para registro das informações requeridas e suas respectivas fontes.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-052",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Em cumprimento ao princípio da confidencialidade, os achados preliminares da auditoria devem ser discutidos com o supervisor da auditoria, não podendo o auditado tomar conhecimento deles antes da divulgação do relatório definitivo.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-053",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "O auditor deve usar de ceticismo profissional, ou seja, deve manter distanciamento e desconsiderar eventuais argumentos que não estejam alinhados às suas convicções.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-054",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "O objetivo de uma auditoria de conformidade é avaliar se atividades, transações financeiras e informações cumprem as normas que regem a entidade auditada.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-055",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Na auditoria da obra pública em questão, o auditor aplicou a técnica de inspeção física.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-056",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Viola a CF a fixação de critério de desempate em concursos públicos que favoreça candidatos pertencentes ao quadro funcional de servidores de determinado ente federativo.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-057",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "O candidato aprovado em cadastro de reserva adquirirá o direito subjetivo à nomeação caso sua posição passe a se enquadrar nas vagas imediatas previstas no edital devido à desistência de candidatos nomeados classificados nas vagas imediatas.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-058",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Caso se verifique que um servidor acumula ilicitamente cargos públicos, deverá ser imediatamente instaurado processo administrativo disciplinar para apuração e regularização de sua situação funcional.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-059",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A responsabilidade extracontratual das pessoas jurídicas de direito público e das de direito privado prestadoras de serviços públicos por atos comissivos é objetiva e baseia-se na teoria do risco administrativo.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-060",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Em observância aos princípios da publicidade e da impessoalidade, a publicidade dos atos e das campanhas dos órgãos públicos deve ter caráter educativo, informativo ou de orientação social, deles não podendo constar nomes que caracterizem a promoção pessoal de autoridades ou servidores públicos.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-061",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Um órgão administrativo e o seu titular podem delegar parte da sua competência para editar atos normativos a outros órgãos ou titulares, quando for conveniente, em razão de circunstâncias de índole técnica, social, econômica, jurídica ou territorial.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-062",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Pessoas com deficiência física ou mental têm prioridade na tramitação de processos administrativos em qualquer órgão ou instância da administração pública direta ou indireta.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-063",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "As consequências práticas da decisão e a avaliação das alternativas possíveis não são elementos obrigatórios da atividade de controle exercida pelos tribunais de contas e pelo Poder Judiciário na análise da validade de ato ou contrato administrativo.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-064",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Os contratos administrativos devem ter a forma escrita, porém admite-se também sua forma eletrônica, sendo permitido conferir sigilo a seus termos aditivos, quando imprescindível à segurança da sociedade e do Estado, nos termos da legislação que regula o acesso à informação.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-065",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "As contratações públicas devem submeter-se a práticas contínuas e permanentes de gestão de riscos e de controle preventivo, sujeitando-se ao controle externo realizado pelos tribunais de contas, que integram a primeira linha de defesa.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-066",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "O controle difuso de constitucionalidade ocorre na via judicial e, no curso de determinado processo judicial concreto, qualquer uma das partes pode vir a suscitar, de forma incidental, uma controvérsia de natureza constitucional.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-067",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Os limites impostos pelo poder reformador são previstos apenas no texto constitucional, como forma de reduzir a amplitude desse poder, que emana do povo.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-068",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Em um processo criminal, ainda que observado o devido processo legal, a imposição de prisão ao réu antes da condenação criminal definitiva viola o princípio da dignidade humana.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-069",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "As normas programáticas destinam-se a estabelecer formas de atuação futura para o poder público e, apesar de terem eficácia limitada, são providas de certo nível de eficácia jurídica.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-070",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Os casos de inelegibilidade, que se caracterizam como formas de restrição dos direitos políticos, são previstos tanto na CF quanto em legislação infraconstitucional relativa ao tema.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-071",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "O habeas corpus é uma ação tipicamente constitucional que visa proteger um direito fundamental e evitar ofensa à liberdade de locomoção, sendo necessária a constituição de advogado para a sua propositura.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-072",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Pode ser criada CPI para elucidar fatos determinados de interesse público, mas não para apurar fatos que já sejam objeto de investigação criminal do Ministério Público ou da polícia.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-073",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Uma das formas de o chefe do Poder Executivo participar do processo legislativo se dá pela sanção, que representa a sua concordância, expressa ou tácita, com projeto de lei aprovado pelo Poder Legislativo.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-074",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Apesar da garantia de vitaliciedade dos membros do Ministério Público, é possível a perda do seu cargo em razão de decisão judicial ou de sanção administrativa, sendo-lhes permitido o afastamento de suas funções apenas em caso de licença ou aposentadoria.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-075",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "As causas que o Supremo Tribunal Federal (STF) tem competência para julgar dividem-se entre aquelas que lhe chegam por meio da interposição de recursos e aquelas que são iniciadas diretamente nesse tribunal.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-076",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "É possível que grandes dados numéricos ou textuais não sejam estruturados em razão da ineficiência em modelá-los como uma tabela.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-077",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Informação é a capacidade de compreender, interpretar e aplicar dados de forma estratégica.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-078",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Queries que determinam views apenas podem ser originadas de tabelas.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-079",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A modelagem de dados dimensional, em comparação a outros tipos de modelagem de dados, possibilita melhor compreensão dos processos da empresa, pois a forma de organização da apresentação dos registros permite melhor compreensão dos processos de negócio e dos seus impactos.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-080",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "No modelo dimensional, tabela fato determina o contexto em que ocorreram os fatos, ao passo que tabela dimensão representa transações, acontecimentos ou outras atividades utilizadas para a medição do funcionamento e dos resultados dos processos de negócio.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-081",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Na modelagem da metodologia CRISP-DM, métodos como validação cruzada e métricas de desempenho são empregados para se avaliar o quão bem os modelos se saem em dados não vistos.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-082",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A mineração de dados é o processo de descoberta de padrões e de outras informações valiosas de grandes conjuntos de dados.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-083",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Em Big Data , a análise preditiva visa recomendar ações específicas para a identificação de situações em que os resultados da análise podem ser usados para melhorar a eficiência, a eficácia e a produtividade das empresas.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-084",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A análise exploratória de dados favorece a identificação da melhor forma de se manipularem fontes de dados para a descoberta de padrões, identificação de anomalias, testagem de hipótese ou verificação de suposições.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-085",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Big Data são dados não estruturados, em escala de exabytes , criados por sites de mídia social, transações financeiras e pela própria Internet, sendo muito vastos para serem estruturados em bancos de dados relacionais tradicionais.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-086",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A indicação de nome para preenchimento de cargos comissionados nos setores de apoio administrativo do TCDF, excetuados os cargos relativos aos gabinetes da Presidência da corte, dos conselheiros e dos auditores, depende de prévia aprovação em sessão administrativa.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-087",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "O TCDF pode fiscalizar de ofício irregularidade na aplicação de recurso público distrital, independentemente da iniciativa de qualquer órgão ou autoridade.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-088",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Compete ao TCDF julgar as contas do governador do DF e dos demais administradores de valores públicos.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-089",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Diferentemente do que ocorre com os atos de concessão de aposentadoria por tempo de contribuição, os atos de concessão de aposentadoria por invalidez não são registrados pelo TCDF, uma vez que seguem o rito próprio conduzido pela junta médica oficial do órgão.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-090",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Cabe ao presidente dirigir o TCDF, devendo aquele solicitar autorização do Plenário do tribunal para movimentar as dotações e os créditos orçamentários do órgão.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-091",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "O auditor, ao substituir um conselheiro, terá as mesmas garantias e prerrogativas do titular, não podendo, entretanto, tomar parte nas eleições para presidente do TCDF.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-093",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Os conselheiros e os auditores do TCDF adquirem a vitaliciedade com a posse nos respectivos cargos.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-094",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "O requisito de notório conhecimento jurídico, contábil, econômico e financeiro ou de administração pública para ocupar o cargo de conselheiro pode ser substituído pela comprovação do exercício, por mais de 10 anos, de função ou de efetiva atividade profissional que exija os conhecimentos mencionados.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-arquivologia-095",
-   "prova": 1,
-   "orgao": 0,
-   "cargo": 0,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Ao servidor responsável pela execução dos serviços administrativos no TCDF é assegurada a prerrogativa de livre ingresso em órgãos e entidades sujeitos à jurisdição desse tribunal de contas.",
-   "gabarito": "errado"
-  },
-  {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-096",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1061,7 +412,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-097",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1072,7 +423,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-098",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1083,7 +434,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-099",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1094,7 +445,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-100",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1105,7 +456,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-101",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1116,7 +467,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-102",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1127,7 +478,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-103",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1138,7 +489,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-104",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1149,7 +500,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-105",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1160,7 +511,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-106",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1171,7 +522,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-107",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1182,7 +533,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-108",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1193,7 +544,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-109",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1204,7 +555,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-110",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1215,7 +566,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-111",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1226,7 +577,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-112",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1237,7 +588,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-113",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1248,7 +599,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-114",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1259,7 +610,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-115",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1270,7 +621,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-116",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1281,7 +632,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-117",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1292,7 +643,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-118",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1303,7 +654,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-119",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1314,7 +665,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-120",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1325,7 +676,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-121",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1336,7 +687,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-123",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1347,7 +698,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-124",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1358,7 +709,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-125",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1369,7 +720,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-126",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1380,7 +731,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-127",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1391,7 +742,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-128",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1402,7 +753,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-129",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1413,7 +764,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-130",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1424,7 +775,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-131",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1435,7 +786,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-132",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1446,7 +797,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-133",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1457,7 +808,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-134",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1468,7 +819,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-135",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1479,7 +830,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-136",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1490,7 +841,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-137",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1501,7 +852,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-138",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1512,7 +863,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-139",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1523,7 +874,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-140",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1534,7 +885,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-141",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1545,7 +896,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-142",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1556,7 +907,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-143",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1567,7 +918,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-144",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1578,7 +929,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-145",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1589,7 +940,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-146",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1600,7 +951,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-147",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1611,7 +962,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-148",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1622,7 +973,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-149",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1633,7 +984,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-150",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1644,7 +995,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-151",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1655,7 +1006,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-152",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1666,7 +1017,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-153",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1677,7 +1028,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-154",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1688,7 +1039,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-155",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1699,7 +1050,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-158",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1710,7 +1061,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-159",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -1721,7 +1072,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-160",
-   "prova": 2,
+   "prova": 1,
    "orgao": 0,
    "cargo": 0,
    "ano": 2024,
@@ -2095,7 +1446,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-036",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2106,7 +1457,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-037",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2117,7 +1468,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-038",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2128,7 +1479,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-039",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2139,7 +1490,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-040",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2150,7 +1501,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-041",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2161,7 +1512,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-042",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2172,7 +1523,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-043",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2183,7 +1534,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-044",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2194,7 +1545,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-045",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2205,7 +1556,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-046",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2216,7 +1567,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-047",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2227,7 +1578,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-048",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2238,7 +1589,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-049",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2249,7 +1600,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-050",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2260,7 +1611,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-051",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2271,7 +1622,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-052",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2282,7 +1633,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-053",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2293,7 +1644,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-054",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2304,7 +1655,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-055",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2315,7 +1666,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-056",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2326,7 +1677,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-057",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2337,7 +1688,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-058",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2348,7 +1699,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-059",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2359,7 +1710,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-060",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2370,7 +1721,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-061",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2381,7 +1732,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-062",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2392,7 +1743,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-063",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2403,7 +1754,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-064",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2414,7 +1765,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-065",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2425,7 +1776,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-066",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2436,7 +1787,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-067",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2447,7 +1798,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-068",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2458,7 +1809,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-069",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2469,7 +1820,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-070",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2480,7 +1831,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-071",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2491,7 +1842,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-072",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2502,7 +1853,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-073",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2513,7 +1864,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-074",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2524,7 +1875,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-075",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2535,7 +1886,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-076",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2546,7 +1897,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-077",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2557,7 +1908,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-078",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2568,7 +1919,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-079",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2579,7 +1930,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-080",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2590,7 +1941,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-081",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2601,7 +1952,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-082",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2612,7 +1963,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-083",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2623,7 +1974,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-085",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2634,7 +1985,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-086",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2645,7 +1996,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-087",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2656,7 +2007,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-088",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2667,7 +2018,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-089",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2678,7 +2029,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-090",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2689,7 +2040,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-091",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2700,7 +2051,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-092",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2711,7 +2062,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-093",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2722,7 +2073,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-094",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2733,7 +2084,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-095",
-   "prova": 3,
+   "prova": 2,
    "orgao": 0,
    "cargo": 1,
    "ano": 2024,
@@ -2741,699 +2092,6 @@
    "tipo": "certo_errado",
    "enunciado": "Em razão de fundados indícios de evolução patrimonial incompatível com a remuneração de determinado auditor do TCDF, poderá ser determinada a instauração de sindicância patrimonial pelo presidente do TCDF.",
    "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-096",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "No caso em apreço, caso a paciente necessite de documento para justificar sua falta ao trabalho devido ao comparecimento à UBS, o psicólogo deverá emitir uma declaração, da qual devem constar as seguintes informações: nome completo da paciente, horário do atendimento, tempo de atendimento e registro de sintomas.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-097",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "O psicodiagnóstico é um processo contínuo que envolve a avaliação detalhada do funcionamento psicológico do indivíduo, utilizando-se entrevistas, observações e testes psicológicos para a compreensão das queixas apresentadas e orientação sobre o tratamento.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-098",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "O uso de um teste de rastreio cognitivo, como o miniexame do estado mental (MEEM), pode auxiliar a detectar na paciente possíveis sinais de demência, sendo necessária uma requisição médica para a realização do teste, visto que sua aplicação é vedada a psicólogos.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-099",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A psicopatologia do caso apresentado sugere que a paciente pode apresentar sintomas compatíveis com quadro depressivo ou transtorno neurocognitivo, o que torna necessária uma avaliação cuidadosa para se distinguirem as possíveis causas desses sintomas.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-100",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "O Código de Ética Profissional do Psicólogo permite que o psicólogo compartilhe informações confidenciais de cliente, mesmo sem o seu consentimento, sempre que considerar que a divulgação dessas informações pode beneficiar o tratamento e garantir um prognóstico mais preciso para o caso.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-101",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Na situação em apreço, a psicóloga agiu de acordo com o Código de Ética Profissional do Psicólogo, uma vez que é sua obrigação avaliar criticamente a veracidade das informações fornecidas pela cliente e garantir que qualquer intervenção seja embasada em evidências concretas e comprovadas.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-102",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Conforme disposto no Código de Ética Profissional do Psicólogo, será considerada falta ética a utilização de testes psicológicos com parecer desfavorável ou que constem na lista de testes psicológicos não avaliados no site do Sistema de Avaliação de Testes Psicológicos (SATEPSI), exceto nos casos de pesquisa amparados pela legislação vigente e nas situações de ensino com objetivo formativo e histórico na psicologia.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-103",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A técnica do desenho da casa-árvore-pessoa (HTP), as pirâmides coloridas de Pfister e a bateria fatorial de personalidade (BFP) são testes que podem ser utilizados para avaliar personalidade em adultos e atualmente constam como favoráveis no Sistema de Avaliação de Testes Psicológicos (SATEPSI).",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-104",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Os testes psicológicos compreendem uma variedade de instrumentos — a exemplo de testes padronizados, escalas, inventários, questionários, além de métodos projetivos e expressivos — que são utilizados para a avaliação de diferentes aspectos psicológicos e comportamentais.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-105",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Testes de inteligência como as escalas de inteligência Wechsler são utilizados na psicologia apenas para avaliar a capacidade intelectual geral, não sendo relevantes para identificar áreas específicas de habilidade ou dificuldade do indivíduo.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-106",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Durante a entrevista inicial, como a realizada com Sandra, é recomendável que o psicólogo utilize perguntas abertas para incentivar a expressão espontânea dos sentimentos e das preocupações do paciente, o que facilita a compreensão mais ampla do seu estado emocional.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-108",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "No caso em tela, é fundamental que o psicólogo adote a técnica terapêutica da entrevista motivacional, assumindo uma postura diretiva, impondo à paciente as mudanças necessárias para a efetividade do tratamento.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-109",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A entrevista motivacional é a técnica terapêutica mais indicada para o caso em questão, pois é focada em aumentar a motivação do paciente para mudanças comportamentais, não sendo indicada para casos em que o paciente apresente resistência ou ambivalência em relação à mudança.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-110",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Os documentos psicológicos devem, em regra, apresentar descrições literais dos atendimentos realizados, para a efetiva validação das informações fornecidas pelo profissional.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-112",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Os objetivos da avaliação psicológica de Beto estarão intrinsecamente relacionados ao motivo do encaminhamento.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-113",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Em se tratando de desenvolvimento infantil, é correto afirmar que Beto ainda não alcançou, em seu comportamento, a capacidade de planejamento dirigida ao objetivo, visto que tal capacidade só é desenvolvida aos 5 anos de idade.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-114",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Conforme o curso esperado do desenvolvimento infantil, Beto teria aprendido a correr antes de desenvolver a habilidade de usar um lápis.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-115",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "No que se refere à evolução no grafismo, é correto afirmar que as garatujas apresentadas por Beto, assim como o desenho de unidades isoladas e rabiscos, são categorias de desenhos alcançadas por crianças com até 30 meses de idade.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-116",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Beto apresenta características de transtorno fóbico com início na infância, tais como isolamento, comprometimento da comunicação e choro excessivo.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-117",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Consideradas as contribuições de Jean Piaget, é correto afirmar que o comportamento de Beto no que se refere ao agrupamento de blocos de mesma cor condiz com o estágio operatório-concreto.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-118",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Para a avaliação psicológica de Beto, é essencial a inclusão de testes padronizados para a investigação de autismo, dadas as características da criança relatadas tanto pelos pais quanto pela professora.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-119",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A avaliação psicológica de Beto deverá fornecer informações cientificamente embasadas e fundamentadas que orientem as tomadas de decisão, com base no funcionamento psicológico da criança.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-120",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Pela idade de Beto e pelo quadro clínico que ele apresenta, recomenda-se a utilização da entrevista lúdica como técnica estruturada no atendimento clínico.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-121",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Na avaliação psicológica de Beto, devem ser considerados não apenas o seu nível de desenvolvimento infantil, mas também suas possíveis alterações, bem como seu nível cognitivo, sua afetividade, sua atenção, seu humor, suas habilidades sociais, entre outros aspectos.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-122",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "O contexto escolar deverá ser levado em consideração na avaliação psicológica de Beto.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-123",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A pouca idade de Beto inviabiliza a utilização de métodos projetivos em sua avaliação psicológica.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-124",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Sintomas como insônia e aumento do apetite podem estar presentes tanto em quadros de abstinência de estimulantes quanto em quadros de abstinência de tabaco.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-125",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Insônia ou hipersonia frequentes, agitação ou retardo psicomotor, comprometimento da concentração e presença de episódios hipomaníacos podem ser características do transtorno depressivo maior.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-126",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Em se tratando de diagnóstico diferencial, deve-se considerar o diagnóstico de esquizofrenia caso o paciente apresente sintomas psicóticos exclusivamente durante os episódios depressivos maiores.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-127",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Ataques de pânico recorrentes marcados por medo intenso associado a sudorese, sensação de asfixia, náusea ou dor torácica são características do transtorno de pânico.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-128",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Transtorno de ansiedade social e mutismo seletivo são diagnósticos excludentes.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-129",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A avaliação da funcionalidade global deve ser levada em consideração no caso de Margarida.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-130",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "O miniexame do estado mental (MEEM) é um instrumento padronizado que poderá ser aplicado na avaliação de Margarida.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-131",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A investigação complementar é indispensável para o diagnóstico diferencial e a identificação etiológica em quadros demenciais como o apresentado por Margarida.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-132",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Na doença de Alzheimer, os sintomas cognitivos tendem a preceder os sintomas depressivos, tal qual se observa no caso de Margarida.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-133",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Além da agressividade, ainda podem surgir no quadro de Margarida sintomas como apatia, ansiedade, irritabilidade e distúrbios do sono.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-134",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "O prejuízo visuoespacial apresentado por Margarida é critério clínico essencial para fins diagnósticos em quadros demenciais, conforme o Manual Diagnóstico e Estatístico de Transtornos Mentais (DSM-5 TR).",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-135",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A apresentação característica amnéstica pode ser sugestiva de síndrome de transtorno neurocognitivo, de acordo com o Manual Diagnóstico e Estatístico de Transtornos Mentais (DSM-5 TR).",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-136",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A anosognosia apresentada por Margarida é um sinal importante a ser considerado diante de um possível quadro demencial, de acordo com o Manual Diagnóstico e Estatístico de Transtornos Mentais (DSM-5 TR).",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-137",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Eventual avaliação cognitiva de Margarida consistirá em uma avaliação neuropsicológica a ser realizada por médico em conjunto com psicólogo, a fim de que sejam identificados os domínios prejudicados e proposta, multidisciplinarmente, a devida intervenção.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-138",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Testes cognitivos de rastreio são recomendados no caso de Margarida, apesar de não permitirem uma avaliação global de sua cognição.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-139",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Nos casos de dependência química, o foco das práticas interdisciplinares se concentra na atuação verticalizada e nos saberes individuais, com objetivos pactuados entre os profissionais envolvidos.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-140",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Disartria, nistagmo e hiperatividade autonômica são sintomas de intoxicação por benzodiazepínicos.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-141",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Entrevistas motivacionais são recomendadas como tratamento do transtorno por uso de maconha.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-142",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Na redução de danos, utiliza-se uma abordagem não coercitiva e sem julgamento, oposta à abstinência e focada no cuidado ampliado.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-143",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Ansiedade, insônia e irritabilidade são sintomas emocionais da síndrome de abstinência por opioides.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-144",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A avaliação de riscos de intoxicação ou de sintomas graves de abstinência, assim como de suicídio, deve compor a avaliação inicial de transtornos por adição.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-145",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A gestão baseada em evidências é um conjunto de práticas para a tomada de decisão embasadas no pensamento científico e nas melhores evidências disponíveis para a sustentação de decisões organizacionais.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-146",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Define-se a validade de um instrumento como a sua capacidade de reproduzir um resultado de forma consistente, no tempo e no espaço.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-147",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Pesquisas de cunho qualitativo tendem a ser descritivas; nelas, não se procura explicar nexos causais estritos.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-148",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A avaliação de um programa de preparação para a aposentadoria requer uma abordagem multimétodo.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-149",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Pesquisas sobre assédio moral requerem necessariamente o uso de entrevistas em profundidade.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-150",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "No âmbito do gerenciamento de conflitos, a capacidade de gestão consiste em lograr a superação das tensões existentes nos grupos, canalizando-as para objetivos coletivos concatenados com os objetivos organizacionais.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-151",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Respeito e informações claras são elementos suficientes para uma relação negocial positiva.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-152",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A solução dos conflitos no trabalho está diretamente associada à capacidade de negociação dos gestores.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-153",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A mediação de conflitos é uma técnica de resolução de conflitos cujo único propósito é encontrar uma solução pacífica e cooperativa para uma disputa.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-154",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A fase do conflito interpessoal é um componente dos estágios de funcionamento de grupos.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-155",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "O paradigma do grupo mínimo é comum a todos os grupos e pode explicar conflitos existentes no interior de grupos ou entre grupos.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-156",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Os conflitos ocorridos dentro das organizações representam um índice sempre negativo nas relações institucionais, pois prejudicam principalmente a produtividade e o desempenho organizacional.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-157",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "É facultada ao psicólogo e aos profissionais de saúde a notificação de agravos e de situações de risco para a saúde dos trabalhadores.",
-   "gabarito": "errado"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-158",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "A falta de discernimento entre poder e autoridade está na origem dos comportamentos abusivos.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-159",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "Em geral, o trabalhador vive de forma solitária tanto os sintomas quanto a trajetória de busca por uma resolução para problemas de saúde que afetam a sua produtividade.",
-   "gabarito": "certo"
-  },
-  {
-   "id": "cebraspe-2024-tc-df-auditor-psicologia-160",
-   "prova": 4,
-   "orgao": 0,
-   "cargo": 1,
-   "ano": 2024,
-   "assunto": 0,
-   "tipo": "certo_errado",
-   "enunciado": "As práticas gerenciais de gestão por estresse visam essencialmente ao bem-estar dos trabalhadores e ao aumento do seu envolvimento no trabalho.",
-   "gabarito": "errado"
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-001",
@@ -3800,7 +2458,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-036",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -3811,7 +2469,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-037",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -3822,7 +2480,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-038",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -3833,7 +2491,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-039",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -3844,7 +2502,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-040",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -3855,7 +2513,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-041",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -3866,7 +2524,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-042",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -3877,7 +2535,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-043",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -3888,7 +2546,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-044",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -3899,7 +2557,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-045",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -3910,7 +2568,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-046",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -3921,7 +2579,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-047",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -3932,7 +2590,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-048",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -3943,7 +2601,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-049",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -3954,7 +2612,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-050",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -3965,7 +2623,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-051",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -3976,7 +2634,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-052",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -3987,7 +2645,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-053",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -3998,7 +2656,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-054",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4009,7 +2667,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-055",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4020,7 +2678,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-056",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4031,7 +2689,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-057",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4042,7 +2700,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-058",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4053,7 +2711,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-059",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4064,7 +2722,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-060",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4075,7 +2733,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-061",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4086,7 +2744,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-062",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4097,7 +2755,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-063",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4108,7 +2766,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-064",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4119,7 +2777,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-065",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4130,7 +2788,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-066",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4141,7 +2799,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-067",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4152,7 +2810,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-068",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4163,7 +2821,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-069",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4174,7 +2832,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-070",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4185,7 +2843,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-071",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4196,7 +2854,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-072",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4207,7 +2865,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-073",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4218,7 +2876,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-074",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4229,7 +2887,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-075",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4240,7 +2898,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-076",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4251,7 +2909,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-077",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4262,7 +2920,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-078",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4273,7 +2931,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-079",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4284,7 +2942,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-080",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4295,7 +2953,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-081",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4306,7 +2964,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-083",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4317,7 +2975,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-084",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4328,7 +2986,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-085",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4339,7 +2997,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-086",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4350,7 +3008,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-087",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4361,7 +3019,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-088",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4372,7 +3030,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-089",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4383,7 +3041,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-090",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4394,7 +3052,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-091",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4405,7 +3063,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-092",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4416,7 +3074,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-093",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4427,7 +3085,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-094",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4438,7 +3096,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-095",
-   "prova": 5,
+   "prova": 3,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4449,7 +3107,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-096",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4460,7 +3118,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-097",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4471,7 +3129,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-098",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4482,7 +3140,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-099",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4493,7 +3151,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-100",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4504,7 +3162,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-101",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4515,7 +3173,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-102",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4526,7 +3184,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-103",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4537,7 +3195,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-104",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4548,7 +3206,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-105",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4559,7 +3217,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-106",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4570,7 +3228,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-107",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4581,7 +3239,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-108",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4592,7 +3250,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-109",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4603,7 +3261,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-110",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4614,7 +3272,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-111",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4625,7 +3283,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-112",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4636,7 +3294,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-113",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4647,7 +3305,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-114",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4658,7 +3316,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-115",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4669,7 +3327,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-116",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4680,7 +3338,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-117",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4691,7 +3349,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-118",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4702,7 +3360,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-119",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4713,7 +3371,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-120",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4724,7 +3382,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-121",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4735,7 +3393,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-122",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4746,7 +3404,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-123",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4757,7 +3415,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-124",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4768,7 +3426,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-125",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4779,7 +3437,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-126",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4790,7 +3448,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-127",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4801,7 +3459,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-128",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4812,7 +3470,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-129",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4823,7 +3481,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-130",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4834,7 +3492,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-131",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4845,7 +3503,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-132",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4856,7 +3514,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-133",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4867,7 +3525,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-134",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4878,7 +3536,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-135",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4889,7 +3547,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-136",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4900,7 +3558,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-137",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4911,7 +3569,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-138",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4922,7 +3580,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-140",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4933,7 +3591,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-141",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4944,7 +3602,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-142",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4955,7 +3613,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-143",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4966,7 +3624,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-144",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4977,7 +3635,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-145",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4988,7 +3646,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-146",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -4999,7 +3657,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-147",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -5010,7 +3668,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-148",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -5021,7 +3679,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-149",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -5032,7 +3690,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-150",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -5043,7 +3701,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-151",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -5054,7 +3712,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-152",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -5065,7 +3723,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-153",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -5076,7 +3734,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-154",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -5087,7 +3745,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-155",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -5098,7 +3756,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-156",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -5109,7 +3767,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-157",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -5120,7 +3778,7 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-158",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
@@ -5131,13 +3789,1355 @@
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-159",
-   "prova": 6,
+   "prova": 4,
    "orgao": 0,
    "cargo": 2,
    "ano": 2024,
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A primeira forma normal (1NF) sugere que informações repetitivas, como endereços de clientes, sejam armazenadas em uma tabela separada, para evitar redundâncias e garantir a integridade dos dados.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-036",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A gestão orientada para resultados efetivos depende, especialmente, do nível de qualificação profissional e remuneração das carreiras de Estado, bem como da geração de estímulos para a formação de novas lideranças no setor público.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-037",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A governança refere-se, entre outros aspectos, à capacidade dos poderes públicos de intermediar os interesses da sociedade civil.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-038",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O paradigma para a ação pública centrada no Estado regulador busca a redução da intervenção direta e a ampliação de suas capacidades de coordenação.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-039",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A visão de governo empreendedor se baseia na prestação de serviço mais eficiente para a população, apoiado nas práticas burocráticas e na busca de uma gestão por resultados, da promoção da transparência e do controle social.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-040",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Caracteriza-se como determinante estrutural da corrupção a maior dificuldade que certas estruturas burocráticas impõem aos agentes econômicos, o que aumenta a possibilidade de corrupção para se contornarem os empecilhos impostos pelo excesso de legislação.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-041",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Na análise custo-benefício aplicada à política pública, é possível comparar os custos monetários com os impactos positivos e benefícios gerados por um programa governamental.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-042",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Uma política pública começa após a formulação de alternativas para a resolução de um problema, visto que, para que um problema comece a ser resolvido, é necessário que se encontrem soluções para ele na agenda do governo.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-043",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "No processo de formulação de políticas públicas, os atores interagem, alocam recursos, constroem coalizões e resolvem conflitos em um cenário político.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-044",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Um indicador de desempenho é uma medida em geral quantitativa dotada de significado social substantivo.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-045",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A análise SWOT deve considerar como insumos os resultados da revisão documental, entrevista com as lideranças e pesquisa com servidores, visando à busca de oportunidades de melhoria, à evidência de pontos fracos e ameaças e à otimização do desempenho.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-046",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O critério utilizado nas auditorias operacionais e avaliações de programas de governo pode basear-se no conhecimento do auditor acerca das melhores práticas relacionadas ao modo como as atividades são realizadas para serem mais econômicas e eficientes.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-047",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A materialidade corresponde ao valor financeiro envolvido diretamente na execução do objeto auditado.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-048",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O Poder Legislativo pode demandar ao tribunal de contas a realização de uma avaliação de política pública.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-049",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Se o auditor optar pela realização de uma análise de problema, ele deve, após identificar os riscos gerais e os específicos, avaliar as respostas da administração a esses riscos, inclusive no tocante ao desenho e implementação de controles internos.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-050",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Em se tratando de auditoria de demonstrações contábeis, o planejamento poderá ser mais extenso na primeira auditoria conduzida na entidade.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-051",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Na elaboração da matriz de planejamento, é prescindível a previsão de campo para registro das informações requeridas e suas respectivas fontes.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-052",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Em cumprimento ao princípio da confidencialidade, os achados preliminares da auditoria devem ser discutidos com o supervisor da auditoria, não podendo o auditado tomar conhecimento deles antes da divulgação do relatório definitivo.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-053",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O auditor deve usar de ceticismo profissional, ou seja, deve manter distanciamento e desconsiderar eventuais argumentos que não estejam alinhados às suas convicções.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-054",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O objetivo de uma auditoria de conformidade é avaliar se atividades, transações financeiras e informações cumprem as normas que regem a entidade auditada.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-055",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Na auditoria da obra pública em questão, o auditor aplicou a técnica de inspeção física.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-056",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Viola a CF a fixação de critério de desempate em concursos públicos que favoreça candidatos pertencentes ao quadro funcional de servidores de determinado ente federativo.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-057",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O candidato aprovado em cadastro de reserva adquirirá o direito subjetivo à nomeação caso sua posição passe a se enquadrar nas vagas imediatas previstas no edital devido à desistência de candidatos nomeados classificados nas vagas imediatas.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-058",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Caso se verifique que um servidor acumula ilicitamente cargos públicos, deverá ser imediatamente instaurado processo administrativo disciplinar para apuração e regularização de sua situação funcional.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-059",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A responsabilidade extracontratual das pessoas jurídicas de direito público e das de direito privado prestadoras de serviços públicos por atos comissivos é objetiva e baseia-se na teoria do risco administrativo.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-060",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Em observância aos princípios da publicidade e da impessoalidade, a publicidade dos atos e das campanhas dos órgãos públicos deve ter caráter educativo, informativo ou de orientação social, deles não podendo constar nomes que caracterizem a promoção pessoal de autoridades ou servidores públicos.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-061",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Um órgão administrativo e o seu titular podem delegar parte da sua competência para editar atos normativos a outros órgãos ou titulares, quando for conveniente, em razão de circunstâncias de índole técnica, social, econômica, jurídica ou territorial.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-062",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Pessoas com deficiência física ou mental têm prioridade na tramitação de processos administrativos em qualquer órgão ou instância da administração pública direta ou indireta.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-063",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "As consequências práticas da decisão e a avaliação das alternativas possíveis não são elementos obrigatórios da atividade de controle exercida pelos tribunais de contas e pelo Poder Judiciário na análise da validade de ato ou contrato administrativo.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-064",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Os contratos administrativos devem ter a forma escrita, porém admite-se também sua forma eletrônica, sendo permitido conferir sigilo a seus termos aditivos, quando imprescindível à segurança da sociedade e do Estado, nos termos da legislação que regula o acesso à informação.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-065",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "As contratações públicas devem submeter-se a práticas contínuas e permanentes de gestão de riscos e de controle preventivo, sujeitando-se ao controle externo realizado pelos tribunais de contas, que integram a primeira linha de defesa.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-066",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O controle difuso de constitucionalidade ocorre na via judicial e, no curso de determinado processo judicial concreto, qualquer uma das partes pode vir a suscitar, de forma incidental, uma controvérsia de natureza constitucional.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-067",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Os limites impostos pelo poder reformador são previstos apenas no texto constitucional, como forma de reduzir a amplitude desse poder, que emana do povo.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-068",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Em um processo criminal, ainda que observado o devido processo legal, a imposição de prisão ao réu antes da condenação criminal definitiva viola o princípio da dignidade humana.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-069",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "As normas programáticas destinam-se a estabelecer formas de atuação futura para o poder público e, apesar de terem eficácia limitada, são providas de certo nível de eficácia jurídica.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-070",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Os casos de inelegibilidade, que se caracterizam como formas de restrição dos direitos políticos, são previstos tanto na CF quanto em legislação infraconstitucional relativa ao tema.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-071",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O habeas corpus é uma ação tipicamente constitucional que visa proteger um direito fundamental e evitar ofensa à liberdade de locomoção, sendo necessária a constituição de advogado para a sua propositura.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-072",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Pode ser criada CPI para elucidar fatos determinados de interesse público, mas não para apurar fatos que já sejam objeto de investigação criminal do Ministério Público ou da polícia.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-073",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Uma das formas de o chefe do Poder Executivo participar do processo legislativo se dá pela sanção, que representa a sua concordância, expressa ou tácita, com projeto de lei aprovado pelo Poder Legislativo.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-074",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Apesar da garantia de vitaliciedade dos membros do Ministério Público, é possível a perda do seu cargo em razão de decisão judicial ou de sanção administrativa, sendo-lhes permitido o afastamento de suas funções apenas em caso de licença ou aposentadoria.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-075",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "As causas que o Supremo Tribunal Federal (STF) tem competência para julgar dividem-se entre aquelas que lhe chegam por meio da interposição de recursos e aquelas que são iniciadas diretamente nesse tribunal.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-076",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "É possível que grandes dados numéricos ou textuais não sejam estruturados em razão da ineficiência em modelá-los como uma tabela.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-077",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Informação é a capacidade de compreender, interpretar e aplicar dados de forma estratégica.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-078",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Queries que determinam views apenas podem ser originadas de tabelas.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-079",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A modelagem de dados dimensional, em comparação a outros tipos de modelagem de dados, possibilita melhor compreensão dos processos da empresa, pois a forma de organização da apresentação dos registros permite melhor compreensão dos processos de negócio e dos seus impactos.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-080",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "No modelo dimensional, tabela fato determina o contexto em que ocorreram os fatos, ao passo que tabela dimensão representa transações, acontecimentos ou outras atividades utilizadas para a medição do funcionamento e dos resultados dos processos de negócio.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-081",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Na modelagem da metodologia CRISP-DM, métodos como validação cruzada e métricas de desempenho são empregados para se avaliar o quão bem os modelos se saem em dados não vistos.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-082",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A mineração de dados é o processo de descoberta de padrões e de outras informações valiosas de grandes conjuntos de dados.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-083",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Em Big Data , a análise preditiva visa recomendar ações específicas para a identificação de situações em que os resultados da análise podem ser usados para melhorar a eficiência, a eficácia e a produtividade das empresas.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-084",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A análise exploratória de dados favorece a identificação da melhor forma de se manipularem fontes de dados para a descoberta de padrões, identificação de anomalias, testagem de hipótese ou verificação de suposições.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-085",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Big Data são dados não estruturados, em escala de exabytes , criados por sites de mídia social, transações financeiras e pela própria Internet, sendo muito vastos para serem estruturados em bancos de dados relacionais tradicionais.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-086",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A indicação de nome para preenchimento de cargos comissionados nos setores de apoio administrativo do TCDF, excetuados os cargos relativos aos gabinetes da Presidência da corte, dos conselheiros e dos auditores, depende de prévia aprovação em sessão administrativa.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-087",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O TCDF pode fiscalizar de ofício irregularidade na aplicação de recurso público distrital, independentemente da iniciativa de qualquer órgão ou autoridade.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-088",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Compete ao TCDF julgar as contas do governador do DF e dos demais administradores de valores públicos.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-089",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Diferentemente do que ocorre com os atos de concessão de aposentadoria por tempo de contribuição, os atos de concessão de aposentadoria por invalidez não são registrados pelo TCDF, uma vez que seguem o rito próprio conduzido pela junta médica oficial do órgão.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-090",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Cabe ao presidente dirigir o TCDF, devendo aquele solicitar autorização do Plenário do tribunal para movimentar as dotações e os créditos orçamentários do órgão.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-091",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O auditor, ao substituir um conselheiro, terá as mesmas garantias e prerrogativas do titular, não podendo, entretanto, tomar parte nas eleições para presidente do TCDF.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-093",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Os conselheiros e os auditores do TCDF adquirem a vitaliciedade com a posse nos respectivos cargos.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-094",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O requisito de notório conhecimento jurídico, contábil, econômico e financeiro ou de administração pública para ocupar o cargo de conselheiro pode ser substituído pela comprovação do exercício, por mais de 10 anos, de função ou de efetiva atividade profissional que exija os conhecimentos mencionados.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-arquivologia-095",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Ao servidor responsável pela execução dos serviços administrativos no TCDF é assegurada a prerrogativa de livre ingresso em órgãos e entidades sujeitos à jurisdição desse tribunal de contas.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-096",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "No caso em apreço, caso a paciente necessite de documento para justificar sua falta ao trabalho devido ao comparecimento à UBS, o psicólogo deverá emitir uma declaração, da qual devem constar as seguintes informações: nome completo da paciente, horário do atendimento, tempo de atendimento e registro de sintomas.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-097",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O psicodiagnóstico é um processo contínuo que envolve a avaliação detalhada do funcionamento psicológico do indivíduo, utilizando-se entrevistas, observações e testes psicológicos para a compreensão das queixas apresentadas e orientação sobre o tratamento.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-098",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O uso de um teste de rastreio cognitivo, como o miniexame do estado mental (MEEM), pode auxiliar a detectar na paciente possíveis sinais de demência, sendo necessária uma requisição médica para a realização do teste, visto que sua aplicação é vedada a psicólogos.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-099",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A psicopatologia do caso apresentado sugere que a paciente pode apresentar sintomas compatíveis com quadro depressivo ou transtorno neurocognitivo, o que torna necessária uma avaliação cuidadosa para se distinguirem as possíveis causas desses sintomas.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-100",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O Código de Ética Profissional do Psicólogo permite que o psicólogo compartilhe informações confidenciais de cliente, mesmo sem o seu consentimento, sempre que considerar que a divulgação dessas informações pode beneficiar o tratamento e garantir um prognóstico mais preciso para o caso.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-101",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Na situação em apreço, a psicóloga agiu de acordo com o Código de Ética Profissional do Psicólogo, uma vez que é sua obrigação avaliar criticamente a veracidade das informações fornecidas pela cliente e garantir que qualquer intervenção seja embasada em evidências concretas e comprovadas.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-102",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Conforme disposto no Código de Ética Profissional do Psicólogo, será considerada falta ética a utilização de testes psicológicos com parecer desfavorável ou que constem na lista de testes psicológicos não avaliados no site do Sistema de Avaliação de Testes Psicológicos (SATEPSI), exceto nos casos de pesquisa amparados pela legislação vigente e nas situações de ensino com objetivo formativo e histórico na psicologia.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-103",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A técnica do desenho da casa-árvore-pessoa (HTP), as pirâmides coloridas de Pfister e a bateria fatorial de personalidade (BFP) são testes que podem ser utilizados para avaliar personalidade em adultos e atualmente constam como favoráveis no Sistema de Avaliação de Testes Psicológicos (SATEPSI).",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-104",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Os testes psicológicos compreendem uma variedade de instrumentos — a exemplo de testes padronizados, escalas, inventários, questionários, além de métodos projetivos e expressivos — que são utilizados para a avaliação de diferentes aspectos psicológicos e comportamentais.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-105",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Testes de inteligência como as escalas de inteligência Wechsler são utilizados na psicologia apenas para avaliar a capacidade intelectual geral, não sendo relevantes para identificar áreas específicas de habilidade ou dificuldade do indivíduo.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-106",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Durante a entrevista inicial, como a realizada com Sandra, é recomendável que o psicólogo utilize perguntas abertas para incentivar a expressão espontânea dos sentimentos e das preocupações do paciente, o que facilita a compreensão mais ampla do seu estado emocional.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-108",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "No caso em tela, é fundamental que o psicólogo adote a técnica terapêutica da entrevista motivacional, assumindo uma postura diretiva, impondo à paciente as mudanças necessárias para a efetividade do tratamento.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-109",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A entrevista motivacional é a técnica terapêutica mais indicada para o caso em questão, pois é focada em aumentar a motivação do paciente para mudanças comportamentais, não sendo indicada para casos em que o paciente apresente resistência ou ambivalência em relação à mudança.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-110",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Os documentos psicológicos devem, em regra, apresentar descrições literais dos atendimentos realizados, para a efetiva validação das informações fornecidas pelo profissional.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-112",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Os objetivos da avaliação psicológica de Beto estarão intrinsecamente relacionados ao motivo do encaminhamento.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-113",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Em se tratando de desenvolvimento infantil, é correto afirmar que Beto ainda não alcançou, em seu comportamento, a capacidade de planejamento dirigida ao objetivo, visto que tal capacidade só é desenvolvida aos 5 anos de idade.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-114",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Conforme o curso esperado do desenvolvimento infantil, Beto teria aprendido a correr antes de desenvolver a habilidade de usar um lápis.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-115",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "No que se refere à evolução no grafismo, é correto afirmar que as garatujas apresentadas por Beto, assim como o desenho de unidades isoladas e rabiscos, são categorias de desenhos alcançadas por crianças com até 30 meses de idade.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-116",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Beto apresenta características de transtorno fóbico com início na infância, tais como isolamento, comprometimento da comunicação e choro excessivo.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-117",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Consideradas as contribuições de Jean Piaget, é correto afirmar que o comportamento de Beto no que se refere ao agrupamento de blocos de mesma cor condiz com o estágio operatório-concreto.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-118",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Para a avaliação psicológica de Beto, é essencial a inclusão de testes padronizados para a investigação de autismo, dadas as características da criança relatadas tanto pelos pais quanto pela professora.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-119",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A avaliação psicológica de Beto deverá fornecer informações cientificamente embasadas e fundamentadas que orientem as tomadas de decisão, com base no funcionamento psicológico da criança.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-120",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Pela idade de Beto e pelo quadro clínico que ele apresenta, recomenda-se a utilização da entrevista lúdica como técnica estruturada no atendimento clínico.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-121",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Na avaliação psicológica de Beto, devem ser considerados não apenas o seu nível de desenvolvimento infantil, mas também suas possíveis alterações, bem como seu nível cognitivo, sua afetividade, sua atenção, seu humor, suas habilidades sociais, entre outros aspectos.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-122",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O contexto escolar deverá ser levado em consideração na avaliação psicológica de Beto.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-123",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A pouca idade de Beto inviabiliza a utilização de métodos projetivos em sua avaliação psicológica.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-124",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Sintomas como insônia e aumento do apetite podem estar presentes tanto em quadros de abstinência de estimulantes quanto em quadros de abstinência de tabaco.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-125",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Insônia ou hipersonia frequentes, agitação ou retardo psicomotor, comprometimento da concentração e presença de episódios hipomaníacos podem ser características do transtorno depressivo maior.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-126",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Em se tratando de diagnóstico diferencial, deve-se considerar o diagnóstico de esquizofrenia caso o paciente apresente sintomas psicóticos exclusivamente durante os episódios depressivos maiores.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-127",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Ataques de pânico recorrentes marcados por medo intenso associado a sudorese, sensação de asfixia, náusea ou dor torácica são características do transtorno de pânico.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-128",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Transtorno de ansiedade social e mutismo seletivo são diagnósticos excludentes.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-129",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A avaliação da funcionalidade global deve ser levada em consideração no caso de Margarida.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-130",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O miniexame do estado mental (MEEM) é um instrumento padronizado que poderá ser aplicado na avaliação de Margarida.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-131",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A investigação complementar é indispensável para o diagnóstico diferencial e a identificação etiológica em quadros demenciais como o apresentado por Margarida.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-132",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Na doença de Alzheimer, os sintomas cognitivos tendem a preceder os sintomas depressivos, tal qual se observa no caso de Margarida.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-133",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Além da agressividade, ainda podem surgir no quadro de Margarida sintomas como apatia, ansiedade, irritabilidade e distúrbios do sono.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-134",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O prejuízo visuoespacial apresentado por Margarida é critério clínico essencial para fins diagnósticos em quadros demenciais, conforme o Manual Diagnóstico e Estatístico de Transtornos Mentais (DSM-5 TR).",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-135",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A apresentação característica amnéstica pode ser sugestiva de síndrome de transtorno neurocognitivo, de acordo com o Manual Diagnóstico e Estatístico de Transtornos Mentais (DSM-5 TR).",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-136",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A anosognosia apresentada por Margarida é um sinal importante a ser considerado diante de um possível quadro demencial, de acordo com o Manual Diagnóstico e Estatístico de Transtornos Mentais (DSM-5 TR).",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-137",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Eventual avaliação cognitiva de Margarida consistirá em uma avaliação neuropsicológica a ser realizada por médico em conjunto com psicólogo, a fim de que sejam identificados os domínios prejudicados e proposta, multidisciplinarmente, a devida intervenção.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-138",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Testes cognitivos de rastreio são recomendados no caso de Margarida, apesar de não permitirem uma avaliação global de sua cognição.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-139",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Nos casos de dependência química, o foco das práticas interdisciplinares se concentra na atuação verticalizada e nos saberes individuais, com objetivos pactuados entre os profissionais envolvidos.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-140",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Disartria, nistagmo e hiperatividade autonômica são sintomas de intoxicação por benzodiazepínicos.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-141",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Entrevistas motivacionais são recomendadas como tratamento do transtorno por uso de maconha.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-142",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Na redução de danos, utiliza-se uma abordagem não coercitiva e sem julgamento, oposta à abstinência e focada no cuidado ampliado.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-143",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Ansiedade, insônia e irritabilidade são sintomas emocionais da síndrome de abstinência por opioides.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-144",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A avaliação de riscos de intoxicação ou de sintomas graves de abstinência, assim como de suicídio, deve compor a avaliação inicial de transtornos por adição.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-145",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A gestão baseada em evidências é um conjunto de práticas para a tomada de decisão embasadas no pensamento científico e nas melhores evidências disponíveis para a sustentação de decisões organizacionais.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-146",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Define-se a validade de um instrumento como a sua capacidade de reproduzir um resultado de forma consistente, no tempo e no espaço.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-147",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Pesquisas de cunho qualitativo tendem a ser descritivas; nelas, não se procura explicar nexos causais estritos.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-148",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A avaliação de um programa de preparação para a aposentadoria requer uma abordagem multimétodo.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-149",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Pesquisas sobre assédio moral requerem necessariamente o uso de entrevistas em profundidade.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-150",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "No âmbito do gerenciamento de conflitos, a capacidade de gestão consiste em lograr a superação das tensões existentes nos grupos, canalizando-as para objetivos coletivos concatenados com os objetivos organizacionais.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-151",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Respeito e informações claras são elementos suficientes para uma relação negocial positiva.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-152",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A solução dos conflitos no trabalho está diretamente associada à capacidade de negociação dos gestores.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-153",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A mediação de conflitos é uma técnica de resolução de conflitos cujo único propósito é encontrar uma solução pacífica e cooperativa para uma disputa.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-154",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A fase do conflito interpessoal é um componente dos estágios de funcionamento de grupos.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-155",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O paradigma do grupo mínimo é comum a todos os grupos e pode explicar conflitos existentes no interior de grupos ou entre grupos.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-156",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Os conflitos ocorridos dentro das organizações representam um índice sempre negativo nas relações institucionais, pois prejudicam principalmente a produtividade e o desempenho organizacional.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-157",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "É facultada ao psicólogo e aos profissionais de saúde a notificação de agravos e de situações de risco para a saúde dos trabalhadores.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-158",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A falta de discernimento entre poder e autoridade está na origem dos comportamentos abusivos.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-159",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Em geral, o trabalhador vive de forma solitária tanto os sintomas quanto a trajetória de busca por uma resolução para problemas de saúde que afetam a sua produtividade.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2024-tcdf-psicologia-160",
+   "prova": 6,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "As práticas gerenciais de gestão por estresse visam essencialmente ao bem-estar dos trabalhadores e ao aumento do seu envolvimento no trabalho.",
    "gabarito": "errado"
   }
  ]
