@@ -34,13 +34,15 @@ from datetime import datetime
 from pathlib import Path
 from typing import Callable, Iterable, Optional
 
-from . import discover, gabarito as gabmod, usage
+from . import gabarito as gabmod, shards, usage
+from .bancas.cebraspe import api as cebraspe_api
+from .bancas.cebraspe import selecao
 from .models import ProvaExtraida, ProvaMeta, Questao, QuestaoExtraida, to_questao
 from .shards import evento_key, write_shard
 from .validate import Relatorio, formatar, validar
 
 HERE = Path(__file__).resolve().parent
-DATASET = discover.DATASET
+DATASET = cebraspe_api.DATASET
 EXTRACOES = HERE / ".cache" / "extracoes"
 REPORTS = HERE / "reports"
 CUSTO_FIXO = 4  # créditos de json-extraction por prova, além de 1/página
@@ -68,7 +70,7 @@ class Dataset:
     @classmethod
     def carregar(cls, path: Path = DATASET) -> "Dataset":
         # path = diretório de shards (padrão) ou um JSON flat legado
-        qs = list(discover._iter_records(path))
+        qs = list(shards.iter_records(path))
         ds = cls(path=path, questoes=qs)
         for q in qs:
             ds.ids.add(q["id"])
@@ -132,54 +134,9 @@ class Dataset:
 
 
 # ---------------------------------------------------------------------------
-# Seleção
+# Seleção — a política (PRIORIDADES, ranqueamento) vive no adapter:
+# crawler/bancas/cebraspe/selecao.py
 # ---------------------------------------------------------------------------
-
-def tipo_caderno(descricao: str) -> Optional[int]:
-    m = re.search(r"\bTIPO (\d+)\b", discover.norm(descricao))
-    return int(m.group(1)) if m else None
-
-
-# Categorias de prioridade, na ordem em que são processadas. Casam com
-# norm("<eventoURL> <eventoNomeAbreviado> <órgão>") (maiúsculas, sem acento).
-PRIORIDADES: dict[str, str] = {
-    "tribunais": r"\bTRIBUNA|\b(TJ|TJDFT|TJM|TRF|TRT|TRE|STJ|STF|STM|TST|TSE|TCU|TCE|TCM|TC|CNJ|"
-                 r"CPNUJE)\b|\b(TRF|TRT)\d",
-    "policias": r"\bPOLICIA|\bPOLICIAL|\b(PF|PRF|PC|PM|PCDF|PJC|POLC|PP|PPF|DPF|DEPEN|SEAP|SSP|"
-                r"CBM|CBMDF)\b|PENITENCI|BOMBEIRO",
-    "inss": r"\bINSS\b|SEGURO SOCIAL",
-    "bancos": r"\bBANCO\b|\b(BB|BCB|BACEN|CAIXA|CEF|BNB|BASA|BRB|BNDES|BDMG|BANRISUL|BANESE|"
-              r"BANPARA)\b",
-    # só reguladoras: agências nacionais e estaduais de regulação
-    # (sem a sigla ANA solta: "ANA" também abrevia "Analista" nos nomes de evento)
-    "agencias": r"AGENCIA NACIONAL|REGULACAO|REGULADORA|AGUAS E SANEAMENTO|"
-                r"\b(ANAC|ANATEL|ANEEL|ANP|ANS|ANTAQ|ANTT|ANVISA|ANM|"
-                r"ANCINE|ARSAL|ARSESP|ADASA|AGERGS|AGER|AGEPAR|ARCE|ARSAE)\b",
-}
-
-
-def parse_anos(texto: Optional[str]) -> Optional[set[int]]:
-    """'2022-2026' → {2022,…,2026}; '2021,2023' → {2021, 2023}."""
-    if not texto:
-        return None
-    anos: set[int] = set()
-    for parte in texto.split(","):
-        parte = parte.strip()
-        m = re.fullmatch(r"(\d{4})\s*-\s*(\d{4})", parte)
-        if m:
-            anos.update(range(int(m.group(1)), int(m.group(2)) + 1))
-        elif parte:
-            anos.add(int(parte))
-    return anos
-
-
-def categoria_de(e: dict, categorias: Iterable[str]) -> Optional[str]:
-    texto = discover.norm(f"{e.get('evento', '')} {e.get('evento_nome') or ''} {e.get('orgao', '')}")
-    for c in categorias:
-        if re.search(PRIORIDADES[c], texto):
-            return c
-    return None
-
 
 def selecionar(manifesto: dict, ds: Dataset, *, eventos: Iterable[str] = (),
                cadernos: Iterable[str] = (), incluir_curso_formacao: bool = False,
@@ -189,15 +146,15 @@ def selecionar(manifesto: dict, ds: Dataset, *, eventos: Iterable[str] = (),
 
     Filtros de priorização: ``anos`` (conjunto), ``orgaos`` (trechos de texto
     casados com evento/órgão, sem acento) e ``prioridade`` (categorias de
-    ``PRIORIDADES``, que também definem a ordem). Sem prioridade: mais
+    ``selecao.PRIORIDADES``, que também definem a ordem). Sem prioridade: mais
     recentes primeiro."""
     evs = {e.upper() for e in eventos}
     cads = {c.upper() for c in cadernos}
-    orgs = [discover.norm(o) for o in orgaos if o.strip()]
+    orgs = [cebraspe_api.norm(o) for o in orgaos if o.strip()]
     prio = [p.strip().lower() for p in prioridade if p.strip()]
     for p in prio:
-        if p not in PRIORIDADES:
-            raise ValueError(f"prioridade desconhecida: {p!r} (use {', '.join(PRIORIDADES)})")
+        if p not in selecao.PRIORIDADES:
+            raise ValueError(f"prioridade desconhecida: {p!r} (use {', '.join(selecao.PRIORIDADES)})")
     cand, pul = [], []
     for e in manifesto["provas"]:
         def pula(motivo: str):
@@ -209,11 +166,11 @@ def selecionar(manifesto: dict, ds: Dataset, *, eventos: Iterable[str] = (),
         if anos is not None and e.get("ano") not in anos:
             continue
         if orgs:
-            texto = discover.norm(f"{e['evento']} {e.get('evento_nome') or ''} {e.get('orgao', '')}")
+            texto = cebraspe_api.norm(f"{e['evento']} {e.get('evento_nome') or ''} {e.get('orgao', '')}")
             if not any(o in texto for o in orgs):
                 continue
         if prio:
-            e = dict(e, _categoria=categoria_de(e, prio))
+            e = dict(e, _categoria=selecao.categoria_de(e, prio))
             if e["_categoria"] is None:
                 continue
         if not e.get("url_gabarito"):
@@ -222,7 +179,7 @@ def selecionar(manifesto: dict, ds: Dataset, *, eventos: Iterable[str] = (),
             pula(e.get("cargo_como") or "cargo não identificado"); continue
         if e.get("fase") != "objetiva" and not incluir_curso_formacao:
             pula(f"fase {e.get('fase')}"); continue
-        t = tipo_caderno(e.get("descricao", ""))
+        t = selecao.tipo_caderno(e.get("descricao", ""))
         if t is not None and t != 1:
             pula(f"caderno TIPO {t} (só o TIPO 1 é ingerido)"); continue
         motivo = ds.ja_ingerida(e)
@@ -264,12 +221,12 @@ def texto_do_pdf_url(url: str) -> str:
 
 
 def mc_do_pdf_url(url: str, esperados: list[int]) -> dict[int, tuple[str, list[str]]]:
-    from . import extract_local
+    from .bancas.cebraspe import textparse as extract_local
     return extract_local.questoes_mc_do_pdf(gabmod.baixar(url), esperados)
 
 
 def itens_do_pdf_url(url: str, esperados: list[int]) -> dict[int, str]:
-    from . import extract_local
+    from .bancas.cebraspe import textparse as extract_local
     return extract_local.itens_do_pdf(gabmod.baixar(url), esperados)
 
 
@@ -331,7 +288,7 @@ def planejar(e: dict, gab: gabmod.Gabarito, *, extrator: str,
     """local: só o extrator local. firecrawl: só Firecrawl. hibrido: local, com
     Firecrawl POR ITEM para fórmula ilegível e POR PROVA quando a cobertura não
     fecha com o gabarito. Vale para certo/errado e para múltipla escolha."""
-    from . import extract_local
+    from .bancas.cebraspe import textparse as extract_local
     pl = Plano(gab=gab)
     mc = gab.tipo != "certo_errado"
     leitor = pdf_mc if mc else pdf_itens
@@ -668,7 +625,7 @@ def estimar_custo(cand: list[dict], *, amostra: int, gab_loader: GabLoader,
 
 
 def _filtros(args) -> dict:
-    return {"anos": parse_anos(args.anos), "orgaos": args.orgao,
+    return {"anos": selecao.parse_anos(args.anos), "orgaos": args.orgao,
             "prioridade": [p for p in (args.prioridade or "").split(",") if p.strip()]}
 
 
@@ -717,7 +674,7 @@ def main(argv: Optional[list[str]] = None) -> int:
     ap.add_argument("--orgao", action="append", default=[],
                     help="trecho do órgão/evento (sem acento/maiúscula), repetível")
     ap.add_argument("--prioridade",
-                    help="categorias em ordem, separadas por vírgula: " + ",".join(PRIORIDADES))
+                    help="categorias em ordem, separadas por vírgula: " + ",".join(selecao.PRIORIDADES))
     ap.add_argument("--estimar-custo", action="store_true",
                     help="no --dry-run: estima créditos dos fallbacks (grátis; baixa PDFs)")
     ap.add_argument("--amostra", type=int, default=60,
@@ -726,12 +683,12 @@ def main(argv: Optional[list[str]] = None) -> int:
     ap.add_argument("--extrator", choices=EXTRATORES, default="hibrido",
                     help="local (zero crédito), firecrawl, ou hibrido (padrão: local + "
                          "Firecrawl por item p/ fórmula e por prova p/ cobertura incompleta)")
-    ap.add_argument("--manifesto", type=Path, default=discover.MANIFEST)
+    ap.add_argument("--manifesto", type=Path, default=cebraspe_api.MANIFEST)
     ap.add_argument("--dataset", type=Path, default=DATASET)
     args = ap.parse_args(argv)
 
     if args.descobrir or not args.manifesto.exists():
-        discover.salvar(discover.descobrir(discover.make_fetch()), args.manifesto)
+        cebraspe_api.salvar(cebraspe_api.descobrir(cebraspe_api.make_fetch()), args.manifesto)
     manifesto = json.loads(args.manifesto.read_text(encoding="utf-8"))
     ds = Dataset.carregar(args.dataset)
 

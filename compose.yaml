@@ -4,7 +4,7 @@
 #   docker compose run --rm crawler \
 #     python -m crawler.db sync          # popula o banco a partir dos shards
 #   docker compose run --rm crawler \
-#     python -m crawler.cebraspe next --probe 30
+#     python -m crawler next --probe 30
 #
 # Variáveis: exporte antes de subir (ou crie .env/docker.env em KEY=VAL):
 #   export POSTGRES_PASSWORD=$(cat .env/POSTGRES_PASSWORD)
@@ -43,7 +43,7 @@ services:
   crawler:
     build: .
     profiles: ["crawler"]
-    command: ["python", "-m", "crawler.cebraspe", "next", "--probe", "30"]
+    command: ["python", "-m", "crawler", "next", "--probe", "30"]
     environment:
       DATABASE_URL: postgresql://papiro:${POSTGRES_PASSWORD}@db:5432/papiro
       FIRECRAWL_API_KEY: ${FIRECRAWL_API_KEY:-}

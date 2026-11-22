@@ -1,21 +1,25 @@
-"""Descoberta GRÁTIS de provas Cebraspe (sem Firecrawl) via API pública.
+"""Cliente da API pública da Cebraspe + descoberta de provas (grátis).
 
-Fluxo:
+Duas superfícies sobre a mesma API:
 
-1. ``GET https://apis.cebraspe.org.br/cebraspe/eventos/tipo/concursos`` →
-   lista de eventos agrupados por fase.
-2. ``GET .../eventos/<eventoURL>`` → detalhe com ``arquivosGabarito`` (que
-   contém tanto provas quanto gabaritos) e ``eventoCargos``.
-3. Classifica cada arquivo (prova objetiva, gabarito definitivo, resto),
-   pareia prova ↔ gabarito definitivo e resolve quais cargos cada caderno
-   atende.
-4. Grava o manifesto em ``crawler/manifests/cebraspe.json``.
+- **job-driven** (``list_eventos``/``get_evento``/``download`` +
+  ``arquivo_kind``/``arquivo_cargos``): o caminho interativo
+  ``next``/``files``/``fetch`` — fetch JSON com cache httpx e download de
+  PDFs do CDN.
+- **manifesto** (``descobrir``/``mapear_evento``): classifica todos os
+  arquivos de todos os eventos, pareia prova ↔ gabarito definitivo e
+  resolve cargos → ``crawler/manifests/cebraspe.json``.
+
+Classificação: ``classify`` (rigorosa — só "prova" com layout reconhecido)
+alimenta o manifesto; ``arquivo_kind`` (permissiva — baixa tudo que não é
+claramente outro) alimenta o fetch, que deixa a decisão final para a
+curadoria do job.
 
 Uso::
 
-    python -m crawler.discover                  # todos os eventos
-    python -m crawler.discover --evento IBAMA_25 --evento PF_21
-    python -m crawler.discover --offline        # só o cache local
+    python -m crawler discover                  # todos os eventos
+    python -m crawler discover --evento IBAMA_25 --evento PF_21
+    python -m crawler discover --offline        # só o cache local
 """
 
 from __future__ import annotations
@@ -25,31 +29,25 @@ import json
 import re
 import sys
 import unicodedata
+import urllib.parse
+import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Callable, Iterable, Optional
 
-from .models import slugify
-from .shards import SHARD_DIR, shard_to_records
+from ...models import slugify
+from ...shards import SHARD_DIR, iter_records
 
 API = "https://apis.cebraspe.org.br/cebraspe/eventos"
 LIST_URL = f"{API}/tipo/concursos"
+DETAIL_URL = f"{API}/{{id}}"
 CDN = "https://cdn.cebraspe.org.br/concursos"
 
-ROOT = Path(__file__).resolve().parent.parent
-MANIFEST = Path(__file__).resolve().parent / "manifests" / "cebraspe.json"
-CACHE_DIR = Path(__file__).resolve().parent / ".cache" / "api"
-DATASET = SHARD_DIR  # o monólito virou shards; _iter_records lê ambos
-
-
-def _iter_records(dataset: Path):
-    """Flat records de um diretório de shards ou de um JSON legado (lista)."""
-    if dataset.is_dir():
-        for p in sorted(dataset.glob("*.json")):
-            yield from shard_to_records(json.loads(p.read_text(encoding="utf-8")))
-    elif dataset.exists():
-        yield from json.loads(dataset.read_text(encoding="utf-8"))
+_CRAWLER = Path(__file__).resolve().parents[2]
+MANIFEST = _CRAWLER / "manifests" / "cebraspe.json"
+CACHE_DIR = _CRAWLER / ".cache" / "api"
+DATASET = SHARD_DIR   # diretório de shards
 
 USER_AGENT = "papiro-crawler/0.1 (+https://olavostauros.github.io/papiro/)"
 
@@ -126,6 +124,31 @@ def classify(arquivo: dict) -> tuple[str, str]:
     if re.fullmatch(r"(MATRIZ_)?\d{3}_?[A-Z0-9_]+_(\d{3}|C[BGE]\d)_0\d", s):
         return "prova", "inferido pelo nome do arquivo"
     return "ignorado", "não reconhecido"
+
+
+def arquivo_kind(arq: dict) -> str:
+    """Classificação permissiva para o fetch: 'gabarito' | 'prova' | 'outro'."""
+    nome = arq["nomeArquivo"].upper()
+    desc = (arq.get("descricaoArquivo") or "").upper()
+    if "DISCURSIVA" in desc or "CAPA" in desc:
+        return "outro"
+    if nome.startswith("GAB") or "GABARITO" in desc:
+        return "gabarito"
+    if "RESPOSTA" in desc or nome.startswith("RESP"):
+        return "gabarito"
+    if nome.startswith(("DISC", "EDIT")) or "EDITAL" in desc:
+        return "outro"
+    return "prova"
+
+
+# "CARGO 3", "DISCIPLINA 10", "ÁREA 01" etc -> idArea list
+_CARGO_RE = re.compile(r"(?:CARGOS?|DISCIPLINAS?|ÁREAS?)\s*(?:DE\s*)?(\d+)", re.I)
+
+
+def arquivo_cargos(arq: dict) -> list[str]:
+    """Cargo idAreas referenced by this arquivo's descricao."""
+    desc = arq.get("descricaoArquivo") or ""
+    return _CARGO_RE.findall(desc)
 
 
 _GAB_PREFIX = re.compile(r"^(GAB(ARITO)?_DEFINITIVO_)(MATRIZ_)?")
@@ -273,7 +296,7 @@ def cargos_do_evento(evento: dict) -> dict[int, dict]:
 def cargos_conhecidos(dataset: Path = DATASET) -> dict[tuple[str, str], str]:
     """(orgao, cargo) → id_cargo já usado no dataset, para não mudar ids existentes."""
     out: dict[tuple[str, str], str] = {}
-    for q in _iter_records(dataset):
+    for q in iter_records(dataset):
         m = re.match(r"^[a-z0-9]+-\d{4}-([a-z0-9]+)-(.+)-\d{3}$", q.get("id", ""))
         if m:
             out.setdefault((q["orgao"], q["cargo"]), m.group(2))
@@ -348,7 +371,7 @@ def prefixo_evento(evento_url: str) -> str:
 def orgaos_conhecidos(dataset: Path = DATASET) -> dict[str, tuple[str, str]]:
     """prefixo → (orgao, id_orgao) aprendido do dataset existente (fontes CDN)."""
     out: dict[str, tuple[str, str]] = {}
-    for q in _iter_records(dataset):
+    for q in iter_records(dataset):
         m = re.search(r"/concursos/([^/]+)/", q.get("fonte", ""))
         if not m:
             continue
@@ -576,6 +599,17 @@ def make_fetch(cache_dir: Path = CACHE_DIR, offline: bool = False,
     return fetch
 
 
+_default_fetch: Optional[Fetch] = None
+
+
+def default_fetch() -> Fetch:
+    """Fetch compartilhado com cache — usado pelos comandos job-driven."""
+    global _default_fetch
+    if _default_fetch is None:
+        _default_fetch = make_fetch()
+    return _default_fetch
+
+
 def listar_eventos(fetch: Fetch) -> list[dict]:
     grupos = fetch(LIST_URL)
     eventos = []
@@ -585,6 +619,30 @@ def listar_eventos(fetch: Fetch) -> list[dict]:
             e["_fase"] = g.get("faseEvento")
             eventos.append(e)
     return eventos
+
+
+def list_eventos(fetch: Optional[Fetch] = None) -> list[dict]:
+    """Lista chata de eventos (todas as fases), com cache httpx."""
+    return listar_eventos(fetch or default_fetch())
+
+
+def get_evento(ref, fetch: Optional[Fetch] = None) -> dict:
+    """Detalhe por eventoURL slug (id numérico resolve para o slug antes)."""
+    fetch = fetch or default_fetch()
+    if str(ref).isdigit():
+        ref = next(e["eventoURL"] for e in listar_eventos(fetch)
+                   if e["idEvento"] == int(ref))
+    return fetch(DETAIL_URL.format(id=ref))
+
+
+def download(evento_url: str, nome_arquivo: str, dest: Path) -> Path:
+    """PDF binário do CDN (urllib — fetch cacheia só JSON)."""
+    nome = urllib.parse.quote(nome_arquivo)
+    req = urllib.request.Request(cdn_url(evento_url, nome),
+                                 headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=60) as r, open(dest, "wb") as f:
+        f.write(r.read())
+    return dest
 
 
 def descobrir(fetch: Fetch, *, eventos_filtro: Iterable[str] = (),
@@ -646,8 +704,8 @@ def salvar(manifesto: dict, path: Path = MANIFEST) -> None:
     path.write_text(json.dumps(manifesto, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def main(argv: list[str] | None = None) -> int:
-    ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
+def manifest_main(argv: list[str] | None = None) -> int:
+    ap = argparse.ArgumentParser(description="Descoberta de provas Cebraspe → manifesto")
     ap.add_argument("--evento", action="append", default=[], help="eventoURL (repetível)")
     ap.add_argument("--saida", type=Path, default=MANIFEST)
     ap.add_argument("--offline", action="store_true", help="usa só o cache local")
@@ -661,7 +719,3 @@ def main(argv: list[str] | None = None) -> int:
     print(json.dumps(man["resumo"], ensure_ascii=False, indent=2))
     print(f"manifesto: {args.saida}")
     return 0
-
-
-if __name__ == "__main__":
-    sys.exit(main())

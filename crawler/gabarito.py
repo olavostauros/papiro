@@ -1,6 +1,6 @@
-"""Gabarito definitivo Cebraspe: download + parse local com ``pdftotext -layout``.
+"""Gabarito definitivo: tabela ``Item``/``Gabarito`` parseada com pdftotext.
 
-Grátis e exato (sem Firecrawl). O PDF é uma tabela de linhas pareadas::
+O PDF é uma tabela de linhas pareadas::
 
     Item      1   2   3   4 ...          (ou "Questão" em múltipla escolha)
     Gabarito  C   E   X   C ...          (C/E, ou letras A–E; X = anulado)
@@ -10,19 +10,19 @@ Em provas de múltipla escolha as letras costumam vir grudadas
 "Gabarito"; células vazias da tabela aparecem como ``0`` e são descartadas.
 
 ``X`` = item anulado: fica em ``Gabarito.anulados`` e não deve virar registro.
+
+Download/cache de PDFs e o wrapper do poppler vivem em ``crawler/pdf.py``
+(re-exportados aqui por compatibilidade).
 """
 
 from __future__ import annotations
 
 import re
-import shutil
-import subprocess
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Literal, Optional
 
-CACHE_DIR = Path(__file__).resolve().parent / ".cache" / "pdf"
-USER_AGENT = "papiro-crawler/0.1 (+https://olavostauros.github.io/papiro/)"
+from .pdf import baixar, cache_path, pdf_to_text, pdftotext_bin  # noqa: F401
 
 _HEADER = re.compile(r"^\s*(Item|Itens|Quest\w*)\b\s*(.*)$", re.I)
 _ANSWER = re.compile(r"^\s*Gabarito\b\s*(.*)$", re.I)
@@ -63,21 +63,14 @@ class Gabarito:
         return r.lower()
 
 
-def pdftotext_bin() -> str:
-    found = shutil.which("pdftotext")
-    if found:
-        return found
-    for cand in (r"C:\Program Files\Git\mingw64\bin\pdftotext.exe",
-                 "/mingw64/bin/pdftotext", "/usr/bin/pdftotext"):
-        if Path(cand).exists():
-            return cand
-    raise FileNotFoundError("pdftotext (poppler) não encontrado no PATH")
-
-
-def pdf_to_text(pdf: Path) -> str:
-    out = subprocess.run([pdftotext_bin(), "-layout", "-enc", "UTF-8", str(pdf), "-"],
-                         capture_output=True, check=True)
-    return out.stdout.decode("utf-8", errors="replace")
+def resumo(gab: Gabarito) -> str:
+    """Auditoria de uma linha para um gabarito parseado."""
+    if not gab.respostas:
+        return "EMPTY"
+    nums = gab.itens
+    missing = [n for n in range(nums[0], nums[-1] + 1) if n not in gab.respostas]
+    return (f"{len(nums)} itens ({nums[0]}-{nums[-1]}), tipo={gab.tipo}, "
+            f"anulados: {gab.anulados or '-'} faltando: {missing or '-'}")
 
 
 def parse_text(text: str, url: str = "") -> Gabarito:
@@ -138,48 +131,19 @@ def parse_text(text: str, url: str = "") -> Gabarito:
 
 
 def parse_pdf(pdf: Path, url: str = "") -> Gabarito:
-    return parse_text(pdf_to_text(pdf), url=url)
+    if str(pdf).endswith(".txt"):
+        return parse_text(Path(pdf).read_text(), url=url)
+    return parse_text(pdf_to_text(Path(pdf)), url=url)
 
 
-def cache_path(url: str, cache_dir: Path = CACHE_DIR) -> Path:
-    m = re.search(r"/concursos/([^/]+)/arquivos/([^/?#]+)", url)
-    if m:
-        return cache_dir / m.group(1) / m.group(2)
-    return cache_dir / re.sub(r"[^A-Za-z0-9_.-]+", "_", url)[-120:]
-
-
-def baixar(url: str, cache_dir: Path = CACHE_DIR, client=None) -> Path:
-    """Baixa um PDF do CDN da Cebraspe (grátis) com cache em disco."""
-    dest = cache_path(url, cache_dir)
-    if dest.exists() and dest.stat().st_size > 0:
-        return dest
-    dest.parent.mkdir(parents=True, exist_ok=True)
-    import httpx
-    own = client is None
-    client = client or httpx.Client(timeout=60, follow_redirects=True,
-                                    headers={"User-Agent": USER_AGENT})
-    try:
-        r = client.get(url)
-        r.raise_for_status()
-        if not r.content.startswith(b"%PDF"):
-            raise GabaritoError(f"resposta de {url} não é um PDF")
-        tmp = dest.with_suffix(dest.suffix + ".part")
-        tmp.write_bytes(r.content)
-        tmp.replace(dest)
-    finally:
-        if own:
-            client.close()
-    return dest
-
-
-def carregar(url: str, cache_dir: Path = CACHE_DIR) -> Gabarito:
+def carregar(url: str, cache_dir: Optional[Path] = None) -> Gabarito:
     """Baixa (com cache) e parseia o gabarito definitivo de ``url``."""
-    return parse_pdf(baixar(url, cache_dir), url=url)
+    from .pdf import CACHE_DIR
+    return parse_pdf(baixar(url, cache_dir or CACHE_DIR), url=url)
 
 
 if __name__ == "__main__":
     import sys
     for arg in sys.argv[1:]:
         g = carregar(arg) if arg.startswith("http") else parse_pdf(Path(arg), url=arg)
-        print(f"{arg}: {len(g.itens)} itens ({g.itens[0]}–{g.itens[-1]}), tipo={g.tipo}, "
-              f"anulados={g.anulados}, codigo={g.codigo}, avisos={g.avisos}")
+        print(f"{arg}: {resumo(g)}, codigo={g.codigo}, avisos={g.avisos}")

@@ -80,7 +80,7 @@ def validar(prova: ProvaExtraida, gab: Gabarito, *, caderno: str = "",
             so_indicativo: Optional[set[int]] = None,
             texto_pdf: Optional[str] = None,
             verificar_texto: Optional[Iterable[int]] = None) -> Relatorio:
-    """``itens_pdf`` (numero → texto do item, de ``extract_local.itens_do_pdf``)
+    """``itens_pdf`` (numero → texto do item, do parser secundário da banca)
     liga o cruzamento com o PDF: renumeração ou item pulado reprovam."""
     r = Relatorio(caderno=caderno, url_prova=url_prova,
                   url_gabarito=url_gabarito or gab.url)

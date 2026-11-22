@@ -307,9 +307,10 @@ def test_teto_zero_fallback_para_antes_de_gastar(ambiente):
 # --- priorização ---------------------------------------------------------------
 
 def test_parse_anos():
-    assert run.parse_anos("2022-2024") == {2022, 2023, 2024}
-    assert run.parse_anos("2021, 2023") == {2021, 2023}
-    assert run.parse_anos(None) is None
+    from crawler.bancas.cebraspe import selecao
+    assert selecao.parse_anos("2022-2024") == {2022, 2023, 2024}
+    assert selecao.parse_anos("2021, 2023") == {2021, 2023}
+    assert selecao.parse_anos(None) is None
 
 
 def test_filtros_anos_orgao_prioridade(ambiente):

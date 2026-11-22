@@ -16,4 +16,4 @@ COPY api/ api/
 # data/ e jobs entram por volume em runtime (ver compose.yaml)
 
 ENV PYTHONUNBUFFERED=1
-CMD ["python", "-m", "crawler.cebraspe", "next"]
+CMD ["python", "-m", "crawler", "next"]

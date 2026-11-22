@@ -1,4 +1,4 @@
-from crawler import discover as d
+from crawler.bancas.cebraspe import api as d
 
 
 def _por_caderno(m):

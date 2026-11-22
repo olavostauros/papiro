@@ -1,29 +1,13 @@
-"""Job-driven assemble/audit for the Cebraspe local pipeline.
+"""Motor agnóstico de banca: audit + assemble dirigidos por ``job.json``.
 
-A job (crawler/jobs/<EVENTO>.json, also copied to the workdir) describes how
-prova/gabarito PDFs map onto cargos:
+A job (``crawler/jobs/<EVENTO>.json``, também copiado ao workdir) descreve
+como prova/gabarito mapeiam em cargos — ver o schema em
+``crawler/bancas/base.py``. O adapter é resolvido por ``job["banca"]``
+(default ``"cebraspe"``, valor de todos os jobs já comitados).
 
-{
-  "evento": "BANRISUL_25",
-  "meta": {"banca": "Cebraspe", "orgao": "...", "ano": 2025,
-           "id_orgao": "banrisul"},
-  "cargos": [
-    {"cargo": "Técnico em TI II – ...", "id_cargo": "tecnico-ti-...",
-     "provas": [
-       {"key": "CB1", "prova": "prova_CB1.pdf",
-        "gabarito": "gab_CB1.pdf", "tipo": "mc",
-        "arquivo": "077_BANRISUL_CB1_01.pdf",
-        "assunto": "Conhecimentos Básicos"}
-     ]}
-  ],
-  "variant": "modern",          // items.py variant for tipo "ce"
-  "skip": {"CB1": [16, 26]},    // un-extractable items (figures etc.)
-  "patch": {"002": {"36": "..."}}  // hand-reconstructed enunciados;
-           // a dict {"enunciado": ..., "alternativas": [...]} also replaces alternatives
-}
-
-prova/gabarito are local filenames inside the workdir; `arquivo` is the CDN
-nomeArquivo used to build the record's `fonte` URL.
+``prova``/``gabarito`` são nomes locais dentro do workdir; ``arquivo`` é o
+nome na fonte, combinado com ``job["evento"]`` via ``adapter.fonte_url``
+para montar o ``fonte`` dos registros.
 """
 import json
 import os
@@ -32,18 +16,20 @@ import sys
 import unicodedata
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from crawler.models import QuestaoExtraida, ProvaMeta, to_questao  # noqa: E402
-from crawler.cebraspe import items as items_mod  # noqa: E402
-from crawler.cebraspe import mc as mc_mod  # noqa: E402
-from crawler.cebraspe.gabarito import parse_gabarito  # noqa: E402
-from crawler.shards import SHARD_DIR, load_shard_records, write_shard  # noqa: E402
+from . import bancas
+from .gabarito import resumo as gab_resumo
+from .models import ProvaMeta, QuestaoExtraida, to_questao
+from .shards import SHARD_DIR, load_shard_records, write_shard
 
-CDN = "https://cdn.cebraspe.org.br/concursos/{evento}/arquivos/{nome}"
+_TIPO_GAB = {"ce": "certo_errado", "mc": "multipla_escolha"}
+
+
+def adapter_do(job: dict):
+    return bancas.get_adapter(job.get("banca") or "cebraspe")
 
 
 def clean(s):
-    s = re.sub(r"[-]", "", s)          # private-use glyphs
+    s = re.sub(r"[-]", "", s)  # private-use glyphs
     s = unicodedata.normalize("NFKC", s)
     s = re.sub(r"\s\d{1,2}$", "", s)      # stray page/line numbers
     return re.sub(r"\s+", " ", s).strip()
@@ -58,20 +44,60 @@ def _assunto_for(prova, item, numero):
     return prova.get("assunto", "")
 
 
-def parse_items(pdf_path, tipo, variant="modern", audit=False):
-    if tipo == "mc":
-        return mc_mod.parse_prova(str(pdf_path), audit=audit)
-    res = items_mod.parse_prova(str(pdf_path), variant=variant, audit=audit)
-    if audit:
-        its, dropped = res
-        return {n: {"enunciado": t, "alternativas": ["Certo", "Errado"],
-                    "assunto": ""} for n, t in its.items()}, dropped
-    return {n: {"enunciado": t, "alternativas": ["Certo", "Errado"],
-                "assunto": ""} for n, t in res.items()}
+def _entradas(workdir: Path, job: dict | None) -> list[dict]:
+    """Provas a auditar: as do job (cargos + unmatched) ou todo *.pdf."""
+    if job is not None:
+        seen = {}
+        for c in job["cargos"]:
+            for p in c["provas"]:
+                seen[p["key"]] = p
+        for p in job.get("unmatched", []):
+            seen[p["key"]] = p
+        return list(seen.values())
+    return [{"key": f.stem, "prova": f.name, "gabarito": "", "tipo": "ce"}
+            for f in sorted(workdir.glob("*.pdf"))]
 
 
-def build_records(job, workdir):
+def audit(workdir: Path, tipo_override: str | None = None, log=print) -> None:
+    """Parseia cada prova do workdir e escreve ``dropped_<key>.txt``."""
+    workdir = Path(workdir)
+    job_path = workdir / "job.json"
+    job = json.loads(job_path.read_text()) if job_path.exists() else None
+    adapter = adapter_do(job or {})
+    variant = (job or {}).get("variant", "modern")
+    for p in _entradas(workdir, job):
+        pdf = workdir / p["prova"]
+        if not pdf.exists():
+            continue
+        gab = None
+        if p.get("gabarito") and (workdir / p["gabarito"]).exists():
+            try:
+                gab = adapter.parse_gabarito(workdir / p["gabarito"])
+                log(f"== {p['key']}  gabarito: {gab_resumo(gab)}")
+            except Exception as ex:
+                log(f"== {p['key']}  gabarito FALHOU: {ex}")
+        tipo = tipo_override or p.get("tipo", "ce")
+        try:
+            its, dropped = adapter.parse_prova(pdf, tipo=tipo, variant=variant,
+                                               audit=True)
+        except Exception as ex:
+            log(f"   {p['key']}: PARSE FAIL {ex}")
+            continue
+        alts = sum(len(v["alternativas"]) for v in its.values())
+        log(f"   {p['key']} [{tipo}]: {len(its)} items, {alts} alternativas, "
+            f"{len(dropped)} dropped lines -> dropped_{p['key']}.txt")
+        (workdir / f"dropped_{p['key']}.txt").write_text(
+            "\n".join(f"p{pg} c{c} {t}" for pg, c, t in dropped))
+        if gab is not None:
+            missing = [n for n in gab.itens
+                       if n not in gab.anulados and n not in its]
+            if missing:
+                log(f"   ! gabarito items not parsed: {missing}")
+
+
+def build_records(job, workdir, adapter=None):
     """Yield (cargo_id, records, missing) per cargo; does not touch the dataset."""
+    adapter = adapter or adapter_do(job)
     skip = {k: set(v) for k, v in job.get("skip", {}).items()}
     patch = job.get("patch", {})
     variant = job.get("variant", "modern")
@@ -81,8 +107,9 @@ def build_records(job, workdir):
     def get_items(prova):
         key = prova["key"]
         if key not in cache:
-            cache[key] = parse_items(workdir / prova["prova"],
-                                     prova.get("tipo", "ce"), variant)
+            cache[key] = adapter.parse_prova(workdir / prova["prova"],
+                                             tipo=prova.get("tipo", "ce"),
+                                             variant=variant)
         return cache[key]
 
     for c in job["cargos"]:
@@ -92,13 +119,13 @@ def build_records(job, workdir):
             cargo=c["cargo"], ano=metas["ano"], fonte="",
             id_orgao=metas["id_orgao"], id_cargo=c["id_cargo"])
         for prova in c["provas"]:
-            gab = parse_gabarito(str(workdir / prova["gabarito"]))
+            tipo_gab = _TIPO_GAB.get(prova.get("tipo", "ce"), "certo_errado")
+            gab = adapter.parse_gabarito(workdir / prova["gabarito"])
             its = get_items(prova)
             meta = base_meta.model_copy(update={
-                "fonte": CDN.format(evento=job["evento"],
-                                    nome=prova["arquivo"])})
-            for n in sorted(gab):
-                if gab[n] == "X" or n in skip.get(prova["key"], set()):
+                "fonte": adapter.fonte_url(job["evento"], prova["arquivo"])})
+            for n in gab.itens:
+                if n in gab.anulados or n in skip.get(prova["key"], set()):
                     continue
                 p = patch.get(prova["key"], {}).get(str(n))
                 if n not in its:
@@ -123,11 +150,9 @@ def build_records(job, workdir):
                     numero=n + prova.get("num_offset", 0),
                     enunciado=clean(enun),
                     alternativas=[clean(a) for a in alts])
-                if prova.get("tipo", "ce") == "ce":
-                    gab_val = {"C": "certo", "E": "errado"}.get(
-                        gab[n], gab[n].lower())
-                else:
-                    gab_val = gab[n].lower()
+                # letra estranha (ex.: "A" em prova c/e) passa crua: to_questao reprova
+                gab_val = (gab.para_dataset(n, tipo_gab)
+                           or gab.respostas[n].lower())
                 recs.append(to_questao(q, m2, gabarito=gab_val).model_dump())
         yield c["id_cargo"], recs, missing
 
@@ -135,13 +160,14 @@ def build_records(job, workdir):
 def assemble(job_path, write=False):
     job = json.loads(Path(job_path).read_text())
     workdir = Path(job_path).resolve().parent
+    adapter = adapter_do(job)
     evento = job["evento"]
     shard_path = SHARD_DIR / f"{evento}.json"
     data = load_shard_records(shard_path) if shard_path.exists() else []
     existing = {q["id"] for q in data}
     total_new = 0
     new_records = []
-    for idc, recs, missing in build_records(job, workdir):
+    for idc, recs, missing in build_records(job, workdir, adapter):
         dups = [r["id"] for r in recs if r["id"] in existing]
         new = [r for r in recs if r["id"] not in existing]
         seen = set()
@@ -172,7 +198,7 @@ def _db_sync(records):
     if not os.environ.get("DATABASE_URL"):
         return
     try:
-        from crawler.db import get_engine, sync_records
+        from .db import get_engine, sync_records
         st = sync_records(records, get_engine())
         print(f"db: +{st.inserted} inseridos ({st.skipped} já existiam)")
     except Exception as exc:

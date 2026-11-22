@@ -130,6 +130,16 @@ def load_shard_records(path: Path) -> list[dict]:
     return shard_to_records(json.loads(path.read_text()))
 
 
+def iter_records(dataset: Path):
+    """Flat records de um diretório de shards ou de um JSON legado (lista)."""
+    dataset = Path(dataset)
+    if dataset.is_dir():
+        for p in sorted(dataset.glob("*.json")):
+            yield from shard_to_records(json.loads(p.read_text(encoding="utf-8")))
+    elif dataset.exists():
+        yield from json.loads(dataset.read_text(encoding="utf-8"))
+
+
 def write_shard(evento: str, records: list[dict], shard_dir: Path = SHARD_DIR) -> Path:
     shard_dir.mkdir(parents=True, exist_ok=True)
     path = shard_dir / f"{evento}.json"

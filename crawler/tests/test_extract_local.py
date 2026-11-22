@@ -1,6 +1,6 @@
 import json
 
-from crawler import extract_local as xl
+from crawler.bancas.cebraspe import textparse as xl
 from crawler.tests.conftest import requires_pdftotext
 
 

@@ -65,7 +65,7 @@ def test_multipla_escolha():
 
 def _cd(fixtures):
     import json
-    from crawler import extract_local as xl
+    from crawler.bancas.cebraspe import textparse as xl
     texto = (fixtures / "prova_cd26pl_cg.layout.txt").read_text(encoding="utf-8")
     resp = {int(k): v for k, v in json.loads(
         (fixtures / "gab_cd26pl_cg.json").read_text(encoding="utf-8")).items()}

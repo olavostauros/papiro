@@ -47,7 +47,7 @@ def evento():
 @pytest.fixture
 def fake_fetch():
     """Fetch que responde a partir das fixtures da API."""
-    from crawler.discover import API, LIST_URL
+    from crawler.bancas.cebraspe.api import API, LIST_URL
 
     def fetch(url: str):
         if url == LIST_URL:

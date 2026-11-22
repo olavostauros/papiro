@@ -1,8 +1,9 @@
-"""Extrator LOCAL (zero crédito) para provas certo/errado da Cebraspe.
+"""Extrator LOCAL (zero crédito) de provas Cebraspe via ``pdftotext -layout``.
 
-Protótipo: usa só ``pdftotext -layout`` (poppler). Não substitui
-``crawler/extract.py``; serve para (a) cruzar a extração do Firecrawl com o
-PDF (``validate.conferir_com_pdf``) e (b) ser avaliado como extrator padrão.
+Motor SECUNDÁRIO do adapter (o autoritativo é ``prova.py``, por coordenadas
+``pdftohtml -xml``): serve para cruzar extrações com o texto do PDF
+(``crawler/validate.conferir_com_pdf``), detectar itens com fórmula
+ilegível e cobrir layouts onde o parser de coordenadas não se aplica.
 
 Layout Cebraspe (duas colunas)::
 
@@ -31,8 +32,8 @@ from collections import Counter
 from pathlib import Path
 from typing import Iterable, Optional
 
-from .gabarito import pdf_to_text
-from .models import ProvaExtraida, QuestaoExtraida
+from ...models import ProvaExtraida, QuestaoExtraida
+from ...pdf import pdf_to_text
 
 GAP_MIN = 2            # espaços que separam as colunas numa linha
 CONT_MIN, CONT_MAX = 2, 7

@@ -31,10 +31,15 @@ sites das bancas → crawler → PDFs → extração → shards (backup) → Pos
 ## Crawler
 
 The crawler is being reworked into a banca-agnostic pipeline — audit +
-phased plan in `.agents/docs/crawler-rework.md`. Today it is Cebraspe-only
-and job-driven (run from the repo root with `.venv/bin/python`):
+phased plan in `.agents/docs/crawler-rework.md`. Layout: generic core in
+`crawler/` (models/shards/db/validate/gabarito/pdf/pipeline) + per-banca
+adapters in `crawler/bancas/` (`base.py` = `BancaAdapter` contract;
+`cebraspe/` = api/prova/textparse/selecao). `job["banca"]` resolves the
+adapter (default `cebraspe`). Unified CLI `python -m crawler` (the old
+`python -m crawler.cebraspe` still forwards). Job-driven workflow (run
+from the repo root with `.venv/bin/python`):
 
-1. `.venv/bin/python -m crawler.cebraspe next --probe 30` — ranks
+1. `.venv/bin/python -m crawler next --probe 30` — ranks
    un-ingested events (shard filenames = Cebraspe `eventoURL`) by ano/vagas
    and probes each detail for provas.
 2. `... files <EVENTO_URL>` shows cargos + prova/gabarito classification;
@@ -51,13 +56,15 @@ and job-driven (run from the repo root with `.venv/bin/python`):
    (anulado), dedups by `id`, writes the shard and upserts the DB.
 6. Commit each concurso batch describing cargo coverage and anulados.
 
-Parsers: `crawler/cebraspe/items.py` (certo/errado; `variant="old"` for
-PF_18-era provas), `mc.py` (Questão N + alternativas A-E + per-item
-`assunto`), `cebraspe/gabarito.py` (`Item/Gabarito` C/E and `Questão` A-E/X).
-A second, automated stack exists alongside (`discover.py` + `run.py` +
-`extract_local.py` + `validate.py`): manifest-driven selection, `pdftotext
--layout` extraction, validation against gabarito + PDF text — being merged
-into the unified pipeline per the rework doc.
+Parsers: `crawler/bancas/cebraspe/prova.py` — the authoritative coordinate
+parser (`pdftohtml -xml`): `tipo="ce"` certo/errado (`variant="old"` for
+PF_18-era provas), `tipo="mc"` (Questão N + alternativas A-E + per-item
+`assunto`). `crawler/gabarito.py` — `Gabarito` dataclass (`Item/Gabarito`
+C/E and `Questão` A-E/X). `bancas/cebraspe/textparse.py` — secondary
+`pdftotext -layout` engine for PDF cross-checks. The automated manifest
+stack (`python -m crawler discover` → `run.py` via `crawler ingest` +
+`validate.py`) shares the same adapter — being merged into the unified
+pipeline per the rework doc.
 
 ## Firecrawl
 
