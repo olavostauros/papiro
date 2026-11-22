@@ -1,0 +1,431 @@
+{
+ "evento": "FUB_22",
+ "workdir": "/tmp/fub_22",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Fundação Universidade de Brasília",
+  "ano": 2022,
+  "id_orgao": "fub"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Administrador",
+   "id_cargo": "administrador",
+   "provas": [
+    {
+     "key": "cb01",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_CB1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_FUB_001_01.pdf",
+     "gabarito": "gab_FUB_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Arquiteto E Urbanista",
+   "id_cargo": "arquiteto-e-urbanista",
+   "provas": [
+    {
+     "key": "cb02",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_CB1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_FUB_002_01.pdf",
+     "gabarito": "gab_FUB_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Assistente Social",
+   "id_cargo": "assistente-social",
+   "provas": [
+    {
+     "key": "cb03",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_CB1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_FUB_003_01.pdf",
+     "gabarito": "gab_FUB_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Bibliotecário - Documentalista",
+   "id_cargo": "bibliotecario-documentalista",
+   "provas": [
+    {
+     "key": "cb04",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_CB1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_FUB_004_01.pdf",
+     "gabarito": "gab_FUB_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Contador",
+   "id_cargo": "contador",
+   "provas": [
+    {
+     "key": "cb05",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_CB1_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_FUB_005_01.pdf",
+     "gabarito": "gab_FUB_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Engenheiro – Civil",
+   "id_cargo": "engenheiro-civil",
+   "provas": [
+    {
+     "key": "cb06",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_CB1_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_FUB_006_01.pdf",
+     "gabarito": "gab_FUB_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Estatístico",
+   "id_cargo": "estatistico",
+   "provas": [
+    {
+     "key": "cb07",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_CB1_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_FUB_007_01.pdf",
+     "gabarito": "gab_FUB_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Farmacêutico",
+   "id_cargo": "farmaceutico",
+   "provas": [
+    {
+     "key": "cb08",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_CB1_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_FUB_008_01.pdf",
+     "gabarito": "gab_FUB_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Fonoaudiólogo",
+   "id_cargo": "fonoaudiologo",
+   "provas": [
+    {
+     "key": "cb09",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_CB1_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_FUB_009_01.pdf",
+     "gabarito": "gab_FUB_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Médico – Trabalho",
+   "id_cargo": "medico-trabalho",
+   "provas": [
+    {
+     "key": "cb10",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_CB1_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_FUB_010_01.pdf",
+     "gabarito": "gab_FUB_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Produtor Cultural",
+   "id_cargo": "produtor-cultural",
+   "provas": [
+    {
+     "key": "cb11",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_CB1_01.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_FUB_011_01.pdf",
+     "gabarito": "gab_FUB_011_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Psicólogo – Organizacional",
+   "id_cargo": "psicologo-organizacional",
+   "provas": [
+    {
+     "key": "cb12",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_CB1_01.PDF"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_FUB_012_01.pdf",
+     "gabarito": "gab_FUB_012_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Químico",
+   "id_cargo": "quimico",
+   "provas": [
+    {
+     "key": "cb13",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_CB1_01.PDF"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_FUB_013_01.pdf",
+     "gabarito": "gab_FUB_013_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_013_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "Técnico Em Assuntos Educacionais",
+   "id_cargo": "tecnico-em-assuntos-educacionais",
+   "provas": [
+    {
+     "key": "cb14",
+     "prova": "pro_FUB_CB1_01.pdf",
+     "gabarito": "gab_FUB_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_CB1_01.PDF"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_FUB_014_01.pdf",
+     "gabarito": "gab_FUB_014_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_014_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "Assistente Em Administração",
+   "id_cargo": "assistente-em-administracao",
+   "provas": [
+    {
+     "key": "cb15",
+     "prova": "pro_FUB_CB3_01.pdf",
+     "gabarito": "gab_FUB_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_CB3_01.PDF"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_FUB_015_01.pdf",
+     "gabarito": "gab_FUB_015_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_015_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "Técnico De Tecnologia Da Informação",
+   "id_cargo": "tecnico-de-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cb16",
+     "prova": "pro_FUB_CB2_01.pdf",
+     "gabarito": "gab_FUB_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_CB2_01.PDF"
+    },
+    {
+     "key": "esp16",
+     "prova": "pro_FUB_016_01.pdf",
+     "gabarito": "gab_FUB_016_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_016_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "17",
+   "cargo": "Técnico Em Contabilidade",
+   "id_cargo": "tecnico-em-contabilidade",
+   "provas": [
+    {
+     "key": "cb17",
+     "prova": "pro_FUB_CB3_01.pdf",
+     "gabarito": "gab_FUB_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_CB3_01.PDF"
+    },
+    {
+     "key": "esp17",
+     "prova": "pro_FUB_017_01.pdf",
+     "gabarito": "gab_FUB_017_01.pdf",
+     "tipo": "ce",
+     "arquivo": "678_FUB_017_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {
+  "esp07": [
+   105,
+   106,
+   108
+  ],
+  "esp13": [
+   101,
+   117,
+   118,
+   119,
+   120
+  ],
+  "esp15": [
+   102
+  ],
+  "esp16": [
+   60
+  ],
+  "esp17": [
+   74
+  ]
+ },
+ "patch": {
+  "esp07": {
+   "69": "Assumindo-se que E(X²) = 552, obtém-se um valor superior a 5 para o desvio padrão dos dados referentes ao tempo de defesa.",
+   "82": "Considerando-se, para certa hipótese, que a distribuição amostral de uma estatística S seja normal, com média μS e desvio padrão σS, então, caso se verifique, para a única amostra aleatória, que o escore z dessa estatística esteja fora do intervalo de –1,96 a 1,96, e se o tamanho desse teste bilateral for α = 5%, é correto concluir que z difere significativamente do que se pode esperar para essa hipótese, pois está fora da região de aceitação da hipótese.",
+   "97": "Considere que um usuário inicie uma sessão R e execute, na janela R Console, os códigos require(tidyverse); idade <- c(20, 30, NA, 30, 40, 50); altura <- c(1.6, 1.7, 1.5, 1.8, 1.7, 1.7); dados <- data.frame(idade, altura). A aplicação do código dados %>% filter(idade==30) proporciona o resultado \"[1] 30 30\".",
+   "98": "Considere que um usuário inicie uma sessão R e execute, na janela R Console, os códigos require(tidyverse); idade <- c(20, 30, NA, 30, 40, 50); altura <- c(1.6, 1.7, 1.5, 1.8, 1.7, 1.7); dados <- data.frame(idade, altura). O código write_csv(dados, \"D:/dados.csv\") permite salvar o data frame dados em \"D:/dados.csv\".",
+   "99": "Considere que um usuário inicie uma sessão R e execute, na janela R Console, os códigos require(tidyverse); idade <- c(20, 30, NA, 30, 40, 50); altura <- c(1.6, 1.7, 1.5, 1.8, 1.7, 1.7); dados <- data.frame(idade, altura). Os códigos dados %>% na.omit() e dados %>% drop_na() proporcionam o mesmo resultado.",
+   "100": "Considere que um usuário inicie uma sessão R e execute, na janela R Console, os códigos require(tidyverse); idade <- c(20, 30, NA, 30, 40, 50); altura <- c(1.6, 1.7, 1.5, 1.8, 1.7, 1.7); dados <- data.frame(idade, altura). O código dados %>% mutate(alt = altura*100) retorna um data frame com colunas idade, altura e alt e com os valores: (20, 1.6, 160), (30, 1.7, 170), (NA, 1.5, 150), (30, 1.8, 180), (40, 1.7, 170) e (50, 1.7, 170).",
+   "101": "Considere que um usuário inicie uma sessão R e execute, na janela R Console, os códigos require(tidyverse); idade <- c(20, 30, NA, 30, 40, 50); altura <- c(1.6, 1.7, 1.5, 1.8, 1.7, 1.7); dados <- data.frame(idade, altura). Os códigos dados %>% arrange(desc(altura)) e dados %>% order(altura, decreasing = TRUE) retornam o mesmo resultado.",
+   "102": "Ao final do loop while formado pelos códigos x <- 1 e while (x < 5) { x = x + 1 }, o valor da variável x será igual a 4.",
+   "103": "A variável x, que resulta da aplicação do loop for formado pelos códigos x <- NULL e for (i in 1:5) { x[i] = i }, é igual à variável y obtida mediante aplicação do seguinte código: y <- 1:5.",
+   "104": "Com respeito ao código x <- 4; repeat { print(x); x = x - 1; if (x < 0) { break } }, é correto afirmar que a variável x resultante da aplicação do loop repeat é igual ao vetor c(4, 3, 2, 1, 0).",
+   "116": "Se i ≠ j, a covariância entre πᵢ e πⱼ é negativa.",
+   "117": "O valor esperado de Ȳ é igual a μ.",
+   "118": "A variância de Ȳ é igual a V²/n × (1 − n/N).",
+   "119": "Se o estimador da variância populacional for S² = (1/(n−1)) Σₖ₌₁ⁿ (Yₖ − Ȳ)², então o valor esperado de S é igual a V.",
+   "120": "Var(πᵢ) = (n/N) × (1 − 1/N)."
+  },
+  "esp13": {
+   "57": "Considere que um molde de aço de 40 g, com capacidade calorífica à pressão constante cp = 0,5 kJ · kg⁻¹ · K⁻¹, inicialmente a 450 ℃, tenha sido resfriado em um óleo com capacidade calorífica à pressão constante cp = 2,5 kJ · kg⁻¹ · K⁻¹, inicialmente a 25 ℃. Nessa situação, a variação de entropia será superior a +16 kJ/K, considerando-se a ausência de perdas térmicas.",
+   "59": "Considere um gás ideal com capacidade calorífica constante de γ̄ passando por um processo reversível adiabático. Nesse caso, a razão entre as temperaturas inicial e final, T1 e T2, e as pressões inicial e final, P1 e P2, desse sistema pode ser corretamente escrita pela seguinte fórmula: T2/T1 = (P2/P1)^((γ̄−1)/γ̄).",
+   "60": "Considere que, para a reação 2 NOCl (g) ⇌ 2 NO (g) + Cl2 (g), ocorrendo a 796 ℃, a constante de equilíbrio com base nas concentrações valha Kc = 3,75 × 10⁻⁶ e que a constante universal dos gases perfeitos valha 0,082 L · atm · K⁻¹ · mol⁻¹. Nesse caso, a constante de equilíbrio com base nas pressões parciais, Kp, é inferior a 1 × 10⁻⁴."
+  },
+  "esp15": {
+   "96": "Uma empresa analisa seus estoques para melhorar a metrificação dos respectivos custos e escolheu, aleatoriamente, três produtos: A (quantidade média em estoque 600, custo do item R$ 3,00, demanda atual 3.000), G (400, R$ 4,00, 2.000) e P (200, R$ 6,00, 1.000). Considerando que a referida empresa faça cinquenta vendas de cada um dos itens por ano: O valor total do estoque dos produtos A, G e P é de R$ 5.000,00.",
+   "97": "Uma empresa analisa seus estoques para melhorar a metrificação dos respectivos custos e escolheu, aleatoriamente, três produtos: A (quantidade média em estoque 600, custo do item R$ 3,00, demanda atual 3.000), G (400, R$ 4,00, 2.000) e P (200, R$ 6,00, 1.000). Considerando que a referida empresa faça cinquenta vendas de cada um dos itens por ano: O valor da cobertura de estoque dos produtos A, G e P, em semanas, é igual a 10, 12 e 14, respectivamente.",
+   "98": "Uma empresa analisa seus estoques para melhorar a metrificação dos respectivos custos e escolheu, aleatoriamente, três produtos: A (quantidade média em estoque 600, custo do item R$ 3,00, demanda atual 3.000), G (400, R$ 4,00, 2.000) e P (200, R$ 6,00, 1.000). Considerando que a referida empresa faça cinquenta vendas de cada um dos itens por ano: O giro dos produtos A, G e P é igual.",
+   "99": "Tendo como referência a árvore de produto em que X contém 4 unidades de A e 2 unidades de B, A contém 2 unidades de C e 1 unidade de D, e B contém 1 unidade de F e 2 unidades de E, e considerando que o lead time de produção, em semanas, de X, A, B, C, D, E e F seja igual a 2, 4, 1, 4, 1, 2 e 1, respectivamente: Para a entrega do produto final X, são necessárias, no mínimo, 9 semanas, com o caminho crítico C, A e X.",
+   "100": "Tendo como referência a árvore de produto em que X contém 4 unidades de A e 2 unidades de B, A contém 2 unidades de C e 1 unidade de D, e B contém 1 unidade de F e 2 unidades de E, e considerando que o lead time de produção, em semanas, de X, A, B, C, D, E e F seja igual a 2, 4, 1, 4, 1, 2 e 1, respectivamente: Para a fabricação de 10 unidades do produto X, são necessárias 80 unidades do produto C.",
+   "101": "Para que a função f(x) = √(−x² + 3x − 2) esteja bem definida, é necessário que x ∈ [1,2].",
+   "103": "Para que o sistema linear { ax − y + z = 1; x − z = 2; 2y + az = 3 } tenha única solução, é necessário que a ≠ 2/3.",
+   "104": "Um paralelogramo ABCD com AB = 10 cm, BC = 6 cm e ângulo ABC = 30° tem área igual a 30 cm².",
+   "105": "Considere que um triângulo ABC tenha lados com as seguintes medidas: 3 cm, 5 cm e 7 cm. Se o triângulo DEF é semelhante ao triângulo ABC e tem perímetro 25 cm, então o menor lado do triângulo DEF é 5 cm.",
+   "106": "Seja ABC um triângulo com ângulo ABC = 90° e ângulo ACB = 30°. Se BC = √3 cm e se a altura com relação ao vértice B encontra o segmento AC no ponto D, então o comprimento do segmento AD é 1 cm.",
+   "107": "Uma pirâmide de altura h = 2√3 cm com base dada por um hexágono regular de lado ℓ = 3 cm tem volume V = √3 cm³.",
+   "109": "Vinte documentos internos distintos da UnB devem ser distribuídos aos servidores A, B e C, para que os analisem e despachem. Nessa situação, sabendo-se que A e B devem ficar com exatamente seis documentos cada um, e C com oito, então existem (20!)³/((6! · 14!)² · 8! · 12!) maneiras distintas de distribuir os 20 documentos entre os servidores A, B e C."
+  }
+ }
+}

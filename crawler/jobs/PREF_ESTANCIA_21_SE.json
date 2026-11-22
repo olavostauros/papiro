@@ -1,0 +1,1133 @@
+{
+ "evento": "PREF_ESTANCIA_21_SE",
+ "workdir": "/tmp/pref_estancia_21_se",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "PREFEITURA MUNICIPAL DE ESTÂNCIA",
+  "ano": 2021,
+  "id_orgao": "pref"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Cargo 1: Médico – Área: Medicina (Clínico-Geral)",
+   "id_cargo": "medico-clinico-geral",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_001_01",
+     "prova": "pro_PREF_ESTANCIA_SE_001_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_001_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG2_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG2_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Cargo 2: Médico – Área: Medicina do Trabalho",
+   "id_cargo": "medico-do-trabalho",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_002_01",
+     "prova": "pro_PREF_ESTANCIA_SE_002_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_002_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG2_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG2_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Cargo 3: Médico – Área: Programa de Saúde da Família (PSF)",
+   "id_cargo": "medico-psf",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_003_01",
+     "prova": "pro_PREF_ESTANCIA_SE_003_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_003_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG2_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG2_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Cargo 4: Médico – Área: Psiquiatria",
+   "id_cargo": "medico-psiquiatria",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_004_01",
+     "prova": "pro_PREF_ESTANCIA_SE_004_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_004_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_004_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG2_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG2_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Cargo 5: Médico – Área: Psiquiatria CAPS",
+   "id_cargo": "medico-psiquiatria-caps",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_005_01",
+     "prova": "pro_PREF_ESTANCIA_SE_005_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_005_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_005_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG2_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG2_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Cargo 6: Médico – Área: Serviços de Verificação de Óbito (SVO)",
+   "id_cargo": "medico-svo",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_006_01",
+     "prova": "pro_PREF_ESTANCIA_SE_006_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_006_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_006_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG2_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG2_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Cargo 7: Professor de Educação Básica – Área: Artes",
+   "id_cargo": "professor-artes",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_007_01",
+     "prova": "pro_PREF_ESTANCIA_SE_007_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_007_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_007_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG1_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Cargo 8: Professor de Educação Básica – Área: Ciências",
+   "id_cargo": "professor-ciencias",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_008_01",
+     "prova": "pro_PREF_ESTANCIA_SE_008_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_008_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_008_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG1_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Cargo 9: Professor de Educação Básica – Área: Educação Física)",
+   "id_cargo": "professor-educacao-fisica",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_009_01",
+     "prova": "pro_PREF_ESTANCIA_SE_009_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_009_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_009_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG1_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Cargo 10: Professor de Educação Básica – Área: Geografia",
+   "id_cargo": "professor-geografia",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_010_01",
+     "prova": "pro_PREF_ESTANCIA_SE_010_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_010_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_010_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG1_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Cargo 11: Professor de Educação Básica – Área: História",
+   "id_cargo": "professor-historia",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_011_01",
+     "prova": "pro_PREF_ESTANCIA_SE_011_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_011_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_011_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG1_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Cargo 12: Professor de Educação Básica – Área: Matemática",
+   "id_cargo": "professor-matematica",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_012_01",
+     "prova": "pro_PREF_ESTANCIA_SE_012_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_012_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_012_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG1_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Cargo 13: Professor de Educação Básica – Área: Pedagogia",
+   "id_cargo": "professor-pedagogia",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_013_01",
+     "prova": "pro_PREF_ESTANCIA_SE_013_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_013_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_013_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG1_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "Cargo 14: Professor de Educação Básica – Área: Português",
+   "id_cargo": "professor-portugues",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_014_01",
+     "prova": "pro_PREF_ESTANCIA_SE_014_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_014_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_014_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG1_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "Cargo 15: Professor de Educação Básica – Área: Português/Inglês",
+   "id_cargo": "professor-portugues-ingles",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_015_01",
+     "prova": "pro_PREF_ESTANCIA_SE_015_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_015_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_015_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG1_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "Cargo 16: Técnico Municipal de Nível Superior – Área: Administração",
+   "id_cargo": "tecnico-administracao",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_016_01",
+     "prova": "pro_PREF_ESTANCIA_SE_016_01.pdf",
+     "gabarito": "gab_016_fixed.txt",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_016_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG1_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "17",
+   "cargo": "Cargo 17: Técnico Municipal de Nível Superior – Área: Analista Ambiental",
+   "id_cargo": "analista-ambiental",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_017_01",
+     "prova": "pro_PREF_ESTANCIA_SE_017_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_017_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_017_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG1_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "18",
+   "cargo": "Cargo 18: Técnico Municipal de Nível Superior – Área: Arquitetura",
+   "id_cargo": "tecnico-arquitetura",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_018_01",
+     "prova": "pro_PREF_ESTANCIA_SE_018_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_018_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_018_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG1_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "19",
+   "cargo": "Cargo 19: Técnico Municipal de Nível Superior – Área: Arquivologia",
+   "id_cargo": "tecnico-arquivologia",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_019_01",
+     "prova": "pro_PREF_ESTANCIA_SE_019_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_019_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_019_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG1_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "20",
+   "cargo": "Cargo 20: Técnico Municipal de Nível Superior – Área: Biblioteconomia",
+   "id_cargo": "tecnico-biblioteconomia",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_020_01",
+     "prova": "pro_PREF_ESTANCIA_SE_020_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_020_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_020_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG1_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "21",
+   "cargo": "Cargo 21: Técnico Municipal de Nível Superior – Área: Ciências da Computação",
+   "id_cargo": "tecnico-ciencias-computacao",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_021_01",
+     "prova": "pro_PREF_ESTANCIA_SE_021_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_021_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_021_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG1_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "22",
+   "cargo": "Cargo 22: Técnico Municipal de Nível Superior – Área: Cirurgia Buco-Maxilo-Facial",
+   "id_cargo": "tecnico-cirurgia-buco-maxilo-facial",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_022_01",
+     "prova": "pro_PREF_ESTANCIA_SE_022_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_022_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_022_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG2_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG2_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "23",
+   "cargo": "Cargo 23: Técnico Municipal de Nível Superior – Área: Cirurgia Odontopediátrica",
+   "id_cargo": "tecnico-cirurgia-odontopediatrica",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_023_01",
+     "prova": "pro_PREF_ESTANCIA_SE_023_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_023_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_023_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG2_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG2_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "24",
+   "cargo": "Cargo 24: Técnico Municipal de Nível Superior – Área: Contabilidade",
+   "id_cargo": "tecnico-contabilidade",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_024_01",
+     "prova": "pro_PREF_ESTANCIA_SE_024_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_024_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_024_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG1_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "25",
+   "cargo": "Cargo 25: Técnico Municipal de Nível Superior – Área: Educador Físico",
+   "id_cargo": "educador-fisico",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_025_01",
+     "prova": "pro_PREF_ESTANCIA_SE_025_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_025_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_025_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG1_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "26",
+   "cargo": "Cargo 26: Técnico Municipal de Nível Superior – Área: Enfermagem",
+   "id_cargo": "tecnico-enfermagem",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_026_01",
+     "prova": "pro_PREF_ESTANCIA_SE_026_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_026_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_026_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG2_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG2_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "27",
+   "cargo": "Cargo 27: Técnico Municipal de Nível Superior – Área: Enfermagem CAPS",
+   "id_cargo": "tecnico-enfermagem-caps",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_027_01",
+     "prova": "pro_PREF_ESTANCIA_SE_027_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_027_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_027_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG2_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG2_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "28",
+   "cargo": "Cargo 28: Técnico Municipal de Nível Superior – Área: Enfermagem PSF",
+   "id_cargo": "tecnico-enfermagem-psf",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_028_01",
+     "prova": "pro_PREF_ESTANCIA_SE_028_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_028_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_028_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG2_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG2_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "29",
+   "cargo": "Cargo 29: Técnico Municipal de Nível Superior – Área: Engenharia Agrônoma",
+   "id_cargo": "engenheiro-agronomo",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_029_01",
+     "prova": "pro_PREF_ESTANCIA_SE_029_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_029_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_029_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG1_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "30",
+   "cargo": "Cargo 30: Técnico Municipal de Nível Superior – Área: Engenharia Civil",
+   "id_cargo": "engenheiro-civil",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_030_01",
+     "prova": "pro_PREF_ESTANCIA_SE_030_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_030_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_030_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG1_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "31",
+   "cargo": "Cargo 31: Técnico Municipal de Nível Superior – Área: Farmácia",
+   "id_cargo": "tecnico-farmacia",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_031_01",
+     "prova": "pro_PREF_ESTANCIA_SE_031_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_031_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_031_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG2_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG2_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "32",
+   "cargo": "Cargo 32: Técnico Municipal de Nível Superior – Área: Fisioterapia",
+   "id_cargo": "tecnico-fisioterapia",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_032_01",
+     "prova": "pro_PREF_ESTANCIA_SE_032_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_032_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_032_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG2_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG2_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "33",
+   "cargo": "Cargo 33: Técnico Municipal de Nível Superior – Área: Medicina Veterinária",
+   "id_cargo": "medico-veterinario",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_033_01",
+     "prova": "pro_PREF_ESTANCIA_SE_033_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_033_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_033_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG2_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG2_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "34",
+   "cargo": "Cargo 34: Técnico Municipal de Nível Superior – Área: Nutrição",
+   "id_cargo": "tecnico-nutricao",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_034_01",
+     "prova": "pro_PREF_ESTANCIA_SE_034_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_034_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_034_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG2_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG2_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "35",
+   "cargo": "Cargo 35: Técnico Municipal de Nível Superior – Área: Odontologia",
+   "id_cargo": "tecnico-odontologia",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_035_01",
+     "prova": "pro_PREF_ESTANCIA_SE_035_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_035_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_035_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG2_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG2_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "36",
+   "cargo": "Cargo 36: Técnico Municipal de Nível Superior – Área: Psicologia",
+   "id_cargo": "tecnico-psicologia",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_036_01",
+     "prova": "pro_PREF_ESTANCIA_SE_036_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_036_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_036_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG2_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG2_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "37",
+   "cargo": "Cargo 37: Técnico Municipal de Nível Superior – Área: Serviço Social",
+   "id_cargo": "tecnico-servico-social",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_037_01",
+     "prova": "pro_PREF_ESTANCIA_SE_037_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_037_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_037_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG2_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG2_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "38",
+   "cargo": "Cargo 38: Técnico Municipal de Nível Superior – Área: Turismo",
+   "id_cargo": "tecnico-turismo",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_038_01",
+     "prova": "pro_PREF_ESTANCIA_SE_038_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_038_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_038_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG1_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "39",
+   "cargo": "Cargo 39: Agente Comunitário de Saúde",
+   "id_cargo": "agente-comunitario-de-saude",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_039_01",
+     "prova": "pro_PREF_ESTANCIA_SE_039_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_039_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_039_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG5_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG5_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG5_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG5_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "40",
+   "cargo": "Cargo 40: Agente de Endemias",
+   "id_cargo": "agente-de-endemias",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_040_01",
+     "prova": "pro_PREF_ESTANCIA_SE_040_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_040_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_040_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG5_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG5_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG5_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG5_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "41",
+   "cargo": "Cargo 41: Auxiliar de Desenvolvimento Infantil (ADI)",
+   "id_cargo": "auxiliar-desenvolvimento-infantil",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_041_01",
+     "prova": "pro_PREF_ESTANCIA_SE_041_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_041_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_041_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG3_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG3_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG3_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG3_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "42",
+   "cargo": "Cargo 42: Fiscal Municipal – Área: Obras e Posturas",
+   "id_cargo": "fiscal-obras-posturas",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_042_01",
+     "prova": "pro_PREF_ESTANCIA_SE_042_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_042_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_042_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG3_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG3_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG3_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG3_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "43",
+   "cargo": "Cargo 43: Técnico Municipal de Nível Médio – Área: Agropecuária/Inspeção Animal e Vegetal",
+   "id_cargo": "tecnico-agropecuaria-inspecao",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_043_01",
+     "prova": "pro_PREF_ESTANCIA_SE_043_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_043_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_043_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG3_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG3_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG3_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG3_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "44",
+   "cargo": "Cargo 44: Técnico Municipal de Nível Médio – Área: Técnico de Enfermagem",
+   "id_cargo": "tecnico-enfermagem-medio",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_044_01",
+     "prova": "pro_PREF_ESTANCIA_SE_044_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_044_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_044_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG5_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG5_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG5_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG5_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "45",
+   "cargo": "Cargo 45: Técnico Municipal de Nível Médio – Área: Técnico De Enfermagem PSF",
+   "id_cargo": "tecnico-enfermagem-psf-medio",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_045_01",
+     "prova": "pro_PREF_ESTANCIA_SE_045_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_045_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_045_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG5_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG5_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG5_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG5_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "46",
+   "cargo": "Cargo 46: Técnico Municipal de Nível Médio – Área: Técnico de Informática",
+   "id_cargo": "tecnico-informatica-medio",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_046_01",
+     "prova": "pro_PREF_ESTANCIA_SE_046_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_046_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_046_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG3_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG3_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG3_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG3_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "47",
+   "cargo": "Cargo 47: Técnico Municipal de Nível Médio – Área: Técnico de Saúde Bucal",
+   "id_cargo": "tecnico-saude-bucal",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_047_01",
+     "prova": "pro_PREF_ESTANCIA_SE_047_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_047_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_047_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG5_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG5_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG5_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG5_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "48",
+   "cargo": "Cargo 48: Técnico Municipal de Nível Médio – Área: Técnico de Segurança do Trabalho",
+   "id_cargo": "tecnico-seguranca-trabalho",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_048_01",
+     "prova": "pro_PREF_ESTANCIA_SE_048_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_048_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_048_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG3_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG3_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG3_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG3_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "49",
+   "cargo": "Cargo 49: Auxiliar de Saúde Bucal",
+   "id_cargo": "auxiliar-saude-bucal",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_049_01",
+     "prova": "pro_PREF_ESTANCIA_SE_049_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_049_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_049_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG4_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG4_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG4_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG4_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "50",
+   "cargo": "Cargo 50: Motorista de Veículos Pesados",
+   "id_cargo": "motorista-veiculos-pesados",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_050_01",
+     "prova": "pro_PREF_ESTANCIA_SE_050_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_050_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_050_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG4_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG4_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG4_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG4_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "51",
+   "cargo": "Cargo 51: Operador de Máquinas Pesadas",
+   "id_cargo": "operador-maquinas-pesadas",
+   "provas": [
+    {
+     "key": "PREF_ESTANCIA_SE_051_01",
+     "prova": "pro_PREF_ESTANCIA_SE_051_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_051_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_051_01.PDF"
+    },
+    {
+     "key": "PREF_ESTANCIA_SE_CG4_01",
+     "prova": "pro_PREF_ESTANCIA_SE_CG4_01.pdf",
+     "gabarito": "gab_PREF_ESTANCIA_SE_CG4_01.pdf",
+     "tipo": "mc",
+     "arquivo": "645_PREF_ESTANCIA_SE_CG4_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {
+  "PREF_ESTANCIA_SE_CG2_01": [
+   8,
+   9,
+   14
+  ],
+  "PREF_ESTANCIA_SE_CG1_01": [
+   11,
+   12,
+   17
+  ],
+  "PREF_ESTANCIA_SE_CG5_01": [
+   9
+  ],
+  "PREF_ESTANCIA_SE_CG3_01": [
+   11
+  ],
+  "PREF_ESTANCIA_SE_CG4_01": [
+   22
+  ],
+  "PREF_ESTANCIA_SE_008_01": [
+   31,
+   32
+  ],
+  "PREF_ESTANCIA_SE_009_01": [
+   29
+  ],
+  "PREF_ESTANCIA_SE_023_01": [
+   33
+  ],
+  "PREF_ESTANCIA_SE_026_01": [
+   35
+  ],
+  "PREF_ESTANCIA_SE_031_01": [
+   27,
+   31,
+   32,
+   33,
+   34
+  ],
+  "PREF_ESTANCIA_SE_034_01": [
+   26
+  ],
+  "PREF_ESTANCIA_SE_012_01": [
+   31
+  ]
+ },
+ "patch": {}
+}

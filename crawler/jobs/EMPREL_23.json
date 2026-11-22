@@ -1,0 +1,99 @@
+{
+ "evento": "EMPREL_23",
+ "workdir": "/tmp/emprel_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "EMPREL 23",
+  "ano": 2023,
+  "id_orgao": "emprel"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista De Infraestrutura E Suporte – Especialidade: Banco De Dados",
+   "id_cargo": "analista-de-infraestrutura-e-suporte-especialidade-banco-de-dados",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_EMPREL_CG1_01.pdf",
+     "gabarito": "gab_EMPREL_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "863_EMPREL_CG1_01.PDF"
+    },
+    {
+     "key": "esp001",
+     "prova": "pro_EMPREL_001_01.pdf",
+     "gabarito": "gab_EMPREL_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "863_EMPREL_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista De Infraestrutura E Suporte – Especialidade: Redes",
+   "id_cargo": "analista-de-infraestrutura-e-suporte-especialidade-redes",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_EMPREL_CG1_01.pdf",
+     "gabarito": "gab_EMPREL_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "863_EMPREL_CG1_01.PDF"
+    },
+    {
+     "key": "esp002",
+     "prova": "pro_EMPREL_002_01.pdf",
+     "gabarito": "gab_EMPREL_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "863_EMPREL_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista De Infraestrutura E Suporte – Especialidade: Softwares Básicos",
+   "id_cargo": "analista-de-infraestrutura-e-suporte-especialidade-softwares-basicos",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_EMPREL_CG1_01.pdf",
+     "gabarito": "gab_EMPREL_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "863_EMPREL_CG1_01.PDF"
+    },
+    {
+     "key": "esp003",
+     "prova": "pro_EMPREL_003_01.pdf",
+     "gabarito": "gab_EMPREL_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "863_EMPREL_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista De Sistemas",
+   "id_cargo": "analista-de-sistemas",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_EMPREL_CG2_01.pdf",
+     "gabarito": "gab_EMPREL_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "863_EMPREL_CG2_01.PDF"
+    },
+    {
+     "key": "esp004",
+     "prova": "pro_EMPREL_004_01.pdf",
+     "gabarito": "gab_EMPREL_004_01.pdf",
+     "tipo": "mc",
+     "arquivo": "863_EMPREL_004_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

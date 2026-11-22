@@ -1,0 +1,42 @@
+{
+ "evento": "DER_AL_26",
+ "workdir": "/tmp/der_al_26",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Departamento de Estradas de Rodagem de Alagoas (DER/AL)",
+  "ano": 2026,
+  "id_orgao": "deral"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Assessor Técnico Rodoviário – Engenharia Civil",
+   "id_cargo": "assessor-tecnico-rodoviario-engenharia-civil",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_4CD77F1B6337ECB3BDA5507F.pdf",
+     "gabarito": "gab_7E7AA9FF73B732C3C226ABDF.pdf",
+     "tipo": "ce",
+     "arquivo": "4CD77F1B6337ECB3BDA5507F6FFA476250F7D18940068027230E3C189C428F0E.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp",
+     "prova": "pro_68A46D414C02DB8B422088BE.pdf",
+     "gabarito": "gab_BC8983D0E5E9ACB11EC08271.pdf",
+     "tipo": "ce",
+     "arquivo": "68A46D414C02DB8B422088BE89153D58DCBF97B5F7DB1830A5AD2BC05F17C340.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp": {
+   "98": "Durante a elaboração de uma composição de custo, o orçamentista deve considerar, na estimativa dos coeficientes de consumo, as perdas por entulho, as perdas por furto ou roubo e as perdas incorporadas."
+  }
+ }
+}

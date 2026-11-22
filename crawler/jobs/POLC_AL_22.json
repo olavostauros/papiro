@@ -1,0 +1,607 @@
+{
+ "evento": "POLC_AL_22",
+ "workdir": "/tmp/polc_al_22",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Polícia Científica de Alagoas",
+  "ano": 2022,
+  "id_orgao": "polc-al"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Papiloscopista",
+   "id_cargo": "papiloscopista",
+   "provas": [
+    {
+     "key": "esp01",
+     "prova": "pro_POLC_AL_001_01.pdf",
+     "gabarito": "gab_POLC_AL_001_01__CARGO_1_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Perito Criminal – Análise de Sistemas",
+   "id_cargo": "perito-criminal-analise-de-sistemas",
+   "provas": [
+    {
+     "key": "cb02",
+     "prova": "pro_POLC_AL_CB1_01.pdf",
+     "gabarito": "gab_POLC_AL_CB1_01__CB1_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_CB1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_POLC_AL_002_01.pdf",
+     "gabarito": "gab_POLC_AL_002_01__CARGO_2_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Perito Criminal – Biomedicina / Ciências Biológicas",
+   "id_cargo": "perito-criminal-biomedicina-ciencias-biologicas",
+   "provas": [
+    {
+     "key": "cb03",
+     "prova": "pro_POLC_AL_CB1_01.pdf",
+     "gabarito": "gab_POLC_AL_CB1_01__CB1_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_CB1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_POLC_AL_003_01.pdf",
+     "gabarito": "gab_POLC_AL_003_01__CARGO_3_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Perito Criminal – Ciências Contábeis / Economia / Administração",
+   "id_cargo": "perito-criminal-ciencias-contabeis-economia-administracao",
+   "provas": [
+    {
+     "key": "cb04",
+     "prova": "pro_POLC_AL_CB1_01.pdf",
+     "gabarito": "gab_POLC_AL_CB1_01__CB1_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_CB1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_POLC_AL_004_01.pdf",
+     "gabarito": "gab_POLC_AL_004_01__CARGO_4_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Perito Criminal – Direito",
+   "id_cargo": "perito-criminal-direito",
+   "provas": [
+    {
+     "key": "cb05",
+     "prova": "pro_POLC_AL_CB1_01.pdf",
+     "gabarito": "gab_POLC_AL_CB1_01__CB1_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_CB1_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_POLC_AL_005_01.pdf",
+     "gabarito": "gab_POLC_AL_005_01__CARGO_5_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Perito Criminal – Engenharia Civil",
+   "id_cargo": "perito-criminal-engenharia-civil",
+   "provas": [
+    {
+     "key": "cb06",
+     "prova": "pro_POLC_AL_CB1_01.pdf",
+     "gabarito": "gab_POLC_AL_CB1_01__CB1_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_CB1_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_POLC_AL_006_01.pdf",
+     "gabarito": "gab_POLC_AL_006_01__CARGO_6_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Perito Criminal – Engenharia Elétrica / Eletrônica / Redes",
+   "id_cargo": "perito-criminal-engenharia-eletrica-eletronica-redes",
+   "provas": [
+    {
+     "key": "cb07",
+     "prova": "pro_POLC_AL_CB1_01.pdf",
+     "gabarito": "gab_POLC_AL_CB1_01__CB1_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_CB1_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_POLC_AL_007_01.pdf",
+     "gabarito": "gab_POLC_AL_007_01__CARGO_7_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Perito Criminal – Engenharia Mecânica / Mecatrônica",
+   "id_cargo": "perito-criminal-engenharia-mecanica-mecatronica",
+   "provas": [
+    {
+     "key": "cb08",
+     "prova": "pro_POLC_AL_CB1_01.pdf",
+     "gabarito": "gab_POLC_AL_CB1_01__CB1_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_CB1_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_POLC_AL_008_01.pdf",
+     "gabarito": "gab_POLC_AL_008_01__CARGO_8_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Perito Criminal – Engenharia Química / Química",
+   "id_cargo": "perito-criminal-engenharia-quimica-quimica",
+   "provas": [
+    {
+     "key": "cb09",
+     "prova": "pro_POLC_AL_CB1_01.pdf",
+     "gabarito": "gab_POLC_AL_CB1_01__CB1_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_CB1_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_POLC_AL_009_01.pdf",
+     "gabarito": "gab_POLC_AL_009_01__CARGO_9_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Perito Criminal – Farmácia",
+   "id_cargo": "perito-criminal-farmacia",
+   "provas": [
+    {
+     "key": "cb10",
+     "prova": "pro_POLC_AL_CB1_01.pdf",
+     "gabarito": "gab_POLC_AL_CB1_01__CB1_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_CB1_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_POLC_AL_010_01.pdf",
+     "gabarito": "gab_POLC_AL_010_01__CARGO_10_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Perito Criminal – Física",
+   "id_cargo": "perito-criminal-fisica",
+   "provas": [
+    {
+     "key": "cb11",
+     "prova": "pro_POLC_AL_CB1_01.pdf",
+     "gabarito": "gab_POLC_AL_CB1_01__CB1_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_CB1_01.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_POLC_AL_011_01.pdf",
+     "gabarito": "gab_POLC_AL_011_01__CARGO_11_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Perito Criminal – Fonoaudiologia",
+   "id_cargo": "perito-criminal-fonoaudiologia",
+   "provas": [
+    {
+     "key": "cb12",
+     "prova": "pro_POLC_AL_CB1_01.pdf",
+     "gabarito": "gab_POLC_AL_CB1_01__CB1_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_CB1_01.PDF"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_POLC_AL_012_01.pdf",
+     "gabarito": "gab_POLC_AL_012_01__CARGO_12_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Perito Criminal – Geologia / Mineralogia / Agronomia",
+   "id_cargo": "perito-criminal-geologia-mineralogia-agronomia",
+   "provas": [
+    {
+     "key": "cb13",
+     "prova": "pro_POLC_AL_CB1_01.pdf",
+     "gabarito": "gab_POLC_AL_CB1_01__CB1_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_CB1_01.PDF"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_POLC_AL_013_01.pdf",
+     "gabarito": "gab_POLC_AL_013_01__CARGO_13_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_013_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "Perito Médico-Legista",
+   "id_cargo": "perito-medico-legista",
+   "provas": [
+    {
+     "key": "cb14",
+     "prova": "pro_POLC_AL_CB2_01.pdf",
+     "gabarito": "gab_POLC_AL_CB2_01__CB2_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_CB2_01.PDF"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_POLC_AL_014_01.pdf",
+     "gabarito": "gab_POLC_AL_014_01__CARGO_14_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_014_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "Perito Odontolegista",
+   "id_cargo": "perito-odontolegista",
+   "provas": [
+    {
+     "key": "cb15",
+     "prova": "pro_POLC_AL_CB2_01.pdf",
+     "gabarito": "gab_POLC_AL_CB2_01__CB2_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_CB2_01.PDF"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_POLC_AL_015_01.pdf",
+     "gabarito": "gab_POLC_AL_015_01__CARGO_15_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_015_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "Auxiliar De Perícia",
+   "id_cargo": "auxiliar-de-pericia",
+   "provas": [
+    {
+     "key": "cb16",
+     "prova": "pro_POLC_AL_CB3_01.pdf",
+     "gabarito": "gab_POLC_AL_CB3_01__CB3_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_CB3_01.PDF"
+    },
+    {
+     "key": "esp16",
+     "prova": "pro_POLC_AL_016_01.pdf",
+     "gabarito": "gab_POLC_AL_016_01__CARGO_16_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_016_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "17",
+   "cargo": "Técnico Forense",
+   "id_cargo": "tecnico-forense",
+   "provas": [
+    {
+     "key": "cb17",
+     "prova": "pro_POLC_AL_CB3_01.pdf",
+     "gabarito": "gab_POLC_AL_CB3_01__CB3_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_CB3_01.PDF"
+    },
+    {
+     "key": "esp17",
+     "prova": "pro_POLC_AL_017_01.pdf",
+     "gabarito": "gab_POLC_AL_017_01__CARGO_17_.pdf",
+     "tipo": "ce",
+     "arquivo": "701_POLC_AL_017_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {
+  "cb16": [
+   12
+  ],
+  "cb17": [
+   12
+  ],
+  "esp07": [
+   81,
+   82,
+   83,
+   84,
+   85,
+   86,
+   87,
+   88,
+   93,
+   94,
+   95,
+   96,
+   115,
+   116,
+   117
+  ],
+  "esp08": [
+   81,
+   83,
+   85,
+   89,
+   98
+  ],
+  "esp10": [
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   112,
+   113,
+   114,
+   115,
+   116,
+   117,
+   118,
+   119,
+   120
+  ],
+  "esp11": [
+   106,
+   107,
+   108,
+   109,
+   110,
+   111,
+   112,
+   113
+  ],
+  "esp13": [
+   90
+  ]
+ },
+ "patch": {
+  "esp01": {
+   "16": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Ana tem 16 anos de experiência.",
+   "17": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Bruna tem 22 anos de experiência.",
+   "18": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Carla é engenheira de software.",
+   "20": "Considere também que as primeiras três colunas da tabela-verdade da proposição lógica P ⇒ (Q ˄ R) sejam iguais a:\n\nP  Q  R\nV  V  V\nV  V  F\nV  F  V\nV  F  F\nF  V  V\nF  V  F\nF  F  V\nF  F  F\n\nNesse caso, a última coluna dessa tabela-verdade apresenta exatamente três valores V.",
+   "96": "Sendo f(x) = log₂ x e f(g(x)) = x + 3, então g(x) = 2^(x+3).",
+   "98": "Em um triângulo isósceles ΔABC, em que AB = AC = ⁴√2 e Â = 75°, o lado BC = √(1 + 2√3 − √2).",
+   "100": "Uma circunferência de raio 2 com centro no ponto (2,0) encontra a elipse x²/4 + y² = 1 em dois pontos cuja abscissa é x₀ = (16 − 4√13)/3.",
+   "107": "São considerados hemofílicos os indivíduos que possuem o alelo mutante recessivo h nas seguintes condições: mulheres = XʰXʰ e homens = XʰY."
+  },
+  "cb02": {
+   "16": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Bruna tem 22 anos de experiência.",
+   "17": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Ana tem 16 anos de experiência.",
+   "18": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Carla é engenheira de software.",
+   "19": "Considere também que as primeiras três colunas da tabela-verdade da proposição lógica P ⇒ (Q ˄ R) sejam iguais a:\n\nP  Q  R\nV  V  V\nV  V  F\nV  F  V\nV  F  F\nF  V  V\nF  V  F\nF  F  V\nF  F  F\n\nNesse caso, a última coluna dessa tabela-verdade apresenta exatamente três valores V."
+  },
+  "cb03": {
+   "16": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Bruna tem 22 anos de experiência.",
+   "17": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Ana tem 16 anos de experiência.",
+   "18": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Carla é engenheira de software.",
+   "19": "Considere também que as primeiras três colunas da tabela-verdade da proposição lógica P ⇒ (Q ˄ R) sejam iguais a:\n\nP  Q  R\nV  V  V\nV  V  F\nV  F  V\nV  F  F\nF  V  V\nF  V  F\nF  F  V\nF  F  F\n\nNesse caso, a última coluna dessa tabela-verdade apresenta exatamente três valores V."
+  },
+  "cb04": {
+   "16": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Bruna tem 22 anos de experiência.",
+   "17": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Ana tem 16 anos de experiência.",
+   "18": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Carla é engenheira de software.",
+   "19": "Considere também que as primeiras três colunas da tabela-verdade da proposição lógica P ⇒ (Q ˄ R) sejam iguais a:\n\nP  Q  R\nV  V  V\nV  V  F\nV  F  V\nV  F  F\nF  V  V\nF  V  F\nF  F  V\nF  F  F\n\nNesse caso, a última coluna dessa tabela-verdade apresenta exatamente três valores V."
+  },
+  "cb05": {
+   "16": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Bruna tem 22 anos de experiência.",
+   "17": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Ana tem 16 anos de experiência.",
+   "18": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Carla é engenheira de software.",
+   "19": "Considere também que as primeiras três colunas da tabela-verdade da proposição lógica P ⇒ (Q ˄ R) sejam iguais a:\n\nP  Q  R\nV  V  V\nV  V  F\nV  F  V\nV  F  F\nF  V  V\nF  V  F\nF  F  V\nF  F  F\n\nNesse caso, a última coluna dessa tabela-verdade apresenta exatamente três valores V."
+  },
+  "cb06": {
+   "16": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Bruna tem 22 anos de experiência.",
+   "17": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Ana tem 16 anos de experiência.",
+   "18": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Carla é engenheira de software.",
+   "19": "Considere também que as primeiras três colunas da tabela-verdade da proposição lógica P ⇒ (Q ˄ R) sejam iguais a:\n\nP  Q  R\nV  V  V\nV  V  F\nV  F  V\nV  F  F\nF  V  V\nF  V  F\nF  F  V\nF  F  F\n\nNesse caso, a última coluna dessa tabela-verdade apresenta exatamente três valores V."
+  },
+  "cb07": {
+   "16": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Bruna tem 22 anos de experiência.",
+   "17": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Ana tem 16 anos de experiência.",
+   "18": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Carla é engenheira de software.",
+   "19": "Considere também que as primeiras três colunas da tabela-verdade da proposição lógica P ⇒ (Q ˄ R) sejam iguais a:\n\nP  Q  R\nV  V  V\nV  V  F\nV  F  V\nV  F  F\nF  V  V\nF  V  F\nF  F  V\nF  F  F\n\nNesse caso, a última coluna dessa tabela-verdade apresenta exatamente três valores V."
+  },
+  "cb08": {
+   "16": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Bruna tem 22 anos de experiência.",
+   "17": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Ana tem 16 anos de experiência.",
+   "18": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Carla é engenheira de software.",
+   "19": "Considere também que as primeiras três colunas da tabela-verdade da proposição lógica P ⇒ (Q ˄ R) sejam iguais a:\n\nP  Q  R\nV  V  V\nV  V  F\nV  F  V\nV  F  F\nF  V  V\nF  V  F\nF  F  V\nF  F  F\n\nNesse caso, a última coluna dessa tabela-verdade apresenta exatamente três valores V."
+  },
+  "cb09": {
+   "16": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Bruna tem 22 anos de experiência.",
+   "17": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Ana tem 16 anos de experiência.",
+   "18": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Carla é engenheira de software.",
+   "19": "Considere também que as primeiras três colunas da tabela-verdade da proposição lógica P ⇒ (Q ˄ R) sejam iguais a:\n\nP  Q  R\nV  V  V\nV  V  F\nV  F  V\nV  F  F\nF  V  V\nF  V  F\nF  F  V\nF  F  F\n\nNesse caso, a última coluna dessa tabela-verdade apresenta exatamente três valores V."
+  },
+  "cb10": {
+   "16": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Bruna tem 22 anos de experiência.",
+   "17": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Ana tem 16 anos de experiência.",
+   "18": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Carla é engenheira de software.",
+   "19": "Considere também que as primeiras três colunas da tabela-verdade da proposição lógica P ⇒ (Q ˄ R) sejam iguais a:\n\nP  Q  R\nV  V  V\nV  V  F\nV  F  V\nV  F  F\nF  V  V\nF  V  F\nF  F  V\nF  F  F\n\nNesse caso, a última coluna dessa tabela-verdade apresenta exatamente três valores V."
+  },
+  "cb11": {
+   "16": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Bruna tem 22 anos de experiência.",
+   "17": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Ana tem 16 anos de experiência.",
+   "18": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Carla é engenheira de software.",
+   "19": "Considere também que as primeiras três colunas da tabela-verdade da proposição lógica P ⇒ (Q ˄ R) sejam iguais a:\n\nP  Q  R\nV  V  V\nV  V  F\nV  F  V\nV  F  F\nF  V  V\nF  V  F\nF  F  V\nF  F  F\n\nNesse caso, a última coluna dessa tabela-verdade apresenta exatamente três valores V."
+  },
+  "cb12": {
+   "16": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Bruna tem 22 anos de experiência.",
+   "17": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Ana tem 16 anos de experiência.",
+   "18": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Carla é engenheira de software.",
+   "19": "Considere também que as primeiras três colunas da tabela-verdade da proposição lógica P ⇒ (Q ˄ R) sejam iguais a:\n\nP  Q  R\nV  V  V\nV  V  F\nV  F  V\nV  F  F\nF  V  V\nF  V  F\nF  F  V\nF  F  F\n\nNesse caso, a última coluna dessa tabela-verdade apresenta exatamente três valores V."
+  },
+  "cb13": {
+   "16": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Bruna tem 22 anos de experiência.",
+   "17": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Ana tem 16 anos de experiência.",
+   "18": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Carla é engenheira de software.",
+   "19": "Considere também que as primeiras três colunas da tabela-verdade da proposição lógica P ⇒ (Q ˄ R) sejam iguais a:\n\nP  Q  R\nV  V  V\nV  V  F\nV  F  V\nV  F  F\nF  V  V\nF  V  F\nF  F  V\nF  F  F\n\nNesse caso, a última coluna dessa tabela-verdade apresenta exatamente três valores V."
+  },
+  "cb14": {
+   "16": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Ana tem 16 anos de experiência.",
+   "17": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Bruna tem 22 anos de experiência.",
+   "18": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Carla é engenheira de software.",
+   "19": "Considere também que as primeiras três colunas da tabela-verdade da proposição lógica P ⇒ (Q ˄ R) sejam iguais a:\n\nP  Q  R\nV  V  V\nV  V  F\nV  F  V\nV  F  F\nF  V  V\nF  V  F\nF  F  V\nF  F  F\n\nNesse caso, a última coluna dessa tabela-verdade apresenta exatamente três valores V."
+  },
+  "cb15": {
+   "16": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Ana tem 16 anos de experiência.",
+   "17": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Bruna tem 22 anos de experiência.",
+   "18": "Uma equipe de três agentes da polícia científica (Ana, Bruna e Carla), com especialidades distintas (papiloscopia, biomedicina e engenharia de software) e tempos de experiência diferentes (16, 19 e 22 anos), foi designada para investigar uma cena de crime. Sabe-se que Carla não é a papiloscopista e tem 16 anos de experiência, a biomédica tem 22 anos de experiência e Ana não é engenheira de software e não tem 22 anos de experiência. Carla é engenheira de software.",
+   "19": "Considere também que as primeiras três colunas da tabela-verdade da proposição lógica P ⇒ (Q ˄ R) sejam iguais a:\n\nP  Q  R\nV  V  V\nV  V  F\nV  F  V\nV  F  F\nF  V  V\nF  V  F\nF  F  V\nF  F  F\n\nNesse caso, a última coluna dessa tabela-verdade apresenta exatamente três valores V."
+  },
+  "cb16": {
+   "16": "Considerando que, em uma grande operação policial em Alagoas, tenham sido enviados agentes de Maceió para as diversas cidades do estado e supondo que o deslocamento dos agentes tenha sido realizado por micro-ônibus de 20 lugares, veículos SUV de 5 lugares e sedãs de 4 lugares: Considerando-se que, para a cidade de Penedo, tenham sido enviados 38 agentes distribuídos em um micro-ônibus, duas SUV e dois sedãs, é correto afirmar que, caso se selecione, ao acaso, um desses 38 agentes, a probabilidade de o agente selecionado ter-se deslocado para Penedo utilizando um veículo SUV é inferior a 0,31.",
+   "17": "Considerando que, em uma grande operação policial em Alagoas, tenham sido enviados agentes de Maceió para as diversas cidades do estado e supondo que o deslocamento dos agentes tenha sido realizado por micro-ônibus de 20 lugares, veículos SUV de 5 lugares e sedãs de 4 lugares: Considerando-se que para Rio Largo tenham sido enviados 29 agentes distribuídos em um micro-ônibus, um veículo SUV e um veículo sedã, é correto afirmar que o número de maneiras aleatórias de distribuir esses 29 agentes nesses três veículos é superior a 29!/(20!·5!).",
+   "18": "Considerando que, em uma grande operação policial em Alagoas, tenham sido enviados agentes de Maceió para as diversas cidades do estado e supondo que o deslocamento dos agentes tenha sido realizado por micro-ônibus de 20 lugares, veículos SUV de 5 lugares e sedãs de 4 lugares: Considerando-se que tenham sido enviados para Arapiraca 60 agentes, dos quais 32 fossem mulheres, e para Palmeira dos Índios, 50 agentes, dos quais 22 fossem mulheres, é correto afirmar que, entre os 110 agentes que tenham atuado nessas duas cidades, as chances de se escolher aleatoriamente um que seja mulher e tenha ido para Palmeira dos Índios é inferior a 22%.",
+   "20": "Considere-se que as primeiras três colunas da tabela-verdade da proposição lógica (Q ˅ R) ˄ P sejam iguais a:\n\nP  Q  R\nV  V  V\nV  V  F\nV  F  V\nV  F  F\nF  V  V\nF  V  F\nF  F  V\nF  F  F\n\nNessa situação, a última coluna dessa tabela-verdade apresenta valores V ou F, tomados de cima para baixo, na seguinte sequência: V V V F V V F F.",
+   "22": "Considerando a tabela a seguir, que mostra os dados da produção da agricultura familiar no Censo Agropecuário 2017-2018:\n\nProduto | Produção total | Produção familiar | Participação da agricultura familiar (%)\nArroz em casca (toneladas) | 83.953 | 5.693 | 6,8\nFeijão (toneladas) | 2.833 | 2.380 | 84,0\nMilho em grão (toneladas) | 647.413 | 32.144 | 5,0\nSoja (toneladas) | 800.293 | 26.582 | 3,3\nMandioca (toneladas) | 33.575 | 29.826 | 88,8\nCafé em grão (toneladas) | 35.471 | 32.071 | 90,4\nCacau | 1.854 | 1.629 | 87,9\nBanana (toneladas) | 15.185 | 13.096 | 86,2\nAbacaxi (toneladas) | 12.653 | 11.774 | 93,1\nLeite de vaca (mil litros) | 899.981 | 792.494 | 88,1\nPeixes vendidos (toneladas) | 31.219 | 3.117 | 10,0\nFonte: IBGE, Censo Agropecuário 2017-2018.\n\nA tabela apresenta commodities de exportação, como a soja e o milho, e produtos consumidos em larga escala no mercado interno de alimentos, como a mandioca, o feijão, o leite, a banana e o abacaxi.",
+   "23": "Considerando a tabela a seguir, que mostra os dados da produção da agricultura familiar no Censo Agropecuário 2017-2018:\n\nProduto | Produção total | Produção familiar | Participação da agricultura familiar (%)\nArroz em casca (toneladas) | 83.953 | 5.693 | 6,8\nFeijão (toneladas) | 2.833 | 2.380 | 84,0\nMilho em grão (toneladas) | 647.413 | 32.144 | 5,0\nSoja (toneladas) | 800.293 | 26.582 | 3,3\nMandioca (toneladas) | 33.575 | 29.826 | 88,8\nCafé em grão (toneladas) | 35.471 | 32.071 | 90,4\nCacau | 1.854 | 1.629 | 87,9\nBanana (toneladas) | 15.185 | 13.096 | 86,2\nAbacaxi (toneladas) | 12.653 | 11.774 | 93,1\nLeite de vaca (mil litros) | 899.981 | 792.494 | 88,1\nPeixes vendidos (toneladas) | 31.219 | 3.117 | 10,0\nFonte: IBGE, Censo Agropecuário 2017-2018.\n\nEm todos os produtos listados na tabela, a produção da agricultura familiar supera a produção do agronegócio."
+  },
+  "cb17": {
+   "16": "Considerando que, em uma grande operação policial em Alagoas, tenham sido enviados agentes de Maceió para as diversas cidades do estado e supondo que o deslocamento dos agentes tenha sido realizado por micro-ônibus de 20 lugares, veículos SUV de 5 lugares e sedãs de 4 lugares: Considerando-se que, para a cidade de Penedo, tenham sido enviados 38 agentes distribuídos em um micro-ônibus, duas SUV e dois sedãs, é correto afirmar que, caso se selecione, ao acaso, um desses 38 agentes, a probabilidade de o agente selecionado ter-se deslocado para Penedo utilizando um veículo SUV é inferior a 0,31.",
+   "17": "Considerando que, em uma grande operação policial em Alagoas, tenham sido enviados agentes de Maceió para as diversas cidades do estado e supondo que o deslocamento dos agentes tenha sido realizado por micro-ônibus de 20 lugares, veículos SUV de 5 lugares e sedãs de 4 lugares: Considerando-se que para Rio Largo tenham sido enviados 29 agentes distribuídos em um micro-ônibus, um veículo SUV e um veículo sedã, é correto afirmar que o número de maneiras aleatórias de distribuir esses 29 agentes nesses três veículos é superior a 29!/(20!·5!).",
+   "18": "Considerando que, em uma grande operação policial em Alagoas, tenham sido enviados agentes de Maceió para as diversas cidades do estado e supondo que o deslocamento dos agentes tenha sido realizado por micro-ônibus de 20 lugares, veículos SUV de 5 lugares e sedãs de 4 lugares: Considerando-se que tenham sido enviados para Arapiraca 60 agentes, dos quais 32 fossem mulheres, e para Palmeira dos Índios, 50 agentes, dos quais 22 fossem mulheres, é correto afirmar que, entre os 110 agentes que tenham atuado nessas duas cidades, as chances de se escolher aleatoriamente um que seja mulher e tenha ido para Palmeira dos Índios é inferior a 22%.",
+   "20": "Considere-se que as primeiras três colunas da tabela-verdade da proposição lógica (Q ˅ R) ˄ P sejam iguais a:\n\nP  Q  R\nV  V  V\nV  V  F\nV  F  V\nV  F  F\nF  V  V\nF  V  F\nF  F  V\nF  F  F\n\nNessa situação, a última coluna dessa tabela-verdade apresenta valores V ou F, tomados de cima para baixo, na seguinte sequência: V V V F V V F F.",
+   "22": "Considerando a tabela a seguir, que mostra os dados da produção da agricultura familiar no Censo Agropecuário 2017-2018:\n\nProduto | Produção total | Produção familiar | Participação da agricultura familiar (%)\nArroz em casca (toneladas) | 83.953 | 5.693 | 6,8\nFeijão (toneladas) | 2.833 | 2.380 | 84,0\nMilho em grão (toneladas) | 647.413 | 32.144 | 5,0\nSoja (toneladas) | 800.293 | 26.582 | 3,3\nMandioca (toneladas) | 33.575 | 29.826 | 88,8\nCafé em grão (toneladas) | 35.471 | 32.071 | 90,4\nCacau | 1.854 | 1.629 | 87,9\nBanana (toneladas) | 15.185 | 13.096 | 86,2\nAbacaxi (toneladas) | 12.653 | 11.774 | 93,1\nLeite de vaca (mil litros) | 899.981 | 792.494 | 88,1\nPeixes vendidos (toneladas) | 31.219 | 3.117 | 10,0\nFonte: IBGE, Censo Agropecuário 2017-2018.\n\nA tabela apresenta commodities de exportação, como a soja e o milho, e produtos consumidos em larga escala no mercado interno de alimentos, como a mandioca, o feijão, o leite, a banana e o abacaxi.",
+   "23": "Considerando a tabela a seguir, que mostra os dados da produção da agricultura familiar no Censo Agropecuário 2017-2018:\n\nProduto | Produção total | Produção familiar | Participação da agricultura familiar (%)\nArroz em casca (toneladas) | 83.953 | 5.693 | 6,8\nFeijão (toneladas) | 2.833 | 2.380 | 84,0\nMilho em grão (toneladas) | 647.413 | 32.144 | 5,0\nSoja (toneladas) | 800.293 | 26.582 | 3,3\nMandioca (toneladas) | 33.575 | 29.826 | 88,8\nCafé em grão (toneladas) | 35.471 | 32.071 | 90,4\nCacau | 1.854 | 1.629 | 87,9\nBanana (toneladas) | 15.185 | 13.096 | 86,2\nAbacaxi (toneladas) | 12.653 | 11.774 | 93,1\nLeite de vaca (mil litros) | 899.981 | 792.494 | 88,1\nPeixes vendidos (toneladas) | 31.219 | 3.117 | 10,0\nFonte: IBGE, Censo Agropecuário 2017-2018.\n\nEm todos os produtos listados na tabela, a produção da agricultura familiar supera a produção do agronegócio."
+  },
+  "esp03": {
+   "114": "Ao realizar a inscrição do seu imóvel rural no Cadastro Ambiental Rural (CAR) junto ao órgão estadual competente, um agricultor incluiu as seguintes informações sobre a localização das áreas de vegetação nativa e de atividades dentro da sua propriedade: • área marginal a um curso de água não coberta por vegetação nativa; • área com cobertura de vegetação nativa (floresta) não utilizada; • área de ocupação antrópica, ao lado de uma nascente, com áreas desmatadas há mais de 15 anos, contendo uma pequena edificação, além de atividades agrossilvipastoris. A área marginal ao curso de água deve ser computada como área de preservação permanente, mesmo não sendo coberta por vegetação nativa.",
+   "115": "Ao realizar a inscrição do seu imóvel rural no Cadastro Ambiental Rural (CAR) junto ao órgão estadual competente, um agricultor incluiu as seguintes informações sobre a localização das áreas de vegetação nativa e de atividades dentro da sua propriedade: • área marginal a um curso de água não coberta por vegetação nativa; • área com cobertura de vegetação nativa (floresta) não utilizada; • área de ocupação antrópica, ao lado de uma nascente, com áreas desmatadas há mais de 15 anos, contendo uma pequena edificação, além de atividades agrossilvipastoris. Pelo Código Florestal, o agricultor não poderia computar a área marginal ao curso de água no cálculo da porcentagem de reserva legal da sua propriedade.",
+   "116": "Ao realizar a inscrição do seu imóvel rural no Cadastro Ambiental Rural (CAR) junto ao órgão estadual competente, um agricultor incluiu as seguintes informações sobre a localização das áreas de vegetação nativa e de atividades dentro da sua propriedade: • área marginal a um curso de água não coberta por vegetação nativa; • área com cobertura de vegetação nativa (floresta) não utilizada; • área de ocupação antrópica, ao lado de uma nascente, com áreas desmatadas há mais de 15 anos, contendo uma pequena edificação, além de atividades agrossilvipastoris. A área nativa de floresta preservada pode ser computada como reserva legal, contudo o percentual desta irá variar conforme a localização do imóvel, sendo diferente se situado na Amazônia Legal ou nas demais regiões do Brasil.",
+   "117": "Ao realizar a inscrição do seu imóvel rural no Cadastro Ambiental Rural (CAR) junto ao órgão estadual competente, um agricultor incluiu as seguintes informações sobre a localização das áreas de vegetação nativa e de atividades dentro da sua propriedade: • área marginal a um curso de água não coberta por vegetação nativa; • área com cobertura de vegetação nativa (floresta) não utilizada; • área de ocupação antrópica, ao lado de uma nascente, com áreas desmatadas há mais de 15 anos, contendo uma pequena edificação, além de atividades agrossilvipastoris. Por se tratar de área rural consolidada, podem-se manter atividades agrossilvipastoris em área de ocupação antrópica, não sendo o produtor obrigado a recompor a área da nascente."
+  },
+  "esp04": {
+   "91": "Determinada empresa, que utiliza o sistema de custeio por absorção para fins societários e o custeio variável para fins gerenciais, apresentou os seguintes dados, relativos ao seu processo produtivo no primeiro período de atividade.\n\nCustos de produção (valor em R$): total de custos fixos 300 mil; matérias-primas consumidas 120 mil; mão de obra direta aplicada 50 mil; outros custos variáveis aplicados 30 mil.\n\nCustos do período (valor em R$): fixos 150 mil; variáveis 2 por unidade vendida.\n\nAtividade do período — produto A B C: produção (em unidades) 5.000 / 3.000 / 2.000; vendas (em unidades) 4.000 / 2.500 / 2.000; preço de venda unitário (em R$) 61 / 40 / 50.\n\nAdemais: a alocação dos custos fixos de produção é proporcional à quantidade produzida; o consumo de matérias-primas pelos produtos ocorre na proporção de 60% para o produto A, 10% para o produto B e 30% para o produto C; os demais custos de produção variáveis são alocados proporcionalmente à quantidade produzida; não havia quaisquer estoques no início do período; toda a produção foi concluída no período. Mantidas as proporções de vendas observadas no período e os respectivos preços, custos e despesas, bem como pressupondo a existência de capacidade ociosa de produção, para se atingir o ponto de equilíbrio contábil, devem ser vendidas mais de 15 mil unidades desses produtos.",
+   "92": "Determinada empresa, que utiliza o sistema de custeio por absorção para fins societários e o custeio variável para fins gerenciais, apresentou os seguintes dados, relativos ao seu processo produtivo no primeiro período de atividade.\n\nCustos de produção (valor em R$): total de custos fixos 300 mil; matérias-primas consumidas 120 mil; mão de obra direta aplicada 50 mil; outros custos variáveis aplicados 30 mil.\n\nCustos do período (valor em R$): fixos 150 mil; variáveis 2 por unidade vendida.\n\nAtividade do período — produto A B C: produção (em unidades) 5.000 / 3.000 / 2.000; vendas (em unidades) 4.000 / 2.500 / 2.000; preço de venda unitário (em R$) 61 / 40 / 50.\n\nAdemais: a alocação dos custos fixos de produção é proporcional à quantidade produzida; o consumo de matérias-primas pelos produtos ocorre na proporção de 60% para o produto A, 10% para o produto B e 30% para o produto C; os demais custos de produção variáveis são alocados proporcionalmente à quantidade produzida; não havia quaisquer estoques no início do período; toda a produção foi concluída no período. O balanço deve apresentar um montante superior a R$ 70 mil como saldo final do estoque de produtos disponíveis para venda.",
+   "93": "Determinada empresa, que utiliza o sistema de custeio por absorção para fins societários e o custeio variável para fins gerenciais, apresentou os seguintes dados, relativos ao seu processo produtivo no primeiro período de atividade.\n\nCustos de produção (valor em R$): total de custos fixos 300 mil; matérias-primas consumidas 120 mil; mão de obra direta aplicada 50 mil; outros custos variáveis aplicados 30 mil.\n\nCustos do período (valor em R$): fixos 150 mil; variáveis 2 por unidade vendida.\n\nAtividade do período — produto A B C: produção (em unidades) 5.000 / 3.000 / 2.000; vendas (em unidades) 4.000 / 2.500 / 2.000; preço de venda unitário (em R$) 61 / 40 / 50.\n\nAdemais: a alocação dos custos fixos de produção é proporcional à quantidade produzida; o consumo de matérias-primas pelos produtos ocorre na proporção de 60% para o produto A, 10% para o produto B e 30% para o produto C; os demais custos de produção variáveis são alocados proporcionalmente à quantidade produzida; não havia quaisquer estoques no início do período; toda a produção foi concluída no período. O produto A apresentou um índice de margem de contribuição superior a 64%.",
+   "94": "Os dados presentes nas tabelas a seguir foram extraídos das demonstrações contábeis de determinada sociedade.\n\nBalanço | 20x1 | 20x0\nAC | 315.072,00 | 283.147,00\nANC | 209.012,00 | 188.750,00\ntotal | 524.084,00 | 471.897,00\nPC | 194.737,00 | 172.030,00\nPNC | 329.347,00 | 299.867,00\ntotal | 524.084,00 | 471.897,00\n\nInformações adicionais | 20x1 | 20x0\ncaixa e equivalentes | 26.911,00 | 13.129,00\nclientes | 105.300,00 | 73.600,00\nestoques | 54.120,00 | 48.313,00\nimobilizado | 188.440,00 | 161.320,00\nfornecedores | 55.800,00 | 38.900,00\npatrimônio líquido | 262.286,00 | 245.850,00\nreceita operacional líquida | 975.810,00 | 904.800,00\ncusto das mercadorias vendidas | 526.800,00 | 498.200,00\nlucro operacional líquido | 48.350,00 | 40.990,00\nlucro antes de juros e IR | 33.480,00 | 28.110,00\nlucro líquido | 19.770,00 | 15.250,00\n\nConsiderando que AC corresponde a ativo circulante, ANC a ativo não circulante, PC a passivo circulante, PNC a passivo não circulante e que o patrimônio líquido integra o PNC: A liquidez seca melhorou no período.",
+   "95": "Os dados presentes nas tabelas a seguir foram extraídos das demonstrações contábeis de determinada sociedade.\n\nBalanço | 20x1 | 20x0\nAC | 315.072,00 | 283.147,00\nANC | 209.012,00 | 188.750,00\ntotal | 524.084,00 | 471.897,00\nPC | 194.737,00 | 172.030,00\nPNC | 329.347,00 | 299.867,00\ntotal | 524.084,00 | 471.897,00\n\nInformações adicionais | 20x1 | 20x0\ncaixa e equivalentes | 26.911,00 | 13.129,00\nclientes | 105.300,00 | 73.600,00\nestoques | 54.120,00 | 48.313,00\nimobilizado | 188.440,00 | 161.320,00\nfornecedores | 55.800,00 | 38.900,00\npatrimônio líquido | 262.286,00 | 245.850,00\nreceita operacional líquida | 975.810,00 | 904.800,00\ncusto das mercadorias vendidas | 526.800,00 | 498.200,00\nlucro operacional líquido | 48.350,00 | 40.990,00\nlucro antes de juros e IR | 33.480,00 | 28.110,00\nlucro líquido | 19.770,00 | 15.250,00\n\nConsiderando que AC corresponde a ativo circulante, ANC a ativo não circulante, PC a passivo circulante, PNC a passivo não circulante e que o patrimônio líquido integra o PNC: Cresceu a presença dos capitais próprios no financiamento do giro da empresa.",
+   "96": "Os dados presentes nas tabelas a seguir foram extraídos das demonstrações contábeis de determinada sociedade.\n\nBalanço | 20x1 | 20x0\nAC | 315.072,00 | 283.147,00\nANC | 209.012,00 | 188.750,00\ntotal | 524.084,00 | 471.897,00\nPC | 194.737,00 | 172.030,00\nPNC | 329.347,00 | 299.867,00\ntotal | 524.084,00 | 471.897,00\n\nInformações adicionais | 20x1 | 20x0\ncaixa e equivalentes | 26.911,00 | 13.129,00\nclientes | 105.300,00 | 73.600,00\nestoques | 54.120,00 | 48.313,00\nimobilizado | 188.440,00 | 161.320,00\nfornecedores | 55.800,00 | 38.900,00\npatrimônio líquido | 262.286,00 | 245.850,00\nreceita operacional líquida | 975.810,00 | 904.800,00\ncusto das mercadorias vendidas | 526.800,00 | 498.200,00\nlucro operacional líquido | 48.350,00 | 40.990,00\nlucro antes de juros e IR | 33.480,00 | 28.110,00\nlucro líquido | 19.770,00 | 15.250,00\n\nConsiderando que AC corresponde a ativo circulante, ANC a ativo não circulante, PC a passivo circulante, PNC a passivo não circulante e que o patrimônio líquido integra o PNC: O retorno sobre investimentos totais cresceu mais de 5% no período.",
+   "113": "Considerando-se que o custo total (CT) de uma firma possa ser calculado por CT(q) = 100 + 4e^(2q) − 5q, é correto afirmar que o custo marginal (CMg) será dado por CMg(q) = 8e^(2q) − 5."
+  },
+  "esp05": {
+   "88": "Durante uma investigação de homicídio, o autor do fato foi identificado, e a autoridade policial solicitou autorização judicial para realizar a interceptação telefônica e a decretação da prisão, tendo sido a interceptação indeferida pelo juiz, que entendeu que haveria outras formas de se obter a prova. O indeferimento da interceptação telefônica pelo juiz foi equivocado, já que essa é admitida em caso de crime punível com reclusão.",
+   "89": "Durante uma investigação de homicídio, o autor do fato foi identificado, e a autoridade policial solicitou autorização judicial para realizar a interceptação telefônica e a decretação da prisão, tendo sido a interceptação indeferida pelo juiz, que entendeu que haveria outras formas de se obter a prova. O autor do fato, ao ser indiciado no inquérito policial instaurado, em procedimento sigiloso, será ouvido, e o respectivo termo será assinado por duas testemunhas que dele tenham escutado a leitura.",
+   "90": "Durante uma investigação de homicídio, o autor do fato foi identificado, e a autoridade policial solicitou autorização judicial para realizar a interceptação telefônica e a decretação da prisão, tendo sido a interceptação indeferida pelo juiz, que entendeu que haveria outras formas de se obter a prova. Na situação em análise, os herdeiros da vítima poderão propor ação indenizatória contra o autor do crime, e a ação civil poderá ficar suspensa até o julgamento definitivo da ação penal.",
+   "91": "Durante uma investigação de homicídio, o autor do fato foi identificado, e a autoridade policial solicitou autorização judicial para realizar a interceptação telefônica e a decretação da prisão, tendo sido a interceptação indeferida pelo juiz, que entendeu que haveria outras formas de se obter a prova. Caso o delegado responsável pelo inquérito realize, por medida de urgência, a interceptação telefônica e, posteriormente, comunique o resultado da diligência ao juiz, estará sanada a nulidade de tal ato.",
+   "92": "Durante uma investigação de homicídio, o autor do fato foi identificado, e a autoridade policial solicitou autorização judicial para realizar a interceptação telefônica e a decretação da prisão, tendo sido a interceptação indeferida pelo juiz, que entendeu que haveria outras formas de se obter a prova. A prisão temporária será admitida pelo prazo de 30 dias, prorrogáveis por uma vez, e o acusado deverá ser solto caso não haja decretação de prisão preventiva.",
+   "93": "Durante uma investigação de homicídio, o autor do fato foi identificado, e a autoridade policial solicitou autorização judicial para realizar a interceptação telefônica e a decretação da prisão, tendo sido a interceptação indeferida pelo juiz, que entendeu que haveria outras formas de se obter a prova. Caso o Ministério Público ofereça denúncia por homicídio culposo, a competência será de uma das varas criminais de onde ocorreu o resultado do crime."
+  },
+  "esp07": {
+   "97": "Pretende-se construir dois equipamentos eletrônicos, com características específicas de operação, em que o equipamento A deve ser mais estável em relação à temperatura, com impedância de entrada elevada e economia de potência para sinais digitais, ao passo que o equipamento B deve apresentar maior robustez quanto às descargas de eletricidade estática quando for manuseado e um ganho de tensão mais elevado. Considerando-se as características apontadas e os dispositivos eletrônicos: Como o equipamento A deve ser mais estável em relação à temperatura, recomenda-se construí-lo com a utilização de transistores bipolares de junção.",
+   "98": "Pretende-se construir dois equipamentos eletrônicos, com características específicas de operação, em que o equipamento A deve ser mais estável em relação à temperatura, com impedância de entrada elevada e economia de potência para sinais digitais, ao passo que o equipamento B deve apresentar maior robustez quanto às descargas de eletricidade estática quando for manuseado e um ganho de tensão mais elevado. Considerando-se as características apontadas e os dispositivos eletrônicos: As especificações desejadas para o equipamento B serão obtidas caso ele seja construído com díodos Zener.",
+   "99": "Pretende-se construir dois equipamentos eletrônicos, com características específicas de operação, em que o equipamento A deve ser mais estável em relação à temperatura, com impedância de entrada elevada e economia de potência para sinais digitais, ao passo que o equipamento B deve apresentar maior robustez quanto às descargas de eletricidade estática quando for manuseado e um ganho de tensão mais elevado. Considerando-se as características apontadas e os dispositivos eletrônicos: Pelas características de impedância de entrada mais elevada e economia de potência para sinais digitais, o equipamento A deve ser construído com transistores de efeito de campo, em lógica complementar.",
+   "100": "Pretende-se construir dois equipamentos eletrônicos, com características específicas de operação, em que o equipamento A deve ser mais estável em relação à temperatura, com impedância de entrada elevada e economia de potência para sinais digitais, ao passo que o equipamento B deve apresentar maior robustez quanto às descargas de eletricidade estática quando for manuseado e um ganho de tensão mais elevado. Considerando-se as características apontadas e os dispositivos eletrônicos: O equipamento B deve ser construído com transistores de efeito de campo do tipo MOSFET.",
+   "105": "Um transformador ideal monofásico possui 3 enrolamentos no secundário, com tensões e correntes Es1 = 12 V e Is1 = 10 A, Es2 = 24 V e Is2 = 18 A, para os dois primeiros enrolamentos; e tensão Es3 = 48 V para o terceiro. O enrolamento primário apresenta 12.000 espiras e potência nominal de 1.752 VA, para alimentação em 240 V, 60 Hz. A corrente nominal do enrolamento de tensão 48 V é menor que 20 A.",
+   "106": "Um transformador ideal monofásico possui 3 enrolamentos no secundário, com tensões e correntes Es1 = 12 V e Is1 = 10 A, Es2 = 24 V e Is2 = 18 A, para os dois primeiros enrolamentos; e tensão Es3 = 48 V para o terceiro. O enrolamento primário apresenta 12.000 espiras e potência nominal de 1.752 VA, para alimentação em 240 V, 60 Hz. A potência nominal do enrolamento de tensão 12 V é de 120 VA.",
+   "107": "Um transformador ideal monofásico possui 3 enrolamentos no secundário, com tensões e correntes Es1 = 12 V e Is1 = 10 A, Es2 = 24 V e Is2 = 18 A, para os dois primeiros enrolamentos; e tensão Es3 = 48 V para o terceiro. O enrolamento primário apresenta 12.000 espiras e potência nominal de 1.752 VA, para alimentação em 240 V, 60 Hz. O enrolamento de tensão 24 V possui 1.200 espiras.",
+   "111": "Em um sistema trifásico, as cargas estão conectadas na configuração triângulo e fornecem, respectivamente, as potências nominais S1 = 1 + j3 kVA, S2 = 4 − j3 kVA e S3 = 3 + j6 kVA. O sistema possui um fator de potência superior a 0,85, atrasado.",
+   "112": "Em um sistema trifásico, as cargas estão conectadas na configuração triângulo e fornecem, respectivamente, as potências nominais S1 = 1 + j3 kVA, S2 = 4 − j3 kVA e S3 = 3 + j6 kVA. A potência ativa total liberada pelo sistema trifásico é superior a 10 kW.",
+   "113": "Uma rede trifásica equilibrada alimenta dois circuitos para aquecimento. Cada circuito possui três resistores de potência para aquecimento, com os mesmos parâmetros: no primeiro, os resistores estão conectados em estrela; e no segundo, os resistores foram conectados em triângulo. Na configuração em estrela, os resistores consomem uma potência ativa três vezes maior que a potência ativa consumida quando na configuração em triângulo.",
+   "114": "Uma rede trifásica equilibrada alimenta dois circuitos para aquecimento. Cada circuito possui três resistores de potência para aquecimento, com os mesmos parâmetros: no primeiro, os resistores estão conectados em estrela; e no segundo, os resistores foram conectados em triângulo. Nas duas configurações, os resistores estão sob a mesma diferença de potencial."
+  },
+  "esp08": {
+   "86": "Uma viga possui 1,0 m de comprimento, seção sólida quadrada de 200 mm × 200 mm, tendo sido fabricada em alumínio 7075-T6, cuja resistência ao escoamento é Sy = 500 MPa e a resistência à tração é SRT = 590 MPa. A viga está apoiada em um apoio fixo, em uma extremidade, e em um apoio móvel, a 0,4 m da outra extremidade, bem como está submetida a uma carga de 6,0 kN no meio do vão. Considerando-se as tensões que atuam em um elemento de tensão situado na parte superior da viga, no ponto de carregamento, pelo critério de Tresca, também conhecido como teoria da máxima tensão cisalhante, é correto afirmar que não se configura risco de falha por escoamento do material.",
+   "87": "Uma viga possui 1,0 m de comprimento, seção sólida quadrada de 200 mm × 200 mm, tendo sido fabricada em alumínio 7075-T6, cuja resistência ao escoamento é Sy = 500 MPa e a resistência à tração é SRT = 590 MPa. A viga está apoiada em um apoio fixo, em uma extremidade, e em um apoio móvel, a 0,4 m da outra extremidade, bem como está submetida a uma carga de 6,0 kN no meio do vão. As tensões cisalhantes devidas ao esforço cortante são nulas na seção correspondente ao apoio móvel.",
+   "88": "Uma viga possui 1,0 m de comprimento, seção sólida quadrada de 200 mm × 200 mm, tendo sido fabricada em alumínio 7075-T6, cuja resistência ao escoamento é Sy = 500 MPa e a resistência à tração é SRT = 590 MPa. A viga está apoiada em um apoio fixo, em uma extremidade, e em um apoio móvel, a 0,4 m da outra extremidade, bem como está submetida a uma carga de 6,0 kN no meio do vão. A tensão normal máxima na viga ocorre na seção transversal, onde está aplicada a carga, e é superior a 300 MPa.",
+   "91": "Etanol hidratado a 20 °C — de massa específica 800 kg/m³ e viscosidade cinemática 1,5 × 10⁻⁶ m²/s — está sendo bombeado através de uma tubulação de 30 cm de diâmetro a uma vazão igual a 1,0 × 10⁻³ m³/s. Nessas condições, o escoamento é turbulento."
+  },
+  "esp09": {
+   "97": "Considere a reação química H₂(g) + Cℓ₂(g) ⇌ 2HCℓ(g) e que, em uma mistura em equilíbrio entre H₂ e Cℓ₂ para formar HCℓ, as concentrações de H₂ e Cℓ₂ sejam, respectivamente, 1,00 × 10⁻¹¹ mol/L e 2,00 × 10⁻¹⁰ mol/L. Ao se adicionar Cℓ₂(g) à mistura em equilíbrio, a reação tenderá a se deslocar no sentido de formação do produto.",
+   "98": "Considere a reação química H₂(g) + Cℓ₂(g) ⇌ 2HCℓ(g) e que, em uma mistura em equilíbrio entre H₂ e Cℓ₂ para formar HCℓ, as concentrações de H₂ e Cℓ₂ sejam, respectivamente, 1,00 × 10⁻¹¹ mol/L e 2,00 × 10⁻¹⁰ mol/L. Considerando-se que a formação de HCℓ pela reação em tela é exotérmica, é correto concluir que a diminuição da temperatura tenderá a deslocar o equilíbrio da reação no sentido de formar mais HCℓ.",
+   "100": "Considere a reação química H₂(g) + Cℓ₂(g) ⇌ 2HCℓ(g) e que, em uma mistura em equilíbrio entre H₂ e Cℓ₂ para formar HCℓ, as concentrações de H₂ e Cℓ₂ sejam, respectivamente, 1,00 × 10⁻¹¹ mol/L e 2,00 × 10⁻¹⁰ mol/L. Considerando-se que a constante de equilíbrio Kc da reação em apreço valha 5,00 × 10¹⁸, é correto concluir que a concentração de HCℓ no equilíbrio será igual a 1 × 10⁻² mol/L."
+  },
+  "esp11": {
+   "101": "Em uma via pouco movimentada, à noite, Fernando voltava para casa dirigindo seu automóvel e atropelou e matou Estela, que estava parada na via. Segundo se verificou posteriormente, Estela era esposa de Fernando, o que levantou a hipótese de ter havido intenção criminosa (feminicídio). Os peritos criminais que analisaram as circunstâncias da ocorrência verificaram que as marcas de pneu no local da colisão indicaram que o processo de frenagem se iniciou a 6,9 m de distância do local do impacto e que, com o impacto do automóvel, Estela foi lançada a 10 m de distância. Além disso, eles constataram que a massa de Estela era de 60 kg, as massas do carro e do condutor eram de 1.400 kg e o coeficiente de atrito dinâmico entre pneu e asfalto, no local, era μd = 0,5. Considerando que a aceleração da gravidade é igual a 10 m/s²: Se Estela foi lançada por um ângulo igual a 45°, então sua velocidade horizontal inicial foi superior a 9 m/s.",
+   "102": "Em uma via pouco movimentada, à noite, Fernando voltava para casa dirigindo seu automóvel e atropelou e matou Estela, que estava parada na via. Segundo se verificou posteriormente, Estela era esposa de Fernando, o que levantou a hipótese de ter havido intenção criminosa (feminicídio). Os peritos criminais que analisaram as circunstâncias da ocorrência verificaram que as marcas de pneu no local da colisão indicaram que o processo de frenagem se iniciou a 6,9 m de distância do local do impacto e que, com o impacto do automóvel, Estela foi lançada a 10 m de distância. Além disso, eles constataram que a massa de Estela era de 60 kg, as massas do carro e do condutor eram de 1.400 kg e o coeficiente de atrito dinâmico entre pneu e asfalto, no local, era μd = 0,5. Considerando que a aceleração da gravidade é igual a 10 m/s²: Supondo-se que a velocidade horizontal inicial de Estela tenha sido de 7,0 m/s e que a colisão tenha durado 0,01 s, então a força horizontal transmitida pelo carro a Estela, na colisão, foi de 42.000 N.",
+   "103": "Em uma via pouco movimentada, à noite, Fernando voltava para casa dirigindo seu automóvel e atropelou e matou Estela, que estava parada na via. Segundo se verificou posteriormente, Estela era esposa de Fernando, o que levantou a hipótese de ter havido intenção criminosa (feminicídio). Os peritos criminais que analisaram as circunstâncias da ocorrência verificaram que as marcas de pneu no local da colisão indicaram que o processo de frenagem se iniciou a 6,9 m de distância do local do impacto e que, com o impacto do automóvel, Estela foi lançada a 10 m de distância. Além disso, eles constataram que a massa de Estela era de 60 kg, as massas do carro e do condutor eram de 1.400 kg e o coeficiente de atrito dinâmico entre pneu e asfalto, no local, era μd = 0,5. Considerando que a aceleração da gravidade é igual a 10 m/s²: Se a velocidade de impacto foi estimada em 36 km/h, a velocidade do veículo imediatamente antes de se iniciar o processo de frenagem era superior a 45 km/h.",
+   "104": "Em uma via pouco movimentada, à noite, Fernando voltava para casa dirigindo seu automóvel e atropelou e matou Estela, que estava parada na via. Segundo se verificou posteriormente, Estela era esposa de Fernando, o que levantou a hipótese de ter havido intenção criminosa (feminicídio). Os peritos criminais que analisaram as circunstâncias da ocorrência verificaram que as marcas de pneu no local da colisão indicaram que o processo de frenagem se iniciou a 6,9 m de distância do local do impacto e que, com o impacto do automóvel, Estela foi lançada a 10 m de distância. Além disso, eles constataram que a massa de Estela era de 60 kg, as massas do carro e do condutor eram de 1.400 kg e o coeficiente de atrito dinâmico entre pneu e asfalto, no local, era μd = 0,5. Considerando que a aceleração da gravidade é igual a 10 m/s²: Caso não tivessem sido encontradas marcas de frenagem no local do impacto, os peritos deveriam concluir e registrar no laudo que houve feminicídio.",
+   "105": "Em uma via pouco movimentada, à noite, Fernando voltava para casa dirigindo seu automóvel e atropelou e matou Estela, que estava parada na via. Segundo se verificou posteriormente, Estela era esposa de Fernando, o que levantou a hipótese de ter havido intenção criminosa (feminicídio). Os peritos criminais que analisaram as circunstâncias da ocorrência verificaram que as marcas de pneu no local da colisão indicaram que o processo de frenagem se iniciou a 6,9 m de distância do local do impacto e que, com o impacto do automóvel, Estela foi lançada a 10 m de distância. Além disso, eles constataram que a massa de Estela era de 60 kg, as massas do carro e do condutor eram de 1.400 kg e o coeficiente de atrito dinâmico entre pneu e asfalto, no local, era μd = 0,5. Considerando que a aceleração da gravidade é igual a 10 m/s²: A observação de marcas de pneu na via apenas a partir de certa metragem revela a inocorrência de processo de frenagem anterior à formação dessas marcas.",
+   "83": "Considere que o movimento de uma pessoa oscilando em uma cama elástica seja dado pela equação a seguir, em que ω consiste na velocidade angular. y(t) = Asen(ωt). Nessas condições, a normal (N) exercida pela cama elástica nos pés da pessoa pode ser calculada pela equação adiante, em que g representa a aceleração da gravidade e m, a massa da pessoa. N = m[g − ω²y(t)].",
+   "85": "O ângulo de elevação θ que uma pista de corrida deve ter para que as rodas dos carros não tenham que depender do atrito para evitar o escorregamento é dado pela equação seguinte, em que v representa a velocidade do carro, r, o raio da curva, e g, a aceleração da gravidade. θ = tg⁻¹(v²/(r·g)).",
+   "87": "Considere que um bloco de massa m ligado, na posição de repouso, a uma mola com constante elástica k caia a partir dessa posição. Nesse caso, o valor da distância máxima d de queda do bloco, antes de iniciar-se seu movimento de subida, é dado por d = mg/k, em que g representa a aceleração da gravidade.",
+   "89": "Caso um carro com 1.500 kg mova-se em uma trajetória circular com raio de 50 m a uma velocidade de 30 m/s, ele terá uma quantidade de movimento angular, em relação à origem, de 3,6 × 10⁵ kg·m²·s⁻¹.",
+   "90": "Considere que uma balsa de área A, espessura C e massa m_b flutue em águas tranquilas, com D cm submersos. Considere, ainda, que, ao sair uma pessoa da balsa, B cm fiquem submersos. Nessa situação hipotética, a massa da pessoa é igual a m_p = m_b(B/D − 1).",
+   "114": "A partir das definições de massa relativística (m) e de massa inercial (m₀) e da equação E = mc², deriva-se um termo que representa a energia de repouso de um corpo."
+  },
+  "esp13": {
+   "89": "O volume total precipitado na bacia foi de 10¹⁴ mm."
+  },
+  "esp15": {
+   "106": "Para a conservação de substratos perecíveis por longo tempo (semanas ou meses), esses devem ser colocados em sacos plásticos herméticos à temperatura de 4 °C."
+  },
+  "esp17": {
+   "103": "A dengue é transmitida pela picada dos mosquitos Aedes aegypti, conforme o seguinte ciclo: ser humano – Aedes aegypti – ser humano."
+  }
+ }
+}

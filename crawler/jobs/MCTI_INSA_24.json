@@ -1,0 +1,389 @@
+{
+ "evento": "MCTI_INSA_24",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "INSA/MCTI",
+  "ano": 2024,
+  "id_orgao": "insa"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Pesquisador Adjunto I – Biodiversidade",
+   "id_cargo": "pesquisador-adjunto-i-biodiversidade",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_MCTIINSA_CB1_01.pdf",
+     "gabarito": "gab_MCTIINSA_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_CB1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_MCTIINSA_001_01.pdf",
+     "gabarito": "gab_MCTIINSA_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Pesquisador Adjunto I – Ciência e Tecnologia de Alimentos",
+   "id_cargo": "pesquisador-adjunto-i-ciencia-e-tecnologia-de-alimentos",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_MCTIINSA_CB1_01.pdf",
+     "gabarito": "gab_MCTIINSA_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_CB1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_MCTIINSA_002_01.pdf",
+     "gabarito": "gab_MCTIINSA_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Pesquisador Adjunto I – Desertificação",
+   "id_cargo": "pesquisador-adjunto-i-desertificacao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_MCTIINSA_CB1_01.pdf",
+     "gabarito": "gab_MCTIINSA_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_CB1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_MCTIINSA_003_01.pdf",
+     "gabarito": "gab_MCTIINSA_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Pesquisador Adjunto I – Energia",
+   "id_cargo": "pesquisador-adjunto-i-energia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_MCTIINSA_CB1_01.pdf",
+     "gabarito": "gab_MCTIINSA_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_CB1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_MCTIINSA_004_01.pdf",
+     "gabarito": "gab_MCTIINSA_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Pesquisador Adjunto I – Gestão da Informação e Popularização do Conhecimento",
+   "id_cargo": "pesquisador-adjunto-i-gestao-da-informacao-e-popularizacao-do-conhecimento",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_MCTIINSA_CB1_01.pdf",
+     "gabarito": "gab_MCTIINSA_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_CB1_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_MCTIINSA_005_01.pdf",
+     "gabarito": "gab_MCTIINSA_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Pesquisador Adjunto I – Recursos Hídricos",
+   "id_cargo": "pesquisador-adjunto-i-recursos-hidricos",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_MCTIINSA_CB1_01.pdf",
+     "gabarito": "gab_MCTIINSA_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_CB1_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_MCTIINSA_006_01.pdf",
+     "gabarito": "gab_MCTIINSA_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Pesquisador Adjunto I – Sistema de Produção Animal",
+   "id_cargo": "pesquisador-adjunto-i-sistema-de-producao-animal",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_MCTIINSA_CB1_01.pdf",
+     "gabarito": "gab_MCTIINSA_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_CB1_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_MCTIINSA_007_01.pdf",
+     "gabarito": "gab_MCTIINSA_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Pesquisador Adjunto I – Sistema de Produção Vegetal",
+   "id_cargo": "pesquisador-adjunto-i-sistema-de-producao-vegetal",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_MCTIINSA_CB1_01.pdf",
+     "gabarito": "gab_MCTIINSA_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_CB1_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_MCTIINSA_008_01.pdf",
+     "gabarito": "gab_MCTIINSA_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Pesquisador Adjunto I – Solos e Mineralogia",
+   "id_cargo": "pesquisador-adjunto-i-solos-e-mineralogia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_MCTIINSA_CB1_01.pdf",
+     "gabarito": "gab_MCTIINSA_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_CB1_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_MCTIINSA_009_01.pdf",
+     "gabarito": "gab_MCTIINSA_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Tecnologista Pleno 2 – Biodiversidade",
+   "id_cargo": "tecnologista-pleno-2-biodiversidade",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_MCTIINSA_CB1_01.pdf",
+     "gabarito": "gab_MCTIINSA_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_CB1_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_MCTIINSA_010_01.pdf",
+     "gabarito": "gab_MCTIINSA_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Tecnologista Pleno 2 – Bioeconomia",
+   "id_cargo": "tecnologista-pleno-2-bioeconomia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_MCTIINSA_CB1_01.pdf",
+     "gabarito": "gab_MCTIINSA_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_CB1_01.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_MCTIINSA_011_01.pdf",
+     "gabarito": "gab_MCTIINSA_011_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Tecnologista Pleno 2 – Ciência e Tecnologia de Alimentos",
+   "id_cargo": "tecnologista-pleno-2-ciencia-e-tecnologia-de-alimentos",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_MCTIINSA_CB1_01.pdf",
+     "gabarito": "gab_MCTIINSA_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_CB1_01.PDF"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_MCTIINSA_012_01.pdf",
+     "gabarito": "gab_MCTIINSA_012_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Tecnologista Pleno 2 – Desertificação",
+   "id_cargo": "tecnologista-pleno-2-desertificacao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_MCTIINSA_CB1_01.pdf",
+     "gabarito": "gab_MCTIINSA_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_CB1_01.PDF"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_MCTIINSA_013_01.pdf",
+     "gabarito": "gab_MCTIINSA_013_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_013_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Tecnologista Pleno 2 – Gestão da Informação e Popularização do Conhecimento",
+   "id_cargo": "tecnologista-pleno-2-gestao-da-informacao-e-popularizacao-do-conhecimento",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_MCTIINSA_CB1_01.pdf",
+     "gabarito": "gab_MCTIINSA_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_CB1_01.PDF"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_MCTIINSA_014_01.pdf",
+     "gabarito": "gab_MCTIINSA_014_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_014_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Tecnologista Pleno 2 – Inovação",
+   "id_cargo": "tecnologista-pleno-2-inovacao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_MCTIINSA_CB1_01.pdf",
+     "gabarito": "gab_MCTIINSA_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_CB1_01.PDF"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_MCTIINSA_015_01.pdf",
+     "gabarito": "gab_MCTIINSA_015_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_015_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Tecnologista Pleno 2 – Recursos Hídricos",
+   "id_cargo": "tecnologista-pleno-2-recursos-hidricos",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_MCTIINSA_CB1_01.pdf",
+     "gabarito": "gab_MCTIINSA_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_CB1_01.PDF"
+    },
+    {
+     "key": "esp16",
+     "prova": "pro_MCTIINSA_016_01.pdf",
+     "gabarito": "gab_MCTIINSA_016_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_016_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Tecnologista Pleno 2 – Sistema de Produção Animal",
+   "id_cargo": "tecnologista-pleno-2-sistema-de-producao-animal",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_MCTIINSA_CB1_01.pdf",
+     "gabarito": "gab_MCTIINSA_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_CB1_01.PDF"
+    },
+    {
+     "key": "esp17",
+     "prova": "pro_MCTIINSA_017_01.pdf",
+     "gabarito": "gab_MCTIINSA_017_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_017_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Tecnologista Pleno 2 – Sistema de Produção Vegetal",
+   "id_cargo": "tecnologista-pleno-2-sistema-de-producao-vegetal",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_MCTIINSA_CB1_01.pdf",
+     "gabarito": "gab_MCTIINSA_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_CB1_01.PDF"
+    },
+    {
+     "key": "esp18",
+     "prova": "pro_MCTIINSA_018_01.pdf",
+     "gabarito": "gab_MCTIINSA_018_01.pdf",
+     "tipo": "ce",
+     "arquivo": "036_MCTIINSA_018_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {
+  "cb": {
+   "20": "Fruto da contribuição do Fórum Interconselho, que contou com a participação de lideranças da sociedade, a Mensagem Presidencial do PPA 2024-2027 propõe dezenas de programas e destaca o compromisso de assumir agendas negligenciadas, como a da diversidade, a racial, a dos povos originários e a das mulheres."
+  },
+  "esp06": {
+   "52": "A equação de Kirpich — tc = 57 (L³/Δh) — foi desenvolvida para estimar o tempo de concentração em bacias urbanas, enquanto a equação de Carter — tc = 5,96 L^0,96/S^0,3 —, para estimar o tempo de concentração em áreas rurais."
+  },
+  "esp10": {
+   "96": "O α -cetoglutarato (2) é convertido em succinil-CoA em uma etapa que gera NADH (3) e libera CO₂."
+  },
+  "esp11": {
+   "77": "O tamanho da floresta preservada no país, com a adoção da nova tecnologia, é igual a 4/5 do território.",
+   "78": "Se o consumo de alimentos cresceu, devido ao aumento da população no tempo, mas a tecnologia permaneceu constante, a área plantada, no país, terá dimensão igual a 2 · V + W.",
+   "79": "Com a mudança tecnológica, no período entre t 0 e t 1 , o efeito poupa-florestas será igual a Y, uma vez que se aumentou a produção de alimentos sem a necessidade de desmatar florestas para abrir novas fronteiras agrícolas para além de W − V."
+  }
+ }
+}

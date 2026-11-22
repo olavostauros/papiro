@@ -1,0 +1,1192 @@
+{
+ "evento": "SEED_SE_25_PROFESSOR",
+ "workdir": "/tmp/seed_se_25_professor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Secretaria de Estado da Educação de Sergipe",
+  "ano": 2025,
+  "id_orgao": "seed-se"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Professor – Arte",
+   "id_cargo": "professor-arte",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_22FCBD655E60F519F91DD72A.pdf",
+     "gabarito": "gab_758752A8E444FCB6811912ED.pdf",
+     "tipo": "mc",
+     "arquivo": "22FCBD655E60F519F91DD72A1D5112B3BB3CAF3AEB16096705C953CDD6ED7494.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Professor – Biologia",
+   "id_cargo": "professor-biologia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_85ADC232C1546CE8ED73ECDC.pdf",
+     "gabarito": "gab_0C91E4F651DC3084D380F51C.pdf",
+     "tipo": "mc",
+     "arquivo": "85ADC232C1546CE8ED73ECDCC368DA75063086E613024238A8A51C2B097D68C8.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Professor – Educação Física",
+   "id_cargo": "professor-educacao-fisica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_6639BF76AA247A90F705AE20.pdf",
+     "gabarito": "gab_CEBBF2FB9FD7DDCCD9755E62.pdf",
+     "tipo": "mc",
+     "arquivo": "6639BF76AA247A90F705AE2075CCD7D05A752C91C8A4E1F991109B38BF401C09.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Professor – Ensino Religioso",
+   "id_cargo": "professor-ensino-religioso",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_9161FD5CF74320C8B453D836.pdf",
+     "gabarito": "gab_0259F2F45B72D490657CBC02.pdf",
+     "tipo": "mc",
+     "arquivo": "9161FD5CF74320C8B453D8363968025DCE431351B1538E4CEFA59D1AB50AA790.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Professor – Filosofia",
+   "id_cargo": "professor-filosofia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_4E463D54D70209B4D148EEB3.pdf",
+     "gabarito": "gab_6561996952B28F6512755DDF.pdf",
+     "tipo": "mc",
+     "arquivo": "4E463D54D70209B4D148EEB3D2B308127E3C8F503C7379297BB71B474948A58F.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Professor – Física",
+   "id_cargo": "professor-fisica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_BC8A1B3A2B17741AB8DB1E1A.pdf",
+     "gabarito": "gab_39088B8A51BE80C2F4CF1D3D.pdf",
+     "tipo": "mc",
+     "arquivo": "BC8A1B3A2B17741AB8DB1E1A5300B5124631FA9B073BE16CF3A8FA04423C57A3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Professor – Geografia",
+   "id_cargo": "professor-geografia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_4E7D055C54EEAA42BF03248B.pdf",
+     "gabarito": "gab_89AC7397A74FC1FAE383CC19.pdf",
+     "tipo": "mc",
+     "arquivo": "4E7D055C54EEAA42BF03248BB971BC1CA96D8AD4ACCA78EFEA5BF7940E7B9009.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Professor – História",
+   "id_cargo": "professor-historia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_37D88826468DB2E5F53CFF14.pdf",
+     "gabarito": "gab_41A2623078B371ED45087B28.pdf",
+     "tipo": "mc",
+     "arquivo": "37D88826468DB2E5F53CFF14475B541271AFA967A2E9167B4FE12DCD55E8C652.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Professor – Informática/Computação",
+   "id_cargo": "professor-informatica-computacao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_27E34943C9CD2B808DDD1B4A.pdf",
+     "gabarito": "gab_373B3460F9622F3710BDBB90.pdf",
+     "tipo": "mc",
+     "arquivo": "27E34943C9CD2B808DDD1B4AB17FE75AC422471DD8BF4501C097E752A93B2C5E.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Professor – Língua Espanhola",
+   "id_cargo": "professor-lingua-espanhola",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_0D3EFA6C4DFB7D5D21E47051.pdf",
+     "gabarito": "gab_6BC4C665BBCEF50447A0B503.pdf",
+     "tipo": "mc",
+     "arquivo": "0D3EFA6C4DFB7D5D21E47051AF84781C68A62D599321328A6A6198C20BB40A33.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Professor – Língua Inglesa",
+   "id_cargo": "professor-lingua-inglesa",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_1B9A35C27F4D5B38C680C68C.pdf",
+     "gabarito": "gab_1BF71B632FD9FDFBDE5C6DD0.pdf",
+     "tipo": "mc",
+     "arquivo": "1B9A35C27F4D5B38C680C68C44929065508F0B29952EC7D876BD41E7126AD13D.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Professor – Língua Portuguesa",
+   "id_cargo": "professor-lingua-portuguesa",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_23229BCCC4BA5ECDD8E5262C.pdf",
+     "gabarito": "gab_68C9E9E775E555E8FD2CF6C9.pdf",
+     "tipo": "mc",
+     "arquivo": "23229BCCC4BA5ECDD8E5262CC7D93887FEFB1C3709B832F3364606E26B618F85.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Professor – Matemática",
+   "id_cargo": "professor-matematica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_DDCCB2D6C93E02A802A690A7.pdf",
+     "gabarito": "gab_733946B0E293525196DB5CDB.pdf",
+     "tipo": "mc",
+     "arquivo": "DDCCB2D6C93E02A802A690A7C98E518E08986ADFB0B2C3AD114DF022300F6BF4.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "Professor – Química",
+   "id_cargo": "professor-quimica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_C46C7D2174B492BA1ED2D172.pdf",
+     "gabarito": "gab_1C3ACA93627FD886DC148B63.pdf",
+     "tipo": "mc",
+     "arquivo": "C46C7D2174B492BA1ED2D172185BC621328BE00739D919829798C26CBADD12D5.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "Professor – Sociologia",
+   "id_cargo": "professor-sociologia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_F6BB6ECDCFB4E40C26DE19CA.pdf",
+     "gabarito": "gab_5BCCAAF2000CE254181796C1.pdf",
+     "tipo": "mc",
+     "arquivo": "F6BB6ECDCFB4E40C26DE19CAFDAA398823E69A21047D6F50E0FAAFB396A98903.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "Professor – Acordeon",
+   "id_cargo": "professor-acordeon",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "17",
+   "cargo": "Professor – Bandolim e Cavaquinho",
+   "id_cargo": "professor-bandolim-e-cavaquinho",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "18",
+   "cargo": "Professor – Canto Lírico",
+   "id_cargo": "professor-canto-lirico",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "19",
+   "cargo": "Professor – Canto Popular",
+   "id_cargo": "professor-canto-popular",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "20",
+   "cargo": "Professor – Clarinete",
+   "id_cargo": "professor-clarinete",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "21",
+   "cargo": "Professor – Contrabaixo Acústico",
+   "id_cargo": "professor-contrabaixo-acustico",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "22",
+   "cargo": "Professor – Contrabaixo Elétrico",
+   "id_cargo": "professor-contrabaixo-eletrico",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "23",
+   "cargo": "Professor – Estruturação e Teoria Musical",
+   "id_cargo": "professor-estruturacao-e-teoria-musical",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "24",
+   "cargo": "Professor – Literatura, Apreciação e História da Música",
+   "id_cargo": "professor-literatura-apreciacao-e-historia-da-musica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "25",
+   "cargo": "Professor – Flauta",
+   "id_cargo": "professor-flauta",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "26",
+   "cargo": "Professor – Guitarra",
+   "id_cargo": "professor-guitarra",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "27",
+   "cargo": "Professor – Musicalização",
+   "id_cargo": "professor-musicalizacao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "28",
+   "cargo": "Professor – Percepção e Estruturação Musical",
+   "id_cargo": "professor-percepcao-e-estruturacao-musical",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "29",
+   "cargo": "Professor – Prática de Conjunto e Regência Musical",
+   "id_cargo": "professor-pratica-de-conjunto-e-regencia-musical",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "30",
+   "cargo": "Professor – Percussão Musical e Bateria",
+   "id_cargo": "professor-percussao-musical-e-bateria",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "31",
+   "cargo": "Professor – Piano (Prática de Instrumento)",
+   "id_cargo": "professor-piano-pratica-de-instrumento",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "32",
+   "cargo": "Professor – Piano (Correpetidor)",
+   "id_cargo": "professor-piano-correpetidor",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "33",
+   "cargo": "Professor – Produção e Tecnologia Musical e Informática em Música",
+   "id_cargo": "professor-producao-e-tecnologia-musical-e-informatica-em-musica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "34",
+   "cargo": "Professor – Saxofone",
+   "id_cargo": "professor-saxofone",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "35",
+   "cargo": "Professor – Teclado",
+   "id_cargo": "professor-teclado",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "36",
+   "cargo": "Professor – Trombone",
+   "id_cargo": "professor-trombone",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "37",
+   "cargo": "Professor – Trompete",
+   "id_cargo": "professor-trompete",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "38",
+   "cargo": "Professor – Viola",
+   "id_cargo": "professor-viola",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "39",
+   "cargo": "Professor – Violão",
+   "id_cargo": "professor-violao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "40",
+   "cargo": "Professor – Violino",
+   "id_cargo": "professor-violino",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "41",
+   "cargo": "Professor – Violoncelo",
+   "id_cargo": "professor-violoncelo",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp1641",
+     "prova": "pro_340BD6D05C05F423A74F9977.pdf",
+     "gabarito": "gab_CDF434551CBDC6C6BFF46884.pdf",
+     "tipo": "mc",
+     "arquivo": "340BD6D05C05F423A74F99775DED6621FEE218EC491A9F9C29B38CD33ADA24F3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "42",
+   "cargo": "Professor – Libras",
+   "id_cargo": "professor-libras",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_47838AF2978470E6A30B1B91.pdf",
+     "gabarito": "gab_343EF1F6EE7282049E2D7887.pdf",
+     "tipo": "mc",
+     "arquivo": "47838AF2978470E6A30B1B91CEFF7E58A51246F18B337F0A08721E6A808A45D5.pdf"
+    },
+    {
+     "key": "cp",
+     "prova": "pro_4E607B546D239545DD649350.pdf",
+     "gabarito": "gab_CBF8E1751329F1BE67B98234.pdf",
+     "tipo": "mc",
+     "arquivo": "4E607B546D239545DD6493504156B84A6BE4D218F608D9911AE7F8775E52420E.pdf"
+    },
+    {
+     "key": "esp42",
+     "prova": "pro_760A44E4EF1B6313A8AB5864.pdf",
+     "gabarito": "gab_44D1D85C135FB04AB85B107B.pdf",
+     "tipo": "mc",
+     "arquivo": "760A44E4EF1B6313A8AB5864240677447CFFA497F4C9A4F4D02FFAE9D6AB0641.pdf"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {},
+ "fonte": "https://cdn.cebraspe.org.br/concursos/SEED_SE_25_PROFESSOR/arquivos/"
+}

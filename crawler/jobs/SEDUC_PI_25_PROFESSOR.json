@@ -1,0 +1,475 @@
+{
+ "evento": "SEDUC_PI_25_PROFESSOR",
+ "workdir": "/tmp/seduc_pi_25_professor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Secretaria de Educação do Estado do Piauí (Seduc/PI)",
+  "ano": 2025,
+  "id_orgao": "seducpi"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Professor da Educação Básica – Arte",
+   "id_cargo": "professor-arte",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_36C1CD17BF9F56A1B988654F.pdf",
+     "gabarito": "gab_F9C54529764A11CEE6FD384E.pdf",
+     "tipo": "mc",
+     "arquivo": "36C1CD17BF9F56A1B988654F309FB56EAA9C3EFA41C9A24884E6229878D6D10A.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_D9A2742F6F5DCD807C2A11C4.pdf",
+     "gabarito": "gab_78CEDFE0136FCA1272D90B6A.pdf",
+     "tipo": "mc",
+     "arquivo": "D9A2742F6F5DCD807C2A11C45F608FF5D80A7BCD155FAD62873A8CB9FA853A57.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Professor da Educação Básica – Biologia",
+   "id_cargo": "professor-biologia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_36C1CD17BF9F56A1B988654F.pdf",
+     "gabarito": "gab_F9C54529764A11CEE6FD384E.pdf",
+     "tipo": "mc",
+     "arquivo": "36C1CD17BF9F56A1B988654F309FB56EAA9C3EFA41C9A24884E6229878D6D10A.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_B30A002A9BFA9822413C1A6A.pdf",
+     "gabarito": "gab_D37DE1BB095F8D068392EDAD.pdf",
+     "tipo": "mc",
+     "arquivo": "B30A002A9BFA9822413C1A6A23A55E167392D303C68479D4003400D9B07214F8.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Professor da Educação Básica – Educação física",
+   "id_cargo": "professor-educacao-fisica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_36C1CD17BF9F56A1B988654F.pdf",
+     "gabarito": "gab_F9C54529764A11CEE6FD384E.pdf",
+     "tipo": "mc",
+     "arquivo": "36C1CD17BF9F56A1B988654F309FB56EAA9C3EFA41C9A24884E6229878D6D10A.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_CEAD2CF019F66DC0AF49A399.pdf",
+     "gabarito": "gab_6CE2B68345081927E9A07858.pdf",
+     "tipo": "mc",
+     "arquivo": "CEAD2CF019F66DC0AF49A399E51E21E27ED51A0F990764C6C260B8253D868D79.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Professor da Educação Básica – Espanhol",
+   "id_cargo": "professor-espanhol",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_36C1CD17BF9F56A1B988654F.pdf",
+     "gabarito": "gab_F9C54529764A11CEE6FD384E.pdf",
+     "tipo": "mc",
+     "arquivo": "36C1CD17BF9F56A1B988654F309FB56EAA9C3EFA41C9A24884E6229878D6D10A.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_02BD9AE28F4142254FFAE5DB.pdf",
+     "gabarito": "gab_6A0F85508A06F3563BD47E5F.pdf",
+     "tipo": "mc",
+     "arquivo": "02BD9AE28F4142254FFAE5DB4A506957AA212E5B2F0CD1FDE6ADCF57005178DB.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Professor da Educação Básica – Filosofia",
+   "id_cargo": "professor-filosofia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_36C1CD17BF9F56A1B988654F.pdf",
+     "gabarito": "gab_F9C54529764A11CEE6FD384E.pdf",
+     "tipo": "mc",
+     "arquivo": "36C1CD17BF9F56A1B988654F309FB56EAA9C3EFA41C9A24884E6229878D6D10A.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_DE9254446DEC1E1C60ADAE05.pdf",
+     "gabarito": "gab_2585DF9FB78F2FA67AA681E6.pdf",
+     "tipo": "mc",
+     "arquivo": "DE9254446DEC1E1C60ADAE05BB049A7AE5C9620861AEE3C56B453C9A92F92603.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Professor da Educação Básica – Física",
+   "id_cargo": "professor-fisica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_36C1CD17BF9F56A1B988654F.pdf",
+     "gabarito": "gab_F9C54529764A11CEE6FD384E.pdf",
+     "tipo": "mc",
+     "arquivo": "36C1CD17BF9F56A1B988654F309FB56EAA9C3EFA41C9A24884E6229878D6D10A.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_2CB078AA6F0DF78BB3196AC5.pdf",
+     "gabarito": "gab_D405A3E7CB988D6C2C9B50F0.pdf",
+     "tipo": "mc",
+     "arquivo": "2CB078AA6F0DF78BB3196AC5103BFE8EED7182E2AFE97578DEEE319E06A72885.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Professor da Educação Básica – Geografia",
+   "id_cargo": "professor-geografia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_36C1CD17BF9F56A1B988654F.pdf",
+     "gabarito": "gab_F9C54529764A11CEE6FD384E.pdf",
+     "tipo": "mc",
+     "arquivo": "36C1CD17BF9F56A1B988654F309FB56EAA9C3EFA41C9A24884E6229878D6D10A.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_36F596335ED6CE8756952000.pdf",
+     "gabarito": "gab_C05C124FAF2D1B5B303B9B33.pdf",
+     "tipo": "mc",
+     "arquivo": "36F596335ED6CE87569520002148536BBD631EBDF4C553753A289001D6211873.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Professor da Educação Básica – História",
+   "id_cargo": "professor-historia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_36C1CD17BF9F56A1B988654F.pdf",
+     "gabarito": "gab_F9C54529764A11CEE6FD384E.pdf",
+     "tipo": "mc",
+     "arquivo": "36C1CD17BF9F56A1B988654F309FB56EAA9C3EFA41C9A24884E6229878D6D10A.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_E6471F9685D9E6D3454AA757.pdf",
+     "gabarito": "gab_D7D32435B6E68D82D4F705C8.pdf",
+     "tipo": "mc",
+     "arquivo": "E6471F9685D9E6D3454AA7575CBF665884EFB8D229DB5F6E9E56E70ADFEA7E21.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Professor da Educação Básica – Informática",
+   "id_cargo": "professor-informatica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_36C1CD17BF9F56A1B988654F.pdf",
+     "gabarito": "gab_F9C54529764A11CEE6FD384E.pdf",
+     "tipo": "mc",
+     "arquivo": "36C1CD17BF9F56A1B988654F309FB56EAA9C3EFA41C9A24884E6229878D6D10A.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_A901EE526B1383A4B1776A3C.pdf",
+     "gabarito": "gab_46A954A409A39EC8807775B6.pdf",
+     "tipo": "mc",
+     "arquivo": "A901EE526B1383A4B1776A3C1A6C46C4D910078E4102FD5F956A3FCFF1E8AB13.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Professor da Educação Básica – Inglês",
+   "id_cargo": "professor-ingles",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_36C1CD17BF9F56A1B988654F.pdf",
+     "gabarito": "gab_F9C54529764A11CEE6FD384E.pdf",
+     "tipo": "mc",
+     "arquivo": "36C1CD17BF9F56A1B988654F309FB56EAA9C3EFA41C9A24884E6229878D6D10A.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_9845CD2B5F90997F17DBF708.pdf",
+     "gabarito": "gab_9D69B91DD8FAF7C90F1E7F08.pdf",
+     "tipo": "mc",
+     "arquivo": "9845CD2B5F90997F17DBF708C82EF4A462B87B64F07277ABD5A6FD04A2667A9A.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Professor da Educação Básica – Matemática",
+   "id_cargo": "professor-matematica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_36C1CD17BF9F56A1B988654F.pdf",
+     "gabarito": "gab_F9C54529764A11CEE6FD384E.pdf",
+     "tipo": "mc",
+     "arquivo": "36C1CD17BF9F56A1B988654F309FB56EAA9C3EFA41C9A24884E6229878D6D10A.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_7F030CF1CF1B990615CFAC9C.pdf",
+     "gabarito": "gab_B9ADFCE7CE60D9D48CE1BECE.pdf",
+     "tipo": "mc",
+     "arquivo": "7F030CF1CF1B990615CFAC9C79FF5299A06F22B5BAB0B929446DD0077FF1BBCE.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Professor da Educação Básica – Português",
+   "id_cargo": "professor-portugues",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_36C1CD17BF9F56A1B988654F.pdf",
+     "gabarito": "gab_F9C54529764A11CEE6FD384E.pdf",
+     "tipo": "mc",
+     "arquivo": "36C1CD17BF9F56A1B988654F309FB56EAA9C3EFA41C9A24884E6229878D6D10A.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_44DB7B7B86AFE59891B2C843.pdf",
+     "gabarito": "gab_C77F3882C9FD694E13FA7405.pdf",
+     "tipo": "mc",
+     "arquivo": "44DB7B7B86AFE59891B2C843637D8BBD2F2CBAEB9F7747874B4F8223B6FBEF85.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Professor da Educação Básica – Química",
+   "id_cargo": "professor-quimica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_36C1CD17BF9F56A1B988654F.pdf",
+     "gabarito": "gab_F9C54529764A11CEE6FD384E.pdf",
+     "tipo": "mc",
+     "arquivo": "36C1CD17BF9F56A1B988654F309FB56EAA9C3EFA41C9A24884E6229878D6D10A.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_6EE6E93F4C0A051B029385BE.pdf",
+     "gabarito": "gab_2CADC6C4DC6CA03640A586FE.pdf",
+     "tipo": "mc",
+     "arquivo": "6EE6E93F4C0A051B029385BE0B30E4EC532D712A4DF10A8A04445B2FC901DDA3.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "Professor da Educação Básica – Sociologia",
+   "id_cargo": "professor-sociologia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_36C1CD17BF9F56A1B988654F.pdf",
+     "gabarito": "gab_F9C54529764A11CEE6FD384E.pdf",
+     "tipo": "mc",
+     "arquivo": "36C1CD17BF9F56A1B988654F309FB56EAA9C3EFA41C9A24884E6229878D6D10A.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_BEAA37142F3D38143807C767.pdf",
+     "gabarito": "gab_E6AFFC881B26C26FA8C1BA79.pdf",
+     "tipo": "mc",
+     "arquivo": "BEAA37142F3D38143807C767DBCD99024EB4125E48732250EA7EAD9EC2BB2CD3.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {
+  "esp06": [
+   31
+  ],
+  "esp09": [
+   24
+  ]
+ },
+ "patch": {
+  "esp06": {
+   "36": {
+    "enunciado": "Considerando essas informações e sabendo que esses fios, além de retilíneos, são longos e atravessados por uma corrente constante, assinale a opção em que é corretamente apresentado o valor da integral de linha ∮B⃗·ds para a trajetória indicada sobre a linha de Ampère, sendo μ₀ a constante de permeabilidade magnética.",
+    "alternativas": [
+     "(+12 A)·μ₀",
+     "(−12 A)·μ₀",
+     "(+16 A)·μ₀",
+     "(−16 A)·μ₀",
+     "(+20 A)·μ₀"
+    ]
+   }
+  },
+  "esp11": {
+   "19": {
+    "enunciado": "Se f(x) é a função cuja inversa é f⁻¹(x) = x/4 + 3, então a expressão de f(x) corresponde a",
+    "alternativas": [
+     "f(x) = x/3 + 4.",
+     "f(x) = 4/x + 1/3.",
+     "f(x) = 4/(x + 12).",
+     "f(x) = −x/4 − 3.",
+     "f(x) = 4x − 12."
+    ]
+   },
+   "20": {
+    "alternativas": [
+     "g(x) = 2 + log₂(x + 4)",
+     "g(x) = 2x + 8",
+     "g(x) = 16ˣ − 4",
+     "g(x) = 16ˣ/4",
+     "g(x) = 64·2ˣ"
+    ]
+   },
+   "21": {
+    "enunciado": "A respeito da função f : ℝ → ℝ dada por f(x) = −x³ + 4x, é correto afirmar que f(x) é"
+   },
+   "22": {
+    "enunciado": "Se f(x) = ax² + bx + c denota uma função do segundo grau cujo gráfico contém o ponto P(−1,4) e tem as raízes x = −2 e x = 3, então os valores de a, b e c são, respectivamente, iguais a",
+    "alternativas": [
+     "−(2/3), −(2/3) e 4.",
+     "−1, −2 e 3.",
+     "1/2, −(3/2) e −2.",
+     "−1, 1 e 6.",
+     "1, −1 e −6."
+    ]
+   },
+   "23": {
+    "alternativas": [
+     "[−3,−1] ∪ [1,3]",
+     "[1,3]",
+     "[−3, 3]",
+     "(−∞,3]",
+     "(−∞,1] ∪ [1,+∞)"
+    ]
+   },
+   "24": {
+    "alternativas": [
+     "(−∞,2] ∪ [6,+∞)",
+     "(−∞, 6]",
+     "[2,+∞)",
+     "(−∞,2]",
+     "[2,6]"
+    ]
+   },
+   "25": {
+    "enunciado": "Assinale a opção que corresponde ao coeficiente do termo correspondente à potência x⁹ da expansão de (2x² − 2√6x + 3)⁶.",
+    "alternativas": [
+     "−10.560√6",
+     "−384√6",
+     "−57.024√6",
+     "6.336",
+     "71.280"
+    ]
+   },
+   "26": {
+    "alternativas": [
+     "(120!/(20!·6!))⁶",
+     "∑ₖ₌₀⁵ (120−20k)!/(20!(100−20k)!)",
+     "(1/6!)·∑ₖ₌₀⁵ (120−20k)!/(20!(100−20k)!)",
+     "120!/((20!)⁶·6!)",
+     "120!/(20!)⁶"
+    ]
+   },
+   "27": {
+    "enunciado": "O conjunto solução do sistema linear {2x + y + z = 1; x − 2y + 2z = 2; 5x + 4z = 4} é",
+    "alternativas": [
+     "S = {(0, 0, 1)}",
+     "S = {(4/5, −3/5, 0)}",
+     "S = {(−3/5 + (3/5)t, 4/5 − (4/5)t, t) : t ∈ ℝ}",
+     "S = ∅",
+     "S = {(4/5 − (4/5)t, −3/5 + (3/5)t, t) : t ∈ ℝ}"
+    ]
+   },
+   "28": {
+    "alternativas": [
+     "π",
+     "2π/3",
+     "3π/5",
+     "5π/7",
+     "6π/7"
+    ]
+   },
+   "29": {
+    "alternativas": [
+     "81(√3+1)/8",
+     "81/8",
+     "81√3/4",
+     "81√3/8",
+     "81(√3+1)/4"
+    ]
+   },
+   "30": {
+    "enunciado": "Um cone que possui área lateral √6π m² e altura 1 m tem o raio igual a",
+    "alternativas": [
+     "√6",
+     "3√2",
+     "2",
+     "√3",
+     "√2"
+    ]
+   },
+   "32": {
+    "alternativas": [
+     "e = √5/2",
+     "e = √13/3",
+     "e = √5/3",
+     "e = 2/3",
+     "e = √13/2"
+    ]
+   }
+  }
+ }
+}

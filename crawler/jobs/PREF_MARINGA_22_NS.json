@@ -1,0 +1,767 @@
+{
+ "evento": "PREF_MARINGA_22_NS",
+ "workdir": "/tmp/pref_maringa_22_ns",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Prefeitura de Maringá",
+  "ano": 2022,
+  "id_orgao": "pref-maringa"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "ANALISTA MUNICIPAL – CONTABILIDADE",
+   "id_cargo": "analista-municipal-contabilidade",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_PREF_DE_MARINGA_001_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "ANALISTA MUNICIPAL – DIREITO",
+   "id_cargo": "analista-municipal-direito",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_PREF_DE_MARINGA_002_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "ARQUITETO",
+   "id_cargo": "arquiteto",
+   "provas": [
+    {
+     "key": "esp03",
+     "prova": "pro_PREF_DE_MARINGA_003_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "AUDITOR EM SAÚDE – CIÊNCIAS CONTÁBEIS",
+   "id_cargo": "auditor-em-saude-ciencias-contabeis",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_PREF_DE_MARINGA_004_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_004_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "AUDITOR EM SAÚDE – DIREITO",
+   "id_cargo": "auditor-em-saude-direito",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_PREF_DE_MARINGA_005_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_005_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "AUDITOR EM SAÚDE – ENFERMAGEM",
+   "id_cargo": "auditor-em-saude-enfermagem",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_PREF_DE_MARINGA_006_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_006_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "AUDITOR DE SAÚDE – FARMÁCIA",
+   "id_cargo": "auditor-de-saude-farmacia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_PREF_DE_MARINGA_007_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_007_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "AUDITOR EM SAÚDE – ODONTOLOGIA",
+   "id_cargo": "auditor-em-saude-odontologia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_PREF_DE_MARINGA_008_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_008_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "AUDITOR EM SAÚDE – PSICOLOGIA",
+   "id_cargo": "auditor-em-saude-psicologia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_PREF_DE_MARINGA_009_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_009_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "AUDITOR TRIBUTÁRIO",
+   "id_cargo": "auditor-tributario",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_PREF_DE_MARINGA_010_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_010_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "BIOMÉDICO",
+   "id_cargo": "biomedico",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_PREF_DE_MARINGA_011_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_011_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "CONTADOR",
+   "id_cargo": "contador",
+   "provas": [
+    {
+     "key": "esp12",
+     "prova": "pro_PREF_MARINGA_012_01.pdf",
+     "gabarito": "gab_PREF_MARINGA_012_01.pdf",
+     "tipo": "mc",
+     "arquivo": "742_PREF_MARINGA_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "ENFERMEIRO",
+   "id_cargo": "enfermeiro",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_PREF_DE_MARINGA_013_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_013_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_013_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "ENGENHEIRO ELETRICISTA",
+   "id_cargo": "engenheiro-eletricista",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_PREF_DE_MARINGA_014_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_014_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_014_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "FONOAUDIÓLOGO",
+   "id_cargo": "fonoaudiologo",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_PREF_DE_MARINGA_015_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_015_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_015_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "GEÓGRAFO",
+   "id_cargo": "geografo",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp16",
+     "prova": "pro_PREF_DE_MARINGA_016_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_016_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_016_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "17",
+   "cargo": "MÉDICO AUDITOR",
+   "id_cargo": "medico-auditor",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp17",
+     "prova": "pro_PREF_DE_MARINGA_017_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_017_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_017_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "18",
+   "cargo": "MÉDICO CARDIOLOGISTA",
+   "id_cargo": "medico-cardiologista",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp18",
+     "prova": "pro_PREF_DE_MARINGA_018_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_018_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_018_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "19",
+   "cargo": "MÉDICO CLÍNICO GERAL",
+   "id_cargo": "medico-clinico-geral",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp19",
+     "prova": "pro_PREF_DE_MARINGA_019_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_019_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_019_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "20",
+   "cargo": "MÉDICO DERMATOLOGISTA",
+   "id_cargo": "medico-dermatologista",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp20",
+     "prova": "pro_PREF_DE_MARINGA_020_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_020_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_020_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "21",
+   "cargo": "MÉDICO GASTROENTEROLOGISTA",
+   "id_cargo": "medico-gastroenterologista",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp21",
+     "prova": "pro_PREF_DE_MARINGA_021_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_021_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_021_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "22",
+   "cargo": "MÉDICO GINECOLOGISTA/OBSTETRA",
+   "id_cargo": "medico-ginecologista-obstetra",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp22",
+     "prova": "pro_PREF_DE_MARINGA_022_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_022_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_022_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "23",
+   "cargo": "MÉDICO INFECTOLOGISTA",
+   "id_cargo": "medico-infectologista",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp23",
+     "prova": "pro_PREF_DE_MARINGA_023_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_023_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_023_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "24",
+   "cargo": "MÉDICO NEUROLOGISTA",
+   "id_cargo": "medico-neurologista",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp24",
+     "prova": "pro_PREF_DE_MARINGA_024_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_024_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_024_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "25",
+   "cargo": "MÉDICO OFTALMOLOGISTA",
+   "id_cargo": "medico-oftalmologista",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp25",
+     "prova": "pro_PREF_DE_MARINGA_025_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_025_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_025_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "26",
+   "cargo": "MÉDICO ORTOPEDISTA",
+   "id_cargo": "medico-ortopedista",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp26",
+     "prova": "pro_PREF_DE_MARINGA_026_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_026_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_026_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "27",
+   "cargo": "MÉDICO OTORRINOLARINGOLOGISTA",
+   "id_cargo": "medico-otorrinolaringologista",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp27",
+     "prova": "pro_PREF_DE_MARINGA_027_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_027_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_027_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "28",
+   "cargo": "MÉDICO PEDIATRA",
+   "id_cargo": "medico-pediatra",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp28",
+     "prova": "pro_PREF_DE_MARINGA_028_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_028_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_028_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "29",
+   "cargo": "MÉDICO PNEUMOLOGISTA",
+   "id_cargo": "medico-pneumologista",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp29",
+     "prova": "pro_PREF_DE_MARINGA_029_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_029_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_029_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "30",
+   "cargo": "MÉDICO PSIQUIATRA",
+   "id_cargo": "medico-psiquiatra",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp30",
+     "prova": "pro_PREF_DE_MARINGA_030_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_030_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_030_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "31",
+   "cargo": "MÉDICO UROLOGISTA",
+   "id_cargo": "medico-urologista",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp31",
+     "prova": "pro_PREF_DE_MARINGA_031_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_031_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_031_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "32",
+   "cargo": "NUTRICIONISTA",
+   "id_cargo": "nutricionista",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp32",
+     "prova": "pro_PREF_DE_MARINGA_032_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_032_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_032_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "33",
+   "cargo": "PROCURADOR MUNICIPAL",
+   "id_cargo": "procurador-municipal",
+   "provas": [
+    {
+     "key": "esp33",
+     "prova": "pro_PREF_MARINGA_033_01.pdf",
+     "gabarito": "gab_PREF_MARINGA_033_01.pdf",
+     "tipo": "mc",
+     "arquivo": "742_PREF_MARINGA_033_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "34",
+   "cargo": "PROFISSIONAL DE EDUCAÇÃO FÍSICA",
+   "id_cargo": "profissional-de-educacao-fisica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_DE_MARINGA_CG1_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_CG1_01.PDF"
+    },
+    {
+     "key": "esp34",
+     "prova": "pro_PREF_DE_MARINGA_034_01.pdf",
+     "gabarito": "gab_PREF_DE_MARINGA_034_01.pdf",
+     "tipo": "mc",
+     "arquivo": "743_PREF_DE_MARINGA_034_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {
+  "esp14": [
+   40
+  ]
+ },
+ "patch": {
+  "cg": {
+   "2": {
+    "alternativas": [
+     "No primeiro período, a flexão da forma verbal “permita”, na terceira pessoa do singular, justifica-se pelo fato de o sujeito da oração “que permita ao desenvolvimento científico e tecnológico” ser uma outra oração – “alcançar a população”.",
+     "Dadas as relações coesivas do parágrafo, o vocábulo “Esse” (segundo período) está empregado em referência a “impacto” (primeiro período).",
+     "Estariam mantidas a coerência e a correção gramatical do último período do parágrafo caso o vocábulo “que”, em suas duas ocorrências, fosse substituído por onde , porque o “aperfeiçoamento” e o “potencial” mencionados ocorrem no “processo”.",
+     "Os vocábulos “efetivamente” e “determinante” (primeiro período) têm função adverbial, visto que ambos modificam o verbo da oração em que se inserem.",
+     "O vocábulo “e” empregado após “população” (primeiro período) liga por coordenação duas orações subordinadas adjetivas que restringem o sentido de “uma política de longo prazo”."
+    ]
+   }
+  },
+  "esp12": {
+   "89": {
+    "alternativas": [
+     "É facultado aos órgãos que não possuem receitas próprias concederem suprimento de fundos.",
+     "Em respeito aos limites para suprimento de fundos de pequeno vulto mediante cartão de pagamento do governo federal e conta bancária, o valor do adiantamento de despesa não deve incluir os valores referentes às obrigações tributárias e de contribuições, visto que estes, dada a natureza corrente da despesa, são classificados apartadamente, de modo a se evitar lançamento em duplicidade.",
+     "A restituição de adiantamentos de despesas deve ser analisada como uma cadeia de valor com foco no momento do recolhimento: valores adiantados a título de suprimento de fundos, recolhimento no mesmo exercício, conta – anulação de despesa, evento – recomposição da dotação; e valores adiantados a título de suprimento de fundos, recolhimento após o encerramento do exercício, conta – ajustes exercícios anteriores, eventos – recomposição da dotação orçamentária e classificação pela natureza – outras restituições.",
+     "Caracterizada a necessidade em despacho fundamentado, a autoridade competente em nível ministerial poderá, excepcionalmente, fracionar a despesa com suprimento de fundos, desde que satisfeitas as características do fracionamento, ou seja, as aquisições devem ter a mesma natureza funcional e ser registradas na mesma classificação contábil em qualquer dos níveis.",
+     "As potencialidades do suprimento de fundos foram ampliadas por lei para a garantia de auxílio no enfrentamento da pandemia da covid-19, contudo, como o acesso a esses limites ampliados somente ocorre por meio do cartão de pagamento do governo (cartão corporativo), já regulamentado no âmbito federal, exigiu-se que os demais entes da Federação criassem ou adquirissem cartão próprio."
+    ]
+   }
+  },
+  "esp14": {
+   "18": {
+    "enunciado": "No circuito a seguir, a fonte de tensão é expressa por V_0(t) = A·cos(ωt + θ), em que t é o tempo e A, ω e θ são constantes. O circuito se encontra em regime permanente. Para esse circuito, se a fonte de tensão for representada pelo fasor A∠θ, assinale a opção que apresenta uma expressão que permite o cálculo correto do fasor associado à tensão V_L(t).",
+    "alternativas": [
+     "A/√((R1·R2)^2 + (ωL)^2·(R1+R2)^2) ∠(θ + π/2 − tan^-1(ωL(R1+R2)/(R1·R2)))",
+     "ωL·R2·A/√((R1·R2)^2 + (ωL)^2·(R1+R2)^2) ∠(θ − π/2 + tan^-1(R1·R2/(ωL(R1+R2))))",
+     "A/√((R1·R2)^2 + (ωL)^2·(R1+R2)^2) ∠(θ − π/2 + tan^-1(ωL(R1+R2)/(R1·R2)))",
+     "ωL·R2·A/√((R1·R2)^2 + (ωL)^2·(R1+R2)^2) ∠(θ + π/2 − tan^-1(ωL(R1+R2)/(R1·R2)))",
+     "ωL·R2·A/√((R1·R2)^2 + (ωL)^2·(R1+R2)^2) ∠(θ − π/2 + tan^-1(ωL(R1+R2)/(R1·R2)))"
+    ]
+   },
+   "19": {
+    "enunciado": "Considerando que, no circuito RLC em série precedente, a tensão de entrada é V_0(t) e a tensão de saída é V_C(t), é correto afirmar que a resposta em frequência do circuito é",
+    "alternativas": [
+     "1/(1 − L·C·ω^2 + j·R·C·ω)",
+     "L·C·ω^2/(L·C·ω^2 − 1 − j·R·C·ω)",
+     "j·R·C·ω/(1 − L·C·ω^2 + j·R·C·ω)",
+     "L·C·ω^2/(1 − L·C·ω^2 + j·R·C·ω)",
+     "j·R·C·ω/(L·C·ω^2 − 1 − j·R·C·ω)"
+    ]
+   },
+   "37": {
+    "alternativas": [
+     "Z = (A + B) · (C)",
+     "Z = (A + B) · (Ā + B̄ + C)",
+     "Z = (A + B) · (Ā + B + C)",
+     "Z = (A + B) · (Ā + B̄ + C̄)",
+     "Z = (Ā + B̄) · (Ā + B̄ + C)"
+    ]
+   }
+  }
+ }
+}

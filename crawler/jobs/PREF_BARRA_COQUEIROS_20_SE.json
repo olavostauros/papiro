@@ -1,0 +1,1328 @@
+{
+  "evento": "PREF_BARRA_COQUEIROS_20_SE",
+  "workdir": "/tmp/pref_barra_coqueiros_20_se",
+  "meta": {
+    "banca": "Cebraspe",
+    "orgao": "Prefeitura de Barra dos Coqueiros",
+    "ano": 2020,
+    "id_orgao": "pmbc"
+  },
+  "cargos": [
+    {
+      "idArea": "01",
+      "cargo": "Arquiteto",
+      "id_cargo": "arquiteto",
+      "provas": [
+        {
+          "key": "PMBC_001_MATRIZ",
+          "prova": "pro_PMBC_001_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_001.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_001_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "02",
+      "cargo": "Assistente Social",
+      "id_cargo": "assistente-social",
+      "provas": [
+        {
+          "key": "PMBC_002_MATRIZ",
+          "prova": "pro_PMBC_002_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_002.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_002_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "03",
+      "cargo": "Auditor Fiscal",
+      "id_cargo": "auditor-fiscal",
+      "provas": [
+        {
+          "key": "PMBC_003_MATRIZ",
+          "prova": "pro_PMBC_003_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_003.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_003_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "04",
+      "cargo": "Bibliotecário",
+      "id_cargo": "bibliotecario",
+      "provas": [
+        {
+          "key": "PMBC_004_MATRIZ",
+          "prova": "pro_PMBC_004_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_004.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_004_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "05",
+      "cargo": "Biólogo",
+      "id_cargo": "biologo",
+      "provas": [
+        {
+          "key": "PMBC_005_MATRIZ",
+          "prova": "pro_PMBC_005_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_005.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_005_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "06",
+      "cargo": "Biomédico",
+      "id_cargo": "biomedico",
+      "provas": [
+        {
+          "key": "PMBC_006_MATRIZ",
+          "prova": "pro_PMBC_006_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_006.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_006_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "07",
+      "cargo": "Profissional de Educação Física",
+      "id_cargo": "profissional-de-educacao-fisica",
+      "provas": [
+        {
+          "key": "PMBC_007_MATRIZ",
+          "prova": "pro_PMBC_007_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_007.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_007_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "08",
+      "cargo": "Educador Social",
+      "id_cargo": "educador-social",
+      "provas": [
+        {
+          "key": "PMBC_008_MATRIZ",
+          "prova": "pro_PMBC_008_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_008.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_008_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "09",
+      "cargo": "Enfermeiro",
+      "id_cargo": "enfermeiro",
+      "provas": [
+        {
+          "key": "PMBC_009_MATRIZ",
+          "prova": "pro_PMBC_009_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_009.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_009_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "10",
+      "cargo": "Engenheiro Civil",
+      "id_cargo": "engenheiro-civil",
+      "provas": [
+        {
+          "key": "PMBC_010_MATRIZ",
+          "prova": "pro_PMBC_010_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_010.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_010_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "11",
+      "cargo": "Farmacêutico",
+      "id_cargo": "farmaceutico",
+      "provas": [
+        {
+          "key": "PMBC_011_MATRIZ",
+          "prova": "pro_PMBC_011_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_011.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_011_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "12",
+      "cargo": "Fisioterapeuta",
+      "id_cargo": "fisioterapeuta",
+      "provas": [
+        {
+          "key": "PMBC_012_MATRIZ",
+          "prova": "pro_PMBC_012_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_012.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_012_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "13",
+      "cargo": "Fonoaudiólogo",
+      "id_cargo": "fonoaudiologo",
+      "provas": [
+        {
+          "key": "PMBC_013_MATRIZ",
+          "prova": "pro_PMBC_013_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_013.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_013_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "14",
+      "cargo": "Médico Veterinário",
+      "id_cargo": "medico-veterinario",
+      "provas": [
+        {
+          "key": "PMBC_014_MATRIZ",
+          "prova": "pro_PMBC_014_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_014.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_014_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "15",
+      "cargo": "Nutricionista",
+      "id_cargo": "nutricionista",
+      "provas": [
+        {
+          "key": "PMBC_015_MATRIZ",
+          "prova": "pro_PMBC_015_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_015.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_015_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "16",
+      "cargo": "Professor – Artes",
+      "id_cargo": "professor-artes",
+      "provas": [
+        {
+          "key": "PMBC_016_MATRIZ",
+          "prova": "pro_PMBC_016_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_016.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_016_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "17",
+      "cargo": "Professor – Ciências",
+      "id_cargo": "professor-ciencias",
+      "provas": [
+        {
+          "key": "PMBC_017_MATRIZ",
+          "prova": "pro_PMBC_017_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_017.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_017_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "18",
+      "cargo": "Professor – Educação Física",
+      "id_cargo": "professor-educacao-fisica",
+      "provas": [
+        {
+          "key": "PMBC_018_MATRIZ",
+          "prova": "pro_PMBC_018_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_018.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_018_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "19",
+      "cargo": "Professor – Ensino Religioso",
+      "id_cargo": "professor-ensino-religioso",
+      "provas": [
+        {
+          "key": "PMBC_019_MATRIZ",
+          "prova": "pro_PMBC_019_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_019.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_019_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "20",
+      "cargo": "Professor – Geografia",
+      "id_cargo": "professor-geografia",
+      "provas": [
+        {
+          "key": "PMBC_020_MATRIZ",
+          "prova": "pro_PMBC_020_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_020.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_020_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "21",
+      "cargo": "Professor – História",
+      "id_cargo": "professor-historia",
+      "provas": [
+        {
+          "key": "PMBC_021_MATRIZ",
+          "prova": "pro_PMBC_021_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_021.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_021_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "22",
+      "cargo": "Professor – Inglês",
+      "id_cargo": "professor-ingles",
+      "provas": [
+        {
+          "key": "PMBC_022_MATRIZ",
+          "prova": "pro_PMBC_022_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_022.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_022_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "23",
+      "cargo": "Professor – Libras",
+      "id_cargo": "professor-libras",
+      "provas": [
+        {
+          "key": "PMBC_023_MATRIZ",
+          "prova": "pro_PMBC_023_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_023.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_023_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "24",
+      "cargo": "Professor – Matemática",
+      "id_cargo": "professor-matematica",
+      "provas": [
+        {
+          "key": "PMBC_024_MATRIZ",
+          "prova": "pro_PMBC_024_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_024.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_024_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "25",
+      "cargo": "Professor – Português",
+      "id_cargo": "professor-portugues",
+      "provas": [
+        {
+          "key": "PMBC_025_MATRIZ",
+          "prova": "pro_PMBC_025_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_025.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_025_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "26",
+      "cargo": "Professor – Educação Infantil e Ensino Fundamental",
+      "id_cargo": "professor-educacao-infantil-e-ensino-fundamental",
+      "provas": [
+        {
+          "key": "PMBC_026_MATRIZ",
+          "prova": "pro_PMBC_026_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_026.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_026_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "27",
+      "cargo": "Psicólogo",
+      "id_cargo": "psicologo",
+      "provas": [
+        {
+          "key": "PMBC_027_MATRIZ",
+          "prova": "pro_PMBC_027_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_027.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_027_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "28",
+      "cargo": "Psicopedagogo",
+      "id_cargo": "psicopedagogo",
+      "provas": [
+        {
+          "key": "PMBC_028_MATRIZ",
+          "prova": "pro_PMBC_028_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_028.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_028_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "29",
+      "cargo": "Agente Comunitário de Saúde",
+      "id_cargo": "agente-comunitario-de-saude",
+      "provas": [
+        {
+          "key": "PMBC_029_MATRIZ",
+          "prova": "pro_PMBC_029_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_029.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_029_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "30",
+      "cargo": "Agente de Endemias",
+      "id_cargo": "agente-de-endemias",
+      "provas": [
+        {
+          "key": "PMBC_030_MATRIZ",
+          "prova": "pro_PMBC_030_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_030.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_030_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "31",
+      "cargo": "Agente de Trânsito",
+      "id_cargo": "agente-de-transito",
+      "provas": [
+        {
+          "key": "PMBC_031_MATRIZ",
+          "prova": "pro_PMBC_031_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_031.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_031_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "32",
+      "cargo": "Assistente Administrativo",
+      "id_cargo": "assistente-administrativo",
+      "provas": [
+        {
+          "key": "PMBC_032_MATRIZ",
+          "prova": "pro_PMBC_032_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_032.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_032_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "33",
+      "cargo": "Auxiliar de Arquivo",
+      "id_cargo": "auxiliar-de-arquivo",
+      "provas": [
+        {
+          "key": "PMBC_033_MATRIZ",
+          "prova": "pro_PMBC_033_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_033.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_033_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "34",
+      "cargo": "Auxiliar de Biblioteca",
+      "id_cargo": "auxiliar-de-biblioteca",
+      "provas": [
+        {
+          "key": "PMBC_034_MATRIZ",
+          "prova": "pro_PMBC_034_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_034.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_034_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "35",
+      "cargo": "Auxiliar de Creche",
+      "id_cargo": "auxiliar-de-creche",
+      "provas": [
+        {
+          "key": "PMBC_035_MATRIZ",
+          "prova": "pro_PMBC_035_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_035.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_035_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "36",
+      "cargo": "Condutor de Ambulância",
+      "id_cargo": "condutor-de-ambulancia",
+      "provas": [
+        {
+          "key": "PMBC_036_MATRIZ",
+          "prova": "pro_PMBC_036_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_036.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_036_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "37",
+      "cargo": "Cuidador Escolar",
+      "id_cargo": "cuidador-escolar",
+      "provas": [
+        {
+          "key": "PMBC_037_MATRIZ",
+          "prova": "pro_PMBC_037_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_037.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_037_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "38",
+      "cargo": "Eletricista",
+      "id_cargo": "eletricista",
+      "provas": [
+        {
+          "key": "PMBC_038_MATRIZ",
+          "prova": "pro_PMBC_038_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_038.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_038_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "39",
+      "cargo": "Fiscal da Vigilância Sanitária",
+      "id_cargo": "fiscal-da-vigilancia-sanitaria",
+      "provas": [
+        {
+          "key": "PMBC_039_MATRIZ",
+          "prova": "pro_PMBC_039_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_039.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_039_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "40",
+      "cargo": "Fiscal de Tributos",
+      "id_cargo": "fiscal-de-tributos",
+      "provas": [
+        {
+          "key": "PMBC_040_MATRIZ",
+          "prova": "pro_PMBC_040_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_040.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_040_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "41",
+      "cargo": "Guarda Civil Municipal",
+      "id_cargo": "guarda-civil-municipal",
+      "provas": [
+        {
+          "key": "PMBC_041_MATRIZ",
+          "prova": "pro_PMBC_041_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_041.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_041_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "42",
+      "cargo": "Mecânico",
+      "id_cargo": "mecanico",
+      "provas": [
+        {
+          "key": "PMBC_042_MATRIZ",
+          "prova": "pro_PMBC_042_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_042.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_042_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "43",
+      "cargo": "Monitor de Transporte Escolar",
+      "id_cargo": "monitor-de-transporte-escolar",
+      "provas": [
+        {
+          "key": "PMBC_043_MATRIZ",
+          "prova": "pro_PMBC_043_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_043.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_043_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "44",
+      "cargo": "Motorista de Transporte Escolar",
+      "id_cargo": "motorista-de-transporte-escolar",
+      "provas": [
+        {
+          "key": "PMBC_044_MATRIZ",
+          "prova": "pro_PMBC_044_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_044.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_044_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "45",
+      "cargo": "Operador Patrol",
+      "id_cargo": "operador-patrol",
+      "provas": [
+        {
+          "key": "PMBC_045_MATRIZ",
+          "prova": "pro_PMBC_045_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_045.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_045_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "46",
+      "cargo": "Operador Retroescavadeira",
+      "id_cargo": "operador-retroescavadeira",
+      "provas": [
+        {
+          "key": "PMBC_046_MATRIZ",
+          "prova": "pro_PMBC_046_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_046.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_046_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "47",
+      "cargo": "Salva-Vidas",
+      "id_cargo": "salva-vidas",
+      "provas": [
+        {
+          "key": "PMBC_047_MATRIZ",
+          "prova": "pro_PMBC_047_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_047.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_047_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "48",
+      "cargo": "Técnico de Enfermagem",
+      "id_cargo": "tecnico-de-enfermagem",
+      "provas": [
+        {
+          "key": "PMBC_048_MATRIZ",
+          "prova": "pro_PMBC_048_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_048.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_048_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "49",
+      "cargo": "Técnico de Enfermagem – Urgência",
+      "id_cargo": "tecnico-de-enfermagem-urgencia",
+      "provas": [
+        {
+          "key": "PMBC_049_MATRIZ",
+          "prova": "pro_PMBC_049_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_049.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_049_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "50",
+      "cargo": "Técnico de Enfermagem – ESF",
+      "id_cargo": "tecnico-de-enfermagem-esf",
+      "provas": [
+        {
+          "key": "PMBC_050_MATRIZ",
+          "prova": "pro_PMBC_050_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_050.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_050_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "51",
+      "cargo": "Técnico em Edificações",
+      "id_cargo": "tecnico-em-edificacoes",
+      "provas": [
+        {
+          "key": "PMBC_051_MATRIZ",
+          "prova": "pro_PMBC_051_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_051.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_051_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "52",
+      "cargo": "Técnico em Informática",
+      "id_cargo": "tecnico-em-informatica",
+      "provas": [
+        {
+          "key": "PMBC_052_MATRIZ",
+          "prova": "pro_PMBC_052_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_052.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_052_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "53",
+      "cargo": "Técnico em Nutrição",
+      "id_cargo": "tecnico-em-nutricao",
+      "provas": [
+        {
+          "key": "PMBC_053_MATRIZ",
+          "prova": "pro_PMBC_053_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_053.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_053_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "54",
+      "cargo": "Ajudante de Pedreiro",
+      "id_cargo": "ajudante-de-pedreiro",
+      "provas": [
+        {
+          "key": "PMBC_054_MATRIZ",
+          "prova": "pro_PMBC_054_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_054.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_054_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "55",
+      "cargo": "Auxiliar de Cozinha",
+      "id_cargo": "auxiliar-de-cozinha",
+      "provas": [
+        {
+          "key": "PMBC_055_MATRIZ",
+          "prova": "pro_PMBC_055_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_055.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_055_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "56",
+      "cargo": "Encanador",
+      "id_cargo": "encanador",
+      "provas": [
+        {
+          "key": "PMBC_056_MATRIZ",
+          "prova": "pro_PMBC_056_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_056.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_056_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "57",
+      "cargo": "Merendeira",
+      "id_cargo": "merendeira",
+      "provas": [
+        {
+          "key": "PMBC_057_MATRIZ",
+          "prova": "pro_PMBC_057_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_057.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_057_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "58",
+      "cargo": "Pedreiro",
+      "id_cargo": "pedreiro",
+      "provas": [
+        {
+          "key": "PMBC_058_MATRIZ",
+          "prova": "pro_PMBC_058_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_058.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_058_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "59",
+      "cargo": "Porteiro",
+      "id_cargo": "porteiro",
+      "provas": [
+        {
+          "key": "PMBC_059_MATRIZ",
+          "prova": "pro_PMBC_059_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_059.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_059_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "60",
+      "cargo": "Agente Comunitário de Saúde – Área 1",
+      "id_cargo": "agente-comunitario-saude-area-1",
+      "provas": [
+        {
+          "key": "PMBC_029_MATRIZ",
+          "prova": "pro_PMBC_029_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_029.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_029_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "61",
+      "cargo": "Agente Comunitário de Saúde – Área 2",
+      "id_cargo": "agente-comunitario-saude-area-2",
+      "provas": [
+        {
+          "key": "PMBC_029_MATRIZ",
+          "prova": "pro_PMBC_029_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_029.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_029_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "62",
+      "cargo": "Agente Comunitário de Saúde – Área 3",
+      "id_cargo": "agente-comunitario-saude-area-3",
+      "provas": [
+        {
+          "key": "PMBC_029_MATRIZ",
+          "prova": "pro_PMBC_029_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_029.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_029_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "63",
+      "cargo": "Agente Comunitário de Saúde – Área 4",
+      "id_cargo": "agente-comunitario-saude-area-4",
+      "provas": [
+        {
+          "key": "PMBC_029_MATRIZ",
+          "prova": "pro_PMBC_029_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_029.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_029_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "64",
+      "cargo": "Agente Comunitário de Saúde – Área 5",
+      "id_cargo": "agente-comunitario-saude-area-5",
+      "provas": [
+        {
+          "key": "PMBC_029_MATRIZ",
+          "prova": "pro_PMBC_029_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_029.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_029_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "65",
+      "cargo": "Agente Comunitário de Saúde – Área 6",
+      "id_cargo": "agente-comunitario-saude-area-6",
+      "provas": [
+        {
+          "key": "PMBC_029_MATRIZ",
+          "prova": "pro_PMBC_029_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_029.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_029_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "66",
+      "cargo": "Agente Comunitário de Saúde – Área 7",
+      "id_cargo": "agente-comunitario-saude-area-7",
+      "provas": [
+        {
+          "key": "PMBC_029_MATRIZ",
+          "prova": "pro_PMBC_029_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_029.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_029_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "67",
+      "cargo": "Agente Comunitário de Saúde – Área 8",
+      "id_cargo": "agente-comunitario-saude-area-8",
+      "provas": [
+        {
+          "key": "PMBC_029_MATRIZ",
+          "prova": "pro_PMBC_029_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_029.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_029_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "68",
+      "cargo": "Agente Comunitário de Saúde – Área 9",
+      "id_cargo": "agente-comunitario-saude-area-9",
+      "provas": [
+        {
+          "key": "PMBC_029_MATRIZ",
+          "prova": "pro_PMBC_029_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_029.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_029_MATRIZ.PDF"
+        }
+      ]
+    },
+    {
+      "idArea": "69",
+      "cargo": "Agente Comunitário de Saúde – Área 10",
+      "id_cargo": "agente-comunitario-saude-area-10",
+      "provas": [
+        {
+          "key": "PMBC_029_MATRIZ",
+          "prova": "pro_PMBC_029_MATRIZ.pdf",
+          "gabarito": "gab_PMBC_029.txt",
+          "tipo": "mc",
+          "arquivo": "540_PMBC_029_MATRIZ.PDF"
+        }
+      ]
+    }
+  ],
+  "unmatched": [],
+  "variant": "modern",
+  "skip": {
+    "PMBC_001_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25,
+      32
+    ],
+    "PMBC_002_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25
+    ],
+    "PMBC_003_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25
+    ],
+    "PMBC_004_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25
+    ],
+    "PMBC_005_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25,
+      31,
+      32
+    ],
+    "PMBC_006_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25
+    ],
+    "PMBC_007_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25
+    ],
+    "PMBC_008_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25
+    ],
+    "PMBC_009_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25
+    ],
+    "PMBC_010_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25
+    ],
+    "PMBC_011_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25,
+      32
+    ],
+    "PMBC_012_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25
+    ],
+    "PMBC_013_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25
+    ],
+    "PMBC_014_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25
+    ],
+    "PMBC_015_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25,
+      39
+    ],
+    "PMBC_016_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25,
+      32
+    ],
+    "PMBC_017_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25,
+      33,
+      34
+    ],
+    "PMBC_018_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25
+    ],
+    "PMBC_019_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25
+    ],
+    "PMBC_020_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25
+    ],
+    "PMBC_021_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25
+    ],
+    "PMBC_022_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25
+    ],
+    "PMBC_023_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25
+    ],
+    "PMBC_024_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25,
+      34,
+      35
+    ],
+    "PMBC_025_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25
+    ],
+    "PMBC_026_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25
+    ],
+    "PMBC_027_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25
+    ],
+    "PMBC_028_MATRIZ": [
+      7,
+      8,
+      19,
+      21,
+      25
+    ],
+    "PMBC_029_MATRIZ": [
+      17,
+      26
+    ],
+    "PMBC_030_MATRIZ": [
+      17,
+      26
+    ],
+    "PMBC_031_MATRIZ": [
+      17,
+      26
+    ],
+    "PMBC_032_MATRIZ": [
+      17,
+      26
+    ],
+    "PMBC_033_MATRIZ": [
+      17,
+      26,
+      38
+    ],
+    "PMBC_034_MATRIZ": [
+      17,
+      26
+    ],
+    "PMBC_035_MATRIZ": [
+      17,
+      26
+    ],
+    "PMBC_036_MATRIZ": [
+      17,
+      26
+    ],
+    "PMBC_037_MATRIZ": [
+      17,
+      26
+    ],
+    "PMBC_038_MATRIZ": [
+      17,
+      26,
+      33,
+      35,
+      36,
+      39
+    ],
+    "PMBC_039_MATRIZ": [
+      17,
+      26
+    ],
+    "PMBC_040_MATRIZ": [
+      17,
+      26
+    ],
+    "PMBC_041_MATRIZ": [
+      17,
+      26
+    ],
+    "PMBC_042_MATRIZ": [
+      17,
+      26,
+      32,
+      33
+    ],
+    "PMBC_043_MATRIZ": [
+      17,
+      26,
+      33,
+      38
+    ],
+    "PMBC_044_MATRIZ": [
+      17,
+      26
+    ],
+    "PMBC_045_MATRIZ": [
+      17,
+      26,
+      37
+    ],
+    "PMBC_046_MATRIZ": [
+      17,
+      26,
+      34,
+      36,
+      40
+    ],
+    "PMBC_047_MATRIZ": [
+      17,
+      26,
+      36
+    ],
+    "PMBC_048_MATRIZ": [
+      17,
+      26
+    ],
+    "PMBC_049_MATRIZ": [
+      17,
+      26
+    ],
+    "PMBC_050_MATRIZ": [
+      17,
+      26
+    ],
+    "PMBC_051_MATRIZ": [
+      17,
+      26
+    ],
+    "PMBC_052_MATRIZ": [
+      17,
+      26
+    ],
+    "PMBC_053_MATRIZ": [
+      17,
+      26
+    ],
+    "PMBC_054_MATRIZ": [
+      15,
+      32
+    ],
+    "PMBC_055_MATRIZ": [
+      15,
+      32
+    ],
+    "PMBC_056_MATRIZ": [
+      15,
+      32
+    ],
+    "PMBC_057_MATRIZ": [
+      15,
+      32
+    ],
+    "PMBC_058_MATRIZ": [
+      15,
+      32
+    ],
+    "PMBC_059_MATRIZ": [
+      15,
+      32,
+      40
+    ]
+  },
+  "patch": {}
+}

@@ -1,0 +1,79 @@
+{
+ "evento": "APEX_BRASIL_22_2",
+ "workdir": "/tmp/apex_brasil_22_2",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Agência Brasileira de Promoção de Exportações e Investimentos",
+  "ano": 2022,
+  "id_orgao": "apex"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Perfil 1: Comunicação",
+   "id_cargo": "comunicacao",
+   "provas": [
+    {
+     "key": "APEX_CB1",
+     "prova": "pro_APEX_BRASIL_CB1_01.pdf",
+     "gabarito": "gab_APEX_BRASIL_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "APEX_BRASIL_CB1_01.PDF"
+    },
+    {
+     "key": "APEX_001",
+     "prova": "pro_APEX_BRASIL_001_01.pdf",
+     "gabarito": "gab_APEX_BRASIL_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "APEX_BRASIL_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Perfil 2: Marketing",
+   "id_cargo": "marketing",
+   "provas": [
+    {
+     "key": "APEX_CB1",
+     "prova": "pro_APEX_BRASIL_CB1_01.pdf",
+     "gabarito": "gab_APEX_BRASIL_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "APEX_BRASIL_CB1_01.PDF"
+    },
+    {
+     "key": "APEX_002",
+     "prova": "pro_APEX_BRASIL_002_01.pdf",
+     "gabarito": "gab_APEX_BRASIL_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "APEX_BRASIL_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Perfil 3: Negócios Internacionais – Especialidade: Indústria e Serviços",
+   "id_cargo": "negocios-internacionais",
+   "provas": [
+    {
+     "key": "APEX_CB1",
+     "prova": "pro_APEX_BRASIL_CB1_01.pdf",
+     "gabarito": "gab_APEX_BRASIL_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "APEX_BRASIL_CB1_01.PDF"
+    },
+    {
+     "key": "APEX_003",
+     "prova": "pro_APEX_BRASIL_003_01.pdf",
+     "gabarito": "gab_APEX_BRASIL_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "APEX_BRASIL_003_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

@@ -1,0 +1,347 @@
+{
+ "evento": "PREF_JOINVILLE_22",
+ "workdir": "/tmp/pref_joinville_22",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Prefeitura de Joinville",
+  "ano": 2022,
+  "id_orgao": "pref-joinville"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Professor – Educação Infantil",
+   "id_cargo": "professor-educacao-infantil",
+   "provas": [
+    {
+     "key": "cb01",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_PREF_JOINVILLE_001_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Professor – Educação Física",
+   "id_cargo": "professor-educacao-fisica",
+   "provas": [
+    {
+     "key": "cb02",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_PREF_JOINVILLE_002_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Professor – Séries Iniciais (1º ao 5º ano)",
+   "id_cargo": "professor-series-iniciais-1o-ao-5o-ano",
+   "provas": [
+    {
+     "key": "cb03",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_PREF_JOINVILLE_003_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Professor – Língua Inglesa",
+   "id_cargo": "professor-lingua-inglesa",
+   "provas": [
+    {
+     "key": "cb04",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_PREF_JOINVILLE_004_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_004_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Professor – Arte",
+   "id_cargo": "professor-arte",
+   "provas": [
+    {
+     "key": "cb05",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_PREF_JOINVILLE_005_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_005_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Professor – Ciências",
+   "id_cargo": "professor-ciencias",
+   "provas": [
+    {
+     "key": "cb06",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_PREF_JOINVILLE_006_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_006_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Professor – Ciências da Religião",
+   "id_cargo": "professor-ciencias-da-religiao",
+   "provas": [
+    {
+     "key": "cb07",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_PREF_JOINVILLE_007_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_007_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Professor – Geografia",
+   "id_cargo": "professor-geografia",
+   "provas": [
+    {
+     "key": "cb08",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_PREF_JOINVILLE_008_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_008_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Professor – História",
+   "id_cargo": "professor-historia",
+   "provas": [
+    {
+     "key": "cb09",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_PREF_JOINVILLE_009_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_009_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Professor – Língua Portuguesa",
+   "id_cargo": "professor-lingua-portuguesa",
+   "provas": [
+    {
+     "key": "cb10",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_PREF_JOINVILLE_010_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_010_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Professor – Matemática",
+   "id_cargo": "professor-matematica",
+   "provas": [
+    {
+     "key": "cb11",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_PREF_JOINVILLE_011_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_011_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Professor Bilíngue LIBRAS",
+   "id_cargo": "professor-bilingue-libras",
+   "provas": [
+    {
+     "key": "cb12",
+     "prova": "pro_PREF_JOINVILLE_CB1_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_CB1_01.PDF"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_PREF_JOINVILLE_012_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_012_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Auxiliar de Educador",
+   "id_cargo": "auxiliar-de-educador",
+   "provas": [
+    {
+     "key": "cb13",
+     "prova": "pro_PREF_JOINVILLE_CB2_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_CB2_01.PDF"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_PREF_JOINVILLE_013_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_013_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_013_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "Auxiliar Escolar",
+   "id_cargo": "auxiliar-escolar",
+   "provas": [
+    {
+     "key": "cb14",
+     "prova": "pro_PREF_JOINVILLE_CB2_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_CB2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_CB2_01.PDF"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_PREF_JOINVILLE_014_01.pdf",
+     "gabarito": "gab_PREF_JOINVILLE_014_01.pdf",
+     "tipo": "mc",
+     "arquivo": "767_PREF_JOINVILLE_014_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {
+  "cb01": [
+   9
+  ],
+  "cb02": [
+   9
+  ],
+  "cb03": [
+   9
+  ],
+  "cb04": [
+   9
+  ],
+  "cb05": [
+   9
+  ],
+  "cb06": [
+   9
+  ],
+  "cb07": [
+   9
+  ],
+  "cb08": [
+   9
+  ],
+  "cb09": [
+   9
+  ],
+  "cb10": [
+   9
+  ],
+  "cb11": [
+   9
+  ],
+  "cb12": [
+   9
+  ]
+ },
+ "patch": {}
+}

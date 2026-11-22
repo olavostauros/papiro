@@ -1,0 +1,102 @@
+{
+ "evento": "SEFAZ_AC_23",
+ "workdir": "/tmp/sefaz_ac_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Secretaria da Fazenda do Acre (SEFAZ/AC)",
+  "id_orgao": "sefaz-ac",
+  "ano": 2023,
+  "evento": "SEFAZ_AC_23"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "AUDITOR DA RECEITA ESTADUAL",
+   "id_cargo": "auditor-da-receita-estadual",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_SEFAZ_AC_CG1_01.pdf",
+     "gabarito": "gab_SEFAZ_AC_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "946_SEFAZ_AC_CG1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_SEFAZ_AC_001_01.pdf",
+     "gabarito": "gab_SEFAZ_AC_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "946_SEFAZ_AC_001_01.PDF",
+     "num_offset": 40
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "CONTADOR",
+   "id_cargo": "contador",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_SEFAZ_AC_CG2_01.pdf",
+     "gabarito": "gab_SEFAZ_AC_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "946_SEFAZ_AC_CG2_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_SEFAZ_AC_002_01.pdf",
+     "gabarito": "gab_SEFAZ_AC_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "946_SEFAZ_AC_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "ESPECIALISTA DA FAZENDA ESTADUAL",
+   "id_cargo": "especialista-da-fazenda-estadual",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_SEFAZ_AC_CG2_01.pdf",
+     "gabarito": "gab_SEFAZ_AC_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "946_SEFAZ_AC_CG2_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_SEFAZ_AC_003_01.pdf",
+     "gabarito": "gab_SEFAZ_AC_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "946_SEFAZ_AC_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "TÉCNICO DA FAZENDA ESTADUAL",
+   "id_cargo": "tecnico-da-fazenda-estadual",
+   "provas": [
+    {
+     "key": "cg4",
+     "prova": "pro_SEFAZ_AC_CG3_01.pdf",
+     "gabarito": "gab_SEFAZ_AC_CG3_01.pdf",
+     "tipo": "mc",
+     "arquivo": "946_SEFAZ_AC_CG3_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_SEFAZ_AC_004_01.pdf",
+     "gabarito": "gab_SEFAZ_AC_004_01.pdf",
+     "tipo": "mc",
+     "arquivo": "946_SEFAZ_AC_004_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

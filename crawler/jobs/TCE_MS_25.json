@@ -1,0 +1,119 @@
+{
+ "evento": "TCE_MS_25",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "TCE-MS",
+  "ano": 2025,
+  "id_orgao": "tce-ms"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista de Controle Externo – Área: Direito",
+   "id_cargo": "analista-direito",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_C4E353706576A4402171622E.pdf",
+     "gabarito": "gab_33793E21A7543A12A01EEC81.pdf",
+     "tipo": "mc",
+     "arquivo": "C4E353706576A4402171622E3041AE6D940DB2C96210192CC4B20ADA516FA2F3.pdf"
+    },
+    {
+     "key": "esp1",
+     "prova": "pro_566617998F59FBD1F354DA57.pdf",
+     "gabarito": "gab_28B883688CB0C95DB70C4290.pdf",
+     "tipo": "mc",
+     "arquivo": "566617998F59FBD1F354DA5798D9056E1EE2693F342F964E244CC59D954AD6D3.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Auditor de Controle Externo – Área: Ciências Contábeis",
+   "id_cargo": "auditor-ciencias-contabeis",
+   "provas": [
+    {
+     "key": "cg24",
+     "prova": "pro_1D77E2FC79C6507D03C0D751.pdf",
+     "gabarito": "gab_41F1C3DCD9D08764910DCC2A.pdf",
+     "tipo": "mc",
+     "arquivo": "1D77E2FC79C6507D03C0D751A6011542A35380750A72F0763ECF35FBC5A980DC.pdf"
+    },
+    {
+     "key": "esp2",
+     "prova": "pro_185DF34B7FB91EB7B0521FA8.pdf",
+     "gabarito": "gab_E43AA06F493A518E870A82A2.pdf",
+     "tipo": "mc",
+     "arquivo": "185DF34B7FB91EB7B0521FA8D79DBCA811158B369AEF923C51CD861B20EDD4EE.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Auditor de Controle Externo – Área: Direito",
+   "id_cargo": "auditor-direito",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_97427BE2C1270698B7A4F6AB.pdf",
+     "gabarito": "gab_0EC96CAD7BCE9C99677D2BBD.pdf",
+     "tipo": "mc",
+     "arquivo": "97427BE2C1270698B7A4F6ABB799831DA9C9DD0754FBDD5378F541F1F0389F47.pdf"
+    },
+    {
+     "key": "esp3",
+     "prova": "pro_C23FA453117103358636FECE.pdf",
+     "gabarito": "gab_73475E686D7C0118D458F02B.pdf",
+     "tipo": "mc",
+     "arquivo": "C23FA453117103358636FECE7092BFFD19DDE8A923733E1259133D107D49BA47.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Auditor de Controle Externo – Área: Engenharia Civil",
+   "id_cargo": "auditor-engenharia-civil",
+   "provas": [
+    {
+     "key": "cg24",
+     "prova": "pro_1D77E2FC79C6507D03C0D751.pdf",
+     "gabarito": "gab_41F1C3DCD9D08764910DCC2A.pdf",
+     "tipo": "mc",
+     "arquivo": "1D77E2FC79C6507D03C0D751A6011542A35380750A72F0763ECF35FBC5A980DC.pdf"
+    },
+    {
+     "key": "esp4",
+     "prova": "pro_177859FDEFEEA0D8BB948D9C.pdf",
+     "gabarito": "gab_725144E17F1EBED380C86817.pdf",
+     "tipo": "mc",
+     "arquivo": "177859FDEFEEA0D8BB948D9C4BD0BCDCD718A2F6154F41C7A99F988F40EFB06D.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Auditor de Controle Externo – Área: Tecnologia da Informação",
+   "id_cargo": "auditor-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cg5",
+     "prova": "pro_1D03C931758DD2AA98B64068.pdf",
+     "gabarito": "gab_EEF1383F0ACCAB14C3214D6A.pdf",
+     "tipo": "mc",
+     "arquivo": "1D03C931758DD2AA98B64068A655061359AD9EDC109649C693BED41C5649C6E6.pdf"
+    },
+    {
+     "key": "esp5",
+     "prova": "pro_91F14B9C2E9EA64EC21D23D1.pdf",
+     "gabarito": "gab_7E717CA4B1A5DDEAF925C3BC.pdf",
+     "tipo": "mc",
+     "arquivo": "91F14B9C2E9EA64EC21D23D16A19FB81C245FEFA0C5A0A5AB4D5D231A5BC83DA.pdf"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {
+  "esp2": {
+   "60": "As seguintes informações foram registradas contabilmente no primeiro exercício financeiro já encerrado de determinada entidade pública: – aprovação da lei orçamentária anual no valor de R$ 400.000; – lançamento de impostos no valor de R$ 200.000, sendo arrecadados R$ 150.000 no exercício financeiro; – empenho, liquidação e pagamento da folha de pessoal do exercício no valor de R$ 180.000; – empenho e liquidação de equipamentos no valor de R$ 100.000, 100% inscritos em restos a pagar; – recebimento, em doação, de um terreno no valor de R$ 250.000. Com base somente nessas informações, e considerando as regras do MCASP, assinale a opção em que se apresenta o resultado orçamentário do exercício apurado no balanço orçamentário da referida entidade.",
+   "70": "Uma empresa estatal dependente comercial realizou testes de redução ao valor recuperável em 31/12/2024, tendo sido levantadas as seguintes informações. valor contábil R$ 30 milhões; valor justo líquido de venda R$ 28 milhões; valor em uso econômico (fluxos de caixa futuros descontados) R$ 25 milhões. Nessa situação, conforme as disposições da NBC TSP 09 e da NBC TSP 10, o valor da perda por redução ao valor recuperável a ser reconhecido é de"
+  }
+ }
+}

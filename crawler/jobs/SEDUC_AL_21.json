@@ -1,0 +1,474 @@
+{
+ "evento": "SEDUC_AL_21",
+ "workdir": "/tmp/seduc_al_21",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Secretaria de Estado da Educação de Alagoas",
+  "ano": 2022,
+  "id_orgao": "seducal"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "PROFESSOR – EDUCAÇÃO ESPECIAL",
+   "id_cargo": "professor-educacao-especial",
+   "provas": [
+    {
+     "key": "SEDUC_CG1",
+     "prova": "pro_SEDUC_AL_CG1_01.pdf",
+     "gabarito": "gab_SEDUC_AL_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_CG1_01.PDF"
+    },
+    {
+     "key": "SEDUC_AL_001_01",
+     "prova": "pro_SEDUC_AL_001_01.pdf",
+     "gabarito": "gab_SEDUC_AL_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "PROFESSOR – ENSINO FUNDAMENTAL (Anos Iniciais)",
+   "id_cargo": "professor-ensino-fundamental-anos-iniciais",
+   "provas": [
+    {
+     "key": "SEDUC_CG1",
+     "prova": "pro_SEDUC_AL_CG1_01.pdf",
+     "gabarito": "gab_SEDUC_AL_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_CG1_01.PDF"
+    },
+    {
+     "key": "SEDUC_AL_002_01",
+     "prova": "pro_SEDUC_AL_002_01.pdf",
+     "gabarito": "gab_SEDUC_AL_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "PROFESSOR – ENSINO RELIGIOSO",
+   "id_cargo": "professor-ensino-religioso",
+   "provas": [
+    {
+     "key": "SEDUC_CG1",
+     "prova": "pro_SEDUC_AL_CG1_01.pdf",
+     "gabarito": "gab_SEDUC_AL_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_CG1_01.PDF"
+    },
+    {
+     "key": "SEDUC_AL_003_01",
+     "prova": "pro_SEDUC_AL_003_01.pdf",
+     "gabarito": "gab_SEDUC_AL_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "PROFESSOR – ESPECIALIDADE: ARTES",
+   "id_cargo": "professor-especialidade-artes",
+   "provas": [
+    {
+     "key": "SEDUC_CG1",
+     "prova": "pro_SEDUC_AL_CG1_01.pdf",
+     "gabarito": "gab_SEDUC_AL_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_CG1_01.PDF"
+    },
+    {
+     "key": "SEDUC_AL_004_01",
+     "prova": "pro_SEDUC_AL_004_01.pdf",
+     "gabarito": "gab_SEDUC_AL_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "PROFESSOR – ESPECIALIDADE: BIOLOGIA",
+   "id_cargo": "professor-especialidade-biologia",
+   "provas": [
+    {
+     "key": "SEDUC_CG1",
+     "prova": "pro_SEDUC_AL_CG1_01.pdf",
+     "gabarito": "gab_SEDUC_AL_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_CG1_01.PDF"
+    },
+    {
+     "key": "SEDUC_AL_005_01",
+     "prova": "pro_SEDUC_AL_005_01.pdf",
+     "gabarito": "gab_SEDUC_AL_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "PROFESSOR – ESPECIALIDADE: CIÊNCIAS",
+   "id_cargo": "professor-especialidade-ciencias",
+   "provas": [
+    {
+     "key": "SEDUC_CG1",
+     "prova": "pro_SEDUC_AL_CG1_01.pdf",
+     "gabarito": "gab_SEDUC_AL_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_CG1_01.PDF"
+    },
+    {
+     "key": "SEDUC_AL_006_01",
+     "prova": "pro_SEDUC_AL_006_01.pdf",
+     "gabarito": "gab_SEDUC_AL_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "PROFESSOR – ESPECIALIDADE: EDUCAÇÃO FÍSICA",
+   "id_cargo": "professor-especialidade-educacao-fisica",
+   "provas": [
+    {
+     "key": "SEDUC_CG1",
+     "prova": "pro_SEDUC_AL_CG1_01.pdf",
+     "gabarito": "gab_SEDUC_AL_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_CG1_01.PDF"
+    },
+    {
+     "key": "SEDUC_AL_007_01",
+     "prova": "pro_SEDUC_AL_007_01.pdf",
+     "gabarito": "gab_SEDUC_AL_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "PROFESSOR – ESPECIALIDADE: FILOSOFIA",
+   "id_cargo": "professor-especialidade-filosofia",
+   "provas": [
+    {
+     "key": "SEDUC_CG1",
+     "prova": "pro_SEDUC_AL_CG1_01.pdf",
+     "gabarito": "gab_SEDUC_AL_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_CG1_01.PDF"
+    },
+    {
+     "key": "SEDUC_AL_008_01",
+     "prova": "pro_SEDUC_AL_008_01.pdf",
+     "gabarito": "gab_SEDUC_AL_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "PROFESSOR – ESPECIALIDADE: FÍSICA",
+   "id_cargo": "professor-especialidade-fisica",
+   "provas": [
+    {
+     "key": "SEDUC_CG1",
+     "prova": "pro_SEDUC_AL_CG1_01.pdf",
+     "gabarito": "gab_SEDUC_AL_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_CG1_01.PDF"
+    },
+    {
+     "key": "SEDUC_AL_009_01",
+     "prova": "pro_SEDUC_AL_009_01.pdf",
+     "gabarito": "gab_SEDUC_AL_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "PROFESSOR – ESPECIALIDADE: GEOGRAFIA",
+   "id_cargo": "professor-especialidade-geografia",
+   "provas": [
+    {
+     "key": "SEDUC_CG1",
+     "prova": "pro_SEDUC_AL_CG1_01.pdf",
+     "gabarito": "gab_SEDUC_AL_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_CG1_01.PDF"
+    },
+    {
+     "key": "SEDUC_AL_010_01",
+     "prova": "pro_SEDUC_AL_010_01.pdf",
+     "gabarito": "gab_SEDUC_AL_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "PROFESSOR – ESPECIALIDADE: HISTÓRIA",
+   "id_cargo": "professor-especialidade-historia",
+   "provas": [
+    {
+     "key": "SEDUC_CG1",
+     "prova": "pro_SEDUC_AL_CG1_01.pdf",
+     "gabarito": "gab_SEDUC_AL_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_CG1_01.PDF"
+    },
+    {
+     "key": "SEDUC_AL_011_01",
+     "prova": "pro_SEDUC_AL_011_01.pdf",
+     "gabarito": "gab_SEDUC_AL_011_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "PROFESSOR – ESPECIALIDADE: INGLÊS",
+   "id_cargo": "professor-especialidade-ingles",
+   "provas": [
+    {
+     "key": "SEDUC_CG1",
+     "prova": "pro_SEDUC_AL_CG1_01.pdf",
+     "gabarito": "gab_SEDUC_AL_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_CG1_01.PDF"
+    },
+    {
+     "key": "SEDUC_AL_012_01",
+     "prova": "pro_SEDUC_AL_012_01.pdf",
+     "gabarito": "gab_SEDUC_AL_012_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "PROFESSOR – ESPECIALIDADE: MATEMÁTICA",
+   "id_cargo": "professor-especialidade-matematica",
+   "provas": [
+    {
+     "key": "SEDUC_CG1",
+     "prova": "pro_SEDUC_AL_CG1_01.pdf",
+     "gabarito": "gab_SEDUC_AL_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_CG1_01.PDF"
+    },
+    {
+     "key": "SEDUC_AL_013_01",
+     "prova": "pro_SEDUC_AL_013_01.pdf",
+     "gabarito": "gab_SEDUC_AL_013_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_013_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "PROFESSOR – ESPECIALIDADE: PORTUGUÊS",
+   "id_cargo": "professor-especialidade-portugues",
+   "provas": [
+    {
+     "key": "SEDUC_CG1",
+     "prova": "pro_SEDUC_AL_CG1_01.pdf",
+     "gabarito": "gab_SEDUC_AL_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_CG1_01.PDF"
+    },
+    {
+     "key": "SEDUC_AL_014_01",
+     "prova": "pro_SEDUC_AL_014_01.pdf",
+     "gabarito": "gab_SEDUC_AL_014_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_014_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "PROFESSOR – ESPECIALIDADE: QUÍMICA",
+   "id_cargo": "professor-especialidade-quimica",
+   "provas": [
+    {
+     "key": "SEDUC_CG1",
+     "prova": "pro_SEDUC_AL_CG1_01.pdf",
+     "gabarito": "gab_SEDUC_AL_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_CG1_01.PDF"
+    },
+    {
+     "key": "SEDUC_AL_015_01",
+     "prova": "pro_SEDUC_AL_015_01.pdf",
+     "gabarito": "gab_SEDUC_AL_015_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_015_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "PROFESSOR – ESPECIALIDADE: SOCIOLOGIA",
+   "id_cargo": "professor-especialidade-sociologia",
+   "provas": [
+    {
+     "key": "SEDUC_CG1",
+     "prova": "pro_SEDUC_AL_CG1_01.pdf",
+     "gabarito": "gab_SEDUC_AL_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_CG1_01.PDF"
+    },
+    {
+     "key": "SEDUC_AL_016_01",
+     "prova": "pro_SEDUC_AL_016_01.pdf",
+     "gabarito": "gab_SEDUC_AL_016_01.pdf",
+     "tipo": "ce",
+     "arquivo": "606_SEDUC_AL_016_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {
+  "SEDUC_AL_005_01": [
+   52,
+   53,
+   55,
+   56,
+   57,
+   58,
+   60,
+   65,
+   66,
+   69,
+   70,
+   71,
+   72,
+   73,
+   102,
+   103,
+   104
+  ],
+  "SEDUC_AL_006_01": [
+   88,
+   89
+  ],
+  "SEDUC_AL_009_01": [
+   74
+  ],
+  "SEDUC_AL_013_01": [
+   67,
+   69,
+   71,
+   72,
+   73
+  ],
+  "SEDUC_AL_015_01": [
+   62,
+   69,
+   70,
+   91,
+   92,
+   93,
+   94,
+   95,
+   96,
+   97
+  ]
+ },
+ "patch": {
+  "SEDUC_CG1": {
+   "6": "A correção gramatical do texto seria prejudicada caso, no trecho “se vive” (segundo período do primeiro parágrafo), a forma pronominal “se” fosse deslocada para logo após a forma verbal — escrevendo-se vive-se."
+  },
+  "SEDUC_AL_005_01": {
+   "96": "Em uma reserva de proteção ambiental no Brasil, existe uma espécie de pequeno mamífero com pelagem na cor azul anil, que é dominante em relação à pelagem de cor cinza. Biólogos promoveram o cruzamento entre dois mamíferos heterozigotos com pelagem azul anil, o que resultou no nascimento de 60 filhotes. A partir dessa situação hipotética, com base na primeira lei de Mendel, julgue o item a seguir. Entre os 60 filhotes, a quantidade mais provável de indivíduos heterozigotos dominantes para a pelagem azul anil é 30."
+  },
+  "SEDUC_AL_006_01": {
+   "76": "Um sistema era composto, inicialmente, apenas por enxofre em pó e ferro em pó. Estes foram misturados, até a formação de um pó acinzentado, e, depois, aquecidos, até a formação de uma massa escura. Tal processo levou à formação de sulfeto ferroso. Acerca desse sistema hipotético e do processo mencionado, julgue o item a seguir. No sistema inicial, composto por enxofre em pó e ferro em pó, antes do aquecimento, encontravam-se uma substância e duas diferentes moléculas.",
+   "77": "Um sistema era composto, inicialmente, apenas por enxofre em pó e ferro em pó. Estes foram misturados, até a formação de um pó acinzentado, e, depois, aquecidos, até a formação de uma massa escura. Tal processo levou à formação de sulfeto ferroso. Acerca desse sistema hipotético e do processo mencionado, julgue o item a seguir. Quando o sistema foi aquecido, ocorreu uma reação química.",
+   "78": "Um sistema era composto, inicialmente, apenas por enxofre em pó e ferro em pó. Estes foram misturados, até a formação de um pó acinzentado, e, depois, aquecidos, até a formação de uma massa escura. Tal processo levou à formação de sulfeto ferroso. Acerca desse sistema hipotético e do processo mencionado, julgue o item a seguir. Os componentes enxofre em pó e ferro em pó, antes do aquecimento, podem ser separados pela aproximação de um imã.",
+   "79": "Um sistema era composto, inicialmente, apenas por enxofre em pó e ferro em pó. Estes foram misturados, até a formação de um pó acinzentado, e, depois, aquecidos, até a formação de uma massa escura. Tal processo levou à formação de sulfeto ferroso. Acerca desse sistema hipotético e do processo mencionado, julgue o item a seguir. Ao final do processo, se a pressão do sistema for aumentada e a temperatura diminuída, um dos componentes se transformará em gás.",
+   "80": "Um sistema era composto, inicialmente, apenas por enxofre em pó e ferro em pó. Estes foram misturados, até a formação de um pó acinzentado, e, depois, aquecidos, até a formação de uma massa escura. Tal processo levou à formação de sulfeto ferroso. Acerca desse sistema hipotético e do processo mencionado, julgue o item a seguir. Os componentes do sulfeto ferroso podem ser separados entre si por decantação."
+  },
+  "SEDUC_AL_009_01": {
+   "51": "As coordenadas da posição temporal de uma partícula de massa m em movimento circular são descritas, em metros, por r⃗ = 3[î cos(ωt) + ĵ sen(ωt) + k̂], em que î, ĵ e k̂ são versores correspondentes, respectivamente, às direções x, y e z de um sistema de coordenadas cartesianas, ω é o módulo de sua velocidade angular e t é o tempo, em segundos. Tendo como referência a situação precedente, e considerando que o período de rotação da referida partícula seja de 20 s, julgue o item a seguir. Em t = 0 s, a partícula está no plano x-z , a um raio de 3√2 m da origem.",
+   "52": "As coordenadas da posição temporal de uma partícula de massa m em movimento circular são descritas, em metros, por r⃗ = 3[î cos(ωt) + ĵ sen(ωt) + k̂], em que î, ĵ e k̂ são versores correspondentes, respectivamente, às direções x, y e z de um sistema de coordenadas cartesianas, ω é o módulo de sua velocidade angular e t é o tempo, em segundos. Tendo como referência a situação precedente, e considerando que o período de rotação da referida partícula seja de 20 s, julgue o item a seguir. O módulo do vetor velocidade linear da partícula é maior que 1 m/s.",
+   "53": "As coordenadas da posição temporal de uma partícula de massa m em movimento circular são descritas, em metros, por r⃗ = 3[î cos(ωt) + ĵ sen(ωt) + k̂], em que î, ĵ e k̂ são versores correspondentes, respectivamente, às direções x, y e z de um sistema de coordenadas cartesianas, ω é o módulo de sua velocidade angular e t é o tempo, em segundos. Tendo como referência a situação precedente, e considerando que o período de rotação da referida partícula seja de 20 s, julgue o item a seguir. A variação da direção do movimento a uma velocidade escalar constante configura uma mudança no estado inercial do objeto em movimento.",
+   "54": "As coordenadas da posição temporal de uma partícula de massa m em movimento circular são descritas, em metros, por r⃗ = 3[î cos(ωt) + ĵ sen(ωt) + k̂], em que î, ĵ e k̂ são versores correspondentes, respectivamente, às direções x, y e z de um sistema de coordenadas cartesianas, ω é o módulo de sua velocidade angular e t é o tempo, em segundos. Tendo como referência a situação precedente, e considerando que o período de rotação da referida partícula seja de 20 s, julgue o item a seguir. O vetor aceleração da partícula, cujo módulo é superior a 1 m/s 2 , tem sua origem no sistema de coordenadas cartesianas e aponta na direção do versor k .",
+   "55": "As coordenadas da posição temporal de uma partícula de massa m em movimento circular são descritas, em metros, por r⃗ = 3[î cos(ωt) + ĵ sen(ωt) + k̂], em que î, ĵ e k̂ são versores correspondentes, respectivamente, às direções x, y e z de um sistema de coordenadas cartesianas, ω é o módulo de sua velocidade angular e t é o tempo, em segundos. Tendo como referência a situação precedente, e considerando que o período de rotação da referida partícula seja de 20 s, julgue o item a seguir. A taxa de variação temporal do momento angular da partícula é dL⃗/dt = −9·m·ω²[−î sen(ω·t) + ĵ cos(ω·t)].",
+   "56": "As coordenadas da posição temporal de uma partícula de massa m em movimento circular são descritas, em metros, por r⃗ = 3[î cos(ωt) + ĵ sen(ωt) + k̂], em que î, ĵ e k̂ são versores correspondentes, respectivamente, às direções x, y e z de um sistema de coordenadas cartesianas, ω é o módulo de sua velocidade angular e t é o tempo, em segundos. Tendo como referência a situação precedente, e considerando que o período de rotação da referida partícula seja de 20 s, julgue o item a seguir. O torque τ⃗ da partícula, com relação à origem de coordenadas, é τ⃗ = −9·m·ω²[−î sen(ω·t) + ĵ cos(ω·t)].",
+   "57": "Considerando a aceleração da gravidade da Terra como g_T = 9,8 m/s² e o raio da Terra como R_T = 6,37 × 10⁶ m, julgue o item a seguir, a respeito da mecânica newtoniana relacionada à gravitação. Se o raio da Terra fosse reduzido a 90% do valor atual, mantendo-se a mesma massa do planeta, a aceleração da gravidade seria reduzida para 81% do valor atual.",
+   "58": "Considerando a aceleração da gravidade da Terra como g_T = 9,8 m/s² e o raio da Terra como R_T = 6,37 × 10⁶ m, julgue o item a seguir, a respeito da mecânica newtoniana relacionada à gravitação. A máxima rotação de um planeta é aquela na qual o planeta começaria a se desintegrar; no caso da Terra, o dia não poderia ser menor que 80 minutos.",
+   "59": "Considerando a aceleração da gravidade da Terra como g_T = 9,8 m/s² e o raio da Terra como R_T = 6,37 × 10⁶ m, julgue o item a seguir, a respeito da mecânica newtoniana relacionada à gravitação. Sendo T o período de rotação da Lua em uma órbita circular de raio R, a massa da Terra pode ser avaliada como proporcional à razão T 3 / R 2 .",
+   "60": "Considerando a aceleração da gravidade da Terra como g_T = 9,8 m/s² e o raio da Terra como R_T = 6,37 × 10⁶ m, julgue o item a seguir, a respeito da mecânica newtoniana relacionada à gravitação. O trabalho da força gravitacional terrestre sobre um satélite ao longo de uma órbita circular é nulo.",
+   "61": "Considerando a aceleração da gravidade da Terra como g_T = 9,8 m/s² e o raio da Terra como R_T = 6,37 × 10⁶ m, julgue o item a seguir, a respeito da mecânica newtoniana relacionada à gravitação. Se existisse um túnel ao longo do diâmetro que passa pelo centro da Terra, um objeto, na superfície, partindo do repouso, ao passar pelo centro da Terra, teria uma velocidade maior que 10 km/s.",
+   "66": "A curva de uma mola que apresenta uma relação não linear entre força elástica e deformação: até uma deformação de 0,2 m, o módulo da força elástica da mola pode ser descrito pela função F(x) = 0,5x – x², em que a força F é dada em newtons e a deformação, em metros. A essa mola foi acoplada uma massa M, de 100 gramas, que foi puxada a uma distância unidimensional de 0,2 m em relação à posição de repouso da mola. A massa foi solta e a mola impôs uma força elástica sobre a massa. Considerando as informações apresentadas e a relação entre força e deformação, julgue o item a seguir. A aceleração atingida pela massa em x = 0,2 m é maior que 1 m/s².",
+   "67": "A curva de uma mola que apresenta uma relação não linear entre força elástica e deformação: até uma deformação de 0,2 m, o módulo da força elástica da mola pode ser descrito pela função F(x) = 0,5x – x², em que a força F é dada em newtons e a deformação, em metros. A essa mola foi acoplada uma massa M, de 100 gramas, que foi puxada a uma distância unidimensional de 0,2 m em relação à posição de repouso da mola. A massa foi solta e a mola impôs uma força elástica sobre a massa. Considerando as informações apresentadas e a relação entre força e deformação, julgue o item a seguir. Quando a mola está deformada a 0,1 m, o valor da constante elástica é duas vezes menor que o valor dessa constante quando a mola está submetida a 0,15 m de deformação.",
+   "68": "A curva de uma mola que apresenta uma relação não linear entre força elástica e deformação: até uma deformação de 0,2 m, o módulo da força elástica da mola pode ser descrito pela função F(x) = 0,5x – x², em que a força F é dada em newtons e a deformação, em metros. A essa mola foi acoplada uma massa M, de 100 gramas, que foi puxada a uma distância unidimensional de 0,2 m em relação à posição de repouso da mola. A massa foi solta e a mola impôs uma força elástica sobre a massa. Considerando as informações apresentadas e a relação entre força e deformação, julgue o item a seguir. O trabalho exercido pela força elástica da posição de repouso até a extensão de 0,2 m é inferior a 0,2 J.",
+   "69": "Um sistema ideal no qual uma esfera indeformável, de raio R e densidade γ, foi movida para uma posição, presa e em repouso, a uma profundidade D de um volume de fluido de densidade ρ. A esfera foi solta dessa posição e, pela ação da força empuxo E, foi elevada até uma altura acima da lâmina d’água; depois, retornou à superfície e permaneceu flutuando. Sp se refere a um sensor de pressão colocado no fundo do recipiente. A partir das informações precedentes, e assumindo que a gravidade local seja g, a densidade do fluido seja constante, seu volume seja muito superior ao da esfera e que a força viscosa no fluido seja desprezível, julgue o item a seguir. A força de empuxo será diretamente proporcional ao raio da esfera e da profundidade D , mas inversamente proporcional à densidade do fluido circundante.",
+   "70": "Um sistema ideal no qual uma esfera indeformável, de raio R e densidade γ, foi movida para uma posição, presa e em repouso, a uma profundidade D de um volume de fluido de densidade ρ. A esfera foi solta dessa posição e, pela ação da força empuxo E, foi elevada até uma altura acima da lâmina d’água; depois, retornou à superfície e permaneceu flutuando. Sp se refere a um sensor de pressão colocado no fundo do recipiente. A partir das informações precedentes, e assumindo que a gravidade local seja g, a densidade do fluido seja constante, seu volume seja muito superior ao da esfera e que a força viscosa no fluido seja desprezível, julgue o item a seguir. Se o sensor de pressão Sp for uma pastilha muito pequena orientada a 45°, o valor da pressão P_F lida por ele será P_F/√2.",
+   "71": "Um sistema ideal no qual uma esfera indeformável, de raio R e densidade γ, foi movida para uma posição, presa e em repouso, a uma profundidade D de um volume de fluido de densidade ρ. A esfera foi solta dessa posição e, pela ação da força empuxo E, foi elevada até uma altura acima da lâmina d’água; depois, retornou à superfície e permaneceu flutuando. Sp se refere a um sensor de pressão colocado no fundo do recipiente. A partir das informações precedentes, e assumindo que a gravidade local seja g, a densidade do fluido seja constante, seu volume seja muito superior ao da esfera e que a força viscosa no fluido seja desprezível, julgue o item a seguir. Na situação em que a esfera flutua, o volume de água deslocado por ela é 4πR³γ/(3ρ).",
+   "72": "Um sistema ideal no qual uma esfera indeformável, de raio R e densidade γ, foi movida para uma posição, presa e em repouso, a uma profundidade D de um volume de fluido de densidade ρ. A esfera foi solta dessa posição e, pela ação da força empuxo E, foi elevada até uma altura acima da lâmina d’água; depois, retornou à superfície e permaneceu flutuando. Sp se refere a um sensor de pressão colocado no fundo do recipiente. A partir das informações precedentes, e assumindo que a gravidade local seja g, a densidade do fluido seja constante, seu volume seja muito superior ao da esfera e que a força viscosa no fluido seja desprezível, julgue o item a seguir. O módulo da aceleração que a esfera atinge, dentro do fluido, por ação do empuxo, é g(ρ/γ − 1).",
+   "73": "Uma situação em que um trilho metálico de resistência elétrica desprezível é posicionado em uma região onde existe um campo magnético de módulo B. Sobre o trilho, uma barra metálica de comprimento L e resistência R é forçada a se mover com velocidade de módulo v, gerando uma força eletromotriz induzida de módulo E entre os terminais C e D da barra. A partir das informações precedentes, julgue o item a seguir, considerando que a barra e o trecho do trilho à sua direita formem uma espira retangular cuja área está sempre crescendo. Como a área da espira retangular está sempre crescendo, a corrente elétrica induzida na espira tem sentido horário.",
+   "75": "Uma situação em que um trilho metálico de resistência elétrica desprezível é posicionado em uma região onde existe um campo magnético de módulo B. Sobre o trilho, uma barra metálica de comprimento L e resistência R é forçada a se mover com velocidade de módulo v, gerando uma força eletromotriz induzida de módulo E entre os terminais C e D da barra. A partir das informações precedentes, julgue o item a seguir, considerando que a barra e o trecho do trilho à sua direita formem uma espira retangular cuja área está sempre crescendo. Um voltímetro ideal conectado entre os terminais C e D da barra medirá uma tensão igual a E = B·L·v.",
+   "76": "Uma situação em que um trilho metálico de resistência elétrica desprezível é posicionado em uma região onde existe um campo magnético de módulo B. Sobre o trilho, uma barra metálica de comprimento L e resistência R é forçada a se mover com velocidade de módulo v, gerando uma força eletromotriz induzida de módulo E entre os terminais C e D da barra. A partir das informações precedentes, julgue o item a seguir, considerando que a barra e o trecho do trilho à sua direita formem uma espira retangular cuja área está sempre crescendo. Dado que a barra metálica tem resistência R, a potência elétrica dissipada na barra será igual a (B·L·v)²/R.",
+   "80": "Uma lanterna formada por um gerador de força eletromotriz E de resistência interna r, uma lâmpada de resistência R, uma chave S e fios conectores ideais. Ao se fechar a chave S, uma corrente elétrica i percorre o circuito e a lâmpada acende. Tendo como referência as informações precedentes, julgue o item a seguir. A potência fornecida pelo gerador será máxima se R = r .",
+   "79": "Uma lanterna formada por um gerador de força eletromotriz E de resistência interna r, uma lâmpada de resistência R, uma chave S e fios conectores ideais. Ao se fechar a chave S, uma corrente elétrica i percorre o circuito e a lâmpada acende. Tendo como referência as informações precedentes, julgue o item a seguir. Com a chave S fechada, a corrente no circuito é i = E/(R + r).",
+   "82": "Quando um líquido entra em contato com uma massa significativamente mais quente que seu ponto de ebulição, uma camada isolante de vapor é produzida entre os dois, evitando que o líquido evapore rapidamente. Um modelo para esse efeito, conhecido como efeito Leidenfrost: uma gota d’água de formato cilíndrico, com densidade d, altura h, área de base A e temperatura Tg, flutua sobre uma camada de vapor com condutividade térmica k, a uma altura Y acima de uma frigideira com temperatura Tf. Considerando as informações precedentes, julgue o item a seguir, admitindo que a condução seja a principal forma de transmissão de energia da frigideira para a gota. Se o calor latente de vaporização da água for L , o tempo de vaporização da gota d’água será proporcional a 1/ L .",
+   "84": "Quando um líquido entra em contato com uma massa significativamente mais quente que seu ponto de ebulição, uma camada isolante de vapor é produzida entre os dois, evitando que o líquido evapore rapidamente. Um modelo para esse efeito, conhecido como efeito Leidenfrost: uma gota d’água de formato cilíndrico, com densidade d, altura h, área de base A e temperatura Tg, flutua sobre uma camada de vapor com condutividade térmica k, a uma altura Y acima de uma frigideira com temperatura Tf. Considerando as informações precedentes, julgue o item a seguir, admitindo que a condução seja a principal forma de transmissão de energia da frigideira para a gota. Se as temperaturas da frigideira T f e da gota d’água T g forem constantes durante toda a vaporização da gota d’água, a taxa com que a energia é conduzida da frigideira para a gota será diretamente proporcional a Y .",
+   "85": "As cordas de instrumentos musicais como violino, violão, harpa etc., quando vibram, produzem ondas transversais que, sobrepondo-se às refletidas nas extremidades, originam uma onda estacionária. Considerando que uma corda de violão de comprimento L submetida a uma força de tensão T seja posta a vibrar com pequena amplitude, julgue o item a seguir. Quando a corda estiver vibrando em seu harmônico fundamental, o comprimento de onda na corda será igual a 2 ·L .",
+   "86": "As cordas de instrumentos musicais como violino, violão, harpa etc., quando vibram, produzem ondas transversais que, sobrepondo-se às refletidas nas extremidades, originam uma onda estacionária. Considerando que uma corda de violão de comprimento L submetida a uma força de tensão T seja posta a vibrar com pequena amplitude, julgue o item a seguir. Reduzindo-se a força de tensão T na corda vibrante à metade, a frequência da onda na corda também será reduzida à metade.",
+   "87": "As cordas de instrumentos musicais como violino, violão, harpa etc., quando vibram, produzem ondas transversais que, sobrepondo-se às refletidas nas extremidades, originam uma onda estacionária. Considerando que uma corda de violão de comprimento L submetida a uma força de tensão T seja posta a vibrar com pequena amplitude, julgue o item a seguir. Se a densidade linear da corda vibrante fosse maior, o som produzido pela corda seria mais agudo.",
+   "88": "As cordas de instrumentos musicais como violino, violão, harpa etc., quando vibram, produzem ondas transversais que, sobrepondo-se às refletidas nas extremidades, originam uma onda estacionária. Considerando que uma corda de violão de comprimento L submetida a uma força de tensão T seja posta a vibrar com pequena amplitude, julgue o item a seguir. Se a força de tensão T sobre a corda vibrante sofrer uma variação dT muito pequena, a variação relativa de frequência df/f será a metade da variação relativa da força de tensão dT/T .",
+   "89": "As cordas de instrumentos musicais como violino, violão, harpa etc., quando vibram, produzem ondas transversais que, sobrepondo-se às refletidas nas extremidades, originam uma onda estacionária. Considerando que uma corda de violão de comprimento L submetida a uma força de tensão T seja posta a vibrar com pequena amplitude, julgue o item a seguir. Reduzindo-se o comprimento L da corda vibrante à metade, o som produzido pela corda será mais grave.",
+   "90": "As cordas de instrumentos musicais como violino, violão, harpa etc., quando vibram, produzem ondas transversais que, sobrepondo-se às refletidas nas extremidades, originam uma onda estacionária. Considerando que uma corda de violão de comprimento L submetida a uma força de tensão T seja posta a vibrar com pequena amplitude, julgue o item a seguir. Se a corda estiver vibrando em seu harmônico fundamental, todos os seus pontos vibrantes estarão em um movimento harmônico simples de mesma frequência e mesma fase."
+  },
+  "SEDUC_AL_013_01": {
+   "56": "Se f(x) = (x² − 9)/(x − 3) e g(x) = x + 3 são funções reais, então, f(x) = g(x) para todo número real x.",
+   "58": "O domínio da função f(x) = 1/∛(x − 1/x) é o conjunto {x ∈ ℝ / x ≠ −1, x ≠ 0 e x ≠ 1}.",
+   "75": "Considere que A seja uma matriz quadrada de dimensão 2, que I₂ seja a matriz identidade, também de dimensão 2, e que x ∈ ℝ. Nesse caso, o determinante da matriz é det(A − xI₂) = x² − tr(A)·x + det(A).",
+   "76": "Considere que uma matriz quadrada R seja a raiz quadrada de uma matriz M, de mesma dimensão, que satisfaça a equação matricial R·R = M. Nesse caso, a matriz M = [[9, 0], [0, 4]] tem infinitas raízes quadradas.",
+   "96": "Suponha que o histograma a seguir represente a frequência relativa de alunos, distribuída por faixa etária, que ingressaram no ensino superior no estado de Alagoas em 2020 — faixa 18–20 anos: 35%; faixa 20–22 anos: 25%; faixa 22–24 anos: 15%; faixa 24–26 anos: 8%; faixa 26–28 anos: 18%. Com base nas informações desse gráfico, é correto afirmar que mais de 50% dos novos alunos têm idade superior a 22 anos.",
+   "97": "Considere que, em uma turma de matemática, o professor tenha distribuído as notas da primeira avaliação dos alunos conforme a tabela apresentada adiante — frequência/nota: 3/0, 7/2, 8/4, 10/6, 8/8, 4/10. Com base nos dados dessa tabela, é correto afirmar que a média das notas dessa turma na primeira avaliação foi superior a 5.",
+   "99": "Considerando as matrizes A e B com coeficientes reais dadas por A = [[3, −1, x], [1, x, 3], [1, 2x, 6]] e B = [[0, x, 3], [0, 2, 6x], [1, −1, 0]], julgue o item a seguir. Se det (AB) = 0, então o módulo de x é igual a 1, isto é, | x | = 1.",
+   "100": "Considerando as matrizes A e B com coeficientes reais dadas por A = [[3, −1, x], [1, x, 3], [1, 2x, 6]] e B = [[0, x, 3], [0, 2, 6x], [1, −1, 0]], julgue o item a seguir. Se x = 0, então a matriz B é invertível e det (B -1 ) = 1/6.",
+   "101": "Considerando as matrizes A e B com coeficientes reais dadas por A = [[3, −1, x], [1, x, 3], [1, 2x, 6]] e B = [[0, x, 3], [0, 2, 6x], [1, −1, 0]], julgue o item a seguir. O sistema linear dado por [[3, −1, x], [1, x, 3], [1, 2x, 6]]·[α, β, γ]ᵀ = [1, 1, 0]ᵀ tem solução para qualquer valor real de x."
+  },
+  "SEDUC_AL_015_01": {
+   "54": "Uma transformação química milenar é a produção do etanol a partir da fermentação de alimentos. Nesse processo, a levedura e outros microrganismos fermentam a glicose (C₆H₁₂O₆) em etanol (C₂H₅OH) e CO₂. Com relação à história da química e ao mundo e suas transformações, julgue o item a seguir, considerando M(C₆H₁₂O₆) = 180 g/mol e M(C₂H₅OH) = 46 g/mol. De acordo com a lei de Lavoisier, na reação de fermentação da glicose para produzir somente etanol e gás carbônico, em recipiente fechado, a massa de glicose consumida é igual à massa de etanol produzida, que é igual à massa de CO 2 liberada.",
+   "55": "Uma transformação química milenar é a produção do etanol a partir da fermentação de alimentos. Nesse processo, a levedura e outros microrganismos fermentam a glicose (C₆H₁₂O₆) em etanol (C₂H₅OH) e CO₂. Com relação à história da química e ao mundo e suas transformações, julgue o item a seguir, considerando M(C₆H₁₂O₆) = 180 g/mol e M(C₂H₅OH) = 46 g/mol. De acordo com a reação descrita, para a obtenção de 1,0 kg de etanol, são necessários mais de 2,0 kg de glicose.",
+   "56": "No íon NO₃⁻, há duas ligações mais longas e uma mais curta entre cada um dos átomos de oxigênio e o de nitrogênio.",
+   "74": "O álcool é um dos principais produtos de exportação do estado de Alagoas. O álcool etílico é completamente solúvel em água em qualquer proporção. É comumente vendido na forma de soluções aquosas, nas seguintes concentrações: 46 °INPM, 70 °INPM e 92 °INPM, em gramas de álcool em 100 gramas de solução. Tendo o texto anterior como referência inicial, e considerando que a densidade da água seja de 1,0 g/mL, que a densidade da solução de álcool etílico a 70 °INPM seja de 0,92 g/mL, que a densidade do etanol puro seja de 0,79 g/mL e que a massa molar do etanol seja 46 g/mol, julgue o item a seguir. A solução de álcool de 92 °INPM é uma solução supersaturada, a de 70 °INPM é uma solução saturada, e a de 46 °INPM é uma solução insaturada.",
+   "75": "O álcool é um dos principais produtos de exportação do estado de Alagoas. O álcool etílico é completamente solúvel em água em qualquer proporção. É comumente vendido na forma de soluções aquosas, nas seguintes concentrações: 46 °INPM, 70 °INPM e 92 °INPM, em gramas de álcool em 100 gramas de solução. Tendo o texto anterior como referência inicial, e considerando que a densidade da água seja de 1,0 g/mL, que a densidade da solução de álcool etílico a 70 °INPM seja de 0,92 g/mL, que a densidade do etanol puro seja de 0,79 g/mL e que a massa molar do etanol seja 46 g/mol, julgue o item a seguir. A concentração, em quantidade de matéria, da solução de 70 °INPM é maior que 13 mol/L.",
+   "76": "O álcool é um dos principais produtos de exportação do estado de Alagoas. O álcool etílico é completamente solúvel em água em qualquer proporção. É comumente vendido na forma de soluções aquosas, nas seguintes concentrações: 46 °INPM, 70 °INPM e 92 °INPM, em gramas de álcool em 100 gramas de solução. Tendo o texto anterior como referência inicial, e considerando que a densidade da água seja de 1,0 g/mL, que a densidade da solução de álcool etílico a 70 °INPM seja de 0,92 g/mL, que a densidade do etanol puro seja de 0,79 g/mL e que a massa molar do etanol seja 46 g/mol, julgue o item a seguir. Ao se misturarem 30 g da solução de 92 °INPM com 50 g da solução de 70 °INPM, é obtida uma solução de etanol com concentração maior que 80 °INPM.",
+   "77": "O álcool é um dos principais produtos de exportação do estado de Alagoas. O álcool etílico é completamente solúvel em água em qualquer proporção. É comumente vendido na forma de soluções aquosas, nas seguintes concentrações: 46 °INPM, 70 °INPM e 92 °INPM, em gramas de álcool em 100 gramas de solução. Tendo o texto anterior como referência inicial, e considerando que a densidade da água seja de 1,0 g/mL, que a densidade da solução de álcool etílico a 70 °INPM seja de 0,92 g/mL, que a densidade do etanol puro seja de 0,79 g/mL e que a massa molar do etanol seja 46 g/mol, julgue o item a seguir. O álcool é o solvente na solução de 92 °INPM.",
+   "78": "O álcool é um dos principais produtos de exportação do estado de Alagoas. O álcool etílico é completamente solúvel em água em qualquer proporção. É comumente vendido na forma de soluções aquosas, nas seguintes concentrações: 46 °INPM, 70 °INPM e 92 °INPM, em gramas de álcool em 100 gramas de solução. Tendo o texto anterior como referência inicial, e considerando que a densidade da água seja de 1,0 g/mL, que a densidade da solução de álcool etílico a 70 °INPM seja de 0,92 g/mL, que a densidade do etanol puro seja de 0,79 g/mL e que a massa molar do etanol seja 46 g/mol, julgue o item a seguir. Para serem preparados 100 g de uma solução de etanol em água a 45,5 °INPM por diluição da solução de 70 °INPM, serão utilizados 65 mL dessa última solução.",
+   "79": "O sal-gema é formado majoritariamente por cloreto de sódio, mas outros sais também são encontrados nele, como o cloreto de potássio e o cloreto de magnésio. Ele é utilizado para a produção de soda (NaOH), de sódio metálico e dos gases cloro e hidrogênio (H₂). A soda pode ser utilizada na titulação de ácido acético. Nessa titulação, o ponto de equivalência ocorre em pH = 8,7. Com relação ao assunto do texto anterior, julgue o item a seguir. A presença do oxigênio faz o NaOH ser classificado como óxido.",
+   "80": "O sal-gema é formado majoritariamente por cloreto de sódio, mas outros sais também são encontrados nele, como o cloreto de potássio e o cloreto de magnésio. Ele é utilizado para a produção de soda (NaOH), de sódio metálico e dos gases cloro e hidrogênio (H₂). A soda pode ser utilizada na titulação de ácido acético. Nessa titulação, o ponto de equivalência ocorre em pH = 8,7. Com relação ao assunto do texto anterior, julgue o item a seguir. O gás hidrogênio é um gás nobre.",
+   "81": "O sal-gema é formado majoritariamente por cloreto de sódio, mas outros sais também são encontrados nele, como o cloreto de potássio e o cloreto de magnésio. Ele é utilizado para a produção de soda (NaOH), de sódio metálico e dos gases cloro e hidrogênio (H₂). A soda pode ser utilizada na titulação de ácido acético. Nessa titulação, o ponto de equivalência ocorre em pH = 8,7. Com relação ao assunto do texto anterior, julgue o item a seguir. A reação 2 NaOH (aq) + H 2 S (aq) → Na 2 S (aq) + 2 H 2 O (l) é de neutralização, em que o sulfeto de hidrogênio atua como ácido.",
+   "82": "O sal-gema é formado majoritariamente por cloreto de sódio, mas outros sais também são encontrados nele, como o cloreto de potássio e o cloreto de magnésio. Ele é utilizado para a produção de soda (NaOH), de sódio metálico e dos gases cloro e hidrogênio (H₂). A soda pode ser utilizada na titulação de ácido acético. Nessa titulação, o ponto de equivalência ocorre em pH = 8,7. Com relação ao assunto do texto anterior, julgue o item a seguir. A dissolução do sal-gema em água causa a diminuição da pressão de vapor da água.",
+   "83": "O sal-gema é formado majoritariamente por cloreto de sódio, mas outros sais também são encontrados nele, como o cloreto de potássio e o cloreto de magnésio. Ele é utilizado para a produção de soda (NaOH), de sódio metálico e dos gases cloro e hidrogênio (H₂). A soda pode ser utilizada na titulação de ácido acético. Nessa titulação, o ponto de equivalência ocorre em pH = 8,7. Com relação ao assunto do texto anterior, julgue o item a seguir. O ácido acético é um ácido fraco.",
+   "84": "O sal-gema é formado majoritariamente por cloreto de sódio, mas outros sais também são encontrados nele, como o cloreto de potássio e o cloreto de magnésio. Ele é utilizado para a produção de soda (NaOH), de sódio metálico e dos gases cloro e hidrogênio (H₂). A soda pode ser utilizada na titulação de ácido acético. Nessa titulação, o ponto de equivalência ocorre em pH = 8,7. Com relação ao assunto do texto anterior, julgue o item a seguir. Durante a titulação do ácido acético com a soda, ocorre a formação de uma solução tampão.",
+   "101": "Margarinas que contêm gorduras vegetais parcialmente hidrogenadas são frequentemente rotuladas como “feitas com óleo 100% vegetal”, o que sugere aos consumidores que elas são muito mais saudáveis que manteiga. No entanto, algumas ligações duplas dos ácidos graxos no óleo são convertidas da configuração cis para a configuração trans. Foi demonstrado que o consumo de alimentos contendo ácidos graxos trans, como as margarinas, aumenta os níveis de colesterol no sangue. A equação química R₂C=CR₂ + H₂ →(níquel, Δ) R₂CH–CHR₂ ilustra a adição de H₂ a uma dupla ligação de um ácido graxo. Considerando as informações do texto e a equação química apresentada, julgue o item a seguir. A reação de hidrogenação representada pela equação de adição ocorre a temperatura ambiente.",
+   "103": "Margarinas que contêm gorduras vegetais parcialmente hidrogenadas são frequentemente rotuladas como “feitas com óleo 100% vegetal”, o que sugere aos consumidores que elas são muito mais saudáveis que manteiga. No entanto, algumas ligações duplas dos ácidos graxos no óleo são convertidas da configuração cis para a configuração trans. Foi demonstrado que o consumo de alimentos contendo ácidos graxos trans, como as margarinas, aumenta os níveis de colesterol no sangue. A equação química R₂C=CR₂ + H₂ →(níquel, Δ) R₂CH–CHR₂ ilustra a adição de H₂ a uma dupla ligação de um ácido graxo. Considerando as informações do texto e a equação química apresentada, julgue o item a seguir. A equação química representada é denominada hidrogenação catalítica e assemelha-se à transformação da gordura saturada dos óleos vegetais em gordura insaturada das margarinas."
+  }
+ }
+}

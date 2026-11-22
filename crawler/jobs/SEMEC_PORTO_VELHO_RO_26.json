@@ -1,0 +1,63 @@
+{
+ "evento": "SEMEC_PORTO_VELHO_RO_26",
+ "workdir": "/tmp/semec_porto_velho_ro_26",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Secretaria Municipal de Economia de Porto Velho (Semec)",
+  "ano": 2026,
+  "id_orgao": "semecpv"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Assistente de Arrecadação",
+   "id_cargo": "assistente-de-arrecadacao",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_502CD888B4655DC70CC4A3FB.pdf",
+     "gabarito": "gab_32D80857CABB4D860B3031FC.pdf",
+     "tipo": "mc",
+     "arquivo": "502CD888B4655DC70CC4A3FB726BEADC345C62A579F39D05D30E646DB6313673.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp1",
+     "prova": "pro_BDDDABD1FFF9438933055A02.pdf",
+     "gabarito": "gab_0C4C2675AC003D32447A87F5.pdf",
+     "tipo": "mc",
+     "arquivo": "BDDDABD1FFF9438933055A02D28924DCA587D7012D53034017DE3DCD80E4896C.pdf",
+     "assunto": "Conhecimentos Específicos",
+     "num_offset": 50
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Auditor Fiscal da Receita Municipal",
+   "id_cargo": "auditor-fiscal-da-receita-municipal",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_610CD3B02C6C9203BF524233.pdf",
+     "gabarito": "gab_DF10836977A7697E15DD4C17.pdf",
+     "tipo": "mc",
+     "arquivo": "610CD3B02C6C9203BF52423399F6F8C7F06597BACA8456D9AD9148FF3D7D746A.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp2",
+     "prova": "pro_8B0EB4A6EC63E3B6AC3838E2.pdf",
+     "gabarito": "gab_8E9D2FE283AD3C06A1A3A2FE.pdf",
+     "tipo": "mc",
+     "arquivo": "8B0EB4A6EC63E3B6AC3838E2BF5B8BFAA59DC427F886154ECFA4BAF5F5BAA964.pdf",
+     "assunto": "Conhecimentos Específicos",
+     "num_offset": 50
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

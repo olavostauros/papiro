@@ -1,0 +1,217 @@
+{
+ "evento": "PREF_PIRESRIO_GO_21",
+ "workdir": "/tmp/pref_piresrio_go_21",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "PREFEITURA MUNICIPAL DE PIRES DO RIO",
+  "ano": 2021,
+  "id_orgao": "pref"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Cargo 1: Procurador Jurídico do Município",
+   "id_cargo": "procurador-juridico",
+   "provas": [
+    {
+     "key": "PREF_PIRESDORIO_CG1_01",
+     "prova": "pro_PREF_PIRESDORIO_CG1_01.pdf",
+     "gabarito": "gab_PREF_PIRESDORIO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "643_PREF_PIRESDORIO_CG1_01.PDF"
+    },
+    {
+     "key": "PREF_PIRESDORIO_001_01",
+     "prova": "pro_PREF_PIRESDORIO_001_01.pdf",
+     "gabarito": "gab_PREF_PIRESDORIO_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "643_PREF_PIRESDORIO_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Cargo 2: Assistente Social",
+   "id_cargo": "assistente-social",
+   "provas": [
+    {
+     "key": "PREF_PIRESDORIO_002_01",
+     "prova": "pro_PREF_PIRESDORIO_002_01.pdf",
+     "gabarito": "gab_PREF_PIRESDORIO_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "643_PREF_PIRESDORIO_002_01.PDF"
+    },
+    {
+     "key": "PREF_PIRESDORIO_CG1_01",
+     "prova": "pro_PREF_PIRESDORIO_CG1_01.pdf",
+     "gabarito": "gab_PREF_PIRESDORIO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "643_PREF_PIRESDORIO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Cargo 3 Professor – Nível I",
+   "id_cargo": "professor-nivel-i",
+   "provas": [
+    {
+     "key": "PREF_PIRESDORIO_003_01",
+     "prova": "pro_PREF_PIRESDORIO_003_01.pdf",
+     "gabarito": "gab_PREF_PIRESDORIO_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "643_PREF_PIRESDORIO_003_01.PDF"
+    },
+    {
+     "key": "PREF_PIRESDORIO_CG1_01",
+     "prova": "pro_PREF_PIRESDORIO_CG1_01.pdf",
+     "gabarito": "gab_PREF_PIRESDORIO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "643_PREF_PIRESDORIO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Cargo 4: Psicólogo",
+   "id_cargo": "psicologo",
+   "provas": [
+    {
+     "key": "PREF_PIRESDORIO_004_01",
+     "prova": "pro_PREF_PIRESDORIO_004_01.pdf",
+     "gabarito": "gab_PREF_PIRESDORIO_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "643_PREF_PIRESDORIO_004_01.PDF"
+    },
+    {
+     "key": "PREF_PIRESDORIO_CG1_01",
+     "prova": "pro_PREF_PIRESDORIO_CG1_01.pdf",
+     "gabarito": "gab_PREF_PIRESDORIO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "643_PREF_PIRESDORIO_CG1_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Cargo 5: Monitor de Creche",
+   "id_cargo": "monitor-de-creche",
+   "provas": [
+    {
+     "key": "PREF_PIRESDORIO_CG2_01",
+     "prova": "pro_PREF_PIRESDORIO_CG2_01.pdf",
+     "gabarito": "gab_PREF_PIRESDORIO_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "643_PREF_PIRESDORIO_CG2_01.PDF"
+    },
+    {
+     "key": "PREF_PIRESDORIO_005_01",
+     "prova": "pro_PREF_PIRESDORIO_005_01.pdf",
+     "gabarito": "gab_PREF_PIRESDORIO_005_02.pdf",
+     "tipo": "ce",
+     "arquivo": "643_PREF_PIRESDORIO_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Cargo 6: Auxiliar de Serviços Gerais – Área: Assistência Social",
+   "id_cargo": "auxiliar-servicos-gerais-assistencia-social",
+   "provas": [
+    {
+     "key": "PREF_PIRESDORIO_CG3_01",
+     "prova": "pro_PREF_PIRESDORIO_CG3_01.pdf",
+     "gabarito": "gab_PREF_PIRESDORIO_CG3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "643_PREF_PIRESDORIO_CG3_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Cargo 7: Auxiliar de Serviços Gerais – Área: Educação",
+   "id_cargo": "auxiliar-servicos-gerais-educacao",
+   "provas": [
+    {
+     "key": "PREF_PIRESDORIO_CG3_01",
+     "prova": "pro_PREF_PIRESDORIO_CG3_01.pdf",
+     "gabarito": "gab_PREF_PIRESDORIO_CG3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "643_PREF_PIRESDORIO_CG3_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {
+  "PREF_PIRESDORIO_CG1_01": [
+   35,
+   36,
+   37,
+   38,
+   39,
+   40,
+   41,
+   42
+  ],
+  "PREF_PIRESDORIO_CG3_01": [
+   59,
+   60,
+   61,
+   62
+  ]
+ },
+ "patch": {
+  "PREF_PIRESDORIO_001_01": {
+   "87": "João, empregado da empresa Alfa, foi condenado criminalmente por acidente de trânsito. A empresa, após tomar conhecimento da decisão judicial, demitiu João por justa causa e não lhe pagou nenhuma verba trabalhista. Inconformado, João ajuizou reclamação trabalhista, pleiteando a nulidade da demissão, sob a alegação de que a condenação criminal não havia transitado em julgado e que o ato criminoso tinha sido cometido fora das dependências da empresa. Alegou, ainda, que a empresa Alfa possui norma interna que prevê que qualquer sanção a empregado deve ser apurada mediante sindicância prévia. Requereu, por fim, a reintegração ao emprego e o pagamento de todas as verbas referentes ao período em que esteve afastado em decorrência da demissão ilegal. Considerando essa situação hipotética e aspectos a ela relacionados, julgue os itens que se seguem. O ato de dispensa de João pela empresa Alfa caracteriza o poder fiscalizatório do empregador.",
+   "88": "João, empregado da empresa Alfa, foi condenado criminalmente por acidente de trânsito. A empresa, após tomar conhecimento da decisão judicial, demitiu João por justa causa e não lhe pagou nenhuma verba trabalhista. Inconformado, João ajuizou reclamação trabalhista, pleiteando a nulidade da demissão, sob a alegação de que a condenação criminal não havia transitado em julgado e que o ato criminoso tinha sido cometido fora das dependências da empresa. Alegou, ainda, que a empresa Alfa possui norma interna que prevê que qualquer sanção a empregado deve ser apurada mediante sindicância prévia. Requereu, por fim, a reintegração ao emprego e o pagamento de todas as verbas referentes ao período em que esteve afastado em decorrência da demissão ilegal. Considerando essa situação hipotética e aspectos a ela relacionados, julgue os itens que se seguem. De acordo com o entendimento do Tribunal Superior do Trabalho (TST), o argumento de João quanto à nulidade da demissão está correto, pois não deve haver a punição do empregado sem prévia sindicância interna quando a empresa se obriga a realizá-la por norma regulamentar.",
+   "89": "João, empregado da empresa Alfa, foi condenado criminalmente por acidente de trânsito. A empresa, após tomar conhecimento da decisão judicial, demitiu João por justa causa e não lhe pagou nenhuma verba trabalhista. Inconformado, João ajuizou reclamação trabalhista, pleiteando a nulidade da demissão, sob a alegação de que a condenação criminal não havia transitado em julgado e que o ato criminoso tinha sido cometido fora das dependências da empresa. Alegou, ainda, que a empresa Alfa possui norma interna que prevê que qualquer sanção a empregado deve ser apurada mediante sindicância prévia. Requereu, por fim, a reintegração ao emprego e o pagamento de todas as verbas referentes ao período em que esteve afastado em decorrência da demissão ilegal. Considerando essa situação hipotética e aspectos a ela relacionados, julgue os itens que se seguem. À luz da legislação de regência, está correto o argumento de João com relação à nulidade da sua demissão, na medida em que, para a caracterização da justa causa, seria imprescindível que a condenação criminal do empregado tivesse transitado em julgado.",
+   "90": "João, empregado da empresa Alfa, foi condenado criminalmente por acidente de trânsito. A empresa, após tomar conhecimento da decisão judicial, demitiu João por justa causa e não lhe pagou nenhuma verba trabalhista. Inconformado, João ajuizou reclamação trabalhista, pleiteando a nulidade da demissão, sob a alegação de que a condenação criminal não havia transitado em julgado e que o ato criminoso tinha sido cometido fora das dependências da empresa. Alegou, ainda, que a empresa Alfa possui norma interna que prevê que qualquer sanção a empregado deve ser apurada mediante sindicância prévia. Requereu, por fim, a reintegração ao emprego e o pagamento de todas as verbas referentes ao período em que esteve afastado em decorrência da demissão ilegal. Considerando essa situação hipotética e aspectos a ela relacionados, julgue os itens que se seguem. João poderá ser reintegrado, com o seu retorno ao emprego e à função antes ocupada, situação em que o período de afastamento será considerado como hipótese de suspensão do contrato de trabalho.",
+   "91": "João, empregado da empresa Alfa, foi condenado criminalmente por acidente de trânsito. A empresa, após tomar conhecimento da decisão judicial, demitiu João por justa causa e não lhe pagou nenhuma verba trabalhista. Inconformado, João ajuizou reclamação trabalhista, pleiteando a nulidade da demissão, sob a alegação de que a condenação criminal não havia transitado em julgado e que o ato criminoso tinha sido cometido fora das dependências da empresa. Alegou, ainda, que a empresa Alfa possui norma interna que prevê que qualquer sanção a empregado deve ser apurada mediante sindicância prévia. Requereu, por fim, a reintegração ao emprego e o pagamento de todas as verbas referentes ao período em que esteve afastado em decorrência da demissão ilegal. Considerando essa situação hipotética e aspectos a ela relacionados, julgue os itens que se seguem. De acordo com a doutrina, está correto o argumento de João no sentido de que há nulidade da sua demissão, porquanto, para que restasse configurada a justa causa, seria necessário que o crime tivesse sido cometido dentro das dependências da empresa."
+  },
+  "PREF_PIRESDORIO_002_01": {
+   "59": "Jorge, assistente social, ciente de uma denúncia protocolada contra si no conselho regional de serviço social (CRESS) no qual é inscrito, requereu a esse conselho uma certidão de natureza disciplinar e ética. Considerando essa situação hipotética e a Resolução n.º 934/2020 do Conselho Federal de Serviço Social (CFESS), julgue os itens seguintes. O CRESS ou o CFESS poderá atestar a situação disciplinar e(ou) ético-profissional de Jorge na certidão solicitada, desde que o processo já esteja em andamento."
+  },
+  "PREF_PIRESDORIO_003_01": {
+   "51": "Um professor recém-contratado em escola do município de Pires do Rio foi recebido pela coordenadora na semana pedagógica, alguns dias antes de iniciar suas atividades em sala de aula. A partir dessa situação hipotética, julgue os itens a seguir. É importante que o professor leia o projeto político-pedagógico da escola para que ele conheça as intenções e as ações planejadas para a escola.",
+   "54": "Um professor recém-contratado em escola do município de Pires do Rio foi recebido pela coordenadora na semana pedagógica, alguns dias antes de iniciar suas atividades em sala de aula. A partir dessa situação hipotética, julgue os itens a seguir. Embora o projeto da escola requeira uma construção coletiva, é recomendável que o professor recém-contratado conceba o planejamento e a organização do trabalho pedagógico de forma isolada, visto que essas ações específicas independem da participação do grupo de professores.",
+   "64": "Com o objetivo de estimular a diversidade, uma escola do município de Pires do Rio elaborou um projeto que culminou em uma exposição de culturas diferentes, com danças folclóricas, comidas típicas e artesanatos. A partir da situação hipotética apresentada e dos aspectos legais e conceituais a ela relacionados, julgue os seguintes itens. Além do referido tipo de atividade realizada na escola, é preciso fomentar a convivência com as diferenças físicas, sociais e culturais.",
+   "67": "do Rio oferece educação básica com foco nos cursos técnicos da área agrícola. A respeito dessa situação hipotética e dos aspectos legais e conceituais a ela relacionados, julgue os itens subsecutivos. Se as atividades educativas oferecidas abrangerem horário de mais de seis horas diárias, a referida instituição será considerada escola de educação integral.",
+   "70": "do Rio oferece educação básica com foco nos cursos técnicos da área agrícola. A respeito dessa situação hipotética e dos aspectos legais e conceituais a ela relacionados, julgue os itens subsecutivos. O fato de os cursos ofertados estarem relacionados com a área agrícola caracteriza a existência de educação ambiental na referida instituição."
+  },
+  "PREF_PIRESDORIO_004_01": {
+   "63": "Um grupo de mulheres de determinado município buscou a assistência social local, a fim de se informar melhor sobre violência doméstica. O grupo também demonstrou interesse em atendimento psicoterápico. Considerando essa situação hipotética e as teorias e técnicas psicoterápicas, julgue os itens que se seguem. Na referida situação, o psicodrama não seria uma abordagem adequada, porque é voltado para atendimentos individuais.",
+   "65": "Um grupo de mulheres de determinado município buscou a assistência social local, a fim de se informar melhor sobre violência doméstica. O grupo também demonstrou interesse em atendimento psicoterápico. Considerando essa situação hipotética e as teorias e técnicas psicoterápicas, julgue os itens que se seguem. Nessa situação, como o grupo de mulheres meramente buscou informações sobre violência doméstica, o psicólogo que recebê-las deverá tão somente encaminhá-las para instância que promova psicoeducação sobre o tema.",
+   "75": "Ângela, de 6 anos de idade, mora com os pais e o irmão mais velho. Apresenta desenvolvimento cognitivo adequado para a faixa etária e não há queixas escolares a seu respeito. Entretanto, de acordo com a genitora, a criança tem muito medo de trovão: “Toda vez que ameaça chover, tudo vira de cabeça pra baixo. Ela grita, chora, se esconde debaixo da mesa, debaixo da cama... É uma confusão. Agarra minha mão ou de quem estiver em casa e não desgruda mais. Chega a machucar. A gente percebe que o coração dela acelera. Só acalma quando a chuva passa” ( sic ). Em face das dificuldades encontradas para lidar com essa situação, os responsáveis de Ângela procuram atendimento especializado. Considerando esse caso clínico hipotético, as contribuições da psicopatologia, o Manual Diagnóstico e Estatístico dos Transtornos Mentais (DSM-5), a Classificação Internacional das Doenças (CID-10) e os níveis de atenção à saúde, julgue os itens a seguir. O quadro de ansiedade descrito comumente inicia-se na infância e está associado à baixa autoestima e a transtornos depressivos.",
+   "76": "Ângela, de 6 anos de idade, mora com os pais e o irmão mais velho. Apresenta desenvolvimento cognitivo adequado para a faixa etária e não há queixas escolares a seu respeito. Entretanto, de acordo com a genitora, a criança tem muito medo de trovão: “Toda vez que ameaça chover, tudo vira de cabeça pra baixo. Ela grita, chora, se esconde debaixo da mesa, debaixo da cama... É uma confusão. Agarra minha mão ou de quem estiver em casa e não desgruda mais. Chega a machucar. A gente percebe que o coração dela acelera. Só acalma quando a chuva passa” ( sic ). Em face das dificuldades encontradas para lidar com essa situação, os responsáveis de Ângela procuram atendimento especializado. Considerando esse caso clínico hipotético, as contribuições da psicopatologia, o Manual Diagnóstico e Estatístico dos Transtornos Mentais (DSM-5), a Classificação Internacional das Doenças (CID-10) e os níveis de atenção à saúde, julgue os itens a seguir. Os prejuízos decorrentes do quadro clínico apresentado estão associados à capacidade de Ângela evitar a situação disparadora.",
+   "77": "Ângela, de 6 anos de idade, mora com os pais e o irmão mais velho. Apresenta desenvolvimento cognitivo adequado para a faixa etária e não há queixas escolares a seu respeito. Entretanto, de acordo com a genitora, a criança tem muito medo de trovão: “Toda vez que ameaça chover, tudo vira de cabeça pra baixo. Ela grita, chora, se esconde debaixo da mesa, debaixo da cama... É uma confusão. Agarra minha mão ou de quem estiver em casa e não desgruda mais. Chega a machucar. A gente percebe que o coração dela acelera. Só acalma quando a chuva passa” ( sic ). Em face das dificuldades encontradas para lidar com essa situação, os responsáveis de Ângela procuram atendimento especializado. Considerando esse caso clínico hipotético, as contribuições da psicopatologia, o Manual Diagnóstico e Estatístico dos Transtornos Mentais (DSM-5), a Classificação Internacional das Doenças (CID-10) e os níveis de atenção à saúde, julgue os itens a seguir. O quadro clínico de Ângela é característico de fobia específica, situacional.",
+   "79": "Ângela, de 6 anos de idade, mora com os pais e o irmão mais velho. Apresenta desenvolvimento cognitivo adequado para a faixa etária e não há queixas escolares a seu respeito. Entretanto, de acordo com a genitora, a criança tem muito medo de trovão: “Toda vez que ameaça chover, tudo vira de cabeça pra baixo. Ela grita, chora, se esconde debaixo da mesa, debaixo da cama... É uma confusão. Agarra minha mão ou de quem estiver em casa e não desgruda mais. Chega a machucar. A gente percebe que o coração dela acelera. Só acalma quando a chuva passa” ( sic ). Em face das dificuldades encontradas para lidar com essa situação, os responsáveis de Ângela procuram atendimento especializado. Considerando esse caso clínico hipotético, as contribuições da psicopatologia, o Manual Diagnóstico e Estatístico dos Transtornos Mentais (DSM-5), a Classificação Internacional das Doenças (CID-10) e os níveis de atenção à saúde, julgue os itens a seguir. Pelo relato da genitora de Ângela, conclui-se que a criança apresenta um quadro característico de fobia simples, diagnóstico ao qual se incluem, ainda, fobias de exame e acrofobia.",
+   "80": "Ângela, de 6 anos de idade, mora com os pais e o irmão mais velho. Apresenta desenvolvimento cognitivo adequado para a faixa etária e não há queixas escolares a seu respeito. Entretanto, de acordo com a genitora, a criança tem muito medo de trovão: “Toda vez que ameaça chover, tudo vira de cabeça pra baixo. Ela grita, chora, se esconde debaixo da mesa, debaixo da cama... É uma confusão. Agarra minha mão ou de quem estiver em casa e não desgruda mais. Chega a machucar. A gente percebe que o coração dela acelera. Só acalma quando a chuva passa” ( sic ). Em face das dificuldades encontradas para lidar com essa situação, os responsáveis de Ângela procuram atendimento especializado. Considerando esse caso clínico hipotético, as contribuições da psicopatologia, o Manual Diagnóstico e Estatístico dos Transtornos Mentais (DSM-5), a Classificação Internacional das Doenças (CID-10) e os níveis de atenção à saúde, julgue os itens a seguir. Quadro clínico fóbico como o apresentado por Ângela costuma progredir associado a sintomas de ansiedade e medo de doenças específicas.",
+   "88": "Caso clínico 4A2-I Maria, de 65 anos de idade, é diabética e foi diagnosticada com depressão há 40 anos. Faz uso de medicação para ambas as doenças desde o diagnóstico inicial. Relata períodos muito difíceis de tristeza, baixa autoestima e ideação suicida. Diz: “Eu me sinto OK . Nunca fui feliz. Sempre estive OK . Nunca soube o que é felicidade. Minha vida sempre foi muito difícil. Precisei trabalhar desde cedo. Perdi meu pai e minha mãe quando muito pequena. Fui morar na rua. Experimentei tudo quanto foi coisa. Chegava a perder as forças. Tinha tontura; tremores; ficava lerda. Meu corpo não respondia direito. Mas era muito louco... Eu ficava eufórica e meio descoordenada também. Chegava a passar dias desaparecida. Tinha uma raiva dentro de mim. Sempre me perguntei o porquê de ser comigo, de ser logo com minha mãe e meu pai. Vi os dois serem mortos na minha frente. Nunca vou esquecer. Lembro de tudo, como se fosse hoje. Tudo por causa de droga. Meu pai sempre bateu em mim e na minha mãe. Eu tinha muita raiva. Ainda tenho. Só de pensar nisso meu coração dispara e eu sou tomada por um manto de fogo. Minhas pernas até adormecem. Meu rosto fica quente. Saí do buraco quando conheci meu companheiro. Só aí vi que poderia ser cuidada por alguém. Mas foi duro. Demorei a acreditar. Mas meu companheiro me ajudou a enxergar minhas dificuldades e doença. Fiquei OK por anos. Mas parece uma coisa... nada pode dar certo pra mim. Há 10 dias fiquei sabendo que tenho um câncer no estômago. Quis me entregar. Mas meu companheiro e meus filhos disseram que farão de tudo por mim e que preciso ser forte. Mas tenho a impressão que a tristeza voltou com tudo de novo.” ( sic ). Levando em consideração o caso clínico 4A2-I, o processo saúde-doença, as contribuições da psicologia da saúde e da psicopatologia e o papel do psicólogo, julgue os itens que se seguem. A intervenção medicamentosa combinada com o papel da atenção primária na identificação da população de risco para doença crônica viabiliza a formulação de estratégias populacionais para enfrentamento e tratamento de doenças como a apresentada por Maria.",
+   "89": "Caso clínico 4A2-I Maria, de 65 anos de idade, é diabética e foi diagnosticada com depressão há 40 anos. Faz uso de medicação para ambas as doenças desde o diagnóstico inicial. Relata períodos muito difíceis de tristeza, baixa autoestima e ideação suicida. Diz: “Eu me sinto OK . Nunca fui feliz. Sempre estive OK . Nunca soube o que é felicidade. Minha vida sempre foi muito difícil. Precisei trabalhar desde cedo. Perdi meu pai e minha mãe quando muito pequena. Fui morar na rua. Experimentei tudo quanto foi coisa. Chegava a perder as forças. Tinha tontura; tremores; ficava lerda. Meu corpo não respondia direito. Mas era muito louco... Eu ficava eufórica e meio descoordenada também. Chegava a passar dias desaparecida. Tinha uma raiva dentro de mim. Sempre me perguntei o porquê de ser comigo, de ser logo com minha mãe e meu pai. Vi os dois serem mortos na minha frente. Nunca vou esquecer. Lembro de tudo, como se fosse hoje. Tudo por causa de droga. Meu pai sempre bateu em mim e na minha mãe. Eu tinha muita raiva. Ainda tenho. Só de pensar nisso meu coração dispara e eu sou tomada por um manto de fogo. Minhas pernas até adormecem. Meu rosto fica quente. Saí do buraco quando conheci meu companheiro. Só aí vi que poderia ser cuidada por alguém. Mas foi duro. Demorei a acreditar. Mas meu companheiro me ajudou a enxergar minhas dificuldades e doença. Fiquei OK por anos. Mas parece uma coisa... nada pode dar certo pra mim. Há 10 dias fiquei sabendo que tenho um câncer no estômago. Quis me entregar. Mas meu companheiro e meus filhos disseram que farão de tudo por mim e que preciso ser forte. Mas tenho a impressão que a tristeza voltou com tudo de novo.” ( sic ). Levando em consideração o caso clínico 4A2-I, o processo saúde-doença, as contribuições da psicologia da saúde e da psicopatologia e o papel do psicólogo, julgue os itens que se seguem. Nesse caso hipotético, cabe ao psicólogo levar em consideração a crença, os sentimentos que Maria possui a respeito da doença, evitando propostas adaptativas à situação para que a paciente acredite em seu processo de cura.",
+   "90": "Caso clínico 4A2-I Maria, de 65 anos de idade, é diabética e foi diagnosticada com depressão há 40 anos. Faz uso de medicação para ambas as doenças desde o diagnóstico inicial. Relata períodos muito difíceis de tristeza, baixa autoestima e ideação suicida. Diz: “Eu me sinto OK . Nunca fui feliz. Sempre estive OK . Nunca soube o que é felicidade. Minha vida sempre foi muito difícil. Precisei trabalhar desde cedo. Perdi meu pai e minha mãe quando muito pequena. Fui morar na rua. Experimentei tudo quanto foi coisa. Chegava a perder as forças. Tinha tontura; tremores; ficava lerda. Meu corpo não respondia direito. Mas era muito louco... Eu ficava eufórica e meio descoordenada também. Chegava a passar dias desaparecida. Tinha uma raiva dentro de mim. Sempre me perguntei o porquê de ser comigo, de ser logo com minha mãe e meu pai. Vi os dois serem mortos na minha frente. Nunca vou esquecer. Lembro de tudo, como se fosse hoje. Tudo por causa de droga. Meu pai sempre bateu em mim e na minha mãe. Eu tinha muita raiva. Ainda tenho. Só de pensar nisso meu coração dispara e eu sou tomada por um manto de fogo. Minhas pernas até adormecem. Meu rosto fica quente. Saí do buraco quando conheci meu companheiro. Só aí vi que poderia ser cuidada por alguém. Mas foi duro. Demorei a acreditar. Mas meu companheiro me ajudou a enxergar minhas dificuldades e doença. Fiquei OK por anos. Mas parece uma coisa... nada pode dar certo pra mim. Há 10 dias fiquei sabendo que tenho um câncer no estômago. Quis me entregar. Mas meu companheiro e meus filhos disseram que farão de tudo por mim e que preciso ser forte. Mas tenho a impressão que a tristeza voltou com tudo de novo.” ( sic ). Levando em consideração o caso clínico 4A2-I, o processo saúde-doença, as contribuições da psicologia da saúde e da psicopatologia e o papel do psicólogo, julgue os itens que se seguem. Em se tratando do processo saúde-doença, fatores biológicos, econômicos, sociais e culturais devem ser levados em consideração no contexto de adoecimento de Maria.",
+   "91": "Caso clínico 4A2-I Maria, de 65 anos de idade, é diabética e foi diagnosticada com depressão há 40 anos. Faz uso de medicação para ambas as doenças desde o diagnóstico inicial. Relata períodos muito difíceis de tristeza, baixa autoestima e ideação suicida. Diz: “Eu me sinto OK . Nunca fui feliz. Sempre estive OK . Nunca soube o que é felicidade. Minha vida sempre foi muito difícil. Precisei trabalhar desde cedo. Perdi meu pai e minha mãe quando muito pequena. Fui morar na rua. Experimentei tudo quanto foi coisa. Chegava a perder as forças. Tinha tontura; tremores; ficava lerda. Meu corpo não respondia direito. Mas era muito louco... Eu ficava eufórica e meio descoordenada também. Chegava a passar dias desaparecida. Tinha uma raiva dentro de mim. Sempre me perguntei o porquê de ser comigo, de ser logo com minha mãe e meu pai. Vi os dois serem mortos na minha frente. Nunca vou esquecer. Lembro de tudo, como se fosse hoje. Tudo por causa de droga. Meu pai sempre bateu em mim e na minha mãe. Eu tinha muita raiva. Ainda tenho. Só de pensar nisso meu coração dispara e eu sou tomada por um manto de fogo. Minhas pernas até adormecem. Meu rosto fica quente. Saí do buraco quando conheci meu companheiro. Só aí vi que poderia ser cuidada por alguém. Mas foi duro. Demorei a acreditar. Mas meu companheiro me ajudou a enxergar minhas dificuldades e doença. Fiquei OK por anos. Mas parece uma coisa... nada pode dar certo pra mim. Há 10 dias fiquei sabendo que tenho um câncer no estômago. Quis me entregar. Mas meu companheiro e meus filhos disseram que farão de tudo por mim e que preciso ser forte. Mas tenho a impressão que a tristeza voltou com tudo de novo.” ( sic ). Levando em consideração o caso clínico 4A2-I, o processo saúde-doença, as contribuições da psicologia da saúde e da psicopatologia e o papel do psicólogo, julgue os itens que se seguem. No caso apresentado, considerada a concepção do processo saúde-doença, exclui-se a presença de agentes etiológicos como fator de aparecimento da diabetes e do câncer, com maior enfoque para os fatores psicológicos.",
+   "92": "Caso clínico 4A2-I Maria, de 65 anos de idade, é diabética e foi diagnosticada com depressão há 40 anos. Faz uso de medicação para ambas as doenças desde o diagnóstico inicial. Relata períodos muito difíceis de tristeza, baixa autoestima e ideação suicida. Diz: “Eu me sinto OK . Nunca fui feliz. Sempre estive OK . Nunca soube o que é felicidade. Minha vida sempre foi muito difícil. Precisei trabalhar desde cedo. Perdi meu pai e minha mãe quando muito pequena. Fui morar na rua. Experimentei tudo quanto foi coisa. Chegava a perder as forças. Tinha tontura; tremores; ficava lerda. Meu corpo não respondia direito. Mas era muito louco... Eu ficava eufórica e meio descoordenada também. Chegava a passar dias desaparecida. Tinha uma raiva dentro de mim. Sempre me perguntei o porquê de ser comigo, de ser logo com minha mãe e meu pai. Vi os dois serem mortos na minha frente. Nunca vou esquecer. Lembro de tudo, como se fosse hoje. Tudo por causa de droga. Meu pai sempre bateu em mim e na minha mãe. Eu tinha muita raiva. Ainda tenho. Só de pensar nisso meu coração dispara e eu sou tomada por um manto de fogo. Minhas pernas até adormecem. Meu rosto fica quente. Saí do buraco quando conheci meu companheiro. Só aí vi que poderia ser cuidada por alguém. Mas foi duro. Demorei a acreditar. Mas meu companheiro me ajudou a enxergar minhas dificuldades e doença. Fiquei OK por anos. Mas parece uma coisa... nada pode dar certo pra mim. Há 10 dias fiquei sabendo que tenho um câncer no estômago. Quis me entregar. Mas meu companheiro e meus filhos disseram que farão de tudo por mim e que preciso ser forte. Mas tenho a impressão que a tristeza voltou com tudo de novo.” ( sic ). Levando em consideração o caso clínico 4A2-I, o processo saúde-doença, as contribuições da psicologia da saúde e da psicopatologia e o papel do psicólogo, julgue os itens que se seguem. O diagnóstico de câncer pode gerar em Maria reações psicológicas que, se não trabalhadas, podem dificultar o seu ajustamento à situação de adoecimento, assim como contribuir para o agravamento do quadro e o desenvolvimento de transtornos emocionais e de personalidade.",
+   "93": "Ainda em relação ao caso clínico 4A2-I, julgue os itens subsequentes, com base nas contribuições da psicopatologia, no DSM-5 e na CID-10. Maria não apresenta sinais de delirium .",
+   "94": "Ainda em relação ao caso clínico 4A2-I, julgue os itens subsequentes, com base nas contribuições da psicopatologia, no DSM-5 e na CID-10. Maria não apresenta características de intoxicação por uso de alucinógenos.",
+   "95": "Ainda em relação ao caso clínico 4A2-I, julgue os itens subsequentes, com base nas contribuições da psicopatologia, no DSM-5 e na CID-10. A tontura relatada por Maria é um dos sintomas característicos de intoxicação por inalantes.",
+   "96": "Ainda em relação ao caso clínico 4A2-I, julgue os itens subsequentes, com base nas contribuições da psicopatologia, no DSM-5 e na CID-10. No caso apresentado, dada a presença de eventos traumáticos, o diagnóstico de transtorno de humor não deve ser cogitado.",
+   "97": "Ainda em relação ao caso clínico 4A2-I, julgue os itens subsequentes, com base nas contribuições da psicopatologia, no DSM-5 e na CID-10. Maria não apresenta características diagnósticas de transtorno de estresse pós-traumático."
+  },
+  "PREF_PIRESDORIO_CG2_01": {
+   "21": "a terceira com 35 alunos do 8.º ano; e a quarta com 40 alunos do 9.º ano. Considerando essa situação hipotética, julgue os próximos itens. Considere que, para as atividades de atletismo, o professor tenha dividido os 35 alunos do 7.º ano em grupos iguais de sete alunos. Nesse caso, ele criou seis grupos.",
+   "23": "a terceira com 35 alunos do 8.º ano; e a quarta com 40 alunos do 9.º ano. Considerando essa situação hipotética, julgue os próximos itens. Na referida escola, é possível dividir o total de alunos, no horário do lanche, em mesas com dez lugares.",
+   "24": "a terceira com 35 alunos do 8.º ano; e a quarta com 40 alunos do 9.º ano. Considerando essa situação hipotética, julgue os próximos itens. Suponha que o bibliotecário dessa escola pretenda organizar horários para grupos de estudo, de forma que todos os grupos tenham o mesmo número de alunos. Nesse caso, ele poderá agrupar os alunos de 12 em 12.",
+   "29": "Determinada escola tem 1.200 alunos matriculados, dos quais 50% estudam pela manhã, 40% estudam à tarde, e o restante, à noite. A respeito dessa situação hipotética, julgue os itens a seguir. 20% dos alunos matriculados nessa escola estudam no noturno.",
+   "30": "Determinada escola tem 1.200 alunos matriculados, dos quais 50% estudam pela manhã, 40% estudam à tarde, e o restante, à noite. A respeito dessa situação hipotética, julgue os itens a seguir. 1.080 alunos estudam no diurno e 120 alunos estudam no noturno."
+  },
+  "PREF_PIRESDORIO_005_01": {
+   "68": "No dia a dia, devem ser considerados cuidados essenciais relacionados à saúde das crianças, a fim de garantir a elas condições adequadas para o aprendizado. A respeito desse assunto, julgue os itens seguintes. O sono é um momento de descanso e, entre outros benefícios para a criança, favorece o crescimento e relaxa o corpo para as atividades do dia."
+  },
+  "PREF_PIRESDORIO_CG3_01": {
+   "7": ", para cada item: o campo designado com o código C , caso julgue Guardar a lata em local fresco e seco. Após a abertura da lata, o produto conserva-se bom para o consumo até o prazo máximo de 30 dias. Data de validade indicada no fundo da lata. Considerando que o texto precedente esteja no rótulo de uma lata de determinado composto para o preparo de leite, julgue os próximos itens. De acordo com as informações apresentadas, a referida lata deve ser guardada em geladeira.",
+   "24": "Uma escola tem 1.200 alunos matriculados. Desse total de alunos, 600 estudam pela manhã, 100 estudam à noite e o restante estuda no turno vespertino. Tendo como referência essas informações, julgue os itens seguintes. 40% dos alunos da escola estudam pela manhã."
+  }
+ }
+}

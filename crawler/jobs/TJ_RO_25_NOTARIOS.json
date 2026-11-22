@@ -1,0 +1,44 @@
+{
+ "evento": "TJ_RO_25_NOTARIOS",
+ "workdir": "/tmp/tj_ro_25_notarios",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Tribunal de Justiça de Rondônia",
+  "ano": 2025,
+  "id_orgao": "tjro"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Provimento",
+   "id_cargo": "provimento",
+   "provas": [
+    {
+     "key": "obj01",
+     "prova": "pro_40F91AB4B5FABABA0613CA15.pdf",
+     "gabarito": "gab_58AE2C128B6EC9EF03AF0F1D.pdf",
+     "tipo": "mc",
+     "arquivo": "40F91AB4B5FABABA0613CA15B904AD0E556A21ABA195AFFD71806E24AD43E7F5.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Remoção",
+   "id_cargo": "remocao",
+   "provas": [
+    {
+     "key": "obj02",
+     "prova": "pro_E9A71478F8A0BBE24154E137.pdf",
+     "gabarito": "gab_AE186C6F75E8B20043999FCD.pdf",
+     "tipo": "mc",
+     "arquivo": "E9A71478F8A0BBE24154E1372963D8EDC8825D4DE5FCA2AEDF4C37B806B796B1.pdf"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

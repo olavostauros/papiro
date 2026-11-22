@@ -1,0 +1,284 @@
+{
+ "evento": "UDESC_26",
+ "workdir": "/tmp/udesc_26",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Universidade do Estado de Santa Catarina",
+  "ano": 2026,
+  "id_orgao": "udesc"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Técnico Universitário – Administrador",
+   "id_cargo": "administrador",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_3A84B696E76D73A14365776C.pdf",
+     "gabarito": "gab_BB512811607A517321374D5F.pdf",
+     "tipo": "ce",
+     "arquivo": "3A84B696E76D73A14365776C7E9B72E89508D819140EE3E8A16C2497E9886545.pdf"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_DA8B6C1CBE626EC2BDD4DF24.pdf",
+     "gabarito": "gab_B72AB712F4C6039BDD06EA56.pdf",
+     "tipo": "ce",
+     "arquivo": "DA8B6C1CBE626EC2BDD4DF2417170CB038462711E62A3F21FD9F40393C12F2D1.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Técnico Universitário – Analista De Suporte",
+   "id_cargo": "analista-de-suporte",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_3A84B696E76D73A14365776C.pdf",
+     "gabarito": "gab_BB512811607A517321374D5F.pdf",
+     "tipo": "ce",
+     "arquivo": "3A84B696E76D73A14365776C7E9B72E89508D819140EE3E8A16C2497E9886545.pdf"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_EE5A27CB59345A1AFECFB007.pdf",
+     "gabarito": "gab_F5428BFC4A43E52D82748BD4.pdf",
+     "tipo": "ce",
+     "arquivo": "EE5A27CB59345A1AFECFB007046A60CE2BE8876E647CE38E74409785B7E4B4A2.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Técnico Universitário – Engenheiro Civil",
+   "id_cargo": "engenheiro-civil",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_3A84B696E76D73A14365776C.pdf",
+     "gabarito": "gab_BB512811607A517321374D5F.pdf",
+     "tipo": "ce",
+     "arquivo": "3A84B696E76D73A14365776C7E9B72E89508D819140EE3E8A16C2497E9886545.pdf"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_FB93AB0465BFEC5A39EC0FDC.pdf",
+     "gabarito": "gab_30300C6D07EDDD65F81EF5CD.pdf",
+     "tipo": "ce",
+     "arquivo": "FB93AB0465BFEC5A39EC0FDC62CF392B8C034CEA8F0ECF4B5B19458BCCB7CFA5.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Técnico Universitário – Engenheiro Eletricista",
+   "id_cargo": "engenheiro-eletricista",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_3A84B696E76D73A14365776C.pdf",
+     "gabarito": "gab_BB512811607A517321374D5F.pdf",
+     "tipo": "ce",
+     "arquivo": "3A84B696E76D73A14365776C7E9B72E89508D819140EE3E8A16C2497E9886545.pdf"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_43950895237C28C86CC40821.pdf",
+     "gabarito": "gab_485F6A3781F61BB36F328A71.pdf",
+     "tipo": "ce",
+     "arquivo": "43950895237C28C86CC40821AEB5BFD12CA5AD561983D54303D8A8D2F235274A.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Técnico Universitário – Engenheiro Mecânico",
+   "id_cargo": "engenheiro-mecanico",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_3A84B696E76D73A14365776C.pdf",
+     "gabarito": "gab_BB512811607A517321374D5F.pdf",
+     "tipo": "ce",
+     "arquivo": "3A84B696E76D73A14365776C7E9B72E89508D819140EE3E8A16C2497E9886545.pdf"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_8F28299497CE95E94BE2737B.pdf",
+     "gabarito": "gab_5F3F03237B5EC7BCD3041CA3.pdf",
+     "tipo": "ce",
+     "arquivo": "8F28299497CE95E94BE2737B790002E1A39CEA072D020FFC0084EF68891F105A.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Técnico Universitário – Jornalista",
+   "id_cargo": "jornalista",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_3A84B696E76D73A14365776C.pdf",
+     "gabarito": "gab_BB512811607A517321374D5F.pdf",
+     "tipo": "ce",
+     "arquivo": "3A84B696E76D73A14365776C7E9B72E89508D819140EE3E8A16C2497E9886545.pdf"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_64AA8DB7F9EF8EF629AB3C35.pdf",
+     "gabarito": "gab_3B603944093D5383F7DF4725.pdf",
+     "tipo": "ce",
+     "arquivo": "64AA8DB7F9EF8EF629AB3C352C171326B8E6FDDBF3E86A1E7C168F9567ECBC9D.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Técnico Universitário – Médico Veterinário",
+   "id_cargo": "medico-veterinario",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_3A84B696E76D73A14365776C.pdf",
+     "gabarito": "gab_BB512811607A517321374D5F.pdf",
+     "tipo": "ce",
+     "arquivo": "3A84B696E76D73A14365776C7E9B72E89508D819140EE3E8A16C2497E9886545.pdf"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_EB5028BA0E72F288D41E44C1.pdf",
+     "gabarito": "gab_2D7DB2918842FEB740E371C8.pdf",
+     "tipo": "ce",
+     "arquivo": "EB5028BA0E72F288D41E44C1051589D5FDDB6401D7ABF5532FAED300BA5FFB38.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Técnico Universitário – Pedagogo",
+   "id_cargo": "pedagogo",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_3A84B696E76D73A14365776C.pdf",
+     "gabarito": "gab_BB512811607A517321374D5F.pdf",
+     "tipo": "ce",
+     "arquivo": "3A84B696E76D73A14365776C7E9B72E89508D819140EE3E8A16C2497E9886545.pdf"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_4E0AB73A097A4F4DC4379B1F.pdf",
+     "gabarito": "gab_F2E33D17D8F8FEFA2B0E9ED5.pdf",
+     "tipo": "ce",
+     "arquivo": "4E0AB73A097A4F4DC4379B1F8F5731F5F43712003CB73DAA4B845EA9BC8978E5.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Técnico Universitário – Químico",
+   "id_cargo": "quimico",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_3A84B696E76D73A14365776C.pdf",
+     "gabarito": "gab_BB512811607A517321374D5F.pdf",
+     "tipo": "ce",
+     "arquivo": "3A84B696E76D73A14365776C7E9B72E89508D819140EE3E8A16C2497E9886545.pdf"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_CAF0385B0F7924C238629DF3.pdf",
+     "gabarito": "gab_BC75C916BDF6AEB6D23923AB.pdf",
+     "tipo": "ce",
+     "arquivo": "CAF0385B0F7924C238629DF352CC4DF0FF19CA67C6BF17D6910C7C2325D274D4.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Técnico Universitário – Técnico Em Educação",
+   "id_cargo": "tecnico-em-educacao",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_3A84B696E76D73A14365776C.pdf",
+     "gabarito": "gab_BB512811607A517321374D5F.pdf",
+     "tipo": "ce",
+     "arquivo": "3A84B696E76D73A14365776C7E9B72E89508D819140EE3E8A16C2497E9886545.pdf"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_7C90F80ADE6C77EB4CB377F3.pdf",
+     "gabarito": "gab_036F1F2C32DFEBB9961DA62A.pdf",
+     "tipo": "ce",
+     "arquivo": "7C90F80ADE6C77EB4CB377F3E12241A1071B44442EA1BD992520851FEB2CDD5D.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Técnico Universitário – Assistente Administrativo",
+   "id_cargo": "assistente-administrativo",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_F346693BD3902F26837F07E2.pdf",
+     "gabarito": "gab_A4F572E53DD63FFF42CE61F9.pdf",
+     "tipo": "ce",
+     "arquivo": "F346693BD3902F26837F07E2D6A1B03C9F8F8E8A59654F790EB3732971070475.pdf"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_87255824C6D1ABB4ABB173BB.pdf",
+     "gabarito": "gab_B612FB6303CE638D73919914.pdf",
+     "tipo": "ce",
+     "arquivo": "87255824C6D1ABB4ABB173BBEDE7983D356A81F6764FC9342429C32553EB9811.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Técnico Universitário – Técnico De Segurança Do Trabalho",
+   "id_cargo": "tecnico-de-seguranca-do-trabalho",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_F346693BD3902F26837F07E2.pdf",
+     "gabarito": "gab_A4F572E53DD63FFF42CE61F9.pdf",
+     "tipo": "ce",
+     "arquivo": "F346693BD3902F26837F07E2D6A1B03C9F8F8E8A59654F790EB3732971070475.pdf"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_F99A802C55509D80DAFDD446.pdf",
+     "gabarito": "gab_1AFBEE38F9AE1BFE82E919B5.pdf",
+     "tipo": "ce",
+     "arquivo": "F99A802C55509D80DAFDD4465DF33B63FFB7F96CAB0469945A1BAAB9DFC0E89F.pdf"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp04": {
+   "51": "Caso o circuito em tela seja modelado como um circuito equivalente de Norton a partir dos nós D e B e seja retirado o resistor RL, então o circuito terá uma fonte de corrente IN = 6,25 mA e uma resistência equivalente de Norton RN = 2 kΩ.",
+   "52": "Se o resistor RL for retirado do circuito, então o equivalente de Thévenin, a partir dos nós D e B, conterá uma fonte de tensão, VTH = 12,5 V, e uma resistência, RTH = 2 kΩ.",
+   "56": "H(s) = vs(s)/ve(s) = −((R1A + R2)·R3)/(R1A·R1B)·1/(1 + s·R3·C)."
+  },
+  "esp05": {
+   "66": "O intervalo de velocidades de corte que proporciona máxima eficiência no torneamento está entre a velocidade de máxima produção, vc,máx, e a velocidade de mínimo custo, vc,min, calculadas com base na relação vc·T^n = C, em que T representa a vida da ferramenta e n e C são constantes que dependem do tipo de material e da ferramenta."
+  },
+  "esp09": {
+   "61": "Considerando-se que os sistemas A e B sejam independentes, com interações entre si desprezíveis e restrições bem definidas, é correto concluir que a entropia SBG do sistema composto é aditiva.",
+   "74": "A constante de dissociação de um ácido fraco, como o ácido acético, é uma grandeza que depende da temperatura e descreve o equilíbrio entre a forma protonada, os íons hidrônio (H3O+) e a forma desprotonada do ácido (íon acetato, no caso do ácido acético) em solução aquosa.",
+   "99": "No complexo octaédrico [Fe(CN)6]4−, o cianeto atua como ligante de campo forte, favorecendo o pareamento eletrônico e resultando em configuração de baixo spin para o íon Fe2+.",
+   "103": "O ânion amina (─NR2−) é uma base mais fraca que o ânion hidróxido (OH−), razão pela qual o nitrogênio atua como um excelente grupo de saída em reações orgânicas.",
+   "115": "Na primeira reação em tela, a neutralização do HCl gerado na síntese de C14H13NO ocorre pela formação da espécie Et3NH+Cl−."
+  }
+ },
+ "fonte": "https://cdn.cebraspe.org.br/concursos/UDESC_26/arquivos/"
+}

@@ -1,0 +1,149 @@
+{
+ "evento": "SEPLAG_CE_24",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "SEPLAG-CE",
+  "ano": 2024,
+  "id_orgao": "seplag-ce"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista de Gestão Pública – Gestão e Desenvolvimento de Pessoas",
+   "id_cargo": "analista-gestao-e-desenvolvimento-de-pessoas",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_SEPLAG_CE_CB1_01.pdf",
+     "gabarito": "gab_SEPLAG_CE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "982_SEPLAG_CE_CB1_01.PDF"
+    },
+    {
+     "key": "cg",
+     "prova": "pro_SEPLAG_CE_CG1_01.pdf",
+     "gabarito": "gab_SEPLAG_CE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "982_SEPLAG_CE_CG1_01.PDF"
+    },
+    {
+     "key": "esp1",
+     "prova": "pro_SEPLAG_CE_001_01.pdf",
+     "gabarito": "gab_SEPLAG_CE_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "982_SEPLAG_CE_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Gestão Pública – Governança e Gestão Corporativa",
+   "id_cargo": "analista-governanca-e-gestao-corporativa",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_SEPLAG_CE_CB1_01.pdf",
+     "gabarito": "gab_SEPLAG_CE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "982_SEPLAG_CE_CB1_01.PDF"
+    },
+    {
+     "key": "cg",
+     "prova": "pro_SEPLAG_CE_CG1_01.pdf",
+     "gabarito": "gab_SEPLAG_CE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "982_SEPLAG_CE_CG1_01.PDF"
+    },
+    {
+     "key": "esp2",
+     "prova": "pro_SEPLAG_CE_002_01.pdf",
+     "gabarito": "gab_SEPLAG_CE_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "982_SEPLAG_CE_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Gestão Pública – Tecnologia da Informação e Comunicação",
+   "id_cargo": "analista-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_SEPLAG_CE_CB1_01.pdf",
+     "gabarito": "gab_SEPLAG_CE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "982_SEPLAG_CE_CB1_01.PDF"
+    },
+    {
+     "key": "cg",
+     "prova": "pro_SEPLAG_CE_CG1_01.pdf",
+     "gabarito": "gab_SEPLAG_CE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "982_SEPLAG_CE_CG1_01.PDF"
+    },
+    {
+     "key": "esp3",
+     "prova": "pro_SEPLAG_CE_003_01.pdf",
+     "gabarito": "gab_SEPLAG_CE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "982_SEPLAG_CE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Gestão Pública – Contabilidade Pública",
+   "id_cargo": "analista-contabilidade-publica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_SEPLAG_CE_CB1_01.pdf",
+     "gabarito": "gab_SEPLAG_CE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "982_SEPLAG_CE_CB1_01.PDF"
+    },
+    {
+     "key": "cg",
+     "prova": "pro_SEPLAG_CE_CG1_01.pdf",
+     "gabarito": "gab_SEPLAG_CE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "982_SEPLAG_CE_CG1_01.PDF"
+    },
+    {
+     "key": "esp4",
+     "prova": "pro_SEPLAG_CE_004_01.pdf",
+     "gabarito": "gab_SEPLAG_CE_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "982_SEPLAG_CE_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Planejamento e Orçamento – Planejamento e Orçamento Orientados para Resultados",
+   "id_cargo": "analista-planejamento-e-orcamento",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_SEPLAG_CE_CB1_01.pdf",
+     "gabarito": "gab_SEPLAG_CE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "982_SEPLAG_CE_CB1_01.PDF"
+    },
+    {
+     "key": "cg",
+     "prova": "pro_SEPLAG_CE_CG1_01.pdf",
+     "gabarito": "gab_SEPLAG_CE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "982_SEPLAG_CE_CG1_01.PDF"
+    },
+    {
+     "key": "esp5",
+     "prova": "pro_SEPLAG_CE_005_01.pdf",
+     "gabarito": "gab_SEPLAG_CE_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "982_SEPLAG_CE_005_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {}
+}

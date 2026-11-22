@@ -1,0 +1,191 @@
+{
+ "evento": "TCE_SC_21_AUDITOR",
+ "workdir": "/tmp/tce_sc_21_auditor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Tribunal de Contas do Estado de Santa Catarina",
+  "ano": 2021,
+  "id_orgao": "tce-sc"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Auditor Fiscal de Controle Externo – Administração",
+   "id_cargo": "auditor-administracao",
+   "provas": [
+    {
+     "key": "TCESC_CB2",
+     "prova": "pro_TCESC_CB2_01.pdf",
+     "gabarito": "gab_TCESC_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "660_TCESC_CB2_01.PDF"
+    },
+    {
+     "key": "TCESC_001",
+     "prova": "pro_TCESC_001_01.pdf",
+     "gabarito": "gab_TCESC_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "660_TCESC_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Auditor Fiscal de Controle Externo – Ciências Contábeis",
+   "id_cargo": "auditor-ciencias-contabeis",
+   "provas": [
+    {
+     "key": "TCESC_CB2",
+     "prova": "pro_TCESC_CB2_01.pdf",
+     "gabarito": "gab_TCESC_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "660_TCESC_CB2_01.PDF"
+    },
+    {
+     "key": "TCESC_002",
+     "prova": "pro_TCESC_002_01.pdf",
+     "gabarito": "gab_TCESC_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "660_TCESC_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Auditor Fiscal de Controle Externo – Ciências da Computação",
+   "id_cargo": "auditor-ciencias-da-computacao",
+   "provas": [
+    {
+     "key": "TCESC_CB2",
+     "prova": "pro_TCESC_CB2_01.pdf",
+     "gabarito": "gab_TCESC_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "660_TCESC_CB2_01.PDF"
+    },
+    {
+     "key": "TCESC_003",
+     "prova": "pro_TCESC_003_01.pdf",
+     "gabarito": "gab_TCESC_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "660_TCESC_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Auditor Fiscal de Controle Externo – Ciências Econômicas",
+   "id_cargo": "auditor-ciencias-economicas",
+   "provas": [
+    {
+     "key": "TCESC_CB2",
+     "prova": "pro_TCESC_CB2_01.pdf",
+     "gabarito": "gab_TCESC_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "660_TCESC_CB2_01.PDF"
+    },
+    {
+     "key": "TCESC_004",
+     "prova": "pro_TCESC_004_01.pdf",
+     "gabarito": "gab_TCESC_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "660_TCESC_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Auditor Fiscal de Controle Externo – Direito",
+   "id_cargo": "auditor-direito",
+   "provas": [
+    {
+     "key": "TCESC_CB1",
+     "prova": "pro_TCESC_CB1_01.pdf",
+     "gabarito": "gab_TCESC_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "660_TCESC_CB1_01.PDF"
+    },
+    {
+     "key": "TCESC_005",
+     "prova": "pro_TCESC_005_01.pdf",
+     "gabarito": "gab_TCESC_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "660_TCESC_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Auditor Fiscal de Controle Externo – Engenharia Civil",
+   "id_cargo": "auditor-engenharia-civil",
+   "provas": [
+    {
+     "key": "TCESC_CB2",
+     "prova": "pro_TCESC_CB2_01.pdf",
+     "gabarito": "gab_TCESC_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "660_TCESC_CB2_01.PDF"
+    },
+    {
+     "key": "TCESC_006",
+     "prova": "pro_TCESC_006_01.pdf",
+     "gabarito": "gab_TCESC_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "660_TCESC_006_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {
+  "TCESC_003": [
+   71,
+   72
+  ]
+ },
+ "patch": {
+  "TCESC_003": {
+   "42": "Considerando as tabela1 e tabela2 apresentadas — tabela1: campo ∈ {0, 2, 3, 3, 4, 4, 6, 7}; tabela2: campo ∈ {5, 5, 7, 8, 8, 9} —, julgue o item a seguir, referente a banco de dados. Considere que o comando a seguir seja executado sem erro. select campo from tabela2 where exists (select campo from tabela1). Nesse caso, o resultado será a tabela seguinte: campo ∈ {5, 5, 8, 8, 9}.",
+   "43": "Considerando as tabela1 e tabela2 apresentadas — tabela1: campo ∈ {0, 2, 3, 3, 4, 4, 6, 7}; tabela2: campo ∈ {5, 5, 7, 8, 8, 9} —, julgue o item a seguir, referente a banco de dados. Considere que o comando a seguir seja executado sem erro. select campo from tabela2 except select campo from tabela1. Nesse caso, o resultado obtido será a tabela seguinte: campo ∈ {5, 5, 8, 8, 9}.",
+   "73": "Se as tabelas a seguir descrevem a quantidade e a complexidade das funções de dados e de transação de duas aplicações #A e #B — aplicação #A: arquivo lógico interno (ALI), complexidade baixa, quantidade 3; arquivo de interface externa (AIE), complexidade média, quantidade 1; saída externa (SE), complexidade alta, quantidade 2; aplicação #B: arquivo lógico interno (ALI), complexidade alta, quantidade 1; entrada externa (EE), complexidade média, quantidade 4; consulta externa (CE), complexidade alta, quantidade 2 —, então a quantidade de pontos de função brutos da aplicação #A é maior que a da aplicação #B."
+  },
+  "TCESC_004": {
+   "51": "Para dois bens X e Y, um consumidor consome quantidades x e y, respectivamente. Ao consumir x unidades de X e y unidades de Y, o consumidor desfruta utilidade dada por u(x, y) = ln x + y. Ele direciona uma dotação w (renda) para esses bens, que têm preços perfeitamente competitivos dados por pX e pY, respectivamente. Considerando essa situação hipotética, julgue o item a seguir. O consumidor tem utilidade marginal decrescente para o bem Y.",
+   "52": "Para dois bens X e Y, um consumidor consome quantidades x e y, respectivamente. Ao consumir x unidades de X e y unidades de Y, o consumidor desfruta utilidade dada por u(x, y) = ln x + y. Ele direciona uma dotação w (renda) para esses bens, que têm preços perfeitamente competitivos dados por pX e pY, respectivamente. Considerando essa situação hipotética, julgue o item a seguir. No equilíbrio, fixados os preços dos dois bens, a curva de Engel de Y é uma linha reta.",
+   "53": "Para dois bens X e Y, um consumidor consome quantidades x e y, respectivamente. Ao consumir x unidades de X e y unidades de Y, o consumidor desfruta utilidade dada por u(x, y) = ln x + y. Ele direciona uma dotação w (renda) para esses bens, que têm preços perfeitamente competitivos dados por pX e pY, respectivamente. Considerando essa situação hipotética, julgue o item a seguir. No equilíbrio, a quantidade consumida do bem X não depende da renda w .",
+   "54": "Suponha que a quantidade produzida q por uma firma seja dada por q = 1200·K^(2/3)·L^(1/3), sendo K a quantidade de capital investido e L a quantidade de mão de obra, ambas medidas em unidades convenientes. Sabendo que cada unidade de capital investido custa $6 e cada unidade de mão de obra custa $24, julgue o item a seguir. No curto prazo, fixando-se o capital em K 0 = 50, obtém-se uma função de custo com custo fixo igual a $ 300.",
+   "55": "Suponha que a quantidade produzida q por uma firma seja dada por q = 1200·K^(2/3)·L^(1/3), sendo K a quantidade de capital investido e L a quantidade de mão de obra, ambas medidas em unidades convenientes. Sabendo que cada unidade de capital investido custa $6 e cada unidade de mão de obra custa $24, julgue o item a seguir. Fixada a quantidade produzida em 24.000 unidades, a isoquanta é a curva que mostra o menor custo possível para atingir esse nível de produção.",
+   "56": "Suponha que a quantidade produzida q por uma firma seja dada por q = 1200·K^(2/3)·L^(1/3), sendo K a quantidade de capital investido e L a quantidade de mão de obra, ambas medidas em unidades convenientes. Sabendo que cada unidade de capital investido custa $6 e cada unidade de mão de obra custa $24, julgue o item a seguir. A produtividade marginal do capital é o dobro da produtividade marginal da mão de obra no longo prazo.",
+   "57": "Suponha que a quantidade produzida q por uma firma seja dada por q = 1200·K^(2/3)·L^(1/3), sendo K a quantidade de capital investido e L a quantidade de mão de obra, ambas medidas em unidades convenientes. Sabendo que cada unidade de capital investido custa $6 e cada unidade de mão de obra custa $24, julgue o item a seguir. No longo prazo, a minimização do custo para produzir q = 24.000 unidades envolve a contratação de 5 unidades de mão de obra.",
+   "58": "Alguns bens e serviços, por sua natureza, não podem ter sua oferta e procura determinadas pelas teorias clássicas da firma e do consumidor. Isso pode ocorrer por várias razões, como o fato de ser impossível impedir que um indivíduo desfrute do benefício trazido pelo bem ou serviço, mesmo que não tenha pagado por ele. Um exemplo típico é um farol, que ilumina as águas e o litoral ao redor de sua área. Mesmo que um fornecedor privado do serviço do farol cobrasse as embarcações que chegam ao porto pelo uso do serviço, outras embarcações que não aportam também se beneficiariam da iluminação do farol, porém sem pagar pelo preço do serviço. Considerando as informações e a situação hipotética do caso do farol, julgue o item a seguir. A falha de mercado descrita no caso do farol é a externalidade negativa.",
+   "59": "Alguns bens e serviços, por sua natureza, não podem ter sua oferta e procura determinadas pelas teorias clássicas da firma e do consumidor. Isso pode ocorrer por várias razões, como o fato de ser impossível impedir que um indivíduo desfrute do benefício trazido pelo bem ou serviço, mesmo que não tenha pagado por ele. Um exemplo típico é um farol, que ilumina as águas e o litoral ao redor de sua área. Mesmo que um fornecedor privado do serviço do farol cobrasse as embarcações que chegam ao porto pelo uso do serviço, outras embarcações que não aportam também se beneficiariam da iluminação do farol, porém sem pagar pelo preço do serviço. Considerando as informações e a situação hipotética do caso do farol, julgue o item a seguir. A impossibilidade de cobrar cada beneficiário pelo serviço do farol o caracteriza como um bem não exclusivo.",
+   "60": "Alguns bens e serviços, por sua natureza, não podem ter sua oferta e procura determinadas pelas teorias clássicas da firma e do consumidor. Isso pode ocorrer por várias razões, como o fato de ser impossível impedir que um indivíduo desfrute do benefício trazido pelo bem ou serviço, mesmo que não tenha pagado por ele. Um exemplo típico é um farol, que ilumina as águas e o litoral ao redor de sua área. Mesmo que um fornecedor privado do serviço do farol cobrasse as embarcações que chegam ao porto pelo uso do serviço, outras embarcações que não aportam também se beneficiariam da iluminação do farol, porém sem pagar pelo preço do serviço. Considerando as informações e a situação hipotética do caso do farol, julgue o item a seguir. Por ser fornecido pelo Estado, como o serviço de água e esgoto, o serviço de farol é um bem público.",
+   "65": "Considerando uma situação hipotética de inflação nula, julgue o item a seguir, relativo a necessidades de financiamento do setor público. O método de resultado fiscal segundo o critério abaixo da linha, nesse caso, apresentará resultado idêntico ao método que segue o critério acima da linha.",
+   "66": "Considerando uma situação hipotética de inflação nula, julgue o item a seguir, relativo a necessidades de financiamento do setor público. O valor do resultado primário corresponderá à diferença entre o valor do resultado nominal e o de juros reais.",
+   "67": "Considerando uma situação hipotética de inflação nula, julgue o item a seguir, relativo a necessidades de financiamento do setor público. O valor do resultado operacional corresponderá ao mesmo valor do resultado nominal.",
+   "68": "Considerando uma situação hipotética de inflação nula, julgue o item a seguir, relativo a necessidades de financiamento do setor público. Nessa situação, o resultado operacional negativo significa que o governo está gastando acima de sua arrecadação de impostos, taxas e contribuições, ou seja, contribuindo para a elevação do endividamento do setor público.",
+   "73": "Nereu tem uma dívida de R$ 3.600,00 documentada em título que vence em 1/4/2022. As condições de pagamento do título determinam que, caso haja atraso de qualquer quantidade de dias, sejam cobrados juros de 4,5% ao mês com capitalização diária. Considerando essa situação hipotética e tendo como referências o mês comercial de 30 dias e o ano comercial de 360 dias, julgue o item a seguir. A taxa de juros diária efetiva a ser cobrada é de 0,15% ao dia.",
+   "74": "Nereu tem uma dívida de R$ 3.600,00 documentada em título que vence em 1/4/2022. As condições de pagamento do título determinam que, caso haja atraso de qualquer quantidade de dias, sejam cobrados juros de 4,5% ao mês com capitalização diária. Considerando essa situação hipotética e tendo como referências o mês comercial de 30 dias e o ano comercial de 360 dias, julgue o item a seguir. A taxa de juros anual equivalente à taxa do título é maior que 54% ao ano.",
+   "75": "Nereu tem uma dívida de R$ 3.600,00 documentada em título que vence em 1/4/2022. As condições de pagamento do título determinam que, caso haja atraso de qualquer quantidade de dias, sejam cobrados juros de 4,5% ao mês com capitalização diária. Considerando essa situação hipotética e tendo como referências o mês comercial de 30 dias e o ano comercial de 360 dias, julgue o item a seguir. O montante em reais a ser cobrado de Nereu, caso ele atrase o pagamento por 3 meses, é dado por 3600 ∙ (1,0015) 90 .",
+   "76": "Nabuco tem um valor V a receber na data de hoje e seu devedor quer negociar a substituição do pagamento do valor V por uma série de cinco pagamentos mensais, o primeiro a vencer um mês a partir de hoje, a uma taxa de juros de 5% ao mês. Acerca dessa situação hipotética e considerando a(n|i) = [1 – (1 + i)^(–n)]/i como o fator de valor atual de uma série de n pagamentos postecipados uniformes à taxa de juros i e, ainda, as aproximações 1,05^(–2) = 0,91 e 1,05^(–5) = 0,78, julgue o item a seguir. Se o devedor de Nabuco parcelar a dívida em cinco pagamentos iguais, cada pagamento terá o valor de V / a 5 | 5% reais.",
+   "77": "Nabuco tem um valor V a receber na data de hoje e seu devedor quer negociar a substituição do pagamento do valor V por uma série de cinco pagamentos mensais, o primeiro a vencer um mês a partir de hoje, a uma taxa de juros de 5% ao mês. Acerca dessa situação hipotética e considerando a(n|i) = [1 – (1 + i)^(–n)]/i como o fator de valor atual de uma série de n pagamentos postecipados uniformes à taxa de juros i e, ainda, as aproximações 1,05^(–2) = 0,91 e 1,05^(–5) = 0,78, julgue o item a seguir. Na data do terceiro pagamento, logo após a realização deste, o saldo devedor calculado pelo sistema de amortização constante será maior que o saldo devedor calculado pelo sistema francês (tabela Price).",
+   "78": "Nabuco tem um valor V a receber na data de hoje e seu devedor quer negociar a substituição do pagamento do valor V por uma série de cinco pagamentos mensais, o primeiro a vencer um mês a partir de hoje, a uma taxa de juros de 5% ao mês. Acerca dessa situação hipotética e considerando a(n|i) = [1 – (1 + i)^(–n)]/i como o fator de valor atual de uma série de n pagamentos postecipados uniformes à taxa de juros i e, ainda, as aproximações 1,05^(–2) = 0,91 e 1,05^(–5) = 0,78, julgue o item a seguir. Se o devedor de Nabuco pagar a dívida pelo sistema de amortização constante, cada pagamento terá o valor de 0,25 V .",
+   "79": "Um empresário avalia a possibilidade de investir R$ 1.200.000,00 na abertura de uma filial de sua loja. Com base nas condições de mercado da cidade em que a nova filial será aberta, o setor comercial prevê um fluxo líquido anual de R$ 320.000,00 em cada um dos próximos 5 anos, que é o prazo usual com base no qual se realiza esse tipo de análises no setor em questão. A respeito dessa situação hipotética e considerando a(n|i) = [1 – (1 + i)^(–n)]/i como o fator de valor atual de uma série de n pagamentos postecipados uniformes à taxa de juros i, julgue o item a seguir. Sendo i * a taxa interna de retorno desse investimento, com o fluxo líquido previsto, caso o empresário receba a informação de que a taxa de inflação anual esperada para cada um dos próximos cinco anos é de 6%, a taxa interna de retorno real passa a ser dada por (1 + i* ) ∙ 1,06 – 1.",
+   "80": "Um empresário avalia a possibilidade de investir R$ 1.200.000,00 na abertura de uma filial de sua loja. Com base nas condições de mercado da cidade em que a nova filial será aberta, o setor comercial prevê um fluxo líquido anual de R$ 320.000,00 em cada um dos próximos 5 anos, que é o prazo usual com base no qual se realiza esse tipo de análises no setor em questão. A respeito dessa situação hipotética e considerando a(n|i) = [1 – (1 + i)^(–n)]/i como o fator de valor atual de uma série de n pagamentos postecipados uniformes à taxa de juros i, julgue o item a seguir. Se a taxa mínima de retorno que o empresário exige do seu investimento em uma filial é 16% ao ano, o fluxo líquido anual para que o investimento seja realizado deve ser 1.200.000 a 5 | 16% reais.",
+   "81": "Um empresário avalia a possibilidade de investir R$ 1.200.000,00 na abertura de uma filial de sua loja. Com base nas condições de mercado da cidade em que a nova filial será aberta, o setor comercial prevê um fluxo líquido anual de R$ 320.000,00 em cada um dos próximos 5 anos, que é o prazo usual com base no qual se realiza esse tipo de análises no setor em questão. A respeito dessa situação hipotética e considerando a(n|i) = [1 – (1 + i)^(–n)]/i como o fator de valor atual de uma série de n pagamentos postecipados uniformes à taxa de juros i, julgue o item a seguir. Qualquer que seja a taxa de retorno que o empresário exija, o valor presente líquido do investimento, considerados os fluxos anuais previstos, já se tornará positivo no quarto ano.",
+   "82": "Um empresário avalia a possibilidade de investir R$ 1.200.000,00 na abertura de uma filial de sua loja. Com base nas condições de mercado da cidade em que a nova filial será aberta, o setor comercial prevê um fluxo líquido anual de R$ 320.000,00 em cada um dos próximos 5 anos, que é o prazo usual com base no qual se realiza esse tipo de análises no setor em questão. A respeito dessa situação hipotética e considerando a(n|i) = [1 – (1 + i)^(–n)]/i como o fator de valor atual de uma série de n pagamentos postecipados uniformes à taxa de juros i, julgue o item a seguir. O valor presente líquido do investimento, incluídas as previsões do fluxo líquido anual e dada uma taxa de retorno de 16% ao ano, é igual a 200.000 ∙ [10(1 – 1,16 –5 ) – 6] reais.",
+   "83": "Suponha que uma amostra de tamanho n = 1 seja retirada de uma população X ~ Binomial(m, p), em que m e p são parâmetros desconhecidos. Sabendo que m ∈ {1,2} e que p ∈ {1/5, 1/4}, se a amostra aleatória simples for representada por X₁, considere a seguinte estatística para a estimação do par (m, p): τ(X₁) = (m = 1 e p = 1/5), se X₁ = 0; τ(X₁) = (m = 2 e p = 1/4), se X₁ = 1 ou 2. Com base nessas informações, julgue o item a seguir. τ(X₁) é estimador de máxima verossimilhança para o par de parâmetros (m, p).",
+   "84": "Suponha que uma amostra de tamanho n = 1 seja retirada de uma população X ~ Binomial(m, p), em que m e p são parâmetros desconhecidos. Sabendo que m ∈ {1,2} e que p ∈ {1/5, 1/4}, se a amostra aleatória simples for representada por X₁, considere a seguinte estatística para a estimação do par (m, p): τ(X₁) = (m = 1 e p = 1/5), se X₁ = 0; τ(X₁) = (m = 2 e p = 1/4), se X₁ = 1 ou 2. Com base nessas informações, julgue o item a seguir. Se μ denota a média populacional desconhecida, então seu espaço paramétrico é representado pelo conjunto {1/5, 1/2}.",
+   "85": "Suponha que uma amostra de tamanho n = 1 seja retirada de uma população X ~ Binomial(m, p), em que m e p são parâmetros desconhecidos. Sabendo que m ∈ {1,2} e que p ∈ {1/5, 1/4}, se a amostra aleatória simples for representada por X₁, considere a seguinte estatística para a estimação do par (m, p): τ(X₁) = (m = 1 e p = 1/5), se X₁ = 0; τ(X₁) = (m = 2 e p = 1/4), se X₁ = 1 ou 2. Com base nessas informações, julgue o item a seguir. τ(X₁) é uma estatística suficiente para a estimação do par de parâmetros (m, p).",
+   "86": "Considerando uma sequência de variáveis aleatórias discretas {Xₖ}, em que P(Xₖ = −0,2ᵏ) = P(Xₖ = 0,2ᵏ) = 0,5, para k ∈ {1, 2, …}, julgue os itens a seguir, com relação à soma Sₙ = Σₖ₌₁ⁿ Xₖ. Xₖ segue distribuição uniforme discreta.",
+   "87": "Considerando uma sequência de variáveis aleatórias discretas {Xₖ}, em que P(Xₖ = −0,2ᵏ) = P(Xₖ = 0,2ᵏ) = 0,5, para k ∈ {1, 2, …}, julgue os itens a seguir, com relação à soma Sₙ = Σₖ₌₁ⁿ Xₖ. O valor esperado de Sₙ é igual a zero.",
+   "88": "Considerando uma sequência de variáveis aleatórias discretas {Xₖ}, em que P(Xₖ = −0,2ᵏ) = P(Xₖ = 0,2ᵏ) = 0,5, para k ∈ {1, 2, …}, julgue os itens a seguir, com relação à soma Sₙ = Σₖ₌₁ⁿ Xₖ. Com base no teorema central do limite, se E[Sₙ] e Var[Sₙ] representam, respectivamente, a média e a variância de Sₙ, então (Sₙ − E[Sₙ])/√(Var[Sₙ]) → N(0,1) à medida que n → +∞.",
+   "89": "Uma amostra aleatória simples de tamanho n = 10, representada como X₁, …, X₁₀, é retirada sem reposição de uma população de tamanho N = 1000 com o objetivo de se estimar o total populacional τ, a média populacional μ e a variância populacional σ², que são definidas como τ = Σᵢ₌₁¹⁰⁰⁰ xᵢ, μ = (1/1000)·Σᵢ₌₁¹⁰⁰⁰ xᵢ e σ² = (1/999)·Σᵢ₌₁ᴺ (xᵢ − μ)², em que xᵢ denota a variável de interesse referente ao i-ésimo elemento da população. Considerando que x̄ = (1/10)·Σₖ₌₁¹⁰ Xₖ denota a média amostral e que S² = (1/9)·Σᵢ₌₁¹⁰ (Xᵢ − x̄)², julgue o item a seguir. Var[x̄] = 0,011·Σᵢ₌₁¹⁰ (Xᵢ − x̄)².",
+   "90": "Uma amostra aleatória simples de tamanho n = 10, representada como X₁, …, X₁₀, é retirada sem reposição de uma população de tamanho N = 1000 com o objetivo de se estimar o total populacional τ, a média populacional μ e a variância populacional σ², que são definidas como τ = Σᵢ₌₁¹⁰⁰⁰ xᵢ, μ = (1/1000)·Σᵢ₌₁¹⁰⁰⁰ xᵢ e σ² = (1/999)·Σᵢ₌₁ᴺ (xᵢ − μ)², em que xᵢ denota a variável de interesse referente ao i-ésimo elemento da população. Considerando que x̄ = (1/10)·Σₖ₌₁¹⁰ Xₖ denota a média amostral e que S² = (1/9)·Σᵢ₌₁¹⁰ (Xᵢ − x̄)², julgue o item a seguir. O estimador para o total populacional τ é τ̂ = 10 × x̄.",
+   "94": "Em artigo publicado em 2004 no Journal of Political Economy, E. Miguel, S. Satyanath e E. Sergenti mostraram o efeito que o crescimento econômico pode ter na ocorrência de conflitos civis, com dados de 41 países africanos, no período de 1981 até 1999. Em certo estágio da pesquisa, para verificar a possibilidade de usar dados sobre precipitação pluviométrica como variável instrumental, foi feita uma regressão entre o crescimento de tais precipitações (variável explicativa) e uma variável resposta que representa um indicador para a ocorrência de conflito: quanto maior for esse indicador, maior a possibilidade de conflitos no ano t no país i. Os resultados do modelo ajustado pelo método de mínimos quadrados ordinários se encontram na tabela a seguir — variável dependente: conflito civil (mínimo de 25 mortos) / conflito civil (mínimo de 1000 mortos); crescimento na precipitação em t: –0,024 (0,043) / –0,062 (0,030); crescimento na precipitação em t–1: –0,122 (0,052) / –0,069 (0,032); efeitos fixos: sim / sim; R²: 0,71 / 0,70; observações: 743 / 743. Os números entre parênteses na tabela apresentada indicam o erro padrão da estimativa dos coeficientes respectivos. Considere os valores críticos tα da variável t de Student, com significância α para os graus de liberdades adequados aos dados apresentados, como sendo t10% = 1,65, t5% = 1,96 e t1% = 2,58. Considerando as informações precedentes, julgue o item a seguir. Os resultados mostram que um aumento na precipitação pluviométrica no ano anterior resulta no aumento na ocorrência de conflito civil, nas duas regressões.",
+   "95": "Em artigo publicado em 2004 no Journal of Political Economy, E. Miguel, S. Satyanath e E. Sergenti mostraram o efeito que o crescimento econômico pode ter na ocorrência de conflitos civis, com dados de 41 países africanos, no período de 1981 até 1999. Em certo estágio da pesquisa, para verificar a possibilidade de usar dados sobre precipitação pluviométrica como variável instrumental, foi feita uma regressão entre o crescimento de tais precipitações (variável explicativa) e uma variável resposta que representa um indicador para a ocorrência de conflito: quanto maior for esse indicador, maior a possibilidade de conflitos no ano t no país i. Os resultados do modelo ajustado pelo método de mínimos quadrados ordinários se encontram na tabela a seguir — variável dependente: conflito civil (mínimo de 25 mortos) / conflito civil (mínimo de 1000 mortos); crescimento na precipitação em t: –0,024 (0,043) / –0,062 (0,030); crescimento na precipitação em t–1: –0,122 (0,052) / –0,069 (0,032); efeitos fixos: sim / sim; R²: 0,71 / 0,70; observações: 743 / 743. Os números entre parênteses na tabela apresentada indicam o erro padrão da estimativa dos coeficientes respectivos. Considere os valores críticos tα da variável t de Student, com significância α para os graus de liberdades adequados aos dados apresentados, como sendo t10% = 1,65, t5% = 1,96 e t1% = 2,58. Considerando as informações precedentes, julgue o item a seguir. As variáveis explicativas usadas explicam em torno de 71% das variações na ocorrência de conflito civil com um mínimo de 25 mortos nos países pesquisados, no período analisado.",
+   "96": "Em artigo publicado em 2004 no Journal of Political Economy, E. Miguel, S. Satyanath e E. Sergenti mostraram o efeito que o crescimento econômico pode ter na ocorrência de conflitos civis, com dados de 41 países africanos, no período de 1981 até 1999. Em certo estágio da pesquisa, para verificar a possibilidade de usar dados sobre precipitação pluviométrica como variável instrumental, foi feita uma regressão entre o crescimento de tais precipitações (variável explicativa) e uma variável resposta que representa um indicador para a ocorrência de conflito: quanto maior for esse indicador, maior a possibilidade de conflitos no ano t no país i. Os resultados do modelo ajustado pelo método de mínimos quadrados ordinários se encontram na tabela a seguir — variável dependente: conflito civil (mínimo de 25 mortos) / conflito civil (mínimo de 1000 mortos); crescimento na precipitação em t: –0,024 (0,043) / –0,062 (0,030); crescimento na precipitação em t–1: –0,122 (0,052) / –0,069 (0,032); efeitos fixos: sim / sim; R²: 0,71 / 0,70; observações: 743 / 743. Os números entre parênteses na tabela apresentada indicam o erro padrão da estimativa dos coeficientes respectivos. Considere os valores críticos tα da variável t de Student, com significância α para os graus de liberdades adequados aos dados apresentados, como sendo t10% = 1,65, t5% = 1,96 e t1% = 2,58. Considerando as informações precedentes, julgue o item a seguir. Os erros padrões abaixo de 0,05 mostram que o crescimento na precipitação no período t tem efeito significativo, com 95% de confiança, sobre a ocorrência de conflito civil com mínimo de 25 mortos na primeira regressão.",
+   "97": "Em artigo publicado em 2004 no Journal of Political Economy, E. Miguel, S. Satyanath e E. Sergenti mostraram o efeito que o crescimento econômico pode ter na ocorrência de conflitos civis, com dados de 41 países africanos, no período de 1981 até 1999. Em certo estágio da pesquisa, para verificar a possibilidade de usar dados sobre precipitação pluviométrica como variável instrumental, foi feita uma regressão entre o crescimento de tais precipitações (variável explicativa) e uma variável resposta que representa um indicador para a ocorrência de conflito: quanto maior for esse indicador, maior a possibilidade de conflitos no ano t no país i. Os resultados do modelo ajustado pelo método de mínimos quadrados ordinários se encontram na tabela a seguir — variável dependente: conflito civil (mínimo de 25 mortos) / conflito civil (mínimo de 1000 mortos); crescimento na precipitação em t: –0,024 (0,043) / –0,062 (0,030); crescimento na precipitação em t–1: –0,122 (0,052) / –0,069 (0,032); efeitos fixos: sim / sim; R²: 0,71 / 0,70; observações: 743 / 743. Os números entre parênteses na tabela apresentada indicam o erro padrão da estimativa dos coeficientes respectivos. Considere os valores críticos tα da variável t de Student, com significância α para os graus de liberdades adequados aos dados apresentados, como sendo t10% = 1,65, t5% = 1,96 e t1% = 2,58. Considerando as informações precedentes, julgue o item a seguir. Os dados permitem concluir que há efeito significativo do crescimento da precipitação pluviométrica no período t –1 sobre o crescimento da precipitação pluviométrica no período t ."
+  }
+ }
+}

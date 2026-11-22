@@ -1,0 +1,188 @@
+{
+ "evento": "SEFAZ_SE_25_AUDITOR",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "SEFAZ-SE",
+  "ano": 2025,
+  "id_orgao": "sefaz-se"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Auditor Fiscal Tributário – Geral",
+   "id_cargo": "auditor-fiscal-tributario-geral",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_13D81AC8B5ACDFEC35512975.pdf",
+     "gabarito": "gab_1781603BEA9AC39826EC2688.pdf",
+     "tipo": "mc",
+     "arquivo": "13D81AC8B5ACDFEC35512975C221E2FD388F5DC95D99BAD70248A386460A5E54.pdf"
+    },
+    {
+     "key": "e1m",
+     "prova": "pro_F2854956231D8B0D08CE9653.pdf",
+     "gabarito": "gab_A629E1FFF544276AFD441EEE.pdf",
+     "tipo": "mc",
+     "arquivo": "F2854956231D8B0D08CE9653228E4F7B27AE52B1F403F091B28D5B3619AC1718.pdf"
+    },
+    {
+     "key": "e1t",
+     "prova": "pro_F927E8429BCFC0E728F26BDA.pdf",
+     "gabarito": "gab_29A13485F50D249D3CE2E2A0.pdf",
+     "tipo": "mc",
+     "arquivo": "F927E8429BCFC0E728F26BDAE85D57CF3F739BB42B858C0C70373EBFBC83C62E.pdf"
+    },
+    {
+     "key": "e2_1",
+     "prova": "pro_624881901E6864718BBE688C.pdf",
+     "gabarito": "gab_99C1A93F8D4FA1E1AC84A34F.pdf",
+     "tipo": "mc",
+     "arquivo": "624881901E6864718BBE688CD40C2860CE6B13F1EE789221EFF7404DDB66E40C.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Auditor Fiscal Tributário – Tecnologia da Informação",
+   "id_cargo": "auditor-fiscal-tributario-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_13D81AC8B5ACDFEC35512975.pdf",
+     "gabarito": "gab_1781603BEA9AC39826EC2688.pdf",
+     "tipo": "mc",
+     "arquivo": "13D81AC8B5ACDFEC35512975C221E2FD388F5DC95D99BAD70248A386460A5E54.pdf"
+    },
+    {
+     "key": "e1m",
+     "prova": "pro_F2854956231D8B0D08CE9653.pdf",
+     "gabarito": "gab_A629E1FFF544276AFD441EEE.pdf",
+     "tipo": "mc",
+     "arquivo": "F2854956231D8B0D08CE9653228E4F7B27AE52B1F403F091B28D5B3619AC1718.pdf"
+    },
+    {
+     "key": "e1t",
+     "prova": "pro_F927E8429BCFC0E728F26BDA.pdf",
+     "gabarito": "gab_29A13485F50D249D3CE2E2A0.pdf",
+     "tipo": "mc",
+     "arquivo": "F927E8429BCFC0E728F26BDAE85D57CF3F739BB42B858C0C70373EBFBC83C62E.pdf"
+    },
+    {
+     "key": "e2_2",
+     "prova": "pro_F2DF078E18C57C4C205666B5.pdf",
+     "gabarito": "gab_DC875287A1E6B30E11B5337F.pdf",
+     "tipo": "mc",
+     "arquivo": "F2DF078E18C57C4C205666B52B19C8FA823D2A4ACC43B1A0E31C0C05D6C7F3D0.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Auditor Fiscal Tributário – Tributação",
+   "id_cargo": "auditor-fiscal-tributario-tributacao",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_13D81AC8B5ACDFEC35512975.pdf",
+     "gabarito": "gab_1781603BEA9AC39826EC2688.pdf",
+     "tipo": "mc",
+     "arquivo": "13D81AC8B5ACDFEC35512975C221E2FD388F5DC95D99BAD70248A386460A5E54.pdf"
+    },
+    {
+     "key": "e1m",
+     "prova": "pro_F2854956231D8B0D08CE9653.pdf",
+     "gabarito": "gab_A629E1FFF544276AFD441EEE.pdf",
+     "tipo": "mc",
+     "arquivo": "F2854956231D8B0D08CE9653228E4F7B27AE52B1F403F091B28D5B3619AC1718.pdf"
+    },
+    {
+     "key": "e1t",
+     "prova": "pro_F927E8429BCFC0E728F26BDA.pdf",
+     "gabarito": "gab_29A13485F50D249D3CE2E2A0.pdf",
+     "tipo": "mc",
+     "arquivo": "F927E8429BCFC0E728F26BDAE85D57CF3F739BB42B858C0C70373EBFBC83C62E.pdf"
+    },
+    {
+     "key": "e2_3",
+     "prova": "pro_1E67DC47AC2FFFBDC5A009D4.pdf",
+     "gabarito": "gab_5559205F6F469F78097F659A.pdf",
+     "tipo": "mc",
+     "arquivo": "1E67DC47AC2FFFBDC5A009D414BF897874CCDF38D912B337FC94F8368C99A4DB.pdf"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {
+  "e2_1": {
+   "109": {
+    "enunciado": "Um analista de dados da Secretaria de Fazenda do estado X recebeu a incumbência de consolidar dados de repasses intergovernamentais no Microsoft Excel. Com a finalidade de assegurar a consistência e a qualidade dos dados, o analista deve aplicar técnicas de limpeza e transformação. Nessa situação hipotética,",
+    "alternativas": [
+     "para verificar se o nome de um município em uma tabela de referência corresponde a um código específico, o analista pode usar a função PROCV combinada com SE, que retorna o nome do município ou uma mensagem de erro caso o código não seja encontrado.",
+     "para converter uma coluna de datas armazenadas como texto (por exemplo, 2023-01-15) em formato de data reconhecido pelo Excel, o analista só poderá usar a função DATA.VALOR se o texto estiver no formato DD/MM/AAAA.",
+     "para identificar valores únicos em uma coluna de repasses, o analista pode criar uma tabela dinâmica, que só exibirá valores únicos se os dados forem previamente ordenados por ordem alfabética.",
+     "para identificar registros duplicados em uma coluna de códigos de municípios, o analista pode usar a função CONT.SE combinada com formatação condicional, mas essa técnica só funciona se a coluna contiver apenas valores numéricos.",
+     "para combinar valores de duas colunas, como um município e seu respectivo estado, em uma única célula no formato município – estado, o analista pode usar a função CONCATENAR, que, entretanto, não permite incluir um delimitador personalizado, como o hífen."
+    ]
+   },
+   "112": {
+    "enunciado": "Supondo-se, com base nos diagramas de box-plot apresentados no texto 4A8, que IQ_A e IQ_B denotem os intervalos interquartil das respectivas distribuições das produtividades dos setores A e B, é correto afirmar que a diferença IQ_A − IQ_B é igual a",
+    "alternativas": [
+     "−8.",
+     "−4.",
+     "0.",
+     "+4.",
+     "+8."
+    ]
+   },
+   "113": {
+    "enunciado": "A quantidade diária X de processos gerados por um setor de determinada secretaria da fazenda segue uma distribuição de Poisson com taxa igual a 10 processos por dia. Diariamente, 20% dos processos são gerados por pessoas físicas e 80%, por pessoas jurídicas, independentemente do total de processos gerados no dia. Tendo como base a situação proposta e considerando que Y denote a quantidade de processos diários gerados por pessoas físicas, assinale a opção correta.",
+    "alternativas": [
+     "A diferença X − Y segue uma distribuição de Poisson com taxa igual a 8 processos por dia.",
+     "As variáveis aleatórias Y e X − Y são dependentes.",
+     "A variável aleatória Y segue uma distribuição binomial.",
+     "Se, em determinado dia, forem gerados 10 processos, então a distribuição condicional Y|X = 10 seguirá uma distribuição de Poisson.",
+     "Se, em determinado dia, forem gerados 5 processos por pessoas físicas, então a distribuição condicional X|Y = 5 seguirá uma distribuição de Poisson."
+    ]
+   },
+   "114": {
+    "enunciado": "Se a função de densidade de probabilidade para uma variável aleatória V for dada pela expressão precedente, o valor da probabilidade P(V = 1,5) será igual a"
+   },
+   "115": {
+    "enunciado": "Considere que Z₁, ..., Zₙ represente uma amostra aleatória simples, de tamanho n, retirada de uma distribuição normal padrão. Nesse caso, à medida que n aumenta, a média (1/n)·Σ_{i=1}^n Z_i³ converge em probabilidade para"
+   },
+   "116": {
+    "enunciado": "Considerando uma amostra aleatória simples X₁, X₂, X₃ retirada de uma população cuja função de densidade seja dada pela expressão precedente, assinale a opção em que é apresentada uma estatística suficiente para a estimação do parâmetro desconhecido a.",
+    "alternativas": [
+     "(X₁ + X₂ + X₃)/3",
+     "(X₁ + X₂ + X₃)²",
+     "X₁² + X₂² + X₃²",
+     "X₁³ + X₂³ + X₃³",
+     "máximo(X₁, X₂, X₃)"
+    ]
+   },
+   "117": {
+    "enunciado": "Para se estimar o tempo médio de tramitação de determinado tipo de processo, avalia-se uma amostra aleatória simples de 25 processos, obtendo-se média amostral x̄ = 12 dias e desvio padrão amostral s = 4 dias. A partir dessa situação hipotética, assinale a opção correta, considerando que os tempos de tramitação desse tipo de processo tenham distribuição normal.",
+    "alternativas": [
+     "O intervalo de confiança para a média populacional deve ser tipicamente construído com base na distribuição normal padrão.",
+     "Um intervalo de 95% de confiança para a média populacional pode ser representado como 12 ± 4.",
+     "No que diz respeito a intervalos de confiança simétricos para a média populacional, quanto maior for o nível de confiança, maior será sua margem de erro.",
+     "Se 12 ± ϵ representar o intervalo de 90% de confiança para a média populacional μ, então a probabilidade de ocorrer o evento μ ∈ [12 − ϵ, 12 + ϵ] será igual a 0,90.",
+     "A margem de erro do intervalo de 95% de confiança simétrico para a média populacional é de 0,8 dia."
+    ]
+   },
+   "118": {
+    "enunciado": "A fim de se efetuar o teste de hipóteses para certa média populacional especificado como H₀: μ = 10 versus H₁: μ > 10, tomou-se uma amostra aleatória simples de tamanho n = 16 de uma população normal. A média amostral foi igual a 11 e o desvio padrão amostral, igual a 2. A partir dessa situação hipotética, assinale a opção correta.",
+    "alternativas": [
+     "O nível de significância do teste de hipóteses representa a probabilidade de se rejeitar indevidamente a hipótese alternativa (H₁).",
+     "A hipótese nula (H₀) deverá ser rejeitada quando a média amostral for superior a 10, de acordo com a hipótese alternativa (H₁).",
+     "O valor da estatística do teste t de Student é igual a −2.",
+     "O nível descrito do teste é superior a 50%.",
+     "A função poder do teste em questão tende a aumentar à medida que a média populacional aumenta."
+    ]
+   },
+   "119": {
+    "enunciado": "Um estudo está sendo realizado para investigar a relação entre o tempo de tramitação de processos (y) e o número de documentos fiscais por processo (x). A correlação linear entre ambas as variáveis é positiva, sendo o desvio padrão amostral de cada variável mostrado no quadro a seguir. Nesse estudo, utiliza-se o modelo de regressão linear simples na forma y = β₀ + β₁x + ε, em que ε denota o erro aleatório com média zero e variância constante. O coeficiente de determinação desse modelo é igual a 64%. variável desvio padrão amostral y 10 x 8 Com base nessas informações, é correto concluir que a estimativa do coeficiente β₁ obtida pelo método de mínimos quadrados ordinários é igual a"
+   }
+  }
+ }
+}

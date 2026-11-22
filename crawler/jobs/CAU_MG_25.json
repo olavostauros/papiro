@@ -1,0 +1,114 @@
+{
+ "evento": "CAU_MG_25",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "CAU-MG",
+  "ano": 2025,
+  "id_orgao": "cau-mg"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Advogado",
+   "id_cargo": "advogado",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_CAU_MG_CG1_01.pdf",
+     "gabarito": "gab_CAU_MG_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "078_CAU_MG_CG1_01.pdf"
+    },
+    {
+     "key": "esp1",
+     "prova": "pro_CAU_MG_001_01.pdf",
+     "gabarito": "gab_CAU_MG_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "078_CAU_MG_001_01.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Arquiteto e Urbanista",
+   "id_cargo": "arquiteto-e-urbanista",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_CAU_MG_CG1_01.pdf",
+     "gabarito": "gab_CAU_MG_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "078_CAU_MG_CG1_01.pdf"
+    },
+    {
+     "key": "esp2",
+     "prova": "pro_CAU_MG_002_01.pdf",
+     "gabarito": "gab_CAU_MG_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "078_CAU_MG_002_01.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Contador",
+   "id_cargo": "contador",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_CAU_MG_CG1_01.pdf",
+     "gabarito": "gab_CAU_MG_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "078_CAU_MG_CG1_01.pdf"
+    },
+    {
+     "key": "esp3",
+     "prova": "pro_CAU_MG_003_01.pdf",
+     "gabarito": "gab_CAU_MG_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "078_CAU_MG_003_01.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Assistente Administrativo e Financeiro",
+   "id_cargo": "assistente-administrativo-e-financeiro",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_CAU_MG_CG2_01.pdf",
+     "gabarito": "gab_CAU_MG_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "078_CAU_MG_CG2_01.pdf"
+    },
+    {
+     "key": "esp4",
+     "prova": "pro_CAU_MG_004_01.pdf",
+     "gabarito": "gab_CAU_MG_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "078_CAU_MG_004_01.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Assistente de Fiscalização e Atendimento",
+   "id_cargo": "assistente-de-fiscalizacao-e-atendimento",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_CAU_MG_CG2_01.pdf",
+     "gabarito": "gab_CAU_MG_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "078_CAU_MG_CG2_01.pdf"
+    },
+    {
+     "key": "esp5",
+     "prova": "pro_CAU_MG_005_01.pdf",
+     "gabarito": "gab_CAU_MG_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "078_CAU_MG_005_01.pdf"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {}
+}

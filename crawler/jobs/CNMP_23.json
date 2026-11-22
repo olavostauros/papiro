@@ -1,0 +1,274 @@
+{
+ "evento": "CNMP_23",
+ "workdir": "/tmp/cnmp_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "CONSELHO NACIONAL DO MINISTÉRIO PÚBLICO",
+  "ano": 2023,
+  "id_orgao": "cnmp"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista Do Cnmp – Área: Apoio Jurídico – Especialidade: Direito",
+   "id_cargo": "analista-do-cnmp-area-apoio-juridico-especialidade-direito",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_CNMP_CB1_01.pdf",
+     "gabarito": "gab_CNMP_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "814_CNMP_CB1_01.PDF"
+    },
+    {
+     "key": "esp001",
+     "prova": "pro_CNMP_001_01.pdf",
+     "gabarito": "gab_CNMP_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "814_CNMP_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista Do Cnmp – Área: Apoio Técnico Especializado – Especialidade: Arquivologia",
+   "id_cargo": "analista-do-cnmp-area-apoio-tecnico-especializado-especialidade-arquivologia",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_CNMP_CB1_01.pdf",
+     "gabarito": "gab_CNMP_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "814_CNMP_CB1_01.PDF"
+    },
+    {
+     "key": "esp002",
+     "prova": "pro_CNMP_002_01.pdf",
+     "gabarito": "gab_CNMP_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "814_CNMP_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista Do Cnmp – Área: Apoio Técnico Especializado – Especialidade: Comunicação Social",
+   "id_cargo": "analista-do-cnmp-area-apoio-tecnico-especializado-especialidade-comunicacao-social",
+   "provas": [
+    {
+     "key": "cb4",
+     "prova": "pro_CNMP_CB4_01.pdf",
+     "gabarito": "gab_CNMP_CB4_01.pdf",
+     "tipo": "ce",
+     "arquivo": "814_CNMP_CB4_01.PDF"
+    },
+    {
+     "key": "esp003",
+     "prova": "pro_CNMP_003_01.pdf",
+     "gabarito": "gab_CNMP_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "814_CNMP_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista Do Cnmp – Área: Apoio Técnico Especializado – Especialidade: Contabilidade",
+   "id_cargo": "analista-do-cnmp-area-apoio-tecnico-especializado-especialidade-contabilidade",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_CNMP_CB1_01.pdf",
+     "gabarito": "gab_CNMP_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "814_CNMP_CB1_01.PDF"
+    },
+    {
+     "key": "esp004",
+     "prova": "pro_CNMP_004_01.pdf",
+     "gabarito": "gab_CNMP_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "814_CNMP_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Analista Do Cnmp – Área: Apoio Técnico Especializado – Especialidade: Engenharia Civil",
+   "id_cargo": "analista-do-cnmp-area-apoio-tecnico-especializado-especialidade-engenharia-civil",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_CNMP_CB1_01.pdf",
+     "gabarito": "gab_CNMP_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "814_CNMP_CB1_01.PDF"
+    },
+    {
+     "key": "esp005",
+     "prova": "pro_CNMP_005_01.pdf",
+     "gabarito": "gab_CNMP_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "814_CNMP_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Analista Do Cnmp – Área: Apoio Técnico Especializado – Especialidade: Estatística",
+   "id_cargo": "analista-do-cnmp-area-apoio-tecnico-especializado-especialidade-estatistica",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_CNMP_CB1_01.pdf",
+     "gabarito": "gab_CNMP_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "814_CNMP_CB1_01.PDF"
+    },
+    {
+     "key": "esp006",
+     "prova": "pro_CNMP_006_01.pdf",
+     "gabarito": "gab_CNMP_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "814_CNMP_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Analista Do Cnmp – Área: Apoio Técnico Especializado – Especialidade: Gestão Pública",
+   "id_cargo": "analista-do-cnmp-area-apoio-tecnico-especializado-especialidade-gestao-publica",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_CNMP_CB1_01.pdf",
+     "gabarito": "gab_CNMP_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "814_CNMP_CB1_01.PDF"
+    },
+    {
+     "key": "esp007",
+     "prova": "pro_CNMP_007_01.pdf",
+     "gabarito": "gab_CNMP_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "814_CNMP_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Analista Do Cnmp – Área: Tecnologia Da Informação E Comunicação – Especialidade: Desenvolvimento De Sistemas",
+   "id_cargo": "analista-do-cnmp-area-tecnologia-da-informacao-e-comunicacao-especialidade-desenvolvimento-de-sistemas",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_CNMP_CB2_01.pdf",
+     "gabarito": "gab_CNMP_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "814_CNMP_CB2_01.PDF"
+    },
+    {
+     "key": "esp008",
+     "prova": "pro_CNMP_008_01.pdf",
+     "gabarito": "gab_CNMP_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "814_CNMP_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Analista Do Cnmp – Área: Tecnologia Da Informação E Comunicação – Especialidade: Suporte E Infraestrutura",
+   "id_cargo": "analista-do-cnmp-area-tecnologia-da-informacao-e-comunicacao-especialidade-suporte-e-infraestrutura",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_CNMP_CB2_01.pdf",
+     "gabarito": "gab_CNMP_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "814_CNMP_CB2_01.PDF"
+    },
+    {
+     "key": "esp009",
+     "prova": "pro_CNMP_009_01.pdf",
+     "gabarito": "gab_CNMP_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "814_CNMP_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Técnico Do Cnmp – Área: Apoio Técnico Administrativo – Especialidade: Administração",
+   "id_cargo": "tecnico-do-cnmp-area-apoio-tecnico-administrativo-especialidade-administracao",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_CNMP_CB3_01.pdf",
+     "gabarito": "gab_CNMP_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "814_CNMP_CB3_01.PDF"
+    },
+    {
+     "key": "esp010",
+     "prova": "pro_CNMP_010_01.pdf",
+     "gabarito": "gab_CNMP_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "814_CNMP_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Técnico Do Cnmp – Área: Apoio Técnico Administrativo – Especialidade: Segurança Institucional",
+   "id_cargo": "tecnico-do-cnmp-area-apoio-tecnico-administrativo-especialidade-seguranca-institucional",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_CNMP_CB3_01.pdf",
+     "gabarito": "gab_CNMP_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "814_CNMP_CB3_01.PDF"
+    },
+    {
+     "key": "esp011",
+     "prova": "pro_CNMP_011_01.pdf",
+     "gabarito": "gab_CNMP_011_01.pdf",
+     "tipo": "ce",
+     "arquivo": "814_CNMP_011_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp006": {
+   "51": "P(X ≤ a) = ∫₀ᵃ f(x)dx.",
+   "52": "P(X > a) = P(X < −a).",
+   "53": "P(|X| > 1) = E(X).",
+   "54": "E(X²) > 1.",
+   "55": "∫₋₅⁰ f(x)dx > ∫₀¹ f(x)dx.",
+   "56": "P(D = 0) = e⁻³.",
+   "57": "E(D) = 3.",
+   "58": "P(D = 2) = P(D = 3).",
+   "59": "P(D = 6) ≥ 0,5.",
+   "60": "A variância de D é igual a 9.",
+   "61": "A média condicional E(X|Y) é uma variável aleatória cuja variância é igual a 1/12.",
+   "62": "Var(X|Y = 0,5) < 0,2.",
+   "63": "P(Y = 0,5) > 0,05.",
+   "64": "A distribuição conjunta das variáveis aleatórias X e Y pode ser escrita como P(X = x, Y = y) = P(X = x|Y = y) × P(Y = y).",
+   "65": "P(X = 0) = P(X = 1).",
+   "66": "E(W²) = 1.",
+   "67": "Se U segue a distribuição uniforme contínua no intervalo [0,1], então W = √(−ln U).",
+   "68": "A função de densidade de probabilidade da variável aleatória W é f(w) = 0, se w < 0; f(w) = w²e^(−w²), se w ≥ 0.",
+   "69": "P(W ≤ 2|W > 1) = 1 − e⁻³.",
+   "70": "P(W ≤ √ln2)/P(W > √ln2) < 1.",
+   "71": "Se n = 2, então Sₙ/Y₁ segue uma distribuição beta.",
+   "72": "Sₙ segue distribuição exponencial com média igual a 2n.",
+   "73": "Sₙ/n converge em distribuição para uma distribuição normal padrão à medida que n → ∞.",
+   "74": "O desvio padrão de Sₙ é igual a 2n.",
+   "92": "Os resíduos do modelo ŷ = β̂₀ + β̂₁x₁ para os votantes em candidatos de direita pode ser corretamente calculado fazendo-se ŷ − β̂₀ − β̂₁x₁, onde ŷ é o valor estimado de y, β̂₀ é o coeficiente linear estimado do modelo e β̂₁ é o coeficiente linear estimado do modelo."
+  }
+ }
+}

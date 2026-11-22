@@ -1,0 +1,591 @@
+{
+ "evento": "TBG_23",
+ "workdir": "/tmp/tbg_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "TBG",
+  "ano": 2023,
+  "id_orgao": "tbg"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "ANALISTA JÚNIOR — AUDITORIA E COMPLIANCE",
+   "id_cargo": "analista-auditoria-e-compliance",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TBG_CB1_01.pdf",
+     "gabarito": "gab_TBG_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_TBG_001_01.pdf",
+     "gabarito": "gab_TBG_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "ANALISTA JÚNIOR — CONTÁBIL",
+   "id_cargo": "analista-contabil",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TBG_CB1_01.pdf",
+     "gabarito": "gab_TBG_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_TBG_002_01.pdf",
+     "gabarito": "gab_TBG_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "ANALISTA JÚNIOR — COMERCIALIZAÇÃO",
+   "id_cargo": "analista-comercializacao",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TBG_CB1_01.pdf",
+     "gabarito": "gab_TBG_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_TBG_003_01.pdf",
+     "gabarito": "gab_TBG_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "ANALISTA JÚNIOR — DESENVOLVIMENTO DE SOFTWARE",
+   "id_cargo": "analista-desenvolvimento-de-software",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TBG_CB1_01.pdf",
+     "gabarito": "gab_TBG_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_TBG_004_01.pdf",
+     "gabarito": "gab_TBG_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "ANALISTA JÚNIOR — GESTÃO",
+   "id_cargo": "analista-gestao",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TBG_CB1_01.pdf",
+     "gabarito": "gab_TBG_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB1_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_TBG_005_01.pdf",
+     "gabarito": "gab_TBG_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "ANALISTA JÚNIOR — GESTÃO, COMUNICAÇÃO",
+   "id_cargo": "analista-gestao-comunicacao",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TBG_CB1_01.pdf",
+     "gabarito": "gab_TBG_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB1_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_TBG_006_01.pdf",
+     "gabarito": "gab_TBG_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "ANALISTA JÚNIOR — MEIO AMBIENTE",
+   "id_cargo": "analista-meio-ambiente",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TBG_CB1_01.pdf",
+     "gabarito": "gab_TBG_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB1_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_TBG_007_01.pdf",
+     "gabarito": "gab_TBG_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "ANALISTA JÚNIOR — JURÍDICO",
+   "id_cargo": "analista-juridico",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_TBG_CB2_01.pdf",
+     "gabarito": "gab_TBG_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB2_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_TBG_008_01.pdf",
+     "gabarito": "gab_TBG_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "ENGENHEIRO DE SEGURANÇA JÚNIOR",
+   "id_cargo": "engenheiro-seguranca",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TBG_CB1_01.pdf",
+     "gabarito": "gab_TBG_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB1_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_TBG_009_01.pdf",
+     "gabarito": "gab_TBG_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "ENGENHEIRO JÚNIOR — PROJETOS E OBRAS",
+   "id_cargo": "engenheiro-projetos-e-obras",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TBG_CB1_01.pdf",
+     "gabarito": "gab_TBG_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB1_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_TBG_010_01.pdf",
+     "gabarito": "gab_TBG_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "ENGENHEIRO JÚNIOR — CIVIL",
+   "id_cargo": "engenheiro-civil",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TBG_CB1_01.pdf",
+     "gabarito": "gab_TBG_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB1_01.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_TBG_011_01.pdf",
+     "gabarito": "gab_TBG_011_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "ENGENHEIRO JÚNIOR — ELÉTRICA",
+   "id_cargo": "engenheiro-eletrica",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TBG_CB1_01.pdf",
+     "gabarito": "gab_TBG_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB1_01.PDF"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_TBG_012_01_ATUALIZADA.pdf",
+     "gabarito": "gab_TBG_012_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "ENGENHEIRO JÚNIOR — INSPEÇÃO",
+   "id_cargo": "engenheiro-inspecao",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TBG_CB1_01.pdf",
+     "gabarito": "gab_TBG_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB1_01.PDF"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_TBG_013_01.pdf",
+     "gabarito": "gab_TBG_013_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_013_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "ENGENHEIRO JÚNIOR — INTEGRIDADE DE DUTOS",
+   "id_cargo": "engenheiro-integridade-de-dutos",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TBG_CB1_01.pdf",
+     "gabarito": "gab_TBG_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB1_01.PDF"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_TBG_014_01.pdf",
+     "gabarito": "gab_TBG_014_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_014_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "ENGENHEIRO JÚNIOR — MANUTENÇÃO",
+   "id_cargo": "engenheiro-manutencao",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TBG_CB1_01.pdf",
+     "gabarito": "gab_TBG_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB1_01.PDF"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_TBG_015_01.pdf",
+     "gabarito": "gab_TBG_015_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_015_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "ENGENHEIRO JÚNIOR — MANUTENÇÃO, MECÂNICA",
+   "id_cargo": "engenheiro-manutencao-mecanica",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TBG_CB1_01.pdf",
+     "gabarito": "gab_TBG_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB1_01.PDF"
+    },
+    {
+     "key": "esp16",
+     "prova": "pro_TBG_016_01.pdf",
+     "gabarito": "gab_TBG_016_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_016_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "17",
+   "cargo": "ENGENHEIRO JÚNIOR — OPERAÇÕES",
+   "id_cargo": "engenheiro-operacoes",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TBG_CB1_01.pdf",
+     "gabarito": "gab_TBG_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB1_01.PDF"
+    },
+    {
+     "key": "esp17",
+     "prova": "pro_TBG_017_01.pdf",
+     "gabarito": "gab_TBG_017_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_017_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "18",
+   "cargo": "TÉCNICO DE SEGURANÇA JÚNIOR",
+   "id_cargo": "tecnico-seguranca",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_TBG_CB3_01.pdf",
+     "gabarito": "gab_TBG_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB3_01.PDF"
+    },
+    {
+     "key": "esp18",
+     "prova": "pro_TBG_018_01.pdf",
+     "gabarito": "gab_TBG_018_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_018_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "19",
+   "cargo": "TÉCNICO JÚNIOR — GASODUTO, CONSTRUÇÃO E MONTAGEM",
+   "id_cargo": "tecnico-gasoduto-construcao-e-montagem",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_TBG_CB3_01.pdf",
+     "gabarito": "gab_TBG_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB3_01.PDF"
+    },
+    {
+     "key": "esp19",
+     "prova": "pro_TBG_019_01.pdf",
+     "gabarito": "gab_TBG_019_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_019_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "20",
+   "cargo": "TÉCNICO JÚNIOR — GASODUTO, INSPEÇÃO",
+   "id_cargo": "tecnico-gasoduto-inspecao",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_TBG_CB3_01.pdf",
+     "gabarito": "gab_TBG_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB3_01.PDF"
+    },
+    {
+     "key": "esp20",
+     "prova": "pro_TBG_020_01.pdf",
+     "gabarito": "gab_TBG_020_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_020_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "21",
+   "cargo": "TÉCNICO JÚNIOR — GASODUTO, INSTRUMENTAÇÃO E AUTOMAÇÃO",
+   "id_cargo": "tecnico-gasoduto-instrumentacao-e-automacao",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_TBG_CB3_01.pdf",
+     "gabarito": "gab_TBG_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB3_01.PDF"
+    },
+    {
+     "key": "esp21",
+     "prova": "pro_TBG_021_01.pdf",
+     "gabarito": "gab_TBG_021_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_021_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "22",
+   "cargo": "TÉCNICO JÚNIOR — GASODUTO, INTEGRIDADE DE DUTOS",
+   "id_cargo": "tecnico-gasoduto-integridade-de-dutos",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_TBG_CB3_01.pdf",
+     "gabarito": "gab_TBG_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB3_01.PDF"
+    },
+    {
+     "key": "esp22",
+     "prova": "pro_TBG_022_01.pdf",
+     "gabarito": "gab_TBG_022_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_022_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "23",
+   "cargo": "TÉCNICO JÚNIOR — GASODUTO, MECÂNICA",
+   "id_cargo": "tecnico-gasoduto-mecanica",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_TBG_CB3_01.pdf",
+     "gabarito": "gab_TBG_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB3_01.PDF"
+    },
+    {
+     "key": "esp23",
+     "prova": "pro_TBG_023_01.pdf",
+     "gabarito": "gab_TBG_023_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_023_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "24",
+   "cargo": "TÉCNICO JÚNIOR — GASODUTO, PROTEÇÃO CATÓDICA",
+   "id_cargo": "tecnico-gasoduto-protecao-catodica",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_TBG_CB3_01.pdf",
+     "gabarito": "gab_TBG_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_CB3_01.PDF"
+    },
+    {
+     "key": "esp24",
+     "prova": "pro_TBG_024_01.pdf",
+     "gabarito": "gab_TBG_024_01.pdf",
+     "tipo": "ce",
+     "arquivo": "888_TBG_024_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp03": {
+   "75": "Se Pedro aplicar P = 10.000·(0,90)³ ou P = 10.000/(1,10)³, ele conseguirá montantes diferentes, mas ambos suficientes para pagar os R$ 10.000 daqui a três anos."
+  },
+  "esp10": {
+   "81": "P(X = 3) = 0.",
+   "84": "Se um contrato com capitalização mensal tem taxa efetiva de juros de 20% ao ano, então, para esse contrato, a taxa nominal (i) de juros ao mês é i = ¹²√1,2 − 1."
+  },
+  "esp12": {
+   "53": "Se uma fonte de tensão CC de valor V_F e resistência interna R_F for conectada, em regime permanente, a uma carga de resistência R_L, a máxima potência que pode ser transferida da fonte para a carga será V_F²/(2R_L).",
+   "56": "Se uma fonte de corrente CA monofásica fornece uma corrente I quando alimenta duas impedâncias Z_1 e Z_2 conectadas em paralelo, a corrente na impedância Z_1 é I·Z_1·Z_2/(Z_1+Z_2).",
+   "59": "Se uma carga trifásica equilibrada, constituída de três resistores conectados em estrela não aterrada, for alimentada por uma fonte de tensão trifásica desequilibrada V_a = 30∠0° V, V_b = 30∠60° V e V_c = 30∠−60° V, a tensão no ponto central da carga será 20∠0° V.",
+   "67": "Em um curto-circuito monofásico franco, a corrente de falta no ponto do defeito é calculada como 3·V_F/(Z_0+Z_1+Z_2), em que V_F é o fator tensão de pré-falta no ponto do defeito, e Z_0, Z_1 e Z_2 são, respectivamente, as impedâncias equivalentes de sequência zero, positiva e negativa no ponto do defeito.",
+   "71": "Na associação em série de três diodos, cada um deles com tensão máxima reversa de −50 V, a tensão máxima reversa equivalente será de −75 V.",
+   "86": "P(X = 3) = 0.",
+   "90": "Se c(t) = (x(t), y(t)), com x(t) = 1 − 2t, y(t) = 1 + sen(t) e −3 ≤ t ≤ 3, for um caminho no plano cartesiano, de modo que P(t) = (x(t), y(t), f(x(t), y(t))) seja um caminho sobre a colina, então, em t = 0, a direção e sentido do vetor w = (dc(t)/dt)|_{t=0} indica uma subida na colina.",
+   "98": "Se F(s) = L(f(t)) é a transformada de Laplace de uma função derivável f(t) que satisfaz (df(t)/dt)|_{t=0} = −1, então a transformada de Laplace de g(t) = 2·df(t)/dt é igual a 2·F(s) − 2.",
+   "92": "Se Y_1(t) = 1 é solução da referida equação diferencial e as constantes A e B têm sinais contrários, então o problema de valor inicial Ay''(t) + By'(t) + Cy(t) = 0, y(0) = 0, y'(0) = 1, terá solução limitada no intervalo t > 0.",
+   "99": "Um sistema de controle que tem função de transferência igual a F(s) = (s+3)/(s²+3s−4) tem resposta f(t) estável.",
+   "100": "Considere-se o problema de valor inicial a seguir, em que x(t) é uma entrada do sistema. y''(t) + y'(t) + 4y(t) = x(t), y(0) = 0, y'(0) = 0. Nesse problema, a função de transferência é igual a Y(s)/X(s) = 1/(s²+4), em que X(s) e Y(s) denotam, respectivamente, as transformadas de Laplace de x(t) e y(t).",
+   "51": "Se o valor da tensão sob uma associação em série de dois resistores de resistências R_1 e R_2 for igual a V, a tensão sobre o resistor de resistência R_1 pode ser calculada pela expressão R_2/(R_1+R_2)·V."
+  },
+  "esp14": {
+   "89": "A tensão (σ) é definida como o quociente do esforço (F) aplicado pela área da seção transversal (A) do corpo de prova, ou seja, σ = F/A.",
+   "91": "A perda de carga (h_f) linear causada pelo atrito, usando-se a fórmula de Darcy-Weisbach (universal), é corretamente expressa por h_f = 400/π² m.",
+   "92": "O escoamento do fluido na tubulação é caracterizado como turbulento, com número de Reynolds (Re) igual a (π/8)×10⁴.",
+   "93": "A velocidade do fluido em uma determinada seção da tubulação é dada por 8/π m/s.",
+   "96": "Considere-se que um fluido, a uma temperatura T_∞, se mova em contato com uma superfície de área A, que se encontra a uma temperatura T_p, e que, se T_p > T_∞, haverá transferência de calor (q) da referida superfície para o fluido. Nesse caso, o cálculo do fluxo de calor por convecção pode ser corretamente realizado por meio da equação de Newton, q = h·(T_∞ − T_p), em que h representa o coeficiente e troca de calor por convecção em W·m⁻²·K⁻¹.",
+   "97": "Considere-se que um fluido esteja escoando através de um tubo de diâmetro interno D que absorve uma quantidade Q de calor por metro de comprimento de tubo. Considere-se, também, que a temperatura da superfície do tubo seja T_p e que o coeficiente de transferência de calor por convecção seja h. Nesse caso, a temperatura média do fluido T_∞ é corretamente expressa pela equação a seguir. T_∞ = T_p/(Q/(h·A)).",
+   "98": "Suponha-se que determinado fluido esteja escoando através de um tubo de 10 cm de diâmetro interno. Considere-se que o fluido se encontre a uma temperatura de 100 °C, que a temperatura da superfície interna do tubo seja de 30 °C e que o coeficiente de transferência de calor por convecção seja de 1.000 W·m⁻²·K⁻¹. Nessa situação hipotética, a taxa de transferência de calor por metro de comprimento linear de tubo será de −70π W, ou seja, −70π W estarão sendo transferidos do fluido para a superfície."
+  },
+  "esp15": {
+   "55": "Os tubos são designados por um número chamado diâmetro nominal (IPS – iron pipe size): até 12”, o diâmetro nominal não corresponde a nenhuma dimensão física do tubo, porém, a partir de 14”, o diâmetro nominal coincide com o diâmetro externo do tubo.",
+   "63": "Para um motor ciclo Otto, a cilindrada (C) é calculada pela fórmula C = [n·(π·h·r²)]·t, em que n é o número de cilindros do motor, r é o raio do cilindro, h, o curso do pistão no interior do cilindro e t, a quantidade de tempos do motor.",
+   "65": "O calor a ser transferido (q) depende da área superficial (A) e da diferença entre as temperaturas médias dos fluidos (ΔT), sendo determinado pela fórmula q = U·A·ΔT, em que U é o coeficiente global de transmissão de calor, que representa as resistências térmicas.",
+   "79": "P(X = 3) = 0.",
+   "83": "Se um contrato com capitalização mensal tem taxa efetiva de juros de 20% ao ano, então, para esse contrato, a taxa nominal (i) de juros ao mês é i = ¹²√1,2 − 1."
+  },
+  "esp17": {
+   "55": "A partir da densidade do gás natural, na pressão de 101.325 Pa e na temperatura de 20 °C, é possível determinar o volume que ele ocupa nessas condições, o que resulta no volume de referência, também chamado de volume normal ou volume padrão.",
+   "65": "A variação de entalpia (ΔH) durante uma mudança de fase à pressão constante é dada pela equação ΔH = Q/(m·L), em que Q representa a quantidade de calor transferida, m, a massa da substância que sofre a mudança de fase e L, o calor latente específico da substância.",
+   "56": "Em um trecho custodiado do gasoduto, o balanço de transferência pode ser obtido pela expressão g_a + Δg_p − g_r − g_c = 0, em que g_a representa a quantidade de gás admitido, g_p, a quantidade de gás presente, ou seja, aquele necessário à continuidade operacional, g_r, a quantidade de gás retirado, e g_c, a quantidade de gás consumido, o qual se refere, por exemplo, a um turbocompressor utilizado para compensar as perdas de carga do deslocamento."
+  },
+  "esp19": {
+   "71": "Se, para uma bacia, o coeficiente de compacidade, ou índice de Gravelius (Kc), é dado por Kc = 0,282×P/√A, em que P é o perímetro e A é a área da bacia, então, quanto maior o valor de Kc, menor será a propensão da bacia a inundações.",
+   "57": "No processo de congelamento de uma quantidade de água, embora a entropia diminua, não há violação da 2.ª lei da termodinâmica.",
+   "58": "Caso uma amostra de gás seja comprimida isotermicamente do volume V para o volume V/2, a pressão final desse gás dependerá do valor inicial da temperatura T do gás.",
+   "59": "Uma máquina térmica ideal, ao ser submetida a um processo adiabático, poderia alcançar 100% de eficiência, pois os processos adiabáticos ocorrem sem troca de calor.",
+   "60": "O elemento 1 ilustrado na figura representa um flange de orifício.",
+   "61": "O elemento 2 ilustrado na figura representa uma válvula de controle.",
+   "63": "O trecho de tubulação indicado pelo elemento 3 é uma tubulação com solda de topo, enquanto a tubulação indicada pelo elemento 4 é uma tubulação com rosca ou solda de encaixe.",
+   "94": "No quadrante NE, os valores de azimute são iguais aos de rumo."
+  },
+  "esp20": {
+   "77": "A resistência elétrica equivalente do circuito é de (3/(2R))⁻¹ Ω.",
+   "79": "A potência total dissipada nas duas lâmpadas é de 3i²/(2R) W.",
+   "80": "A potência dissipada na lâmpada B é de 48.400/R² W.",
+   "84": "As seguintes equações são exemplos corretos de semirreações de oxirredução: Ce⁺⁴ + e⁻ → Ce³⁺; Fe⁺² → Fe³⁺ + e⁻."
+  },
+  "esp22": {
+   "44": "Para um duto ou segmento de duto que opere com pressão superior a 50% SMYS e cuja pressão de falha esteja acima de 1,25 × MAOP, uma vez estabelecida a integridade, o intervalo de reinspeção (ILI – inspeção interna) será de 5 anos."
+  },
+  "esp24": {
+   "32": "A resistividade elétrica (ρ) do solo, em Ω.cm, considerando o pino de medição, é dada pela fórmula ρ = (2·π·L·R)/(ln(4·L/D) − 1), onde R é a resistência medida (Ω) em cada profundidade, L é o comprimento do pino de medição (cm) e D é o diâmetro do pino de medição (cm)."
+  },
+  "cb3": {
+   "27": "No sistema cartesiano xOy, a reta que passa pelos pontos A(1, −2) e B(3, 2) tem equação dada por 2x − y = 4.",
+   "28": "A equação x² − x + y² = 0 descreve uma parábola que tem raízes em x = 0 e x = 1.",
+   "29": "Considerando-se a figura a seguir, que ilustra dois caminhos possíveis entre os municípios de Patos e de Araras, é correto inferir que, caso um viajante escolha o maior caminho, ele percorrerá 30(√3 − 1) km a mais do que se tivesse ido pelo caminho direto que liga os municípios.",
+   "30": "Se o reservatório de um caminhão-tanque tem o formato de um cilindro circular reto com raio r = 2√π/π metros e comprimento c = 12 metros, então o volume do reservatório do caminhão é de 48√π metros cúbicos."
+  }
+ }
+}

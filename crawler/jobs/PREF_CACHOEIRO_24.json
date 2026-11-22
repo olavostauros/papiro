@@ -1,0 +1,569 @@
+{
+ "evento": "PREF_CACHOEIRO_24",
+ "workdir": "/tmp/pref_cachoeiro_24",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Prefeitura de Cachoeiro de Itapemirim",
+  "ano": 2024,
+  "id_orgao": "cachoeiro"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Enfermeiro",
+   "id_cargo": "enfermeiro",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG1_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_001_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_001_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_001_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Enfermeiro do Trabalho",
+   "id_cargo": "enfermeiro-do-trabalho",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG1_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_002_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_002_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_002_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Farmacêutico",
+   "id_cargo": "farmaceutico",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG2_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG2_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG2_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_003_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_003_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_003_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Fisioterapeuta",
+   "id_cargo": "fisioterapeuta",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG2_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG2_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG2_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_004_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_004_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_004_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Fonoaudiólogo",
+   "id_cargo": "fonoaudiologo",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG2_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG2_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG2_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_005_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_005_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_005_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Médico – Clínico Geral",
+   "id_cargo": "medico-clinico-geral",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG1_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_006_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_006_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_006_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Médico Veterinário",
+   "id_cargo": "medico-veterinario",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG2_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG2_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG2_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_007_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_007_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_007_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Nutricionista",
+   "id_cargo": "nutricionista",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG2_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG2_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG2_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_008_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_008_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_008_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Professor de Educação Básica – PEB A",
+   "id_cargo": "professor-de-educacao-basica-peb-a",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG1_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_009_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_009_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_009_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Professor de Educação Básica – PEB B",
+   "id_cargo": "professor-de-educacao-basica-peb-b",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG1_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_010_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_010_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_010_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Professor de Educação Básica – PEB C – Artes",
+   "id_cargo": "professor-de-educacao-basica-peb-c-artes",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG1_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_011_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_011_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_011_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Professor de Educação Básica – PEB C – Ciências",
+   "id_cargo": "professor-de-educacao-basica-peb-c-ciencias",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG1_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_012_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_012_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_012_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Professor de Educação Básica – PEB C – Educação Física",
+   "id_cargo": "professor-de-educacao-basica-peb-c-educacao-fisica",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG1_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_013_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_013_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_013_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "Professor de Educação Básica – PEB C – Ensino Religioso",
+   "id_cargo": "professor-de-educacao-basica-peb-c-ensino-religioso",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG1_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_014_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_014_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_014_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "Professor de Educação Básica – PEB C – Geografia",
+   "id_cargo": "professor-de-educacao-basica-peb-c-geografia",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG1_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_015_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_015_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_015_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "Professor de Educação Básica – PEB C – História",
+   "id_cargo": "professor-de-educacao-basica-peb-c-historia",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG1_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp16",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_016_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_016_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_016_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "17",
+   "cargo": "Professor de Educação Básica – PEB C – Inglês",
+   "id_cargo": "professor-de-educacao-basica-peb-c-ingles",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG1_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp17",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_017_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_017_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_017_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "18",
+   "cargo": "Professor de Educação Básica – PEB C – Língua Portuguesa",
+   "id_cargo": "professor-de-educacao-basica-peb-c-lingua-portuguesa",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG1_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp18",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_018_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_018_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_018_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "19",
+   "cargo": "Professor de Educação Básica – PEB C – Matemática",
+   "id_cargo": "professor-de-educacao-basica-peb-c-matematica",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG1_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp19",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_019_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_019_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_019_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "20",
+   "cargo": "Professor de Educação Básica – PEB D",
+   "id_cargo": "professor-de-educacao-basica-peb-d",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG1_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG1_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp20",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_20_0.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_20_0.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_20_0_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "21",
+   "cargo": "Psicólogo",
+   "id_cargo": "psicologo",
+   "provas": [
+    {
+     "key": "esp21",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_021_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_021_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_021_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "22",
+   "cargo": "Terapeuta Ocupacional",
+   "id_cargo": "terapeuta-ocupacional",
+   "provas": [
+    {
+     "key": "esp22",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_022_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_022_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_022_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "23",
+   "cargo": "Cuidador",
+   "id_cargo": "cuidador",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG3_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG3_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG3_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp23",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_023_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_023_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_023_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "24",
+   "cargo": "Técnico em Enfermagem",
+   "id_cargo": "tecnico-em-enfermagem",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG3_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG3_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG3_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp24",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_024_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_024_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_024_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "25",
+   "cargo": "Técnico em Enfermagem do Trabalho",
+   "id_cargo": "tecnico-em-enfermagem-do-trabalho",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG3_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG3_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG3_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp25",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_025_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_025_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_025_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  },
+  {
+   "idArea": "26",
+   "cargo": "Técnico em Radiologia",
+   "id_cargo": "tecnico-em-radiologia",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_CG3_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_CG3_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_CG3_01.PDF",
+     "tipo": "ce"
+    },
+    {
+     "key": "esp26",
+     "prova": "pro_PCI_SAUDE_PROFESSOR_026_.pdf",
+     "gabarito": "gab_PCI_SAUDE_PROFESSOR_026_.pdf",
+     "arquivo": "936_PCI_SAUDE_PROFESSOR_026_01.PDF",
+     "tipo": "ce"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp19": {
+   "61": "O seno de 2.190° é 1/2.",
+   "62": "Para todo n inteiro positivo ímpar, P(n) = (3n + 2) é um número primo.",
+   "63": "Para quaisquer a e b inteiros, se a ≤ b e b ≤ a, então a^2 ≥ b.",
+   "64": "Para qualquer valor de k, f(x) terá duas raízes reais e distintas.",
+   "65": "Se k for um número par, então as raízes de f(x) também serão números pares.",
+   "66": "As coordenadas do vértice de f(x) são V = (−1/2, −25k/4).",
+   "67": "Se f(x) = log_b x = 0, então, para qualquer valor de b < 0 e b ≠ 1, x = 1.",
+   "68": "O domínio de f(x) = ln(x^2 − 3x), representado por D(f), será o conjunto D(f) = {x ∈ ℝ | x < 0 ou x > 3}.",
+   "69": "A função f(x) = log_b x será crescente para todo b > 0 e b ≠ 1.",
+   "74": "S = (1; 0; 1) poderá ser uma solução particular do sistema em questão, se k for igual a 2.",
+   "75": "Independentemente do valor de k, o sistema S será possível e determinado.",
+   "77": "Se duas crianças da sala de aula em comento forem escolhidas aleatoriamente, então a probabilidade de pelo menos uma delas ter 8 anos de idade será maior que 1/3.",
+   "80": "Se duas crianças da sala de aula em tela forem escolhidas aleatoriamente, então a probabilidade de ambas terem 8 anos de idade será igual a 1/2.",
+   "84": "A parte real do número 1/z é igual a √3/3.",
+   "85": "O número z satisfaz a relação z^6 = −64."
+  },
+  "esp12": {
+   "83": "Considere a situação em que uma pessoa deslize no tobogã de um parque aquático, cujo perfil está representado na figura a seguir. A pessoa, partindo do repouso, desliza desde o ponto A e, ao chegar ao ponto B (ponto mais alto da circunferência de raio r), é arremessada até mergulhar em uma piscina. Nessa situação hipotética, o desnível h entre os pontos A e B deve ser maior que r/2 para que a pessoa, ao atingir o ponto B, descole da superfície do tobogã."
+  }
+ }
+}

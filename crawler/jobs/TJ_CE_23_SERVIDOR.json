@@ -1,0 +1,57 @@
+{
+ "evento": "TJ_CE_23_SERVIDOR",
+ "workdir": "/tmp/tj_ce_23_servidor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Tribunal de Justiça do Estado do Ceará",
+  "ano": 2023,
+  "id_orgao": "tj"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Técnico Judiciário – Área: Judiciária",
+   "id_cargo": "tecnico-judiciario-area-judiciaria",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJCE_SERVIDOR_CG1_01.pdf",
+     "gabarito": "gab_TJCE_SERVIDOR_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "820_TJCE_SERVIDOR_CG1_01.PDF"
+    },
+    {
+     "key": "esp001",
+     "prova": "pro_TJCE_SERVIDOR_001_01.pdf",
+     "gabarito": "gab_TJCE_SERVIDOR_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "820_TJCE_SERVIDOR_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Técnico Judiciário – Área: Técnico-Administrativa",
+   "id_cargo": "tecnico-judiciario-area-tecnico-administrativa",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TJCE_SERVIDOR_CG1_01.pdf",
+     "gabarito": "gab_TJCE_SERVIDOR_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "820_TJCE_SERVIDOR_CG1_01.PDF"
+    },
+    {
+     "key": "esp002",
+     "prova": "pro_TJCE_SERVIDOR_002_01.pdf",
+     "gabarito": "gab_TJCE_SERVIDOR_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "820_TJCE_SERVIDOR_002_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

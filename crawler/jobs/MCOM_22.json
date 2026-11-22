@@ -1,0 +1,93 @@
+{
+ "evento": "MCOM_22",
+ "workdir": "/tmp/mcom_22",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Ministério das Comunicações",
+  "ano": 2022,
+  "id_orgao": "mcom"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Atividade 1 – Complexidade Gerencial, TI e Engenharia Sênior",
+   "id_cargo": "atividade-1-ti-engenharia-senior",
+   "provas": [
+    {
+     "key": "cg01",
+     "prova": "pro_MCOM_CG2_01.pdf",
+     "gabarito": "gab_MCOM_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "677_MCOM_CG2_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_MCOM_001_01.pdf",
+     "gabarito": "gab_MCOM_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "677_MCOM_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Atividade 2 – Atividades Técnicas de Complexidade Intelectual",
+   "id_cargo": "atividade-2-complexidade-intelectual",
+   "provas": [
+    {
+     "key": "cg02",
+     "prova": "pro_MCOM_CG1_01.pdf",
+     "gabarito": "gab_MCOM_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "677_MCOM_CG1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_MCOM_002_01.pdf",
+     "gabarito": "gab_MCOM_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "677_MCOM_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Atividade 3 – Atividades Técnicas de Suporte",
+   "id_cargo": "atividade-3-suporte",
+   "provas": [
+    {
+     "key": "cg03",
+     "prova": "pro_MCOM_CG1_01.pdf",
+     "gabarito": "gab_MCOM_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "677_MCOM_CG1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_MCOM_003_01.pdf",
+     "gabarito": "gab_MCOM_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "677_MCOM_003_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp02": {
+   "58": "Se a hipótese nula H₀: μ = 19,5 for testada contra a hipótese alternativa H₁: μ ≠ 19,5 com nível de significância α = 5%, então a regra de decisão desse teste indicará que a hipótese H₀ deve ser rejeitada.",
+   "59": "O desvio padrão amostral é igual a 2, no entanto esse resultado representa uma estimativa viciada do desvio padrão populacional σ.",
+   "60": "A variância da razão X/Y é igual a 1.",
+   "61": "A média do produto XY é igual a zero.",
+   "62": "O desvio padrão da soma X + Y é igual a 2."
+  },
+  "esp03": {
+   "61": "Se a hipótese nula H₀: μ = 19,5 for testada contra a hipótese alternativa H₁: μ ≠ 19,5 com nível de significância α = 5%, então a regra de decisão desse teste indicará que a hipótese H₀ deve ser rejeitada.",
+   "63": "O desvio padrão amostral é igual a 2, no entanto esse resultado representa uma estimativa viciada do desvio padrão populacional σ.",
+   "64": "A média do produto XY é igual a zero.",
+   "65": "A variância da razão X/Y é igual a 1.",
+   "66": "O desvio padrão da soma X + Y é igual a 2."
+  }
+ }
+}

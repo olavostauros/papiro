@@ -1,0 +1,41 @@
+{
+ "evento": "CD_26_PL",
+ "workdir": "/tmp/cd_26_pl",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Câmara dos Deputados",
+  "ano": 2026,
+  "id_orgao": "cd"
+ },
+ "fonte": "https://cdn.cebraspe.org.br/concursos/CD_26_PL/arquivos/",
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Policial Legislativo Federal",
+   "id_cargo": "policial-legislativo-federal",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_6BA6C911910A999689592710.pdf",
+     "gabarito": "gab_8F0511C4502CAC8A5705D0E0.pdf",
+     "tipo": "ce",
+     "arquivo": "6BA6C911910A9996895927100E426BD4733C0601F6E27F998FD96D420A356EDC.pdf"
+    },
+    {
+     "key": "esp",
+     "prova": "pro_883961147167BD024D888441.pdf",
+     "gabarito": "gab_B1299DE1DBF3E992798D6B33.pdf",
+     "tipo": "ce",
+     "arquivo": "883961147167BD024D88844195C9BCEF43F921F5EA554762C4678B7FA172E509.pdf"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "cg": {
+   "3": "Haveria prejuízo da correção gramatical do texto caso se inserisse vírgula após a palavra “controversas” (final do segundo parágrafo)."
+  }
+ }
+}

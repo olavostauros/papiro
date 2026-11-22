@@ -1,0 +1,145 @@
+{
+ "evento": "APEX_BRASIL_24_1",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "APEX Brasil",
+  "ano": 2024,
+  "id_orgao": "apex"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista – Aquisições e Jurídico",
+   "id_cargo": "analista-juridico",
+   "provas": [
+    {
+     "key": "cb4",
+     "prova": "pro_APEXBRASIL_CB4_01.pdf",
+     "gabarito": "gab_APEXBRASIL_CB4_01.pdf",
+     "tipo": "mc",
+     "arquivo": "802_APEXBRASIL_CB4_01.PDF"
+    },
+    {
+     "key": "esp1",
+     "prova": "pro_APEXBRASIL_001_01.pdf",
+     "gabarito": "gab_APEXBRASIL_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "802_APEXBRASIL_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista – Infraestrutura e Patrimônio",
+   "id_cargo": "analista-infraestrutura",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_APEXBRASIL_CB3_01.pdf",
+     "gabarito": "gab_APEXBRASIL_CB3_01.pdf",
+     "tipo": "mc",
+     "arquivo": "802_APEXBRASIL_CB3_01.PDF"
+    },
+    {
+     "key": "esp2",
+     "prova": "pro_APEXBRASIL_002_01.pdf",
+     "gabarito": "gab_APEXBRASIL_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "802_APEXBRASIL_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista – Negócios Internacionais",
+   "id_cargo": "analista-negocios",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_APEXBRASIL_CB1_01.pdf",
+     "gabarito": "gab_APEXBRASIL_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "802_APEXBRASIL_CB1_01.PDF"
+    },
+    {
+     "key": "esp3",
+     "prova": "pro_APEXBRASIL_003_01.pdf",
+     "gabarito": "gab_APEXBRASIL_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "802_APEXBRASIL_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista – TIC Infraestrutura",
+   "id_cargo": "analista-tic-infraestrutura",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_APEXBRASIL_CB2_01.pdf",
+     "gabarito": "gab_APEXBRASIL_CB2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "802_APEXBRASIL_CB2_01.PDF"
+    },
+    {
+     "key": "esp4",
+     "prova": "pro_APEXBRASIL_004_01.pdf",
+     "gabarito": "gab_APEXBRASIL_004_01.pdf",
+     "tipo": "mc",
+     "arquivo": "802_APEXBRASIL_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista – TIC Segurança da Informação",
+   "id_cargo": "analista-tic-seguranca",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_APEXBRASIL_CB2_01.pdf",
+     "gabarito": "gab_APEXBRASIL_CB2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "802_APEXBRASIL_CB2_01.PDF"
+    },
+    {
+     "key": "esp5",
+     "prova": "pro_APEXBRASIL_005_01.pdf",
+     "gabarito": "gab_APEXBRASIL_005_01.pdf",
+     "tipo": "mc",
+     "arquivo": "802_APEXBRASIL_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista – Processos Contábeis",
+   "id_cargo": "analista-contabeis",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_APEXBRASIL_CB3_01.pdf",
+     "gabarito": "gab_APEXBRASIL_CB3_01.pdf",
+     "tipo": "mc",
+     "arquivo": "802_APEXBRASIL_CB3_01.PDF"
+    },
+    {
+     "key": "esp6",
+     "prova": "pro_APEXBRASIL_006_01.pdf",
+     "gabarito": "gab_APEXBRASIL_006_01.pdf",
+     "tipo": "mc",
+     "arquivo": "802_APEXBRASIL_006_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {
+  "esp6": {
+   "47": {
+    "alternativas": [
+     "− 22.822.",
+     "+22.822.",
+     "− 30.767.",
+     "+30.767."
+    ]
+   }
+  }
+ }
+}

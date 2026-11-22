@@ -1,0 +1,220 @@
+{
+ "evento": "TCE_PR_24_AUDITOR",
+ "workdir": "/tmp/tce_pr_24_auditor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "TRIBUNAL DE CONTAS DO ESTADO DO PARANÁ",
+  "ano": 2024,
+  "id_orgao": "tce"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Auditor de Controle Externo — Área: Administrativa",
+   "id_cargo": "auditor-administrativa",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TCEPR_CG1_01.pdf",
+     "gabarito": "gab_TCEPR_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "990_TCEPR_CG1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_TCEPR_001_01.pdf",
+     "gabarito": "gab_TCEPR_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "990_TCEPR_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Auditor de Controle Externo — Área: Contábil",
+   "id_cargo": "auditor-contabil",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TCEPR_CG1_01.pdf",
+     "gabarito": "gab_TCEPR_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "990_TCEPR_CG1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_TCEPR_002_01.pdf",
+     "gabarito": "gab_TCEPR_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "990_TCEPR_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Auditor de Controle Externo — Área: Econômica",
+   "id_cargo": "auditor-economica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TCEPR_CG1_01.pdf",
+     "gabarito": "gab_TCEPR_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "990_TCEPR_CG1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_TCEPR_003_01.pdf",
+     "gabarito": "gab_TCEPR_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "990_TCEPR_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Auditor de Controle Externo — Área: Engenharia",
+   "id_cargo": "auditor-engenharia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TCEPR_CG1_01.pdf",
+     "gabarito": "gab_TCEPR_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "990_TCEPR_CG1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_TCEPR_004_01.pdf",
+     "gabarito": "gab_TCEPR_004_01.pdf",
+     "tipo": "mc",
+     "arquivo": "990_TCEPR_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Auditor de Controle Externo — Área: Informática",
+   "id_cargo": "auditor-informatica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TCEPR_CG1_01.pdf",
+     "gabarito": "gab_TCEPR_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "990_TCEPR_CG1_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_TCEPR_005_01.pdf",
+     "gabarito": "gab_TCEPR_005_01.pdf",
+     "tipo": "mc",
+     "arquivo": "990_TCEPR_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Auditor de Controle Externo — Área: Jurídica",
+   "id_cargo": "auditor-juridica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_TCEPR_CG1_01.pdf",
+     "gabarito": "gab_TCEPR_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "990_TCEPR_CG1_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_TCEPR_006_01.pdf",
+     "gabarito": "gab_TCEPR_006_01.pdf",
+     "tipo": "mc",
+     "arquivo": "990_TCEPR_006_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp01": {
+   "98": {
+    "enunciado": "Ao apreciar a prestação de contas de uma entidade, o órgão de auditoria estabelece que o parecer será emitido pela aprovação sem ressalvas, se não for identificada nenhuma fraude nos dez contratos analisados; pela aprovação com ressalvas, se for identificada fraude em até dois contratos; e pela reprovação, se for identificada fraude em mais de dois contratos. Pela experiência do órgão de auditoria, sabe-se que 2% dos contratos costumam apresentar fraudes. Com base nessa situação hipotética e supondo que os contratos analisados sejam independentes uns dos outros, assinale a opção em que é apresentada a probabilidade de as contas da entidade serem aprovadas com ressalvas.",
+    "alternativas": [
+     "1 − 0,98¹⁰.",
+     "0,02² × 0,98⁸.",
+     "45 × 0,02² × 0,98⁸.",
+     "0,02 × 0,98⁹ + 0,02² × 0,98⁸.",
+     "10 × 0,02 × 0,98⁹ + 45 × 0,02² × 0,98⁸."
+    ]
+   }
+  },
+  "esp02": {
+   "87": {
+    "enunciado": "Caso seja investida uma quantia de R$ 100.000 em uma aplicação que rende 10% de juros compostos ao ano, o investimento atingirá o valor de R$ 220.000 em exatos",
+    "alternativas": [
+     "log₁₀(1,1)/log₁₀(2,2) anos.",
+     "log₁₀(2,2)/log₁₀(1,1) anos.",
+     "2 anos.",
+     "2,2 anos.",
+     "log₁₀(2,2) anos."
+    ]
+   },
+   "92": {
+    "enunciado": "Uma dívida de R$ 90.000 deve ser liquidada em quatro pagamentos semestrais consecutivos, respectivamente, de R$ 25.000, R$ 35.000, R$ 30.000, R$ 20.000. A primeira parcela será quitada no momento de assinatura do contrato. Com base nessas informações, assinale a opção que corresponde à equação polinomial cuja raiz fornece a taxa interna de retorno correspondente à situação apresentada.",
+    "alternativas": [
+     "14(1+i)³ − 5(1+i)² − 6(1+i) = 7",
+     "18(1+i)³ − 7(1+i)² − 6(1+i) = 4",
+     "13(1+i)³ − 7(1+i)² − 6(1+i) = 4",
+     "18(1+i)⁴ − 5(1+i)³ − 7(1+i)² − 6(1+i) = 4",
+     "18(1+i)⁴ − 4(1+i)³ − 5(1+i)² − 6(1+i) = 7"
+    ]
+   },
+   "95": {
+    "enunciado": "Suponha que um banco ofereça empréstimos com taxas de juros nominais de 24% ao semestre com capitalização composta. Nesse caso, para um empréstimo a ser pago em exatamente quatro prestações mensais, o custo efetivo será de",
+    "alternativas": [
+     "16%.",
+     "8%.",
+     "100 × (1,02⁴ − 1)%.",
+     "100 × (1,04⁴ − 1)%.",
+     "100 × (1,06⁴ − 1)%."
+    ]
+   },
+   "96": {
+    "enunciado": "Dois analistas, Lucas e João, serão treinados para a identificação de erros de redação em documentos da área jurídica. Nesse treinamento, Lucas receberá 10 documentos para análise, enquanto João receberá 17 documentos. O número X de documentos com erros de redação que Lucas receberá segue a distribuição Binomial (n = 10, p = 0,25), enquanto o número Y de documentos com erros de redação que João receberá segue a distribuição Binomial (n = 17, p = 0,75). Nessa situação hipotética, se as contagens X e Y forem independentes, o desvio padrão da diferença Y − X será igual a",
+    "alternativas": [
+     "18/16.",
+     "21/16.",
+     "36/16.",
+     "41/16.",
+     "81/16."
+    ]
+   }
+  },
+  "esp03": {
+   "64": {
+    "enunciado": "A imposição de um tributo tem um efeito duplo sobre o equilíbrio de mercado de concorrência perfeita: varia o preço, mas também a quantidade transacionada. Esse duplo efeito implica que ambos, consumidores e produtores, paguem uma parcela do total de tributos recolhidos pelo Estado. Normalmente, a capacidade de repasse da carga tributária de um agente para o outro vai depender da capacidade de reação do primeiro agente à variação do preço causada pelo tributo. Considerando-se um bem cuja demanda seja uma curva decrescente em função do preço, se  indica a elasticidade-preço da oferta desse bem, é correto afirmar que o produtor consegue repassar a totalidade dos tributos aos consumidores quando se observa",
+    "alternativas": [
+     "0 < ε < 1.",
+     "ε = 0.",
+     "ε → ∞.",
+     "1 < ε < 2.",
+     "ε = 1."
+    ]
+   }
+  },
+  "esp05": {
+   "69": {
+    "enunciado": "Assinale a opção que corresponde à fase de abordagem de implementação prevista no COBIT 2019 que alinha os objetivos relacionados à tecnologia da informação com as estratégias e os riscos da organização e prioriza as metas organizacionais, as metas de alinhamento e os processos mais importantes, de maneira que, a partir da seleção de objetivos, feita na fase anterior, avalia-se a capacidade atual do componente processo desses objetivos.",
+    "alternativas": [
+     "Fase 1  Quais são os direcionadores?",
+     "Fase 2  Onde estamos agora?",
+     "Fase 3  Onde queremos estar?",
+     "Fase 4  O que precisa ser feito?",
+     "Fase 5  Como chegaremos lá?"
+    ]
+   }
+  }
+ }
+}

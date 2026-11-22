@@ -1,0 +1,238 @@
+{
+ "evento": "MPE_RO_23",
+ "workdir": "/tmp/mpe_ro_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "MPE_RO_23",
+  "ano": 2023,
+  "id_orgao": "mpe"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista Contábil",
+   "id_cargo": "analista-contabil",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MPE_RO_SERVIDOR_CG1_01.pdf",
+     "gabarito": "gab_MPE_RO_SERVIDOR_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "869_MPE_RO_SERVIDOR_CG1_01.PDF"
+    },
+    {
+     "key": "esp001",
+     "prova": "pro_MPE_RO_SERVIDOR_001_01.pdf",
+     "gabarito": "gab_MPE_RO_SERVIDOR_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "869_MPE_RO_SERVIDOR_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista De Redes E Comunicação De Dados",
+   "id_cargo": "analista-de-redes-e-comunicacao-de-dados",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MPE_RO_SERVIDOR_CG1_01.pdf",
+     "gabarito": "gab_MPE_RO_SERVIDOR_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "869_MPE_RO_SERVIDOR_CG1_01.PDF"
+    },
+    {
+     "key": "esp002",
+     "prova": "pro_MPE_RO_SERVIDOR_002_01.pdf",
+     "gabarito": "gab_MPE_RO_SERVIDOR_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "869_MPE_RO_SERVIDOR_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista De Sistemas",
+   "id_cargo": "analista-de-sistemas",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MPE_RO_SERVIDOR_CG1_01.pdf",
+     "gabarito": "gab_MPE_RO_SERVIDOR_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "869_MPE_RO_SERVIDOR_CG1_01.PDF"
+    },
+    {
+     "key": "esp003",
+     "prova": "pro_MPE_RO_SERVIDOR_003_01.pdf",
+     "gabarito": "gab_MPE_RO_SERVIDOR_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "869_MPE_RO_SERVIDOR_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista De Suporte Computacional",
+   "id_cargo": "analista-de-suporte-computacional",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MPE_RO_SERVIDOR_CG1_01.pdf",
+     "gabarito": "gab_MPE_RO_SERVIDOR_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "869_MPE_RO_SERVIDOR_CG1_01.PDF"
+    },
+    {
+     "key": "esp004",
+     "prova": "pro_MPE_RO_SERVIDOR_004_01.pdf",
+     "gabarito": "gab_MPE_RO_SERVIDOR_004_01.pdf",
+     "tipo": "mc",
+     "arquivo": "869_MPE_RO_SERVIDOR_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Analista Em Auditoria",
+   "id_cargo": "analista-em-auditoria",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MPE_RO_SERVIDOR_CG1_01.pdf",
+     "gabarito": "gab_MPE_RO_SERVIDOR_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "869_MPE_RO_SERVIDOR_CG1_01.PDF"
+    },
+    {
+     "key": "esp005",
+     "prova": "pro_MPE_RO_SERVIDOR_005_01.pdf",
+     "gabarito": "gab_MPE_RO_SERVIDOR_005_01.pdf",
+     "tipo": "mc",
+     "arquivo": "869_MPE_RO_SERVIDOR_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Analista Em Estatística",
+   "id_cargo": "analista-em-estatistica",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MPE_RO_SERVIDOR_CG1_01.pdf",
+     "gabarito": "gab_MPE_RO_SERVIDOR_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "869_MPE_RO_SERVIDOR_CG1_01.PDF"
+    },
+    {
+     "key": "esp006",
+     "prova": "pro_MPE_RO_SERVIDOR_006_01.pdf",
+     "gabarito": "gab_MPE_RO_SERVIDOR_006_01.pdf",
+     "tipo": "mc",
+     "arquivo": "869_MPE_RO_SERVIDOR_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Analista Em Jornalismo",
+   "id_cargo": "analista-em-jornalismo",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_MPE_RO_SERVIDOR_CG2_01.pdf",
+     "gabarito": "gab_MPE_RO_SERVIDOR_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "869_MPE_RO_SERVIDOR_CG2_01.PDF"
+    },
+    {
+     "key": "esp007",
+     "prova": "pro_MPE_RO_SERVIDOR_007_01.pdf",
+     "gabarito": "gab_MPE_RO_SERVIDOR_007_01.pdf",
+     "tipo": "mc",
+     "arquivo": "869_MPE_RO_SERVIDOR_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Analista Programador",
+   "id_cargo": "analista-programador",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MPE_RO_SERVIDOR_CG1_01.pdf",
+     "gabarito": "gab_MPE_RO_SERVIDOR_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "869_MPE_RO_SERVIDOR_CG1_01.PDF"
+    },
+    {
+     "key": "esp008",
+     "prova": "pro_MPE_RO_SERVIDOR_008_01.pdf",
+     "gabarito": "gab_MPE_RO_SERVIDOR_008_01.pdf",
+     "tipo": "mc",
+     "arquivo": "869_MPE_RO_SERVIDOR_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Médico",
+   "id_cargo": "medico",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MPE_RO_SERVIDOR_CG1_01.pdf",
+     "gabarito": "gab_MPE_RO_SERVIDOR_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "869_MPE_RO_SERVIDOR_CG1_01.PDF"
+    },
+    {
+     "key": "esp009",
+     "prova": "pro_MPE_RO_SERVIDOR_009_01.pdf",
+     "gabarito": "gab_MPE_RO_SERVIDOR_009_01.pdf",
+     "tipo": "mc",
+     "arquivo": "869_MPE_RO_SERVIDOR_009_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp006": {
+   "32": {
+    "enunciado": "Considerando-se uma variável aleatória contínua X cuja função de distribuição de probabilidade acumulada é representada por F(x), na qual x ∈ ℝ, e sabendo que F(x₂) − F(x₁) = x₂ − x₁, com 0 < x₁ < x₂ < 1, conclui-se que a variância de X é igual a",
+    "alternativas": [
+     "1/12.",
+     "1/3.",
+     "1/2.",
+     "1.",
+     "3/2."
+    ]
+   },
+   "33": {
+    "enunciado": "Uma variável aleatória discreta W assume três valores conforme a distribuição de probabilidade a seguir, na qual a e b são valores tais que 0 < a < b. P(W = 0) = a/b, P(W = 1) = 2a/b, P(W = 2) = 3a/b. Com base nessas informações, conclui-se que a média de W é igual a",
+    "alternativas": [
+     "1.",
+     "4/3.",
+     "3/2.",
+     "7/4.",
+     "2."
+    ]
+   },
+   "39": {
+    "enunciado": "O valor esperado de uma variável aleatória contínua com função de densidade de probabilidade f(x) = c·√x⁵, na qual x ∈ [0,1] e c é uma constante real positiva, é igual a",
+    "alternativas": [
+     "1/2.",
+     "1/3.",
+     "3/4.",
+     "7/9.",
+     "4/5."
+    ]
+   },
+   "44": "No cálculo do intervalo de confiança para a média populacional, dado um nível de confiança γ de 90%, e considerando-se P(Z > 1,645) = 0,05, P(Z > 2,575) = 0,01, P(Z > 2,32) = 0,02, P(Z > 1,96) = 0,025, P(Z > 1,645) = 0,05, P(Z > 1,28) = 0,10, o quantil da distribuição normal (Zγ/2) a ser utilizado será"
+  }
+ }
+}

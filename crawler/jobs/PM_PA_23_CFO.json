@@ -1,0 +1,36 @@
+{
+ "evento": "PM_PA_23_CFO",
+ "workdir": "/tmp/pm_pa_23_cfo",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Oficiais da Polícia Militar do Pará",
+  "ano": 2023,
+  "id_orgao": "pm-pa"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Oficial Da Polícia Militar Do Estado Do Pará",
+   "id_cargo": "oficial-pm",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_PMPA_CFO_CB1_01.pdf",
+     "gabarito": "gab_PMPA_CFO_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "915_PMPA_CFO_CB1_01.PDF"
+    },
+    {
+     "key": "esp",
+     "prova": "pro_PMPA_CFO_001_01.pdf",
+     "gabarito": "gab_PMPA_CFO_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "915_PMPA_CFO_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

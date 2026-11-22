@@ -1,0 +1,45 @@
+{
+ "evento": "PC_ES_22_DELEGADO",
+ "workdir": "/tmp/pc_es_22_delegado",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Polícia Civil do Espírito Santo",
+  "ano": 2022,
+  "id_orgao": "pces"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Delegado de Polícia",
+   "id_cargo": "delegado",
+   "provas": [
+    {
+     "key": "PCES_CG1",
+     "prova": "pro_PC_ES_CG1_01.pdf",
+     "gabarito": "gab_PC_ES_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "729_PC_ES_CG1_01.PDF"
+    },
+    {
+     "key": "PCES_001",
+     "prova": "pro_PC_ES_001_01.pdf",
+     "gabarito": "gab_PC_ES_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "729_PC_ES_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {
+  "PCES_CG1": [
+   10
+  ]
+ },
+ "patch": {
+  "PCES_CG1": {
+   "11": "Um delegado da Polícia Civil do Estado do Espírito Santo recebeu email do diretor da Academia de Polícia, com os arquivos aprovados.rar, desligados.rar e subjudices.rar, e fez download desses arquivos para a unidade C:\\ de seu computador de trabalho. Posteriormente, utilizando o Explorador de Arquivos do sistema operacional Windows 10, esse delegado de polícia selecionou os três arquivos, clicou o botão direito do mouse sobre eles e selecionou a opção “Extrair arquivos…”. Nessa situação hipotética,"
+  }
+ }
+}

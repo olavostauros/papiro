@@ -1,0 +1,34 @@
+{
+  "evento": "PGE_RO_21",
+  "workdir": "/tmp/pge_ro_21",
+  "meta": {
+    "banca": "Cebraspe",
+    "orgao": "Procuradoria-Geral do Estado de Rondônia",
+    "ano": 2021,
+    "id_orgao": "pge-ro"
+  },
+  "cargos": [
+    {
+      "idArea": "01",
+      "cargo": "PROCURADOR DO ESTADO SUBSTITUTO",
+      "id_cargo": "procurador-estado-substituto",
+      "provas": [
+        {
+          "key": "PGE_RO_001_01",
+          "prova": "pro_PGE_RO_001_01.pdf",
+          "gabarito": "gab_PGE_RO_001_01.pdf",
+          "tipo": "mc",
+          "arquivo": "653_PGE_RO_001_01.PDF"
+        }
+      ]
+    }
+  ],
+  "unmatched": [],
+  "variant": "modern",
+  "skip": {
+    "PGE_RO_001_01": [
+      91
+    ]
+  },
+  "patch": {}
+}

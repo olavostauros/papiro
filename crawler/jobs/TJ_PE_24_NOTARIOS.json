@@ -1,0 +1,43 @@
+{
+ "evento": "TJ_PE_24_NOTARIOS",
+ "workdir": "/tmp/tj_pe_24_notarios",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Tribunal de Justiça de Pernambuco",
+  "ano": 2024,
+  "id_orgao": "tj-pe"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Escrevente/Notário — Provimento",
+   "id_cargo": "notario-provimento",
+   "provas": [
+    {
+     "key": "obj1",
+     "prova": "pro_TJPE_001_01.pdf",
+     "gabarito": "gab_TJPE_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "005_TJPE_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Escrevente/Notário — Remoção",
+   "id_cargo": "notario-remocao",
+   "provas": [
+    {
+     "key": "obj2",
+     "prova": "pro_TJPE_002_01.pdf",
+     "gabarito": "gab_TJPE_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "005_TJPE_002_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

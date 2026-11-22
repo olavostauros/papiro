@@ -1,0 +1,30 @@
+{
+ "evento": "PGE_AL_26",
+ "workdir": "/tmp/pge_al_26",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Procuradoria-Geral do Estado de Alagoas (PGE/AL)",
+  "ano": 2026,
+  "id_orgao": "pgeal"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Procurador do Estado – 1ª Classe",
+   "id_cargo": "procurador-do-estado-1a-classe",
+   "provas": [
+    {
+     "key": "p1",
+     "prova": "pro_E30405D8FA2DE9B7FB3214F5.pdf",
+     "gabarito": "gab_43C3F343C215B3BCA4EC0F17.pdf",
+     "tipo": "mc",
+     "arquivo": "E30405D8FA2DE9B7FB3214F56781A2A33187C7F96567C12916CEF4940FDB29AC.pdf",
+     "assunto": "Prova Objetiva"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

@@ -1,0 +1,291 @@
+{
+ "evento": "SEDUC_AL_26",
+ "workdir": "/tmp/seduc_al_26",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Secretaria de Estado da Educação de Alagoas",
+  "ano": 2026,
+  "id_orgao": "seducal"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Professor – Artes",
+   "id_cargo": "professor-artes",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_F1E4E6A1BD96AAD512ACCDDC.pdf",
+     "gabarito": "gab_41DB2A32C2F50BE96D941FC1.pdf",
+     "tipo": "ce",
+     "arquivo": "F1E4E6A1BD96AAD512ACCDDC289955A2C2D1AC46959D0C2643ADB338948128AE.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_FBD47291E2570CF4EC5DE67F.pdf",
+     "gabarito": "gab_5651986AF768F4FAB5C7FCC5.pdf",
+     "tipo": "ce",
+     "arquivo": "FBD47291E2570CF4EC5DE67FAD988C3607F7A6A1069C2E853BE5C18558541C6C.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Professor – Biologia",
+   "id_cargo": "professor-biologia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_F1E4E6A1BD96AAD512ACCDDC.pdf",
+     "gabarito": "gab_41DB2A32C2F50BE96D941FC1.pdf",
+     "tipo": "ce",
+     "arquivo": "F1E4E6A1BD96AAD512ACCDDC289955A2C2D1AC46959D0C2643ADB338948128AE.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_95AA1F78A4796CD44922CD38.pdf",
+     "gabarito": "gab_31B803D186A4C36D1211F314.pdf",
+     "tipo": "ce",
+     "arquivo": "95AA1F78A4796CD44922CD381F6786C49AD2E4E7A585C8C726C65349362B8EBE.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Professor – Educação Física",
+   "id_cargo": "professor-educacao-fisica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_F1E4E6A1BD96AAD512ACCDDC.pdf",
+     "gabarito": "gab_41DB2A32C2F50BE96D941FC1.pdf",
+     "tipo": "ce",
+     "arquivo": "F1E4E6A1BD96AAD512ACCDDC289955A2C2D1AC46959D0C2643ADB338948128AE.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_D852DAE03A840D08214F8901.pdf",
+     "gabarito": "gab_391B72B7AE00E0A7FB56EA4F.pdf",
+     "tipo": "ce",
+     "arquivo": "D852DAE03A840D08214F8901ED2A86934DCED8CD05A073AD3E7B77527BB66A7C.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Professor – Filosofia",
+   "id_cargo": "professor-filosofia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_F1E4E6A1BD96AAD512ACCDDC.pdf",
+     "gabarito": "gab_41DB2A32C2F50BE96D941FC1.pdf",
+     "tipo": "ce",
+     "arquivo": "F1E4E6A1BD96AAD512ACCDDC289955A2C2D1AC46959D0C2643ADB338948128AE.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_BA04AF54BF35B072EAC1E37B.pdf",
+     "gabarito": "gab_B697E91D50AEA524E0C0717D.pdf",
+     "tipo": "ce",
+     "arquivo": "BA04AF54BF35B072EAC1E37B569C3033352A0254E4628ED6FCB47737640220CB.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Professor – Física",
+   "id_cargo": "professor-fisica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_F1E4E6A1BD96AAD512ACCDDC.pdf",
+     "gabarito": "gab_41DB2A32C2F50BE96D941FC1.pdf",
+     "tipo": "ce",
+     "arquivo": "F1E4E6A1BD96AAD512ACCDDC289955A2C2D1AC46959D0C2643ADB338948128AE.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_91AF34F8A7C6AE47FC094BD8.pdf",
+     "gabarito": "gab_FAD8FDA4BF5EEA56FCB227D5.pdf",
+     "tipo": "ce",
+     "arquivo": "91AF34F8A7C6AE47FC094BD8C3D26BCAFA1D10A4FFC982D012B70454439A87C0.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Professor – Geografia",
+   "id_cargo": "professor-geografia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_F1E4E6A1BD96AAD512ACCDDC.pdf",
+     "gabarito": "gab_41DB2A32C2F50BE96D941FC1.pdf",
+     "tipo": "ce",
+     "arquivo": "F1E4E6A1BD96AAD512ACCDDC289955A2C2D1AC46959D0C2643ADB338948128AE.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_97304C4038017A02991B1188.pdf",
+     "gabarito": "gab_2DD2859710F0CABDC0681626.pdf",
+     "tipo": "ce",
+     "arquivo": "97304C4038017A02991B1188CCA48DEE6936750DCDCAE94D7E90D17AD6B255C2.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Professor – História",
+   "id_cargo": "professor-historia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_F1E4E6A1BD96AAD512ACCDDC.pdf",
+     "gabarito": "gab_41DB2A32C2F50BE96D941FC1.pdf",
+     "tipo": "ce",
+     "arquivo": "F1E4E6A1BD96AAD512ACCDDC289955A2C2D1AC46959D0C2643ADB338948128AE.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_4809719B8214276921D98DE2.pdf",
+     "gabarito": "gab_3E9B23BA246B010B9B358063.pdf",
+     "tipo": "ce",
+     "arquivo": "4809719B8214276921D98DE2C9050F125AACAE5F2A4F6BE6CD7372B318EDE333.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Professor – Inglês",
+   "id_cargo": "professor-ingles",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_F1E4E6A1BD96AAD512ACCDDC.pdf",
+     "gabarito": "gab_41DB2A32C2F50BE96D941FC1.pdf",
+     "tipo": "ce",
+     "arquivo": "F1E4E6A1BD96AAD512ACCDDC289955A2C2D1AC46959D0C2643ADB338948128AE.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_24868CE12F17D9151E0A07A1.pdf",
+     "gabarito": "gab_6CDB31A2127757FAC11CE294.pdf",
+     "tipo": "ce",
+     "arquivo": "24868CE12F17D9151E0A07A1A87A4CC53BDCC16F65582D605D185FB47CA40F90.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Professor – Matemática",
+   "id_cargo": "professor-matematica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_F1E4E6A1BD96AAD512ACCDDC.pdf",
+     "gabarito": "gab_41DB2A32C2F50BE96D941FC1.pdf",
+     "tipo": "ce",
+     "arquivo": "F1E4E6A1BD96AAD512ACCDDC289955A2C2D1AC46959D0C2643ADB338948128AE.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_E7DE33606A8F82AFF56D04B4.pdf",
+     "gabarito": "gab_FDCFA122D1D1CBAD4E59E102.pdf",
+     "tipo": "ce",
+     "arquivo": "E7DE33606A8F82AFF56D04B48542582FAD8F55732F91DF54DCB663ADDF079375.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Professor – Português",
+   "id_cargo": "professor-portugues",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_F1E4E6A1BD96AAD512ACCDDC.pdf",
+     "gabarito": "gab_41DB2A32C2F50BE96D941FC1.pdf",
+     "tipo": "ce",
+     "arquivo": "F1E4E6A1BD96AAD512ACCDDC289955A2C2D1AC46959D0C2643ADB338948128AE.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_92E7E1B32254E4559A331AF2.pdf",
+     "gabarito": "gab_4C09D84A3181D7EF9F2AA986.pdf",
+     "tipo": "ce",
+     "arquivo": "92E7E1B32254E4559A331AF29BADCDE20D0F29CC8E515F026A99B660FB23C61B.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Professor – Química",
+   "id_cargo": "professor-quimica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_F1E4E6A1BD96AAD512ACCDDC.pdf",
+     "gabarito": "gab_41DB2A32C2F50BE96D941FC1.pdf",
+     "tipo": "ce",
+     "arquivo": "F1E4E6A1BD96AAD512ACCDDC289955A2C2D1AC46959D0C2643ADB338948128AE.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_AEA319EB163AC816793443B0.pdf",
+     "gabarito": "gab_1532A72518978632B3502380.pdf",
+     "tipo": "ce",
+     "arquivo": "AEA319EB163AC816793443B0C4C5AF81713FA1F471C0C584458D2165CAA769E8.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Professor – Sociologia",
+   "id_cargo": "professor-sociologia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_F1E4E6A1BD96AAD512ACCDDC.pdf",
+     "gabarito": "gab_41DB2A32C2F50BE96D941FC1.pdf",
+     "tipo": "ce",
+     "arquivo": "F1E4E6A1BD96AAD512ACCDDC289955A2C2D1AC46959D0C2643ADB338948128AE.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_CAE17E7D9FE939E9362F8D18.pdf",
+     "gabarito": "gab_48EF69E8F496B2FFA7554D4A.pdf",
+     "tipo": "ce",
+     "arquivo": "CAE17E7D9FE939E9362F8D18DEF62D8365EEB9E7E8DC3C1A5318EEB5ABFB9637.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

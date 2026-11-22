@@ -1,0 +1,105 @@
+{
+ "evento": "TST_23",
+ "workdir": "/tmp/tst_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "TRIBUNAL SUPERIOR DO TRABALHO",
+  "ano": 2023,
+  "id_orgao": "tst"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista Judiciário – Área De Apoio Especializado – Especialidade: Medicina Clínica Médica",
+   "id_cargo": "analista-judiciario-area-de-apoio-especializado-especialidade-medicina-clinica-medica",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TST_SERVIDOR_CB1_01.pdf",
+     "gabarito": "gab_TST_SERVIDOR_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "918_TST_SERVIDOR_CB1_01.PDF"
+    },
+    {
+     "key": "esp001",
+     "prova": "pro_TST_SERVIDOR_001_01.pdf",
+     "gabarito": "gab_TST_SERVIDOR_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "918_TST_SERVIDOR_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista Judiciário – Área De Apoio Especializado – Especialidade: Engenharia Mecânica",
+   "id_cargo": "analista-judiciario-area-de-apoio-especializado-especialidade-engenharia-mecanica",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TST_SERVIDOR_CB1_01.pdf",
+     "gabarito": "gab_TST_SERVIDOR_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "918_TST_SERVIDOR_CB1_01.PDF"
+    },
+    {
+     "key": "esp002",
+     "prova": "pro_TST_SERVIDOR_002_01.pdf",
+     "gabarito": "gab_TST_SERVIDOR_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "918_TST_SERVIDOR_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Técnico Judiciário – Área De Apoio Especializado – Especialidade: Programação",
+   "id_cargo": "tecnico-judiciario-area-de-apoio-especializado-especialidade-programacao",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_TST_SERVIDOR_CB2_01.pdf",
+     "gabarito": "gab_TST_SERVIDOR_CB2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "918_TST_SERVIDOR_CB2_01.PDF"
+    },
+    {
+     "key": "esp003",
+     "prova": "pro_TST_SERVIDOR_003_01.pdf",
+     "gabarito": "gab_TST_SERVIDOR_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "918_TST_SERVIDOR_003_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {
+  "esp003": [
+   48
+  ]
+ },
+ "patch": {
+  "esp002": {
+   "42": {
+    "alternativas": [
+     "P = W/Q",
+     "η = Wútil / (ṁ·(hentrada − hsaída))",
+     "η = Wútil / Qentrada",
+     "W = ṁ·(hentrada − hsaída)",
+     "Q = ṁ·(hentrada − hsaída)"
+    ]
+   }
+  },
+  "cb2": {
+   "16": {
+    "alternativas": [
+     "p → q",
+     "~(~q → p ∧ ~q)",
+     "~p ∨ ~q",
+     "~(p ∧ q)",
+     "p ∧ q → ~q"
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "evento": "MP_AP_21_SERVIDOR",
+ "workdir": "/tmp/mp_ap_21_servidor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Ministério Público do Estado do Amapá",
+  "ano": 2021,
+  "id_orgao": "mp-ap"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista Ministerial – Psicologia",
+   "id_cargo": "analista-psicologia",
+   "provas": [
+    {
+     "key": "cg01",
+     "prova": "pro_MPAP_001_MATRIZ.pdf",
+     "gabarito": "gab_MATRIZ_591MPAPCG1.pdf",
+     "tipo": "mc",
+     "arquivo": "591_MPAP_001_MATRIZ.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_MPAP_001_MATRIZ.pdf",
+     "gabarito": "gab_MATRIZ_591MPAP001.pdf",
+     "tipo": "mc",
+     "arquivo": "591_MPAP_001_MATRIZ.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista Ministerial – Serviço Social",
+   "id_cargo": "analista-servico-social",
+   "provas": [
+    {
+     "key": "cg02",
+     "prova": "pro_MPAP_002_MATRIZ.pdf",
+     "gabarito": "gab_MATRIZ_591MPAPCG1.pdf",
+     "tipo": "mc",
+     "arquivo": "591_MPAP_002_MATRIZ.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_MPAP_002_MATRIZ.pdf",
+     "gabarito": "gab_MATRIZ_591MPAP002.pdf",
+     "tipo": "mc",
+     "arquivo": "591_MPAP_002_MATRIZ.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista Ministerial – Tecnologia da Informação",
+   "id_cargo": "analista-ti",
+   "provas": [
+    {
+     "key": "cg03",
+     "prova": "pro_MPAP_003_MATRIZ.pdf",
+     "gabarito": "gab_MATRIZ_591MPAPCG1.pdf",
+     "tipo": "mc",
+     "arquivo": "591_MPAP_003_MATRIZ.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_MPAP_003_MATRIZ.pdf",
+     "gabarito": "gab_MATRIZ_591MPAP003.pdf",
+     "tipo": "mc",
+     "arquivo": "591_MPAP_003_MATRIZ.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Técnico Ministerial – Auxiliar Administrativo",
+   "id_cargo": "tecnico-auxiliar-administrativo",
+   "provas": [
+    {
+     "key": "cg04",
+     "prova": "pro_MPAP_004_MATRIZ.pdf",
+     "gabarito": "gab_MATRIZ_591MPAPCG2.pdf",
+     "tipo": "mc",
+     "arquivo": "591_MPAP_004_MATRIZ.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_MPAP_004_MATRIZ.pdf",
+     "gabarito": "gab_MATRIZ_591MPAP004.pdf",
+     "tipo": "mc",
+     "arquivo": "591_MPAP_004_MATRIZ.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp03": {
+   "60": {
+    "enunciado": "Considere a seguinte tabela pessoa(id, nome, conjuge, pai, mae): (1, rainha Elizabeth II); (2, príncipe Philip, conjuge=1); (3, príncipe Charles, pai=2, mae=1); (4, princesa Diana); (5, príncipe William, pai=3, mae=4); (6, Kate Middleton, conjuge=4); (7, príncipe Harry, pai=3, mae=4); (8, Meghan Markle, conjuge=7); (9, Camila Rosamaria Shand, conjuge=3); (10, príncipe George de Cambridge, pai=5, mae=6); (11, princesa Charlotte de Cambridge, pai=5, mae=6); (12, príncipe Louis de Cambridge, pai=5, mae=6); (13, Archie Harrison, pai=7, mae=8). Assinale a opção que apresenta o resultado da execução do seguinte comando SQL a partir da tabela apresentada. with recursive pes (id, nome, filho_nome) as ( select p1.id, p1.nome, p2.nome filho_nome from pessoa p1, pessoa p2 where p1.id=p2.pai ) select * from pes order by id",
+    "alternativas": [
+     "(id, nome, filho_nome): (2, príncipe Philip, príncipe Charles); (3, príncipe Charles, príncipe William); (3, príncipe Charles, príncipe Harry); (5, príncipe William, princesa Charlotte de Cambridge); (5, príncipe William, príncipe George de Cambridge); (5, príncipe William, príncipe Louis de Cambridge); (7, príncipe Harry, Archie Harrison)",
+     "(id, nome, filho_nome): (2, príncipe Philip, príncipe Charles); (3, príncipe Charles, príncipe Harry); (3, príncipe Charles, ); (3, príncipe Charles, príncipe William); (5, príncipe William, príncipe Louis de Cambridge); (5, príncipe William, príncipe George de Cambridge); (5, príncipe William, princesa Charlotte de Cambridge); (7, príncipe Harry, Archie Harrison)",
+     "(id, nome, filho_nome): (1, rainha Elizabeth II, ); (2, príncipe Philip, príncipe Charles); (2, príncipe Philip, ); (3, príncipe Charles, príncipe William); (3, príncipe Charles, príncipe Harry); (4, princesa Diana, ); (5, príncipe William, princesa Charlotte de Cambridge); (5, príncipe William, príncipe George de Cambridge); (5, príncipe William, príncipe Louis de Cambridge); (6, Kate Middleton, ); (7, príncipe Harry, Archie Harrison); (8, Meghan Markle, ); (9, Camila Rosamaria Shand, )",
+     "(id, nome, filho_nome): (1, rainha Elizabeth II, ); (1, rainha Elizabeth II, príncipe Charles); (2, príncipe Philip, ); (4, princesa Diana, príncipe Harry); (4, princesa Diana, ); (4, princesa Diana, príncipe William); (6, Kate Middleton, princesa Charlotte de Cambridge); (6, Kate Middleton, príncipe Louis de Cambridge); (6, Kate Middleton, príncipe George de Cambridge); (6, Kate Middleton, ); (8, Meghan Markle, ); (8, Meghan Markle, Archie Harrison); (9, Camila Rosamaria Shand, )",
+     "(id, nome, filho_nome): (1, rainha Elizabeth II, príncipe Charles); (4, princesa Diana, príncipe William); (4, princesa Diana, príncipe Harry); (6, Kate Middleton, princesa Charlotte de Cambridge); (6, Kate Middleton, príncipe George de Cambridge); (6, Kate Middleton, príncipe Louis de Cambridge); (8, Meghan Markle, Archie Harrison)"
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,327 @@
+{
+ "evento": "SEE_PE_22_EDUCACAO_BASICA",
+ "workdir": "/tmp/see_pe_22_educacao_basica",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Secretaria de Educação e Esportes do Estado de Pernambuco",
+  "ano": 2022,
+  "id_orgao": "see-pe"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Professor – Artes",
+   "id_cargo": "professor-artes",
+   "provas": [
+    {
+     "key": "cg01",
+     "prova": "pro_SEE_PE_CG1_01.pdf",
+     "gabarito": "gab_SEE_PE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_CG1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_SEE_PE_001_01.pdf",
+     "gabarito": "gab_SEE_PE_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Professor – Biologia",
+   "id_cargo": "professor-biologia",
+   "provas": [
+    {
+     "key": "cg02",
+     "prova": "pro_SEE_PE_CG1_01.pdf",
+     "gabarito": "gab_SEE_PE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_CG1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_SEE_PE_002_01.pdf",
+     "gabarito": "gab_SEE_PE_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Professor – Educação Física",
+   "id_cargo": "professor-educacao-fisica",
+   "provas": [
+    {
+     "key": "cg03",
+     "prova": "pro_SEE_PE_CG1_01.pdf",
+     "gabarito": "gab_SEE_PE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_CG1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Professor – Filosofia",
+   "id_cargo": "professor-filosofia",
+   "provas": [
+    {
+     "key": "cg04",
+     "prova": "pro_SEE_PE_CG1_01.pdf",
+     "gabarito": "gab_SEE_PE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_CG1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_SEE_PE_004_01.pdf",
+     "gabarito": "gab_SEE_PE_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Professor – Física",
+   "id_cargo": "professor-fisica",
+   "provas": [
+    {
+     "key": "cg05",
+     "prova": "pro_SEE_PE_CG1_01.pdf",
+     "gabarito": "gab_SEE_PE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_CG1_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_SEE_PE_005_01.pdf",
+     "gabarito": "gab_SEE_PE_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Professor – Geografia",
+   "id_cargo": "professor-geografia",
+   "provas": [
+    {
+     "key": "cg06",
+     "prova": "pro_SEE_PE_CG1_01.pdf",
+     "gabarito": "gab_SEE_PE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_CG1_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_SEE_PE_006_01.pdf",
+     "gabarito": "gab_SEE_PE_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Professor – História",
+   "id_cargo": "professor-historia",
+   "provas": [
+    {
+     "key": "cg07",
+     "prova": "pro_SEE_PE_CG1_01.pdf",
+     "gabarito": "gab_SEE_PE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_CG1_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_SEE_PE_007_01.pdf",
+     "gabarito": "gab_SEE_PE_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Professor – Língua Espanhola",
+   "id_cargo": "professor-lingua-espanhola",
+   "provas": [
+    {
+     "key": "cg08",
+     "prova": "pro_SEE_PE_CG1_01.pdf",
+     "gabarito": "gab_SEE_PE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_CG1_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_SEE_PE_008_01.pdf",
+     "gabarito": "gab_SEE_PE_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Professor – Língua Inglesa",
+   "id_cargo": "professor-lingua-inglesa",
+   "provas": [
+    {
+     "key": "cg09",
+     "prova": "pro_SEE_PE_CG1_01.pdf",
+     "gabarito": "gab_SEE_PE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_CG1_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_SEE_PE_009_01.pdf",
+     "gabarito": "gab_SEE_PE_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Professor – Língua Portuguesa",
+   "id_cargo": "professor-lingua-portuguesa",
+   "provas": [
+    {
+     "key": "cg10",
+     "prova": "pro_SEE_PE_CG1_01.pdf",
+     "gabarito": "gab_SEE_PE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_CG1_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_SEE_PE_010_01.pdf",
+     "gabarito": "gab_SEE_PE_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Professor – Matemática",
+   "id_cargo": "professor-matematica",
+   "provas": [
+    {
+     "key": "cg11",
+     "prova": "pro_SEE_PE_CG1_01.pdf",
+     "gabarito": "gab_SEE_PE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_CG1_01.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_SEE_PE_011_01.pdf",
+     "gabarito": "gab_SEE_PE_011_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Professor – Química",
+   "id_cargo": "professor-quimica",
+   "provas": [
+    {
+     "key": "cg12",
+     "prova": "pro_SEE_PE_CG1_01.pdf",
+     "gabarito": "gab_SEE_PE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_CG1_01.PDF"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_SEE_PE_012_01.pdf",
+     "gabarito": "gab_SEE_PE_012_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Professor – Sociologia",
+   "id_cargo": "professor-sociologia",
+   "provas": [
+    {
+     "key": "cg13",
+     "prova": "pro_SEE_PE_CG1_01.pdf",
+     "gabarito": "gab_SEE_PE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_CG1_01.PDF"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_SEE_PE_013_01.pdf",
+     "gabarito": "gab_SEE_PE_013_01.pdf",
+     "tipo": "ce",
+     "arquivo": "714_SEE_PE_013_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp05": {
+   "53": "Na situação da figura anterior, |F⃗₁| = |F⃗₂|.",
+   "54": "O trabalho realizado pelo martelo para deslocar o prego de uma distância d é igual a (1/2)F⃗₁·d⃗.",
+   "55": "No ponto A, o vetor força responsável pelo início do movimento do esqueitista tem os mesmos módulo, direção e sentido que o vetor força gravitacional F⃗ = m·g⃗.",
+   "63": "O teorema de Stevin estabelece que a pressão absoluta em um ponto de um líquido homogêneo e incompressível, de densidade ρ e à profundidade h, é igual à pressão atmosférica (exercida sobre a superfície desse líquido) mais a pressão efetiva.",
+   "65": "O módulo da força que age no êmbolo da seringa de área A₂ é igual a 50 N.",
+   "70": "Para o diagrama apresentado, as projeções nos planos A₁, A₂ e A₃, indicadas pelas setas, referem-se às leis de Boyle, de Gay-Lussac e de Charles, respectivamente."
+  },
+  "esp11": {
+   "51": "Se (aₙ) for uma sequência de números reais, de forma que a₃ₙ − a₂ₙ ≤ 1/n², então a sequência (aₙ) converge.",
+   "52": "Sendo Fₙ a sequência de Fibonacci, a sequência (bₙ), em que bₙ = Fₙ₊₁/Fₙ, converge para um número maior que 1,5.",
+   "53": "Considere-se que (aₙ) seja uma sequência tal que a₆ = 3, a₇ = 5 e a₉ = 12. Nesse caso, é possível estabelecer um valor para a₈, de modo que os termos a₆, a₇, a₈ e a₉ estejam em progressão geométrica.",
+   "54": "Se (aₙ) é uma progressão aritmética com razão q, tal que −1 < q < −1/2, então (aₙ) não é convergente, pois seus termos alternam entre positivo e negativo.",
+   "55": "Existe uma sequência (aₙ) que é, simultaneamente, uma progressão aritmética e uma progressão geométrica.",
+   "56": "Se f: ℝ → ℝ e o gráfico de f for uma reta, tal que f(2) = 0 e f(−3) = 5, então f(4x) é divisível por 2 para todo x ∈ ℤ.",
+   "57": "Considere-se que f: ℝ → ℝ seja um polinômio do segundo grau dado por f(x) = ax² + bx + c, cujo gráfico é uma parábola com a concavidade voltada para baixo, vértice no ponto A = (1, 6) e passando pelo ponto B = (0, 5). Nesse caso, b = −2.",
+   "58": "Se f e g são funções reais, tais que f(x) = x + 10 e g(x) = eˣ, então existe x pertencente ao conjunto dos números reais, tal que f(x) = g(x).",
+   "60": "Se m e n forem números naturais, então a soma m + n resulta em um número primo se, e somente se, mdc(m,n) = 1.",
+   "64": "Se x é um ângulo entre 0° e 180°, tal que sen(45°+x) = (1+√3)/(2√2) e cos(45°+x) = (−1+√3)/(2√2), então x = 60°.",
+   "65": "Considere-se um triângulo retângulo cuja hipotenusa mede 10 cm e um de seus ângulos internos θ seja tal que tan(θ) = √3/3. Nesse caso, somando-se o valor do perímetro desse triângulo, em cm, com o valor de sua área, em cm², obtém-se um resultado inferior a 50.",
+   "66": "A distância entre o ponto P = (6,−2) e a reta que passa pelos pontos (2,0) e (0,2) é menor que 1,5.",
+   "71": "A parte imaginária do número complexo (−√2/2 + i√2/2)¹² é positiva.",
+   "72": "Os números complexos z₀ = 1, z₁ = −1/2 − √3i/2 e z₂ = −1/2 + √3i/2 são vértices de um triângulo equilátero.",
+   "73": "Quando z = a + ib é um número complexo, então a equação |2z − 1|² + 2|z + z̄|² = 3/2 define, no plano complexo, uma elipse com centro no ponto (1/2, 0).",
+   "74": "Se z = x + yi for um número complexo, então o conjunto solução da equação z̄² = 4z possuirá quatro elementos.",
+   "75": "Situação hipotética: Em determinada festa junina, as primeiras 50 pessoas que chegaram ao local receberam números de 1 a 50 para participarem de um sorteio. Na hora de sortear o número vencedor, os participantes foram reunidos e verificou-se que as pessoas que estavam com os números 14 e 27 já haviam ido embora. Sabendo desse fato, a organização excluiu esses dois números do sorteio. Assertiva: Nesse caso, a probabilidade de ter sido sorteado um número que não esteja no conjunto {n ∈ ℕ: 15 ≤ n ≤ 26} é inferior a 75%.",
+   "77": "Situação hipotética: Em uma brincadeira de determinada festa junina, os jogadores devem tirar de uma urna duas bolas em sequência e sem reposição. A urna contém 10 bolas, numeradas de 1 a 10. Para ganhar o jogo, os participantes da brincadeira devem tirar duas bolas cujos números mostrados possuam diferença, em módulo, igual a 1. Assertiva: Nessa situação, a probabilidade de ganhar o jogo é de 20%.",
+   "79": "Situação hipotética: Quatro equipes de dança — E₁, E₂, E₃ e E₄ — estão competindo no concurso de melhor quadrilha de uma festa junina. Sabe-se que as equipes E₁ e E₄ têm chances iguais de vencer a competição e que a equipe E₃ tem duas vezes mais chances de vencer o concurso que a equipe E₂. Sabe-se, também, que a probabilidade de que a equipe E₁ ou a equipe E₃ vença é de 60%. Assertiva: Nessa situação, a probabilidade de a equipe E₃ vencer o concurso de quadrilhas é de 20%.",
+   "80": "Considerando-se uma matriz A ∈ ℝᵐˣⁿ, um vetor x ∈ ℝⁿ e b ∈ ℝᵐ, se m < n, então o sistema linear Ax = b nunca terá solução.",
+   "81": "Para que a matriz M = [[1, 0, a], [−1, 1, −2], [a, 1, 1]] não seja singular, é necessário que a ≠ ±√13/2 − 1/2.",
+   "82": "Considere-se v ∈ ℝⁿ, A ∈ ℝⁿˣⁿ e a matriz M ∈ ℝⁿˣⁿ cujas entradas sejam dadas da seguinte forma: mᵢⱼ = aᵢⱼ, para todo i ∈ {1,2,3,…,n} e j ∈ {1,3,4,…,n}, e mᵢ₂ = aᵢ₂ + vᵢ, i ∈ {1,2,3,…,n}. Nesse caso, é correto concluir que det(M) = det(A) + |v|, em que |v| = √(v₁² + v₂² + ⋯ + vₙ²).",
+   "83": "O espaço solução do sistema linear x + z + k = 0; y + w = 0; x + y + z + w = 0; y + z + w + k = 0; z + w = 0 é um conjunto de cardinalidade infinita.",
+   "84": "Situação hipotética: Em determinada sala de aula, o professor utilizou o seguinte histograma para apresentar as notas que os estudantes obtiveram na avaliação de ciências: frequências 7, 10, 5, 8 e 3 nos intervalos de notas 0–2, 2–4, 4–6, 6–8 e 8–10, respectivamente. Assertiva: Conclui-se dos dados apresentados que a média das notas dos alunos é inferior a 4,50 pontos.",
+   "85": "Situação hipotética: A tabela a seguir apresenta a quantidade de gols marcados por 10 dos jogadores do time de handebol da escola Alfa no campeonato interescolar: x = 46, 37, 40, 33, 42, 36, 40, 47, 34, 45. Assertiva: Com base no conjunto de amostras fornecido, é correto afirmar que o desvio padrão amostral é superior a 5.",
+   "91": "O elemento situado na n-ésima coluna da terceira linha pode sempre ser obtido pela expressão n(n+1)/2.",
+   "100": "Situação hipotética: Em uma sala de aula, um professor criou uma situação hipotética, afirmando que, caso, entre os 300 funcionários de uma empresa, 30 ou mais funcionários fossem aleatoriamente selecionados para a verificação de intolerância à lactose, então, com certeza, pelo menos um deles teria essa condição. Assertiva: Nessa situação, se p representa a probabilidade de pelo menos uma pessoa ter intolerância à lactose em um grupo de 30 funcionários selecionados ao acaso, então é correto concluir que p = 1."
+  }
+ }
+}

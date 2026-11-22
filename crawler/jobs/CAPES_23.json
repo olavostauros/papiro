@@ -1,0 +1,161 @@
+{
+ "evento": "CAPES_23",
+ "workdir": "/tmp/capes_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "CAPES",
+  "ano": 2023,
+  "id_orgao": "capes"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista em Ciência e Tecnologia",
+   "id_cargo": "analista",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_CAPES_CG1_01.pdf",
+     "gabarito": "gab_CAPES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "947_CAPES_CG1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_CAPES_001_01.pdf",
+     "gabarito": "gab_CAPES_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "947_CAPES_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista em Ciência e Tecnologia – — Especialidade: Biblioteconomia",
+   "id_cargo": "analista-biblioteconomia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_CAPES_CG1_01.pdf",
+     "gabarito": "gab_CAPES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "947_CAPES_CG1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_CAPES_002_01.pdf",
+     "gabarito": "gab_CAPES_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "947_CAPES_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista em Ciência e Tecnologia – — Especialidade: Contabilidade",
+   "id_cargo": "analista-contabilidade",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_CAPES_CG1_01.pdf",
+     "gabarito": "gab_CAPES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "947_CAPES_CG1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_CAPES_003_01.pdf",
+     "gabarito": "gab_CAPES_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "947_CAPES_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista em Ciência e Tecnologia – — Especialidade: Estatística",
+   "id_cargo": "analista-estatistica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_CAPES_CG1_01.pdf",
+     "gabarito": "gab_CAPES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "947_CAPES_CG1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_CAPES_004_01.pdf",
+     "gabarito": "gab_CAPES_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "947_CAPES_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Analista em Ciência e Tecnologia – — Especialidade: Informática",
+   "id_cargo": "analista-informatica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_CAPES_CG1_01.pdf",
+     "gabarito": "gab_CAPES_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "947_CAPES_CG1_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_CAPES_005_01.pdf",
+     "gabarito": "gab_CAPES_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "947_CAPES_005_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp04": {
+   "52": "P(X = 0,5) = 1 − √a.",
+   "53": "A função de densidade da variável aleatória X é dada pela forma f(x), tal que f(x) = x·a^(x−1), se x ≥ 0, e f(x) = 0, se x < 0.",
+   "54": "Na transformação Y = 1 − a^X, a variável aleatória Y segue uma distribuição contínua com média 1/2 e variância 1/12.",
+   "55": "A média de X é −1/ln a.",
+   "56": "A variância de W̄ é inferior a 1/n.",
+   "57": "Se n = 5 e se a variância populacional for representada como σ², a quantidade 4 × V/σ² segue uma distribuição qui-quadrado com 4 graus de liberdade.",
+   "58": "W̄ converge em probabilidade para 0,5 à medida que n → +∞.",
+   "59": "O valor esperado da variável aleatória V é igual a um valor inferior a 0,05.",
+   "60": "Se μ representa a média populacional e se n = 10, então a razão (W̄ − μ)/√(V/10) segue uma distribuição t de Student com 9 graus de liberdade.",
+   "61": "Se μ = 0 e σ = 1, então X² + Y² segue distribuição qui-quadrado com dois graus de liberdade.",
+   "62": "Se S = X + Y e D = X − Y, então S e D são variáveis aleatórias independentes.",
+   "63": "Nas condições apresentadas, Var[X + Y] > Var[X − Y].",
+   "64": "A razão (X − Y)/(2σ) se distribui conforme uma distribuição normal padrão.",
+   "65": "E[Var(X|W)] = W.",
+   "66": "Var(X) = 1.",
+   "67": "E(X|W = w) = w.",
+   "68": "P(X = 3) = 1/16.",
+   "69": "O valor esperado da variável aleatória X é igual a w.",
+   "70": "Se R segue uma distribuição t de Student, então seu grau de liberdade é igual a 2,25.",
+   "71": "Se R e S seguem distribuições normais, então a combinação linear R + (2/5)S também segue uma distribuição normal.",
+   "72": "A correlação entre (R + S) e (R − S) é igual a 1.",
+   "73": "O valor esperado de (R + S)² é igual a 1.",
+   "74": "O estimador θ̂ de um parâmetro θ, baseado no método da função de verossimilhança, é não enviesado e suficiente, isto é, E(θ̂) = θ.",
+   "75": "É correto afirmar que E(μ̂ₙ) = μ e √Var(μ̂ₙ) = σ/n.",
+   "76": "A variável normalizada e centralizada do estimador μ̂ₙ = X̄ₙ é (μ̂ₙ − μ)√n/σ e tem, assintoticamente, distribuição normal unitária N(0,1) para n → ∞.",
+   "77": "Para uma amostra aleatória da variável X, cuja distribuição depende de m parâmetros {θ₁, θ₂, ⋯, θₘ}, deve-se obter m estimadores, minimizando a função de verossimilhança L(θ₁, θ₂, ⋯, θₘ).",
+   "78": "Para um valor 0 < α < 1, o intervalo de confiança, com confiança 1 − α, para a estimativa de E(X) = μ, utilizando-se o estimador ûₙ, será assintoticamente (n → ∞) dado por (X̄ₙ − z_α σ/√n, X̄ₙ + z_α σ/√n), em que z_α é o quantil α da distribuição N(0,1).",
+   "79": "Considere que, para uma regressão linear simples da relação Y = β₀ + β₁X, em uma amostra de 32 valores de X, obteve-se: β̂₁ = 2 como estimativa para β₁; soma dos quadrados dos resíduos igual a 600; e Σᵢ(Xᵢ − X̄)² = 2.000, em que X̄ é a média dos valores de X na amostra. Considere ainda que tenha sido feito o teste da hipótese de não existir a relação linear Y = β₀ + β₁X, tomando-se como hipótese nula que β₁ = 0. Nessas condições, assumindo um teste com erro do tipo I igual a 5%, é correto afirmar que a hipótese de não existir a relação linear deve ser aceita.",
+   "80": "Na análise de adequação do modelo, é fundamental verificar se a variância dos resíduos não depende da variável X.",
+   "81": "Para um modelo de regressão linear, vale a relação linear E(Y) = β₀ + β₁X para a média E(Y) da variável Y.",
+   "82": "Para um modelo de regressão que não seja simples, a soma dos resíduos não será nula.",
+   "83": "Para o modelo de regressão linear, a média e a variância do estimador do parâmetro β₁ serão respectivamente dados por E(β̂₁) = β₁ e Var(β̂₁) = σ²/Σᵢ(Xᵢ − X̄)² e, para o modelo de regressão linear simples, β̂₀ e β̂₁ têm distribuições de probabilidades gaussianas.",
+   "84": "Um estimador não viciado para a variância de β̂ᵢ é obtido pela variância amostral dada por S² = SQE/[(n − 2)Σᵢ(Xᵢ − X̄)²], em que X̄ = ΣᵢXᵢ/n e a variável centralizada de β̂ᵢ, normalizada por S, tem uma distribuição t de Student com n − 1 graus de liberdade.",
+   "85": "O coeficiente de determinação para um modelo de regressão linear é definido como r² = (SQT − SQE)/SQT e sua raiz quadrada corresponde ao coeficiente de correlação linear entre as variáveis Y e X.",
+   "86": "Testes de hipótese nulas com probabilidade de erro de tipo II muito pequenos são muito significativos para provar a verdade da hipótese nula.",
+   "87": "Se o estimador θ̂ tem intervalo de aceitação com probabilidade 1 − α, então a probabilidade do erro de tipo I será α.",
+   "88": "Em alguns casos, dependendo do tipo de distribuição para o estimador θ̂, é possível definir erros muito pequenos para os dois tipos de erros.",
+   "89": "Testes com probabilidade de erro de tipo I pequenos são significativos para provar a falsidade de hipótese nula H₀."
+  }
+ }
+}

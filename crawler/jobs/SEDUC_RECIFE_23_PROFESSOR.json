@@ -1,0 +1,221 @@
+{
+ "evento": "SEDUC_RECIFE_23_PROFESSOR",
+ "workdir": "/tmp/seduc_recife_23_professor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Prefeitura do Recife — Secretaria de Educação (SEDUC)",
+  "id_orgao": "seduc-recife",
+  "ano": 2023,
+  "evento": "SEDUC_RECIFE_23_PROFESSOR"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "PROFESSOR I",
+   "id_cargo": "professor-i",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_SEDUC_RECIFE_23_CB1_01.pdf",
+     "gabarito": "gab_SEDUC_RECIFE_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "829_SEDUC_RECIFE_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp001",
+     "prova": "pro_SEDUC_RECIFE_23_001_01.pdf",
+     "gabarito": "gab_SEDUC_RECIFE_23_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "829_SEDUC_RECIFE_23_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "PROFESSOR II – DISCIPLINA: ARTES",
+   "id_cargo": "professor-ii-artes",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_SEDUC_RECIFE_23_CB1_01.pdf",
+     "gabarito": "gab_SEDUC_RECIFE_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "829_SEDUC_RECIFE_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp002",
+     "prova": "pro_SEDUC_RECIFE_23_002_01.pdf",
+     "gabarito": "gab_SEDUC_RECIFE_23_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "829_SEDUC_RECIFE_23_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "PROFESSOR II – DISCIPLINA: CIÊNCIAS",
+   "id_cargo": "professor-ii-ciencias",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_SEDUC_RECIFE_23_CB1_01.pdf",
+     "gabarito": "gab_SEDUC_RECIFE_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "829_SEDUC_RECIFE_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp003",
+     "prova": "pro_SEDUC_RECIFE_23_003_01.pdf",
+     "gabarito": "gab_SEDUC_RECIFE_23_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "829_SEDUC_RECIFE_23_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "PROFESSOR II – DISCIPLINA: EDUCAÇÃO FÍSICA",
+   "id_cargo": "professor-ii-educacao-fisica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_SEDUC_RECIFE_23_CB1_01.pdf",
+     "gabarito": "gab_SEDUC_RECIFE_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "829_SEDUC_RECIFE_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp004",
+     "prova": "pro_SEDUC_RECIFE_23_004_01.pdf",
+     "gabarito": "gab_SEDUC_RECIFE_23_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "829_SEDUC_RECIFE_23_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "PROFESSOR II – DISCIPLINA: GEOGRAFIA",
+   "id_cargo": "professor-ii-geografia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_SEDUC_RECIFE_23_CB1_01.pdf",
+     "gabarito": "gab_SEDUC_RECIFE_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "829_SEDUC_RECIFE_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp005",
+     "prova": "pro_SEDUC_RECIFE_23_005_01.pdf",
+     "gabarito": "gab_SEDUC_RECIFE_23_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "829_SEDUC_RECIFE_23_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "PROFESSOR II – DISCIPLINA: HISTÓRIA",
+   "id_cargo": "professor-ii-historia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_SEDUC_RECIFE_23_CB1_01.pdf",
+     "gabarito": "gab_SEDUC_RECIFE_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "829_SEDUC_RECIFE_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp006",
+     "prova": "pro_SEDUC_RECIFE_23_006_01.pdf",
+     "gabarito": "gab_SEDUC_RECIFE_23_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "829_SEDUC_RECIFE_23_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "PROFESSOR II – DISCIPLINA: LÍNGUA INGLESA",
+   "id_cargo": "professor-ii-lingua-inglesa",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_SEDUC_RECIFE_23_CB1_01.pdf",
+     "gabarito": "gab_SEDUC_RECIFE_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "829_SEDUC_RECIFE_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp007",
+     "prova": "pro_SEDUC_RECIFE_23_007_01.pdf",
+     "gabarito": "gab_SEDUC_RECIFE_23_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "829_SEDUC_RECIFE_23_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "PROFESSOR II – DISCIPLINA: LÍNGUA PORTUGUESA",
+   "id_cargo": "professor-ii-lingua-portugues",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_SEDUC_RECIFE_23_CB1_01.pdf",
+     "gabarito": "gab_SEDUC_RECIFE_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "829_SEDUC_RECIFE_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp008",
+     "prova": "pro_SEDUC_RECIFE_23_008_01.pdf",
+     "gabarito": "gab_SEDUC_RECIFE_23_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "829_SEDUC_RECIFE_23_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "PROFESSOR II – DISCIPLINA: MATEMÁTICA",
+   "id_cargo": "professor-ii-matematica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_SEDUC_RECIFE_23_CB1_01.pdf",
+     "gabarito": "gab_SEDUC_RECIFE_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "829_SEDUC_RECIFE_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp009",
+     "prova": "pro_SEDUC_RECIFE_23_009_01.pdf",
+     "gabarito": "gab_SEDUC_RECIFE_23_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "829_SEDUC_RECIFE_23_009_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp003": {
+   "86": "A temperatura na escala Fahrenheit que corresponde ao dobro da temperatura indicada na escala Celsius é 320 °F."
+  },
+  "esp009": {
+   "55": "A medida de área 13 dam² − 13 m² + 13 cm² é igual a 128700,13 dm².",
+   "63": "A diferença entre 1,1³ e 0,9³ é 0,2³.",
+   "64": "A representação decimal do número 3530/125 tem 3 casas decimais.",
+   "65": "O número ⁷√(⁵√(³√7)) pode ser reescrito na forma ¹⁰⁵√(7⁷¹).",
+   "67": "Se n ∈ ℤ, o número (n³ + 1)/(n − 1) só será inteiro se n = 0 ou n = 2.",
+   "68": "A fração 25/33 pode ser representada pela expressão 1/2 + 1/4 + 1/132.",
+   "69": "O número (√5)^(log_{√5} 4) é um número irracional.",
+   "70": "O número 1/(√6 − √5) é igual ao número √6 + √5.",
+   "82": "O volume do bloco A é superior a 22 m³.",
+   "83": "O volume do bloco B é inferior a 130 m³."
+  }
+ }
+}

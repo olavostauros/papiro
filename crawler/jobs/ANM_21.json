@@ -1,0 +1,51 @@
+{
+ "evento": "ANM_21",
+ "workdir": "/tmp/anm_21",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Agência Nacional de Mineração",
+  "ano": 2021,
+  "id_orgao": "anm"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "ESPECIALISTA EM RECURSOS MINERAIS",
+   "id_cargo": "especialista-recursos-minerais",
+   "provas": [
+    {
+     "key": "ANM_CB1_01",
+     "prova": "pro_ANM_CB1_01.pdf",
+     "gabarito": "gab_ANM_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "670_ANM_CB1_01.PDF"
+    },
+    {
+     "key": "ANM_001_01",
+     "prova": "pro_ANM_001_01.pdf",
+     "gabarito": "gab_ANM_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "670_ANM_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {
+  "ANM_001_01": [
+   41,
+   42,
+   53,
+   54,
+   55,
+   59,
+   60,
+   61,
+   62,
+   63,
+   91
+  ]
+ },
+ "patch": {}
+}

@@ -1,0 +1,38 @@
+{
+ "evento": "PREF_PORTO_ALEGRE_RS_26",
+ "workdir": "/tmp/pref_porto_alegre_rs_26",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Prefeitura de Porto Alegre",
+  "ano": 2026,
+  "id_orgao": "prefpoa"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista da Procuradoria-Geral do Município – Área Jurídica",
+   "id_cargo": "analista-procuradoria-juridica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_FA32247D477DED109F8D65D1.pdf",
+     "gabarito": "gab_9763811887CA2FEB398F70C0.pdf",
+     "tipo": "mc",
+     "arquivo": "FA32247D477DED109F8D65D1FC655B784567E811E5F1EEDDB96E4ED1D724F91E.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp",
+     "prova": "pro_DC665AD5ABCE6FE6AC51623B.pdf",
+     "gabarito": "gab_EF03727E28356BEB03EB9D8F.pdf",
+     "tipo": "mc",
+     "arquivo": "DC665AD5ABCE6FE6AC51623B9DEFE61183B957D8E8DF828B2201F42C02A43956.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

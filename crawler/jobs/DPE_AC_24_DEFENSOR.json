@@ -1,0 +1,27 @@
+{
+ "evento": "DPE_AC_24_DEFENSOR",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "DPE-AC",
+  "ano": 2024,
+  "id_orgao": "dpe-ac"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Defensor Público Nível I",
+   "id_cargo": "defensor",
+   "provas": [
+    {
+     "key": "p1",
+     "prova": "pro_DPE_AC_001_01.pdf",
+     "gabarito": "gab_DPE_AC_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "965_DPE_AC_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {}
+}

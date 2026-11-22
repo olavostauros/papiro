@@ -1,0 +1,231 @@
+{
+ "evento": "SEMED_ARACAJU_24",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "SEMED Aracaju",
+  "ano": 2024,
+  "id_orgao": "semed-aracaju"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Professor – Arte",
+   "id_cargo": "professor-arte",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_SEMED_CG1_01.pdf",
+     "gabarito": "gab_SEMED_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "025_SEMED_CG1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_SEMED_001_01.pdf",
+     "gabarito": "gab_SEMED_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "025_SEMED_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor – Ciências",
+   "id_cargo": "professor-ciencias",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_SEMED_CG1_01.pdf",
+     "gabarito": "gab_SEMED_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "025_SEMED_CG1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_SEMED_002_01.pdf",
+     "gabarito": "gab_SEMED_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "025_SEMED_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor – Educação Física",
+   "id_cargo": "professor-educacao-fisica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_SEMED_CG1_01.pdf",
+     "gabarito": "gab_SEMED_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "025_SEMED_CG1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_SEMED_003_01.pdf",
+     "gabarito": "gab_SEMED_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "025_SEMED_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor – Ensino Religioso",
+   "id_cargo": "professor-ensino-religioso",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_SEMED_CG1_01.pdf",
+     "gabarito": "gab_SEMED_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "025_SEMED_CG1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_SEMED_004_01.pdf",
+     "gabarito": "gab_SEMED_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "025_SEMED_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor – Geografia",
+   "id_cargo": "professor-geografia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_SEMED_CG1_01.pdf",
+     "gabarito": "gab_SEMED_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "025_SEMED_CG1_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_SEMED_005_01.pdf",
+     "gabarito": "gab_SEMED_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "025_SEMED_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor – História",
+   "id_cargo": "professor-historia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_SEMED_CG1_01.pdf",
+     "gabarito": "gab_SEMED_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "025_SEMED_CG1_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_SEMED_006_01.pdf",
+     "gabarito": "gab_SEMED_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "025_SEMED_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor – Língua Inglesa",
+   "id_cargo": "professor-lingua-inglesa",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_SEMED_CG1_01.pdf",
+     "gabarito": "gab_SEMED_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "025_SEMED_CG1_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_SEMED_007_01.pdf",
+     "gabarito": "gab_SEMED_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "025_SEMED_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor – Língua Portuguesa",
+   "id_cargo": "professor-lingua-portuguesa",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_SEMED_CG1_01.pdf",
+     "gabarito": "gab_SEMED_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "025_SEMED_CG1_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_SEMED_008_01.pdf",
+     "gabarito": "gab_SEMED_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "025_SEMED_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor – Matemática",
+   "id_cargo": "professor-matematica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_SEMED_CG1_01.pdf",
+     "gabarito": "gab_SEMED_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "025_SEMED_CG1_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_SEMED_009_01.pdf",
+     "gabarito": "gab_SEMED_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "025_SEMED_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor – Pedagogia",
+   "id_cargo": "professor-pedagogia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_SEMED_CG1_01.pdf",
+     "gabarito": "gab_SEMED_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "025_SEMED_CG1_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_SEMED_010_01.pdf",
+     "gabarito": "gab_SEMED_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "025_SEMED_010_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {
+  "esp02": {
+   "102": "A indicação do amperímetro A1 é igual a 3 A.",
+   "103": "A indicação do amperímetro A2 é igual a 1 A."
+  },
+  "esp09": {
+   "53": "Se a, b e c forem números irracionais, então a × b × c será sempre um número irracional.",
+   "59": "Considere que x e y sejam dois números naturais tais que: • x não tem algarismos na classe dos milhões; • y tem algarismo positivo na classe dos milhões; • y – x não tem algarismo na classe dos milhões; • o algarismo da classe da unidade de milhões de y + x é diferente de 1. Nessas condições, y ≥ 1.500.000.",
+   "60": "Suponha que, a partir dos elementos da sequência aₙ = 2n², em que n ≥ 1, tenha sido construída uma nova sequência bₖ, em que k ≥ 1 e cujos elementos sejam divisíveis por 5. Nessa situação, o décimo termo da sequência bₖ será inferior a 2.000.",
+   "67": "Suponha que a e b sejam números naturais tais que: • a seja divisível por 6 e por 10; • a não seja divisível por nenhum número primo maior que 10; • b seja divisível por 6 e por 14; • b não seja divisível por 10. Nessas condições, MMC(a, b)/MDC(a, b) < 30.",
+   "97": "Suponha que, em um evento, oito pessoas estejam programadas para se sentar em uma mesa circular, tal que três delas não podem se sentar uma ao lado da outra, mas não haja restrição caso duas dessas três pessoas se sentem lado a lado. Nessa situação, a probabilidade de distribuir os lugares de forma que essas três pessoas se sentem juntas é 1/8.",
+   "98": "Ao se escolher, ao acaso, um ponto dentro de um hexágono regular de lado igual a 4 unidades de comprimento, a probabilidade de esse ponto estar a uma distância de até 1 unidade de comprimento dos vértices do hexágono é π√3/36.",
+   "100": "Se dois dados, cada um com seis lados numerados, forem lançados ao acaso, a probabilidade de um dado mostrar um número maior que o mostrado pelo outro será 5/12.",
+   "102": "Suponha que o faturamento de uma loja: • no mês de março, diminuiu 8% em comparação ao faturamento de fevereiro; • no mês de abril, diminuiu 10% em relação ao faturamento de março; • no mês de maio, aumentou 20% em relação ao faturamento de abril. Nessas condições, o faturamento da loja em maio foi inferior ao faturamento de fevereiro.",
+   "112": "Considerando que as polegadas de uma televisão são medidas pela sua diagonal, para uma televisão de 32 polegadas e razão de aspecto de 16:9, a área visível será igual a (2^14 · 3²)/337 polegadas quadradas.",
+   "115": "Considere que, antes de pousar em um aeroporto, os aviões sejam orientados a circular até que sejam autorizados a descer. Considere, ainda, que um desses aviões esteja consumindo combustível a uma taxa de 171/4 litros por hora e tenha 95/4 litros restantes em seu tanque. Nesse caso, esse avião conseguirá continuar voando por mais de 35 minutos até o combustível acabar."
+  }
+ }
+}

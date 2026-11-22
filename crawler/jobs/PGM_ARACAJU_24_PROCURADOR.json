@@ -1,0 +1,29 @@
+{
+ "evento": "PGM_ARACAJU_24_PROCURADOR",
+ "workdir": "/tmp/pgm_aracaju_24_procurador",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Procuradoria-Geral do Município de Aracaju",
+  "ano": 2024,
+  "id_orgao": "pgm-aracaju"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Procurador do Município de Aracaju",
+   "id_cargo": "procurador",
+   "provas": [
+    {
+     "key": "obj",
+     "prova": "pro_PGMARACAJU_001_01.pdf",
+     "gabarito": "gab_PGMARACAJU_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "037_PGMARACAJU_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

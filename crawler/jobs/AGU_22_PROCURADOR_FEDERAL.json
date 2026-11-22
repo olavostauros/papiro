@@ -1,0 +1,73 @@
+{
+ "evento": "AGU_22_PROCURADOR_FEDERAL",
+ "workdir": "/tmp/agu_22_procurador_federal",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Advocacia-Geral da União",
+  "ano": 2022,
+  "id_orgao": "agu"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "PROCURADOR FEDERAL",
+   "id_cargo": "procurador-federal",
+   "provas": [
+    {
+     "key": "AGU_PF_001_01",
+     "prova": "pro_AGU_PF_001_01.pdf",
+     "gabarito": "gab_AGU_PF_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "806_AGU_PF_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [
+  {
+   "key": "MALOTE06_AGU_ORAL_COMPAD",
+   "prova": "pro_MALOTE06_AGU_ORAL_COMPAD.pdf",
+   "gabarito": "gab_AGU_PF_001_01.pdf",
+   "tipo": "ce",
+   "arquivo": "910_MALOTE06_AGU_ORAL_COMPADRAO.PDF"
+  },
+  {
+   "key": "MALOTE05_AGU_ORAL_COMPAD",
+   "prova": "pro_MALOTE05_AGU_ORAL_COMPAD.pdf",
+   "gabarito": "gab_AGU_PF_001_01.pdf",
+   "tipo": "ce",
+   "arquivo": "910_MALOTE05_AGU_ORAL_COMPADRAO.PDF"
+  },
+  {
+   "key": "MALOTE04_AGU_ORAL_COMPAD",
+   "prova": "pro_MALOTE04_AGU_ORAL_COMPAD.pdf",
+   "gabarito": "gab_AGU_PF_001_01.pdf",
+   "tipo": "ce",
+   "arquivo": "910_MALOTE04_AGU_ORAL_COMPADRAO.PDF"
+  },
+  {
+   "key": "MALOTE03_AGU_ORAL_COMPAD",
+   "prova": "pro_MALOTE03_AGU_ORAL_COMPAD.pdf",
+   "gabarito": "gab_AGU_PF_001_01.pdf",
+   "tipo": "ce",
+   "arquivo": "910_MALOTE03_AGU_ORAL_COMPADRAO.PDF"
+  },
+  {
+   "key": "MALOTE02_AGU_ORAL_COMPAD",
+   "prova": "pro_MALOTE02_AGU_ORAL_COMPAD.pdf",
+   "gabarito": "gab_AGU_PF_001_01.pdf",
+   "tipo": "ce",
+   "arquivo": "910_MALOTE02_AGU_ORAL_COMPADRAO.PDF"
+  },
+  {
+   "key": "MALOTE01_AGU_ORAL_COMPAD",
+   "prova": "pro_MALOTE01_AGU_ORAL_COMPAD.pdf",
+   "gabarito": "gab_AGU_PF_001_01.pdf",
+   "tipo": "ce",
+   "arquivo": "910_MALOTE01_AGU_ORAL_COMPADRAO.PDF"
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

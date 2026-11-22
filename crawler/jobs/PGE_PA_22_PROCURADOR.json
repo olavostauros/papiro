@@ -1,0 +1,30 @@
+{
+ "evento": "PGE_PA_22_PROCURADOR",
+ "workdir": "/tmp/pge_pa_22_procurador",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Procuradoria-Geral do Estado do Pará",
+  "ano": 2022,
+  "id_orgao": "pge-pa"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "PROCURADOR DO ESTADO DO PARÁ",
+   "id_cargo": "procurador-do-estado",
+   "provas": [
+    {
+     "key": "PGE_PA_001_01",
+     "prova": "pro_PGE_PA_001_01.pdf",
+     "gabarito": "gab_PGE_PA_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "715_PGE_PA_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

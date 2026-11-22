@@ -1,0 +1,30 @@
+{
+ "evento": "PGE_AL_21_PROCURADOR",
+ "workdir": "/tmp/pge_al_21_procurador",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Procuradoria Geral do Estado de Alagoas",
+  "ano": 2021,
+  "id_orgao": "pge-al"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "PROCURADOR DO ESTADO DE ALAGOAS – 1ª CLASSE",
+   "id_cargo": "procurador",
+   "provas": [
+    {
+     "key": "PGEAL_001_01",
+     "prova": "pro_PGEAL_001_01.pdf",
+     "gabarito": "gab_PGEAL_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "608_PGEAL_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

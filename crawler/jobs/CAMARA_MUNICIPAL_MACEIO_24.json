@@ -1,0 +1,107 @@
+{
+ "evento": "CAMARA_MUNICIPAL_MACEIO_24",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Câmara de Maceió",
+  "ano": 2024,
+  "id_orgao": "camara-maceio"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista Administrativo",
+   "id_cargo": "analista-administrativo",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_CAMARA_MACEIO_CB1_01.pdf",
+     "gabarito": "gab_CAMARA_MACEIO_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "972_CAMARA_MACEIO_CB1_01.PDF"
+    },
+    {
+     "key": "esp1",
+     "prova": "pro_CAMARA_MACEIO_001_01.pdf",
+     "gabarito": "gab_CAMARA_MACEIO_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "972_CAMARA_MACEIO_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Legislativo",
+   "id_cargo": "analista-legislativo",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_CAMARA_MACEIO_CB1_01.pdf",
+     "gabarito": "gab_CAMARA_MACEIO_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "972_CAMARA_MACEIO_CB1_01.PDF"
+    },
+    {
+     "key": "esp2",
+     "prova": "pro_CAMARA_MACEIO_002_01.pdf",
+     "gabarito": "gab_CAMARA_MACEIO_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "972_CAMARA_MACEIO_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Procurador Legislativo",
+   "id_cargo": "procurador-legislativo",
+   "provas": [
+    {
+     "key": "esp3",
+     "prova": "pro_CAMARA_MACEIO_003_01.pdf",
+     "gabarito": "gab_CAMARA_MACEIO_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "972_CAMARA_MACEIO_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Apoio Administrativo",
+   "id_cargo": "apoio-administrativo",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_CAMARA_MACEIO_CB2_01.pdf",
+     "gabarito": "gab_CAMARA_MACEIO_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "972_CAMARA_MACEIO_CB2_01.PDF"
+    },
+    {
+     "key": "esp4",
+     "prova": "pro_CAMARA_MACEIO_004_01.pdf",
+     "gabarito": "gab_CAMARA_MACEIO_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "972_CAMARA_MACEIO_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Apoio Legislativo",
+   "id_cargo": "apoio-legislativo",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_CAMARA_MACEIO_CB2_01.pdf",
+     "gabarito": "gab_CAMARA_MACEIO_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "972_CAMARA_MACEIO_CB2_01.PDF"
+    },
+    {
+     "key": "esp5",
+     "prova": "pro_CAMARA_MACEIO_005_01.pdf",
+     "gabarito": "gab_CAMARA_MACEIO_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "972_CAMARA_MACEIO_005_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {}
+}

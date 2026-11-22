@@ -1,0 +1,34 @@
+{
+ "evento": "PREF_ANDRADINA_25_PROCURADOR",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Prefeitura de Andradina",
+  "ano": 2025,
+  "id_orgao": "pref-andradina"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Procurador do Município",
+   "id_cargo": "procurador",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREFANDRADINA_CG1_01.pdf",
+     "gabarito": "gab_F27BE8169B17FB44BBEB2ECB.pdf",
+     "tipo": "ce",
+     "arquivo": "104_PREFANDRADINA_CG1_01.pdf"
+    },
+    {
+     "key": "esp",
+     "prova": "pro_PREFANDRADINA_001_01.pdf",
+     "gabarito": "gab_F1AC3EFA263CFC167B07268E.pdf",
+     "tipo": "ce",
+     "arquivo": "104_PREFANDRADINA_001_01.pdf"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {}
+}

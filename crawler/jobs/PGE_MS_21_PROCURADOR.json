@@ -1,0 +1,30 @@
+{
+  "evento": "PGE_MS_21_PROCURADOR",
+  "workdir": "/tmp/pge_ms_21_procurador",
+  "meta": {
+    "banca": "Cebraspe",
+    "orgao": "Procuradoria-Geral do Estado de Mato Grosso do Sul",
+    "ano": 2021,
+    "id_orgao": "pge-ms"
+  },
+  "cargos": [
+    {
+      "idArea": "01",
+      "cargo": "Procurador do Estado de Mato Grosso do Sul",
+      "id_cargo": "procurador-estado",
+      "provas": [
+        {
+          "key": "PGEMS_001_01",
+          "prova": "pro_PGEMS_001_01.pdf",
+          "gabarito": "gab_PGEMS_001_01.pdf",
+          "tipo": "mc",
+          "arquivo": "636_PGEMS_001_01.PDF"
+        }
+      ]
+    }
+  ],
+  "unmatched": [],
+  "variant": "modern",
+  "skip": {},
+  "patch": {}
+}

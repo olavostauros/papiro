@@ -1,0 +1,392 @@
+{
+ "evento": "PETROBRAS_23_NTJ",
+ "workdir": "/tmp/petro_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Petróleo Brasileiro S.A. (Petrobras)",
+  "ano": 2023,
+  "id_orgao": "petrobras"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Enfermagem do Trabalho",
+   "id_cargo": "enfermagem-do-trabalho",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_PETROBRAS_23_CB1_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp001",
+     "prova": "pro_PETROBRAS_23_001_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Inspeção de Equipamentos e Instalações",
+   "id_cargo": "inspecao-de-equipamentos-e-instalacoes",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_PETROBRAS_23_CB1_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp002",
+     "prova": "pro_PETROBRAS_23_002_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Logística de Transportes - Controle",
+   "id_cargo": "logistica-de-transportes-controle",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_PETROBRAS_23_CB1_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp003",
+     "prova": "pro_PETROBRAS_23_003_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Manutenção - Calderaria",
+   "id_cargo": "manutencao-calderaria",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_PETROBRAS_23_CB1_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp004",
+     "prova": "pro_PETROBRAS_23_004_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Manutenção - Elétrica",
+   "id_cargo": "manutencao-eletrica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_PETROBRAS_23_CB1_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp005",
+     "prova": "pro_PETROBRAS_23_005_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Manutenção - Instrumentação",
+   "id_cargo": "manutencao-instrumentacao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_PETROBRAS_23_CB1_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp006",
+     "prova": "pro_PETROBRAS_23_006_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Manutenção - Mecânica",
+   "id_cargo": "manutencao-mecanica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_PETROBRAS_23_CB1_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp007",
+     "prova": "pro_PETROBRAS_23_007_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Operação",
+   "id_cargo": "operacao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_PETROBRAS_23_CB1_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp008",
+     "prova": "pro_PETROBRAS_23_008_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Operação de Lastro",
+   "id_cargo": "operacao-de-lastro",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_PETROBRAS_23_CB1_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp009",
+     "prova": "pro_PETROBRAS_23_009_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Projetos, Construção e Montagem - Edificações",
+   "id_cargo": "projetos-construcao-e-montagem-edificacoes",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_PETROBRAS_23_CB1_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp010",
+     "prova": "pro_PETROBRAS_23_010_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Projetos, Construção e Montagem - Elétrica",
+   "id_cargo": "projetos-construcao-e-montagem-eletrica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_PETROBRAS_23_CB1_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp011",
+     "prova": "pro_PETROBRAS_23_011_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_011_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Projetos, Construção e Montagem - Instrumentação",
+   "id_cargo": "projetos-construcao-e-montagem-instrumentacao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_PETROBRAS_23_CB1_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp012",
+     "prova": "pro_PETROBRAS_23_012_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_012_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Projetos, Construção e Montagem - Mecânica",
+   "id_cargo": "projetos-construcao-e-montagem-mecanica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_PETROBRAS_23_CB1_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp013",
+     "prova": "pro_PETROBRAS_23_013_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_013_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_013_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "Química de Petróleo",
+   "id_cargo": "quimica-de-petroleo",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_PETROBRAS_23_CB1_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp014",
+     "prova": "pro_PETROBRAS_23_014_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_014_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_014_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "Segurança do Trabalho",
+   "id_cargo": "seguranca-do-trabalho",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_PETROBRAS_23_CB1_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp015",
+     "prova": "pro_PETROBRAS_23_015_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_015_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_015_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "Suprimento de Bens e Serviços - Administração",
+   "id_cargo": "suprimento-de-bens-e-servicos-administracao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_PETROBRAS_23_CB1_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_CB1_01.PDF"
+    },
+    {
+     "key": "esp016",
+     "prova": "pro_PETROBRAS_23_016_01.pdf",
+     "gabarito": "gab_PETROBRAS_23_016_01.pdf",
+     "tipo": "ce",
+     "arquivo": "950_PETROBRAS_23_016_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "cb": {
+   "29": "Se o som produzido por um helicóptero tiver frequência de 40 Hz, então a onda sonora correspondente pode ser modelada pela função S(t) = S0 sen(80·π·t), em que S0 é a amplitude da onda e t é o tempo em segundos.",
+   "30": "Se houver dois aumentos sucessivos de 10% projetados para o preço do barril de petróleo para cada um dos próximos dois meses, então esse preço, daqui a dois meses, será inferior a R$ 500.",
+   "31": "A inversa da matriz dos coeficientes C = [[415, 2], [1, 1]] é dada por C⁻¹ = [[1, −2], [−1, 415]]."
+  },
+  "esp002": {
+   "42": "Considerando-se os potenciais de redução E⁰(Fe²⁺/Fe) = −0,44 V e E⁰(H⁺/H₂) = 0,00 V, é correto afirmar que um prego de ferro colocado em uma solução de HCl 1 mol/L permanece em seu estado inalterado.",
+   "44": "O potencial da semirreação representada a seguir não depende do pH. HCOOH → CO₂ + 2 H⁺ + 2 e⁻",
+   "47": "Para um material isotrópico, o coeficiente de dilatação volumétrico (γ) se relaciona com o coeficiente de dilatação linear (α) por meio da equação γ = α/3.",
+   "48": "Considere que a velocidade limite (v) de um vapor dentro de um separador líquido-vapor para evitar o arraste de gotículas de líquido seja representada pela equação v = K·((ρL − ρV)/ρV)⁰·⁵, em que K representa uma constante empírica, ρL, a densidade do líquido e ρV, a densidade do vapor. Nesse caso, a constante K tem a mesma unidade de v."
+  },
+  "esp004": {
+   "47": "A maioria dos materiais metálicos, quando submetidos a uma tensão de tração elevada, apresenta uma proporcionalidade entre a tensão aplicada e a deformação observada, conforme a relação E = σ/ε = (F·l₀)/(A₀·Δl), em que E é o módulo de Hooke e fornece uma indicação da rigidez do material.",
+   "74": "Ligas de ferro-carbono que contêm entre 0,76% e 2,14% de carbono, quando resfriadas a partir de temperaturas dentro do campo da fase γ, apresentam uma microestrutura perlita e cementita proeutetoide em temperatura ambiente.",
+   "75": "A cementita (Fe₃C) se forma quando o limite de solubilidade para o carbono na ferrita γ é excedido em temperaturas de, no máximo, 727 °C, para composições dentro da região das fases α + Fe₃C.",
+   "78": "À temperatura ambiente, a forma estável do ferro puro é conhecida por ferrita, ou ferro α, que possui uma estrutura cristalina CFC.",
+   "80": "A perlita é a microestrutura que surge devido ao resfriamento lento do aço eutetoide por meio da temperatura eutetoide e que é formada por camadas alternadas ou lamelas compostas pelas duas fases (α e Fe₃C) que se formam simultaneamente durante a transformação."
+  },
+  "esp008": {
+   "60": "Se o comprimento do referido condutor fosse dobrado (2 × L) e a área da sua seção transversal fosse, também, dobrada (2 × A), mantidos os demais parâmetros, haveria uma corrente elétrica de valor i atravessando esse condutor.",
+   "61": "A onda eletromagnética que se propaga no meio M₂ terá frequência dada por (n₂ / n₁) × f₁.",
+   "74": "A temperatura de um sistema é uma medida da energia de movimento de todos os átomos e moléculas do sistema; o aumento da temperatura resulta do aumento de energia interna do sistema."
+  },
+  "esp009": {
+   "98": "A amplitude da corrente que passa pela resistência de 12 Ω pode ser medida conectando-se os terminais de um instrumento de medição adequado em paralelo com essa resistência."
+  },
+  "esp011": {
+   "49": "Caso a tensão da fonte, vi(t), seja uma função senoidal com frequência angular ω, a impedância complexa do ramo do circuito que fica à direita dos pontos A e B será dada, em ohms, por 1.000 + 1/(10⁻⁷ jω).",
+   "50": "Para o subcircuito à esquerda dos pontos A e B, a tensão equivalente de Thévenin é igual a vi(t)/2 e a resistência equivalente de Thévenin é igual a 1,5 kΩ.",
+   "60": "A tensão no ponto b do circuito é suficiente para alimentar uma carga que demande 9 V.",
+   "61": "Para realizar periodicamente a inversão do sentido de rotação de um motor de indução do tipo gaiola de esquilo, basta permutar quaisquer duas das três linhas de alimentação do motor.",
+   "62": "Um motor com enrolamento de campo do tipo série pode ser utilizado como um motor de corrente contínua, com um fluxo de corrente baixo e resistência alta.",
+   "63": "O fluxo magnético produzido pelas correntes na armadura de um motor síncrono gira à frente do fluxo produzido pela corrente de campo.",
+   "64": "A partida direta de um motor elétrico tem como uma de suas características o conjugado de partida elevado."
+  },
+  "esp014": {
+   "58": "A reação Ca(NO₃)₂ + Na₂CO₃ → CaCO₃ + 2 NaNO₃ é do tipo dupla troca.",
+   "59": "A reação 2 NaN₃ → 2 Na + 3 N₂ representa um processo de síntese."
+  }
+ }
+}

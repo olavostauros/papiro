@@ -1,0 +1,42 @@
+{
+ "evento": "SEFAZ_RN_25_AUDITOR",
+ "workdir": "/tmp/sefaz_rn_25_auditor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Secretaria de Estado da Tributação do Rio Grande do Norte",
+  "ano": 2025,
+  "id_orgao": "sefazrn"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Auditor Fiscal de Receitas Estaduais",
+   "id_cargo": "auditor-fiscal-de-receitas-estaduais",
+   "provas": [
+    {
+     "key": "p1",
+     "prova": "pro_4340D68739F96A011498EEC6.pdf",
+     "gabarito": "gab_26956498F8C9D30DABBC47FB.pdf",
+     "tipo": "mc",
+     "arquivo": "4340D68739F96A011498EEC630CCE234A4289F61DD55DF0D032D04C4D673B6CC.pdf"
+    },
+    {
+     "key": "p2",
+     "prova": "pro_A04377ECD0117203BF077718.pdf",
+     "gabarito": "gab_84857B39C519A85B8D13DA47.pdf",
+     "tipo": "mc",
+     "arquivo": "A04377ECD0117203BF0777181EE813F41E59996F099A35C1B9214C3C65E1AD16.pdf",
+     "num_offset": 80
+    },
+    {
+     "key": "p3",
+     "prova": "pro_355613AE6F4CBAEBA889E8A2.pdf",
+     "gabarito": "gab_CAA752D9479FB2950FC4628B.pdf",
+     "tipo": "mc",
+     "arquivo": "355613AE6F4CBAEBA889E8A28F0DB4FC3887AE80F556A18EFF6980A58F662096.pdf",
+     "num_offset": 160
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "evento": "CGE_AL_26",
+ "workdir": "/tmp/cge_al_26",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Controladoria Geral do Estado de Alagoas (CGE/AL)",
+  "ano": 2026,
+  "id_orgao": "cgeal"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista de Controle Interno – Ciências Contábeis",
+   "id_cargo": "analista-de-controle-interno-ciencias-contabeis",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_3F823B3783B526B278E1E345.pdf",
+     "gabarito": "gab_11EB6E43BB7B9D9353D3EE32.pdf",
+     "tipo": "ce",
+     "arquivo": "3F823B3783B526B278E1E3452972BC6F83C4207D6C25A5E9C898639C7218EFF0.pdf",
+     "assunto": "Conhecimentos Básicos"
+    },
+    {
+     "key": "esp",
+     "prova": "pro_6A03839D2036E88263FC70B5.pdf",
+     "gabarito": "gab_A3A16EACEC6609C65C560D31.pdf",
+     "tipo": "ce",
+     "arquivo": "6A03839D2036E88263FC70B58771671F2C9BA0908A6431D21DBAA81935A43DF2.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

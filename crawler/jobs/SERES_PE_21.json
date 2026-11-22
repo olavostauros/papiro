@@ -1,0 +1,42 @@
+{
+ "evento": "SERES_PE_21",
+ "workdir": "/tmp/seres_pe_21",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Secretaria Executiva de Ressocialização de Pernambuco",
+  "ano": 2021,
+  "id_orgao": "seres-pe"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Policial Penal do Estado",
+   "id_cargo": "policial-penal",
+   "provas": [
+    {
+     "key": "SERESPE_NS",
+     "prova": "pro_SERESPE_NS_COM_JUSTIFICA.pdf",
+     "gabarito": "gab_combined.txt",
+     "tipo": "mc",
+     "arquivo": "671_SERESPE_NS_COM_JUSTIFICATIVA.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "SERESPE_NS": {
+   "18": {
+    "alternativas": [
+     "P",
+     "(P ˄ Q ˄ R) → S",
+     "P → (Q ∧ R)",
+     "(P ˄ Q) → R",
+     "(P ˄ Q ˄ R) → S ˄ T"
+    ]
+   }
+  }
+ }
+}

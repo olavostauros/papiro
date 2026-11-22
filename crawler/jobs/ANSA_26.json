@@ -1,0 +1,444 @@
+{
+ "evento": "ANSA_26",
+ "workdir": "/tmp/ansa_26",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Araucária Nitrogenados",
+  "ano": 2025,
+  "id_orgao": "ansa"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Administração",
+   "id_cargo": "administracao",
+   "provas": [
+    {
+     "key": "cbsup",
+     "prova": "pro_5C2A5158CF581F92B3ADDC5D.pdf",
+     "gabarito": "gab_BA9EF5C78FE527CDE721381D.pdf",
+     "tipo": "ce",
+     "arquivo": "5C2A5158CF581F92B3ADDC5DE83F48FBBD073D56D8847F632EAB15414B5BF95A.pdf"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_CD61CE7BFAA36344AD71CFC2.pdf",
+     "gabarito": "gab_1317DFA633416A356C73B210.pdf",
+     "tipo": "ce",
+     "arquivo": "CD61CE7BFAA36344AD71CFC2C953003B7C3F2F194EA483BCE1E296E81FD7EDC2.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Advocacia",
+   "id_cargo": "advocacia",
+   "provas": [
+    {
+     "key": "cbsup",
+     "prova": "pro_5C2A5158CF581F92B3ADDC5D.pdf",
+     "gabarito": "gab_BA9EF5C78FE527CDE721381D.pdf",
+     "tipo": "ce",
+     "arquivo": "5C2A5158CF581F92B3ADDC5DE83F48FBBD073D56D8847F632EAB15414B5BF95A.pdf"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_EFDCCD719A8BCDA1C7645913.pdf",
+     "gabarito": "gab_42E2D76989E24F53069A6AA7.pdf",
+     "tipo": "ce",
+     "arquivo": "EFDCCD719A8BCDA1C7645913CB1D8434E98F9DAA03891E29479FF91418EBCE31.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Contabilidade",
+   "id_cargo": "contabilidade",
+   "provas": [
+    {
+     "key": "cbsup",
+     "prova": "pro_5C2A5158CF581F92B3ADDC5D.pdf",
+     "gabarito": "gab_BA9EF5C78FE527CDE721381D.pdf",
+     "tipo": "ce",
+     "arquivo": "5C2A5158CF581F92B3ADDC5DE83F48FBBD073D56D8847F632EAB15414B5BF95A.pdf"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_8264EE02E92D5910B6ACEF87.pdf",
+     "gabarito": "gab_936ADF26F1847793D9461A0C.pdf",
+     "tipo": "ce",
+     "arquivo": "8264EE02E92D5910B6ACEF8714A18B3290DB2EFD596E7E88A1453D4EE2413C32.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Medicina do Trabalho",
+   "id_cargo": "medicina-do-trabalho",
+   "provas": [
+    {
+     "key": "cbsup",
+     "prova": "pro_5C2A5158CF581F92B3ADDC5D.pdf",
+     "gabarito": "gab_BA9EF5C78FE527CDE721381D.pdf",
+     "tipo": "ce",
+     "arquivo": "5C2A5158CF581F92B3ADDC5DE83F48FBBD073D56D8847F632EAB15414B5BF95A.pdf"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_8CD1BAF00B75370D8318F1A0.pdf",
+     "gabarito": "gab_5067391ABC6DDCE4EF84C6F0.pdf",
+     "tipo": "ce",
+     "arquivo": "8CD1BAF00B75370D8318F1A0BE94A7E5AF73E83E24B7956EF679DA90470DF7FB.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Administração e Controle",
+   "id_cargo": "administracao-e-controle",
+   "provas": [
+    {
+     "key": "cbmed",
+     "prova": "pro_FA0BD745976857A98487E1EC.pdf",
+     "gabarito": "gab_FF65B1E1DF91A39A7FF13E2A.pdf",
+     "tipo": "ce",
+     "arquivo": "FA0BD745976857A98487E1EC9827BD55F9407ABF6B3F2E8B4458015371152D6C.pdf"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_1473A0D654A4620B09F28A21.pdf",
+     "gabarito": "gab_C10F39E19D937BF9E55A4097.pdf",
+     "tipo": "ce",
+     "arquivo": "1473A0D654A4620B09F28A218639AADA97DF8DFE89BD9D0744CC5EEA60392CF2.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "Enfermagem",
+   "id_cargo": "enfermagem",
+   "provas": [
+    {
+     "key": "cbmed",
+     "prova": "pro_FA0BD745976857A98487E1EC.pdf",
+     "gabarito": "gab_FF65B1E1DF91A39A7FF13E2A.pdf",
+     "tipo": "ce",
+     "arquivo": "FA0BD745976857A98487E1EC9827BD55F9407ABF6B3F2E8B4458015371152D6C.pdf"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_B5DD338774B795F92F47ACCF.pdf",
+     "gabarito": "gab_1C241FB10D7F225B3D5065F3.pdf",
+     "tipo": "ce",
+     "arquivo": "B5DD338774B795F92F47ACCFF2DA378571CA1BF1C669FDA2981D8786962A5673.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "Inspeção de Equipamentos e Instalações",
+   "id_cargo": "inspecao-de-equipamentos-e-instalacoes",
+   "provas": [
+    {
+     "key": "cbmed",
+     "prova": "pro_FA0BD745976857A98487E1EC.pdf",
+     "gabarito": "gab_FF65B1E1DF91A39A7FF13E2A.pdf",
+     "tipo": "ce",
+     "arquivo": "FA0BD745976857A98487E1EC9827BD55F9407ABF6B3F2E8B4458015371152D6C.pdf"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_C54547EA5668E09F89388BFC.pdf",
+     "gabarito": "gab_398FBD0BF7261085BF97AD0D.pdf",
+     "tipo": "ce",
+     "arquivo": "C54547EA5668E09F89388BFCAF6F168AE8595AB8B8B3A9DB56860BA0BA96598B.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "Logística de Transporte",
+   "id_cargo": "logistica-de-transporte",
+   "provas": [
+    {
+     "key": "cbmed",
+     "prova": "pro_FA0BD745976857A98487E1EC.pdf",
+     "gabarito": "gab_FF65B1E1DF91A39A7FF13E2A.pdf",
+     "tipo": "ce",
+     "arquivo": "FA0BD745976857A98487E1EC9827BD55F9407ABF6B3F2E8B4458015371152D6C.pdf"
+    },
+    {
+     "key": "esp16",
+     "prova": "pro_EAFB48A278527AD4255A0A2E.pdf",
+     "gabarito": "gab_485073D7F59D349652F25FE8.pdf",
+     "tipo": "ce",
+     "arquivo": "EAFB48A278527AD4255A0A2E5F97191E2FC0249B5E460BF2B5498D6954B32B71.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "17",
+   "cargo": "Manutenção – Calderaria",
+   "id_cargo": "manutencao-calderaria",
+   "provas": [
+    {
+     "key": "cbmed",
+     "prova": "pro_FA0BD745976857A98487E1EC.pdf",
+     "gabarito": "gab_FF65B1E1DF91A39A7FF13E2A.pdf",
+     "tipo": "ce",
+     "arquivo": "FA0BD745976857A98487E1EC9827BD55F9407ABF6B3F2E8B4458015371152D6C.pdf"
+    },
+    {
+     "key": "esp17",
+     "prova": "pro_C6FCD731A7A7129D0C43E308.pdf",
+     "gabarito": "gab_3F8201B64E048B3298A5B65C.pdf",
+     "tipo": "ce",
+     "arquivo": "C6FCD731A7A7129D0C43E3088A09F60182C8110988ED5BD3884A7E9A79EE9226.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "18",
+   "cargo": "Manutenção – Elétrica",
+   "id_cargo": "manutencao-eletrica",
+   "provas": [
+    {
+     "key": "cbmed",
+     "prova": "pro_FA0BD745976857A98487E1EC.pdf",
+     "gabarito": "gab_FF65B1E1DF91A39A7FF13E2A.pdf",
+     "tipo": "ce",
+     "arquivo": "FA0BD745976857A98487E1EC9827BD55F9407ABF6B3F2E8B4458015371152D6C.pdf"
+    },
+    {
+     "key": "esp18",
+     "prova": "pro_ABB1B4073A7D295F1684E3A1.pdf",
+     "gabarito": "gab_EBAF7B1DE922B4E7DE4A3F09.pdf",
+     "tipo": "ce",
+     "arquivo": "ABB1B4073A7D295F1684E3A17EC81DCB3B08BFF332FC76C8A595A602B3404F2B.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "19",
+   "cargo": "Manutenção – Instrumentação",
+   "id_cargo": "manutencao-instrumentacao",
+   "provas": [
+    {
+     "key": "cbmed",
+     "prova": "pro_FA0BD745976857A98487E1EC.pdf",
+     "gabarito": "gab_FF65B1E1DF91A39A7FF13E2A.pdf",
+     "tipo": "ce",
+     "arquivo": "FA0BD745976857A98487E1EC9827BD55F9407ABF6B3F2E8B4458015371152D6C.pdf"
+    },
+    {
+     "key": "esp19",
+     "prova": "pro_D7C386B30CDD75E5876879E6.pdf",
+     "gabarito": "gab_8099DF14F3597AAE7E6C7CA5.pdf",
+     "tipo": "ce",
+     "patch": {
+      "88": "A soma de produtos mínima que implementa a função booleana F(A, B, C) é AC̅ + BC̅.",
+      "89": "O comportamento do circuito pode ser descrito pela expressão booleana F(A, B, C) = ĀB̅C + ĀBC + ABC."
+     },
+     "arquivo": "D7C386B30CDD75E5876879E620B27F1E83789694C8C4EF4486557C391E490736.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "20",
+   "cargo": "Manutenção – Mecânica",
+   "id_cargo": "manutencao-mecanica",
+   "provas": [
+    {
+     "key": "cbmed",
+     "prova": "pro_FA0BD745976857A98487E1EC.pdf",
+     "gabarito": "gab_FF65B1E1DF91A39A7FF13E2A.pdf",
+     "tipo": "ce",
+     "arquivo": "FA0BD745976857A98487E1EC9827BD55F9407ABF6B3F2E8B4458015371152D6C.pdf"
+    },
+    {
+     "key": "esp20",
+     "prova": "pro_CC90D2D7478D73DDE6395F57.pdf",
+     "gabarito": "gab_A55CF012BA7D2862574B63DB.pdf",
+     "tipo": "ce",
+     "arquivo": "CC90D2D7478D73DDE6395F57AC9CDEBE2FA722EB98B050C2404349E0F7FB095F.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "21",
+   "cargo": "Meio Ambiente",
+   "id_cargo": "meio-ambiente",
+   "provas": [
+    {
+     "key": "cbmed",
+     "prova": "pro_FA0BD745976857A98487E1EC.pdf",
+     "gabarito": "gab_FF65B1E1DF91A39A7FF13E2A.pdf",
+     "tipo": "ce",
+     "arquivo": "FA0BD745976857A98487E1EC9827BD55F9407ABF6B3F2E8B4458015371152D6C.pdf"
+    },
+    {
+     "key": "esp21",
+     "prova": "pro_3E8DBE6FA243FA89720E2B89.pdf",
+     "gabarito": "gab_023360FA06FBA628308A15B5.pdf",
+     "tipo": "ce",
+     "arquivo": "3E8DBE6FA243FA89720E2B89361E1C3CD33C4B47A2290313E8ECF2E6F2606FD2.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "22",
+   "cargo": "Operação",
+   "id_cargo": "operacao",
+   "provas": [
+    {
+     "key": "cbmed",
+     "prova": "pro_FA0BD745976857A98487E1EC.pdf",
+     "gabarito": "gab_FF65B1E1DF91A39A7FF13E2A.pdf",
+     "tipo": "ce",
+     "arquivo": "FA0BD745976857A98487E1EC9827BD55F9407ABF6B3F2E8B4458015371152D6C.pdf"
+    },
+    {
+     "key": "esp22",
+     "prova": "pro_40F7C5718A488A1E5EB00AE8.pdf",
+     "gabarito": "gab_AB5BCA4A440FF3A48E0BC34C.pdf",
+     "tipo": "ce",
+     "arquivo": "40F7C5718A488A1E5EB00AE8E48963D0D8E4D16E9559CD643FDE6F4F705041DC.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "23",
+   "cargo": "Projetos, Construção e Montagem – Edificações",
+   "id_cargo": "projetos-construcao-e-montagem-edificacoes",
+   "provas": [
+    {
+     "key": "cbmed",
+     "prova": "pro_FA0BD745976857A98487E1EC.pdf",
+     "gabarito": "gab_FF65B1E1DF91A39A7FF13E2A.pdf",
+     "tipo": "ce",
+     "arquivo": "FA0BD745976857A98487E1EC9827BD55F9407ABF6B3F2E8B4458015371152D6C.pdf"
+    },
+    {
+     "key": "esp23",
+     "prova": "pro_46753082A4D3843B6A66D631.pdf",
+     "gabarito": "gab_ACAA0F0F358795C880CB0E49.pdf",
+     "tipo": "ce",
+     "arquivo": "46753082A4D3843B6A66D6311255C71C279C3A05BEAC537A2CF72C92F3AC4C0B.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "24",
+   "cargo": "Projetos, Construção e Montagem – Elétrica",
+   "id_cargo": "projetos-construcao-e-montagem-eletrica",
+   "provas": [
+    {
+     "key": "cbmed",
+     "prova": "pro_FA0BD745976857A98487E1EC.pdf",
+     "gabarito": "gab_FF65B1E1DF91A39A7FF13E2A.pdf",
+     "tipo": "ce",
+     "arquivo": "FA0BD745976857A98487E1EC9827BD55F9407ABF6B3F2E8B4458015371152D6C.pdf"
+    },
+    {
+     "key": "esp24",
+     "prova": "pro_23D430B11EE71FF37B03F178.pdf",
+     "gabarito": "gab_A5B971E3EBD4A6A02523089D.pdf",
+     "tipo": "ce",
+     "arquivo": "23D430B11EE71FF37B03F178DBF35181906255CFDE112A70D1B2CCE14AF7CABB.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "25",
+   "cargo": "Projetos, Construção e Montagem – Mecânica",
+   "id_cargo": "projetos-construcao-e-montagem-mecanica",
+   "provas": [
+    {
+     "key": "cbmed",
+     "prova": "pro_FA0BD745976857A98487E1EC.pdf",
+     "gabarito": "gab_FF65B1E1DF91A39A7FF13E2A.pdf",
+     "tipo": "ce",
+     "arquivo": "FA0BD745976857A98487E1EC9827BD55F9407ABF6B3F2E8B4458015371152D6C.pdf"
+    },
+    {
+     "key": "esp25",
+     "prova": "pro_62D8A646857E67DB77182507.pdf",
+     "gabarito": "gab_346AD9667BDD274035E99EF3.pdf",
+     "tipo": "ce",
+     "arquivo": "62D8A646857E67DB77182507ACB7A4BA6246760191714AEEB3CF405B2BC56231.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "26",
+   "cargo": "Química",
+   "id_cargo": "quimica",
+   "provas": [
+    {
+     "key": "cbmed",
+     "prova": "pro_FA0BD745976857A98487E1EC.pdf",
+     "gabarito": "gab_FF65B1E1DF91A39A7FF13E2A.pdf",
+     "tipo": "ce",
+     "arquivo": "FA0BD745976857A98487E1EC9827BD55F9407ABF6B3F2E8B4458015371152D6C.pdf"
+    },
+    {
+     "key": "esp26",
+     "prova": "pro_BFA9A75CEAAF72F5725C7E03.pdf",
+     "gabarito": "gab_E78F468E5668485CA82E66AD.pdf",
+     "tipo": "ce",
+     "patch": {
+      "66": "Na extração líquido-líquido, a eficiência da separação de um soluto entre duas fases imiscíveis pode ser quantificada pelo coeficiente de partição K = c_org/c_aq, em que c_org representa a concentração do soluto na fase orgânica e c_aq, a concentração desse mesmo soluto na fase aquosa. Nesse caso, valores de K muito altos indicam que o soluto permanecerá predominantemente na fase aquosa.",
+      "72": "Quando aplicada a uma pilha mantida a 25 °C, a equação de Nernst pode ser corretamente escrita como E = −(0,0592/n) log Q, em que E representa o potencial da célula, n, o número de elétrons transferidos na reação de oxirredução da pilha e Q, o quociente de reação da citada reação."
+     },
+     "arquivo": "BFA9A75CEAAF72F5725C7E0340A03E1E22327A45BDE8688FBD058DE9EC058744.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "27",
+   "cargo": "Segurança do Trabalho",
+   "id_cargo": "seguranca-do-trabalho",
+   "provas": [
+    {
+     "key": "cbmed",
+     "prova": "pro_FA0BD745976857A98487E1EC.pdf",
+     "gabarito": "gab_FF65B1E1DF91A39A7FF13E2A.pdf",
+     "tipo": "ce",
+     "arquivo": "FA0BD745976857A98487E1EC9827BD55F9407ABF6B3F2E8B4458015371152D6C.pdf"
+    },
+    {
+     "key": "esp27",
+     "prova": "pro_AC803EDEC3F64C6D675D6B66.pdf",
+     "gabarito": "gab_33FC17E9F16CD03E8E963C5F.pdf",
+     "tipo": "ce",
+     "arquivo": "AC803EDEC3F64C6D675D6B661A12447E67FA38093AB024E660F8F782260FD1A2.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "28",
+   "cargo": "Suprimento de Bens e Serviços – Administração",
+   "id_cargo": "suprimento-de-bens-e-servicos-administracao",
+   "provas": [
+    {
+     "key": "cbmed",
+     "prova": "pro_FA0BD745976857A98487E1EC.pdf",
+     "gabarito": "gab_FF65B1E1DF91A39A7FF13E2A.pdf",
+     "tipo": "ce",
+     "arquivo": "FA0BD745976857A98487E1EC9827BD55F9407ABF6B3F2E8B4458015371152D6C.pdf"
+    },
+    {
+     "key": "esp28",
+     "prova": "pro_31044123F77A3A6113EAF65D.pdf",
+     "gabarito": "gab_607E3AC823449DC678B5DF69.pdf",
+     "tipo": "ce",
+     "arquivo": "31044123F77A3A6113EAF65D6AA53CE6FE3B37F72934A7D3C4D71CF63DDBE4F3.pdf"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {},
+ "fonte": "https://cdn.cebraspe.org.br/concursos/ANSA_26/arquivos/"
+}

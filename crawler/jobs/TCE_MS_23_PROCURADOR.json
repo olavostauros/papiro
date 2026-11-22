@@ -1,0 +1,30 @@
+{
+ "evento": "TCE_MS_23_PROCURADOR",
+ "workdir": "/tmp/tce_ms_23_procurador",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "TRIBUNAL DE CONTAS DO ESTADO DO MATO GROSSO DO SUL",
+  "ano": 2023,
+  "id_orgao": "tce-ms"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "CARGO DE PROCURADOR DE CONTAS SUBSTITUTO DO MINISTÉRIO PÚBLICO DE CONTAS DO MPC/MS",
+   "id_cargo": "procurador-de-contas-substituto",
+   "provas": [
+    {
+     "key": "p1",
+     "prova": "pro_TCE_MS_001_01.pdf",
+     "gabarito": "gab_TCE_MS_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "912_TCE_MS_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

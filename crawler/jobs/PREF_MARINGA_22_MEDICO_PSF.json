@@ -1,0 +1,37 @@
+{
+ "evento": "PREF_MARINGA_22_MEDICO_PSF",
+ "workdir": "/tmp/pref_maringa_22_medico_psf",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Prefeitura de Maringá",
+  "ano": 2022,
+  "id_orgao": "pref-maringa"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "FUNÇÃO PÚBLICA DE MÉDICO (PSF)",
+   "id_cargo": "medico-psf",
+   "provas": [
+    {
+     "key": "MARINGA_MD_CG1",
+     "prova": "pro_PREF_MARINGA_MD_CG1_01.pdf",
+     "gabarito": "gab_PREF_MARINGA_MD_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "745_PREF_MARINGA_MD_CG1_01.PDF"
+    },
+    {
+     "key": "MARINGA_MD_ESP",
+     "prova": "pro_PREF_MARINGA_MD_001_01.pdf",
+     "gabarito": "gab_PREF_MARINGA_MD_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "745_PREF_MARINGA_MD_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

@@ -1,0 +1,444 @@
+{
+ "evento": "MP_TO_24_SERVIDOR",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "MP-TO",
+  "ano": 2024,
+  "id_orgao": "mp-to"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista Ministerial Especializado – Área de atuação: Administração de Banco de Dados",
+   "id_cargo": "analista-administracao-de-banco-de-dados",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MP_TO_CG1_01.pdf",
+     "gabarito": "gab_MP_TO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_CG1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_MP_TO_001_01.pdf",
+     "gabarito": "gab_MP_TO_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial Especializado – Área de atuação: Administração de Infraestrutura de Tecnologia da Informação",
+   "id_cargo": "analista-administracao-de-infraestrutura-de-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MP_TO_CG1_01.pdf",
+     "gabarito": "gab_MP_TO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_CG1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_MP_TO_002_01.pdf",
+     "gabarito": "gab_MP_TO_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial Especializado – Área de atuação: Administração e Segurança de Redes",
+   "id_cargo": "analista-administracao-e-seguranca-de-redes",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MP_TO_CG1_01.pdf",
+     "gabarito": "gab_MP_TO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_CG1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_MP_TO_003_01.pdf",
+     "gabarito": "gab_MP_TO_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial Especializado – Área de atuação: Análise de Sistemas",
+   "id_cargo": "analista-analise-de-sistemas",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MP_TO_CG1_01.pdf",
+     "gabarito": "gab_MP_TO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_CG1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_MP_TO_004_01.pdf",
+     "gabarito": "gab_MP_TO_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial Especializado – Área de atuação: Arquitetura e Urbanismo",
+   "id_cargo": "analista-arquitetura-e-urbanismo",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MP_TO_CG1_01.pdf",
+     "gabarito": "gab_MP_TO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_CG1_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_MP_TO_005_01.pdf",
+     "gabarito": "gab_MP_TO_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial Especializado – Área de atuação: Assistência Social",
+   "id_cargo": "analista-assistencia-social",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MP_TO_CG1_01.pdf",
+     "gabarito": "gab_MP_TO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_CG1_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_MP_TO_006_01.pdf",
+     "gabarito": "gab_MP_TO_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial Especializado – Área de atuação: Biblioteconomia",
+   "id_cargo": "analista-biblioteconomia",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MP_TO_CG1_01.pdf",
+     "gabarito": "gab_MP_TO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_CG1_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_MP_TO_007_01.pdf",
+     "gabarito": "gab_MP_TO_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial Especializado – Área de atuação: Ciências Contábeis",
+   "id_cargo": "analista-ciencias-contabeis",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MP_TO_CG1_01.pdf",
+     "gabarito": "gab_MP_TO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_CG1_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_MP_TO_008_01.pdf",
+     "gabarito": "gab_MP_TO_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial Especializado – Área de atuação: Engenharia Civil",
+   "id_cargo": "analista-engenharia-civil",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MP_TO_CG1_01.pdf",
+     "gabarito": "gab_MP_TO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_CG1_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_MP_TO_009_01.pdf",
+     "gabarito": "gab_MP_TO_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial Especializado – Área de atuação: Jornalismo",
+   "id_cargo": "analista-jornalismo",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MP_TO_CG1_01.pdf",
+     "gabarito": "gab_MP_TO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_CG1_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_MP_TO_010_01.pdf",
+     "gabarito": "gab_MP_TO_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial Especializado – Área de atuação: Letras",
+   "id_cargo": "analista-letras",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MP_TO_CG1_01.pdf",
+     "gabarito": "gab_MP_TO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_CG1_01.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_MP_TO_011_01.pdf",
+     "gabarito": "gab_MP_TO_011_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial Especializado – Área de atuação: Medicina",
+   "id_cargo": "analista-medicina",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MP_TO_CG1_01.pdf",
+     "gabarito": "gab_MP_TO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_CG1_01.PDF"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_MP_TO_012_01.pdf",
+     "gabarito": "gab_MP_TO_012_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial Especializado – Área de atuação: Odontologia",
+   "id_cargo": "analista-odontologia",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MP_TO_CG1_01.pdf",
+     "gabarito": "gab_MP_TO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_CG1_01.PDF"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_MP_TO_013_01.pdf",
+     "gabarito": "gab_MP_TO_013_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_013_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial Especializado – Área de atuação: Pedagogia",
+   "id_cargo": "analista-pedagogia",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MP_TO_CG1_01.pdf",
+     "gabarito": "gab_MP_TO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_CG1_01.PDF"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_MP_TO_014_01.pdf",
+     "gabarito": "gab_MP_TO_014_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_014_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial Especializado – Área de atuação: Psicologia",
+   "id_cargo": "analista-psicologia",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MP_TO_CG1_01.pdf",
+     "gabarito": "gab_MP_TO_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_CG1_01.PDF"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_MP_TO_015_01.pdf",
+     "gabarito": "gab_MP_TO_015_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_015_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Técnico Ministerial Especializado – Área de atuação: Fotografia",
+   "id_cargo": "tecnico-fotografia",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_MP_TO_CG2_01.pdf",
+     "gabarito": "gab_MP_TO_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_CG2_01.PDF"
+    },
+    {
+     "key": "esp16",
+     "prova": "pro_MP_TO_016_01.pdf",
+     "gabarito": "gab_MP_TO_016_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_016_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Técnico Ministerial Especializado – Área de atuação: Técnico em Contabilidade",
+   "id_cargo": "tecnico-em-contabilidade",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_MP_TO_CG2_01.pdf",
+     "gabarito": "gab_MP_TO_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_CG2_01.PDF"
+    },
+    {
+     "key": "esp17",
+     "prova": "pro_MP_TO_017_01.pdf",
+     "gabarito": "gab_MP_TO_017_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_017_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Técnico Ministerial Especializado – Área de atuação: Técnico em Eletricidade",
+   "id_cargo": "tecnico-em-eletricidade",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_MP_TO_CG2_01.pdf",
+     "gabarito": "gab_MP_TO_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_CG2_01.PDF"
+    },
+    {
+     "key": "esp18",
+     "prova": "pro_MP_TO_018_01.pdf",
+     "gabarito": "gab_MP_TO_018_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_018_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Técnico Ministerial Especializado – Área de atuação: Técnico em Informática",
+   "id_cargo": "tecnico-em-informatica",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_MP_TO_CG2_01.pdf",
+     "gabarito": "gab_MP_TO_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_CG2_01.PDF"
+    },
+    {
+     "key": "esp19",
+     "prova": "pro_MP_TO_019_01.pdf",
+     "gabarito": "gab_MP_TO_019_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_019_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Técnico Ministerial Especializado – Área de atuação: Técnico em Telecomunicações",
+   "id_cargo": "tecnico-em-telecomunicacoes",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_MP_TO_CG2_01.pdf",
+     "gabarito": "gab_MP_TO_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_CG2_01.PDF"
+    },
+    {
+     "key": "esp20",
+     "prova": "pro_MP_TO_020_01.pdf",
+     "gabarito": "gab_MP_TO_020_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_020_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Técnico Ministerial – Área de atuação: Assistente Administrativo",
+   "id_cargo": "tecnico-assistente-administrativo",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_MP_TO_CG2_01.pdf",
+     "gabarito": "gab_MP_TO_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_CG2_01.PDF"
+    },
+    {
+     "key": "esp21",
+     "prova": "pro_MP_TO_021_01.pdf",
+     "gabarito": "gab_MP_TO_021_01.pdf",
+     "tipo": "ce",
+     "arquivo": "952_MP_TO_021_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {
+  "esp08": {
+   "96": "A informação patrimonial, no tribunal de justiça, da conta única do tesouro referente ao recebimento de recurso de precatórios de um órgão devedor por decisão judicial evidenciará um ativo (D – caixa e equivalente de caixa) em contrapartida a uma receita orçamentária (C – variação patrimonial aumentativa)."
+  },
+  "esp12": {
+   "93": "O antibiograma sugere uma infecção de tratamento simples, para o qual pode ser escolhido qualquer antibiótico β-lactâmico."
+  },
+  "esp20": {
+   "53": "Um sistema de comunicação que opera em 16-QAM, com taxa de transmissão de símbolos de 1,0 × 10^6 baud e taxa média de erro de símbolo de 10^-2 possui throughput superior a 4 Mbps."
+  }
+ }
+}

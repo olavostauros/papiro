@@ -1,0 +1,444 @@
+{
+ "evento": "INPI_23",
+ "workdir": "/tmp/inpi_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "INPI",
+  "ano": 2023,
+  "id_orgao": "inpi"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "ANALISTA DE PLANEJAMENTO, GESTÃO E INFRAESTRUTURA EM PROPRIEDADE INDUSTRIAL – ÁREA: A1 – GESTÃO E SUPORTE – FORMAÇÃO: ADMINISTRAÇÃO",
+   "id_cargo": "analista-administracao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_INPI_CB1_01.pdf",
+     "gabarito": "gab_INPI_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_CB1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_INPI_001_01.pdf",
+     "gabarito": "gab_INPI_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "ANALISTA DE PLANEJAMENTO, GESTÃO E INFRAESTRUTURA EM PROPRIEDADE INDUSTRIAL – ÁREA: A2 – GESTÃO E SUPORTE – FORMAÇÃO: DIREITO",
+   "id_cargo": "analista-direito",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_INPI_CB1_01.pdf",
+     "gabarito": "gab_INPI_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_CB1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_INPI_002_01.pdf",
+     "gabarito": "gab_INPI_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "ANALISTA DE PLANEJAMENTO, GESTÃO E INFRAESTRUTURA EM PROPRIEDADE INDUSTRIAL – ÁREA: A3 – GESTÃO E SUPORTE – FORMAÇÃO: CONTABILIDADE OU CIÊNCIAS CONTÁBEIS",
+   "id_cargo": "analista-contabilidade",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_INPI_CB1_01.pdf",
+     "gabarito": "gab_INPI_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_CB1_01.PDF"
+    },
+    {
+     "key": "cc",
+     "prova": "pro_INPI_CC1_01.pdf",
+     "gabarito": "gab_INPI_CC1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_CC1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_INPI_003_01.pdf",
+     "gabarito": "gab_INPI_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "ANALISTA DE PLANEJAMENTO, GESTÃO E INFRAESTRUTURA EM PROPRIEDADE INDUSTRIAL – ÁREA: A4 – GESTÃO E SUPORTE – FORMAÇÃO: ECONOMIA OU CIÊNCIAS ECONÔMICAS",
+   "id_cargo": "analista-economia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_INPI_CB1_01.pdf",
+     "gabarito": "gab_INPI_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_CB1_01.PDF"
+    },
+    {
+     "key": "cc",
+     "prova": "pro_INPI_CC1_01.pdf",
+     "gabarito": "gab_INPI_CC1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_CC1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_INPI_004_01.pdf",
+     "gabarito": "gab_INPI_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "ANALISTA DE PLANEJAMENTO, GESTÃO E INFRAESTRUTURA EM PROPRIEDADE INDUSTRIAL – ÁREA: A5 – GESTÃO E SUPORTE – FORMAÇÃO: ENGENHARIA CIVIL",
+   "id_cargo": "analista-engenharia-civil",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_INPI_CB1_01.pdf",
+     "gabarito": "gab_INPI_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_CB1_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_INPI_005_01.pdf",
+     "gabarito": "gab_INPI_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "ANALISTA DE PLANEJAMENTO, GESTÃO E INFRAESTRUTURA EM PROPRIEDADE INDUSTRIAL – ÁREA: A6 – GESTÃO E SUPORTE – FORMAÇÃO: ENGENHARIA ELÉTRICA",
+   "id_cargo": "analista-engenharia-eletrica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_INPI_CB1_01.pdf",
+     "gabarito": "gab_INPI_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_CB1_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_INPI_006_01.pdf",
+     "gabarito": "gab_INPI_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "ANALISTA DE PLANEJAMENTO, GESTÃO E INFRAESTRUTURA EM PROPRIEDADE INDUSTRIAL – ÁREA: A7 – GESTÃO E SUPORTE – FORMAÇÃO: ARQUITETURA",
+   "id_cargo": "analista-arquitetura",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_INPI_CB1_01.pdf",
+     "gabarito": "gab_INPI_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_CB1_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_INPI_007_01.pdf",
+     "gabarito": "gab_INPI_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "ANALISTA DE PLANEJAMENTO, GESTÃO E INFRAESTRUTURA EM PROPRIEDADE INDUSTRIAL – ÁREA: A8 – GESTÃO E SUPORTE – FORMAÇÃO: PSICOLOGIA",
+   "id_cargo": "analista-psicologia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_INPI_CB1_01.pdf",
+     "gabarito": "gab_INPI_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_CB1_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_INPI_008_01.pdf",
+     "gabarito": "gab_INPI_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "ANALISTA DE PLANEJAMENTO, GESTÃO E INFRAESTRUTURA EM PROPRIEDADE INDUSTRIAL – ÁREA: A9 – GESTÃO DA TECNOLOGIA DA INFORMAÇÃO COM ÊNFASE EM DESENVOLVIMENTO E MANUTENÇÃO DE SISTEMAS",
+   "id_cargo": "analista-ti-desenvolvimento",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_INPI_CB1_01.pdf",
+     "gabarito": "gab_INPI_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_CB1_01.PDF"
+    },
+    {
+     "key": "cc",
+     "prova": "pro_INPI_CC2_01.pdf",
+     "gabarito": "gab_INPI_CC2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_CC2_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_INPI_009_01.pdf",
+     "gabarito": "gab_INPI_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "ANALISTA DE PLANEJAMENTO, GESTÃO E INFRAESTRUTURA EM PROPRIEDADE INDUSTRIAL – ÁREA: A10 – GESTÃO DA TECNOLOGIA DA INFORMAÇÃO COM ÊNFASE EM INFRAESTRUTURA DE TECNOLOGIA DA INFORMAÇÃO",
+   "id_cargo": "analista-ti-infraestrutura",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_INPI_CB1_01.pdf",
+     "gabarito": "gab_INPI_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_CB1_01.PDF"
+    },
+    {
+     "key": "cc",
+     "prova": "pro_INPI_CC2_01.pdf",
+     "gabarito": "gab_INPI_CC2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_CC2_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_INPI_010_01.pdf",
+     "gabarito": "gab_INPI_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "ANALISTA DE PLANEJAMENTO, GESTÃO E INFRAESTRUTURA EM PROPRIEDADE INDUSTRIAL – ÁREA: A11 – GESTÃO DA TECNOLOGIA DA INFORMAÇÃO COM ÊNFASE EM SEGURANÇA DA INFORMAÇÃO",
+   "id_cargo": "analista-ti-seguranca",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_INPI_CB1_01.pdf",
+     "gabarito": "gab_INPI_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_CB1_01.PDF"
+    },
+    {
+     "key": "cc",
+     "prova": "pro_INPI_CC2_01.pdf",
+     "gabarito": "gab_INPI_CC2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_CC2_01.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_INPI_011_01.pdf",
+     "gabarito": "gab_INPI_011_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "PESQUISADOR EM PROPRIEDADE INDUSTRIAL – ÁREA: P1 - BIOLOGIA CELULAR E MOLECULAR / BIOQUÍMICA / BIOTECNOLOGIA / ENZIMOLOGIA / MICROBIOLOGIA / IMUNOLOGIA / BIOINFORMÁTICA",
+   "id_cargo": "pesquisador-biologia",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_INPI_CB1_01.pdf",
+     "gabarito": "gab_INPI_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_CB1_01.PDF"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_INPI_012_01.pdf",
+     "gabarito": "gab_INPI_012_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "PESQUISADOR EM PROPRIEDADE INDUSTRIAL – ÁREA: P2- BIOQUÍMICA / IMUNOLOGIA / BIOLOGIA CELULAR E MOLECULAR / BIOTECNOLOGIA / MICROBIOLOGIA",
+   "id_cargo": "pesquisador-bioquimica",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_INPI_CB1_01.pdf",
+     "gabarito": "gab_INPI_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_CB1_01.PDF"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_INPI_013_01.pdf",
+     "gabarito": "gab_INPI_013_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_013_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "PESQUISADOR EM PROPRIEDADE INDUSTRIAL – ÁREA: P3 - REDES DE COMUNICAÇÃO SEM FIO / SISTEMAS DE COMUNICAÇÕES MÓVEIS / SISTEMAS E REDES DE COMUNICAÇÃO DIGITAL / PROTOCOLOS DE COMUNICAÇÃO",
+   "id_cargo": "pesquisador-redes-sem-fio",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_INPI_CB1_01.pdf",
+     "gabarito": "gab_INPI_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_CB1_01.PDF"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_INPI_014_01.pdf",
+     "gabarito": "gab_INPI_014_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_014_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "PESQUISADOR EM PROPRIEDADE INDUSTRIAL – ÁREA: P4 - PROCESSAMENTO DE SINAIS / PROCESSAMENTO DE DADOS DE IMAGEM, ÁUDIO OU VOZ / CODIFICAÇÃO, COMPRESSÃO E DECODIFICAÇÃO DE IMAGEM, ÁUDIO E VOZ / RECONHECIMENTO DE PADRÕES",
+   "id_cargo": "pesquisador-processamento-sinais",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_INPI_CB1_01.pdf",
+     "gabarito": "gab_INPI_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_CB1_01.PDF"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_INPI_015_01.pdf",
+     "gabarito": "gab_INPI_015_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_015_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "PESQUISADOR EM PROPRIEDADE INDUSTRIAL – ÁREA: P5 - INSTRUMENTOS E PROCESSOS DE MEDIÇÃO DE GRANDEZAS FÍSICAS, QUÍMICAS E BIOMÉDICAS / SENSORES E BIOSENSORES / APARELHOS DE DIAGNÓSTICO E TERAPIA / BIOMECÂNICA",
+   "id_cargo": "pesquisador-sensores",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_INPI_CB1_01.pdf",
+     "gabarito": "gab_INPI_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_CB1_01.PDF"
+    },
+    {
+     "key": "esp16",
+     "prova": "pro_INPI_016_01.pdf",
+     "gabarito": "gab_INPI_016_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_016_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "17",
+   "cargo": "TECNOLOGISTA EM PROPRIEDADE INDUSTRIAL – ÁREA: T1 – FORMAÇÃO: QUALQUER ÁREA DE FORMAÇÃO.",
+   "id_cargo": "tecnologista-qualquer-formacao",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_INPI_CB1_01.pdf",
+     "gabarito": "gab_INPI_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_CB1_01.PDF"
+    },
+    {
+     "key": "esp17",
+     "prova": "pro_INPI_017_01.pdf",
+     "gabarito": "gab_INPI_017_01.pdf",
+     "tipo": "ce",
+     "arquivo": "930_INPI_017_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [
+  {
+   "key": "INPI_CB1_01",
+   "prova": "pro_INPI_CB1_01.pdf",
+   "gabarito": "gab_INPI_CB1_01.pdf",
+   "tipo": "ce",
+   "arquivo": "930_INPI_CB1_01.PDF"
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp04": {
+   "118": "Considere-se um modelo de Cournot com cinco empresas, em que a função demanda inversa seja dada por P(Q) = 185 − Q/2, em que Q representa a quantidade total consumida. Considere-se, também, que e as funções custos de cada empresa sejam idênticas e iguais a c(qᵢ) = 5qᵢ, em que qᵢ representa a quantidade produzida pela empresa i. Nessa situação hipotética, o preço de equilíbrio de mercado é igual a 35."
+  },
+  "esp06": {
+   "53": "Em coordenadas polares, İ₁ = 5∢45° A.",
+   "54": "Se İ₃ circula por um ramo de circuito em que a tensão é V̇ = V∢0°, sendo esta a causa da referida corrente, é correto concluir que, na representação em diagrama fasorial convencional, İ₃ está atrasada de V̇.",
+   "70": "A corrente RMS (I_RMS) que flui pela impedância de (4 − j3) Ω é igual a I_RMS = 150/(4 − j3) A.",
+   "96": "Se o sistema processar o sinal usando a equação de diferenças y(n) = [x(n) − x(n−1) − y(n−1)]/200, então a função de transferência correspondente a essa equação, no domínio z, será H(z) = (1 − z⁻¹)/(200 + z⁻¹).",
+   "97": "Ao se processar a corrente por meio da equação de diferenças y(n) = [x(n) − x(n−1)]/200, o sinal de saída y(n) corresponderá a uma aproximação da integral do sinal de entrada x(n)."
+  },
+  "esp15": {
+   "81": "A resposta em frequência da função de transferência do referido filtro é dada por jω/(10 + jω).",
+   "82": "O módulo da função de transferência do filtro em questão é dado por √(ω²/(ω² + 100)).",
+   "84": "X(z) = 1/(1 − (2/5)z⁻¹).",
+   "85": "X(z) tem um zero em z = 0 e um polo em z = 2/5.",
+   "87": "x₃[n] corresponde à convolução linear do sinal x₁[n] com o sinal x₂[n], isto é, x₃[n] = Σₘ x₁[m]x₂[n − m].",
+   "88": "x₄[n] corresponde a um deslocamento no tempo do sinal x₁[n], isto é, x₄[n] = x₁[n − m].",
+   "89": "Se X₁[k] for calculado usando-se a transformada rápida de Fourier, então a complexidade computacional será reduzida pela metade se comparada à complexidade computacional do cálculo de X₁[k] pela transformada de Fourier discreta tradicional.",
+   "90": "X₅[k] = 8X₁[k] + 9X₂[k].",
+   "91": "A função de transferência do referido filtro é H(z) = 1/(1 − (3/7)z⁻¹), com região de convergência |z| > 3/7.",
+   "92": "O filtro em questão consiste em um passa-baixas de 1.ª ordem, logo tem um zero em z = 0 e polo em z = 3/7.",
+   "94": "O filtro em apreço é do tipo FIR (finite impulse response) e sua resposta ao impulso é h[n] = (3/7)ⁿ u[n]."
+  },
+  "esp17": {
+   "70": "O primeiro termo da sequência com valor superior a 60.000 é o 15.º.",
+   "71": "O 9.º termo da sequência é igual a 1.025."
+  }
+ }
+}

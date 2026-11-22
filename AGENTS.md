@@ -4,42 +4,70 @@ This is an **ongoing dataset-building campaign**. The agent operates
 autonomously: do NOT stop to ask which concurso to ingest next or wait for
 confirmation between batches. Keep going until told to stop.
 
-Loop:
+Loop (automated — the pipeline lives in `crawler/cebraspe/`, run from the
+repo root with `.venv/bin/python`):
 
-1. Pick the next target from the Cebraspe events API
-   (`https://apis.cebraspe.org.br/cebraspe/eventos/tipo/concursos`, then
-   `.../eventos/<ID>` for `arquivosGabarito`). Prefer recent, high-audience
-   concursos and ones that add depth to cargos already in the dataset
-   (e.g. previous editions of PF/PRF/IBAMA exams).
-2. Download prova + gabarito PDFs from the CDN with `curl` (free).
-3. Extract with the zero-credit local pipeline (see "Structured
-   extraction"): `pdftohtml -xml` coordinate parse for items,
-   `pdftotext -layout` for gabaritos. Audit dropped lines between items —
-   comandos and base texts are dropped on purpose (dataset convention:
-   enunciado = item statement only); anything else needs a fix — render
-   the page to PNG and transcribe by hand when necessary.
-4. Skip `X` (anulado) items, dedup by `id`, append to
-   `web/src/data/questions.json` via `crawler.models.to_questao()`.
-5. Verify (counts match gabarito ranges, no id collisions, gabaritos
-   valid) and commit each concurso batch with a message describing cargo
-   coverage and anulados. Log Firecrawl calls in `FIRECRAWL_USAGE.md` if
-   any are made (the local path should need none).
+1. `.venv/bin/python -m crawler.cebraspe next --probe 30` — ranks
+   un-ingested events (detected via shard filenames in
+   `data/questions/`) by ano/vagas and probes each detail for provas.
+   Prefer recent, high-audience concursos and ones that add depth to
+   cargos already in the dataset (e.g. previous editions of
+   PF/PRF/IBAMA exams).
+2. `.venv/bin/python -m crawler.cebraspe files <EVENTO_URL>` shows
+   cargos + prova/gabarito classification; then
+   `.venv/bin/python -m crawler.cebraspe fetch <EVENTO_URL>` downloads
+   everything to `/tmp/<evento>/` and drafts `job.json` (prova↔gabarito
+   pairing and cargo mapping from `descricaoArquivo`/`eventoCargos`).
+3. Fix `job.json`: assign unmatched/shared provas (e.g. Conhecimentos
+   Básicos) to each cargo, set `meta` (orgao/id_orgao/ano),
+   `tipo: ce|mc` per prova, `variant`, `skip` (un-extractable items),
+   `patch` (hand-transcribed enunciados). Commit a copy to
+   `crawler/jobs/<EVENTO>.json`.
+4. `.venv/bin/python -m crawler.cebraspe audit --workdir /tmp/<evento>`
+   — parses every prova + gabarito, writes `dropped_<key>.txt`. Check
+   counts match gabarito ranges and review dropped lines: comandos and
+   base texts are dropped on purpose (dataset convention: enunciado =
+   item statement only); anything else needs a fix — render the page to
+   PNG and transcribe by hand when necessary.
+5. `.venv/bin/python -m crawler.cebraspe assemble --workdir
+   /tmp/<evento>` (dry-run), then `--write` — skips `X` (anulado),
+   dedups by `id`, writes `data/questions/<EVENTO>.json` via
+   `to_questao()` + `crawler/shards.py` (one shard per evento, interned
+   dimensions; `shard_to_records()` flattens back).
+6. Commit each concurso batch with a message describing cargo coverage
+   and anulados. Log Firecrawl calls in `FIRECRAWL_USAGE.md` if any are
+   made (the local path should need none).
 
-Working scripts from previous batches live in `/tmp/pf25/`, `/tmp/ibama25/`,
-`/tmp/pf21/` and `/tmp/pf18/` (`local_parse.py`, `assemble.py`, `parse_gab.py`,
-plus `parse3.py` for the two-column variant) — copy
-and adapt them per concurso; `/tmp` may not survive reboots, so rebuild
-from this document if gone. Known layout variants: some provas print
-numbered instructions before the `-- PROVA OBJETIVA` marker (gate parsing
-on the marker and require sequential item numbers — see `/tmp/pf21/`).
-PF_18-era provas use a harder two-column variant: the base text sits in
-the left column with its own lone line-number markers (1,4,7,...) at the
-column edge while the item number is a separate edge-aligned element that
-merges at the START of the item's first line. Fix: require item-start
-lines to have non-empty text after the number, ignore lone-number lines
-entirely, and treat situação/command first-lines that got appended to an
-item's end as dropped (truncate at the last complete sentence) — see
-`/tmp/pf18/` (`parse3.py`, `assemble.py`).
+Parsers: `crawler/cebraspe/items.py` (certo/errado; `variant="old"` for
+PF_18-era provas where the item number merges at the END of the item's
+first line and lone line-number markers sit at the column edge),
+`mc.py` (Questão N + alternativas A-E, captures per-item `assunto` from
+ALL-CAPS headers), `gabarito.py` (auto-detects `Item/Gabarito` C/E and
+`Questão` A-E/X formats). Known layout variants: some provas print
+numbered instructions before the `-- PROVA OBJETIVA` marker (the parser
+gates on the marker and keeps only the longest run of consecutive item
+numbers). Reference jobs: `crawler/jobs/`.
+
+## Dataset layout
+
+The dataset lives in `data/questions/<EVENTO>.json` at the repo root —
+one shard per concurso (shard name = the Cebraspe `eventoURL`, or
+`EXTERNO_<banca>_<orgao>_<ano>` for other bancas). `crawler/shards.py`
+owns the schema: `banca` at the top; `orgaos`/`cargos`/`assuntos`/
+`provas.fonte` interned per shard and referenced by index from `itens`;
+`alternativas` omitted when `["Certo","Errado"]`. `shard_to_records()`
+flattens a shard back to the flat `Questao` shape (round-trip verified
+byte-exact vs. the old monolith). Identity for dedup is `id`
+(`<banca>-<ano>-<orgao>-<cargo>-NNN`); the assemble step dedups per
+shard.
+
+The old monolithic `web/src/data/questions.json` is gone (it crossed
+GitHub's 100 MB blob limit; history was squashed to unblock push — see
+`.agents/docs/dataset-sharding.md`). **The site does NOT bundle the
+dataset**: it will be served by an API running on the VM alongside the
+Docker crawler. `web/src/data/questions.ts` is the interim stub (empty
+typed list + `Questao` interface) until the API client lands — do not
+re-add dataset imports or `import.meta.glob` over the shards in `web/`.
 
 ## Development
 
@@ -108,7 +136,7 @@ live in `crawler/` (`pip install -r crawler/requirements.txt`):
 
 - `crawler/models.py` — `ProvaExtraida`/`QuestaoExtraida` (extraction
   schema), `ProvaMeta` (per-job metadata), `Questao` (dataset record matching
-  `web/src/data/questions.json` exactly), `to_questao()` normalization and id
+  `data/questions/` shards exactly), `to_questao()` normalization and id
   slug generation (`<banca>-<ano>-<orgao>-<cargo>-NNN`).
 - `crawler/extract.py` — `make_app()` (loads the key from
   `.env/FIRECRAWL_API_KEY`, never printed) and `extract_prova()` (one scrape

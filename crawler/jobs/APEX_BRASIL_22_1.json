@@ -1,0 +1,185 @@
+{
+ "evento": "APEX_BRASIL_22_1",
+ "workdir": "/tmp/apex_brasil_22_1",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "ApexBrasil",
+  "ano": 2022,
+  "id_orgao": "apex"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Perfil 1: Administração de Pessoal",
+   "id_cargo": "administracao-de-pessoal",
+   "provas": [
+    {
+     "key": "APEX_CB1",
+     "prova": "pro_APEX_BRASIL_CB1_01.pdf",
+     "gabarito": "gab_APEX_BRASIL_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "710_APEX_BRASIL_CB1_01.PDF"
+    },
+    {
+     "key": "APEX_001",
+     "prova": "pro_APEX_BRASIL_001_01.pdf",
+     "gabarito": "gab_APEX_BRASIL_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "710_APEX_BRASIL_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Perfil 2: Auditoria Interna",
+   "id_cargo": "auditoria-interna",
+   "provas": [
+    {
+     "key": "APEX_CB1",
+     "prova": "pro_APEX_BRASIL_CB1_01.pdf",
+     "gabarito": "gab_APEX_BRASIL_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "710_APEX_BRASIL_CB1_01.PDF"
+    },
+    {
+     "key": "APEX_002",
+     "prova": "pro_APEX_BRASIL_002_01.pdf",
+     "gabarito": "gab_APEX_BRASIL_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "710_APEX_BRASIL_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Perfil 3: Processos Contábeis",
+   "id_cargo": "processos-contabeis",
+   "provas": [
+    {
+     "key": "APEX_CB1",
+     "prova": "pro_APEX_BRASIL_CB1_01.pdf",
+     "gabarito": "gab_APEX_BRASIL_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "710_APEX_BRASIL_CB1_01.PDF"
+    },
+    {
+     "key": "APEX_003",
+     "prova": "pro_APEX_BRASIL_003_01.pdf",
+     "gabarito": "gab_APEX_BRASIL_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "710_APEX_BRASIL_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Perfil 4: Processos de Gestão Corporativa",
+   "id_cargo": "gestao-corporativa",
+   "provas": [
+    {
+     "key": "APEX_CB1",
+     "prova": "pro_APEX_BRASIL_CB1_01.pdf",
+     "gabarito": "gab_APEX_BRASIL_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "710_APEX_BRASIL_CB1_01.PDF"
+    },
+    {
+     "key": "APEX_004",
+     "prova": "pro_APEX_BRASIL_004_01.pdf",
+     "gabarito": "gab_APEX_BRASIL_004_01.pdf",
+     "tipo": "mc",
+     "arquivo": "710_APEX_BRASIL_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Perfil 5: TIC – Infraestrutura e Operações",
+   "id_cargo": "tic-infraestrutura",
+   "provas": [
+    {
+     "key": "APEX_CB1",
+     "prova": "pro_APEX_BRASIL_CB1_01.pdf",
+     "gabarito": "gab_APEX_BRASIL_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "710_APEX_BRASIL_CB1_01.PDF"
+    },
+    {
+     "key": "APEX_005",
+     "prova": "pro_APEX_BRASIL_005_01.pdf",
+     "gabarito": "gab_APEX_BRASIL_005_01.pdf",
+     "tipo": "mc",
+     "arquivo": "710_APEX_BRASIL_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Perfil 6: TIC – Segurança da Informação",
+   "id_cargo": "tic-seguranca",
+   "provas": [
+    {
+     "key": "APEX_CB1",
+     "prova": "pro_APEX_BRASIL_CB1_01.pdf",
+     "gabarito": "gab_APEX_BRASIL_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "710_APEX_BRASIL_CB1_01.PDF"
+    },
+    {
+     "key": "APEX_006",
+     "prova": "pro_APEX_BRASIL_006_01.pdf",
+     "gabarito": "gab_APEX_BRASIL_006_01.pdf",
+     "tipo": "mc",
+     "arquivo": "710_APEX_BRASIL_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Perfil 7: TIC – Sistemas e Aplicações",
+   "id_cargo": "tic-sistemas",
+   "provas": [
+    {
+     "key": "APEX_CB1",
+     "prova": "pro_APEX_BRASIL_CB1_01.pdf",
+     "gabarito": "gab_APEX_BRASIL_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "710_APEX_BRASIL_CB1_01.PDF"
+    },
+    {
+     "key": "APEX_007",
+     "prova": "pro_APEX_BRASIL_007_01.pdf",
+     "gabarito": "gab_APEX_BRASIL_007_01.pdf",
+     "tipo": "mc",
+     "arquivo": "710_APEX_BRASIL_007_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {
+  "APEX_CB1": [
+   36
+  ],
+  "APEX_007": [
+   60,
+   67,
+   69
+  ]
+ },
+ "patch": {
+  "APEX_003": {
+   "76": "Se, em oito meses, uma aplicação render uma taxa equivalente a 20% ao ano, então, assumindo-se 1,20^(8/12) = 1,13, a taxa proporcional dessa aplicação em 12 meses será",
+   "77": {
+    "alternativas": [
+     "1,25^(252/600) − 1.",
+     "1,25^(252/600).",
+     "1,25^(600/252).",
+     "800 × 1,25^12."
+    ]
+   },
+   "78": "Determinada empresa possui dívida bancária estruturada em três parcelas, à taxa de juros de 2% ao mês, da seguinte forma: • a primeira no valor de R$ 3.000, com vencimento em 1 mês e valor presente igual a R$ 2.941; • a segunda no valor de R$ 2.000, com vencimento em 3 meses e valor presente igual a R$ 1.884; e • a terceira no valor de R$ 1.000, com vencimento em 10 meses e valor presente igual a R$ 888. Prevendo dificuldades em seu fluxo de caixa, a empresa propôs renegociação para pagar sua dívida em duas parcelas iguais, uma com vencimento em 9 meses e a outra com vencimento em 17 meses. A partir dessas informações, e considerando-se que 1,02^9 ≅ 1,2 e 1,02^17 ≅ 1,4, é correto afirmar que o valor de cada parcela da dívida renegociada estará entre"
+  }
+ }
+}

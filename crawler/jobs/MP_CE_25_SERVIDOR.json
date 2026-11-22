@@ -1,0 +1,234 @@
+{
+ "evento": "MP_CE_25_SERVIDOR",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "MP-CE",
+  "ano": 2025,
+  "id_orgao": "mp-ce"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista Ministerial – Administração",
+   "id_cargo": "analista-administracao",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MPCE_CG1_01.pdf",
+     "gabarito": "gab_MPCE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "055_MPCE_CG1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_MPCE_001_01.pdf",
+     "gabarito": "gab_MPCE_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "055_MPCE_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial – Arquitetura e Urbanismo",
+   "id_cargo": "analista-arquitetura-e-urbanismo",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MPCE_CG1_01.pdf",
+     "gabarito": "gab_MPCE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "055_MPCE_CG1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_MPCE_002_01.pdf",
+     "gabarito": "gab_MPCE_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "055_MPCE_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial – Biblioteconomia",
+   "id_cargo": "analista-biblioteconomia",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MPCE_CG1_01.pdf",
+     "gabarito": "gab_MPCE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "055_MPCE_CG1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_MPCE_003_01.pdf",
+     "gabarito": "gab_MPCE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "055_MPCE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial – Ciências Contábeis",
+   "id_cargo": "analista-ciencias-contabeis",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MPCE_CG1_01.pdf",
+     "gabarito": "gab_MPCE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "055_MPCE_CG1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_MPCE_004_01.pdf",
+     "gabarito": "gab_MPCE_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "055_MPCE_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial – Ciências da Computação",
+   "id_cargo": "analista-ciencias-da-computacao",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MPCE_CG1_01.pdf",
+     "gabarito": "gab_MPCE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "055_MPCE_CG1_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_MPCE_005_01.pdf",
+     "gabarito": "gab_MPCE_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "055_MPCE_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial – Direito",
+   "id_cargo": "analista-direito",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MPCE_CG1_01.pdf",
+     "gabarito": "gab_MPCE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "055_MPCE_CG1_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_MPCE_006_01.pdf",
+     "gabarito": "gab_MPCE_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "055_MPCE_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial – Engenharia Ambiental",
+   "id_cargo": "analista-engenharia-ambiental",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MPCE_CG1_01.pdf",
+     "gabarito": "gab_MPCE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "055_MPCE_CG1_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_MPCE_007_01.pdf",
+     "gabarito": "gab_MPCE_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "055_MPCE_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial – Engenharia Civil",
+   "id_cargo": "analista-engenharia-civil",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MPCE_CG1_01.pdf",
+     "gabarito": "gab_MPCE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "055_MPCE_CG1_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_MPCE_008_01.pdf",
+     "gabarito": "gab_MPCE_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "055_MPCE_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial – Psicologia",
+   "id_cargo": "analista-psicologia",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MPCE_CG1_01.pdf",
+     "gabarito": "gab_MPCE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "055_MPCE_CG1_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_MPCE_009_01.pdf",
+     "gabarito": "gab_MPCE_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "055_MPCE_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial – Serviço Social",
+   "id_cargo": "analista-servico-social",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_MPCE_CG1_01.pdf",
+     "gabarito": "gab_MPCE_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "055_MPCE_CG1_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_MPCE_010_01.pdf",
+     "gabarito": "gab_MPCE_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "055_MPCE_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Técnico Ministerial",
+   "id_cargo": "tecnico-ministerial",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_MPCE_CG2_01.pdf",
+     "gabarito": "gab_MPCE_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "055_MPCE_CG2_01.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_MPCE_011_01.pdf",
+     "gabarito": "gab_MPCE_011_01.pdf",
+     "tipo": "ce",
+     "arquivo": "055_MPCE_011_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {}
+}

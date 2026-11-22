@@ -1,0 +1,66 @@
+{
+ "evento": "CBM_TO_22",
+ "workdir": "/tmp/cbm_to_22",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Corpo de Bombeiros Militar do Tocantins",
+  "ano": 2022,
+  "id_orgao": "cbm-to"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "CADETE",
+   "id_cargo": "cadete",
+   "provas": [
+    {
+     "key": "CBM_TO_001_01",
+     "prova": "pro_CBM_TO_001_01.pdf",
+     "gabarito": "gab_CBM_TO_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "795_CBM_TO_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "ALUNO-PRAÇA",
+   "id_cargo": "aluno-praca",
+   "provas": [
+    {
+     "key": "CBM_TO_002_01",
+     "prova": "pro_CBM_TO_002_01.pdf",
+     "gabarito": "gab_CBM_TO_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "795_CBM_TO_002_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "CBM_TO_002_01": {
+   "27": {
+    "enunciado": "Considere o sistema linear a seguir.\n2x − y + 2z = 1\nx + y + z = 0\n−x + 2y + z = 0\nA matriz dos coeficientes do sistema linear apresentado anteriormente tem determinante igual a"
+   },
+   "29": {
+    "alternativas": [
+     "7√5/3 cm³.",
+     "14/3 cm³.",
+     "5 + 6√5 cm³.",
+     "17 cm³."
+    ]
+   },
+   "30": {
+    "alternativas": [
+     "2√18 + 8√2 m.",
+     "8√2 m.",
+     "4√7 m.",
+     "14 m."
+    ]
+   }
+  }
+ }
+}

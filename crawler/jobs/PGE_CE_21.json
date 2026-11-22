@@ -1,0 +1,30 @@
+{
+  "evento": "PGE_CE_21",
+  "workdir": "/tmp/pge_ce_21",
+  "meta": {
+    "banca": "Cebraspe",
+    "orgao": "Procuradoria-Geral do Estado do Ceará",
+    "ano": 2021,
+    "id_orgao": "pge-ce"
+  },
+  "cargos": [
+    {
+      "idArea": "01",
+      "cargo": "Procurador do Estado – Classe D",
+      "id_cargo": "procurador-estado",
+      "provas": [
+        {
+          "key": "PGE_CE_001_01",
+          "prova": "pro_PGE_CE_001_01.pdf",
+          "gabarito": "gab_PGE_CE_001_01.pdf",
+          "tipo": "mc",
+          "arquivo": "635_PGE_CE_001_01.PDF"
+        }
+      ]
+    }
+  ],
+  "unmatched": [],
+  "variant": "modern",
+  "skip": {},
+  "patch": {}
+}

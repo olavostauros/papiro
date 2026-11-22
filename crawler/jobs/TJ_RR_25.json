@@ -1,0 +1,40 @@
+{
+ "evento": "TJ_RR_25",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "TJ-RR",
+  "ano": 2025,
+  "id_orgao": "tj-rr"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Notários – Outorga por Provimento",
+   "id_cargo": "notarios-provimento",
+   "provas": [
+    {
+     "key": "obj",
+     "prova": "pro_4803314D33BB8A8908C1320C.pdf",
+     "gabarito": "gab_56175AE8DD1A701C8FDA5C11.pdf",
+     "tipo": "mc",
+     "arquivo": "4803314D33BB8A8908C1320C7E9B9F21B1788DB04B66E34226DCEB250B89DB40.pdf"
+    }
+   ]
+  },
+  {
+   "cargo": "Notários – Outorga por Remoção",
+   "id_cargo": "notarios-remocao",
+   "provas": [
+    {
+     "key": "obj",
+     "prova": "pro_2811F120E7D0166D5DE3793B.pdf",
+     "gabarito": "gab_F85E234E9A1191DC1AEB8C5E.pdf",
+     "tipo": "mc",
+     "arquivo": "2811F120E7D0166D5DE3793B9F5759999B515B780E04798A1E1C2D5CC614F90C.pdf"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {}
+}

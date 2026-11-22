@@ -1,0 +1,27 @@
+{
+ "evento": "TCE_MS_25_CONSELHEIRO",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "TCE-MS",
+  "ano": 2025,
+  "id_orgao": "tce-ms"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Conselheiro",
+   "id_cargo": "conselheiro",
+   "provas": [
+    {
+     "key": "obj",
+     "prova": "pro_288849B0809C8C86070794E6.pdf",
+     "gabarito": "gab_E68D74EC2933AF120DE0D3B9.pdf",
+     "tipo": "mc",
+     "arquivo": "288849B0809C8C86070794E694DC7FD230510A3C84A10D51584955755F01411C.pdf"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {}
+}

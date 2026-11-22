@@ -1,0 +1,30 @@
+{
+ "evento": "MP_SE_22_PROMOTOR",
+ "workdir": "/tmp/mp_se_22_promotor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Ministério Público do Estado de Sergipe",
+  "ano": 2022,
+  "id_orgao": "mp-se"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Promotor de Justiça Substituto",
+   "id_cargo": "promotor",
+   "provas": [
+    {
+     "key": "001",
+     "prova": "pro_MPSE_001_01.pdf",
+     "gabarito": "gab_MPSE_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "700_MPSE_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

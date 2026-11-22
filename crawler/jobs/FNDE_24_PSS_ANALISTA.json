@@ -1,0 +1,38 @@
+{
+ "evento": "FNDE_24_PSS_ANALISTA",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "FNDE",
+  "ano": 2024,
+  "id_orgao": "fnde"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista de Prestação de Contas",
+   "id_cargo": "analista-prestacao-contas",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_FNDEANALISTA_CB1_01.pdf",
+     "gabarito": "gab_FNDEANALISTA_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "997_FNDEANALISTA_CB1_01.PDF"
+    },
+    {
+     "key": "esp",
+     "prova": "pro_FNDEANALISTA_001_01.pdf",
+     "gabarito": "gab_FNDEANALISTA_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "997_FNDEANALISTA_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {
+  "cb": {
+   "49": "A decisão pela qual o relator ou o plenário do TCU, antes de pronunciar-se quanto ao mérito das contas, resolve sobrestar o julgamento e ordenar a citação ou a audiência dos responsáveis é terminativa."
+  }
+ }
+}

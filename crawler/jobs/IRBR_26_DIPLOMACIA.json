@@ -1,0 +1,48 @@
+{
+ "evento": "IRBR_26_DIPLOMACIA",
+ "workdir": "/tmp/irbr_26_diplomacia",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Instituto Rio Branco",
+  "ano": 2026,
+  "id_orgao": "irbr"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Diplomata (Terceiro Secretário)",
+   "id_cargo": "diplomata",
+   "provas": [
+    {
+     "key": "manha",
+     "prova": "pro_9AFA463453FEF0A89EBB5638.pdf",
+     "gabarito": "gab_74D4CBB66C3F291DEAA5FFB5.pdf",
+     "tipo": "ce",
+     "arquivo": "9AFA463453FEF0A89EBB56387CCC39386F5B09A3A84D342A4112BB6B1339E891.pdf",
+     "assunto": "Primeira Fase – Manhã"
+    },
+    {
+     "key": "tarde",
+     "prova": "pro_A74A4FFC747ECD4287A7D974.pdf",
+     "gabarito": "gab_0865083195C49C458540DFEA.pdf",
+     "tipo": "ce",
+     "arquivo": "A74A4FFC747ECD4287A7D9745DEE6B9364AFA6CF3470FDA6C33FBC2DC689B590.pdf",
+     "assunto": "Primeira Fase – Tarde"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "tarde": {
+   "192": "Se ambos os preços forem multiplicados por 2, passando-se a p′₁ = 20 e p′₂ = 8, com a renda mantida em r = 80, o vetor de demanda ótima (x₁*, x₂*) permanecerá o mesmo, pois a restrição orçamentária se deslocará paralelamente, sem alterar-se a solução de maximização de utilidade.",
+   "193": "O consumo ótimo é dado por (x₁*, x₂*) = (4,10), obtido no ponto em que a TMS₁₂ é igual à razão entre os preços p₁/p₂, sujeito à restrição orçamentária.",
+   "194": "Se a renda do consumidor dobrar para r = 160, mantidos constantes p₁ e p₂, o novo consumo ótimo será (x₁, x₂) = (8, 20), preservando-se as proporções consumidas entre os dois bens, de modo a confirmar que as preferências são homotéticas.",
+   "196": "Como o modelo especifica apenas a demanda de trabalho das firmas, dada por w/P = F_N(K, N), e não uma oferta de trabalho, choques que alterem o salário nominal w ou o nível de preços P podem modificar o emprego N e o produto Y mesmo sem qualquer mudança nas preferências dos trabalhadores, de modo que variáveis estritamente nominais influenciam variáveis reais, no curto prazo.",
+   "197": "Como o produto de equilíbrio é dado pela função de produção Y = F(K, N) e pelo estoque de capital constante no curto prazo, um aumento permanente da quantidade de moeda M, com salário nominal w dado, é necessariamente neutro: eleva apenas o nível de preços P, sem alterar o produto real Y nem o emprego N.",
+   "198": "Um aumento dos gastos autônomos do governo G desloca a curva IS, elevando o produto de equilíbrio Y e a taxa de juros real r; a elevação de r reduz o investimento privado I(r), de modo que parte do aumento de G é compensado por crowding-out sobre o investimento, e o tamanho desse efeito depende da sensibilidade do investimento ao juro e da inclinação da curva LM.",
+   "200": "O sistema exibe a chamada dicotomia clássica: com o estoque de capital (K) dado, as variáveis reais (Y, L, w/P, r − π, C, I) são determinadas exclusivamente pelo bloco real (função de produção, mercado de trabalho, comportamento de consumo e investimento e política fiscal), sendo o nível de preços P ajustado de forma a compatibilizar o equilíbrio monetário M/P = m(Y, r), para um dado M."
+  }
+ }
+}

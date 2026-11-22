@@ -1,0 +1,65 @@
+{
+ "evento": "PREF_BOA_VISTA_23_GUARDA",
+ "workdir": "/tmp/pref_boa_vista_23_guarda",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Prefeitura de Boa Vista/RR",
+  "id_orgao": "boa-vista",
+  "ano": 2023,
+  "evento": "PREF_BOA_VISTA_23_GUARDA"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Guarda Civil Municipal",
+   "id_cargo": "guarda-civil-municipal",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_PREF_BOAVISTA_CG1_01.pdf",
+     "gabarito": "gab_PREF_BOAVISTA_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "817_PREF_BOAVISTA_CG1_01.PDF"
+    },
+    {
+     "key": "esp",
+     "prova": "pro_PREF_BOAVISTA_001_01.pdf",
+     "gabarito": "gab_PREF_BOAVISTA_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "817_PREF_BOAVISTA_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Guarda Civil Municipal — Curso de Formação (1ª turma)",
+   "id_cargo": "guarda-civil-municipal-cf-1",
+   "provas": [
+    {
+     "key": "cf1",
+     "prova": "pro_PREFBVCF_001_01.pdf",
+     "gabarito": "gab_PREFBVCF_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "971_PREFBVCF_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Guarda Civil Municipal — Curso de Formação (2ª turma)",
+   "id_cargo": "guarda-civil-municipal-cf-2",
+   "provas": [
+    {
+     "key": "cf2",
+     "prova": "pro_532ACDD461869813F334EF9C.pdf",
+     "gabarito": "gab_350872EB3D82A3C5BB308F07.pdf",
+     "tipo": "ce",
+     "arquivo": "532ACDD461869813F334EF9CF3DA335BDB9F47A4EB74453FC08D6F3E2641CFFC.pdf"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

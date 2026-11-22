@@ -1,0 +1,198 @@
+{
+ "evento": "BANRISUL_22",
+ "workdir": "/tmp/banrisul_22",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Banco do Estado do Rio Grande do Sul",
+  "ano": 2022,
+  "id_orgao": "banrisul"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista de Segurança da Tecnologia da Informação",
+   "id_cargo": "analista-de-seguranca-da-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cb01",
+     "prova": "pro_CB1_01.pdf",
+     "gabarito": "gab_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "726_BANRISUL_CB1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_726_BANRISUL_001_01.pdf",
+     "gabarito": "gab_726_BANRISUL_001_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "726_BANRISUL_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista de Transformação Digital",
+   "id_cargo": "analista-de-transformacao-digital",
+   "provas": [
+    {
+     "key": "cb02",
+     "prova": "pro_CB1_01.pdf",
+     "gabarito": "gab_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "726_BANRISUL_CB1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_726_BANRISUL_002_01.pdf",
+     "gabarito": "gab_726_BANRISUL_001_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "726_BANRISUL_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Desenvolvimento de Sistemas",
+   "id_cargo": "desenvolvimento-de-sistemas",
+   "provas": [
+    {
+     "key": "cb03",
+     "prova": "pro_CB1_01.pdf",
+     "gabarito": "gab_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "726_BANRISUL_CB1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_726_BANRISUL_003_01.pdf",
+     "gabarito": "gab_726_BANRISUL_001_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "726_BANRISUL_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Gestão de Tecnologia da Informação",
+   "id_cargo": "gestao-de-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cb04",
+     "prova": "pro_CB1_01.pdf",
+     "gabarito": "gab_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "726_BANRISUL_CB1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_726_BANRISUL_004_01.pdf",
+     "gabarito": "gab_726_BANRISUL_001_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "726_BANRISUL_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Quality Assurance (QA) e Analistas de Teste",
+   "id_cargo": "quality-assurance-qa-e-analistas-de-teste",
+   "provas": [
+    {
+     "key": "cb05",
+     "prova": "pro_CB1_01.pdf",
+     "gabarito": "gab_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "726_BANRISUL_CB1_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_726_BANRISUL_005_01.pdf",
+     "gabarito": "gab_726_BANRISUL_001_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "726_BANRISUL_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Suporte à Infraestrutura de Tecnologia da Informação",
+   "id_cargo": "suporte-a-infraestrutura-de-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cb06",
+     "prova": "pro_CB1_01.pdf",
+     "gabarito": "gab_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "726_BANRISUL_CB1_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_726_BANRISUL_006_01.pdf",
+     "gabarito": "gab_726_BANRISUL_001_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "726_BANRISUL_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Suporte à Plataforma Mainframe",
+   "id_cargo": "suporte-a-plataforma-mainframe",
+   "provas": [
+    {
+     "key": "cb07",
+     "prova": "pro_CB1_01.pdf",
+     "gabarito": "gab_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "726_BANRISUL_CB1_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_726_BANRISUL_007_01.pdf",
+     "gabarito": "gab_726_BANRISUL_001_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "726_BANRISUL_007_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "cb01": {
+   "35": "O número de maneiras distintas de organizar esses funcionários em quatro equipes de sete funcionários é superior a 28⁴/(7!)⁴.",
+   "36": "A probabilidade de serem escolhidos, aleatoriamente, três funcionários da Diretoria de Tecnologia da Informação e Inovação entre os referidos 28 funcionários é superior a 1/(28×27).",
+   "37": "O número de maneiras diferentes de formar duas equipes com 14 funcionários cada, de modo que os quatro funcionários da Diretoria Administrativa estejam na mesma equipe, é inferior a 24¹⁰/(10!)."
+  },
+  "cb02": {
+   "35": "O número de maneiras distintas de organizar esses funcionários em quatro equipes de sete funcionários é superior a 28⁴/(7!)⁴.",
+   "36": "A probabilidade de serem escolhidos, aleatoriamente, três funcionários da Diretoria de Tecnologia da Informação e Inovação entre os referidos 28 funcionários é superior a 1/(28×27).",
+   "37": "O número de maneiras diferentes de formar duas equipes com 14 funcionários cada, de modo que os quatro funcionários da Diretoria Administrativa estejam na mesma equipe, é inferior a 24¹⁰/(10!)."
+  },
+  "cb03": {
+   "35": "O número de maneiras distintas de organizar esses funcionários em quatro equipes de sete funcionários é superior a 28⁴/(7!)⁴.",
+   "36": "A probabilidade de serem escolhidos, aleatoriamente, três funcionários da Diretoria de Tecnologia da Informação e Inovação entre os referidos 28 funcionários é superior a 1/(28×27).",
+   "37": "O número de maneiras diferentes de formar duas equipes com 14 funcionários cada, de modo que os quatro funcionários da Diretoria Administrativa estejam na mesma equipe, é inferior a 24¹⁰/(10!)."
+  },
+  "cb04": {
+   "35": "O número de maneiras distintas de organizar esses funcionários em quatro equipes de sete funcionários é superior a 28⁴/(7!)⁴.",
+   "36": "A probabilidade de serem escolhidos, aleatoriamente, três funcionários da Diretoria de Tecnologia da Informação e Inovação entre os referidos 28 funcionários é superior a 1/(28×27).",
+   "37": "O número de maneiras diferentes de formar duas equipes com 14 funcionários cada, de modo que os quatro funcionários da Diretoria Administrativa estejam na mesma equipe, é inferior a 24¹⁰/(10!)."
+  },
+  "cb05": {
+   "35": "O número de maneiras distintas de organizar esses funcionários em quatro equipes de sete funcionários é superior a 28⁴/(7!)⁴.",
+   "36": "A probabilidade de serem escolhidos, aleatoriamente, três funcionários da Diretoria de Tecnologia da Informação e Inovação entre os referidos 28 funcionários é superior a 1/(28×27).",
+   "37": "O número de maneiras diferentes de formar duas equipes com 14 funcionários cada, de modo que os quatro funcionários da Diretoria Administrativa estejam na mesma equipe, é inferior a 24¹⁰/(10!)."
+  },
+  "cb06": {
+   "35": "O número de maneiras distintas de organizar esses funcionários em quatro equipes de sete funcionários é superior a 28⁴/(7!)⁴.",
+   "36": "A probabilidade de serem escolhidos, aleatoriamente, três funcionários da Diretoria de Tecnologia da Informação e Inovação entre os referidos 28 funcionários é superior a 1/(28×27).",
+   "37": "O número de maneiras diferentes de formar duas equipes com 14 funcionários cada, de modo que os quatro funcionários da Diretoria Administrativa estejam na mesma equipe, é inferior a 24¹⁰/(10!)."
+  },
+  "cb07": {
+   "35": "O número de maneiras distintas de organizar esses funcionários em quatro equipes de sete funcionários é superior a 28⁴/(7!)⁴.",
+   "36": "A probabilidade de serem escolhidos, aleatoriamente, três funcionários da Diretoria de Tecnologia da Informação e Inovação entre os referidos 28 funcionários é superior a 1/(28×27).",
+   "37": "O número de maneiras diferentes de formar duas equipes com 14 funcionários cada, de modo que os quatro funcionários da Diretoria Administrativa estejam na mesma equipe, é inferior a 24¹⁰/(10!)."
+  }
+ }
+}

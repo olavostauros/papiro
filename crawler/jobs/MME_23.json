@@ -1,0 +1,36 @@
+{
+ "evento": "MME_23",
+ "workdir": "/tmp/mme_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Ministério de Minas e Energia",
+  "ano": 2023,
+  "id_orgao": "mme"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "CARGO DE ADMINISTRADOR",
+   "id_cargo": "administrador",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_MME_CB1_01.pdf",
+     "gabarito": "gab_MME_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "908_MME_CB1_01.PDF"
+    },
+    {
+     "key": "esp",
+     "prova": "pro_MME_001_01.pdf",
+     "gabarito": "gab_MME_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "908_MME_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

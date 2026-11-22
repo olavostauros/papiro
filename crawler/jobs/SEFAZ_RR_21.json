@@ -1,0 +1,47 @@
+{
+ "evento": "SEFAZ_RR_21",
+ "workdir": "/tmp/sefaz_rr_21",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "SECRETARIA DE ESTADO DA FAZENDA DE RORAIMA",
+  "ano": 2021,
+  "id_orgao": "sefaz-rr"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "AUDITOR FISCAL DE TRIBUTOS ESTADUAIS",
+   "id_cargo": "auditor-fiscal",
+   "provas": [
+    {
+     "key": "SEFAZRR21CF_001_01",
+     "prova": "pro_SEFAZRR21CF_001_01.pdf",
+     "gabarito": "gab_SEFAZRR21CF_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "015_SEFAZRR21CF_001_01.PDF",
+     "num_offset": 170
+    },
+    {
+     "key": "SEFAZ_RR_001_01",
+     "prova": "pro_SEFAZ_RR_001_01.pdf",
+     "gabarito": "gab_SEFAZ_RR_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "663_SEFAZ_RR_001_01.PDF",
+     "num_offset": 100
+    },
+    {
+     "key": "SEFAZ_RR_MATRIZ",
+     "prova": "pro_SEFAZ_RR_MATRIZ.pdf",
+     "gabarito": "gab_sefazrr_matriz.txt",
+     "tipo": "mc",
+     "arquivo": "614_SEFAZ_RR_MATRIZ.PDF",
+     "num_offset": 0
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

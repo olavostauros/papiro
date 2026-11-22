@@ -1,0 +1,38 @@
+{
+ "evento": "PM_RO_22",
+ "workdir": "/tmp/pm_ro_22",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Polícia Militar de Rondônia",
+  "ano": 2022,
+  "id_orgao": "pm-ro"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "CARGO DE OFICIAL COMBATENTE DA POLÍCIA MILITAR",
+   "id_cargo": "oficial-combatente",
+   "provas": [
+    {
+     "key": "SESDEC_PM_RO_001_01",
+     "prova": "pro_SESDEC_PM_RO_001_01.pdf",
+     "gabarito": "gab_SESDEC_PM_RO_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "731_SESDEC_PM_RO_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "SESDEC_PM_RO_001_01": {
+   "66": "Caso hipotético 1A06-I: Suponha que João seja policial e atue disfarçado em atividade de inteligência e que, após suspeitar de ter sido identificado por um traficante perigoso da cidade, convença seus colegas Flávio e Geraldo a matá-lo. Considere, ainda, que, como o traficante servia de fonte imediata de informação a João, para o plano funcionar, Flávio, que não era conhecido do traficante, o tenha atraído para uma emboscada. No local combinado, Geraldo estava a postos com uma arma de fogo ilegal apreendida por João em um flagrante e que não fora devidamente reportada.\nConsiderando o caso hipotético 1A06-I e supondo ter havido a consumação do crime, assinale a opção correta com fundamento na legislação castrense.",
+   "67": "Caso hipotético 1A06-I: Suponha que João seja policial e atue disfarçado em atividade de inteligência e que, após suspeitar de ter sido identificado por um traficante perigoso da cidade, convença seus colegas Flávio e Geraldo a matá-lo. Considere, ainda, que, como o traficante servia de fonte imediata de informação a João, para o plano funcionar, Flávio, que não era conhecido do traficante, o tenha atraído para uma emboscada. No local combinado, Geraldo estava a postos com uma arma de fogo ilegal apreendida por João em um flagrante e que não fora devidamente reportada.\nLevando em conta a situação hipotética 1A06-I e considerando que, de imediato, ao chegar ao local da emboscada e percebê-la, o traficante se evadiu, de modo que Geraldo sequer tenha efetuado disparos, mesmo com a arma de fogo em punho, é correto afirmar, com base na legislação penal militar, que",
+   "73": "Caso hipotético 1A06-II: No curso de determinada investigação hipotética, foram coletadas informações acerca das condutas criminosas a seguir descritas. Os cabos Loureiro e Moura, junto ao sargento Plínio, atuavam costumeiramente em patrulha ostensiva e davam enfoque à criminalidade de drogas. Em algumas situações — sem autorização judicial e sem conhecimento dos superiores imediatos —, parte das drogas apreendidas nas ocorrências não era registrada em auto de apreensão e apresentação no auto de prisão em flagrante delito ou no inquérito policial, pois seriam utilizadas pelo grupo como recurso de pagamento a informantes, que eram também traficantes de drogas na região e que se utilizavam de informações privilegiadas sobre a distribuição de drogas na cidade para “entregar concorrentes” à polícia.\nConsiderando-se a situação hipotética 1A06-II, após diligências diversas, inclusive o cumprimento de mandados de busca e apreensão tanto no alojamento de cabos e soldados como também nas residências dos envolvidos, ficou constatado que o grupo utilizava o armário do cabo Loureiro para ter, em depósito, as drogas das operações ilegais e que o sargento Plínio, sem indício de participação dos cabos, utilizava sua própria residência para guardar as drogas da mesma fonte criminosa e repassá-las a outros traficantes para revendê-las. Nesse contexto,",
+   "74": "Caso hipotético 1A06-II: No curso de determinada investigação hipotética, foram coletadas informações acerca das condutas criminosas a seguir descritas. Os cabos Loureiro e Moura, junto ao sargento Plínio, atuavam costumeiramente em patrulha ostensiva e davam enfoque à criminalidade de drogas. Em algumas situações — sem autorização judicial e sem conhecimento dos superiores imediatos —, parte das drogas apreendidas nas ocorrências não era registrada em auto de apreensão e apresentação no auto de prisão em flagrante delito ou no inquérito policial, pois seriam utilizadas pelo grupo como recurso de pagamento a informantes, que eram também traficantes de drogas na região e que se utilizavam de informações privilegiadas sobre a distribuição de drogas na cidade para “entregar concorrentes” à polícia.\nLevando em conta a situação hipotética 1A06-II e considerando, ainda, que, em determinado dia, durante a patrulha ostensiva, o grupo tenha flagrado um de seus informantes com porção significativa de drogas, situação em que o cabo Moura tenha exigido do criminoso as drogas e certo valor em dinheiro para deixá-lo livre, é correto afirmar que o militar praticou o crime de",
+   "75": "Caso hipotético 1A06-II: No curso de determinada investigação hipotética, foram coletadas informações acerca das condutas criminosas a seguir descritas. Os cabos Loureiro e Moura, junto ao sargento Plínio, atuavam costumeiramente em patrulha ostensiva e davam enfoque à criminalidade de drogas. Em algumas situações — sem autorização judicial e sem conhecimento dos superiores imediatos —, parte das drogas apreendidas nas ocorrências não era registrada em auto de apreensão e apresentação no auto de prisão em flagrante delito ou no inquérito policial, pois seriam utilizadas pelo grupo como recurso de pagamento a informantes, que eram também traficantes de drogas na região e que se utilizavam de informações privilegiadas sobre a distribuição de drogas na cidade para “entregar concorrentes” à polícia.\nAinda com base nos fatos na situação hipotética 1A06-II, considerando-se que o cabo Loureiro, ao saber que a investigação se teria iniciado a partir da informação do tenente Nilson, a quem o cabo inicialmente confiava, resolveu desacatá-lo na sua condição de superior hierárquico e, em seguida, ainda no interior do batalhão, desferiu socos no agora inimigo, o que veio a provocar nele lesões corporais de natureza grave. A respeito do crime de desacato a superior e do crime de lesão corporal, segundo os critérios de classificação dos crimes militares, são, respectivamente, crime"
+  }
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "evento": "SERPRO_21",
+ "workdir": "/tmp/serpro_21",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "SERPRO",
+  "ano": 2021,
+  "id_orgao": "serpro"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista – Ciência de Dados",
+   "id_cargo": "analista-ciencia-de-dados",
+   "provas": [
+    {
+     "key": "cb01",
+     "prova": "pro__CARGO_1.pdf",
+     "gabarito": "gab_MATRIZ_589_SERPRO_CB1_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ__CARGO_1.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro__CARGO_1.pdf",
+     "gabarito": "gab_MATRIZ_589_SERPRO_001_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ__CARGO_1.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista – Desenvolvimento de Sistemas",
+   "id_cargo": "analista-desenvolvimento-de-sistemas",
+   "provas": [
+    {
+     "key": "cb02",
+     "prova": "pro_CARGO_2.pdf",
+     "gabarito": "gab_MATRIZ_589_SERPRO_CB1_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_2.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_CARGO_2.pdf",
+     "gabarito": "gab_MATRIZ_589_SERPRO_002_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_2.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "cb01": {
+   "71": "A quantidade padronizada Z = (X − 4)/√3 segue distribuição normal padrão."
+  }
+ }
+}

@@ -1,0 +1,1002 @@
+{
+ "evento": "SEE_PE_22_ESPECIAL_MUSICA",
+ "workdir": "/tmp/see_pe_22_especial_musica",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Secretaria de Educação de Pernambuco",
+  "ano": 2022,
+  "id_orgao": "see-pe"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Professor Braillista",
+   "id_cargo": "professor-braillista",
+   "provas": [
+    {
+     "key": "cb01",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_SEE_PE_001_01.pdf",
+     "gabarito": "gab_SEE_PE_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Professor Intérprete De Língua Brasileira De Sinais",
+   "id_cargo": "professor-interprete-de-lingua-brasileira-de-sinais",
+   "provas": [
+    {
+     "key": "cb02",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_SEE_PE_002_01.pdf",
+     "gabarito": "gab_SEE_PE_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Professor – Música Canto Canto Erudito",
+   "id_cargo": "professor-musica-canto-canto-erudito",
+   "provas": [
+    {
+     "key": "cb03",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Professor – Música Canto Canto Popular",
+   "id_cargo": "professor-musica-canto-canto-popular",
+   "provas": [
+    {
+     "key": "cb04",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Professor – Música Cordas Dedilhadas Guitarra",
+   "id_cargo": "professor-musica-cordas-dedilhadas-guitarra",
+   "provas": [
+    {
+     "key": "cb05",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Professor – Música Cordas Dedilhadas Violão Popular",
+   "id_cargo": "professor-musica-cordas-dedilhadas-violao-popular",
+   "provas": [
+    {
+     "key": "cb06",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Professor – Música Cordas Dedilhadas Viola Nordestina De 10/Violão Popular",
+   "id_cargo": "professor-musica-cordas-dedilhadas-viola-nordestina-de-10-violao-popular",
+   "provas": [
+    {
+     "key": "cb07",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Professor – Música Cordas Dedilhadas Violão De 7/Violão Popular",
+   "id_cargo": "professor-musica-cordas-dedilhadas-violao-de-7-violao-popular",
+   "provas": [
+    {
+     "key": "cb08",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Professor – Música Cordas Dedilhadas Violão Erudito",
+   "id_cargo": "professor-musica-cordas-dedilhadas-violao-erudito",
+   "provas": [
+    {
+     "key": "cb09",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Professor – Música Cordas Dedilhadas Cavaquinho",
+   "id_cargo": "professor-musica-cordas-dedilhadas-cavaquinho",
+   "provas": [
+    {
+     "key": "cb10",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Professor – Música Cordas Dedilhadas Bandolim",
+   "id_cargo": "professor-musica-cordas-dedilhadas-bandolim",
+   "provas": [
+    {
+     "key": "cb11",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Professor – Música Cordas Friccionadas Violino",
+   "id_cargo": "professor-musica-cordas-friccionadas-violino",
+   "provas": [
+    {
+     "key": "cb12",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Professor – Música Cordas Friccionadas Viola/Violino",
+   "id_cargo": "professor-musica-cordas-friccionadas-viola-violino",
+   "provas": [
+    {
+     "key": "cb13",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "Professor – Música Cordas Friccionadas Violoncelo",
+   "id_cargo": "professor-musica-cordas-friccionadas-violoncelo",
+   "provas": [
+    {
+     "key": "cb14",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "Professor – Música Cordas Friccionadas Contrabaixo Acústico",
+   "id_cargo": "professor-musica-cordas-friccionadas-contrabaixo-acustico",
+   "provas": [
+    {
+     "key": "cb15",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "Professor – Música Iniciação Musical Teoria Musical/Canto Coral",
+   "id_cargo": "professor-musica-iniciacao-musical-teoria-musical-canto-coral",
+   "provas": [
+    {
+     "key": "cb16",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp16",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "17",
+   "cargo": "Professor – Música Iniciação Musical Teoria Musical/Conjunto De Flautas",
+   "id_cargo": "professor-musica-iniciacao-musical-teoria-musical-conjunto-de-flautas",
+   "provas": [
+    {
+     "key": "cb17",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp17",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "18",
+   "cargo": "Professor – Música Iniciação Musical Teoria Musical/Prática De Conjunto",
+   "id_cargo": "professor-musica-iniciacao-musical-teoria-musical-pratica-de-conjunto",
+   "provas": [
+    {
+     "key": "cb18",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp18",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "19",
+   "cargo": "Professor – Música Iniciação Musical Teoria Musical/ Apreciação E Criação Musical",
+   "id_cargo": "professor-musica-iniciacao-musical-teoria-musical-apreciacao-e-criacao-musical",
+   "provas": [
+    {
+     "key": "cb19",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp19",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "20",
+   "cargo": "Professor – Música Iniciação Musical Teoria Musical/ Iniciação Musical",
+   "id_cargo": "professor-musica-iniciacao-musical-teoria-musical-iniciacao-musical",
+   "provas": [
+    {
+     "key": "cb20",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp20",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "21",
+   "cargo": "Professor – Música Iniciação Musical Teoria Musical/Conjunto De Percussão",
+   "id_cargo": "professor-musica-iniciacao-musical-teoria-musical-conjunto-de-percussao",
+   "provas": [
+    {
+     "key": "cb21",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp21",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "22",
+   "cargo": "Professor – Música Núcleo De Educação Musical Inclusiva (Nemusi): Iniciação Musical Especial",
+   "id_cargo": "professor-musica-nucleo-de-educacao-musical-inclusiva-nemusi-iniciacao-musical-especial",
+   "provas": [
+    {
+     "key": "cb22",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp22",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "23",
+   "cargo": "Professor – Música Percussão Bateria",
+   "id_cargo": "professor-musica-percussao-bateria",
+   "provas": [
+    {
+     "key": "cb23",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp23",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "24",
+   "cargo": "Professor – Música Percussão Percussão Erudita",
+   "id_cargo": "professor-musica-percussao-percussao-erudita",
+   "provas": [
+    {
+     "key": "cb24",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp24",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "25",
+   "cargo": "Professor – Música Percussão Percussão Popular",
+   "id_cargo": "professor-musica-percussao-percussao-popular",
+   "provas": [
+    {
+     "key": "cb25",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp25",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "26",
+   "cargo": "Professor – Música Sopros Clarinete",
+   "id_cargo": "professor-musica-sopros-clarinete",
+   "provas": [
+    {
+     "key": "cb26",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp26",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "27",
+   "cargo": "Professor – Música Sopros Fagote",
+   "id_cargo": "professor-musica-sopros-fagote",
+   "provas": [
+    {
+     "key": "cb27",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp27",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "28",
+   "cargo": "Professor – Música Sopros Flauta Transversal",
+   "id_cargo": "professor-musica-sopros-flauta-transversal",
+   "provas": [
+    {
+     "key": "cb28",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp28",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "29",
+   "cargo": "Professor – Música Sopros Saxofone",
+   "id_cargo": "professor-musica-sopros-saxofone",
+   "provas": [
+    {
+     "key": "cb29",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp29",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "30",
+   "cargo": "Professor – Música Sopros Trombone",
+   "id_cargo": "professor-musica-sopros-trombone",
+   "provas": [
+    {
+     "key": "cb30",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp30",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "31",
+   "cargo": "Professor – Música Sopros Trompete",
+   "id_cargo": "professor-musica-sopros-trompete",
+   "provas": [
+    {
+     "key": "cb31",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp31",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "32",
+   "cargo": "Professor – Música Sopros Tuba",
+   "id_cargo": "professor-musica-sopros-tuba",
+   "provas": [
+    {
+     "key": "cb32",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp32",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "33",
+   "cargo": "Professor – Música Sopros Trompa",
+   "id_cargo": "professor-musica-sopros-trompa",
+   "provas": [
+    {
+     "key": "cb33",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp33",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "34",
+   "cargo": "Professor – Música Tecla Teclado",
+   "id_cargo": "professor-musica-tecla-teclado",
+   "provas": [
+    {
+     "key": "cb34",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp34",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "35",
+   "cargo": "Professor – Música Tecla Piano Popular",
+   "id_cargo": "professor-musica-tecla-piano-popular",
+   "provas": [
+    {
+     "key": "cb35",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp35",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "36",
+   "cargo": "Professor – Música Tecla Piano Erudito",
+   "id_cargo": "professor-musica-tecla-piano-erudito",
+   "provas": [
+    {
+     "key": "cb36",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp36",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "37",
+   "cargo": "Professor – Música Tecla Correpetidor Piano Popular",
+   "id_cargo": "professor-musica-tecla-correpetidor-piano-popular",
+   "provas": [
+    {
+     "key": "cb37",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp37",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "38",
+   "cargo": "Professor – Música Tecla Correpetidor Piano Erudito",
+   "id_cargo": "professor-musica-tecla-correpetidor-piano-erudito",
+   "provas": [
+    {
+     "key": "cb38",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp38",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "39",
+   "cargo": "Professor – Música Teclas Acordeon",
+   "id_cargo": "professor-musica-teclas-acordeon",
+   "provas": [
+    {
+     "key": "cb39",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp39",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "40",
+   "cargo": "Professor – Música Técnico/Preparatório Teoria Musical (Harmonia & Composição",
+   "id_cargo": "professor-musica-tecnico-preparatorio-teoria-musical-harmonia-composicao",
+   "provas": [
+    {
+     "key": "cb40",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp40",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "41",
+   "cargo": "Professor – Música Técnico/Preparatório Teoria Musical (Percepção Musical)",
+   "id_cargo": "professor-musica-tecnico-preparatorio-teoria-musical-percepcao-musical",
+   "provas": [
+    {
+     "key": "cb41",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp41",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "42",
+   "cargo": "Professor – Música Técnico/Preparatório Teoria Musical (Prática De Banda)",
+   "id_cargo": "professor-musica-tecnico-preparatorio-teoria-musical-pratica-de-banda",
+   "provas": [
+    {
+     "key": "cb42",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp42",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "43",
+   "cargo": "Professor – Música Técnico/Preparatório Teoria Musical (Prática De Coro)",
+   "id_cargo": "professor-musica-tecnico-preparatorio-teoria-musical-pratica-de-coro",
+   "provas": [
+    {
+     "key": "cb43",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp43",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "44",
+   "cargo": "Professor – Música Técnico/Preparatório Teoria Musical (Prática De Orquestra)",
+   "id_cargo": "professor-musica-tecnico-preparatorio-teoria-musical-pratica-de-orquestra",
+   "provas": [
+    {
+     "key": "cb44",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp44",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "45",
+   "cargo": "Professor – Música Técnico/Preparatório Teoria Musical (Tecnologias Aplicadas À Música)",
+   "id_cargo": "professor-musica-tecnico-preparatorio-teoria-musical-tecnologias-aplicadas-a-musica",
+   "provas": [
+    {
+     "key": "cb45",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp45",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "46",
+   "cargo": "Professor – Música Técnico/Preparatório Teoria Musical (Tradições Populares Do Nordeste)",
+   "id_cargo": "professor-musica-tecnico-preparatorio-teoria-musical-tradicoes-populares-do-nordeste",
+   "provas": [
+    {
+     "key": "cb46",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp46",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "47",
+   "cargo": "Professor – Música Técnico/Preparatório Expressão Cênica",
+   "id_cargo": "professor-musica-tecnico-preparatorio-expressao-cenica",
+   "provas": [
+    {
+     "key": "cb47",
+     "prova": "pro_SEE_PE_CB1_01.pdf",
+     "gabarito": "gab_SEE_PE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_CB1_01.PDF"
+    },
+    {
+     "key": "esp47",
+     "prova": "pro_SEE_PE_003_01.pdf",
+     "gabarito": "gab_SEE_PE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "781_SEE_PE_003_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

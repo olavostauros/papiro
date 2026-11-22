@@ -1,0 +1,230 @@
+{
+ "evento": "SEFA_PR_25",
+ "workdir": "/tmp/sefa_pr_25",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Secretaria da Fazenda do Paraná",
+  "ano": 2025,
+  "id_orgao": "sefapr"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Administrador",
+   "id_cargo": "administrador",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_B7881240CC60CF1CEA5C2A42.pdf",
+     "gabarito": "gab_312CB25D08249F85421C7734.pdf",
+     "tipo": "mc",
+     "arquivo": "B7881240CC60CF1CEA5C2A42F3CBC018457E96D6D02200151544B9F654265839.pdf"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_90ECB71259732E8F2E4407ED.pdf",
+     "gabarito": "gab_DCA73FE92A4BF95CA33C4169.pdf",
+     "tipo": "mc",
+     "arquivo": "90ECB71259732E8F2E4407EDA63B6754CADD1809D7F1A2741FB1422320521691.pdf",
+     "num_offset": 80
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista Fazendário",
+   "id_cargo": "analista-fazendario",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_B7881240CC60CF1CEA5C2A42.pdf",
+     "gabarito": "gab_312CB25D08249F85421C7734.pdf",
+     "tipo": "mc",
+     "arquivo": "B7881240CC60CF1CEA5C2A42F3CBC018457E96D6D02200151544B9F654265839.pdf"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_2F58995126C3CE0CD3ED52F1.pdf",
+     "gabarito": "gab_7CF7DD8E08FAC152724772CF.pdf",
+     "tipo": "mc",
+     "arquivo": "2F58995126C3CE0CD3ED52F1A50A1158B2AD11CC1A73B73D20B9B3308C4F549C.pdf",
+     "num_offset": 80
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Contador",
+   "id_cargo": "contador",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_B7881240CC60CF1CEA5C2A42.pdf",
+     "gabarito": "gab_312CB25D08249F85421C7734.pdf",
+     "tipo": "mc",
+     "arquivo": "B7881240CC60CF1CEA5C2A42F3CBC018457E96D6D02200151544B9F654265839.pdf"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_B8C5A504FAFC1AA1291C24E0.pdf",
+     "gabarito": "gab_3F9E8A1AD8AAFFAA6F2B937B.pdf",
+     "tipo": "mc",
+     "arquivo": "B8C5A504FAFC1AA1291C24E0EF65F853FD627198946D73AA9C28270FE383201A.pdf",
+     "num_offset": 80
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Economista",
+   "id_cargo": "economista",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_B7881240CC60CF1CEA5C2A42.pdf",
+     "gabarito": "gab_312CB25D08249F85421C7734.pdf",
+     "tipo": "mc",
+     "arquivo": "B7881240CC60CF1CEA5C2A42F3CBC018457E96D6D02200151544B9F654265839.pdf"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_9A9608A616856A6A1D56FC90.pdf",
+     "gabarito": "gab_DBBCB93819E60FBF3DFD675D.pdf",
+     "tipo": "mc",
+     "arquivo": "9A9608A616856A6A1D56FC902BFB9123EF6D7FADBAF60956903E32D73001B8C8.pdf",
+     "num_offset": 80
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Estatístico",
+   "id_cargo": "estatistico",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_B7881240CC60CF1CEA5C2A42.pdf",
+     "gabarito": "gab_312CB25D08249F85421C7734.pdf",
+     "tipo": "mc",
+     "arquivo": "B7881240CC60CF1CEA5C2A42F3CBC018457E96D6D02200151544B9F654265839.pdf"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_8D38D9B4E6BDACCA8D659BC0.pdf",
+     "gabarito": "gab_1A97E5920FB5343C586C0021.pdf",
+     "tipo": "mc",
+     "arquivo": "8D38D9B4E6BDACCA8D659BC004169BF70CC3A1B32BBBA9FE95ABA1A84A0B6EE2.pdf",
+     "num_offset": 80
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Profissional de Tecnologia da Informação",
+   "id_cargo": "profissional-de-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_B7881240CC60CF1CEA5C2A42.pdf",
+     "gabarito": "gab_312CB25D08249F85421C7734.pdf",
+     "tipo": "mc",
+     "arquivo": "B7881240CC60CF1CEA5C2A42F3CBC018457E96D6D02200151544B9F654265839.pdf"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_34B92116AFD6A45F9DBF6735.pdf",
+     "gabarito": "gab_5F4DC137BBE01885BD15031F.pdf",
+     "tipo": "mc",
+     "arquivo": "34B92116AFD6A45F9DBF6735630F19C6A93B48B83D62DDF91F810C9C102F79E8.pdf",
+     "num_offset": 80
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp05": {
+   "2": {
+    "enunciado": "Considerando-se, a partir de duas variáveis aleatórias discretas X e Y, a definição de dois eventos aleatórios, A e B, tais que A = {X = 1, Y = 0} e B = {X = 0, Y = 1}, é correto afirmar que, se as variáveis aleatórias X e Y forem mutuamente independentes, e se P(X = 0) = P(X = 1) = P(Y = 0) = P(Y = 1), então P(A ∩ B) é igual a"
+   },
+   "4": {
+    "enunciado": "Caso uma variável aleatória contínua Y cuja função de densidade de probabilidade seja dada pela expressão f_Y(y) = Ay⁵, se y ∈ (0, 1), e f_Y(y) = 0, se y ∉ (0, 1), em que A é uma constante positiva, então a probabilidade P(Y < 0,5) é igual a"
+   },
+   "5": {
+    "enunciado": "Se X for uma variável aleatória contínua tal que P(X > c) = exp(−3√c), para c > 0, e P(X > c) = 1, para c < 0, então a função de densidade de probabilidade de X para x > 0 será dada pela expressão",
+    "alternativas": [
+     "f(x) = exp(−3√x).",
+     "f(x) = −3 × exp(−3√x).",
+     "f(x) = −3√x × exp(−3√x).",
+     "f(x) = 3/(2√x) × exp(−3√x).",
+     "f(x) = 3√x × exp(−3√x)."
+    ]
+   },
+   "7": {
+    "enunciado": "Em um posto de atendimento presencial a contribuintes, há três filas. As variáveis aleatórias X, Y e Z, que representam os números de atendimentos por minuto nessas filas, seguem distribuições de Poisson com médias, respectivamente, iguais a 1, 2 e 3. Nessa situação hipotética, se as filas funcionam de forma independente e simultânea e se T = X + Y + Z corresponde ao total de atendimentos por minuto no posto, então P(T = 0) é igual a",
+    "alternativas": [
+     "exp(−1) + exp(−2) + exp(−3).",
+     "exp(−1) × exp(−2) × exp(−3).",
+     "exp(−1) + 2 × exp(−2) + 3 × exp(−3).",
+     "exp(−1) + exp(−2)/2 + exp(−3)/6.",
+     "exp(−1) × exp(−2) × exp(−3)/12."
+    ]
+   },
+   "8": {
+    "enunciado": "Se U e V forem variáveis aleatórias que sigam distribuições normais padrão, de tal forma que o desvio-padrão da soma U + V seja igual a 1,5, então o valor esperado do produto U × V será igual a"
+   },
+   "9": {
+    "enunciado": "Em uma entidade pública, em que o número X de processos instruídos para determinada finalidade segue uma distribuição condicional na forma P(X = k|U = u) = C(5,k) u^k (1−u)^(5−k), na qual k ∈ {0, 1, ..., 5} e U segue uma distribuição uniforme contínua no intervalo [0, 1], 5 processos administrativos foram selecionados aleatoriamente de um sistema eletrônico. Nessa situação hipotética, P(X = 5) é igual a"
+   },
+   "10": {
+    "enunciado": "Se E[Y|X = x] = 2x², em que Y|X = x segue uma distribuição exponencial, então a probabilidade condicional P(Y > 8|X = 2) será igual a",
+    "alternativas": [
+     "0,125 × exp(1).",
+     "1 − 0,125 × exp(−1).",
+     "1 − exp(−1).",
+     "exp(−1).",
+     "0,125 × exp(−1)."
+    ]
+   },
+   "11": {
+    "enunciado": "A partir das informações do texto 5A1, é correto afirmar que a variável aleatória V² segue uma distribuição"
+   },
+   "12": {
+    "enunciado": "Com base nas informações do texto 5A1, é correto afirmar que a razão (M−5)√2/U tem variância"
+   },
+   "13": {
+    "enunciado": "No texto 5A1, o valor esperado de U² é igual a"
+   },
+   "15": {
+    "enunciado": "Se Z ~ N(0, 1), então E(Z⁴) + E(Z³) + E(Z²) + E(Z) é igual a"
+   },
+   "16": {
+    "enunciado": "Considerando uma população com N elementos, assinale a opção em que é apresentado o estimador com o maior viés para a variância populacional, com base em uma amostra aleatória simples de tamanho n > 4.",
+    "alternativas": [
+     "σ̂² = n/[(n−1)(n−1)] Σᵢ₌₁ⁿ (Xᵢ − X̄)²",
+     "σ̂² = 1/(n−2) Σᵢ₌₁ⁿ (Xᵢ − X̄)²",
+     "σ̂² = 1/n Σᵢ₌₁ⁿ (Xᵢ − X̄)²",
+     "σ̂² = 1/(n−1) Σᵢ₌₁ⁿ (Xᵢ − X̄)²",
+     "σ̂² = (n+1)/[n(n−3)] Σᵢ₌₁ⁿ (Xᵢ − X̄)²"
+    ]
+   },
+   "24": {
+    "enunciado": "Suponha que, para se testar a hipótese H₀, mencionada no texto 5A2-II, seja escolhido como região crítica o conjunto RC = {y ∈ ℝ / y > p₀} de tal modo que a hipótese H₀ será rejeitada se a probabilidade de o valor observado da estatística pertencer a RC for igual a 5%, dado que a hipótese H₀ é verdadeira. Nesse caso, considerando-se z₉₅% = 1,96 e 0,001¹ᐟ² = 0,032, o menor p₀ nessas condições será"
+   },
+   "27": {
+    "enunciado": "A partir dessas informações, e adotando, para cada altura de exposição, a média do número de itens vendidos nas semanas 1 e 2, assinale a opção em que é apresentada, sob um aspecto qualitativo, a distribuição mais factível para modelar a situação por meio da representação do número de itens vendidos do produto, no eixo vertical, e da altura de exposição, no eixo horizontal."
+   },
+   "49": {
+    "enunciado": "Para conduzir uma pesquisa de satisfação em uma empresa com 2.000 colaboradores, certo pesquisador estabeleceu um erro amostral de 5%, usual em estudos sociais. O tamanho da amostra n foi calculado por meio da fórmula de Yamane a seguir, em que N representa o tamanho da população e E, o erro amostral tolerado. n = N/(1 + NE²) A partir das informações presentes na situação hipotética precedente, assinale a opção que apresenta o intervalo que corresponde ao tamanho da amostra necessário para garantir que os resultados representem adequadamente a população que participou da pesquisa.",
+    "alternativas": [
+     "500 ≤ n",
+     "100 ≤ n < 200",
+     "300 ≤ n < 400",
+     "400 ≤ n < 500",
+     "200 ≤ n < 300"
+    ]
+   }
+  }
+ }
+}

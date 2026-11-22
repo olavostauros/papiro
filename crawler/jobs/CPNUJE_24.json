@@ -1,0 +1,476 @@
+{
+ "evento": "CPNUJE_24",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "CPNUJE",
+  "ano": 2024,
+  "id_orgao": "cpnuje"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista Judiciário – Administrativa",
+   "id_cargo": "analista-judiciario-administrativa",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_CPNUJE_CB3_01.pdf",
+     "gabarito": "gab_CPNUJE_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_CB3_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_CPNUJE_001_01.pdf",
+     "gabarito": "gab_CPNUJE_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Contabilidade",
+   "id_cargo": "analista-judiciario-contabilidade",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_CPNUJE_CB2_01.pdf",
+     "gabarito": "gab_CPNUJE_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_CB2_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_CPNUJE_002_01.pdf",
+     "gabarito": "gab_CPNUJE_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Arquitetura",
+   "id_cargo": "analista-judiciario-arquitetura",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_CPNUJE_CB2_01.pdf",
+     "gabarito": "gab_CPNUJE_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_CB2_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_CPNUJE_003_01.pdf",
+     "gabarito": "gab_CPNUJE_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Arquivologia",
+   "id_cargo": "analista-judiciario-arquivologia",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_CPNUJE_CB2_01.pdf",
+     "gabarito": "gab_CPNUJE_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_CB2_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_CPNUJE_004_01.pdf",
+     "gabarito": "gab_CPNUJE_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Biblioteconomia",
+   "id_cargo": "analista-judiciario-biblioteconomia",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_CPNUJE_CB2_01.pdf",
+     "gabarito": "gab_CPNUJE_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_CB2_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_CPNUJE_005_01.pdf",
+     "gabarito": "gab_CPNUJE_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Enfermagem",
+   "id_cargo": "analista-judiciario-enfermagem",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_CPNUJE_CB2_01.pdf",
+     "gabarito": "gab_CPNUJE_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_CB2_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_CPNUJE_006_01.pdf",
+     "gabarito": "gab_CPNUJE_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Engenharia Civil",
+   "id_cargo": "analista-judiciario-engenharia-civil",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_CPNUJE_CB2_01.pdf",
+     "gabarito": "gab_CPNUJE_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_CB2_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_CPNUJE_007_01.pdf",
+     "gabarito": "gab_CPNUJE_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Engenharia Elétrica",
+   "id_cargo": "analista-judiciario-engenharia-eletrica",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_CPNUJE_CB2_01.pdf",
+     "gabarito": "gab_CPNUJE_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_CB2_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_CPNUJE_008_01.pdf",
+     "gabarito": "gab_CPNUJE_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Engenharia Mecânica",
+   "id_cargo": "analista-judiciario-engenharia-mecanica",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_CPNUJE_CB2_01.pdf",
+     "gabarito": "gab_CPNUJE_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_CB2_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_CPNUJE_009_01.pdf",
+     "gabarito": "gab_CPNUJE_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Estatística",
+   "id_cargo": "analista-judiciario-estatistica",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_CPNUJE_CB2_01.pdf",
+     "gabarito": "gab_CPNUJE_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_CB2_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_CPNUJE_010_01.pdf",
+     "gabarito": "gab_CPNUJE_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Medicina (Clínica Médica)",
+   "id_cargo": "analista-judiciario-medicina-clinica-medica",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_CPNUJE_CB2_01.pdf",
+     "gabarito": "gab_CPNUJE_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_CB2_01.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_CPNUJE_011_01.pdf",
+     "gabarito": "gab_CPNUJE_011_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Medicina (Psiquiatria)",
+   "id_cargo": "analista-judiciario-medicina-psiquiatria",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_CPNUJE_CB2_01.pdf",
+     "gabarito": "gab_CPNUJE_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_CB2_01.PDF"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_CPNUJE_012_01.pdf",
+     "gabarito": "gab_CPNUJE_012_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Medicina do Trabalho",
+   "id_cargo": "analista-judiciario-medicina-do-trabalho",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_CPNUJE_CB2_01.pdf",
+     "gabarito": "gab_CPNUJE_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_CB2_01.PDF"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_CPNUJE_013_01.pdf",
+     "gabarito": "gab_CPNUJE_013_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_013_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Odontologia",
+   "id_cargo": "analista-judiciario-odontologia",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_CPNUJE_CB2_01.pdf",
+     "gabarito": "gab_CPNUJE_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_CB2_01.PDF"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_CPNUJE_014_01.pdf",
+     "gabarito": "gab_CPNUJE_014_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_014_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Psicologia",
+   "id_cargo": "analista-judiciario-psicologia",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_CPNUJE_CB2_01.pdf",
+     "gabarito": "gab_CPNUJE_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_CB2_01.PDF"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_CPNUJE_015_01.pdf",
+     "gabarito": "gab_CPNUJE_015_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_015_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Serviço Social",
+   "id_cargo": "analista-judiciario-servico-social",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_CPNUJE_CB2_01.pdf",
+     "gabarito": "gab_CPNUJE_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_CB2_01.PDF"
+    },
+    {
+     "key": "esp16",
+     "prova": "pro_CPNUJE_016_01.pdf",
+     "gabarito": "gab_CPNUJE_016_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_016_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Tecnologia da Informação",
+   "id_cargo": "analista-judiciario-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_CPNUJE_CB2_01.pdf",
+     "gabarito": "gab_CPNUJE_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_CB2_01.PDF"
+    },
+    {
+     "key": "esp17",
+     "prova": "pro_CPNUJE_017_01.pdf",
+     "gabarito": "gab_CPNUJE_017_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_017_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Judiciário – Área Judiciária",
+   "id_cargo": "analista-judiciario-area-judiciaria",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_CPNUJE_CB1_01.pdf",
+     "gabarito": "gab_CPNUJE_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_CB1_01.PDF"
+    },
+    {
+     "key": "esp18",
+     "prova": "pro_CPNUJE_018_01.pdf",
+     "gabarito": "gab_CPNUJE_018_01_ATUALIZADO.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_018_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Técnico Judiciário – Administrativa",
+   "id_cargo": "tecnico-judiciario-administrativa",
+   "provas": [
+    {
+     "key": "cb5",
+     "prova": "pro_CPNUJE_CB5_01.pdf",
+     "gabarito": "gab_CPNUJE_CB5_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_CB5_01.PDF"
+    },
+    {
+     "key": "esp19",
+     "prova": "pro_CPNUJE_019_01.pdf",
+     "gabarito": "gab_CPNUJE_019_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_019_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Técnico Judiciário – Agente da Polícia Judicial",
+   "id_cargo": "tecnico-judiciario-agente-da-policia-judicial",
+   "provas": [
+    {
+     "key": "cb4",
+     "prova": "pro_CPNUJE_CB4_01.pdf",
+     "gabarito": "gab_CPNUJE_CB4_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_CB4_01.PDF"
+    },
+    {
+     "key": "esp20",
+     "prova": "pro_CPNUJE_020_01.pdf",
+     "gabarito": "gab_CPNUJE_020_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_020_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Técnico Judiciário – Programação de Sistemas",
+   "id_cargo": "tecnico-judiciario-programacao-de-sistemas",
+   "provas": [
+    {
+     "key": "cb4",
+     "prova": "pro_CPNUJE_CB4_01.pdf",
+     "gabarito": "gab_CPNUJE_CB4_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_CB4_01.PDF"
+    },
+    {
+     "key": "esp21",
+     "prova": "pro_CPNUJE_021_01.pdf",
+     "gabarito": "gab_CPNUJE_021_01.pdf",
+     "tipo": "ce",
+     "arquivo": "988_CPNUJE_021_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {
+  "esp02": {
+   "105": "O orçamento da seguridade social, em consonância com o plano plurianual, terá, entre outras funções, a de reduzir desigualdades inter-regionais, segundo critério populacional, visando à alocação eficiente de recursos para a previdência social, saúde e assistência social."
+  },
+  "esp03": {
+   "96": "Conforme a figura a seguir, a inclinação do telhado é definida como a tangente do ângulo α formado pelos banzos superior e inferior da tesoura."
+  },
+  "esp08": {
+   "52": "(vS(t) − v1(t))/R1 + vS(t)/R3 + (vS(t) − V2)/R2 = 0",
+   "53": "v S ( t ) = [2 + 5 · sen(10 πt )] V",
+   "54": "S = ĀC̅ + BCD + AB̅D̅",
+   "62": "Um sistema linear analógico, com entrada x(t) e saída y(t), regido pela equação d²y(t)/dt² + 14 dy(t)/dt + 100y(t) = 100x(t), tem a função de transferência no domínio de Laplace dada por H(s) = 100/(s² + 14s + 100)."
+  },
+  "esp09": {
+   "51": "Considere a figura a seguir, que ilustra uma árvore de transmissão escalonada, com seções de diâmetros d 1 , d 2 e d 3 ao longo do comprimento L , sob a ação de um torque T . Nesse caso, para o cálculo da deflexão angular θ que a árvore sofrerá, deve-se considerar cada segmento da árvore com diâmetro d i como molas de rigidez k i em série, tal que θ = T/keq, em que 1/keq = 1/k1 + 1/k2 + 1/k3.",
+   "55": "Se a distribuição de velocidades, em m/s, de um escoamento for dada por v = 2x³ + 2y² − 3z, então a aceleração do fluido no ponto de coordenadas [2,1,5], em m, será superior a 20 m/s².",
+   "56": "Considere que, em uma das extremidades de uma barra de madeira de 10 m de comprimento e seção de 5 cm × 5 cm, que flutua verticalmente na água a 20 °C, seja adicionada uma peça de aço de 6 kg. Considere, também, que a aceleração da gravidade seja igual a 10 m/s 2 e que as densidades da madeira, do aço e da água sejam, respectivamente, 600 kg/m 3 , 8.000 kg/m 3 e 1.000 kg/m 3 . Nesse caso, ficará fora da água menos de 2 m da barra.",
+   "61": "A ponte de Wheatstone mostrada a seguir estará balanceada, ou seja, o galvanômetro mostrará valor zero, se R1R3 = R2R4 .",
+   "69": "O trabalho (W) realizado por uma turbina a vapor pode ser calculado a partir da relação W = [ṁ×(h_entrada − h_saída)/Q]×η, em que Q é o calor, ṁ é a taxa de fluxo de massa, h é a entalpia e η é o rendimento da turbina.",
+   "76": "A quantidade de cilindradas ( C ) de um motor é calculada pela expressão C = n(r²·π·h), em que n é o número de cilindros do motor, r , o raio dos cilindros e h , o curso do pistão no interior do cilindro."
+  },
+  "esp10": {
+   "70": "E[X³] = 0",
+   "71": "A variância de X é a²/3.",
+   "72": "X pode ser gerada como a média de duas variáveis uniformes U[−a, a] independentes.",
+   "73": "Se a variância das Xi for não limitada, então, a lei fraca, a lei forte e o teorema central do limite não serão aplicáveis a Mn.",
+   "74": "De acordo com a lei fraca dos grandes números, P(lim_{n→∞} Mn = μ) = 1.",
+   "75": "A distribuição amostral de (1/n)∑_{i=1}^n Yi é normal com média p = P(X < b) e variância p(1−p)/n para qualquer valor de n.",
+   "76": "Se a distribuição das variáveis aleatórias X for normal, então a distribuição amostral de (Mx − μ)/√(V/n) seguirá uma distribuição T com n − 1 graus de liberdade.",
+   "77": "A soma das variáveis aleatórias Yi terá uma distribuição binomial.",
+   "78": "Se a distribuição das variáveis aleatórias X for normal, então a distribuição amostral de (n−1)(S²/V) seguirá uma distribuição qui-quadrado com n − 1 graus de liberdade.",
+   "79": "Se a distribuição das variáveis aleatórias X for desconhecida, então a distribuição da média amostral será normal com média μ e variância V/n.",
+   "80": "Para n suficientemente grande, a estatística n/∑_{k=1}^n Wk segue aproximadamente uma distribuição normal.",
+   "81": "Um estimador consistente da média μ é (1/(n+5))·∑_{k=1}^{n−1}(Wk + 2).",
+   "82": "Se W̄ denota a média amostral, então o estimador de máxima verossimilhança para a mediana populacional é W̄ × ln(2).",
+   "83": "O vetor (∑_{k=1}^n Wk, ∑_{k=1}^n Wk²)′ representa uma estatística conjuntamente suficiente para a estimação da média μ e da variância populacional.",
+   "90": "Se [0,3; 0,9] representa o intervalo de 99% de confiança para τ, então P(τ ∈ [0,3; 0,9]) = 0,99.",
+   "91": "Supondo que Tn seja o estimador de máxima verossimilhança de τ, que a população pertença à família exponencial e que o tamanho da amostra n seja suficientemente grande, então a quantidade pivotal (Tn − τ)/D segue aproximadamente a distribuição normal padrão.",
+   "92": "D² = E[(Tn − τ)²].",
+   "93": "O intervalo de confiança para o estimador Tn segue a forma Tn ± q × D, em que q representa um quantil da população X.",
+   "94": "Supondo que τ > 0, a quantidade [(n−1)×Tn]/τ é uma estatística que permite a obtenção de uma estimativa intervalar para o parâmetro de interesse."
+  }
+ }
+}

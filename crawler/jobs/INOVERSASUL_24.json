@@ -1,0 +1,627 @@
+{
+ "evento": "INOVERSASUL_24",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Fundação Inoversa Sul",
+  "ano": 2024,
+  "id_orgao": "inoversasul"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista Administrativo (Comunicação)",
+   "id_cargo": "analista-administrativo-comunicacao",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_INOVERSASUL_CG1_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG1_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_INOVERSASUL_001_01.pdf",
+     "gabarito": "gab_INOVERSASUL_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Administrativo de Projetos",
+   "id_cargo": "analista-administrativo-de-projetos",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_INOVERSASUL_CG2_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG2_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_INOVERSASUL_002_01.pdf",
+     "gabarito": "gab_INOVERSASUL_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Contratos",
+   "id_cargo": "analista-de-contratos",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_INOVERSASUL_CG1_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG1_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_INOVERSASUL_003_01.pdf",
+     "gabarito": "gab_INOVERSASUL_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Patrimônio",
+   "id_cargo": "analista-de-patrimonio",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_INOVERSASUL_CG1_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG1_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_INOVERSASUL_004_01.pdf",
+     "gabarito": "gab_INOVERSASUL_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Planejamento",
+   "id_cargo": "analista-de-planejamento",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_INOVERSASUL_CG2_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG2_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_INOVERSASUL_005_01.pdf",
+     "gabarito": "gab_INOVERSASUL_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Projetos",
+   "id_cargo": "analista-de-projetos",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_INOVERSASUL_CG2_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG2_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_INOVERSASUL_006_01.pdf",
+     "gabarito": "gab_INOVERSASUL_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Arquivista",
+   "id_cargo": "arquivista",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_INOVERSASUL_CG1_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG1_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_INOVERSASUL_007_01.pdf",
+     "gabarito": "gab_INOVERSASUL_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Comprador",
+   "id_cargo": "comprador",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_INOVERSASUL_CG1_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG1_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_INOVERSASUL_008_01.pdf",
+     "gabarito": "gab_INOVERSASUL_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor Corretor de Redação – Ensino Médio",
+   "id_cargo": "professor-corretor-de-redacao-ensino-medio",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_INOVERSASUL_CG3_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG3_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_INOVERSASUL_009_01.pdf",
+     "gabarito": "gab_INOVERSASUL_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor de Anos Iniciais",
+   "id_cargo": "professor-de-anos-iniciais",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_INOVERSASUL_CG3_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG3_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_INOVERSASUL_010_01.pdf",
+     "gabarito": "gab_INOVERSASUL_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor de Arte – Ensino Médio",
+   "id_cargo": "professor-de-arte-ensino-medio",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_INOVERSASUL_CG3_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG3_01.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_INOVERSASUL_011_01.pdf",
+     "gabarito": "gab_INOVERSASUL_011_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor de Educação Física – Anos Iniciais",
+   "id_cargo": "professor-de-educacao-fisica-anos-iniciais",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_INOVERSASUL_CG3_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG3_01.PDF"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_INOVERSASUL_012_01.pdf",
+     "gabarito": "gab_INOVERSASUL_012_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor de Educação Física – Educação Infantil",
+   "id_cargo": "professor-de-educacao-fisica-educacao-infantil",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_INOVERSASUL_CG3_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG3_01.PDF"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_INOVERSASUL_013_01.pdf",
+     "gabarito": "gab_INOVERSASUL_013_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_013_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor de Educação Infantil",
+   "id_cargo": "professor-de-educacao-infantil",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_INOVERSASUL_CG3_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG3_01.PDF"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_INOVERSASUL_014_01.pdf",
+     "gabarito": "gab_INOVERSASUL_014_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_014_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor de Espanhol – Ensino Médio",
+   "id_cargo": "professor-de-espanhol-ensino-medio",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_INOVERSASUL_CG3_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG3_01.PDF"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_INOVERSASUL_015_01.pdf",
+     "gabarito": "gab_INOVERSASUL_015_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_015_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor de Geografia – Anos Finais",
+   "id_cargo": "professor-de-geografia-anos-finais",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_INOVERSASUL_CG3_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG3_01.PDF"
+    },
+    {
+     "key": "esp16",
+     "prova": "pro_INOVERSASUL_016_01.pdf",
+     "gabarito": "gab_INOVERSASUL_016_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_016_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor de Inglês – Educação Infantil",
+   "id_cargo": "professor-de-ingles-educacao-infantil",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_INOVERSASUL_CG3_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG3_01.PDF"
+    },
+    {
+     "key": "esp17",
+     "prova": "pro_INOVERSASUL_017_01.pdf",
+     "gabarito": "gab_INOVERSASUL_017_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_017_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor de Inglês – Ensino Fundamental",
+   "id_cargo": "professor-de-ingles-ensino-fundamental",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_INOVERSASUL_CG3_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG3_01.PDF"
+    },
+    {
+     "key": "esp18",
+     "prova": "pro_INOVERSASUL_018_01.pdf",
+     "gabarito": "gab_INOVERSASUL_018_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_018_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor de Língua Portuguesa – Anos Finais",
+   "id_cargo": "professor-de-lingua-portuguesa-anos-finais",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_INOVERSASUL_CG3_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG3_01.PDF"
+    },
+    {
+     "key": "esp19",
+     "prova": "pro_INOVERSASUL_019_01.pdf",
+     "gabarito": "gab_INOVERSASUL_019_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_019_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor de Língua Portuguesa – Anos Iniciais",
+   "id_cargo": "professor-de-lingua-portuguesa-anos-iniciais",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_INOVERSASUL_CG3_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG3_01.PDF"
+    },
+    {
+     "key": "esp20",
+     "prova": "pro_INOVERSASUL_020_01.pdf",
+     "gabarito": "gab_INOVERSASUL_020_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_020_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor de Língua Portuguesa – Ensino Médio",
+   "id_cargo": "professor-de-lingua-portuguesa-ensino-medio",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_INOVERSASUL_CG3_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG3_01.PDF"
+    },
+    {
+     "key": "esp21",
+     "prova": "pro_INOVERSASUL_021_01.pdf",
+     "gabarito": "gab_INOVERSASUL_021_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_021_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor de Matemática – Anos Finais",
+   "id_cargo": "professor-de-matematica-anos-finais",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_INOVERSASUL_CG3_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG3_01.PDF"
+    },
+    {
+     "key": "esp22",
+     "prova": "pro_INOVERSASUL_022_01.pdf",
+     "gabarito": "gab_INOVERSASUL_022_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_022_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor de Música",
+   "id_cargo": "professor-de-musica",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_INOVERSASUL_CG3_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG3_01.PDF"
+    },
+    {
+     "key": "esp23",
+     "prova": "pro_INOVERSASUL_023_01.pdf",
+     "gabarito": "gab_INOVERSASUL_023_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_023_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor de Projeto de Vida – Ensino Médio",
+   "id_cargo": "professor-de-projeto-de-vida-ensino-medio",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_INOVERSASUL_CG3_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG3_01.PDF"
+    },
+    {
+     "key": "esp24",
+     "prova": "pro_INOVERSASUL_024_01.pdf",
+     "gabarito": "gab_INOVERSASUL_024_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_024_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Professor de Redação – Ensino Médio",
+   "id_cargo": "professor-de-redacao-ensino-medio",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_INOVERSASUL_CG3_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG3_01.PDF"
+    },
+    {
+     "key": "esp25",
+     "prova": "pro_INOVERSASUL_025_01.pdf",
+     "gabarito": "gab_INOVERSASUL_025_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_025_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Secretária Administrativa/Diretoria",
+   "id_cargo": "secretaria-administrativa-diretoria",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_INOVERSASUL_CG1_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG1_01.PDF"
+    },
+    {
+     "key": "esp26",
+     "prova": "pro_INOVERSASUL_026_01.pdf",
+     "gabarito": "gab_INOVERSASUL_026_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_026_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Auxiliar de Apoio Operacional",
+   "id_cargo": "auxiliar-de-apoio-operacional",
+   "provas": [
+    {
+     "key": "cg4",
+     "prova": "pro_INOVERSASUL_CG4_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG4_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG4_01.PDF"
+    },
+    {
+     "key": "esp27",
+     "prova": "pro_INOVERSASUL_027_01.pdf",
+     "gabarito": "gab_INOVERSASUL_027_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_027_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Auxiliar de Sala",
+   "id_cargo": "auxiliar-de-sala",
+   "provas": [
+    {
+     "key": "cg5",
+     "prova": "pro_INOVERSASUL_CG5_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG5_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG5_01.PDF"
+    },
+    {
+     "key": "esp28",
+     "prova": "pro_INOVERSASUL_028_01.pdf",
+     "gabarito": "gab_INOVERSASUL_028_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_028_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Auxiliar de Secretaria",
+   "id_cargo": "auxiliar-de-secretaria",
+   "provas": [
+    {
+     "key": "cg4",
+     "prova": "pro_INOVERSASUL_CG4_01.pdf",
+     "gabarito": "gab_INOVERSASUL_CG4_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_CG4_01.PDF"
+    },
+    {
+     "key": "esp29",
+     "prova": "pro_INOVERSASUL_029_01.pdf",
+     "gabarito": "gab_INOVERSASUL_029_01.pdf",
+     "tipo": "ce",
+     "arquivo": "033_INOVERSASUL_029_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {
+  "cg2": {
+   "14": "Por sua natureza adverbial, o termo “Igualmente” (último período do texto) poderia ser deslocado para imediatamente depois de “Stuart Hall” ou para depois da forma verbal “permite”, sem prejuízo do sentido original do texto, desde que feitos os devidos ajustes de letra inicial maiúscula e minúscula no período e suprimida a vírgula que segue o referido advérbio."
+  },
+  "esp08": {
+   "75": "Se uma aplicação financeira for capitalizada mensalmente com taxas de juros de 3% ao ano, então o tempo t que levará para que esse capital seja dobrado é t = (1/12)·(log10 2)/(log10 1,0025).",
+   "79": "Suponha que um investidor tenha feito depósitos iguais de valor P durante seis meses consecutivos, sempre no primeiro dia de cada mês, em uma aplicação que rende 2% ao mês. Nesse caso, imediatamente após o sexto depósito, o investidor terá em sua conta um valor igual a 50(1,02^6 − 1)·P.",
+   "81": "Uma taxa de juros de 12% ao ano capitalizada mensalmente tem taxa de juros efetiva dada por i = 100 × (1,1^12 − 1)%.",
+   "85": "No sistema de prestação constante, um empréstimo no valor de R$ 100.000, com taxa de juros de 1% ao mês, a ser pago em 10 prestações mensais terá parcelas no valor de 10^5(1 − 1/(1,1)^10)."
+  },
+  "esp22": {
+   "43": "A fração irredutível do número 1 + 1/(2 + 1/(3 + 1/(4 + 1/5))) é 225/157.",
+   "44": "O produto entre os números √3 − 1 e √(4 + 2√3) é 2.",
+   "45": "O número 2,43/0,84 − 1,35/3,24 é uma dízima finita.",
+   "46": "O resto da divisão do número 31^10 por 8 é igual a 7.",
+   "48": "Se a e b são números inteiros, então a diferença a − b pode ser fatorada na forma (∛a − ∛b)(∛a² + ∛a∛b + ∛b²).",
+   "50": "Se a é um número inteiro positivo, então entre os números a, a + 1 e a + 2 há sempre dois números pares.",
+   "52": "Caso a e b sejam números reais tais que a < b, então 1/b < 1/a.",
+   "71": "A equação x² − 5|x| + 4 = 0 tem mais de três raízes reais.",
+   "72": "Se f(x) = (x⁴ − 1)/(x² − 1) e g(x) = x² + 1, então f(x) = g(x) para todo número real x.",
+   "73": "A inequação |2x + 2| < |x − 2| não tem solução no conjunto dos números reais.",
+   "74": "O domínio de f(x) = √(1 − 2/x) é o intervalo [2, +∞).",
+   "75": "f(x) = |x − 1| + |x + 1| é uma função par.",
+   "76": "Se f, g, h : [0, 10] → ℝ forem três funções reais dadas por f(x) = x + 4, g(x) = 10 − x e h(x) = −x² + 6x + 40, então f(x)·g(x) = h(x), porém o valor máximo de h(x) é menor que o produto do máximo de f(x) pelo máximo de g(x).",
+   "77": "A área da região plana A é inferior a 9·π cm².",
+   "78": "O volume da parte retirada da barra é inferior a 20·π cm³."
+  },
+  "esp27": {
+   "64": "O comando Win + L realiza a captura de um printscreen, enquanto o comando Win + Shift + S bloqueia a tela do computador."
+  },
+  "esp29": {
+   "64": "O comando Win + L realiza a captura de um printscreen, enquanto o comando Win + Shift + S bloqueia a tela do computador."
+  }
+ }
+}

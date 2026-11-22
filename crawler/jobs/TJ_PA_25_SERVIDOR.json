@@ -1,0 +1,516 @@
+{
+ "evento": "TJ_PA_25_SERVIDOR",
+ "workdir": "/tmp/tj_pa_25_servidor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Tribunal de Justiça do Pará",
+  "ano": 2025,
+  "id_orgao": "tjpa"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista Judiciário – Administrativa",
+   "id_cargo": "analista-judiciario-administrativa",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_C9F8D295B931672227C93D2C.pdf",
+     "gabarito": "gab_A19ACA7DA2B5CB5A9EDDDC4A.pdf",
+     "tipo": "ce",
+     "arquivo": "C9F8D295B931672227C93D2C75D28DC412FC4048D1F1B99E3DC9F0F51D58ACB0.pdf"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_F96B6B45965253393F2C47C5.pdf",
+     "gabarito": "gab_DA0132F9A0A017A2D229274D.pdf",
+     "tipo": "ce",
+     "arquivo": "F96B6B45965253393F2C47C57456063F699B3F2FC9EF9757369A4C559FB50181.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista Judiciário – Administração",
+   "id_cargo": "analista-judiciario-administracao",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_C9F8D295B931672227C93D2C.pdf",
+     "gabarito": "gab_A19ACA7DA2B5CB5A9EDDDC4A.pdf",
+     "tipo": "ce",
+     "arquivo": "C9F8D295B931672227C93D2C75D28DC412FC4048D1F1B99E3DC9F0F51D58ACB0.pdf"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_490BE7C0113E3A76B3012EED.pdf",
+     "gabarito": "gab_A7C6BBB6D951497D42F2CDFD.pdf",
+     "tipo": "ce",
+     "arquivo": "490BE7C0113E3A76B3012EED150E0EF98555239FB4C4D91A8C834361D3AA17C3.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista Judiciário – Análise de Sistemas",
+   "id_cargo": "analista-judiciario-analise-de-sistemas",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_02D7D3F415481FBDD3691235.pdf",
+     "gabarito": "gab_626CD174A62325A94A5AEEC4.pdf",
+     "tipo": "ce",
+     "arquivo": "02D7D3F415481FBDD3691235CA3FCCE9FD64CF975305872DCA5D156C0DC1E436.pdf"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_974BCB3ECE2FC89963D9FB7F.pdf",
+     "gabarito": "gab_294AA06BC75868E48C12B7E5.pdf",
+     "tipo": "ce",
+     "arquivo": "974BCB3ECE2FC89963D9FB7F28413DE2FD7947B199629C0C2D3DFADFB003C520.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista Judiciário – Análise de Suporte",
+   "id_cargo": "analista-judiciario-analise-de-suporte",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_02D7D3F415481FBDD3691235.pdf",
+     "gabarito": "gab_626CD174A62325A94A5AEEC4.pdf",
+     "tipo": "ce",
+     "arquivo": "02D7D3F415481FBDD3691235CA3FCCE9FD64CF975305872DCA5D156C0DC1E436.pdf"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_74B82550FDF43960DCCACFC9.pdf",
+     "gabarito": "gab_23AA3FFFD00C2F512B8F7046.pdf",
+     "tipo": "ce",
+     "arquivo": "74B82550FDF43960DCCACFC9A9E23443D47460AED41749058FB3A27504372EDD.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Analista Judiciário – Arquitetura",
+   "id_cargo": "analista-judiciario-arquitetura",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_7B302B06480147D547365E77.pdf",
+     "gabarito": "gab_873AE3ACF6AABCBAB3E5B75B.pdf",
+     "tipo": "ce",
+     "arquivo": "7B302B06480147D547365E7799BDF697AD40B8B8882C85753D805FAFC4E6640D.pdf"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_0E516F30F38692A87923D994.pdf",
+     "gabarito": "gab_4C7B898E3A40C0B824C427FB.pdf",
+     "tipo": "ce",
+     "arquivo": "0E516F30F38692A87923D9942214F5507DEFE162DF6CE819FEE9DB20BEAA3C45.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Analista Judiciário – Biblioteconomia",
+   "id_cargo": "analista-judiciario-biblioteconomia",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_C9F8D295B931672227C93D2C.pdf",
+     "gabarito": "gab_A19ACA7DA2B5CB5A9EDDDC4A.pdf",
+     "tipo": "ce",
+     "arquivo": "C9F8D295B931672227C93D2C75D28DC412FC4048D1F1B99E3DC9F0F51D58ACB0.pdf"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_E417E757205201589E8B5325.pdf",
+     "gabarito": "gab_F19C54B20FD0D5205B807609.pdf",
+     "tipo": "ce",
+     "arquivo": "E417E757205201589E8B532580208FA2743A03FE466AE1E369DD3557075CC62E.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Analista Judiciário – Ciências Contábeis",
+   "id_cargo": "analista-judiciario-ciencias-contabeis",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_7B302B06480147D547365E77.pdf",
+     "gabarito": "gab_873AE3ACF6AABCBAB3E5B75B.pdf",
+     "tipo": "ce",
+     "arquivo": "7B302B06480147D547365E7799BDF697AD40B8B8882C85753D805FAFC4E6640D.pdf"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_C33359706B200ADF5E273573.pdf",
+     "gabarito": "gab_997A2301295B6821C34ADF27.pdf",
+     "tipo": "ce",
+     "arquivo": "C33359706B200ADF5E273573A7BAE4D9CDEE9D7EE6E9286E7011F07D35C16D48.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Analista Judiciário – Comunicação Social",
+   "id_cargo": "analista-judiciario-comunicacao-social",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_C9F8D295B931672227C93D2C.pdf",
+     "gabarito": "gab_A19ACA7DA2B5CB5A9EDDDC4A.pdf",
+     "tipo": "ce",
+     "arquivo": "C9F8D295B931672227C93D2C75D28DC412FC4048D1F1B99E3DC9F0F51D58ACB0.pdf"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_CE33335C31890FFF003B611D.pdf",
+     "gabarito": "gab_57E97AF23FA0FAC862A78731.pdf",
+     "tipo": "ce",
+     "arquivo": "CE33335C31890FFF003B611D990EF14136BB79660D76207992ABB22195616700.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Analista Judiciário – Direito",
+   "id_cargo": "analista-judiciario-direito",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_C9F8D295B931672227C93D2C.pdf",
+     "gabarito": "gab_A19ACA7DA2B5CB5A9EDDDC4A.pdf",
+     "tipo": "ce",
+     "arquivo": "C9F8D295B931672227C93D2C75D28DC412FC4048D1F1B99E3DC9F0F51D58ACB0.pdf"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_C15F414E0E91EF109220A73B.pdf",
+     "gabarito": "gab_EF721EA56FA324A5AE5E9F7A.pdf",
+     "tipo": "ce",
+     "arquivo": "C15F414E0E91EF109220A73BDF53B232C4466F64770A91E715C56DCB94131F41.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Analista Judiciário – Economia",
+   "id_cargo": "analista-judiciario-economia",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_7B302B06480147D547365E77.pdf",
+     "gabarito": "gab_873AE3ACF6AABCBAB3E5B75B.pdf",
+     "tipo": "ce",
+     "arquivo": "7B302B06480147D547365E7799BDF697AD40B8B8882C85753D805FAFC4E6640D.pdf"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_2DF32B284D7EA83F64088E48.pdf",
+     "gabarito": "gab_53483EE025122C939B2F57E9.pdf",
+     "tipo": "ce",
+     "arquivo": "2DF32B284D7EA83F64088E4846E3569EAA7DB4486BB4B0CB28B36791657C6892.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Analista Judiciário – Enfermagem",
+   "id_cargo": "analista-judiciario-enfermagem",
+   "provas": [
+    {
+     "key": "cg4",
+     "prova": "pro_40772BA304EA6A6E351C619D.pdf",
+     "gabarito": "gab_8D0A7ED3F2BD0DFF8F103619.pdf",
+     "tipo": "ce",
+     "arquivo": "40772BA304EA6A6E351C619D42DF49D2660EC0646704EEB621B55A36CA5CB10C.pdf"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_EBD71F566BEA7ED6E3F0E7B5.pdf",
+     "gabarito": "gab_8BB03F0A786CEEA9ACBFF04A.pdf",
+     "tipo": "ce",
+     "arquivo": "EBD71F566BEA7ED6E3F0E7B513EB796A97105FE9F77FD74159663743A2664465.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Analista Judiciário – Engenharia Civil",
+   "id_cargo": "analista-judiciario-engenharia-civil",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_7B302B06480147D547365E77.pdf",
+     "gabarito": "gab_873AE3ACF6AABCBAB3E5B75B.pdf",
+     "tipo": "ce",
+     "arquivo": "7B302B06480147D547365E7799BDF697AD40B8B8882C85753D805FAFC4E6640D.pdf"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_1160A981A34637337E146044.pdf",
+     "gabarito": "gab_4747C613F090DB6EB5B97262.pdf",
+     "tipo": "ce",
+     "arquivo": "1160A981A34637337E146044D23BDF1E36F3E26FBD533017AE18E2FF4D774E00.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Analista Judiciário – Engenharia Elétrica",
+   "id_cargo": "analista-judiciario-engenharia-eletrica",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_7B302B06480147D547365E77.pdf",
+     "gabarito": "gab_873AE3ACF6AABCBAB3E5B75B.pdf",
+     "tipo": "ce",
+     "arquivo": "7B302B06480147D547365E7799BDF697AD40B8B8882C85753D805FAFC4E6640D.pdf"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_22E185A0F91CF43B19D3B6E8.pdf",
+     "gabarito": "gab_5DAE9896D12649072A073FB7.pdf",
+     "tipo": "ce",
+     "arquivo": "22E185A0F91CF43B19D3B6E8B19CDB5D04B8E00BE07213FB0675E7D5601199FE.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "Analista Judiciário – Engenharia Mecânica",
+   "id_cargo": "analista-judiciario-engenharia-mecanica",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_7B302B06480147D547365E77.pdf",
+     "gabarito": "gab_873AE3ACF6AABCBAB3E5B75B.pdf",
+     "tipo": "ce",
+     "arquivo": "7B302B06480147D547365E7799BDF697AD40B8B8882C85753D805FAFC4E6640D.pdf"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_9B3F6F15758D33E101716FCA.pdf",
+     "gabarito": "gab_058D4540DD8A1815AD4FC48D.pdf",
+     "tipo": "ce",
+     "arquivo": "9B3F6F15758D33E101716FCA3EE11406C294C02CE790170986B06030ED5606AA.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "Analista Judiciário – Estatística",
+   "id_cargo": "analista-judiciario-estatistica",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_7B302B06480147D547365E77.pdf",
+     "gabarito": "gab_873AE3ACF6AABCBAB3E5B75B.pdf",
+     "tipo": "ce",
+     "arquivo": "7B302B06480147D547365E7799BDF697AD40B8B8882C85753D805FAFC4E6640D.pdf"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_8F3FC277D897F2859B22865B.pdf",
+     "gabarito": "gab_C0DA7CFE349696B285B3F02C.pdf",
+     "tipo": "ce",
+     "arquivo": "8F3FC277D897F2859B22865BED211221D16B57F4629E2C8C9D405ECFB584A646.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "Analista Judiciário – Fiscal de Arrecadação",
+   "id_cargo": "analista-judiciario-fiscal-de-arrecadacao",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_7B302B06480147D547365E77.pdf",
+     "gabarito": "gab_873AE3ACF6AABCBAB3E5B75B.pdf",
+     "tipo": "ce",
+     "arquivo": "7B302B06480147D547365E7799BDF697AD40B8B8882C85753D805FAFC4E6640D.pdf"
+    },
+    {
+     "key": "esp16",
+     "prova": "pro_284634C4D0BDDDC0B0D5275B.pdf",
+     "gabarito": "gab_CDBB1F28321FCCABDD27FBFB.pdf",
+     "tipo": "ce",
+     "arquivo": "284634C4D0BDDDC0B0D5275BD3F1B1F43FAF801F3330ECC9C4B9DA6057E95DB9.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "17",
+   "cargo": "Analista Judiciário – Medicina",
+   "id_cargo": "analista-judiciario-medicina",
+   "provas": [
+    {
+     "key": "cg4",
+     "prova": "pro_40772BA304EA6A6E351C619D.pdf",
+     "gabarito": "gab_8D0A7ED3F2BD0DFF8F103619.pdf",
+     "tipo": "ce",
+     "arquivo": "40772BA304EA6A6E351C619D42DF49D2660EC0646704EEB621B55A36CA5CB10C.pdf"
+    },
+    {
+     "key": "esp17",
+     "prova": "pro_4C075EC91129AF81CF4FD148.pdf",
+     "gabarito": "gab_852B4E66DF4E08993988778F.pdf",
+     "tipo": "ce",
+     "arquivo": "4C075EC91129AF81CF4FD148DCC0023230067B98B239949879F62997666B9041.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "18",
+   "cargo": "Analista Judiciário – Pedagogia",
+   "id_cargo": "analista-judiciario-pedagogia",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_C9F8D295B931672227C93D2C.pdf",
+     "gabarito": "gab_A19ACA7DA2B5CB5A9EDDDC4A.pdf",
+     "tipo": "ce",
+     "arquivo": "C9F8D295B931672227C93D2C75D28DC412FC4048D1F1B99E3DC9F0F51D58ACB0.pdf"
+    },
+    {
+     "key": "esp18",
+     "prova": "pro_593E6BB4277AAC0DD2327A9F.pdf",
+     "gabarito": "gab_BD731E8E936496FAB8D3DDB3.pdf",
+     "tipo": "ce",
+     "arquivo": "593E6BB4277AAC0DD2327A9FC48E3CE72969F2AE757B00C31765ECFED0B0E142.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "19",
+   "cargo": "Analista Judiciário – Psicologia",
+   "id_cargo": "analista-judiciario-psicologia",
+   "provas": [
+    {
+     "key": "cg4",
+     "prova": "pro_40772BA304EA6A6E351C619D.pdf",
+     "gabarito": "gab_8D0A7ED3F2BD0DFF8F103619.pdf",
+     "tipo": "ce",
+     "arquivo": "40772BA304EA6A6E351C619D42DF49D2660EC0646704EEB621B55A36CA5CB10C.pdf"
+    },
+    {
+     "key": "esp19",
+     "prova": "pro_48E19A7C0FE0A18F1D6DECE8.pdf",
+     "gabarito": "gab_BF0C842446923A0180D1DB70.pdf",
+     "tipo": "ce",
+     "arquivo": "48E19A7C0FE0A18F1D6DECE8C490A478A126454C0B1D3B1EABFDEAFB7A76752E.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "20",
+   "cargo": "Analista Judiciário – Psiquiatria",
+   "id_cargo": "analista-judiciario-psiquiatria",
+   "provas": [
+    {
+     "key": "cg4",
+     "prova": "pro_40772BA304EA6A6E351C619D.pdf",
+     "gabarito": "gab_8D0A7ED3F2BD0DFF8F103619.pdf",
+     "tipo": "ce",
+     "arquivo": "40772BA304EA6A6E351C619D42DF49D2660EC0646704EEB621B55A36CA5CB10C.pdf"
+    },
+    {
+     "key": "esp20",
+     "prova": "pro_093E51E5506148F0368D4C69.pdf",
+     "gabarito": "gab_9A25EDA1E1E95DA273F94A7A.pdf",
+     "tipo": "ce",
+     "arquivo": "093E51E5506148F0368D4C69C55AA4C98332A8CFFB325F9CA5E2FAAB46002EEC.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "21",
+   "cargo": "Analista Judiciário – Serviço Social",
+   "id_cargo": "analista-judiciario-servico-social",
+   "provas": [
+    {
+     "key": "cg4",
+     "prova": "pro_40772BA304EA6A6E351C619D.pdf",
+     "gabarito": "gab_8D0A7ED3F2BD0DFF8F103619.pdf",
+     "tipo": "ce",
+     "arquivo": "40772BA304EA6A6E351C619D42DF49D2660EC0646704EEB621B55A36CA5CB10C.pdf"
+    },
+    {
+     "key": "esp21",
+     "prova": "pro_E12A9D602EF5537DCE56A90D.pdf",
+     "gabarito": "gab_7EF1B8AB1D6E6BE5630B5ECD.pdf",
+     "tipo": "ce",
+     "arquivo": "E12A9D602EF5537DCE56A90D81DF389C2B6C007AACF001499A12F69C86114E2C.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "22",
+   "cargo": "Oficial de Justiça Avaliador",
+   "id_cargo": "oficial-de-justica-avaliador",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_C9F8D295B931672227C93D2C.pdf",
+     "gabarito": "gab_A19ACA7DA2B5CB5A9EDDDC4A.pdf",
+     "tipo": "ce",
+     "arquivo": "C9F8D295B931672227C93D2C75D28DC412FC4048D1F1B99E3DC9F0F51D58ACB0.pdf"
+    },
+    {
+     "key": "esp22",
+     "prova": "pro_A1C4E9910233E9BD6F90DFF3.pdf",
+     "gabarito": "gab_283A5B36A353CEA27C03850D.pdf",
+     "tipo": "ce",
+     "arquivo": "A1C4E9910233E9BD6F90DFF306B891A9189AF2D084816143803EC684136FBEF6.pdf"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp13": {
+   "55": "Para ω^2 = 1/(L1·C1), a corrente I1 estará atrasada em 90° em relação à tensão de entrada Vi."
+  },
+  "esp14": {
+   "89": "Em relação ao processo de expansão do vapor no bocal de Laval, a expressão w1−2 = Δh1−2 + 0,5 · (u2 − u1) permite estimar o trabalho (w) transferido pela turbina, consideradas a variação de entalpia (h) e velocidade (u) na entrada (1) e na saída (2) da turbina."
+  },
+  "esp15": {
+   "56": "P(M ∩ C) = 0,6 × 0,3.",
+   "58": "Se K representa o evento \"processo criminal\" e se C denota o evento \"processo cível\", então K e C são eventos independentes.",
+   "59": "Denotada por P(C|M), a probabilidade condicional de um processo ter sido cível, dado que foi julgado em menos de 6 meses, é P(C|M) = 0,5.",
+   "61": "E[X] ≥ E[Y].",
+   "62": "X e Y são variáveis aleatórias independentes.",
+   "63": "E[X|Y = y] = E[X] + y.",
+   "64": "P(Y ≥ 3|X = 0) = 0,512.",
+   "65": "A variância de Y é inferior a 18.",
+   "66": "a diferença V − W segue uma distribuição exponencial com variância igual a 2.",
+   "67": "a forma 2 · (V + W) se distribui conforme uma distribuição exponencial com variância igual a 8.",
+   "68": "a razão V/(V + W) segue uma distribuição uniforme contínua.",
+   "69": "o mínimo entre V e W segue uma distribuição exponencial com média igual a 0,5.",
+   "70": "exp(−V) e exp(−W) são cópias independentes de uma distribuição uniforme contínua no intervalo [0,1].",
+   "71": "E[Y|R = r] = 1/r.",
+   "72": "O valor esperado de Y é igual a 2.",
+   "73": "A variância de Y é igual a 4.",
+   "74": "A distribuição de R condicionalmente a um valor observado de Y, denotado como R|Y = y, segue uma distribuição binomial.",
+   "75": "A distribuição do par (Y, R) pode ser representada por uma função de densidade absolutamente contínua f(y, r), na qual (y, r) representa um ponto do suporte da distribuição de (Y, R).",
+   "101": "A estatística t para testar H0: βj = 0 segue uma distribuição t de Student com n − 1 graus de liberdade.",
+   "102": "Um intervalo de 95% de confiança para βj que inclui o zero significa que se rejeita a hipótese H0: βj = 0 ao nível de 5% de significância.",
+   "103": "A estatística F para testar H0: β1 = β2 = ⋯ = βk = 0 segue uma distribuição F com (k, n − 1) graus de liberdade.",
+   "104": "Se o erro padrão de βj aumenta, mantendo as demais características constantes, o comprimento do intervalo de confiança para βj diminui.",
+   "105": "Para testar H0: β1 + β2 = 1 usando um teste t, a estatística do teste é (β̂1 + β̂2 − 1)/EP(β̂1 + β̂2), em que EP é o erro padrão, determinado por EP(β̂1 + β̂2) = √(Var(β̂1) + Var(β̂2) + 2Cov(β̂1, β̂2)).",
+   "108": "A estatística F para testar H0: β1 = β2 = ⋯ = βk = 0 é dada por F = (SQM/k)/(SQR/(n − k − 1)).",
+   "110": "Quando comparados os modelos alinhados usando ANOVA, a estatística F para testar a significância de q regressores adicionais é F = (SQRrestrito − SQRirrestrito)/q / (SQRirrestrito/(n − k − 1)), o qual segue uma distribuição F(q, n − k − 1) sob a hipótese nula.",
+   "111": "Em um modelo de regressão bem-ajustado, os resíduos devem mostrar padrões sistemáticos quando plotados contra os valores ajustados ŷi.",
+   "112": "A soma dos resíduos em um modelo de regressão com um intercepto é sempre igual a zero: Σei = 0.",
+   "116": "A estatística do teste de Durbin-Watson, calculada como DW = Σ(ei − ei−1)^2/Σei^2, é utilizada para testar as correlações de primeira ordem nos resíduos, com valores próximos de 2 indicando ausência de autocorrelação.",
+   "119": "Na amostragem sistemática com um elemento inicial escolhido ao acaso, o intervalo de seleção k deve sempre ser calculado como k = N/n arredondado para o inteiro imediatamente anterior para evitar viés de seleção."
+  }
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "evento": "CBM_PA_23_CFO",
+ "workdir": "/tmp/cbm_pa_23_cfo",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Oficiais do Corpo de Bombeiros Militar (CFO/BM/2023)",
+  "ano": 2023,
+  "id_orgao": "cbm-pa"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Oficial Do Corpo De Bombeiros Militar Do Estado Do Pará",
+   "id_cargo": "oficial-cbm",
+   "provas": [
+    {
+     "key": "esp",
+     "prova": "pro_CBM_PA_CFO_001_01.pdf",
+     "gabarito": "gab_CBM_PA_CFO_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "927_CBM_PA_CFO_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

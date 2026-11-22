@@ -1,0 +1,30 @@
+{
+  "evento": "DPE_SE_21",
+  "workdir": "/tmp/dpe_se_21",
+  "meta": {
+    "banca": "Cebraspe",
+    "orgao": "Defensoria Pública do Estado de Sergipe",
+    "ano": 2021,
+    "id_orgao": "dpe-se"
+  },
+  "cargos": [
+    {
+      "idArea": "01",
+      "cargo": "Defensor Público Substituto Ingresso do Estado de Sergipe",
+      "id_cargo": "defensor-publico-substituto",
+      "provas": [
+        {
+          "key": "DPESE_001_01",
+          "prova": "pro_DPESE_001_01.pdf",
+          "gabarito": "gab_DPESE_001_01.pdf",
+          "tipo": "mc",
+          "arquivo": "664_DPESE_001_01.PDF"
+        }
+      ]
+    }
+  ],
+  "unmatched": [],
+  "variant": "modern",
+  "skip": {},
+  "patch": {}
+}

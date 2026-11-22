@@ -1,0 +1,30 @@
+{
+  "evento": "MP_AP_21_PROMOTOR",
+  "workdir": "/tmp/mp_ap_21_promotor",
+  "meta": {
+    "banca": "Cebraspe",
+    "orgao": "Ministério Público do Estado do Amapá",
+    "ano": 2021,
+    "id_orgao": "mp-ap"
+  },
+  "cargos": [
+    {
+      "idArea": "01",
+      "cargo": "Promotor de Justiça Substituto",
+      "id_cargo": "promotor-justica-substituto",
+      "provas": [
+        {
+          "key": "MATRIZ",
+          "prova": "pro_MATRIZ.pdf",
+          "gabarito": "gab_MATRIZ_590_MPAP_PROMOTOR.pdf",
+          "tipo": "mc",
+          "arquivo": "MATRIZ.PDF"
+        }
+      ]
+    }
+  ],
+  "unmatched": [],
+  "variant": "modern",
+  "skip": {},
+  "patch": {}
+}

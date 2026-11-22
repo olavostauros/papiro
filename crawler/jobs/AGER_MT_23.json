@@ -1,0 +1,285 @@
+{
+ "evento": "AGER_MT_23",
+ "workdir": "/tmp/ager_mt_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "AGÊNCIA ESTADUAL DE REGULAÇÃO DE SERVIÇOS PÚBLICOS DELEGADOS DE MATO GROSSO",
+  "ano": 2023,
+  "id_orgao": "ager"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista Administrativo - Administração",
+   "id_cargo": "analista-administrativo-administracao",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_AGER_MT_CB1_01.pdf",
+     "gabarito": "gab_AGER_MT_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_CB1_01.PDF"
+    },
+    {
+     "key": "esp001",
+     "prova": "pro_AGER_MT_001_01.pdf",
+     "gabarito": "gab_AGER_MT_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista Administrativo - Ciências Contábeis",
+   "id_cargo": "analista-administrativo-ciencias-contabeis",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_AGER_MT_CB1_01.pdf",
+     "gabarito": "gab_AGER_MT_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_CB1_01.PDF"
+    },
+    {
+     "key": "esp002",
+     "prova": "pro_AGER_MT_002_01.pdf",
+     "gabarito": "gab_AGER_MT_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista Regulador - Administração",
+   "id_cargo": "analista-regulador-administracao",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_AGER_MT_CB1_01.pdf",
+     "gabarito": "gab_AGER_MT_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_CB1_01.PDF"
+    },
+    {
+     "key": "esp003",
+     "prova": "pro_AGER_MT_003_01.pdf",
+     "gabarito": "gab_AGER_MT_003_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista Regulador - Ciências Contábeis",
+   "id_cargo": "analista-regulador-ciencias-contabeis",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_AGER_MT_CB1_01.pdf",
+     "gabarito": "gab_AGER_MT_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_CB1_01.PDF"
+    },
+    {
+     "key": "esp004",
+     "prova": "pro_AGER_MT_004_01.pdf",
+     "gabarito": "gab_AGER_MT_004_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Analista Regulador - Ciências Da Computação e(ou) Sistemas De Informação",
+   "id_cargo": "analista-regulador-ciencias-da-computacao-e-ou-sistemas-de-informacao",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_AGER_MT_CB1_01.pdf",
+     "gabarito": "gab_AGER_MT_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_CB1_01.PDF"
+    },
+    {
+     "key": "esp005",
+     "prova": "pro_AGER_MT_005_01.pdf",
+     "gabarito": "gab_AGER_MT_005_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Analista Regulador - Direito",
+   "id_cargo": "analista-regulador-direito",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_AGER_MT_CB1_01.pdf",
+     "gabarito": "gab_AGER_MT_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_CB1_01.PDF"
+    },
+    {
+     "key": "esp006",
+     "prova": "pro_AGER_MT_006_01.pdf",
+     "gabarito": "gab_AGER_MT_006_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Analista Regulador - Economia",
+   "id_cargo": "analista-regulador-economia",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_AGER_MT_CB1_01.pdf",
+     "gabarito": "gab_AGER_MT_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_CB1_01.PDF"
+    },
+    {
+     "key": "esp007",
+     "prova": "pro_AGER_MT_007_01.pdf",
+     "gabarito": "gab_AGER_MT_007_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Analista Regulador - Engenharia Civil",
+   "id_cargo": "analista-regulador-engenharia-civil",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_AGER_MT_CB1_01.pdf",
+     "gabarito": "gab_AGER_MT_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_CB1_01.PDF"
+    },
+    {
+     "key": "esp008",
+     "prova": "pro_AGER_MT_008_01.pdf",
+     "gabarito": "gab_AGER_MT_008_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Analista Regulador - Engenharia Elétrica",
+   "id_cargo": "analista-regulador-engenharia-eletrica",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_AGER_MT_CB1_01.pdf",
+     "gabarito": "gab_AGER_MT_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_CB1_01.PDF"
+    },
+    {
+     "key": "esp009",
+     "prova": "pro_AGER_MT_009_01.pdf",
+     "gabarito": "gab_AGER_MT_009_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Analista Regulador - Engenharia Sanitária",
+   "id_cargo": "analista-regulador-engenharia-sanitaria",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_AGER_MT_CB1_01.pdf",
+     "gabarito": "gab_AGER_MT_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_CB1_01.PDF"
+    },
+    {
+     "key": "esp010",
+     "prova": "pro_AGER_MT_010_01.pdf",
+     "gabarito": "gab_AGER_MT_010_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Técnico Administrativo",
+   "id_cargo": "tecnico-administrativo",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_AGER_MT_CB1_01.pdf",
+     "gabarito": "gab_AGER_MT_CB1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_CB1_01.PDF"
+    },
+    {
+     "key": "esp011",
+     "prova": "pro_AGER_MT_011_01.pdf",
+     "gabarito": "gab_AGER_MT_011_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Inspetor Regulador",
+   "id_cargo": "inspetor-regulador",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_AGER_MT_CB2_01.pdf",
+     "gabarito": "gab_AGER_MT_CB2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_CB2_01.PDF"
+    },
+    {
+     "key": "esp012",
+     "prova": "pro_AGER_MT_012_01.pdf",
+     "gabarito": "gab_AGER_MT_012_01.pdf",
+     "tipo": "mc",
+     "arquivo": "813_AGER_MT_012_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "esp005": {
+   "26": {
+    "enunciado": "a = 6/3 * (4 − 2); b = (4 − 2) * 3/6; c = 64 / 32 * (−3); d = 6 / 2 + 3 * 2 − 3. Considerando as expressões aritméticas precedentes, assinale a opção correta.",
+    "alternativas": [
+     "a = 1; b = 1; c = −6; d = 6",
+     "a = 4; b = 1; c = −6; d = −6",
+     "a = 4; b = 4; c = 6; d = −6",
+     "a = 1; b = 1; c = 6; d = 6",
+     "a = 4; b = 1; c = −6; d = 6"
+    ]
+   }
+  },
+  "esp009": {
+   "28": "Um motor de indução monofásico, de fase dividida, que opera a 220 V, com frequência elétrica de 60 Hz, possui potência nominal de 162 kW, quatro polos, está ligado em estrela, e tem um escorregamento de plena carga de 10%. Considerando que π = 3, assinale a opção correta.",
+   "29": "Considere um motor shunt de corrente contínua, com os seguintes parâmetros: tensão de funcionamento igual a 360 V, corrente drenada com funcionamento em carga plena igual a 10 A, resistência do motor igual a 5 Ω, velocidade de rotação a plena carga igual a 1.800 rotações por minuto e velocidade de rotação sem carga igual a 1.980 rotações por minuto. Para efeitos de cálculo, considere π = 3. Com base nessas informações, assinale a opção correta.",
+   "30": "Um transformador ideal, representado pelo diagrama a seguir, está conectado a uma carga Z = (1 + j) Ω. O circuito é alimentado por uma tensão de entrada de 200 V, que fornece potência máxima de 24 kVA. Com base nessas informações, assinale a opção correta."
+  }
+ }
+}

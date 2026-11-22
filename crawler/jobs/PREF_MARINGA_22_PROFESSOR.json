@@ -1,0 +1,37 @@
+{
+ "evento": "PREF_MARINGA_22_PROFESSOR",
+ "workdir": "/tmp/pref_maringa_22_professor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Prefeitura de Maringá",
+  "ano": 2022,
+  "id_orgao": "pref-maringa"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "CARGO DE PROFESSOR",
+   "id_cargo": "professor",
+   "provas": [
+    {
+     "key": "MARINGA_PROF_CG1",
+     "prova": "pro_PREF_MARINGA_PROF_CG1_01.pdf",
+     "gabarito": "gab_PREF_MARINGA_PROF_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "744_PREF_MARINGA_PROF_CG1_01_VF.PDF"
+    },
+    {
+     "key": "MARINGA_PROF_ESP",
+     "prova": "pro_PREF_MARINGA_PROF_001_01.pdf",
+     "gabarito": "gab_PREF_MARINGA_PROF_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "744_PREF_MARINGA_PROF_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

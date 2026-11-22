@@ -1,0 +1,37 @@
+{
+ "evento": "MEC_23",
+ "workdir": "/tmp/mec_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "MINISTÉRIO DA EDUCAÇÃO",
+  "ano": 2023,
+  "id_orgao": "mec",
+  "evento": "MEC_23"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "TÉCNICO EM ASSUNTOS EDUCACIONAIS",
+   "id_cargo": "tecnico-em-assuntos-educacionais",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_MEC_CB1_01.pdf",
+     "gabarito": "gab_MEC_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "900_MEC_CB1_01.PDF"
+    },
+    {
+     "key": "esp",
+     "prova": "pro_MEC_001_01.pdf",
+     "gabarito": "gab_MEC_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "900_MEC_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

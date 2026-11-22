@@ -1,0 +1,565 @@
+{
+ "evento": "ANM_24",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "ANM",
+  "ano": 2024,
+  "id_orgao": "anm"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista Administrativo – Administração",
+   "id_cargo": "analista-administracao",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_ANM_CG1_01.pdf",
+     "gabarito": "gab_ANM_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG1_01.PDF"
+    },
+    {
+     "key": "esp001",
+     "prova": "pro_ANM_001_01_2.pdf",
+     "gabarito": "gab_ANM_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Administrativo – Administração, Economia, Contabilidade e Direito",
+   "id_cargo": "analista-administracao-economia",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_ANM_CG1_01.pdf",
+     "gabarito": "gab_ANM_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG1_01.PDF"
+    },
+    {
+     "key": "esp002",
+     "prova": "pro_ANM_002_01.pdf",
+     "gabarito": "gab_ANM_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Administrativo – Arquivologia",
+   "id_cargo": "analista-arquivologia",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_ANM_CG1_01.pdf",
+     "gabarito": "gab_ANM_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG1_01.PDF"
+    },
+    {
+     "key": "esp003",
+     "prova": "pro_ANM_003_01.pdf",
+     "gabarito": "gab_ANM_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Administrativo – Contabilidade",
+   "id_cargo": "analista-contabilidade",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_ANM_CG1_01.pdf",
+     "gabarito": "gab_ANM_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG1_01.PDF"
+    },
+    {
+     "key": "esp004",
+     "prova": "pro_ANM_004_01.pdf",
+     "gabarito": "gab_ANM_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Administrativo – Direito",
+   "id_cargo": "analista-direito",
+   "provas": [
+    {
+     "key": "cg2",
+     "prova": "pro_ANM_CG2_01.pdf",
+     "gabarito": "gab_ANM_CG2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG2_01.PDF"
+    },
+    {
+     "key": "esp005",
+     "prova": "pro_ANM_005_01.pdf",
+     "gabarito": "gab_ANM_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Administrativo – Engenharia Civil (Segurança do Trabalho)",
+   "id_cargo": "analista-engenharia-civil",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_ANM_CG1_01.pdf",
+     "gabarito": "gab_ANM_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG1_01.PDF"
+    },
+    {
+     "key": "esp006",
+     "prova": "pro_ANM_006_01.pdf",
+     "gabarito": "gab_ANM_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Administrativo – Engenharia Elétrica (Segurança do Trabalho)",
+   "id_cargo": "analista-engenharia-eletrica",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_ANM_CG1_01.pdf",
+     "gabarito": "gab_ANM_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG1_01.PDF"
+    },
+    {
+     "key": "esp007",
+     "prova": "pro_ANM_007_01.pdf",
+     "gabarito": "gab_ANM_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Administrativo – Jornalismo e Comunicação",
+   "id_cargo": "analista-jornalismo",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_ANM_CG1_01.pdf",
+     "gabarito": "gab_ANM_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG1_01.PDF"
+    },
+    {
+     "key": "esp008",
+     "prova": "pro_ANM_008_01.pdf",
+     "gabarito": "gab_ANM_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Administrativo – Pedagogia",
+   "id_cargo": "analista-pedagogia",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_ANM_CG1_01.pdf",
+     "gabarito": "gab_ANM_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG1_01.PDF"
+    },
+    {
+     "key": "esp009",
+     "prova": "pro_ANM_009_01.pdf",
+     "gabarito": "gab_ANM_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Administrativo – Publicidade e Design",
+   "id_cargo": "analista-publicidade",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_ANM_CG1_01.pdf",
+     "gabarito": "gab_ANM_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG1_01.PDF"
+    },
+    {
+     "key": "esp010",
+     "prova": "pro_ANM_010_01.pdf",
+     "gabarito": "gab_ANM_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Administrativo – Qualquer Área de Formação",
+   "id_cargo": "analista-qualquer-area",
+   "provas": [
+    {
+     "key": "cg3",
+     "prova": "pro_ANM_CG3_01.pdf",
+     "gabarito": "gab_ANM_CG3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG3_01.PDF"
+    },
+    {
+     "key": "esp011",
+     "prova": "pro_ANM_011_01_ATUALIZADO.pdf",
+     "gabarito": "gab_ANM_011_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_011_01_ATUALIZADO.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Administrativo – Relações Públicas",
+   "id_cargo": "analista-relacoes-publicas",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_ANM_CG1_01.pdf",
+     "gabarito": "gab_ANM_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG1_01.PDF"
+    },
+    {
+     "key": "esp012",
+     "prova": "pro_ANM_012_01.pdf",
+     "gabarito": "gab_ANM_012_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Recursos Minerais – Comunicação",
+   "id_cargo": "especialista-comunicacao",
+   "provas": [
+    {
+     "key": "cg4",
+     "prova": "pro_ANM_CG5_01.pdf",
+     "gabarito": "gab_ANM_CG5_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG5_01.PDF"
+    },
+    {
+     "key": "esp013",
+     "prova": "pro_ANM_013_01.pdf",
+     "gabarito": "gab_ANM_013_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_013_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Recursos Minerais – Direito",
+   "id_cargo": "especialista-direito",
+   "provas": [
+    {
+     "key": "cg5",
+     "prova": "pro_ANM_CG6_01.pdf",
+     "gabarito": "gab_ANM_CG6_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG6_01.PDF"
+    },
+    {
+     "key": "esp014",
+     "prova": "pro_ANM_014_01.pdf",
+     "gabarito": "gab_ANM_014_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_014_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Recursos Minerais – Direito (Outorga)",
+   "id_cargo": "especialista-direito-outorga",
+   "provas": [
+    {
+     "key": "cg6",
+     "prova": "pro_ANM_CG7_01.pdf",
+     "gabarito": "gab_ANM_CG7_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG7_01.PDF"
+    },
+    {
+     "key": "esp015",
+     "prova": "pro_ANM_015_01.pdf",
+     "gabarito": "gab_ANM_015_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_015_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Recursos Minerais – Economia ou Contabilidade",
+   "id_cargo": "especialista-economia",
+   "provas": [
+    {
+     "key": "cg7",
+     "prova": "pro_ANM_CG4_01.pdf",
+     "gabarito": "gab_ANM_CG4_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG4_01.PDF"
+    },
+    {
+     "key": "esp016",
+     "prova": "pro_ANM_016_01.pdf",
+     "gabarito": "gab_ANM_016_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_016_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Recursos Minerais – Engenharia Ambiental ou Biologia",
+   "id_cargo": "especialista-engenharia-ambiental",
+   "provas": [
+    {
+     "key": "cg7",
+     "prova": "pro_ANM_CG4_01.pdf",
+     "gabarito": "gab_ANM_CG4_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG4_01.PDF"
+    },
+    {
+     "key": "esp017",
+     "prova": "pro_ANM_017_01.pdf",
+     "gabarito": "gab_ANM_017_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_017_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Recursos Minerais – Engenharia de Minas",
+   "id_cargo": "especialista-engenharia-minas",
+   "provas": [
+    {
+     "key": "cg7",
+     "prova": "pro_ANM_CG4_01.pdf",
+     "gabarito": "gab_ANM_CG4_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG4_01.PDF"
+    },
+    {
+     "key": "esp018",
+     "prova": "pro_ANM_018_01.pdf",
+     "gabarito": "gab_ANM_018_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_018_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Recursos Minerais – Engenharia de Minas (Correcional)",
+   "id_cargo": "especialista-engenharia-minas-correcional",
+   "provas": [
+    {
+     "key": "cg7",
+     "prova": "pro_ANM_CG4_01.pdf",
+     "gabarito": "gab_ANM_CG4_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG4_01.PDF"
+    },
+    {
+     "key": "esp019",
+     "prova": "pro_ANM_019_01.pdf",
+     "gabarito": "gab_ANM_019_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_019_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Recursos Minerais – Geologia",
+   "id_cargo": "especialista-geologia",
+   "provas": [
+    {
+     "key": "cg7",
+     "prova": "pro_ANM_CG4_01.pdf",
+     "gabarito": "gab_ANM_CG4_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG4_01.PDF"
+    },
+    {
+     "key": "esp020",
+     "prova": "pro_ANM_020_01.pdf",
+     "gabarito": "gab_ANM_020_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_020_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Recursos Minerais – Geologia e Afins",
+   "id_cargo": "especialista-geologia-afins",
+   "provas": [
+    {
+     "key": "cg7",
+     "prova": "pro_ANM_CG4_01.pdf",
+     "gabarito": "gab_ANM_CG4_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG4_01.PDF"
+    },
+    {
+     "key": "esp021",
+     "prova": "pro_ANM_021_01.pdf",
+     "gabarito": "gab_ANM_021_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_021_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Recursos Minerais – Fiscalização e Distribuição de Receitas",
+   "id_cargo": "especialista-fiscalizacao",
+   "provas": [
+    {
+     "key": "cg8",
+     "prova": "pro_ANM_CG8_01.pdf",
+     "gabarito": "gab_ANM_CG8_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG8_01.PDF"
+    },
+    {
+     "key": "esp022",
+     "prova": "pro_ANM_022_01.pdf",
+     "gabarito": "gab_ANM_022_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_022_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Recursos Minerais – Suporte à Gestão e Governança",
+   "id_cargo": "especialista-gestao",
+   "provas": [
+    {
+     "key": "cg7",
+     "prova": "pro_ANM_CG4_01.pdf",
+     "gabarito": "gab_ANM_CG4_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG4_01.PDF"
+    },
+    {
+     "key": "esp023",
+     "prova": "pro_ANM_023_01.pdf",
+     "gabarito": "gab_ANM_023_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_023_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Recursos Minerais – TI Ciência de Dados",
+   "id_cargo": "especialista-ti-dados",
+   "provas": [
+    {
+     "key": "cg9",
+     "prova": "pro_ANM_CG9_01.pdf",
+     "gabarito": "gab_ANM_CG9_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG9_01.PDF"
+    },
+    {
+     "key": "esp024",
+     "prova": "pro_ANM_024_01.pdf",
+     "gabarito": "gab_ANM_024_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_024_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Recursos Minerais – TI Governança e Inovação",
+   "id_cargo": "especialista-ti-governanca",
+   "provas": [
+    {
+     "key": "cg9",
+     "prova": "pro_ANM_CG9_01.pdf",
+     "gabarito": "gab_ANM_CG9_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG9_01.PDF"
+    },
+    {
+     "key": "esp025",
+     "prova": "pro_ANM_025_01.pdf",
+     "gabarito": "gab_ANM_025_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_025_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Especialista em Recursos Minerais – TI Operações",
+   "id_cargo": "especialista-ti-operacoes",
+   "provas": [
+    {
+     "key": "cg9",
+     "prova": "pro_ANM_CG9_01.pdf",
+     "gabarito": "gab_ANM_CG9_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_CG9_01.PDF"
+    },
+    {
+     "key": "esp026",
+     "prova": "pro_ANM_026_01.pdf",
+     "gabarito": "gab_ANM_026_01.pdf",
+     "tipo": "ce",
+     "arquivo": "038_ANM_026_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Curso de Formação",
+   "id_cargo": "curso-de-formacao",
+   "provas": [
+    {
+     "key": "obj",
+     "prova": "pro_ANM_001_01.pdf",
+     "gabarito": "gab_D9EE47A53A627559FD344469.pdf",
+     "tipo": "ce",
+     "arquivo": "113_ANM_001_01.pdf"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {
+  "esp016": {
+   "63": "Para uma taxa nominal (linear) de 12% ao ano capitalizada semestralmente, a taxa efetiva anual é [(1,12)^2 − 1] × 100.",
+   "64": "A equação 30.000 = 12.000 × (1−(1+c)^-3)/c permite que se determine o custo efetivo (c) de um financiamento de R$ 30 mil cujo pagamento é feito por meio de 3 parcelas iguais e consecutivas de R$ 12 mil.",
+   "65": "E[X] > E[Y].",
+   "66": "A probabilidade de um ponto escolhido aleatoriamente do conjunto [0, 2] × [0, 3] estar localizado no quadrado unitário [0, 1]^2 é maior que 50%.",
+   "67": "X e Y são independentes.",
+   "69": "A variável aleatória X tem distribuição hipergeométrica.",
+   "72": "O poder do teste descrito é dado por 1 − α = 95%.",
+   "110": "Um capital aplicado a uma taxa de juros compostos i ao mês levará exatamente o tempo n = 1/log₃(1+i) para triplicar.",
+   "115": "Caso um investidor realize doze depósitos mensais sucessivos de valor x no início de cada um dos meses e faça tais depósitos de tal forma que, no início do 13.º mês, o valor acumulado na aplicação seja y, então, se a taxa de juros mensal for i, o valor de cada depósito que ele deverá fazer será x = (y·i)/((1+i)^14 − (1+i))."
+  },
+  "esp022": {
+   "81": "Um capital aplicado a uma taxa de juros compostos i ao mês levará exatamente o tempo n = 1/log₃(1+i) para triplicar.",
+   "87": "Se X1, X2, ... , Xn é uma sequência de uma variável aleatória com distribuição exponencial de parâmetro β, e, para essa sequência, m(X) é a média e dp(X) é a variância, então, quando n tende ao infinito, P((m(X) − β)/dp(X) < 2) é aproximadamente 97,5%.",
+   "89": "Na amostragem aleatória simples sem reposição, a frequência fi, que é a i-ésima unidade que aparece na amostra, segue uma distribuição Binomial com parâmetros n e 1/N.",
+   "93": "Considere que X é uma variável aleatória de Poisson, e Y é uma distribuição discreta que assume valores no conjunto [1; ∞], tal que P(Y = k) é proporcional a P(X = k). Nesse caso, se ambas as distribuições possuem o mesmo parâmetro, então ocorre P(Y = k) ≥ 4·P(X = k), se esse parâmetro for menor ou igual a −ln(3/4)."
+  }
+ }
+}

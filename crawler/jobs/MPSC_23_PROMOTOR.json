@@ -1,0 +1,37 @@
+{
+ "evento": "MPSC_23_PROMOTOR",
+ "workdir": "/tmp/mpsc_23_promotor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "MINISTÉRIO PÚBLICO DE SANTA CATARINA",
+  "ano": 2023,
+  "id_orgao": "mp-sc"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Promotor De Justiça Substituto",
+   "id_cargo": "promotor-de-justica-substituto",
+   "provas": [
+    {
+     "key": "p1",
+     "prova": "pro_MPSC_PROMOTOR_001_01.pdf",
+     "gabarito": "gab_MPSC_PROMOTOR_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "808_MPSC_PROMOTOR_001_01.PDF"
+    },
+    {
+     "key": "p2",
+     "prova": "pro_MPSC_PROMOTOR_002_01.pdf",
+     "gabarito": "gab_MPSC_PROMOTOR_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "808_MPSC_PROMOTOR_002_01.PDF",
+     "num_offset": 200
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

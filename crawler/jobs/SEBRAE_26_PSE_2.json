@@ -1,0 +1,38 @@
+{
+ "evento": "SEBRAE_26_PSE_2",
+ "workdir": "/tmp/sebrae_26_pse_2",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Sebrae",
+  "ano": 2026,
+  "id_orgao": "sebrae"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Assistente PCD",
+   "id_cargo": "assistente-pcd",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_61403B915CF18CA0B6391AEB.pdf",
+     "gabarito": "gab_8C0B4C363B7CF1F1088370C1.pdf",
+     "tipo": "mc",
+     "arquivo": "61403B915CF18CA0B6391AEBE13420CEE28FC9B887CBDF534B3121389A9F5EFE.pdf",
+     "assunto": "Conhecimentos Gerais"
+    },
+    {
+     "key": "esp",
+     "prova": "pro_AD2ED7247FCF9DE70793C135.pdf",
+     "gabarito": "gab_D5BFA6D0B129132B1C3F21C4.pdf",
+     "tipo": "mc",
+     "arquivo": "AD2ED7247FCF9DE70793C135202BA748BD694A701A2489772652F0ACCA96D255.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

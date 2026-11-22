@@ -1,0 +1,30 @@
+{
+ "evento": "MP_BA_23_PROMOTOR",
+ "workdir": "/tmp/mp_ba_23_promotor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "MP_BA_23_PROMOTOR",
+  "ano": 2023,
+  "id_orgao": "mp-ba"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "CARGO DE PROMOTOR DE JUSTIÇA SUBSTITUTO",
+   "id_cargo": "promotor-de-justica-substituto",
+   "provas": [
+    {
+     "key": "p1",
+     "prova": "pro_MPBA_PROMOTOR_OBJ_001_01.pdf",
+     "gabarito": "gab_MPBA_PROMOTOR_OBJ_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "853_MPBA_PROMOTOR_OBJ_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

@@ -1,0 +1,125 @@
+{
+ "evento": "TC_DF_23",
+ "workdir": "/tmp/tc_df_23",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "TRIBUNAL DE CONTAS DO DISTRITO FEDERAL",
+  "ano": 2023,
+  "id_orgao": "tc"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista Administrativo de Controle Externo - Gestão - Serviços Técnicos e Administrativos",
+   "id_cargo": "analista-administrativo-de-controle-externo-gestao-servicos-tecnicos-e-administrativos",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TCDF_CB1_895.pdf",
+     "gabarito": "gab_TCDF_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "895_TCDF_CB1_01_COM_JUSTIFICATIVA.PDF"
+    },
+    {
+     "key": "ce11",
+     "prova": "pro_TCDF_CE1_895.pdf",
+     "gabarito": "gab_TCDF_CE1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "895_TCDF_CE1_01_COM_JUSTIFICATIVA.PDF"
+    },
+    {
+     "key": "esp1",
+     "prova": "pro_TCDF_001.pdf",
+     "gabarito": "gab_TCDF_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "895_TCDF_001_01_COM_JUSTIFICATIVA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Auditor de Controle Externo - Auditoria",
+   "id_cargo": "auditor-de-controle-externo-auditoria",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_TCDF_CB1_896.pdf",
+     "gabarito": "gab_TCDF_CB1_01_2.pdf",
+     "tipo": "ce",
+     "arquivo": "896_TCDF_CB1_01_COM_JUSTIFICATIVA.PDF"
+    },
+    {
+     "key": "ce12",
+     "prova": "pro_TCDF_CE1_896.pdf",
+     "gabarito": "gab_TCDF_CE1_01_2.pdf",
+     "tipo": "ce",
+     "arquivo": "896_TCDF_CE1_01_COM_JUSTIFICATIVA.PDF"
+    },
+    {
+     "key": "esp2",
+     "prova": "pro_TCDF_002.pdf",
+     "gabarito": "gab_TCDF_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "896_TCDF_002_01_COM_JUSTIFICATIVA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Auditor de Controle Externo - Especializada - Tecnologia da Informação - Sistemas de TI",
+   "id_cargo": "auditor-de-controle-externo-especializada-tecnologia-da-informacao-sistemas-de-ti",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_TCDF_CB1_897.pdf",
+     "gabarito": "gab_TCDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "897_TCDF_CB1_01_COM_JUSTIFICATIVA.PDF"
+    },
+    {
+     "key": "ce13",
+     "prova": "pro_TCDF_CE1_897.pdf",
+     "gabarito": "gab_TCDF_CE1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "897_TCDF_CE1_01_COM_JUSTIFICATIVA.PDF"
+    },
+    {
+     "key": "esp3",
+     "prova": "pro_TCDF_003.pdf",
+     "gabarito": "gab_TCDF_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "897_TCDF_003_01_COM_JUSTIFICATIVA.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "cb2": {
+   "30": "P(E₁|E₂) = P(E₂|E₁)."
+  },
+  "cb3": {
+   "1": "No texto, predomina o tipo textual dissertativo, mas há sequências da tipologia injuntiva em cada parágrafo.",
+   "2": "De acordo com o texto, a dinâmica entre os interesses do Estado e as demandas dos cidadãos fundamenta o conceito de accountability.",
+   "3": "Infere-se do texto que é necessário ao desenvolvimento das sociedades que a administração pública apresente ações governamentais alinhadas à filosofia da accountability.",
+   "4": "No último período do primeiro parágrafo, a vírgula empregada logo após “internacionais” poderia ser eliminada, sem prejuízo da correção gramatical do texto.",
+   "5": "No primeiro parágrafo, a expressão “Esses elementos” (segundo período) remete aos termos da enumeração introduzida pelo vocábulo “como” (primeiro período).",
+   "6": "A correção gramatical e os sentidos do primeiro período do segundo parágrafo seriam preservados caso se deslocasse a expressão “cada vez mais”, com as vírgulas que a isolam, para imediatamente depois do vocábulo “também”.",
+   "7": "As vírgulas que intercalam a expressão “cada vez mais”, no primeiro período do segundo parágrafo, poderiam ser removidas, sem prejuízo dos sentidos do texto e da correção gramatical.",
+   "8": "No trecho “associada a uma mudança” (primeiro período do segundo parágrafo), a inserção do acento indicativo de crase no vocábulo “a” manteria a correção gramatical e a coerência das ideias do texto, em razão da presença da preposição exigida por “associada” e do artigo feminino.",
+   "9": "Sem prejuízo da correção gramatical e da coerência das ideias do texto, o último parágrafo poderia ser assim reescrito: A textura política e institucional da sociedade, os valores, os costumes tradicionais partilhados na cultura, a história, o desenvolvimento político na trajetória para tornar as burocracias responsáveis, a baixa contribuição dos diversos esforços de reformas da administração pública e a precariedade dos controles formais constituem as dimensões do macroambiente da administração pública que explicam o grau de accountability de uma burocracia.",
+   "22": "No caso de servidor público que responde a processo administrativo e criminal por conduta praticada no exercício da função, sua responsabilidade administrativa será afastada caso ele seja absolvido criminalmente por falta de provas, após o trânsito em julgado.",
+   "33": "Considere-se que as primeiras três colunas da tabela-verdade referente à proposição lógica (P∧R) ⇒ (~Q) sejam as apresentadas a seguir.\n\nP R Q\nV V V\nV V F\nV F V\nV F F\nF V V\nF V F\nF F V\nF F F\n\nNessa situação, é correto afirmar que a sequência de valores V ou F, tomados de cima para baixo, da última coluna dessa tabela, é V V V F V V V."
+  },
+  "ce13": {
+   "63": "Considere-se que duas taxas de juros ib e iq sejam equivalentes e que, se aplicadas ao mesmo capital durante o mesmo período, produzirão o mesmo montante. Nessa situação, a taxa de juros iq = 44% ao quadriênio será equivalente à taxa ib = 20% ao biênio, quando considerada a capitalização composta.",
+   "65": "Considere-se que tenha sido financiado pelo sistema americano de amortização um bem no valor de R$ 335.000, a ser pago em três anos, com taxa de juros de 10% ao ano, e que, nesse financiamento, os juros tenham sido pagos periodicamente a cada ano. Com base nessa situação hipotética, é correto afirmar que a tabela subsequente fornece a planilha financeira correta desse financiamento.",
+   "67": "Caso um empréstimo de R$ 144.000, a ser liquidado em 6 meses, tenha taxa de juros de 1% ao mês, então a amortização A da primeira prestação será dada pela expressão A = 1.440/(1,01⁶ − 1).",
+   "74": "A estimativa da variância da diferença entre as médias amostrais é igual a 5/21 + 10/31."
+  },
+  "esp3": {
+   "128": "Considere-se o código a seguir.\n\nnumeros = (1,5,7,35,50,75,80,90)\nprint(numeros[4])\n\nAo se executar o código apresentado, o resultado será a impressão em tela do valor 50."
+  }
+ }
+}

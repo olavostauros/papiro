@@ -1,0 +1,30 @@
+{
+  "evento": "MPCM_PA_21_SUBPROCURADOR",
+  "workdir": "/tmp/mpcm_pa_21_subprocurador",
+  "meta": {
+    "banca": "Cebraspe",
+    "orgao": "Ministério Público de Contas dos Municípios do Estado do Pará",
+    "ano": 2021,
+    "id_orgao": "mpcm-pa"
+  },
+  "cargos": [
+    {
+      "idArea": "01",
+      "cargo": "Subprocurador de Contas",
+      "id_cargo": "subprocurador-contas",
+      "provas": [
+        {
+          "key": "MPCMPA_001_01",
+          "prova": "pro_MPCMPA_001_01.pdf",
+          "gabarito": "gab_MPCMPA_001_01.pdf",
+          "tipo": "mc",
+          "arquivo": "666_MPCMPA_001_01.PDF"
+        }
+      ]
+    }
+  ],
+  "unmatched": [],
+  "variant": "modern",
+  "skip": {},
+  "patch": {}
+}

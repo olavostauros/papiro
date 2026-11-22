@@ -1,0 +1,144 @@
+{
+ "evento": "SEPLAD_DF_22_AUDITOR",
+ "workdir": "/tmp/seplad_df_22_auditor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Secretaria de Estado de Planejamento, Orçamento e Administração do DF",
+  "ano": 2022,
+  "id_orgao": "seplad-df"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Auditor de Controle Interno do DF – Finanças e Controle",
+   "id_cargo": "auditor-financas-controle",
+   "provas": [
+    {
+     "key": "SEPLAD_P1P2_C1",
+     "prova": "gab_SEPLAD_DFCB1_CE1_COM_JUS.pdf",
+     "gabarito": "gab_c1_p1p2.txt",
+     "tipo": "mc",
+     "arquivo": "798_SEPLAD_DFCB1_CE1_COM_JUSTIFICATIVAS.PDF",
+     "num_offset": 0
+    },
+    {
+     "key": "SEPLAD_P3_C1",
+     "prova": "gab_SEPLAD_DFCC1_COM_JUSTIFI.pdf",
+     "gabarito": "gab_SEPLAD_DF_CC1_00_CARGO_1.pdf",
+     "tipo": "mc",
+     "arquivo": "798_SEPLAD_DFCC1_COM_JUSTIFICATIVAS.PDF",
+     "num_offset": 100
+    },
+    {
+     "key": "SEPLAD_CF1",
+     "prova": "pro_SEPLAD_DF_CF_001_01.pdf",
+     "gabarito": "gab_SEPLAD_DF_CF_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "953_SEPLAD_DF_CF_001_01.PDF",
+     "num_offset": 140
+    },
+    {
+     "key": "SEPLAD_CFT2",
+     "prova": "pro_SEPLAD22CF2TURMA_001_01.pdf",
+     "gabarito": "gab_SEPLAD22CF2TURMA_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "105_SEPLAD22CF2TURMA_001_01.pdf",
+     "num_offset": 190
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Auditor de Controle Interno do DF – Planejamento e Orçamento",
+   "id_cargo": "auditor-planejamento-orcamento",
+   "provas": [
+    {
+     "key": "SEPLAD_P1P2_C2",
+     "prova": "gab_BONECA_800_SEPLAD_DF_002.pdf",
+     "gabarito": "gab_c2_p1p2.txt",
+     "tipo": "mc",
+     "arquivo": "800_BONECA_SEPLAD_DF_002.PDF",
+     "num_offset": 0
+    },
+    {
+     "key": "SEPLAD_P3_C2",
+     "prova": "gab_800SEPLAD_DFCC1_JUSTIFIC.pdf",
+     "gabarito": "gab_800SEPLAD_DFCC1_CARGO2.pdf",
+     "tipo": "mc",
+     "arquivo": "800_SEPLAD_DFCC1_COM_JUSTIFICATIVAS.PDF",
+     "num_offset": 100
+    },
+    {
+     "key": "SEPLAD_CF2",
+     "prova": "pro_SEPLAD_DF_CF_002_01.pdf",
+     "gabarito": "gab_SEPLAD_DF_CF_002_01.pdf",
+     "tipo": "mc",
+     "arquivo": "953_SEPLAD_DF_CF_002_01.PDF",
+     "num_offset": 140
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {
+  "SEPLAD_P1P2_C1": [
+   77,
+   78
+  ],
+  "SEPLAD_CF2": [
+   37
+  ]
+ },
+ "patch": {
+  "SEPLAD_P1P2_C1": {
+   "71": "Considerando que a tabela a seguir represente a distribuição de frequências absolutas de uma variável quantitativa x — x/frequência absoluta: 0/1, 1/2, 2/4, 3/0, 4/2; total 9 —, é correto afirmar que, em relação a x, a média será",
+   "75": {
+    "enunciado": "Uma amostragem por conglomerados será efetuada para o estudo dos tipos de erros encontrados nas páginas de M diferentes livros produzidos por certa editora. Cada livro k, em que k ∈ {1, …, M}, é constituído por Nₖ páginas, divididas em capítulos. Nessa amostragem, considera-se cada livro k como um conglomerado de Nₖ páginas. Nessa situação hipotética, se o livro k = 1 for selecionado aleatoriamente para compor a amostra desse estudo, então deve-se",
+    "alternativas": [
+     "extrair uma amostra aleatória simples de n₁ páginas desse livro, sendo n₁ < N₁ o tamanho da amostra de páginas a ser estabelecida para esse livro em particular.",
+     "extrair uma amostra aleatória sistemática, totalizando n₁ páginas a serem examinadas nesse livro em particular, sendo n₁ < N₁ o tamanho da amostra de páginas a ser definida para o livro k = 1.",
+     "extrair uma amostra aleatória estratificada de acordo com os capítulos que constituem o livro k = 1.",
+     "efetuar um censo, examinando-se todas as N₁ páginas que constituem o livro k = 1."
+    ]
+   },
+   "79": "A sequência de valores V ou F, considerada no sentido vertical, de cima para baixo, da proposição lógica R˅(Q˄P) ↔ (P˅R)˄(R˅Q), assumindo-se os valores de P, Q e R como os da tabela-verdade precedente — P/Q/R: V/V/V, V/V/F, V/F/V, V/F/F, F/V/V, F/V/F, F/F/V, F/F/F —, é",
+   "93": "Determinada entidade do setor público apresentou alguns lançamentos de receitas e despesas referentes ao exercício de 2022, listados na tabela a seguir (receita/despesa; R$): receita patrimonial 1.500.000; pessoal ativo 20.000.000; receita industrial 500.000; operações de crédito 2.000.000; amortização de dívida de LP 2.000.000; aquisição de material de expediente 500.000; alienação de bens 500.000; amortização de empréstimos 500.000; aquisição de equipamentos para postos de saúde 1.500.000; receita tributária 20.000.000; transferências de capital 2.000.000; obrigações patronais 5.000.000; transferências correntes 6.000.000; construção de escola 3.000.000; encargos sobre operações de crédito 1.000.000; receita de serviços 2.000.000. De acordo com os dados da situação hipotética apresentada no texto 1A5-I, o valor das receitas de capital é igual a",
+   "94": "Determinada entidade do setor público apresentou alguns lançamentos de receitas e despesas referentes ao exercício de 2022, listados na tabela a seguir (receita/despesa; R$): receita patrimonial 1.500.000; pessoal ativo 20.000.000; receita industrial 500.000; operações de crédito 2.000.000; amortização de dívida de LP 2.000.000; aquisição de material de expediente 500.000; alienação de bens 500.000; amortização de empréstimos 500.000; aquisição de equipamentos para postos de saúde 1.500.000; receita tributária 20.000.000; transferências de capital 2.000.000; obrigações patronais 5.000.000; transferências correntes 6.000.000; construção de escola 3.000.000; encargos sobre operações de crédito 1.000.000; receita de serviços 2.000.000. Conforme os dados da situação hipotética apresentada no texto 1A5-I, o valor das despesas de capital é igual a",
+   "95": "Certo ente subnacional registrou, em sua contabilidade, os fatos presentes na tabela a seguir, referentes ao exercício de 2022 (R$): despesas empenhadas e liquidadas 500.000; empenho de despesa 570.000; arrecadação de receitas tributárias 600.000; despesas pagas 450.000. Com base apenas nos fatos presentes no texto 1A5-II, os restos a pagar não processados correspondem a",
+   "96": "Certo ente subnacional registrou, em sua contabilidade, os fatos presentes na tabela a seguir, referentes ao exercício de 2022 (R$): despesas empenhadas e liquidadas 500.000; empenho de despesa 570.000; arrecadação de receitas tributárias 600.000; despesas pagas 450.000. Com base apenas nos fatos presentes no texto 1A5-II, os restos a pagar processados correspondem a",
+   "98": "O Governo do DF (GDF) decidiu implementar um novo programa de resíduos sólidos em 2022. Para viabilizar esse projeto, o GDF apurou os dados financeiros e orçamentários mostrados na tabela a seguir (R$): receita corrente arrecadada 2.100.000; receita de capital arrecadada 1.000.000; saldo da disponibilidade do exercício anterior (2021) 200.000; despesas extraorçamentárias realizadas 500.000; operações de crédito 200.000. De acordo com os dados apresentados nessa situação hipotética, o GDF poderá abrir um crédito especial de até"
+  },
+  "SEPLAD_P1P2_C2": {
+   "71": "A população-alvo de um levantamento estatístico consiste de residentes com mais de 16 anos de idade nas regiões metropolitanas de São Paulo, Rio de Janeiro e Belo Horizonte. O objetivo desse levantamento é obter uma estimativa da proporção de cidadãos dessa população-alvo que se sentem satisfeitos com certo serviço público digital. A coleta dos dados será feita por amostragem probabilística, mediante sorteio aleatório de 1.000 pessoas em São Paulo, 600 pessoas no Rio de Janeiro e 400 pessoas em Belo Horizonte, perfazendo o total de 2.000 pessoas. A estimativa será obtida com base nas informações hipotéticas indicadas na tabela a seguir — região metropolitana / número de pessoas com mais de 16 anos de idade (em milhões) / tamanho da amostra: São Paulo 18 / 1.000; Rio de Janeiro 10 / 600; Belo Horizonte 4 / 400; total 32 / 2.000. Conforme a descrição precedente, o levantamento estatístico em apreço remete a uma amostragem",
+   "72": "Dois conjuntos de dados, X e Y, possuem a mesma média amostral. Os tamanhos desses conjuntos de dados e suas respectivas variâncias amostrais se encontram na tabela a seguir — conjunto de dados / tamanho da amostra (n) / variância amostral (s²): X / 10 / 5; Y / 16 / 1. Nessa situação hipotética, se os dois conjuntos de dados forem reunidos, formando um único conjunto de dados com 26 observações, a variância amostral desse novo conjunto será igual a",
+   "73": {
+    "enunciado": "O conjunto de dados {0, 0, 1, 5, 6, 9} possui amplitude amostral R, média amostral x̄, mediana amostral Md e moda amostral Mo. Nessa situação hipotética, a razão (2x̄ − Md − Mo)/(2R) será igual a",
+    "alternativas": [
+     "−5/18.",
+     "−3/18.",
+     "0.",
+     "4/18."
+    ]
+   },
+   "74": "No espaço amostral Ω, A ⊂ Ω, B ⊂ Ω e C ⊂ Ω são eventos aleatórios tais que B e C são eventos mutuamente independentes e A ⊂ B, com P(A) = 0,15, P(B) = 0,30 e P(C) = 0,50. De acordo com essa situação hipotética, P(A ∪ B ∪ C) será igual a",
+   "75": {
+    "enunciado": "Três diferentes metodologias de trabalho – M1, M2 e M3 – propiciam diferentes probabilidades de sucesso na execução de uma tarefa e, do ponto de vista probabilístico, essas probabilidades são P(S|M1) = 0,9, P(S|M2) = 0,8 e P(S|M3) = 0,7, os eventos M1, M2 e M3 formam uma partição do espaço amostral e P(M1) = 0,2 e P(M2) = 0,3. De acordo com essas informações, caso uma tarefa tenha sucesso, a probabilidade de que ela tenha sido executada pela metodologia M1 será igual a",
+    "alternativas": [
+     "9/50.",
+     "1/5.",
+     "18/77.",
+     "9/10."
+    ]
+   },
+   "76": "A figura precedente apresenta um esquema da Praça dos Três Poderes, em Brasília – DF, na qual há 8 pontos turísticos de interesse: o Congresso Nacional, o Palácio do Planalto, o Supremo Tribunal Federal, o Museu Histórico de Brasília, o Espaço Lúcio Costa, a estátua Dois Candangos, o Pavilhão Nacional e o Panteão da Pátria. Cada pessoa que vai à Praça dos Três Poderes pode criar seu próprio itinerário de visitação a esses 8 pontos turísticos. Com base nas informações do texto 1A3, é correto afirmar que o número de itinerários de visitação aos 8 pontos turísticos, sem que o mesmo ponto seja visitado duas vezes e que o Pavilhão Nacional seja sempre visitado após a visita ao Panteão da Pátria, é",
+   "77": "A figura precedente apresenta um esquema da Praça dos Três Poderes, em Brasília – DF, na qual há 8 pontos turísticos de interesse: o Congresso Nacional, o Palácio do Planalto, o Supremo Tribunal Federal, o Museu Histórico de Brasília, o Espaço Lúcio Costa, a estátua Dois Candangos, o Pavilhão Nacional e o Panteão da Pátria. Cada pessoa que vai à Praça dos Três Poderes pode criar seu próprio itinerário de visitação a esses 8 pontos turísticos. As chances de um indivíduo escolher um itinerário para a visitação, apenas uma vez, de todos os pontos turísticos mencionados no texto 1A3, de modo que a visita termine no Supremo Tribunal Federal, são",
+   "78": "A figura precedente apresenta um esquema da Praça dos Três Poderes, em Brasília – DF, na qual há 8 pontos turísticos de interesse: o Congresso Nacional, o Palácio do Planalto, o Supremo Tribunal Federal, o Museu Histórico de Brasília, o Espaço Lúcio Costa, a estátua Dois Candangos, o Pavilhão Nacional e o Panteão da Pátria. Cada pessoa que vai à Praça dos Três Poderes pode criar seu próprio itinerário de visitação a esses 8 pontos turísticos. Considerando-se, a partir do texto 1A3, que, em um dia, 512 pessoas visitem o Congresso Nacional e 390 não visitem o Museu Histórico de Brasília e, ainda, que 190 pessoas visitem esses dois pontos turísticos, é correto afirmar que o número de pessoas que não visitem nem o Congresso Nacional nem o Museu Histórico de Brasília está entre"
+  },
+  "SEPLAD_P3_C1": {
+   "16": "No encerramento do primeiro exercício financeiro de uma entidade do setor público, verificou-se que as seguintes transações foram realizadas. I. Aprovação da lei orçamentária anual no valor de R$ 100.000,00, sendo 80% na categoria econômica corrente e 20% na categoria econômica de capital, tanto para a receita pública quanto para a despesa pública. II. Lançamento de impostos no valor de R$ 80.000,00, tendo sido arrecadada metade desse valor. III. Empenho e liquidação de despesas de pessoal no valor de R$ 60.000,00, tendo sido metade paga no exercício e metade inscrita em restos a pagar. IV. Recebimento de um veículo em doação no valor de R$ 72.000,00, tendo sido registrados R$ 12.000,00 de depreciação durante o exercício. De acordo com os dados apresentados no texto CC1A2, o fechamento do balanço orçamentário da referida unidade, encerrado no exercício em questão, mostrará que o resultado orçamentário desse exercício foi",
+   "17": "No encerramento do primeiro exercício financeiro de uma entidade do setor público, verificou-se que as seguintes transações foram realizadas. I. Aprovação da lei orçamentária anual no valor de R$ 100.000,00, sendo 80% na categoria econômica corrente e 20% na categoria econômica de capital, tanto para a receita pública quanto para a despesa pública. II. Lançamento de impostos no valor de R$ 80.000,00, tendo sido arrecadada metade desse valor. III. Empenho e liquidação de despesas de pessoal no valor de R$ 60.000,00, tendo sido metade paga no exercício e metade inscrita em restos a pagar. IV. Recebimento de um veículo em doação no valor de R$ 72.000,00, tendo sido registrados R$ 12.000,00 de depreciação durante o exercício. Conforme os dados apresentados no texto CC1A2, o fechamento da demonstração dos fluxos de caixa (DFC) da entidade referenciada no texto CC1A2, encerrada no exercício em tela, mostrará que a geração líquida de caixa do período foi",
+   "18": "No encerramento do primeiro exercício financeiro de uma entidade do setor público, verificou-se que as seguintes transações foram realizadas. I. Aprovação da lei orçamentária anual no valor de R$ 100.000,00, sendo 80% na categoria econômica corrente e 20% na categoria econômica de capital, tanto para a receita pública quanto para a despesa pública. II. Lançamento de impostos no valor de R$ 80.000,00, tendo sido arrecadada metade desse valor. III. Empenho e liquidação de despesas de pessoal no valor de R$ 60.000,00, tendo sido metade paga no exercício e metade inscrita em restos a pagar. IV. Recebimento de um veículo em doação no valor de R$ 72.000,00, tendo sido registrados R$ 12.000,00 de depreciação durante o exercício. Conforme os dados apresentados no texto CC1A2, o fechamento da demonstração das variações patrimoniais (DVP) da entidade referenciada no texto CC1A2, encerrada no exercício em tela, mostrará que o resultado patrimonial do período foi positivo em"
+  }
+ }
+}

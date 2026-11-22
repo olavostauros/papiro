@@ -1,0 +1,29 @@
+{
+ "evento": "PGE_PR_24_PROCURADOR",
+ "workdir": "/tmp/pge_pr_24_procurador",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Procuradoria-Geral do Estado do Paraná",
+  "ano": 2024,
+  "id_orgao": "pge-pr"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Procurador",
+   "id_cargo": "procurador",
+   "provas": [
+    {
+     "key": "obj",
+     "prova": "pro_PGEPR_001_01.pdf",
+     "gabarito": "gab_PGEPR_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "007_PGEPR_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

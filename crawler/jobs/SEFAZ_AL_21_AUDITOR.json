@@ -1,0 +1,58 @@
+{
+ "evento": "SEFAZ_AL_21_AUDITOR",
+ "workdir": "/tmp/sefaz_al_21_auditor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Secretaria de Estado da Fazenda de Alagoas",
+  "ano": 2021,
+  "id_orgao": "sefaz-al"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Auditor de Finanças e Controle de Arrecadação da Fazenda Estadual",
+   "id_cargo": "auditor-financas-controle-arrecadacao",
+   "provas": [
+    {
+     "key": "cb01",
+     "prova": "pro_SEFAZ_AL_001.pdf",
+     "gabarito": "gab_MATRIZ_607_SEFAZ_AL_CB1_.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_607_SEFAZ_AL_001.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_SEFAZ_AL_001.pdf",
+     "gabarito": "gab_MATRIZ_607_SEFAZ_AL_001_.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_607_SEFAZ_AL_001.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Auditor Fiscal da Receita Estadual",
+   "id_cargo": "auditor-fiscal-receita-estadual",
+   "provas": [
+    {
+     "key": "cb02",
+     "prova": "pro_SEFAZ_AL_002.pdf",
+     "gabarito": "gab_MATRIZ_607_SEFAZ_AL_CB1_.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_607_SEFAZ_AL_002.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_SEFAZ_AL_002.pdf",
+     "gabarito": "gab_MATRIZ_607_SEFAZ_AL_002_.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_607_SEFAZ_AL_002.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

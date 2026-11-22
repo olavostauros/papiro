@@ -1,0 +1,752 @@
+{
+  "evento": "CAESB_24",
+  "workdir": "/tmp/caesb_24",
+  "meta": {
+    "banca": "Cebraspe",
+    "orgao": "Companhia de Saneamento Ambiental do Distrito Federal",
+    "ano": 2024,
+    "id_orgao": "caesb"
+  },
+  "cargos": [
+    {
+      "idArea": "01",
+      "cargo": "ADVOGADO – ESPECIALIDADE: ADVOGADO",
+      "id_cargo": "advogado-advogado",
+      "provas": [
+        {
+          "key": "cg1",
+          "prova": "gab_CAESB_CG1_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG1_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG1_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp01",
+          "prova": "gab_CAESB_001_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_001_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_001_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "02",
+      "cargo": "ANALISTA DE SISTEMAS DE SANEAMENTO – ESPECIALIDADE: BIÓLOGO",
+      "id_cargo": "analista-de-sistemas-de-saneamento-biologo",
+      "provas": [
+        {
+          "key": "cg1",
+          "prova": "gab_CAESB_CG1_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG1_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG1_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp02",
+          "prova": "gab_CAESB_002_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_002_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_002_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "03",
+      "cargo": "ANALISTA DE SISTEMAS DE SANEAMENTO – ESPECIALIDADE: ENGENHEIRO AGRIMENSOR",
+      "id_cargo": "analista-de-sistemas-de-saneamento-engenheiro-agrimensor",
+      "provas": [
+        {
+          "key": "cg1",
+          "prova": "gab_CAESB_CG1_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG1_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG1_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp03",
+          "prova": "gab_CAESB_003_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_003_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_003_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "04",
+      "cargo": "ANALISTA DE SISTEMAS DE SANEAMENTO – ESPECIALIDADE: ENGENHEIRO AMBIENTAL",
+      "id_cargo": "analista-de-sistemas-de-saneamento-engenheiro-ambiental",
+      "provas": [
+        {
+          "key": "cg1",
+          "prova": "gab_CAESB_CG1_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG1_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG1_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp04",
+          "prova": "gab_CAESB_004_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_004_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_004_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "05",
+      "cargo": "ANALISTA DE SISTEMAS DE SANEAMENTO – ESPECIALIDADE: ENGENHEIRO CIVIL",
+      "id_cargo": "analista-de-sistemas-de-saneamento-engenheiro-civil",
+      "provas": [
+        {
+          "key": "cg1",
+          "prova": "gab_CAESB_CG1_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG1_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG1_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp05",
+          "prova": "gab_CAESB_005_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_005_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_005_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "06",
+      "cargo": "ANALISTA DE SISTEMAS DE SANEAMENTO – ESPECIALIDADE: ENGENHEIRO ELETRICISTA",
+      "id_cargo": "analista-de-sistemas-de-saneamento-engenheiro-eletricista",
+      "provas": [
+        {
+          "key": "cg1",
+          "prova": "gab_CAESB_CG1_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG1_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG1_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp06",
+          "prova": "gab_CAESB_006_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_006_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_006_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "07",
+      "cargo": "ANALISTA DE SISTEMAS DE SANEAMENTO – ESPECIALIDADE: ENGENHEIRO ELETRÔNICO",
+      "id_cargo": "analista-de-sistemas-de-saneamento-engenheiro-eletronico",
+      "provas": [
+        {
+          "key": "cg1",
+          "prova": "gab_CAESB_CG1_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG1_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG1_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp07",
+          "prova": "gab_CAESB_007_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_007_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_007_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "08",
+      "cargo": "ANALISTA DE SISTEMAS DE SANEAMENTO – ESPECIALIDADE: ENGENHEIRO FLORESTAL",
+      "id_cargo": "analista-de-sistemas-de-saneamento-engenheiro-florestal",
+      "provas": [
+        {
+          "key": "cg1",
+          "prova": "gab_CAESB_CG1_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG1_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG1_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp08",
+          "prova": "gab_CAESB_008_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_008_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_008_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "09",
+      "cargo": "ANALISTA DE SISTEMAS DE SANEAMENTO – ESPECIALIDADE: ENGENHEIRO MECÂNICO",
+      "id_cargo": "analista-de-sistemas-de-saneamento-engenheiro-mecanico",
+      "provas": [
+        {
+          "key": "cg1",
+          "prova": "gab_CAESB_CG1_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG1_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG1_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp09",
+          "prova": "gab_905BAE8B8901D96A45D9CBF7.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_009_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_905BAE8B8901D96A45D9CBF7.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "10",
+      "cargo": "ANALISTA DE SISTEMAS DE SANEAMENTO – ESPECIALIDADE: ENGENHEIRO QUÍMICO",
+      "id_cargo": "analista-de-sistemas-de-saneamento-engenheiro-quimico",
+      "provas": [
+        {
+          "key": "cg1",
+          "prova": "gab_CAESB_CG1_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG1_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG1_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp10",
+          "prova": "gab_CAESB_010_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_010_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_010_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "11",
+      "cargo": "ANALISTA DE SISTEMAS DE SANEAMENTO – ESPECIALIDADE: GEÓGRAFO",
+      "id_cargo": "analista-de-sistemas-de-saneamento-geografo",
+      "provas": [
+        {
+          "key": "cg1",
+          "prova": "gab_CAESB_CG1_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG1_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG1_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp11",
+          "prova": "gab_CAESB_011_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_011_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_011_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "12",
+      "cargo": "ANALISTA DE SISTEMAS DE SANEAMENTO – ESPECIALIDADE: QUÍMICO",
+      "id_cargo": "analista-de-sistemas-de-saneamento-quimico",
+      "provas": [
+        {
+          "key": "cg1",
+          "prova": "gab_CAESB_CG1_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG1_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG1_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp12",
+          "prova": "gab_CAESB_012_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_012_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_012_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "13",
+      "cargo": "ANALISTA DE SUPORTE AO NEGÓCIO – ESPECIALIDADE: ADMINISTRADOR",
+      "id_cargo": "analista-de-suporte-ao-negocio-administrador",
+      "provas": [
+        {
+          "key": "cg1",
+          "prova": "gab_CAESB_CG1_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG1_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG1_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp13",
+          "prova": "gab_CAESB_013_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_013_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_013_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "14",
+      "cargo": "ANALISTA DE SUPORTE AO NEGÓCIO – ESPECIALIDADE: ANALISTA DE SISTEMAS",
+      "id_cargo": "analista-de-suporte-ao-negocio-analista-de-sistemas",
+      "provas": [
+        {
+          "key": "cg1",
+          "prova": "gab_CAESB_CG1_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG1_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG1_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp14",
+          "prova": "gab_CAESB_014_00_Com_Justifi_2.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_014_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_014_00_Com_Justifi_2.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "15",
+      "cargo": "ANALISTA DE SUPORTE AO NEGÓCIO – ESPECIALIDADE: CONTADOR",
+      "id_cargo": "analista-de-suporte-ao-negocio-contador",
+      "provas": [
+        {
+          "key": "cg1",
+          "prova": "gab_CAESB_CG1_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG1_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG1_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp15",
+          "prova": "gab_CAESB_015_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_015_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_015_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "16",
+      "cargo": "ANALISTA DE SUPORTE AO NEGÓCIO – ESPECIALIDADE: ECONOMISTA",
+      "id_cargo": "analista-de-suporte-ao-negocio-economista",
+      "provas": [
+        {
+          "key": "cg1",
+          "prova": "gab_CAESB_CG1_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG1_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG1_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp16",
+          "prova": "gab_CAESB_016_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_016_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_016_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "17",
+      "cargo": "ANALISTA DE SUPORTE AO NEGÓCIO – ESPECIALIDADE: ESTATÍSTICO",
+      "id_cargo": "analista-de-suporte-ao-negocio-estatistico",
+      "provas": [
+        {
+          "key": "cg1",
+          "prova": "gab_CAESB_CG1_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG1_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG1_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp17",
+          "prova": "gab_CAESB_017_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_017_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_017_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "18",
+      "cargo": "ANALISTA DE SUPORTE AO NEGÓCIO – ESPECIALIDADE: PEDAGOGO",
+      "id_cargo": "analista-de-suporte-ao-negocio-pedagogo",
+      "provas": [
+        {
+          "key": "cg1",
+          "prova": "gab_CAESB_CG1_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG1_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG1_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp18",
+          "prova": "gab_CAESB_018_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_018_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_018_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "19",
+      "cargo": "TÉCNICO DE SISTEMAS DE SANEAMENTO – ESPECIALIDADE: TÉCNICO DE EDIFICAÇÕES",
+      "id_cargo": "tecnico-de-sistemas-de-saneamento-tecnico-de-edificacoes",
+      "provas": [
+        {
+          "key": "cg2",
+          "prova": "gab_CAESB_CG2_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG2_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG2_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp19",
+          "prova": "gab_CAESB_019_00_Com_Justifi_2.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_019_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_019_00_Com_Justifi_2.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "20",
+      "cargo": "TÉCNICO DE SISTEMAS DE SANEAMENTO – ESPECIALIDADE: TÉCNICO DE SANEAMENTO",
+      "id_cargo": "tecnico-de-sistemas-de-saneamento-tecnico-de-saneamento",
+      "provas": [
+        {
+          "key": "cg2",
+          "prova": "gab_CAESB_CG2_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG2_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG2_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp20",
+          "prova": "gab_CAESB_020_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_020_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_020_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "21",
+      "cargo": "TÉCNICO DE SISTEMAS DE SANEAMENTO – ESPECIALIDADE: TÉCNICO DE TELECOMUNICAÇÃO",
+      "id_cargo": "tecnico-de-sistemas-de-saneamento-tecnico-de-telecomunicacao",
+      "provas": [
+        {
+          "key": "cg2",
+          "prova": "gab_CAESB_CG2_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG2_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG2_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp21",
+          "prova": "gab_CAESB_021_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_021_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_021_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "22",
+      "cargo": "TÉCNICO DE SISTEMAS DE SANEAMENTO – ESPECIALIDADE: TÉCNICO ELETRICISTA",
+      "id_cargo": "tecnico-de-sistemas-de-saneamento-tecnico-eletricista",
+      "provas": [
+        {
+          "key": "cg2",
+          "prova": "gab_CAESB_CG2_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG2_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG2_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp22",
+          "prova": "gab_CAESB_022_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_022_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_022_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "23",
+      "cargo": "TÉCNICO DE SISTEMAS DE SANEAMENTO – ESPECIALIDADE: TÉCNICO ELETRÔNICO",
+      "id_cargo": "tecnico-de-sistemas-de-saneamento-tecnico-eletronico",
+      "provas": [
+        {
+          "key": "cg2",
+          "prova": "gab_CAESB_CG2_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG2_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG2_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp23",
+          "prova": "gab_CAESB_023_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_023_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_023_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "24",
+      "cargo": "TÉCNICO DE SISTEMAS DE SANEAMENTO – ESPECIALIDADE: TÉCNICO EM HIDROLOGIA",
+      "id_cargo": "tecnico-de-sistemas-de-saneamento-tecnico-em-hidrologia",
+      "provas": [
+        {
+          "key": "cg2",
+          "prova": "gab_CAESB_CG2_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG2_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG2_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp24",
+          "prova": "gab_CAESB_024_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_024_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_024_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "25",
+      "cargo": "TÉCNICO DE SISTEMAS DE SANEAMENTO – ESPECIALIDADE: TÉCNICO MECÂNICO",
+      "id_cargo": "tecnico-de-sistemas-de-saneamento-tecnico-mecanico",
+      "provas": [
+        {
+          "key": "cg2",
+          "prova": "gab_CAESB_CG2_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG2_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG2_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp25",
+          "prova": "gab_CAESB_025_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_025_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_025_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "26",
+      "cargo": "TÉCNICO DE SISTEMAS DE SANEAMENTO – ESPECIALIDADE: TÉCNICO QUÍMICO",
+      "id_cargo": "tecnico-de-sistemas-de-saneamento-tecnico-quimico",
+      "provas": [
+        {
+          "key": "cg2",
+          "prova": "gab_CAESB_CG2_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG2_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG2_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp26",
+          "prova": "gab_CAESB_026_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_026_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_026_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "27",
+      "cargo": "AGENTE DE OPERAÇÕES DE SISTEMA DE SANEAMENTO – ESPECIALIDADE: OPERADOR DE ESTAÇÃO DE TRATAMENTO",
+      "id_cargo": "agente-de-operacoes-de-sistema-de-saneamento-operador-de-estacao-de-tratamento",
+      "provas": [
+        {
+          "key": "cg3",
+          "prova": "gab_CAESB_CG3_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG3_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG3_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp27",
+          "prova": "gab_CAESB_027_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_027_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_027_00_Com_Justifi.pdf"
+        }
+      ]
+    },
+    {
+      "idArea": "28",
+      "cargo": "AGENTE DE SUPORTE AO NEGÓCIO – ESPECIALIDADE: ASSISTENTE ADMINISTRATIVO",
+      "id_cargo": "agente-de-suporte-ao-negocio-assistente-administrativo",
+      "provas": [
+        {
+          "key": "cg2",
+          "prova": "gab_CAESB_CG2_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_CG2_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_CG2_00_Com_Justifi.pdf"
+        },
+        {
+          "key": "esp28",
+          "prova": "gab_CAESB_028_00_Com_Justifi.pdf",
+          "gabarito": "gab_MATRIZ_039_CAESB_028_00.pdf",
+          "tipo": "mc",
+          "arquivo": "gab_CAESB_028_00_Com_Justifi.pdf"
+        }
+      ]
+    }
+  ],
+  "unmatched": [],
+  "variant": "modern",
+  "skip": {
+    "esp15": [
+      54
+    ],
+    "esp10": [
+      34
+    ],
+    "esp02": [
+      39,
+      43
+    ],
+    "esp04": [
+      52
+    ],
+    "esp26": [
+      41,
+      43,
+      45
+    ]
+  },
+  "patch": {
+    "cg1": {
+      "14": "• Intel Core Ultra 9 185H de 5,1 GHz (turbo) 16 núcleos e cache 24 MB • 64 GB DDR5 5.600 MHz • monitor de 16 polegadas (3.840p × 2.400p) • placa gráfica Nvidia RTX 8GB GDDR6 • SSD 2 TB padrão PCIe NVMe (5.000 Mbps) Em relação aos itens precedentes, referentes à configuração de determinado computador, é correto afirmar que"
+    },
+    "esp04": {
+      "66": "No âmbito do Sistema de Gestão Ambiental, segundo a NBR-ISO 14001/2004, os princípios gerais de uma organização em relação ao seu desempenho ambiental estão relacionados",
+      "70": "No que diz respeito à avaliação de desempenho ambiental (ADA) e seus indicadores, segundo a NBR-ISO 14031/2004, assinale a opção correta."
+    },
+    "esp07": {
+      "54": "medida (Ω): instrumento I / instrumento II; leitura 1: 1,002 / 1,101; leitura 2: 1,050 / 1,098; leitura 3: 0,990 / 1,100. Considerando a tabela precedente, que apresenta os dados resultantes de medições realizadas por meio de dois instrumentos, assinale a opção correta."
+    },
+    "esp09": {
+      "32": {
+        "enunciado": "Considere que dois corpos, X e Y, possuam a mesma energia cinética, mas massas diferentes: enquanto a massa de X é m, a de Y é 4·m. Nessas condições, a razão QX/QY entre as quantidades de movimento dos dois corpos é igual a",
+        "alternativas": [
+          "1/2",
+          "4",
+          "1/√2",
+          "1/4",
+          "2"
+        ]
+      }
+    },
+    "esp12": {
+      "51": {
+        "enunciado": "O método ilustrado na figura a seguir descreve a extração de pesticidas em amostras de tomate, seguido por análise em cromatografia gasosa com detector por captura de elétrons (GC/ECD). A tabela a seguir apresenta as concentrações das soluções mistas intermediárias dos pesticidas utilizadas para a quantificação. sol. mista intermediária (ng/µl), sol. 1 a 5: quintozene 2,5 12,5 25,0 50,0 75,0 125; clorotalonil 6,0 30,0 60,0 120 180 300; iprodiona 24,0 120 240 480 720 1.200; fenpropatrin 9,5 47,5 95,0 190 285 475; β-ciflutrina 10,5 52,5 105 210 315 525; α-cipermetrina 14,0 70,0 140 280 420 700; fenvalerato 15,5 77,5 155 310 465 775; deltametrina 20,0 100 200 400 600 1.000. M. H. Conceição. Tese de Doutorado. Instituto de Química, Universidade de Brasília, 2002. A partir das informações precedentes, assinale a opção correta acerca do procedimento descrito.",
+        "alternativas": [
+          "A concentração da solução mista intermediária de deltametrina (20,0 ng/µL) destaca-se por ser a mais alta da tabela, o que indica a necessidade de ajustes de sensibilidade no GC/ECD para evitar saturação do detector.",
+          "A fase orgânica é obtida após centrifugação e contém principalmente compostos hidrofílicos, o que favorece a análise em GC/ECD.",
+          "O uso de Na2SO4 anidro tem a função de remover a umidade da amostra, facilitando a extração dos pesticidas para a fase orgânica.",
+          "A coluna de florisil é utilizada no procedimento para promover a retenção de compostos apolares, permitindo a eluição seletiva apenas de pesticidas polares.",
+          "A curva de calibração para análise em GC/ECD deve ser preparada apenas com solventes apolares, pois solventes polares podem interferir no sinal do detector."
+        ]
+      }
+    },
+    "esp17": {
+      "31": {
+        "enunciado": "A tabela a seguir apresenta valores de concentração de sólidos dissolvidos totais (em mg/L) em amostras de água coletadas de cinco estações de monitoramento de uma companhia de saneamento. estação — concentração (mg/L): I 120; II 150; III 135; IV 145; V 125. A partir dessa situação hipotética, é correto afirmar que o coeficiente de assimetria de Bowley (B), definido como B = (Q3 + Q1 − 2·Q2)/(Q3 − Q1), em que Q1, Q2 e Q3 representam, respectivamente, o primeiro, o segundo e o terceiro quartil desse conjunto de dados, é igual a",
+        "alternativas": [
+          "−0,8",
+          "−0,2",
+          "0,0",
+          "0,2",
+          "0,25"
+        ]
+      },
+      "35": "A fração do dia de trabalho necessária para executar determinada tarefa é descrita como uma variável aleatória X, cuja função de densidade de probabilidade é dada por fX(x) = A·x^2, se x ∈ [0,1]; 0, se x ∉ [0,1], em que A representa a constante de normalização. Nesse caso, A será igual a"
+    },
+    "esp21": {
+      "34": {
+        "enunciado": "No circuito elétrico precedente, há uma fonte de tensão contínua de 10 V, uma fonte de tensão controlada com tensão 3·i, e três resistores. Nesse circuito,",
+        "alternativas": [
+          "o valor da corrente i pode ser calculado a partir da expressão i = Va/3 = (10 + V1)/3.",
+          "as correntes que passam pelos ramos dos dois resistores de 5 Ω são iguais.",
+          "o valor da tensão Va é igual a 6 V.",
+          "a tensão no nó 1 (V1) e a tensão da fonte controlada estão relacionadas por 3V1 – Va = 50.",
+          "o módulo do valor da queda de tensão no resistor de 1 Ω é igual a 4 V."
+        ]
+      },
+      "50": "A seguinte ilustração representa um sistema de transmissão sem fio que opera em um ambiente de espaço livre, sendo Gt e Gr os ganhos das antenas de transmissão e de recepção, respectivamente; f a frequência de operação do sistema; d a distância entre os elementos radiantes; e Pr a potência recebida no sistema receptor. O ganho total na imagem é concentrado na direção da transmissão, e a eficiência de reflexão e de polarização das antenas é unitária. A partir das informações da situação hipotética precedente, e considerando π = 3, assinale a opção correta."
+    },
+    "esp22": {
+      "38": {
+        "alternativas": [
+          "RA = 2·RB",
+          "RB = 2·RA",
+          "RA = RB",
+          "RB = 4·RA",
+          "RA = 4·RB"
+        ]
+      },
+      "68": {
+        "enunciado": "Para um transformador monofásico, com N1 espiras no primário e N2 espiras no secundário, se a carga do transformador é representada por uma impedância complexa de valor Z2, o valor dessa impedância Z2 refletida no primário será igual a",
+        "alternativas": [
+          "(N1/N2)·Z2",
+          "(N1/N2)^2·Z2",
+          "(N2/N1)·Z2",
+          "(N2/N1)^2·Z2",
+          "(N1·N2)·Z2"
+        ]
+      }
+    },
+    "esp23": {
+      "33": {
+        "alternativas": [
+          "Se z1 = 3 + j4, então z1^2 = 9 + j40.",
+          "O módulo do número complexo z3 = 6 + j8 é igual a 10.",
+          "A subtração entre o número complexo z2 = 5 – j2 e seu conjugado complexo é um número real.",
+          "Se z4 = A + jB, então, na forma polar, z4 = |z4|·e^{j·tg(B/A)}.",
+          "e^{±jπ} = ±j."
+        ]
+      },
+      "40": "Com base no circuito precedente e considerando os conceitos e componentes de eletrônica de potência, julgue os itens a seguir. I O controle e o disparo dos SCRs acontecem aos pares, a partir de determinado ângulo, e na saída do circuito há uma onda completa. II Os valores médios da corrente e da tensão são quatro vezes maiores do que os valores do retificador de meia-onda. III O valor máximo da tensão na carga é igual a VRMS/√2, em que VRMS é o valor eficaz da tensão de entrada VE. Assinale a opção correta.",
+      "68": {
+        "enunciado": "Para um transformador monofásico, com N1 espiras no primário e N2 espiras no secundário, se a carga do transformador é representada por uma impedância complexa de valor Z2, o valor dessa impedância Z2 refletida no primário será igual a",
+        "alternativas": [
+          "(N1/N2)·Z2",
+          "(N1/N2)^2·Z2",
+          "(N2/N1)·Z2",
+          "(N2/N1)^2·Z2",
+          "(N1·N2)·Z2"
+        ]
+      }
+    },
+    "esp25": {
+      "37": "No que se refere ao estudo da eletrostática, julgue os itens subsequentes. I A lei de Ohm relaciona a tensão elétrica (U) com a intensidade de corrente elétrica (I) e a resistência elétrica (R) por meio da expressão U = I·R. II A lei de Coulomb relaciona a força de atração e repulsão entre corpos eletrizados (F) com as cargas elétricas (Q1 e Q2) e a distância entre elas (d) pela relação F = k·Q1·Q2/d^2, em que k é uma constante. III A lei de Du Fay estabelece que as cargas elétricas se distribuem apenas na superfície externa dos corpos. Assinale a opção correta.",
+      "38": "O circuito elétrico na figura precedente é alimentado em corrente contínua por uma bateria de 4,5 V (E) e apresenta quatro lâmpadas iguais (L1 a L4) e um relé interruptor (RI). Cada lâmpada tem resistência elétrica de 4 Ω e o relé interruptor tem resistência elétrica de 1 Ω. A partir das informações da situação hipotética apresentada, assinale a opção que corresponde ao valor da corrente elétrica (I) no circuito.",
+      "39": {
+        "alternativas": [
+          "paramagnéticos",
+          "diamagnéticos",
+          "ferromagnéticos de elevada histerese",
+          "ferromagnéticos moles",
+          "ferromagnéticos duros"
+        ]
+      },
+      "41": {
+        "alternativas": [
+          "uma carga elétrica de 5 C equivale a 5 m·A.",
+          "um comprimento de 50 nm equivale a 5·10^-5 m.",
+          "uma força de 10 N equivale a 1.000 cm·kg·s^-2.",
+          "uma pressão de 1 bar equivale a 10^5 m·kg·s^-2.",
+          "uma energia de 6 J equivale a 600 m^2·g·s^-2."
+        ]
+      }
+    },
+    "esp26": {
+      "52": "ácidos carboxílicos e respectivos valores de pKa: ácido acético (CH3COOH) 4,7; ácido trifluoroacético (CF3COOH) 0,2; ácido tricloroacético (CCl3COOH) 0,7; ácido benzoico (C6H5COOH) 4,2. À luz das informações apresentadas na tabela precedente, assinale a opção correta a respeito da diferença de acidez entre os compostos indicados."
+    }
+  }
+}

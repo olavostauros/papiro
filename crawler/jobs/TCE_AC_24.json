@@ -1,0 +1,462 @@
+{
+ "evento": "TCE_AC_24",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "TCE-AC",
+  "ano": 2024,
+  "id_orgao": "tce-ac"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista Administrativo – Administração",
+   "id_cargo": "analista-administrativo-administracao",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_TCE_AC_CB2_01.pdf",
+     "gabarito": "gab_TCE_AC_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_CB2_01.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_TCE_AC_001_01.pdf",
+     "gabarito": "gab_TCE_AC_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Administrativo – Contabilidade",
+   "id_cargo": "analista-administrativo-contabilidade",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_TCE_AC_CB2_01.pdf",
+     "gabarito": "gab_TCE_AC_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_CB2_01.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_TCE_AC_002_01.pdf",
+     "gabarito": "gab_TCE_AC_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Administrativo – Direito",
+   "id_cargo": "analista-administrativo-direito",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_TCE_AC_CB2_01.pdf",
+     "gabarito": "gab_TCE_AC_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_CB2_01.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_TCE_AC_003_01.pdf",
+     "gabarito": "gab_TCE_AC_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Administrativo – Engenharia Civil",
+   "id_cargo": "analista-administrativo-engenharia-civil",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_TCE_AC_CB2_01.pdf",
+     "gabarito": "gab_TCE_AC_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_CB2_01.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_TCE_AC_004_01.pdf",
+     "gabarito": "gab_TCE_AC_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Administrativo – Pedagogia",
+   "id_cargo": "analista-administrativo-pedagogia",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_TCE_AC_CB2_01.pdf",
+     "gabarito": "gab_TCE_AC_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_CB2_01.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_TCE_AC_005_01.pdf",
+     "gabarito": "gab_TCE_AC_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Tecnologia da Informação – Gestão de Dados",
+   "id_cargo": "analista-de-tecnologia-da-informacao-gestao-de-dados",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TCE_AC_CB1_01.pdf",
+     "gabarito": "gab_TCE_AC_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_CB1_01.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_TCE_AC_006_01.pdf",
+     "gabarito": "gab_TCE_AC_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Tecnologia da Informação – Infraestrutura de TI",
+   "id_cargo": "analista-de-tecnologia-da-informacao-infraestrutura-de-ti",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TCE_AC_CB1_01.pdf",
+     "gabarito": "gab_TCE_AC_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_CB1_01.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_TCE_AC_007_01.pdf",
+     "gabarito": "gab_TCE_AC_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Tecnologia da Informação – Planejamento de TI",
+   "id_cargo": "analista-de-tecnologia-da-informacao-planejamento-de-ti",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TCE_AC_CB1_01.pdf",
+     "gabarito": "gab_TCE_AC_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_CB1_01.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_TCE_AC_008_01.pdf",
+     "gabarito": "gab_TCE_AC_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Tecnologia da Informação – Projetos de TI",
+   "id_cargo": "analista-de-tecnologia-da-informacao-projetos-de-ti",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TCE_AC_CB1_01.pdf",
+     "gabarito": "gab_TCE_AC_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_CB1_01.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_TCE_AC_009_01.pdf",
+     "gabarito": "gab_TCE_AC_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_009_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Tecnologia da Informação – Segurança da Informação",
+   "id_cargo": "analista-de-tecnologia-da-informacao-seguranca-da-informacao",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TCE_AC_CB1_01.pdf",
+     "gabarito": "gab_TCE_AC_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_CB1_01.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_TCE_AC_010_01.pdf",
+     "gabarito": "gab_TCE_AC_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_010_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista de Tecnologia da Informação – Sistemas de Informação",
+   "id_cargo": "analista-de-tecnologia-da-informacao-sistemas-de-informacao",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_TCE_AC_CB1_01.pdf",
+     "gabarito": "gab_TCE_AC_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_CB1_01.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_TCE_AC_011_01.pdf",
+     "gabarito": "gab_TCE_AC_011_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_011_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial – Administração",
+   "id_cargo": "analista-ministerial-administracao",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_TCE_AC_CB2_01.pdf",
+     "gabarito": "gab_TCE_AC_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_CB2_01.PDF"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_TCE_AC_012_01.pdf",
+     "gabarito": "gab_TCE_AC_012_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_012_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial – Direito",
+   "id_cargo": "analista-ministerial-direito",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_TCE_AC_CB2_01.pdf",
+     "gabarito": "gab_TCE_AC_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_CB2_01.PDF"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_TCE_AC_013_01.pdf",
+     "gabarito": "gab_TCE_AC_013_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_013_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Auditor de Controle Externo – Administração",
+   "id_cargo": "auditor-de-controle-externo-administracao",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_TCE_AC_CB3_01.pdf",
+     "gabarito": "gab_TCE_AC_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_CB3_01.PDF"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_TCE_AC_014_01.pdf",
+     "gabarito": "gab_TCE_AC_014_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_014_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Auditor de Controle Externo – Arquitetura",
+   "id_cargo": "auditor-de-controle-externo-arquitetura",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_TCE_AC_CB3_01.pdf",
+     "gabarito": "gab_TCE_AC_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_CB3_01.PDF"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_TCE_AC_015_01.pdf",
+     "gabarito": "gab_TCE_AC_015_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_015_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Auditor de Controle Externo – Contabilidade",
+   "id_cargo": "auditor-de-controle-externo-contabilidade",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_TCE_AC_CB3_01.pdf",
+     "gabarito": "gab_TCE_AC_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_CB3_01.PDF"
+    },
+    {
+     "key": "esp16",
+     "prova": "pro_TCE_AC_016_01.pdf",
+     "gabarito": "gab_TCE_AC_016_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_016_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Auditor de Controle Externo – Direito",
+   "id_cargo": "auditor-de-controle-externo-direito",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_TCE_AC_CB3_01.pdf",
+     "gabarito": "gab_TCE_AC_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_CB3_01.PDF"
+    },
+    {
+     "key": "esp17",
+     "prova": "pro_TCE_AC_017_01.pdf",
+     "gabarito": "gab_TCE_AC_017_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_017_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Auditor de Controle Externo – Engenharia Civil",
+   "id_cargo": "auditor-de-controle-externo-engenharia-civil",
+   "provas": [
+    {
+     "key": "cb3",
+     "prova": "pro_TCE_AC_CB3_01.pdf",
+     "gabarito": "gab_TCE_AC_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_CB3_01.PDF"
+    },
+    {
+     "key": "esp18",
+     "prova": "pro_TCE_AC_018_01.pdf",
+     "gabarito": "gab_TCE_AC_018_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_018_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Técnico de Controle Externo – Técnico Administrativo – Instrutivo",
+   "id_cargo": "tecnico-de-controle-externo-tecnico-administrativo-instrutivo",
+   "provas": [
+    {
+     "key": "cb5",
+     "prova": "pro_TCE_AC_CB5_01.pdf",
+     "gabarito": "gab_TCE_AC_CB5_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_CB5_01.PDF"
+    },
+    {
+     "key": "esp19",
+     "prova": "pro_TCE_AC_019_01.pdf",
+     "gabarito": "gab_TCE_AC_019_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_019_01.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Técnico de Controle Externo – Técnico em Informática",
+   "id_cargo": "tecnico-de-controle-externo-tecnico-em-informatica",
+   "provas": [
+    {
+     "key": "cb4",
+     "prova": "pro_TCE_AC_CB4_01.pdf",
+     "gabarito": "gab_TCE_AC_CB4_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_CB4_01.PDF"
+    },
+    {
+     "key": "esp20",
+     "prova": "pro_TCE_AC_020_01.pdf",
+     "gabarito": "gab_TCE_AC_020_01.pdf",
+     "tipo": "ce",
+     "arquivo": "993_TCE_AC_020_01.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {
+  "cb2": {
+   "13": "O subconjunto destacado na figura III pode ser expresso como [A ∩ (B ∪ C)^c], em que (B ∪ C)^c significa o complementar do conjunto (B ∪ C) em U.",
+   "14": "O subconjunto destacado na figura II pode ser expresso como [(C ∩ B) − A].",
+   "15": "A expressão Q ∧ (∼P) é equivalente à expressão ∼(P → Q)."
+  },
+  "cb1": {
+   "14": "O subconjunto destacado na figura III pode ser expresso como [A ∩ (B ∪ C)^c], em que (B ∪ C)^c significa o complementar do conjunto (B ∪ C) em U.",
+   "15": "O subconjunto destacado na figura II pode ser expresso como [(C ∩ B) − A].",
+   "17": "A expressão Q ∧ (∼P) é equivalente à expressão ∼(P → Q)."
+  },
+  "cb3": {
+   "14": "A sentença “A aplicação dos recursos públicos, de forma justa e para o benefício de toda a sociedade, é consequência da ação contínua dos órgãos de controle orçamentário e fiscal.” pode ser corretamente representada pela expressão (P ∧ Q) → R."
+  },
+  "cb4": {
+   "15": "A taxa de ganho real da referida aplicação no período será igual a (1+r)/(1+i) − 1.",
+   "16": "A formulação 100/(1+i) pode ser empregada para se calcular, por um critério racional, o valor atual de uma dívida que vencerá daqui a um ano e será paga antecipadamente, desde que se reinterprete i como a taxa de desconto anual."
+  },
+  "cb5": {
+   "13": "A formulação 100/(1+i) pode ser empregada para se calcular, por um critério racional, o valor atual de uma dívida que vencerá daqui a um ano e será paga antecipadamente, desde que se reinterprete i como a taxa de desconto anual."
+  },
+  "esp06": {
+   "103": "Um ataque de cross-site request forgery é aquele que induz um usuário a usar acidentalmente suas credenciais para invocar uma ação indesejada."
+  },
+  "esp07": {
+   "103": "Um ataque de cross-site request forgery é aquele que induz um usuário a usar acidentalmente suas credenciais para invocar uma ação indesejada."
+  },
+  "esp08": {
+   "89": "Um ataque de cross-site request forgery é aquele que induz um usuário a usar acidentalmente suas credenciais para invocar uma ação indesejada."
+  },
+  "esp09": {
+   "75": "Um ataque de cross-site request forgery é aquele que induz um usuário a usar acidentalmente suas credenciais para invocar uma ação indesejada."
+  },
+  "esp10": {
+   "63": "SQL injection , LDAP injection e XSS ( cross-site scripting ) são ataques do tipo injeção de código que podem ser explorados por hackers ou criminosos.",
+   "66": "O SQL injection e o cross-site scripting utilizam a linguagem JavaScript.",
+   "91": "Em criptografia de curva elíptica, para ser considerada uma curva elíptica, a equação y² = x³ + ax + b deve ser satisfeita."
+  },
+  "esp11": {
+   "103": "Um ataque de cross-site request forgery é aquele que induz um usuário a usar acidentalmente suas credenciais para invocar uma ação indesejada."
+  },
+  "esp18": {
+   "72": "A deformação total da barra, para um carregamento que não extrapole o regime elástico do material, é dada por PA/EL."
+  },
+  "esp20": {
+   "74": "Na categoria de serviços com taxa de bits disponível (ABR – available bit rate ), devem ser especificadas a taxa de bits sustentada (SBR – sustained bit rate ) e a taxa de bits de pico (PBR – peak bit rate ).",
+   "75": "Na técnica de conformação do tipo fluxo balde furado ( leaky bucket ), o número máximo de pacotes ( n ) é n = r·t + c , em que r é a taxa de entrada de fichas no balde por segundo, t é o tempo da transmissão e c é a capacidade de fichas do balde."
+  }
+ }
+}

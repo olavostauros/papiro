@@ -1,0 +1,30 @@
+{
+ "evento": "TCE_RJ_22_PROCURADOR",
+ "workdir": "/tmp/tce_rj_22_procurador",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Tribunal de Contas do Estado do Rio de Janeiro",
+  "ano": 2022,
+  "id_orgao": "tce-rj"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Procurador do Ministério Público junto ao TCE/RJ",
+   "id_cargo": "procurador",
+   "provas": [
+    {
+     "key": "obj",
+     "prova": "pro_TCE_RJ_001_01.pdf",
+     "gabarito": "gab_TCE_RJ_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "788_TCE_RJ_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

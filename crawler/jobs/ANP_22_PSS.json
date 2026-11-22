@@ -1,0 +1,264 @@
+{
+ "evento": "ANP_22_PSS",
+ "workdir": "/tmp/anp_22_pss",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Agência Nacional do Petróleo, Gás Natural e Biocombustíveis",
+  "ano": 2022,
+  "id_orgao": "anp"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Atividade 1: Atividades de Fiscalização da Produção de Combustíveis I",
+   "id_cargo": "fiscalizacao-producao-combustiveis-i",
+   "provas": [
+    {
+     "key": "ANP_CG1_01",
+     "prova": "pro_ANP_CG1_01.pdf",
+     "gabarito": "gab_ANP_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "725_ANP_CG1_01.PDF"
+    },
+    {
+     "key": "ANP_001_01",
+     "prova": "pro_ANP_001_01.pdf",
+     "gabarito": "gab_PRELIMINAR_725_ANP_001_0.pdf",
+     "tipo": "ce",
+     "arquivo": "725_ANP_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Atividade 2: Atividades de Fiscalização da Produção de Combustíveis II",
+   "id_cargo": "fiscalizacao-producao-combustiveis-ii",
+   "provas": [
+    {
+     "key": "ANP_CG1_01",
+     "prova": "pro_ANP_CG1_01.pdf",
+     "gabarito": "gab_ANP_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "725_ANP_CG1_01.PDF"
+    },
+    {
+     "key": "ANP_002_01",
+     "prova": "pro_ANP_002_01.pdf",
+     "gabarito": "gab_ANP_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "725_ANP_002_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Atividade 3: Atividades de Fiscalização de Infraestrutura e Movimentação",
+   "id_cargo": "fiscalizacao-infraestrutura-movimentacao",
+   "provas": [
+    {
+     "key": "ANP_CG1_01",
+     "prova": "pro_ANP_CG1_01.pdf",
+     "gabarito": "gab_ANP_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "725_ANP_CG1_01.PDF"
+    },
+    {
+     "key": "ANP_003_01",
+     "prova": "pro_ANP_003_01.pdf",
+     "gabarito": "gab_ANP_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "725_ANP_003_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Atividade 4: Atividades de Regulação de Novas Atribuições I",
+   "id_cargo": "regulacao-novas-atribuicoes-i",
+   "provas": [
+    {
+     "key": "ANP_CG1_01",
+     "prova": "pro_ANP_CG1_01.pdf",
+     "gabarito": "gab_ANP_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "725_ANP_CG1_01.PDF"
+    },
+    {
+     "key": "ANP_004_01",
+     "prova": "pro_ANP_004_01.pdf",
+     "gabarito": "gab_ANP_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "725_ANP_004_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Atividade 5: Atividades de Regulação de Novas Atribuições II",
+   "id_cargo": "regulacao-novas-atribuicoes-ii",
+   "provas": [
+    {
+     "key": "ANP_CG1_01",
+     "prova": "pro_ANP_CG1_01.pdf",
+     "gabarito": "gab_ANP_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "725_ANP_CG1_01.PDF"
+    },
+    {
+     "key": "ANP_005_01",
+     "prova": "pro_ANP_005_01.pdf",
+     "gabarito": "gab_ANP_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "725_ANP_005_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Atividade 6: Atividades de Regulação de Novas Atribuições III",
+   "id_cargo": "regulacao-novas-atribuicoes-iii",
+   "provas": [
+    {
+     "key": "ANP_CG1_01",
+     "prova": "pro_ANP_CG1_01.pdf",
+     "gabarito": "gab_ANP_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "725_ANP_CG1_01.PDF"
+    },
+    {
+     "key": "ANP_006_01",
+     "prova": "pro_ANP_006_01.pdf",
+     "gabarito": "gab_ANP_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "725_ANP_006_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Atividade 7: Atividades de Regulação de Novas Atribuições IV",
+   "id_cargo": "regulacao-novas-atribuicoes-iv",
+   "provas": [
+    {
+     "key": "ANP_CG1_01",
+     "prova": "pro_ANP_CG1_01.pdf",
+     "gabarito": "gab_ANP_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "725_ANP_CG1_01.PDF"
+    },
+    {
+     "key": "ANP_007_01",
+     "prova": "pro_ANP_007_01.pdf",
+     "gabarito": "gab_ANP_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "725_ANP_007_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Atividade 8: Atividades de Regulação de Novas Atribuições V",
+   "id_cargo": "regulacao-novas-atribuicoes-v",
+   "provas": [
+    {
+     "key": "ANP_CG1_01",
+     "prova": "pro_ANP_CG1_01.pdf",
+     "gabarito": "gab_ANP_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "725_ANP_CG1_01.PDF"
+    },
+    {
+     "key": "ANP_008_01",
+     "prova": "pro_ANP_008_01.pdf",
+     "gabarito": "gab_ANP_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "725_ANP_008_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Atividade 9: Atividades de Fiscalização do Abastecimento",
+   "id_cargo": "fiscalizacao-abastecimento",
+   "provas": [
+    {
+     "key": "ANP_CG1_01",
+     "prova": "pro_ANP_CG1_01.pdf",
+     "gabarito": "gab_ANP_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "725_ANP_CG1_01.PDF"
+    },
+    {
+     "key": "ANP_009_01",
+     "prova": "pro_ANP_009_01.pdf",
+     "gabarito": "gab_ANP_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "725_ANP_009_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "ANP_004_01": {
+   "63": "Fábio é pessoa com deficiência, exerce cargo público de professor em universidade pública estadual e pretende prestar concurso público para emprego público de professor em empresa pública federal, porém o edital não prevê percentual de vaga reservado para pessoas com deficiência. O prazo de validade desse concurso é de um ano, conforme previsto no edital. Considerando a situação hipotética apresentada, julgue os itens a seguir. O prazo de validade do concurso público em questão pode ser prorrogado uma única vez, por igual período.",
+   "64": "Fábio é pessoa com deficiência, exerce cargo público de professor em universidade pública estadual e pretende prestar concurso público para emprego público de professor em empresa pública federal, porém o edital não prevê percentual de vaga reservado para pessoas com deficiência. O prazo de validade desse concurso é de um ano, conforme previsto no edital. Considerando a situação hipotética apresentada, julgue os itens a seguir. As empresas públicas não integram a administração pública direta e, por isso, não se aplicam a elas os princípios constitucionais da legalidade, impessoalidade, moralidade, publicidade e eficiência.",
+   "65": "Fábio é pessoa com deficiência, exerce cargo público de professor em universidade pública estadual e pretende prestar concurso público para emprego público de professor em empresa pública federal, porém o edital não prevê percentual de vaga reservado para pessoas com deficiência. O prazo de validade desse concurso é de um ano, conforme previsto no edital. Considerando a situação hipotética apresentada, julgue os itens a seguir. A Constituição Federal de 1988 não prevê a reserva de percentual dos cargos e empregos públicos para pessoas com deficiência.",
+   "66": "Fábio é pessoa com deficiência, exerce cargo público de professor em universidade pública estadual e pretende prestar concurso público para emprego público de professor em empresa pública federal, porém o edital não prevê percentual de vaga reservado para pessoas com deficiência. O prazo de validade desse concurso é de um ano, conforme previsto no edital. Considerando a situação hipotética apresentada, julgue os itens a seguir. Caso Fábio realize a prova do concurso público mencionado e seja aprovado, ele poderá, de forma legal, cumular as duas funções, desde que haja compatibilidade de horários.",
+   "67": "Fábio é pessoa com deficiência, exerce cargo público de professor em universidade pública estadual e pretende prestar concurso público para emprego público de professor em empresa pública federal, porém o edital não prevê percentual de vaga reservado para pessoas com deficiência. O prazo de validade desse concurso é de um ano, conforme previsto no edital. Considerando a situação hipotética apresentada, julgue os itens a seguir. Em decorrência do exercício do cargo público de professor, Fábio tem direito a fundo de garantia do tempo de serviço."
+  },
+  "ANP_005_01": {
+   "62": "Considere-se que determinada empresa possua duas fábricas para a produção do bem Y que operem com tecnologias distintas: a fábrica 1 produz o bem Y de acordo com função custo dada por C1(Y1) = 3Y1²/2, em que Y1 é a quantidade produzida do bem Y pela fábrica 1, e a fábrica 2 possui função custo dada por C2(Y2) = 4Y2, em que Y2 é a quantidade produzida do bem Y pela fábrica 2. Nessa situação hipotética, caso a referida empresa deseje minimizar custos na produção de 3 unidades do bem Y, o total produzido na fábrica 2 será igual a 5/3.",
+   "65": "Considere-se que certo indivíduo, com patrimônio corrente de R$ 64,00 e função utilidade dada por U(W) = W^(1/2), em que W é o nível de patrimônio, avalie a possibilidade de comprar um bilhete de loteria que custe R$ 15,00 e que pague um prêmio de R$ 120,00, com probabilidade de contemplação de 10%. Nessa situação hipotética, pela teoria da escolha sob incerteza, esse indivíduo deve adquirir o bilhete de loteria.",
+   "67": "Considere-se que a firma A atue na indústria química, e a firma B, na apicultura, extraindo mel. Considere-se, ainda, que a firma A, ao produzir o seu produto X, gere certa quantidade de poluição (P) que afete negativamente a produção de mel (M), ampliando os custos de produção da firma B. Nessa situação hipotética, para uma função custo da firma A dada por CA(X, P) = 4X² + (P − 6)² e uma função custo da firma B dada por CB(M, P) = 2M² + 3P, um imposto Pigouviano igual a 3 é capaz de induzir a firma A a gerar poluição em quantidade socialmente ótima.",
+   "103": "Um estudo sobre o transporte de determinada carga pela modalidade rodoviária considerou um modelo de regressão linear múltipla sob a forma y = β0 + β1x1 + β2x2 + ε, no qual y representa a quantidade mensal de toneladas transportada de um porto para uma refinaria; x1 e x2 representam variáveis regressoras; e ε, um erro aleatório que segue uma distribuição normal com média zero e variância σ².\nfonte de variação | graus de liberdade | soma de quadrados\nregressão | g1 | 320\nerro | g2 | SQErro\ntotal | 20 | 500\nCom base nessas informações e na tabela de análise de variância (ANOVA), apresentada acima, que se refere ao modelo em tela, cujos coeficientes foram estimados pelo método de mínimos quadrados ordinários, julgue os itens a seguir. O coeficiente de determinação do modelo (R²) é igual a 0,80.",
+   "104": "Um estudo sobre o transporte de determinada carga pela modalidade rodoviária considerou um modelo de regressão linear múltipla sob a forma y = β0 + β1x1 + β2x2 + ε, no qual y representa a quantidade mensal de toneladas transportada de um porto para uma refinaria; x1 e x2 representam variáveis regressoras; e ε, um erro aleatório que segue uma distribuição normal com média zero e variância σ².\nfonte de variação | graus de liberdade | soma de quadrados\nregressão | g1 | 320\nerro | g2 | SQErro\ntotal | 20 | 500\nCom base nessas informações e na tabela de análise de variância (ANOVA), apresentada acima, que se refere ao modelo em tela, cujos coeficientes foram estimados pelo método de mínimos quadrados ordinários, julgue os itens a seguir. g1 = 2.",
+   "105": "Um estudo sobre o transporte de determinada carga pela modalidade rodoviária considerou um modelo de regressão linear múltipla sob a forma y = β0 + β1x1 + β2x2 + ε, no qual y representa a quantidade mensal de toneladas transportada de um porto para uma refinaria; x1 e x2 representam variáveis regressoras; e ε, um erro aleatório que segue uma distribuição normal com média zero e variância σ².\nfonte de variação | graus de liberdade | soma de quadrados\nregressão | g1 | 320\nerro | g2 | SQErro\ntotal | 20 | 500\nCom base nessas informações e na tabela de análise de variância (ANOVA), apresentada acima, que se refere ao modelo em tela, cujos coeficientes foram estimados pelo método de mínimos quadrados ordinários, julgue os itens a seguir. Se ŷ representa o modelo ajustado, então a variância de ŷ é igual à variância de ε.",
+   "106": "Um estudo sobre o transporte de determinada carga pela modalidade rodoviária considerou um modelo de regressão linear múltipla sob a forma y = β0 + β1x1 + β2x2 + ε, no qual y representa a quantidade mensal de toneladas transportada de um porto para uma refinaria; x1 e x2 representam variáveis regressoras; e ε, um erro aleatório que segue uma distribuição normal com média zero e variância σ².\nfonte de variação | graus de liberdade | soma de quadrados\nregressão | g1 | 320\nerro | g2 | SQErro\ntotal | 20 | 500\nCom base nessas informações e na tabela de análise de variância (ANOVA), apresentada acima, que se refere ao modelo em tela, cujos coeficientes foram estimados pelo método de mínimos quadrados ordinários, julgue os itens a seguir. A estimativa de σ² é igual a 10.",
+   "107": "Um estudo sobre o transporte de determinada carga pela modalidade rodoviária considerou um modelo de regressão linear múltipla sob a forma y = β0 + β1x1 + β2x2 + ε, no qual y representa a quantidade mensal de toneladas transportada de um porto para uma refinaria; x1 e x2 representam variáveis regressoras; e ε, um erro aleatório que segue uma distribuição normal com média zero e variância σ².\nfonte de variação | graus de liberdade | soma de quadrados\nregressão | g1 | 320\nerro | g2 | SQErro\ntotal | 20 | 500\nCom base nessas informações e na tabela de análise de variância (ANOVA), apresentada acima, que se refere ao modelo em tela, cujos coeficientes foram estimados pelo método de mínimos quadrados ordinários, julgue os itens a seguir. O valor da razão F, referente ao teste linear geral, cuja hipótese nula é H0: β0 = β1 = β2 = 0, é igual a 16/9.",
+   "108": "Considerando que X1, X2, X3, X4 representa uma amostra aleatória simples de tamanho n = 4 retirada de uma população normal com média μ e desvio padrão v, julgue os itens que se seguem. W = (X1 − X2)/v segue a distribuição normal com média zero e variância igual a 2.",
+   "109": "Considerando que X1, X2, X3, X4 representa uma amostra aleatória simples de tamanho n = 4 retirada de uma população normal com média μ e desvio padrão v, julgue os itens que se seguem. As estatísticas T1 = X1, T2 = (X1 + X2)/2 e T3 = (X1 + X2 + X3)/3 são estimadores não viciados da média populacional μ.",
+   "110": "Considerando que X1, X2, X3, X4 representa uma amostra aleatória simples de tamanho n = 4 retirada de uma população normal com média μ e desvio padrão v, julgue os itens que se seguem. Q = √((X1 − μ)²/v²) segue uma distribuição normal padrão."
+  },
+  "ANP_006_01": {
+   "61": "Considere-se um consumidor que possua preferências representadas pela função utilidade U(x, y) = min{2x, y}, sendo x e y a quantidade consumida de cada um dos dois únicos bens da economia. Nessa situação hipotética, sendo R a renda desse consumidor e Px e Py os preços de cada bem, a curva de Engel do bem y será uma reta com coeficiente angular igual a 2/(Px + Py).",
+   "63": "Considere-se que a tecnologia de uma empresa seja dada pela função de produção Q(K, L) = K^α·L^β, em que K e L representam, respectivamente, as quantidades de capital e de trabalho necessárias para a produção do produto Q, sendo α e β constantes positivas cuja soma é igual a 1. Nessa situação hipotética, a elasticidade de substituição entre os fatores de produção K e L é igual a zero.",
+   "66": "Considere-se que os jogadores A e B disputem o jogo apresentado a seguir, cada um com duas estratégias possíveis: A1 ou A2 para o jogador A; e B1 ou B2 para o jogador B. Suponha-se que ambos devam escolher simultaneamente suas possíveis estratégias, considerando os ganhos apresentados na tabela seguinte.\n| | jogador B | |\n| | estratégia B1 | estratégia B2 |\n| jogador A — estratégia A1 | −50; −50 | 25; −25 |\n| jogador A — estratégia A2 | −25; 25 | 0; 0 |\nConsidere-se, ainda, que, na tabela, os ganhos do jogador A estejam apresentados à esquerda e os ganhos do jogador B estejam apresentados à direita, e que, por exemplo, se o jogador A adotar a estratégia A1 e o jogador B adotar a estratégia B1, o jogador A perderá 50 e o jogador B perderá 50. Nessa situação hipotética, no equilíbrio de Nash em estratégias mistas, o jogador B terá 50% de chances de jogar B1 ou B2.",
+   "67": "Considere-se que uma empresa possua custo de longo prazo representado pela função C(q) = q³ − 10q² + 100q, em que q é a quantidade produzida do produto. Na situação hipotética apresentada, essa empresa irá incorrer em economia de escala para qualquer nível de produção superior a 4,5 unidades.",
+   "69": "Considere-se um modelo de séries temporais na forma Xt = 2 + 0,2Xt−1 + at, em que t denota um índice temporal, at representa um ruído branco com média zero e variância 4, e as variáveis Xt e Xt−1 são tais que E[Xt] = E[Xt−1] e Var[Xt] = Var[Xt−1]. Com base nessas informações, julgue os próximos itens. E[Xt] = 2,5.",
+   "70": "Considere-se um modelo de séries temporais na forma Xt = 2 + 0,2Xt−1 + at, em que t denota um índice temporal, at representa um ruído branco com média zero e variância 4, e as variáveis Xt e Xt−1 são tais que E[Xt] = E[Xt−1] e Var[Xt] = Var[Xt−1]. Com base nessas informações, julgue os próximos itens. O desvio padrão da série temporal {Xt} é menor que 2.",
+   "71": "Considere-se um modelo de séries temporais na forma Xt = 2 + 0,2Xt−1 + at, em que t denota um índice temporal, at representa um ruído branco com média zero e variância 4, e as variáveis Xt e Xt−1 são tais que E[Xt] = E[Xt−1] e Var[Xt] = Var[Xt−1]. Com base nessas informações, julgue os próximos itens. A correlação linear entre Xt−1 e Xt+1 é igual a 0,04.",
+   "72": "Considere-se um modelo de séries temporais na forma Xt = 2 + 0,2Xt−1 + at, em que t denota um índice temporal, at representa um ruído branco com média zero e variância 4, e as variáveis Xt e Xt−1 são tais que E[Xt] = E[Xt−1] e Var[Xt] = Var[Xt−1]. Com base nessas informações, julgue os próximos itens. A série temporal em tela apresenta uma tendência linear cujo intercepto é igual a 2.",
+   "73": "Considere-se um modelo de séries temporais na forma Xt = 2 + 0,2Xt−1 + at, em que t denota um índice temporal, at representa um ruído branco com média zero e variância 4, e as variáveis Xt e Xt−1 são tais que E[Xt] = E[Xt−1] e Var[Xt] = Var[Xt−1]. Com base nessas informações, julgue os próximos itens. Se X10 = 5, o valor projetado para a observação X12, segundo o modelo em tela, será menor que 2.",
+   "74": "Uma curva de regressão da variável aleatória Y sobre X = x é dada por E[Y|X = x] = 1 − x, em que o par de variáveis aleatórias (X, Y) segue uma distribuição normal bivariada, a média de X é igual a zero, Var[Y] = 4 e Var[X] = 1. Considerando a situação hipotética apresentada, julgue os itens a seguir. Var[X + Y] < 5.",
+   "75": "Uma curva de regressão da variável aleatória Y sobre X = x é dada por E[Y|X = x] = 1 − x, em que o par de variáveis aleatórias (X, Y) segue uma distribuição normal bivariada, a média de X é igual a zero, Var[Y] = 4 e Var[X] = 1. Considerando a situação hipotética apresentada, julgue os itens a seguir. A média de Y é igual a 1.",
+   "76": "Uma curva de regressão da variável aleatória Y sobre X = x é dada por E[Y|X = x] = 1 − x, em que o par de variáveis aleatórias (X, Y) segue uma distribuição normal bivariada, a média de X é igual a zero, Var[Y] = 4 e Var[X] = 1. Considerando a situação hipotética apresentada, julgue os itens a seguir. A correlação linear entre X e Y é igual a −1."
+  },
+  "ANP_007_01": {
+   "69": "A técnica de redução de dimensionalidade (PCA) permite transformar dados que inicialmente pertencem a um espaço de dimensão n em um espaço de dimensão m, em que m < n, sendo utilizada, por exemplo, para reduzir a dimensionalidade de certo conjunto de dados através do descarte de características não úteis e que ainda permita realizar o reconhecimento de padrões.",
+   "70": "O modelo de mistura gaussiana (GMM) é um método que descreve um agrupamento de amostras para determinado espaço de características, em que o GMM é uma mistura de k distribuições gaussianas associadas à mudança de estado dos pixels.",
+   "74": "ocorrência | comportamento | registrado | educação | idade\n1 | agressivo | sim | fundamental | 15-24\n3 | calmo | sim | fundamental | 25-39\n2 | agressivo | sim | fundamental | 40-\n2 | calmo | sim | médio | 15-24\n8 | agressivo | sim | médio | 25-39\n1 | calmo | sim | fundamental | 15-24\n3 | agressivo | sim | fundamental | 25-39\n4 | calmo | sim | fundamental | 40-\n2 | calmo | sim | médio | 15-24\n2 | agressivo | sim | médio | 25-39\n5 | agressivo | sim | médio | 25-39\n7 | calmo | sim | infantil | 5-14\n1 | agressivo | não | infantil | 5-14\n3 | agressivo | sim | infantil | 5-14\nConsiderando os dados da tabela anterior, representados na forma de um dataframe hipotético em relação a determinado conjunto de registros escolares a respeito da violência e do comportamento de discentes, julgue os itens a seguir. O número de ocorrências com discentes de comportamento agressivo e com educação de nível médio é, no total, inferior a 16.",
+   "75": "ocorrência | comportamento | registrado | educação | idade\n1 | agressivo | sim | fundamental | 15-24\n3 | calmo | sim | fundamental | 25-39\n2 | agressivo | sim | fundamental | 40-\n2 | calmo | sim | médio | 15-24\n8 | agressivo | sim | médio | 25-39\n1 | calmo | sim | fundamental | 15-24\n3 | agressivo | sim | fundamental | 25-39\n4 | calmo | sim | fundamental | 40-\n2 | calmo | sim | médio | 15-24\n2 | agressivo | sim | médio | 25-39\n5 | agressivo | sim | médio | 25-39\n7 | calmo | sim | infantil | 5-14\n1 | agressivo | não | infantil | 5-14\n3 | agressivo | sim | infantil | 5-14\nConsiderando os dados da tabela anterior, representados na forma de um dataframe hipotético em relação a determinado conjunto de registros escolares a respeito da violência e do comportamento de discentes, julgue os itens a seguir. Considere-se que, ao criar uma nova linha vazia ao final do dataframe da tabela anterior, a técnica utilizada para o preenchimento dos dados numéricos ausentes tenha sido a média aritmética; e que, nesta nova linha, ao dado ausente para a coluna “Comportamento” tenha sido atribuído o valor “calmo”. Nesse caso, ao dado ausente na coluna “Ocorrência” da nova linha criada no dataframe será atribuído valor superior a 7.",
+   "76": "ocorrência | comportamento | registrado | educação | idade\n1 | agressivo | sim | fundamental | 15-24\n3 | calmo | sim | fundamental | 25-39\n2 | agressivo | sim | fundamental | 40-\n2 | calmo | sim | médio | 15-24\n8 | agressivo | sim | médio | 25-39\n1 | calmo | sim | fundamental | 15-24\n3 | agressivo | sim | fundamental | 25-39\n4 | calmo | sim | fundamental | 40-\n2 | calmo | sim | médio | 15-24\n2 | agressivo | sim | médio | 25-39\n5 | agressivo | sim | médio | 25-39\n7 | calmo | sim | infantil | 5-14\n1 | agressivo | não | infantil | 5-14\n3 | agressivo | sim | infantil | 5-14\nConsiderando os dados da tabela anterior, representados na forma de um dataframe hipotético em relação a determinado conjunto de registros escolares a respeito da violência e do comportamento de discentes, julgue os itens a seguir. Considere-se o seguinte comando da biblioteca pandas da linguagem de programação Python para o processamento do dataframe da tabela anterior:\nDataframe.drop_duplicates(subset=['Comportamento', 'Educação'], inplace=True)\nNessa hipótese, o processamento do comando apresentado resultará na remoção das colunas com os títulos “Comportamento” e “Educação”.",
+   "82": "O diagrama de entidade relacionamento a seguir representa a relação entre colaboradores e sua chefia, em que cada chefe pode ter n colaboradores e cada colaborador pode ter muitos chefes. [diagrama: a entidade pessoa liga-se ao relacionamento chefia por dois papéis — “tem como chefe 1” e “é chefe de n”]",
+   "84": "Considere que se deseje criar uma tabela que represente o organograma a seguir: Maria chefia Pedro e Fernanda; Fernanda chefia Gabriela e Mariana. Para criar essa tabela, deve-se utilizar a seguinte expressão DDL.\nCREATE TABLE colaborador (\nid integer primary key,\nnome varchar(50),\nchefia integer,\nconstraint fk_colaborador foreign key (id) references colaborador\n);",
+   "91": "Considere um modelo de regressão linear múltipla na forma y = Xβ + ε, em que y representa o vetor de respostas, X denota a matriz de dados, β = [β0, β1, β2]' é o vetor de coeficientes e ε é o vetor de erros aleatórios independentes e identicamente distribuídos. Admita, ainda, que cada elemento do vetor ε possui média zero e variância 4. Além disso, considere que X' represente a matriz transposta de X e que a matriz inversa de X'X seja (X'X)⁻¹ = [[0,2, −0,1, 0], [−0,1, 0,1, 0], [0, 0, 0,1]], que X'y = [5, 5, 1]' e que β̂ = [β̂0, β̂1, β̂2]' denota o estimador de mínimos quadrados ordinários de β. Acerca do modelo apresentado, julgue os próximos itens. A estimativa de mínimos quadrados ordinários para o coeficiente β1 é igual a 0.",
+   "92": "Considere um modelo de regressão linear múltipla na forma y = Xβ + ε, em que y representa o vetor de respostas, X denota a matriz de dados, β = [β0, β1, β2]' é o vetor de coeficientes e ε é o vetor de erros aleatórios independentes e identicamente distribuídos. Admita, ainda, que cada elemento do vetor ε possui média zero e variância 4. Além disso, considere que X' represente a matriz transposta de X e que a matriz inversa de X'X seja (X'X)⁻¹ = [[0,2, −0,1, 0], [−0,1, 0,1, 0], [0, 0, 0,1]], que X'y = [5, 5, 1]' e que β̂ = [β̂0, β̂1, β̂2]' denota o estimador de mínimos quadrados ordinários de β. Acerca do modelo apresentado, julgue os próximos itens. Var[β̂0] = 0,2.",
+   "93": "Considere um modelo de regressão linear múltipla na forma y = Xβ + ε, em que y representa o vetor de respostas, X denota a matriz de dados, β = [β0, β1, β2]' é o vetor de coeficientes e ε é o vetor de erros aleatórios independentes e identicamente distribuídos. Admita, ainda, que cada elemento do vetor ε possui média zero e variância 4. Além disso, considere que X' represente a matriz transposta de X e que a matriz inversa de X'X seja (X'X)⁻¹ = [[0,2, −0,1, 0], [−0,1, 0,1, 0], [0, 0, 0,1]], que X'y = [5, 5, 1]' e que β̂ = [β̂0, β̂1, β̂2]' denota o estimador de mínimos quadrados ordinários de β. Acerca do modelo apresentado, julgue os próximos itens. A covariância entre β̂0 e β̂2 é igual a zero.",
+   "94": "Considere um modelo de regressão linear múltipla na forma y = Xβ + ε, em que y representa o vetor de respostas, X denota a matriz de dados, β = [β0, β1, β2]' é o vetor de coeficientes e ε é o vetor de erros aleatórios independentes e identicamente distribuídos. Admita, ainda, que cada elemento do vetor ε possui média zero e variância 4. Além disso, considere que X' represente a matriz transposta de X e que a matriz inversa de X'X seja (X'X)⁻¹ = [[0,2, −0,1, 0], [−0,1, 0,1, 0], [0, 0, 0,1]], que X'y = [5, 5, 1]' e que β̂ = [β̂0, β̂1, β̂2]' denota o estimador de mínimos quadrados ordinários de β. Acerca do modelo apresentado, julgue os próximos itens. Se o vetor ε for constituído por n elementos independentes que seguem uma distribuição normal com média zero e variância 4, então (1/4)ε'ε se distribui conforme uma distribuição qui-quadrado com n graus de liberdade.",
+   "95": "Considere um modelo de regressão linear múltipla na forma y = Xβ + ε, em que y representa o vetor de respostas, X denota a matriz de dados, β = [β0, β1, β2]' é o vetor de coeficientes e ε é o vetor de erros aleatórios independentes e identicamente distribuídos. Admita, ainda, que cada elemento do vetor ε possui média zero e variância 4. Além disso, considere que X' represente a matriz transposta de X e que a matriz inversa de X'X seja (X'X)⁻¹ = [[0,2, −0,1, 0], [−0,1, 0,1, 0], [0, 0, 0,1]], que X'y = [5, 5, 1]' e que β̂ = [β̂0, β̂1, β̂2]' denota o estimador de mínimos quadrados ordinários de β. Acerca do modelo apresentado, julgue os próximos itens. Cada elemento do vetor y possui desvio padrão igual a 2."
+  },
+  "ANP_008_01": {
+   "91": "conta | valor (R$)\ndisponibilidades | 30.000,00\nduplicatas a receber | 300.000,00\nestoques | 50.000,00\nimobilizado | 1.000.000,00\ninvestimentos | 100.000,00\nintangível | 50.000,00\nfornecedores | 40.000,00\nsalários a pagar | 80.000,00\naluguéis a pagar | 15.000,00\ntributos sobre vendas a pagar | 85.400,00\nfinanciamentos a pagar | 900.000,00\ncapital Social | 250.000,00\nreceita bruta de vendas | 600.000,00\ndevoluções e abatimentos | 10.000,00\ntributos sobre vendas | 100.000,00\ncusto das mercadorias vendidas | 250.000,00\ndespesas administrativas | 10.000,00\ndespesas com vendas | 10.000,00\ndespesas financeiras | 10.000,00\nprovisões IR e CSLL | 50.400,00\nConsiderando as informações apresentadas na tabela precedente, relativas aos valores das respectivas contas de determinada empresa, julgue os seguintes itens. O índice de endividamento geral da empresa é superior a 0,7.",
+   "92": "conta | valor (R$)\ndisponibilidades | 30.000,00\nduplicatas a receber | 300.000,00\nestoques | 50.000,00\nimobilizado | 1.000.000,00\ninvestimentos | 100.000,00\nintangível | 50.000,00\nfornecedores | 40.000,00\nsalários a pagar | 80.000,00\naluguéis a pagar | 15.000,00\ntributos sobre vendas a pagar | 85.400,00\nfinanciamentos a pagar | 900.000,00\ncapital Social | 250.000,00\nreceita bruta de vendas | 600.000,00\ndevoluções e abatimentos | 10.000,00\ntributos sobre vendas | 100.000,00\ncusto das mercadorias vendidas | 250.000,00\ndespesas administrativas | 10.000,00\ndespesas com vendas | 10.000,00\ndespesas financeiras | 10.000,00\nprovisões IR e CSLL | 50.400,00\nConsiderando as informações apresentadas na tabela precedente, relativas aos valores das respectivas contas de determinada empresa, julgue os seguintes itens. O índice de liquidez seca é inferior a 1,3.",
+   "93": "conta | valor (R$)\ndisponibilidades | 30.000,00\nduplicatas a receber | 300.000,00\nestoques | 50.000,00\nimobilizado | 1.000.000,00\ninvestimentos | 100.000,00\nintangível | 50.000,00\nfornecedores | 40.000,00\nsalários a pagar | 80.000,00\naluguéis a pagar | 15.000,00\ntributos sobre vendas a pagar | 85.400,00\nfinanciamentos a pagar | 900.000,00\ncapital Social | 250.000,00\nreceita bruta de vendas | 600.000,00\ndevoluções e abatimentos | 10.000,00\ntributos sobre vendas | 100.000,00\ncusto das mercadorias vendidas | 250.000,00\ndespesas administrativas | 10.000,00\ndespesas com vendas | 10.000,00\ndespesas financeiras | 10.000,00\nprovisões IR e CSLL | 50.400,00\nConsiderando as informações apresentadas na tabela precedente, relativas aos valores das respectivas contas de determinada empresa, julgue os seguintes itens. O índice de imobilização do patrimônio líquido é inferior a 4,0.",
+   "94": "conta | valor (R$)\ndisponibilidades | 30.000,00\nduplicatas a receber | 300.000,00\nestoques | 50.000,00\nimobilizado | 1.000.000,00\ninvestimentos | 100.000,00\nintangível | 50.000,00\nfornecedores | 40.000,00\nsalários a pagar | 80.000,00\naluguéis a pagar | 15.000,00\ntributos sobre vendas a pagar | 85.400,00\nfinanciamentos a pagar | 900.000,00\ncapital Social | 250.000,00\nreceita bruta de vendas | 600.000,00\ndevoluções e abatimentos | 10.000,00\ntributos sobre vendas | 100.000,00\ncusto das mercadorias vendidas | 250.000,00\ndespesas administrativas | 10.000,00\ndespesas com vendas | 10.000,00\ndespesas financeiras | 10.000,00\nprovisões IR e CSLL | 50.400,00\nConsiderando as informações apresentadas na tabela precedente, relativas aos valores das respectivas contas de determinada empresa, julgue os seguintes itens. O giro dos estoques é igual a 5,0.",
+   "95": "conta | valor (R$)\ndisponibilidades | 30.000,00\nduplicatas a receber | 300.000,00\nestoques | 50.000,00\nimobilizado | 1.000.000,00\ninvestimentos | 100.000,00\nintangível | 50.000,00\nfornecedores | 40.000,00\nsalários a pagar | 80.000,00\naluguéis a pagar | 15.000,00\ntributos sobre vendas a pagar | 85.400,00\nfinanciamentos a pagar | 900.000,00\ncapital Social | 250.000,00\nreceita bruta de vendas | 600.000,00\ndevoluções e abatimentos | 10.000,00\ntributos sobre vendas | 100.000,00\ncusto das mercadorias vendidas | 250.000,00\ndespesas administrativas | 10.000,00\ndespesas com vendas | 10.000,00\ndespesas financeiras | 10.000,00\nprovisões IR e CSLL | 50.400,00\nConsiderando as informações apresentadas na tabela precedente, relativas aos valores das respectivas contas de determinada empresa, julgue os seguintes itens. O giro do ativo é inferior a 0,3.",
+   "96": "conta | valor (R$)\ndisponibilidades | 30.000,00\nduplicatas a receber | 300.000,00\nestoques | 50.000,00\nimobilizado | 1.000.000,00\ninvestimentos | 100.000,00\nintangível | 50.000,00\nfornecedores | 40.000,00\nsalários a pagar | 80.000,00\naluguéis a pagar | 15.000,00\ntributos sobre vendas a pagar | 85.400,00\nfinanciamentos a pagar | 900.000,00\ncapital Social | 250.000,00\nreceita bruta de vendas | 600.000,00\ndevoluções e abatimentos | 10.000,00\ntributos sobre vendas | 100.000,00\ncusto das mercadorias vendidas | 250.000,00\ndespesas administrativas | 10.000,00\ndespesas com vendas | 10.000,00\ndespesas financeiras | 10.000,00\nprovisões IR e CSLL | 50.400,00\nConsiderando as informações apresentadas na tabela precedente, relativas aos valores das respectivas contas de determinada empresa, julgue os seguintes itens. A margem de lucro bruto é inferior a 0,5.",
+   "97": "conta | valor (R$)\ndisponibilidades | 30.000,00\nduplicatas a receber | 300.000,00\nestoques | 50.000,00\nimobilizado | 1.000.000,00\ninvestimentos | 100.000,00\nintangível | 50.000,00\nfornecedores | 40.000,00\nsalários a pagar | 80.000,00\naluguéis a pagar | 15.000,00\ntributos sobre vendas a pagar | 85.400,00\nfinanciamentos a pagar | 900.000,00\ncapital Social | 250.000,00\nreceita bruta de vendas | 600.000,00\ndevoluções e abatimentos | 10.000,00\ntributos sobre vendas | 100.000,00\ncusto das mercadorias vendidas | 250.000,00\ndespesas administrativas | 10.000,00\ndespesas com vendas | 10.000,00\ndespesas financeiras | 10.000,00\nprovisões IR e CSLL | 50.400,00\nConsiderando as informações apresentadas na tabela precedente, relativas aos valores das respectivas contas de determinada empresa, julgue os seguintes itens. O prazo médio de pagamento é inferior a 50 dias.",
+   "98": "conta | valor (R$)\ndisponibilidades | 30.000,00\nduplicatas a receber | 300.000,00\nestoques | 50.000,00\nimobilizado | 1.000.000,00\ninvestimentos | 100.000,00\nintangível | 50.000,00\nfornecedores | 40.000,00\nsalários a pagar | 80.000,00\naluguéis a pagar | 15.000,00\ntributos sobre vendas a pagar | 85.400,00\nfinanciamentos a pagar | 900.000,00\ncapital Social | 250.000,00\nreceita bruta de vendas | 600.000,00\ndevoluções e abatimentos | 10.000,00\ntributos sobre vendas | 100.000,00\ncusto das mercadorias vendidas | 250.000,00\ndespesas administrativas | 10.000,00\ndespesas com vendas | 10.000,00\ndespesas financeiras | 10.000,00\nprovisões IR e CSLL | 50.400,00\nConsiderando as informações apresentadas na tabela precedente, relativas aos valores das respectivas contas de determinada empresa, julgue os seguintes itens. O prazo médio de recebimento é superior a 200 dias."
+  }
+ }
+}

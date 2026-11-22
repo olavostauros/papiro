@@ -4,9 +4,10 @@ Two layers:
 
 - `ProvaExtraida` / `QuestaoExtraida`: the extraction schema passed to
   Firecrawl's `json` format — only what is printed on the prova page.
-- `Questao`: the normalized dataset record appended to
-  `web/src/data/questions.json`; job metadata (banca/orgao/cargo/ano/fonte)
-  comes from `ProvaMeta`, not from the page.
+- `Questao`: the normalized dataset record stored in
+  `data/questions/<EVENTO>.json` shards (see crawler/shards.py);
+  job metadata (banca/orgao/cargo/ano/fonte) comes from `ProvaMeta`, not
+  from the page.
 """
 
 from __future__ import annotations
@@ -61,7 +62,7 @@ class ProvaMeta(BaseModel):
 
 
 class Questao(BaseModel):
-    """Dataset record — must match web/src/data/questions.json exactly."""
+    """Dataset record — the flat shape shard_to_records() emits and the API serves."""
 
     id: str
     banca: str

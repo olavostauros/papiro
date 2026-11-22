@@ -1,0 +1,30 @@
+{
+ "evento": "TJDFT_22_JUIZ",
+ "workdir": "/tmp/tjdft_22_juiz",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Tribunal de Justiça do Distrito Federal e dos Territórios",
+  "ano": 2022,
+  "id_orgao": "tjdft"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Juiz de Direito Substituto da Justiça do Distrito Federal",
+   "id_cargo": "juiz-de-direito-substituto",
+   "provas": [
+    {
+     "key": "TJDFT_001_01",
+     "prova": "pro_TJDFT_001_01.pdf",
+     "gabarito": "gab_TJDFT_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "790_TJDFT_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

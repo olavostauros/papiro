@@ -1,0 +1,30 @@
+{
+ "evento": "PM_SC_23_SOLDADO",
+ "workdir": "/tmp/pm_sc_23_soldado",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "POLÍCIA MILITAR DE SANTA CATARINA",
+  "ano": 2023,
+  "id_orgao": "pm-sc"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "CARGO DE SOLDADO DA POLÍCIA MILITAR",
+   "id_cargo": "soldado",
+   "provas": [
+    {
+     "key": "p1",
+     "prova": "pro_PMSC_SOLDADO_001_01.pdf",
+     "gabarito": "gab_PMSC_SOLDADO_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "862_PMSC_SOLDADO_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}
