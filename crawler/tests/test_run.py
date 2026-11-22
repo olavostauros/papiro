@@ -330,3 +330,65 @@ def test_filtros_anos_orgao_prioridade(ambiente):
     assert cads(prioridade=["policias", "tribunais", "agencias"]) == ["pc", "tj", "anm"]
     with pytest.raises(ValueError):
         run.selecionar(man, ds, prioridade=["inexistente"])
+
+
+# --- múltipla escolha local e descarte por questão ------------------------------
+
+def _mc_local(nums):
+    return lambda url, esperados: {n: (f"Enunciado da questão {n} fim.",
+                                       [f"opção {l} da questão {n} fim" for l in "abcde"])
+                                   for n in nums}
+
+
+def _texto_pdf(nums, sem_alternativa=()):
+    linhas = []
+    for n in nums:
+        linhas.append(f"Questão {n}\nEnunciado da questão {n} fim.")
+        for l in "abcde":
+            if n in sem_alternativa and l == "c":
+                linhas.append("C texto diferente no PDF")
+            else:
+                linhas.append(f"{l.upper()} opção {l} da questão {n} fim")
+    return lambda url: "\n".join(linhas)
+
+
+def _rodar_mc(ambiente, *, nums=range(1, 21), sem_alternativa=(), chamadas=None, teto=0):
+    _, ledger, ds_path = ambiente
+    mc_gab = lambda url: Gabarito(respostas={n: "B" for n in range(1, 21)}, url=url)
+    return run.executar({"provas": [entrada()]}, run.Dataset.carregar(ds_path), limite=1,
+                        teto=teto, extractor=fake_extractor(range(1, 21), ledger, chamadas=chamadas),
+                        gab_loader=mc_gab, page_counter=lambda u: 2, ledger=ledger,
+                        pdf_itens=_locais(range(1, 21)), pdf_mc=_mc_local(nums),
+                        pdf_texto=_texto_pdf(range(1, 21), sem_alternativa),
+                        extrator="hibrido", log=lambda *_: None)
+
+
+def test_mc_local_sem_credito(ambiente):
+    chamadas = []
+    rep = _rodar_mc(ambiente, chamadas=chamadas)
+    p = rep["provas"][0]
+    assert chamadas == [] and p["status"] == "aprovada", p["validacao"]["erros"]
+    assert p["itens_por_extrator"] == {"local": 20} and p["adicionadas"] == 40
+    assert p["questoes_descartadas"] == {}
+
+
+def test_descarte_por_questao_com_90_por_cento(ambiente):
+    rep = _rodar_mc(ambiente, sem_alternativa={7, 12})      # 18/20 = 90% passam
+    p = rep["provas"][0]
+    assert p["status"] == "aprovada"
+    assert set(p["questoes_descartadas"]) == {"7", "12"}
+    assert "alternativa C não encontrada no PDF" in p["questoes_descartadas"]["7"]
+    assert p["extrator_por_item"]["7"].startswith("descartada")
+    assert p["adicionadas"] == 36                              # 18 questões × 2 cargos
+
+
+def test_abaixo_de_90_por_cento_reprova_a_prova(ambiente):
+    rep = _rodar_mc(ambiente, sem_alternativa={1, 2, 3})     # 17/20 = 85%
+    p = rep["provas"][0]
+    assert p["status"] == "reprovada" and p["adicionadas"] == 0
+    assert any("85%" in e and "reprovada inteira" in e for e in p["validacao"]["erros"])
+
+
+def test_mc_cobertura_local_incompleta_vai_para_firecrawl(ambiente):
+    rep = _rodar_mc(ambiente, nums=range(1, 15), teto=30)
+    assert "cobertura local 70%" in rep["provas"][0]["fallback"]
