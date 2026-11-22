@@ -66,6 +66,9 @@
   },
   {
    "fonte": "https://cdn.cebraspe.org.br/concursos/TJ_RJ_20_ANALISTA/arquivos/533_TJRJ_014_01.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/TJ_RJ_20_ANALISTA/arquivos/533_TJRJ_013_01.PDF"
   }
  ],
  "itens": [
@@ -13664,6 +13667,708 @@
    "prova": 13,
    "orgao": 0,
    "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a Instrução Normativa n.º 01/2019 do Ministério da Economia, o estudo técnico preliminar da contratação é o documento que descreve as análises realizadas em relação às condições da contratação, em termos de necessidades, alternativas e escolhas que demonstrem a viabilidade técnica e econômica da contratação. Esse documento",
+   "gabarito": "a",
+   "alternativas": [
+    "será aprovado e assinado pelos integrantes técnico e requisitante da equipe de planejamento da contratação e pela autoridade máxima da área de TIC ou, caso esta componha a equipe, pela autoridade superior à ela.",
+    "será especificado com base em requisitos necessários e suficientes e conterá o quantitativo de bens e serviços, ressalvado à forma de cálculo para a sua composição que deve ser inserida no termo de referência ou projeto básico.",
+    "considera estritamente os aspectos econômicos da solução, com descrição detalhada, motivada e justificada.",
+    "exclui aspectos qualitativos em termos de benefícios, sob pena de tornar inválida a imparcialidade exigida no estudo da contratação, ainda que haja necessidades de adequação do ambiente do órgão para viabilizar a execução contratual.",
+    "compreende a análise comparativa de soluções e de custos para as soluções técnicas, ainda que não sejam funcionalmente viáveis, desde que haja a possibilidade de contratação como serviço e o Total Cost Ownership seja vantajoso para o órgão."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-021",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Como política de pessoal, é natural que haja um processo adequado a ser executado no momento em que o funcionário deixa a organização, para garantir que todos os direitos deste sejam revogados e os ativos sob sua custódia sejam devolvidos. Esse processo visa à garantia de I autenticidade; II confidencialidade; III disponibilidade. Considerando os conceitos de segurança da informação, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-022",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A análise crítica da política de segurança da informação visa assegurar a sua contínua pertinência, adequação e eficácia dentro da organização. Entre suas saídas, deve(m) estar",
+   "gabarito": "e",
+   "alternativas": [
+    "a realimentação das partes interessadas.",
+    "o desempenho e a conformidade do processo.",
+    "o relato sobre incidentes de segurança da informação.",
+    "a situação de ações preventivas e corretivas.",
+    "a melhoria dos controles e dos objetivos de controles."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-023",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Quando o objetivo for garantir confidencialidade e assinatura digital em uma função de hash com redução da carga de processamento, deve-se usar criptografia",
+   "gabarito": "e",
+   "alternativas": [
+    "simétrica, para criptografar somente o código de hash .",
+    "de chave pública, para criptografar somente o código de hash .",
+    "simétrica, para criptografar a mensagem, mais o código de hash concatenado.",
+    "assimétrica, para criptografar a mensagem, mais o código de hash criptografado com criptografia simétrica.",
+    "simétrica, para criptografar a mensagem, mais o código de hash criptografado com chave privada."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-024",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Para que a gestão de riscos seja realizada com sucesso, é necessário seguir a norma ISO 31000 – Gestão de riscos – Princípios e Diretrizes. Entre as fases descritas no documento, destaca-se aquela na qual é decidido se o risco será reduzido, evitado ou compartilhado com terceiros. Essa fase é denominada",
+   "gabarito": "c",
+   "alternativas": [
+    "estabelecimento do contexto.",
+    "identificação de riscos.",
+    "tratamento de riscos.",
+    "análise de riscos.",
+    "avaliação de riscos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-025",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O OWASP ( Open Web Application Security Project ) criou um conjunto de listas de verificação de práticas de programação segura para as diversas etapas ou tarefas do desenvolvimento de software , como a gestão de sessões, com os seguintes itens de verificação: I não permitir logins persistentes; II não permitir conexões simultâneas com o mesmo identificador de usuário; III utilizar apenas pedidos POST para transmitir credenciais de autenticação. Considerando a gestão de sessões, no desenvolvimento seguro de software , assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-026",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Uma aplicação web pode ser atacada por meio da exploração de vulnerabilidades, como, por exemplo, quando os dados fornecidos pelos usuários não são validados, filtrados ou mesmo limpos pela aplicação; pela não renovação dos identificadores de sessão após o processo de autenticação ter sido bem-sucedido; pela elevação de privilégios, atuando como usuário sem autenticação, ou como administrador, mas tendo perfil de usuário regular. Aplicações com essas características são vulneráveis à falha de I injeção; II quebra de autenticação; III quebra de controle de acesso. Assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-027",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Um usuário acessou uma página de Internet e verificou que sua navegação foi redirecionada para um sítio falso, por meio de alterações do DNS ( Domain Name System ). O exemplo apresentado caracteriza uma situação que envolve um golpe na Internet conhecido como",
+   "gabarito": "b",
+   "alternativas": [
+    "hoax .",
+    "pharming .",
+    "advence fee fraud .",
+    "identity theft .",
+    "phishing-scam ."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-028",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Como uma solução temporária para o esgotamento do espaço de endereços IP, a Request for Comments 1918 (RFC 1918) adotou o emprego de endereços IP privados, nas classes A, B e C. Assinale a opção que apresenta a notação CIDR para o bloco de endereço IP privado da classe B.",
+   "gabarito": "d",
+   "alternativas": [
+    "172.16.0.0/9",
+    "172.16.0.0/10",
+    "172.16.0.0/11",
+    "172.16.0.0/12",
+    "172.16.0.0/13"
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-029",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Ettercap é uma ferramenta de segurança de rede livre e de código aberto, que funciona colocando a interface de rede em modo promíscuo com o ARP ( Address Resolution Protocol ), envenenando esse protocolo nas máquinas de destino. Essa ferramenta é utilizada para análise de protocolo de rede e auditoria de segurança, e possui a funcionalidade de um ataque de rede conhecido como",
+   "gabarito": "d",
+   "alternativas": [
+    "DoS.",
+    "DDoS.",
+    "HTTP flood .",
+    "man-in-the-middle .",
+    "DNS spoofing ."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-030",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Após avaliação de segurança da rede de comunicação de determinada empresa, identificou-se que alguns servidores Windows Server 2012 estavam infectados com um vírus não detectável pelo antivírus corporativo; observou-se também que o servidor estava desatualizado, com contas administrativas de ex-funcionários ativas e com a filtragem de pacotes desativada. Nessa situação hipotética, as configurações adequadas de hardening incluem",
+   "gabarito": "a",
+   "alternativas": [
+    "desativação de contas não utilizadas, atualização do sistema operacional, ativação de firewall e AppLocker .",
+    "desativação de contas não utilizadas, atualização do sistema operacional, ativação de Intrusion Prevention System (IPS) e AppLocker.",
+    "atualização dos sistema operacional e antimalware , ativação de firewall e AppLocker .",
+    "desativação de contas não utilizadas, atualização do sistema operacional, ativação de Intrusion Prevention System (IPS) e firewall.",
+    "atualização do sistema operacional e antimalware , ativação de Host Intrusion Prevention System (IPS) e firewall."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-031",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O sistema de monitoramento de rede de uma organização detectou a utilização total da tabela de endereços de controle de acesso à mídia (MAC) do switch de núcleo do datacenter , o que o deixou temporariamente com a funcionalidade de um hub . A equipe de sustentação e segurança de TIC teve dificuldades para lidar com o ataque, pois eram mais de 1.500 servidores físicos e lógicos, e o swicth core possuía alta densidade, com mais de 200 portas físicas para análise. O tipo de ataque ocorrido na situação apresentada e a contramedida adequada são, respectivamente,",
+   "gabarito": "d",
+   "alternativas": [
+    "falsificação de endereço MAC e lista de controle de acesso (ACL) para cada porta do switch .",
+    "ataque de negação de serviço (DoS) e lista de controle de acesso (ACL) para cada porta do switch .",
+    "estouro de memória de contexto endereçável (CAM) e lista de controle de acesso (ACL) para cada porta do switch .",
+    "estouro de memória de contexto endereçável (CAM) e limitação do número máximo de endereços MAC simultâneos que podem ser apreendidos e alocados para cada porta do switch .",
+    "ataque de negação de serviço (DoS) e limitação do número máximo de endereços MAC simultâneos que podem ser apreendidos e alocados a cada porta do switch ."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-033",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Atualmente, a prevenção/mitigação mais adequada do software malicioso mencionado no texto 13A2-I consiste",
+   "gabarito": "e",
+   "alternativas": [
+    "na proteção de perímetro provida por antispam, firewall de rede e Web Application Firewall.",
+    "na proteção de perímetro provida por firewall de rede e de host, antispam e filtragem de conteúdo web.",
+    "em hardening de sistemas operacionais, Data Loss Prevention (DLP), firewall e Intrusion Detection System (IDS) nas máquinas.",
+    "na atualização constante dos sistemas operacionais e dos softwares , na utilização de antimalwares , firewalls e Data Loss Prevention (DLP) nas máquinas.",
+    "na atualização constante dos sistemas operacionais e dos softwares , na utilização de antimalwares e de firewalls nas máquinas."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-034",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O software malicioso utilizado no ataque mencionado no texto 13A2-I foi um",
+   "gabarito": "a",
+   "alternativas": [
+    "worm , que explorou as vulnerabilidades existentes no UNIX para propagar-se automaticamente, levando ao alto consumo de recursos computacionais.",
+    "vírus, que se espalhou rapidamente na rede, infectando outros computadores devido à existência de vulnerabilidades presentes nos sistemas UNIX , levando ao alto consumo de recursos.",
+    "bot , que permitiu a comunicação entre hackers e computadores infectados, recebendo instruções remotas para elevar o consumo dos recursos.",
+    "rootkit , que alterou as bibliotecas presentes nos sistemas UNIX para propagar-se automaticamente de forma ofuscada e receber comando para aumentar o consumo de recursos.",
+    "backdoor , que disponibilizou acesso à rede, passando despercebido pelos controles de segurança existentes, permitindo execução de outros códigos maliciosos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-035",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A proteção de segurança de rede computacional de determinado tribunal é composta por firewall de aplicação Web (WAF), sistema de detecção e prevenção de intrusão (IDS/IPS), firewall e listas de acessos (ACL) utilizadas em switchs e roteadores. Um atacante conseguiu, a partir da Internet, ultrapassar a proteção dessa rede e acessar indevidamente informações restritas. A aplicação web afetada, E-processos, é utilizada para gestão de processos judiciais, sendo acessada tanto pela Internet quanto pela rede interna por diversos perfis de usuários, como servidores, advogados, juízes. A aplicação conta com alguns recursos de segurança, como bloqueio por tentativa de força bruta e protocolo de transferência de hipertexto seguro (HTTPS). Durante a análise do incidente, identificou-se a utilização da técnica de SQL Injection na exploração de uma vulnerabilidade na E-processos, o que permitiu o acesso não autorizado a dados armazenados no servidor de banco de dados. Nessa situação hipotética, as falhas que podem ser identificadas incluem",
+   "gabarito": "d",
+   "alternativas": [
+    "IDS/IPS configurado no modo de detecção e fluxo de comunicação da Internet para o servidor na porta TCP 443 liberado no firewall.",
+    "IDS/IPS configurado em modo de detecção e fluxo de comunicação da Internet para o servidor na porta TCP 443 liberado na ACL do roteador de borda.",
+    "WAF com regra de SQL Injection desativada no fluxo de comunicação da Internet para o servidor na porta TCP 443 e IDS/IPS configurado em modo de prevenção.",
+    "IDS/IPS configurado em modo de prevenção com regra de SQL Injection desativada no fluxo de comunicação da Internet para o servidor na porta TCP 443 e WAF com inspeção desativada para SSL/TLS em HTTP.",
+    "IDS/IPS e WAF com inspeção desativada para SSL/TLS em HTTP e fluxo de comunicação da Internet para o servidor nas portas TCP 80 e 443 liberadas na ACL do roteador de borda e no firewall ."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-036",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "São exemplos de autenticação por",
+   "gabarito": "d",
+   "alternativas": [
+    "tokens : chaves de sessão de aplicações web e senhas pessoais.",
+    "geolocalização: nome de dispositivos, endereços IPs públicos e geolocalização.",
+    "biométrica: reconhecimento de íris, voz, cor do cabelo, digital, maneira de andar e maneira de escrever.",
+    "tokens : senha descartável com base em eventos (HOTP) e senha de uso único com base em tempo (TOTP).",
+    "biométrica: reconhecimento de peso, altura, circunferência abdominal e tamanho das mãos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-037",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O uso do syslog em servidores Linux é comum para registrar eventos do sistema operacional. A fim de enviar os logs para um servidor externo ao que está gerando os eventos, é necessário informar essa configuração ao syslog . Assinale a opção que apresenta a configuração que deve estar presente no arquivo syslog.conf , caso seja necessário enviar os logs do serviço de email para um servidor externo com endereço 192.168.1.5 , com somente mensagens críticas.",
+   "gabarito": "e",
+   "alternativas": [
+    "smtp.crit @192.168.1.5",
+    "mail.!crit @192.168.1.5",
+    "smtp.!crit @192.168.1.5",
+    "smtp.!err @192.168.1.5",
+    "mail.crit @192.168.1.5"
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-038",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O DNS é responsável por resolver endereços IPs, nomes, apelidos, entre outros recursos referentes à localização de serviços na Internet. Além disso, é um serviço que possui visibilidade elevada para ações maliciosas. Assinale a opção que apresenta o registro de recurso de DNS responsável por informar a assinatura de correio para autenticar o domínio do remetente.",
+   "gabarito": "e",
+   "alternativas": [
+    "A",
+    "PTR",
+    "DNSKEY",
+    "SRV",
+    "SPF"
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-039",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "As organizações normalmente validam seus controles de segurança da informação em intervalos regulares por meio de testes de penetração. Assinale a opção que apresenta o tipo de validação cujo objetivo é verificar se o sistema operacional está vulnerável a ações maliciosas de ataques que consigam exceder de forma proposital o uso de memória designado aos programas, para elevar privilégios de acesso dos atacantes.",
+   "gabarito": "d",
+   "alternativas": [
+    "Denial of Service",
+    "Error Handling",
+    "Data protection",
+    "Buffer Overflow",
+    "Input Validation"
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-040",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O e-PING é um documento de referência sobre os padrões de interoperabilidade de governo eletrônico, que, em uma das suas segmentações, descreve padrões de segurança. Para a transferência de dados em redes inseguras, o padrão recomendado é o",
+   "gabarito": "a",
+   "alternativas": [
+    "TLS ( Transport Layer Security ).",
+    "SHA512.",
+    "AES.",
+    "MD5.",
+    "3DES."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-041",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Para acessar o sistema operacional Linux remotamente ou para transferir arquivos de forma que o tráfego de rede não passe o login e a senha em texto plano, deve ser usado o",
+   "gabarito": "c",
+   "alternativas": [
+    "Telnet.",
+    "FTP ( File Transfer Protocol ).",
+    "SSH ( Secure Shell ).",
+    "RCP ( Remote Copy Protocol ).",
+    "Vsftp."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-042",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Na norma ISO/IEC 27002, existe um controle cujo escopo é manter a segurança na troca de informações e softwares na organização, de forma interna ou externa, tendo como diretriz de implementação assegurar que o endereçamento e o transporte da mensagem estejam corretos. Essa diretriz de implementação faz parte do controle denominado",
+   "gabarito": "b",
+   "alternativas": [
+    "mídias em trânsito.",
+    "mensagens eletrônicas.",
+    "acordos para troca de informações.",
+    "políticas e procedimentos para troca de informações.",
+    "sistemas de informações do negócio."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-043",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Lei n.º 13.709/2018 formaliza uma série de condutas e ações relacionadas ao uso dos dados. Para que seja retirada de um dado a possibilidade de associação direta a um indivíduo, a lei considera o uso de meio técnico do tipo",
+   "gabarito": "b",
+   "alternativas": [
+    "bloqueio.",
+    "anonimização.",
+    "tratamento.",
+    "transferência.",
+    "consentimento."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-044",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "According to the author of text 9A3-I, 2018’s most impactful legal technology was",
+   "gabarito": "e",
+   "alternativas": [
+    "higher salaries for judges.",
+    "digital calendars.",
+    "artificial intelligence.",
+    "malpractice for lawyers.",
+    "analytics."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-045",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "In the first sentence of text 9A3-I, the word “it” refers to",
+   "gabarito": "d",
+   "alternativas": [
+    "“judge”.",
+    "“media coverage”.",
+    "“artificial intelligence”.",
+    "“2018’s most important legal technology”.",
+    "“conference agendas”."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-046",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "In the first sentence of text 9A3-I, the word “judge” is synonymous with",
+   "gabarito": "b",
+   "alternativas": [
+    "justice.",
+    "consider.",
+    "court.",
+    "examiner.",
+    "try."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-047",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "The author of text 9A3-I mentions conference agendas and media coverage in order to",
+   "gabarito": "a",
+   "alternativas": [
+    "demonstrate that their focus did not reflect the most impactful trend in the field of legal technology in 2018.",
+    "show that they focused suficient attention on analytics in the field of legal technology in 2018.",
+    "demonstrate that these events and institutions establish priorities for the field of legal technology.",
+    "suggest that conferences related to legal technology should not be venues for discussions about analytics.",
+    "advertise future events of interst in the field of legal technology."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-048",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O entendimento de que o ato administrativo é considerado válido até que se prove em contrário corresponde ao atributo da",
+   "gabarito": "a",
+   "alternativas": [
+    "presunção de legitimidade.",
+    "tipicidade.",
+    "exigibilidade.",
+    "imperatividade.",
+    "autoexecutoriedade."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-049",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando o disposto na Lei n.º 8.666/1993 (Lei de Licitações e Contratos), julgue os seguintes itens. I Embora tenha sido editada pela União, a Lei de Licitações e Contratos é considerada lei nacional, aplicando-se a todos os Poderes da União, dos estados, do Distrito Federal e dos municípios. II Quando a administração pública efetua compra de um produto não comum cujo valor é superior a um milhão, quatrocentos e trinta mil reais, deve-se utilizar a modalidade de licitação concorrência. III No caso de aquisição de material que só possa ser fornecido por empresa exclusiva, a administração pública deverá realizar contratação direta mediante dispensa de licitação. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-050",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Suponha que Ana, servidora do Tribunal de Justiça, agindo no exercício de suas funções administrativas, tenha causado dano a João. Nessa situação hipotética, caso João pretenda ajuizar ação judicial requerendo indenização em face do Estado, a responsabilidade civil",
+   "gabarito": "b",
+   "alternativas": [
+    "será subjetiva, por meio de ação de regresso.",
+    "será objetiva, independentemente de dolo ou culpa.",
+    "não será possível, porque o Estado não responde pelos atos de seus agentes, devendo João ajuizar ação diretamente contra Ana.",
+    "será subsidiária, se comprovado dolo ou culpa.",
+    "não será possível, porque o Brasil adota a teoria da irresponsabilidade estatal."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-051",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Sistema de Registro de Preços poderá ser adotado nos casos em que",
+   "gabarito": "e",
+   "alternativas": [
+    "a aquisição de bens vier a atender mais de um programa de governo, podendo ser acrescida a quantidade prevista na ata de registro de preços .",
+    "houver necessidade de aquisição de bens com uma única entrega.",
+    "houver quantitativo exato do produto demandado pela administração.",
+    "a aquisição de bens vier a atender exclusivamente um órgão público.",
+    "houver necessidade de contratações frequentes, em razão das características do serviço."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-052",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "É considerado direito social previsto na Constituição Federal de 1988",
+   "gabarito": "c",
+   "alternativas": [
+    "o décimo terceiro salário com base no salário básico.",
+    "o salário-família pago em razão do dependente do trabalhador, independentemente da renda auferida.",
+    "a assistência aos desamparados, na forma da Constituição.",
+    "o salário mínimo, sendo permitida sua vinculação para qualquer fim.",
+    "o seguro-desemprego, em caso de desemprego voluntário ou involuntário."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-053",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme a Constituição Federal de 1988, as pessoas",
+   "gabarito": "b",
+   "alternativas": [
+    "estão, em princípio, proibidas a fazer tudo, podendo um decreto regulamentar presidencial permitir a atuação individual.",
+    "estão autorizadas a fazer tudo desde que a lei não proíba.",
+    "só estão autorizadas a fazer aquilo que está previsto em lei.",
+    "só podem fazer algo quando ato normativo legal ou infralegal expressamente permitir.",
+    "não podem ser obrigadas a fazer ou deixar de fazer algo senão em virtude de ato normativo legal ou infralegal."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-054",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ao Conselho Nacional de Justiça compete apreciar, de ofício ou mediante provocação,",
+   "gabarito": "e",
+   "alternativas": [
+    "o mérito dos atos administrativos praticados por membros do Poder Judiciário.",
+    "a legalidade e o mérito dos atos administrativos praticados por servidores ou membros do Poder Judiciário.",
+    "o mérito dos atos administrativos praticados por servidores ou membros do Poder Judiciário.",
+    "a legalidade dos atos administrativos praticados por servidores do Poder Judiciário.",
+    "a legalidade dos atos administrativos praticados por membros do Poder Judiciário."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-055",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Maria, que possui emprego público privativo de profissionais de saúde em empresa pública estadual, foi aprovada em outro concurso público para cargo público federal privativo de profissionais de saúde. Nessa situação hipotética, Maria",
+   "gabarito": "e",
+   "alternativas": [
+    "não poderá acumular as funções, porque uma é estadual e a outra é federal.",
+    "não poderá acumular as funções, porque apenas um dos vínculos é oriundo do regime estatutário.",
+    "não poderá acumular as funções, porque não há previsão constitucional expressa que permita cumulações de funções públicas remuneradas.",
+    "poderá assumir o cargo e acumular as duas funções públicas, não se aplicando a esse caso o teto remuneratório da administração pública.",
+    "poderá assumir o cargo e acumular as duas funções públicas, se os horários forem compatíveis e as profissões forem regulamentadas."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-056",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com as resoluções do CNJ,",
+   "gabarito": "c",
+   "alternativas": [
+    "no caso de emissão de certidão judicial, a ausência de alguns dos dados impede a expedição da certidão negativa, ainda que não haja dúvida quanto à identificação física da pessoa.",
+    "os planos estratégicos dos órgãos do Poder Judiciário devem ser alinhados à Estratégia Judiciário e ter abrangência máxima de seis anos.",
+    "o modelo de requisitos para sistemas informatizados de gestão de processos e documentos do Poder Judiciário brasileiro, no que concerne à segurança, é requisito imprescindível para garantir a origem e a integridade dos documentos com assinatura digital.",
+    "a gestão da segurança da informação somente pode ser objeto de contratação caso a empresa contratada que provê a solução de TIC não seja a mesma que avalia ou fiscaliza o objeto da contratação.",
+    "a administração do sistema Processo Judicial Eletrônico cabe exclusivamente ao CNJ, garantida a participação de representantes dos tribunais superiores, cujas atribuições serão definidas por ato do presidente do CNJ."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-057",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Resolução n.º 211/2015 do CNJ trata sobre a estratégia nacional de tecnologia da informação e comunicação (TIC) do Poder Judiciário. De acordo com essa resolução,",
+   "gabarito": "e",
+   "alternativas": [
+    "cabe exclusivamente à área de TIC estabelecer estratégias, indicadores e metas institucionais, bem como pela orientação das iniciativas e dos investimentos tecnológicos no âmbito institucional.",
+    "é vedada a participação de magistrados no comitê de governança de TIC.",
+    "cabe ao CNJ classificar os sistemas de informação de cada órgão, identificando os que são estratégicos por meio de inspeção ou a pedido do órgão.",
+    "o comitê de governança de TIC é responsável pela elaboração de planos táticos e a área de TIC os planos operacionais e pelo estabelecimento de indicadores operacionais do órgão.",
+    "cada órgão deverá elaborar o plano estratégico de TIC e o plano diretor de TIC, em harmonia com as diretrizes estratégicas institucionais e nacionais."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-058",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Resolução n.º 192/2014 do CNJ descreve a Política Nacional de Formação e Aperfeiçoamento dos Servidores do Poder Judiciário. Segundo essa resolução,",
+   "gabarito": "d",
+   "alternativas": [
+    "as ações de formação e aperfeiçoamento deverão ser oferecidas, preferencialmente, fora da jornada de trabalho do servidor, de modo a não atrapalhar o andamento do setor ou área no qual ele esteja lotado.",
+    "as horas da ação de formação e aperfeiçoamento que excederem a jornada diária deverão ser compensadas como horas extraordinárias e pagas em pecúnia ou inseridas em bancos de horas.",
+    "ainda que a ação de formação e aperfeiçoamento tenha carga horária inferior à jornada diária, o servidor não necessita cumprir as horas faltantes.",
+    "a frequência em eventos presenciais de capacitação oferecidos pelo órgão será computada como hora trabalhada, exceto as horas de estudo realizadas pelo servidor fora das dependências do Poder Judiciário, na metodologia à distância.",
+    "os servidores inscritos em ações de educação a distância oferecidas pelo órgão podem dedicar até duas horas diárias de trabalho para participação nas atividades, desde que seja de interesse da administração."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-059",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a Instrução Normativa n.º 01/2019 do Ministério da Economia, na fase de planejamento da contratação, é obrigatório",
+   "gabarito": "d",
+   "alternativas": [
+    "prever em edital a remuneração média dos funcionários da contratada.",
+    "prever reembolso de despesas com transporte e hospedagem, desde que afetos ao objeto da contratação e justificados pela contratada.",
+    "prever em edital exigência que os fornecedores apresentem, em seus quadros, funcionários certificados para o fornecimento da solução, antes da contratação.",
+    "elaborar o termo de referência, inclusive nos casos de inexigibilidade ou dispensa de licitação.",
+    "adotar a métrica homem-hora nos casos de contratação de serviços de desenvolvimento de software ."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-seguranca-060",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 12,
    "ano": 2020,
    "assunto": 1,
    "tipo": "multipla_escolha",

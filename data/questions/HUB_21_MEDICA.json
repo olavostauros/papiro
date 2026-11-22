@@ -8,7 +8,8 @@
   "Anestesiologia",
   "Clínica Médica",
   "Infectologia",
-  "Nefrologia"
+  "Nefrologia",
+  "Cirurgia-Geral"
  ],
  "assuntos": [
   ""
@@ -25,6 +26,9 @@
   },
   {
    "fonte": "https://cdn.cebraspe.org.br/concursos/HUB_21_MEDICA/arquivos/561_RM_008_01.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/HUB_21_MEDICA/arquivos/561_RM_003_01.PDF"
   }
  ],
  "itens": [
@@ -3261,6 +3265,28 @@
    "tipo": "certo_errado",
    "enunciado": "O VDRL é um teste sorológico com mais importância no seguimento do que no diagnóstico dos pacientes com sífilis.",
    "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2020-hub-cirurgia-geral-010",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "São fatores predisponentes para o desenvolvimento de colecistite aguda alitiásica: idade avançada, diabetes, pós-parto, trauma, queimaduras extensas, nutrição parenteral prologada e síndrome de imunodeficiência adquirida com infecções oportunistas associadas.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2020-hub-cirurgia-geral-062",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Pode ocorrer choque séptico secundário devido à peritonite, embora isso não seja causa de aumento da mortalidade.",
+   "gabarito": "errado"
   }
  ]
 }
