@@ -212,14 +212,15 @@ def _locais(nums, ilegiveis=()):
     return pdf_itens
 
 
-def _rodar(ambiente, *, extrator, pdf_itens, gab_loader=None, chamadas=None, teto=30):
+def _rodar(ambiente, *, extrator, pdf_itens, coord_itens=None, gab_loader=None,
+           extractor=None, chamadas=None, teto=30):
     _, ledger, ds_path = ambiente
     return run.executar({"provas": [entrada()]}, run.Dataset.carregar(ds_path), limite=1,
-                        teto=teto, extractor=fake_extractor(range(1, 11), ledger,
-                                                            chamadas=chamadas),
+                        teto=teto, extractor=extractor or fake_extractor(
+                            range(1, 11), ledger, chamadas=chamadas),
                         gab_loader=gab_loader or fake_gab(), page_counter=lambda u: 2,
-                        ledger=ledger, pdf_itens=pdf_itens, extrator=extrator,
-                        log=lambda *_: None)
+                        ledger=ledger, pdf_itens=pdf_itens, coord_itens=coord_itens,
+                        extrator=extrator, log=lambda *_: None)
 
 
 def test_hibrido_100_local_nao_gasta(ambiente):
@@ -288,6 +289,67 @@ def test_firecrawl_forcado(ambiente):
     rep = _rodar(ambiente, extrator="firecrawl", pdf_itens=_locais(range(1, 11)),
                  chamadas=chamadas)
     assert len(chamadas) == 1 and rep["provas"][0]["itens_por_extrator"] == {"firecrawl": 10}
+
+
+# --- parser de coordenadas (motor local primário) ----------------------------
+
+def test_coord_cobre_lacuna_do_texto_sem_credito(ambiente):
+    chamadas = []
+    rep = _rodar(ambiente, extrator="local",
+                 pdf_itens=_locais(range(1, 9)),        # texto perde 9 e 10
+                 coord_itens=_locais(range(1, 11)),     # coordenadas cobrem tudo
+                 chamadas=chamadas, teto=0)
+    p = rep["provas"][0]
+    assert chamadas == [] and p["status"] == "aprovada"
+    assert p["extrator_por_item"]["9"] == "local(coord)"
+    assert p["adicionadas"] == 18
+
+
+def test_coord_tem_precedencia_na_uniao(ambiente):
+    tmp_path, _, ds_path = ambiente
+    def coord(url, esperados):
+        return {n: f"Item {n} via coordenadas." for n in range(1, 11)}
+    rep = _rodar(ambiente, extrator="local", pdf_itens=_locais(range(1, 11)),
+                 coord_itens=coord, teto=0)
+    p = rep["provas"][0]
+    assert p["status"] == "aprovada"
+    salvo = json.loads(ds_path.read_text(encoding="utf-8"))
+    enun = next(q["enunciado"] for q in salvo
+                if q["id"] == "cebraspe-2026-teste-analista-001")
+    assert "via coordenadas" in enun
+
+
+def test_coord_falha_cai_no_motor_de_texto(ambiente):
+    def coord_ruim(url, esperados):
+        raise RuntimeError("pdftohtml indisponível")
+    rep = _rodar(ambiente, extrator="local", pdf_itens=_locais(range(1, 11)),
+                 coord_itens=coord_ruim, teto=0)
+    assert rep["provas"][0]["status"] == "aprovada"
+
+
+def test_coord_lacuna_pequena_vai_por_item(ambiente):
+    chamadas = []      # 2 itens sem leitura local (39, 40 de 40) → Firecrawl só neles
+    parcial = _locais(range(1, 39))
+    ext = fake_extractor(range(1, 41), chamadas=chamadas)
+    rep = _rodar(ambiente, extrator="hibrido", pdf_itens=parcial,
+                 coord_itens=parcial, gab_loader=fake_gab(1, 40),
+                 extractor=ext, chamadas=chamadas)
+    p = rep["provas"][0]
+    assert len(chamadas) == 1 and p["status"] == "aprovada"
+    assert p["itens_por_extrator"] == {"local(coord)": 38, "firecrawl": 2}
+    assert p["extrator_por_item"]["39"] == "firecrawl"
+
+
+def test_coord_lacuna_grande_vai_na_prova_inteira(ambiente):
+    chamadas = []      # 20 itens sem leitura local → prova inteira no Firecrawl
+    parcial = _locais(range(1, 21))
+    ext = fake_extractor(range(1, 41), chamadas=chamadas)
+    rep = _rodar(ambiente, extrator="hibrido", pdf_itens=parcial,
+                 coord_itens=parcial, gab_loader=fake_gab(1, 40),
+                 extractor=ext, chamadas=chamadas)
+    p = rep["provas"][0]
+    assert len(chamadas) == 1 and p["itens_por_extrator"] == {"firecrawl": 40}
+    assert "cobertura local" in p["fallback"]
 
 
 def test_teto_zero_prova_local_passa(ambiente):

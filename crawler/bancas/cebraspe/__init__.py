@@ -118,13 +118,18 @@ class Cebraspe:
         arqs = [a for a in det.get("arquivosGabarito") or []
                 if api.arquivo_kind(a) in ("prova", "gabarito")]
         por_numero = api.cargos_do_evento(det)
+        conhecidos = api.cargos_conhecidos()
+        orgao_n = api.norm(det.get("eventoNomeCompleto") or det["eventoNomeAbreviado"])
         cargos = []
         for i, c in enumerate(det.get("eventoCargos") or []):
             info = por_numero.get(api.cargo_numero(c, i), {})
-            nome = re.sub(r"^CARGO\s*\d+\s*[:-]?\s*", "", c["area"]).strip()
-            cargos.append({"idArea": c["idArea"],
-                           "cargo": info.get("nome") or nome,
-                           "id_cargo": info.get("id_cargo") or _slug(nome)[:40],
+            nome = info.get("nome") or re.sub(
+                r"^CARGO\s*\d+\s*[:-]?\s*", "", c["area"]).strip()
+            # cargo já no dataset → mesmo id_cargo (ids estáveis)
+            idc = conhecidos.get((orgao_n, api.norm(nome)))
+            cargos.append({"idArea": c["idArea"], "cargo": nome,
+                           "id_cargo": idc or info.get("id_cargo")
+                           or _slug(nome)[:40],
                            "provas": []})
         provas = {a["nomeArquivo"]: a for a in arqs if api.arquivo_kind(a) == "prova"}
         gabs = {a["nomeArquivo"]: a for a in arqs if api.arquivo_kind(a) == "gabarito"}

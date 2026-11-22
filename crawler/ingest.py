@@ -223,12 +223,35 @@ def total_ledger(path: Path = usage.LEDGER) -> int:
 
 
 def _pdf_leitura(adapter):
-    """Callables url→texto/itens ligados ao adapter (motor secundário)."""
+    """Callables url→texto/itens ligados ao adapter (motores locais)."""
     def pdf_itens(url, esperados):
         return adapter.itens_pdf(pdfmod.baixar(url), esperados)
 
     def pdf_mc(url, esperados):
         return adapter.mc_pdf(pdfmod.baixar(url), esperados)
+
+    def coord_leitura(url, esperados, mc):
+        pdf = pdfmod.baixar(url)
+        melhor = {}
+        for variant in ("modern", "old"):          # old = era PF_18 e anteriores
+            try:
+                its = adapter.parse_prova(pdf, tipo="mc" if mc else "ce",
+                                          variant=variant)
+            except Exception:                      # noqa: BLE001
+                continue
+            if len(its) > len(melhor):
+                melhor = its
+        if not melhor:
+            raise RuntimeError("parser de coordenadas não extraiu itens")
+        if mc:
+            return {n: (v["enunciado"], v["alternativas"]) for n, v in melhor.items()}
+        return {n: v["enunciado"] for n, v in melhor.items()}
+
+    def coord_itens(url, esperados):
+        return coord_leitura(url, esperados, mc=False)
+
+    def coord_mc(url, esperados):
+        return coord_leitura(url, esperados, mc=True)
 
     def pdf_texto(url):
         return pdfmod.pdf_to_text_plain(pdfmod.baixar(url))
@@ -236,7 +259,7 @@ def _pdf_leitura(adapter):
     def page_counter(url):
         return pdfmod.contar_paginas(pdfmod.baixar(url))
 
-    return pdf_itens, pdf_mc, pdf_texto, page_counter
+    return pdf_itens, pdf_mc, pdf_texto, page_counter, coord_itens, coord_mc
 
 
 def task_de(e: dict, adapter) -> str:
@@ -273,6 +296,8 @@ class Plano:
     gab: gabmod.Gabarito
     itens_local: Optional[dict[int, str]] = None      # numero → enunciado (C/E ou MC)
     mc_local: Optional[dict[int, tuple[str, list[str]]]] = None  # MC: (enunciado, A–E)
+    itens_verif: Optional[dict[int, str]] = None     # subconjunto lido pelo motor de texto
+    via_coord: set[int] = field(default_factory=set)  # registro veio do parser de coordenadas
     firecrawl: Optional[str] = None          # None | "itens" | "prova"
     itens_fallback: list[int] = field(default_factory=list)
     motivo: str = ""
@@ -296,24 +321,43 @@ def _cobertura(pl: Plano, gab: gabmod.Gabarito, achados: Iterable[int]) -> bool:
 
 def planejar(e: dict, gab: gabmod.Gabarito, *, extrator: str,
              pdf_itens: Optional[PdfItens], pdf_mc: Optional[PdfMC] = None,
+             coord_itens: Optional[PdfItens] = None,
+             coord_mc: Optional[PdfMC] = None,
              adapter=None) -> Plano:
-    """local: só o extrator local. firecrawl: só Firecrawl. hibrido: local, com
-    Firecrawl POR ITEM para fórmula ilegível e POR PROVA quando a cobertura não
-    fecha com o gabarito. Vale para certo/errado e para múltipla escolha."""
+    """local: só os extratores locais (coordenadas pdftohtml, autoritativo, +
+    pdftotext -layout como complemento). firecrawl: só Firecrawl. hibrido:
+    local, com Firecrawl POR ITEM para lacunas/fórmulas e POR PROVA quando a
+    cobertura combinada não chega perto do gabarito. C/E e múltipla escolha."""
     adapter = adapter or bancas.get_adapter("cebraspe")
     pl = Plano(gab=gab)
     mc = gab.tipo != "certo_errado"
-    leitor = pdf_mc if mc else pdf_itens
-    if leitor is not None:
+    lidos: dict = {}
+    lidos_coord: dict = {}    # motor autoritativo (pdftohtml -xml, por coordenadas)
+    lidos_text: dict = {}     # motor secundário (pdftotext -layout) — verificador
+    falhas = []
+    for leitor, coord in [(coord_mc if mc else coord_itens, True),
+                          (pdf_mc if mc else pdf_itens, False)]:
+        if leitor is None:
+            continue
         try:
             lido = leitor(e["url_prova"], gab.itens)
-            if mc:
-                pl.mc_local = lido
-                pl.itens_local = {n: en for n, (en, _) in lido.items()}
-            else:
-                pl.itens_local = lido
         except Exception as exc:  # noqa: BLE001
-            pl.motivo = f"extrator local falhou: {type(exc).__name__}: {exc}"
+            falhas.append(f"{type(exc).__name__}: {exc}")
+            continue
+        for n, v in lido.items():
+            lidos.setdefault(n, v)          # coordenadas (autoritativo) ganha
+            (lidos_coord if coord else lidos_text)[n] = v
+    if lidos:
+        if mc:
+            pl.mc_local = lidos
+            pl.itens_local = {n: en for n, (en, _) in lidos.items()}
+            pl.itens_verif = {n: en for n, (en, _) in lidos_text.items()}
+        else:
+            pl.itens_local = lidos
+            pl.itens_verif = lidos_text
+        pl.via_coord = set(lidos_coord)
+    elif falhas:
+        pl.motivo = f"extratores locais falharam: {'; '.join(falhas)}"
     if extrator == "firecrawl":
         pl.firecrawl, pl.motivo = "prova", "--extrator firecrawl"
         return pl
@@ -321,15 +365,27 @@ def planejar(e: dict, gab: gabmod.Gabarito, *, extrator: str,
         tipo = "múltipla escolha" if mc else "certo/errado"
         pl.firecrawl, pl.motivo = "prova", pl.motivo or f"extrator local de {tipo} indisponível"
         return pl
-    if not _cobertura(pl, gab, pl.itens_local):
+    faltam = [n for n in gab.itens
+              if n not in pl.itens_local and n not in gab.anulados]
+    limite_itens = min(3, round(len(gab.itens) * 0.10))
+    if len(faltam) > limite_itens:
+        cob = 1 - len(faltam) / len(gab.itens)
+        pl.firecrawl = "prova"
+        pl.motivo = (f"cobertura local {cob:.0%} "
+                     f"(faltam {faltam[:8]}{'…' if len(faltam) > 8 else ''})")
         return pl
-    # fórmula ilegível só importa em item que vira registro (anulado não entra)
-    ileg = adapter.ilegiveis_mc(pl.mc_local) if mc else \
-        adapter.ilegiveis(pl.itens_local)
-    ileg = [n for n in ileg if n not in gab.anulados]
-    if ileg:
-        pl.firecrawl, pl.itens_fallback = "itens", ileg
-        pl.motivo = f"fórmula ilegível nos itens {ileg}"
+    # lacuna pequena + fórmula ilegível (glifos private-use do pdftotext) →
+    # fallback POR ITEM: o resto da prova fica com o motor local
+    ileg = sorted(n for n in (adapter.ilegiveis_mc(pl.mc_local) if mc else
+                            adapter.ilegiveis(pl.itens_local))
+                  if n not in gab.anulados)
+    itens_fb = sorted(set(faltam) | set(ileg))
+    if itens_fb:
+        pl.firecrawl, pl.itens_fallback = "itens", itens_fb
+        partes = [f"sem leitura local: {faltam}"] if faltam else []
+        if ileg:
+            partes.append(f"fórmula ilegível nos itens {ileg}")
+        pl.motivo = "; ".join(partes)
     return pl
 
 
@@ -409,11 +465,11 @@ def processar(e: dict, ds: Dataset, *, plano: Plano, extrator: str, extractor: E
         if plano.firecrawl == "prova":
             res.status, res.mensagem = "erro", f"--extrator local: {plano.motivo}"
             return res
-        omitidos = plano.itens_fallback                 # fórmula ilegível fica de fora
+        omitidos = plano.itens_fallback                 # itens sem leitura local ficam de fora
         prova = ProvaExtraida(questoes=_da_local(
             plano, [n for n in gab.itens if n not in omitidos]))
         res.origem = {q.numero: "local" for q in prova.questoes}
-        res.origem.update({n: "omitido (fórmula ilegível)" for n in omitidos})
+        res.origem.update({n: "omitido (sem leitura local)" for n in omitidos})
     else:
         fc = _firecrawl(e, res, extractor=extractor, ledger=ledger, estimativa=estimativa,
                     adapter=adapter)
@@ -435,11 +491,19 @@ def processar(e: dict, ds: Dataset, *, plano: Plano, extrator: str, extractor: E
                     res.origem[n] = "firecrawl"
             prova = ProvaExtraida(questoes=sorted(questoes, key=lambda q: q.numero))
 
+    for n in plano.via_coord & set(res.origem):
+        if res.origem[n] == "local":
+            res.origem[n] = "local(coord)"
+
     # validação (+ cruzamento com o texto do PDF, grátis). Texto conferido: itens
-    # do Firecrawl e, em múltipla escolha, todas as questões.
+    # do Firecrawl e, em múltipla escolha, os lidos pelo motor de texto. Itens
+    # do parser de coordenadas ficam fora — ele é autoritativo e o pdftotext
+    # nem sempre alcança o que ele lê (é por isso que é o motor primário).
     mc = gab.tipo != "certo_errado"
     # questão anulada não vira registro: não é cruzada com o PDF
-    verificar = [q.numero for q in prova.questoes if q.numero not in gab.anulados] if mc else \
+    verificar = [q.numero for q in prova.questoes
+                 if q.numero not in gab.anulados
+                 and q.numero not in plano.via_coord] if mc else \
         [n for n, o in res.origem.items() if o == "firecrawl" and n not in gab.anulados]
     texto = None
     if verificar and pdf_texto is not None:
@@ -454,7 +518,7 @@ def processar(e: dict, ds: Dataset, *, plano: Plano, extrator: str, extractor: E
             respostas={n: r for n, r in gab.respostas.items() if n not in fora}, url=gab.url)
         return validar(prova_v, gab_v, caderno=f"{e['evento']}/{e['caderno']}",
                        url_prova=e["url_prova"], url_gabarito=e["url_gabarito"],
-                       itens_pdf=plano.itens_local,
+                       itens_pdf=plano.itens_verif,
                        so_indicativo=set(plano.itens_fallback) | set(gab.anulados),
                        texto_pdf=texto, verificar_texto=[n for n in verificar if n not in fora])
 
@@ -518,7 +582,9 @@ def executar(manifesto: dict, ds: Dataset, *, limite: int, teto: int,
              pdf_itens: Optional[PdfItens] = None, extrator: str = "hibrido",
              filtros: Optional[dict] = None,
              pdf_texto: Optional[Callable[[str], str]] = None,
-             pdf_mc: Optional[PdfMC] = None, log=print, adapter=None) -> dict:
+             pdf_mc: Optional[PdfMC] = None, log=print, adapter=None,
+             coord_itens: Optional[PdfItens] = None,
+             coord_mc: Optional[PdfMC] = None) -> dict:
     adapter = adapter or bancas.get_adapter("cebraspe")
     cand, pul = selecionar(manifesto, ds, adapter=adapter, eventos=eventos, cadernos=cadernos,
                            incluir_curso_formacao=incluir_curso_formacao, **(filtros or {}))
@@ -536,7 +602,7 @@ def executar(manifesto: dict, ds: Dataset, *, limite: int, teto: int,
                                         mensagem=f"gabarito: {type(exc).__name__}: {exc}"))
             continue
         plano = planejar(e, gab, extrator=extrator, pdf_itens=pdf_itens, pdf_mc=pdf_mc,
-                     adapter=adapter)
+                     coord_itens=coord_itens, coord_mc=coord_mc, adapter=adapter)
         est = 0
         if extrator != "local":
             try:
@@ -603,7 +669,9 @@ def executar(manifesto: dict, ds: Dataset, *, limite: int, teto: int,
 def estimar_custo(cand: list[dict], *, amostra: int, gab_loader: GabLoader,
                   pdf_itens: PdfItens, page_counter: PageCounter, semente: int = 0,
                   pdf_mc: Optional[PdfMC] = None,
-                  log=print, adapter=None) -> dict:
+                  log=print, adapter=None,
+                  coord_itens: Optional[PdfItens] = None,
+                  coord_mc: Optional[PdfMC] = None) -> dict:
     """Custo (só fallbacks Firecrawl) do modo híbrido. Grátis: baixa gabarito e
     prova e roda o extrator local; exato se a seleção cabe na amostra, senão
     extrapola a média da amostra aleatória para o total."""
@@ -618,6 +686,7 @@ def estimar_custo(cand: list[dict], *, amostra: int, gab_loader: GabLoader,
         try:
             gab = gab_loader(e["url_gabarito"])
             pl = planejar(e, gab, extrator="hibrido", pdf_itens=pdf_itens, pdf_mc=pdf_mc,
+                      coord_itens=coord_itens, coord_mc=coord_mc,
                       adapter=adapter)
             c = custo_estimado(e, pl, page_counter)
         except Exception:  # noqa: BLE001 — prova sem gabarito/PDF legível não é processada
@@ -660,10 +729,13 @@ def plano(manifesto: dict, ds: Dataset, args, adapter) -> int:
     for motivo, n in Counter(p["motivo"] for p in pul).most_common(8):
         print(f"  pulada ({n}): {motivo}")
     if args.estimar_custo:
-        pdf_itens, pdf_mc, _, page_counter = _pdf_leitura(adapter)
-        est = estimar_custo(cand, amostra=args.amostra, gab_loader=adapter.carregar_gabarito,
+        pdf_itens, pdf_mc, _, page_counter, coord_itens, coord_mc = \
+            _pdf_leitura(adapter)
+        est = estimar_custo(cand, amostra=args.amostra,
+                            gab_loader=adapter.carregar_gabarito,
                             pdf_itens=pdf_itens, page_counter=page_counter,
-                            pdf_mc=pdf_mc, semente=args.semente, adapter=adapter)
+                            pdf_mc=pdf_mc, semente=args.semente, adapter=adapter,
+                            coord_itens=coord_itens, coord_mc=coord_mc)
         tipo = "exato" if est["exato"] else f"amostra de {est['amostra']}"
         print(f"custo estimado (só fallbacks, {tipo}): ~{est['estimativa_total']} créditos "
               f"(média {est['media_por_prova']}/prova; amostra gastaria {est['creditos_amostra']})")
@@ -733,11 +805,13 @@ def main(argv: Optional[list[str]] = None) -> int:
             app = make_app()
         return extract_prova(app, url, task=task)
 
-    pdf_itens, pdf_mc, pdf_texto, page_counter = _pdf_leitura(adapter)
+    pdf_itens, pdf_mc, pdf_texto, page_counter, coord_itens, coord_mc = \
+        _pdf_leitura(adapter)
     rep = executar(manifesto, ds, limite=args.limite_provas, teto=args.teto_creditos,
                    extractor=extractor, gab_loader=adapter.carregar_gabarito,
                    page_counter=page_counter, pdf_itens=pdf_itens,
                    pdf_texto=pdf_texto, pdf_mc=pdf_mc,
+                   coord_itens=coord_itens, coord_mc=coord_mc,
                    extrator=args.extrator, eventos=args.evento, cadernos=args.caderno,
                    filtros=_filtros(args, adapter), adapter=adapter,
                    incluir_curso_formacao=args.incluir_curso_formacao)
