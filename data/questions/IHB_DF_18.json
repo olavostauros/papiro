@@ -8,7 +8,8 @@
   "Técnico de Enfermagem",
   "Médico – Especialidade: Clínica Médica",
   "Médico – Emergência",
-  "Enfermeiro"
+  "Enfermeiro",
+  "Médico – Especialidade: Anestesiologista"
  ],
  "assuntos": [
   ""
@@ -25,6 +26,9 @@
   },
   {
    "fonte": "https://cdn.cebraspe.org.br/concursos/IHB_DF_18/arquivos/383_IHBDF_001_01.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/IHB_DF_18/arquivos/383_IHBDF_004_01.PDF"
   }
  ],
  "itens": [
@@ -2160,6 +2164,534 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A preparação da QA deve ser feita em sala restrita, em cabine de segurança biológica classe II, tipo B2, com exaustão externa, para garantir a proteção pessoal e ambiental.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-031",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "De acordo com o princípio da integralidade, deve-se investir de forma diferente em regiões carentes, sobretudo diferenciando-se as necessidades de cada usuário, como objetivo de diminuir as desigualdades.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-032",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O princípio da integralidade refere-se à garantia do acesso às ações de saúde às pessoas asseguradas pelo Estado, independentemente de qualquer característica pessoal ou social.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-033",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A participação popular para controle e avaliação dos serviços e das ações de saúde é promovida por meio de conselhos e conferências de saúde.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-034",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O princípio da regionalização diz respeito à organização dos serviços de saúde por níveis de complexidade, com a garantia do acesso a cada nível de atenção, conforme a necessidade de cada caso.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-035",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O princípio da descentralização prevê que sejam oferecidas aos municípios condições plenas para o exercício das funções do SUS, com comando único e soberano para a autonomia de cada esfera de governo.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-036",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Atos violentos contra idosos e mulheres praticados em serviços de saúde públicos ou privados são excluídos de notificação compulsória para fins de importância nacional, por não constarem da lista de doenças com potencial de causar surtos e epidemias.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-038",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Indicadores demográficos, como o grau de urbanização, e indicadores socioeconômicos, como a taxa de trabalho infantil, servem de indicadores de saúde que podem expressar as condições de saúde de uma população.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-040",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Para assegurar a confiança na informação produzida, pode-se monitorar a qualidade de indicadores como a validade (considerada a capacidade de medir o que se pretende) e a confiabilidade (reprodução de resultados em condições similares), uma vez que ambas podem ser utilizadas para se definir o grau de excelência de um indicador.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-041",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Os coeficientes expressam o risco de acometimento de determinado evento; nesse sentido, o coeficiente de prevalência é utilizado para comparar o risco de ocorrências de doenças entre populações.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-042",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Os polos de educação permanente em saúde para o SUS se caracterizam como gestão colegiada em que todas as instituições têm poder igual e assim, podem exercer sua própria transformação, desenvolvendo compromisso com a inovação da gestão democrática e horizontal.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-043",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Os gestores estaduais e municipais de saúde e de educação, bem como os estudantes da área da saúde, podem compor os polos de educação permanente para o SUS.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-044",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Cabe exclusivamente ao Ministério da Saúde construir uma política nacional de formação e desenvolvimento para o conjunto dos profissionais de saúde do país, principalmente por meio da constituição de polos de educação permanente em saúde para o SUS, razão por que é vedada a participação do Ministério da Educação na gestão social das políticas públicas de saúde.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-045",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A Política Nacional de Educação Permanente em Saúde é uma proposta de ação estratégica direcionada tanto ao sistema de saúde (em suas várias esferas de gestão) quanto à formação dos profissionais de saúde nas instituições de ensino.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-046",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Com a finalidade de garantir total autonomia e efetividade ao controle social, os conselhos de saúde não se subordinam ao Poder Executivo, em nenhuma de suas esferas.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-047",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A composição dos conselhos de saúde atende a dois critérios: a representatividade na interlocução de segmentos específicos (usuários, prestadores de serviços, profissionais de saúde e governo) e a paridade, correspondente à presença de 25% de usuários como integrantes dos conselhos.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-048",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A convocação da conferência de saúde bem como a estruturação de sua comissão organizadora podem ser realizadas pelos conselhos de saúde.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-049",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "As conferências de saúde são realizadas pelas esferas municipal, estadual e federal, a cada quatro anos.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-050",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Os conselhos de saúde são órgãos colegiados, permanentes e deliberativos aos quais compete diretamente a prestação de serviços de saúde públicos.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-051",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Dado o risco de hipercalemia, deve ser evitado o uso de succinilcolina na indução anestésica em pacientes queimados após quarenta e oito horas da lesão.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-052",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Em caso de trauma com lesão do pescoço, deve-se avaliar o paciente quanto a presença de dificuldade ou alteração na fonação, rouquidão, estridor e enfisema subcutâneo, que sugerem lesão da traqueia ou da laringe.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-053",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Em condições anestésicas, é comum que lactentes normais e saudáveis apresentem taxa de consumo de oxigênio quase três vezes menor que nos adultos, além de volume de oclusão reduzido.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-054",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "De acordo com as recomendações da ASA (American Society of Anesthesiologists) a respeito do jejum pré-operatório em pediatria, os líquidos claros devem ser permitidos até duas horas antes do procedimento anestésico.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-055",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O aumento da pressão das vias aéreas durante a anestesia geral indica melhora na complacência pulmonar, aumento no volume corrente, ou vazamento no circuito respiratório.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-056",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Os critérios para a realização de extubação em adultos sob ventilação mecânica incluem força inspiratória negativa de até 5 cm de H2O e capacidade vital inferior a 8 mL por quilo de peso.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-057",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Quanto maior for o coeficiente de partição sangue: gás de um anestésico, mais rápida será a indução e a recuperação anestésica.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-058",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Os fatores que aceleram a indução e a recuperação da anestesia inalatória incluem altos fluxos de gás fresco, baixo volume do circuito anestésico, alto fluxo sanguíneo cerebral e aumento da ventilação.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-059",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O uso da cimetidina reduz o metabolismo do diazepam, potencializando seus efeitos sedativos.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-060",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Para quantificar com precisão o volume residual de óxido nitroso no cilindro, deve-se utilizar o medidor de pressão do tanque.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-061",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A cetamina, droga estruturalmente análoga à fenciclidina, é um antagonista de receptor N;metil;D;aspartato (NMDA).",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-062",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Os anestésicos voláteis produzem redução dose-dependente na pressão arterial sistêmica.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-063",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A alcalinização da solução de anestésico local aumenta a proporção da sua forma ionizada em relação à não ionizada, facilitando a entrada do medicamento na célula.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-064",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Os anestésicos locais ligam-se reversivelmente aos canais de potássio dos nervos, bloqueando o transporte intracellular desses ions.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-065",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A potência anestésica dos anestésicos inalatórios tem relação inversa com sua lipossolubilidade.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-066",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Para a analgesia pós-operatória em pacientes submetidas à cesariana, o uso de opioides venosos é preferível ao uso de opioides neuroaxiais.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-067",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Em paciente obstétrica em estado pós-ictal e com rebaixamento do nível de consciência ou com convulsões recorrentes, é indicada a realização de anestesia geral.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-068",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "No parto cesáreo, as pacientes apresentam maior risco de aspiração do conteúdo gástrico em comparação às pacientes não submetidas à cirurgia obstétrica.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-069",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O manejo da hipotensão arterial no parto cesáreo, após a raquinesestesia, é otimizado, entre outras estratégias, pelo uso de efedrina, que causa aumento do pH da artéria umbilical no recém-nascido.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-070",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O paciente classificado na escala de coma de Glasgow com a pontuação igual a 7 deve ser entubado e ventilado com O2 a 100%.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-071",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A redução dos níveis de pressão parcial arterial de CO2 ajuda a reduzir o fluxo sanguíneo cerebral, o que pode melhorar o metabolismo cerebral.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-072",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A anestesia para neurocirurgia em pacientes vítimas de trauma deve visar à manutenção de uma pressão de perfusão cerebral acima de 60 mmHg.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-073",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Paciente vítima de trauma que apresenta abertura ocular à dor, resposta motora com flexão anormal e emissão de sons incompreensíveis recebe pontuação 10 na escala de coma de Glasgow.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-074",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O uso do fentanil na técnica peridural com injeção única para analgesia pós-operatória em cirurgia torácica proporciona analgesia de longa duração (de quinze horas a vinte horas, em média), por se tratar de um opioide hidrofilico.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-075",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O controle da disseminação de sangramento ou infecção para o pulmão sadio é uma indicação relativa de ventilação monopulmonar.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-076",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A aplicação de pressão positiva contínua nas vias aéreas (CPAP) no pulmão que não esteja sendo manipulado é uma estratégia utilizada para reduzir o efeito shunt na ventilação monopulmonar em cirurgia torácica.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-077",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Entre outros fins, a ecocardiografia transesofágica serve para orientar a inserção da cânula de circulação extracorpórea.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-078",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A estenose mitral pode causar discrepância entre os valores medidos da pressão de oclusão da artéria pulmonar e dos valores medidos da pressão diastólica final do ventriculo esquerdo obtidos por cateter de artéria pulmonar.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-079",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "No hipotálamo, os núcleos posteriores e laterais controlam a função do sistema nervoso parassimpático.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2018-ihbdf-anestesiologista-080",
+   "prova": 4,
+   "orgao": 0,
+   "cargo": 4,
+   "ano": 2018,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Os receptores beta-adrenergicos estão acoplados à proteína G e exercem efeitos via estímulo da adeniliciclate.",
    "gabarito": "certo"
   }
  ]
