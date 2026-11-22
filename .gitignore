@@ -32,8 +32,10 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 
-# agent config (local only)
-.devin/
+# agent config — política de permissões é versionada; só overrides locais e
+# MCP com segredos ficam de fora (*.local.json já está coberto acima)
+.devin/*
+!.devin/config.json
 
 # crawler local cache and run reports
 crawler/.cache/
