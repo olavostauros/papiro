@@ -62,9 +62,9 @@ PF_18-era provas), `tipo="mc"` (Questão N + alternativas A-E + per-item
 `assunto`). `crawler/gabarito.py` — `Gabarito` dataclass (`Item/Gabarito`
 C/E and `Questão` A-E/X). `bancas/cebraspe/textparse.py` — secondary
 `pdftotext -layout` engine for PDF cross-checks. The automated manifest
-stack (`python -m crawler discover` → `run.py` via `crawler ingest` +
-`validate.py`) shares the same adapter — being merged into the unified
-pipeline per the rework doc.
+stack (`python -m crawler discover` + `crawler ingest` + `validate.py`)
+runs entirely over the adapter — selection policy, local parsers and
+record labels come from `job["banca"]` via `crawler/bancas/`.
 
 ## Firecrawl
 

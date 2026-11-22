@@ -14,6 +14,7 @@ import re
 import unicodedata
 from pathlib import Path
 
+from ... import gabarito as gabmod
 from ...gabarito import Gabarito, parse_pdf as _parse_gab
 from . import api, prova, selecao, textparse
 
@@ -41,6 +42,7 @@ def _key_for(nome: str) -> str:
 
 class Cebraspe:
     name = "cebraspe"
+    dataset_banca = "Cebraspe"            # rótulo `banca` nos registros
     MANIFEST = api.MANIFEST
 
     # -- descoberta ------------------------------------------------------
@@ -49,6 +51,7 @@ class Cebraspe:
     arquivo_kind = staticmethod(api.arquivo_kind)
     arquivo_cargos = staticmethod(api.arquivo_cargos)
     classify = staticmethod(api.classify)
+    norm = staticmethod(api.norm)
 
     # -- download ----------------------------------------------------------
     download = staticmethod(api.download)
@@ -86,6 +89,8 @@ class Cebraspe:
     @staticmethod
     def parse_gabarito(pdf: Path) -> Gabarito:
         return _parse_gab(Path(pdf))
+
+    carregar_gabarito = staticmethod(gabmod.carregar)  # url → Gabarito
 
     # -- cruzamento (motor secundário) --------------------------------------
     itens_pdf = staticmethod(textparse.itens_do_pdf)
@@ -139,6 +144,16 @@ class Cebraspe:
     # -- seleção -------------------------------------------------------------
     PRIORIDADES = selecao.PRIORIDADES
     ranquear = staticmethod(selecao.ranquear)
+    categoria_de = staticmethod(selecao.categoria_de)
+    tipo_caderno = staticmethod(selecao.tipo_caderno)
+    parse_anos = staticmethod(selecao.parse_anos)
+
+    # -- manifesto -------------------------------------------------------------
+    @staticmethod
+    def regen_manifest(path: Path = MANIFEST) -> dict:
+        man = api.descobrir(api.make_fetch())
+        api.salvar(man, Path(path))
+        return man
 
 
 adapter = Cebraspe()

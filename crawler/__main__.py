@@ -97,8 +97,8 @@ def cmd_discover(args, extra):
 
 
 def cmd_ingest(extra):
-    from . import run
-    return run.main(extra)
+    from . import ingest
+    return ingest.main(extra)
 
 
 def cmd_db(extra):

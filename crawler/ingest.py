@@ -1,13 +1,16 @@
-"""Pipeline Cebraspe ponta a ponta (CLI).
+"""Pipeline de ingest ponta a ponta, agnóstico de banca (``--banca``).
 
 manifesto → pula o que já está no dataset → gabarito definitivo (grátis) →
 ``extract_prova`` (Firecrawl, créditos) → validação → append no dataset.
+A banca é resolvida pelo adapter (``crawler/bancas/``): manifesto, parser
+secundário, política de seleção e rótulo ``banca`` dos registros.
 
 Exemplos::
 
-    python -m crawler.run --dry-run                       # zero créditos
-    python -m crawler.run --dry-run --evento TRF6_24
-    python -m crawler.run --limite-provas 1 --teto-creditos 30 --caderno 945_ANAC_23_CB1_01
+    python -m crawler ingest --dry-run                       # zero créditos
+    python -m crawler ingest --dry-run --evento TRF6_24
+    python -m crawler ingest --limite-provas 1 --teto-creditos 30 \
+        --caderno 945_ANAC_23_CB1_01
 
 Controle de gasto:
 
@@ -34,15 +37,13 @@ from datetime import datetime
 from pathlib import Path
 from typing import Callable, Iterable, Optional
 
-from . import gabarito as gabmod, shards, usage
-from .bancas.cebraspe import api as cebraspe_api
-from .bancas.cebraspe import selecao
+from . import bancas, gabarito as gabmod, pdf as pdfmod, shards, usage
 from .models import ProvaExtraida, ProvaMeta, Questao, QuestaoExtraida, to_questao
 from .shards import evento_key, write_shard
 from .validate import Relatorio, formatar, validar
 
 HERE = Path(__file__).resolve().parent
-DATASET = cebraspe_api.DATASET
+DATASET = shards.SHARD_DIR
 EXTRACOES = HERE / ".cache" / "extracoes"
 REPORTS = HERE / "reports"
 CUSTO_FIXO = 4  # créditos de json-extraction por prova, além de 1/página
@@ -138,7 +139,7 @@ class Dataset:
 # crawler/bancas/cebraspe/selecao.py
 # ---------------------------------------------------------------------------
 
-def selecionar(manifesto: dict, ds: Dataset, *, eventos: Iterable[str] = (),
+def selecionar(manifesto: dict, ds: Dataset, *, adapter=None, eventos: Iterable[str] = (),
                cadernos: Iterable[str] = (), incluir_curso_formacao: bool = False,
                anos: Optional[set[int]] = None, orgaos: Iterable[str] = (),
                prioridade: Iterable[str] = ()) -> tuple[list[dict], list[dict]]:
@@ -146,15 +147,16 @@ def selecionar(manifesto: dict, ds: Dataset, *, eventos: Iterable[str] = (),
 
     Filtros de priorização: ``anos`` (conjunto), ``orgaos`` (trechos de texto
     casados com evento/órgão, sem acento) e ``prioridade`` (categorias de
-    ``selecao.PRIORIDADES``, que também definem a ordem). Sem prioridade: mais
+    ``adapter.PRIORIDADES``, que também definem a ordem). Sem prioridade: mais
     recentes primeiro."""
+    adapter = adapter or bancas.get_adapter("cebraspe")
     evs = {e.upper() for e in eventos}
     cads = {c.upper() for c in cadernos}
-    orgs = [cebraspe_api.norm(o) for o in orgaos if o.strip()]
+    orgs = [adapter.norm(o) for o in orgaos if o.strip()]
     prio = [p.strip().lower() for p in prioridade if p.strip()]
     for p in prio:
-        if p not in selecao.PRIORIDADES:
-            raise ValueError(f"prioridade desconhecida: {p!r} (use {', '.join(selecao.PRIORIDADES)})")
+        if p not in adapter.PRIORIDADES:
+            raise ValueError(f"prioridade desconhecida: {p!r} (use {', '.join(adapter.PRIORIDADES)})")
     cand, pul = [], []
     for e in manifesto["provas"]:
         def pula(motivo: str):
@@ -166,11 +168,11 @@ def selecionar(manifesto: dict, ds: Dataset, *, eventos: Iterable[str] = (),
         if anos is not None and e.get("ano") not in anos:
             continue
         if orgs:
-            texto = cebraspe_api.norm(f"{e['evento']} {e.get('evento_nome') or ''} {e.get('orgao', '')}")
+            texto = adapter.norm(f"{e['evento']} {e.get('evento_nome') or ''} {e.get('orgao', '')}")
             if not any(o in texto for o in orgs):
                 continue
         if prio:
-            e = dict(e, _categoria=selecao.categoria_de(e, prio))
+            e = dict(e, _categoria=adapter.categoria_de(e, prio))
             if e["_categoria"] is None:
                 continue
         if not e.get("url_gabarito"):
@@ -179,7 +181,7 @@ def selecionar(manifesto: dict, ds: Dataset, *, eventos: Iterable[str] = (),
             pula(e.get("cargo_como") or "cargo não identificado"); continue
         if e.get("fase") != "objetiva" and not incluir_curso_formacao:
             pula(f"fase {e.get('fase')}"); continue
-        t = selecao.tipo_caderno(e.get("descricao", ""))
+        t = adapter.tipo_caderno(e.get("descricao", ""))
         if t is not None and t != 1:
             pula(f"caderno TIPO {t} (só o TIPO 1 é ingerido)"); continue
         motivo = ds.ja_ingerida(e)
@@ -206,32 +208,25 @@ def total_ledger(path: Path = usage.LEDGER) -> int:
     return int(m.group(1)) if m else 0
 
 
-def contar_paginas(url: str) -> int:
-    pdf = gabmod.baixar(url)
-    return max(1, gabmod.pdf_to_text(pdf).count("\f"))
+def _pdf_leitura(adapter):
+    """Callables url→texto/itens ligados ao adapter (motor secundário)."""
+    def pdf_itens(url, esperados):
+        return adapter.itens_pdf(pdfmod.baixar(url), esperados)
+
+    def pdf_mc(url, esperados):
+        return adapter.mc_pdf(pdfmod.baixar(url), esperados)
+
+    def pdf_texto(url):
+        return pdfmod.pdf_to_text_plain(pdfmod.baixar(url))
+
+    def page_counter(url):
+        return pdfmod.contar_paginas(pdfmod.baixar(url))
+
+    return pdf_itens, pdf_mc, pdf_texto, page_counter
 
 
-def texto_do_pdf_url(url: str) -> str:
-    """Texto corrido do PDF (pdftotext sem -layout), para conferir itens do Firecrawl."""
-    import subprocess
-    pdf = gabmod.baixar(url)
-    out = subprocess.run([gabmod.pdftotext_bin(), "-enc", "UTF-8", str(pdf), "-"],
-                         capture_output=True, check=True)
-    return out.stdout.decode("utf-8", "replace")
-
-
-def mc_do_pdf_url(url: str, esperados: list[int]) -> dict[int, tuple[str, list[str]]]:
-    from .bancas.cebraspe import textparse as extract_local
-    return extract_local.questoes_mc_do_pdf(gabmod.baixar(url), esperados)
-
-
-def itens_do_pdf_url(url: str, esperados: list[int]) -> dict[int, str]:
-    from .bancas.cebraspe import textparse as extract_local
-    return extract_local.itens_do_pdf(gabmod.baixar(url), esperados)
-
-
-def task_de(e: dict) -> str:
-    return f"cebraspe-{e.get('ano')}-{e.get('id_orgao')}-{e['caderno']}".lower()
+def task_de(e: dict, adapter) -> str:
+    return f"{adapter.name}-{e.get('ano')}-{e.get('id_orgao')}-{e['caderno']}".lower()
 
 
 # ---------------------------------------------------------------------------
@@ -242,10 +237,12 @@ def extracao_cache(e: dict) -> Path:
     return EXTRACOES / e["evento"] / f"{e['caderno']}.json"
 
 
-def montar_questoes(e: dict, prova: ProvaExtraida, gab: gabmod.Gabarito) -> list[Questao]:
+def montar_questoes(e: dict, prova: ProvaExtraida, gab: gabmod.Gabarito,
+                    adapter=None) -> list[Questao]:
+    adapter = adapter or bancas.get_adapter("cebraspe")
     out = []
     for c in e["cargos"]:
-        meta = ProvaMeta(banca="Cebraspe", orgao=e["orgao"], cargo=c["nome"],
+        meta = ProvaMeta(banca=adapter.dataset_banca, orgao=e["orgao"], cargo=c["nome"],
                          ano=e["ano"], fonte=e["url_prova"], assunto=e.get("assunto") or "",
                          id_orgao=e.get("id_orgao"), id_cargo=c.get("id_cargo"))
         for q in prova.questoes:
@@ -284,11 +281,12 @@ def _cobertura(pl: Plano, gab: gabmod.Gabarito, achados: Iterable[int]) -> bool:
 
 
 def planejar(e: dict, gab: gabmod.Gabarito, *, extrator: str,
-             pdf_itens: Optional[PdfItens], pdf_mc: Optional[PdfMC] = None) -> Plano:
+             pdf_itens: Optional[PdfItens], pdf_mc: Optional[PdfMC] = None,
+             adapter=None) -> Plano:
     """local: só o extrator local. firecrawl: só Firecrawl. hibrido: local, com
     Firecrawl POR ITEM para fórmula ilegível e POR PROVA quando a cobertura não
     fecha com o gabarito. Vale para certo/errado e para múltipla escolha."""
-    from .bancas.cebraspe import textparse as extract_local
+    adapter = adapter or bancas.get_adapter("cebraspe")
     pl = Plano(gab=gab)
     mc = gab.tipo != "certo_errado"
     leitor = pdf_mc if mc else pdf_itens
@@ -312,8 +310,8 @@ def planejar(e: dict, gab: gabmod.Gabarito, *, extrator: str,
     if not _cobertura(pl, gab, pl.itens_local):
         return pl
     # fórmula ilegível só importa em item que vira registro (anulado não entra)
-    ileg = extract_local.ilegiveis_mc(pl.mc_local) if mc else \
-        extract_local.ilegiveis(pl.itens_local)
+    ileg = adapter.ilegiveis_mc(pl.mc_local) if mc else \
+        adapter.ilegiveis(pl.itens_local)
     ileg = [n for n in ileg if n not in gab.anulados]
     if ileg:
         pl.firecrawl, pl.itens_fallback = "itens", ileg
@@ -337,7 +335,7 @@ class Resultado:
 
 
 def _firecrawl(e: dict, res: Resultado, *, extractor: Extractor, ledger: Path,
-               estimativa: int) -> Optional[ProvaExtraida]:
+               estimativa: int, adapter) -> Optional[ProvaExtraida]:
     """Extração Firecrawl da prova inteira (cache → zero crédito)."""
     cpath = extracao_cache(e)
     if cpath.exists():
@@ -345,7 +343,7 @@ def _firecrawl(e: dict, res: Resultado, *, extractor: Extractor, ledger: Path,
         return ProvaExtraida.model_validate_json(cpath.read_text(encoding="utf-8"))
     antes = total_ledger(ledger)
     try:
-        prova = extractor(e["url_prova"], task_de(e))
+        prova = extractor(e["url_prova"], task_de(e, adapter))
     except Exception as exc:  # noqa: BLE001
         res.creditos = total_ledger(ledger) - antes
         res.status, res.mensagem = "erro", f"extração: {type(exc).__name__}: {exc}"
@@ -353,9 +351,9 @@ def _firecrawl(e: dict, res: Resultado, *, extractor: Extractor, ledger: Path,
     res.creditos = total_ledger(ledger) - antes
     if res.creditos <= 0:
         # extract_prova só registra quando a resposta traz creditsUsed
-        usage.log_call(task=task_de(e), tool="sdk:scrape[json]", items=1,
+        usage.log_call(task=task_de(e, adapter), tool="sdk:scrape[json]", items=1,
                        credits=estimativa, path=ledger,
-                       notes=f"{e['url_prova']} - creditsUsed ausente; estimativa run.py")
+                       notes=f"{e['url_prova']} - creditsUsed ausente; estimativa ingest")
         res.creditos = estimativa
         res.mensagem = "creditsUsed ausente na resposta: estimativa registrada no ledger"
     cpath.parent.mkdir(parents=True, exist_ok=True)
@@ -384,7 +382,7 @@ ERROS_DE_QUESTAO = ("enunciado não encontrado no texto do PDF",
 
 
 def processar(e: dict, ds: Dataset, *, plano: Plano, extrator: str, extractor: Extractor,
-              ledger: Path, estimativa: int,
+              ledger: Path, estimativa: int, adapter,
               pdf_texto: Optional[Callable[[str], str]] = None) -> Resultado:
     res = Resultado(entrada=e, fallback=plano.motivo)
     gab = plano.gab
@@ -403,7 +401,8 @@ def processar(e: dict, ds: Dataset, *, plano: Plano, extrator: str, extractor: E
         res.origem = {q.numero: "local" for q in prova.questoes}
         res.origem.update({n: "omitido (fórmula ilegível)" for n in omitidos})
     else:
-        fc = _firecrawl(e, res, extractor=extractor, ledger=ledger, estimativa=estimativa)
+        fc = _firecrawl(e, res, extractor=extractor, ledger=ledger, estimativa=estimativa,
+                    adapter=adapter)
         if fc is None:
             return res
         if plano.firecrawl == "prova":
@@ -480,7 +479,7 @@ def processar(e: dict, ds: Dataset, *, plano: Plano, extrator: str, extractor: E
         return res
 
     try:
-        novas = montar_questoes(e, prova, gab)
+        novas = montar_questoes(e, prova, gab, adapter)
     except ValueError as exc:
         rel.aprovada = False
         rel.erros.append(f"to_questao: {exc}")
@@ -505,8 +504,9 @@ def executar(manifesto: dict, ds: Dataset, *, limite: int, teto: int,
              pdf_itens: Optional[PdfItens] = None, extrator: str = "hibrido",
              filtros: Optional[dict] = None,
              pdf_texto: Optional[Callable[[str], str]] = None,
-             pdf_mc: Optional[PdfMC] = None, log=print) -> dict:
-    cand, pul = selecionar(manifesto, ds, eventos=eventos, cadernos=cadernos,
+             pdf_mc: Optional[PdfMC] = None, log=print, adapter=None) -> dict:
+    adapter = adapter or bancas.get_adapter("cebraspe")
+    cand, pul = selecionar(manifesto, ds, adapter=adapter, eventos=eventos, cadernos=cadernos,
                            incluir_curso_formacao=incluir_curso_formacao, **(filtros or {}))
     gasto = 0
     resultados: list[Resultado] = []
@@ -521,7 +521,8 @@ def executar(manifesto: dict, ds: Dataset, *, limite: int, teto: int,
             resultados.append(Resultado(entrada=e, status="erro",
                                         mensagem=f"gabarito: {type(exc).__name__}: {exc}"))
             continue
-        plano = planejar(e, gab, extrator=extrator, pdf_itens=pdf_itens, pdf_mc=pdf_mc)
+        plano = planejar(e, gab, extrator=extrator, pdf_itens=pdf_itens, pdf_mc=pdf_mc,
+                     adapter=adapter)
         est = 0
         if extrator != "local":
             try:
@@ -539,7 +540,7 @@ def executar(manifesto: dict, ds: Dataset, *, limite: int, teto: int,
         log(f"→ {e['evento']}/{e['caderno']} ({len(e['cargos'])} cargo(s), {modo}, "
             f"estimativa {est} créditos)")
         r = processar(e, ds, plano=plano, extrator=extrator, extractor=extractor,
-                      ledger=ledger, estimativa=est, pdf_texto=pdf_texto)
+                      ledger=ledger, estimativa=est, adapter=adapter, pdf_texto=pdf_texto)
         gasto += r.creditos
         resultados.append(r)
         if r.relatorio:
@@ -588,11 +589,12 @@ def executar(manifesto: dict, ds: Dataset, *, limite: int, teto: int,
 def estimar_custo(cand: list[dict], *, amostra: int, gab_loader: GabLoader,
                   pdf_itens: PdfItens, page_counter: PageCounter, semente: int = 0,
                   pdf_mc: Optional[PdfMC] = None,
-                  log=print) -> dict:
+                  log=print, adapter=None) -> dict:
     """Custo (só fallbacks Firecrawl) do modo híbrido. Grátis: baixa gabarito e
     prova e roda o extrator local; exato se a seleção cabe na amostra, senão
     extrapola a média da amostra aleatória para o total."""
     import random
+    adapter = adapter or bancas.get_adapter("cebraspe")
     sel = cand if len(cand) <= amostra else random.Random(semente).sample(cand, amostra)
     tipos: Counter = Counter()
     custos: list[int] = []
@@ -601,7 +603,8 @@ def estimar_custo(cand: list[dict], *, amostra: int, gab_loader: GabLoader,
             log(f"  … estimando {i}/{len(sel)}")
         try:
             gab = gab_loader(e["url_gabarito"])
-            pl = planejar(e, gab, extrator="hibrido", pdf_itens=pdf_itens, pdf_mc=pdf_mc)
+            pl = planejar(e, gab, extrator="hibrido", pdf_itens=pdf_itens, pdf_mc=pdf_mc,
+                      adapter=adapter)
             c = custo_estimado(e, pl, page_counter)
         except Exception:  # noqa: BLE001 — prova sem gabarito/PDF legível não é processada
             tipos["erro (não processada, 0 crédito)"] += 1
@@ -624,14 +627,16 @@ def estimar_custo(cand: list[dict], *, amostra: int, gab_loader: GabLoader,
     }
 
 
-def _filtros(args) -> dict:
-    return {"anos": selecao.parse_anos(args.anos), "orgaos": args.orgao,
+def _filtros(args, adapter) -> dict:
+    return {"anos": adapter.parse_anos(args.anos), "orgaos": args.orgao,
             "prioridade": [p for p in (args.prioridade or "").split(",") if p.strip()]}
 
 
-def plano(manifesto: dict, ds: Dataset, args) -> int:
-    cand, pul = selecionar(manifesto, ds, eventos=args.evento, cadernos=args.caderno,
-                           incluir_curso_formacao=args.incluir_curso_formacao, **_filtros(args))
+def plano(manifesto: dict, ds: Dataset, args, adapter) -> int:
+    cand, pul = selecionar(manifesto, ds, adapter=adapter, eventos=args.evento,
+                           cadernos=args.caderno,
+                           incluir_curso_formacao=args.incluir_curso_formacao,
+                           **_filtros(args, adapter))
     print(f"manifesto: {manifesto['resumo']}")
     print(f"candidatas: {len(cand)} provas em {len({e['evento'] for e in cand})} eventos "
           f"| puladas: {len(pul)}")
@@ -641,10 +646,10 @@ def plano(manifesto: dict, ds: Dataset, args) -> int:
     for motivo, n in Counter(p["motivo"] for p in pul).most_common(8):
         print(f"  pulada ({n}): {motivo}")
     if args.estimar_custo:
-        est = estimar_custo(cand, amostra=args.amostra, gab_loader=gabmod.carregar,
-                            pdf_itens=itens_do_pdf_url, page_counter=contar_paginas,
-                            pdf_mc=mc_do_pdf_url,
-                            semente=args.semente)
+        pdf_itens, pdf_mc, _, page_counter = _pdf_leitura(adapter)
+        est = estimar_custo(cand, amostra=args.amostra, gab_loader=adapter.carregar_gabarito,
+                            pdf_itens=pdf_itens, page_counter=page_counter,
+                            pdf_mc=pdf_mc, semente=args.semente, adapter=adapter)
         tipo = "exato" if est["exato"] else f"amostra de {est['amostra']}"
         print(f"custo estimado (só fallbacks, {tipo}): ~{est['estimativa_total']} créditos "
               f"(média {est['media_por_prova']}/prova; amostra gastaria {est['creditos_amostra']})")
@@ -661,7 +666,7 @@ def plano(manifesto: dict, ds: Dataset, args) -> int:
 
 
 def main(argv: Optional[list[str]] = None) -> int:
-    ap = argparse.ArgumentParser(description="Pipeline Cebraspe: manifesto → dataset")
+    ap = argparse.ArgumentParser(description="Pipeline de ingest: manifesto → dataset")
     ap.add_argument("--dry-run", action="store_true", help="só descoberta/plano, zero créditos")
     ap.add_argument("--limite-provas", type=int, default=None, help="máx. de provas a processar")
     ap.add_argument("--teto-creditos", type=int, default=None,
@@ -673,8 +678,9 @@ def main(argv: Optional[list[str]] = None) -> int:
     ap.add_argument("--anos", help="ex.: 2022-2026 ou 2021,2023")
     ap.add_argument("--orgao", action="append", default=[],
                     help="trecho do órgão/evento (sem acento/maiúscula), repetível")
+    ap.add_argument("--banca", default="cebraspe", choices=sorted(bancas.BANCAS))
     ap.add_argument("--prioridade",
-                    help="categorias em ordem, separadas por vírgula: " + ",".join(selecao.PRIORIDADES))
+                    help="categorias em ordem, separadas por vírgula (definidas pelo adapter)")
     ap.add_argument("--estimar-custo", action="store_true",
                     help="no --dry-run: estima créditos dos fallbacks (grátis; baixa PDFs)")
     ap.add_argument("--amostra", type=int, default=60,
@@ -683,17 +689,20 @@ def main(argv: Optional[list[str]] = None) -> int:
     ap.add_argument("--extrator", choices=EXTRATORES, default="hibrido",
                     help="local (zero crédito), firecrawl, ou hibrido (padrão: local + "
                          "Firecrawl por item p/ fórmula e por prova p/ cobertura incompleta)")
-    ap.add_argument("--manifesto", type=Path, default=cebraspe_api.MANIFEST)
+    ap.add_argument("--manifesto", type=Path, default=None,
+                    help="default: manifesto do adapter (--banca)")
     ap.add_argument("--dataset", type=Path, default=DATASET)
     args = ap.parse_args(argv)
+    adapter = bancas.get_adapter(args.banca)
+    args.manifesto = args.manifesto or adapter.MANIFEST
 
     if args.descobrir or not args.manifesto.exists():
-        cebraspe_api.salvar(cebraspe_api.descobrir(cebraspe_api.make_fetch()), args.manifesto)
+        adapter.regen_manifest(args.manifesto)
     manifesto = json.loads(args.manifesto.read_text(encoding="utf-8"))
     ds = Dataset.carregar(args.dataset)
 
     if args.dry_run:
-        return plano(manifesto, ds, args)
+        return plano(manifesto, ds, args, adapter)
 
     if args.limite_provas is None or (args.teto_creditos is None and args.extrator != "local"):
         ap.error("--limite-provas (e --teto-creditos, exceto com --extrator local) são "
@@ -710,12 +719,13 @@ def main(argv: Optional[list[str]] = None) -> int:
             app = make_app()
         return extract_prova(app, url, task=task)
 
+    pdf_itens, pdf_mc, pdf_texto, page_counter = _pdf_leitura(adapter)
     rep = executar(manifesto, ds, limite=args.limite_provas, teto=args.teto_creditos,
-                   extractor=extractor, gab_loader=gabmod.carregar,
-                   page_counter=contar_paginas, pdf_itens=itens_do_pdf_url,
-                   pdf_texto=texto_do_pdf_url, pdf_mc=mc_do_pdf_url,
+                   extractor=extractor, gab_loader=adapter.carregar_gabarito,
+                   page_counter=page_counter, pdf_itens=pdf_itens,
+                   pdf_texto=pdf_texto, pdf_mc=pdf_mc,
                    extrator=args.extrator, eventos=args.evento, cadernos=args.caderno,
-                   filtros=_filtros(args),
+                   filtros=_filtros(args, adapter), adapter=adapter,
                    incluir_curso_formacao=args.incluir_curso_formacao)
     REPORTS.mkdir(parents=True, exist_ok=True)
     out = REPORTS / f"run-{datetime.now():%Y%m%d-%H%M%S}.json"

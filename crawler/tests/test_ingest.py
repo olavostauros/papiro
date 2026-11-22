@@ -2,7 +2,7 @@ import json
 
 import pytest
 
-from crawler import run
+from crawler import ingest as run
 from crawler.gabarito import Gabarito
 from crawler.models import ProvaExtraida, QuestaoExtraida
 
