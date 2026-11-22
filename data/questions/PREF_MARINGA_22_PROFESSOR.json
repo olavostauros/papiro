@@ -1,0 +1,689 @@
+{
+ "evento": "PREF_MARINGA_22_PROFESSOR",
+ "banca": "Cebraspe",
+ "orgaos": [
+  "Prefeitura de Maringá"
+ ],
+ "cargos": [
+  "CARGO DE PROFESSOR"
+ ],
+ "assuntos": [
+  ""
+ ],
+ "provas": [
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/PREF_MARINGA_22_PROFESSOR/arquivos/744_PREF_MARINGA_PROF_CG1_01_VF.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/PREF_MARINGA_22_PROFESSOR/arquivos/744_PREF_MARINGA_PROF_001_01.PDF"
+  }
+ ],
+ "itens": [
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-001",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o texto CG-1A1,",
+   "gabarito": "c",
+   "alternativas": [
+    "o marco do Dia Internacional das Mulheres e Meninas na Ciência está amplamente popularizado no Brasil.",
+    "os desequilíbrios nos percentuais de ocupação entre mulheres negras, pardas e brancas são sutis quando se considera a etnia das mulheres.",
+    "a desvantagem das mulheres em relação aos homens se manifesta em várias faixas etárias quando se observa o indicador “nível de ocupação”.",
+    "o índice de participação das mulheres na política não tem relação com a promoção de políticas públicas que favoreçam sua maior participação em áreas como a ciência.",
+    "a presença das mulheres nas diversas áreas da ciência segue um padrão de representatividade percentualmente equilibrado, considerando-se o âmbito global."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-002",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No texto CG-1A1, predomina o tipo textual",
+   "gabarito": "d",
+   "alternativas": [
+    "injuntivo.",
+    "narrativo.",
+    "descritivo.",
+    "dissertativo-argumentativo.",
+    "dissertativo-expositivo."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-003",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do uso da vírgula no primeiro parágrafo do texto CG- 1A1, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "O emprego das vírgulas no primeiro período ocorre devido à mesma motivação sintática.",
+    "No segundo período, a vírgula logo após “dia” se justifica exclusivamente por questões semânticas.",
+    "No terceiro período, o uso da vírgula que antecede o trecho “porém apenas 12% dos membros das academias de ciências nacionais são mulheres” é opcional.",
+    "No início do terceiro período, o emprego da vírgula logo após “mundo” é facultativo.",
+    "No final do terceiro período, o uso da vírgula logo após “e” é obrigatório."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-004",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme as relações de coesão e coerência do texto CG-1A1,",
+   "gabarito": "e",
+   "alternativas": [
+    "no segundo parágrafo, a expressão “Nessa área” (no início do segundo período) refere-se à “área da saúde” (no início do primeiro período).",
+    "o pronome “elas” (início do terceiro parágrafo) refere-se às “mulheres na ciência” (final do segundo período do texto).",
+    "a expressão “Nesse cenário” (início do último parágrafo do texto) retoma a expressão “urgência em promover a inserção das mulheres na política e em posições de liderança” (segunda metade do quinto parágrafo).",
+    "o uso de expressões como “sem dúvida” (final do quarto parágrafo) e “Adicionalmente” (início do quinto parágrafo) serve para corroborar o posicionamento pessoal das autoras sobre o tema.",
+    "no final do terceiro parágrafo, o termo “proporção”, presente no trecho “entre as mulheres brancas, a proporção foi de 62,6%”, refere-se a “níveis de ocupação”."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-005",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere que, no sistema operacional de determinada máquina, o Gnome esteja apresentando erros quando tenta acessar os aplicativos na área de trabalho. Nesse caso, o sistema operacional instalado nessa máquina é o",
+   "gabarito": "a",
+   "alternativas": [
+    "Linux, sendo o Gnome uma forma de interação do usuário correspondente à interface da área de trabalho do Windows.",
+    "Windows 11, sendo o Gnome a interface de acesso à nuvem Azure da Microsoft.",
+    "Linux, sendo o Gnome um aplicativo para a busca de dados na plataforma Google.",
+    "Windows 10, sendo o Gnome o assistente de produtividade pessoal da Microsoft.",
+    "Windows 11, sendo o Gnome um emulador nativo voltado para sistemas Android."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-006",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Caso deseje inserir um sumário automático em um documento do MS Word por meio da opção Sumário , o usuário",
+   "gabarito": "b",
+   "alternativas": [
+    "precisa indicar tão somente as entradas de link no texto, pois o MS Word reconhece automaticamente as entradas do sumário pela inserção de links no texto.",
+    "precisa incluir títulos no documento, por exemplo, por meio da ferramenta Painel de Estilos .",
+    "precisa incluir, ao longo do texto, os indicadores que deseja inserir no sumário, por meio da opção Indicador .",
+    "precisa inserir referências cruzadas para cada título a ser incluído no sumário, por meio da opção Referência Cruzada .",
+    "precisa apenas formatar as fontes do texto, pois o MS Word reconhece automaticamente as entradas do sumário pela formatação da fonte."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-007",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Microsoft Edge permite armazenar os dados de acesso ( login e senha) em um sítio na Internet, de modo que, nas visitas subsequentes ao mesmo sítio, esses dados sejam preenchidos automaticamente. A fim de garantir a segurança e evitar que a senha seja comprometida por meio de vazamentos online , por exemplo, por meio de roubo de dados por terceiros de má-fé, o Microsoft Edge possui um recurso que verifica a segurança das senhas salvas e alerta o usuário se alguma delas está comprometida. Este recurso é denominado",
+   "gabarito": "a",
+   "alternativas": [
+    "Password Monitor .",
+    "Microsoft Defender SmartScreen .",
+    "Application Guard .",
+    "Conditional Access .",
+    "Windows Information Protection (WIP) ."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-008",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Determinado usuário enviou o seguinte pedido de ajuda à área de suporte de TI da instituição: Estou conseguindo acessar minha estação de trabalho, mas não consigo acessar meus arquivos na pasta Documentos; quando tento acessá-los, aparece a mensagem: “Seus dados foram criptografados e somente eu tenho a senha de acesso. Para obter a senha de acesso, você deve transferir 0,05 bitcoins para a carteira informada abaixo”. A situação hipotética precedente é exemplo de um ataque do tipo",
+   "gabarito": "b",
+   "alternativas": [
+    "spyware .",
+    "ransomware .",
+    "trojan .",
+    "worm .",
+    "backdoor ."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-009",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A professora Edna foi consultada por uma escola a respeito de seus horários de trabalho durante o novo ano letivo. Ela deverá escolher quatro horários entre as seguintes opções oferecidas pela escola: no período da manhã, 8 h, 9 h e 10 h de segunda à sexta; no período da tarde, 13 h e 14 h de terça à quinta. Edna irá trabalhar à tarde apenas uma vez por semana e não irá trabalhar em dias consecutivos. Na situação hipotética precedente, a quantidade de formas distintas que Edna poderá escolher seus horários de trabalho é igual a",
+   "gabarito": "b",
+   "alternativas": [
+    "64.",
+    "328.",
+    "5.985.",
+    "504.",
+    "2.730."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-010",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Treze professores de matemática estão planejando uma festa para comemorar o aniversário de inauguração da escola em que trabalham. Para comprar os itens necessários à festa, cada um deles irá pagar um valor que está diretamente relacionado à sua idade. Eles combinaram que o professor mais velho pagará menos, o mais novo irá pagar mais e os valores a serem pagos deveriam estar em progressão aritmética. Todos os professores têm idades diferentes, o segundo professor mais novo pagou R$ 220,00 e o professor que tem a idade do meio pagou R$ 199,00. Na situação hipotética precedente, o valor total arrecadado foi igual a",
+   "gabarito": "c",
+   "alternativas": [
+    "R$ 2.723,50.",
+    "R$ 1.495,00.",
+    "R$ 2.587,00.",
+    "R$ 2.632,50.",
+    "R$ 2.626,00."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-011",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em uma escola estadual trabalham quatorze professores de matemática, sendo oito efetivos e os demais temporários. Se cinco desses professores serão sorteados para participarem de um treinamento, a probabilidade ݌ de que sejam três efetivos e dois temporários é:",
+   "gabarito": "e",
+   "alternativas": [
+    "݌ ൌ ଶସ . ଵ଴଴ଵ",
+    "݌ ൌ ହ଺ . ଶ଴଴ଶ",
+    "݌ ൌ ଻ଵ . ଶ଴଴ଶ",
+    "݌ ൌ ସ଴ . ଵସଷ",
+    "݌ ൌ ଺଴ . ଵସଷ"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-012",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Um servidor público do município de Maringá foi demitido, mas, por decisão administrativa, essa demissão foi considerada inválida, razão por que ele foi reinvestido no seu cargo. Nessa situação hipotética, conforme a legislação pertinente, a reinvestidura do servidor corresponde ao instituto da",
+   "gabarito": "d",
+   "alternativas": [
+    "reversão.",
+    "readaptação.",
+    "remoção.",
+    "reintegração.",
+    "recondução."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-013",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Determinado servidor público do município de Maringá recebeu as seguintes parcelas: I adicional por tempo de serviço; II adicional noturno; III adicional pelo exercício de atividade insalubre; IV gratificação de atividade de risco. Nessa situação, os valores que comporão a base de cálculo da remuneração desse servidor, caso ele entre em gozo de licença com direito a remuneração, deverão incluir apenas aqueles correspondentes aos itens",
+   "gabarito": "d",
+   "alternativas": [
+    "I e II.",
+    "I, II e III.",
+    "I, II e IV.",
+    "I, III e IV.",
+    "II, III e IV."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-014",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Dois servidores públicos do município de Maringá pretendem requerer licença para tratar de interesses particulares: João, aprovado e empossado no cargo, com um ano de serviço público, e Pedro, com dez anos de serviço público, mas que já gozou essa licença três anos antes. Nessa situação hipotética, a licença poderá ser concedida a",
+   "gabarito": "e",
+   "alternativas": [
+    "João, somente, com direito a remuneração.",
+    "João, somente, sem direito a remuneração.",
+    "João e Pedro, sem direito a remuneração.",
+    "Pedro, somente, com direito a remuneração.",
+    "Pedro, somente, sem direito a remuneração."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-015",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Nos termos da Lei Complementar n.o 749/2008, e respectivas alterações, o diretor da Maringá Previdência indicado pelo Poder Legislativo municipal é o diretor",
+   "gabarito": "a",
+   "alternativas": [
+    "administrativo e de patrimônio.",
+    "de gestão previdenciária.",
+    "de gestão financeira.",
+    "presidente.",
+    "executivo."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-016",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ao longo da história da humanidade, a atividade de ensino sofreu mudanças significativas por meio da ação de diversas correntes pedagógicas. Julgue os itens a seguir, relacionados aos princípios dessas diferentes correntes do pensamento pedagógico. I Ao contrário da escola clássica, a escola nova preconiza a personalização do ensino. II Assim como a educação freireana, a escola nova é favorável à aproximação entre educação e mundo do trabalho. III A escola democrática promove a discussão relativa à ampliação dos turnos de aulas e à gratuidade do ensino. Assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Nenhum item está certo.",
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-017",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Julgue os itens que se seguem acerca das contribuições de Piaget, Vigotski e Wallon nos processos psicológicos envolvidos na aprendizagem. I Wallon prioriza a inteligência em detrimento da afetividade, nos processos de desenvolvimento e aprendizagem. II Vigotski inaugura o conceito de caminhos alternativos de desenvolvimento em oposição à ideia de funções cognitivas fixas. III Para Piaget, no desenvolvimento da criança, o pensamento egocêntrico é anterior à comunicação com o outro. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-018",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Os caminhos percorridos no processo de aprendizagem sempre foram uma questão inquietante para os estudiosos das áreas de educação e psicologia. Cientistas desenvolveram teorias que pudessem elucidar a questão e os métodos que se propõem a facilitar o processo de ensino-aprendizagem. Considerando o tema apresentado, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "O conceito de contiguidade, apresentado na teoria do condicionamento, está ligado a efeitos de um estímulo.",
+    "De acordo com a teoria da Gestalt, a aprendizagem é o resultado dos comportamentos que recebem reforço.",
+    "Em oposição ao evolucionismo, a Gestalt aposta na capacidade do próprio aluno, se provocado adequadamente, de encontrar as respostas corretas para os problemas propostos.",
+    "A teoria social cognitiva defende a ideia da complexificação dos conteúdos de ensino a partir da aprendizagem de pré- requisitos.",
+    "As abordagens construtivistas são centradas na atividade do professor e em sua capacidade de elaborar processos que levem a uma correta aprendizagem."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-019",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O sucesso do processo de ensino e aprendizagem é o resultado de elementos que pertencem a lados diferentes da mesma construção. Nesse contexto, é correto afirmar que I o professor que prepara as aulas de acordo com o material constante do livro didático, prezando, sobretudo, pelas técnicas de ensino, garante bons resultados na aprendizagem. II quanto mais o professor avança para o final do conteúdo do livro didático no ano letivo, maior será a aprendizagem dos alunos. III para além da transmissão dos conteúdos, o ensino deve promover o desenvolvimento de competências e habilidades dos alunos, como a capacidade de enfrentar problemas da vida social. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Nenhum item está certo.",
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-020",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando que a didática é uma área da pedagogia que ajuda a compreender e organizar os conteúdos escolares e a orientar o trabalho docente, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "A didática se atém a fatores que interferem na formação acadêmica.",
+    "A ação didática influencia e é influenciada por questões políticas.",
+    "As metodologias de ensino determinam a ação didática.",
+    "O currículo apresenta as técnicas e os recursos colocados à disposição do professor.",
+    "A instrução consiste no planejamento, organização, direção e avaliação da atividade didática."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-021",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Uma teoria é uma tentativa humana de sistematizar uma área de conhecimento, uma maneira particular de observar, prever e propor a resolução de problemas. Nesse sentido, uma teoria da aprendizagem é uma construção humana que tenta entender o que é e como se processa a aprendizagem. Considerando as informações apresentadas, assinale a opção correta em relação à teoria da educação.",
+   "gabarito": "c",
+   "alternativas": [
+    "De acordo com o conexionismo, a aprendizagem é garantida pela prontidão.",
+    "Aprendizagem por estimulação e maturação são elementos da teoria do conexionismo.",
+    "Para a aprendizagem significativa, a introdução de um conteúdo de ensino se ancora em conhecimentos já dominados pelo aluno.",
+    "Segundo a teoria das hierarquias de aprendizagem, basta a mudança de determinados comportamentos para que a aprendizagem seja confirmada.",
+    "Resposta múltipla, resposta por analogia e mudança associativa são elementos da aprendizagem significativa."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-022",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere ao conceito de múltiplas inteligências desenvolvido por Gardner, julgue os itens a seguir. I Cada ser humano nasce com apenas um tipo específico de inteligência. II São exemplos de inteligência a visual e a auditiva. III O desenvolvimento de um tipo de inteligência depende dos estímulos recebidos. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens II e III estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-023",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Julgue os itens a seguir relativos à teoria das inteligências múltiplas de Gardner. I Todos os tipos de inteligência podem ser utilizados no desenvolvimento da arte. II A capacidade de entender a si mesmo é definida como inteligência intrapessoal. III A inteligência cinestésica explica a capacidade de compreender e delimitar o espaço físico. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-024",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Tendo o fragmento de texto acima como referência inicial, assinale a opção correta a respeito da ação mediadora da avaliação.",
+   "gabarito": "b",
+   "alternativas": [
+    "Como define Vygotsky em sua teoria psicogenética, na ação avaliativa mediadora é necessária a tomada de consciência sobre o que se executa.",
+    "É preciso partir da negação da prática atual de avaliar quanto a seu caráter de terminalidade, de obstrução, de constatação de erros e acertos.",
+    "As relações de poder no ambiente escolar, em seus posicionamentos radicais quanto às mediações entre os pares, afetam a ação avaliativa.",
+    "A mediação pode ser encarada como processo corretivo da avaliação, desde que tenha em sua essência caráter investigativo.",
+    "O processo de internalização da ação avaliativa é possível graças à mediação dos sistemas simbólicos de representação do real, cuja linguagem é o principal sistema."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-026",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O termo em inglês bullying , também conhecido como assédio, é mais comumente associado aos comportamentos violentos que acontecem dentro do espaço escolar; já a palavra bully é usada para se referir à pessoa que assedia seus colegas por meio de seu comportamento, ou seja, o típico “valentão”. A respeito do bullying no espaço escolar, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Para que proporcione uma educação afetiva e social adequada, a escola deve garantir que seu espaço se torne um ambiente terapêutico, um espaço em que o corpo discente aprenda o básico da convivência.",
+    "Para lidar com o problema do bullying escolar, é fundamental relacioná-lo a todos os outros comportamentos violentos do ser humano.",
+    "O bullying é um fenômeno de abuso, maus-tratos, assédio ou exclusão social que, quando aparece, se torna o principal motivo das dificuldades de aprendizagem do ambiente escolar.",
+    "A desigualdade de condições psicológicas entre agressor e vítima deve ser levada em consideração para que seja possível diferenciar a prática de bullying de outros episódios de violência.",
+    "O bullying na escola ocorre em meio a uma relação de abuso de poder do mais forte para o mais fraco e tem como principal característica o anonimato."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-028",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A psicologia do desenvolvimento é o estudo científico de como e por que os seres humanos mudam ao longo da vida. A partir dos diferentes estudos no âmbito dessa ciência, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Wallon afirma que as estruturas mentais são totalidades organizadas de esquemas cognitivos.",
+    "O professor tem o papel de acompanhar os estágios da criança; a zona proximal entre eles acontecerá intuitivamente.",
+    "Segundo Jean Piaget, o desenvolvimento cognitivo acontece em quatro estágios principais: animismo, pré-operatório, operatório concreto e operatório formal.",
+    "O jogo simbólico implica a representação do objeto ausente, pois é a comparação entre o objeto dado e o imaginado e aparece na criança por volta do primeiro ano de vida.",
+    "Segundo a psicologia histórico-cultural, a mediação pode ser entendida como o universo de significações que permite construir a interpretação do mundo real."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-029",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere à obra de Vygotsky como uma psicologia do desenvolvimento, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Segundo Vygotsky, é necessário esperar que a criança apresente um nível de desenvolvimento de maturidade para a sua educação escolar ter início.",
+    "A noção de zona de desenvolvimento proximal desconsidera as interações sociais.",
+    "Os conhecimentos prévios do educando fazem parte do nível de desenvolvimento real, no qual o aluno atua com relativa autonomia; portanto, a aprendizagem do educando inicia-se somente quando ele começa a frequentar a escola.",
+    "As características humanas resultam das relações entre o homem e a sociedade em que este vive, pois, quando o homem transforma o meio na busca de atender suas necessidades básicas, ele transforma a si mesmo.",
+    "O processo de formação de conceitos espontâneo e científico remete às relações decorrentes das fases psíquicas. Tais conceitos são apreendidos independentemente do ensino."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-030",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A escola contemporânea aborda novas realidades que surgem com o desenvolvimento econômico, social, cultural e tecnológico; ela necessita colocar-se em uma perspectiva de crítica que permita ao sujeito a compreensão e transformação da realidade. Nessa perspectiva, a escola contemporânea deve",
+   "gabarito": "b",
+   "alternativas": [
+    "abordar a organização do trabalho pedagógico a partir de um ponto unidimensional de concepção de ensino.",
+    "compreender os efeitos positivos e negativos das novas tecnologias e seus impactos para a educação, para a sala de aula e para a aprendizagem dos alunos.",
+    "dominar os processos de funcionamento das tecnologias de comunicação.",
+    "escolher princípios religiosos e culturais na escola pública para alicerçar escolhas pessoais e práticas sociais.",
+    "relativizar as dimensões de classe, raça e gênero no cotidiano escolar."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-031",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito da avaliação do processo ensino-aprendizagem, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "A avaliação formativa permite captar os avanços e as dificuldades que forem manifestadas no processo de aprendizagem, ainda em tempo de tomar providências que possam afastar as dificuldades percebidas.",
+    "A avaliação classificatória foi historicamente se tornando desnecessária, pois constitui uma condição de exclusão no processo de aprendizagem.",
+    "Em paralelo à visão tradicional da avaliação, defende-se a ideia de que, em vez de examinar e(ou) avaliar a aprendizagem, o professor deve direcionar uma ação de efetiva promoção dos conteúdos curriculares.",
+    "As práticas avaliativas mediadoras permitem classificar horizontalmente os alunos.",
+    "Planejamento e avaliação são atos antagônicos para o processo de ensino-aprendizagem; o planejamento traça previamente os caminhos, enquanto a avaliação coloca os estudantes em uma posição inferiorizada."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-032",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Questionar sobre o que os alunos deveriam saber ao concluir a educação básica faz parte do julgamento sobre determinada escola ser boa ou não e relaciona-se diretamente à ótica da concepção de currículo que embasa esse questionamento. No que se refere a esse tema, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Eficiência e eficácia são termos da área de gestão que não podem ser associados às teorias de currículo.",
+    "A visão de currículo como instrução tem suas origens no taylorismo.",
+    "O currículo, em uma concepção liberal, valoriza a teoria em detrimento da prática.",
+    "A eficiência das escolas pode ser mensurada pela teoria de currículo que sustenta seu projeto pedagógico.",
+    "Currículo e instrução são termos independentes e desassociados das práticas docentes em sala de aula."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-033",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Tendo em vista que as concepções de currículo no Brasil foram sendo modificadas pelas transformações históricas ocorridas na educação, assinale opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "O manifesto dos pioneiros preconizava a criação de escolas com tendências à educação integral, ativa e para o exercício da autonomia, rejeitando o desenvolvimento de programas enciclopédicos bem como avaliações rígidas centradas em resultados numéricos.",
+    "O currículo tecnicista, que prevaleceu em toda a primeira metade do século XX, preconizava que a escola deveria ser considerada um meio de ampliar as capacidades humanas, valorizando as subjetividades dos sujeitos.",
+    "O currículo, que é um elemento transcendente e atemporal, tem sua história vinculada a formas específicas e contingentes de organização da educação, mas não está vinculado a transformações sociais.",
+    "As teorias tradicionais do currículo preconizam que a escola precisa ter como prática uma pedagogia que denuncie as situações que desvalorizem a vida.",
+    "Os movimentos associados às teorias críticas buscaram dar voz ao aluno, incorporando aos conteúdos curriculares as experiências do cotidiano e trazendo para a sala de aula a proposta de pensar sobre os problemas atuais."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-034",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No projeto pedagógico de determinada escola, está expresso que seus valores estão fundamentados na formação crítica dos cidadãos e no respeito aos direitos humanos, mas, na sala de aula, alguns professores assumem uma postura autoritária e racista. Com referência a essa situação hipotética, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "O que está descrito no projeto pedagógico da escola denomina-se currículo real.",
+    "O currículo oculto é aquele que está nos planos de ensino, mas não é trabalhado na sala de aula.",
+    "O currículo formal é aquele que revela as ações docentes que, de fato, são desenvolvidas em sala de aula.",
+    "Na situação em apreço, a postura autoritária e racista dos docentes é parte do que se denomina currículo oculto.",
+    "O currículo real se traduz nos comportamentos e nas posturas dos docentes e dos estudantes em sala de aula."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-035",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação ao fato de que o acesso e a permanência na escola estão diretamente associados ao fracasso ou sucesso escolar, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "A perspectiva de ingresso em cursos superiores é um dos grandes motivadores para a maioria dos jovens que chegam ao ensino médio.",
+    "A gestão e a organização das escolas de educação básica estão sempre focadas na redução da evasão e do fracasso escolar.",
+    "As crianças e os jovens, muitas vezes, são obrigados a trabalhar para o sustento próprio e o da família, de modo que, exaustos do trabalho e desmotivados pelo baixo rendimento escolar, eles desistem dos estudos.",
+    "A evasão e a repetência estão relacionadas a problemas e características individuais dos alunos e de suas famílias, sendo reflexos da forma como as famílias encaram a educação e incentivam seus filhos.",
+    "As diferentes etapas da educação básica incluem o ensino médio, etapa na qual há menor número de evasão pelo fato de os adolescentes compreenderem a educação como mecanismo transformador da sua situação social."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-036",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ao assumir a direção de uma escola, a nova diretora fez uma consulta à comunidade escolar para identificar qual seria seu papel neste local. Nessa situação hipotética, caso a nova diretora adote a sugestão",
+   "gabarito": "b",
+   "alternativas": [
+    "de um grupo de docentes, e prescreva as funções de cada um dos integrantes da escola, por meio de normas e procedimentos administrativos, essa medida caracterizará o exercício da função direcional de forma colegiada.",
+    "de um grupo de pais, para que sua gestão conte com uma equipe que inclua a participação de docentes, estudantes e pais, tal medida caracterizará uma atuação direcional democrática-participativa.",
+    "de um grupo de docentes, no sentido de confiar na participação direta e por igual de todos os membros da instituição, sem se preocupar com o exercício de autoridade e as formas mais sistematizadas de organização e gestão, tal medida constituirá o pilar de uma gestão técnico-científica.",
+    "de estudantes do grêmio estudantil, no sentido de que sua gestão foque nas práticas organizativas para a construção social com base nas experiências subjetivas e nas interações sociais, isso configurará uma gestão colegiada.",
+    "de um grupo de pais, docentes e estudantes, para que ela crie um conselho de escola, a nova gestão se dará com base em uma concepção interpretativa."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-037",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Tendo em vista que o ensino fundamental é a etapa mais longa da educação básica e que, de acordo com a BNCC, é o período em que são propostas novas formas de estabelecer relações com o conhecimento, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "A escola, devido ao fato de ser uma instituição formadora, não pode dialogar com a diversidade de formação e com as vivências para enfrentar os desafios de seus propósitos educativos.",
+    "A BNCC do ensino fundamental sugere o rompimento com as atividades lúdicas praticadas na educação infantil, a fim de facilitar a sistematização dos conhecimentos.",
+    "Os conteúdos trabalhados no ensino fundamental devem se dissociar das vivências sociais dos estudantes e do contexto no qual estes estão inseridos.",
+    "A escola precisa valorizar a cultura digital, a fim de viabilizar a ampliação da capacidade crítica dos estudantes sobre o uso e as linguagens utilizadas neste mundo midiático.",
+    "A naturalização da violência simbólica de grupos sociais — que impõem normas, valores e conhecimentos tidos como universais e que não estabelecem diálogo com as diferentes culturas presentes na comunidade — passou a ser mais uma das funções da escola."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-038",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando as diretrizes da BNCC para a educação infantil, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "As crianças da educação infantil, por serem pequenas, não conseguem se localizar em relação a espaço, tempo, quantidade, relação e transformação , nem têm noções matemáticas, a exemplo de quantidades, comparação de pesos e comprimentos.",
+    "O compartilhamento de experiências que explorem a comunicação — por meio de estratégias como contação de histórias, conversas e outros recursos que mantenham o interesse e a curiosidade com relação ao ouvir, acompanhar e observar um texto — é necessário nessa etapa da educação.",
+    "O professor da educação infantil fica impossibilitado de ajudar a desenvolver nas crianças dessa etapa noções de cuidado consigo mesma e com os outros, já que elas são muito pequenas.",
+    "A exploração dos movimentos corporais na educação infantil deve ser realizada por meio de atividades como danças, músicas e teatro, preparando, assim, essas crianças para as apresentações em eventos da escola.",
+    "As relações sociais trabalhadas nessa etapa da educação devem se restringir às relações de criança para criança, pois as relações com adultos devem ser trabalhadas somente no ensino fundamental."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-pref-maringa-professor-039",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Mariana tomou posse e iniciou exercício de professora de biologia em uma escola da rede municipal de ensino de Maringá em janeiro de 2022. Em julho do mesmo ano, ela foi convidada pela Secretaria de Educação para assumir a direção de uma outra escola. Nessa situação hipotética, com base na legislação municipal vigente, Mariana",
+   "gabarito": "a",
+   "alternativas": [
+    "não poderá assumir o cargo por não fazer parte do quadro de docentes estáveis.",
+    "poderá assumir o cargo, desde que tenha formação em pedagogia.",
+    "poderá assumir o cargo, desde que tenha feito um curso de especialização na área de gestão escolar.",
+    "poderá assumir o cargo mesmo que haja algum processo administrativo instaurado contra ela.",
+    "somente poderá assumir o cargo se a outra escola oferecer apenas a educação infantil."
+   ]
+  }
+ ]
+}

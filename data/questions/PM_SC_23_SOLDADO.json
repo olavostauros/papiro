@@ -1,0 +1,980 @@
+{
+ "evento": "PM_SC_23_SOLDADO",
+ "banca": "Cebraspe",
+ "orgaos": [
+  "POLÍCIA MILITAR DE SANTA CATARINA"
+ ],
+ "cargos": [
+  "CARGO DE SOLDADO DA POLÍCIA MILITAR"
+ ],
+ "assuntos": [
+  "NOÇÕES DE DIREITO CONSTITUCIONAL",
+  "NOÇÕES DE DIREITO PENAL COMUM",
+  "NOÇÕES DE DIREITO PROCESSUAL PENAL",
+  "LEGISLAÇÃO INSTITUCIONAL",
+  "LÍNGUA PORTUGUESA",
+  "INFORMÁTICA",
+  "RACIOCÍNIO LÓGICO"
+ ],
+ "provas": [
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/PM_SC_23_SOLDADO/arquivos/862_PMSC_SOLDADO_001_01.PDF"
+  }
+ ],
+ "itens": [
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-001",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando os princípios fundamentais, os direitos de nacionalidade e a organização do Estado brasileiro, assinale a opção correta de acordo com a Constituição Federal de 1988 (CF).",
+   "gabarito": "c",
+   "alternativas": [
+    "Os entes da Federação, em seus três níveis — União, estados e municípios —, possuem soberania.",
+    "Para fins constitucionais, a população do Brasil é formada apenas por brasileiros natos.",
+    "A erradicação da pobreza e da marginalização é objetivo fundamental da República Federativa do Brasil.",
+    "A CF adota a separação rígida dos Poderes, de modo que cada Poder possui funções especializadas que os demais não podem exercer, ainda que excepcionalmente.",
+    "A CF expressamente elenca a orientação sexual entre os fatores com base nos quais não se admite tratamento jurídico diferenciado de pessoas."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-002",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito da eficácia das normas constitucionais, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Mesmo normas constitucionais programáticas possuem algum nível de eficácia.",
+    "Certas normas constitucionais são completamente destituídas de efeito.",
+    "A norma constitucional que define um plano de ação para os órgãos públicos é de eficácia plena.",
+    "A eficácia das normas constitucionais não pode, em nenhum caso, depender de normas hierarquicamente inferiores.",
+    "Apenas as normas constitucionais de eficácia plena produzem o efeito de condicionar aos seus preceitos novas normas criadas posteriormente pelo Poder Legislativo."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-004",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No Brasil, os partidos políticos",
+   "gabarito": "c",
+   "alternativas": [
+    "têm direito de acesso gratuito ao rádio e à televisão, desde que sejam registrados na justiça eleitoral.",
+    "não são indispensáveis ao funcionamento do regime democrático.",
+    "não necessitam de autorização estatal prévia para se constituir.",
+    "integram a estrutura da administração pública.",
+    "podem ter qualquer finalidade e receber recursos de qualquer origem, em virtude do princípio da liberdade partidária."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-005",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Na Federação brasileira, os estados",
+   "gabarito": "e",
+   "alternativas": [
+    "detêm soberania frente às decisões da União.",
+    "podem organizar-se livremente por meio de Constituição estadual, dispensada de observar as regras da Constituição Federal.",
+    "possuem a mesma estrutura de Poderes que os municípios.",
+    "têm Poder Legislativo organizado de forma bicameral, com dois órgãos legislativos, tal qual a União.",
+    "podem, apesar da autonomia municipal, intervir nos municípios, em algumas circunstâncias."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-006",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação aos municípios da Federação brasileira, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Em todas as câmaras municipais, o controle externo será exercido com o auxílio do tribunal de contas dos municípios.",
+    "A lei orgânica dos municípios deve ser aprovada pela assembleia legislativa dos respectivos estados.",
+    "A lei orgânica dos municípios define livremente o número de vereadores das respectivas câmaras municipais, de acordo com a realidade e a decisão política de cada município.",
+    "Os prefeitos municipais que praticarem crime comum no exercício da função e em razão dela deverão ser julgados, em regra, pelo tribunal de justiça estadual.",
+    "No caso de divergência entre a orientação do Poder Executivo municipal e a do estadual, esta última deverá prevalecer."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-007",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando as disposições gerais da CF acerca da administração pública, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Em razão do princípio da legalidade, todas as normas constitucionais devem ser objeto de lei ordinária para que a administração pública possa agir de forma legítima com base nelas.",
+    "Todos os princípios aplicáveis à administração pública devem estar expressos na CF, que não admite princípios implícitos.",
+    "Em regra, se não houver norma específica que imponha a publicidade de um ato administrativo, não é necessário torná-lo público.",
+    "Atos jurídicos da administração pública devem considerar apenas as regras jurídicas objetivas; considerações sobre moralidade, por exemplo, não interferem na validade desses atos.",
+    "Por força do princípio da impessoalidade, os atos da administração pública não são atribuídos à pessoa física que os pratica, mas ao órgão ou ente público que esta representa."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-008",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base nas normas da CF acerca dos servidores públicos e de aspectos a eles relacionados, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Em regra, é inadmitida a acumulação de cargos e empregos públicos.",
+    "Cada estado-membro e cada município, devido a sua autonomia, decidem livremente, em lei, o regime jurídico de seus servidores públicos.",
+    "O prazo de validade dos concursos públicos é, em regra, de quatro anos, prorrogável uma vez, por igual período.",
+    "Todo agente público é contratado por prazo indeterminado, não sendo admitidos no serviço público vínculos profissionais de caráter temporário.",
+    "Eventuais acréscimos pecuniários percebidos por servidor público serão computados para fins de concessão de acréscimos ulteriores."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-009",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da aplicação da lei penal, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Compete ao juízo das execuções a aplicação da lei penal mais benéfica ao acusado, ainda que não transitada em julgado a sentença condenatória.",
+    "Sem prejuízo de convenções, tratados e regras de direito internacional, aplica-se a lei penal brasileira aos fatos ocorridos em aeronaves privadas estrangeiras durante seu voo sobre o território brasileiro.",
+    "A lei excepcional ou temporária, quando decorrido o período de sua duração ou cessadas as circunstâncias que a determinaram, não se aplica ao fato praticado durante sua vigência.",
+    "Para efeito de análise do local do crime, a legislação brasileira adota a teoria da atividade.",
+    "Na contagem dos prazos previstos no Código Penal (CP), exclui-se o dia do começo do prazo e inclui-se o do vencimento."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-010",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Admite-se punição para a forma tentada de",
+   "gabarito": "d",
+   "alternativas": [
+    "contravenção penal.",
+    "crime habitual.",
+    "crime culposo.",
+    "crime praticado com dolo eventual.",
+    "crime omissivo próprio."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-011",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação ao concurso de pessoas, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "O ajuste, a determinação ou instigação e o auxílio, salvo disposição expressa em contrário, não são puníveis se o crime houver sido tentado.",
+    "O concurso de pessoas caracteriza-se pelo necessário ajuste prévio entre os colaboradores para a prática do delito.",
+    "Se a participação for de menor importância, o juiz poderá aplicar o perdão judicial.",
+    "Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua personalidade.",
+    "Se a intenção de algum dos concorrentes fosse participar de crime menos grave, ser-lhe-á aplicada a pena deste, a qual será aumentada até a metade na hipótese de ter sido previsível o resultado mais grave."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-012",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Nos termos do CP, a pena pelo crime de feminicídio é aumentada de um terço até a metade se o crime tiver sido praticado",
+   "gabarito": "a",
+   "alternativas": [
+    "enquanto a vítima estava gestante ou nos três meses posteriores ao parto.",
+    "em descumprimento de medida protetiva de urgência referente ao dever de pagar alimentos provisórios.",
+    "na presença física de terceiros.",
+    "na presença virtual de descendentes do acusado.",
+    "em descumprimento de medida protetiva de urgência referente ao dever de comparecimento do agressor a programas de recuperação e reeducação."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-013",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Caso um indivíduo seja preso em flagrante pela prática de furto a uma residência, ele será isento de pena se tiver cometido o crime em prejuízo de",
+   "gabarito": "e",
+   "alternativas": [
+    "sua namorada, desde que coabite com ela.",
+    "sua mãe, desde que ela tenha sessenta anos ou mais de idade.",
+    "seu irmão, desde que coabite com ele.",
+    "seu filho, desde que coabite com ele.",
+    "seu cônjuge, na constância da sociedade conjugal."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-014",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Quando o agente, mediante mais de uma ação ou omissão, pratica dois ou mais crimes, idênticos ou não, aplicam-se cumulativamente as penas privativas de liberdade em que haja incorrido. Nessa hipótese, ocorre",
+   "gabarito": "d",
+   "alternativas": [
+    "crime continuado.",
+    "concurso formal imperfeito.",
+    "concurso formal.",
+    "concurso material.",
+    "crime multitudinário."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-015",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A conduta de funcionário público, fora do exercício de sua função, mas em razão dela, exigir o pagamento de uma vantagem indevida configura o crime de",
+   "gabarito": "c",
+   "alternativas": [
+    "extorsão.",
+    "prevaricação.",
+    "concussão.",
+    "corrupção passiva.",
+    "advocacia administrativa."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-016",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Segundo o entendimento jurisprudencial do Superior Tribunal de Justiça (STJ), inserir informação falsa em currículo Lattes configura",
+   "gabarito": "b",
+   "alternativas": [
+    "crime de falsificação de documento particular.",
+    "conduta atípica.",
+    "crime de falsidade ideológica.",
+    "crime de estelionato.",
+    "crime de falsificação de documento público."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-017",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere à aplicação da lei processual penal no tempo, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Nova lei processual penal, mesmo que favorável ao agente de crime, é aplicável aos fatos anteriores a ela, ainda que já haja decisão a respeito desses fatos em sentença condenatória transitada em julgado.",
+    "Nova lei processual penal tem aplicação imediata em processos que já estejam em andamento.",
+    "A lei processual penal não admite interpretação extensiva nem aplicação analógica, por força do princípio da legalidade.",
+    "Nova lei processual penal tem aplicação imediata, o que impõe a necessidade de renovação dos atos praticados de acordo com a lei anterior, para que estejam em conformidade com a nova legislação.",
+    "A lei processual penal será aplicada exclusivamente aos processos iniciados durante sua vigência."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-018",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta acerca do processo penal constitucional.",
+   "gabarito": "d",
+   "alternativas": [
+    "Ninguém será considerado culpado até o seu julgamento em segunda instância.",
+    "Permite-se, excepcionalmente, a criação de juízo ou de tribunal especial para julgar crimes graves.",
+    "O princípio da inadmissibilidade das provas ilícitas será afastado quando a prova, ainda que obtida por meios ilícitos, for absolutamente necessária para estabelecer a verdade real dos fatos.",
+    "O princípio do contraditório constitui corolário do devido processo legal.",
+    "Por força do princípio da intranscendência, é terminantemente vedado estender aos sucessores do condenado a obrigação de reparar o dano por ele causado."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-020",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Segundo o princípio de vedação da autoincriminação ( nemo tenetur se detegere ), o acusado",
+   "gabarito": "e",
+   "alternativas": [
+    "é obrigado a fornecer padrões vocais necessários para subsidiar prova pericial de verificação de interlocutor.",
+    "é obrigado a fornecer material para exame grafotécnico, para fins de reconhecimento de escritos por comparação de letra.",
+    "é obrigado a participar da reconstituição do crime a ele imputado.",
+    "não pode mentir, sob pena de perjúrio.",
+    "tem direito ao silêncio, o que não implica direito de falsear a verdade quanto à identidade pessoal."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-021",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No tocante ao inquérito policial, julgue os itens seguintes, à luz do Código de Processo Penal (CPP). I Para repressão do crime de tráfico de pessoas, o membro do Ministério Público poderá requisitar diretamente às empresas prestadoras de serviço de telecomunicações que disponibilizem imediatamente os sinais que permitam a localização da vítima do delito em curso. II O policial militar que figure como investigado em inquérito policial cujo objeto seja a investigação de fatos relacionados ao uso de força letal no exercício profissional poderá constituir defensor. III O ofendido, ou seu representante legal, e o indiciado poderão requisitar qualquer diligência, que será realizada pela autoridade policial, em respeito ao princípio da isonomia. Assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-022",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "João estava sendo investigado por um crime, no entanto, devido à falta de indícios suficientes de autoria, o inquérito policial foi arquivado mediante pedido do Ministério Público e determinação da autoridade judiciária competente. Passados dois anos, a polícia civil descobriu uma nova prova relevante que apontava para o possível envolvimento de João no crime em questão. Essa prova consistia em imagens de câmeras de segurança de residências, na vizinhança onde ocorrera o delito, captadas no momento exato da sua prática, mas cuja existência só foi descoberta posteriormente. Com base nessa nova evidência, o delegado responsável pelo caso pretende desarquivar o inquérito policial para retomar as investigações. Considerando a situação hipotética precedente, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "O inquérito policial não poderá ser reaberto, pois se operou a coisa julgada material.",
+    "A reabertura das investigações poderá decorrer de simples mudança de opinião ou reavaliação da situação, em razão do princípio da verdade real.",
+    "Dada a notícia de prova nova, é possível o desarquivamento do inquérito policial.",
+    "Não poderá haver o desarquivamento do inquérito, uma vez que as imagens foram captadas antes do seu arquivamento.",
+    "O arquivamento do inquérito por falta de justa causa poderia ter sido diretamente determinado pela autoridade policial, sem a necessidade de manifestação do Ministério Público ou do juiz."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-023",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "O inquérito policial é um procedimento",
+   "gabarito": "a",
+   "alternativas": [
+    "de natureza inquisitiva.",
+    "indispensável.",
+    "público em todos os seus atos.",
+    "passível de ser presidido pelo Ministério Público.",
+    "não oficioso."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-024",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Uma vez instaurado pelo delegado de polícia, o inquérito policial deve ser concluído no prazo de",
+   "gabarito": "c",
+   "alternativas": [
+    "cinco dias, em caso de prisão em flagrante.",
+    "quinze dias, caso o investigado esteja solto.",
+    "dez dias, em caso de prisão preventiva.",
+    "trinta dias, em caso de crime hediondo.",
+    "dez dias, sendo prorrogável por igual período, em caso de prisão em flagrante."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-025",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "José, aluno-oficial do primeiro ano do curso de formação de oficiais da Polícia Militar de Santa Catarina (PMSC), conheceu Maria, turista espanhola de passagem pelo Brasil. Embora soubesse que o curso exigia a condição de solteiro, José casou-se com Maria às escondidas. Após o casamento, o casal viajou por sete dias. Ao retornar, José informou à corporação que se casara e que estivera em lua de mel no referido período. Nessa situação hipotética, conforme o Estatuto dos Policiais Militares do Estado de Santa Catarina (Lei n.o 6.218/1983), José",
+   "gabarito": "d",
+   "alternativas": [
+    "deveria ter sido considerado desaparecido pela corporação policial militar no período em que se ausentou do curso de formação de oficiais.",
+    "tinha direito ao afastamento total do serviço por motivo de núpcias.",
+    "poderá permanecer, se for do interesse da corporação, na graduação de terceiro-sargento da PMSC, desde que tranque definitivamente sua matrícula no curso de formação de oficiais.",
+    "deve ser excluído da corporação, sem qualquer direito a remuneração ou indenização.",
+    "terá agido corretamente se, por ocasião de seu retorno, tiver apresentado documentação que justificasse sua ausência."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-026",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em 7/7/2023, sexta-feira, Alberto chegou ao 1.o Batalhão da PMSC para cumprir escala de serviço como guarda do quartel, porém foi preso por estar visivelmente embriagado. No alojamento, começou a furtar dinheiro da carteira de Carlos, que o surpreendeu e passou a agredi-lo. Ato contínuo, Mário tentou impedir as agressões, mas foi agredido seriamente por Carlos. Utilizando-se dos meios necessários, Mário repeliu a injusta agressão de Carlos, momento em que este foi lesionado por Mário. Após os ânimos se acalmarem, Alberto, Carlos e Mário decidiram não comunicar o fato a seus superiores, porém o soldado André, que havia presenciado tudo, comunicou o ocorrido ao seu chefe imediato, por escrito, no dia seguinte, mencionando, inclusive, que Alberto tinha sido seu companheiro de curso de formação policial e que ambos ingressaram na corporação em 1.o/5/2014. Em relação a essa situação hipotética, assinale a opção correta segundo o Regulamento Disciplinar da PMSC e o Estatuto dos Policiais Militares do Estado de Santa Catarina.",
+   "gabarito": "b",
+   "alternativas": [
+    "André não fez a comunicação do fato em conformidade com a forma legal prevista no referido regulamento.",
+    "Mário não deverá ser punido por ter lesionado Carlos na tentativa de conter as agressões, haja vista ter agido em legítima defesa.",
+    "Alberto deverá ser submetido ao Conselho de Disciplina, na forma do referido estatuto.",
+    "Caso se sinta prejudicado e injustiçado, Alberto poderá ajuizar representação, solicitando à autoridade que determinou sua punição disciplinar que reexamine sua decisão e a reconsidere.",
+    "O início do cumprimento da punição disciplinar imposta a Alberto se dará com a publicação da punição disciplinar em boletim da organização policial militar."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-027",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base no Decreto-lei n.o 667/1969, que reorganiza as polícias militares e os corpos de bombeiros militares dos estados, dos territórios e do Distrito Federal, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "A legislação dos regimes próprios de previdência social dos servidores públicos, a partir de 1.o de janeiro de 2025, será aplicada ao sistema de proteção social dos militares dos estados, do Distrito Federal e dos territórios.",
+    "É permitido ao policial militar em serviço ativo fazer parte de firmas comerciais de empresas industriais de qualquer natureza.",
+    "Cumprido o tempo mínimo de 35 anos de serviço, dos quais no mínimo 30 anos sejam de exercício de atividade de natureza militar, o policial terá direito a aposentaria proporcional, por ocasião da transferência para a inatividade remunerada.",
+    "O policial reformado por invalidez decorrente do exercício da função tem direito a remuneração integral, com base na remuneração do posto ou da graduação que possuir por ocasião da transferência para a inatividade remunerada.",
+    "Para fins de recebimento da pensão militar, o valor do benefício da remuneração do militar da ativa ou em inatividade será acrescido da vantagem pessoal nominalmente identificada (VPNI)."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-028",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "À luz do Decreto n.o 88.777/1983, que aprova o regulamento para as polícias militares e os corpos de bombeiros militares (R-200), assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Os anos de serviço correspondem ao tempo mínimo de permanência no posto ou na graduação, nas condições de merecimento e antiguidade.",
+    "Quando se fizer necessário o aproveitamento de seus conhecimentos técnicos e especializados, policiais militares reformados poderão ser designados para o serviço ativo.",
+    "Enquanto permanecer à disposição de outra corporação policial militar, o policial militar não será considerado no exercício de função policial militar.",
+    "A grave perturbação ou subversão da ordem configura-se pelo exercício dinâmico do poder de polícia, no campo da segurança pública, manifestado por atuações predominantemente ostensivas.",
+    "O aprestamento consiste no conjunto de medidas que incluem instrução, adestramento e preparo logístico para tornar uma organização policial militar pronta para emprego imediato."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-029",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta de acordo com a Lei estadual n.o 6.215/1983, que dispõe acerca da promoção de oficiais da PMSC.",
+   "gabarito": "e",
+   "alternativas": [
+    "A antiguidade no posto é contada a partir da data do ato de promoção, inclusive para os casos de promoção post mortem , por bravura e em ressarcimento de preterição.",
+    "O oficial da PMSC que, agregado, for promovido, mas continuar na mesma situação, preencherá o quadro de vagas a serem consideradas para promoção.",
+    "As exigências para a promoção por ato de bravura abrangem as mesmas da promoção por outro critério.",
+    "A Comissão de Promoção de Oficiais da PMSC tem caráter temporário e é constituída por membros natos e presidida pelo comandante-geral da corporação.",
+    "O oficial que falecer em consequência de ferimento sofrido na manutenção da ordem pública terá direito à promoção post mortem ."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-031",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação ao subsídio mensal dos militares de Santa Catarina disposto na Lei Complementar n.o 614/2013, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "O regime de compensação de horas consiste no registro do quantitativo de horas, excedentes ou insuficientes, em relação ao quantitativo estabelecido para a jornada de trabalho individual do militar estadual.",
+    "O subtenente militar estadual, ao ingressar na inatividade, perceberá proventos correspondentes ao subsídio que possuía enquanto militar da ativa.",
+    "O subsídio dos militares estaduais não exclui o direito à percepção das vantagens pessoais nominalmente identificadas (VPNI), de qualquer origem e natureza.",
+    "A indenização por regime especial de serviço ativo constitui verba de natureza remuneratória e se incorpora ao subsídio, aos proventos e à pensão por morte, não sendo isenta da incidência de contribuição previdenciária.",
+    "A ajuda de custo devida ao militar estadual corresponderá a 75% do respectivo subsídio quando ele não possuir dependentes."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-032",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em consonância com o Decreto n.o 1.601/2021, que aprova o regulamento da Lei n.o 6.217/1983, acerca da organização básica da PMSC, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "O planejamento, a coordenação e a direção da execução da polícia ostensiva e da preservação da ordem pública constituem uma das competências da PMSC.",
+    "Os pelotões são frações de tropa com dois ou mais grupos de policiais militares e podem ser incorporados, destacados ou independentes.",
+    "Os órgãos de execução são as organizações policiais militares que desenvolvem as atividades finalísticas da PMSC, podendo ser grandes comandos, unidades e subunidades.",
+    "São órgãos de direção setorial da PMSC a Diretoria de Pessoal, a Divisão de Inteligência, a Divisão Operacional e a Diretoria de Apoio Logístico e Finanças.",
+    "Os Comandos Regionais de Polícia Militar (CRPM) são grandes comandos responsáveis pela polícia ostensiva e pela preservação da ordem pública em circunscrições delimitadas às quais são subordinadas duas ou mais subunidades."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-033",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "A afirmação que inicia o texto 1A5-I é confirmada, entre outros fatores, por meio da",
+   "gabarito": "d",
+   "alternativas": [
+    "descrição de estudos sobre a aplicabilidade dos algoritmos.",
+    "indicação de que um algoritmo pode ter uma dezena de linhas de programação ou milhões delas.",
+    "informação de dados estatísticos do uso de algoritmos em diversas áreas.",
+    "apresentação de exemplos do uso dos algoritmos em diferentes setores da sociedade.",
+    "definição de que algoritmo é uma sequência de etapas para resolver um problema."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-034",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "Nos segmentos “atividades cotidianas prosaicas” e “objetos intangíveis” (primeiro período do segundo parágrafo), os vocábulos “prosaicas” e “intangíveis” poderiam ser respectivamente substituídos, sem prejuízo da coerência das ideias do texto 1A5-I, por",
+   "gabarito": "a",
+   "alternativas": [
+    "comuns e incompreensíveis .",
+    "banais e inatacáveis .",
+    "triviais e imprecisos .",
+    "práticas e inalcançáveis .",
+    "vulgares e incontestáveis ."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-035",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "No terceiro período do primeiro parágrafo, o termo “ante” poderia ser substituído, sem prejuízo da correção gramatical e do sentido original do texto 1A5-I, por I diante de. II perante. III face à. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-036",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "No segundo parágrafo do texto 1A5-I, a oração introduzida pelo vocábulo “Embora” exprime, em relação à oração seguinte, circunstância de",
+   "gabarito": "b",
+   "alternativas": [
+    "condição.",
+    "concessão.",
+    "explicação.",
+    "conformidade.",
+    "comparação."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-037",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "Estariam mantidos os sentidos e a correção gramatical do texto1A5-I caso o travessão empregado no primeiro período do segundo parágrafo fosse substituído por",
+   "gabarito": "d",
+   "alternativas": [
+    "ponto final, pois as orações que seguem o travessão podem constituir um período isolado.",
+    "pelo vocábulo e , pois o travessão, no contexto em questão, é empregado para separar orações coordenadas aditivas.",
+    "ponto e vírgula, pois o travessão, no contexto em que se insere, separa ideias distintas e orações independentes.",
+    "vírgula, pois o travessão separa uma oração de sentido explicativo.",
+    "dois-pontos, pois o travessão introduz uma enumeração em relação à ideia anterior."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-038",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "Estariam mantidos os sentidos e a correção gramatical do texto 1A5-II caso se substituísse a expressão “de modo que (último período do primeiro parágrafo) por",
+   "gabarito": "e",
+   "alternativas": [
+    "de forma à que.",
+    "na medida em que.",
+    "desde que.",
+    "ainda que.",
+    "de sorte que."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-039",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção em que a proposta de reescrita do último período do texto1A5-II preserva os seus sentidos e a correção gramatical.",
+   "gabarito": "b",
+   "alternativas": [
+    "Isso nos coloca no jogo de criatividade e pensamento crítico.",
+    "Isso nos coloca em situação duvidosa no que se refere à criatividade e ao pensamento crítico.",
+    "Isso nos coloca em dúvida a cerca da criatividade e do pensamento crítico.",
+    "O que nos coloca em perigo no que concerne a criatividade e ao pensamento crítico.",
+    "Fato que nos ameaça no tocante a criatividade e o pensamento crítico."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-040",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando que coesão e coerência, segundo o Manual de Redação da Presidência da República , são atributos que favorecem a conexão, a ligação e a harmonia entre os elementos de um texto, é correto afirmar que, no texto 1A5-III, a expressão “Essa ação” (segundo parágrafo do texto do documento) é empregada em relação",
+   "gabarito": "e",
+   "alternativas": [
+    "ao ofício em si.",
+    "à solicitação de senha.",
+    "ao acesso ao sistema SISREG.",
+    "à humanização dos serviços, ao controle do fluxo e à otimização na utilização dos recursos.",
+    "à implantação da Central de Regulação de Consultas e Exames do Município."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-041",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base no Manual de Redação da Presidência da República , julgue os itens a seguir, relativos ao texto 1A5-III. I A forma de tratamento empregada no endereçamento do documento é adequada ao cargo ocupado pelo destinatário. II No parágrafo de introdução do documento, a substituição de “ Tenho o prazer de dirigir-me ao Senhor para solicitar ” por Solicito conferiria maior formalidade ao texto. III Dada a hierarquia das autoridades envolvidas na correspondência apresentada, o fecho adequado para o documento seria o exposto a seguir. Atenciosamente, Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-042",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerem-se os trechos hipotéticos de documentos oficiais apresentados nos itens a seguir. I Com os meus melhores cumprimentos, venho, por meio deste, encaminhar a essa Coordenação o documento em anexo, emitido pela Diretoria de Comunicação – DICOM. II Encaminho a essa Coordenação o documento em anexo, emitido pela Diretoria de Comunicação – DICOM. Levando-se em consideração as características básicas da comunicação oficial, é correto afirmar que a redação do item II se diferencia da redação do item I pela",
+   "gabarito": "c",
+   "alternativas": [
+    "coesão e coerência.",
+    "clareza e formalidade.",
+    "objetividade e concisão.",
+    "precisão e padronização.",
+    "formalidade e impessoalidade."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-043",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando conceitos relacionados a Internet e intranet , assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "SMTP (Simple Mail Transfer Protocol) é o protocolo padrão de navegação na Internet, responsável pela estruturação do conteúdo e pela apresentação de páginas da Web.",
+    "Nas redes, denomina-se hashtag qualquer conjunto formado por palavra-chave posposta ao sinal tipográfico da cerquilha (#), com o que se identificam conteúdos que se deseja ocultar.",
+    "Intranet é uma rede de equipamentos que permite acesso externo controlado, para negócios específicos ou propósitos educacionais, sendo uma extensão da rede local de uma organização, disponibilizada para usuários externos a ela.",
+    "O protocolo padrão da Internet é o TCP/IP (Transmission Control Protocol/Internet Protocol), responsável por fornecer uma base confiável e eficiente para a comunicação entre dispositivos em redes de computadores.",
+    "O protocolo padrão da Internet é o DHCP (Dynamic Host Configuration Protocol), responsável por fornecer uma base confiável e eficiente para a comunicação entre dispositivos em redes de computadores."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-044",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere ao LibreOffice, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "O formato de arquivo nativo do LibreOffice é o OpenDocument (ODF), mas no programa também é possível abrir e salvar documentos em outros formatos.",
+    "O LibreOffice funciona em arquitetura específica de hardware e restrita a sistemas operacionais Windows.",
+    "A interface de usuário do LibreOffice, incluindo-se ortografia, hifenização e dicionário de sinônimos, está disponível somente em português, pois é uma suíte construída no Brasil.",
+    "No LibreOffice, não é possível abrir arquivos no formato HTML.",
+    "As ferramentas do LibreOffice não são integradas, então o corretor ortográfico, por exemplo, é exclusivo do LibreOffice Writer."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-045",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "A partir da figura anterior, que ilustra a caixa de diálogo Salvar como no LibreOffice em um computador hipotético, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Nesse computador, os arquivos criados com o LibreOffice Writer só podem ser salvos na pasta Meus documentos .",
+    "Para proteger o Documento 1 e restringir o acesso ao seu conteúdo, deve-se utilizar a opção Salvar com senha .",
+    "Se o usuário clicar na opção Cancelar , o Documento 1 será deletado.",
+    "Nesse computador, os arquivos criados com o LibreOffice Draw serão gravados necessariamente na pasta Imagens .",
+    "A opção Extensão de arquivo automática , marcada na caixa de diálogo, tem a finalidade de autorizar o LibreOffice a salvar documentos automaticamente."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-047",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção em que é apresentada uma ferramenta de pesquisa na Internet.",
+   "gabarito": "c",
+   "alternativas": [
+    "Explorador de Arquivos do Windows",
+    "LibreOffice Math",
+    "ChatGPT",
+    "LibreOffice Draw",
+    "hiperlink"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-048",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere a ferramentas e aplicativos de navegação, bem como à segurança da informação, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Hiperlink é um programa de computador que habilita os usuários a interagir com documentos virtuais na Internet, também conhecidos como páginas da Web.",
+    "Cookies são vírus que afetam arquivos executáveis e que funcionam apenas quando o usuário abre o arquivo infectado.",
+    "Plug-ins são módulos de código instalados no browser que permitem a apresentação de arquivos com formatos diferentes do HTML.",
+    "O uso do software TCP/IP evita a infecção de vírus ao se baixarem arquivos em páginas da Internet.",
+    "O IP de um computador é uma ferramenta de busca que permite acessar informações de vídeos e imagens."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-049",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que corresponde a um exemplo correto de endereço de email de um soldado da Polícia Militar do Estado de Santa Catarina, considerando-se que, para que o endereço de email seja viável, o nome do soldado seja usado, sem espaços, no lugar do termo nomesoldado .",
+   "gabarito": "e",
+   "alternativas": [
+    "@nomesoldado.pm.sc.gov.br",
+    "https://www.pm.sc.gov.br@nomesoldado",
+    "pm.sc.gov.br@nomesoldado",
+    "https://www.pm.sc.gov.br/nomesoldado",
+    "nomesoldado@pm.sc.gov.br"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-050",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção em que é indicado um tipo de malware projetado para coletar informações relativas à atividade do usuário sem o seu conhecimento ou consentimento.",
+   "gabarito": "a",
+   "alternativas": [
+    "spyware",
+    "cavalo de Troia ( trojan )",
+    "adware",
+    "ransomware",
+    "vírus de arquivo"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-051",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "A partir do texto 1A7-I e considerando que João seja um dos elementos do conjunto V, assinale a opção que apresenta o número de linhas da tabela-verdade da proposição w (João).",
+   "gabarito": "b",
+   "alternativas": [
+    "2",
+    "4",
+    "8",
+    "16",
+    "32"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-052",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Tendo em vista o texto 1A7-I e considerando que os símbolos “~”, “˄”, “˅”, “→” e “↔” representem, respectivamente, as expressões “não [...]”, “e”, “ou”, “se [...], então [...]” e “se, e somente se”, e que Mário seja um dos elementos do conjunto C, mas não do conjunto L, assinale a opção em que é apresentada uma proposição verdadeira.",
+   "gabarito": "b",
+   "alternativas": [
+    "c (Mário) ˄ l (Mário)",
+    "c (Mário) ˅ l (Mário)",
+    "c (Mário) → l (Mário)",
+    "c (Mário) ↔ l (Mário)",
+    "~ c (Mário) ˅ l (Mário)"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-053",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ainda no que se refere ao texto 1A7-I, para que o conjunto verdade de w ( x ) coincida com o conjunto V",
+   "gabarito": "e",
+   "alternativas": [
+    "C e L devem esgotar o universo (C ꓴ L = V).",
+    "L e C devem ser disjuntos (L ∩ C = ∅ ).",
+    "C e L devem coincidir (C = L).",
+    "C deve conter L (L ⸦ C).",
+    "L deve conter C (C ⸦ L)."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-054",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Tendo o texto 1A7-I como referência e considerando que Priscila seja um dos elementos do conjunto V, assinale a opção que apresenta a proposição obtida a partir da sentença w ( x ) quando sua variável assume o valor x = Priscila.",
+   "gabarito": "d",
+   "alternativas": [
+    "Priscila confunde crime com liberdade de expressão.",
+    "Priscila confunde liberdade de expressão com crime e Priscila confunde crime com liberdade de expressão.",
+    "Priscila confunde liberdade de expressão com crime.",
+    "Se Priscila confunde crime com liberdade de expressão, então Priscila confunde liberdade de expressão com crime.",
+    "Se Priscila confunde liberdade de expressão com crime, então Priscila confunde crime com liberdade de expressão."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-055",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção em que é apresentada uma tautologia.",
+   "gabarito": "c",
+   "alternativas": [
+    "Gosto do trabalho, mas não gosto de trabalhar.",
+    "Conserto o computador se, e somente se, o computador estragar.",
+    "Sou feliz ou não com quem eu sou.",
+    "Não me lembro se molhei ou não a grama.",
+    "Se eu estudar, então serei aprovado, e se eu fui aprovado, então estudei."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-056",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que apresenta uma proposição equivalente a Você faltou com a verdade .",
+   "gabarito": "a",
+   "alternativas": [
+    "Você não falou a verdade.",
+    "Você não falou mentira.",
+    "Você faltou com a mentira.",
+    "Você falou a verdade.",
+    "Você não disse mentira."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-sc-soldado-058",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "O salário líquido de Letícia é calculado de tal forma que do salário bruto são descontados 14% para previdência social e, sobre o valor remanescente, são descontados 27,5% de imposto de renda. Com base na situação hipotética apresentada e considerando que não haja mais descontos, o percentual do salário bruto que corresponde ao salário líquido de Letícia é igual a",
+   "gabarito": "d",
+   "alternativas": [
+    "23,65%.",
+    "41,5%.",
+    "58,5%.",
+    "62,35%.",
+    "72,5%."
+   ]
+  }
+ ]
+}

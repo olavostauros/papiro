@@ -1,0 +1,31 @@
+{
+ "evento": "TSE_23",
+ "banca": "Cebraspe",
+ "orgaos": [
+  "TSE"
+ ],
+ "cargos": [
+  "Técnico Judiciário"
+ ],
+ "assuntos": [
+  "Direito Constitucional"
+ ],
+ "provas": [
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/TSE_23/"
+  }
+ ],
+ "itens": [
+  {
+   "id": "cebraspe-2023-tse-tecnico-021",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "No que se refere aos direitos e garantias fundamentais, julgue o item a seguir. É livre a expressão da atividade intelectual, artística, científica e de comunicação, independentemente de censura ou licença.",
+   "gabarito": "certo"
+  }
+ ]
+}

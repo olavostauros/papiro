@@ -1,0 +1,1725 @@
+{
+ "evento": "SEBRAE_24_PSI",
+ "banca": "Cebraspe",
+ "orgaos": [
+  "SEBRAE"
+ ],
+ "cargos": [
+  "Analista Técnico II",
+  "Analista Técnico I"
+ ],
+ "assuntos": [
+  "LÍNGUA PORTUGUESA",
+  "CONHECIMENTOS DO SEBRAE"
+ ],
+ "provas": [
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/SEBRAE_24_PSI/arquivos/030_SEBRAE_PSI_001_01.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/SEBRAE_24_PSI/arquivos/030_SEBRAE_PSI_002_01.PDF"
+  }
+ ],
+ "itens": [
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-001",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o texto 1A1, a Escola de Palo Alto",
+   "gabarito": "d",
+   "alternativas": [
+    "hierarquizou as propriedades básicas da comunicação.",
+    "definiu as regras da comunicação humana.",
+    "listou fatos recorrentes da comunicação humana.",
+    "indicou premissas básicas da comunicação."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-002",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Os aspectos conteudísticos e relacionais da comunicação, segundo o texto 1A1,",
+   "gabarito": "c",
+   "alternativas": [
+    "são frequentemente coincidentes.",
+    "devem ser considerados de forma isolada.",
+    "nem sempre convergem.",
+    "são mutuamente excludentes."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-003",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Depreende-se dos dois últimos parágrafos do texto 1A1 que",
+   "gabarito": "c",
+   "alternativas": [
+    "a linguagem verbal, de maneira geral, é mais eficiente e assertiva do que a linguagem não verbal.",
+    "a comunicação ideal só ocorre quando os comunicantes já se conhecem previamente.",
+    "as sequências de comunicação prévias estabelecidas pelos comunicantes podem auxiliar no entendimento sobre o que é dito entre eles.",
+    "pessoas que se conhecem há muito tempo se comunicam conforme o mesmo padrão cultural."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-004",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Cada uma das opções a seguir apresenta uma proposta de reescrita para o seguinte trecho do texto 1A1: “toda comunicação tem” (primeiro período do segundo parágrafo). Assinale a opção em que a proposta apresentada mantém a correção gramatical e a coerência textual.",
+   "gabarito": "d",
+   "alternativas": [
+    "todas as comunicações requerem",
+    "todas as comunicações contém",
+    "toda comunicação há",
+    "em toda comunicação existem"
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-005",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A correção gramatical e o sentido do texto 1A1 seriam mantidos caso os dois-pontos empregados no primeiro período do terceiro parágrafo fossem substituídos por vírgula e a esta se seguisse",
+   "gabarito": "a",
+   "alternativas": [
+    "o conectivo porque , seguido de vírgula.",
+    "o vocábulo mas .",
+    "a expressão uma vez que .",
+    "a palavra portanto , seguida de vírgula."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-006",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No último período do terceiro parágrafo do texto 1A1, a locução “podem denotar” poderia ser substituída, mantendo-se a correção gramatical e a coerência textual, por",
+   "gabarito": "d",
+   "alternativas": [
+    "podem destacar .",
+    "possivelmente denota .",
+    "talvez mostram .",
+    "podem indicar ."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-007",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No quarto parágrafo do texto 1A1, a forma pronominal “os”, em “pois os predispõem a um conjunto maior de sinais e mensagens” (terceiro período), retoma",
+   "gabarito": "b",
+   "alternativas": [
+    "o termo “cada comunicador” (terceiro período).",
+    "o mesmo referente do sujeito da oração “vão se comunicar um com o outro no momento presente” (terceiro período).",
+    "os “demais” citados no final do segundo período.",
+    "a expressão “modos de comunicação” (segundo período)."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-008",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A correção gramatical do quarto parágrafo do texto 1A1, no que concerne à concordância verbal e nominal, seria mantida caso se substituísse",
+   "gabarito": "b",
+   "alternativas": [
+    "“age” (segundo período) por agem .",
+    "“serão interpretados e compartilhados” (terceiro período) por será interpretado e compartilhado .",
+    "“são apreendidos” (segundo período) por é apreendida .",
+    "“influenciam” (terceiro período) por influencia ."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-009",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No primeiro período do último parágrafo do texto 1A1, o vocábulo “conspícuo” tem o mesmo sentido de",
+   "gabarito": "b",
+   "alternativas": [
+    "inexorável .",
+    "visível .",
+    "verdadeiro .",
+    "frequente ."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-010",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A correção gramatical e as ideias do texto 1A1 seriam preservadas caso a forma verbal “Prescindindo” (último período do texto) fosse substituída por",
+   "gabarito": "a",
+   "alternativas": [
+    "Abstendo-se .",
+    "Valendo-se .",
+    "Dispensando .",
+    "Não abrindo mão ."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-011",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "À luz das normas contidas na Instrução Normativa SEBRAE n.o 36/2024 e no Regulamento de licitações e contratos do Sistema SEBRAE (Resolução CDN n.o 493/2024), assinale a opção correta acerca da matriz de riscos.",
+   "gabarito": "a",
+   "alternativas": [
+    "Quando obrigatória, a cláusula de matriz de riscos deve constar, necessariamente, do termo de referência, do edital e do contrato, sendo indispensável a sua validação pela Unidade de Integridade Corporativa.",
+    "A cláusula de matriz de risco define os riscos de ônus financeiro decorrentes de eventos ocultos pretéritos e presentes à contratação, bem como daqueles supervenientes e imprevisíveis.",
+    "A cláusula de matriz de riscos é obrigatória nas contratações de compras com valores vultosos.",
+    "A cláusula de matriz de riscos é obrigatória no regime de contratação integrada e facultativa no regime de contratação semi-integrada."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-012",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação à contratação direta por dispensa de licitação em razão do valor, assinale a opção correta, considerando as normas da Instrução Normativa SEBRAE n.o 36/2024 e do Regulamento de licitações e contratos do Sistema SEBRAE (Resolução CDN n.o 493/2024).",
+   "gabarito": "c",
+   "alternativas": [
+    "Os valores limites para a contratação direta de compras, obras e serviços poderão ser duplicados ou triplicados, respectivamente, se contratados em conjunto por dois ou três entes dos serviços sociais autônomos.",
+    "É vedado realizar o fracionamento do objeto, salvo quando observado o valor limite, considerando, para tanto, a natureza da despesa contábil dentro do mesmo exercício financeiro.",
+    "Os documentos de habilitação jurídica, a emissão de instrumento contratual e o uso do sistema informatizado do SEBRAE são dispensados na contratação direta de bem por valor quando realizada por meio de comércio eletrônico ou diretamente em lojas físicas.",
+    "Na instrução da contratação direta de bem ou serviço por valor, a justificativa circunstanciada dos aspectos técnicos e econômicos é elemento essencial."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-013",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No tocante ao gestor e à gestão dos contratos, assinale a opção correta, nos termos da Instrução Normativa SEBRAE n.o 51/2019.",
+   "gabarito": "d",
+   "alternativas": [
+    "O gestor do contrato deve acompanhar a regularidade fiscal do contratado a cada pagamento e, constatando desconformidade, deve efetuar a retenção do valor até o saneamento da irregularidade, sob pena de responsabilidade.",
+    "Compete ao gerente da unidade a abertura de processo de prestação de serviço e, a fim de se evitar a descontinuidade do serviço, cabe ao gestor do contrato providenciar a documentação para a prorrogação do instrumental contratual.",
+    "É vedada a cumulação das atividades de planejamento, supervisão, gestão e acompanhamento da execução do contrato na pessoa do gestor, sob pena de ofensa ao princípio da segregação de funções.",
+    "O gestor do contrato, designado formalmente pelo gerente da unidade, é assessorado e orientado pelo Núcleo de Gestão de Contratos, o qual, por sua vez, é vinculado à Unidade de Gestão Financeira."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-014",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta, quanto à aplicação de penalidades contratuais, à luz da Instrução Normativa SEBRAE n.o 51/2019.",
+   "gabarito": "c",
+   "alternativas": [
+    "Dentre as sanções previstas para o caso de descumprimento do contrato tem-se a declaração de inidoneidade para licitar e contratar com outros entes dos serviços sociais autônomos.",
+    "A execução da sanção de multa ocorrerá, preferencialmente, sobre a garantia oferecida pelo contratado.",
+    "A decisão de aplicação das penalidades de advertência, multa e rescisão contratual compete ao gestor do contrato em conjunto com seu(s) superior(es) hierárquico(s).",
+    "A aplicação da penalidade de suspensão temporária do direito de licitar ou contratar com o Sistema SEBRAE compete ao Núcleo de Gestão de Contratos, após o parecer prévio da Unidade de Assessoria Jurídica."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-015",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito do processo decisório da Diretoria Executiva (DIREX), assinale a opção correta, considerando a Instrução Normativa SEBRAE n.o 47/2021.",
+   "gabarito": "b",
+   "alternativas": [
+    "A Unidade Gestora do processo decisório da DIREX terá um empregado nomeado para assessorar a DIREX na governança do SEBRAE, sem deter a prerrogativa de assinar, isoladamente, as Resoluções das reuniões da Diretoria Executiva do SEBRAE.",
+    "As propostas são submetidas à DIREX com as finalidades de discussão, conhecimento, decisão ou autorização de licitação, sendo que para as duas primeiras finalidades não é obrigatória a apresentação de parecer.",
+    "A proposta encaminhada à DIREX contendo documentos do planejamento estratégico possui, quanto ao assunto, a tipologia Análise Técnica de Projeto (ATP).",
+    "Na ordem de precedência, o parecer adicional, quando necessário, é emitido após o parecer por tipo de assunto e o parecer por instrumento jurídico."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-016",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a Instrução Normativa SEBRAE n.o 47/2021, nos casos em que a proposta necessite ser submetida ao Conselho Deliberativo Nacional, a atribuição de elaborar a minuta de Encaminhamento de Assunto ao Conselho Deliberativo Nacional (EACDN), validar junto à Unidade Gestora do processo decisório e assinar o respectivo documento é da(o)",
+   "gabarito": "a",
+   "alternativas": [
+    "unidade proponente.",
+    "gabinete de supervisão.",
+    "Diretoria Executiva.",
+    "presidência."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-017",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base no Regulamento de licitações e contratos do SEBRAE (Resolução CDN n.o 493/2024), assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Contrato de eficiência é aquele que impõe ao contratado o dever de realizar a prestação de um serviço específico em período predeterminado.",
+    "Os regimes de contratação integrada e semi-integrada aplicam-se, exclusivamente, aos contratos de obras e serviços de engenharia, e distinguem-se pela necessidade da elaboração e desenvolvimento do projeto básico somente nos casos de contratação integrada.",
+    "As licitações obedecerão aos princípios da publicidade e da transparência, principalmente, quanto à impossibilidade de ser ocultado o preço referencial da licitação, sob pena de frustrar o seu caráter competitivo.",
+    "As normas do Regulamento de licitações e contratos do SEBRAE serão interpretadas de acordo com os princípios do regime jurídico-administrativo, em especial, da supremacia e da indisponibilidade do interesse público."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-018",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Nos termos do Regulamento de licitações e contratos do SEBRAE (Resolução CDN n.o 493/2024), constitui hipótese de inexigibilidade de licitação a contratação de",
+   "gabarito": "a",
+   "alternativas": [
+    "serviços técnicos especializados de natureza predominantemente intelectual para realizar treinamento e aperfeiçoamento dos empregados do Sistema SEBRAE.",
+    "serviços de consultoria, destinados ao público-alvo do Sistema SEBRAE, não abrangida nas hipóteses do credenciamento.",
+    "instituição incumbida regimental ou estatutariamente da pesquisa, do ensino ou do desenvolvimento institucional, com ou sem fins lucrativos, desde que o objeto da contratação tenha relação com o estatuto social da contratada.",
+    "serviços de instrutoria vinculados às atividades finalísticas do Sistema SEBRAE, não abrangidas nas hipóteses do credenciamento."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-019",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito do reajuste, do reequilíbrio econômico-financeiro e da repactuação, assinale a opção correta, de acordo com o Regulamento de licitações e contratos do SEBRAE (Resolução CDN n.o 493/2024).",
+   "gabarito": "a",
+   "alternativas": [
+    "O reajuste, o reequilíbrio econômico-financeiro e a repactuação podem ser aplicados à ata de registro de preços.",
+    "Para que sejam aplicados, o reajuste, o reequilíbrio econômico-financeiro e a repactuação devem estar previstos no edital da licitação ou no contrato.",
+    "O reequilíbrio econômico-financeiro é a forma de recomposição ordinária do preço do contrato, enquanto a repactuação é o instrumento para a recomposição econômico-financeira extraordinária do valor do contrato.",
+    "Na contratação de dedicação exclusiva de mão de obra, a variação de custos decorrentes de acordo, convenção ou dissídio coletivo pode dar ensejo ao reajuste do valor do contrato."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-020",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta, acerca das garantias previstas no Regulamento de licitações e contratos do SEBRAE (Resolução CDN n.o 493/2024).",
+   "gabarito": "d",
+   "alternativas": [
+    "O percentual máximo sobre o valor estimado da contratação na garantia de proposta é maior do que aquele fixado para a garantia contratual.",
+    "Independentemente do objeto da contratação, a escolha da forma de garantia cabe ao contratante e deve ser informada no edital da licitação.",
+    "Uma das modalidades de garantia é a caução em títulos da dívida pública emitidos sob a forma escritural, mediante registro em sistema centralizado de liquidação e de custódia autorizado pelo Banco Central do Brasil.",
+    "A garantia pode ser exigida tanto no momento da apresentação da proposta, hipótese em que será requisito de pré-qualificação do licitante, como também no momento da celebração do contrato."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-021",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No tocante ao credenciamento, assinale a opção correta, à luz do Regulamento de licitações e contratos do SEBRAE (Resolução CDN n.o 493/2024).",
+   "gabarito": "c",
+   "alternativas": [
+    "O credenciamento destina-se à contratação de profissionais prestadores de serviços, sendo inviável a sua utilização para a aquisição de bens.",
+    "Para cancelar o credenciamento, o contratante deve assegurar o contraditório e a ampla defesa aos credenciados interessados.",
+    "O credenciamento pode ser utilizado para as seguintes hipóteses de contratação: paralela e não excludente; com seleção a critério de terceiros; em mercados fluidos.",
+    "O credenciamento pode ser formado por meio do pregão."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-022",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta, quanto ao sistema nacional de cadastramento de fornecedores e à pré-qualificação permanente, previstos no Regulamento de licitações e contratos do SEBRAE (Resolução CDN n.o 493/2024).",
+   "gabarito": "b",
+   "alternativas": [
+    "A abertura do procedimento de pré-qualificação será divulgada em chamamento público pela Internet, que trará as regras e o prazo de inscrição.",
+    "A pré-qualificação visa selecionar previamente tanto licitantes quanto bens e a licitação que se seguir ao procedimento da pré-qualificação pode ser restrita aos licitantes ou bens pré-qualificados.",
+    "O licitante que desejar se inscrever no sistema nacional de cadastramento de fornecedores deverá assinar declaração se comprometendo a apresentar, futuramente, os documentos de habilitação, no prazo fixado nos editais das licitações que vier a participar.",
+    "Pode ser realizada licitação no âmbito de fornecedores cadastrados no sistema nacional, atendidos os critérios, as condições e os limites estabelecidos no edital, desde que o licitante tenha realizado o cadastro até a data da publicação do edital."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-023",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito do Sistema de Apoio ao Processo Decisório (SEAP), assinale a opção correta, considerando as normas da Instrução Normativa SEBRAE n.o 47/2021.",
+   "gabarito": "d",
+   "alternativas": [
+    "O Plano Anual e Orçamento utiliza o formulário SEAP de análise técnica de projeto (ATP) e tem como unidade emitente a Assessoria Jurídica.",
+    "A contratação de capacitação e(ou) treinamento de empregado utiliza o formulário SEAP de aquisição de bens e contratação de serviço (ABS) e tem como emitente a Unidade de Gestão Orçamentária e Contabilidade.",
+    "O contrato de mútuo utiliza o formulário SEAP de documento de referência (DRF) e tem como unidade emitente a Assessoria Jurídica.",
+    "A utilização de fundo de reserva faz uso de todos os formulários SEAP e tem como emitente a Unidade de Gestão Orçamentária e Contabilidade."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-024",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca das contratações de encomenda tecnológica, assinale a opção correta, de acordo com as normas da Instrução Normativa SEBRAE n.o 36/2024.",
+   "gabarito": "a",
+   "alternativas": [
+    "Na fase prévia à celebração do contrato de encomenda tecnológica, deverão ser formalmente consultados potenciais fornecedores para obter informações necessárias à definição da encomenda.",
+    "É indispensável que conste do termo de referência as especificações técnicas do objeto, em virtude da complexidade da atividade de pesquisa, desenvolvimento e inovação.",
+    "Em razão da sua natureza singular, a contratação de encomenda tecnológica ocorre por meio da contratação direta por inexigibilidade de licitação.",
+    "A escolha do contratado será orientada, primordialmente, para a obtenção do menor preço ou menor custo."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-025",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ao entender, de forma objetiva e racional, o ponto de vista do cliente, a fim de compreender sua realidade e agir de acordo com ela, está sendo aplicado o valor ético do sistema SEBRAE denominado",
+   "gabarito": "d",
+   "alternativas": [
+    "imagem.",
+    "respeito.",
+    "integridade.",
+    "empatia com o cliente."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-026",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o Código de Ética do Sistema SEBRAE, no que diz respeito ao relacionamento entre pessoas, uma colaboradora recém-contratada deve",
+   "gabarito": "a",
+   "alternativas": [
+    "buscar parceiros, credenciados e fornecedores que atendam aos preceitos éticos do sistema SEBRAE, com base em critérios técnicos, profissionais e reputacionais.",
+    "obedecer às decisões hierárquicas que visem a obter quaisquer favores ou vantagens indébitas, nos relacionamos com colegas, clientes e fornecedores.",
+    "adotar postura coerente com os princípios pessoais, toda vez que estiver atuando em nome do sistema SEBRAE ou representando-o.",
+    "comunicar imediatamente à assessoria de comunicação todo e qualquer ato ou fato contrário ao interesse do sistema SEBRAE."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-027",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No âmbito do sistema SEBRAE, caracteriza uma situação de conflito de interesses",
+   "gabarito": "a",
+   "alternativas": [
+    "utilizar a força de trabalho de estagiários, bem como as atividades executadas por fornecedores, para atendimento de interesse particular.",
+    "evitar participar de situações em que os interesses pessoais entrem em conflito com os interesses da organização, que poderiam comprometer a imparcialidade, objetividade ou tomada de decisão.",
+    "resguardar-se do recebimento de gratificações de terceiros que podem influenciar nas ações, decisões ou julgamentos em detrimento dos melhores interesses da organização.",
+    "impedir que um colaborador utilize informações das atividades do sistema SEBRAE em benefício próprio para oportunidades de negócio, as quais poderiam ser direcionadas à organização."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-028",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Representa uma postura inadequada dos colaboradores do sistema SEBRAE",
+   "gabarito": "c",
+   "alternativas": [
+    "obstar quaisquer condutas que interfiram no desempenho do trabalho ou que criem ambiente hostil, ofensivo ou com intimidação.",
+    "impugnar condutas ilícitas, tais como suborno, corrupção e fraude, assim como a dissimulação desses atos e o impedimento às atividades de investigação e fiscalização.",
+    "tratar colegas de trabalho, superiores, subordinados e demais pessoas com quem se relacionar em função do trabalho com descortesia, desrespeito ou agressividade.",
+    "combater a discriminação de colegas de trabalho em razão de preconceito ou distinção de gênero, orientação sexual ou nacionalidade."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-029",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que diz respeito à proteção dos ativos e recursos do SEBRAE, constitui comportamento ético",
+   "gabarito": "d",
+   "alternativas": [
+    "gerar despesas ao SEBRAE, com benefício para terceiros, referentes a compras de equipamentos, motivadas por interesses alheios aos interesses organizacionais.",
+    "preservar e fazer, ocasionalmente, bom uso dos equipamentos, dos meios de comunicação e das instalações para realização das atividades profissionais.",
+    "omitir-se diante de práticas anticoncorrenciais, quando da contratação de bens e serviços pela organização.",
+    "assegurar que despesas geradas ao sistema SEBRAE referentes a viagens sejam motivadas exclusivamente por interesses organizacionais, e nunca para atividades pessoais."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-030",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A situação em que o superior hierárquico faz uso de sua condição de autoridade para colocar o colaborador em situações desconfortáveis, de forma reiterada, denomina-se",
+   "gabarito": "b",
+   "alternativas": [
+    "assédio moral vertical ascendente.",
+    "assédio moral vertical descendente.",
+    "assédio discriminatório.",
+    "assédio organizacional."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-031",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o Regimento Interno do SEBRAE nacional, a gestão administrativa e técnica da organização deve ser exercida pelo(a)",
+   "gabarito": "b",
+   "alternativas": [
+    "Diretoria Técnica.",
+    "Diretoria Executiva.",
+    "Conselho Deliberativo Nacional.",
+    "Diretoria de Administração e Finanças."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-032",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme o Regimento Interno do SEBRAE nacional, a missão de desenvolver e implementar ações de relacionamento institucional com entidades públicas e privadas, no âmbito nacional, visando parcerias para o desenvolvimento dos pequenos negócios, pertence à",
+   "gabarito": "b",
+   "alternativas": [
+    "Unidade de Estratégia e Transformação.",
+    "Unidade de Assessoria Institucional.",
+    "Unidade de Políticas Públicas.",
+    "Unidade de Comunicação."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-033",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Auditoria Interna, a Ouvidoria e a Unidade de Empreendedorismo Feminino, Diversidade e Inclusão estão ligadas, na estrutura organizacional do SEBRAE nacional, respectivamente,",
+   "gabarito": "d",
+   "alternativas": [
+    "a Diretoria Executiva, a Diretoria de Administração e Finanças, e a Diretoria Técnica.",
+    "a Diretoria Executiva, a Diretoria Executiva, e a Diretoria Técnica.",
+    "a Diretoria Executiva, a Diretoria Executiva, e a Diretoria de Administração e Finanças.",
+    "ao Conselho Deliberativo Nacional, a Diretoria Executiva, e a Diretoria de Administração e Finanças."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-034",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Coordenar a elaboração do direcionamento estratégico, das diretrizes orçamentárias, dos orçamentos e planos de trabalho anuais, bem como de outros documentos que subsidiem a definição da ação do sistema SEBRAE, para serem submetidas à aprovação do Conselho Deliberativo Nacional, constitui uma das atribuições do",
+   "gabarito": "a",
+   "alternativas": [
+    "diretor-presidente.",
+    "chefe da Unidade de Estratégia e Transformação.",
+    "diretor de administração e finanças.",
+    "diretor técnico."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-035",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "É atribuição do Diretor Técnico do SEBRAE nacional",
+   "gabarito": "a",
+   "alternativas": [
+    "estabelecer instrumentos e mecanismos de coordenação e avaliação do desempenho e dos resultados das ações executadas pelo sistema SEBRAE.",
+    "implantar e operacionalizar sistema de informações gerenciais para subsidiar o planejamento e a tomada de decisões.",
+    "gerir os recursos materiais, financeiros e humanos de que o sistema SEBRAE necessita.",
+    "executar o controle da gestão administrativa, orçamentária e financeira, submetendo os resultados obtidos ao Conselho Deliberativo Nacional."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-036",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção em que são apresentados, respectivamente, um ato de natureza normativa e executiva, e um instrumento formal de comunicação administrativa do sistema SEBRAE.",
+   "gabarito": "b",
+   "alternativas": [
+    "circular e portaria",
+    "plano de trabalho anual e memorando",
+    "resolução e diretrizes orçamentárias",
+    "comunicação interna e correio eletrônico"
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-037",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme a política referente à proteção de dados e privacidade do sistema SEBRAE, a compatibilidade do tratamento com as finalidades informadas ao titular, de acordo com o contexto do tratamento, atende ao princípio da Lei Geral de Proteção de Dados Pessoais (LGPD) denominado",
+   "gabarito": "d",
+   "alternativas": [
+    "transparência.",
+    "necessidade.",
+    "finalidade.",
+    "adequação."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-038",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do tratamento de dados pessoais, julgue os itens a seguir, conforme a política relativa à proteção de dados e privacidade do sistema SEBRAE. I Embora tenha direito de acesso aos dados pessoais, o titular não tem direito à correção de dados pessoais desatualizados. II No tratamento de dados pessoais, devem ser definidas as responsabilidades dos agentes envolvidos (controladores e operadores). III Os dados pessoais que necessitam ser tratados com base no legítimo interesse devem ser submetidos à análise do encarregado pelo tratamento de dados pessoais do SEBRAE. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-039",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a política referente à proteção de dados e privacidade do sistema SEBRAE, caso haja necessidade de realizar o tratamento de dado pessoal para finalidade diversa da informada no momento da coleta, é necessário verificar I a ligação entre a finalidade para a qual os dados pessoais foram coletados e a finalidade do novo tratamento. II se o dado pessoal coletado está sendo compartilhado com terceiros. III se há dados pessoais sensíveis envolvidos. IV as consequências do novo tratamento para o titular dos dados pessoais. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I, III e IV estão certos.",
+    "Apenas os itens II, III e IV estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-040",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do relatório de impacto à proteção de dados pessoais (RIPD) do SEBRAE, julgue os itens a seguir. I As medidas, salvaguardas e mecanismos empregados para mitigar riscos devem estar descritos no RIPD. II Todo tratamento de dados pessoais que tenha como base legal o legítimo interesse deve ser precedido do RIPD. III O RIPD deve ser elaborado pelo encarregado pelo tratamento de dados pessoais do SEBRAE. Assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-041",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da coleta, do tratamento e do armazenamento de dados pessoais no SEBRAE, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Quando a coleta dos dados se der pela base legal do consentimento, a manifestação de vontade do titular deverá ser realizada unicamente de forma escrita.",
+    "A coleta de dado pessoal significa a entrada do dado pessoal no sistema SEBRAE, exclusivamente por meios digitais, tais como sites , aplicativos ou emails .",
+    "O consentimento relativo ao tratamento de dados pessoais de crianças e adolescentes deverá ser específico e dado por, pelo menos, um dos pais ou pelo representante legal.",
+    "O titular dos dados pessoais deve ser informado, no ato da coleta do consentimento, sobre a impossibilidade de revogá-lo."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-042",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No SEBRAE, prestar apoio técnico e operacional para que o encarregado pelo tratamento de dados pessoais possa atender a requisições de titulares e outros pedidos relacionados à LGPD compete à",
+   "gabarito": "b",
+   "alternativas": [
+    "Controladoria e Compliance .",
+    "Ouvidoria.",
+    "Assessoria Jurídica.",
+    "Universidade Corporativa."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-043",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta, no que diz respeito à eliminação de dados pessoais no sistema SEBRAE.",
+   "gabarito": "d",
+   "alternativas": [
+    "A solicitação de eliminação de dados pessoais pelo titular pode ser realizada no caso de cumprimento de obrigação legal quanto ao armazenamento desses dados para fins regulatórios.",
+    "O atendimento da solicitação de eliminação de dado pessoal pelo titular é possível mesmo quando o dado, de uso exclusivo do sistema SEBRAE, já tiver sido anonimizado.",
+    "Os dados pessoais serão eliminados após o término de seu tratamento, sendo vedada sua transferência a terceiros, mesmo que respeitados os requisitos de tratamento de dados dispostos na LGPD.",
+    "A eliminação de dados pessoais pode ser realizada a pedido do titular, observadas as hipóteses de autorização de conservação previstas na LGPD."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-044",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca das práticas e dos conceitos relacionados à ESG, julgue os itens a seguir. I O tema ESG visa orientar empresas, financiadores e consumidores focados em boas práticas organizacionais para garantir maior responsabilidade ambiental, social e de governança. II O zelo pela veracidade das informações de produtos e processos de uma organização é um procedimento que se relaciona com práticas de governança empresarial. III O total comprometimento de uma organização com a sustentabilidade empresarial é mensurado exclusivamente por meio das vertentes social e ambiental. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-045",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ao assumir a presidência de uma organização, Carlos elaborou e colocou em execução um programa cuidadosamente estruturado que incluía um conjunto de procedimentos internos que tinham como objetivo fazer com que a organização estivesse em conformidade com leis, normas e regulamentos vigentes, inclusive regulamentos internos, sobretudo o Código de Ética e Conduta da organização. Com base na situação hipotética apresentada, no contexto de ESG, considera-se que Carlos adotou a seguinte boa prática associada aos aspectos de governança:",
+   "gabarito": "d",
+   "alternativas": [
+    "aderência aos direitos trabalhistas.",
+    "apoio à diversidade e inclusão.",
+    "busca de alternativas sustentáveis, visando a redução de impactos ambientais.",
+    "elaboração e execução de uma política de compliance ."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-046",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Constitui aspecto relativo ao componente ambiental no contexto de ESG I postura moral e ética nos negócios. II valorização da saúde e segurança no ambiente de trabalho. III gerenciamento correto do descarte de lixo. Assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-047",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que diz respeito às boas práticas de ESG, uma medida que se vincula ao aspecto social é",
+   "gabarito": "a",
+   "alternativas": [
+    "atuar junto à comunidade.",
+    "adotar projetos de proteção e preservação do meio ambiente.",
+    "valorização da prestação de contas e da responsabilidade corporativa.",
+    "adoção de políticas para o controle dos processos."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-048",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da instituição do processo de ESG em uma organização, assinale a opção que expressa corretamente aspectos a serem observados pela organização.",
+   "gabarito": "c",
+   "alternativas": [
+    "Os aspectos teóricos da ESG são suficientes para a construção das estratégias e implementação de políticas de governança.",
+    "O engajamento das lideranças é primordial para implementação dos processos de ESG, sendo desnecessário o envolvimento dos demais colaboradores.",
+    "É necessário conhecer os 17 Objetivos de Desenvolvimento Sustentável instituídos pela Organização das Nações Unidas e analisar os impactos que podem ser gerados na realidade organizacional.",
+    "As metas e estratégias da ESG devem estar condicionadas às questões financeiras e humanas relativas ao mercado global."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-049",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A sequência lógica dos atos inerentes à política dos “3Rs”, com vistas a diminuir a produção de lixo pelas pessoas, deve ser, respectivamente,",
+   "gabarito": "d",
+   "alternativas": [
+    "reciclar, reutilizar e reduzir.",
+    "reduzir, reciclar e reutilizar.",
+    "reutilizar, reduzir e reciclar.",
+    "reduzir, reutilizar e reciclar."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-ii-050",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Iniciativas em causas de desenvolvimento humano e iniciativas que visam uma gestão eficiente da empresa estão relacionadas, respectivamente, com os seguintes pilares de ESG:",
+   "gabarito": "c",
+   "alternativas": [
+    "governança e ambiental.",
+    "governança e social.",
+    "social e governança.",
+    "social e ambiental."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-001",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o texto 1A1, a Escola de Palo Alto",
+   "gabarito": "d",
+   "alternativas": [
+    "hierarquizou as propriedades básicas da comunicação.",
+    "definiu as regras da comunicação humana.",
+    "listou fatos recorrentes da comunicação humana.",
+    "indicou premissas básicas da comunicação."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-002",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Os aspectos conteudísticos e relacionais da comunicação, segundo o texto 1A1,",
+   "gabarito": "c",
+   "alternativas": [
+    "são frequentemente coincidentes.",
+    "devem ser considerados de forma isolada.",
+    "nem sempre convergem.",
+    "são mutuamente excludentes."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-003",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Depreende-se dos dois últimos parágrafos do texto 1A1 que",
+   "gabarito": "b",
+   "alternativas": [
+    "a linguagem verbal, de maneira geral, é mais eficiente e assertiva do que a linguagem não verbal.",
+    "a comunicação ideal só ocorre quando os comunicantes já se conhecem previamente.",
+    "as sequências de comunicação prévias estabelecidas pelos comunicantes podem auxiliar no entendimento sobre o que é dito entre eles.",
+    "pessoas que se conhecem há muito tempo se comunicam conforme o mesmo padrão cultural."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-004",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Cada uma das opções a seguir apresenta uma proposta de reescrita para o seguinte trecho do texto 1A1: “toda comunicação tem” (primeiro período do segundo parágrafo). Assinale a opção em que a proposta apresentada mantém a correção gramatical e a coerência textual.",
+   "gabarito": "d",
+   "alternativas": [
+    "todas as comunicações requerem",
+    "todas as comunicações contém",
+    "toda comunicação há",
+    "em toda comunicação existem"
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-005",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A correção gramatical e o sentido do texto 1A1 seriam mantidos caso os dois-pontos empregados no primeiro período do terceiro parágrafo fossem substituídos por vírgula e a esta se seguisse",
+   "gabarito": "a",
+   "alternativas": [
+    "o conectivo porque , seguido de vírgula.",
+    "o vocábulo mas .",
+    "a expressão uma vez que .",
+    "a palavra portanto , seguida de vírgula."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-006",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No último período do terceiro parágrafo do texto 1A1, a locução “podem denotar” poderia ser substituída, mantendo-se a correção gramatical e a coerência textual, por",
+   "gabarito": "d",
+   "alternativas": [
+    "podem destacar .",
+    "possivelmente denota .",
+    "talvez mostram .",
+    "podem indicar ."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-007",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No quarto parágrafo do texto 1A1, a forma pronominal “os”, em “pois os predispõem a um conjunto maior de sinais e mensagens” (terceiro período), retoma",
+   "gabarito": "c",
+   "alternativas": [
+    "o termo “cada comunicador” (terceiro período).",
+    "o mesmo referente do sujeito da oração “vão se comunicar um com o outro no momento presente” (terceiro período).",
+    "os “demais” citados no final do segundo período.",
+    "a expressão “modos de comunicação” (segundo período)."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-008",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A correção gramatical do quarto parágrafo do texto 1A1, no que concerne à concordância verbal e nominal, seria mantida caso se substituísse",
+   "gabarito": "a",
+   "alternativas": [
+    "“age” (segundo período) por agem .",
+    "“serão interpretados e compartilhados” (terceiro período) por será interpretado e compartilhado .",
+    "“são apreendidos” (segundo período) por é apreendida .",
+    "“influenciam” (terceiro período) por influencia ."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-009",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No primeiro período do último parágrafo do texto 1A1, o vocábulo “conspícuo” tem o mesmo sentido de",
+   "gabarito": "c",
+   "alternativas": [
+    "inexorável .",
+    "visível .",
+    "verdadeiro .",
+    "frequente ."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-010",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A correção gramatical e as ideias do texto 1A1 seriam preservadas caso a forma verbal “Prescindindo” (último período do texto) fosse substituída por",
+   "gabarito": "a",
+   "alternativas": [
+    "Abstendo-se .",
+    "Valendo-se .",
+    "Dispensando .",
+    "Não abrindo mão ."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-011",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "À luz das normas contidas na Instrução Normativa SEBRAE n.o 36/2024 e no Regulamento de licitações e contratos do Sistema SEBRAE (Resolução CDN n.o 493/2024), assinale a opção correta acerca da matriz de riscos.",
+   "gabarito": "b",
+   "alternativas": [
+    "Quando obrigatória, a cláusula de matriz de riscos deve constar, necessariamente, do termo de referência, do edital e do contrato, sendo indispensável a sua validação pela Unidade de Integridade Corporativa.",
+    "A cláusula de matriz de risco define os riscos de ônus financeiro decorrentes de eventos ocultos pretéritos e presentes à contratação, bem como daqueles supervenientes e imprevisíveis.",
+    "A cláusula de matriz de riscos é obrigatória nas contratações de compras com valores vultosos.",
+    "A cláusula de matriz de riscos é obrigatória no regime de contratação integrada e facultativa no regime de contratação semi-integrada."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-012",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação à contratação direta por dispensa de licitação em razão do valor, assinale a opção correta, considerando as normas da Instrução Normativa SEBRAE n.o 36/2024 e do Regulamento de licitações e contratos do Sistema SEBRAE (Resolução CDN n.o 493/2024).",
+   "gabarito": "d",
+   "alternativas": [
+    "Os valores limites para a contratação direta de compras, obras e serviços poderão ser duplicados ou triplicados, respectivamente, se contratados em conjunto por dois ou três entes dos serviços sociais autônomos.",
+    "É vedado realizar o fracionamento do objeto, salvo quando observado o valor limite, considerando, para tanto, a natureza da despesa contábil dentro do mesmo exercício financeiro.",
+    "Os documentos de habilitação jurídica, a emissão de instrumento contratual e o uso do sistema informatizado do SEBRAE são dispensados na contratação direta de bem por valor quando realizada por meio de comércio eletrônico ou diretamente em lojas físicas.",
+    "Na instrução da contratação direta de bem ou serviço por valor, a justificativa circunstanciada dos aspectos técnicos e econômicos é elemento essencial."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-013",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No tocante ao gestor e à gestão dos contratos, assinale a opção correta, nos termos da Instrução Normativa SEBRAE n.o 51/2019.",
+   "gabarito": "c",
+   "alternativas": [
+    "O gestor do contrato deve acompanhar a regularidade fiscal do contratado a cada pagamento e, constatando desconformidade, deve efetuar a retenção do valor até o saneamento da irregularidade, sob pena de responsabilidade.",
+    "Compete ao gerente da unidade a abertura de processo de prestação de serviço e, a fim de se evitar a descontinuidade do serviço, cabe ao gestor do contrato providenciar a documentação para a prorrogação do instrumental contratual.",
+    "É vedada a cumulação das atividades de planejamento, supervisão, gestão e acompanhamento da execução do contrato na pessoa do gestor, sob pena de ofensa ao princípio da segregação de funções.",
+    "O gestor do contrato, designado formalmente pelo gerente da unidade, é assessorado e orientado pelo Núcleo de Gestão de Contratos, o qual, por sua vez, é vinculado à Unidade de Gestão Financeira."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-014",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta, quanto à aplicação de penalidades contratuais, à luz da Instrução Normativa SEBRAE n.o 51/2019.",
+   "gabarito": "c",
+   "alternativas": [
+    "Dentre as sanções previstas para o caso de descumprimento do contrato tem-se a declaração de inidoneidade para licitar e contratar com outros entes dos serviços sociais autônomos.",
+    "A execução da sanção de multa ocorrerá, preferencialmente, sobre a garantia oferecida pelo contratado.",
+    "A decisão de aplicação das penalidades de advertência, multa e rescisão contratual compete ao gestor do contrato em conjunto com seu(s) superior(es) hierárquico(s).",
+    "A aplicação da penalidade de suspensão temporária do direito de licitar ou contratar com o Sistema SEBRAE compete ao Núcleo de Gestão de Contratos, após o parecer prévio da Unidade de Assessoria Jurídica."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-015",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito do processo decisório da Diretoria Executiva (DIREX), assinale a opção correta, considerando a Instrução Normativa SEBRAE n.o 47/2021.",
+   "gabarito": "c",
+   "alternativas": [
+    "A Unidade Gestora do processo decisório da DIREX terá um empregado nomeado para assessorar a DIREX na governança do SEBRAE, sem deter a prerrogativa de assinar, isoladamente, as Resoluções das reuniões da Diretoria Executiva do SEBRAE.",
+    "As propostas são submetidas à DIREX com as finalidades de discussão, conhecimento, decisão ou autorização de licitação, sendo que para as duas primeiras finalidades não é obrigatória a apresentação de parecer.",
+    "A proposta encaminhada à DIREX contendo documentos do planejamento estratégico possui, quanto ao assunto, a tipologia Análise Técnica de Projeto (ATP).",
+    "Na ordem de precedência, o parecer adicional, quando necessário, é emitido após o parecer por tipo de assunto e o parecer por instrumento jurídico."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-016",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a Instrução Normativa SEBRAE n.o 47/2021, nos casos em que a proposta necessite ser submetida ao Conselho Deliberativo Nacional, a atribuição de elaborar a minuta de Encaminhamento de Assunto ao Conselho Deliberativo Nacional (EACDN), validar junto à Unidade Gestora do processo decisório e assinar o respectivo documento é da(o)",
+   "gabarito": "c",
+   "alternativas": [
+    "unidade proponente.",
+    "gabinete de supervisão.",
+    "Diretoria Executiva.",
+    "presidência."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-017",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base no Regulamento de licitações e contratos do SEBRAE (Resolução CDN n.o 493/2024), assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Contrato de eficiência é aquele que impõe ao contratado o dever de realizar a prestação de um serviço específico em período predeterminado.",
+    "Os regimes de contratação integrada e semi-integrada aplicam-se, exclusivamente, aos contratos de obras e serviços de engenharia, e distinguem-se pela necessidade da elaboração e desenvolvimento do projeto básico somente nos casos de contratação integrada.",
+    "As licitações obedecerão aos princípios da publicidade e da transparência, principalmente, quanto à impossibilidade de ser ocultado o preço referencial da licitação, sob pena de frustrar o seu caráter competitivo.",
+    "As normas do Regulamento de licitações e contratos do SEBRAE serão interpretadas de acordo com os princípios do regime jurídico-administrativo, em especial, da supremacia e da indisponibilidade do interesse público."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-018",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Nos termos do Regulamento de licitações e contratos do SEBRAE (Resolução CDN n.o 493/2024), constitui hipótese de inexigibilidade de licitação a contratação de",
+   "gabarito": "c",
+   "alternativas": [
+    "serviços técnicos especializados de natureza predominantemente intelectual para realizar treinamento e aperfeiçoamento dos empregados do Sistema SEBRAE.",
+    "serviços de consultoria, destinados ao público-alvo do Sistema SEBRAE, não abrangida nas hipóteses do credenciamento.",
+    "instituição incumbida regimental ou estatutariamente da pesquisa, do ensino ou do desenvolvimento institucional, com ou sem fins lucrativos, desde que o objeto da contratação tenha relação com o estatuto social da contratada.",
+    "serviços de instrutoria vinculados às atividades finalísticas do Sistema SEBRAE, não abrangidas nas hipóteses do credenciamento."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-019",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito do reajuste, do reequilíbrio econômico-financeiro e da repactuação, assinale a opção correta, de acordo com o Regulamento de licitações e contratos do SEBRAE (Resolução CDN n.o 493/2024).",
+   "gabarito": "d",
+   "alternativas": [
+    "O reajuste, o reequilíbrio econômico-financeiro e a repactuação podem ser aplicados à ata de registro de preços.",
+    "Para que sejam aplicados, o reajuste, o reequilíbrio econômico-financeiro e a repactuação devem estar previstos no edital da licitação ou no contrato.",
+    "O reequilíbrio econômico-financeiro é a forma de recomposição ordinária do preço do contrato, enquanto a repactuação é o instrumento para a recomposição econômico-financeira extraordinária do valor do contrato.",
+    "Na contratação de dedicação exclusiva de mão de obra, a variação de custos decorrentes de acordo, convenção ou dissídio coletivo pode dar ensejo ao reajuste do valor do contrato."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-020",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta, acerca das garantias previstas no Regulamento de licitações e contratos do SEBRAE (Resolução CDN n.o 493/2024).",
+   "gabarito": "b",
+   "alternativas": [
+    "O percentual máximo sobre o valor estimado da contratação na garantia de proposta é maior do que aquele fixado para a garantia contratual.",
+    "Independentemente do objeto da contratação, a escolha da forma de garantia cabe ao contratante e deve ser informada no edital da licitação.",
+    "Uma das modalidades de garantia é a caução em títulos da dívida pública emitidos sob a forma escritural, mediante registro em sistema centralizado de liquidação e de custódia autorizado pelo Banco Central do Brasil.",
+    "A garantia pode ser exigida tanto no momento da apresentação da proposta, hipótese em que será requisito de pré-qualificação do licitante, como também no momento da celebração do contrato."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-021",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No tocante ao credenciamento, assinale a opção correta, à luz do Regulamento de licitações e contratos do SEBRAE (Resolução CDN n.o 493/2024).",
+   "gabarito": "d",
+   "alternativas": [
+    "O credenciamento destina-se à contratação de profissionais prestadores de serviços, sendo inviável a sua utilização para a aquisição de bens.",
+    "Para cancelar o credenciamento, o contratante deve assegurar o contraditório e a ampla defesa aos credenciados interessados.",
+    "O credenciamento pode ser utilizado para as seguintes hipóteses de contratação: paralela e não excludente; com seleção a critério de terceiros; em mercados fluidos.",
+    "O credenciamento pode ser formado por meio do pregão."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-022",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta, quanto ao sistema nacional de cadastramento de fornecedores e à pré-qualificação permanente, previstos no Regulamento de licitações e contratos do SEBRAE (Resolução CDN n.o 493/2024).",
+   "gabarito": "a",
+   "alternativas": [
+    "A abertura do procedimento de pré-qualificação será divulgada em chamamento público pela Internet, que trará as regras e o prazo de inscrição.",
+    "A pré-qualificação visa selecionar previamente tanto licitantes quanto bens e a licitação que se seguir ao procedimento da pré-qualificação pode ser restrita aos licitantes ou bens pré-qualificados.",
+    "O licitante que desejar se inscrever no sistema nacional de cadastramento de fornecedores deverá assinar declaração se comprometendo a apresentar, futuramente, os documentos de habilitação, no prazo fixado nos editais das licitações que vier a participar.",
+    "Pode ser realizada licitação no âmbito de fornecedores cadastrados no sistema nacional, atendidos os critérios, as condições e os limites estabelecidos no edital, desde que o licitante tenha realizado o cadastro até a data da publicação do edital."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-023",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito do Sistema de Apoio ao Processo Decisório (SEAP), assinale a opção correta, considerando as normas da Instrução Normativa SEBRAE n.o 47/2021.",
+   "gabarito": "a",
+   "alternativas": [
+    "O Plano Anual e Orçamento utiliza o formulário SEAP de análise técnica de projeto (ATP) e tem como unidade emitente a Assessoria Jurídica.",
+    "A contratação de capacitação e(ou) treinamento de empregado utiliza o formulário SEAP de aquisição de bens e contratação de serviço (ABS) e tem como emitente a Unidade de Gestão Orçamentária e Contabilidade.",
+    "O contrato de mútuo utiliza o formulário SEAP de documento de referência (DRF) e tem como unidade emitente a Assessoria Jurídica.",
+    "A utilização de fundo de reserva faz uso de todos os formulários SEAP e tem como emitente a Unidade de Gestão Orçamentária e Contabilidade."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-024",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca das contratações de encomenda tecnológica, assinale a opção correta, de acordo com as normas da Instrução Normativa SEBRAE n.o 36/2024.",
+   "gabarito": "b",
+   "alternativas": [
+    "Na fase prévia à celebração do contrato de encomenda tecnológica, deverão ser formalmente consultados potenciais fornecedores para obter informações necessárias à definição da encomenda.",
+    "É indispensável que conste do termo de referência as especificações técnicas do objeto, em virtude da complexidade da atividade de pesquisa, desenvolvimento e inovação.",
+    "Em razão da sua natureza singular, a contratação de encomenda tecnológica ocorre por meio da contratação direta por inexigibilidade de licitação.",
+    "A escolha do contratado será orientada, primordialmente, para a obtenção do menor preço ou menor custo."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-025",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ao entender, de forma objetiva e racional, o ponto de vista do cliente, a fim de compreender sua realidade e agir de acordo com ela, está sendo aplicado o valor ético do sistema SEBRAE denominado",
+   "gabarito": "d",
+   "alternativas": [
+    "imagem.",
+    "respeito.",
+    "integridade.",
+    "empatia com o cliente."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-026",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o Código de Ética do Sistema SEBRAE, no que diz respeito ao relacionamento entre pessoas, uma colaboradora recém-contratada deve",
+   "gabarito": "b",
+   "alternativas": [
+    "buscar parceiros, credenciados e fornecedores que atendam aos preceitos éticos do sistema SEBRAE, com base em critérios técnicos, profissionais e reputacionais.",
+    "obedecer às decisões hierárquicas que visem a obter quaisquer favores ou vantagens indébitas, nos relacionamos com colegas, clientes e fornecedores.",
+    "adotar postura coerente com os princípios pessoais, toda vez que estiver atuando em nome do sistema SEBRAE ou representando-o.",
+    "comunicar imediatamente à assessoria de comunicação todo e qualquer ato ou fato contrário ao interesse do sistema SEBRAE."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-027",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No âmbito do sistema SEBRAE, caracteriza uma situação de conflito de interesses",
+   "gabarito": "d",
+   "alternativas": [
+    "utilizar a força de trabalho de estagiários, bem como as atividades executadas por fornecedores, para atendimento de interesse particular.",
+    "evitar participar de situações em que os interesses pessoais entrem em conflito com os interesses da organização, que poderiam comprometer a imparcialidade, objetividade ou tomada de decisão.",
+    "resguardar-se do recebimento de gratificações de terceiros que podem influenciar nas ações, decisões ou julgamentos em detrimento dos melhores interesses da organização.",
+    "impedir que um colaborador utilize informações das atividades do sistema SEBRAE em benefício próprio para oportunidades de negócio, as quais poderiam ser direcionadas à organização."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-028",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Representa uma postura inadequada dos colaboradores do sistema SEBRAE",
+   "gabarito": "b",
+   "alternativas": [
+    "obstar quaisquer condutas que interfiram no desempenho do trabalho ou que criem ambiente hostil, ofensivo ou com intimidação.",
+    "impugnar condutas ilícitas, tais como suborno, corrupção e fraude, assim como a dissimulação desses atos e o impedimento às atividades de investigação e fiscalização.",
+    "tratar colegas de trabalho, superiores, subordinados e demais pessoas com quem se relacionar em função do trabalho com descortesia, desrespeito ou agressividade.",
+    "combater a discriminação de colegas de trabalho em razão de preconceito ou distinção de gênero, orientação sexual ou nacionalidade."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-029",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que diz respeito à proteção dos ativos e recursos do SEBRAE, constitui comportamento ético",
+   "gabarito": "b",
+   "alternativas": [
+    "gerar despesas ao SEBRAE, com benefício para terceiros, referentes a compras de equipamentos, motivadas por interesses alheios aos interesses organizacionais.",
+    "preservar e fazer, ocasionalmente, bom uso dos equipamentos, dos meios de comunicação e das instalações para realização das atividades profissionais.",
+    "omitir-se diante de práticas anticoncorrenciais, quando da contratação de bens e serviços pela organização.",
+    "assegurar que despesas geradas ao sistema SEBRAE referentes a viagens sejam motivadas exclusivamente por interesses organizacionais, e nunca para atividades pessoais."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-030",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A situação em que o superior hierárquico faz uso de sua condição de autoridade para colocar o colaborador em situações desconfortáveis, de forma reiterada, denomina-se",
+   "gabarito": "c",
+   "alternativas": [
+    "assédio moral vertical ascendente.",
+    "assédio moral vertical descendente.",
+    "assédio discriminatório.",
+    "assédio organizacional."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-031",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o Regimento Interno do SEBRAE nacional, a gestão administrativa e técnica da organização deve ser exercida pelo(a)",
+   "gabarito": "d",
+   "alternativas": [
+    "Diretoria Técnica.",
+    "Diretoria Executiva.",
+    "Conselho Deliberativo Nacional.",
+    "Diretoria de Administração e Finanças."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-032",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme o Regimento Interno do SEBRAE nacional, a missão de desenvolver e implementar ações de relacionamento institucional com entidades públicas e privadas, no âmbito nacional, visando parcerias para o desenvolvimento dos pequenos negócios, pertence à",
+   "gabarito": "b",
+   "alternativas": [
+    "Unidade de Estratégia e Transformação.",
+    "Unidade de Assessoria Institucional.",
+    "Unidade de Políticas Públicas.",
+    "Unidade de Comunicação."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-033",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Auditoria Interna, a Ouvidoria e a Unidade de Empreendedorismo Feminino, Diversidade e Inclusão estão ligadas, na estrutura organizacional do SEBRAE nacional, respectivamente,",
+   "gabarito": "b",
+   "alternativas": [
+    "a Diretoria Executiva, a Diretoria de Administração e Finanças, e a Diretoria Técnica.",
+    "a Diretoria Executiva, a Diretoria Executiva, e a Diretoria Técnica.",
+    "a Diretoria Executiva, a Diretoria Executiva, e a Diretoria de Administração e Finanças.",
+    "ao Conselho Deliberativo Nacional, a Diretoria Executiva, e a Diretoria de Administração e Finanças."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-034",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Coordenar a elaboração do direcionamento estratégico, das diretrizes orçamentárias, dos orçamentos e planos de trabalho anuais, bem como de outros documentos que subsidiem a definição da ação do sistema SEBRAE, para serem submetidas à aprovação do Conselho Deliberativo Nacional, constitui uma das atribuições do",
+   "gabarito": "b",
+   "alternativas": [
+    "diretor-presidente.",
+    "chefe da Unidade de Estratégia e Transformação.",
+    "diretor de administração e finanças.",
+    "diretor técnico."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-035",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "É atribuição do Diretor Técnico do SEBRAE nacional",
+   "gabarito": "d",
+   "alternativas": [
+    "estabelecer instrumentos e mecanismos de coordenação e avaliação do desempenho e dos resultados das ações executadas pelo sistema SEBRAE.",
+    "implantar e operacionalizar sistema de informações gerenciais para subsidiar o planejamento e a tomada de decisões.",
+    "gerir os recursos materiais, financeiros e humanos de que o sistema SEBRAE necessita.",
+    "executar o controle da gestão administrativa, orçamentária e financeira, submetendo os resultados obtidos ao Conselho Deliberativo Nacional."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-036",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção em que são apresentados, respectivamente, um ato de natureza normativa e executiva, e um instrumento formal de comunicação administrativa do sistema SEBRAE.",
+   "gabarito": "b",
+   "alternativas": [
+    "circular e portaria",
+    "plano de trabalho anual e memorando",
+    "resolução e diretrizes orçamentárias",
+    "comunicação interna e correio eletrônico"
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-037",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme a política referente à proteção de dados e privacidade do sistema SEBRAE, a compatibilidade do tratamento com as finalidades informadas ao titular, de acordo com o contexto do tratamento, atende ao princípio da Lei Geral de Proteção de Dados Pessoais (LGPD) denominado",
+   "gabarito": "d",
+   "alternativas": [
+    "transparência.",
+    "necessidade.",
+    "finalidade.",
+    "adequação."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-038",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do tratamento de dados pessoais, julgue os itens a seguir, conforme a política relativa à proteção de dados e privacidade do sistema SEBRAE. I Embora tenha direito de acesso aos dados pessoais, o titular não tem direito à correção de dados pessoais desatualizados. II No tratamento de dados pessoais, devem ser definidas as responsabilidades dos agentes envolvidos (controladores e operadores). III Os dados pessoais que necessitam ser tratados com base no legítimo interesse devem ser submetidos à análise do encarregado pelo tratamento de dados pessoais do SEBRAE. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-039",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a política referente à proteção de dados e privacidade do sistema SEBRAE, caso haja necessidade de realizar o tratamento de dado pessoal para finalidade diversa da informada no momento da coleta, é necessário verificar I a ligação entre a finalidade para a qual os dados pessoais foram coletados e a finalidade do novo tratamento. II se o dado pessoal coletado está sendo compartilhado com terceiros. III se há dados pessoais sensíveis envolvidos. IV as consequências do novo tratamento para o titular dos dados pessoais. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I, III e IV estão certos.",
+    "Apenas os itens II, III e IV estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-040",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do relatório de impacto à proteção de dados pessoais (RIPD) do SEBRAE, julgue os itens a seguir. I As medidas, salvaguardas e mecanismos empregados para mitigar riscos devem estar descritos no RIPD. II Todo tratamento de dados pessoais que tenha como base legal o legítimo interesse deve ser precedido do RIPD. III O RIPD deve ser elaborado pelo encarregado pelo tratamento de dados pessoais do SEBRAE. Assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-041",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da coleta, do tratamento e do armazenamento de dados pessoais no SEBRAE, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Quando a coleta dos dados se der pela base legal do consentimento, a manifestação de vontade do titular deverá ser realizada unicamente de forma escrita.",
+    "A coleta de dado pessoal significa a entrada do dado pessoal no sistema SEBRAE, exclusivamente por meios digitais, tais como sites , aplicativos ou emails .",
+    "O consentimento relativo ao tratamento de dados pessoais de crianças e adolescentes deverá ser específico e dado por, pelo menos, um dos pais ou pelo representante legal.",
+    "O titular dos dados pessoais deve ser informado, no ato da coleta do consentimento, sobre a impossibilidade de revogá-lo."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-042",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No SEBRAE, prestar apoio técnico e operacional para que o encarregado pelo tratamento de dados pessoais possa atender a requisições de titulares e outros pedidos relacionados à LGPD compete à",
+   "gabarito": "b",
+   "alternativas": [
+    "Controladoria e Compliance .",
+    "Ouvidoria.",
+    "Assessoria Jurídica.",
+    "Universidade Corporativa."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-043",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta, no que diz respeito à eliminação de dados pessoais no sistema SEBRAE.",
+   "gabarito": "c",
+   "alternativas": [
+    "A solicitação de eliminação de dados pessoais pelo titular pode ser realizada no caso de cumprimento de obrigação legal quanto ao armazenamento desses dados para fins regulatórios.",
+    "O atendimento da solicitação de eliminação de dado pessoal pelo titular é possível mesmo quando o dado, de uso exclusivo do sistema SEBRAE, já tiver sido anonimizado.",
+    "Os dados pessoais serão eliminados após o término de seu tratamento, sendo vedada sua transferência a terceiros, mesmo que respeitados os requisitos de tratamento de dados dispostos na LGPD.",
+    "A eliminação de dados pessoais pode ser realizada a pedido do titular, observadas as hipóteses de autorização de conservação previstas na LGPD."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-044",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca das práticas e dos conceitos relacionados à ESG, julgue os itens a seguir. I O tema ESG visa orientar empresas, financiadores e consumidores focados em boas práticas organizacionais para garantir maior responsabilidade ambiental, social e de governança. II O zelo pela veracidade das informações de produtos e processos de uma organização é um procedimento que se relaciona com práticas de governança empresarial. III O total comprometimento de uma organização com a sustentabilidade empresarial é mensurado exclusivamente por meio das vertentes social e ambiental. Assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-045",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ao assumir a presidência de uma organização, Carlos elaborou e colocou em execução um programa cuidadosamente estruturado que incluía um conjunto de procedimentos internos que tinham como objetivo fazer com que a organização estivesse em conformidade com leis, normas e regulamentos vigentes, inclusive regulamentos internos, sobretudo o Código de Ética e Conduta da organização. Com base na situação hipotética apresentada, no contexto de ESG, considera-se que Carlos adotou a seguinte boa prática associada aos aspectos de governança:",
+   "gabarito": "a",
+   "alternativas": [
+    "aderência aos direitos trabalhistas.",
+    "apoio à diversidade e inclusão.",
+    "busca de alternativas sustentáveis, visando a redução de impactos ambientais.",
+    "elaboração e execução de uma política de compliance ."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-046",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Constitui aspecto relativo ao componente ambiental no contexto de ESG I postura moral e ética nos negócios. II valorização da saúde e segurança no ambiente de trabalho. III gerenciamento correto do descarte de lixo. Assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-047",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que diz respeito às boas práticas de ESG, uma medida que se vincula ao aspecto social é",
+   "gabarito": "d",
+   "alternativas": [
+    "atuar junto à comunidade.",
+    "adotar projetos de proteção e preservação do meio ambiente.",
+    "valorização da prestação de contas e da responsabilidade corporativa.",
+    "adoção de políticas para o controle dos processos."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-048",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da instituição do processo de ESG em uma organização, assinale a opção que expressa corretamente aspectos a serem observados pela organização.",
+   "gabarito": "d",
+   "alternativas": [
+    "Os aspectos teóricos da ESG são suficientes para a construção das estratégias e implementação de políticas de governança.",
+    "O engajamento das lideranças é primordial para implementação dos processos de ESG, sendo desnecessário o envolvimento dos demais colaboradores.",
+    "É necessário conhecer os 17 Objetivos de Desenvolvimento Sustentável instituídos pela Organização das Nações Unidas e analisar os impactos que podem ser gerados na realidade organizacional.",
+    "As metas e estratégias da ESG devem estar condicionadas às questões financeiras e humanas relativas ao mercado global."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-049",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A sequência lógica dos atos inerentes à política dos “3Rs”, com vistas a diminuir a produção de lixo pelas pessoas, deve ser, respectivamente,",
+   "gabarito": "b",
+   "alternativas": [
+    "reciclar, reutilizar e reduzir.",
+    "reduzir, reciclar e reutilizar.",
+    "reutilizar, reduzir e reciclar.",
+    "reduzir, reutilizar e reciclar."
+   ]
+  },
+  {
+   "id": "cebraspe-2024-sebrae-analista-i-050",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2024,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Iniciativas em causas de desenvolvimento humano e iniciativas que visam uma gestão eficiente da empresa estão relacionadas, respectivamente, com os seguintes pilares de ESG:",
+   "gabarito": "b",
+   "alternativas": [
+    "governança e ambiental.",
+    "governança e social.",
+    "social e governança.",
+    "social e ambiental."
+   ]
+  }
+ ]
+}

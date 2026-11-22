@@ -1,0 +1,38 @@
+{
+ "evento": "EXTERNO_FCC_TRT_15a_Regiao_2022",
+ "banca": "FCC",
+ "orgaos": [
+  "TRT 15ª Região"
+ ],
+ "cargos": [
+  "Técnico Judiciário"
+ ],
+ "assuntos": [
+  "Raciocínio Lógico"
+ ],
+ "provas": [
+  {
+   "fonte": "https://www.concursosfcc.com.br/"
+  }
+ ],
+ "itens": [
+  {
+   "id": "fcc-2022-trt15-tecnico-011",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em uma sequência numérica, cada termo é obtido somando-se 7 ao termo anterior. Se o primeiro termo é 4, o sexto termo é:",
+   "gabarito": "b",
+   "alternativas": [
+    "32",
+    "39",
+    "42",
+    "46",
+    "49"
+   ]
+  }
+ ]
+}

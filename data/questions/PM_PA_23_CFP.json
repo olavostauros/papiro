@@ -1,0 +1,923 @@
+{
+ "evento": "PM_PA_23_CFP",
+ "banca": "Cebraspe",
+ "orgaos": [
+  "Praças da Polícia Militar do Pará"
+ ],
+ "cargos": [
+  "Praça Da Polícia Militar Do Estado Do Pará"
+ ],
+ "assuntos": [
+  ""
+ ],
+ "provas": [
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/PM_PA_23_CFP/arquivos/916_PMPA_CFP_CB1_01.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/PM_PA_23_CFP/arquivos/916_PMPA_CFP_001_01.PDF"
+  }
+ ],
+ "itens": [
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-002",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o projeto de lei mencionado no texto CB1A1-I, é correto afirmar que",
+   "gabarito": "b",
+   "alternativas": [
+    "os agentes da administração pública poderão mudar de local de trabalho de um estado para outro, se manifestarem interesse para tanto.",
+    "a remoção de agentes de segurança por permuta dependerá de um acordo entre as partes interessadas e da aprovação da administração pública.",
+    "as injustiças sofridas pelos agentes de segurança pública em virtude de sua atuação profissional serão corrigidas.",
+    "a permuta de agentes entre estados estará condicionada ao nível hierárquico de cada um deles na segurança pública.",
+    "a permissão da administração pública para a remoção por permuta dos agentes de segurança dependerá dos motivos que os levaram a solicitá-la."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-004",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A correção gramatical e os sentidos do texto CB1A1-I seriam mantidos caso a palavra “anuência” (segundo parágrafo) fosse substituída por",
+   "gabarito": "a",
+   "alternativas": [
+    "assentimento.",
+    "informação.",
+    "explicação.",
+    "deferência.",
+    "análise."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-005",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No quarto parágrafo do texto CB1A1-I, em que são citados os aspectos a serem previstos no âmbito dos acordos de permuta, o sinal de ponto e vírgula é empregado para",
+   "gabarito": "c",
+   "alternativas": [
+    "evitar o excesso de vírgulas nas orações.",
+    "separar orações em que há conjunções deslocadas.",
+    "separar elementos de uma enumeração.",
+    "separar orações extensas, mas relacionadas entre si.",
+    "destacar o sentido em orações independentes."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-006",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Julgue os itens a seguir, relativos a aspectos linguísticos do texto CB1A1-I. I Estariam mantidas a correção gramatical e a coerência das ideias do texto caso o pronome “que” (primeiro parágrafo) fosse substituído por o qual . II Em “as promoções seguirão os critérios do local de origem, mas levarão em conta o relatório emitido pela instituição de destino” (quarto parágrafo), o sentido e a correção gramatical do trecho se manteriam caso se substituísse “mas” por todavia . III A conjunção “ou” (último parágrafo) poderia ser substituída pela conjunção e , sem prejuízo da correção gramatical e da coerência das ideias do texto. Assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Nenhum item está certo.",
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-007",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Entende-se da leitura do texto CB1A1-I que os fatos mencionados no último parágrafo constituem",
+   "gabarito": "e",
+   "alternativas": [
+    "fundamentos que devem constar entre os critérios de promoção do agente de segurança pública em seu local de origem.",
+    "condições para que a remoção de agentes de segurança pública por permuta seja autorizada.",
+    "regras que devem ser observadas na análise da proposta apresentada à Comissão de Segurança Pública da Câmara dos Deputados.",
+    "justificativas para a aprovação de um pedido de remoção de agentes de segurança pública por permuta.",
+    "argumentos que sustentam a apresentação e a aprovação do projeto de lei."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-008",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com as ideias veiculadas no texto CB1A1-II, é correto afirmar que",
+   "gabarito": "d",
+   "alternativas": [
+    "as políticas de segurança pública são construídas com base em dados científicos.",
+    "as instituições de segurança têm incentivado que seus profissionais invistam na carreira acadêmica.",
+    "os estudos realizados por profissionais de segurança pública têm como foco a compreensão das diferentes manifestações de violência na sociedade.",
+    "a aproximação entre ciência e organizações policiais pode colaborar para o enfrentamento de desafios nas corporações.",
+    "um dos problemas do cotidiano do policial é a dificuldade de diálogo nas instituições de segurança."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-009",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta a respeito de aspectos linguísticos do texto CB1A1-II.",
+   "gabarito": "a",
+   "alternativas": [
+    "Estariam preservados os sentidos e a correção gramatical do texto caso a expressão “Ao mesmo tempo” (segundo período) fosse substituída por Paralelamente .",
+    "O segmento “Para contribuir com o aprimoramento de políticas de segurança pública brasileiras” (primeiro período) estabelece uma condição para que os pesquisadores enfoquem os desafios em organizações policiais.",
+    "Em “começam a olhar” (primeiro período), a forma verbal “começam” está flexionada na terceira pessoa do plural porque concorda com a expressão “diferentes manifestações de violência”.",
+    "No trecho “começam a olhar para um aspecto específico” (primeiro período), a substituição da preposição “para” por à preservaria a coerência e a correção gramatical do texto.",
+    "Em “de caminhos” (último período), o emprego da preposição “de” justifica-se pela regência do verbo permitir – “permitem”."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-010",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No primeiro período do texto CB1A1-II, o sinal de dois-pontos empregado após a palavra “trabalho” introduz",
+   "gabarito": "d",
+   "alternativas": [
+    "uma enumeração.",
+    "uma finalidade.",
+    "um exemplo.",
+    "um esclarecimento.",
+    "uma citação."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-011",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta a respeito de Internet e intranet .",
+   "gabarito": "e",
+   "alternativas": [
+    "Não é possível realizar streaming de vídeos em uma intranet .",
+    "Por ser a Internet uma rede mundial de computadores, apenas computadores e smartphones têm capacidade de acessá-la.",
+    "A abrangência global da Internet só é possível porque os computadores estão ligados em uma única rede física.",
+    "A principal diferença entre Internet e intranet é que a intranet não utiliza roteadores para a comunicação entre computadores.",
+    "A intranet é uma rede de computadores privada, utilizada internamente por organizações."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-012",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação às ferramentas do LibreOffice, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Math é uma ferramenta utilizada para a criação de planilhas eletrônicas, similar ao Microsoft Excel.",
+    "Impress é a ferramenta utilizada para imprimir documentos.",
+    "Inexiste, na suíte LibreOffice, uma ferramenta para a criação de apresentações como o Microsoft Power Point.",
+    "Writer é a ferramenta de produção de textos, similar ao Microsoft Word.",
+    "Base é a ferramenta que permite editar fotos e figuras."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-014",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Microsoft Edge, Google Chrome, Opera, Mozilla Firefox são exemplos de aplicativos que permitem ao usuário I escrever, enviar, receber e armazenar e-mails . II realizar compras em comércio eletrônico. III assistir a vídeos e filmes. IV fazer verificações rápidas para proteção contra vírus no computador. Estão certos apenas os itens",
+   "gabarito": "d",
+   "alternativas": [
+    "I e III.",
+    "I e IV.",
+    "II e IV.",
+    "I, II e III.",
+    "II, III e IV."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-015",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correspondente a um programa de computador malicioso com a capacidade de se autorreplicar e se propagar sem qualquer intervenção humana.",
+   "gabarito": "e",
+   "alternativas": [
+    "spyware",
+    "ransomware",
+    "adware",
+    "trojan",
+    "worm"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-016",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Inicialmente, um pacote com 700 gramas de certo tipo de biscoito era vendido por R$ 5,00. Após algum tempo, a quantidade de biscoitos no pacote foi reduzida pelo fabricante para 500 gramas, tendo sido mantido o preço de R$ 5,00. Mais algum tempo depois, o preço do pacote de 500 gramas foi reajustado para R$ 7,00. Nessa situação, após a última operação descrita, o aumento real, em porcentagem, pago pelo consumidor em relação aos preços praticados antes da primeira operação foi",
+   "gabarito": "c",
+   "alternativas": [
+    "inferior a 35%.",
+    "superior a 35% e inferior a 50%.",
+    "superior a 90%.",
+    "superior a 50% e inferior a 75%.",
+    "superior a 75% e inferior a 90%."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-017",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Nas rondas ostensivas realizadas em certo bairro no mês de outubro, foram registradas ocorrências de agressões em 21 dias e ocorrências de furtos em 17 dias. Com base nessa situação hipotética, é correto afirmar que o menor número possível de dias do mês de outubro em que não tenham sido registradas ocorrências de nenhum dos tipos mencionados é",
+   "gabarito": "a",
+   "alternativas": [
+    "0.",
+    "4.",
+    "7.",
+    "14.",
+    "10."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-018",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção em que é apresentada uma tautologia.",
+   "gabarito": "e",
+   "alternativas": [
+    "Trabalho se, e somente se, ganho dinheiro.",
+    "Trabalhando ou não, ganharei dinheiro.",
+    "Se trabalho, ganho dinheiro, se não ganho dinheiro, não trabalho.",
+    "Se trabalho, ganho dinheiro, se não trabalho, não ganho.",
+    "Trabalho ou não e ganho dinheiro ou não."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-019",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando a sentença apresentada no texto CB1A3 e que Pedro seja um dos elementos do conjunto V , assinale a opção em que é corretamente apresentado o número de linhas da tabela-verdade da proposição P (Pedro).",
+   "gabarito": "d",
+   "alternativas": [
+    "2",
+    "32",
+    "4",
+    "8",
+    "16"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-021",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta acerca das disposições constitucionais de defesa do Estado e das instituições democráticas.",
+   "gabarito": "d",
+   "alternativas": [
+    "Na decretação do estado de defesa, não há necessidade de manifestação do Conselho da República e do Conselho de Defesa Nacional.",
+    "Na vigência do estado de defesa, excepcionalmente, é permitida a incomunicabilidade do preso.",
+    "Cessado o estado de defesa ou estado de sítio, cessarão também seus efeitos, não havendo que se falar em responsabilidade pelos ilícitos cometidos por seus executores ou agentes.",
+    "O estado de sítio pode ser decretado em caso de declaração do estado de guerra ou de resposta a agressão armada estrangeira.",
+    "A decretação do estado de sítio fica a cargo do presidente da República, sem necessidade de autorização prévia do Congresso Nacional, como ocorre no estado de defesa."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-022",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta no que concerne aos direitos e garantias fundamentais.",
+   "gabarito": "e",
+   "alternativas": [
+    "As ações de habeas corpus e habeas data são gratuitas apenas para os financeiramente hipossuficientes, na forma da lei.",
+    "São brasileiros naturalizados aqueles nascidos no estrangeiro, de pai ou mãe brasileiro, desde que qualquer destes esteja a serviço da República Federativa do Brasil.",
+    "É inafiançável e insuscetível de graça ou anistia a prática dos crimes de terrorismo e racismo.",
+    "É vedada a cassação dos direitos políticos, exceto nos casos de condenação criminal transitada em julgado.",
+    "A assistência aos desamparados constitui direito fundamental social, conforme previsão constitucional."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-023",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito da repartição constitucional de competências, julgue os itens a seguir, de acordo com a Constituição Federal de 1988. I Os estados podem, mediante autorização da União via lei complementar, legislar sobre questões específicas das matérias de competência privativa do ente central. II A competência para legislar concorrentemente aplica-se à União, aos estados, ao Distrito Federal e aos municípios. III No âmbito da legislação concorrente, a competência da União limita-se a estabelecer normas gerais. IV São competências materiais exclusivas da União organizar e manter as polícias civil, penal e militar e o corpo de bombeiros militar do Distrito Federal. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas os itens I, II e III estão certos.",
+    "Apenas os itens I, II e IV estão certos.",
+    "Apenas os itens I, III e IV estão certos.",
+    "Apenas os itens II, III e IV estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-024",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "As prerrogativas e sujeições conferidas à administração pública, inexistentes nas relações típicas entre particulares, caracterizam o regime jurídico administrativo e derivam especificamente de dois princípios, denominados",
+   "gabarito": "a",
+   "alternativas": [
+    "supremacia do interesse público sobre o privado e indisponibilidade do interesse público.",
+    "razoabilidade e proporcionalidade.",
+    "eficiência e eficácia.",
+    "legitimidade e boa-fé.",
+    "impessoalidade e publicidade."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-025",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Julgue os itens a seguir, relativos à administração pública e à sua organização. I Em nenhuma forma de descentralização há hierarquia, inexistindo, pois, controle da administração direta sobre a indireta. II No Brasil, adota-se o critério formal de administração pública. Dessa forma, administração pública é aquilo que, juridicamente, o direito assim considera, independentemente da atividade exercida. III A desconcentração administrativa se dá por meio de outorga. IV As autarquias e fundações públicas são entidades da administração indireta. Estão certos apenas os itens",
+   "gabarito": "c",
+   "alternativas": [
+    "I e III.",
+    "I e IV.",
+    "II e IV.",
+    "I, II e III.",
+    "II, III e IV."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-026",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito do poder de polícia, julgue os itens seguintes. I O poder de polícia administrativo pode ser exercido preventivamente ou repressivamente. II As entidades com personalidade de direito privado integrantes da administração pública indireta podem exercer poder de polícia. III São atributos do poder de polícia a discricionariedade, a autoexecutoriedade e a coercibilidade. IV A autorização é um ato administrativo vinculado e definitivo pelo qual a administração pública reconhece que o particular detentor de um direito subjetivo preenche as condições para o seu gozo. Estão certos apenas os itens",
+   "gabarito": "d",
+   "alternativas": [
+    "I e III.",
+    "I e IV.",
+    "II e IV.",
+    "I, II e III.",
+    "II, III e IV."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-027",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca de atos administrativos, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Há sempre um controle de mérito na anulação de um ato administrativo.",
+    "A revogação, fundada no poder vinculado da administração, decorre exclusivamente do critério de conveniência e oportunidade.",
+    "No exercício de sua função típica, o Poder Judiciário não pode, em hipótese alguma, revogar ato administrativo editado pelo Poder Executivo ou pelo Poder Legislativo.",
+    "O vício de legalidade de um ato administrativo pode ser sanável ou não, sendo obrigatória a anulação do ato em ambos os casos, não havendo que se falar em convalidação.",
+    "Até mesmo os atos vinculados são passíveis de revogação, visto que comportam juízo de oportunidade e conveniência."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-028",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ficam sujeitos à lei brasileira, embora cometidos no estrangeiro, independentemente de qualquer outra condição, os crimes",
+   "gabarito": "b",
+   "alternativas": [
+    "praticados em aeronaves ou embarcações brasileiras, mercantes ou de propriedade privada, quando em território estrangeiro e que aí não sejam julgados.",
+    "de genocídio, quando o agente for brasileiro ou domiciliado no Brasil.",
+    "cometidos por estrangeiro contra brasileiro.",
+    "que, por tratado ou convenção, o Brasil se obrigou a reprimir.",
+    "praticados por brasileiro."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-029",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O agente que, após iniciar a prática de um crime, voluntariamente impede que o resultado se produza",
+   "gabarito": "e",
+   "alternativas": [
+    "incorre em desistência voluntária.",
+    "incorre em conduta atípica.",
+    "responde pela modalidade tentada do delito.",
+    "incorre em arrependimento posterior.",
+    "responde pelos atos já praticados."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-030",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere-se que João, mediante uma única ação dolosa, tenha praticado dois delitos diferentes. Sabendo-se que os crimes não resultam de desígnios autônomos, está caracterizado o",
+   "gabarito": "c",
+   "alternativas": [
+    "crime continuado, e deve ser aplicada a maior das penas, aumentada de um sexto até a metade.",
+    "crime continuado, e deve ser aplicada a menor das penas, aumentada de um sexto até a metade.",
+    "concurso formal de crimes, e deve ser aplicada a maior das penas, aumentada de um sexto até a metade.",
+    "concurso material de crimes, e devem ser somadas as penas dos crimes.",
+    "concurso formal de crimes, e deve ser aplicada a menor das penas, aumentada de um sexto até a metade."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-031",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que indica corretamente uma hipótese de legítima defesa.",
+   "gabarito": "a",
+   "alternativas": [
+    "repulsa à agressão injusta, atual ou iminente",
+    "prevenção contra agressão futura",
+    "vingança pessoal",
+    "sacrifício de bem jurídico",
+    "motivação com relevante valor social ou moral"
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-032",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O homicídio é privilegiado quando praticado",
+   "gabarito": "d",
+   "alternativas": [
+    "mediante paga ou promessa de recompensa.",
+    "em descumprimento de medida protetiva de urgência.",
+    "por ascendente, padrasto ou madrasta, tio, irmão, cônjuge, companheiro, tutor, curador, preceptor ou empregador da vítima.",
+    "sob o domínio de violenta emoção, logo em seguida a injusta provocação da vítima.",
+    "como resultado de inobservância de regra técnica de profissão, arte ou ofício."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-033",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A ocorrência de processo e julgamento, por juiz de direito, de pessoa que detenha foro privilegiado nos tribunais viola o princípio",
+   "gabarito": "e",
+   "alternativas": [
+    "do contraditório.",
+    "da ampla defesa.",
+    "da oficiosidade.",
+    "da presunção de inocência.",
+    "do juiz natural."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-034",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A lei processual penal no tempo, no espaço e em relação às pessoas",
+   "gabarito": "a",
+   "alternativas": [
+    "permite aplicação analógica.",
+    "não se sujeita a tratados, convenções ou regras de direito internacional.",
+    "não permite interpretação extensiva.",
+    "não permite suplemento dos princípios gerais do direito.",
+    "aplica-se retroativamente sempre que favorecer o réu."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-036",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Luísa foi presa em flagrante, em sua residência, menos de 24 horas após supostamente ter furtado uma motocicleta, que não foi encontrada. A prisão foi efetuada por dois policiais civis que realizavam diligências na área, com base em denúncia anônima. Nessa situação hipotética, configura-se",
+   "gabarito": "e",
+   "alternativas": [
+    "flagrante próprio.",
+    "flagrante preparado.",
+    "flagrante impróprio.",
+    "flagrante presumido.",
+    "prisão ilegal."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-038",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere que, durante uma operação militar, o sargento Silva tenha se recusado, perante o seu superior, a aceitar e cumprir ordem direta relativa a assunto de serviço, colocando em risco a segurança de sua equipe. Nessa situação hipotética, o sargento Silva cometeu o crime de",
+   "gabarito": "c",
+   "alternativas": [
+    "reunião ilícita.",
+    "peculato.",
+    "recusa de obediência.",
+    "desacato a superior.",
+    "insubmissão."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-039",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Suponha que o capitão Fonseca tenha se envolvido em um esquema de desvio de recursos originalmente destinados à alimentação dos soldados de sua unidade militar. Nesse caso hipotético, o capitão Fonseca praticou o crime de",
+   "gabarito": "e",
+   "alternativas": [
+    "estelionato.",
+    "descaminho.",
+    "concussão.",
+    "furto.",
+    "peculato."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-040",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere que um soldado da polícia militar do Pará, durante o serviço, tenha ameaçado um civil, sem efetuar quaisquer disparos. Nessa ocorrência hipotética, o soldado praticou o crime militar de",
+   "gabarito": "d",
+   "alternativas": [
+    "lesão corporal leve.",
+    "coação.",
+    "insubmissão.",
+    "ameaça.",
+    "tentativa de homicídio."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-041",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Suponha que, durante uma operação policial militar, um civil com mandado de prisão em aberto expedido em seu nome tenha, na tentativa de impedir sua prisão, agredido o soldado Marcos, que participava da operação. Nessa situação, o civil praticou o crime de",
+   "gabarito": "a",
+   "alternativas": [
+    "resistência.",
+    "constrangimento ilegal.",
+    "lesão corporal gravíssima.",
+    "desobediência.",
+    "desacato."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-042",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere às medidas de segurança previstas no Código Penal Militar (CPM), assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "As medidas de segurança regem-se pela lei vigente ao tempo da sentença, ainda que haja lei diversa vigente ao tempo da execução.",
+    "A suspensão condicional da pena afasta a aplicação de medida de segurança não detentiva.",
+    "As medidas de segurança podem ser aplicadas a civis e militares.",
+    "A medida de segurança do exílio local é classificada como patrimonial.",
+    "A proibição de frequentar determinados lugares é classificada como detentiva."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-043",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em um processo penal militar, a autoridade responsável por fiscalizar a investigação e, posteriormente, oferecer denúncia é o",
+   "gabarito": "a",
+   "alternativas": [
+    "promotor de justiça militar.",
+    "delegado de polícia.",
+    "advogado de defesa.",
+    "oficial de justiça militar.",
+    "comandante da unidade militar."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-044",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Caso um soldado seja acusado de desrespeitar uma ordem direta de seu superior durante o exercício militar, o procedimento correto a ser adotado pelas autoridades militares é",
+   "gabarito": "b",
+   "alternativas": [
+    "arquivar o caso, haja vista o contexto de treinamento.",
+    "instaurar um inquérito policial militar (IPM) para investigar o ocorrido.",
+    "encaminhar o caso diretamente para julgamento em tribunal militar.",
+    "aplicar penalidade disciplinar, prescindindo-se de investigação formal.",
+    "transferir o soldado para outra unidade militar como forma de punição, sem instaurar procedimento investigatório."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-045",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Após receber os autos conclusos de um inquérito policial militar (IPM), cabe ao promotor de justiça militar",
+   "gabarito": "c",
+   "alternativas": [
+    "julgar o acusado e proferir a sentença.",
+    "encaminhar obrigatoriamente o caso para o tribunal militar.",
+    "oferecer denúncia, se houver elementos suficientes, ou solicitar o arquivamento do caso.",
+    "sentenciar e definir a pena aplicável ao acusado.",
+    "realizar, pessoalmente, o interrogatório do acusado."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-046",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Na situação hipotética apresentada no texto 1A06, o titular da ação penal militar deve ser o",
+   "gabarito": "d",
+   "alternativas": [
+    "próprio soldado acusado.",
+    "juiz de direito da comarca.",
+    "advogado de defesa do soldado.",
+    "Ministério Público Militar.",
+    "comandante da unidade militar."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-047",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No caso hipotético narrado no texto 1A06, é adequada a ação penal militar",
+   "gabarito": "a",
+   "alternativas": [
+    "pública incondicionada.",
+    "pública condicionada à representação.",
+    "privada.",
+    "subsidiária.",
+    "de iniciativa privada."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-048",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme a Lei n.o 8.072/1990 (Lei de Crimes Hediondos), é considerado crime hediondo I o roubo qualificado pelo emprego de explosivo ou de artefato análogo que cause perigo comum. II a extorsão mediante sequestro. III a posse ou porte ilegal de arma de fogo de uso restrito. IV o tráfico internacional de munição. Estão certos apenas os itens",
+   "gabarito": "c",
+   "alternativas": [
+    "I e III.",
+    "I e IV.",
+    "II e IV.",
+    "I, II e III.",
+    "II, III e IV."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-049",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o disposto na Lei n.o 9.503/1997, no homicídio culposo cometido na direção de veículo automotor, a pena é aumentada de 1/3 à metade se o agente",
+   "gabarito": "a",
+   "alternativas": [
+    "deixar de prestar socorro, quando possível fazê-lo sem risco pessoal, à vítima do sinistro.",
+    "praticar a ação que resultou no homicídio nas imediações de estabelecimento escolar.",
+    "estiver sob a influência de álcool ou de qualquer outra substância psicoativa que determine dependência.",
+    "praticar a ação que resultou no homicídio em frente a um semáforo.",
+    "estiver no exercício de sua profissão ou atividade, conduzindo veículo de transporte de carga."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-050",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta com base no que dispõe a Lei n.o 10.826/2003 (Estatuto do Desarmamento).",
+   "gabarito": "c",
+   "alternativas": [
+    "Aos maiores de dezoito anos de idade que residam em áreas rurais e que comprovem depender do uso de arma de fogo para prover sua subsistência alimentar e familiar será concedido porte de arma de fogo pelo Exército, na categoria caçador para subsistência.",
+    "Aos integrantes das guardas municipais dos municípios com mais de 40.000 e menos de 400.000 habitantes, quando em serviço, é autorizado o porte de arma.",
+    "Possuem porte de arma os integrantes das carreiras de Auditoria da Receita Federal do Brasil e de Auditoria-Fiscal do Trabalho, cargos de auditor-fiscal e analista tributário.",
+    "O caçador para subsistência que der outro uso à sua arma de fogo, independentemente de outras tipificações penais, não responderá por porte ilegal ou por disparo de arma de fogo de uso permitido.",
+    "Os agentes operacionais da Agência Brasileira de Inteligência e os agentes do Departamento de Segurança do Gabinete de Segurança Institucional da Presidência da República possuem porte de arma de fogo somente quando em serviço."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-051",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Constatada a prática de violência doméstica e familiar contra a mulher, nos termos da Lei n.o 11.340/2006 (Lei Maria da Penha), o juiz poderá, entre outras medidas protetivas de urgência,",
+   "gabarito": "a",
+   "alternativas": [
+    "determinar ao agressor o afastamento do lar, domicílio ou local de convivência com a ofendida.",
+    "determinar ao agressor a prestação de alimentos definitivos em favor da ofendida.",
+    "decretar a prisão preventiva do agressor.",
+    "conceder ao agressor auxílio-aluguel, por período de 6 meses, para que ele se afaste do local de convivência com a vítima.",
+    "determinar a restituição de bens indevidamente subtraídos pela ofendida ao agressor."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-052",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Pedro é um trabalhador autônomo que extrai, sem autorização da autoridade competente, cascalho de área de preservação permanente para fornecê-lo a diversas empresas construtoras. Acerca dessa situação hipotética, julgue os itens a seguir. I A conduta de Pedro configura crime ambiental e, caso ela resulte na diminuição de águas naturais ou na erosão do solo, a pena prevista para o crime será aumentada até a metade. II Pedro deverá responder por crime ambiental contra a flora. III A ação penal decorrente da conduta praticada por Pedro é de natureza pública incondicionada. IV A conduta de Pedro configura crime ambiental e se a conduta ocorrer no período de formação de vegetações, a pena prevista deverá ser aumentada em 1/3. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e IV estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Apenas os itens III e IV estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-053",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base no Estatuto dos Policiais Militares, no Código de Ética e Disciplina e no Sistema de Proteção Social dos Militares do Estado do Pará, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "São classificados como preceitos da ética policial-militar o espírito de corpo, o orgulho do policial militar pela organização onde serve, o sentimento do dever, o pundonor policial-militar e o decoro da classe, que impõem, a cada um dos integrantes da polícia militar, conduta moral e profissional, irrepreensíveis.",
+    "A licença-paternidade concedida ao policial militar pelo nascimento de filho, adoção ou obtenção de guarda judicial para fins de adoção será de oito dias consecutivos, prorrogáveis por igual período.",
+    "A Polícia Militar do Pará (PMPA), força auxiliar e reserva do Exército, vincula-se operacionalmente ao governador do estado e subordina-se administrativamente à Secretaria de Estado de Segurança Pública e Defesa Social.",
+    "Durante o período de licença sem remuneração, o não recolhimento de no mínimo três contribuições, consecutivas ou não, por responsabilidade do segurado, importará na suspensão do exercício dos direitos de proteção social.",
+    "No âmbito dos processos e procedimentos na seara disciplinar, a intimação é o ato processual pelo qual se convoca, por ordem da autoridade competente, o acusado para defender-se em processo administrativo disciplinar."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-056",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme o disposto na Constituição Federal, julgue os itens a seguir. I O direito à livre manifestação depende de autorização da autoridade competente. II A pena de morte e a tortura são permitidas em caso de guerra declarada. III O preso tem direito à identificação dos responsáveis por sua prisão. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Nenhum item está certo.",
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-059",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Os direitos humanos originaram-se a partir da concepção dos direitos naturais em uma dimensão do homem racional construído nas bases do período histórico do Iluminismo e que existem independentemente de norma ou regra instituída. Assim, a base dos direitos humanos, que os diferencia de toda outra forma objetiva de delimitação da essência humana nas sociedades modernas, remete",
+   "gabarito": "c",
+   "alternativas": [
+    "a sua materialidade em normas infraconstitucionais.",
+    "à condição de imposição dos direitos nos territórios.",
+    "aos direitos inerentes à condição humana.",
+    "a sua permanência enquanto norma rígida ao longo dos tempos.",
+    "aos direitos inerentes à pessoa humana e que, portanto, excluem todas as outras formas de vida e o meio ambiente desse rol de proteção."
+   ]
+  },
+  {
+   "id": "cebraspe-2023-pm-pa-praca-pm-060",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2023,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Decreto n.o 7.037/2009, que instituiu o Programa Nacional de Direitos Humanos, corroborando o compromisso do Estado brasileiro com a Declaração Universal dos Direitos Humanos e demais pactos correlatos a esse dispositivo internacional de garantia dos direitos humanos, é estruturado a partir de eixos orientadores. O eixo IV, referente à segurança pública, acesso à justiça e combate à violência, corresponde",
+   "gabarito": "d",
+   "alternativas": [
+    "à promoção da educação em direitos humanos no serviço público.",
+    "ao fortalecimento dos direitos humanos como instrumento transversal das políticas públicas e de interação democrática.",
+    "à promoção dos direitos de crianças e adolescentes para o seu desenvolvimento integral, de forma não discriminatória, assegurando seu direito de opinião e participação.",
+    "ao combate à violência institucional, com ênfase na erradicação da tortura e na redução da letalidade policial e carcerária.",
+    "ao sigilo da fonte e liberação da participação popular no sistema de segurança pública e justiça criminal."
+   ]
+  }
+ ]
+}

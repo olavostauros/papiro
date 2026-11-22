@@ -1,0 +1,31 @@
+{
+ "evento": "PF_24",
+ "banca": "Cebraspe",
+ "orgaos": [
+  "Polícia Federal"
+ ],
+ "cargos": [
+  "Escrivão de Polícia Federal"
+ ],
+ "assuntos": [
+  "Direito Administrativo"
+ ],
+ "provas": [
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/PF_24/"
+  }
+ ],
+ "itens": [
+  {
+   "id": "cebraspe-2024-pf-escrivao-042",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2024,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A respeito dos atos administrativos, julgue o item a seguir. O atributo da presunção de legitimidade torna o ato administrativo presumivelmente válido até prova em contrário.",
+   "gabarito": "certo"
+  }
+ ]
+}
