@@ -71,7 +71,9 @@ def _faixas(nums: list[int]) -> str:
 def validar(prova: ProvaExtraida, gab: Gabarito, *, caderno: str = "",
             url_prova: str = "", url_gabarito: str = "",
             itens_pdf: Optional[dict[int, str]] = None,
-            so_indicativo: Optional[set[int]] = None) -> Relatorio:
+            so_indicativo: Optional[set[int]] = None,
+            texto_pdf: Optional[str] = None,
+            verificar_texto: Optional[Iterable[int]] = None) -> Relatorio:
     """``itens_pdf`` (numero → texto do item, de ``extract_local.itens_do_pdf``)
     liga o cruzamento com o PDF: renumeração ou item pulado reprovam."""
     r = Relatorio(caderno=caderno, url_prova=url_prova,
@@ -108,7 +110,7 @@ def validar(prova: ProvaExtraida, gab: Gabarito, *, caderno: str = "",
         r.erros.append(f"total extraído {len(nums)} ≠ gabarito {len(esperados)}")
 
     tipo_gab = gab.tipo
-    vazios, sem_gab, tipo_ruim, longos, alt_ruins = [], [], [], [], []
+    vazios, sem_gab, tipo_ruim, longos, alt_ruins, letra_fora = [], [], [], [], [], []
     validos = 0
     for q in prova.questoes:
         if not (q.enunciado or "").strip():
@@ -126,8 +128,12 @@ def validar(prova: ProvaExtraida, gab: Gabarito, *, caderno: str = "",
             continue
         if len(q.enunciado or "") > ENUNCIADO_LONGO:
             longos.append(q.numero)
-        if tipo_q == "multipla_escolha" and not 4 <= len(q.alternativas) <= 5:
-            alt_ruins.append(q.numero)
+        if tipo_q == "multipla_escolha":
+            if not 4 <= len(q.alternativas) <= 5:
+                alt_ruins.append(q.numero)
+            # letra do gabarito tem que existir entre as alternativas (E com 4 → erro)
+            elif "abcde".index(gab.para_dataset(q.numero, tipo_q)) >= len(q.alternativas):
+                letra_fora.append(q.numero)
         validos += 1
 
     if vazios:
@@ -140,11 +146,16 @@ def validar(prova: ProvaExtraida, gab: Gabarito, *, caderno: str = "",
         r.avisos.append(f"enunciado > {ENUNCIADO_LONGO} caracteres (texto-base colado?): "
                         f"{_faixas(longos)}")
     if alt_ruins:
-        r.avisos.append(f"múltipla escolha com nº de alternativas fora de 4–5: "
-                        f"{_faixas(alt_ruins)}")
+        r.erros.append(f"múltipla escolha com nº de alternativas fora de 4–5: "
+                       f"{_faixas(alt_ruins)}")
+    if letra_fora:
+        r.erros.append(f"letra do gabarito além das alternativas extraídas: {_faixas(letra_fora)}")
 
     if itens_pdf is not None:
         conferir_com_pdf(prova, itens_pdf, r, esperados=gab.itens, so_indicativo=so_indicativo)
+    if texto_pdf is not None:
+        conferir_texto_no_pdf(prova, texto_pdf, r,
+                              numeros=None if verificar_texto is None else set(verificar_texto))
 
     r.registros_validos = validos
     r.aprovada = not r.erros
@@ -226,6 +237,45 @@ def conferir_com_pdf(prova: ProvaExtraida, itens_pdf: dict[int, str], r: Relator
     pulados = sorted((set(itens_pdf) & set(esperados)) - casados - set(nao_conferem))
     if pulados and renumerados:
         r.erros.append(f"itens do PDF pulados pela extração: {_faixas(pulados)}")
+
+
+PREFIXO_ALTERNATIVA = 25
+
+
+def _sem_rotulo(alt: str) -> str:
+    """'A) texto' / '(B) texto' / 'C - texto' / 'D texto' → 'texto'."""
+    return re.sub(r"^\s*\(?[A-Ea-e][).:\-–]?\s+", "", alt or "")
+
+
+def conferir_texto_no_pdf(prova: ProvaExtraida, texto_pdf: str, r: Relatorio,
+                          numeros: Optional[set[int]] = None) -> None:
+    """Enunciado e alternativas extraídos existem no texto do PDF (pdftotext)?
+
+    Para múltipla escolha, onde não há parser local por item: compara só
+    letras/números (sem acento, caixa e espaço), pelo início de cada trecho.
+    ``numeros`` restringe aos itens vindos do Firecrawl (None = todos)."""
+    pdf = _chave(texto_pdf)
+    sem_enunciado, sem_alt = [], []
+    for q in prova.questoes:
+        if numeros is not None and q.numero not in numeros:
+            continue
+        e = _chave(q.enunciado)
+        # o enunciado do Firecrawl pode trazer texto-base antes: basta o início
+        # ou o fim do enunciado estar no PDF
+        if e and e[:PREFIXO] not in pdf and e[-PREFIXO:] not in pdf:
+            sem_enunciado.append(q.numero)
+        if infer_tipo(q.alternativas) == "multipla_escolha":
+            # cada alternativa tem que aparecer no PDF precedida da SUA letra, na
+            # ordem: pega afirmativas I/II/III tomadas por alternativas A–E
+            for letra, alt in zip("ABCDE", q.alternativas):
+                a = _chave(letra + " " + _sem_rotulo(alt))[:PREFIXO_ALTERNATIVA + 1]
+                if len(a) > 1 and a not in pdf:
+                    sem_alt.append(q.numero)
+                    break
+    if sem_enunciado:
+        r.erros.append(f"enunciado não encontrado no texto do PDF: {_faixas(sem_enunciado)}")
+    if sem_alt:
+        r.erros.append(f"alternativa não encontrada no texto do PDF: {_faixas(sem_alt)}")
 
 
 def formatar(r: Relatorio) -> str:

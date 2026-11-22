@@ -106,3 +106,53 @@ def test_cruzamento_com_parser_local_falho_so_avisa():
     from crawler.validate import validar as v
     r = v(prova(range(1, 11)), gab(1, 10), itens_pdf={1: "Item."})
     assert r.aprovada and any("não aplicado" in a for a in r.avisos)
+
+
+# --- múltipla escolha ----------------------------------------------------------
+
+def test_mc_alternativas_fora_de_4_5_reprova():
+    g = Gabarito(respostas={1: "A", 2: "B"})
+    r = validar(prova([1, 2], alts=["a", "b", "c"]), g)
+    assert not r.aprovada and any("fora de 4–5" in e for e in r.erros)
+
+
+def test_mc_letra_alem_das_alternativas_reprova():
+    g = Gabarito(respostas={1: "E", 2: "A"})
+    r = validar(prova([1, 2], alts=["a", "b", "c", "d"]), g)
+    assert any("letra do gabarito além" in e and "1" in e for e in r.erros)
+
+
+def test_mc_texto_conferido_no_pdf():
+    pdf = ("1 Assinale a opção correta sobre o tema.\nA) primeira opção certa\n"
+           "B) segunda\nC) terceira\nD) quarta\n")
+    ok = ProvaExtraida(questoes=[QuestaoExtraida(
+        numero=1, enunciado="Assinale a opção correta sobre o tema.",
+        alternativas=["A) primeira opção certa", "B) segunda", "C) terceira", "D) quarta"])])
+    g = Gabarito(respostas={1: "A"})
+    assert validar(ok, g, texto_pdf=pdf).aprovada
+    inventada = ProvaExtraida(questoes=[QuestaoExtraida(
+        numero=1, enunciado="Texto que o modelo inventou e não está na prova.",
+        alternativas=["(A) primeira opção certa", "B) alternativa inventada", "C) terceira",
+                      "D) quarta"])])
+    r = validar(inventada, g, texto_pdf=pdf)
+    assert any("enunciado não encontrado" in e for e in r.erros)
+    assert any("alternativa não encontrada" in e for e in r.erros)
+
+
+def test_mc_afirmativas_tomadas_por_alternativas_reprova():
+    pdf = ("14 São exemplos de navegadores que permitem ao usuário\nI escrever e-mails.\n"
+           "II fazer compras.\nIII ver vídeos.\nIV proteger o computador.\n"
+           "Estão certos apenas os itens\nA I e II.\nB I e III.\nC II e IV.\nD I, II e III.\n"
+           "E II, III e IV.\n")
+    errada = ProvaExtraida(questoes=[QuestaoExtraida(
+        numero=14, enunciado="São exemplos de navegadores que permitem ao usuário",
+        alternativas=["I escrever e-mails.", "II fazer compras.", "III ver vídeos.",
+                      "IV proteger o computador.", "Estão certos apenas os itens"])])
+    certa = ProvaExtraida(questoes=[QuestaoExtraida(
+        numero=14, enunciado="São exemplos de navegadores que permitem ao usuário I escrever "
+                             "e-mails. II fazer compras. III ver vídeos. IV proteger o "
+                             "computador. Estão certos apenas os itens",
+        alternativas=["A I e II.", "B I e III.", "C II e IV.", "D I, II e III.", "E II, III e IV."])])
+    g = Gabarito(respostas={14: "D"})
+    assert any("alternativa não encontrada" in e for e in validar(errada, g, texto_pdf=pdf).erros)
+    assert validar(certa, g, texto_pdf=pdf).aprovada

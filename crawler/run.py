@@ -223,6 +223,15 @@ def contar_paginas(url: str) -> int:
     return max(1, gabmod.pdf_to_text(pdf).count("\f"))
 
 
+def texto_do_pdf_url(url: str) -> str:
+    """Texto corrido do PDF (pdftotext sem -layout), para conferir itens do Firecrawl."""
+    import subprocess
+    pdf = gabmod.baixar(url)
+    out = subprocess.run([gabmod.pdftotext_bin(), "-enc", "UTF-8", str(pdf), "-"],
+                         capture_output=True, check=True)
+    return out.stdout.decode("utf-8", "replace")
+
+
 def itens_do_pdf_url(url: str, esperados: list[int]) -> dict[int, str]:
     from . import extract_local
     return extract_local.itens_do_pdf(gabmod.baixar(url), esperados)
@@ -350,7 +359,8 @@ def _da_local(itens: dict[int, str], numeros: Iterable[int]) -> list[QuestaoExtr
 
 
 def processar(e: dict, ds: Dataset, *, plano: Plano, extrator: str, extractor: Extractor,
-              ledger: Path, estimativa: int) -> Resultado:
+              ledger: Path, estimativa: int,
+              pdf_texto: Optional[Callable[[str], str]] = None) -> Resultado:
     res = Resultado(entrada=e, fallback=plano.motivo)
     gab = plano.gab
     omitidos: list[int] = []
@@ -388,11 +398,19 @@ def processar(e: dict, ds: Dataset, *, plano: Plano, extrator: str, extractor: E
 
     # validação (+ cruzamento com o texto do PDF, grátis). Com itens omitidos, o
     # gabarito considerado é o dos itens que de fato entram.
+    do_firecrawl = [n for n, o in res.origem.items() if o == "firecrawl"]
+    texto = None
+    if do_firecrawl and pdf_texto is not None:
+        try:
+            texto = pdf_texto(e["url_prova"])
+        except Exception:  # noqa: BLE001 — sem texto, sem essa conferência
+            texto = None
     gab_val = gab if not omitidos else gabmod.Gabarito(
         respostas={n: r for n, r in gab.respostas.items() if n not in omitidos}, url=gab.url)
     rel = validar(prova, gab_val, caderno=f"{e['evento']}/{e['caderno']}",
                   url_prova=e["url_prova"], url_gabarito=e["url_gabarito"],
-                  itens_pdf=plano.itens_local, so_indicativo=set(plano.itens_fallback))
+                  itens_pdf=plano.itens_local, so_indicativo=set(plano.itens_fallback),
+                  texto_pdf=texto, verificar_texto=do_firecrawl)
     if plano.motivo and plano.firecrawl and extrator != "local":
         rel.avisos.append(f"fallback Firecrawl ({plano.firecrawl}): {plano.motivo}")
     if omitidos:
@@ -426,7 +444,8 @@ def executar(manifesto: dict, ds: Dataset, *, limite: int, teto: int,
              ledger: Path = usage.LEDGER, eventos: Iterable[str] = (),
              cadernos: Iterable[str] = (), incluir_curso_formacao: bool = False,
              pdf_itens: Optional[PdfItens] = None, extrator: str = "hibrido",
-             filtros: Optional[dict] = None, log=print) -> dict:
+             filtros: Optional[dict] = None,
+             pdf_texto: Optional[Callable[[str], str]] = None, log=print) -> dict:
     cand, pul = selecionar(manifesto, ds, eventos=eventos, cadernos=cadernos,
                            incluir_curso_formacao=incluir_curso_formacao, **(filtros or {}))
     gasto = 0
@@ -460,7 +479,7 @@ def executar(manifesto: dict, ds: Dataset, *, limite: int, teto: int,
         log(f"→ {e['evento']}/{e['caderno']} ({len(e['cargos'])} cargo(s), {modo}, "
             f"estimativa {est} créditos)")
         r = processar(e, ds, plano=plano, extrator=extrator, extractor=extractor,
-                      ledger=ledger, estimativa=est)
+                      ledger=ledger, estimativa=est, pdf_texto=pdf_texto)
         gasto += r.creditos
         resultados.append(r)
         if r.relatorio:
@@ -631,6 +650,7 @@ def main(argv: Optional[list[str]] = None) -> int:
     rep = executar(manifesto, ds, limite=args.limite_provas, teto=args.teto_creditos,
                    extractor=extractor, gab_loader=gabmod.carregar,
                    page_counter=contar_paginas, pdf_itens=itens_do_pdf_url,
+                   pdf_texto=texto_do_pdf_url,
                    extrator=args.extrator, eventos=args.evento, cadernos=args.caderno,
                    filtros=_filtros(args),
                    incluir_curso_formacao=args.incluir_curso_formacao)
