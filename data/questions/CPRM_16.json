@@ -1,0 +1,906 @@
+{
+ "evento": "CPRM_16",
+ "banca": "Cebraspe",
+ "orgaos": [
+  "Companhia de Pesquisa de Recursos Minerais"
+ ],
+ "cargos": [
+  "Técnico em Geociências – Hidrologia"
+ ],
+ "assuntos": [
+  "Conhecimentos Específicos",
+  "Conhecimentos Básicos"
+ ],
+ "provas": [
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/CPRM_16/arquivos/242CPRM_001_01.pdf"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/CPRM_16/arquivos/242CPRM_CB1_01.pdf"
+  }
+ ],
+ "itens": [
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-026",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O aquífero Guarani, maior manancial de água doce subterrânea do mundo, abrange vários países da América do Sul. A respeito desse aquífero no território brasileiro, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Menos de 50% da área total ocupada pelo aquífero encontra-se em território brasileiro.",
+    "Com relação à área total do estado, São Paulo é o que apresenta o maior percentual de área ocupada pelo aquífero.",
+    "Em quilômetros quadrados, a maior área do aquífero Guarani encontra-se no estado de São Paulo, seguindo-se o Mato Grosso do Sul e o Rio Grande do Sul.",
+    "Em várias regiões, o aquífero Guarani encontra-se compartimentado por falhas geológicas e por intrusões de rochas, o que afeta o escoamento subterrâneo e a qualidade da água.",
+    "A espessura desse aquífero está compreendida entre 100 m e 600 m, com valor médio de 350 m."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-027",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação à distribuição de água na natureza, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "De toda a água disponível no planeta Terra, 2,7% é de água doce, e, desta, 47% encontra-se em sua superfície.",
+    "No Brasil, 10% dos recursos hídricos encontram-se nas bacias junto ao Oceano Atlântico, onde vive mais da metade da população brasileira; na região Norte, onde vivem 5% da população brasileira, estão aproximadamente 80% dos recursos hídricos.",
+    "A vazão média na região hidrográfica amazônica é superior a 70% da vazão média do Brasil; o volume máximo de reservação per capita (em m 3 /habitante) na região amazônica é inferior ao volume máximo de reservação per capita no Brasil.",
+    "No Brasil, a menor disponibilidade hídrica superficial encontra-se na região hidrográfica Atlântico Nordeste Ocidental.",
+    "A maior reserva de águas subterrâneas exploráveis do Brasil encontra-se na região hidrográfica do Paraná."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-028",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do ciclo hidrológico, que representa o movimento da água no meio físico e ocorre na subsuperfície e na superfície da Terra e na atmosfera, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "A água que precipita nos continentes escoa pela superfície ou infiltra no solo, conforme a declividade do terreno, o tipo e o uso do solo e do subsolo.",
+    "A água precipitada, ao deslocar-se na superfície da Terra, sofre evaporação, que ocorre em quantidade praticamente insignificante.",
+    "O efeito estufa natural, que é causado pelo vapor de água e CO 2 , permite o aproveitamento da energia calorífica do Sol.",
+    "A transferência de vapor da superfície terrestre para camadas superiores ocorre por dois processos distintos, que transferem praticamente a mesma quantidade de água: sublimação e evapotranspiração.",
+    "A circulação da água se dá unicamente pelos processos de evaporação, transpiração e precipitação."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-029",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ainda a respeito do ciclo hidrológico, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "As quantidades de vapor de água, CO e ozônio na atmosfera, 2 a inclinação do eixo terrestre e a rotação da Terra são fatores que contribuem para a grande variabilidade do ciclo hidrológico terrestre.",
+    "A precipitação média anual na parte continental do planeta Terra é, no mínimo, igual à que ocorre sobre os oceanos.",
+    "A maioria dos fenômenos meteorológicos ocorre na estratosfera — camada situada acima da troposfera, entre 11 km e 50 km de altitude —, que contém cerca de 90% da umidade atmosférica.",
+    "No interior da troposfera, a circulação da água se dá apenas nos estados de vapor e líquido.",
+    "Chuva e granizo, em termos mundiais, são os dois tipos mais significativos de movimentação de água das camadas mais elevadas em direção à superfície terrestre."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-030",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação à delimitação de bacias hidrográficas, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Cursos de água e afluentes podem cruzar os limites da bacia, não podendo as cotas mais altas em pontos dentro da bacia ser maiores que as cotas do divisor de águas da bacia.",
+    "O divisor de água do tipo topográfico refere-se à linha que une os pontos mais baixos do relevo e o do tipo freático, à linha que une os pontos mais baixos do aquífero.",
+    "O divisor do tipo freático, de fácil identificação, é o mais indicado para a delimitação de bacia hidrográfica, por referir-se a pontos mais baixos, o que gera, assim, pontos de identificação fixos.",
+    "A delimitação da bacia hidrográfica pode ser feita, considerando-se o modelo digital de elevação, tanto por carta topográfica quanto por geoprocessamento e sensoriamento remoto.",
+    "Chuvas intensas e mudanças no tipo do solo exercem maior influência sobre a quantidade da água do deflúvio nas grandes bacias que nas microbacias."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-031",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito do cálculo da drenagem em bacias hidrográficas, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "O escoamento da água na bacia hidrográfica ocorre com atrito e, aumentando-se o volume a escoar, eleva-se a carga hidráulica necessária e reduz-se o volume armazenado temporariamente na bacia.",
+    "Para a classificação dos cursos de água, obtém-se um número maior de canais pelo método de Horton que pelo método Strahler.",
+    "O leito maior (zona de inundação) do rio está em fase de transporte quando apresenta níveis de água inicialmente baixos e, em fase de produção, quando está em cheia.",
+    "Nos eventos isolados de precipitação, os volumes de água na entrada da bacia hidrográfica são representados pelo hidrograma e, na saída, pelo hietograma.",
+    "Chuva efetiva é, por definição, a parcela da precipitação total com o mesmo volume do escoamento superficial."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-032",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "As características físicas da bacia hidrográfica estão ligadas ao comportamento do escoamento da água precipitada, o que interfere nos volumes infiltrados no solo e no escoamento pela rede de drenagem. Com relação à fisiografia da bacia hidrográfica, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Define-se coeficiente de compacidade de uma bacia hidrográfica como o quociente entre o seu perímetro pelo comprimento da circunferência de um círculo de área igual à da bacia. Essa grandeza varia de acordo com a forma e o tamanho da bacia.",
+    "O quociente entre a área total da bacia e seu comprimento axial é definido como o fator de forma da bacia.",
+    "O índice densidade da rede de drenagem, obtido pelo quociente entre a quantidade de cursos de água na bacia e a área da bacia, será maior quando considerada a classificação dos cursos de água da rede de drenagem pelo método de Horton que pelo método de Strahler.",
+    "A declividade de álveo pode ser obtida por diversos métodos, entre os quais se inclui a análise pela média harmônica ponderada da raiz quadrada das declividades dos diversos trechos retilíneos, que é a que mais se aproxima do perfil do curso de água principal.",
+    "O quociente entre o comprimento do curso de água e a área total da bacia hidrográfica é definido como densidade de drenagem, definição essa que não é adequada para os cursos de água intermitentes."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-033",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A transferência da água da atmosfera para a superfície terrestre sob a forma de pequenas gotas, de granizo, de orvalho, de neblina, de neve ou de geada denomina-se",
+   "gabarito": "c",
+   "alternativas": [
+    "infiltração.",
+    "evaporação.",
+    "precipitação.",
+    "evapotranspiração.",
+    "chuva."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-034",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Indispensável para os estudos de precipitação de curta duração, o medidor de precipitação que faz os registros gráficos do total precipitado e acumulado ao longo do tempo é o",
+   "gabarito": "a",
+   "alternativas": [
+    "pluviógrafo de peso.",
+    "pluviômetro de báscula.",
+    "pluviômetro tipo cunha.",
+    "pluviômetro Ville de Paris.",
+    "pluviômetro simples."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-035",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Antes de ser processados, os dados observados nos postos pluviométricos devem passar por análises que visam verificar e validar os valores a ser utilizados. Para que os dados pluviométricos sejam validados, será suficiente",
+   "gabarito": "e",
+   "alternativas": [
+    "detectar os erros simplórios, como, por exemplo, a introdução de datas como trinta de fevereiro.",
+    "verificar a heterogeneidade dos dados e detectar os erros simplórios.",
+    "verificar a homogeneidade desses dados utilizando-se uma curva única ou curva de massa.",
+    "adotar medidas de proporcionalidade para sanar as lacunas e eliminar as falhas.",
+    "detectar os erros grosseiros, preencher as falhas e verificar a homogeneidade dos dados."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-036",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A figura mostra uma bacia hidrográfica e os registros pluviométricos em pontos específicos dessa bacia. A precipitação média nessa bacia é igual a",
+   "gabarito": "a",
+   "alternativas": [
+    "60 mm.",
+    "126 mm.",
+    "240 mm.",
+    "114 mm.",
+    "55 mm."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-037",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A relação entre a quantidade de vapor de água presente em determinado volume de ar e a quantidade de vapor de água no mesmo volume de ar saturado de umidade denomina-se",
+   "gabarito": "a",
+   "alternativas": [
+    "grau de umidade relativa do ar atmosférico.",
+    "temperatura.",
+    "vento.",
+    "transpiração.",
+    "evaporação superficial das águas."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-038",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito das águas superficiais e subterrâneas, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Os principais contribuintes para o comprometimento da qualidade das águas superficiais e subterrâneas incluem os efluentes domésticos, rurais e industriais.",
+    "A qualidade da água superficial é determinada com a utilização de parâmetros físico-químicos e biológicos. Para se avaliar a qualidade de águas subterrâneas para consumo humano, os parâmetros físico-químicos são suficientes, não sendo necessário utilizar parâmetros biológicos.",
+    "Quando comparada às águas superficiais, as vantagens das águas subterrâneas incluem a facilidade de extração perto do local de uso, apesar de o tratamento necessário para o consumo humano ser mais oneroso.",
+    "Nas águas subterrâneas, é frequente a presença de cianobactérias e clorofila -a , que pode ser avaliada por meio de análises específicas que utilizem parâmetros biológicos.",
+    "Por meio da percolação, as águas subterrâneas são filtradas e purificadas naturalmente, devendo, contudo, passar por tratamento prévio antes de serem utilizadas para o consumo humano."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-039",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A retirada da água de um poço, com a utilização de uma bomba, destina-se a determinar a vazão de explotação do poço, os parâmetros hidrodinâmicos do aquífero e as perdas de carga no poço e no aquífero. A obtenção desses dados durante um teste de produção ou de aquífero, depende, no mínimo, do",
+   "gabarito": "d",
+   "alternativas": [
+    "registro e do controle da vazão e do nível estático.",
+    "registro e do controle da vazão e do nível dinâmico.",
+    "registro e do controle da vazão.",
+    "registro e do controle da vazão, do nível estático e do nível dinâmico.",
+    "registro e do controle do nível estático e do nível dinâmico."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-040",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Um poço, com profundidade de sessenta metros, foi perfurado em uma rocha cristalina para a captura de água em aquíferos fissurais. A esse respeito, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Para a consolidação do poço, há um custo elevado de material de completação.",
+    "O diâmetro de um poço com as referidas características varia de 4” a 22”.",
+    "Esse poço produzirá água suficiente para abastecer cidades populosas.",
+    "O orifício desse poço dispensa revestimentos, filtros e pré-filtros.",
+    "Esse poço poderia ser perfurado até atingir uma profundidade de 1.000 m."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-041",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que apresenta corretamente todos os elementos necessários na fase de instalação de um poço.",
+   "gabarito": "c",
+   "alternativas": [
+    "tubos edutores / bomba manual / compressor / cata-vento / estação reservatória de água",
+    "bomba submersa / compressor / estação reservatória de água / sistema de distribuição",
+    "unidade de bombeamento / tubos edutores / estação reservatória de água / sistema de distribuição",
+    "unidade de bombeamento / tubos edutores / bomba submersa / bomba injetora / compressor",
+    "bomba submersa / bomba centrífuga / compressor / cata-vento / sistema de distribuição"
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-042",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Para o monitoramento da área inundada de um reservatório, bem como da qualidade da água, devem ser instaladas estações hidrométricas. A quantidade de estações hidrométricas a serem instaladas deve ser definida em função",
+   "gabarito": "d",
+   "alternativas": [
+    "da rede hidrométrica.",
+    "das estações automáticas com transmissão telemétrica.",
+    "da manutenção preventiva das estações convencionais e automáticas com transmissão por telemetria.",
+    "da área de drenagem incremental de cada aproveitamento e da área inundada do reservatório.",
+    "da operacionalidade."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-043",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que apresenta corretamente os parâmetros a serem avaliados no momento da realização de manutenção preventiva e corretiva nas estações hidrometeorológicas.",
+   "gabarito": "a",
+   "alternativas": [
+    "roteiros das estações / mapas de acesso / fichas descritivas / informações técnicas sobre os equipamentos instalados e as medições que serão realizadas / reparos e substituições de equipamentos",
+    "dados pluviométricos / dados fluviométricos / dados limnimétricos e de qualidade da água",
+    "equipamento eletrônico responsável por controlar a aquisição de dados hidrológicos por sensores / forma de processar e armazenar dados hidrológicos / forma de gerenciar a transmissão remota de dados",
+    "frequência de aquisição e transmissão de dados / forma de encaminhamento de dados para uma central de apoio e armazenamento / forma de processamento e qualificação em uma base local",
+    "fonte de energia / datalogger / sensores / sistemas de transmissão / infraestrutura"
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-044",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Na manutenção e limpeza dos sensores pluviométricos automáticos de uma bacia, é necessário considerar",
+   "gabarito": "e",
+   "alternativas": [
+    "a área incremental e o número de estações.",
+    "a estabilidade das estruturas de fixação (suportes e tubulação), além de proceder à limpeza dos sensores, retirando-se lama e incrustações dos sensores submergíveis e sujeira e incrustações dos sensores sem contato com o corpo hídrico.",
+    "os tipos de equipamentos adotados para a coleta e o envio dos dados.",
+    "a descrição da bacia.",
+    "a exposição do equipamento, além de desobstruir a área de captação (se existente) e verificar o funcionamento do sistema de medição (sistemas de básculas etc.)."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-046",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A altura do ponto X de um terreno, localizado na latitude ! 12,48º, foi estimada com base nos nivelamentos trigonométrico, geométrico e barométrico, utilizando-se como referência o datum Imbituba – SC. Assinale a opção correta a respeito dessa situação hipotética e de aspectos a ela relacionados.",
+   "gabarito": "d",
+   "alternativas": [
+    "O valor negativo da latitude indica que o ponto X do terreno em questão situa-se no hemisfério setentrional.",
+    "Dos três nivelamentos referidos, o geométrico é o menos preciso.",
+    "O nivelamento geométrico é recomendado para levantamentos de áreas extensas e com grandes desníveis topográficos.",
+    "O nivelamento barométrico baseia-se na relação existente entre pressão atmosférica e altitude.",
+    "Imbituba – SC é o sistema de projeção oficial do Brasil."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-047",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A figura mostrada ilustra parte de uma mira utilizada em levantamentos topográficos. A leitura correta do ponto indicado como “médio” na referida figura corresponde a",
+   "gabarito": "a",
+   "alternativas": [
+    "3,66 m.",
+    "6,00 m.",
+    "6,20 m.",
+    "6,50 m.",
+    "2,65 m."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-048",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O eixo maior de determinada barragem mede 4 km. Nesse caso, em uma carta planialtimétrica na escala de 1:100.000, esse eixo terá um comprimento de",
+   "gabarito": "a",
+   "alternativas": [
+    "4 cm.",
+    "40 cm.",
+    "0,004 cm.",
+    "0,04 cm.",
+    "0,4 cm."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-049",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "As medidas e o valor aproximado do ângulo α do terreno cuja declividade é ilustrada na figura foram fornecidos. Nesse caso, a partir dos valores mostrados, se necessários, a declividade do terreno, em porcentagem, corresponde a",
+   "gabarito": "c",
+   "alternativas": [
+    "5%.",
+    "5,71%.",
+    "10%.",
+    "0,1%.",
+    "1%."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-050",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "área total do reservatório 100 km 2 valor total do contrato R$ 2 milhões custo do trabalho de campo (por dia) R$ 30 mil custo de um ecobatímetro monofeixe R$ 100 mil custo de um ecobatímetro multifeixe R$ 1 milhão capacidade de levantamento do 1 km 2 ecobatímetro monofeixe (por dia) capacidade de levantamento do 10 km 2 ecobatímetro multifeixe (por dia) A partir dessas informações, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Se a companhia optar por um ecobatímetro monofeixe, haverá prejuízo no final do levantamento.",
+    "O custo total de trabalho de campo com um ecobatímetro monofeixe é pelo menos quinze vezes superior ao custo total do trabalho com um ecobatímetro multifeixe.",
+    "O custo total do levantamento com um ecobatímetro multifeixe é maior que o do levantamento com um ecobatímetro monofeixe.",
+    "Se a área total do reservatório a ser levantada for reduzida em dez vezes, os custos totais dos levantamentos com um ecobatímetro monofeixe e com um ecobatímetro multifeixe serão igualmente reduzidos em dez vezes.",
+    "Os custos totais de um levantamento com dez ecobatímetros monofeixes é inferior ao de um levantamento com um ecobatímetro multifeixe."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-001",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base no texto CB1A01AAA , é correto afirmar que",
+   "gabarito": "e",
+   "alternativas": [
+    "o desaparecimento da natureza será inevitável ainda que haja comprometimento dos cidadãos e dos governos com a sustentabilidade.",
+    "a baixa qualidade do ar e a destruição das florestas decorrem da grave crise ambiental por que passa o planeta.",
+    "os governantes têm uma responsabilidade pequena no incentivo a ações de sustentabilidade ambiental.",
+    "os cidadãos, individualmente, são os responsáveis pela mais significativa parcela de destruição do meio ambiente.",
+    "a sustentabilidade da economia e das sociedades humanas depende da conscientização coletiva sobre práticas ambientais responsáveis."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-002",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando a tipologia e os aspectos linguísticos do texto CB1A01AAA , assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A substituição da forma verbal “visem” ( R .14) por objetivam mantém a correção gramatical do texto.",
+    "A correção gramatical do texto seria mantida caso o trecho “estará assegurada” ( R . 30 e 31) fosse substituído por estarão asseguradas .",
+    "O emprego do acento indicativo da crase em “à sustentabilidade” ( R .15) é facultativo.",
+    "O texto classifica-se como predominantemente narrativo.",
+    "O emprego da vírgula que isola a expressão “Por meio de ações governamentais” ( R .17) é obrigatório."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-003",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Do trecho do texto CB1A01AAA “A conclusão, praticamente unânime, é de que políticas que visem à conservação do meio ambiente e à sustentabilidade de projetos econômicos devem ser metas para todos os governantes” ( R . 13 a 16) conclui-se que",
+   "gabarito": "c",
+   "alternativas": [
+    "há discordância quanto à necessidade de políticos defenderem projetos econômicos sustentáveis e a preservação do meio ambiente.",
+    "a conservação do meio ambiente e a sustentabilidade devem ser tema de debates políticos com a população.",
+    "os governantes devem implementar políticas que aliem o desenvolvimento econômico à conservação do meio ambiente.",
+    "há consenso entre os governantes sobre a importância de que seus projetos econômicos sejam sustentáveis.",
+    "os governantes devem avisar a população da importância de se conservar o meio ambiente e de se promover a sustentabilidade."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-004",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No texto CB1A01BBB , o termo “enigma” ( R .14) foi utilizado para referir-se",
+   "gabarito": "a",
+   "alternativas": [
+    "ao fato de a bactéria Ideonella sakaiensis ter-se transformado em tão pouco tempo.",
+    "à presença da bactéria Ideonella sakaiensis em um lixão, ou em uma usina de reciclagem de PET.",
+    "à ausência de bactérias desconhecidas em aterros sanitários.",
+    "à criação da bactéria Ideonella sakaiensis por cientistas.",
+    "ao fato de a bactéria Ideonella sakaiensis se alimentar do carbono contido nas garrafas PET."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-005",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A conjunção “entretanto” ( R .20) do texto CB1A01BBB introduz, no período em que se insere, ideia de",
+   "gabarito": "c",
+   "alternativas": [
+    "condição.",
+    "explicação.",
+    "oposição.",
+    "comparação.",
+    "adição."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-006",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação aos acessórios disponíveis para uso no ambiente Windows, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "O Windows Movie Maker permite editar e gravar mídias e compartilhá-las por email ou pela Internet.",
+    "O Bloco de Notas , ferramenta semelhante ao Microsoft Word, é destinado à edição avançada de textos e não precisa ser instalado junto com o pacote Microsoft Office.",
+    "O Paint , ferramenta básica utilizada para colorir desenhos, não suporta a edição de fotos.",
+    "O Windows Explorer, ferramenta de navegação própria do Windows, é utilizado para acesso a páginas web da Internet.",
+    "A Calculadora é uma ferramenta utilizada para cálculos básicos e planilhas avançadas de dados financeiros."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-007",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito do Microsoft Word, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "A opção Caixa de Texto , da guia Inserir , permite que o usuário inclua dentro do texto em edição partes de conteúdos pré-formatados e suplementos independentes do texto original.",
+    "A função WordArt , da guia Inserir , permite, para fins decorativos, editar imagens e desenhos dentro do próprio documento que está sendo criado.",
+    "O Microsoft Word é uma ferramenta exclusiva para a edição de textos; ele não dispõe de recursos que permitam editar ou inserir equações ou símbolos matemáticos.",
+    "Na edição de cabeçalhos e rodapés, o texto editado no cabeçalho se repetirá automaticamente no rodapé, não havendo a necessidade de copiá-lo e colá-lo.",
+    "Ao se inserir a opção Número de Página , da guia Inserir , a numeração será localizada no rodapé da página, centralizada e com tamanho editável."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-008",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação ao Microsoft PowerPoint, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "A inclusão de autoformas permite que o usuário crie apenas novos desenhos para serem inseridos na apresentação de maneira customizada.",
+    "Ao inserir um novo eslaide em uma apresentação já existente, o usuário poderá selecionar o tema.",
+    "Ao se criar uma nova apresentação, o leiaute dos eslaides deverá ser previamente escolhido: não será possível alterá-lo depois de salvo.",
+    "A ferramenta Pincel é utilizada para pintar o conteúdo de uma caixa de texto ou de imagem.",
+    "A área de transferência é utilizada para armazenar conteúdos que foram apagados dos eslaides para uso posterior, se necessário."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-009",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta acerca de ferramentas de navegação na Internet.",
+   "gabarito": "b",
+   "alternativas": [
+    "O Internet Explorer permite que o usuário altere a forma de visualização das páginas, como, por exemplo, a posição de textos e de imagens.",
+    "No Internet Explorer, o menu Favoritos permite o armazenamento de endereços de sítios preferidos, de modo a facilitar novos acessos com um clique apenas, não havendo a necessidade de digitar novamente esses endereços.",
+    "O bloqueador de pop-ups faz que imagens e animações que ficam aparecendo na tela sejam fixadas e não se movimentem, para não incomodar a leitura.",
+    "Páginas da Internet acessadas não podem ser salvas no computador: seu conteúdo é de propriedade exclusiva do criador da página.",
+    "No Internet Explorer, é possível excluir o histórico de navegação, o que impedirá o acesso a sítios já visitados."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-010",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação a programas de correio eletrônico, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Quando o usuário cria um novo endereço de email , nele serão automaticamente listados todos os endereços dos destinatários para os quais o usuário enviou sua última mensagem.",
+    "Mensagens recebidas poderão ser encaminhadas a outros destinatários, sendo, nesse caso, automaticamente copiadas para os remetentes originais.",
+    "Ao se responder uma mensagem de correio eletrônico utilizando a opção Responder a todos , todos os usuários com endereços copiados no cabeçalho da mensagem receberão uma cópia da resposta, mesmo aqueles que foram apenas copiados na mensagem.",
+    "O catálogo de endereços possui nome e email de todos listados nos cabeçalhos das mensagens recebidas pelo usuário.",
+    "Na caixa de saída, são armazenados todos os emails enviados pelo usuário do programa de correio eletrônico."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-011",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Oriente Médio é uma das mais tensas regiões do mundo contemporâneo. Nele, interesses econômicos, sobretudo os ligados ao petróleo, se juntam a divergências políticas e animosidades religiosas para fazer daquela área um foco permanente de conflitos. O país que, na atualidade, se tornou símbolo de tragédia humanitária, representada por milhares de migrantes que buscam abrigo na Europa, e que sofre os males de uma guerra civil, a ação de grupos insurgentes e a violência do terrorismo é a",
+   "gabarito": "a",
+   "alternativas": [
+    "Síria.",
+    "Turquia.",
+    "Palestina.",
+    "Arábia Saudita.",
+    "Jordânia."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-012",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A palavra globalização é normalmente utilizada para definir o atual estágio da economia mundial e, para muitos analistas, retrata a possível culminância de um processo histórico que, iniciado com as grandes navegações do início da Idade Moderna, aprofundou-se com a Revolução Industrial dos últimos dois séculos. Em linhas gerais, a ordem econômica mundial contemporânea caracteriza-se por",
+   "gabarito": "b",
+   "alternativas": [
+    "ações do crime organizado em escala global, que dificultam a livre circulação de capitais, fato que prejudica o funcionamento das bolsas de valores mundiais.",
+    "extraordinário desenvolvimento científico e tecnológico, que amplia consideravelmente a capacidade de produção econômica e estimula a expansão do mercado consumidor.",
+    "acirramento do protecionismo econômico praticado pelos países ricos, que inibe as trocas e impede que os países pobres participem do comércio mundial.",
+    "perda de importância dos blocos econômicos, como a União Europeia e o MERCOSUL que, na prática, têm sido substituídos pela ação isolada de cada país.",
+    "uma economia globalizada, que reduz drasticamente as diferenças entre continentes, regiões e povos, promovendo a distribuição da riqueza de modo mais igualitário."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-013",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Chefe de Estado e líder religioso de expressão universal, o Papa Francisco também se notabiliza pela atuação no campo político-diplomático. Nesse sentido, além da aproximação com a igreja ortodoxa russa e com lideranças muçulmanas e judaicas, ele desempenhou importante papel para o fim da ruptura entre dois países americanos, rompendo um distanciamento que remontava aos tempos da Guerra Fria. Trata-se da aproximação entre os governos dos Estados Unidos da América e",
+   "gabarito": "a",
+   "alternativas": [
+    "de Cuba.",
+    "da Nicarágua.",
+    "da Venezuela.",
+    "do México.",
+    "do Brasil."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-014",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerado um dos maiores desastres ambientais da história do Brasil, o rompimento de barragem de importante mineradora causou, recentemente, danos irreparáveis, desde a morte de pessoas até a destruição material de comunidades inteiras e de um dos mais importantes rios da região Sudeste. Assinale a opção em que são apresentados o município onde está situada a mineradora em questão e o rio que sofreu os efeitos devastadores do referido acidente.",
+   "gabarito": "b",
+   "alternativas": [
+    "Tiradentes e rio Xopotó",
+    "Mariana e rio Doce",
+    "Ouro Preto e rio Piranga",
+    "São João del Rei e rio das Velhas",
+    "Diamantina e rio Jequitinhonha"
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-015",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Nos últimos tempos, a Coreia do Norte tem chamado a atenção da comunidade internacional e merecido manchetes dos meios de comunicação mundiais. O interesse suscitado por esse pequeno país asiático deve-se, entre outras razões, ao fato de ele",
+   "gabarito": "b",
+   "alternativas": [
+    "ter substituído o rígido modelo comunista pela economia de mercado.",
+    "anunciar testes militares com artefatos poderosos e de grande alcance.",
+    "ter-se decidido a atacar a vizinha Coreia do Sul com armas nucleares.",
+    "ter, recentemente, enviado tropas para o Oriente Médio em apoio à Rússia.",
+    "ser um país democrático cercado por vizinhos submetidos a regimes ditatoriais."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-016",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A capacidade da represa X é de",
+   "gabarito": "b",
+   "alternativas": [
+    "4.800 km 3 .",
+    "0,48 km 3 .",
+    "4,8 km 3 .",
+    "48 km 3 .",
+    "480 km 3 ."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-017",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Se, em determinado dia, a água contida na represa X representava 35% de sua capacidade máxima, então, nesse dia, havia na represa",
+   "gabarito": "e",
+   "alternativas": [
+    "168 milhões de litros de água.",
+    "312 milhões de litros de água.",
+    "384 mil litros de água.",
+    "312 mil litros de água.",
+    "168 bilhões de litros de água."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-018",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere que trinta anos após o início de operação da represa X, a quantidade de usuários dos recursos hídricos dessa represa tenha quadruplicado, enquanto a quantidade de água retirada diariamente tenha triplicado. Nessa situação, sabendo-se que, em determinado dia, o quociente [quantidade de água retirada da represa]/ [quantidade de usuários] dá o consumo médio de água de cada usuário nesse dia, é correto afirmar que, trinta anos depois do início de operação da represa, o consumo médio diário",
+   "gabarito": "a",
+   "alternativas": [
+    "caiu em 25%.",
+    "aumentou em 75%.",
+    "aumentou em 33%.",
+    "aumentou em 25%.",
+    "caiu em 75%."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-019",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere que 85% das residências de determinado município estão ligadas à rede de abastecimento de água tratada e que 60% dessas residências estão ligadas à rede de esgotamento sanitário. Nessa situação, a percentagem de residências do município que são servidas de água tratada e estão ligadas à rede de esgotamento sanitário é igual a",
+   "gabarito": "e",
+   "alternativas": [
+    "40%.",
+    "25%.",
+    "15%.",
+    "60%.",
+    "51%."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-020",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "D e p o i s d a s s i mplificações possíveis, o núme r o será igual a",
+   "gabarito": "c",
+   "alternativas": [
+    "3.",
+    "40.",
+    "80.",
+    "400.",
+    "566."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-021",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A área do trapézio apresentado, em que a altura é igual a 80 m, a base maior mede 200 m e a base menor, 150 m, é igual a",
+   "gabarito": "e",
+   "alternativas": [
+    "8.000 m 2 .",
+    "6.000 m 2 .",
+    "23.000 m 2 .",
+    "21.000 m 2 .",
+    "14.000 m 2 ."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-022",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Três caminhões de lixo que trabalham durante doze horas com a mesma produtividade recolhem o lixo de determinada cidade. Nesse caso, cinco desses caminhões, todos com a mesma produtividade, recolherão o lixo dessa cidade trabalhando durante",
+   "gabarito": "b",
+   "alternativas": [
+    "6 horas.",
+    "7 horas e 12 minutos.",
+    "7 horas e 20 minutos.",
+    "8 horas.",
+    "4 horas e 48 minutos."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-023",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Por 10 torneiras, todas de um mesmo tipo e com igual vazão, fluem 600 L de água em 40 minutos. Assim, por 12 dessas torneiras, todas do mesmo tipo e com a mesma vazão, em 50 minutos fluirão",
+   "gabarito": "d",
+   "alternativas": [
+    "625 L de água.",
+    "576 L de água.",
+    "400 L de água.",
+    "900 L de água.",
+    "750 L de água."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-024",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Quando o reservatório de água de determinado município atingiu sua capacidade máxima, iniciou-se um período de seca, sem nenhuma chuva. As autoridades municipais, temendo desabastecimento, estabeleceram que seria iniciado um racionamento quando o nível do reservatório atingisse 20% de sua altura máxima. Decorridos x dias sem chuva, a altura do nível da água no reservatório foi estimada pela função y = ! 0,1 x + 16, em metros. Nesse caso, não havendo chuva por um longo período, o racionamento será iniciado em",
+   "gabarito": "a",
+   "alternativas": [
+    "128 dias.",
+    "40 dias.",
+    "160 dias.",
+    "158 dias.",
+    "140 dias."
+   ]
+  },
+  {
+   "id": "cebraspe-2016-cprm-hidrologia-025",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2016,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando-se os 365 dias de um ano, numerados sequencialmente de 1 a 365, a função y = ! 0,1 x 2 + 40 x , em que x = 1, 2, ..., 365, estima-se a quantidade de litros de água desperdiçados no dia x em vazamentos na rede de distribuição de determinada cidade. Nesse caso, o desperdício equivalente a 3 m 3 ocorreu em um dia do mês de",
+   "gabarito": "e",
+   "alternativas": [
+    "janeiro e um dia do mês de dezembro.",
+    "janeiro e em um dia do mês de julho.",
+    "fevereiro e em um dia do mês de setembro.",
+    "abril e em um dia do mês de novembro.",
+    "abril e em um dia do mês de outubro."
+   ]
+  }
+ ]
+}
