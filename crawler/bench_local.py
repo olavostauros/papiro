@@ -13,6 +13,7 @@ extração Firecrawl em cache, quando houver.
 from __future__ import annotations
 
 import argparse
+from collections import Counter
 import difflib
 import json
 import re
@@ -170,7 +171,7 @@ def cobertura(entradas: list[dict], dataset: Optional[list[dict]] = None) -> lis
             linhas.append({**base, "status": f"gabarito ilegível: {exc}"[:120]})
             continue
         if gab.tipo != "certo_errado":
-            linhas.append({**base, "esperados": len(gab.itens), "status": "múltipla escolha (fora)"})
+            linhas.append(_cobertura_mc(e, gab, base))
             continue
         try:
             local = extract_local.itens_do_pdf(gabmod.baixar(e["url_prova"]), gab.itens)
@@ -194,6 +195,53 @@ def cobertura(entradas: list[dict], dataset: Optional[list[dict]] = None) -> lis
                 linha["iguais_dataset"] = f"{iguais}/{len(ref)}"
         linhas.append(linha)
     return linhas
+
+
+def _cobertura_mc(e: dict, gab, base: dict) -> dict:
+    """Múltipla escolha: extração local validada como no pipeline (contagem,
+    sequência, 4–5 alternativas, letra do gabarito, texto no PDF)."""
+    from .models import QuestaoExtraida
+    from .validate import validar
+    pdf = gabmod.baixar(e["url_prova"])
+    qs = extract_local.questoes_mc_do_pdf(pdf, gab.itens)
+    prova = ProvaExtraida(questoes=[
+        QuestaoExtraida(numero=n, enunciado=en, alternativas=alts)
+        for n, (en, alts) in sorted(qs.items())])
+    import subprocess
+    texto = subprocess.run([gabmod.pdftotext_bin(), "-enc", "UTF-8", str(pdf), "-"],
+                           capture_output=True, check=True).stdout.decode("utf-8", "replace")
+    rel = validar(prova, gab, texto_pdf=texto)
+    achados = set(qs) & set(gab.itens)
+    cob = len(achados) / max(1, len(gab.itens))
+    falhas = {n: m for n, m in rel.falhas_por_questao.items() if n not in gab.anulados}
+    validas = len(set(gab.itens) - set(gab.anulados))
+    return {**base, "tipo": "múltipla escolha", "esperados": len(gab.itens),
+            "anulados": len(gab.anulados), "extraidos": len(achados), "cobertura": round(cob, 4),
+            "faltando": sorted(set(gab.itens) - achados),
+            "ilegiveis": extract_local.ilegiveis_mc(qs),
+            "alternativas": dict(sorted(Counter(len(a) for _, a in qs.values()).items())),
+            "falhas_por_questao": falhas,
+            "questoes_ok": validas - len(falhas) - len((set(gab.itens) - achados) - set(gab.anulados)),
+            "validas": validas,
+            "erros": rel.erros,
+            "status": "ok" if rel.aprovada else ("cobertura incompleta" if cob < 1 else "falhas por questão")}
+
+
+def tabela_mc(linhas: list[dict]) -> str:
+    out = ["| evento (ano) | arquivo | gabarito (anulados) | extraídas | alternativas | "
+           "letra fora | ilegíveis | falha no PDF | questões ok | status |",
+           "|---|---|---:|---:|---|---:|---:|---:|---:|---|"]
+    for l in linhas:
+        if l.get("tipo") != "múltipla escolha":
+            continue
+        f = l["falhas_por_questao"]
+        letra = sum(1 for m in f.values() if any("letra" in x for x in m))
+        pdf = sum(1 for m in f.values() if any("PDF" in x for x in m))
+        alts = ", ".join(f"{k}×{v}" for k, v in l["alternativas"].items())
+        out.append(f"| {l['evento']} ({l.get('ano')}) | {l['arquivo'][:30]} | {l['esperados']} "
+                   f"({l['anulados']}) | {l['extraidos']} | {alts} | {letra} | {len(l['ilegiveis'])} "
+                   f"| {pdf} | {l['questoes_ok']}/{l['validas']} | {l['status']} |")
+    return "\n".join(out)
 
 
 def tabela_cobertura(linhas: list[dict]) -> str:
@@ -220,11 +268,15 @@ def main(argv=None) -> int:
     if args.cobertura:
         man = json.loads(discover.MANIFEST.read_text(encoding="utf-8"))
         evs = {x.upper() for x in args.evento}
+        cads = {x.upper() for x in args.caderno}
         ents = [e for e in man["provas"] if e.get("url_gabarito") and e.get("fase") == "objetiva"
-                and e["evento"].upper() in evs]
+                and (e["evento"].upper() in evs or e["caderno"].upper() in cads)]
         dataset = json.loads(discover.DATASET.read_text(encoding="utf-8"))
         linhas = cobertura(ents, dataset)
-        print(tabela_cobertura(linhas))
+        print(tabela_cobertura([l for l in linhas if l.get('tipo') != 'múltipla escolha']))
+        if any(l.get('tipo') == 'múltipla escolha' for l in linhas):
+            print()
+            print(tabela_mc(linhas))
         out = HERE / "reports" / f"bench-cobertura-{datetime.now():%Y%m%d-%H%M%S}.json"
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(json.dumps(linhas, ensure_ascii=False, indent=2), encoding="utf-8")

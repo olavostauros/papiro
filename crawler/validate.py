@@ -46,7 +46,13 @@ class Relatorio:
     anulados: list[int] = field(default_factory=list)
     registros_validos: int = 0        # itens que viram registro (sem anulados)
     erros: list[str] = field(default_factory=list)
+    # falhas atribuíveis a UMA questão (cruzamento com o PDF, alternativas):
+    # numero → motivos; permitem descarte por questão em vez da prova inteira
+    falhas_por_questao: dict[int, list[str]] = field(default_factory=dict)
     avisos: list[str] = field(default_factory=list)
+
+    def falha(self, numero: int, motivo: str) -> None:
+        self.falhas_por_questao.setdefault(numero, []).append(motivo)
 
     def to_dict(self) -> dict:
         return asdict(self)
@@ -115,6 +121,7 @@ def validar(prova: ProvaExtraida, gab: Gabarito, *, caderno: str = "",
     for q in prova.questoes:
         if not (q.enunciado or "").strip():
             vazios.append(q.numero)
+            r.falha(q.numero, "enunciado vazio")
         if q.numero not in esperados:
             continue
         if q.numero in gab.anulados:
@@ -131,9 +138,11 @@ def validar(prova: ProvaExtraida, gab: Gabarito, *, caderno: str = "",
         if tipo_q == "multipla_escolha":
             if not 4 <= len(q.alternativas) <= 5:
                 alt_ruins.append(q.numero)
+                r.falha(q.numero, f"{len(q.alternativas)} alternativas")
             # letra do gabarito tem que existir entre as alternativas (E com 4 → erro)
             elif "abcde".index(gab.para_dataset(q.numero, tipo_q)) >= len(q.alternativas):
                 letra_fora.append(q.numero)
+                r.falha(q.numero, "letra do gabarito além das alternativas")
         validos += 1
 
     if vazios:
@@ -226,6 +235,7 @@ def conferir_com_pdf(prova: ProvaExtraida, itens_pdf: dict[int, str], r: Relator
             casados.add(outro)
         else:
             nao_conferem.append(q.numero)
+            r.falha(q.numero, "enunciado não confere com o item no PDF")
     if renumerados:
         r.erros.append("renumeração: item extraído ≠ item do PDF (extraído→PDF): "
                        + ", ".join(renumerados))
@@ -264,13 +274,19 @@ def conferir_texto_no_pdf(prova: ProvaExtraida, texto_pdf: str, r: Relatorio,
         # ou o fim do enunciado estar no PDF
         if e and e[:PREFIXO] not in pdf and e[-PREFIXO:] not in pdf:
             sem_enunciado.append(q.numero)
+            r.falha(q.numero, "enunciado não encontrado no texto do PDF")
         if infer_tipo(q.alternativas) == "multipla_escolha":
             # cada alternativa tem que aparecer no PDF precedida da SUA letra, na
             # ordem: pega afirmativas I/II/III tomadas por alternativas A–E
             for letra, alt in zip("ABCDE", q.alternativas):
-                a = _chave(letra + " " + _sem_rotulo(alt))[:PREFIXO_ALTERNATIVA + 1]
-                if len(a) > 1 and a not in pdf:
+                # com ou sem o rótulo da letra ("B texto" do Firecrawl / "texto"
+                # do extrator local; "A"/"E" iniciais podem ser artigo/conjunção)
+                com_rotulo = re.sub(rf"^\s*\(?{letra}[).:\-–]?\s+", "", alt or "")
+                chaves = {_chave(letra + " " + alt)[:PREFIXO_ALTERNATIVA + 1],
+                          _chave(letra + " " + com_rotulo)[:PREFIXO_ALTERNATIVA + 1]}
+                if all(len(a) > 1 and a not in pdf for a in chaves):
                     sem_alt.append(q.numero)
+                    r.falha(q.numero, f"alternativa {letra} não encontrada no PDF")
                     break
     if sem_enunciado:
         r.erros.append(f"enunciado não encontrado no texto do PDF: {_faixas(sem_enunciado)}")

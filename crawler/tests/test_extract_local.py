@@ -114,3 +114,62 @@ def test_prova_com_justificativas_descarta_blocos():
              "continua a justificativa.\n<FimJust>\n2 Segundo item.\n"
              "JUSTIFICATIVA - Certo. Ok.\n<FimJust>")
     assert xl.itens_do_texto(texto, [1, 2]) == {1: "Primeiro item.", 2: "Segundo item."}
+
+
+# --- múltipla escolha ----------------------------------------------------------
+
+MC = "\n".join([
+    "      Questão 13",
+    "Considere a planilha. A partir dessas informações, assinale a opção",
+    "que apresenta a fórmula correta.",
+    "A =(B3-HOJE();\"D\")+1",
+    "B =(DATADIF(B3; HOJE();\"D\"))+1",
+    "C =(COUNT(HOJE();B3;\"D\"))+1",
+    "D =(AGORA(B3; HOJE();\"D\"))+1",
+    "E =(DIAS(B3; HOJE();\"D\"))+1",
+    "      Questão 14  <PC_ES22CG1A01E14>",
+    "Julgue os itens a seguir.",
+    "I Emails de bancos são seguros.",
+    "II Manter o antivírus atualizado",
+    "    ajuda a proteger.",
+    "Assinale a opção correta.",
+    "A Apenas o item II está certo.",
+    "B Apenas o item I está certo.",
+    "C Os dois itens estão certos.",
+    "D Nenhum item está certo.",
+    "E A questão foi anulada",
+    "    por erro material.",
+    "Texto CB1A3",
+    "Texto-base da próxima questão, que não é opção.",
+])
+
+
+def test_mc_opcoes_afirmativas_e_artigo_A():
+    q = xl.questoes_mc_do_texto(MC, [13, 14])
+    assert sorted(q) == [13, 14]
+    en13, alts13 = q[13]
+    assert en13.startswith("Considere a planilha. A partir dessas informações")   # artigo "A"
+    assert alts13[2] == '=(COUNT(HOJE();B3;"D"))+1'
+    en14, alts14 = q[14]
+    assert "I Emails de bancos são seguros. II Manter o antivírus atualizado ajuda" in en14
+    assert en14.endswith("Assinale a opção correta.")
+    assert alts14 == ["Apenas o item II está certo.", "Apenas o item I está certo.",
+                      "Os dois itens estão certos.", "Nenhum item está certo.",
+                      "A questão foi anulada por erro material."]   # texto-base fica fora
+
+
+def test_mc_ilegiveis():
+    assert xl.ilegiveis_mc({1: ("ok", ["a", "b ଵ c", "c", "d"]), 2: ("ok", list("abcd"))}) == [1]
+
+
+@requires_pdftotext
+def test_mc_pdf_pmpa23(fixtures):
+    gab = {int(k): v for k, v in json.loads(
+        (fixtures / "gab_pmpa23_cfp_cb1.json").read_text(encoding="utf-8")).items()}
+    q = xl.questoes_mc_do_pdf(fixtures / "prova_pmpa23_cfp_cb1.pdf", gab)
+    assert sorted(q) == list(range(1, 21))
+    assert all(len(a) == 5 for _, a in q.values())
+    en, alts = q[14]   # afirmativas I–IV no enunciado; opções A–E reais
+    assert "I escrever, enviar, receber e armazenar e-mails." in en
+    assert "Estão certos apenas os itens" in en
+    assert all(a.startswith(("I", "II")) for a in alts) and alts[0] == "I e III."

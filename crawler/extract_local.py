@@ -298,3 +298,117 @@ def extrair(pdf: Path, esperados: Iterable[int]) -> ProvaExtraida:
         QuestaoExtraida(numero=n, enunciado=t, alternativas=["Certo", "Errado"])
         for n, t in sorted(itens.items())
     ])
+
+
+# ---------------------------------------------------------------------------
+# Múltipla escolha
+# ---------------------------------------------------------------------------
+#
+#       Questão 14
+#   Microsoft Edge, … permitem ao usuário          ← enunciado (com afirmativas
+#   I escrever, enviar, receber e-mails.             I–IV e o comando, quando
+#   II realizar compras …                            houver)
+#   Estão certos apenas os itens
+#   A I e II.                                      ← opções A–E na borda da
+#   B I e III.                                       coluna; continuação recuada
+#       continuação da opção B
+
+# cabeçalho; pode vir grudado a texto da outra coluna ("Questão 18      Espaço livre")
+# e com código interno ("Questão 8  <CBM_MA241CG1A01E4497>")
+_QUESTAO = re.compile(r"^Quest[ãa]o\s+(\d{1,3})(\s+<[^>]*>|\s{3,}.*)?$", re.I)
+_OPCAO = re.compile(r"^([A-E])\s+(\S.*)$")
+MAX_RECUO_OPCAO = 1
+
+
+def _opcoes(bloco: list[tuple[int, str]]) -> Optional[list[int]]:
+    """Índices (no bloco) das linhas que abrem as opções A, B, C, D[, E].
+
+    Procura B, C, D (e E) em ordem na borda; a opção A é a ÚLTIMA linha "A …"
+    antes do B (o enunciado pode ter linha começando com o artigo "A")."""
+    def achar(letra: str, desde: int) -> Optional[int]:
+        for k in range(desde, len(bloco)):
+            recuo, corpo = bloco[k]
+            m = _OPCAO.match(corpo)
+            if m and m.group(1) == letra and recuo <= MAX_RECUO_OPCAO:
+                return k
+        return None
+
+    for b in [k for k, (r, c) in enumerate(bloco)
+              if r <= MAX_RECUO_OPCAO and (m := _OPCAO.match(c)) and m.group(1) == "B"]:
+        antes = [k for k in range(b) if bloco[k][0] <= MAX_RECUO_OPCAO
+                 and (m := _OPCAO.match(bloco[k][1])) and m.group(1) == "A"]
+        if not antes:
+            continue
+        idx = [antes[-1], b]
+        for letra in "CDE":
+            k = achar(letra, idx[-1] + 1)
+            if k is None:
+                break
+            idx.append(k)
+        if len(idx) >= 4:           # A–D no mínimo
+            return idx
+    return None
+
+
+def _fim_da_ultima_opcao(bloco: list[tuple[int, str]], ini: int) -> int:
+    """Depois da última opção vem o texto-base da próxima questão: a opção só
+    continua com recuo de continuação ou frase aberta em minúscula."""
+    fim = ini + 1
+    for k in range(ini + 1, len(bloco)):
+        recuo, corpo = bloco[k]
+        anterior = bloco[k - 1][1]
+        frase_aberta = not re.search(r"[.?!:;”\"')]$", anterior) and corpo[:1].islower()
+        if (CONT_MIN <= recuo <= CONT_MAX or frase_aberta) and not _FIM_DE_ITEM.search(corpo) \
+                and not _ROTULO_TEXTO.match(corpo):
+            fim = k + 1
+            continue
+        break
+    return fim
+
+
+def questoes_mc_do_texto(texto: str, esperados: Optional[Iterable[int]] = None
+                         ) -> dict[int, tuple[str, list[str]]]:
+    """numero → (enunciado, [alternativas A–E sem a letra]) para provas de
+    múltipla escolha com cabeçalho "Questão N"."""
+    esperado = sorted(set(esperados)) if esperados else None
+    linhas = [(len(l) - len(l.lstrip(" ")), l.strip()) for l in linhas_em_ordem(texto)
+              if l.strip() and not _LONE_NUM.match(l)]
+    # cabeçalhos "Questão N" em ordem crescente (tolerando MAX_SALTO perdidos)
+    cabecalhos: list[tuple[int, int]] = []
+    ultimo = 0
+    for k, (_, corpo) in enumerate(linhas):
+        m = _QUESTAO.match(corpo)
+        if not m:
+            continue
+        n = int(m.group(1))
+        seguintes = [x for x in esperado if x > ultimo] if esperado else [ultimo + 1]
+        if n in seguintes[:MAX_SALTO + 1]:
+            cabecalhos.append((k, n))
+            ultimo = n
+    out: dict[int, tuple[str, list[str]]] = {}
+    for i, (k, n) in enumerate(cabecalhos):
+        fim = cabecalhos[i + 1][0] if i + 1 < len(cabecalhos) else len(linhas)
+        bloco = linhas[k + 1:fim]
+        idx = _opcoes(bloco)
+        if idx is None:
+            continue
+        enunciado = _juntar([c for _, c in bloco[:idx[0]]])
+        alternativas = []
+        for j, ini in enumerate(idx):
+            ate = idx[j + 1] if j + 1 < len(idx) else _fim_da_ultima_opcao(bloco, ini)
+            partes = [_OPCAO.match(bloco[ini][1]).group(2)] + [c for _, c in bloco[ini + 1:ate]]
+            alternativas.append(_juntar(partes))
+        if enunciado:
+            out[n] = (enunciado, alternativas)
+    return out
+
+
+def questoes_mc_do_pdf(pdf: Path, esperados: Optional[Iterable[int]] = None
+                       ) -> dict[int, tuple[str, list[str]]]:
+    return questoes_mc_do_texto(pdf_to_text(pdf), esperados)
+
+
+def ilegiveis_mc(questoes: dict[int, tuple[str, list[str]]]) -> list[int]:
+    """Questões de múltipla escolha com glifo de fórmula ilegível (enunciado ou opção)."""
+    return sorted(n for n, (e, alts) in questoes.items()
+                  if _ILEGIVEL.search(e) or any(_ILEGIVEL.search(a) for a in alts))
