@@ -7,39 +7,28 @@ import Container from '../design/components/Container.astro';
 import Select from '../design/components/Select.astro';
 import PageHeader from '../design/components/PageHeader.astro';
 import QuestionCard from '../design/components/QuestionCard.astro';
-import questions from '../data/questions';
+import {
+  API_URL,
+  EMPTY_FILTROS,
+  EMPTY_PAGE,
+  fetchFiltros,
+  fetchQuestoes,
+} from '../data/questions';
 
-const filtros = [
-  {
-    id: 'banca',
-    label: 'Banca',
-    placeholder: 'Todas',
-    valores: [...new Set(questions.map((q) => q.banca))].sort(),
-  },
-  {
-    id: 'orgao',
-    label: 'Órgão',
-    placeholder: 'Todos',
-    valores: [...new Set(questions.map((q) => q.orgao))].sort(),
-  },
-  {
-    id: 'cargo',
-    label: 'Cargo',
-    placeholder: 'Todos',
-    valores: [...new Set(questions.map((q) => q.cargo))].sort(),
-  },
-  {
-    id: 'ano',
-    label: 'Ano',
-    placeholder: 'Todos',
-    valores: [...new Set(questions.map((q) => String(q.ano)))].sort().reverse(),
-  },
-  {
-    id: 'assunto',
-    label: 'Assunto',
-    placeholder: 'Todos',
-    valores: [...new Set(questions.map((q) => q.assunto))].sort(),
-  },
+const PER_PAGE = 20;
+// Build-time: SSR da 1ª página + opções dos Selects. Sem a API acessível,
+// a página sai com listas vazias e <question-browser> tenta de novo no cliente.
+const [filtros, primeira] = await Promise.all([
+  fetchFiltros().catch(() => EMPTY_FILTROS),
+  fetchQuestoes({ page: 1, per_page: PER_PAGE }).catch(() => EMPTY_PAGE),
+]);
+
+const campos = [
+  { id: 'banca', label: 'Banca', placeholder: 'Todas', valores: filtros.bancas },
+  { id: 'orgao', label: 'Órgão', placeholder: 'Todos', valores: filtros.orgaos },
+  { id: 'cargo', label: 'Cargo', placeholder: 'Todos', valores: filtros.cargos },
+  { id: 'ano', label: 'Ano', placeholder: 'Todos', valores: filtros.anos.map(String) },
+  { id: 'assunto', label: 'Assunto', placeholder: 'Todos', valores: filtros.assuntos },
 ];
 ---
 
@@ -52,31 +41,34 @@ const filtros = [
       hora, com a fonte de cada questão. Sem cadastro.
     </PageHeader>
 
-    <question-filters>
+    <question-browser data-api-url={API_URL} data-per-page={PER_PAGE}>
       <Card
         as="section"
         aria-label="Filtros"
         class="mb-8 grid grid-cols-2 gap-3 p-4 sm:grid-cols-3 lg:grid-cols-5"
       >
         {
-          filtros.map((f) => (
+          campos.map((f) => (
             <Select label={f.label} placeholder={f.placeholder} options={f.valores} data-filtro={f.id} />
           ))
         }
         <p class="col-span-full text-sm text-ink-soft" role="status">
-          <span data-contagem>{questions.length}</span> questões
+          <span data-contagem>{primeira.total}</span> questões
         </p>
       </Card>
 
-      <section class="space-y-4" aria-label="Questões">
-        {questions.map((q) => <QuestionCard q={q} />)}
+      <section class="space-y-4" aria-label="Questões" data-lista>
+        {primeira.items.map((q) => <QuestionCard q={q} />)}
       </section>
-    </question-filters>
+
+      <nav class="mt-6 flex items-center justify-center gap-3" aria-label="Paginação" data-paginacao></nav>
+      <p class="mt-4 text-center text-sm text-ink-soft" role="status" data-status hidden></p>
+    </question-browser>
   </Container>
 
   <SiteFooter />
 
   <script>
-    import '../design/elements/question-filters';
+    import '../design/elements/question-browser';
   </script>
 </Layout>

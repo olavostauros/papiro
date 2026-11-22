@@ -31,6 +31,7 @@ from pathlib import Path
 from typing import Any, Callable, Iterable, Optional
 
 from .models import slugify
+from .shards import SHARD_DIR, shard_to_records
 
 API = "https://apis.cebraspe.org.br/cebraspe/eventos"
 LIST_URL = f"{API}/tipo/concursos"
@@ -39,7 +40,16 @@ CDN = "https://cdn.cebraspe.org.br/concursos"
 ROOT = Path(__file__).resolve().parent.parent
 MANIFEST = Path(__file__).resolve().parent / "manifests" / "cebraspe.json"
 CACHE_DIR = Path(__file__).resolve().parent / ".cache" / "api"
-DATASET = ROOT / "web" / "src" / "data" / "questions.json"
+DATASET = SHARD_DIR  # o monólito virou shards; _iter_records lê ambos
+
+
+def _iter_records(dataset: Path):
+    """Flat records de um diretório de shards ou de um JSON legado (lista)."""
+    if dataset.is_dir():
+        for p in sorted(dataset.glob("*.json")):
+            yield from shard_to_records(json.loads(p.read_text(encoding="utf-8")))
+    elif dataset.exists():
+        yield from json.loads(dataset.read_text(encoding="utf-8"))
 
 USER_AGENT = "papiro-crawler/0.1 (+https://olavostauros.github.io/papiro/)"
 
@@ -263,9 +273,7 @@ def cargos_do_evento(evento: dict) -> dict[int, dict]:
 def cargos_conhecidos(dataset: Path = DATASET) -> dict[tuple[str, str], str]:
     """(orgao, cargo) → id_cargo já usado no dataset, para não mudar ids existentes."""
     out: dict[tuple[str, str], str] = {}
-    if not dataset.exists():
-        return out
-    for q in json.loads(dataset.read_text(encoding="utf-8")):
+    for q in _iter_records(dataset):
         m = re.match(r"^[a-z0-9]+-\d{4}-([a-z0-9]+)-(.+)-\d{3}$", q.get("id", ""))
         if m:
             out.setdefault((q["orgao"], q["cargo"]), m.group(2))
@@ -340,9 +348,7 @@ def prefixo_evento(evento_url: str) -> str:
 def orgaos_conhecidos(dataset: Path = DATASET) -> dict[str, tuple[str, str]]:
     """prefixo → (orgao, id_orgao) aprendido do dataset existente (fontes CDN)."""
     out: dict[str, tuple[str, str]] = {}
-    if not dataset.exists():
-        return out
-    for q in json.loads(dataset.read_text(encoding="utf-8")):
+    for q in _iter_records(dataset):
         m = re.search(r"/concursos/([^/]+)/", q.get("fonte", ""))
         if not m:
             continue

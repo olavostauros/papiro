@@ -271,7 +271,7 @@ def main(argv=None) -> int:
         cads = {x.upper() for x in args.caderno}
         ents = [e for e in man["provas"] if e.get("url_gabarito") and e.get("fase") == "objetiva"
                 and (e["evento"].upper() in evs or e["caderno"].upper() in cads)]
-        dataset = json.loads(discover.DATASET.read_text(encoding="utf-8"))
+        dataset = list(discover._iter_records(discover.DATASET))
         linhas = cobertura(ents, dataset)
         print(tabela_cobertura([l for l in linhas if l.get('tipo') != 'múltipla escolha']))
         if any(l.get('tipo') == 'múltipla escolha' for l in linhas):
@@ -287,7 +287,7 @@ def main(argv=None) -> int:
     cads = {x.upper() for x in args.caderno}
     ents = [e for e in man["provas"] if e.get("url_gabarito")
             and (e["evento"].upper() in evs or e["caderno"].upper() in cads)]
-    dataset = json.loads(discover.DATASET.read_text(encoding="utf-8"))
+    dataset = list(discover._iter_records(discover.DATASET))
     linhas = bench(ents, dataset)
     print(tabela(linhas))
     for l in linhas:

@@ -26,6 +26,7 @@ prova/gabarito are local filenames inside the workdir; `arquivo` is the CDN
 nomeArquivo used to build the record's `fonte` URL.
 """
 import json
+import os
 import re
 import sys
 import unicodedata
@@ -139,6 +140,7 @@ def assemble(job_path, write=False):
     data = load_shard_records(shard_path) if shard_path.exists() else []
     existing = {q["id"] for q in data}
     total_new = 0
+    new_records = []
     for idc, recs, missing in build_records(job, workdir):
         dups = [r["id"] for r in recs if r["id"] in existing]
         new = [r for r in recs if r["id"] not in existing]
@@ -154,10 +156,24 @@ def assemble(job_path, write=False):
         print(status)
         if write:
             data.extend(new)
+            new_records.extend(new)
             existing.update(r["id"] for r in new)
         total_new += len(new)
     print(f"new: {total_new}  evento {evento}: {len(data)} itens"
           + ("" if write else "  (dry-run)"))
     if write and total_new:
         write_shard(evento, data)
+        _db_sync(new_records)
     return total_new
+
+
+def _db_sync(records):
+    """Upsert dos itens novos no banco — só quando DATABASE_URL está definida."""
+    if not os.environ.get("DATABASE_URL"):
+        return
+    try:
+        from crawler.db import get_engine, sync_records
+        st = sync_records(records, get_engine())
+        print(f"db: +{st.inserted} inseridos ({st.skipped} já existiam)")
+    except Exception as exc:
+        print(f"!! shard gravado, mas db sync falhou: {exc}", file=sys.stderr)

@@ -33,7 +33,8 @@ repo root with `.venv/bin/python`):
    /tmp/<evento>` (dry-run), then `--write` — skips `X` (anulado),
    dedups by `id`, writes `data/questions/<EVENTO>.json` via
    `to_questao()` + `crawler/shards.py` (one shard per evento, interned
-   dimensions; `shard_to_records()` flattens back).
+   dimensions; `shard_to_records()` flattens back). With `DATABASE_URL`
+   set it also upserts the new records into Postgres (`crawler/db.py`).
 6. Commit each concurso batch with a message describing cargo coverage
    and anulados. Log Firecrawl calls in `.agents/docs/FIRECRAWL_USAGE.md`
    if any are made (the local path should need none).
@@ -64,20 +65,21 @@ shard.
 The old monolithic `web/src/data/questions.json` is gone (it crossed
 GitHub's 100 MB blob limit; history was squashed to unblock push — see
 `.agents/docs/dataset-sharding.md`). **The site does NOT bundle the
-dataset**: it will be served by an API running on the VM alongside the
-Docker crawler. `web/src/data/questions.ts` is the interim stub (empty
-typed list + `Questao` interface) until the API client lands — do not
-re-add dataset imports or `import.meta.glob` over the shards in `web/`.
+dataset**: it is served by the API on the VM — `web/src/data/questions.ts`
+is the typed client (`fetch*` over `PUBLIC_API_URL`). Do not re-add
+dataset imports or `import.meta.glob` over the shards in `web/`.
 
-**Next stage — Postgres + Docker + API** (plan:
-`.agents/docs/docker-postgres.md`, audit numbers dated 2026-11-22): the
-shards become transport/backup format; the query store is a Postgres
-container on the VM, populated by an idempotent shard→DB sync
-(`crawler/db.py`, schema normalized from `Questao`). Single `papiro`
-Docker image (`python:3.12-slim` + `poppler-utils`) backs both `crawler`
-and `api` (FastAPI) services in `compose.yaml`, alongside
-`postgres:17-alpine`. Until the loader exists, keep writing shards via
-`write_shard` — the DB must stay reproducible from `data/questions/`.
+**Postgres + Docker + API — implemented** (plan + implementation notes:
+`.agents/docs/docker-postgres.md`): the shards are the transport/backup
+format; the query store is a Postgres container populated by the
+idempotent shard→DB sync in `crawler/db.py` (`python -m crawler.db sync`,
+verified vs. SQLite — 221.059 itens, ~5 s). Single `papiro` image backs
+`api` (FastAPI in `api/`) and `crawler` (compose profile — one-shot
+commands) in `compose.yaml`, alongside `postgres:17-alpine`. Keep writing
+shards via `write_shard`; when `DATABASE_URL` is set, `assemble --write`
+and `run.py` also upsert the new records to the DB (failure never blocks
+the shard write). The site consumes `PUBLIC_API_URL` via
+`web/src/data/questions.ts` (client) + `<question-browser>` (element).
 
 ## Development
 

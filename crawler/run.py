@@ -25,6 +25,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import sys
 from collections import Counter
@@ -35,6 +36,7 @@ from typing import Callable, Iterable, Optional
 
 from . import discover, gabarito as gabmod, usage
 from .models import ProvaExtraida, ProvaMeta, Questao, QuestaoExtraida, to_questao
+from .shards import evento_key, write_shard
 from .validate import Relatorio, formatar, validar
 
 HERE = Path(__file__).resolve().parent
@@ -60,10 +62,13 @@ class Dataset:
     ids: set[str] = field(default_factory=set)
     fontes: set[str] = field(default_factory=set)
     eventos_pasta: set[str] = field(default_factory=set)  # fonte = só a pasta do evento
+    _novos: list[dict] = field(default_factory=list)    # p/ upsert no banco
+    _dirty: set[str] = field(default_factory=set)       # eventos a regravar
 
     @classmethod
     def carregar(cls, path: Path = DATASET) -> "Dataset":
-        qs = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+        # path = diretório de shards (padrão) ou um JSON flat legado
+        qs = list(discover._iter_records(path))
         ds = cls(path=path, questoes=qs)
         for q in qs:
             ds.ids.add(q["id"])
@@ -87,17 +92,43 @@ class Dataset:
             if q.id in self.ids:
                 colisoes.append(q.id)
                 continue
-            self.questoes.append(q.model_dump())
+            d = q.model_dump()
+            self.questoes.append(d)
+            self._novos.append(d)
+            self._dirty.add(evento_key(q.fonte, d))
             self.ids.add(q.id)
             self.fontes.add(q.fonte.lower())
             add += 1
         return add, colisoes
 
     def salvar(self) -> None:
+        if self.path.is_dir():
+            self._salvar_shards()
+            return
         tmp = self.path.with_suffix(".json.tmp")
         with open(tmp, "w", encoding="utf-8") as fh:
             fh.write(json.dumps(self.questoes, ensure_ascii=False, indent=2))
         tmp.replace(self.path)
+        self._novos.clear()
+
+    def _salvar_shards(self) -> None:
+        """Regrava só os shards tocados e faz upsert no banco (DATABASE_URL)."""
+        by_evento: dict[str, list[dict]] = {}
+        for q in self.questoes:
+            by_evento.setdefault(evento_key(q["fonte"], q), []).append(q)
+        for ev in sorted(self._dirty):
+            write_shard(ev, by_evento[ev], shard_dir=self.path)
+            print(f"shard {ev}: {len(by_evento[ev])} itens")
+        self._dirty.clear()
+        if self._novos and os.environ.get("DATABASE_URL"):
+            try:
+                from .db import get_engine, sync_records
+                st = sync_records(self._novos, get_engine())
+                print(f"db: +{st.inserted} inseridos ({st.skipped} já existiam)")
+            except Exception as exc:
+                print(f"!! shards gravados, mas db sync falhou: {exc}",
+                      file=sys.stderr)
+        self._novos.clear()
 
 
 # ---------------------------------------------------------------------------

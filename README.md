@@ -88,14 +88,19 @@ Pré-requisitos: Docker (com o plugin compose) e Node.js 22+ para o site.
 ### Operação (api + crawler + Postgres)
 
 ```bash
-docker compose up --build
+export POSTGRES_PASSWORD=$(cat .env/POSTGRES_PASSWORD)
+docker compose up -d --build                # sobe db + api
+
+# primeira vez (ou para reconstruir): shards → Postgres
+docker compose run --rm crawler python -m crawler.db sync
+
+# crawler roda one-shot sob o profile `crawler`
+docker compose run --rm crawler python -m crawler.cebraspe next --probe 30
 ```
 
-Sobe três containers a partir do `compose.yaml`:
-
-- `db` — Postgres, o banco de questões
-- `api` — API que serve o banco de questões
-- `crawler` — coleta e extração de provas, executando em um agendamento
+- `db` — Postgres, o banco de questões (populado pelos shards de `data/questions/`)
+- `api` — FastAPI na porta 8000 (`/questoes`, `/filtros`, `/eventos`, `/provas`)
+- `crawler` — coleta e extração de provas; roda por comando (cron/timer na VM)
 
 ### Site
 
@@ -128,7 +133,7 @@ Run workflow**.
 
 - **Front-end:** Astro, TypeScript e Tailwind CSS; site estático no GitHub Pages
 - **API:** Python, servindo o banco de questões
-- **Crawler:** Python com Scrapy e Playwright, rodando em container com scheduler
+- **Crawler:** Python — parsers locais sobre poppler (`pdftotext`/`pdftohtml`) e API pública da Cebraspe; Firecrawl opcional para fontes sem parser local
 - **Banco de dados:** Postgres
 - **Infra:** Docker — imagem única `papiro` e compose para dev local e deploy em VM no GCP
 - **Agente (planejado):** LLM que resolve, explica e ensina questões e lê editais

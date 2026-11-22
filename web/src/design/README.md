@@ -26,7 +26,8 @@ Stack: **Astro + Tailwind CSS v4** (via `@tailwindcss/vite`). Não existe
 `tailwind.config` — toda a configuração é CSS-first em `tokens.css`. Fontes via
 `@fontsource-variable` (Inter e Source Serif 4). Sem React/Vue: interatividade é
 JavaScript vanilla na forma de **custom elements** (`design/elements/`) —
-`<question-card>`, `<question-filters>`, `<theme-toggle>` — que envolvem o markup
+`<question-browser>`, `<question-card>`, `<question-filters>`, `<theme-toggle>` —
+que envolvem o markup
 dos componentes e se auto-inicializam em `connectedCallback`, com escopo por
 instância (`this.querySelector`) em vez de queries globais no `document`.
 
@@ -256,11 +257,34 @@ o elemento também leva `data-filter-item`), `data-gabarito` e
 `data-gabarito-texto` (lidos pelo próprio elemento para a correção). Preserve
 esses atributos ao alterar o componente.
 
+### question-browser
+
+Elemento wrapper (`design/elements/question-browser.ts`) — lista paginada de
+questões servida pela API (`data/questions.ts`). Substituiu o filtro
+client-side na `index`: os `<select>`s disparam `GET /questoes` com os filtros
+ativos e `GET /filtros` repovoa as opções em cascata. Não entra no showcase
+(`/design/`) por depender de API viva. Contrato interno:
+
+- `data-api-url` no elemento — base da API (`PUBLIC_API_URL`); sem ele o
+  componente fica inerte e o conteúdo SSR da página permanece;
+- `data-per-page` — tamanho de página (default 20);
+- `select[data-filtro="campo"]` — banca | orgao | cargo | ano | assunto;
+- `[data-lista]` — contêiner substituído a cada fetch;
+- `[data-contagem]` — total do resultado; `[data-paginacao]` — nav onde o
+  elemento injeta Anterior/Próxima; `[data-status]` — mensagens de carregando/erro.
+
+O template do card replica o markup de `QuestionCard`/`Alternativa`/
+`QuestionMeta` — inclusive o contrato `data-*` lido por `<question-card>`.
+**Ao mudar um, mude o outro** (o comentário no topo de
+`question-browser.ts` lista os atributos do contrato). Todo texto dinâmico
+passa por `esc()` antes de entrar no `innerHTML`.
+
 ### question-filters
 
 Elemento wrapper (`design/elements/question-filters.ts`) que filtra itens por
-`<select>`s. Envolve a região que contém os filtros, a contagem e a lista;
-todo o escopo é o próprio elemento. Contrato interno:
+`<select>`s escondendo/mostrando os já renderizados — adequado para listas
+pequenas inteiramente no cliente (a `index` usa `question-browser` porque a
+lista completa não cabe no build). Contrato interno:
 
 - `select[data-filtro="campo"]` — filtra itens cujo `dataset[campo]` bate com o valor;
 - `[data-filter-item]` — item filtrável (escondido via atributo `hidden`);

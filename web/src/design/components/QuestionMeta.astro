@@ -20,5 +20,5 @@ const { banca, orgao, cargo, ano, assunto } = Astro.props;
   <span>{cargo}</span>
   <span aria-hidden="true">·</span>
   <span>{ano}</span>
-  <Badge class="ml-auto">{assunto}</Badge>
+  {assunto && <Badge class="ml-auto">{assunto}</Badge>}
 </p>

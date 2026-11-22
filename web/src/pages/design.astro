@@ -20,7 +20,7 @@ import Check from '../design/components/icons/Check.astro';
 import X from '../design/components/icons/X.astro';
 import Sun from '../design/components/icons/Sun.astro';
 import Moon from '../design/components/icons/Moon.astro';
-import questions from '../data/questions';
+import { EMPTY_PAGE, fetchQuestoes } from '../data/questions';
 
 const secoes = [
   { id: 'cores', label: 'Cores' },
@@ -59,7 +59,8 @@ const feedback = [
 ];
 const raios = ['sm', 'md', 'lg', 'xl'];
 
-const exemplo = questions.find((q) => q.tipo === 'multipla_escolha') ?? questions[0] ?? {
+const exemplo = (await fetchQuestoes({ tipo: 'multipla_escolha', per_page: 1 })
+  .catch(() => EMPTY_PAGE)).items[0] ?? {
   id: 'exemplo',
   banca: 'Cebraspe',
   orgao: 'Polícia Federal',

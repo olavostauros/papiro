@@ -163,7 +163,7 @@ def main(argv=None) -> int:
     args = ap.parse_args(argv)
     rel = json.loads(args.relatorio.read_text(encoding="utf-8"))
     rel = [l for l in rel if l.get("referencia") == "dataset"]
-    dataset = json.loads(discover.DATASET.read_text(encoding="utf-8"))
+    dataset = list(discover._iter_records(discover.DATASET))
     extras = set()
     for x in args.extra:
         cad, item = x.rsplit(":", 1)

@@ -4,6 +4,7 @@
 @import '../design/tokens.css';
 
 /* Custom elements (design/elements/) — wrappers de comportamento */
+question-browser,
 question-card,
 question-filters {
   display: block;

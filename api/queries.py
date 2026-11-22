@@ -1,0 +1,122 @@
+"""Query helpers for the papiro API.
+
+The API serves the flat ``Questao`` record (``crawler/models.py`` — the same
+shape ``shard_to_records`` emits and ``web/src/data/questions.ts`` types) by
+joining the normalized schema in ``crawler/db.py``.
+"""
+
+from __future__ import annotations
+
+from typing import Optional
+
+from sqlalchemy import Select, select
+from sqlalchemy.orm import Session
+
+from crawler.db import Assunto, Banca, Cargo, Evento, Orgao, Prova, QuestaoDB
+from crawler.shards import CERTO_ERRADO
+
+TIPOS = ("certo_errado", "multipla_escolha")
+
+
+def base_questao() -> Select:
+    """questao joined out to every dimension — yields flat-record columns."""
+    return (
+        select(
+            QuestaoDB.id,
+            Banca.nome.label("banca"),
+            Orgao.nome.label("orgao"),
+            Cargo.nome.label("cargo"),
+            QuestaoDB.ano,
+            Assunto.nome.label("assunto"),
+            QuestaoDB.tipo,
+            QuestaoDB.enunciado,
+            QuestaoDB.alternativas,
+            QuestaoDB.gabarito,
+            Prova.fonte,
+        )
+        .select_from(QuestaoDB)
+        .join(Prova, QuestaoDB.prova_id == Prova.id)
+        .join(Evento, Prova.evento_id == Evento.id)
+        .join(Banca, Evento.banca_id == Banca.id)
+        .join(Cargo, QuestaoDB.cargo_id == Cargo.id)
+        .join(Orgao, Cargo.orgao_id == Orgao.id)
+        .outerjoin(Assunto, QuestaoDB.assunto_id == Assunto.id)
+    )
+
+
+def _escape_like(q: str) -> str:
+    return q.replace("\\", "\\\\").replace("%", "\\%").replace("_", "\\_")
+
+
+def apply_filters(
+    stmt: Select,
+    *,
+    banca: Optional[str] = None,
+    orgao: Optional[str] = None,
+    cargo: Optional[str] = None,
+    ano: Optional[int] = None,
+    assunto: Optional[str] = None,
+    tipo: Optional[str] = None,
+    q: Optional[str] = None,
+    evento: Optional[str] = None,
+    exclude: Optional[str] = None,
+) -> Select:
+    """WHERE clauses shared by /questoes and the /filtros cascade.
+
+    ``exclude`` omits one dimension's own filter so its option list is not
+    narrowed by itself (standard faceted-select behaviour).
+    """
+    f = {"banca": banca, "orgao": orgao, "cargo": cargo, "ano": ano,
+         "assunto": assunto, "tipo": tipo, "q": q, "evento": evento}
+    if exclude:
+        f[exclude] = None
+    if f["banca"]:
+        stmt = stmt.where(Banca.nome == f["banca"])
+    if f["orgao"]:
+        stmt = stmt.where(Orgao.nome == f["orgao"])
+    if f["cargo"]:
+        stmt = stmt.where(Cargo.nome == f["cargo"])
+    if f["ano"]:
+        stmt = stmt.where(QuestaoDB.ano == f["ano"])
+    if f["assunto"]:
+        stmt = stmt.where(Assunto.nome == f["assunto"])
+    if f["tipo"] in TIPOS:
+        stmt = stmt.where(QuestaoDB.tipo == f["tipo"])
+    if f["evento"]:
+        stmt = stmt.where(Evento.evento == f["evento"])
+    if f["q"]:
+        stmt = stmt.where(
+            QuestaoDB.enunciado.ilike(f"%{_escape_like(f['q'])}%", escape="\\"))
+    return stmt
+
+
+def row_to_questao(row) -> dict:
+    """Join row → flat ``Questao`` dict. NULLs map back to shard defaults."""
+    return {
+        "id": row.id,
+        "banca": row.banca,
+        "orgao": row.orgao,
+        "cargo": row.cargo,
+        "ano": row.ano,
+        "assunto": row.assunto or "",
+        "tipo": row.tipo,
+        "enunciado": row.enunciado,
+        # NULL = ["Certo", "Errado"]; [] stays [] (MC sem alternativas)
+        "alternativas": (CERTO_ERRADO if row.alternativas is None
+                         else row.alternativas),
+        "gabarito": row.gabarito,
+        "fonte": row.fonte,
+    }
+
+
+def distinct_values(session: Session, column, *, exclude: str, **filters) -> list:
+    """DISTINCT values of a dimension column under the other active filters."""
+    stmt = apply_filters(select(column).distinct().select_from(QuestaoDB)
+                         .join(Prova, QuestaoDB.prova_id == Prova.id)
+                         .join(Evento, Prova.evento_id == Evento.id)
+                         .join(Banca, Evento.banca_id == Banca.id)
+                         .join(Cargo, QuestaoDB.cargo_id == Cargo.id)
+                         .join(Orgao, Cargo.orgao_id == Orgao.id)
+                         .outerjoin(Assunto, QuestaoDB.assunto_id == Assunto.id),
+                         exclude=exclude, **filters)
+    return [v for v in session.scalars(stmt) if v is not None]
