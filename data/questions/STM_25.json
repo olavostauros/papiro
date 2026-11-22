@@ -12618,6 +12618,116 @@
    "tipo": "certo_errado",
    "enunciado": "Em relação aos restos a pagar, é correto afirmar que, na determinação da disponibilidade de caixa nos dois últimos quadrimestres do mandato de titular do Poder, serão considerados os encargos e despesas compromissadas a pagar até o final do exercício.",
    "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-stm-analise-sistemas-072",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "No trecho de arquivo .gitlab-ci.yml, utilizado no GitLab CI/CD para definir regras de execução de pipelines, só será criada a pipeline se as três regras de ativação do workflow.rules forem verdadeiras. workflow: rules: - if: $ CI_PIPELINE_SOURCE == 'merge_request_event' - if: $ CI_COMMIT_TAG - if: $ CI_COMMIT_BRANCH == $ CI_DEFAULT_BRANCH",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-stm-analise-sistemas-073",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "No trecho do arquivo .gitlab-ci.yml, utilizado no GitLab CI/CD para definir regras de execução de pipelines com base em variáveis de ambiente, na execução do bloco job2, o valor da variável ALL_JOBS_VAR será “Different value than default”, pois variáveis definidas no nível do job têm precedência sobre as globais com o mesmo nome. variables: ALL_JOBS_VAR: \"A default variable\" job1: ALL_JOBS_VAR' variables: JOB1_VAR: \"Job 1 variable\" script: - echo \"Variables are '$ and '$ JOB1_VAR'\" job2: variables: ALL_JOBS_VAR: \"Different value than default\" JOB2_VAR: \"Job 2 variable\" script: - echo \"Variables are '$ ALL_JOBS_VAR', '$ JOB2_VAR', and '$ JOB1_VAR'\"",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-stm-analise-sistemas-076",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "No arquivo project.yaml a seguir, utilizado para criar projetos dentro de um cluster Kubernetes gerenciado pelo Rancher, o campo namespace no bloco metadata deve ter o mesmo valor que o campo clusterName do bloco spec para que o recurso criado seja associado a um cluster específico. apiVersion: management.cattle.io/v3 kind: Project metadata:",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-stm-analise-sistemas-086",
+   "prova": 5,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "A execução do código a seguir, escrito em Java, retornará o resultado True. package com.mcnz.recursion; public class checkpgm { public static void main(String[] args) { boolean flag = Check(\"STM\"); System.out.println(flag); } public static boolean Check(String s){ if(s.length() == 0 || s.length() == 1) { return true; } if(s.charAt(0) == s.charAt(s.length()-1)) { return Check(s.substring(1, s.length()- 1)); } return false; } }",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-stm-suporte-tecnologia-054",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 5,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "Cabos da categoria 6a só devem ser implementados se a distância máxima entre os pontos de rede for de até",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-stm-suporte-tecnologia-055",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 5,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "metros.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-stm-suporte-tecnologia-060",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 5,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "No Linux, a execução do comando a seguir irá atualizar o pacote samba, se este já estiver instalado no sistema operacional. yum update samba",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-stm-suporte-tecnologia-114",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 5,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "O código a seguir é um exemplo de uma notação JSON com formato válido. {\"Nome\":[{\"letra\":\"S\",\"nome\":\"Supremo\"}, {\"letra\":\"T\",\"nome\":\"Tribunal\"}, {\"letra\":\"M\",\"nome\":\"Militar\"}]}",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-stm-suporte-tecnologia-117",
+   "prova": 8,
+   "orgao": 0,
+   "cargo": 5,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "A execução dos comandos Git a seguir, na sequência em que aparecem, é suficiente para enviar o arquivo app22.html do repositório local para o repositório remoto, com todas as alterações realizadas localmente. git status git add app22.html git commit -m \"Versão 22 do aplicativo\"",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-stm-tecnico-contabilidade-114",
+   "prova": 14,
+   "orgao": 0,
+   "cargo": 9,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "certo_errado",
+   "enunciado": "O lançamento da receita pública implica o planejamento e a estimativa da arrecadação das receitas orçamentárias que constarão na proposta orçamentária. receita previsão inicial R$ 100 mil receita previsão atualizada R$ 120 mil receita lançada R$ 110 mil receita realizada despesa dotação inicial R$ 90 mil despesa dotação atualizada R$ 100 mil despesa empenhada R$ 120 mil despesa liquidada e paga R$ 110 mil",
+   "gabarito": "errado"
   }
  ]
 }

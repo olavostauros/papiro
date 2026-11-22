@@ -146,3 +146,96 @@ Pós-merge no código:
   `crawler/.cache/` e `crawler/reports/` como scratch.
 - Entrypoint provável: `python -m crawler.cebraspe ...` (loop autônomo do
   AGENTS.md) ou `python crawler/run.py` para rodadas por manifesto.
+
+## Execução (2026-11-22)
+
+Estado real divergiu da análise: `crawler-olavo` foi **squashado** a 2
+commits pós-base (`5907b11` pipeline+layout + `15b5fd6` 294 shards,
+~219k registros) e o monólito `web/src/data/questions.json` deixou de
+existir — `web/src/data/questions.ts` é um stub vazio até a API da VM.
+
+- Merge executado: `crawler-merge` @ `423e2cb`. Único conflito =
+  **modify/delete** no monólito (leandro modificou → 44 MB/56.135
+  registros; olavo deletou). Resolvido mantendo a deleção; o monólito
+  do leandro foi preservado em `crawler/.cache/leandro_questions.json`
+  (gitignored) e segue acessível via `git show
+  origin/crawler-leandro:web/src/data/questions.json`.
+- Todo o resto entrou limpo: `run.py`, `discover.py`, `extract_local.py`,
+  `validate.py`, `bench_local.py`, `divergencias.py`, `tests/`,
+  `manifests/`, `docs/divergencias-pf2025.md` + modificações em
+  `.gitignore`, `FIRECRAWL_USAGE.md`, `crawler/requirements.txt` (lado
+  olavo não tocou nenhum desses).
+- `crawler/models.py` do olavo só mudou docstrings — nenhuma quebra
+  para o código do leandro.
+- Validação: 81/81 testes de `crawler/tests/` passam no branch
+  (instalado com `uv pip install -r crawler/requirements.txt` — o
+  `.venv` não tem `pip`).
+
+### Merge de dados (2026-11-22) — executado
+
+Script: `crawler/merge_leandro.py` (`report` classifica, `apply`
+reescreve os shards). Reexecutável a partir de `git checkout --
+data/questions/`. Relatório de revisão em
+`crawler/.cache/merge_review.txt` (gitignored).
+
+Classificação dos 56.135 registros do leandro contra os shards:
+
+- **~24,3k idênticos** (mesmo id + mesmos campos) — ignorados.
+- **1.927 colisões de id com diffs** — resolvidas campo a campo
+  (enunciado mais longo/íntegro, gabarito/alternativas do leandro só
+  quando o registro olavo estava quebrado — 14 casos "olavo-broken").
+- **18.526 appends**: cobertura por-vaga (provas compartilhadas
+  re-etiquetadas por cargo), gap-fills de itens faltantes, provas
+  novas (PC_CE_25_DELEGADO, PC_MG_25_TPAG, ANATEL_24, BDMG_24,
+  TRF6_24, TCU_25 etc.) e o evento novo `TJ_SC_22_NOTARIOS` (100
+  registros → shard novo).
+- **16.540 drops** de taxonomia suplantada: nos eventos de swap, os
+  registros olavo sob cargos guarda-chuva caem quando o leandro cobre
+  o mesmo item sob cargo mais específico (proteção: não dropa quando o
+  leandro cobre o item sob o MESMO cargo normalizado — evita perda por
+  fan-out de prova de Conhecimentos Básicos).
+- **49 reaplicação TRT8** — ids reescritos para
+  `...-tecnico-administrativa-reaplicacao-NNN`, fonte
+  `793_TRT8_REAPLICACAO_CB1_01.PDF`, mantidos como registros
+  distintos.
+- **2 descartados** — registros não-Cebraspe com fonte de homepage
+  (FGV IBAMA, FCC TRT15).
+
+Granularidade de cargo aplicada por evento:
+
+- **Swap por vaga** (`SWAP_ALL`, 23 eventos): PM_MA_26, POLC_AL_22,
+  TCE_RN_25, TCE_MG_25, TCE_RS_25, CNJ_24, CPNUJE_24, TRT10_24,
+  TJ_PA_25_SERVIDOR, TCE_AC_24, ANM_24, ARSAL_26, AGER_MT_23,
+  TC_DF_23, TC_DF_24_AUDITOR, BANCO_DO_NORDESTE_22, PM_RO_22,
+  PM_SC_23_SOLDADO, CBM_RO_22, CBM_PA_23_CFP, TCE_RJ_22_PROCURADOR,
+  TCE_MS_25_CONSELHEIRO. Renames resolvidos por correspondência
+  item-a-item (contenção fuzzy de tokens + par dominante com checagem
+  mútua — o par dominante sozinho erra quando a prova CB de uma
+  especialidade grande supera a prova específica do cargo).
+- **Swap parcial**: CBM_MA_26 — só o guarda-chuva "Praça Especialista
+  Músico" → 11 vagas; "Praça Combatente" preservado.
+- **Labels olavo mantidos** (`KEEP_OLAVO_CARGO` + `CARGO_REMAP`
+  explícito): TJ_MT_25_NOTARIOS, TJ_RR_25, TJ_PE_24_NOTARIOS,
+  BANRISUL_25 — os labels do leandro ("Provimento"/"Remoção",
+  especialidades truncadas) eram menos informativos.
+- Leftovers com label antigo permanecem onde o leandro não cobre o
+  item (cargos que ele não tem — ex.: AGER "Ciências da Computação",
+  ANM "Curso de Formação"/"Correcional") — cobertura preservada.
+
+Resultado: 50 shards alterados, **295 shards / 221.059 registros**
+(+1.986 líquido), 0 ids duplicados, referências internas válidas,
+round-trip `shard_to_records` OK, 81/81 testes.
+
+### Pendências pós-merge
+
+1. **`crawler/discover.py:42` hardcoda `DATASET =
+   web/src/data/questions.json`** — o pipeline do leandro (`run.py`)
+   lê e escreve o monólito. Adaptar para ler os shards
+   (`load_shard_records`/`shard_to_records`) e escrever via
+   `write_shard`, senão `run.py` recria o monólito.
+2. Conferir nos PDFs os diffs substantivos flagados em
+   `merge_review.txt` (~10 enunciados "kept olavo" + 1 alternativas)
+   — os "olavo-broken" já foram corrigidos a partir do leandro.
+3. Consolidar parsers duplicados (`crawler/gabarito.py` vs
+   `crawler/cebraspe/gabarito.py`; `extract_local.py` vs
+   `items.py`/`mc.py`) e documentar o tooling do leandro no AGENTS.md.

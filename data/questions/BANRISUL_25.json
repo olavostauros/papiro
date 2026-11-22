@@ -38,7 +38,9 @@
   "GESTÃO DE PROJETOS",
   "GESTÃO DE PRODUTOS",
   "GESTÃO E GOVERNANÇA",
-  "INOVAÇÃO EM TI NO SISTEMA FINANCEIRO"
+  "INOVAÇÃO EM TI NO SISTEMA FINANCEIRO",
+  "Conhecimentos Básicos",
+  "Conhecimentos Específicos"
  ],
  "provas": [
   {
@@ -5528,6 +5530,168 @@
     "uma permissão para clientes brasileiros adquirirem produtos de instituições estrangeiras.",
     "uma expansão de uma instituição estrangeira no Brasil.",
     "uma estratégia de transferir para o celular atividades conduzidas em agências físicas."
+   ]
+  },
+  {
+   "id": "cebraspe-2025-banrisul-administracao-banco-016",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 28,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base nos dados precedentes, que correspondem às primeiras três colunas da tabela-verdade relacionada à proposição lógica P ⇔ (Q ˅ R), assinale a opção em que é corretamente apresentada a sequência dos valores V ou F da última coluna dessa tabela-verdade, tomados de cima para baixo.",
+   "gabarito": "c",
+   "alternativas": [
+    "VVFVFVVF",
+    "VFVVFFVF",
+    "VVVFFFFV",
+    "VVVFFVFF",
+    "VVFFVFVF"
+   ]
+  },
+  {
+   "id": "cebraspe-2025-banrisul-administracao-banco-026",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 28,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando a figura precedente, que apresenta o conjunto U e os subconjuntos A (triângulo), B (retângulo) e C (círculo), assinale a opção em que é corretamente representada a operação de conjuntos cujo resultado será a área hachurada na figura.",
+   "gabarito": "d",
+   "alternativas": [
+    "A ⋃ (B ― C)",
+    "(B ∩ C) ∪ (A ∩ B)",
+    "A⋂B⋂C",
+    "(A ∩ C) ― B",
+    "(A ∩ C) ∪ B"
+   ]
+  },
+  {
+   "id": "cebraspe-2025-banrisul-desenvolvimento-software-016",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 28,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base nos dados precedentes, que correspondem às primeiras três colunas da tabela-verdade relacionada à proposição lógica P ⇔ (Q ˅ R), assinale a opção em que é corretamente apresentada a sequência dos valores V ou F da última coluna dessa tabela-verdade, tomados de cima para baixo.",
+   "gabarito": "c",
+   "alternativas": [
+    "VVFVFVVF",
+    "VFVVFFVF",
+    "VVVFFFFV",
+    "VVVFFVFF",
+    "VVFFVFVF"
+   ]
+  },
+  {
+   "id": "cebraspe-2025-banrisul-desenvolvimento-software-026",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 28,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando a figura precedente, que apresenta o conjunto U e os subconjuntos A (triângulo), B (retângulo) e C (círculo), assinale a opção em que é corretamente representada a operação de conjuntos cujo resultado será a área hachurada na figura.",
+   "gabarito": "d",
+   "alternativas": [
+    "A ⋃ (B ― C)",
+    "(B ∩ C) ∪ (A ∩ B)",
+    "A⋂B⋂C",
+    "(A ∩ C) ― B",
+    "(A ∩ C) ∪ B"
+   ]
+  },
+  {
+   "id": "cebraspe-2025-banrisul-tecnologia-seguranca-016",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2025,
+   "assunto": 28,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base nos dados precedentes, que correspondem às primeiras três colunas da tabela-verdade relacionada à proposição lógica P ⇔ (Q ˅ R), assinale a opção em que é corretamente apresentada a sequência dos valores V ou F da última coluna dessa tabela-verdade, tomados de cima para baixo.",
+   "gabarito": "c",
+   "alternativas": [
+    "VVFVFVVF",
+    "VFVVFFVF",
+    "VVVFFFFV",
+    "VVVFFVFF",
+    "VVFFVFVF"
+   ]
+  },
+  {
+   "id": "cebraspe-2025-banrisul-tecnologia-seguranca-026",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 2,
+   "ano": 2025,
+   "assunto": 28,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando a figura precedente, que apresenta o conjunto U e os subconjuntos A (triângulo), B (retângulo) e C (círculo), assinale a opção em que é corretamente representada a operação de conjuntos cujo resultado será a área hachurada na figura.",
+   "gabarito": "d",
+   "alternativas": [
+    "A ⋃ (B ― C)",
+    "(B ∩ C) ∪ (A ∩ B)",
+    "A⋂B⋂C",
+    "(A ∩ C) ― B",
+    "(A ∩ C) ∪ B"
+   ]
+  },
+  {
+   "id": "cebraspe-2025-banrisul-transformacao-digital-016",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 3,
+   "ano": 2025,
+   "assunto": 28,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base nos dados precedentes, que correspondem às primeiras três colunas da tabela-verdade relacionada à proposição lógica P ⇔ (Q ˅ R), assinale a opção em que é corretamente apresentada a sequência dos valores V ou F da última coluna dessa tabela-verdade, tomados de cima para baixo.",
+   "gabarito": "c",
+   "alternativas": [
+    "VVFVFVVF",
+    "VFVVFFVF",
+    "VVVFFFFV",
+    "VVVFFVFF",
+    "VVFFVFVF"
+   ]
+  },
+  {
+   "id": "cebraspe-2025-banrisul-transformacao-digital-026",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 3,
+   "ano": 2025,
+   "assunto": 28,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando a figura precedente, que apresenta o conjunto U e os subconjuntos A (triângulo), B (retângulo) e C (círculo), assinale a opção em que é corretamente representada a operação de conjuntos cujo resultado será a área hachurada na figura.",
+   "gabarito": "d",
+   "alternativas": [
+    "A ⋃ (B ― C)",
+    "(B ∩ C) ∪ (A ∩ B)",
+    "A⋂B⋂C",
+    "(A ∩ C) ― B",
+    "(A ∩ C) ∪ B"
+   ]
+  },
+  {
+   "id": "cebraspe-2025-banrisul-desenvolvimento-software-036",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 29,
+   "tipo": "multipla_escolha",
+   "enunciado": "IdCliente Nome Tabela I Cidade CEP 1 Clientes Rio de 21200 2 Jose Silva Janeiro 11901 3 Endereco São 71000 Maria Av Rio Paulo Silveira Branco 200 Rita Av Contorno Brasilia Castro 100 Rua Sao Joao 132 Tabela II Pedidos IdOrdem IdCliente IdVendedor Data 101 2025-03-01 102 3 55 2025-05-02 103 2025-01-23 104 23 23 2024-12-11 105 2024-11-10 106 1 67 2025-05-10 24 37 2 23 3 21 Jose Silva Tabela III 2025-01-23 Maria Silveira Resultado 2024-11-10 Rita Castro Rio de Janeiro 2025-03-01 Rita Castro 2025-05-10 São Paulo Brasilia Brasilia Com base nas informações nas tabelas I e II, precedentes, assinale a opção em que são apresentados comandos SQL que permitem a obtenção do resultado demonstrado na tabela III.",
+   "gabarito": "d",
+   "alternativas": [
+    "SELECT Clientes.Nome, Clientes.Cidade, Pedidos.Data FROM Pedidos LEFT JOIN Clientes ON Pedidos.IdCliente=Clientes.IdCliente;",
+    "SELECT Clientes.Nome, Clientes.Cidade, Pedidos.Data FROM Pedidos, Clientes INNER JOIN Clientes ON Pedidos.IdCliente=Clientes.IdCliente;",
+    "SELECT Clientes.Nome, Clientes.Cidade, Pedidos.Data FROM Pedidos AND Clientes INNER JOIN Clientes ON Pedidos.IdCliente=Clientes.IdCliente;",
+    "SELECT Clientes.Nome, Clientes.Cidade, Pedidos.Data FROM Pedidos INNER JOIN Clientes ON Pedidos.IdCliente=Clientes.IdCliente;",
+    "SELECT Clientes.Nome, Clientes.Cidade,"
    ]
   }
  ]
