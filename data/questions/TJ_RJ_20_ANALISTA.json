@@ -60,6 +60,12 @@
   },
   {
    "fonte": "https://cdn.cebraspe.org.br/concursos/TJ_RJ_20_ANALISTA/arquivos/533_TJRJ_011_01.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/TJ_RJ_20_ANALISTA/arquivos/533_TJRJ_012_01.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/TJ_RJ_20_ANALISTA/arquivos/533_TJRJ_014_01.PDF"
   }
  ],
  "itens": [
@@ -12236,6 +12242,1428 @@
    "prova": 11,
    "orgao": 0,
    "cargo": 10,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a Instrução Normativa n.º 01/2019 do Ministério da Economia, o estudo técnico preliminar da contratação é o documento que descreve as análises realizadas em relação às condições da contratação, em termos de necessidades, alternativas e escolhas que demonstrem a viabilidade técnica e econômica da contratação. Esse documento",
+   "gabarito": "a",
+   "alternativas": [
+    "será aprovado e assinado pelos integrantes técnico e requisitante da equipe de planejamento da contratação e pela autoridade máxima da área de TIC ou, caso esta componha a equipe, pela autoridade superior à ela.",
+    "será especificado com base em requisitos necessários e suficientes e conterá o quantitativo de bens e serviços, ressalvado à forma de cálculo para a sua composição que deve ser inserida no termo de referência ou projeto básico.",
+    "considera estritamente os aspectos econômicos da solução, com descrição detalhada, motivada e justificada.",
+    "exclui aspectos qualitativos em termos de benefícios, sob pena de tornar inválida a imparcialidade exigida no estudo da contratação, ainda que haja necessidades de adequação do ambiente do órgão para viabilizar a execução contratual.",
+    "compreende a análise comparativa de soluções e de custos para as soluções técnicas, ainda que não sejam funcionalmente viáveis, desde que haja a possibilidade de contratação como serviço e o Total Cost Ownership seja vantajoso para o órgão."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-021",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o PMBOK 7, a definição de expectativas para datas, recursos e resultados esperados ao longo de várias iterações de um projeto é estabelecida pelo plano de",
+   "gabarito": "e",
+   "alternativas": [
+    "engajamento das partes interessadas.",
+    "gerenciamento de qualidade.",
+    "gerenciamento do cronograma.",
+    "controle de mudanças.",
+    "liberação."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-022",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Os objetivos de governança no COBIT 2019 são agrupados no domínio",
+   "gabarito": "a",
+   "alternativas": [
+    "avaliar, orientar e monitorar (EDM).",
+    "alinhar, planejar e organizar (APO).",
+    "construir, adquirir e implementar (BAI).",
+    "entregar, servir e apoiar (DSS).",
+    "monitorar, avaliar e aferir (MEA)."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-023",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o que prescreve o ITIL 4, ao comunicar claramente os fatores críticos de sucesso e as restrições aplicáveis, o consumidor de um serviço contribui para a",
+   "gabarito": "a",
+   "alternativas": [
+    "redução dos riscos associados à prestação do serviço.",
+    "compreensão completa sobre o custo da prestação do serviço.",
+    "eliminação dos custos impostos pela prestação do serviço.",
+    "aferição da garantia na prestação do serviço.",
+    "avaliação da utilidade geral da prestação do serviço."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-024",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a seção sobre liderança proposta pela ABNT NBR ISO/IEC 20000-1, a alta direção deve ter responsabilidade e autoridade para",
+   "gabarito": "d",
+   "alternativas": [
+    "assegurar que o que se define como valor para a organização e seus clientes seja determinado.",
+    "dirigir e apoiar pessoas a contribuir para a eficácia do sistema de gestão de serviço.",
+    "comunicar a importância de uma gestão de serviço eficaz, alcançando os objetivos de gestão de serviço.",
+    "relatar o desempenho do sistema de gestão de serviço e dos serviços.",
+    "assegurar que exista o controle sobre outras partes envolvidas no ciclo de vida do serviço."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-025",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a ABNT NBR ISO/IEC 20000-1, assegurar que as pessoas que trabalham para a organização sejam competentes com base em educação, treinamento ou experiência apropriados é ação relacionada a",
+   "gabarito": "b",
+   "alternativas": [
+    "liderança e comprometimento.",
+    "apoio para o sistema de gestão de serviço.",
+    "papéis, responsabilidades e autoridades organizacionais.",
+    "avaliação de desempenho.",
+    "ações para abordar riscos e oportunidades."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-026",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em engenharia de software, um modelo de ciclo de vida",
+   "gabarito": "c",
+   "alternativas": [
+    "controla as fases de análise, desenvolvimento, implementação, manutenção, migração e evolução de software.",
+    "organiza a implantação, o licenciamento e a operação do software desde a instalação até a descontinuidade.",
+    "estrutura as atividades do processo de software em fases e define como essas fases estão relacionadas.",
+    "representa precisamente o curso das ações e o escopo de dados de um processo de software.",
+    "descreve ferramentas, recursos, procedimentos e restrições de um projeto de software."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-027",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que corresponde a um dos princípios da programação ágil, de acordo com o Manifesto para Desenvolvimento Ágil de Software.",
+   "gabarito": "a",
+   "alternativas": [
+    "Mudanças em requisitos devem ser bem recebidas, mesmo em fases mais avançadas do desenvolvimento.",
+    "Os testes de software devem ser conduzidos por pessoas que não produziram o código.",
+    "O controle empírico do processo deve enfatizar as ideias de transparência, inspeção e adaptação.",
+    "Dados produzidos por um processo devem ser passíveis de serem gerados por esse processo.",
+    "O código deve ser permanentemente revisado e passar por reorganizações ao longo do tempo para tornar-se mais claro, mais legível e mais simples."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-028",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Os diagramas usados em UML 2.5 para indicar as comunicações dinâmicas entre objetos durante a execução de uma tarefa são denominados diagramas de",
+   "gabarito": "a",
+   "alternativas": [
+    "sequência.",
+    "atividade.",
+    "distribuição.",
+    "casos de uso.",
+    "estado."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-029",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No BABOK, a definição e a determinação dos processos de análise de negócios e das métricas que serão utilizadas para avaliar o progresso do trabalho realizado são descritas na área de conhecimento denominada",
+   "gabarito": "a",
+   "alternativas": [
+    "planejamento e monitoramento da análise de negócios.",
+    "avaliação e validação da solução.",
+    "análise de requisitos.",
+    "análise corporativa.",
+    "competências fundamentais."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-030",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Determinada atividade do processo de engenharia de requisitos tem por objetivo definir o domínio do problema e as funções, características e restrições do software; nela, em particular, são descritos cenários de como os usuários vão interagir com o sistema. Essa atividade é denominada",
+   "gabarito": "d",
+   "alternativas": [
+    "concepção.",
+    "levantamento.",
+    "validação.",
+    "elaboração.",
+    "negociação."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-031",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A capacidade de um produto de software de manter um nível de desempenho segundo condições específicas de uso, medida por meio de atributos de qualidade, como capacidade de tolerância a falhas, maturidade e recuperabilidade, é conhecida como",
+   "gabarito": "b",
+   "alternativas": [
+    "funcionalidade.",
+    "confiabilidade.",
+    "usabilidade.",
+    "manutenibilidade.",
+    "eficiência."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-032",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que apresenta a fórmula correta de cálculo de pontos de função (PF) utilizada em projetos de migração de dados, segundo o roteiro de métricas de software do SISP.",
+   "gabarito": "b",
+   "alternativas": [
+    "PF_ATUALIZAÇÃO_VERSÃO_BD = PF_ALTERADO x 0,30",
+    "PF_CONVERSÃO = PF_INCLUIDO",
+    "PF_MELHORIA = PF_INCLUIDO + (FI x PF_ALTERADO) + (0,40 x PF_EXCLUIDO) + PF_CONVERSÃO",
+    "PF_DESENVOLVIMENTO = PF_INCLUIDO + PF_CONVERSÃO",
+    "PF_REDESENVOLVIMENTO_LINGUAGEM = PF_INCLUÍDO + PF_CONVERSÃO"
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-033",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A gestão de riscos é um conjunto de atividades coordenadas para permitir que a organização se prepare para lidar com os riscos, de forma sistemática e customizada, conforme cada situação. No caso da NBR ISO/IEC 27005, a gestão de riscos é necessária para a eficácia",
+   "gabarito": "e",
+   "alternativas": [
+    "da elaboração de planos de negócio.",
+    "do modelo de governança da TI.",
+    "da análise de impacto ao negócio.",
+    "do sistema de gestão da qualidade em TI.",
+    "do sistema de gestão da segurança da informação."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-034",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No processo de gestão de riscos da segurança da informação, segundo a NBR ISO/IEC 27005, identificação, análise e avaliação de riscos são atividades relativas",
+   "gabarito": "a",
+   "alternativas": [
+    "ao processo de avaliação de riscos.",
+    "à definição de contexto.",
+    "à identificação de vulnerabilidades.",
+    "a metodologias de análise quantitativa ou qualitativa de riscos.",
+    "a identificação e valoração dos ativos e avaliação do impacto."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-035",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Segundo a NBR ISO/IEC 27005, modificar, reter, evitar ou compartilhar riscos são opções potenciais para adoção da atividade do processo de gestão de riscos denominada",
+   "gabarito": "d",
+   "alternativas": [
+    "avaliação de riscos.",
+    "comunicação dos riscos.",
+    "análise de riscos.",
+    "tratamento dos riscos.",
+    "análise crítica dos riscos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-036",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Segundo a NBR ISO/IEC 27005, a identificação de controles existentes, de ameaças e de vulnerabilidades é atividade constante do processo de gestão de riscos denominada",
+   "gabarito": "a",
+   "alternativas": [
+    "identificação de riscos.",
+    "definição do contexto.",
+    "organização para a gestão de riscos.",
+    "estimativa de riscos.",
+    "avaliação de consequências."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-037",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a norma ISO/IEC 27001, ao estabelecer um Sistema de Gestão de Segurança da Informação (SGSI), a empresa deve",
+   "gabarito": "e",
+   "alternativas": [
+    "utilizar o processo de análise de riscos apresentado na referida norma.",
+    "ter a política do SGSI determinada pelo escritório de segurança da informação da empresa.",
+    "ter o escopo do SGSI definido com base nos limites e nas aplicabilidades da referida norma.",
+    "justificar a omissão de controles necessários que estejam previstos na referida norma por meio do processo de tratamento dos riscos de segurança da informação.",
+    "conduzir suas auditorias internas em intervalos regulares, a partir dos critérios e do escopo definidos para cada uma delas."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-038",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que apresenta uma recomendação da norma ISO/IEC 27002 no que se refere aos métodos de implementação de controle de segurança da informação no gerenciamento de projetos.",
+   "gabarito": "b",
+   "alternativas": [
+    "A análise crítica de questões de segurança da informação deve ser feita conforme se identifique a necessidade.",
+    "Os objetivos de segurança da informação devem ser contemplados nos do projeto.",
+    "A avaliação dos riscos de segurança da informação deve ser conduzida na fase de testes de projeto.",
+    "A segurança da informação deve estar presente no projeto pelo menos a partir da sua fase de implementação.",
+    "As responsabilidades pela segurança da informação devem ser difundidas por todos os participantes do projeto."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-039",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme a norma ISO 22301, convém que as equipes responsáveis por responder aos incidentes sejam capazes de",
+   "gabarito": "b",
+   "alternativas": [
+    "realizar as ações conforme o planejamento das áreas competentes.",
+    "garantir a disponibilidade dos recursos necessários.",
+    "acionar a equipe responsável por iniciar uma resposta apropriada.",
+    "obedecer às prioridades estabelecidas pelas áreas competentes para todas as ações.",
+    "acionar a área responsável pela comunicação com as partes interessadas."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-040",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a norma ISO 22301, como forma de demonstração de liderança e comprometimento, a alta direção tem como atribuição",
+   "gabarito": "a",
+   "alternativas": [
+    "estabelecer a política de continuidade de negócios.",
+    "demonstrar consciência dos requisitos legais.",
+    "estabelecer objetivos de continuidade de negócios compatíveis com os objetivos estratégicos da organização.",
+    "participar ativamente do programa de exercícios.",
+    "dirigir o Sistema de Gestão de Continuidade de Negócios (SGCN) e apoiar sua melhoria."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-041",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que apresenta uma vantagem da adoção da SOA (service-oriented architecture).",
+   "gabarito": "d",
+   "alternativas": [
+    "performance",
+    "disponibilidade",
+    "robustez",
+    "interoperabilidade",
+    "segurança"
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-042",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que concerne à modelagem de dados relacionais, assinale a opção correspondente à forma normal que estabelece que, em uma relação, toda dependência funcional não trivial e irredutível à esquerda tenha uma chave candidata como determinante.",
+   "gabarito": "d",
+   "alternativas": [
+    "primeira forma normal",
+    "segunda forma normal",
+    "terceira forma normal",
+    "forma normal de Boyce/Codd",
+    "quarta forma normal"
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-043",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em um banco de dados OLAP, uma operação ROLL UP tem por finalidade",
+   "gabarito": "e",
+   "alternativas": [
+    "selecionar dados de uma única dimensão.",
+    "extrair um subcubo da seleção de mais de uma dimensão.",
+    "visualizar dados por uma nova perspectiva.",
+    "examinar dados com maior nível de detalhe.",
+    "combinar células de uma ou mais dimensões para atingir um nível maior de generalização."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-044",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "According to the author of text 9A3-I, 2018’s most impactful legal technology was",
+   "gabarito": "e",
+   "alternativas": [
+    "higher salaries for judges.",
+    "malpractice for lawyers.",
+    "digital calendars.",
+    "artificial intelligence.",
+    "analytics."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-045",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "In the first sentence of text 9A3-I, the word “it” refers to",
+   "gabarito": "c",
+   "alternativas": [
+    "“judge”.",
+    "“artificial intelligence”.",
+    "“2018’s most important legal technology”.",
+    "“media coverage”.",
+    "“conference agendas”."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-046",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "In the first sentence of text 9A3-I, the word “judge” is synonymous with",
+   "gabarito": "c",
+   "alternativas": [
+    "court.",
+    "justice.",
+    "consider.",
+    "examiner.",
+    "try."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-047",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "The author of text 9A3-I mentions conference agendas and media coverage in order to",
+   "gabarito": "a",
+   "alternativas": [
+    "demonstrate that their focus did not reflect the most impactful trend in the field of legal technology in 2018.",
+    "show that they focused suficient attention on analytics in the field of legal technology in 2018.",
+    "suggest that conferences related to legal technology should not be venues for discussions about analytics.",
+    "demonstrate that these events and institutions establish priorities for the field of legal technology.",
+    "advertise future events of interst in the field of legal technology."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-048",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O entendimento de que o ato administrativo é considerado válido até que se prove em contrário corresponde ao atributo da",
+   "gabarito": "a",
+   "alternativas": [
+    "presunção de legitimidade.",
+    "tipicidade.",
+    "exigibilidade.",
+    "imperatividade.",
+    "autoexecutoriedade."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-049",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando o disposto na Lei n.º 8.666/1993 (Lei de Licitações e Contratos), julgue os seguintes itens. I Embora tenha sido editada pela União, a Lei de Licitações e Contratos é considerada lei nacional, aplicando-se a todos os Poderes da União, dos estados, do Distrito Federal e dos municípios. II Quando a administração pública efetua compra de um produto não comum cujo valor é superior a um milhão, quatrocentos e trinta mil reais, deve-se utilizar a modalidade de licitação concorrência. III No caso de aquisição de material que só possa ser fornecido por empresa exclusiva, a administração pública deverá realizar contratação direta mediante dispensa de licitação. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-050",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Suponha que Ana, servidora do Tribunal de Justiça, agindo no exercício de suas funções administrativas, tenha causado dano a João. Nessa situação hipotética, caso João pretenda ajuizar ação judicial requerendo indenização em face do Estado, a responsabilidade civil",
+   "gabarito": "c",
+   "alternativas": [
+    "será subjetiva, por meio de ação de regresso.",
+    "não será possível, porque o Estado não responde pelos atos de seus agentes, devendo João ajuizar ação diretamente contra Ana.",
+    "será objetiva, independentemente de dolo ou culpa.",
+    "será subsidiária, se comprovado dolo ou culpa.",
+    "não será possível, porque o Brasil adota a teoria da irresponsabilidade estatal."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-051",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Sistema de Registro de Preços poderá ser adotado nos casos em que",
+   "gabarito": "e",
+   "alternativas": [
+    "houver necessidade de aquisição de bens com uma única entrega.",
+    "houver quantitativo exato do produto demandado pela administração.",
+    "a aquisição de bens vier a atender mais de um programa de governo, podendo ser acrescida a quantidade prevista na ata de registro de preços.",
+    "a aquisição de bens vier a atender exclusivamente um órgão público.",
+    "houver necessidade de contratações frequentes, em razão das características do serviço."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-052",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "É considerado direito social previsto na Constituição Federal de 1988",
+   "gabarito": "b",
+   "alternativas": [
+    "o décimo terceiro salário com base no salário básico.",
+    "a assistência aos desamparados, na forma da Constituição.",
+    "o salário mínimo, sendo permitida sua vinculação para qualquer fim.",
+    "o salário-família pago em razão do dependente do trabalhador, independentemente da renda auferida.",
+    "o seguro-desemprego, em caso de desemprego voluntário ou involuntário."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-053",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme a Constituição Federal de 1988, as pessoas",
+   "gabarito": "a",
+   "alternativas": [
+    "estão autorizadas a fazer tudo desde que a lei não proíba.",
+    "só estão autorizadas a fazer aquilo que está previsto em lei.",
+    "estão, em princípio, proibidas a fazer tudo, podendo um decreto regulamentar presidencial permitir a atuação individual.",
+    "só podem fazer algo quando ato normativo legal ou infralegal expressamente permitir.",
+    "não podem ser obrigadas a fazer ou deixar de fazer algo senão em virtude de ato normativo legal ou infralegal."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-054",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ao Conselho Nacional de Justiça compete apreciar, de ofício ou mediante provocação,",
+   "gabarito": "e",
+   "alternativas": [
+    "o mérito dos atos administrativos praticados por membros do Poder Judiciário.",
+    "o mérito dos atos administrativos praticados por servidores ou membros do Poder Judiciário.",
+    "a legalidade dos atos administrativos praticados por servidores do Poder Judiciário.",
+    "a legalidade e o mérito dos atos administrativos praticados por servidores ou membros do Poder Judiciário.",
+    "a legalidade dos atos administrativos praticados por membros do Poder Judiciário."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-055",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Maria, que possui emprego público privativo de profissionais de saúde em empresa pública estadual, foi aprovada em outro concurso público para cargo público federal privativo de profissionais de saúde. Nessa situação hipotética, Maria",
+   "gabarito": "e",
+   "alternativas": [
+    "poderá assumir o cargo e acumular as duas funções públicas, não se aplicando a esse caso o teto remuneratório da administração pública.",
+    "não poderá acumular as funções, porque uma é estadual e a outra é federal.",
+    "não poderá acumular as funções, porque apenas um dos vínculos é oriundo do regime estatutário.",
+    "não poderá acumular as funções, porque não há previsão constitucional expressa que permita cumulações de funções públicas remuneradas.",
+    "poderá assumir o cargo e acumular as duas funções públicas, se os horários forem compatíveis e as profissões forem regulamentadas."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-056",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com as resoluções do CNJ,",
+   "gabarito": "b",
+   "alternativas": [
+    "no caso de emissão de certidão judicial, a ausência de alguns dos dados impede a expedição da certidão negativa, ainda que não haja dúvida quanto à identificação física da pessoa.",
+    "o modelo de requisitos para sistemas informatizados de gestão de processos e documentos do Poder Judiciário brasileiro, no que concerne à segurança, é requisito imprescindível para garantir a origem e a integridade dos documentos com assinatura digital.",
+    "os planos estratégicos dos órgãos do Poder Judiciário devem ser alinhados à Estratégia Judiciário e ter abrangência máxima de seis anos.",
+    "a gestão da segurança da informação somente pode ser objeto de contratação caso a empresa contratada que provê a solução de TIC não seja a mesma que avalia ou fiscaliza o objeto da contratação.",
+    "a administração do sistema Processo Judicial Eletrônico cabe exclusivamente ao CNJ, garantida a participação de representantes dos tribunais superiores, cujas atribuições serão definidas por ato do presidente do CNJ."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-057",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Resolução n.º 211/2015 do CNJ trata sobre a estratégia nacional de tecnologia da informação e comunicação (TIC) do Poder Judiciário. De acordo com essa resolução,",
+   "gabarito": "e",
+   "alternativas": [
+    "cabe ao CNJ classificar os sistemas de informação de cada órgão, identificando os que são estratégicos por meio de inspeção ou a pedido do órgão.",
+    "cabe exclusivamente à área de TIC estabelecer estratégias, indicadores e metas institucionais, bem como pela orientação das iniciativas e dos investimentos tecnológicos no âmbito institucional.",
+    "é vedada a participação de magistrados no comitê de governança de TIC.",
+    "o comitê de governança de TIC é responsável pela elaboração de planos táticos e a área de TIC os planos operacionais e pelo estabelecimento de indicadores operacionais do órgão.",
+    "cada órgão deverá elaborar o plano estratégico de TIC e o plano diretor de TIC, em harmonia com as diretrizes estratégicas institucionais e nacionais."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-058",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Resolução n.º 192/2014 do CNJ descreve a Política Nacional de Formação e Aperfeiçoamento dos Servidores do Poder Judiciário. Segundo essa resolução,",
+   "gabarito": "c",
+   "alternativas": [
+    "as ações de formação e aperfeiçoamento deverão ser oferecidas, preferencialmente, fora da jornada de trabalho do servidor, de modo a não atrapalhar o andamento do setor ou área no qual ele esteja lotado.",
+    "ainda que a ação de formação e aperfeiçoamento tenha carga horária inferior à jornada diária, o servidor não necessita cumprir as horas faltantes.",
+    "a frequência em eventos presenciais de capacitação oferecidos pelo órgão será computada como hora trabalhada, exceto as horas de estudo realizadas pelo servidor fora das dependências do Poder Judiciário, na metodologia à distância.",
+    "as horas da ação de formação e aperfeiçoamento que excederem a jornada diária deverão ser compensadas como horas extraordinárias e pagas em pecúnia ou inseridas em bancos de horas.",
+    "os servidores inscritos em ações de educação a distância oferecidas pelo órgão podem dedicar até duas horas diárias de trabalho para participação nas atividades, desde que seja de interesse da administração."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-059",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a Instrução Normativa n.º 01/2019 do Ministério da Economia, na fase de planejamento da contratação, é obrigatório",
+   "gabarito": "a",
+   "alternativas": [
+    "elaborar o termo de referência, inclusive nos casos de inexigibilidade ou dispensa de licitação.",
+    "prever em edital a remuneração média dos funcionários da contratada.",
+    "prever reembolso de despesas com transporte e hospedagem, desde que afetos ao objeto da contratação e justificados pela contratada.",
+    "prever em edital exigência que os fornecedores apresentem, em seus quadros, funcionários certificados para o fornecimento da solução, antes da contratação.",
+    "adotar a métrica homem-hora nos casos de contratação de serviços de desenvolvimento de software."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-projetos-060",
+   "prova": 12,
+   "orgao": 0,
+   "cargo": 11,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a Instrução Normativa n.º 01/2019 do Ministério da Economia, o estudo técnico preliminar da contratação é o documento que descreve as análises realizadas em relação às condições da contratação, em termos de necessidades, alternativas e escolhas que demonstrem a viabilidade técnica e econômica da contratação. Esse documento",
+   "gabarito": "a",
+   "alternativas": [
+    "será aprovado e assinado pelos integrantes técnico e requisitante da equipe de planejamento da contratação e pela autoridade máxima da área de TIC ou, caso esta componha a equipe, pela autoridade superior à ela.",
+    "será especificado com base em requisitos necessários e suficientes e conterá o quantitativo de bens e serviços, ressalvado à forma de cálculo para a sua composição que deve ser inserida no termo de referência ou projeto básico.",
+    "considera estritamente os aspectos econômicos da solução, com descrição detalhada, motivada e justificada.",
+    "exclui aspectos qualitativos em termos de benefícios, sob pena de tornar inválida a imparcialidade exigida no estudo da contratação, ainda que haja necessidades de adequação do ambiente do órgão para viabilizar a execução contratual.",
+    "compreende a análise comparativa de soluções e de custos para as soluções técnicas, ainda que não sejam funcionalmente viáveis, desde que haja a possibilidade de contratação como serviço e o Total Cost Ownership seja vantajoso para o órgão."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-021",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Na engenharia de software, pode-se dividir uma metodologia genérica em cinco macroatividades; entre elas, a que tem como objetivo criar um esboço do projeto a ser desenvolvido é",
+   "gabarito": "b",
+   "alternativas": [
+    "o planejamento.",
+    "a modelagem.",
+    "o emprego.",
+    "a comunicação.",
+    "a construção."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-022",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Na linguagem UML, o diagrama de sequência do sistema tem como objetivo",
+   "gabarito": "e",
+   "alternativas": [
+    "ilustrar os conceitos significativos em um domínio de problema.",
+    "ilustrar como os objetos interagem por meio de mensagens para cumprir tarefas.",
+    "descrever o sistema em termos de entradas e saídas efetivas e sua implementação geral.",
+    "descrever as classes e as interfaces do sistema.",
+    "ilustrar os eventos gerados pelos atores que são reconhecidos pelo sistema."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-023",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Na metodologia Scrum, o rito que tem como finalidade refletir sobre o andamento das atividades na sprint é conhecido como",
+   "gabarito": "d",
+   "alternativas": [
+    "review.",
+    "daily.",
+    "backlog.",
+    "retrospectiv.",
+    "planning."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-024",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A coleção GoF (Gang of Four) é formada por padrões orientados a objetos, separados em categorias. A categoria padrões estruturais é responsável por",
+   "gabarito": "c",
+   "alternativas": [
+    "estabelecer um design de objetos reutilizáveis.",
+    "fornecer maneiras eficientes para criar objetos.",
+    "descrever como os objetos são colocados juntos.",
+    "descrever como os objetos interagem.",
+    "distribuir responsabilidades entre os objetos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-025",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Na arquitetura MVC (Model-View-Controller), as funcionalidades de cada segmento são mais bem descritas como",
+   "gabarito": "b",
+   "alternativas": [
+    "o modelo encapsula as funcionalidades; o view gerencia as requisições dos usuários; o controlador prepara dados do modelo.",
+    "o modelo encapsula objetos de conteúdo; a visão solicita atualizações do modelo; o controlador seleciona o comportamento do modelo.",
+    "o modelo incorpora todos os estados; o view gerencia as requisições dos usuários; o controlador encapsula objetos de conteúdo.",
+    "o modelo encapsula objetos de conteúdo; o view seleciona o comportamento do modelo; o controlador solicita atualizações do modelo.",
+    "o modelo seleciona a resposta da visão; a visão apresenta a visão selecionada pelo controlador; o controlador encapsula objetos de conteúdo."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-026",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em um ambiente cliente/servidor, a arquitetura que permite a mesma aplicação assumir tanto o papel de cliente quanto o de servidor é conhecida como arquitetura C/S",
+   "gabarito": "c",
+   "alternativas": [
+    "simples.",
+    "de dois níveis.",
+    "multinível.",
+    "de três camadas.",
+    "par-par."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-027",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A metodologia Scrum estabelece vários papéis a serem desempenhados pelo time; o responsável por controlar o progresso do desenvolvimento do projeto e ser o guardião dos ritos é o",
+   "gabarito": "b",
+   "alternativas": [
+    "product owner.",
+    "scrum master.",
+    "patrocinador do projeto.",
+    "stakeholder.",
+    "gerente do time de desenvolvimento."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-028",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "As regras SMART são utilizadas para identificar os objetivos dos interessados em determinado projeto; aquela que serve para conciliar os entendimentos dos stakeholders sobre os objetivos é a",
+   "gabarito": "d",
+   "alternativas": [
+    "time-based.",
+    "specific.",
+    "measurable.",
+    "achievable.",
+    "realistic."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-029",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Na engenharia de requisitos, por estar mais aderente às características dessa técnica, a etnografia é recomendada",
+   "gabarito": "d",
+   "alternativas": [
+    "na elicitação da forma como o fluxo dos processos deveria ser feito.",
+    "na descoberta dos requisitos organizacionais.",
+    "quando se deseja obter uma visão do funcionamento do sistema na forma prevista, independentemente das interferências de seu contexto.",
+    "na descoberta de requisitos derivados do conhecimento das atividades de outras pessoas que realizam trabalhos adjacentes ao analisado.",
+    "como uma alternativa aos casos de uso para a descoberta dos requisitos explícitos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-030",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Para os propósitos da modelagem dos requisitos com base em cenários, um suporte apropriado é o uso de",
+   "gabarito": "a",
+   "alternativas": [
+    "diagrama de casos de uso e histórias de usuários.",
+    "diagrama de sequência e diagrama de atividades.",
+    "diagramas que representem eventos ou estados.",
+    "diagrama de classes e histórias de usuário.",
+    "modelagem com cartões CRC e casos de uso."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-031",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando a figura precedente, que representa a situação atual de um processo de negócio, realizada com a utilização do BPMN (Business Process Model and Notation), assinale a opção correta, a respeito das atividades desse processo.",
+   "gabarito": "c",
+   "alternativas": [
+    "A elaboração do parecer pela gerência de contas é realizada simultaneamente com a atividade de atualizar a agenda de obrigações.",
+    "Para abrir o histórico mensal, é preciso atualizar a agenda de obrigações e ter o resultado do parecer elaborado pela gerência de contas.",
+    "Para realizar a abertura do histórico mensal, basta que a atualização da agenda de obrigações tenha sido concluída ou que o parecer da gerência de contas tenha sido concluído.",
+    "As atividades de atualização da agenda de obrigações e de elaboração de parecer são mutuamente exclusivas.",
+    "A elaboração do parecer pela gerência de contas pode ser feita em paralelo com a atividade de rejeitar a versão."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-032",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Para apoiar a análise de negócios, o OMG (Object Management Group) publicou uma norma que está disponível para os analistas como DMN (Decision Model and Notation). Essa notação",
+   "gabarito": "c",
+   "alternativas": [
+    "oferece recursos inexistentes na BPMN, como a modelagem de decisões e de regras de negócio.",
+    "preenche uma lacuna na UML, que não oferece um diagrama para descrever os processos de negócio.",
+    "é voltada para a criação de um modelo de decisão mais detalhado e foi projetada para ser usada juntamente com a notação de processos de negócio BPMN padrão.",
+    "é voltada para definir as etapas de um processo de negócio.",
+    "tem sua especificação protegida por ser um padrão proprietário."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-033",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando a classe CriaNotas, escrita em Java, assinale a opção que contém as instruções para a linha 7, cujo conteúdo foi omitido, de forma que, no final do programa, o array notas armazene valores de 1 a 10, assumindo que inicialmente ele esteja vazio.",
+   "gabarito": "d",
+   "alternativas": [
+    "int notas[contador] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}",
+    "do { int contador == 0); contador++ while (contador < notas.lenght)",
+    "do { if ( int contador < 10); contador++",
+    "for (int contador = 0; contador < notas.lenght; contador++ )",
+    "for (int contador = 1; contador < notas[10]; contador++ )"
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-034",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere o trecho de código a seguir, de um programa escrito na linguagem Java. Quanto a esse contexto, considere, ainda, as instruções a seguir, da classe CarroEsportivo. Com relação aos trechos de código precedentes, é correto afirmar que",
+   "gabarito": "e",
+   "alternativas": [
+    "o parâmetro this, na linha 7 da classe CarroEsportivo, é uma palavra reservada usada para mostrar que está sendo feita referência ao atributo privado marca da classe Carro.",
+    "o comando this, na linha 7 da classe CarroEsportivo, é uma palavra reservada que faz referência ao atributo público marca da classe Carro.",
+    "a instrução super, na linha 6 da classe CarroEsportivo, é usada para importar o pacote atributos privados da classe Carro, a fim de se tornarem públicos para a classe CarroEsportivo.",
+    "a instrução super, na linha 6 da classe CarroEsportivo, permite à classe CarroEsportivo acessar os atributos privados da classe Carro.",
+    "a instrução super, na linha 6 da classe CarroEsportivo, pode permitir à classe CarroEsportivo acessar atributos públicos da classe Carro."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-036",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No web service SOAP, versão 1.2, o elemento responsável por impor as regras que gerenciam a troca de mensagens SOAP e acessar os serviços fornecidos pelos protocolos subjacentes por meio de uma ou mais ligações SOAP é conhecido como",
+   "gabarito": "b",
+   "alternativas": [
+    "módulo SOAP.",
+    "nó SOAP.",
+    "função SOAP.",
+    "aplicativo SOAP.",
+    "recurso SOAP."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-037",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A ferramenta de controle de versão Subversion (SVN)",
+   "gabarito": "b",
+   "alternativas": [
+    "é considerada um sistema peer-to-peer e, embora seja uma ferramenta proprietária que requer aquisição de licença para uso, pode rodar (executar) usando o servidor Apache.",
+    "suporta commits atômicos, sem deixar inconsistências, mesmo diante de problemas que ocorrem na rede ou no servidor.",
+    "tem como principal desvantagem o fato de não permitir as operações file-lock ou checkout reservado.",
+    "fornece automaticamente uma camada extra de proteção a arquivos e pastas adicionais armazenados por ela, os quais, por isso, não podem ser corrompidos pelo usuário.",
+    "mantém um histórico detalhado de todos os arquivos removidos, com exceção daqueles que foram renomeados."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-038",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito dos bancos de dados transacionais (OLTP) e analíticos (OLAP), assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Devido às limitações relacionadas à capacidade de consolidar e analisar dados, os bancos de dados relacionais são considerados uma tecnologia ultrapassada e inapropriada para aplicações OLAP.",
+    "Nos sistemas OLTP, para que as operações sejam executadas com precisão e eficiência, o repositório de dados do banco de dados transacional deve conter somente dados não normalizados.",
+    "Ao contrário das aplicações OLTP usuais, que trabalham com dados atuais, as aplicações OLAP operam com dados históricos.",
+    "Esquemas lógicos do banco de dados não podem ser mapeados por OLAP, já que esse tipo de ferramenta exige que o usuário tenha privilégio de leitura nos objetos de banco de dados.",
+    "No banco de dados OLAP, uma estrutura em estrela é constituída por uma única dimensão, a qual é representada por um conjunto de no mínimo duas tabelas."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-039",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A partir do modelo entidade-relacionamento (MER) anterior, utilizado na modelagem de dados relacional, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "No modelo em questão, há a presença de dois relacionamentos: Tramitação e Responsável.",
+    "A entidade COMARCA é um exemplo de entidade fraca.",
+    "Número, Código e OAB são atributos multivalorados.",
+    "Um ADVOGADO é responsável por no máximo um PROCESSO, pois contém a cardinalidade (0,1).",
+    "Um PROCESSO pode tramitar em nenhuma ou em várias COMARCAS, já que apresenta cardinalidade (0,n)."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-040",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Processo (codprocesso, autor, reu, dataultimamovimentacao, assunto, codjuiz) Juiz (codjuiz, nome) Considerando as tabelas anteriores, de um banco de dados relacional, assinale a opção cuja consulta em SQL mostra os nomes dos juízes para os quais não há processos distribuídos (relacionados).",
+   "gabarito": "c",
+   "alternativas": [
+    "SELECT J.nome FROM Juiz AS J WHERE J.nome NOT IN (SELECT P.codjuiz FROM Processo AS P);",
+    "SELECT J.nome FROM Juiz AS J, Processo AS P WHERE J.codjuiz inner join P.codjuiz;",
+    "SELECT J.nome FROM Juiz AS J WHERE J.codjuiz NOT IN (SELECT P.codjuiz FROM Processo AS P);",
+    "SELECT J.nome FROM Juiz AS J WHERE J.codjuiz LIKE (SELECT P.codjuiz FROM Processo AS P);",
+    "SELECT J.nome FROM Juiz AS J, Processo AS P WHERE J.nome NOT EXISTS (P.codjuiz);"
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-041",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que apresenta o nome do arquivo utilizado no sistema gerenciador de banco de dados Oracle para armazenar os nomes de serviço de rede, de modo que a aplicação (cliente) consiga se conectar ao servidor Oracle, e permitir também a adição de strings de conexão, manualmente, pelo cliente.",
+   "gabarito": "e",
+   "alternativas": [
+    "oratab",
+    "spfile.ora",
+    "listener.ora",
+    ".bashprofile",
+    "tnsnames.ora"
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-042",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação à manutenção em interface, denominada na literatura de manutenção cosmética, e à definição de métricas para seu dimensionamento contempladas no roteiro de métricas de software do SISP, versão 2.0, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "As demandas de manutenção em interface devem ser dimensionadas por meio da fórmula PFINTERFACE = PFALTERADO x 0,30.",
+    "Uma simples alteração de título de um relatório não se enquadra na categoria de manutenção em interface.",
+    "As demandas de atualização de aplicações web para executar em novas versões de um mesmo browser encontram-se na categoria de manutenção em interface.",
+    "Caso exista, o documento de requisitos das funcionalidades da aplicação alteradas pelas demandas da manutenção em interface deve ser atualizado.",
+    "A aferição do tamanho em pontos de função das funções transacionais impactadas será realizada com a aplicação de um fator de redução (30% da contagem de uma função transacional de mais alta complexidade) multiplicado pela quantidade das funções de dados."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-043",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Quanto aos níveis de capacidade de processo do COBIT 2019, o processo atinge sua finalidade de uma maneira mais organizada utilizando ativos organizacionais no",
+   "gabarito": "d",
+   "alternativas": [
+    "nível 0.",
+    "nível 1.",
+    "nível 2.",
+    "nível 3.",
+    "nível 4."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-044",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "According to the author of text 9A3-I, 2018’s most impactful legal technology was",
+   "gabarito": "e",
+   "alternativas": [
+    "higher salaries for judges.",
+    "digital calendars.",
+    "artificial intelligence.",
+    "malpractice for lawyers.",
+    "analytics."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-045",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "In the first sentence of text 9A3-I, the word “it” refers to",
+   "gabarito": "d",
+   "alternativas": [
+    "“judge”.",
+    "“media coverage”.",
+    "“artificial intelligence”.",
+    "“2018’s most important legal technology”.",
+    "“conference agendas”."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-046",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "In the first sentence of text 9A3-I, the word “judge” is synonymous with",
+   "gabarito": "c",
+   "alternativas": [
+    "court.",
+    "justice.",
+    "consider.",
+    "examiner.",
+    "try."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-047",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "The author of text 9A3-I mentions conference agendas and media coverage in order to",
+   "gabarito": "a",
+   "alternativas": [
+    "demonstrate that their focus did not reflect the most impactful trend in the field of legal technology in 2018.",
+    "show that they focused suficient attention on analytics in the field of legal technology in 2018.",
+    "suggest that conferences related to legal technology should not be venues for discussions about analytics.",
+    "demonstrate that these events and institutions establish priorities for the field of legal technology.",
+    "advertise future events of interst in the field of legal technology."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-048",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O entendimento de que o ato administrativo é considerado válido até que se prove em contrário corresponde ao atributo da",
+   "gabarito": "a",
+   "alternativas": [
+    "presunção de legitimidade.",
+    "tipicidade.",
+    "exigibilidade.",
+    "imperatividade.",
+    "autoexecutoriedade."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-049",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando o disposto na Lei n.º 8.666/1993 (Lei de Licitações e Contratos), julgue os seguintes itens. I Embora tenha sido editada pela União, a Lei de Licitações e Contratos é considerada lei nacional, aplicando-se a todos os Poderes da União, dos estados, do Distrito Federal e dos municípios. II Quando a administração pública efetua compra de um produto não comum cujo valor é superior a um milhão, quatrocentos e trinta mil reais, deve-se utilizar a modalidade de licitação concorrência. III No caso de aquisição de material que só possa ser fornecido por empresa exclusiva, a administração pública deverá realizar contratação direta mediante dispensa de licitação. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-050",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Suponha que Ana, servidora do Tribunal de Justiça, agindo no exercício de suas funções administrativas, tenha causado dano a João. Nessa situação hipotética, caso João pretenda ajuizar ação judicial requerendo indenização em face do Estado, a responsabilidade civil",
+   "gabarito": "c",
+   "alternativas": [
+    "será subjetiva, por meio de ação de regresso.",
+    "não será possível, porque o Estado não responde pelos atos de seus agentes, devendo João ajuizar ação diretamente contra Ana.",
+    "será objetiva, independentemente de dolo ou culpa.",
+    "será subsidiária, se comprovado dolo ou culpa.",
+    "não será possível, porque o Brasil adota a teoria da irresponsabilidade estatal."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-051",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Sistema de Registro de Preços poderá ser adotado nos casos em que",
+   "gabarito": "e",
+   "alternativas": [
+    "houver necessidade de aquisição de bens com uma única entrega.",
+    "houver quantitativo exato do produto demandado pela administração.",
+    "a aquisição de bens vier a atender exclusivamente um órgão público.",
+    "a aquisição de bens vier a atender mais de um programa de governo, podendo ser acrescida a quantidade prevista na ata de registro de preços.",
+    "houver necessidade de contratações frequentes, em razão das características do serviço."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-052",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "É considerado direito social previsto na Constituição Federal de 1988",
+   "gabarito": "c",
+   "alternativas": [
+    "o salário-família pago em razão do dependente do trabalhador, independentemente da renda auferida.",
+    "o décimo terceiro salário com base no salário básico.",
+    "a assistência aos desamparados, na forma da Constituição.",
+    "o salário mínimo, sendo permitida sua vinculação para qualquer fim.",
+    "o seguro-desemprego, em caso de desemprego voluntário ou involuntário."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-053",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme a Constituição Federal de 1988, as pessoas",
+   "gabarito": "a",
+   "alternativas": [
+    "estão autorizadas a fazer tudo desde que a lei não proíba.",
+    "estão, em princípio, proibidas a fazer tudo, podendo um decreto regulamentar presidencial permitir a atuação individual.",
+    "só estão autorizadas a fazer aquilo que está previsto em lei.",
+    "só podem fazer algo quando ato normativo legal ou infralegal expressamente permitir.",
+    "não podem ser obrigadas a fazer ou deixar de fazer algo senão em virtude de ato normativo legal ou infralegal."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-054",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ao Conselho Nacional de Justiça compete apreciar, de ofício ou mediante provocação,",
+   "gabarito": "e",
+   "alternativas": [
+    "o mérito dos atos administrativos praticados por membros do Poder Judiciário.",
+    "o mérito dos atos administrativos praticados por servidores ou membros do Poder Judiciário.",
+    "a legalidade dos atos administrativos praticados por servidores do Poder Judiciário.",
+    "a legalidade e o mérito dos atos administrativos praticados por servidores ou membros do Poder Judiciário.",
+    "a legalidade dos atos administrativos praticados por membros do Poder Judiciário."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-055",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Maria, que possui emprego público privativo de profissionais de saúde em empresa pública estadual, foi aprovada em outro concurso público para cargo público federal privativo de profissionais de saúde. Nessa situação hipotética, Maria",
+   "gabarito": "e",
+   "alternativas": [
+    "não poderá acumular as funções, porque uma é estadual e a outra é federal.",
+    "poderá assumir o cargo e acumular as duas funções públicas, não se aplicando a esse caso o teto remuneratório da administração pública.",
+    "não poderá acumular as funções, porque apenas um dos vínculos é oriundo do regime estatutário.",
+    "não poderá acumular as funções, porque não há previsão constitucional expressa que permita cumulações de funções públicas remuneradas.",
+    "poderá assumir o cargo e acumular as duas funções públicas, se os horários forem compatíveis e as profissões forem regulamentadas."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-056",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com as resoluções do CNJ,",
+   "gabarito": "b",
+   "alternativas": [
+    "no caso de emissão de certidão judicial, a ausência de alguns dos dados impede a expedição da certidão negativa, ainda que não haja dúvida quanto à identificação física da pessoa.",
+    "o modelo de requisitos para sistemas informatizados de gestão de processos e documentos do Poder Judiciário brasileiro, no que concerne à segurança, é requisito imprescindível para garantir a origem e a integridade dos documentos com assinatura digital.",
+    "a gestão da segurança da informação somente pode ser objeto de contratação caso a empresa contratada que provê a solução de TIC não seja a mesma que avalia ou fiscaliza o objeto da contratação.",
+    "os planos estratégicos dos órgãos do Poder Judiciário devem ser alinhados à Estratégia Judiciário e ter abrangência máxima de seis anos.",
+    "a administração do sistema Processo Judicial Eletrônico cabe exclusivamente ao CNJ, garantida a participação de representantes dos tribunais superiores, cujas atribuições serão definidas por ato do presidente do CNJ."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-057",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Resolução n.º 211/2015 do CNJ trata sobre a estratégia nacional de tecnologia da informação e comunicação (TIC) do Poder Judiciário. De acordo com essa resolução,",
+   "gabarito": "e",
+   "alternativas": [
+    "cabe exclusivamente à área de TIC estabelecer estratégias, indicadores e metas institucionais, bem como pela orientação das iniciativas e dos investimentos tecnológicos no âmbito institucional.",
+    "cabe ao CNJ classificar os sistemas de informação de cada órgão, identificando os que são estratégicos por meio de inspeção ou a pedido do órgão.",
+    "é vedada a participação de magistrados no comitê de governança de TIC.",
+    "o comitê de governança de TIC é responsável pela elaboração de planos táticos e a área de TIC os planos operacionais e pelo estabelecimento de indicadores operacionais do órgão.",
+    "cada órgão deverá elaborar o plano estratégico de TIC e o plano diretor de TIC, em harmonia com as diretrizes estratégicas institucionais e nacionais."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-058",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Resolução n.º 192/2014 do CNJ descreve a Política Nacional de Formação e Aperfeiçoamento dos Servidores do Poder Judiciário. Segundo essa resolução,",
+   "gabarito": "d",
+   "alternativas": [
+    "as ações de formação e aperfeiçoamento deverão ser oferecidas, preferencialmente, fora da jornada de trabalho do servidor, de modo a não atrapalhar o andamento do setor ou área no qual ele esteja lotado.",
+    "ainda que a ação de formação e aperfeiçoamento tenha carga horária inferior à jornada diária, o servidor não necessita cumprir as horas faltantes.",
+    "as horas da ação de formação e aperfeiçoamento que excederem a jornada diária deverão ser compensadas como horas extraordinárias e pagas em pecúnia ou inseridas em bancos de horas.",
+    "a frequência em eventos presenciais de capacitação oferecidos pelo órgão será computada como hora trabalhada, exceto as horas de estudo realizadas pelo servidor fora das dependências do Poder Judiciário, na metodologia à distância.",
+    "os servidores inscritos em ações de educação a distância oferecidas pelo órgão podem dedicar até duas horas diárias de trabalho para participação nas atividades, desde que seja de interesse da administração."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-059",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a Instrução Normativa n.º 01/2019 do Ministério da Economia, na fase de planejamento da contratação, é obrigatório",
+   "gabarito": "a",
+   "alternativas": [
+    "elaborar o termo de referência, inclusive nos casos de inexigibilidade ou dispensa de licitação.",
+    "prever em edital a remuneração média dos funcionários da contratada.",
+    "prever reembolso de despesas com transporte e hospedagem, desde que afetos ao objeto da contratação e justificados pela contratada.",
+    "prever em edital exigência que os fornecedores apresentem, em seus quadros, funcionários certificados para o fornecimento da solução, antes da contratação.",
+    "adotar a métrica homem-hora nos casos de contratação de serviços de desenvolvimento de software."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-tjrj-analista-sistemas-060",
+   "prova": 13,
+   "orgao": 0,
+   "cargo": 13,
    "ano": 2020,
    "assunto": 1,
    "tipo": "multipla_escolha",
