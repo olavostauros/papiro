@@ -1,0 +1,3394 @@
+{
+ "evento": "PREF_ARACAJU_SE_20_AUDITOR",
+ "banca": "Cebraspe",
+ "orgaos": [
+  "Prefeitura de Aracaju"
+ ],
+ "cargos": [
+  "Auditor de Tributos Municipais – Especialidade: Abrangência Geral",
+  "Auditor de Tributos Municipais – Especialidade: Tecnologia da Informação"
+ ],
+ "assuntos": [
+  "Conhecimentos Específicos",
+  "Conhecimentos Básicos"
+ ],
+ "provas": [
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/PREF_ARACAJU_SE_20_AUDITOR/arquivos/552_PREFEITURA_DE_ARACAJU_AUDITOR_001_01.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/PREF_ARACAJU_SE_20_AUDITOR/arquivos/552_PREFEITURA_DE_ARACAJU_AUDITOR_002_01.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/PREF_ARACAJU_SE_20_AUDITOR/arquivos/552_PREFEITURA_DE_ARACAJU_AUDITOR_CB1_01.PDF"
+  }
+ ],
+ "itens": [
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-041",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito da receita pública municipal, julgue os itens a seguir. I As receitas provenientes de caução dada em garantia no bojo de contrato administrativo são receitas extraorçamentárias que poderão converter-se em receitas orçamentárias. II Receita tributária municipal é toda fonte de renda que deriva da arrecadação estatal de tributos, dos quais são espécies os impostos municipais — entre os quais, o imposto sobre transmissão causa mortis e doações (ITCMD) —, as taxas — como a taxa de licença de funcionamento (TLF), por exemplo —, as contribuições de melhoria, os empréstimos compulsórios e as contribuições especiais — como, por exemplo, a contribuição para o custeio da iluminação pública. III A realização da receita pública passa pelos estágios de previsão, lançamento, arrecadação e recolhimento. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-042",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que diz respeito ao sistema de orçamentação pública do Brasil, julgue os itens que se seguem. I O plano plurianual é o documento que define as prioridades do governo para o período de cinco anos, podendo ser revisado a cada ano. II A lei de diretrizes orçamentárias (LDO) estabelece as metas e prioridades para o ano seguinte, fixando o montante de recursos que o governo pretende economizar, dispondo regras, vedações e limites para as despesas dos Poderes, autorizando o aumento das despesas com pessoal, regulamentando as transferências a entes públicos e privados, disciplinando o equilíbrio entre as receitas e as despesas e indicando prioridades para os financiamentos pelos bancos públicos. III Os créditos adicionais suplementares, extraordinários e especiais são destinados a reforçar os créditos orçamentários ordinários existentes para os quais haja dotações específicas. Assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-044",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Determinada prefeitura municipal autorizou, no mês de janeiro de 2020, a contratação de empresa para a execução de serviços de conservação e manutenção do hospital municipal, pelo valor estimado de R$ 208.000. Conforme a classificação orçamentária prevista na Lei n.º 4.320/1964 e suas alterações, a referida despesa enquadra-se em",
+   "gabarito": "a",
+   "alternativas": [
+    "outras despesas correntes.",
+    "amortização da dívida.",
+    "pessoal e encargos sociais.",
+    "investimentos.",
+    "inversões financeiras."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-047",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta, acerca do tratamento contábil para os estoques.",
+   "gabarito": "a",
+   "alternativas": [
+    "Deverão ser contabilizados como custo dos estoques de mercadorias para revenda o preço líquido do item, os impostos de importação e demais tributos (exceto aqueles recuperáveis junto ao fisco), os custos de transporte e de seguro, bem como os gastos com carga e descarga da mercadoria adquirida.",
+    "Os custos de transformação de estoques incluem os valores diretamente e indiretamente relacionados com as unidades produzidas ou com as linhas de produção, mas não englobam os valores aplicados em mão de obra direta.",
+    "Uma empresa poderá possuir filiais em localizações geográficas distintas, sendo a diferença de localização geográfica, por si só, suficiente para justificar a adoção de critérios de valoração de estoques distintos em cada uma das unidades.",
+    "O valor anormal de desperdício de materiais ou outros insumos de produção será contabilizado como custo de estoque, bem como os gastos com armazenamento que sejam necessários ao processo produtivo entre uma e outra fase de produção.",
+    "O acréscimo no preço oriundo da diferença entre o valor pago a prazo na compra de mercadorias e o valor que seria pago no caso de compra à vista em condição normal de pagamento deve ser reconhecido como custo do estoque ao longo do período acordado entre as partes."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-048",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da redução ao valor recuperável de ativos, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Enquanto a empresa não estiver incorrendo em saídas de caixa que melhorem o desempenho do ativo, as estimativas de fluxos de caixa futuros devem incluir as entradas futuras estimadas de caixa que possam advir do aumento de benefícios econômicos associados com as saídas de caixa.",
+    "Para mensurar o valor em uso de um ativo, a empresa deverá fundamentar as projeções de fluxo de caixa em premissas razoáveis e fundamentadas que representem a melhor estimativa, por parte da administração e do conjunto de condições econômicas que existirão ao longo da vida útil remanescente do ativo.",
+    "As estimativas de fluxos de caixa futuros devem incluir as entradas ou saídas de caixa provenientes de atividades de financiamento, bem como os recebimentos ou pagamentos de tributos sobre a renda.",
+    "Os fluxos de caixa futuros dos ativos são estimados na moeda em que eles são gerados, mesmo estrangeira, e, em seguida, descontados, usando-se a taxa de câmbio à vista na data da aquisição do ativo.",
+    "A perda apurada por desvalorização de ativo reavaliado deve ser reconhecida na demonstração do resultado do exercício em que ocorreu a reavaliação do ativo, na extensão em que a perda por desvalorização não exceder o saldo da reavaliação reconhecida para o mesmo ativo."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-049",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base no conjunto de contas apresentado no texto 1A2-I, é correto afirmar que, no ano de 2019,",
+   "gabarito": "d",
+   "alternativas": [
+    "o pagamento de salários correspondeu a R$ 300.",
+    "o recebimento de clientes correspondeu a R$ 30.000.",
+    "o pagamento de água correspondeu a R$ 1.400.",
+    "o pagamento a fornecedores correspondeu a R$ 10.300.",
+    "o pagamento de energia elétrica correspondeu a R$ 4.200."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-050",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando ainda o conjunto de contas apresentado no texto 1A2-I, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Caso tivesse sido registrada a participação em sociedade coligada no valor de R$ 15.000 em 2018, com pagamento previsto para janeiro de 2019, o ativo circulante de 2018 teria sido de R$ 16.800.",
+    "Caso tivesse sido registrado aumento de receita antecipada em 2019 no valor de R$ 690, o passivo circulante teria aumentado, em 2019, para R$ 8.190.",
+    "Caso tivesse sido considerada despesa de manutenção em 2018 no valor de R$ 500, o valor do patrimônio líquido de 2019 teria sido igual a R$ 66.900.",
+    "Caso tivesse sido registrada a despesa de depreciação, em 2018 e em 2019, no valor de R$ 400 em cada ano, o valor do ativo não circulante de 2019 teria sido de R$ 42.500.",
+    "Caso a entidade tivesse contabilizado o contrato e o pagamento de despesa antecipada de seguros, em 31/12/2018, no valor de R$ 450, o total do ativo circulante, em 2018, teria sido de R$ 32.250."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-051",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca dos instrumentos financeiros, seu reconhecimento, sua mensuração, seu registro e sua evidenciação, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Para ativos e passivos que sejam protegidos em conjunto como grupo no hedge de valor justo, o ganho ou a perda no balanço patrimonial em ativos e passivos individuais devem ser reconhecidos como ajuste ao valor contábil do grupo de itens.",
+    "Caso a empresa descontinue a mensuração do instrumento financeiro, que dá origem ao risco de crédito, ao valor justo por meio do resultado, o valor justo desse instrumento financeiro, na data da descontinuação, tornar-se-á seu novo valor contábil.",
+    "As perdas de crédito esperadas devem ser reconhecidas no caso de existência de evidência do ativo financeiro que apresenta problemas de recuperação de crédito somente na data do relatório contábil.",
+    "Para atender ao objetivo de reconhecer perdas de crédito esperadas para aumentos significativos em risco de crédito desde o reconhecimento inicial, somente serão permitidas as avaliações individuais de aumentos significativos de risco de crédito.",
+    "Para ser designado como item protegido, o componente de risco deve ser um componente conjunto ao item financeiro, e as alterações, nos fluxos de caixa, podem ser estimadas com base em situações semelhantes."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-052",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da elaboração e da divulgação da demonstração do valor adicionado (DVA), assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Os ajustes de exercícios anteriores decorrentes de mudança de critérios contábeis devem ser adaptados na DVA relativa ao período mais antigo apresentado, para fins de comparação.",
+    "Os resultados da empresa serão afetados sempre que houver a realização dos respectivos ativos reavaliados ou avaliados ao valor justo, todavia, quando a realização de determinado ativo ocorrer pelo processo normal de depreciação, a DVA não será afetada.",
+    "A construção de ativos dentro da própria empresa, para seu próprio uso, será evidenciada na DVA como investimento, uma vez que constitui alocação de custos para a geração de benefícios futuros.",
+    "A empresa poderá, dentro dos limites legais, distribuir seus lucros acumulados, sejam eles oriundos do próprio exercício ou de exercícios anteriores, e evidenciará ambas as situações no ano em que a distribuição ocorrer, independentemente do ano de geração do lucro.",
+    "No caso da substituição tributária regressiva e respectivo direito ao crédito pela empresa vendedora nas operações seguintes, o valor do tributo recolhido será tratado como tributos a recuperar na DVA, e o valor divulgado será a diferença entre o valor a recuperar e o valor a recolher do mesmo tributo."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-053",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da mensuração a valor justo, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Caso não exista mercado observável para fornecer informações de preços em relação à transferência de um passivo, poderá haver mercado observável para esses itens se eles forem mantidos por outras partes como ativos.",
+    "O emitente de um passivo emitido para um instrumento de melhoria de crédito de terceiros indissociável que seja contabilizado separadamente do passivo deverá incluir o efeito da melhoria de crédito na mensuração do valor justo do passivo.",
+    "Quando o ativo é adquirido ou o passivo é assumido em transação de troca para esse ativo ou passivo, o preço da transação corresponderá ao preço pago para adquirir o ativo ou ao recebido para assumir o passivo, e não poderá ser denominado valor justo.",
+    "Premissas sobre risco incluem o risco inerente a uma técnica de avaliação específica utilizada para mensurar o valor justo, mas não contemplam o risco inerente às informações utilizadas na técnica de avaliação escolhida.",
+    "Havendo diferentes níveis da hierarquia de valor justo, a mensuração do valor justo será integralmente no mesmo nível da hierarquia de valor justo que a informação de nível mais alto, ainda que esta não seja significativa para a mensuração como um todo."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-054",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sob a perspectiva da arrendadora, os arrendamentos são classificados em financeiros ou operacionais. Para essa classificação, deve-se levar em consideração a essência da transação. De acordo com essas informações e com o que disciplina o Comitê de Pronunciamentos Contábeis (CPC), assinale a opção que apresenta uma situação que indica a classificação do arrendamento como operacional.",
+   "gabarito": "c",
+   "alternativas": [
+    "O prazo do arrendamento equivale à maior parte da vida econômica do ativo subjacente, cuja transferência de propriedade para o arrendatário não está prevista no contrato de arrendamento.",
+    "O valor presente das contraprestações do arrendamento é substancialmente equivalente à totalidade do valor justo do ativo subjacente na data da contratação.",
+    "Ao final do arrendamento, a propriedade do ativo subjacente será transferida para o arrendatário mediante o direito de recebimento, pelo arrendador, do valor justo que o referido ativo venha a apresentar na ocasião.",
+    "O arrendamento contempla a transferência da propriedade do ativo ao arrendatário ao final do prazo da operação, sem que sejam exigidos recursos financeiros adicionais do arrendatário para arcar com a transferência.",
+    "Uma opção de compra em favor do arrendatário lhe permite adquirir a propriedade do ativo subjacente a um preço suficientemente mais baixo do que o valor justo do referido ativo na data em que a opção vier a se tornar exercível, de modo que seja razoavelmente certo o exercício da opção."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-055",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o pronunciamento técnico do Comitê de Pronunciamentos Contábeis (CPC) que trata da combinação de negócios, o ágio por expectativa de rentabilidade futura (goodwill) deve ser reconhecido pelo adquirente do negócio, em uma transação não forçada, como",
+   "gabarito": "a",
+   "alternativas": [
+    "ativo.",
+    "passivo.",
+    "despesa.",
+    "patrimônio líquido.",
+    "receita."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-056",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ao mudar voluntariamente uma política contábil que vem sendo utilizada em relação aos seus estoques, uma companhia aberta deve aplicá-la",
+   "gabarito": "b",
+   "alternativas": [
+    "de forma prospectiva.",
+    "de forma retrospectiva, a partir do período mais antigo para o qual seja praticável a aplicação retrospectiva.",
+    "exclusivamente em relação às transações que difiram, em essência, daquelas que ocorriam anteriormente.",
+    "de acordo com as disposições transitórias específicas do pronunciamento, da interpretação ou da orientação que disciplinar a mudança.",
+    "exclusivamente em relação ao exercício social corrente, mesmo quando a aplicação retrospectiva for praticável."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-057",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando que determinada revista especializada em esportes receba uma quantia em dinheiro de seus clientes pela venda de assinaturas pelos próximos três anos, assinale a opção que apresenta o registro contábil a ser feito pela revista no momento da venda das referidas assinaturas.",
+   "gabarito": "e",
+   "alternativas": [
+    "débito de uma conta de patrimônio líquido e crédito de caixa",
+    "débito de caixa e crédito de uma conta de receita",
+    "débito de uma conta de receita antecipada e crédito de caixa",
+    "débito de caixa e crédito de uma conta de resultados de exercícios futuros",
+    "débito de caixa e crédito de uma conta de passivo"
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-058",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A conversão de debêntures em ações pode implicar, para a empresa emissora desses papéis, o efeito imediato de",
+   "gabarito": "d",
+   "alternativas": [
+    "aumento da relação entre capital de terceiros e capital próprio.",
+    "redução do índice de liquidez geral.",
+    "redução da participação do capital próprio sobre os recursos totais.",
+    "aumento das reservas de capital.",
+    "aumento das reservas de lucro."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-059",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Uma empresa industrial fabrica e vende um único produto. Em 2019, os custos e outros dados operacionais relacionados ao referido produto foram os seguintes. preço unitário de venda R$ 60 custos de fabricação variáveis (por unidade produzida) materiais diretos R$ 12 mão de obra direta R$ 7 indiretos variáveis R$ 2 fixos (por ano) R$ 120.000 despesas de vendas e despesas administrativas variáveis (por unidade vendida) R$ 7 fixas (por ano) R$ 80.000 Os dados referentes à movimentação dos estoques estão apresentados a seguir. unidades no estoque inicial zero unidades produzidas no ano 10.000 unidades vendidas no ano 7.000 unidades no estoque final 3.000 A partir dos dados precedentes, assinale a opção que apresenta os valores que correspondem ao custo unitário de fabricação do produto, em 2019, calculado pelo método de custeio por absorção e pelo método de custeio variável, respectivamente.",
+   "gabarito": "d",
+   "alternativas": [
+    "R$ 21 e R$ 33",
+    "R$ 48 e R$ 28",
+    "R$ 28 e R$ 48",
+    "R$ 33 e R$ 21",
+    "R$ 33 e R$ 19"
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-060",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Uma das condições para uma empresa investidora ser considerada controladora de uma empresa investida e, portanto, estar sujeita à elaboração de demonstrações contábeis consolidadas é a capacidade de essa investidora exercer poder sobre a investida. De acordo com o pronunciamento técnico do Comitê de Pronunciamento Contábeis (CPC) que trata de demonstrações consolidadas, o poder da investidora sobre a investida, como um requisito para a análise de uma eventual existência de controle, estará presente sempre que a investidora",
+   "gabarito": "e",
+   "alternativas": [
+    "exercer influência significativa sobre a investida.",
+    "detiver direitos de proteção em relação à investida.",
+    "detiver direitos que lhe garantam participar ativamente das assembleias-gerais de acionistas.",
+    "detiver direitos que lhe garantam a maioria do capital total da investida.",
+    "detiver direitos que lhe garantam a capacidade de dirigir as atividades relevantes da investida. INFORMÁTICA / ANÁLISE DE INFORMAÇÃO"
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-061",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Para efeito do disposto na Lei n.º 12.527/2011, a autenticidade é a qualidade da informação",
+   "gabarito": "d",
+   "alternativas": [
+    "conhecida e utilizada por indivíduos, equipamentos ou sistemas autorizados.",
+    "não modificada, inclusive quanto à origem, trânsito e destino.",
+    "utilizada para a produção e a transmissão de conhecimento, contidos em qualquer meio, suporte ou formato.",
+    "produzida, expedida, recebida ou modificada por determinado indivíduo, equipamento ou sistema.",
+    "coletada na fonte, com o máximo de detalhamento possível, sem modificações."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-062",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em decorrência do princípio de primariedade dos dados abertos governamentais, tais dados devem ser",
+   "gabarito": "a",
+   "alternativas": [
+    "publicados na forma coletada na fonte, com a mais fina granularidade possível, e não de forma agregada ou transformada.",
+    "disponibilizados para o público mais amplo possível e para os propósitos mais variados possíveis.",
+    "razoavelmente estruturados para possibilitar o seu processamento automatizado.",
+    "disponibilizados o quão rapidamente seja necessário para preservar o seu valor.",
+    "disponibilizados em um formato cujo controle não seja exclusivo de nenhum ente."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-063",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O modelo entidade-relacionamento não permite estabelecer relacionamentos entre relacionamentos, apenas entre entidades. Para atender a situações em que seja necessário associar uma entidade com a ocorrência de um relacionamento, utiliza-se",
+   "gabarito": "e",
+   "alternativas": [
+    "dado temporal.",
+    "atributo multivalorado.",
+    "tabela especializada.",
+    "cardinalidade 1:N.",
+    "entidade associativa."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-064",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A metodologia de modelagem dimensional em que uma tabela fato está a pelo menos duas tabelas de dimensão é denominada",
+   "gabarito": "b",
+   "alternativas": [
+    "snowflake.",
+    "star schema.",
+    "smallgrain.",
+    "metric scale.",
+    "surrogate key."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-065",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em um projeto de data mining, a coleta do dado que será garimpado ocorre no processo de",
+   "gabarito": "a",
+   "alternativas": [
+    "preparação.",
+    "mineração.",
+    "aplicação.",
+    "associação.",
+    "classificação."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-066",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Na normalização de tabelas, ao eliminar as dependências transitivas, chega-se à",
+   "gabarito": "d",
+   "alternativas": [
+    "primeira forma normal (1FN).",
+    "quinta forma normal (5FN).",
+    "segunda forma normal (2FN).",
+    "terceira forma normal (3FN).",
+    "quarta forma normal (4FN)."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-067",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o modelo CRSP-DM, a seleção das técnicas que serão aplicadas nos dados selecionados ocorre na fase de",
+   "gabarito": "a",
+   "alternativas": [
+    "modelagem.",
+    "entendimento dos dados.",
+    "entendimento do negócio.",
+    "avaliação.",
+    "preparação dos dados."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-068",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O enriquecimento de dados da etapa de pré-processamento e preparação do data mining tem como objetivo",
+   "gabarito": "e",
+   "alternativas": [
+    "a deduplicidade de registros.",
+    "a integração de bases diferentes.",
+    "o tratamento de valores nulos.",
+    "a seleção de amostras.",
+    "o acréscimo de dados à base já existente."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-069",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em um banco de dados relacional, a condição que garante que valores não possam se repetir dentro da mesma coluna denomina-se",
+   "gabarito": "b",
+   "alternativas": [
+    "foreign key.",
+    "cláusula unique.",
+    "domain restriction.",
+    "índice cluster.",
+    "reference key."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-070",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Big data ajudou a sedimentar o cargo de cientista de dados. Entre as funções desse cargo inclui-se",
+   "gabarito": "b",
+   "alternativas": [
+    "a modelagem estruturada.",
+    "a modelagem não estruturada.",
+    "a análise retrospectiva.",
+    "a modelagem relacional.",
+    "o processamento comparativo. DIREITO CIVIL E DIREITO EMPRESARIAL"
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-071",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o Código Civil, o negócio jurídico será considerado nulo caso",
+   "gabarito": "a",
+   "alternativas": [
+    "deixe de ser revestido pela forma prescrita em lei.",
+    "seja praticado por um devedor já insolvente.",
+    "seja realizado por uma pessoa que, premida da necessidade de se salvar, assuma obrigação excessivamente onerosa.",
+    "decorra de dolo de terceiro, desde que a parte que se beneficie dele tenha conhecimento do vício do ato.",
+    "a declaração de vontade de alguma das partes emane de erro substancial."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-072",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A fim de ajudar seu filho Gabriel, Pedro o substituiu em uma dívida, com o consentimento do credor. Novo título foi emitido. Nessa situação hipotética, ocorreu",
+   "gabarito": "e",
+   "alternativas": [
+    "a substituição do devedor com sub-rogação.",
+    "a cessão de direito do credor.",
+    "a remissão de dívida.",
+    "a imputação de pagamento para terceiro.",
+    "a novação da obrigação contraída originalmente."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-073",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o Código Civil, os bens que, não constituindo partes integrantes, se destinem, de modo duradouro, ao uso de outro são",
+   "gabarito": "b",
+   "alternativas": [
+    "imóveis, para os efeitos legais.",
+    "pertenças.",
+    "não fungíveis.",
+    "singulares.",
+    "acessórios."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-075",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Pessoa jurídica de direito privado que visa obter lucro com a prestação de serviços técnicos pelos seus próprios sócios possui natureza de",
+   "gabarito": "e",
+   "alternativas": [
+    "sociedade comum.",
+    "sociedade em nome coletivo.",
+    "sociedade limitada.",
+    "sociedade empresária.",
+    "sociedade simples."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-076",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a Constituição Federal de 1988, o princípio da anterioridade nonagesimal é excepcionado quanto",
+   "gabarito": "d",
+   "alternativas": [
+    "ao imposto sobre produtos industrializados (IPI).",
+    "à contribuição de intervenção no domínio econômico referente a combustível.",
+    "ao imposto sobre circulação de mercadoria e serviços (ICMS) incidente sobre combustível.",
+    "à alteração da base de cálculo do imposto de renda (IR).",
+    "à alteração do fato gerador do imposto sobre a propriedade predial e territorial urbana (IPTU)."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-077",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O preço público tem como característica o fato de",
+   "gabarito": "c",
+   "alternativas": [
+    "submeter-se às limitações do poder de tributar.",
+    "ser utilizado para custear a iluminação pública.",
+    "ser uma prestação pecuniária facultativa.",
+    "decorrer de expressa previsão legal.",
+    "ser utilizado para custear poder de polícia."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-078",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Determinado município não instituiu a fiscalização nem a cobrança do imposto sobre a propriedade territorial rural (ITR). Com relação a essa situação hipotética, é correto afirmar que o referido município",
+   "gabarito": "e",
+   "alternativas": [
+    "não terá direito à repartição de receita referente ao ITR arrecadado.",
+    "poderá instituir a fiscalização, mas não a cobrança do ITR.",
+    "fará jus à metade do valor arrecadado se instituir a fiscalização e a cobrança do ITR.",
+    "poderá sofrer sanção de perda das transferências voluntárias, nos termos da Lei de Responsabilidade Fiscal.",
+    "poderá instituir a fiscalização e cobrança do ITR, apesar de não possuir competência tributária para tanto."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-079",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A competência tributária",
+   "gabarito": "d",
+   "alternativas": [
+    "é um conceito equivalente ao conceito de capacidade tributária ativa.",
+    "pode ser delegada aos municípios, como no caso do ITR.",
+    "impede a cobrança de contribuição de melhoria por dois entes federativos distintos.",
+    "da União pode, no caso dos territórios, abranger impostos estaduais ou municipais.",
+    "da União pode ser renunciada, como no caso da não instituição do imposto sobre grandes fortunas (IGF)."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-080",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O imposto sobre a transmissão de bens imóveis e de direitos a eles relativos (ITBI)",
+   "gabarito": "a",
+   "alternativas": [
+    "pode ter como sujeito passivo o adquirente ou o transmitente.",
+    "pode incidir no caso de usucapião.",
+    "pode incidir sobre ato gratuito de transmissão de propriedade.",
+    "tem como base de cálculo o valor da escritura do bem imóvel.",
+    "possui alíquotas progressivas, por se tratar de tributo pessoal."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-081",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Um município, para instituir o imposto sobre serviços (ISS), deve",
+   "gabarito": "d",
+   "alternativas": [
+    "limitar-se à lista de serviços existente em lei complementar federal, não dependendo da edição de lei ordinária municipal.",
+    "editar lei ordinária municipal, podendo criar outros serviços que não estejam contemplados na lei complementar federal.",
+    "editar lei complementar municipal, não podendo criar outros serviços que não estejam contemplados na lei complementar federal.",
+    "observar a lei complementar federal e instituir o imposto por lei ordinária municipal, não podendo criar novos serviços.",
+    "editar lei ordinária municipal, podendo criar outros serviços que não estejam contemplados na lei complementar federal."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-082",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No tocante ao imposto de exportação (IE), o regime de drawback consiste no ressarcimento do",
+   "gabarito": "b",
+   "alternativas": [
+    "imposto de importação (II) sobre os insumos devolvidos e distribuídos como brinde ou a título gratuito.",
+    "imposto de importação (II) sobre os insumos de origem estrangeira quando o produtor exportar o produto acabado.",
+    "ICMS sobre os insumos de origem estrangeira quando o produtor exportar o produto acabado.",
+    "próprio IE no caso de devolução de mercadorias por defeito.",
+    "ICMS sobre os insumos agregados ao produto destinado à exportação."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-083",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Participam da repartição tributária das receitas",
+   "gabarito": "e",
+   "alternativas": [
+    "o imposto de renda (IR) e o imposto sobre a propriedade predial e territorial urbana (IPTU).",
+    "o imposto sobre serviços (ISS) e o imposto de renda (IR).",
+    "o imposto de transmissão causa mortis e doação de quaisquer bens ou direitos (ITCMD) e o imposto sobre circulação de mercadoria e serviços (ICMS).",
+    "o imposto sobre a propriedade de veículos automotores (IPVA) e o imposto sobre grandes fortunas (IGF).",
+    "o imposto sobre circulação de mercadoria e serviços (ICMS) e os impostos residuais."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-084",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Determinado deputado estadual apresentou projeto de lei com as seguintes previsões para o ICMS incidente sobre serviços de transporte interestadual de passageiros: I alteração da alíquota do imposto, de 15% para 20%; II autorização para a correção monetária da base de cálculo do imposto; III redução, em 50%, da multa pelo não pagamento do imposto, se pagada em até 30 dias do cometimento da infração; IV autorização para o governador do estado, ouvido o secretário estadual de fazenda, conceder remissão do imposto para as empresas que realizem preponderantemente o transporte interestadual de idosos, bem como para dispor sobre obrigações acessórias para o cumprimento da obrigação de recolher o imposto. Considerando essa situação hipotética e as disposições do Código Tributário Nacional (CTN), assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Deputados estaduais possuem legitimidade para apresentar projeto de lei em matéria tributária, mas não para aumentar alíquota de imposto.",
+    "A legitimidade para dispor sobre sanção tributária em tributo estadual é exclusiva de governador de estado.",
+    "Lei formal é exigida para que ocorra a correção monetária do valor da base de cálculo do imposto.",
+    "Somente lei específica poderá conceder remissão tributária.",
+    "As obrigações acessórias, por envolverem obrigação de fazer ou não fazer, devem ser instituídas por lei formal."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-085",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Determinado contribuinte entrou com recurso contra notificação de lançamento recebida que lhe cobrava valores decorrentes da prestação de determinados serviços que haviam sido objeto de tratado internacional celebrado entre o Brasil e os Estados Unidos da América, o qual isentava o tributo no âmbito das partes celebrantes. Até pouco tempo atrás, as autoridades administrativas entendiam que as obrigações tributárias referentes às referidas operações estavam isentas, mas, com a mudança da titularidade do órgão de administração tributária, o entendimento foi modificado, seguindo-se a orientação de autuar e multar todos os contribuintes que não tinham recolhido o tributo sob o fundamento da vigência do referido tratado internacional, respeitando-se o prazo decadencial. Acerca dessa situação hipotética, assinale a opção correta, considerando a jurisprudência dos tribunais superiores e as disposições do CTN.",
+   "gabarito": "c",
+   "alternativas": [
+    "A atuação da administração tributária está correta, porque não há isenções heterônomas no atual sistema tributário nacional.",
+    "Como o tratado internacional, no caso, previu a não incidência do tributo municipal, não se aplica o preceito que veda a concessão de isenções heterônomas.",
+    "O contribuinte que obedeceu ao entendimento anteriormente vigente, ainda que este possa ser considerado ilegal quanto à isenção, não deve ser apenado com juros e multa.",
+    "As manifestações das autoridades fiscais na interpretação das normas tributárias, por serem declaratórias, alcançam fatos geradores passados, respeitado o prazo decadencial.",
+    "Os tratados internacionais de direito tributário apenas obrigam a União, não alcançando os entes tributantes subnacionais."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-086",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Miguel, menor de idade, e Lucas, maior de idade e capaz, são proprietários de veículos licenciados no município de Aracaju, desde 2010. Miguel possui cota ideal de 30%, e Lucas, de 70%. Os veículos, atualmente, prestam-se à realização de entregas em favor de uma empresa que funciona informalmente na produção de cerveja artesanal. Em novembro de 2019, durante fiscalização no referido estabelecimento comercial, o fisco constatou a existência de dívidas relativas ao imposto sobre a propriedade de veículos automotores (IPVA) desses veículos, desde o ano de 2013, e, por isso, Miguel e Lucas foram autuados pelas dívidas, tendo-lhes sido aplicados multa e juros pelo inadimplemento. Considerando essa situação hipotética, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Lucas é o único responsável tributário pela dívida, pois somente ele possui capacidade econômica decorrente do negócio informal.",
+    "Tanto Miguel quanto Lucas são responsáveis pela dívida, mas o fisco deve respeitar a proporcionalidade das frações ideais na cobrança, sem benefício de ordem.",
+    "Miguel e Lucas devem responder pela dívida integralmente, mas houve a decadência de parte da dívida, referente ao ano de 2013.",
+    "Embora a responsabilidade tributária seja exclusiva de Lucas, Miguel pode ser chamado a responder pela dívida.",
+    "Ainda que a responsabilidade tributária seja de ambos, a dívida é manifestamente indevida, haja vista a ocorrência da decadência do direito de efetuar o lançamento de todas as dívidas."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-087",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Lei estadual de 2010 estipulou que o ICMS incidente sobre os serviços de transporte intermunicipal e interestadual no âmbito do estado de Sergipe seria de 20% e que a multa pelo não recolhimento do imposto seria de 50%. Em 2013, a alíquota do ICMS foi reduzida para 17,5% e a multa pelo não recolhimento aumentou para 75%. Em 2015, nova lei reduziu mais uma vez a alíquota do ICMS, dessa vez para 15%, bem como reduziu a multa pelo não recolhimento do imposto para 50%. A partir das informações dessa situação hipotética, é correto afirmar que um contribuinte que, durante todo o período mencionado, não tenha pagado o imposto deverá",
+   "gabarito": "b",
+   "alternativas": [
+    "recolher o ICMS de acordo com as alíquotas de 20%, 17,5% e 15%, conforme os fatos geradores, e pagar a multa de acordo com o período de apuração — 50%, em 2010, 75%, em 2013, e 50% em 2015.",
+    "recolher o ICMS de acordo com as alíquotas de 20%, 17,5% e 15%, conforme os fatos geradores, e pagar a multa pelo menor percentual, independentemente do período de apuração.",
+    "recolher o ICMS de acordo com a maior alíquota e pagar a multa pelo menor percentual, independentemente do período de apuração.",
+    "recolher o ICMS pela menor alíquota (15%) e pagar a multa pelo menor valor (50%).",
+    "recolher o ICMS pela maior alíquota (20%) e pagar a multa pelo maior valor (75%)."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-088",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Determinada pessoa jurídica deve ISS referente ao mês de maio dos anos de 2014, 2015, 2016 e 2017. No dia 20 de maio de 2016, houve fiscalização no estabelecimento fiscal da empresa e ela foi autuada por todos os débitos então existentes, conforme lavratura de auto de infração. Dada a data da fiscalização, o débito de 2017 não foi incluído na autuação. Considerando essa situação hipotética, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Caso todos os créditos sejam constituídos e inscritos em dívida ativa tributária até 2020, será possível cobrar da pessoa jurídica a totalidade da dívida.",
+    "A fiscalização tributária retirou a possibilidade de denúncia espontânea do débito de 2017 pela pessoa jurídica.",
+    "O lançamento do débito de 2017 deve ser procedido de ofício pela fazenda pública.",
+    "O prazo decadencial da dívida referente aos anos de 2015 e 2016 iniciou-se, respectivamente, em 1.º de janeiro de 2016 e em 1.º de janeiro de 2017.",
+    "Após a autuação da pessoa jurídica, o fisco tem cinco anos para a cobrança da dívida, prazo esse que não pode ser suspenso ou interrompido."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-089",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Lei municipal determina que os corretores de imóveis e os oficiais de registro de imóveis comuniquem à fazenda pública, para efeito de fiscalização tributária, todas as operações de venda e compra de imóveis que intermedeiem ou registrem. A lei dispõe, ainda, que as informações podem ser compartilhadas com as fazendas públicas estaduais e federal e que é permitido o acesso forçado ao estabelecimento comercial caso o contribuinte resista à fiscalização no local. Conforme o CTN, é correto afirmar que essa lei municipal é",
+   "gabarito": "e",
+   "alternativas": [
+    "legal apenas quanto à disposição que permite o compartilhamento de dados entre as fazendas públicas municipal e estadual.",
+    "ilegal apenas quanto à previsão de autorizar o acesso forçado ao estabelecimento do contribuinte.",
+    "ilegal apenas quanto à obrigação de os corretores de imóveis divulgarem dados pessoais e sigilosos dos contribuintes.",
+    "ilegal em todas as suas disposições.",
+    "legal em todas as suas disposições."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-090",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em junho de 2014, foi ajuizada contra Hélio uma execução fiscal para a cobrança de créditos de IPTU relativos aos anos de 2008 a 2012. O lançamento dos créditos ocorreu em 2012. A inscrição do crédito em dívida ativa ocorreu em 2013. O juiz recebeu a execução em dezembro de 2014. Devidamente citado, Hélio não apresentou bens à penhora. A fazenda pública não localizou bens passíveis de penhora e requereu a suspensão da execução em abril de 2015. O juiz deferiu a suspensão provisória da execução em maio de 2015 e ordenou o arquivamento da execução em maio de 2016. Em setembro de 2020, a fazenda pública localizou um veículo em nome de Hélio e solicitou a penhora desse bem. O magistrado indeferiu o pedido de reativação da execução, alegando que o crédito estava prescrito. A respeito dessa situação hipotética, assinale a opção correta, à luz da legislação de regência e da jurisprudência dos tribunais superiores.",
+   "gabarito": "d",
+   "alternativas": [
+    "O crédito relativo ao ano de 2008 está prescrito.",
+    "O juiz da execução aplicou corretamente a prescrição intercorrente.",
+    "Em setembro de 2020, todos os créditos cobrados na execução foram atingidos pela prescrição.",
+    "Ocorreria a prescrição intercorrente se a fazenda pública permanecesse inerte por cinco anos desde o arquivamento da execução.",
+    "A inscrição dos créditos em dívida ativa suspendeu o prazo prescricional por cento e oitenta dias."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-091",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo o Código Tributário do Município de Aracaju, em regra, o débito tributário não recolhido no vencimento fica sujeito a",
+   "gabarito": "d",
+   "alternativas": [
+    "multa de mora e juros e, depois de trinta dias, a correção monetária.",
+    "multa por infração e correção monetária e, depois de trinta dias, a multa de mora e juros.",
+    "multa de mora, juros e correção monetária e, depois de trinta dias, a multa por infração.",
+    "multa de mora e correção monetária e, depois de trinta dias, a juros.",
+    "correção monetária e juros e, depois de trinta dias, a multa de mora."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-092",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o Código Tributário do Município de Aracaju, a competência para a celebração de transação entre o município e o sujeito passivo da obrigação tributária para o término do litígio e consequente extinção tributária é do",
+   "gabarito": "a",
+   "alternativas": [
+    "prefeito, que poderá delegar essa competência aos procuradores judiciais do município.",
+    "prefeito, do secretário de fazenda e do procurador-geral da procuradoria judicial do município.",
+    "prefeito, sendo tal competência exclusiva e indelegável.",
+    "auditor de tributos do caso, sendo tal competência exclusiva e indelegável.",
+    "secretário de fazenda, que poderá delegar essa competência aos procuradores judiciais do município ou aos auditores de tributos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-093",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Código Tributário do Município de Aracaju prevê a aplicação do regime especial de fiscalização para",
+   "gabarito": "c",
+   "alternativas": [
+    "as microempresas e empresas de pequeno porte.",
+    "as pessoas jurídicas sujeitas ao regime de substituição tributária.",
+    "os contribuintes que cometam sonegação fiscal ou que, reiteradamente, violem a legislação tributária.",
+    "as empresas do setor de turismo ou as que invistam em inovação e tecnologia.",
+    "as empresas que possuam elevado volume de débitos inscritos em dívida ativa."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-094",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o Código Tributário do Município de Aracaju, podem ser sujeitos ao pagamento do imposto sobre serviços de qualquer natureza (ISSQN) os serviços prestados por",
+   "gabarito": "c",
+   "alternativas": [
+    "psicólogos, despachantes e trabalhadores avulsos.",
+    "psicólogos, engenheiros e membros de conselhos consultivos, em razão das suas atribuições.",
+    "advogados, engenheiros e cabelereiros.",
+    "engenheiros, cabelereiros e trabalhadores avulsos.",
+    "despachantes, advogados e membros de conselhos consultivos, em razão das suas atribuições."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-096",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Código Tributário do Município de Aracaju prevê a cobrança de taxa pela prestação de serviços de iluminação pública em vias e logradouros públicos. Acerca dessa taxa, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "O STF declarou constitucional tal taxa, ainda que seu fato gerador tenha caráter inespecífico e indivisível.",
+    "Essa taxa é devida apenas em relação ao uso individualizado e efetivo dos serviços de iluminação pública.",
+    "Essa taxa será inconstitucional apenas se cobrada em relação a imóvel lindeiro em vias ou logradouros públicos que não possuam iluminação pública efetiva.",
+    "O STF possui súmula vinculante afirmando que o serviço de iluminação pública não pode ser remunerado mediante taxa.",
+    "Não há inconstitucionalidade nessa previsão, de acordo com o STF, pois a taxa não é cobrada pelo município, mas pela companhia estadual de energia elétrica."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-097",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Código Tributário do Município de Aracaju prevê, no rol das taxas decorrentes do poder de polícia, a cobrança de uma taxa de licença especial, à qual se sujeita, entre outras atividades, às de exploração de",
+   "gabarito": "d",
+   "alternativas": [
+    "ecoturismo, visitação a áreas de preservação ambiental e mergulho em parques marinhos.",
+    "segurança patrimonial e transporte de valores.",
+    "comércio, indústria e prestação de serviços sujeitos a licenciamento obrigatório para exame e fiscalização das condições de localização.",
+    "armazenamento de mercadorias inflamáveis e corrosivos.",
+    "instalação de máquinas e equipamentos eletromecânicos em geral, ainda que não dependam da concessão de alvará."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-098",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em se tratando do processo administrativo fiscal de Aracaju, é um efeito decorrente do início do procedimento de prévio ofício",
+   "gabarito": "a",
+   "alternativas": [
+    "a exclusão da espontaneidade da parte obrigada ao cumprimento das normas constantes da legislação tributária.",
+    "a ciência, ao contribuinte, de qualquer ato praticado por servidor competente para esse fim.",
+    "o indeferimento de plano da petição do contribuinte, quando esta for manifestamente inepta ou apresentada por parte ilegítima.",
+    "a lavratura de auto de infração ou nota de lançamento, distinto para cada infração.",
+    "a instauração do litígio tributário, abrindo-se o prazo para a apresentação da defesa."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-099",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ao inspecionar determinada empresa prestadora de serviço de buffet e festas, a fiscalização concluiu que o registro da sua contabilidade não era fidedigno. Iniciado o procedimento de arbitramento do ISSQN, a fiscalização determinou que a receita da prestação de serviços em relação à atividade exercida seria de pelo menos R$ 1 milhão, valor superior ao declarado. O fisco verificou, ainda, que, no mesmo período, as despesas da empresa com aluguel, folha de salários e outras contas haviam superado R$ 2 milhões. Nessa situação hipotética, a base de cálculo do ISSQN no período em questão deve ser",
+   "gabarito": "e",
+   "alternativas": [
+    "determinada com base na atividade exercida pelo contribuinte, sem acréscimo.",
+    "determinada com base na atividade exercida pelo contribuinte, acrescida de 30%.",
+    "calculada com base no total das despesas apuradas pela fiscalização, sem acréscimo.",
+    "calculada por estimativa, considerando-se o tempo de duração do negócio, a natureza da atividade e o preço corrente dos serviços.",
+    "calculada com base no total das despesas apuradas pela fiscalização, acrescido de 30%."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-100",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No curso de determinado litígio tributário em trâmite perante o fisco de Aracaju, a decisão de primeira instância reduziu o valor do crédito tributário decorrente de auto de infração. Nessa situação hipotética, contra a decisão, será cabível",
+   "gabarito": "b",
+   "alternativas": [
+    "somente recurso de ofício.",
+    "recurso de ofício, de caráter obrigatório, mas o contribuinte também poderá interpor recurso voluntário.",
+    "pedido de reconsideração ou recurso de ofício.",
+    "pedido de reconsideração, de caráter obrigatório, mas o contribuinte também poderá interpor recurso voluntário.",
+    "pedido de reconsideração, recurso de ofício ou recurso voluntário."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-041",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Para efeito do disposto na Lei n.º 12.527/2011, a autenticidade é a qualidade da informação",
+   "gabarito": "c",
+   "alternativas": [
+    "não modificada, inclusive quanto à origem, trânsito e destino.",
+    "utilizada para a produção e a transmissão de conhecimento, contidos em qualquer meio, suporte ou formato.",
+    "produzida, expedida, recebida ou modificada por determinado indivíduo, equipamento ou sistema.",
+    "coletada na fonte, com o máximo de detalhamento possível, sem modificações.",
+    "conhecida e utilizada por indivíduos, equipamentos ou sistemas autorizados."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-042",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em decorrência do princípio de primariedade dos dados abertos governamentais, tais dados devem ser",
+   "gabarito": "a",
+   "alternativas": [
+    "publicados na forma coletada na fonte, com a mais fina granularidade possível, e não de forma agregada ou transformada.",
+    "razoavelmente estruturados para possibilitar o seu processamento automatizado.",
+    "disponibilizados em um formato cujo controle não seja exclusivo de nenhum ente.",
+    "disponibilizados o quão rapidamente seja necessário para preservar o seu valor.",
+    "disponibilizados para o público mais amplo possível e para os propósitos mais variados possíveis."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-043",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O modelo entidade-relacionamento não permite estabelecer relacionamentos entre relacionamentos, apenas entre entidades. Para atender a situações em que seja necessário associar uma entidade com a ocorrência de um relacionamento, utiliza-se",
+   "gabarito": "e",
+   "alternativas": [
+    "atributo multivalorado.",
+    "dado temporal.",
+    "tabela especializada.",
+    "cardinalidade 1:N.",
+    "entidade associativa."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-044",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A metodologia de modelagem dimensional em que uma tabela fato está a pelo menos duas tabelas de dimensão é denominada",
+   "gabarito": "c",
+   "alternativas": [
+    "smallgrain.",
+    "snowflake.",
+    "star schema.",
+    "metric scale.",
+    "surrogate key."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-045",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em um projeto de data mining, a coleta do dado que será garimpado ocorre no processo de",
+   "gabarito": "b",
+   "alternativas": [
+    "mineração.",
+    "preparação.",
+    "aplicação.",
+    "associação.",
+    "classificação."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-046",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o modelo CRSP-DM, a seleção das técnicas que serão aplicadas nos dados selecionados ocorre na fase de",
+   "gabarito": "a",
+   "alternativas": [
+    "modelagem.",
+    "entendimento dos dados.",
+    "entendimento do negócio.",
+    "avaliação.",
+    "preparação dos dados."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-047",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O enriquecimento de dados da etapa de pré-processamento e preparação do data mining tem como objetivo",
+   "gabarito": "e",
+   "alternativas": [
+    "a deduplicidade de registros.",
+    "a seleção de amostras.",
+    "a integração de bases diferentes.",
+    "o tratamento de valores nulos.",
+    "o acréscimo de dados à base já existente."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-048",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Big data ajudou a sedimentar o cargo de cientista de dados. Entre as funções desse cargo inclui-se",
+   "gabarito": "c",
+   "alternativas": [
+    "a modelagem estruturada.",
+    "a análise retrospectiva.",
+    "a modelagem não estruturada.",
+    "a modelagem relacional.",
+    "o processamento comparativo."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-049",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme o disposto na Lei n.º 8.666/1993, nos processos de licitação, poderá ser estabelecida margem de preferência para a aquisição de",
+   "gabarito": "c",
+   "alternativas": [
+    "imóvel destinado ao atendimento das finalidades precípuas da administração, desde que comprovadas a necessidade de instalação e a compatibilidade do preço com o valor de mercado.",
+    "produtos manufaturados e para serviços nacionais durante o período de garantia técnica, junto ao fornecedor original dos equipamentos, desde que comprovada a condição indispensável para a vigência da garantia.",
+    "serviços prestados por empresas que comprovem cumprimento de reserva de cargos prevista em lei para reabilitado da Previdência Social, desde que comprovado o atendimento às regras de acessibilidade previstas na legislação.",
+    "bens produzidos por órgão que integre a administração pública e que não tenha sido criado para esse fim específico, desde que comprovado preço não superior ao praticado no mercado.",
+    "bens para as forças militares, desde que comprovada a possibilidade de comprometimento da segurança nacional e estabelecidos em decreto do presidente da República, ouvido o Conselho de Defesa."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-050",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Segundo a Lei n.º 10.520/2002, uma regra da fase externa do pregão estabelece que",
+   "gabarito": "e",
+   "alternativas": [
+    "o autor da oferta de valor mais baixo e os três com ofertas até 20% superiores àquela poderão fazer, ao final da sessão, antes do encerramento pelo pregoeiro, um novo lance, vencendo o que tiver o menor preço.",
+    "o pregoeiro, encerrada a sessão, caso o licitante desatenda às exigências habilitatórias, deverá cancelar a licitação e marcar nova data, sendo adotado como regra que a proposta de preço iniciará com oferta igual ou inferior à ofertada na licitação cancelada.",
+    "o pregoeiro, no curso da sessão, decide motivadamente sobre as propostas; a proposta classificada em primeiro lugar quanto a valor e aceitabilidade tem caráter impositivo, não cabendo ações por parte do pregoeiro.",
+    "o pregoeiro, antes de encerrada a etapa competitiva, deve verificar os documentos de habilitação do licitante para ratificação do atendimento das condições fixadas no edital.",
+    "os licitantes poderão deixar de apresentar os documentos de habilitação que já constem do Sistema de Cadastramento Unificado de Fornecedores."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-051",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a Instrução Normativa n.º 1/2019 do MPOG/SLTI, é vedado",
+   "gabarito": "d",
+   "alternativas": [
+    "fazer referências em edital a regras externas de fabricantes que possam acarretar na alteração unilateral do contrato por parte da contratada, salvo se o objeto contratado for destinado à contratação de garantia.",
+    "estabelecer vínculo de subordinação com funcionários da contratada, salvo quando a remuneração desses funcionários for prevista em edital.",
+    "prever em edital exigência de que os fornecedores apresentem em seu quadro funcionários certificados para o fornecimento da solução, salvo quando tal comprovação ocorrer antes da contratação dos funcionários.",
+    "adotar a métrica homem — hora para aferição de esforço, salvo mediante justificativa e sempre vinculada à entrega de produtos de acordo com prazos e qualidade previamente definidos.",
+    "contratar por postos de trabalho alocados, salvo se houver anuência do preposto."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-052",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere à gestão e à fiscalização do contrato de fornecimento da solução de TIC, é correto",
+   "gabarito": "a",
+   "alternativas": [
+    "fixar critérios de aceitação dos serviços prestados, com a abrangência de indicadores e níveis mínimos de serviços para os principais elementos que compõem a solução de TIC.",
+    "adotar procedimentos de testes para recebimento definitivo do objeto, sendo vedados, para soluções de TIC, termos de recebimento provisório do objeto.",
+    "vedar a fixação dos valores e procedimentos para retenção do pagamento, especificando-se tão somente as sanções cabíveis ou glosa para contratada por eventual descumprimento de cláusula contratual.",
+    "avaliar a qualidade da solução de TIC às especificações por meio da definição de mecanismos de inspeção, vedada a inspeção por amostragem.",
+    "estabelecer metodologia necessariamente por meio da adoção de ferramentas computacionais para implantação e acompanhamento dos indicadores estabelecidos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-053",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A responsabilidade de acompanhar a execução do contrato, diligenciar as principais questões administrativas referentes ao andamento contratual e atuar como interlocutor principal junto à contratante é do",
+   "gabarito": "a",
+   "alternativas": [
+    "preposto.",
+    "gestor do contrato.",
+    "fiscal técnico do contrato.",
+    "integrante administrativo.",
+    "fiscal administrativo do contrato."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-054",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No modelo de execução do contrato, devem ser contempladas as condições necessárias ao fornecimento da solução de TIC, observando-se a",
+   "gabarito": "c",
+   "alternativas": [
+    "quantidade de bens a serem fornecidos, excetuando-se a quantificação de serviços demandados, que deve ser aferida por meio de unidade de serviço técnico.",
+    "vedação de mecanismos formais de comunicação entre a contratada e a administração que não ocorram por meio de ordens de serviço.",
+    "definição de procedimentos, incluindo-se a documentação mínima exigida e modelos de desenvolvimento de software adotados pela contratante.",
+    "forma de pagamento, que deverá ser efetuado independentemente dos resultados obtidos.",
+    "exigência de assinatura do termo de compromisso para bens de TI que contenham declaração de sigilo a ser assinada pelos empregados da contratada envolvidos na contratação."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-055",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Segundo a ITIL 4, um meio de permitir a cocriação de valor, de modo a facilitar os resultados que os clientes desejam alcançar, sem que o próprio cliente tenha que gerenciar custos e riscos específicos, corresponde ao conceito-chave de",
+   "gabarito": "b",
+   "alternativas": [
+    "gerenciamento de serviço.",
+    "serviço.",
+    "gerenciamento de relacionamento de serviço.",
+    "utilidade de serviço.",
+    "oferta de serviço."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-056",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a ITIL 4, garantir que os serviços satisfaçam a demanda atual e futura de maneira econômica, alcançando-se o desempenho acordado e esperado, é propósito do gerenciamento de",
+   "gabarito": "e",
+   "alternativas": [
+    "disponibilidade.",
+    "níveis de serviço.",
+    "melhoria contínua.",
+    "continuidade de serviço.",
+    "capacidade e desempenho."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-057",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o PMBOK 6.ª edição, no gerenciamento de riscos do projeto, o processo que utiliza informações de desempenho geradas durante a execução do projeto para determinar se houve mudança no nível de risco geral do projeto e nos níveis de risco específicos identificados no projeto é denominado",
+   "gabarito": "a",
+   "alternativas": [
+    "monitorar riscos.",
+    "implementar respostas a riscos.",
+    "realizar análise qualitativa de riscos.",
+    "planejar gerenciamento de riscos.",
+    "identificar riscos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-058",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Segundo o PMBOK 6.ª edição, uma função comum a todos os tipos de escritório de projetos (PMO, do inglês project management office) é a de",
+   "gabarito": "d",
+   "alternativas": [
+    "gerenciar diretamente os projetos.",
+    "exigir a conformidade dos projetos.",
+    "definir os modelos e ferramentas de projetos.",
+    "coordenar a comunicação entre projetos.",
+    "designar e chefiar os gerentes de projeto."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-059",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No COBIT 5, a categoria de habilitadores que corresponde aos veículos para a tradução do comportamento desejado em orientações práticas para a gestão diária é a categoria",
+   "gabarito": "d",
+   "alternativas": [
+    "informação.",
+    "processos.",
+    "cultura, ética e comportamento.",
+    "princípios, políticas e modelos.",
+    "serviços, infraestrutura e aplicativos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-060",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a norma NBR ISO/IEC n.º 38500:2018, convém que as estruturas de governança direcionem que a equipe de TI siga as diretrizes relevantes para o comportamento e o desenvolvimento profissional. Essa orientação refere-se ao princípio",
+   "gabarito": "e",
+   "alternativas": [
+    "estratégia.",
+    "responsabilidade.",
+    "desempenho.",
+    "comportamento humano.",
+    "conformidade."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-061",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com MPS.BR, o propósito de confirmar que os produtos de trabalho selecionados atendem aos requisitos especificados e que um produto ou componente do produto atenderá a seu uso pretendido quando colocado no ambiente operacional refere-se ao processo",
+   "gabarito": "e",
+   "alternativas": [
+    "medição.",
+    "gerência de projetos.",
+    "engenharia de requisitos.",
+    "gerência de processos.",
+    "verificação e validação."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-062",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando os processos técnicos referidos na norma ISO/IEC 12207, assinale a opção que apresenta um propósito do processo de validação para sistemas de software.",
+   "gabarito": "a",
+   "alternativas": [
+    "alcançar nível de confiança de que o produto entregue atende às exigências das partes interessadas e está apto para uso",
+    "estabelecer a capacidade de um sistema em fornecer serviços em ambientes diversos",
+    "certificar que a implementação de cada requisito do sistema de software é testado quanto à conformidade e que o sistema de software está pronto para a entrega",
+    "confirmar que um produto ou serviço de software reflete adequadamente os requisitos especificados",
+    "verificar que o produto de software integrado atende aos testes de qualificação"
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-063",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que apresenta o tipo de ciclo de gestão adotado pela norma NBR ISO/IEC n.º 27001:2013.",
+   "gabarito": "d",
+   "alternativas": [
+    "SGSI",
+    "ITIL",
+    "IEC",
+    "PDCA",
+    "CMM"
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-064",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando-se aspectos de segurança da informação incluídos na ISO/IEC 27002:2013, na aquisição, desenvolvimento e manutenção de sistemas, é importante aplicar determinados tipos de controles, os quais incluem",
+   "gabarito": "b",
+   "alternativas": [
+    "a computação móvel e o trabalho remoto.",
+    "os controles criptográficos.",
+    "a política de segurança da informação.",
+    "a segurança dos equipamentos.",
+    "a classificação das informações."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-065",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Para que a segurança da informação seja eficaz, normalmente são imprescindíveis a atribuição de responsabilidade e papéis pela segurança da informação, os quais devem estar primeiramente definidos na",
+   "gabarito": "e",
+   "alternativas": [
+    "política de controle de ativos.",
+    "norma de controle de acesso.",
+    "política de gestão de continuidade.",
+    "norma de resposta a incidentes.",
+    "política de segurança da informação."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-066",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando-se aspectos de segurança da informação na contratação voltada para a segurança em recursos humanos, devem ser observados os seguintes princípios e questões práticas. I Após a contratação de recursos humanos, devem ser definidas as responsabilidades das partes externas à organização. II Após a seleção de recursos humanos, deve-se avaliar o conhecimento dos envolvidos. III Servidores que têm acesso à informação privilegiada devem assinar termo de responsabilidade. IV Todo conhecimento gerado dentro de um processo de contração entre empregado e empresa, por padrão, pertence à empresa. Estão certos apenas os itens",
+   "gabarito": "e",
+   "alternativas": [
+    "I e II.",
+    "I e III.",
+    "II e III.",
+    "II e IV.",
+    "III e IV."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-067",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que apresenta um procedimento recomendado para a notificação de incidentes, na gestão de incidentes de segurança da informação.",
+   "gabarito": "b",
+   "alternativas": [
+    "utilizar canais informais para relatar à direção os eventos de segurança da informação, o mais rapidamente possível",
+    "preparar formulários de notificação de evento de segurança da informação para apoiar as ações de notificação",
+    "aplicar um processo disciplinar informal para tratar com funcionários que cometam violações de segurança da informação",
+    "tomar ações solitárias e isoladas para notificar imediatamente o ponto de contato sobre incidentes de segurança",
+    "responsabilizar os funcionários pela notificação de eventos de segurança de que tenham conhecimento, diferentemente das partes externas, que estão isentas dessa responsabilidade"
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-068",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação a segurança e continuidade de negócio, para impedir que as atividades de uma organização sejam interrompidas, é necessária a implementação de um plano de continuidade do negócio. Esse plano",
+   "gabarito": "b",
+   "alternativas": [
+    "deve ser independente do planejamento.",
+    "deve procurar garantir a proteção de funcionários, materiais, transporte e instalações.",
+    "deve considerar apenas os recursos ambientais da empresa, por ser um documento geral e de alto nível.",
+    "deve ser restrito e do conhecimento de poucas pessoas na organização, por ser estratégico e altamente crítico.",
+    "deve ser dissonante da política de segurança da informação."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-069",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito de conformidade em segurança da informação, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Nem toda organização tem a obrigação de proteger as informações pessoais de seus funcionários, colaboradores e clientes; isso é prática regulamentada por norma de órgão de controle.",
+    "A conformidade com segurança da informação requer constantemente fluxo de informações entre países distintos e com legislações distintas.",
+    "Normalmente, a definição e documentação dos controles envolvidos com a conformidade são independentes e não fazem parte da política de segurança para se preservar capacidade de auditoria.",
+    "No que se refere ao uso de software de código aberto, os termos e condições de utilização devem ser desconsiderados, segundo o que preconizam as boas práticas de gestão.",
+    "A verificação da conformidade técnica é um processo manual; e esse processo não é passível de automatização."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-070",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A norma NBR ISO/IEC 27005:2011, que fornece diretrizes para o processo de gestão de riscos de segurança da informação,",
+   "gabarito": "d",
+   "alternativas": [
+    "está de acordo com os conceitos especificados na ABNT NBR ISO/IEC 27003, que lida com a gestão de riscos.",
+    "se restringe, em termos de aplicação, a empreendimentos governamentais.",
+    "considera que apenas o método padronizado Risk Evaluation pode ser aplicado, independentemente da abordagem da gestão de risco.",
+    "pode necessitar, se o risco não for aceitável durante seu ciclo de aplicação, de outras iterações do processo de avaliação de riscos, com mudanças nas variáveis do contexto.",
+    "não estabelece critério ou consideração sobre entrada de dados no processo de gestão de risco."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-072",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca dos instrumentos financeiros, seu reconhecimento, sua mensuração, seu registro e sua evidenciação, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Para ativos e passivos que sejam protegidos em conjunto como grupo no hedge de valor justo, o ganho ou a perda no balanço patrimonial em ativos e passivos individuais devem ser reconhecidos como ajuste ao valor contábil do grupo de itens.",
+    "Caso a empresa descontinue a mensuração do instrumento financeiro, que dá origem ao risco de crédito, ao valor justo por meio do resultado, o valor justo desse instrumento financeiro, na data da descontinuação, tornar-se-á seu novo valor contábil.",
+    "Para atender ao objetivo de reconhecer perdas de crédito esperadas para aumentos significativos em risco de crédito desde o reconhecimento inicial, somente serão permitidas as avaliações individuais de aumentos significativos de risco de crédito.",
+    "As perdas de crédito esperadas devem ser reconhecidas no caso de existência de evidência do ativo financeiro que apresenta problemas de recuperação de crédito somente na data do relatório contábil.",
+    "Para ser designado como item protegido, o componente de risco deve ser um componente conjunto ao item financeiro, e as alterações, nos fluxos de caixa, podem ser estimadas com base em situações semelhantes."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-073",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da elaboração e da divulgação da demonstração do valor adicionado (DVA), assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Os ajustes de exercícios anteriores decorrentes de mudança de critérios contábeis devem ser adaptados na DVA relativa ao período mais antigo apresentado, para fins de comparação.",
+    "Os resultados da empresa serão afetados sempre que houver a realização dos respectivos ativos reavaliados ou avaliados ao valor justo, todavia, quando a realização de determinado ativo ocorrer pelo processo normal de depreciação, a DVA não será afetada.",
+    "A construção de ativos dentro da própria empresa, para seu próprio uso, será evidenciada na DVA como investimento, uma vez que constitui alocação de custos para a geração de benefícios futuros.",
+    "A empresa poderá, dentro dos limites legais, distribuir seus lucros acumulados, sejam eles oriundos do próprio exercício ou de exercícios anteriores, e evidenciará ambas as situações no ano em que a distribuição ocorrer, independentemente do ano de geração do lucro.",
+    "No caso da substituição tributária regressiva e respectivo direito ao crédito pela empresa vendedora nas operações seguintes, o valor do tributo recolhido será tratado como tributos a recuperar na DVA, e o valor divulgado será a diferença entre o valor a recuperar e o valor a recolher do mesmo tributo."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-074",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando que determinada revista especializada em esportes receba uma quantia em dinheiro de seus clientes pela venda de assinaturas pelos próximos três anos, assinale a opção que apresenta o registro contábil a ser feito pela revista no momento da venda das referidas assinaturas.",
+   "gabarito": "e",
+   "alternativas": [
+    "débito de uma conta de patrimônio líquido e crédito de caixa",
+    "débito de caixa e crédito de uma conta de receita",
+    "débito de uma conta de receita antecipada e crédito de caixa",
+    "débito de caixa e crédito de uma conta de resultados de exercícios futuros",
+    "débito de caixa e crédito de uma conta de passivo"
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-075",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Uma empresa industrial fabrica e vende um único produto. Em 2019, os custos e outros dados operacionais relacionados ao referido produto foram os seguintes. preço unitário de venda R$ 60 custos de fabricação variáveis (por unidade produzida) materiais diretos R$ 12 mão de obra direta R$ 7 indiretos variáveis R$ 2 fixos (por ano) R$ 120.000 despesas de vendas e despesas administrativas variáveis (por unidade vendida) R$ 7 fixas (por ano) R$ 80.000 Os dados referentes à movimentação dos estoques estão apresentados a seguir. unidades no estoque inicial zero unidades produzidas no ano 10.000 unidades vendidas no ano 7.000 unidades no estoque final 3.000 A partir dos dados precedentes, assinale a opção que apresenta os valores que correspondem ao custo unitário de fabricação do produto, em 2019, calculado pelo método de custeio por absorção e pelo método de custeio variável, respectivamente.",
+   "gabarito": "d",
+   "alternativas": [
+    "R$ 21 e R$ 33",
+    "R$ 28 e R$ 48",
+    "R$ 48 e R$ 28",
+    "R$ 33 e R$ 21",
+    "R$ 33 e R$ 19"
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-076",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a Constituição Federal de 1988, o princípio da anterioridade nonagesimal é excepcionado quanto",
+   "gabarito": "d",
+   "alternativas": [
+    "ao imposto sobre produtos industrializados (IPI).",
+    "à contribuição de intervenção no domínio econômico referente a combustível.",
+    "ao imposto sobre circulação de mercadoria e serviços (ICMS) incidente sobre combustível.",
+    "à alteração da base de cálculo do imposto de renda (IR).",
+    "à alteração do fato gerador do imposto sobre a propriedade predial e territorial urbana (IPTU)."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-077",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O preço público tem como característica o fato de",
+   "gabarito": "c",
+   "alternativas": [
+    "submeter-se às limitações do poder de tributar.",
+    "ser utilizado para custear a iluminação pública.",
+    "ser uma prestação pecuniária facultativa.",
+    "decorrer de expressa previsão legal.",
+    "ser utilizado para custear poder de polícia."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-078",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Determinado município não instituiu a fiscalização nem a cobrança do imposto sobre a propriedade territorial rural (ITR). Com relação a essa situação hipotética, é correto afirmar que o referido município",
+   "gabarito": "e",
+   "alternativas": [
+    "não terá direito à repartição de receita referente ao ITR arrecadado.",
+    "poderá instituir a fiscalização, mas não a cobrança do ITR.",
+    "fará jus à metade do valor arrecadado se instituir a fiscalização e a cobrança do ITR.",
+    "poderá sofrer sanção de perda das transferências voluntárias, nos termos da Lei de Responsabilidade Fiscal.",
+    "poderá instituir a fiscalização e cobrança do ITR, apesar de não possuir competência tributária para tanto."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-079",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A competência tributária",
+   "gabarito": "d",
+   "alternativas": [
+    "é um conceito equivalente ao conceito de capacidade tributária ativa.",
+    "impede a cobrança de contribuição de melhoria por dois entes federativos distintos.",
+    "pode ser delegada aos municípios, como no caso do ITR.",
+    "da União pode, no caso dos territórios, abranger impostos estaduais ou municipais.",
+    "da União pode ser renunciada, como no caso da não instituição do imposto sobre grandes fortunas (IGF)."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-080",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O imposto sobre a transmissão de bens imóveis e de direitos a eles relativos (ITBI)",
+   "gabarito": "a",
+   "alternativas": [
+    "pode ter como sujeito passivo o adquirente ou o transmitente.",
+    "pode incidir sobre ato gratuito de transmissão de propriedade.",
+    "pode incidir no caso de usucapião.",
+    "tem como base de cálculo o valor da escritura do bem imóvel.",
+    "possui alíquotas progressivas, por se tratar de tributo pessoal."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-081",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Um município, para instituir o imposto sobre serviços (ISS), deve",
+   "gabarito": "c",
+   "alternativas": [
+    "limitar-se à lista de serviços existente em lei complementar federal, não dependendo da edição de lei ordinária municipal.",
+    "editar lei ordinária municipal, podendo criar outros serviços que não estejam contemplados na lei complementar federal.",
+    "observar a lei complementar federal e instituir o imposto por lei ordinária municipal, não podendo criar novos serviços.",
+    "editar lei complementar municipal, não podendo criar outros serviços que não estejam contemplados na lei complementar federal.",
+    "editar lei ordinária municipal, podendo criar outros serviços que não estejam contemplados na lei complementar federal."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-082",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No tocante ao imposto de exportação (IE), o regime de drawback consiste no ressarcimento do",
+   "gabarito": "b",
+   "alternativas": [
+    "imposto de importação (II) sobre os insumos devolvidos e distribuídos como brinde ou a título gratuito.",
+    "imposto de importação (II) sobre os insumos de origem estrangeira quando o produtor exportar o produto acabado.",
+    "ICMS sobre os insumos de origem estrangeira quando o produtor exportar o produto acabado.",
+    "próprio IE no caso de devolução de mercadorias por defeito.",
+    "ICMS sobre os insumos agregados ao produto destinado à exportação."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-083",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Participam da repartição tributária das receitas",
+   "gabarito": "e",
+   "alternativas": [
+    "o imposto de renda (IR) e o imposto sobre a propriedade predial e territorial urbana (IPTU).",
+    "o imposto de transmissão causa mortis e doação de quaisquer bens ou direitos (ITCMD) e o imposto sobre circulação de mercadoria e serviços (ICMS).",
+    "o imposto sobre serviços (ISS) e o imposto de renda (IR).",
+    "o imposto sobre a propriedade de veículos automotores (IPVA) e o imposto sobre grandes fortunas (IGF).",
+    "o imposto sobre circulação de mercadoria e serviços (ICMS) e os impostos residuais."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-084",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Determinado deputado estadual apresentou projeto de lei com as seguintes previsões para o ICMS incidente sobre serviços de transporte interestadual de passageiros: I alteração da alíquota do imposto, de 15% para 20%; II autorização para a correção monetária da base de cálculo do imposto; III redução, em 50%, da multa pelo não pagamento do imposto, se pagada em até 30 dias do cometimento da infração; IV autorização para o governador do estado, ouvido o secretário estadual de fazenda, conceder remissão do imposto para as empresas que realizem preponderantemente o transporte interestadual de idosos, bem como para dispor sobre obrigações acessórias para o cumprimento da obrigação de recolher o imposto. Considerando essa situação hipotética e as disposições do Código Tributário Nacional (CTN), assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Deputados estaduais possuem legitimidade para apresentar projeto de lei em matéria tributária, mas não para aumentar alíquota de imposto.",
+    "Lei formal é exigida para que ocorra a correção monetária do valor da base de cálculo do imposto.",
+    "A legitimidade para dispor sobre sanção tributária em tributo estadual é exclusiva de governador de estado.",
+    "Somente lei específica poderá conceder remissão tributária.",
+    "As obrigações acessórias, por envolverem obrigação de fazer ou não fazer, devem ser instituídas por lei formal."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-085",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Determinado contribuinte entrou com recurso contra notificação de lançamento recebida que lhe cobrava valores decorrentes da prestação de determinados serviços que haviam sido objeto de tratado internacional celebrado entre o Brasil e os Estados Unidos da América, o qual isentava o tributo no âmbito das partes celebrantes. Até pouco tempo atrás, as autoridades administrativas entendiam que as obrigações tributárias referentes às referidas operações estavam isentas, mas, com a mudança da titularidade do órgão de administração tributária, o entendimento foi modificado, seguindo-se a orientação de autuar e multar todos os contribuintes que não tinham recolhido o tributo sob o fundamento da vigência do referido tratado internacional, respeitando-se o prazo decadencial. Acerca dessa situação hipotética, assinale a opção correta, considerando a jurisprudência dos tribunais superiores e as disposições do CTN.",
+   "gabarito": "b",
+   "alternativas": [
+    "A atuação da administração tributária está correta, porque não há isenções heterônomas no atual sistema tributário nacional.",
+    "O contribuinte que obedeceu ao entendimento anteriormente vigente, ainda que este possa ser considerado ilegal quanto à isenção, não deve ser apenado com juros e multa.",
+    "Como o tratado internacional, no caso, previu a não incidência do tributo municipal, não se aplica o preceito que veda a concessão de isenções heterônomas.",
+    "As manifestações das autoridades fiscais na interpretação das normas tributárias, por serem declaratórias, alcançam fatos geradores passados, respeitado o prazo decadencial.",
+    "Os tratados internacionais de direito tributário apenas obrigam a União, não alcançando os entes tributantes subnacionais."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-086",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Miguel, menor de idade, e Lucas, maior de idade e capaz, são proprietários de veículos licenciados no município de Aracaju, desde 2010. Miguel possui cota ideal de 30%, e Lucas, de 70%. Os veículos, atualmente, prestam-se à realização de entregas em favor de uma empresa que funciona informalmente na produção de cerveja artesanal. Em novembro de 2019, durante fiscalização no referido estabelecimento comercial, o fisco constatou a existência de dívidas relativas ao imposto sobre a propriedade de veículos automotores (IPVA) desses veículos, desde o ano de 2013, e, por isso, Miguel e Lucas foram autuados pelas dívidas, tendo-lhes sido aplicados multa e juros pelo inadimplemento. Considerando essa situação hipotética, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Lucas é o único responsável tributário pela dívida, pois somente ele possui capacidade econômica decorrente do negócio informal.",
+    "Tanto Miguel quanto Lucas são responsáveis pela dívida, mas o fisco deve respeitar a proporcionalidade das frações ideais na cobrança, sem benefício de ordem.",
+    "Embora a responsabilidade tributária seja exclusiva de Lucas, Miguel pode ser chamado a responder pela dívida.",
+    "Miguel e Lucas devem responder pela dívida integralmente, mas houve a decadência de parte da dívida, referente ao ano de 2013.",
+    "Ainda que a responsabilidade tributária seja de ambos, a dívida é manifestamente indevida, haja vista a ocorrência da decadência do direito de efetuar o lançamento de todas as dívidas."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-087",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Lei estadual de 2010 estipulou que o ICMS incidente sobre os serviços de transporte intermunicipal e interestadual no âmbito do estado de Sergipe seria de 20% e que a multa pelo não recolhimento do imposto seria de 50%. Em 2013, a alíquota do ICMS foi reduzida para 17,5% e a multa pelo não recolhimento aumentou para 75%. Em 2015, nova lei reduziu mais uma vez a alíquota do ICMS, dessa vez para 15%, bem como reduziu a multa pelo não recolhimento do imposto para 50%. A partir das informações dessa situação hipotética, é correto afirmar que um contribuinte que, durante todo o período mencionado, não tenha pagado o imposto deverá",
+   "gabarito": "c",
+   "alternativas": [
+    "recolher o ICMS pela menor alíquota (15%) e pagar a multa pelo menor valor (50%).",
+    "recolher o ICMS de acordo com as alíquotas de 20%, 17,5% e 15%, conforme os fatos geradores, e pagar a multa de acordo com o período de apuração — 50%, em 2010, 75%, em 2013, e 50% em 2015.",
+    "recolher o ICMS de acordo com as alíquotas de 20%, 17,5% e 15%, conforme os fatos geradores, e pagar a multa pelo menor percentual, independentemente do período de apuração.",
+    "recolher o ICMS de acordo com a maior alíquota e pagar a multa pelo menor percentual, independentemente do período de apuração.",
+    "recolher o ICMS pela maior alíquota (20%) e pagar a multa pelo maior valor (75%)."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-088",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Determinada pessoa jurídica deve ISS referente ao mês de maio dos anos de 2014, 2015, 2016 e 2017. No dia 20 de maio de 2016, houve fiscalização no estabelecimento fiscal da empresa e ela foi autuada por todos os débitos então existentes, conforme lavratura de auto de infração. Dada a data da fiscalização, o débito de 2017 não foi incluído na autuação. Considerando essa situação hipotética, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Caso todos os créditos sejam constituídos e inscritos em dívida ativa tributária até 2020, será possível cobrar da pessoa jurídica a totalidade da dívida.",
+    "A fiscalização tributária retirou a possibilidade de denúncia espontânea do débito de 2017 pela pessoa jurídica.",
+    "O lançamento do débito de 2017 deve ser procedido de ofício pela fazenda pública.",
+    "O prazo decadencial da dívida referente aos anos de 2015 e 2016 iniciou-se, respectivamente, em 1.º de janeiro de 2016 e em 1.º de janeiro de 2017.",
+    "Após a autuação da pessoa jurídica, o fisco tem cinco anos para a cobrança da dívida, prazo esse que não pode ser suspenso ou interrompido."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-089",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Lei municipal determina que os corretores de imóveis e os oficiais de registro de imóveis comuniquem à fazenda pública, para efeito de fiscalização tributária, todas as operações de venda e compra de imóveis que intermedeiem ou registrem. A lei dispõe, ainda, que as informações podem ser compartilhadas com as fazendas públicas estaduais e federal e que é permitido o acesso forçado ao estabelecimento comercial caso o contribuinte resista à fiscalização no local. Conforme o CTN, é correto afirmar que essa lei municipal é",
+   "gabarito": "e",
+   "alternativas": [
+    "ilegal apenas quanto à previsão de autorizar o acesso forçado ao estabelecimento do contribuinte.",
+    "ilegal apenas quanto à obrigação de os corretores de imóveis divulgarem dados pessoais e sigilosos dos contribuintes.",
+    "ilegal em todas as suas disposições.",
+    "legal apenas quanto à disposição que permite o compartilhamento de dados entre as fazendas públicas municipal e estadual.",
+    "legal em todas as suas disposições."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-090",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em junho de 2014, foi ajuizada contra Hélio uma execução fiscal para a cobrança de créditos de IPTU relativos aos anos de 2008 a 2012. O lançamento dos créditos ocorreu em 2012. A inscrição do crédito em dívida ativa ocorreu em 2013. O juiz recebeu a execução em dezembro de 2014. Devidamente citado, Hélio não apresentou bens à penhora. A fazenda pública não localizou bens passíveis de penhora e requereu a suspensão da execução em abril de 2015. O juiz deferiu a suspensão provisória da execução em maio de 2015 e ordenou o arquivamento da execução em maio de 2016. Em setembro de 2020, a fazenda pública localizou um veículo em nome de Hélio e solicitou a penhora desse bem. O magistrado indeferiu o pedido de reativação da execução, alegando que o crédito estava prescrito. A respeito dessa situação hipotética, assinale a opção correta, à luz da legislação de regência e da jurisprudência dos tribunais superiores.",
+   "gabarito": "c",
+   "alternativas": [
+    "O crédito relativo ao ano de 2008 está prescrito.",
+    "O juiz da execução aplicou corretamente a prescrição intercorrente.",
+    "Ocorreria a prescrição intercorrente se a fazenda pública permanecesse inerte por cinco anos desde o arquivamento da execução.",
+    "Em setembro de 2020, todos os créditos cobrados na execução foram atingidos pela prescrição.",
+    "A inscrição dos créditos em dívida ativa suspendeu o prazo prescricional por cento e oitenta dias."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-091",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo o Código Tributário do Município de Aracaju, em regra, o débito tributário não recolhido no vencimento fica sujeito a",
+   "gabarito": "d",
+   "alternativas": [
+    "multa por infração e correção monetária e, depois de trinta dias, a multa de mora e juros.",
+    "multa de mora e juros e, depois de trinta dias, a correção monetária.",
+    "multa de mora, juros e correção monetária e, depois de trinta dias, a multa por infração.",
+    "multa de mora e correção monetária e, depois de trinta dias, a juros.",
+    "correção monetária e juros e, depois de trinta dias, a multa de mora."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-092",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o Código Tributário do Município de Aracaju, a competência para a celebração de transação entre o município e o sujeito passivo da obrigação tributária para o término do litígio e consequente extinção tributária é do",
+   "gabarito": "a",
+   "alternativas": [
+    "prefeito, que poderá delegar essa competência aos procuradores judiciais do município.",
+    "prefeito, sendo tal competência exclusiva e indelegável.",
+    "prefeito, do secretário de fazenda e do procurador-geral da procuradoria judicial do município.",
+    "auditor de tributos do caso, sendo tal competência exclusiva e indelegável.",
+    "secretário de fazenda, que poderá delegar essa competência aos procuradores judiciais do município ou aos auditores de tributos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-093",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Código Tributário do Município de Aracaju prevê a aplicação do regime especial de fiscalização para",
+   "gabarito": "d",
+   "alternativas": [
+    "as microempresas e empresas de pequeno porte.",
+    "as pessoas jurídicas sujeitas ao regime de substituição tributária.",
+    "as empresas do setor de turismo ou as que invistam em inovação e tecnologia.",
+    "os contribuintes que cometam sonegação fiscal ou que, reiteradamente, violem a legislação tributária.",
+    "as empresas que possuam elevado volume de débitos inscritos em dívida ativa."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-094",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o Código Tributário do Município de Aracaju, podem ser sujeitos ao pagamento do imposto sobre serviços de qualquer natureza (ISSQN) os serviços prestados por",
+   "gabarito": "c",
+   "alternativas": [
+    "psicólogos, engenheiros e membros de conselhos consultivos, em razão das suas atribuições.",
+    "psicólogos, despachantes e trabalhadores avulsos.",
+    "advogados, engenheiros e cabelereiros.",
+    "engenheiros, cabelereiros e trabalhadores avulsos.",
+    "despachantes, advogados e membros de conselhos consultivos, em razão das suas atribuições."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-096",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Código Tributário do Município de Aracaju prevê a cobrança de taxa pela prestação de serviços de iluminação pública em vias e logradouros públicos. Acerca dessa taxa, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "O STF declarou constitucional tal taxa, ainda que seu fato gerador tenha caráter inespecífico e indivisível.",
+    "Essa taxa será inconstitucional apenas se cobrada em relação a imóvel lindeiro em vias ou logradouros públicos que não possuam iluminação pública efetiva.",
+    "Essa taxa é devida apenas em relação ao uso individualizado e efetivo dos serviços de iluminação pública.",
+    "O STF possui súmula vinculante afirmando que o serviço de iluminação pública não pode ser remunerado mediante taxa.",
+    "Não há inconstitucionalidade nessa previsão, de acordo com o STF, pois a taxa não é cobrada pelo município, mas pela companhia estadual de energia elétrica."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-097",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Código Tributário do Município de Aracaju prevê, no rol das taxas decorrentes do poder de polícia, a cobrança de uma taxa de licença especial, à qual se sujeita, entre outras atividades, às de exploração de",
+   "gabarito": "d",
+   "alternativas": [
+    "ecoturismo, visitação a áreas de preservação ambiental e mergulho em parques marinhos.",
+    "segurança patrimonial e transporte de valores.",
+    "comércio, indústria e prestação de serviços sujeitos a licenciamento obrigatório para exame e fiscalização das condições de localização.",
+    "armazenamento de mercadorias inflamáveis e corrosivos.",
+    "instalação de máquinas e equipamentos eletromecânicos em geral, ainda que não dependam da concessão de alvará."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-098",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em se tratando do processo administrativo fiscal de Aracaju, é um efeito decorrente do início do procedimento de prévio ofício",
+   "gabarito": "a",
+   "alternativas": [
+    "a exclusão da espontaneidade da parte obrigada ao cumprimento das normas constantes da legislação tributária.",
+    "a ciência, ao contribuinte, de qualquer ato praticado por servidor competente para esse fim.",
+    "o indeferimento de plano da petição do contribuinte, quando esta for manifestamente inepta ou apresentada por parte ilegítima.",
+    "a lavratura de auto de infração ou nota de lançamento, distinto para cada infração.",
+    "a instauração do litígio tributário, abrindo-se o prazo para a apresentação da defesa."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-099",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ao inspecionar determinada empresa prestadora de serviço de buffet e festas, a fiscalização concluiu que o registro da sua contabilidade não era fidedigno. Iniciado o procedimento de arbitramento do ISSQN, a fiscalização determinou que a receita da prestação de serviços em relação à atividade exercida seria de pelo menos R$ 1 milhão, valor superior ao declarado. O fisco verificou, ainda, que, no mesmo período, as despesas da empresa com aluguel, folha de salários e outras contas haviam superado R$ 2 milhões. Nessa situação hipotética, a base de cálculo do ISSQN no período em questão deve ser",
+   "gabarito": "e",
+   "alternativas": [
+    "calculada por estimativa, considerando-se o tempo de duração do negócio, a natureza da atividade e o preço corrente dos serviços.",
+    "determinada com base na atividade exercida pelo contribuinte, sem acréscimo.",
+    "determinada com base na atividade exercida pelo contribuinte, acrescida de 30%.",
+    "calculada com base no total das despesas apuradas pela fiscalização, sem acréscimo.",
+    "calculada com base no total das despesas apuradas pela fiscalização, acrescido de 30%."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-100",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No curso de determinado litígio tributário em trâmite perante o fisco de Aracaju, a decisão de primeira instância reduziu o valor do crédito tributário decorrente de auto de infração. Nessa situação hipotética, contra a decisão, será cabível",
+   "gabarito": "b",
+   "alternativas": [
+    "somente recurso de ofício.",
+    "recurso de ofício, de caráter obrigatório, mas o contribuinte também poderá interpor recurso voluntário.",
+    "pedido de reconsideração ou recurso de ofício.",
+    "pedido de reconsideração, de caráter obrigatório, mas o contribuinte também poderá interpor recurso voluntário.",
+    "pedido de reconsideração, recurso de ofício ou recurso voluntário."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-001",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No texto CB1A1-I, a autora",
+   "gabarito": "d",
+   "alternativas": [
+    "atesta que o desenvolvimento da vacina agravou a desigualdade social e econômica por meio da discriminação.",
+    "questiona as consequências da pandemia com base em uma variável específica: a polarização política.",
+    "alerta sobre a precariedade das pessoas vulneráveis ao vírus.",
+    "aventa as razões por que a pandemia potencializa a vulnerabilidade de determinadas pessoas.",
+    "reflete sobre a evolução histórica do capitalismo como um sistema que se sobressai em relação ao bem-estar coletivo."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-002",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A argumentação central do texto CB1A1-I é articulada a partir da dicotomia",
+   "gabarito": "b",
+   "alternativas": [
+    "vida e morte.",
+    "individual e coletivo.",
+    "fraco e forte.",
+    "capitalismo e socialismo.",
+    "público e privado."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-003",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em “Um cenário que já podemos imaginar é a produção e comercialização de uma vacina eficaz contra a covid-19”, o vocábulo “já” foi empregado com o sentido de",
+   "gabarito": "c",
+   "alternativas": [
+    "primeiramente.",
+    "antecipadamente.",
+    "prontamente.",
+    "inicialmente.",
+    "anteriormente."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-004",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No trecho “Parece provável que passaremos a ver, no próximo ano, um cenário doloroso no qual algumas criaturas humanas afirmam seu direito de viver ao custo de outras, reinscrevendo a distinção espúria entre vidas passíveis e não passíveis de luto”, a palavra “espúria” poderia, sem alteração dos sentidos originais do texto, ser substituída por",
+   "gabarito": "e",
+   "alternativas": [
+    "frágil.",
+    "difícil.",
+    "confusa.",
+    "ilegal.",
+    "desonesta."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-005",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A correção gramatical e a coerência do texto CB1A1-I seriam mantidas caso a expressão “pela qual”, em “Por conta da forma pela qual se move e ataca, ele demonstra que a comunidade humana é igualmente precária”, fosse substituída por",
+   "gabarito": "d",
+   "alternativas": [
+    "que.",
+    "por causa da qual.",
+    "onde.",
+    "como.",
+    "da qual."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-006",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No texto CB1A1-II, o narrador",
+   "gabarito": "d",
+   "alternativas": [
+    "explica a evolução de uma doença e alerta sobre suas consequências sociais.",
+    "preocupa-se com a evolução de uma doença e informa sobre suas consequências sociais.",
+    "descreve os pormenores da evolução de uma doença e critica suas consequências sociais.",
+    "expõe a evolução de uma doença e reflete sobre suas consequências sociais.",
+    "ocupa-se das causas para a evolução de uma doença e suas consequências sociais."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-007",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Os sentidos originais do texto CB1A1-II seriam prejudicados se a expressão “em princípio”, no segundo período do texto, fosse substituída por",
+   "gabarito": "c",
+   "alternativas": [
+    "antes de qualquer consideração.",
+    "em tese.",
+    "na fase inicial.",
+    "de modo geral.",
+    "de forma geral."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-008",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Os sentidos do texto CB1A1-II seriam mantidos caso, no trecho “De um dia para o outro, parecia que a peste se tinha instalado confortavelmente no seu paroxismo”, a locução “tinha instalado” fosse substituída por",
+   "gabarito": "a",
+   "alternativas": [
+    "instalara.",
+    "instalava.",
+    "instalou.",
+    "instalasse.",
+    "instalaria."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-009",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito dos aspectos linguísticos do texto CB1A1-II, julgue os itens a seguir. I Em “Havia, no entanto, outros motivos de inquietação”, o vocábulo “Havia” poderia ser substituído por Existia sem prejuízo da correção gramatical e dos sentidos do texto. II Os sentidos originais do texto seriam alterados caso o adjetivo “bom” fosse deslocado para imediatamente após “funcionário”, em “e incorporava aos seus assassinatos diários a precisão e a regularidade de um bom funcionário”. III Em “E ele atribuía o mérito disso ao novo soro de Gastei, que acabava de obter, com efeito, alguns êxitos imprevistos”, o referente do vocábulo “que” é “Gastei”. Assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-010",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em cada uma das opções a seguir é apresentada uma proposta de reescrita para o seguinte trecho do texto CB1A1-II: “A peste, que, pela imparcialidade eficaz com que exercia seu ministério, deveria ter reforçado a igualdade entre nossos concidadãos pelo jogo normal dos egoísmos, tornava, ao contrário, mais acentuado no coração dos homens o sentimento da injustiça”. Assinale a opção que apresenta a proposta que mantém a correção gramatical e a coerência do texto.",
+   "gabarito": "e",
+   "alternativas": [
+    "A peste, que, pela imparcialidade eficaz com que exercia seu cargo, deveria reforçar a igualdade entre nossos concidadãos, pelo jogo normal dos egoísmos tornava, ao contrário, mais preciso no coração dos homens o sentimento da injustiça.",
+    "Pela imparcialidade eficaz com que exercia sua função, a peste, que deveria ter reforçado a igualdade entre nossos concidadãos pelo jogo normal dos egoísmos, tornava ao contrário mais acentuado no coração dos homens o sentimento de injustiça.",
+    "A peste que deveria ter reforçado a igualdade entre nossos concidadãos pelo jogo normal dos egoísmo — pela imparcialidade eficaz com que exercia seu ministério — tornava o sentimento de injustiça no coração dos homens mais acentuado, ao contrário.",
+    "Ao contrário, o sentimento de injustiça tornava-se mais acentuado com a peste no coração dos homens, a qual deveria, pela imparcialidade com que exercia seu ministério, ter reforçado a igualdade entre os nossos concidadãos pelo jogo normal dos egoísmos.",
+    "O sentimento de injustiça no coração dos homens tornava-se mais acentuado com a peste, que deveria, ao contrário — pela imparcialidade eficaz com que exercia seu ministério —, ter reforçado a igualdade entre os nossos concidadãos pelo jogo normal dos egoísmos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-011",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando os principais elementos que justificam a escolha das prioridades da auditoria, julgue os itens a seguir. I Processos que tenham sofrido alterações significativas devem ser objeto de auditoria, a fim de que se avalie o impacto das alterações nos controles e riscos. II Todo processo deve ser auditado. III A profundidade das análises deve ser aleatoriamente definida. IV Demandas e preocupações da alta administração devem ser consideradas no planejamento da auditoria interna. Assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e IV estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Apenas os itens III e IV estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-012",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que tange à importância da amostragem estatística nos trabalhos da auditoria, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A amostra aleatória é função proporcional da população.",
+    "O auditor não pode solicitar amostra por julgamento.",
+    "A amostra por estratificação é utilizada quando há pequena dispersão dos valores envolvidos.",
+    "A escolha da amostra deve seguir padrão determinístico.",
+    "A amostra exploratória é indicada para pesquisa de fraudes, caso em que tabelas de auditoria mostram a probabilidade de se encontrar uma ocorrência em amostra preestabelecida."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-013",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No trabalho do auditor, os papéis de trabalho devem seguir técnicas e procedimentos. No que se refere a esse assunto, julgue os itens a seguir. I Os papéis de trabalho devem seguir os princípios da ciência normativa. II Apenas os pontos de atenção devem ser abordados no relatório da auditoria. III Havendo identificação de atos irregulares de gestão atribuídos a ex-dirigentes, o controle interno deverá encaminhar ofício a esses ex-dirigentes, dando-lhes conhecimento do trabalho de auditoria. IV Os papéis de trabalho devem ser arquivados em dois tipos de arquivo: permanente e corrente. Estão certos apenas os itens",
+   "gabarito": "c",
+   "alternativas": [
+    "I e IV.",
+    "II e III.",
+    "III e IV.",
+    "I, II e III.",
+    "I, II e IV."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-014",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que apresenta a principal causa de fraude no serviço público brasileiro.",
+   "gabarito": "a",
+   "alternativas": [
+    "insuficiência dos controles internos",
+    "má conduta dos servidores",
+    "má conduta dos dirigentes",
+    "legislação defasada",
+    "ausência de auditoria"
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-015",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Quanto aos tipos e às técnicas de controles internos aplicados à gestão pública, julgue os itens a seguir. I O controle prévio é aquele que ocorre antes da execução do ato pelo gestor público. II O controle pode ser concomitante, para verificar a regularidade do ato. III Não se deve avaliar o custo do controle em relação aos riscos que ele busca mitigar. IV Gestor público não pode executar ato de delegação de atividade sob sua responsabilidade. Estão certos apenas os itens",
+   "gabarito": "a",
+   "alternativas": [
+    "I e II.",
+    "II e III.",
+    "III e IV.",
+    "I, II e IV.",
+    "I, III e IV."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-016",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Porque era inimiga do solicitante, a autoridade administrativa competente negou um pedido de concessão de licença para a construção de edifício, que constituía um ato vinculado. Nessa situação hipotética, a decisão da autoridade",
+   "gabarito": "c",
+   "alternativas": [
+    "tem vício de competência, devendo ser refeita.",
+    "tem um vício na forma legal, podendo ser ratificada.",
+    "tem desvio de finalidade, devendo ser considerada nula.",
+    "foi tomada com abuso de poder, podendo ser revogada.",
+    "deve ser considerada imotivada, mas pode ser convalidada."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-017",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Autoridade hierarquicamente superior delegou a competência de decisão sobre pedidos de alvará de funcionamento para uma autoridade inferior. Em determinado momento, a autoridade inferior, no gozo da competência delegada, concedeu um alvará de funcionamento a determinada empresa. Anos depois, observou-se que a decisão tinha vícios e deveria ser declarada nula. Considerando essa situação hipotética e as disposições da Lei n.º 9.784/1999 e suas alterações, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A delegação torna a autoridade superior incompetente definitivamente, por ser uma renúncia da competência.",
+    "Em razão da delegação, não cabe recurso administrativo à autoridade superior para evitar a declaração da nulidade.",
+    "A delegação deveria ser inválida, pois a lei não permite a delegação de atos decisórios.",
+    "Por ser uma decisão nula, a autoridade superior pode revogá-la em lugar da autoridade inferior.",
+    "A administração pública tem o prazo decadencial de cinco anos para anular decisão viciada."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-018",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do sistema de registro de preços, julgue os itens a seguir, considerando a Lei n.º 8.666/1993 e o Decreto n.º 7.892/2013. I A ata de registro de preços tem validade atrelada à vigência do crédito orçamentário que embasa o contrato a ela relacionado. II Municípios podem aderir a uma ata de registros de preços feita por órgão federal. III Órgão federal pode aderir a uma ata de registro de preços feita por órgão estadual. IV No procedimento de licitação para registro de preços, não é necessário indicar a dotação orçamentária. Estão certos apenas os itens",
+   "gabarito": "b",
+   "alternativas": [
+    "I e III.",
+    "II e IV.",
+    "III e IV.",
+    "I, II e III.",
+    "I, II e IV."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-019",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da responsabilidade civil do Estado, julgue os seguintes itens. I O caso fortuito e a força maior são causas que excluem a responsabilidade civil do Estado. II Particular pode propor ação de indenização contra um servidor público que, no exercício da sua função pública, dolosamente lhe tenha causado prejuízo, dada a sua legitimidade passiva. III O Brasil adota a teoria do risco administrativo, segundo a qual o prejudicado deve identificar a conduta culposa do agente público para lhe imputar a responsabilização. Assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-020",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Após regular processo licitatório, determinado ente federativo estadual delegou a execução de um serviço público uti singuli a uma empresa. Embora a empresa estivesse cumprindo regularmente os termos do contrato, o ente federativo decidiu retomar a execução do serviço público, sob o fundamento de interesse público. Para tanto, houve o prévio pagamento de indenização à empresa e a edição de lei autorizativa específica. Nessa situação hipotética, a retomada da execução do serviço público pelo ente federado configura",
+   "gabarito": "d",
+   "alternativas": [
+    "retrocessão.",
+    "invalidação contratual.",
+    "ilegalidade.",
+    "encampação.",
+    "retomada forçada."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-021",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere as seguintes previsões da Constituição Federal de 1988. Art. 5.º Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos seguintes: [...] XIII – é livre o exercício de qualquer trabalho, ofício ou profissão, atendidas as qualificações profissionais que a lei estabelecer;\" [...] Art. 149. Compete exclusivamente à União instituir contribuições sociais, de intervenção no domínio econômico e de interesse das categorias profissionais ou econômicas, como instrumento de sua atuação nas respectivas áreas, observado o disposto nos arts. 146, III, e 150, I e III, e sem prejuízo do previsto no art. 195, § 6.º, relativamente às contribuições a que alude o dispositivo. [...] § 4.º A lei definirá as hipóteses em que as contribuições incidirão uma única vez. Quanto à aplicabilidade e à interpretação das normas constitucionais, é correto afirmar que o inciso XIII do art. 5.º e o § 4.º do art. 149 da Constituição Federal de 1988 são, respectivamente, normas constitucionais de eficácia",
+   "gabarito": "b",
+   "alternativas": [
+    "plena e limitada.",
+    "contida e limitada.",
+    "limitada e contida.",
+    "plena e contida.",
+    "limitada e plena."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-022",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Lei de iniciativa do Poder Executivo federal que estabelecer, de forma regionalizada, diretrizes, objetivos e metas da administração pública federal para as despesas de capital e outras delas decorrentes, bem como para as despesas relativas aos programas de duração continuada, estará instituindo",
+   "gabarito": "c",
+   "alternativas": [
+    "orçamento fiscal.",
+    "orçamento da seguridade social.",
+    "plano plurianual.",
+    "diretrizes orçamentárias.",
+    "orçamento de investimento."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-023",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O governo federal repassou recursos financeiros para determinado município, visando atender a uma necessidade de saúde local, mas, por ato de corrupção, o prefeito desviou parte desses valores, tendo cometido crime federal. Nessa situação hipotética, o prefeito será processado e julgado originariamente",
+   "gabarito": "e",
+   "alternativas": [
+    "por juiz de direito de primeira instância.",
+    "por juiz federal de primeira instância.",
+    "pelo Superior Tribunal de Justiça.",
+    "pelo tribunal de justiça respectivo.",
+    "pelo tribunal regional federal respectivo."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-024",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Lei municipal que fixar o horário de funcionamento de estabelecimentos comerciais no âmbito do município será considerada",
+   "gabarito": "b",
+   "alternativas": [
+    "constitucional, por se tratar de tema de competência concorrente do município e do estado.",
+    "constitucional, por tratar de assunto de interesse local.",
+    "inconstitucional, pois o tema é de competência das juntas comerciais.",
+    "inconstitucional, por tratar de relações de consumo, que é tema de competência privativa dos estados.",
+    "inconstitucional, por tratar de relações de consumo, que é tema de competência exclusiva da União."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-025",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Caso tramite no Congresso Nacional emenda constitucional incompatível com dispositivos constitucionais que disciplinam o processo legislativo, a competência para impetrar mandado de segurança acerca do assunto no Supremo Tribunal Federal será somente",
+   "gabarito": "b",
+   "alternativas": [
+    "do Conselho Federal da Ordem dos Advogados do Brasil.",
+    "dos parlamentares.",
+    "do procurador-geral da República.",
+    "do presidente da República.",
+    "de governador de estado."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-026",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No direito penal brasileiro, a retroatividade de lei nova que deixa de considerar um fato como criminoso",
+   "gabarito": "c",
+   "alternativas": [
+    "é vedada, conforme a Constituição Federal de 1988.",
+    "não cessa os efeitos penais da condenação.",
+    "extingue a punibilidade do agente.",
+    "não se aplica a fatos transitados em julgado.",
+    "torna a lei anterior excepcional ou temporária."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-027",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em ação penal iniciada em razão da prática do crime de sonegação fiscal, o juiz reconheceu a presença dos elementos do tipo penal, entretanto absolveu o réu por entender que ficou provado que aquele não tinha condições de arcar com todas as dívidas e, por isso, optou pela quitação das dívidas trabalhistas em detrimento das tributárias. Nessa situação hipotética, o juiz reconheceu",
+   "gabarito": "c",
+   "alternativas": [
+    "a atipicidade.",
+    "a inimputabilidade.",
+    "a excludente de culpabilidade.",
+    "o estado de necessidade.",
+    "o exercício regular de direito."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-028",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A omissão de declaração que deveria constar em documento, com a intenção de prejudicar direito de outrem, caracteriza",
+   "gabarito": "e",
+   "alternativas": [
+    "falsificação de documento público ou particular, a depender da natureza do objeto material.",
+    "estelionato.",
+    "conduta atípica, porque não há previsão de crime omissivo contra a fé pública.",
+    "supressão de documento.",
+    "falsidade ideológica."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-029",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Auditor fiscal que exige tributo que sabe ser indevido pratica o crime de",
+   "gabarito": "b",
+   "alternativas": [
+    "peculato.",
+    "excesso de exação.",
+    "corrupção passiva.",
+    "prevaricação.",
+    "emprego irregular de verbas públicas."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-030",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Lei n.º 8.072/1990 considera crime hediondo",
+   "gabarito": "a",
+   "alternativas": [
+    "a posse ou o porte ilegal de arma de fogo de uso proibido.",
+    "o aborto provocado sem o consentimento da gestante.",
+    "o homicídio simples.",
+    "a concussão e as corrupções ativa e passiva.",
+    "a moeda falsa."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-033",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere que X , … , X represente uma amostra aleatória simples de tamanho 100, com reposição, retirada de uma população normal com média desconhecida M e desvio padrão ⋯ igual a 9. Se X denota a média amostral, então a quantidade X M segue uma distribuição normal com média nula e desvio padrão igual a",
+   "gabarito": "d",
+   "alternativas": [
+    "81.",
+    "0,09.",
+    "0,81.",
+    "0,9.",
+    "9."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-034",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Um modelo de regressão linear simples na forma y = ax + b + ԑ, no qual ε representa o erro aleatório com média nula e variância constante, foi ajustado para um conjunto de dados no qual as médias aritméticas das variáveis y e x são, respectivamente, y 10 e x̅ 5. Pelo método dos mínimos quadrados ordinários, se a estimativa do intercepto (coeficiente b) for igual a 20, então a estimativa do coeficiente angular a proporcionada por esse mesmo método deverá ser igual a",
+   "gabarito": "a",
+   "alternativas": [
+    "−2.",
+    "2.",
+    "−1.",
+    "0.",
+    "1."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-036",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No texto CB1A07, a taxa mensal de desconto racional simples obtida por Cláudio foi",
+   "gabarito": "c",
+   "alternativas": [
+    "inferior a 5%.",
+    "superior a 5% e inferior a 5,5%.",
+    "superior a 6,5%.",
+    "superior a 5,5% e inferior a 6%.",
+    "superior a 6% e inferior a 6,5%."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-037",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No texto CB1A07, caso Cláudio optasse por aplicar seu dinheiro em 9 de março de 2020, de modo a obter, em 9 de outubro de 2020, o valor suficiente para pagar os serviços da pousada Boa Estadia, sem desconto, em aplicação com rentabilidade mensal composta de 5%, o valor a ser aplicado, assumindo-se 1,057 = 1,41, deveria ser",
+   "gabarito": "e",
+   "alternativas": [
+    "inferior a R$ 1.000.",
+    "superior a R$ 1.075.",
+    "superior a R$ 1.000 e inferior a R$ 1.025.",
+    "superior a R$ 1.025 e inferior a R$ 1.050.",
+    "superior a R$ 1.050 e inferior a R$ 1.075."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-038",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere que, no texto CB1A07, a pousada Boa Estadia, apesar de seus esforços para conter o impacto da pandemia em seu fluxo de caixa, tenha visto seu faturamento despencar 20% no primeiro mês, 30% no segundo e 40% no terceiro, com leve recuperação de 10% no quarto mês, sempre em relação ao mês anterior, após as autoridades relaxarem um pouco as regras de isolamento. Nesse caso, a queda acumulada no faturamento no período considerado, em comparação com aquele pré-pandemia, foi",
+   "gabarito": "a",
+   "alternativas": [
+    "inferior a 70%.",
+    "superior a 70% e inferior a 75%.",
+    "superior a 85%.",
+    "superior a 75% e inferior a 80%.",
+    "superior a 80% e inferior a 85%."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-039",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ainda com relação ao texto CB1A07, considere que, como forma de enfrentar a queda de faturamento decorrente da pandemia, a pousada Boa Estadia tenha realizado investimentos no total de R$ 10.000 no mês de julho para adaptação de suas instalações e compra de equipamentos, tendo verificado um aumento de R$ 5.000 e de R$ 15.000 nos faturamentos dos meses subsequentes, respectivamente. Assim, a taxa interna de retorno associada a esse fluxo de caixa marginal foi",
+   "gabarito": "c",
+   "alternativas": [
+    "inferior a 35%.",
+    "superior a 35% e inferior a 45%.",
+    "superior a 45% e inferior a 55%.",
+    "superior a 65%.",
+    "superior a 55% e inferior a 65%."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-abrangencia-geral-040",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere que, no texto CB1A07, para realizar investimentos em suas instalações e compra de equipamentos, a pousada Boa Estadia tenha contratado, pelo sistema SAC, empréstimo no valor de R$ 10.000, a ser pago em cinco prestações mensais e sucessivas à taxa de 3% a.m., com vencimento da primeira parcela 30 dias após a contratação do empréstimo. Nessa situação, o valor dos juros pagos na quarta prestação foi de",
+   "gabarito": "b",
+   "alternativas": [
+    "R$ 60.",
+    "R$ 120.",
+    "R$ 180.",
+    "R$ 240.",
+    "R$ 300."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-001",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No texto CB1A1-I, a autora",
+   "gabarito": "d",
+   "alternativas": [
+    "atesta que o desenvolvimento da vacina agravou a desigualdade social e econômica por meio da discriminação.",
+    "questiona as consequências da pandemia com base em uma variável específica: a polarização política.",
+    "alerta sobre a precariedade das pessoas vulneráveis ao vírus.",
+    "aventa as razões por que a pandemia potencializa a vulnerabilidade de determinadas pessoas.",
+    "reflete sobre a evolução histórica do capitalismo como um sistema que se sobressai em relação ao bem-estar coletivo."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-002",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A argumentação central do texto CB1A1-I é articulada a partir da dicotomia",
+   "gabarito": "b",
+   "alternativas": [
+    "vida e morte.",
+    "individual e coletivo.",
+    "fraco e forte.",
+    "capitalismo e socialismo.",
+    "público e privado."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-003",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em “Um cenário que já podemos imaginar é a produção e comercialização de uma vacina eficaz contra a covid-19”, o vocábulo “já” foi empregado com o sentido de",
+   "gabarito": "c",
+   "alternativas": [
+    "primeiramente.",
+    "antecipadamente.",
+    "prontamente.",
+    "inicialmente.",
+    "anteriormente."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-004",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No trecho “Parece provável que passaremos a ver, no próximo ano, um cenário doloroso no qual algumas criaturas humanas afirmam seu direito de viver ao custo de outras, reinscrevendo a distinção espúria entre vidas passíveis e não passíveis de luto”, a palavra “espúria” poderia, sem alteração dos sentidos originais do texto, ser substituída por",
+   "gabarito": "e",
+   "alternativas": [
+    "frágil.",
+    "difícil.",
+    "confusa.",
+    "ilegal.",
+    "desonesta."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-005",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A correção gramatical e a coerência do texto CB1A1-I seriam mantidas caso a expressão “pela qual”, em “Por conta da forma pela qual se move e ataca, ele demonstra que a comunidade humana é igualmente precária”, fosse substituída por",
+   "gabarito": "d",
+   "alternativas": [
+    "que.",
+    "por causa da qual.",
+    "onde.",
+    "como.",
+    "da qual."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-006",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No texto CB1A1-II, o narrador",
+   "gabarito": "d",
+   "alternativas": [
+    "explica a evolução de uma doença e alerta sobre suas consequências sociais.",
+    "preocupa-se com a evolução de uma doença e informa sobre suas consequências sociais.",
+    "descreve os pormenores da evolução de uma doença e critica suas consequências sociais.",
+    "expõe a evolução de uma doença e reflete sobre suas consequências sociais.",
+    "ocupa-se das causas para a evolução de uma doença e suas consequências sociais."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-007",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Os sentidos originais do texto CB1A1-II seriam prejudicados se a expressão “em princípio”, no segundo período do texto, fosse substituída por",
+   "gabarito": "c",
+   "alternativas": [
+    "antes de qualquer consideração.",
+    "em tese.",
+    "na fase inicial.",
+    "de modo geral.",
+    "de forma geral."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-008",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Os sentidos do texto CB1A1-II seriam mantidos caso, no trecho “De um dia para o outro, parecia que a peste se tinha instalado confortavelmente no seu paroxismo”, a locução “tinha instalado” fosse substituída por",
+   "gabarito": "a",
+   "alternativas": [
+    "instalara.",
+    "instalava.",
+    "instalou.",
+    "instalasse.",
+    "instalaria."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-009",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito dos aspectos linguísticos do texto CB1A1-II, julgue os itens a seguir. I Em “Havia, no entanto, outros motivos de inquietação”, o vocábulo “Havia” poderia ser substituído por Existia sem prejuízo da correção gramatical e dos sentidos do texto. II Os sentidos originais do texto seriam alterados caso o adjetivo “bom” fosse deslocado para imediatamente após “funcionário”, em “e incorporava aos seus assassinatos diários a precisão e a regularidade de um bom funcionário”. III Em “E ele atribuía o mérito disso ao novo soro de Gastei, que acabava de obter, com efeito, alguns êxitos imprevistos”, o referente do vocábulo “que” é “Gastei”. Assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-010",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em cada uma das opções a seguir é apresentada uma proposta de reescrita para o seguinte trecho do texto CB1A1-II: “A peste, que, pela imparcialidade eficaz com que exercia seu ministério, deveria ter reforçado a igualdade entre nossos concidadãos pelo jogo normal dos egoísmos, tornava, ao contrário, mais acentuado no coração dos homens o sentimento da injustiça”. Assinale a opção que apresenta a proposta que mantém a correção gramatical e a coerência do texto.",
+   "gabarito": "e",
+   "alternativas": [
+    "A peste, que, pela imparcialidade eficaz com que exercia seu cargo, deveria reforçar a igualdade entre nossos concidadãos, pelo jogo normal dos egoísmos tornava, ao contrário, mais preciso no coração dos homens o sentimento da injustiça.",
+    "Pela imparcialidade eficaz com que exercia sua função, a peste, que deveria ter reforçado a igualdade entre nossos concidadãos pelo jogo normal dos egoísmos, tornava ao contrário mais acentuado no coração dos homens o sentimento de injustiça.",
+    "A peste que deveria ter reforçado a igualdade entre nossos concidadãos pelo jogo normal dos egoísmo — pela imparcialidade eficaz com que exercia seu ministério — tornava o sentimento de injustiça no coração dos homens mais acentuado, ao contrário.",
+    "Ao contrário, o sentimento de injustiça tornava-se mais acentuado com a peste no coração dos homens, a qual deveria, pela imparcialidade com que exercia seu ministério, ter reforçado a igualdade entre os nossos concidadãos pelo jogo normal dos egoísmos.",
+    "O sentimento de injustiça no coração dos homens tornava-se mais acentuado com a peste, que deveria, ao contrário — pela imparcialidade eficaz com que exercia seu ministério —, ter reforçado a igualdade entre os nossos concidadãos pelo jogo normal dos egoísmos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-011",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando os principais elementos que justificam a escolha das prioridades da auditoria, julgue os itens a seguir. I Processos que tenham sofrido alterações significativas devem ser objeto de auditoria, a fim de que se avalie o impacto das alterações nos controles e riscos. II Todo processo deve ser auditado. III A profundidade das análises deve ser aleatoriamente definida. IV Demandas e preocupações da alta administração devem ser consideradas no planejamento da auditoria interna. Assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e IV estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Apenas os itens III e IV estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-012",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que tange à importância da amostragem estatística nos trabalhos da auditoria, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A amostra aleatória é função proporcional da população.",
+    "O auditor não pode solicitar amostra por julgamento.",
+    "A amostra por estratificação é utilizada quando há pequena dispersão dos valores envolvidos.",
+    "A escolha da amostra deve seguir padrão determinístico.",
+    "A amostra exploratória é indicada para pesquisa de fraudes, caso em que tabelas de auditoria mostram a probabilidade de se encontrar uma ocorrência em amostra preestabelecida."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-013",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No trabalho do auditor, os papéis de trabalho devem seguir técnicas e procedimentos. No que se refere a esse assunto, julgue os itens a seguir. I Os papéis de trabalho devem seguir os princípios da ciência normativa. II Apenas os pontos de atenção devem ser abordados no relatório da auditoria. III Havendo identificação de atos irregulares de gestão atribuídos a ex-dirigentes, o controle interno deverá encaminhar ofício a esses ex-dirigentes, dando-lhes conhecimento do trabalho de auditoria. IV Os papéis de trabalho devem ser arquivados em dois tipos de arquivo: permanente e corrente. Estão certos apenas os itens",
+   "gabarito": "c",
+   "alternativas": [
+    "I e IV.",
+    "II e III.",
+    "III e IV.",
+    "I, II e III.",
+    "I, II e IV."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-014",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que apresenta a principal causa de fraude no serviço público brasileiro.",
+   "gabarito": "a",
+   "alternativas": [
+    "insuficiência dos controles internos",
+    "má conduta dos servidores",
+    "má conduta dos dirigentes",
+    "legislação defasada",
+    "ausência de auditoria"
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-015",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Quanto aos tipos e às técnicas de controles internos aplicados à gestão pública, julgue os itens a seguir. I O controle prévio é aquele que ocorre antes da execução do ato pelo gestor público. II O controle pode ser concomitante, para verificar a regularidade do ato. III Não se deve avaliar o custo do controle em relação aos riscos que ele busca mitigar. IV Gestor público não pode executar ato de delegação de atividade sob sua responsabilidade. Estão certos apenas os itens",
+   "gabarito": "a",
+   "alternativas": [
+    "I e II.",
+    "II e III.",
+    "III e IV.",
+    "I, II e IV.",
+    "I, III e IV."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-016",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Porque era inimiga do solicitante, a autoridade administrativa competente negou um pedido de concessão de licença para a construção de edifício, que constituía um ato vinculado. Nessa situação hipotética, a decisão da autoridade",
+   "gabarito": "c",
+   "alternativas": [
+    "tem vício de competência, devendo ser refeita.",
+    "tem um vício na forma legal, podendo ser ratificada.",
+    "tem desvio de finalidade, devendo ser considerada nula.",
+    "foi tomada com abuso de poder, podendo ser revogada.",
+    "deve ser considerada imotivada, mas pode ser convalidada."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-017",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Autoridade hierarquicamente superior delegou a competência de decisão sobre pedidos de alvará de funcionamento para uma autoridade inferior. Em determinado momento, a autoridade inferior, no gozo da competência delegada, concedeu um alvará de funcionamento a determinada empresa. Anos depois, observou-se que a decisão tinha vícios e deveria ser declarada nula. Considerando essa situação hipotética e as disposições da Lei n.º 9.784/1999 e suas alterações, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A delegação torna a autoridade superior incompetente definitivamente, por ser uma renúncia da competência.",
+    "Em razão da delegação, não cabe recurso administrativo à autoridade superior para evitar a declaração da nulidade.",
+    "A delegação deveria ser inválida, pois a lei não permite a delegação de atos decisórios.",
+    "Por ser uma decisão nula, a autoridade superior pode revogá-la em lugar da autoridade inferior.",
+    "A administração pública tem o prazo decadencial de cinco anos para anular decisão viciada."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-018",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do sistema de registro de preços, julgue os itens a seguir, considerando a Lei n.º 8.666/1993 e o Decreto n.º 7.892/2013. I A ata de registro de preços tem validade atrelada à vigência do crédito orçamentário que embasa o contrato a ela relacionado. II Municípios podem aderir a uma ata de registros de preços feita por órgão federal. III Órgão federal pode aderir a uma ata de registro de preços feita por órgão estadual. IV No procedimento de licitação para registro de preços, não é necessário indicar a dotação orçamentária. Estão certos apenas os itens",
+   "gabarito": "b",
+   "alternativas": [
+    "I e III.",
+    "II e IV.",
+    "III e IV.",
+    "I, II e III.",
+    "I, II e IV."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-019",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da responsabilidade civil do Estado, julgue os seguintes itens. I O caso fortuito e a força maior são causas que excluem a responsabilidade civil do Estado. II Particular pode propor ação de indenização contra um servidor público que, no exercício da sua função pública, dolosamente lhe tenha causado prejuízo, dada a sua legitimidade passiva. III O Brasil adota a teoria do risco administrativo, segundo a qual o prejudicado deve identificar a conduta culposa do agente público para lhe imputar a responsabilização. Assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-020",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Após regular processo licitatório, determinado ente federativo estadual delegou a execução de um serviço público uti singuli a uma empresa. Embora a empresa estivesse cumprindo regularmente os termos do contrato, o ente federativo decidiu retomar a execução do serviço público, sob o fundamento de interesse público. Para tanto, houve o prévio pagamento de indenização à empresa e a edição de lei autorizativa específica. Nessa situação hipotética, a retomada da execução do serviço público pelo ente federado configura",
+   "gabarito": "d",
+   "alternativas": [
+    "retrocessão.",
+    "invalidação contratual.",
+    "ilegalidade.",
+    "encampação.",
+    "retomada forçada."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-021",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere as seguintes previsões da Constituição Federal de 1988. Art. 5.º Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos seguintes: [...] XIII – é livre o exercício de qualquer trabalho, ofício ou profissão, atendidas as qualificações profissionais que a lei estabelecer;\" [...] Art. 149. Compete exclusivamente à União instituir contribuições sociais, de intervenção no domínio econômico e de interesse das categorias profissionais ou econômicas, como instrumento de sua atuação nas respectivas áreas, observado o disposto nos arts. 146, III, e 150, I e III, e sem prejuízo do previsto no art. 195, § 6.º, relativamente às contribuições a que alude o dispositivo. [...] § 4.º A lei definirá as hipóteses em que as contribuições incidirão uma única vez. Quanto à aplicabilidade e à interpretação das normas constitucionais, é correto afirmar que o inciso XIII do art. 5.º e o § 4.º do art. 149 da Constituição Federal de 1988 são, respectivamente, normas constitucionais de eficácia",
+   "gabarito": "b",
+   "alternativas": [
+    "plena e limitada.",
+    "contida e limitada.",
+    "limitada e contida.",
+    "plena e contida.",
+    "limitada e plena."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-022",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Lei de iniciativa do Poder Executivo federal que estabelecer, de forma regionalizada, diretrizes, objetivos e metas da administração pública federal para as despesas de capital e outras delas decorrentes, bem como para as despesas relativas aos programas de duração continuada, estará instituindo",
+   "gabarito": "c",
+   "alternativas": [
+    "orçamento fiscal.",
+    "orçamento da seguridade social.",
+    "plano plurianual.",
+    "diretrizes orçamentárias.",
+    "orçamento de investimento."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-023",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "O governo federal repassou recursos financeiros para determinado município, visando atender a uma necessidade de saúde local, mas, por ato de corrupção, o prefeito desviou parte desses valores, tendo cometido crime federal. Nessa situação hipotética, o prefeito será processado e julgado originariamente",
+   "gabarito": "e",
+   "alternativas": [
+    "por juiz de direito de primeira instância.",
+    "por juiz federal de primeira instância.",
+    "pelo Superior Tribunal de Justiça.",
+    "pelo tribunal de justiça respectivo.",
+    "pelo tribunal regional federal respectivo."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-024",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Lei municipal que fixar o horário de funcionamento de estabelecimentos comerciais no âmbito do município será considerada",
+   "gabarito": "b",
+   "alternativas": [
+    "constitucional, por se tratar de tema de competência concorrente do município e do estado.",
+    "constitucional, por tratar de assunto de interesse local.",
+    "inconstitucional, pois o tema é de competência das juntas comerciais.",
+    "inconstitucional, por tratar de relações de consumo, que é tema de competência privativa dos estados.",
+    "inconstitucional, por tratar de relações de consumo, que é tema de competência exclusiva da União."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-025",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Caso tramite no Congresso Nacional emenda constitucional incompatível com dispositivos constitucionais que disciplinam o processo legislativo, a competência para impetrar mandado de segurança acerca do assunto no Supremo Tribunal Federal será somente",
+   "gabarito": "b",
+   "alternativas": [
+    "do Conselho Federal da Ordem dos Advogados do Brasil.",
+    "dos parlamentares.",
+    "do procurador-geral da República.",
+    "do presidente da República.",
+    "de governador de estado."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-026",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No direito penal brasileiro, a retroatividade de lei nova que deixa de considerar um fato como criminoso",
+   "gabarito": "c",
+   "alternativas": [
+    "é vedada, conforme a Constituição Federal de 1988.",
+    "não cessa os efeitos penais da condenação.",
+    "extingue a punibilidade do agente.",
+    "não se aplica a fatos transitados em julgado.",
+    "torna a lei anterior excepcional ou temporária."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-027",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em ação penal iniciada em razão da prática do crime de sonegação fiscal, o juiz reconheceu a presença dos elementos do tipo penal, entretanto absolveu o réu por entender que ficou provado que aquele não tinha condições de arcar com todas as dívidas e, por isso, optou pela quitação das dívidas trabalhistas em detrimento das tributárias. Nessa situação hipotética, o juiz reconheceu",
+   "gabarito": "c",
+   "alternativas": [
+    "a atipicidade.",
+    "a inimputabilidade.",
+    "a excludente de culpabilidade.",
+    "o estado de necessidade.",
+    "o exercício regular de direito."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-028",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A omissão de declaração que deveria constar em documento, com a intenção de prejudicar direito de outrem, caracteriza",
+   "gabarito": "e",
+   "alternativas": [
+    "falsificação de documento público ou particular, a depender da natureza do objeto material.",
+    "estelionato.",
+    "conduta atípica, porque não há previsão de crime omissivo contra a fé pública.",
+    "supressão de documento.",
+    "falsidade ideológica."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-029",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Auditor fiscal que exige tributo que sabe ser indevido pratica o crime de",
+   "gabarito": "b",
+   "alternativas": [
+    "peculato.",
+    "excesso de exação.",
+    "corrupção passiva.",
+    "prevaricação.",
+    "emprego irregular de verbas públicas."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-030",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Lei n.º 8.072/1990 considera crime hediondo",
+   "gabarito": "a",
+   "alternativas": [
+    "a posse ou o porte ilegal de arma de fogo de uso proibido.",
+    "o aborto provocado sem o consentimento da gestante.",
+    "o homicídio simples.",
+    "a concussão e as corrupções ativa e passiva.",
+    "a moeda falsa."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-033",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere que X , … , X represente uma amostra aleatória simples de tamanho 100, com reposição, retirada de uma população normal com média desconhecida M e desvio padrão ⋯ igual a 9. Se X denota a média amostral, então a quantidade X M segue uma distribuição normal com média nula e desvio padrão igual a",
+   "gabarito": "d",
+   "alternativas": [
+    "81.",
+    "0,09.",
+    "0,81.",
+    "0,9.",
+    "9."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-034",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Um modelo de regressão linear simples na forma y = ax + b + ԑ, no qual ε representa o erro aleatório com média nula e variância constante, foi ajustado para um conjunto de dados no qual as médias aritméticas das variáveis y e x são, respectivamente, y 10 e x̅ 5. Pelo método dos mínimos quadrados ordinários, se a estimativa do intercepto (coeficiente b) for igual a 20, então a estimativa do coeficiente angular a proporcionada por esse mesmo método deverá ser igual a",
+   "gabarito": "a",
+   "alternativas": [
+    "−2.",
+    "2.",
+    "−1.",
+    "0.",
+    "1."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-036",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No texto CB1A07, a taxa mensal de desconto racional simples obtida por Cláudio foi",
+   "gabarito": "c",
+   "alternativas": [
+    "inferior a 5%.",
+    "superior a 5% e inferior a 5,5%.",
+    "superior a 6,5%.",
+    "superior a 5,5% e inferior a 6%.",
+    "superior a 6% e inferior a 6,5%."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-037",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No texto CB1A07, caso Cláudio optasse por aplicar seu dinheiro em 9 de março de 2020, de modo a obter, em 9 de outubro de 2020, o valor suficiente para pagar os serviços da pousada Boa Estadia, sem desconto, em aplicação com rentabilidade mensal composta de 5%, o valor a ser aplicado, assumindo-se 1,057 = 1,41, deveria ser",
+   "gabarito": "e",
+   "alternativas": [
+    "inferior a R$ 1.000.",
+    "superior a R$ 1.075.",
+    "superior a R$ 1.000 e inferior a R$ 1.025.",
+    "superior a R$ 1.025 e inferior a R$ 1.050.",
+    "superior a R$ 1.050 e inferior a R$ 1.075."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-038",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere que, no texto CB1A07, a pousada Boa Estadia, apesar de seus esforços para conter o impacto da pandemia em seu fluxo de caixa, tenha visto seu faturamento despencar 20% no primeiro mês, 30% no segundo e 40% no terceiro, com leve recuperação de 10% no quarto mês, sempre em relação ao mês anterior, após as autoridades relaxarem um pouco as regras de isolamento. Nesse caso, a queda acumulada no faturamento no período considerado, em comparação com aquele pré-pandemia, foi",
+   "gabarito": "a",
+   "alternativas": [
+    "inferior a 70%.",
+    "superior a 70% e inferior a 75%.",
+    "superior a 85%.",
+    "superior a 75% e inferior a 80%.",
+    "superior a 80% e inferior a 85%."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-039",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ainda com relação ao texto CB1A07, considere que, como forma de enfrentar a queda de faturamento decorrente da pandemia, a pousada Boa Estadia tenha realizado investimentos no total de R$ 10.000 no mês de julho para adaptação de suas instalações e compra de equipamentos, tendo verificado um aumento de R$ 5.000 e de R$ 15.000 nos faturamentos dos meses subsequentes, respectivamente. Assim, a taxa interna de retorno associada a esse fluxo de caixa marginal foi",
+   "gabarito": "c",
+   "alternativas": [
+    "inferior a 35%.",
+    "superior a 35% e inferior a 45%.",
+    "superior a 45% e inferior a 55%.",
+    "superior a 65%.",
+    "superior a 55% e inferior a 65%."
+   ]
+  },
+  {
+   "id": "cebraspe-2020-prefaracajuse-tecnologia-informacao-040",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2020,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere que, no texto CB1A07, para realizar investimentos em suas instalações e compra de equipamentos, a pousada Boa Estadia tenha contratado, pelo sistema SAC, empréstimo no valor de R$ 10.000, a ser pago em cinco prestações mensais e sucessivas à taxa de 3% a.m., com vencimento da primeira parcela 30 dias após a contratação do empréstimo. Nessa situação, o valor dos juros pagos na quarta prestação foi de",
+   "gabarito": "b",
+   "alternativas": [
+    "R$ 60.",
+    "R$ 120.",
+    "R$ 180.",
+    "R$ 240.",
+    "R$ 300."
+   ]
+  }
+ ]
+}
