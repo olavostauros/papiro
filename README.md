@@ -95,7 +95,7 @@ docker compose up -d --build                # sobe db + api
 docker compose run --rm crawler python -m crawler.db sync
 
 # crawler roda one-shot sob o profile `crawler`
-docker compose run --rm crawler python -m crawler.cebraspe next --probe 30
+docker compose run --rm crawler python -m crawler next --probe 30
 ```
 
 - `db` — Postgres, o banco de questões (populado pelos shards de `data/questions/`)

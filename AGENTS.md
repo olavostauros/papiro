@@ -35,8 +35,8 @@ phased plan in `.agents/docs/crawler-rework.md`. Layout: generic core in
 `crawler/` (models/shards/db/validate/gabarito/pdf/pipeline) + per-banca
 adapters in `crawler/bancas/` (`base.py` = `BancaAdapter` contract;
 `cebraspe/` = api/prova/textparse/selecao). `job["banca"]` resolves the
-adapter (default `cebraspe`). Unified CLI `python -m crawler` (the old
-`python -m crawler.cebraspe` still forwards). Job-driven workflow (run
+adapter (default `cebraspe`). Unified CLI `python -m crawler`.
+Job-driven workflow (run
 from the repo root with `.venv/bin/python`):
 
 1. `.venv/bin/python -m crawler next --probe 30` — ranks
