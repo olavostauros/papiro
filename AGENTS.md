@@ -83,6 +83,33 @@ Docs: https://docs.firecrawl.dev/ (index: https://docs.firecrawl.dev/llms.txt)
   full tool surface needs `Authorization: Bearer` (key in
   `.devin/mcp_config.local.json`) or the OAuth endpoint + `devin mcp login`.
 
+## Subagents
+
+Specialized subagent profiles live in `.agents/agents/<name>.md` (tracked;
+`.devin/` is local-only). Spawn them with `run_subagent(profile: ...)`:
+
+- `perito` — cybersecurity examiner (Perito Criminal Federal Área 14). Audits
+  code/config/pipeline against `.agents/docs/SECURITY.md` — secrets handling,
+  injection (SQL/subprocess/path/SSRF), stored XSS via dataset content, API
+  posture, supply chain, CI. Read-only + exec; emits a **laudo pericial**
+  (achados table, severity, `file:line` evidence, recommended fixes). Spawn it
+  to review new banca adapters, API/web surface changes, Docker/CI changes, or
+  on demand — it never edits source; the main agent remediates.
+- `auditor` — VM operations auditor (TCU/Receita do roster). The **only**
+  profile shipped in the image (`COPY .agents/agents/auditor.md` →
+  `/app/.agents/agents/`); administers the compose
+  stack on the VM **as the non-root `papiro` user** (uid 10001 — bind
+  mounts `data/`/`crawler/jobs/` must be writable by it), runs the
+  scheduled ingest via `compose run`, verifies posture (no db port, no
+  secret dumps). Emits a **relatório de fiscalização** com não
+  conformidades + determinações.
+- `arquivista` — data-operations archivist on the **host** (never the VM).
+  Runs the whole ingest workflow — `next/files/fetch`, job.json curation,
+  `audit`, `assemble --write`, shard hygiene scan, `crawler.db sync`,
+  batch commits — and edits only job configs/`crawler/jobs/` (pipeline code
+  bugs get handed back). Emits a **guia de remessa** (acervo, irregularidades,
+  destino, devoluções). Spawn it to ingest an evento or reconcile the dataset.
+
 ## Development
 
 The site lives in `web/` — run all npm/Astro commands from that directory.

@@ -15,6 +15,7 @@ crawler/jobs/*.pdf
 *.pem
 *.key
 .devin
-.agents
+.agents/*
+!.agents/agents
 docs
 .github
