@@ -95,6 +95,14 @@ Specialized subagent profiles live in `.agents/agents/<name>.md` (tracked;
   (achados table, severity, `file:line` evidence, recommended fixes). Spawn it
   to review new banca adapters, API/web surface changes, Docker/CI changes, or
   on demand — it never edits source; the main agent remediates.
+- `sentinela` — security remediation engineer, the write counterpart to
+  `perito`. Implements each *correção recomendada* from a laudo pericial
+  (validation at adapter boundaries, `resolve()`/`is_relative_to` at sinks,
+  API/Docker hardening, dependency pins) — fail-closed fixes, minimal diff,
+  full read/write/exec on source but never commits and never edits
+  `SECURITY.md`/laudos. Emits a **relatório de remediação** (FIX/FIX-PARCIAL/
+  ADIADO per achado + verifications + pendências). Spawn it to remediate a
+  laudo — not to audit (that is perito).
 - `auditor` — VM operations auditor (TCU/Receita do roster). The **only**
   profile shipped in the image (`COPY .agents/agents/auditor.md` →
   `/app/.agents/agents/`); administers the compose
