@@ -10,6 +10,7 @@ from __future__ import annotations
 import re
 import shutil
 import subprocess
+import urllib.parse
 from pathlib import Path
 
 CACHE_DIR = Path(__file__).resolve().parent / ".cache" / "pdf"
@@ -53,15 +54,22 @@ def cache_path(url: str, cache_dir: Path = CACHE_DIR) -> Path:
     return cache_dir / re.sub(r"[^A-Za-z0-9_.-]+", "_", url)[-120:]
 
 
+def redirect_seguro(orig: str, dest: str) -> bool:
+    """Redirect só para o mesmo host/porta — nunca https→http."""
+    o, d = urllib.parse.urlsplit(orig), urllib.parse.urlsplit(dest)
+    return o.hostname == d.hostname and o.port == d.port \
+        and (d.scheme == o.scheme or d.scheme == "https")
+
+
 def _stream_pdf(client, url: str, tmp: Path) -> None:
     """GET em streaming: redirects só para o mesmo host, aborta > MAX_PDF_BYTES."""
     for _ in range(MAX_REDIRECTS + 1):
         with client.stream("GET", url, follow_redirects=False) as r:
             if r.is_redirect and r.has_redirect_location:
-                loc = r.url.join(r.headers["location"])
-                if loc.host != r.url.host:
-                    raise ValueError(f"redirect cross-host recusado: {loc}")
-                url = str(loc)
+                loc = str(r.url.join(r.headers["location"]))
+                if not redirect_seguro(str(r.url), loc):
+                    raise ValueError(f"redirect recusado: {loc}")
+                url = loc
                 continue
             r.raise_for_status()
             buf, total = b"", 0
@@ -94,10 +102,13 @@ def baixar(url: str, cache_dir: Path = CACHE_DIR, client=None) -> Path:
     own = client is None
     client = client or httpx.Client(timeout=60,
                                     headers={"User-Agent": USER_AGENT})
+    tmp = dest.with_suffix(dest.suffix + ".part")
     try:
-        tmp = dest.with_suffix(dest.suffix + ".part")
         _stream_pdf(client, url, tmp)
         tmp.replace(dest)
+    except Exception:
+        tmp.unlink(missing_ok=True)   # não deixa .part residual
+        raise
     finally:
         if own:
             client.close()

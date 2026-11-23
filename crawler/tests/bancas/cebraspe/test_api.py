@@ -1,3 +1,5 @@
+import pytest
+
 from crawler.bancas.cebraspe import api as d
 
 
@@ -174,3 +176,86 @@ def test_orgao_por_sigla_do_evento():
 def test_limpar_cargo_quase_todo_maiusculo():
     assert d.limpar_cargo("CARGO 3: SOLDADO DO QUADRO DE PRAÇAS MÚSICOS (QPMus) – ESPECIALIDADE: CLARINETE") \
         .startswith("Soldado do Quadro de Praças Músicos")
+
+
+# ---------------------------------------------------------------------------
+# Validadores e guards de redirect (PER-010/011)
+# ---------------------------------------------------------------------------
+
+def test_campo_seguro():
+    for v in ("TRF6_24", "PF_18-ADM", "IBAMA_25", "CD_25_NS", "x", "A1"):
+        assert d.campo_seguro(v) == v
+    for v in ("..", "../x", "a/b", "a\\b", "", ".", "-x", ".x", "_", "x..y",
+              "x\x00y", "evento x", "evéntó", "TRF6_24\n"):
+        with pytest.raises(ValueError):
+            d.campo_seguro(v)
+
+
+def test_arquivo_seguro():
+    for v in ("prova (1).pdf", "057_IBAMA_CB1_01.pdf",
+              "MATRIZ_039_CAESB_CG3_00_Com Justificativas_OK.pdf"):
+        assert d.arquivo_seguro(v) == v
+    for v in ("../x.pdf", "a/b.pdf", "a\\b.pdf", "x..pdf", "", "..", "a/../b"):
+        with pytest.raises(ValueError):
+            d.arquivo_seguro(v)
+
+
+class _JsonResp:
+    def __init__(self, location=None, data=None):
+        self.url = None  # o client falso preenche com a URL requisitada
+        self.is_redirect = self.has_redirect_location = location is not None
+        self.headers = {"location": location} if location else {}
+        self._data = data or {}
+
+    def raise_for_status(self):
+        pass
+
+    def json(self):
+        return self._data
+
+
+def _fetch_client(monkeypatch, *resps):
+    """Substitui httpx.Client por um fake que serve `resps` em sequência."""
+    import httpx
+    state = {"resps": list(resps), "urls": []}
+
+    class Fake:
+        def get(self, url, **kw):
+            state["urls"].append(url)
+            r = state["resps"].pop(0)
+            r.url = httpx.URL(url)
+            return r
+
+    monkeypatch.setattr(httpx, "Client", lambda **kw: Fake())
+    return state
+
+
+def test_fetch_segue_redirect_mesmo_host(tmp_path, monkeypatch):
+    alvo = f"{d.API}/tipo/concursos-v2"
+    state = _fetch_client(monkeypatch, _JsonResp(location=alvo),
+                          _JsonResp(data=[{"x": 1}]))
+    fetch = d.make_fetch(cache_dir=tmp_path)
+    assert fetch(d.LIST_URL) == [{"x": 1}]
+    assert state["urls"] == [d.LIST_URL, alvo]
+
+
+def test_fetch_recusa_redirect_cross_host_e_downgrade(tmp_path, monkeypatch):
+    for loc in ("https://evil.example/x",
+                "http://apis.cebraspe.org.br/cebraspe/eventos/x"):
+        _fetch_client(monkeypatch, _JsonResp(location=loc))
+        with pytest.raises(ValueError, match="redirect"):
+            d.make_fetch(cache_dir=tmp_path)(d.LIST_URL)
+
+
+def test_mesmo_host_redirect_urllib():
+    import urllib.request
+    h = d._MesmoHostRedirect()
+    req = urllib.request.Request(f"{d.CDN}/X_24/arquivos/a.pdf")
+    for dest in ("https://evil.example/a.pdf",
+                 "http://cdn.cebraspe.org.br/x.pdf",
+                 "https://cdn.cebraspe.org.br:444/x.pdf"):
+        with pytest.raises(ValueError, match="redirect"):
+            h.redirect_request(req, None, 302, "Found", {}, dest)
+    novo = h.redirect_request(req, None, 302, "Found", {},
+                              f"{d.CDN}/X_24/arquivos/b.pdf")
+    assert novo.full_url.endswith("/b.pdf")

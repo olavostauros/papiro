@@ -37,6 +37,7 @@ from pathlib import Path
 from typing import Any, Callable, Iterable, Optional
 
 from ...models import slugify
+from ...pdf import redirect_seguro
 from ...shards import SHARD_DIR, iter_records
 
 API = "https://apis.cebraspe.org.br/cebraspe/eventos"
@@ -55,7 +56,7 @@ Fetch = Callable[[str], Any]  # url -> parsed JSON
 
 MAX_PDF_BYTES = 100 * 1024 * 1024   # provas reais ficam em unidades de MB
 MAX_REDIRECTS = 5
-_NOME_CAMPO = re.compile(r"^[A-Za-z0-9._-]+$")
+_NOME_CAMPO = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]*$")  # 1º char alfanumérico
 
 
 def campo_seguro(valor: str, campo: str = "eventoURL") -> str:
@@ -635,13 +636,20 @@ def make_fetch(cache_dir: Path = CACHE_DIR, offline: bool = False,
             raise FileNotFoundError(f"sem cache para {url} (--offline)")
         import httpx
         if client is None:
-            client = httpx.Client(timeout=30, headers={"User-Agent": USER_AGENT},
-                                  follow_redirects=True)
-        r = client.get(url)
-        r.raise_for_status()
-        data = r.json()
-        path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
-        return data
+            client = httpx.Client(timeout=30, headers={"User-Agent": USER_AGENT})
+        for _ in range(MAX_REDIRECTS + 1):
+            r = client.get(url, follow_redirects=False)
+            if r.is_redirect and r.has_redirect_location:
+                loc = str(r.url.join(r.headers["location"]))
+                if not redirect_seguro(str(r.url), loc):
+                    raise ValueError(f"redirect recusado: {loc}")
+                url = loc
+                continue
+            r.raise_for_status()
+            data = r.json()
+            path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+            return data
+        raise ValueError(f"redirects demais: {url}")
 
     return fetch
 
@@ -685,12 +693,12 @@ def get_evento(ref, fetch: Optional[Fetch] = None) -> dict:
 
 
 class _MesmoHostRedirect(urllib.request.HTTPRedirectHandler):
-    """Só segue redirect para o mesmo host — o fetch sai de dentro da VM."""
+    """Só segue redirect para o mesmo host, sem downgrade https→http —
+    o fetch sai de dentro da VM."""
 
     def redirect_request(self, req, fp, code, msg, headers, newurl):
-        if urllib.parse.urlsplit(newurl).netloc.lower() != \
-                urllib.parse.urlsplit(req.full_url).netloc.lower():
-            raise ValueError(f"redirect cross-host recusado: {newurl}")
+        if not redirect_seguro(req.full_url, newurl):
+            raise ValueError(f"redirect recusado: {newurl}")
         return super().redirect_request(req, fp, code, msg, headers, newurl)
 
 
