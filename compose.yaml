@@ -66,16 +66,17 @@ services:
         condition: service_healthy
 
   # Exposição pública na VM via Cloudflare Tunnel — outbound-only, nenhuma
-  # porta de ingress aberta. Token vem do tunnel "remotely managed" no
-  # dashboard Zero Trust; ingress/hostname é configurado lá (api.<domínio>
-  # → http://api:8000). Ver .agents/docs/deploy-gcp.md.
+  # porta de ingress aberta. Tunnel "locally managed" criado via
+  # `cloudflared tunnel login/create/route dns` (ver deploy-gcp.md);
+  # creds.json (segredo) + config.yml (ingress api.olavostauros.com →
+  # http://api:8000) montados de .env/cloudflared/.
   cloudflared:
     image: cloudflare/cloudflared:2026.11.1
     profiles: ["tunnel"]
     restart: unless-stopped
-    command: tunnel --no-autoupdate run
-    environment:
-      TUNNEL_TOKEN: ${CF_TUNNEL_TOKEN:?defina CF_TUNNEL_TOKEN (ver .env/docker.env)}
+    command: tunnel --no-autoupdate --config /etc/cloudflared/config.yml run
+    volumes:
+      - ./.env/cloudflared:/etc/cloudflared:ro
     depends_on:
       - api
 
