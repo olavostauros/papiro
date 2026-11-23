@@ -1,15 +1,14 @@
 # papiro — Postgres + API + crawler na VM (.agents/docs/docker-postgres.md)
 #
-#   docker compose up -d                 # sobe db + api
-#   docker compose run --rm crawler \
+#   docker compose --env-file .env/docker.env up -d   # sobe db + api
+#   docker compose --env-file .env/docker.env run --rm crawler \
 #     python -m crawler.db sync          # popula o banco a partir dos shards
-#   docker compose run --rm crawler \
+#   docker compose --env-file .env/docker.env run --rm crawler \
 #     python -m crawler next --probe 30
 #
-# Variáveis: exporte antes de subir (ou crie .env/docker.env em KEY=VAL):
-#   export POSTGRES_PASSWORD=$(cat .env/POSTGRES_PASSWORD)
-#   export POSTGRES_RO_PASSWORD=$(cat .env/POSTGRES_RO_PASSWORD)
-#   export FIRECRAWL_API_KEY=$(cat .env/FIRECRAWL_API_KEY)
+# Variáveis: ficam no agregado `.env/docker.env` (KEY=VAL) — o compose exige
+# `--env-file` porque `.env/` é diretório; alternativa: exportar no shell.
+# Esperadas: POSTGRES_PASSWORD, POSTGRES_RO_PASSWORD, FIRECRAWL_API_KEY.
 # O crawler roda sob o profile `crawler` (one-shot por comando); na VM o loop
 # de ingest fica em cron/systemd timer chamando `compose run` — restart-loop
 # direto no compose reexecutaria `next` em busy-loop sem efeito.
