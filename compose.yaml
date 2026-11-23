@@ -8,6 +8,7 @@
 #
 # Variáveis: exporte antes de subir (ou crie .env/docker.env em KEY=VAL):
 #   export POSTGRES_PASSWORD=$(cat .env/POSTGRES_PASSWORD)
+#   export POSTGRES_RO_PASSWORD=$(cat .env/POSTGRES_RO_PASSWORD)
 #   export FIRECRAWL_API_KEY=$(cat .env/FIRECRAWL_API_KEY)
 # O crawler roda sob o profile `crawler` (one-shot por comando); na VM o loop
 # de ingest fica em cron/systemd timer chamando `compose run` — restart-loop
@@ -15,13 +16,15 @@
 
 services:
   db:
-    image: postgres:17-alpine
+    image: postgres:17-alpine@sha256:f9cf3e1f0066f0eb0c48707d864f0ac5941e9ff454a072077d97a4d278d07d73
     environment:
       POSTGRES_DB: papiro
       POSTGRES_USER: papiro
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?defina POSTGRES_PASSWORD (ver .env/)}
+      POSTGRES_RO_PASSWORD: ${POSTGRES_RO_PASSWORD:?defina POSTGRES_RO_PASSWORD (ver .env/)}
     volumes:
       - pgdata:/var/lib/postgresql/data
+      - ./db/initdb:/docker-entrypoint-initdb.d:ro   # só executa em volume novo
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U papiro"]
       interval: 5s
@@ -32,7 +35,7 @@ services:
     build: .
     command: uvicorn api.main:app --host 0.0.0.0 --port 8000
     environment:
-      DATABASE_URL: postgresql://papiro:${POSTGRES_PASSWORD}@db:5432/papiro
+      DATABASE_URL: postgresql://papiro_ro:${POSTGRES_RO_PASSWORD}@db:5432/papiro
       CORS_ORIGINS: ${CORS_ORIGINS:-https://olavostauros.github.io}
     depends_on:
       db:
