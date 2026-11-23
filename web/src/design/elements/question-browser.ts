@@ -63,6 +63,9 @@ function esc(s: string): string {
     .replace(/"/g, '&quot;');
 }
 
+// fonte vira href: só http(s) é clicável (banca futura com fonte arbitrária)
+const FONTE_URL = /^https?:/i;
+
 function gabaritoTexto(q: Questao): string {
   return q.tipo === 'certo_errado'
     ? q.gabarito === 'certo'
@@ -86,7 +89,10 @@ function cardHtml(q: Questao): string {
       ? `<span class="ml-auto inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium bg-accent-soft text-accent">${esc(q.assunto)}</span>`
       : ''
   }</p>`;
-  return `<question-card data-banca="${esc(q.banca)}" data-orgao="${esc(q.orgao)}" data-cargo="${esc(q.cargo)}" data-ano="${q.ano}" data-assunto="${esc(q.assunto)}" data-gabarito="${esc(q.gabarito)}" data-gabarito-texto="${esc(gabaritoTexto(q))}" data-filter-item><article class="rounded-xl border border-line bg-surface p-5" aria-label="${aria}">${meta}<p id="enunciado-${esc(q.id)}" class="mt-3 font-serif text-base leading-relaxed sm:text-lg">${esc(q.enunciado)}</p><div class="mt-3 grid gap-1.5${ce ? ' grid-cols-2' : ''}" role="radiogroup" aria-labelledby="enunciado-${esc(q.id)}">${opcoes}</div><div class="mt-4 flex flex-wrap items-center gap-4 text-sm"><button class="${BOTAO_CLS}" type="button" data-ver-gabarito>Ver gabarito</button><p data-resultado role="status" class="hidden font-medium"></p><a href="${esc(q.fonte)}" class="${LINK_CLS}" aria-label="Fonte oficial — ${esc(q.banca)}, ${esc(q.cargo)}, ${q.ano}">Fonte oficial</a></div></article></question-card>`;
+  const fonte = FONTE_URL.test(q.fonte)
+    ? `<a href="${esc(q.fonte)}" class="${LINK_CLS}" aria-label="Fonte oficial — ${esc(q.banca)}, ${esc(q.cargo)}, ${q.ano}">Fonte oficial</a>`
+    : `<span class="${LINK_CLS}">Fonte oficial</span>`;
+  return `<question-card data-banca="${esc(q.banca)}" data-orgao="${esc(q.orgao)}" data-cargo="${esc(q.cargo)}" data-ano="${q.ano}" data-assunto="${esc(q.assunto)}" data-gabarito="${esc(q.gabarito)}" data-gabarito-texto="${esc(gabaritoTexto(q))}" data-filter-item><article class="rounded-xl border border-line bg-surface p-5" aria-label="${aria}">${meta}<p id="enunciado-${esc(q.id)}" class="mt-3 font-serif text-base leading-relaxed sm:text-lg">${esc(q.enunciado)}</p><div class="mt-3 grid gap-1.5${ce ? ' grid-cols-2' : ''}" role="radiogroup" aria-labelledby="enunciado-${esc(q.id)}">${opcoes}</div><div class="mt-4 flex flex-wrap items-center gap-4 text-sm"><button class="${BOTAO_CLS}" type="button" data-ver-gabarito>Ver gabarito</button><p data-resultado role="status" class="hidden font-medium"></p>${fonte}</div></article></question-card>`;
 }
 
 const CAMPOS = ['banca', 'orgao', 'cargo', 'ano', 'assunto'] as const;

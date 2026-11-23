@@ -37,6 +37,7 @@ const gabaritoTexto = certoErrado
     ? 'Certo'
     : 'Errado'
   : `Alternativa ${q.gabarito.toUpperCase()}`;
+const fonteOk = /^https?:/i.test(q.fonte);
 ---
 
 <question-card
@@ -73,14 +74,20 @@ const gabaritoTexto = certoErrado
     <div class="mt-4 flex flex-wrap items-center gap-4 text-sm">
       <Button variant="ghost" size="sm" type="button" data-ver-gabarito>Ver gabarito</Button>
       <p data-resultado role="status" class="hidden font-medium"></p>
-      <Link
-        href={q.fonte}
-        variant="underline"
-        class="ml-auto"
-        aria-label={`Fonte oficial — ${q.banca}, ${q.cargo}, ${q.ano}`}
-      >
-        Fonte oficial
-      </Link>
+      {
+        fonteOk ? (
+          <Link
+            href={q.fonte}
+            variant="underline"
+            class="ml-auto"
+            aria-label={`Fonte oficial — ${q.banca}, ${q.cargo}, ${q.ano}`}
+          >
+            Fonte oficial
+          </Link>
+        ) : (
+          <span class="ml-auto">Fonte oficial</span>
+        )
+      }
     </div>
   </Card>
 </question-card>
