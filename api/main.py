@@ -28,8 +28,8 @@ from pydantic import BaseModel
 from sqlalchemy import func, select, text
 from sqlalchemy.orm import Session
 
-from crawler.db import (Assunto, Banca, Cargo, Evento, Orgao, Prova,
-                        QuestaoDB, get_engine)
+from crawler.db import (DEFAULT_URL, Assunto, Banca, Cargo, Evento, Orgao,
+                        Prova, QuestaoDB, get_engine)
 from crawler.models import Questao
 
 from . import queries
@@ -66,10 +66,16 @@ class ProvaInfo(BaseModel):
 
 DEFAULT_CORS = "https://olavostauros.github.io"
 MAX_PER_PAGE = 100
+MAX_PAGE = 10000               # teto p/ OFFSET arbitrário (DoS barato)
+STATEMENT_TIMEOUT_MS = 5000    # postgres apenas; SQLite nos testes ignora
 
 
 def create_app(database_url: Optional[str] = None) -> FastAPI:
-    engine = get_engine(database_url)
+    url = database_url or os.environ.get("DATABASE_URL") or DEFAULT_URL
+    kw = {"connect_args": {
+        "options": f"-c statement_timeout={STATEMENT_TIMEOUT_MS}"}} \
+        if url.startswith("postgres") else {}
+    engine = get_engine(url, **kw)
     app = FastAPI(title="papiro API", version="0.1.0")
     app.add_middleware(
         CORSMiddleware,
@@ -113,7 +119,7 @@ def create_app(database_url: Optional[str] = None) -> FastAPI:
         cargo: Optional[str] = None, ano: Optional[int] = None,
         assunto: Optional[str] = None, tipo: Optional[str] = None,
         q: Optional[str] = None,
-        page: int = Query(1, ge=1),
+        page: int = Query(1, ge=1, le=MAX_PAGE),
         per_page: int = Query(20, ge=1, le=MAX_PER_PAGE),
     ):
         stmt = queries.apply_filters(
