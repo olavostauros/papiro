@@ -41,6 +41,8 @@ def log_call(
 ) -> None:
     path = path or ledger_path()
     day = day or date.today()
+    # notes carrega URL derivada da banca — uma linha só, sem `|` cru
+    notes = (notes.splitlines() or [""])[0].replace("|", "\\|")
     row = f"| {day.isoformat()} | {task} | {tool} | {items} | {credits} | {notes} |"
     try:
         text = path.read_text() if path.exists() else ""

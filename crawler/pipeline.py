@@ -162,7 +162,9 @@ def assemble(job_path, write=False):
     workdir = Path(job_path).resolve().parent
     adapter = adapter_do(job)
     evento = job["evento"]
-    shard_path = SHARD_DIR / f"{evento}.json"
+    shard_path = (SHARD_DIR / f"{evento}.json").resolve()
+    if not shard_path.is_relative_to(SHARD_DIR.resolve()):
+        raise ValueError(f"evento fora do diretório de shards: {evento!r}")
     data = load_shard_records(shard_path) if shard_path.exists() else []
     existing = {q["id"] for q in data}
     total_new = 0

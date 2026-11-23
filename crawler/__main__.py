@@ -72,8 +72,13 @@ def cmd_fetch(args):
     adapter = bancas.get_adapter(args.banca)
     det = adapter.get_evento(args.evento)
     evento = det["eventoURL"]
-    workdir = Path(args.workdir or
-                   f"{os.environ.get('PAPIRO_WORKDIR', '/tmp')}/{evento.lower()}")
+    base = Path(os.environ.get("PAPIRO_WORKDIR", "/tmp")).resolve()
+    if args.workdir:
+        workdir = Path(args.workdir)
+    else:
+        workdir = (base / evento.lower()).resolve()
+        if not workdir.is_relative_to(base):
+            raise ValueError(f"evento fora do workdir base: {evento!r}")
     manifest = adapter.fetch(det, workdir)
     job = adapter.draft_job(det, manifest, workdir)
     (workdir / "job.json").write_text(json.dumps(job, ensure_ascii=False, indent=1))

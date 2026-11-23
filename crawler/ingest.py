@@ -271,7 +271,11 @@ def task_de(e: dict, adapter) -> str:
 # ---------------------------------------------------------------------------
 
 def extracao_cache(e: dict) -> Path:
-    return EXTRACOES / e["evento"] / f"{e['caderno']}.json"
+    p = (EXTRACOES / e["evento"] / f"{e['caderno']}.json").resolve()
+    if not p.is_relative_to(EXTRACOES.resolve()):
+        raise ValueError(f"evento/caderno fora do cache de extrações: "
+                         f"{e['evento']!r}/{e['caderno']!r}")
+    return p
 
 
 def montar_questoes(e: dict, prova: ProvaExtraida, gab: gabmod.Gabarito,

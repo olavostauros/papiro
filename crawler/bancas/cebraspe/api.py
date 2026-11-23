@@ -53,6 +53,27 @@ USER_AGENT = "papiro-crawler/0.1 (+https://olavostauros.github.io/papiro/)"
 
 Fetch = Callable[[str], Any]  # url -> parsed JSON
 
+MAX_PDF_BYTES = 100 * 1024 * 1024   # provas reais ficam em unidades de MB
+MAX_REDIRECTS = 5
+_NOME_CAMPO = re.compile(r"^[A-Za-z0-9._-]+$")
+
+
+def campo_seguro(valor: str, campo: str = "eventoURL") -> str:
+    """Identificador da banca que vira path local/segmento de URL.
+
+    Falha em vez de sanitizar: um valor hostil indica feed comprometido."""
+    if not _NOME_CAMPO.fullmatch(valor or "") or ".." in valor:
+        raise ValueError(f"{campo} inválido: {valor!r}")
+    return valor
+
+
+def arquivo_seguro(nome: str) -> str:
+    """``nomeArquivo`` — permite espaços/parênteses (nomes reais do CDN),
+    rejeita separadores e ``..``."""
+    if not nome or "/" in nome or "\\" in nome or ".." in nome:
+        raise ValueError(f"nomeArquivo inválido: {nome!r}")
+    return nome
+
 
 # ---------------------------------------------------------------------------
 # Normalização de texto
@@ -462,14 +483,14 @@ def _data(a: dict) -> str:
 
 
 def cdn_url(evento_url: str, nome: str) -> str:
-    return f"{CDN}/{evento_url}/arquivos/{nome}"
+    return f"{CDN}/{campo_seguro(evento_url)}/arquivos/{arquivo_seguro(nome)}"
 
 
 def mapear_evento(evento: dict, conhecidos: dict[str, tuple[str, str]] | None = None,
                   cargos_ids: dict[tuple[str, str], str] | None = None) -> dict:
     """Transforma o detalhe de um evento em entradas de manifesto."""
     conhecidos = conhecidos or {}
-    ev = evento.get("eventoURL") or ""
+    ev = campo_seguro(evento.get("eventoURL") or "")
     arquivos = evento.get("arquivosGabarito") or []
     # Eventos antigos repetem o mesmo arquivo uma vez por cargo, cada um com sua
     # descrição: agrupa por nome e guarda todas as descrições.
@@ -479,6 +500,7 @@ def mapear_evento(evento: dict, conhecidos: dict[str, tuple[str, str]] | None = 
     for a in arquivos:
         tipo, motivo = classify(a)
         if tipo in ("prova", "gabarito"):
+            arquivo_seguro(a["nomeArquivo"])
             alvo = provas_por_nome if tipo == "prova" else gabs_por_nome
             atual = alvo.get(a["nomeArquivo"])
             if atual is None:
@@ -657,16 +679,36 @@ def get_evento(ref, fetch: Optional[Fetch] = None) -> dict:
     if str(ref).isdigit():
         ref = next(e["eventoURL"] for e in listar_eventos(fetch)
                    if e["idEvento"] == int(ref))
-    return fetch(DETAIL_URL.format(id=ref))
+    det = fetch(DETAIL_URL.format(id=campo_seguro(str(ref))))
+    campo_seguro(det.get("eventoURL"))
+    return det
+
+
+class _MesmoHostRedirect(urllib.request.HTTPRedirectHandler):
+    """Só segue redirect para o mesmo host — o fetch sai de dentro da VM."""
+
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        if urllib.parse.urlsplit(newurl).netloc.lower() != \
+                urllib.parse.urlsplit(req.full_url).netloc.lower():
+            raise ValueError(f"redirect cross-host recusado: {newurl}")
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
+
+
+_OPENER = urllib.request.build_opener(_MesmoHostRedirect())
 
 
 def download(evento_url: str, nome_arquivo: str, dest: Path) -> Path:
     """PDF binário do CDN (urllib — fetch cacheia só JSON)."""
-    nome = urllib.parse.quote(nome_arquivo)
-    req = urllib.request.Request(cdn_url(evento_url, nome),
-                                 headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=60) as r, open(dest, "wb") as f:
-        f.write(r.read())
+    nome = urllib.parse.quote(arquivo_seguro(nome_arquivo), safe="")
+    url = cdn_url(evento_url, nome)
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with _OPENER.open(req, timeout=60) as r, open(dest, "wb") as f:
+        total = 0
+        while chunk := r.read(1 << 20):
+            total += len(chunk)
+            if total > MAX_PDF_BYTES:
+                raise ValueError(f"PDF excede {MAX_PDF_BYTES // 2**20} MB: {url}")
+            f.write(chunk)
     return dest
 
 
@@ -683,7 +725,7 @@ def descobrir(fetch: Fetch, *, eventos_filtro: Iterable[str] = (),
 
     def detalhe(e: dict):
         try:
-            return e, fetch(f"{API}/{e['eventoURL']}"), None
+            return e, fetch(f"{API}/{campo_seguro(e['eventoURL'])}"), None
         except Exception as exc:  # noqa: BLE001 — registra e segue
             return e, None, f"{type(exc).__name__}: {exc}"
 

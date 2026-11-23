@@ -59,6 +59,7 @@ class Cebraspe:
     @staticmethod
     def fetch(detalhe: dict, workdir: Path, log=print) -> dict[str, str]:
         """Baixa provas+gabaritos classificados → {nomeArquivo: nome local}."""
+        api.campo_seguro(detalhe["eventoURL"])
         workdir = Path(workdir)
         workdir.mkdir(parents=True, exist_ok=True)
         manifest: dict[str, str] = {}
@@ -66,6 +67,7 @@ class Cebraspe:
             kind = api.arquivo_kind(a)
             if kind not in ("prova", "gabarito"):
                 continue
+            api.arquivo_seguro(a["nomeArquivo"])
             key = _key_for(a["nomeArquivo"])
             local = f"{kind[:3]}_{key}.pdf"
             i = 2
@@ -114,9 +116,11 @@ class Cebraspe:
         """Rascunho de job.json: pareia prova↔gabarito por cargos declarados
         na descrição dos arquivos; sobras caem em ``unmatched``."""
         det = detalhe
-        evento = det["eventoURL"]
+        evento = api.campo_seguro(det["eventoURL"])
         arqs = [a for a in det.get("arquivosGabarito") or []
                 if api.arquivo_kind(a) in ("prova", "gabarito")]
+        for a in arqs:
+            api.arquivo_seguro(a["nomeArquivo"])
         por_numero = api.cargos_do_evento(det)
         conhecidos = api.cargos_conhecidos()
         orgao_n = api.norm(det.get("eventoNomeCompleto") or det["eventoNomeAbreviado"])

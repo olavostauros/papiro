@@ -141,8 +141,11 @@ def iter_records(dataset: Path):
 
 
 def write_shard(evento: str, records: list[dict], shard_dir: Path = SHARD_DIR) -> Path:
+    shard_dir = Path(shard_dir)
     shard_dir.mkdir(parents=True, exist_ok=True)
-    path = shard_dir / f"{evento}.json"
+    path = (shard_dir / f"{evento}.json").resolve()
+    if not path.is_relative_to(shard_dir.resolve()):
+        raise ValueError(f"evento fora do diretório de shards: {evento!r}")
     shard = records_to_shard(evento, records)
     path.write_text(json.dumps(shard, ensure_ascii=False, indent=1) + "\n")
     return path
