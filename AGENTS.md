@@ -111,12 +111,15 @@ Specialized subagent profiles live in `.agents/agents/<name>.md` (tracked;
   scheduled ingest via `compose run`, verifies posture (no db port, no
   secret dumps). Emits a **relatório de fiscalização** com não
   conformidades + determinações.
-- `arquivista` — data-operations archivist on the **host** (never the VM).
-  Runs the whole ingest workflow — `next/files/fetch`, job.json curation,
-  `audit`, `assemble --write`, shard hygiene scan, `crawler.db sync`,
-  batch commits — and edits only job configs/`crawler/jobs/` (pipeline code
-  bugs get handed back). Emits a **guia de remessa** (acervo, irregularidades,
-  destino, devoluções). Spawn it to ingest an evento or reconcile the dataset.
+- `arquivista` — data-operations archivist on the **host**. Runs the whole
+  ingest workflow — `next/files/fetch`, job.json curation, `audit`,
+  `assemble --write`, shard hygiene scan, `crawler.db sync`, batch
+  commits — and edits only job configs/`crawler/jobs/` (pipeline code bugs
+  get handed back). Also **launches the GCP deploy** host-side via
+  `gcloud` per `.agents/docs/deploy-gcp.md`, then hands the VM to
+  `auditor` (it never administers it). Emits a **guia de remessa**
+  (acervo, irregularidades, destino, devoluções). Spawn it to ingest an
+  evento, reconcile the dataset, or launch the deploy.
 
 ## Development
 

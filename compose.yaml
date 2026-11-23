@@ -16,6 +16,7 @@
 services:
   db:
     image: postgres:17-alpine@sha256:f9cf3e1f0066f0eb0c48707d864f0ac5941e9ff454a072077d97a4d278d07d73
+    restart: unless-stopped
     environment:
       POSTGRES_DB: papiro
       POSTGRES_USER: papiro
@@ -32,6 +33,9 @@ services:
 
   api:
     build: .
+    # nome remoto (Artifact Registry) via PAPIRO_IMAGE — default local `papiro`
+    image: ${PAPIRO_IMAGE:-papiro}
+    restart: unless-stopped
     command: uvicorn api.main:app --host 0.0.0.0 --port 8000
     environment:
       DATABASE_URL: postgresql://papiro_ro:${POSTGRES_RO_PASSWORD}@db:5432/papiro
@@ -44,6 +48,7 @@ services:
 
   crawler:
     build: .
+    image: ${PAPIRO_IMAGE:-papiro}
     profiles: ["crawler"]
     command: ["python", "-m", "crawler", "next", "--probe", "30"]
     environment:
@@ -59,6 +64,20 @@ services:
     depends_on:
       db:
         condition: service_healthy
+
+  # Exposição pública na VM via Cloudflare Tunnel — outbound-only, nenhuma
+  # porta de ingress aberta. Token vem do tunnel "remotely managed" no
+  # dashboard Zero Trust; ingress/hostname é configurado lá (api.<domínio>
+  # → http://api:8000). Ver .agents/docs/deploy-gcp.md.
+  cloudflared:
+    image: cloudflare/cloudflared:2026.11.1
+    profiles: ["tunnel"]
+    restart: unless-stopped
+    command: tunnel --no-autoupdate run
+    environment:
+      TUNNEL_TOKEN: ${CF_TUNNEL_TOKEN:?defina CF_TUNNEL_TOKEN (ver .env/docker.env)}
+    depends_on:
+      - api
 
 volumes:
   pgdata:
