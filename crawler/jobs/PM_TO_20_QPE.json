@@ -1,0 +1,30 @@
+{
+ "evento": "PM_TO_20_QPE",
+ "workdir": "/tmp/pm_to_20_qpe",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Polícia Militar do Estado do Tocantins",
+  "ano": 2021,
+  "id_orgao": "pm-to"
+ },
+ "cargos": [
+  {
+   "idArea": "03",
+   "cargo": "Aluno-Soldado QPE",
+   "id_cargo": "aluno-soldado",
+   "provas": [
+    {
+     "key": "obj",
+     "prova": "pro_572PMTO002.pdf",
+     "gabarito": "gab_PMTO_MATRIZ.txt",
+     "tipo": "mc",
+     "arquivo": "MATRIZ_572PMTO002.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}
