@@ -1,0 +1,46 @@
+{
+ "banca": "cebraspe",
+ "evento": "TCU_15_TFCE",
+ "workdir": "/tmp/tcu_15_tfce",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Tribunal de Contas da União",
+  "ano": 2015,
+  "id_orgao": "tcu"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Técnico Federal de Controle Externo",
+   "id_cargo": "tecnico-federal-de-controle-externo",
+   "provas": [
+    {
+     "key": "cb1",
+     "prova": "pro_174TCUTEFC_CB1_01.pdf",
+     "gabarito": "gab_174TCUTEFC_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "174TCUTEFC_CB1_01.pdf"
+    },
+    {
+     "key": "esp",
+     "prova": "pro_174TCUTEFC_001_01.pdf",
+     "gabarito": "gab_174TCUTEFC_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "174TCUTEFC_001_01.pdf"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "cb1": {
+   "1": "a legislação escrita era mais confiável que a legislação instrumentalizada pela repetição de usos.",
+   "4": "nas sociedades antigas, houve período em que o direito era consuetudinário, ou seja, baseava-se nas práticas, nos hábitos e nos costumes da sociedade.",
+   "7": "Na linha 8, o emprego de vírgula logo após “H. Summer Maine” prejudicaria a correção gramatical do período.",
+   "10": "Sem prejuízo do sentido do texto, o termo “destarte” ( R .27) poderia ser substituído por contudo ou todavia.",
+   "36": "No console de uma distribuição qualquer do Linux, como, por exemplo, o Ubuntu, é possível cancelar um comando em execução a partir do uso da combinação das teclas Ctrl e C."
+  }
+ }
+}
