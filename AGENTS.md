@@ -89,8 +89,20 @@ Docs: https://docs.firecrawl.dev/ (index: https://docs.firecrawl.dev/llms.txt)
 
 ## Subagents
 
-Specialized subagent profiles live in `.agents/agents/<name>.md` (tracked;
-`.devin/` is local-only). Spawn them with `run_subagent(profile: ...)`:
+Subagent profiles are markdown charters. The Devin CLI discovers
+project-level profiles from `agents/` dirs: `.agents/agents/` (tracked —
+present in **every** clone, including the VM checkout and the image build
+context) and `.devin/agents/` (local-only, gitignored). Layout here:
+
+- `.agents/agents/` — profiles valid in every environment. Only `auditor`
+  lives here: the VM must see exactly one agent — the one that administers
+  it — and it is also the only profile `COPY`ed into the image.
+- `.agents/host-agents/` — host-only charters (`perito`, `sentinela`,
+  `arquivista`), tracked for versioning but NOT auto-discovered. On the
+  host, activate them once per clone:
+  `mkdir -p .devin/agents && ln -s ../../.agents/host-agents/*.md .devin/agents/`
+
+Spawn them with `run_subagent(profile: ...)`:
 
 - `perito` — cybersecurity examiner (Perito Criminal Federal Área 14). Audits
   code/config/pipeline against `.agents/docs/SECURITY.md` — secrets handling,
@@ -108,8 +120,8 @@ Specialized subagent profiles live in `.agents/agents/<name>.md` (tracked;
   ADIADO per achado + verifications + pendências). Spawn it to remediate a
   laudo — not to audit (that is perito).
 - `auditor` — VM operations auditor (TCU/Receita do roster). The **only**
-  profile shipped in the image (`COPY .agents/agents/auditor.md` →
-  `/app/.agents/agents/`); administers the compose
+  profile under `.agents/agents/` and the only one shipped in the image
+  (`COPY .agents/agents/auditor.md` → `/app/.agents/agents/`); administers the compose
   stack on the VM **as the non-root `papiro` user** (uid 10001 — bind
   mounts `data/`/`crawler/jobs/` must be writable by it), runs the
   scheduled ingest via `compose run`, verifies posture (no db port, no

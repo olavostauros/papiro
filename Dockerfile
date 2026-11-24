@@ -18,7 +18,10 @@ COPY --chown=papiro:papiro crawler/ crawler/
 COPY --chown=papiro:papiro api/ api/
 # único subagente embarcado — `auditor` administra a stack na VM
 # (descoberto como agente de projeto quando a sessão roda com cwd=/app).
-# Agentes novos NÃO entram na imagem a menos que tenham COPY explícito.
+# `.agents/agents/` é o único dir de perfis descoberto em todo clone (incl.
+# a VM) — perfis host-only ficam em `.agents/host-agents/`, fora do build
+# context e da descoberta. Agentes novos NÃO entram na imagem nem na VM a
+# menos que tenham COPY explícito aqui e residam em `.agents/agents/`.
 COPY --chown=papiro:papiro .agents/agents/auditor.md .agents/agents/auditor.md
 # data/ e jobs entram por bind mount em runtime (ver compose.yaml);
 # crawler/.cache e work/ são named volumes — o dono tem que ser o usuário
