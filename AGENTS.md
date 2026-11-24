@@ -19,7 +19,7 @@ sites das bancas → crawler → PDFs → extração → shards (backup) → Pos
   (`python -m crawler.db sync`). When `DATABASE_URL` is set, the ingest
   pipeline upserts new records after writing the shard (DB failure never
   blocks the shard write).
-- `api/` — read-only FastAPI over the DB (`/questoes`, `/filtros`,
+- `api/` — read-only FastAPI over the DB (`/questoes`, `/questoes/{id}`, `/filtros`,
   `/eventos`, `/provas`, `/health`).
 - `web/` — Astro site; consumes the API via `web/src/data/questions.ts`
   (`PUBLIC_API_URL`) + `<question-browser>`. Never bundle the dataset.
