@@ -1,0 +1,163 @@
+{
+ "evento": "ME_20_PSS",
+ "workdir": "/tmp/me_20_pss",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Ministério da Economia",
+  "ano": 2020,
+  "id_orgao": "me"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Perfil Profissional 1: Especialista em Análise de Processos de Negócios",
+   "id_cargo": "analise-processos-negocios",
+   "provas": [
+    {
+     "key": "cb01",
+     "prova": "pro_CARGO1.pdf",
+     "gabarito": "gab_ME_CG1_00_MATRIZ.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO1.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_CARGO1.pdf",
+     "gabarito": "gab_ME_001_00_MATRIZ.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO1.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Perfil Profissional 2: Especialista em Ciência de Dados",
+   "id_cargo": "ciencia-dados",
+   "provas": [
+    {
+     "key": "cb02",
+     "prova": "pro_CARGO2.pdf",
+     "gabarito": "gab_ME_CG1_00_MATRIZ.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO2.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_CARGO2.pdf",
+     "gabarito": "gab_ME_002_00_MATRIZ.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO2.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Perfil Profissional 3: Especialista em Desenvolvimento de Software",
+   "id_cargo": "desenvolvimento-software",
+   "provas": [
+    {
+     "key": "cb03",
+     "prova": "pro_CARGO3.pdf",
+     "gabarito": "gab_ME_CG1_00_MATRIZ.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO3.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_CARGO3.pdf",
+     "gabarito": "gab_ME_003_00_MATRIZ.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO3.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Perfil Profissional 4: Especialista em Experiência do Usuário (UX)",
+   "id_cargo": "experiencia-usuario",
+   "provas": [
+    {
+     "key": "cb04",
+     "prova": "pro_CARGO4.pdf",
+     "gabarito": "gab_ME_CG1_00_MATRIZ.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO4.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_CARGO4.pdf",
+     "gabarito": "gab_ME_004_00_MATRIZ.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO4.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Perfil Profissional 5: Especialista Gestão de Projetos",
+   "id_cargo": "gestao-projetos",
+   "provas": [
+    {
+     "key": "cb05",
+     "prova": "pro_CARGO5.pdf",
+     "gabarito": "gab_ME_CG1_00_MATRIZ.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO5.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_CARGO5.pdf",
+     "gabarito": "gab_ME_005_00_MATRIZ.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO5.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Perfil Profissional 6: Especialista em Infraestrutura de Tecnologia da Informação (TI)",
+   "id_cargo": "infraestrutura-ti",
+   "provas": [
+    {
+     "key": "cb06",
+     "prova": "pro_CARGO6.pdf",
+     "gabarito": "gab_ME_CG1_00_MATRIZ.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO6.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_CARGO6.pdf",
+     "gabarito": "gab_ME_006_00_MATRIZ.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO6.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Perfil Profissional 7: Especialista em Segurança da Informação e Proteção de Dados",
+   "id_cargo": "seguranca-informacao",
+   "provas": [
+    {
+     "key": "cb07",
+     "prova": "pro_CARGO7.pdf",
+     "gabarito": "gab_ME_CG1_00_MATRIZ.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO7.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_CARGO7.pdf",
+     "gabarito": "gab_ME_007_00_MATRIZ.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO7.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}
