@@ -1,0 +1,184 @@
+{
+ "evento": "AGEPAR_PR_26",
+ "workdir": "/tmp/agepar_pr_26",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Agência Reguladora de Serviços Públicos Delegados do Paraná",
+  "ano": 2026,
+  "id_orgao": "agepar"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Especialista em Regulação – Especialidade: Administração",
+   "id_cargo": "administracao",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_3C3769C22A6D61A554BEF09D.pdf",
+     "gabarito": "gab_CE78087ADDB954619AFDCD45.pdf",
+     "tipo": "mc",
+     "arquivo": "3C3769C22A6D61A554BEF09D7897F7E23560C38D167271BBF06BDA9002ECF38B.pdf"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_4C4FBE675B8311BB542E9BC2.pdf",
+     "gabarito": "gab_98145AFDB6B4D745B0F2C1A8.pdf",
+     "tipo": "mc",
+     "arquivo": "4C4FBE675B8311BB542E9BC2E00D4797E926027991955988EF32AE4292166E97.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Especialista em Regulação – Especialidade: Contabilidade",
+   "id_cargo": "contabilidade",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_3C3769C22A6D61A554BEF09D.pdf",
+     "gabarito": "gab_CE78087ADDB954619AFDCD45.pdf",
+     "tipo": "mc",
+     "arquivo": "3C3769C22A6D61A554BEF09D7897F7E23560C38D167271BBF06BDA9002ECF38B.pdf"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_DE446D96277D253D9CDE5156.pdf",
+     "gabarito": "gab_0CC759DAA395C6DB20CC3238.pdf",
+     "tipo": "mc",
+     "arquivo": "DE446D96277D253D9CDE515644B5096B7CDCE5850CFFB46C6D39E490F34DFE5F.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Especialista em Regulação – Especialidade: Direito",
+   "id_cargo": "direito",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_3C3769C22A6D61A554BEF09D.pdf",
+     "gabarito": "gab_CE78087ADDB954619AFDCD45.pdf",
+     "tipo": "mc",
+     "arquivo": "3C3769C22A6D61A554BEF09D7897F7E23560C38D167271BBF06BDA9002ECF38B.pdf"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_F4F724545FA3C94B6D859183.pdf",
+     "gabarito": "gab_DF47896CF76B44FD58009885.pdf",
+     "tipo": "mc",
+     "arquivo": "F4F724545FA3C94B6D85918305FD1C19D17ED291A7B296925DDF01DDBE9C65F0.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Especialista em Regulação – Especialidade: Economia",
+   "id_cargo": "economia",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_3C3769C22A6D61A554BEF09D.pdf",
+     "gabarito": "gab_CE78087ADDB954619AFDCD45.pdf",
+     "tipo": "mc",
+     "arquivo": "3C3769C22A6D61A554BEF09D7897F7E23560C38D167271BBF06BDA9002ECF38B.pdf"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_727E15D9C204404D515F87E0.pdf",
+     "gabarito": "gab_A42D9ADE9C9D7E722A63E6DF.pdf",
+     "tipo": "mc",
+     "arquivo": "727E15D9C204404D515F87E0135AA5F05955E38AD7CAC6E50DDF0C59E5AF5893.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Especialista em Regulação – Especialidade: Engenharia Ambiental",
+   "id_cargo": "engenharia-ambiental",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_3C3769C22A6D61A554BEF09D.pdf",
+     "gabarito": "gab_CE78087ADDB954619AFDCD45.pdf",
+     "tipo": "mc",
+     "arquivo": "3C3769C22A6D61A554BEF09D7897F7E23560C38D167271BBF06BDA9002ECF38B.pdf"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_CBD117C784E6842ABDDC6DE6.pdf",
+     "gabarito": "gab_D1338B92905BEEC355285CD3.pdf",
+     "tipo": "mc",
+     "arquivo": "CBD117C784E6842ABDDC6DE6F20433AFF8653EA0E9F0E91E9AFC42716663E2E9.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Especialista em Regulação – Especialidade: Engenharia Civil",
+   "id_cargo": "engenharia-civil",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_3C3769C22A6D61A554BEF09D.pdf",
+     "gabarito": "gab_CE78087ADDB954619AFDCD45.pdf",
+     "tipo": "mc",
+     "arquivo": "3C3769C22A6D61A554BEF09D7897F7E23560C38D167271BBF06BDA9002ECF38B.pdf"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_57EF2DC95867CB84956240C3.pdf",
+     "gabarito": "gab_1A8407EA111CB5A49862D9C8.pdf",
+     "tipo": "mc",
+     "arquivo": "57EF2DC95867CB84956240C39169A38E4F48EFE8648D99339FB78E677266112A.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Especialista em Regulação – Especialidade: Engenharia Elétrica",
+   "id_cargo": "engenharia-eletrica",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_3C3769C22A6D61A554BEF09D.pdf",
+     "gabarito": "gab_CE78087ADDB954619AFDCD45.pdf",
+     "tipo": "mc",
+     "arquivo": "3C3769C22A6D61A554BEF09D7897F7E23560C38D167271BBF06BDA9002ECF38B.pdf"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_0ED324D221466DE60E5E58C3.pdf",
+     "gabarito": "gab_DBCDCEE0A8D4A0D2AEAB2E23.pdf",
+     "tipo": "mc",
+     "arquivo": "0ED324D221466DE60E5E58C3F2ED5BF6E4D1E61E97D56294B755A7F5A622CC1F.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Especialista em Regulação – Especialidade: Tecnologia da Informação",
+   "id_cargo": "tecnologia-informacao",
+   "provas": [
+    {
+     "key": "cg",
+     "prova": "pro_3C3769C22A6D61A554BEF09D.pdf",
+     "gabarito": "gab_CE78087ADDB954619AFDCD45.pdf",
+     "tipo": "mc",
+     "arquivo": "3C3769C22A6D61A554BEF09D7897F7E23560C38D167271BBF06BDA9002ECF38B.pdf"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_C8DDC7043B23429DCEE682A8.pdf",
+     "gabarito": "gab_53EC90878B9B530C169FAD75.pdf",
+     "tipo": "mc",
+     "arquivo": "C8DDC7043B23429DCEE682A8CF43DCF8AB1662021787C37C2BB1B7B587A4E45A.pdf"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}
