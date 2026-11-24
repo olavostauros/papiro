@@ -1,0 +1,44 @@
+{
+ "evento": "PM_TO_20_QPS",
+ "workdir": "/tmp/pm_to_20_qps",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Polícia Militar do Estado do Tocantins",
+  "ano": 2021,
+  "id_orgao": "pm-to"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Aluno-Soldado do QPS - Técnico em Enfermagem",
+   "id_cargo": "tecnico-enfermagem",
+   "provas": [
+    {
+     "key": "enf",
+     "prova": "pro_574PMTO003.pdf",
+     "gabarito": "gab_MATRIZ_574PMTO003.pdf",
+     "tipo": "mc",
+     "arquivo": "MATRIZ_574PMTO003.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Aluno-Soldado do QPS - Técnico em Saúde Bucal",
+   "id_cargo": "tecnico-saude-bucal",
+   "provas": [
+    {
+     "key": "sb",
+     "prova": "pro_574PMTO004.pdf",
+     "gabarito": "gab_MATRIZ_574PMTO004.pdf",
+     "tipo": "mc",
+     "arquivo": "MATRIZ_574PMTO004.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}
