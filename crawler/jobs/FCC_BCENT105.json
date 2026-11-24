@@ -1,0 +1,169 @@
+{
+ "banca": "fcc",
+ "evento": "FCC_BCENT105",
+ "workdir": "/tmp/fcc_bcent105",
+ "meta": {
+  "banca": "FCC",
+  "orgao": "Banco Central do Brasil",
+  "ano": 2005,
+  "id_orgao": "bcent"
+ },
+ "cargos": [
+  {
+   "idArea": "ANA1",
+   "cargo": "Analista - Área 1",
+   "id_cargo": "analista-area-1",
+   "provas": [
+    {
+     "key": "ANA1_MT1",
+     "prova": "pro_ANA1_MT1.pdf",
+     "gabarito": "gab_ANA1_MT1.txt",
+     "tipo": "mc",
+     "arquivo": "/concursos/bcent105/provas/manha/Prova-ANA1-Tipo-001.pdf"
+    },
+    {
+     "key": "ANA1_TT1",
+     "prova": "pro_ANA1_TT1.pdf",
+     "gabarito": "gab_ANA1_TT1.txt",
+     "tipo": "mc",
+     "arquivo": "/concursos/bcent105/provas/tarde/Prova-ANA1-Tipo-001.pdf",
+     "num_offset": 50
+    }
+   ]
+  },
+  {
+   "idArea": "ANA2",
+   "cargo": "Analista - Área 2",
+   "id_cargo": "analista-area-2",
+   "provas": [
+    {
+     "key": "ANA2_MT1",
+     "prova": "pro_ANA2_MT1.pdf",
+     "gabarito": "gab_ANA2_MT1.txt",
+     "tipo": "mc",
+     "arquivo": "/concursos/bcent105/provas/manha/Prova-ANA2-Tipo-001.pdf"
+    },
+    {
+     "key": "ANA2_TT1",
+     "prova": "pro_ANA2_TT1.pdf",
+     "gabarito": "gab_ANA2_TT1.txt",
+     "tipo": "mc",
+     "arquivo": "/concursos/bcent105/provas/tarde/Prova-ANA2-Tipo-001.pdf",
+     "num_offset": 50
+    }
+   ]
+  },
+  {
+   "idArea": "ANA3",
+   "cargo": "Analista - Área 3",
+   "id_cargo": "analista-area-3",
+   "provas": [
+    {
+     "key": "ANA3_MT1",
+     "prova": "pro_ANA3_MT1.pdf",
+     "gabarito": "gab_ANA3_MT1.txt",
+     "tipo": "mc",
+     "arquivo": "/concursos/bcent105/provas/manha/Prova-ANA3-Tipo-001.pdf"
+    },
+    {
+     "key": "ANA3_TT1",
+     "prova": "pro_ANA3_TT1.pdf",
+     "gabarito": "gab_ANA3_TT1.txt",
+     "tipo": "mc",
+     "arquivo": "/concursos/bcent105/provas/tarde/Prova-ANA3-Tipo-001.pdf",
+     "num_offset": 50
+    }
+   ]
+  },
+  {
+   "idArea": "ANA4",
+   "cargo": "Analista - Área 4",
+   "id_cargo": "analista-area-4",
+   "provas": [
+    {
+     "key": "ANA4_MT1",
+     "prova": "pro_ANA4_MT1.pdf",
+     "gabarito": "gab_ANA4_MT1.txt",
+     "tipo": "mc",
+     "arquivo": "/concursos/bcent105/provas/manha/Prova-ANA4-Tipo-001.pdf"
+    },
+    {
+     "key": "ANA4_TT1",
+     "prova": "pro_ANA4_TT1.pdf",
+     "gabarito": "gab_ANA4_TT1.txt",
+     "tipo": "mc",
+     "arquivo": "/concursos/bcent105/provas/tarde/Prova-ANA4-Tipo-001.pdf",
+     "num_offset": 50
+    }
+   ]
+  },
+  {
+   "idArea": "ANA5",
+   "cargo": "Analista - Área 5",
+   "id_cargo": "analista-area-5",
+   "provas": [
+    {
+     "key": "ANA5_MT1",
+     "prova": "pro_ANA5_MT1.pdf",
+     "gabarito": "gab_ANA5_MT1.txt",
+     "tipo": "mc",
+     "arquivo": "/concursos/bcent105/provas/manha/Prova-ANA5-Tipo-001.pdf"
+    },
+    {
+     "key": "ANA5_TT1",
+     "prova": "pro_ANA5_TT1.pdf",
+     "gabarito": "gab_ANA5_TT1.txt",
+     "tipo": "mc",
+     "arquivo": "/concursos/bcent105/provas/tarde/Prova-ANA5-Tipo-001.pdf",
+     "num_offset": 50
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {
+  "ANA1_MT1": [
+   36,
+   38,
+   39
+  ],
+  "ANA2_MT1": [
+   36,
+   38,
+   39
+  ],
+  "ANA3_MT1": [
+   36,
+   38,
+   39
+  ],
+  "ANA4_MT1": [
+   36,
+   38,
+   39
+  ],
+  "ANA5_MT1": [
+   36,
+   38,
+   39
+  ],
+  "ANA1_TT1": [
+   21
+  ],
+  "ANA2_TT1": [
+   41
+  ],
+  "ANA3_TT1": [
+   51,
+   52,
+   53
+  ],
+  "ANA5_TT1": [
+   12,
+   14,
+   15
+  ]
+ },
+ "patch": {}
+}

@@ -8,9 +8,13 @@ from __future__ import annotations
 
 from .base import BancaAdapter
 from .cebraspe import adapter as _cebraspe
+from .fcc import adapter as _fcc
+from .fgv import adapter as _fgv
 
 BANCAS: dict[str, BancaAdapter] = {
     "cebraspe": _cebraspe,
+    "fcc": _fcc,
+    "fgv": _fgv,
 }
 
 
