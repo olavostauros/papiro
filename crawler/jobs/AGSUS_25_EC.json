@@ -1,0 +1,237 @@
+{
+ "banca": "cebraspe",
+ "evento": "AGSUS_25_EC",
+ "workdir": "/tmp/agsus_25_ec",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Agência Brasileira de Apoio à Gestão do SUS",
+  "ano": 2025,
+  "id_orgao": "agsus"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Médico",
+   "id_cargo": "medico",
+   "provas": [
+    {
+     "key": "cb-sup",
+     "prova": "pro_BC35E9B99EB56798BF410203.pdf",
+     "gabarito": "gab_cb-sup.txt",
+     "tipo": "ce",
+     "arquivo": "BC35E9B99EB56798BF4102033F8DBD0A9025087974DD7FDF667AC9062AB2D3B0.pdf"
+    },
+    {
+     "key": "esp1",
+     "prova": "pro_9345B5185139D6A6ED29F096.pdf",
+     "gabarito": "gab_esp1.txt",
+     "tipo": "ce",
+     "arquivo": "9345B5185139D6A6ED29F096DE26091A162D69E8E4827EECEC3BB0D8205E408D.pdf",
+     "num_offset": 20
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Enfermeiro – Responsável Técnico",
+   "id_cargo": "enfermeiro-responsavel-tecnico",
+   "provas": [
+    {
+     "key": "cb-sup",
+     "prova": "pro_BC35E9B99EB56798BF410203.pdf",
+     "gabarito": "gab_cb-sup.txt",
+     "tipo": "ce",
+     "arquivo": "BC35E9B99EB56798BF4102033F8DBD0A9025087974DD7FDF667AC9062AB2D3B0.pdf"
+    },
+    {
+     "key": "esp2",
+     "prova": "pro_4A8218F187658E6AF7541CB4.pdf",
+     "gabarito": "gab_esp2.txt",
+     "tipo": "ce",
+     "arquivo": "4A8218F187658E6AF7541CB454C87EC1986A0182715DDFF187D2BB3BFDDDC4A2.pdf",
+     "num_offset": 20
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Técnico de Enfermagem",
+   "id_cargo": "tecnico-enfermagem",
+   "provas": [
+    {
+     "key": "cb-med",
+     "prova": "pro_7F2492EF613DC082BDD57D49.pdf",
+     "gabarito": "gab_cb-med.txt",
+     "tipo": "ce",
+     "arquivo": "7F2492EF613DC082BDD57D493DC4BC1CBC86AEBA2EDBB085A4BF3D4121B2D094.pdf"
+    },
+    {
+     "key": "esp3",
+     "prova": "pro_C61A21B006851A4200AA991E.pdf",
+     "gabarito": "gab_esp3.txt",
+     "tipo": "ce",
+     "arquivo": "C61A21B006851A4200AA991E0E0D7D56F5417D15578A9727BC71016D0D901238.pdf",
+     "num_offset": 20
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Técnico em Análise Clínicas",
+   "id_cargo": "tecnico-analise-clinicas",
+   "provas": [
+    {
+     "key": "cb-med",
+     "prova": "pro_7F2492EF613DC082BDD57D49.pdf",
+     "gabarito": "gab_cb-med.txt",
+     "tipo": "ce",
+     "arquivo": "7F2492EF613DC082BDD57D493DC4BC1CBC86AEBA2EDBB085A4BF3D4121B2D094.pdf"
+    },
+    {
+     "key": "esp4",
+     "prova": "pro_85F56B35CA9231627F379DD1.pdf",
+     "gabarito": "gab_esp4.txt",
+     "tipo": "ce",
+     "arquivo": "85F56B35CA9231627F379DD1ABF70E2C0A5F34FF5378E7C3B16F0B1D885C3DE6.pdf",
+     "num_offset": 20
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "cb-sup": {
+   "1": "A AgSUS constitui-se sob a forma de pessoa jurídica de direito privado sem fins lucrativos, de interesse coletivo e de utilidade pública.",
+   "2": "A autonomia administrativa da AgSUS permite que seu conselho deliberativo fixe a remuneração de seus dirigentes em patamares superiores ao teto constitucional do funcionalismo público, desde que justificado pela compatibilidade com os salários praticados por grandes empresas do setor privado de saúde.",
+   "3": "Ao Conselho Fiscal é delegada a competência para assinar o contrato de gestão em conjunto com o Ministério da Saúde, cabendo à diretoria-executiva apenas a execução operacional do instrumento.",
+   "4": "O pagamento de vantagem pecuniária a servidor público cedido à AgSUS, com recursos oriundos do contrato de gestão, é vedado se a natureza da vantagem for permanente, sendo admitido apenas o adicional relativo ao exercício de função temporária de direção, gerência ou assessoria.",
+   "5": "O presidente do Conselho Deliberativo detém, além do voto ordinário, o voto de qualidade (minerva) em casos de empate nas deliberações do colegiado.",
+   "6": "Ao Conselho Deliberativo compete aprovar o plano estratégico e o plano de gestão anual da AgSUS.",
+   "7": "O médico participante que atuar no Projeto Mais Médicos de forma ininterrupta em área de difícil fixação e vulnerabilidade poderá receber indenização equivalente a até 100% do valor total das bolsas por ele recebidas no período de 36 meses.",
+   "8": "Será concedida licença-paternidade de 60 dias consecutivos ao médico participante, pelo nascimento ou pela adoção de filho.",
+   "9": "Aos colaboradores da AgSUS é vedado receber presentes de quem tenha interesse em decisão do agente ou de colegiado do qual este participe.",
+   "10": "Utilizar o tempo que, contratualmente, deveria ser dedicado à AgSUS para fins particulares, desde que científicos ou acadêmicos, é permitido.",
+   "11": "A descentralização no SUS se materializa na distribuição de responsabilidades entre União, estados e municípios.",
+   "12": "A Política Nacional de Humanização (PNH) propõe mudanças no modo de cuidar e gerir, incluindo diretrizes como acolhimento, ambiência e valorização do trabalho em saúde, com foco na produção de vínculo entre equipe e paciente e na corresponsabilização.",
+   "13": "A Política Nacional de Atenção Integral à Saúde do Homem é direcionada principalmente a ações em urologia e rastreamento de câncer de próstata, com menor ênfase no manejo de condições crônicas, que já estão cobertas por outras políticas.",
+   "14": "O Ministério da Saúde exerce função normativa, de coordenação nacional e de financiamento, sendo a execução da maior parte das ações assistenciais realizadas predominantemente nas esferas estadual e municipal.",
+   "15": "A referida convenção enfatiza que os povos originários têm direito de escolher suas prioridades no processo de desenvolvimento, com exceção ao que diz respeito ao desenvolvimento econômico.",
+   "16": "A integralidade do cuidado exige articulação funcional entre os níveis progressivos, pois intervenções realizadas em um nível influenciam o planejamento terapêutico nos demais.",
+   "17": "A participação do usuário nas decisões sobre seu cuidado se relaciona ao princípio da autonomia, e este deve ser compatibilizado com critérios técnicos, éticos e legais da prática profissional.",
+   "18": "A utilização de ouvidorias e canais de reclamação é equivalente à participação social do usuário em instâncias como conselhos e conferências de saúde.",
+   "19": "A atuação dos conselhos de saúde substitui a gestão executiva, pois interfere na orientação das políticas ao deliberar sobre diretrizes e acompanhar sua implementação.",
+   "20": "A Lei n.º 8.142/1990 institui a participação social na gestão do SUS e estabelece a transferência de recursos financeiros na área da saúde entre as esferas de governo."
+  },
+  "cb-med": {
+   "1": "Cada membro do Conselho Deliberativo da AGSUS terá um suplente, que o substituirá em eventuais ausências e impedimentos.",
+   "2": "O órgão de deliberação superior da AgSUS é a Diretoria-Executiva.",
+   "3": "Na execução das atividades previstas no contrato de gestão, a AgSUS deverá respeitar a diretriz constitucional de descentralização das ações e serviços de saúde.",
+   "4": "A AgSUS deve dispor de quadro de profissionais em número suficiente e com perfil adequado à execução das atividades e dos serviços previstos no contrato de gestão.",
+   "5": "A AgSUS não pode abrir filiais fora do Distrito Federal, local de sua sede e de seu foro.",
+   "6": "Para o cumprimento de seus objetivos, a AgSUS é autorizada a firmar contratos, convênios, acordos, ajustes e outros instrumentos congêneres com entidades privadas, exceto instituições de ensino.",
+   "7": "A referida lei autoriza o uso de recursos de telessaúde, quando necessário.",
+   "8": "No contexto da educação permanente, a formação dos profissionais participantes do Programa Mais Médicos ocorrerá preferencialmente por meio de cursos de pós-graduação stricto sensu.",
+   "9": "Princípios éticos, como o decoro, o zelo, a eficácia e a consciência dos princípios morais, deverão ser considerados em todas as decisões de governança no âmbito da AgSUS.",
+   "10": "Os funcionários da AgSUS devem utilizar conscientemente os recursos materiais, respeitando os limites de desperdício considerados aceitáveis pela agência.",
+   "11": "O setor privado pode participar no SUS de forma complementar, mediante contrato de direito público ou convênio, devendo seguir as diretrizes públicas e o planejamento do sistema.",
+   "12": "A Política Nacional de Promoção da Saúde (PNPS) enfatiza determinantes sociais e intersetorialidade, articulando ações como alimentação adequada, atividade física, prevenção do tabagismo e ambientes saudáveis.",
+   "13": "A Política Nacional de Imunizações (PNI) inclui a oferta de vacinas, a vigilância epidemiológica, a logística da cadeia de frio, a definição de estratégias por público-alvo e o monitoramento constante das coberturas vacinais.",
+   "14": "O Ministério da Saúde exerce direção operacional sobre os serviços municipais, definindo escalas de profissionais e fluxos assistenciais nas unidades locais.",
+   "15": "As comissões intergestores têm natureza fiscalizatória e sancionatória, atuando em conjunto com os órgãos de controle interno e externo do SUS.",
+   "16": "A atenção secundária compreende centros de especialidades, policlínicas e unidades de pronto atendimento.",
+   "17": "O direito à informação, por ser um princípio fundamental do SUS, garante ao usuário o livre acesso a dados administrativos e estratégicos da gestão do SUS.",
+   "18": "O consentimento livre e esclarecido é um direito fundamental do usuário, realizado por meio de um processo contínuo de comunicação, não se restringindo à assinatura de documentos formais.",
+   "19": "É pelas instâncias colegiadas temporárias e periódicas, com funções relacionadas à formulação de estratégias e ao acompanhamento da execução das políticas de saúde, que a participação social no SUS se institucionaliza.",
+   "20": "O SUS constitui-se de um conjunto de ações e serviços de saúde.."
+  },
+  "esp1": {
+   "1": "Na APS, longitudinalidade se refere ao vínculo e ao acompanhamento ao longo do tempo, o que pode facilitar o reconhecimento de mudanças clínicas e do contexto de vida da pessoa.",
+   "2": "A equipe da atenção básica (EAB) deve atender aos princípios e às diretrizes propostas para a atenção básica e pode se organizar posteriormente tal qual a equipe de saúde da família (ESF), considerada pela PNAB como modelo prioritário.",
+   "3": "A PNAB estabelece que a atenção primária à saúde é um subnível da atenção básica.",
+   "4": "Recomenda-se o uso imediato de AAS e de nitrato sublingual pelo paciente.",
+   "5": "Deverá ser realizado novo eletrocardiograma, com 15 derivações, incluindo-se as derivações à direita e as derivações na região posterior.",
+   "6": "As intervenções não farmacológicas, como atividade física, alimentação adequada, redução da ingestão de sal e álcool e manejo do estresse, são consideradas fundamentais no tratamento das DCNT.",
+   "7": "Em casos de suspeita de dengue, anti-inflamatórios não esteroidais podem ser utilizados quando não houver sangramento e desde que o paciente mantenha boa hidratação.",
+   "8": "A depressão apresentada pela paciente é um fator de risco independente para doença arterial coronariana e potencializa os riscos cardiovasculares já existentes.",
+   "9": "A paciente deve ser encaminhada ao especialista para iniciar o tratamento para o quadro de saúde mental apresentado.",
+   "10": "Recomenda-se avaliar o grau de dependência à nicotina do paciente por meio do teste de Fagerström.",
+   "11": "A terapia de reposição de nicotina deve ser utilizada concomitantemente ao consumo do cigarro, como estratégia de redução gradual do tabagismo e dos sintomas de abstinência.",
+   "12": "Recomenda-se que a paciente em questão seja transferida para uma unidade de pronto atendimento (UPA), pois seu caso configura emergência hipertensiva.",
+   "13": "É provável que a prescrição de um tiazídico seja ineficaz na resolução do edema da paciente em apreço.",
+   "14": "O médico pode realizar procedimento sem consentimento quando houver risco relevante de agravamento do quadro, ainda que não exista risco iminente de morte e desde que registre a justificativa no prontuário.",
+   "15": "A educação em saúde deve priorizar a correção de comportamentos inadequados, de modo a reduzir a resistência a tratamentos e a mudanças, sendo irrelevante considerar a rotina dos pacientes.",
+   "16": "A RAS organiza serviços e ações de saúde em rede para garantir cuidado contínuo, com integração entre pontos de atenção e suporte diagnóstico-terapêutico.",
+   "17": "A elaboração do PTS deve considerar os aspectos clínicos, os aspectos psicossociais e o contexto de vida da paciente, devendo o plano ser construído de forma compartilhada entre a equipe de saúde e a usuária.",
+   "18": "A responsabilidade da equipe da UBS pelo acompanhamento da paciente em apreço se encerrará somente após o seu encaminhamento para a atenção especializada.",
+   "19": "O monitoramento de surtos exige comparação com padrões esperados, identificação de agrupamentos de casos e implementação de medidas proporcionais ao risco.",
+   "20": "A qualidade do registro de informações do paciente nos sistemas de informação e no prontuário clínico impacta diretamente as hipóteses diagnósticas, as condutas médicas, os resultados desejados, a adesão ao tratamento e os possíveis efeitos adversos de medicações."
+  },
+  "esp2": {
+   "1": "O dimensionamento e a distribuição de pessoal devem considerar a complexidade dos pacientes e o perfil assistencial da unidade.",
+   "2": "Considera-se concluída a etapa de planejamento no processo de enfermagem quando as intervenções a serem feitas estiverem devidamente descritas, sendo opcional a definição de resultados esperados e dos critérios de avaliação.",
+   "3": "O acolhimento não se reduz à recepção do usuário e deve ser entendido como uma postura ética e uma diretriz operacional que implica na garantia de resposta às necessidades do usuário.",
+   "4": "A irregularidade do sono e a dessincronização circadiana associadas à jornada de trabalho noturno atuam como determinantes intermediários que amplificam tanto o risco de eventos no trânsito quanto o de desfechos cardiometabólicos na população caminhoneira.",
+   "5": "A necessidade de paradas em locais potencialmente insalubres relaciona-se à insegurança das rotas e tem efeito mais evidente sobre a ocorrência de doenças infecciosas do que sobre condições de saúde mental da população caminhoneira.",
+   "6": "A anamnese farmacoterapêutica detalhada promove a segurança do paciente e a eficácia do tratamento.",
+   "7": "A classificação de riscos é dispensável quando o usuário realiza agendamento prévio da consulta, já que, nessa situação, a gravidade e a urgência do atendimento são descritas pelo paciente no momento em que ele realiza o agendamento.",
+   "8": "A abordagem de fatores de risco deve considerar tanto a análise do risco absoluto quanto a análise da vulnerabilidade (social, programática) do indivíduo, pois a mesma exposição ao risco pode gerar impactos diferentes conforme o contexto.",
+   "9": "A prevenção primária contempla rastreamentos e testagens e depende de critérios de elegibilidade e balanço benefício-risco, não sendo automaticamente indicada para toda a população.",
+   "10": "A efetividade de um programa de imunizações depende não só da eficácia da vacina, mas também da cobertura vacinal, da homogeneidade da cobertura e da oportunidade, sendo importante administrar as doses na idade recomendada e com os intervalos corretos.",
+   "11": "No caso de doenças transmissíveis, medidas de controle como isolamento e notificação compulsória, se adotadas antes da confirmação laboratorial, são vistas como discriminatórias e, portanto, devem ser evitadas sempre que possível.",
+   "12": "A entrevista motivacional, abordagem clínica formulada para tratar pessoas com comportamentos de risco, como uso de substâncias e tabagismo, tende a ser mais efetiva quando utilizada em intervenções breves e quando evita confronto, explora ambivalências e fortalece a autoeficácia do paciente.",
+   "13": "A implementação de protocolos exige monitoramento por meio de indicadores de processo ― para verificar a aderência da equipe ao protocolo ― e de desfecho ― para averiguar o impacto real na saúde do paciente.",
+   "14": "Normativas técnicas se aplicam prioritariamente à gestão, podendo ser a sua aplicação flexibilizada na prática clínica, desde que o cuidado seja garantido.",
+   "15": "As palestras são o formato mais eficiente para mudanças de comportamento da população, pois padronizam a mensagem e reduzem a influência de crenças individuais no resultado.",
+   "16": "O matriciamento combina suporte técnico-pedagógico e suporte assistencial, podendo incluir discussão de casos, atendimentos compartilhados e pactuação de estratégias de cuidado entre a equipe especializada e a equipe de referência.",
+   "17": "A notificação de incidentes e de quase-erros é uma estratégia de aprendizado organizacional cujo foco deve ser melhorar processos e barreiras de segurança.",
+   "18": "Checagens de identificação do paciente podem ser flexibilizadas em setores com equipe experiente, pois o reconhecimento visual reduz risco de erro a níveis desprezíveis quando feito por quem tem experiência.",
+   "19": "A equipe da atenção básica (EAB) deve atender aos princípios e às diretrizes propostas para a atenção básica e pode se organizar posteriormente tal qual a equipe de saúde da família (ESF), considerada pela PNAB como modelo prioritário.",
+   "20": "A PNAB estabelece que a atenção primária à saúde é um subnível da atenção básica."
+  },
+  "esp3": {
+   "1": "A Estratégia Saúde da Família é a principal estratégia adotada pelo Brasil para operacionalizar e reorganizar a atenção primária à saúde no SUS.",
+   "2": "A Estratégia Saúde da Família atende apenas à população que vive em situação de pobreza extrema e é cadastrada em programas de transferência de renda.",
+   "3": "O acolhimento é uma postura ética e técnica que implica a escuta qualificada e a responsabilização pelo sofrimento ou pela necessidade de saúde do usuário.",
+   "4": "O acolhimento tem como objetivo principal reduzir o tempo de permanência do usuário no serviço de saúde, direcionando-o rapidamente para a alta.",
+   "5": "O acesso limitado a serviços de saúde, devido à mobilidade constante, é um dificultador do diagnóstico precoce e do acompanhamento contínuo de doenças, contribuindo para agravar o perfil de saúde da população caminhoneira.",
+   "6": "O consumo de anfetaminas e outras substâncias estimulantes é uma prática culturalmente aceita entre caminhoneiros e sem impactos significativos na sua saúde física a longo prazo, embora possam trazer prejuízos para a segurança na direção de veículos.",
+   "7": "Durante a aferição da pressão arterial, o manguito deve ser posicionado na altura do coração.",
+   "8": "Para a classificação do estado nutricional de crianças, utiliza-se o mesmo cálculo e os mesmos pontos de corte do índice de massa corporal (IMC) para adultos.",
+   "9": "O técnico de enfermagem, sob supervisão do enfermeiro, pode preparar e disponibilizar materiais estéreis para a realização de curativos complexos, cuja execução compete ao próprio enfermeiro.",
+   "10": "Para economia de recursos, é aceitável a reutilização de seringa e agulha usadas para aplicação de insulina, desde que elas sejam guardadas na geladeira entre uma aplicação e outra e que sejam reutilizadas no mesmo paciente.",
+   "11": "O calendário vacinal brasileiro é organizado por faixa etária e contempla vacinas para todas as fases da vida, desde recém-nascidos até idosos.",
+   "12": "O uso de equipamento de proteção individual adequado pelos profissionais de saúde durante o manuseio de vacinas dispensa que esses profissionais sejam imunizados contra hepatite B.",
+   "13": "O descarte de perfurocortantes deve ser feito imediatamente após o uso, em recipientes rígidos, resistentes à punção e com tampa, localizados próximos ao ponto de uso.",
+   "14": "Se o profissional de saúde não tiver tocado diretamente no paciente, não é necessário higienizar as mãos ao sair de seu quarto ou leito.",
+   "15": "A documentação do processo de enfermagem deve ser realizada pelos membros da equipe formalmente no prontuário do paciente, físico ou eletrônico, cabendo ao enfermeiro o registro de todas as suas etapas.",
+   "16": "O prontuário do paciente é de uso restrito da equipe de saúde, não podendo o próprio paciente ou seu responsável legal solicitar acesso a suas informações.",
+   "17": "Definir níveis mínimos e máximos de estoque para cada item, com base no consumo histórico e no tempo de reposição, é uma ação de controle que busca equilibrar a disponibilidade de materiais e evitar estoques excessivos.",
+   "18": "O controle de materiais de uso comum, como luvas e máscaras, é dispensável, uma vez que estes são itens de baixo custo unitário.",
+   "19": "O técnico em enfermagem é responsável por suas ações profissionais e pode responder civil, penal e administrativamente por suas atitudes.",
+   "20": "O técnico em enfermagem pode assinar, como enfermeiro responsável, um laudo ou um documento de alta complexidade, desde que tenha realizado o procedimento sob supervisão."
+  },
+  "esp4": {
+   "1": "Amostras para dosagem de bilirrubina devem ser protegidas da luz, visto que esse composto é fotossensível.",
+   "2": "Amostras para gasometria são muito sensíveis ao tempo e ao contato com ar; por isso, bolhas de ar ou a demora na análise da amostra podem alterar a razão pO2/pCO2 e o pH.",
+   "3": "Na punção venosa, a assepsia do local deve ser feita após a introdução da agulha, para reduzir o risco de contaminação da amostra.",
+   "4": "Valores normais para RDW descartam deficiência de ferro como causa de anemia, tanto nas fases iniciais quanto em anemias mistas.",
+   "5": "A creatinina, um marcador usado na avaliação da função renal, pode variar conforme a massa muscular e o consumo de carne.",
+   "6": "A visualização de leucócitos e sangue nas fezes sugere diarreia invasiva, sendo esses achados suficientes para a identificação do agente etiológico.",
+   "7": "No LIS, o registro de cadeia de custódia pode ser feito por logs de usuários, horários e etapas, indicando-se quem fez o quê e quando.",
+   "8": "Na retificação de resultados, a manutenção de resultados antigos pode causar sobrecarga no armazenamento de dados do LIS e pode atrapalhar a auditoria.",
+   "9": "O LIS deve permitir o rastreio não só da amostra primária, mas também de alíquotas e redistribuições.",
+   "10": "Na bacterioscopia, a coloração de Gram é mais indicada para bactérias muito finas e em formato de saca-rolhas, como o Treponema pallidum (bactéria causadora da sífilis), enquanto a impregnação por prata é mais indicada para os bacilos e os espirilos.",
+   "11": "Nos microscópios, o óleo de imersão deve ser usado com a objetiva de 10× para aumentar a resolução e reduzir a refração da luz.",
+   "12": "A coloração de hematoxilina e eosina (HE) é uma das mais utilizadas no preparo de lâminas para microscopia óptica, pois permite diferenciar o núcleo das células do citoplasma.",
+   "13": "O descarte de perfurocortantes deve ser feito em coletor rígido apropriado, sem reencape de agulhas.",
+   "14": "Comer, beber, armazenar alimentos ou usar cosméticos no laboratório é permitido, desde que essas ações ocorram a uma distância de, no mínimo, dois metros do ambiente de manipulação de amostras e reagentes.",
+   "15": "A seleção dos equipamentos de proteção individual (EPI) deve ser baseada em uma rigorosa avaliação de riscos biológicos, químicos e físicos da atividade.",
+   "16": "As unidades básicas de saúde (UBS) são responsáveis pelo acompanhamento dos pacientes e pelas ações preventivas da saúde familiar, enquanto a Estratégia Saúde da Família (ESF) é responsável pelas ações de urgência e emergência.",
+   "17": "Em decorrência do princípio da equidade, exatamente o mesmo serviço deve ser oferecido para todos, sem distinção, pois, desse modo, as diferenças individuais são consideradas indiretamente.",
+   "18": "Estrangeiros e brasileiros naturalizados devem fazer cadastro junto à secretaria de saúde do estado em que estejam localizados para que possam ser atendidos em hospitais públicos, inclusive para atendimentos de urgência e emergência.",
+   "19": "Comunicação clara, respeito à privacidade e uso de linguagem compatível com o entendimento do usuário são práticas que caracterizam um atendimento humanizado.",
+   "20": "Informar riscos e preparar o paciente para o procedimento pode reduzir a ansiedade e diminuir a chance de intercorrências, como lipotimia."
+  }
+ }
+}
