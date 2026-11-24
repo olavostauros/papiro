@@ -3,8 +3,9 @@
 Endpoints (surface mínima do plano docker-postgres):
 
     GET /health                       probe do compose
-    GET /filtros?banca&orgao&cargo&ano&assunto&tipo&q   opções dos Selects (cascata)
-    GET /questoes?…&page&per_page     lista paginada filtrada
+    GET /filtros?…&dims=              opções dos Selects (cascata; dims limita dimensões)
+    GET /filtros/{dim}?q=&limit=      facetas de uma dimensão (busca + top-N p/ combobox)
+    GET /questoes?…&page&per_page     lista paginada filtrada (inclui evento=)
     GET /questoes/{id}                detalhe
     GET /eventos                      concursos ingeridos (contagens)
     GET /provas?evento=               provas (fonte) por evento
@@ -20,12 +21,12 @@ from __future__ import annotations
 
 import math
 import os
-from typing import Optional
+from typing import Literal, Optional
 
 from fastapi import Depends, FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from sqlalchemy import func, select, text
+from sqlalchemy import String, cast, func, select, text
 from sqlalchemy.orm import Session
 
 from crawler.db import (DEFAULT_URL, Assunto, Banca, Cargo, Evento, Orgao,
@@ -44,11 +45,16 @@ class QuestaoPage(BaseModel):
 
 
 class Filtros(BaseModel):
-    bancas: list[str]
-    orgaos: list[str]
-    cargos: list[str]
-    anos: list[int]
-    assuntos: list[str]
+    bancas: Optional[list[str]] = None
+    orgaos: Optional[list[str]] = None
+    cargos: Optional[list[str]] = None
+    anos: Optional[list[int]] = None
+    assuntos: Optional[list[str]] = None
+
+
+class Faceta(BaseModel):
+    valor: str
+    questoes: int
 
 
 class EventoInfo(BaseModel):
@@ -64,10 +70,23 @@ class ProvaInfo(BaseModel):
     questoes: int
 
 
-DEFAULT_CORS = "https://olavostauros.github.io"
+DEFAULT_CORS = "https://olavostauros.github.io,http://localhost:4321"
 MAX_PER_PAGE = 100
 MAX_PAGE = 10000               # teto p/ OFFSET arbitrário (DoS barato)
+MAX_FACETAS = 500              # teto p/ /filtros/{dim}?limit=
 STATEMENT_TIMEOUT_MS = 5000    # postgres apenas; SQLite nos testes ignora
+
+Tipo = Literal["certo_errado", "multipla_escolha"]
+
+# dimensão (path/query) → (coluna, campo em Filtros); a chave é também o
+# nome do filtro em queries.apply_filters.
+DIMS = {
+    "banca": (Banca.nome, "bancas"),
+    "orgao": (Orgao.nome, "orgaos"),
+    "cargo": (Cargo.nome, "cargos"),
+    "ano": (QuestaoDB.ano, "anos"),
+    "assunto": (Assunto.nome, "assuntos"),
+}
 
 
 def create_app(database_url: Optional[str] = None) -> FastAPI:
@@ -93,38 +112,81 @@ def create_app(database_url: Optional[str] = None) -> FastAPI:
         s.execute(text("SELECT 1"))
         return {"status": "ok"}
 
-    @app.get("/filtros", response_model=Filtros)
+    def filtros_kw(banca, orgao, cargo, ano, assunto, tipo, q, evento):
+        return dict(banca=banca, orgao=orgao, cargo=cargo, ano=ano,
+                    assunto=assunto, tipo=tipo, q=q, evento=evento)
+
+    @app.get("/filtros", response_model=Filtros,
+             response_model_exclude_none=True)
     def filtros(
         s: Session = Depends(session),
         banca: Optional[str] = None, orgao: Optional[str] = None,
         cargo: Optional[str] = None, ano: Optional[int] = None,
-        assunto: Optional[str] = None, tipo: Optional[str] = None,
-        q: Optional[str] = None,
+        assunto: Optional[str] = None, tipo: Optional[Tipo] = None,
+        q: Optional[str] = None, evento: Optional[str] = None,
+        dims: Optional[str] = None,
     ):
-        kw = dict(banca=banca, orgao=orgao, cargo=cargo, ano=ano,
-                  assunto=assunto, tipo=tipo, q=q)
-        dv = lambda col, ex: queries.distinct_values(s, col, exclude=ex, **kw)
-        return Filtros(
-            bancas=sorted(dv(Banca.nome, "banca")),
-            orgaos=sorted(dv(Orgao.nome, "orgao")),
-            cargos=sorted(dv(Cargo.nome, "cargo")),
-            anos=sorted(dv(QuestaoDB.ano, "ano"), reverse=True),
-            assuntos=sorted(dv(Assunto.nome, "assunto")),
-        )
+        wanted = set(dims.split(",")) if dims else set(DIMS)
+        if bad := wanted - set(DIMS):
+            raise HTTPException(422, f"dims desconhecidas: {sorted(bad)}")
+        kw = filtros_kw(banca, orgao, cargo, ano, assunto, tipo, q, evento)
+        out = {}
+        for dim, (col, field) in DIMS.items():
+            if dim not in wanted:
+                continue
+            vals = queries.distinct_values(s, col, exclude=dim, **kw)
+            out[field] = sorted(vals, reverse=(dim == "ano"))
+        return Filtros(**out)
+
+    @app.get("/filtros/{dim}", response_model=list[Faceta])
+    def faceta(
+        dim: str,
+        s: Session = Depends(session),
+        banca: Optional[str] = None, orgao: Optional[str] = None,
+        cargo: Optional[str] = None, ano: Optional[int] = None,
+        assunto: Optional[str] = None, tipo: Optional[Tipo] = None,
+        evento: Optional[str] = None,
+        q: Optional[str] = None,
+        limit: int = Query(50, ge=1, le=MAX_FACETAS),
+    ):
+        spec = DIMS.get(dim)
+        if spec is None:
+            raise HTTPException(404, f"dimensão desconhecida: {dim}")
+        col, _ = spec
+        stmt = queries.apply_filters(
+            select(col, func.count(QuestaoDB.id))
+            .select_from(QuestaoDB)
+            .join(Prova, QuestaoDB.prova_id == Prova.id)
+            .join(Evento, Prova.evento_id == Evento.id)
+            .join(Banca, Evento.banca_id == Banca.id)
+            .join(Cargo, QuestaoDB.cargo_id == Cargo.id)
+            .join(Orgao, Cargo.orgao_id == Orgao.id)
+            .outerjoin(Assunto, QuestaoDB.assunto_id == Assunto.id)
+            .group_by(col),
+            exclude=dim,
+            **filtros_kw(banca, orgao, cargo, ano, assunto, tipo, None,
+                         evento))
+        if q:
+            stmt = stmt.where(
+                cast(col, String).ilike(f"%{queries._escape_like(q)}%",
+                                        escape="\\"))
+        order = col.desc() if dim == "ano" else func.count().desc()
+        rows = s.execute(stmt.order_by(order, col).limit(limit))
+        return [Faceta(valor=str(v), questoes=c)
+                for v, c in rows if v is not None]
 
     @app.get("/questoes", response_model=QuestaoPage)
     def questoes(
         s: Session = Depends(session),
         banca: Optional[str] = None, orgao: Optional[str] = None,
         cargo: Optional[str] = None, ano: Optional[int] = None,
-        assunto: Optional[str] = None, tipo: Optional[str] = None,
-        q: Optional[str] = None,
+        assunto: Optional[str] = None, tipo: Optional[Tipo] = None,
+        q: Optional[str] = None, evento: Optional[str] = None,
         page: int = Query(1, ge=1, le=MAX_PAGE),
         per_page: int = Query(20, ge=1, le=MAX_PER_PAGE),
     ):
-        stmt = queries.apply_filters(
-            queries.base_questao(), banca=banca, orgao=orgao, cargo=cargo,
-            ano=ano, assunto=assunto, tipo=tipo, q=q)
+        kw = filtros_kw(banca, orgao, cargo, ano, assunto, tipo, q, evento)
+        stmt = queries.apply_filters(queries.base_questao(), **kw)
         count_stmt = queries.apply_filters(
             select(func.count()).select_from(QuestaoDB)
             .join(Prova, QuestaoDB.prova_id == Prova.id)
@@ -133,8 +195,7 @@ def create_app(database_url: Optional[str] = None) -> FastAPI:
             .join(Cargo, QuestaoDB.cargo_id == Cargo.id)
             .join(Orgao, Cargo.orgao_id == Orgao.id)
             .outerjoin(Assunto, QuestaoDB.assunto_id == Assunto.id),
-            banca=banca, orgao=orgao, cargo=cargo, ano=ano, assunto=assunto,
-            tipo=tipo, q=q)
+            **kw)
         total = s.scalar(count_stmt) or 0
         rows = s.execute(
             stmt.order_by(QuestaoDB.ano.desc(), QuestaoDB.id)

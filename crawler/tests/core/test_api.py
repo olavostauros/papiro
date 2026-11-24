@@ -84,6 +84,14 @@ def test_questoes_filtros(client):
     assert r.json()["total"] == 2
 
 
+def test_questoes_evento_e_tipo_estrito(client):
+    r = client.get("/questoes", params={"evento": "PF_24"})
+    assert r.json()["total"] == 2
+    r = client.get("/questoes", params={"evento": "NAO_EXISTE"})
+    assert r.json()["total"] == 0
+    assert client.get("/questoes", params={"tipo": "xpto"}).status_code == 422
+
+
 def test_questao_por_id_e_404(client):
     q = client.get("/questoes/fcc-2024-tj-analista-001").json()
     assert q["gabarito"] == "b"
@@ -100,6 +108,31 @@ def test_filtros_cascata(client):
     assert r["bancas"] == ["Cebraspe", "FCC"]
     assert r["orgaos"] == ["TJ"]
     assert r["anos"] == [2024]
+
+
+def test_filtros_dims_e_evento(client):
+    r = client.get("/filtros", params={"dims": "banca,ano"}).json()
+    assert set(r) == {"bancas", "anos"}
+    assert client.get("/filtros", params={"dims": "foo"}).status_code == 422
+    r = client.get("/filtros", params={"evento": "PF_24",
+                                       "dims": "ano"}).json()
+    assert r == {"anos": [2024]}
+
+
+def test_faceta(client):
+    r = client.get("/filtros/cargo").json()
+    esc = next(f for f in r if f["valor"].startswith("Escrivão"))
+    assert esc["questoes"] == 3
+    # busca no valor da faceta (não no enunciado)
+    r = client.get("/filtros/cargo", params={"q": "analista"}).json()
+    assert [f["valor"] for f in r] == ["Analista"]
+    # cascata: outros filtros restringem, o próprio dim não
+    r = client.get("/filtros/cargo", params={"banca": "FCC",
+                                             "cargo": "Inexistente"}).json()
+    assert [f["valor"] for f in r] == ["Analista"]
+    r = client.get("/filtros/ano").json()
+    assert [f["valor"] for f in r] == ["2024", "2023"]
+    assert client.get("/filtros/peso").status_code == 404
 
 
 def test_eventos_e_provas(client):
