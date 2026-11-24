@@ -379,8 +379,9 @@ def normalize_dims(engine: Engine,
                    renames: Optional[dict[str, str]] = None) -> dict[str, int]:
     """Renomeia dimensões existentes para exibição.
 
-    ``renames`` (orgao bruto → nome alvo) cobre valores inválidos que o
-    title-case não adivinha — slugs de evento internados como órgão.
+    ``renames`` (nome bruto → nome alvo) cobre valores inválidos que o
+    title-case não adivinha — slugs de evento internados como órgão ou
+    cargo trocado na curadoria.
     O restante passa por ``normalize_nome``. Renomear na linha basta
     quando o alvo não existe; colisão com uma dimensão já no destino
     mescla — reponta dependentes e remove a dupla. Retorna contagens.
@@ -407,7 +408,7 @@ def normalize_dims(engine: Engine,
         cargos = s.execute(select(Cargo.id, Cargo.orgao_id, Cargo.nome)).all()
         id_por_key = {(oid, nome): cid for cid, oid, nome in cargos}
         for cid, oid, nome in cargos:
-            new = normalize_nome(nome)
+            new = renames.get(nome, normalize_nome(nome))
             if new == nome:
                 continue
             if keep := id_por_key.get((oid, new)):
