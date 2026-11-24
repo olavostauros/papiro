@@ -1,0 +1,36 @@
+{
+ "evento": "CT_DF_19",
+ "workdir": "/tmp/ct_df_19",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Conselho dos Direitos da Criança e do Adolescente do Distrito Federal",
+  "ano": 2019,
+  "id_orgao": "ct-df"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Conselheiro Tutelar (candidato)",
+   "id_cargo": "conselheiro-tutelar-candidato",
+   "provas": [
+    {
+     "key": "obj",
+     "prova": "pro_CDCADF_001_00.pdf",
+     "gabarito": "gab_MATRIZ_479_CDCADF_001_00.pdf",
+     "tipo": "ce",
+     "arquivo": "479_CDCADF_001_00_PAG_4.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Conselheiro Tutelar (membro titular, conforme subitem 2.5.5 do Edital nº 3, de 13 de junho de 2019) *",
+   "id_cargo": "conselheiro-tutelar-membro-titular-conforme",
+   "provas": []
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}
