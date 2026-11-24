@@ -1,63 +1,63 @@
 {
-  "evento": "COREN_SE_21",
-  "workdir": "/tmp/coren_se_21",
-  "meta": {
-    "banca": "Cebraspe",
-    "orgao": "COREN_SE_21",
-    "ano": 2021,
-    "id_orgao": "coren-se"
-  },
-  "cargos": [
+ "evento": "COREN_SE_21",
+ "workdir": "/tmp/coren_se_21",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Conselho Regional de Enfermagem de Sergipe",
+  "ano": 2021,
+  "id_orgao": "coren-se"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Enfermeiro Fiscal",
+   "id_cargo": "enfermeiro-fiscal",
+   "provas": [
     {
-      "idArea": "01",
-      "cargo": "Enfermeiro Fiscal",
-      "id_cargo": "enfermeiro-fiscal",
-      "provas": [
-        {
-          "key": "COREN_SE_CG1_01",
-          "prova": "pro_COREN_SE_CG1_01.pdf",
-          "gabarito": "gab_COREN_SE_CG1_01.pdf",
-          "tipo": "mc",
-          "arquivo": "585_COREN_SE_CG1_01.PDF"
-        },
-        {
-          "key": "COREN_SE_001_01",
-          "prova": "pro_COREN_SE_001_01.pdf",
-          "gabarito": "gab_COREN_SE_001_01.pdf",
-          "tipo": "mc",
-          "arquivo": "585_COREN_SE_001_01.PDF"
-        }
-      ]
+     "key": "COREN_SE_CG1_01",
+     "prova": "pro_COREN_SE_CG1_01.pdf",
+     "gabarito": "gab_COREN_SE_CG1_01.pdf",
+     "tipo": "mc",
+     "arquivo": "585_COREN_SE_CG1_01.PDF"
     },
     {
-      "idArea": "02",
-      "cargo": "Técnico Administrativo",
-      "id_cargo": "tecnico-administrativo",
-      "provas": [
-        {
-          "key": "COREN_SE_CG2_01",
-          "prova": "pro_COREN_SE_CG2_01.pdf",
-          "gabarito": "gab_COREN_SE_CG2_01.pdf",
-          "tipo": "mc",
-          "arquivo": "585_COREN_SE_CG2_01.PDF"
-        },
-        {
-          "key": "COREN_SE_002_01",
-          "prova": "pro_COREN_SE_002_01.pdf",
-          "gabarito": "gab_002_fixed.txt",
-          "tipo": "mc",
-          "arquivo": "585_COREN_SE_002_01.PDF"
-        }
-      ]
+     "key": "COREN_SE_001_01",
+     "prova": "pro_COREN_SE_001_01.pdf",
+     "gabarito": "gab_COREN_SE_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "585_COREN_SE_001_01.PDF"
     }
-  ],
-  "unmatched": [],
-  "variant": "modern",
-  "skip": {},
-  "patch": {
-    "COREN_SE_001_01": {
-      "42": "Caso clínico 1A2: Um homem de 62 anos de idade está sendo acompanhado no ambulatório de estomaterapia para tratamento de lesão em membro inferior esquerdo (MIE). O paciente é fumante de longa data, hipertenso e tem dislipidemia. Ele informou ter hábito de sono regular, sem queixas, possuir doença arterial obstrutiva periférica diagnosticada há um ano e lesão no MIE há um ano e dois meses. O paciente apresenta quadro de dor na lesão, classificada como 7 pontos na escala até 10. Ele informou que a dor está presente desde o início da doença, mas que se agravou na última semana. O paciente possui, ainda, lesão arterial em MIE, que se localiza na região pré-tibial, circular, com área atual de 2,0 cm², profunda parcial (até subcutâneo), hipocorada, não infectada, com tecido necrótico seco estável aderido em toda extensão, ausência de pelos na região perilesional, sem exudato, sem odor desagradável, pododáctilo esquerdo cianótico, e pulsos femoral, poplíteo e tibial ausentes (apenas em MIE). Apresenta marcha claudicante, índice de pressão tornozelo-braço (ITB) de 0,45 à esquerda e de 1,0 à direita. Seu número de hemácias está diminuído. O paciente exibe expressão facial de dor no momento do curativo. Considerando o caso clínico 1A2, o planejamento da assistência no caso apresentado e os sistemas de classificação — classificação de diagnósticos (NANDA-I), de intervenções (NIC) e de resultados (NOC) —, assinale a opção correta.",
-      "43": "Caso clínico 1A2: Um homem de 62 anos de idade está sendo acompanhado no ambulatório de estomaterapia para tratamento de lesão em membro inferior esquerdo (MIE). O paciente é fumante de longa data, hipertenso e tem dislipidemia. Ele informou ter hábito de sono regular, sem queixas, possuir doença arterial obstrutiva periférica diagnosticada há um ano e lesão no MIE há um ano e dois meses. O paciente apresenta quadro de dor na lesão, classificada como 7 pontos na escala até 10. Ele informou que a dor está presente desde o início da doença, mas que se agravou na última semana. O paciente possui, ainda, lesão arterial em MIE, que se localiza na região pré-tibial, circular, com área atual de 2,0 cm², profunda parcial (até subcutâneo), hipocorada, não infectada, com tecido necrótico seco estável aderido em toda extensão, ausência de pelos na região perilesional, sem exudato, sem odor desagradável, pododáctilo esquerdo cianótico, e pulsos femoral, poplíteo e tibial ausentes (apenas em MIE). Apresenta marcha claudicante, índice de pressão tornozelo-braço (ITB) de 0,45 à esquerda e de 1,0 à direita. Seu número de hemácias está diminuído. O paciente exibe expressão facial de dor no momento do curativo. Ainda com relação ao caso clínico 1A2, para o cuidado da lesão arterial, recomenda-se"
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Técnico Administrativo",
+   "id_cargo": "tecnico-administrativo",
+   "provas": [
+    {
+     "key": "COREN_SE_CG2_01",
+     "prova": "pro_COREN_SE_CG2_01.pdf",
+     "gabarito": "gab_COREN_SE_CG2_01.pdf",
+     "tipo": "mc",
+     "arquivo": "585_COREN_SE_CG2_01.PDF"
+    },
+    {
+     "key": "COREN_SE_002_01",
+     "prova": "pro_COREN_SE_002_01.pdf",
+     "gabarito": "gab_002_fixed.txt",
+     "tipo": "mc",
+     "arquivo": "585_COREN_SE_002_01.PDF"
     }
+   ]
   }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "COREN_SE_001_01": {
+   "42": "Caso clínico 1A2: Um homem de 62 anos de idade está sendo acompanhado no ambulatório de estomaterapia para tratamento de lesão em membro inferior esquerdo (MIE). O paciente é fumante de longa data, hipertenso e tem dislipidemia. Ele informou ter hábito de sono regular, sem queixas, possuir doença arterial obstrutiva periférica diagnosticada há um ano e lesão no MIE há um ano e dois meses. O paciente apresenta quadro de dor na lesão, classificada como 7 pontos na escala até 10. Ele informou que a dor está presente desde o início da doença, mas que se agravou na última semana. O paciente possui, ainda, lesão arterial em MIE, que se localiza na região pré-tibial, circular, com área atual de 2,0 cm², profunda parcial (até subcutâneo), hipocorada, não infectada, com tecido necrótico seco estável aderido em toda extensão, ausência de pelos na região perilesional, sem exudato, sem odor desagradável, pododáctilo esquerdo cianótico, e pulsos femoral, poplíteo e tibial ausentes (apenas em MIE). Apresenta marcha claudicante, índice de pressão tornozelo-braço (ITB) de 0,45 à esquerda e de 1,0 à direita. Seu número de hemácias está diminuído. O paciente exibe expressão facial de dor no momento do curativo. Considerando o caso clínico 1A2, o planejamento da assistência no caso apresentado e os sistemas de classificação — classificação de diagnósticos (NANDA-I), de intervenções (NIC) e de resultados (NOC) —, assinale a opção correta.",
+   "43": "Caso clínico 1A2: Um homem de 62 anos de idade está sendo acompanhado no ambulatório de estomaterapia para tratamento de lesão em membro inferior esquerdo (MIE). O paciente é fumante de longa data, hipertenso e tem dislipidemia. Ele informou ter hábito de sono regular, sem queixas, possuir doença arterial obstrutiva periférica diagnosticada há um ano e lesão no MIE há um ano e dois meses. O paciente apresenta quadro de dor na lesão, classificada como 7 pontos na escala até 10. Ele informou que a dor está presente desde o início da doença, mas que se agravou na última semana. O paciente possui, ainda, lesão arterial em MIE, que se localiza na região pré-tibial, circular, com área atual de 2,0 cm², profunda parcial (até subcutâneo), hipocorada, não infectada, com tecido necrótico seco estável aderido em toda extensão, ausência de pelos na região perilesional, sem exudato, sem odor desagradável, pododáctilo esquerdo cianótico, e pulsos femoral, poplíteo e tibial ausentes (apenas em MIE). Apresenta marcha claudicante, índice de pressão tornozelo-braço (ITB) de 0,45 à esquerda e de 1,0 à direita. Seu número de hemácias está diminuído. O paciente exibe expressão facial de dor no momento do curativo. Ainda com relação ao caso clínico 1A2, para o cuidado da lesão arterial, recomenda-se"
+  }
+ }
 }
