@@ -1,0 +1,100 @@
+{
+ "evento": "TCE_RJ_20",
+ "workdir": "/tmp/tce_rj_20",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Tribunal de Contas do Estado do Rio de Janeiro",
+  "ano": 2020,
+  "id_orgao": "tce-rj"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista de Controle Externo – Área: Controle Externo – Especialidade: Ciências Contábeis",
+   "id_cargo": "ciencias-contabeis",
+   "provas": [
+    {
+     "key": "cb01",
+     "prova": "pro_CARGO_1.pdf",
+     "gabarito": "gab_MATRIZ_524_TCERJCB1_.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_1.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_CARGO_1.pdf",
+     "gabarito": "gab_MATRIZ_524_TCERJ001_.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_1.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista de Controle Externo – Área: Controle Externo – Especialidade: Controle Externo",
+   "id_cargo": "controle-externo",
+   "provas": [
+    {
+     "key": "cb02",
+     "prova": "pro_CARGO_2.pdf",
+     "gabarito": "gab_MATRIZ_524_TCERJCB1_.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_2.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_CARGO_2.pdf",
+     "gabarito": "gab_MATRIZ_524_TCERJ002_.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_2.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista de Controle Externo – Área: Controle Externo – Especialidade: Direito",
+   "id_cargo": "direito",
+   "provas": [
+    {
+     "key": "cb03",
+     "prova": "pro_CARGO_3.pdf",
+     "gabarito": "gab_MATRIZ_524_TCERJCB1_.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_3.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_CARGO_3.pdf",
+     "gabarito": "gab_MATRIZ_524_TCERJ003_.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_3.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista de Controle Externo – Área: Controle Externo – Especialidade: Tecnologia da Informação",
+   "id_cargo": "tecnologia-informacao",
+   "provas": [
+    {
+     "key": "cb04",
+     "prova": "pro_CARGO_4.pdf",
+     "gabarito": "gab_MATRIZ_524_TCERJCB1_.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_4.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_CARGO_4.pdf",
+     "gabarito": "gab_MATRIZ_524_TCERJ004_.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_4.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}
