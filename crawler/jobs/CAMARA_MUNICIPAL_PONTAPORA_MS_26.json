@@ -1,0 +1,163 @@
+{
+ "evento": "CAMARA_MUNICIPAL_PONTAPORA_MS_26",
+ "workdir": "/tmp/camara_municipal_pontapora_ms_26",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Câmara Municipal de Ponta Porã",
+  "ano": 2026,
+  "id_orgao": "camara-pontapora"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista de Licitação e Contratos",
+   "id_cargo": "analista-licitacao",
+   "provas": [
+    {
+     "key": "cg15",
+     "prova": "pro_5D8E3D50F8CC705D91597970.pdf",
+     "gabarito": "gab_4E96516A62C791075FBCEA76.pdf",
+     "tipo": "ce",
+     "arquivo": "5D8E3D50F8CC705D91597970BA2C7331F75FC7CBF9C6B26475A462CB36801365.pdf"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_82C5884A5E0CD1D9689653EC.pdf",
+     "gabarito": "gab_B51E65CD83CE5D66FCE876CC.pdf",
+     "tipo": "ce",
+     "arquivo": "82C5884A5E0CD1D9689653ECAB61C030089D21D9D53C362C451E338E3C90DA52.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista de Sistemas",
+   "id_cargo": "analista-sistemas",
+   "provas": [
+    {
+     "key": "cg15",
+     "prova": "pro_5D8E3D50F8CC705D91597970.pdf",
+     "gabarito": "gab_4E96516A62C791075FBCEA76.pdf",
+     "tipo": "ce",
+     "arquivo": "5D8E3D50F8CC705D91597970BA2C7331F75FC7CBF9C6B26475A462CB36801365.pdf"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_6FFFE38DC3E9FDE9D1DE35DA.pdf",
+     "gabarito": "gab_922EDBA951BABC4ECB03DD4B.pdf",
+     "tipo": "ce",
+     "arquivo": "6FFFE38DC3E9FDE9D1DE35DAF22AF934BB922F7F11EF91D5E196D3D9D877A453.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Consultor Legislativo",
+   "id_cargo": "consultor-legislativo",
+   "provas": [
+    {
+     "key": "cg15",
+     "prova": "pro_5D8E3D50F8CC705D91597970.pdf",
+     "gabarito": "gab_4E96516A62C791075FBCEA76.pdf",
+     "tipo": "ce",
+     "arquivo": "5D8E3D50F8CC705D91597970BA2C7331F75FC7CBF9C6B26475A462CB36801365.pdf"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_164C4AE635F1D7621AC8EA85.pdf",
+     "gabarito": "gab_D27B4FDCBBEBEC2EE8C617D4.pdf",
+     "tipo": "ce",
+     "arquivo": "164C4AE635F1D7621AC8EA859C5801E78BCE1723F647B3CB5EF4F622E3589682.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Contador",
+   "id_cargo": "contador",
+   "provas": [
+    {
+     "key": "cg15",
+     "prova": "pro_5D8E3D50F8CC705D91597970.pdf",
+     "gabarito": "gab_4E96516A62C791075FBCEA76.pdf",
+     "tipo": "ce",
+     "arquivo": "5D8E3D50F8CC705D91597970BA2C7331F75FC7CBF9C6B26475A462CB36801365.pdf"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_D960E608B65CFCEAD9E0455B.pdf",
+     "gabarito": "gab_8E819F27762841A023854A36.pdf",
+     "tipo": "ce",
+     "arquivo": "D960E608B65CFCEAD9E0455BDD130E991189913688B87BC6849B0E7582C7CFFA.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Controlador Interno",
+   "id_cargo": "controlador-interno",
+   "provas": [
+    {
+     "key": "cg15",
+     "prova": "pro_5D8E3D50F8CC705D91597970.pdf",
+     "gabarito": "gab_4E96516A62C791075FBCEA76.pdf",
+     "tipo": "ce",
+     "arquivo": "5D8E3D50F8CC705D91597970BA2C7331F75FC7CBF9C6B26475A462CB36801365.pdf"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_442A236808025240F295EA6A.pdf",
+     "gabarito": "gab_18DDD57D3044F7ACF2AA4A0F.pdf",
+     "tipo": "ce",
+     "arquivo": "442A236808025240F295EA6A3BD3EA8E105DB491E401BAE12D60B6C7BCBF6A98.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Técnico em Informática",
+   "id_cargo": "tecnico-informatica",
+   "provas": [
+    {
+     "key": "cg67",
+     "prova": "pro_2B878C712E0F7F51C1E0AE32.pdf",
+     "gabarito": "gab_F174645A5C6D658A8E1CDB46.pdf",
+     "tipo": "ce",
+     "arquivo": "2B878C712E0F7F51C1E0AE320C07CDA9F000F45A2265FFC052C00E9AD75FE6EB.pdf"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_6C26F5A139EC3E096BA699BB.pdf",
+     "gabarito": "gab_130C38A25DC408AEC7A4FF8C.pdf",
+     "tipo": "ce",
+     "arquivo": "6C26F5A139EC3E096BA699BB69A268BF1716EE522A6F7E3BF2C5DF73E1168DB8.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Assistente Administrativo",
+   "id_cargo": "assistente-administrativo",
+   "provas": [
+    {
+     "key": "cg67",
+     "prova": "pro_2B878C712E0F7F51C1E0AE32.pdf",
+     "gabarito": "gab_F174645A5C6D658A8E1CDB46.pdf",
+     "tipo": "ce",
+     "arquivo": "2B878C712E0F7F51C1E0AE320C07CDA9F000F45A2265FFC052C00E9AD75FE6EB.pdf"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_E8B054A53950D8C829A2FF0D.pdf",
+     "gabarito": "gab_CAA7DEFD22A560CF3D7160EA.pdf",
+     "tipo": "ce",
+     "arquivo": "E8B054A53950D8C829A2FF0DAC5DCBBD7A8858CDD05706E11048D3E015807F42.pdf"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}
