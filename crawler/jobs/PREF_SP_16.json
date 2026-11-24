@@ -1,0 +1,508 @@
+{
+ "banca": "cebraspe",
+ "evento": "PREF_SP_16",
+ "workdir": "/tmp/pref_sp_16",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Prefeitura Municipal de São Paulo",
+  "ano": 2016,
+  "id_orgao": "pref-sp"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Assistente de Gestão de Políticas Públicas I – Segmento: Gestão Administrativa",
+   "id_cargo": "assistente-gestao-politicas-publicas-1",
+   "provas": [
+    {
+     "key": "cg1_01",
+     "prova": "254PMSP_CG1_01.pdf",
+     "gabarito": "gab_cg_1.txt",
+     "tipo": "mc",
+     "arquivo": "254PMSP_CG1_01.pdf",
+     "blocos": [
+      [
+       1,
+       20,
+       "Língua Portuguesa"
+      ],
+      [
+       21,
+       35,
+       "Raciocínio Lógico e Matemático"
+      ],
+      [
+       36,
+       45,
+       "Realidades Municipais"
+      ],
+      [
+       46,
+       60,
+       "Noções de Informática"
+      ]
+     ]
+    },
+    {
+     "key": "esp_01",
+     "prova": "254PMSP_001_01.pdf",
+     "gabarito": "gab_esp_1.txt",
+     "tipo": "mc",
+     "arquivo": "254PMSP_001_01.pdf",
+     "assunto": "Conhecimentos Específicos"
+    }
+   ]
+  }
+ ],
+ "unmatched": [
+  {
+   "key": "cg1_02",
+   "prova": "254PMSP_CG1_02.pdf",
+   "gabarito": "gab_cg_2.txt",
+   "tipo": "mc",
+   "arquivo": "254PMSP_CG1_02.pdf",
+   "blocos": [
+    [
+     1,
+     20,
+     "Língua Portuguesa"
+    ],
+    [
+     21,
+     35,
+     "Raciocínio Lógico e Matemático"
+    ],
+    [
+     36,
+     45,
+     "Realidades Municipais"
+    ],
+    [
+     46,
+     60,
+     "Noções de Informática"
+    ]
+   ]
+  },
+  {
+   "key": "esp_02",
+   "prova": "254PMSP_001_02.pdf",
+   "gabarito": "gab_esp_2.txt",
+   "tipo": "mc",
+   "arquivo": "254PMSP_001_02.pdf",
+   "assunto": "Conhecimentos Específicos"
+  },
+  {
+   "key": "cg1_03",
+   "prova": "254PMSP_CG1_03.pdf",
+   "gabarito": "gab_cg_3.txt",
+   "tipo": "mc",
+   "arquivo": "254PMSP_CG1_03.pdf",
+   "blocos": [
+    [
+     1,
+     20,
+     "Língua Portuguesa"
+    ],
+    [
+     21,
+     35,
+     "Raciocínio Lógico e Matemático"
+    ],
+    [
+     36,
+     45,
+     "Realidades Municipais"
+    ],
+    [
+     46,
+     60,
+     "Noções de Informática"
+    ]
+   ]
+  },
+  {
+   "key": "esp_03",
+   "prova": "254PMSP_001_03.pdf",
+   "gabarito": "gab_esp_3.txt",
+   "tipo": "mc",
+   "arquivo": "254PMSP_001_03.pdf",
+   "assunto": "Conhecimentos Específicos"
+  },
+  {
+   "key": "cg1_04",
+   "prova": "254PMSP_CG1_04.pdf",
+   "gabarito": "gab_cg_4.txt",
+   "tipo": "mc",
+   "arquivo": "254PMSP_CG1_04.pdf",
+   "blocos": [
+    [
+     1,
+     20,
+     "Língua Portuguesa"
+    ],
+    [
+     21,
+     35,
+     "Raciocínio Lógico e Matemático"
+    ],
+    [
+     36,
+     45,
+     "Realidades Municipais"
+    ],
+    [
+     46,
+     60,
+     "Noções de Informática"
+    ]
+   ]
+  },
+  {
+   "key": "esp_04",
+   "prova": "254PMSP_001_04.pdf",
+   "gabarito": "gab_esp_4.txt",
+   "tipo": "mc",
+   "arquivo": "254PMSP_001_04.pdf",
+   "assunto": "Conhecimentos Específicos"
+  },
+  {
+   "key": "cg1_05",
+   "prova": "254PMSP_CG1_05.pdf",
+   "gabarito": "gab_cg_5.txt",
+   "tipo": "mc",
+   "arquivo": "254PMSP_CG1_05.pdf",
+   "blocos": [
+    [
+     1,
+     20,
+     "Língua Portuguesa"
+    ],
+    [
+     21,
+     35,
+     "Raciocínio Lógico e Matemático"
+    ],
+    [
+     36,
+     45,
+     "Realidades Municipais"
+    ],
+    [
+     46,
+     60,
+     "Noções de Informática"
+    ]
+   ]
+  },
+  {
+   "key": "esp_05",
+   "prova": "254PMSP_001_05.pdf",
+   "gabarito": "gab_esp_5.txt",
+   "tipo": "mc",
+   "arquivo": "254PMSP_001_05.pdf",
+   "assunto": "Conhecimentos Específicos"
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "cg1_01": {
+   "30": {
+    "enunciado": "Em uma pesquisa relacionada às ações de fiscalização que resultaram em multas aplicadas de acordo com os critérios mencionados no texto V, 750 pessoas foram entrevistadas, e 60% delas responderam que concordam com essas ações. Nessa hipótese, a quantidade de pessoas que discordaram, são indiferentes ou que não responderam foi igual a",
+    "alternativas": [
+     "60.",
+     "300.",
+     "450.",
+     "600.",
+     "750."
+    ]
+   },
+   "38": {
+    "enunciado": "São Paulo, a grande metrópole brasileira, é também conhecida pelo elevado número de imigrantes no conjunto de sua população. Receber o grande contingente de brasileiros que buscam melhores condições de vida é tarefa complexa, a requerer políticas públicas adequadas para responder às demandas desses migrantes. Nessa perspectiva, o poder público paulistano",
+    "alternativas": [
+     "busca promover e garantir aos migrantes o acesso aos direitos sociais básicos e aos serviços públicos essenciais, promovendo a inclusão social e reconhecendo-lhes sua identidade cultural.",
+     "incentiva a vida comunitária desses migrantes, razão pela qual prioriza sua fixação em bairros exclusivos e afastados das áreas mais tradicionais da cidade.",
+     "optou por reencaminhar os migrantes para seus estados de origem, para preservar sua identidade cultural e assegurar-lhes proteção e segurança.",
+     "decidiu questionar a legislação federal relativa às migrações no país, por considerá-la insatisfatória e incapaz de promover a adaptação dos migrantes a uma cidade da dimensão de São Paulo.",
+     "oferece abrigo aos migrantes em outros municípios do estado de São Paulo por considerá-los em melhores condições para absorver essa mão de obra com reduzida qualificação."
+    ]
+   },
+   "39": {
+    "enunciado": "Planejar o desenvolvimento urbano é obrigação a que os municípios estão sujeitos. Em São Paulo, a Política de Desenvolvimento Urbano e o Plano Diretor Estratégico constituem norma legal e têm por objetivo ordenar o crescimento da cidade de forma equilibrada e coerente. Com relação a esse tema, assinale a opção correta.",
+    "alternativas": [
+     "O Sistema de Planejamento Urbano existe, fundamentalmente, para estabelecer os limites geográficos do município de São Paulo, independentemente de legislação estadual a esse respeito.",
+     "O Plano Diretor Estratégico determina o âmbito da atuação dos agentes privados na gestão do município, excluídos os agentes públicos.",
+     "As políticas sociais de desenvolvimento urbano estão subordinadas diretamente às diretrizes federais e independem de articulação com os demais municípios da região metropolitana.",
+     "A Política de Desenvolvimento Urbano visa, entre outros objetivos, promover o uso socialmente justo e ecologicamente equilibrado do território municipal.",
+     "A Política de Desenvolvimento Urbano, o Sistema de Planejamento Urbano e o Plano Diretor Estratégico são instrumentos autônomos, atuando isoladamente em suas respectivas áreas."
+    ]
+   },
+   "43": {
+    "enunciado": "Os governos têm sido desafiados a institucionalizar processos e a estabelecer canais mais efetivos para que os cidadãos tomem parte das decisões sobre as políticas públicas, uma vez que a participação social é tida como importante fator de aperfeiçoamento da gestão pública. Em São Paulo, é possível se envolver e acompanhar a política municipal por meio da participação nos conselhos organizados em torno das pautas mais significativas para a cidade. No que concerne às atribuições desses conselhos, é correto afirmar que emitir parecer sobre os assuntos de ordem pedagógica e educativa que lhe sejam submetidos pela administração municipal cabe ao",
+    "alternativas": [
+     "Conselho Municipal de Ciência, Tecnologia e Inovação.",
+     "Conselho Municipal de Assistência e Desenvolvimento Social.",
+     "Conselho Municipal de Juventude.",
+     "Conselho Municipal dos Direitos da Criança e do Adolescente.",
+     "Conselho Municipal de Educação de São Paulo."
+    ]
+   },
+   "44": {
+    "enunciado": "No campo da cultura, as políticas públicas implementadas pelo município de São Paulo se coadunam com a concepção ampla de cidadania, o que ocorre mediante a",
+    "alternativas": [
+     "disseminação de escolas circenses por todo o município com o objetivo de resgatar essa arte.",
+     "efetiva separação entre as manifestações eruditas e populares.",
+     "percepção de que a cultura e as artes, em geral, são elementos constitutivos da vida.",
+     "compreensão da oposição entre cultura e educação.",
+     "construção de grandes teatros em todas as regiões da cidade para incentivar o trabalho de grupos profissionais e amadores."
+    ]
+   },
+   "45": {
+    "enunciado": "A Constituição Federal, aprovada em 1988, é conhecida como Constituição Cidadã. Depois de décadas de democracia frágil e da experiência de regimes autoritários ou ditatoriais, o Brasil tem buscado aperfeiçoar suas instituições e aprimorar práticas cidadãs. O município de São Paulo tem-se esforçado por oferecer à população mecanismos facilitadores da participação social e de adensamento da transparência. Em suma, o que se pretende é conferir à cidadania seu significado essencial. Nesse sentido, a cidadania pode ser definida como",
+    "alternativas": [
+     "expressão do individualismo se impondo aos valores praticados pela sociedade.",
+     "instrumento de dignificação da vida humana, pela observância de direitos e deveres.",
+     "direito de priorização dos interesses das minorias sobre os das maiorias.",
+     "liberdade para impor os interesses pessoais sobre os coletivos.",
+     "mecanismo de ascensão social, independentemente de mérito e de esforço."
+    ]
+   },
+   "35": {
+    "enunciado": "Determinada associação de moradores, com 70 associados, estabeleceu a mensalidade de R$ 100,00 para cada associado. Os dirigentes dessa associação estimaram que, para cada R$ 10,00 de aumento na mensalidade, três associados deixariam a associação, por dificuldades financeiras. Na situação descrita, se por x vezes a mensalidade for aumentada em R$ 10,00, a expressão algébrica que fornecerá o valor, em reais, arrecadado pela associação, em função de x, será",
+    "alternativas": [
+     "(100 + 10 x ) + (70 – 4 x ).",
+     "(100 + 10 x )(70 – 3 x ).",
+     "(100 – 10 x )(70 + 3 x ).",
+     "(100 + 10 x )(70 + 3 x ).",
+     "(100 – 10 x )(70 – 3 x )."
+    ]
+   },
+   "21": {
+    "enunciado": "A tabela a seguir, relativa ao ano de 2010, mostra as populações dos quatro distritos que formam certa região administrativa do município de São Paulo. distrito | população (em 2010) Alto de Pinheiros | 43.000 Itaim Bibi | 92.500 Jardim Paulista | 89.000 Pinheiros | 65.500 Total | 290.000 Considerando-se a tabela apresentada, é correto afirmar que, se, em 2010, um habitante dessa região administrativa tivesse sido selecionado ao acaso, a chance de esse habitante ser morador do distrito Jardim Paulista seria",
+    "alternativas": [
+     "inferior a 21%.",
+     "superior a 21% e inferior a 25%.",
+     "superior a 25% e inferior a 29%.",
+     "superior a 29% e inferior a 33%.",
+     "superior a 33%."
+    ]
+   },
+   "24": {
+    "alternativas": [
+     "A",
+     "B",
+     "C",
+     "D",
+     "E"
+    ]
+   },
+   "46": {
+    "alternativas": [
+     "Na unidade Meu computador, estão listadas as pastas que contêm apenas os arquivos do sistema operacional Windows, os quais são responsáveis pelo funcionamento correto do sistema.",
+     "Na pasta Área de Trabalho, são armazenados os documentos copiados temporariamente por meio dos atalhos Ctrl + C e Ctrl + X, para serem reutilizados posteriormente.",
+     "O lado direito da janela mostra as pastas das unidades, ou arquivos nelas contidos, que foram selecionadas do lado esquerdo da janela, o que permite acesso rápido por meio de cliques do mouse.",
+     "A opção Rede permite acesso aos programas de navegação na rede local, na Internet ou em intranet.",
+     "A opção Pesquisar Meu computador oferece mecanismo de busca na Internet, via Bing ou Google, para encontrar arquivos armazenados pelo usuário nas unidades remotas de armazenamento em nuvem."
+    ]
+   },
+   "48": {
+    "alternativas": [
+     "O software Acrobat Reader deve ser instalado na máquina do usuário para que ele possa converter arquivos para o formato PDF.",
+     "É possível instalar no computador um driver para imprimir arquivos em formato PDF; tal driver é uma das opções de impressão digital para diversos tipos de arquivos.",
+     "Um arquivo gravado no formato DOC pode ser convertido online para o formato PDF no sítio da Adobe, que enviará o arquivo convertido para o email do usuário.",
+     "Versões recentes do Microsoft Word não permitem salvar arquivos DOC no formato PDF.",
+     "Apenas aplicativos desenvolvidos pela Adobe, como, por exemplo, o Acrobat Writer, permitem gravar arquivos em formato PDF."
+    ]
+   },
+   "49": {
+    "alternativas": [
+     "É possível salvar um arquivo em formato PDF por meio da opção Salvar como... .",
+     "Selecionando-se, sequencialmente, o menu Arquivo, a opção Novo e a subopção Planilha, pode-se criar uma planilha, que será aberta dentro do Writer.",
+     "Clicando-se uma vez o botão (emoticon), é possível inserir, em arquivos editados no Writer, links para outros arquivos ou páginas da Internet.",
+     "Textos que forem digitados no campo representado pelo ícone Localizar serão buscados na Internet mediante o sítio de buscas Google.",
+     "É possível alterar a cor da fonte utilizada em um documento ao se selecionar o texto e, em seguida, clicar o botão ab."
+    ]
+   },
+   "50": {
+    "alternativas": [
+     "O botão ¶ permite mostrar as marcas de parágrafo e outros símbolos de formatação que estão ocultos no documento, como, por exemplo, espaços entre palavras e recuos de parágrafos.",
+     "A ferramenta representada pelo botão (balde de tinta) permite colorir o texto com a cor que for selecionada pelo usuário, bem como oferece opções avançadas de formatação do texto.",
+     "Clicando-se os botões (marcadores, numeração e lista multinível), cada palavra do parágrafo em que se encontra a palavra selecionada será convertida em tópicos numerados ou separados por marcadores.",
+     "Clicando-se os botões (diminuir recuo e aumentar recuo), o parágrafo em que a palavra selecionada está contida poderá ser alinhado à esquerda, no centro, à direita ou justificado.",
+     "Os botões (modos de exibição), localizados na parte inferior da janela, mostram as opções de formatação de leiaute da página."
+    ]
+   },
+   "55": {
+    "enunciado": "A figura mostra parte de uma janela do navegador Microsoft Internet Explorer 11, que está sendo usado para o acesso ao portal da Transparência da Prefeitura do Município de São Paulo. Clicando-se, com o botão esquerdo do mouse, o ícone ★, é possível",
+    "alternativas": [
+     "tornar o Internet Explorer 11 o navegador padrão.",
+     "incluir o referido sítio na lista de favoritos.",
+     "usar a navegação InPrivate.",
+     "definir o referido sítio como página inicial do navegador.",
+     "excluir os cookies do navegador."
+    ]
+   },
+   "56": {
+    "alternativas": [
+     "Para cada conta de correio eletrônico do usuário, uma área de visualização deve ser criada, uma vez que não é possível visualizar todas as contas em uma única janela.",
+     "É necessário estar conectado à Internet para enviar uma mensagem usando-se tal programa, no entanto essa exigência é dispensada no momento da produção da mensagem.",
+     "Embora não seja possível salvar os anexos das mensagens recebidas pelo Outlook Express, o usuário pode salvar em seu computador as mensagens em formato de arquivo.",
+     "Por meio da função Sincronizar, é possível atualizar o Outlook Express, substituindo-o pela versão mais recente disponível no sítio da Microsoft.",
+     "Na figura Caixa de Entrada (10), que ilustra parte da tela inicial do Outlook Express, o número “10” indica a quantidade de mensagens que contêm arquivos anexados."
+    ]
+   },
+   "57": {
+    "alternativas": [
+     "clicar o botão direito do mouse sobre a pasta que deseja compartilhar e, em seguida, selecionar a opção Disponibilizar arquivos em rede.",
+     "clicar duas vezes o botão esquerdo do mouse sobre a pasta que deseja compartilhar.",
+     "selecionar, clicando com o botão esquerdo do mouse, a pasta que deseja compartilhar e, em seguida, pressionar a tecla Tab.",
+     "selecionar, clicando com o botão esquerdo do mouse, a pasta que deseja compartilhar e, em seguida, pressionar as teclas Ctrl + A.",
+     "clicar o botão direito do mouse sobre a pasta que deseja compartilhar e, em seguida, selecionar a opção Compartilhar com."
+    ]
+   }
+  },
+  "esp_01": {
+   "61": {
+    "enunciado": "A respeito dos conselhos participativos reconhecidos pelo poder público municipal da cidade de São Paulo, assinale a opção correta.",
+    "alternativas": [
+     "Na composição do conselho participativo municipal, deverá ser reservado para as mulheres o mínimo de 25% dos assentos ou pelo menos uma cadeira de conselheiro extraordinário no território de cada subprefeitura.",
+     "Em cada conselho participativo municipal, os imigrantes disporão de, no máximo, duas cadeiras de conselheiro.",
+     "Estará apta a concorrer à eleição para o conselho participativo municipal qualquer pessoa maior de dezoito anos, residente na área da respectiva subprefeitura, independentemente de ocupar cargo em comissão ou função no poder público federal, estadual ou municipal.",
+     "Os conselheiros serão eleitos por voto direto, secreto, facultativo e universal de todas as pessoas com mais de dezesseis anos e que sejam portadoras de título de eleitor, as quais poderão votar em um único candidato ao conselho participativo municipal de sua respectiva subprefeitura.",
+     "Reconhecido pela Prefeitura do Município de São Paulo (PMSP) como espaço consultivo e de representação da sociedade, o conselho participativo municipal é um organismo autônomo da sociedade civil que deverá ser instalado por cada subprefeitura para atuação nos limites de seu território administrativo."
+    ]
+   },
+   "62": {
+    "enunciado": "Com relação aos tipos de contratos administrativos e às formas de contratação praticadas pela administração pública, assinale a opção correta.",
+    "alternativas": [
+     "Diferentemente da concessão de serviço público, que é um contrato administrativo, a permissão de serviço público é ato unilateral da administração pública.",
+     "As parcerias público-privadas, embora representem ajustes administrativos, não podem ser consideradas contratos de concessão.",
+     "Contratos de obras são aqueles nos quais o objeto consiste em construção, reforma, recuperação ou ampliação de bens públicos, incluídos nessa categoria os bens de utilização administrativa, mas não os de uso coletivo.",
+     "Não podem ser caracterizados como contratos de serviços aqueles que a administração celebra visando à manutenção ou ao conserto de determinado equipamento, pois esses são típicos contratos de obras.",
+     "Ao celebrar contratos administrativos, os municípios, tanto quanto a União, os estados e o Distrito Federal, submetem-se às normas gerais da Lei n.º 8.666/1993."
+    ]
+   },
+   "63": {
+    "enunciado": "No que se refere à administração pública direta e indireta, assinale a opção correta.",
+    "alternativas": [
+     "A administração indireta compreende as pessoas administrativas que, vinculadas à respectiva administração direta, desempenham atividades administrativas de forma descentralizada.",
+     "Tanto a administração direta quanto a indireta são compostas por órgãos e por pessoas jurídicas administrativas, com a diferença de que todas as que integram a administração indireta estão submetidas a regime de direito privado.",
+     "O aspecto mais relevante que caracteriza a administração indireta é o fato de ela ser, ao mesmo tempo, titular e executora de serviço público.",
+     "As pessoas administrativas que formam a administração pública indireta são aquelas dotadas de personalidade jurídica de direito público (como as autarquias e as fundações públicas).",
+     "Na esfera municipal, a administração direta é formada pelos órgãos que compõem a prefeitura e a câmara municipal, além das fundações e das empresas públicas de âmbito local."
+    ]
+   },
+   "64": {
+    "enunciado": "Considere que o governo federal tenha criado um parque nacional situado no território de um município. Acerca dessa situação, assinale a opção correta, considerando as competências dos entes municipais.",
+    "alternativas": [
+     "A prefeitura dispõe de condições para atuar na proteção do parque, pois insere-se também no âmbito de sua competência a proteção do meio ambiente genericamente considerado.",
+     "A prefeitura local ficará impedida de atuar se constatar a ocorrência, no parque, de atividade de desmatamento, pois o município não dispõe de competência para legislar sobre florestas, conservação da natureza e proteção do meio ambiente.",
+     "A prefeitura do município não poderá questionar eventual atividade poluidora de mananciais desenvolvida na área do parque, pois a competência para combater a poluição restringe-se à União, aos estados e ao Distrito Federal, ou seja, não alcança os municípios.",
+     "O órgão ambiental do município não poderá atuar na defesa do meio ambiente na área do parque, pois a responsabilidade pela sua proteção será exclusiva do órgão ambiental federal.",
+     "O município só poderia atuar na preservação da fauna e da flora do parque se este tivesse sido criado pela autoridade pública municipal."
+    ]
+   },
+   "65": {
+    "enunciado": "A PMSP pretende adquirir bens e serviços comuns mediante processo de disputa, entre as empresas interessadas, por meio de propostas e lances em sessão pública. Nessa situação hipotética, qualquer que venha a ser o valor do objeto do contrato, para adquirir os bens e serviços pretendidos, a PMSP deverá realizar um(a)",
+    "alternativas": [
+     "parceria público-privada.",
+     "convênio.",
+     "concessão.",
+     "pregão.",
+     "concorrência."
+    ]
+   },
+   "72": {
+    "enunciado": "Acerca do regime jurídico dos funcionários públicos da Prefeitura Municipal de São Paulo, que está regulamentado em lei, na qual estão descritos direitos, deveres e regras relativas às carreiras, pagamento, benefícios e outras questões específicas, assinale a opção correta.",
+    "alternativas": [
+     "O candidato que não comprovar o gozo de boa saúde física poderá ser impedido pela administração pública de investir-se em cargo público.",
+     "As formas de provimento em cargo público incluem a nomeação, a reclassificação e a transferência.",
+     "No ato da posse, o candidato deverá declarar, oralmente ou por escrito, seu comprometimento com os deveres e atribuições de seu cargo.",
+     "Depois de aposentado, o agente que solicitar seu retorno será readaptado ao serviço público em cargo equivalente ao ocupado anteriormente.",
+     "Cabe à administração pública municipal designar ao servidor recém-nomeado suas atribuições e responsabilidades, que poderão ser diferentes daquelas inerentes ao cargo para o qual ele tenha sido aprovado."
+    ]
+   },
+   "73": {
+    "enunciado": "Os arquivos correntes da PMSP são formados pelo conjunto dos documentos correntes existentes nas suas várias unidades político-administrativas. Esses documentos",
+    "alternativas": [
+     "só podem ser eliminados após o prazo mínimo de dois anos.",
+     "são de grande interesse para a pesquisa científica.",
+     "têm grande possibilidade/frequência de uso.",
+     "possuem valor secundário.",
+     "são normalmente classificados como sigilosos."
+    ]
+   },
+   "74": {
+    "enunciado": "No arquivo intermediário, considerado uma extensão do arquivo corrente, predomina o valor",
+    "alternativas": [
+     "probatório.",
+     "histórico.",
+     "cultural.",
+     "informativo.",
+     "primário."
+    ]
+   },
+   "75": {
+    "enunciado": "Na administração de documentos, entre as rotinas do protocolo, a identificação dos metadados para controle e recuperação de dados faz parte da rotina de",
+    "alternativas": [
+     "tramitação.",
+     "expedição.",
+     "movimentação.",
+     "registro.",
+     "classificação."
+    ]
+   },
+   "76": {
+    "enunciado": "Nos arquivos permanentes, a organização adequada das informações relativas a cada documento, de modo a favorecer a divulgação do acervo documental e a consulta aos documentos constituintes desse acervo, corresponde à atividade de",
+    "alternativas": [
+     "descrição.",
+     "avaliação.",
+     "arranjo.",
+     "conservação.",
+     "preservação."
+    ]
+   },
+   "77": {
+    "enunciado": "Os desperdícios podem ser evitados por meio de atividades como previsão de consumo, operacionalização dos sistemas de reposição de materiais, inventário de bens materiais e apuração de indicadores. Essas atividades fazem parte da gestão de",
+    "alternativas": [
+     "estoques.",
+     "compras.",
+     "recursos patrimoniais.",
+     "centros de distribuição.",
+     "projetos."
+    ]
+   },
+   "78": {
+    "enunciado": "O interessado que, ciente de atos irregulares e ilegais na administração municipal, desejar noticiá-los à PMSP deverá apresentar à prefeitura",
+    "alternativas": [
+     "reclamação.",
+     "requerimento de indenização.",
+     "pedido de acesso à informação.",
+     "representação.",
+     "denúncia."
+    ]
+   },
+   "79": {
+    "enunciado": "De acordo com o Decreto Municipal n.º 56.832/2016, constitui canal de atendimento ao público para a apresentação de solicitação envolvendo a prestação de serviço público pela PMSP: I as Praças de Atendimento; II a Ouvidoria Geral do Município; III o Serviço de Informações ao Cidadão – eSIC. Assinale a opção correta.",
+    "alternativas": [
+     "Apenas o item I está certo.",
+     "Apenas os itens I e II estão certos.",
+     "Apenas os itens I e III estão certos.",
+     "Apenas os itens II e III estão certos.",
+     "Todos os itens estão certos."
+    ]
+   },
+   "80": {
+    "enunciado": "Considerando-se o disposto no Código de Defesa do Usuário do Serviço Público Paulistano, que consolida as normas de proteção e defesa dos usuários dos serviços públicos prestados pelo município de São Paulo, é correto afirmar que o responsável pelo atendimento a esses usuários deve",
+    "alternativas": [
+     "abster-se de utilizar técnicas de mediação e negociação para administrar impasses e conflitos, já que não lhe compete envolver-se com situações particulares dos usuários dos serviços públicos.",
+     "abster-se de acolher requerimentos que contenham a utilização errônea de nomenclaturas por parte dos interessados, orientando o requerente a retornar em outra ocasião com o documento corrigido.",
+     "omitir eventuais erros cometidos contra os interesses dos usuários, de modo a assegurar que o bom conceito da prestação do serviço público não seja maculado por situações excepcionais.",
+     "adotar postura pedagógica e impositiva, cobrando do usuário o conhecimento dos seus direitos e deveres, de modo a favorecer a assertividade do atendimento solicitado.",
+     "ouvir o usuário com paciência, compreensão, ausência de prejulgamento e de todo e qualquer preconceito."
+    ]
+   }
+  }
+ }
+}
