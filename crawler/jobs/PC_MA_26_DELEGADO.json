@@ -1,0 +1,30 @@
+{
+ "evento": "PC_MA_26_DELEGADO",
+ "workdir": "/tmp/pc_ma_26_delegado",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Polícia Civil do Maranhão",
+  "ano": 2026,
+  "id_orgao": "pcma"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Delegado de Polícia",
+   "id_cargo": "delegado",
+   "provas": [
+    {
+     "key": "p1",
+     "prova": "pro_656D00BAE831C932D2309E85.pdf",
+     "gabarito": "gab_9892AC4A388835CB0E677048.pdf",
+     "tipo": "mc",
+     "arquivo": "656D00BAE831C932D2309E85E6891E3D78938C176E115A3AFEEF23B66F3D607E.pdf"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}

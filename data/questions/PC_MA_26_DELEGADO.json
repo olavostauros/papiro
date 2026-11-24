@@ -1,0 +1,1822 @@
+{
+ "evento": "PC_MA_26_DELEGADO",
+ "banca": "Cebraspe",
+ "orgaos": [
+  "Polícia Civil do Maranhão"
+ ],
+ "cargos": [
+  "Delegado de Polícia"
+ ],
+ "assuntos": [
+  "DIREITO DIGITAL, DIREITO CIVIL, DIREITO PROCESSUAL CIVIL, DIREITO AGRÁRIO E DIREITO AMBIENTAL",
+  "GRUPO II DIREITO ADMINISTRATIVO, DIREITO CONSTITUCIONAL, MEDICINA LEGAL E DIREITOS HUMANOS",
+  "GRUPO III DIREITO PENAL, DIREITO PROCESSUAL PENAL, LEGISLAÇÃO PENAL E PROCESSUAL PENAL E CRIMINOLOGIA"
+ ],
+ "provas": [
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/PC_MA_26_DELEGADO/arquivos/656D00BAE831C932D2309E85E6891E3D78938C176E115A3AFEEF23B66F3D607E.pdf"
+  }
+ ],
+ "itens": [
+  {
+   "id": "cebraspe-2026-pcma-delegado-001",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Um indivíduo foi acusado do crime de injúria racial. Segundo a denúncia, ele havia proferido palavras ofensivas à vítima em um estádio de futebol, de acordo com gravação em vídeo. No entanto, laudos periciais oficiais e pareceres técnicos apontaram que, a partir do áudio, não fora identificado elemento ofensivo. Em razão disso, a autoridade policial solicitou ao centro de inteligência da delegacia a elaboração de relatório com auxílio de inteligência artificial generativa (IAG), que, por sua vez, concluiu a presença dos elementos ofensivos caracterizadores do crime. Esse relatório, então, foi utilizado como fundamento para a denúncia apresentada contra o acusado. Nessa situação hipotética, conforme entendimento do STJ, o relatório elaborado com auxílio de IAG",
+   "gabarito": "b",
+   "alternativas": [
+    "é considerado prova apta a subsidiar a decisão judicial, pois o juiz não fica adstrito ao laudo, podendo aceitá-lo ou rejeitá-lo, no todo ou em parte, nos termos do Código de Processo Penal.",
+    "não é considerado prova apta a subsidiar a decisão judicial, pois a prova deve observar critérios de racionalidade e fundamentação, algo que a IAG não necessariamente atende, por basear-se em padrões estatísticos passíveis de alucinação e risco de viés de confirmação.",
+    "não é considerado prova apta a subsidiar a decisão judicial, porque o ordenamento jurídico processual penal veda qualquer prova técnica que não seja produzida por perito oficial, assim entendido como o ser humano dotado de capacidade técnica.",
+    "é considerado prova apta a subsidiar a decisão judicial, porquanto tem a finalidade de permitir ao juiz conhecer dos fatos e formar sua convicção a partir do sistema do livre convencimento motivado.",
+    "é considerado prova apta a subsidiar a decisão judicial, porque o relatório técnico produzido por IAG não configura qualquer ilícito tampouco violação a normas de direito penal ou ofensa à cadeia de custódia da prova."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-002",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Marlene, de 75 anos de idade, possui, em instituição bancária privada, conta-corrente com movimentação média habitual de R$ 3.000. Às 4 h 00 min de certo dia, ela recebeu uma ligação de número com o prefixo oficial de seu banco e identificado, no visor de seu celular, como o contato salvo de seu gerente, Afonso. O suposto gerente a informou de uma tentativa de fraude em sua conta e a orientou a cancelar a operação suspeita por meio do compartilhamento da senha e do token , tendo-lhe cobrado pelo serviço o pagamento via PIX no valor de R$ 20.000. Acreditando que se comunicava com seu gerente, Marlene utilizou seu aplicativo do banco para realizar a transferência segundo as instruções, sem ter havido qualquer bloqueio ou alerta antes da efetivação, ainda que se tratasse de transferência durante a madrugada e em valor expressivamente superior ao habitual. Dessa forma, ela satisfez as camadas de autenticação viciada por erro induzido e, sem perceber, tornou-se vítima de golpe baseado na técnica de spoofing . Em relação a essa situação hipotética, assinale a opção correta consoante o entendimento sumulado do STJ.",
+   "gabarito": "c",
+   "alternativas": [
+    "O fato de Marlene ter realizado a transferência pelo aplicativo conforme as instruções do golpista configura culpa exclusiva da vítima, o que exclui a responsabilidade da instituição bancária.",
+    "A responsabilidade da instituição bancária é automática em qualquer golpe da falsa central e de spoofing , bastando a mera alegação da vítima de ter sido enganada por terceiro.",
+    "A ausência de bloqueio ou de alerta diante da transferência na madrugada e em valor muito superior ao perfil da cliente evidencia insuficiência de mecanismos antifraude, o que configura fortuito interno e atrai a incidência da Súmula n.o 479 do STJ.",
+    "A responsabilidade, no caso, é exclusiva do golpista, jamais podendo ser imputada à instituição bancária, ainda que demonstrada falha em seus sistemas de segurança.",
+    "Não há responsabilidade de instituições financeiras por golpes baseados na técnica de spoofing , por se tratar de falha na prestação de serviço pela operadora de telefonia."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-003",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com o intuito de oferecimento de serviços de disparo de material de campanha a candidatos em eleições, uma microempresa de telemarketing anunciou em seu site uma lista segmentada com cerca de 130 milhões de contatos de telefone. Ao saber do fato, a promotoria de justiça do Ministério Público do estado comunicou o fato à Autoridade Nacional de Proteção de Dados (ANPD). Durante a apuração, requisitaram-se à microempresa a indicação do encarregado e a origem desses dados comercializados, o que não foi atendido. Em razão disso, foi lavrado auto de infração contra a microempresa e publicada a decisão sancionatória da ANPD. A partir dessa situação hipotética, assinale a opção correta em conformidade com o Regulamento do Processo de Fiscalização e do Processo Administrativo Sancionador no âmbito da ANPD.",
+   "gabarito": "a",
+   "alternativas": [
+    "O não atendimento à requisição da ANPD pode caracterizar obstrução à atividade de fiscalização, que abrange a recusa no atendimento e o não envio ou envio intempestivo de quaisquer dados e informações pertinentes à obrigação do agente regulado.",
+    "Não há previsão normativa para celebração de termo de ajustamento de conduta (TAC) no âmbito do processo administrativo sancionador.",
+    "A microempresa autuada poderá interpor recurso administrativo contra o despacho de instauração do processo administrativo sancionador, no prazo de dez dias, contado da sua ciência.",
+    "A ANPD tem competência fiscalizatória para atuar em decorrência de programas periódicos de fiscalização, de forma coordenada com órgãos e entidades públicos ou em cooperação com autoridades de proteção de dados pessoais de outros países, de natureza internacional ou transnacional, sendo vedada sua atuação de ofício.",
+    "A ANPD deveria ter aplicado medidas de orientação e prevenção antes da instauração do processo administrativo sancionador, tendo em vista a natureza de microempresa do agente autuado."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-004",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Uma operadora de telecomunicações, ao fornecer a um cliente acesso à Internet por meio de conexão de fibra óptica residencial, atua como provedora de conexão. Já um aplicativo de mensagens instantâneas, ao permitir que esse mesmo usuário troque mensagens pela Internet, atua como provedor de aplicações de Internet. Com base nessa distinção e no Marco Civil da Internet, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "As operadoras de telecomunicações e os provedores dos aplicativos de mensagens instantâneas estão dispensados de guardar qualquer registro, cabendo essa obrigação à autoridade policial que o requisitar.",
+    "As operadoras de telecomunicações devem manter os registros de conexão sob sigilo pelo prazo de 2 anos, e os provedores dos aplicativos de mensagens instantâneas devem manter os registros de acesso sob sigilo pelo prazo de 1 ano.",
+    "As operadoras de telecomunicações devem manter os registros de conexão, em ambiente controlado e de segurança, pelo prazo de 1 ano, e os provedores dos aplicativos de mensagens instantâneas devem manter os registros de acesso sob sigilo pelo mesmo prazo.",
+    "As operadoras de telecomunicações devem manter os registros de conexão sob sigilo, em ambiente controlado e de segurança, pelo prazo de 1 ano, e os provedores dos aplicativos de mensagens instantâneas devem manter os registros de acesso, nessas mesmas condições, pelo prazo de 6 meses.",
+    "As operadoras de telecomunicações devem manter os registros de conexão, em ambiente controlado e de segurança, pelo prazo de 6 meses, e os provedores dos aplicativos de mensagens instantâneas devem manter os registros de acesso, nessas mesmas condições, pelo prazo de 1 ano."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-005",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o Código Civil e a jurisprudência dos tribunais superiores, julgue os próximos itens, acerca da tutela jurídica do nascituro. I A redação atual do art. 2.o do Código Civil, após reforma legislativa recente, alberga expressamente a teoria concepcionista ao prever que a personalidade civil da pessoa começa a partir da fecundação, momento em que todos os direitos patrimoniais e extrapatrimoniais do nascituro passam a ser protegidos. II Embora o nascituro tenha alguns direitos preservados por força da parte final do art. 2.o do Código Civil, a jurisprudência do STJ é uníssona ao afastar o direito do nascituro à indenização por dano moral, tendo em vista que o pressuposto para a tutela da honra subjetiva é a consciência da própria existência. III A lei põe a salvo os direitos do nascituro desde a concepção. IV Conforme precedente do STJ, erro em exame realizado durante a gravidez que não comprometa o desenvolvimento digno e saudável no útero da mãe e, consequentemente, não afete o nascimento com vida e saúde nem repercuta na vida após o nascimento não gera dano moral indenizável. Estão certos apenas os itens",
+   "gabarito": "c",
+   "alternativas": [
+    "I e II.",
+    "II e IV.",
+    "III e IV.",
+    "I, II e III.",
+    "I, III e IV."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-006",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da invalidade e dos vícios dos negócios jurídicos, assinale a opção correta conforme o Código Civil e a jurisprudência do STJ.",
+   "gabarito": "e",
+   "alternativas": [
+    "O negócio nulo pode ser confirmado pelas partes, salvo direito de terceiro.",
+    "A chamada simulação inocente recebe tratamento diferente do conferido à fraudulenta no Código Civil e na jurisprudência, porquanto a primeira é considerada hipótese de anulabilidade (nulidade relativa) do negócio jurídico e a segunda fulmina o negócio com vício de nulidade absoluta.",
+    "Na fraude contra credores, presumem-se fraudatórias dos direitos dos outros credores as garantias de dívidas que o devedor insolvente tiver dado a algum credor, bem como os negócios ordinários indispensáveis à manutenção de estabelecimento mercantil, rural ou industrial, ou à subsistência do devedor e de sua família.",
+    "O Código Civil equiparou o falso motivo ao erro substancial, razão pela qual invalida o negócio jurídico com os mesmos requisitos de escusabilidade e cognoscibilidade descritos no seu art. 138.",
+    "O dolo do representante legal de uma das partes só obriga o representado a responder civilmente até a importância do proveito que teve; se, porém, o dolo for do representante convencional, o representado responderá solidariamente com ele por perdas e danos."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-007",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A sociedade empresária XYZ Ltda. ajuizou ação de reparação de danos materiais e morais contra Ícaro, proprietário de imóvel vizinho, um terreno baldio, em razão de prejuízos decorrentes de um incêndio provocado no imóvel de Ícaro e alastrado para o imóvel da sociedade empresária. O incêndio fora iniciado por terceiro não identificado. A sociedade empresária alegou que Ícaro não observou o dever geral de cuidado do bem e que o incêndio apenas se alastrou porque o imóvel não era totalmente cercado, o que permitiu que pessoas depositassem lá garrafas e saco plásticos, que acabaram por contribuir para que o incêndio se espalhasse rapidamente e atingisse o imóvel da sociedade empresária. Considerando essa situação hipotética, assinale a opção correta de acordo com o Código Civil e a jurisprudência do STJ.",
+   "gabarito": "a",
+   "alternativas": [
+    "Pela teoria da causalidade direta e imediata, também referida na jurisprudência como teoria do dano direto e imediato, Ícaro não tem o dever de indenizar a sociedade empresária XYZ Ltda.",
+    "Todas as pessoas que depositaram resíduos como garrafas e sacos plásticos no terreno, bem como o sujeito que ateou o fogo, são solidariamente responsáveis, juntamente com Ícaro, pelo prejuízo causado à sociedade empresária XYZ Ltda., porém esta somente pode requerer a reparação integral do dano em face da pessoa que efetivamente ateou o fogo.",
+    "O Código Civil não adota a teoria da causalidade adequada, razão pela qual todas as concausas são relevantes para a identificação do nexo de causalidade, devendo Ícaro ser responsabilizado por todos os danos causados à sociedade empresária XYZ Ltda., incluídos os danos morais.",
+    "A manutenção de terreno baldio atrai a responsabilidade civil objetiva prevista no art. 927, parágrafo único, do Código Civil, que dispensa não apenas a prova da culpa, mas também o nexo de causalidade, bastando a prova da existência do dano e a comprovação de que Ícaro é proprietário do imóvel abandonado.",
+    "Em conformidade com o art. 944 do Código Civil, em razão de a culpa ser também imputável a terceiros não conhecidos, Ícaro somente será responsabilizado pelos danos emergentes e não responderá por danos morais e lucros cessantes."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-008",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base no Decreto n.o 9.830/2019, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "A decisão administrativa que estabelecer interpretação ou orientação nova sobre norma de conteúdo indeterminado e impuser novo dever ou novo condicionamento de direito sempre prescindirá de regime de transição.",
+    "Na interpretação de normas sobre gestão pública, serão considerados os obstáculos, as dificuldades reais do agente público e as exigências das políticas públicas a seu cargo, sem prejuízo dos direitos dos administrados.",
+    "O termo de ajustamento de gestão será celebrado apenas entre agentes públicos e poderá ser celebrado nas hipóteses de ocorrência de dano ao erário praticado por agentes públicos que agirem com dolo ou erro grosseiro.",
+    "A decisão que determinar a revisão quanto à validade de atos, contratos, ajustes, processos ou normas administrativas cuja produção de efeitos esteja em curso ou que tenha sido concluída não levará em consideração as orientações gerais da época.",
+    "É proibido que situação plenamente constituída seja declarada inválida devido a mudança posterior de orientação geral, vedação esta que atinge também a possibilidade de suspensão de efeitos futuros de relação em curso."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-009",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do cabimento de habeas corpus no processo civil, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "É cabível habeas corpus em caso de execução de obrigação alimentar, caso, mesmo após o executado comprovar sua impossibilidade de pagar a dívida, o juiz decrete a sua prisão.",
+    "Não há instrumento jurídico que proíba a sua aplicação no processo civil, mas a doutrina e a jurisprudência pátrias reconhecem que se trata de um instituto exclusivamente criminal.",
+    "É cabível habeas corpus no processo de execução sempre que a obrigação estiver prescrita, e, mesmo assim, o juiz deve decretar medidas expropriativas que atinjam o patrimônio do devedor.",
+    "O habeas corpus é cabível no processo civil exclusivamente nas execuções de obrigação de não fazer, caso o executado descumpra a ordem judicial e pratique ato a ele vedado, causando a sua ordem de prisão.",
+    "O habeas corpus é o instrumento processual adequado para combater ameaça a direito líquido e certo de uma das partes envolvidas em uma relação processual não criminal."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-010",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Hans, nascido na Alemanha e lá residente, ingressou, no seu país de origem, com ação judicial contra Francisco, brasileiro também residente naquele país, reivindicando a propriedade de um imóvel situado no Brasil. Francisco foi regularmente citado, constituiu advogado e apresentou defesa. Após o regular processamento, o pedido foi julgado procedente e transitou em julgado na justiça alemã. Nessa situação hipotética, a decisão proferida pela jurisdição alemã",
+   "gabarito": "c",
+   "alternativas": [
+    "poderá ser executada no Brasil perante a jurisdição estatual da localidade onde o imóvel está situado, desde que seja homologada pelo STF.",
+    "poderá ser executada no Brasil, perante a jurisdição estatual da localidade onde o imóvel está situado.",
+    "não poderá ser executada perante a autoridade judiciária brasileira, porquanto a competência para julgar matéria relacionada a bem imóvel situado no Brasil é exclusiva da jurisdição brasileira.",
+    "poderá ser executada no Brasil, perante a jurisdição federal da localidade onde o imóvel está situado, independentemente de homologação judicial.",
+    "poderá ser executada no Brasil perante a jurisdição federal da localidade onde o imóvel está situado, desde que seja homologada pelo STJ."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-011",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Alberto propôs ação de reparação de dano em desfavor de João, e, após inúmeras tentativas frustradas de citação, o juízo considerou que havia suspeita de ocultação pelo requerido, por esse motivo concedeu, de ofício, tutela de urgência, determinando o arresto de bens do requerido, até o limite do valor do pedido formulado pelo requerente. Nessa situação hipotética, a concessão da tutela de urgência",
+   "gabarito": "c",
+   "alternativas": [
+    "não tem amparo legal, pois, no processo de conhecimento, a medida somente pode ser concedida após a instrução processual.",
+    "não tem amparo legal, pois a medida somente pode ser concedida de ofício em ação de execução ou em fase de cumprimento de sentença.",
+    "não tem amparo legal, pois a medida, embora possa ser concedida em ação de conhecimento, não pode ser concedida de ofício.",
+    "tem amparo legal, pois a medida pode ser concedida de ofício em qualquer fase da ação de conhecimento.",
+    "não tem amparo legal, pois a medida somente pode ser concedida após a citação regular do requerido."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-012",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere à competência e sua modificação no processo civil, julgue os itens a seguir. I O julgamento de conflito negativo de competência que envolva dois juízos estaduais de primeiro grau localizados no mesmo estado competirá ao respectivo tribunal de justiça a que estejam vinculados os juízos conflitantes. II O juízo da causa, se constatar que o autor não obedeceu à regra legal que fixa a competência territorial, poderá declinar da competência de ofício e determinar a remessa dos autos ao juízo competente. III Nos contratos particulares, os contratantes podem eleger o juízo para processar e julgar qualquer controvérsia jurídica decorrente do contrato firmado entre eles. IV A incompetência em razão da matéria e do lugar não fica sujeita à preclusão e, por esse motivo, poderá ser suscitada pelo réu em qualquer tempo ou grau de jurisdição. Assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas os itens III e IV estão certos.",
+    "Apenas os itens I, II e III estão certos.",
+    "Apenas os itens I, II e IV estão certos.",
+    "Apenas os itens II, III e IV estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-013",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito da regulação jurídica da reforma agrária, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Para fins de habilitação como beneficiário em projetos de assentamento do Programa Nacional de Reforma Agrária (PNRA), a renda familiar proveniente de atividade não agrária não pode ser superior a três salários mínimos mensais ou a um salário mínimo per capita .",
+    "A observância das disposições que regulam as relações de trabalho implica, para a função social da propriedade rural, considerar apenas as relações que disciplinam os contratos de arrendamento e parcerias rurais.",
+    "Os beneficiários da distribuição de imóveis rurais pela reforma agrária receberão títulos de domínio ou de concessão de uso, inegociáveis pelo prazo de vinte anos.",
+    "A pequena e a média propriedade rural gozam de imunidade contra a desapropriação para fins de reforma agrária, independentemente da quantidade de imóveis rurais que seu titular possua.",
+    "O grau de utilização da terra, para avaliação de propriedade produtiva, deve ser, no mínimo, de 50%, calculado pela relação percentual entre a área efetivamente utilizada e a área aproveitável total do imóvel."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-014",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca dos contratos agrários, julgue os próximos itens. I Arrendamento rural é o contrato pelo qual uma pessoa se obriga a ceder a outra, por tempo determinado ou não, o uso e gozo de imóvel rural, mediante partilha de riscos do caso fortuito e da força maior. II Os contratos de arrendamento e de parceria podem ser celebrados por escrito ou verbalmente. III Nos contratos agrários, independentemente de sua forma, deverão constar obrigatoriamente cláusulas que assegurem a conservação dos recursos naturais. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-015",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Nordeste é a segunda região do país com o maior número de indígenas: são 528.800 pessoas que se autodeclaram indígenas. Em relação aos estados da região, o Maranhão fica atrás somente da Bahia, que possui 229.103 pessoas indígenas, e de Pernambuco, que conta 106.634. Rafaelle Fróes. Censo 2022: Maranhão é 3.o estado com maior população indígena do Nordeste; mais de 72% vive dentro de territórios indígenas. In: Portal G1, 7/8/2023 (com adaptações). No que diz respeito às terras indígenas, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "O órgão fundiário federal está isento de realizar o reassentamento de ocupantes não indígenas identificados em área em processo de demarcação.",
+    "É inadmissível o deslocamento compulsório ou a remoção de comunidades indígenas de suas terras tradicionais, sendo tal medida vedada e insuscetível de autorização mesmo em casos de crises sanitárias que coloquem em iminente risco a sobrevivência de sua população.",
+    "A Fundação Nacional dos Povos Indígenas não detém poder de polícia em terras indígenas.",
+    "Constitui infração aos direitos dos povos indígenas o cometimento de danos às placas e aos marcos delimitadores de terras indígenas.",
+    "A pesquisa e a lavra de riquezas minerais em terras indígenas são permitidas mediante autorização da assembleia legislativa do respectivo estado, depois de ouvidas as comunidades afetadas."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-016",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito dos procedimentos administrativos para a identificação, o reconhecimento, a delimitação, a demarcação e a titulação da propriedade definitiva das terras ocupadas por remanescentes das comunidades dos quilombos, em conformidade com a legislação aplicável, julgue os itens a seguir. I O critério da autodeclaração étnico-racial tem aplicação restrita aos processos de demarcação de terras indígenas, sendo inaplicável aos procedimentos de identificação e regularização das terras ocupadas por remanescentes das comunidades dos quilombos. II Para fins de execução da política agrícola e agrária, os remanescentes das comunidades dos quilombos fazem jus à assistência técnica dos órgãos competentes, porém, sem direito a tratamento preferencial ou linhas especiais de financiamento. III Constatada a incidência de terras ocupadas por remanescentes das comunidades dos quilombos sobre áreas de domínio dos estados, caberá ao INCRA o encaminhamento dos autos aos respectivos entes federativos competentes para a devida titulação. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Nenhum item está certo.",
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-017",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta a respeito de aspectos legais pertinentes às unidades de conservação.",
+   "gabarito": "a",
+   "alternativas": [
+    "A pena prevista para o crime de penetrar em unidade de conservação conduzindo instrumentos próprios para caça ou para exploração de produtos, sem licença da autoridade competente, é detenção, de seis meses a um ano, e multa.",
+    "O entorno de uma unidade de conservação onde as atividades humanas estiverem sujeitas a normas e restrições específicas, com o propósito de minimizar os impactos negativos sobre a unidade, é considerado corredor ecológico.",
+    "Famoso mundialmente por suas dunas e lagoas de água pluvial, o Parque Nacional dos Lençóis Maranhenses é uma unidade de conservação da categoria de uso sustentável.",
+    "A criação de unidades de conservação, exceto áreas de proteção ambiental, deve ser precedida de consulta pública que permita identificar a localização, a dimensão e os limites mais adequados para a unidade.",
+    "O crime ambiental definido pela conduta de causar dano direto ou indireto às unidades de conservação é penalizado com reclusão e não admite a modalidade culposa."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-018",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da responsabilidade ambiental, julgue os próximos itens, de acordo com o entendimento jurisprudencial dos tribunais superiores. I Conforme tese fixada pelo STJ sob o rito dos recursos repetitivos, a nulidade da intimação por edital no processo administrativo ambiental, no âmbito da apuração de infrações e imposição de sanções, exige a demonstração de efetivo prejuízo à defesa. II Conforme decisão do STF em julgamento de repercussão geral, é imprescritível a pretensão executória e inaplicável a prescrição intercorrente na execução de reparação de dano ambiental, porém esse entendimento é inaplicável à hipótese de conversão da obrigação em indenização por perdas e danos. III Segundo súmula do STJ, prescreve em cinco anos, contados do término do processo administrativo, a pretensão da administração pública de promover a execução de multa por infração ambiental. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-019",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do licenciamento ambiental e de crimes e infrações administrativas contra o meio ambiente, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Caso consultor ambiental apresente relatório técnico parcialmente falso, com o objetivo de viabilizar o licenciamento de uma grande obra de construção civil, a ele será aplicável multa administrativa mínima de quinhentos reais e máxima de quinhentos mil reais.",
+    "O licenciamento de empreendimentos que possam afetar a zona de amortecimento de unidade de conservação não requer autorização do órgão responsável pela administração dessa unidade.",
+    "A concessão de licença prévia em desacordo com as normas ambientais, quando decorrente de mera imperícia, configura crime ambiental punível apenas com multa.",
+    "A construção ou a reforma de obra potencialmente poluidora, sem autorização dos órgãos ambientais competentes, configura crime ambiental punível com pena de detenção, de seis meses a dois anos, ou multa, ou ambas as penas cumulativamente.",
+    "Compete administrativamente ao poder público estadual promover o licenciamento de empreendimentos desenvolvidos em terras indígenas no âmbito de seu território."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-020",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando as sanções penais e administrativas aplicáveis por condutas e atividades lesivas ao meio ambiente, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A suspensão condicional da pena, em casos de crimes ambientais, deve obedecer ao teto máximo de dois anos de pena privativa de liberdade.",
+    "Pessoa jurídica que praticar o crime de destruir vegetação protetora de mangues pode ser punida com a proibição de obter subsídio do poder público estadual, penalidade cujo prazo máximo previsto é de cinco anos.",
+    "Considere que um tatuador, com fins puramente estéticos, faça tatuagem em seu gato-esfinge de estimação. Essa conduta não configura crime de maus-tratos, embora possa provocar crítica de organizações de proteção animal.",
+    "A responsabilização penal de pessoa jurídica por crimes ambientais exige que a infração seja cometida por decisão de seu representante contratual, independentemente de benefício para a entidade.",
+    "Se uma pessoa física for condenada a pena privativa de liberdade de quatro anos por ter provocado, de forma dolosa, incêndio em floresta, não caberá a substituição dessa pena por recolhimento domiciliar."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-021",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação às fontes do direito administrativo, ao regime jurídico-administrativo e aos princípios da administração pública, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A jurisprudência constitui fonte normativa primária do direito administrativo, podendo os tribunais estabelecer, independentemente de previsão legal, novas obrigações administrativas gerais aplicáveis aos particulares.",
+    "Os princípios administrativos têm natureza exclusivamente orientadora, de modo que sua violação somente poderá produzir consequências jurídicas quando houver também descumprimento expresso de regra legal.",
+    "Os costumes administrativos podem ser utilizados como fonte do direito administrativo, inclusive para afastar a aplicação de norma legal vigente, quando a prática administrativa estiver consolidada e atender ao interesse público.",
+    "O princípio da legalidade permite à administração pública praticar todo ato que não seja expressamente proibido pela lei, desde que sua finalidade esteja relacionada à satisfação de interesse público juridicamente reconhecido.",
+    "O regime jurídico-administrativo caracteriza-se pela aplicação conjunta das prerrogativas conferidas à administração pública e das restrições impostas à sua atuação, tendo como fundamentos a supremacia e a indisponibilidade do interesse público."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-022",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito dos atos administrativos e suas hipóteses de cassação, revogação e anulação, bem como do silêncio da administração pública, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "A permissão administrativa possui natureza necessariamente vinculada, e, uma vez descumprida uma condição pelo beneficiário, a retirada do ato caracteriza revogação fundada exclusivamente em razões de conveniência administrativa.",
+    "A licença regularmente concedida constitui ato administrativo vinculado, e, uma vez preenchidos os requisitos legais pelo interessado, sua retirada por mera conveniência administrativa caracteriza anulação do ato anteriormente praticado.",
+    "A cassação é modalidade de retirada do ato administrativo fundada em conveniência e oportunidade.",
+    "A administração pública deve anular os atos administrativos que apresentem vício de legalidade, respeitados os direitos adquiridos.",
+    "A ausência de manifestação da administração pública produz, em regra, efeito jurídico previamente definido pela lei aplicável, não sendo possível presumir genericamente que o silêncio administrativo corresponda à concordância estatal com a pretensão do interessado."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-023",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Durante uma operação de fiscalização, determinado órgão público identificou que um estabelecimento comercial estava funcionando sem a autorização administrativa exigida para o exercício daquela atividade. A autoridade competente determinou a interrupção da atividade e aplicou a medida administrativa prevista na legislação pertinente. Paralelamente, no âmbito interno do órgão, um servidor que havia descumprido dever funcional foi submetido a procedimento disciplinar pela autoridade competente. Considerando essa situação hipotética, os poderes da administração pública, suas manifestações e a relação entre o poder de polícia e as liberdades públicas, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "O poder disciplinar e o poder de polícia têm a mesma finalidade, pois ambos permitem à administração pública restringir indistintamente liberdades públicas e aplicar sanções a qualquer pessoa que descumpra norma administrativa.",
+    "O poder disciplinar permite à administração pública aplicar penalidades a qualquer particular que descumpra norma administrativa, enquanto o poder de polícia restringe exclusivamente direitos individuais constitucionalmente previstos.",
+    "O poder hierárquico autoriza a administração pública a criar obrigações gerais aos particulares, enquanto o poder de polícia somente pode ser exercido mediante ordem judicial que determine previamente a restrição.",
+    "O poder de polícia permite condicionar ou restringir direitos, interesses ou liberdades em benefício do interesse público, observados os limites legais e as garantias asseguradas aos administrados.",
+    "O poder hierárquico permite distribuir e ordenar funções administrativas, enquanto o poder disciplinar autoriza a aplicação de sanções a servidores públicos e a particulares sujeitos a vínculo jurídico especial com a administração pública."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-024",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere aos bens públicos, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Os bens públicos de uso comum do povo podem ser livremente utilizados por particulares para qualquer finalidade econômica, desde que inexistente prejuízo material à conservação do patrimônio público.",
+    "Os bens públicos de uso comum e de uso especial são suscetíveis de alienação, desde que precedida de avaliação e licitação na modalidade adequada, enquanto mantiverem a destinação pública.",
+    "A utilização privativa de bem público por particular pode ser admitida pela administração pública, observados os requisitos legais e o instrumento jurídico adequado à natureza da utilização pretendida.",
+    "A alienação de bem público imóvel exige sempre autorização legislativa específica, avaliação prévia e licitação na modalidade concorrência.",
+    "Os bens públicos dominicais submetem-se ao regime jurídico privado, razão pela qual podem ser adquiridos por usucapião e alienados livremente, independentemente de interesse público ou procedimento administrativo."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-025",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando as disposições constitucionais e legais aplicáveis aos agentes públicos, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A responsabilidade administrativa do servidor exclui sua responsabilização civil ou penal pelo mesmo fato.",
+    "Função pública somente pode ser exercida por servidor ocupante de cargo efetivo.",
+    "A exoneração e a demissão são ambas formas de vacância do cargo público aplicadas como penalidades disciplinares em consequência de infração disciplinar praticada por servidor efetivo.",
+    "O emprego público se caracteriza pela existência de vínculo de trabalho regido necessariamente por regime estatutário.",
+    "A nomeação é forma de provimento de cargo público, podendo ocorrer tanto para cargo efetivo quanto para cargo em comissão, observados os requisitos estabelecidos no ordenamento jurídico."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-026",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Determinada agência reguladora federal pretende editar ato normativo de interesse geral dos agentes econômicos e dos usuários de seus serviços regulados. Durante a preparação da medida, a diretoria da agência iniciou os procedimentos previstos na legislação específica, considerando a necessidade de fundamentação técnica e de participação dos interessados antes da tomada da decisão. A partir dessa situação hipotética, assinale a opção correta, considerando o regime jurídico das agências reguladoras e as disposições da Lei n.o 13.848/2019.",
+   "gabarito": "d",
+   "alternativas": [
+    "Os dirigentes das agências reguladoras podem ser livremente exonerados pela autoridade responsável por sua nomeação, pois a natureza especial dessas entidades não assegura a eles estabilidade durante o mandato.",
+    "A natureza especial das agências reguladoras decorre da existência de sua subordinação hierárquica ao Ministério de Estado supervisor, embora lhes seja assegurada autonomia administrativa para exercer suas competências.",
+    "A análise de impacto regulatório é procedimento posterior à edição do ato normativo, destinando-se à avaliação dos resultados concretos produzidos pela medida regulatória.",
+    "A consulta pública deve ocorrer previamente à decisão sobre minutas e propostas de alteração de atos normativos de interesse geral, permitindo-se o envio de críticas, sugestões e contribuições por quaisquer interessados.",
+    "A autonomia das agências reguladoras impede o controle de seus atos pelo Poder Judiciário, pois a independência decisória exclui a possibilidade de revisão judicial de suas decisões."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-027",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta a respeito dos poderes e deveres da administração pública.",
+   "gabarito": "b",
+   "alternativas": [
+    "O abuso de poder somente ocorre quando o agente atua fora de sua competência legal, não abrangendo situações em que a autoridade competente utiliza-se do poder a ela atribuído para alcançar finalidade diversa da prevista em lei.",
+    "O dever de agir impõe que a administração pública atue quando presentes os pressupostos legais, enquanto o dever de eficiência exige que a atividade administrativa busque resultados adequados, sem afastar a observância da legalidade.",
+    "O dever de probidade vincula apenas os agentes públicos sujeitos a regime estatutário, enquanto o dever de prestação de contas alcança somente aqueles responsáveis pela administração direta de recursos financeiros.",
+    "O STF reconhece que o poder regulamentar permite ao Poder Executivo inovar livremente na ordem jurídica, desde que o regulamento permaneça compatível com a finalidade geral estabelecida pela lei.",
+    "O poder regulamentar permite ao chefe do Poder Executivo editar decreto para criar obrigações originárias aos particulares, desde que a medida seja necessária à execução de política pública prevista em lei."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-028",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Durante procedimento instaurado para apurar irregularidades em contrato celebrado entre uma empresa privada e determinado órgão público, foram identificados indícios de vantagem indevida oferecida a agente público. No curso da apuração, também se verificou possível violação a dever funcional. Considerando essa situação hipotética, assinale a opção correta de acordo com a Lei Anticorrupção (Lei n.o 12.846/2013) e a Lei de Improbidade Administrativa (Lei n.o 8.429/1992).",
+   "gabarito": "a",
+   "alternativas": [
+    "Pessoa jurídica pode responder objetivamente pelos atos lesivos previstos na Lei Anticorrupção.",
+    "A celebração de acordo de leniência exclui automaticamente a aplicação das sanções previstas na Lei Anticorrupção e impede a responsabilização de agentes públicos que tenham participado do ato lesivo.",
+    "A configuração do ato de improbidade exige sempre a demonstração de enriquecimento ilícito do agente público.",
+    "A responsabilização de pessoa jurídica por conduta tipificada na Lei Anticorrupção depende da comprovação de dolo ou culpa de seus dirigentes.",
+    "A configuração de improbidade administrativa independe da presença de dolo quando houver prejuízo ao erário."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-029",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base nas disposições da Constituição do Estado do Maranhão acerca das limitações do poder de tributar, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "A anistia ou remissão que envolva matéria tributária estadual pode ser formalizada por decreto do Poder Executivo, dispensada a edição de lei específica, desde que o ato normativo indique expressamente os créditos abrangidos e observe os limites fixados na lei orçamentária anual.",
+    "É permitido conceder privilégio fiscal a sociedade de economia mista ou a empresa pública que não seja extensivo ao setor privado.",
+    "A imunidade tributária de partidos políticos e de entidades sindicais abrange todo o seu patrimônio e sua renda, ainda que alheios às suas finalidades essenciais.",
+    "A proibição de instituir impostos sobre patrimônio, renda ou serviços de um ente federativo em relação a outro estende-se às autarquias e fundações públicas quanto ao patrimônio, à renda e aos serviços vinculados às suas finalidades essenciais, não abrangendo atividade econômica regida por normas aplicáveis a empreendimentos privados.",
+    "É permitido cobrar tributo por fatos geradores ocorridos antes do início de sua vigência, desde que a cobrança somente se efetive no exercício financeiro subsequente ao da sua instituição."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-030",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando o disposto na Constituição Federal de 1988 (CF), assinale a opção correta acerca da nacionalidade brasileira.",
+   "gabarito": "b",
+   "alternativas": [
+    "Os cargos de governador de estado e de juiz de paz são privativos de brasileiro nato.",
+    "Ao legislador infraconstitucional é vedado diferenciar brasileiros natos de naturalizados, salvo nas hipóteses que a própria CF expressamente contemplar.",
+    "A perda da nacionalidade brasileira é consequência automática da aquisição voluntária de outra nacionalidade, independentemente da manifestação de vontade do interessado.",
+    "O filho de mãe brasileira nascido no exterior adquire nacionalidade originária automaticamente, independentemente de registro consular ou de opção posterior, ainda que sua genitora não esteja a serviço do Brasil no exterior.",
+    "A exigência de apenas um ano de residência ininterrupta e idoneidade moral para a naturalização aplica-se a qualquer estrangeiro, independentemente do país de origem, por ser garantia fundada em direitos humanos."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-031",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "À luz das normas da CF sobre o processo de emenda constitucional, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Rejeitada a proposta de emenda constitucional, sua matéria não poderá ser objeto de nova proposta durante a vigência do governo sob a qual foi rejeitada.",
+    "A tramitação de proposta de emenda constitucional apresentada na vigência de estado de sítio regularmente decretado não pode prosseguir enquanto perdurar o estado de sítio.",
+    "A aprovação de emenda constitucional exige um único turno de votação em cada casa do Congresso Nacional, sendo suficiente o voto favorável da maioria absoluta dos membros.",
+    "Proposta de emenda constitucional pode ser apresentada por iniciativa de mais da metade das assembleias legislativas das unidades da Federação, exigindo-se, em cada uma delas, a manifestação pela maioria absoluta de seus membros.",
+    "Proposta de emenda constitucional pode ser apresentada por iniciativa individual de qualquer deputado federal, dispensada a subscrição mínima de um terço dos membros da casa legislativa quando o parlamentar ocupa a função de líder da bancada de seu partido."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-032",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da organização da segurança pública e das atribuições constitucionais de seus órgãos, assinale a opção correta de acordo com a CF.",
+   "gabarito": "d",
+   "alternativas": [
+    "Os municípios poderão constituir guardas municipais com atribuições de polícia judiciária para a apuração de infrações penais relacionadas à proteção de seus bens, serviços e instalações.",
+    "As polícias civis têm as funções de polícia judiciária e competência para apurar infrações penais em regime de competência concorrente com a Polícia Federal, inclusive quanto às infrações de repercussão interestadual ou internacional.",
+    "As polícias militares e os corpos de bombeiros militares, forças auxiliares e reserva do Exército Brasileiro, subordinam-se hierarquicamente ao Comando do Exército.",
+    "A Polícia Federal tem competência constitucional para exercer as funções de polícia marítima, aeroportuária e de fronteiras, além de competência exclusiva para exercer as funções de polícia judiciária da União.",
+    "A Polícia Rodoviária Federal destina-se ao patrulhamento ostensivo das rodovias federais, incumbindo-lhe também a apuração das infrações penais nelas cometidas."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-033",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta a respeito dos direitos e garantias individuais previstos na CF.",
+   "gabarito": "e",
+   "alternativas": [
+    "Constatada a ilegalidade da prisão, cabe à autoridade policial responsável pela custódia deliberar sobre o relaxamento da medida, no prazo legal de 72 horas.",
+    "A prisão fora de flagrante delito pode ser efetivada mediante ordem verbal de autoridade judiciária competente, dispensada a forma escrita, em situações de urgência que recomendem a medida imediata.",
+    "A prisão de qualquer pessoa deve ser comunicada imediatamente à autoridade judiciária competente, e não à família do preso ou à pessoa por ele indicada, em razão do sigilo das investigações em curso.",
+    "É terminantemente vedada a prisão civil por dívida, inclusive na hipótese de inadimplemento voluntário e inescusável de obrigação alimentícia, que deve ser satisfeita exclusivamente por meio de execução patrimonial do devedor.",
+    "Quando a lei autorizar a liberdade provisória, com ou sem fiança, o preso não deve ser recolhido à prisão ou nela mantido."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-034",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta a respeito das comissões parlamentares de inquérito (CPI).",
+   "gabarito": "e",
+   "alternativas": [
+    "A criação de CPI depende de requerimento subscrito pela maioria absoluta dos membros da respectiva casa legislativa.",
+    "As CPI têm competência para presidir inquérito policial, substituindo a atuação da polícia judiciária na apuração dos fatos objeto da investigação.",
+    "As conclusões da CPI serão, quando cabível, encaminhadas ao Poder Judiciário, ao qual competirá promover eventual responsabilização civil ou criminal dos infratores.",
+    "As CPI podem ser instituídas para a apuração de fatos genéricos relacionados à administração pública, cabendo à própria comissão deliberar sobre a fixação do prazo para a conclusão dos trabalhos.",
+    "As CPI, criadas pela Câmara dos Deputados e pelo Senado Federal, em conjunto ou separadamente, terão poderes de investigação próprios das autoridades judiciais, além de outros previstos nos regimentos das respectivas casas legislativas."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-035",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em três situações distintas, o Congresso Nacional apreciou tratados internacionais de direitos humanos, da seguinte forma. O Tratado X foi aprovado, em sessão conjunta do Congresso Nacional, em turno único de votação, com o voto favorável de três quintos dos membros do Congresso Nacional. O Tratado Y foi aprovado, em cada casa do Congresso Nacional, em dois turnos de votação, com o voto favorável da maioria absoluta dos membros em cada turno. O Tratado Z foi aprovado, em cada casa do Congresso Nacional, em dois turnos de votação, com o voto favorável de três quintos dos membros em cada turno. Em relação a essa situação hipotética, é correto afirmar que",
+   "gabarito": "a",
+   "alternativas": [
+    "apenas o Tratado Z adquiriu hierarquia equivalente à de emenda constitucional.",
+    "apenas os Tratados Y e Z adquiriram hierarquia equivalente à de emenda constitucional.",
+    "apenas o Tratado X adquiriu hierarquia equivalente à de emenda constitucional.",
+    "os Tratados X, Y e Z adquiriram hierarquia equivalente à de emenda constitucional.",
+    "apenas os Tratados X e Y adquiriram hierarquia equivalente à de emenda constitucional."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-036",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base na Constituição do Estado do Maranhão, julgue os itens a seguir. I Para a alienação de terra devoluta pelo estado do Maranhão, basta a discriminação administrativa regular da área, independentemente de demarcação prévia. II O Poder Executivo estadual pode conceder, sem prévia aprovação da Assembleia Legislativa, o uso de terras públicas cuja área respeite o limite fixado na Constituição Estadual para a dispensa dessa aprovação. III Pedido de título de domínio de terra pública destinada a assentamento rural formulado por pessoa solteira pode ser indeferido sob o fundamento de que a titularidade pressupõe a existência de vínculo conjugal. Assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-037",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Determinado indivíduo relata que, enquanto permaneceu sob custódia estatal, foi submetido a ameaças de morte, privação de sono, isolamento prolongado e simulação de execução. Ele não apresenta lesões corporais relevantes no momento do exame médico-legal, mas resta demonstrado que desenvolveu sintomas de ansiedade, hipervigilância, pesadelos e comportamento de evitação. Considerando essa situação hipotética, assinale a opção correta conforme o Protocolo de Istambul.",
+   "gabarito": "b",
+   "alternativas": [
+    "Sintomas psicológicos somente possuem valor pericial quando acompanhados de alterações neurológicas objetivamente demonstradas.",
+    "A avaliação psicológica tem relevância própria na documentação de tortura, devendo considerar a história, os sintomas, seu curso temporal e sua consistência com os acontecimentos alegados, não sendo obrigatório um diagnóstico específico de transtorno mental.",
+    "A avaliação psicológica deve ser realizada exclusivamente após a conclusão da investigação criminal, para impedir contaminação do relato da vítima.",
+    "A inexistência de lesões físicas impede a caracterização médico-legal de tortura, pois sofrimento exclusivamente mental constitui tratamento degradante, mas não tortura.",
+    "O diagnóstico de transtorno de estresse pós-traumático constitui condição necessária para a documentação psicológica de tortura."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-038",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Durante exame cadavérico, observam-se feridas produzidas por instrumento perfurante de médio calibre. Em determinada região anatômica, situada na confluência de linhas de força cutâneas com direções distintas, uma das feridas apresenta configuração triangular, com uma de suas extremidades semelhante a uma ponta de seta. Com base na descrição precedente e na traumatologia forense, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "O achado descrito pode ser explicado pela Lei de Langer, segundo a qual, em regiões de confluência de linhas de força diferentes, as extremidades das lesões podem assumir aspecto de ponta de seta, triângulo ou mesmo quadrilátero.",
+    "A configuração triangular demonstra necessariamente que o instrumento que causou a ferida tinha três gumes.",
+    "O achado descrito é explicado pela primeira Lei de Filhos e permite determinar o número de gumes do instrumento que causou a ferida.",
+    "O achado descrito é explicado pela segunda Lei de Filhos, pois a confluência de linhas de força determina obrigatoriamente o paralelismo das lesões.",
+    "A Lei de Langer somente se aplica às feridas produzidas por instrumentos cortantes."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-039",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em determinado inquérito policial, o laudo necroscópico descreve duas lesões provocadas pelo mesmo projétil. A primeira apresenta bordas invertidas, orla de escoriação e halo de enxugo. A segunda apresenta formato irregular, bordas evertidas e maior sangramento. Nesta última, entretanto, foi observada pequena área escoriada junto às margens, tendo sido verificado que, no momento do disparo, a região corporal correspondente se encontrava firmemente apoiada contra uma superfície rígida. Em relação à interpretação médico-legal dos achados descritos nessa situação hipotética, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "A existência de um ferimento de entrada e outro de saída demonstra que o trajeto interno do projétil obrigatoriamente corresponde a uma linha reta entre ambos os ferimentos.",
+    "A segunda lesão pode representar ferimento de saída, sendo a escoriação explicada pela resistência oferecida pelo anteparo, fenômeno relacionado ao sinal de Romanese.",
+    "A primeira lesão resulta necessariamente de tiro a curta distância, pois o halo de enxugo somente ocorre quando resíduos da pólvora alcançam a pele.",
+    "A presença de escoriação na segunda lesão demonstra obrigatoriamente que ela corresponde a um ferimento de entrada.",
+    "A segunda lesão não pode representar saída, pois ferimentos de saída são obrigatoriamente desprovidos de qualquer alteração escoriativa."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-040",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Durante a investigação de uma morte ocorrida em um restaurante, constatou-se que a vítima, um homem idoso, havia apresentado perda súbita da consciência enquanto se alimentava. Inicialmente, aventou-se a hipótese de evento cardiovascular agudo. Na necropsia, entretanto, foi identificado fragmento alimentar impactado na região da glote, que obstruía completamente a passagem do ar, sem evidências suficientes de infarto agudo do miocárdio. Considerando essa situação hipotética e conhecimentos médico-legais acerca das asfixias mecânicas, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "A obstrução das vias respiratórias por alimentos é indicativa de suicídio, sendo excepcional sua ocorrência de forma acidental.",
+    "O caso caracteriza sufocação indireta, pois a obstrução da glote impede secundariamente a expansão da caixa torácica.",
+    "A situação é compatível com sufocação direta por oclusão das vias respiratórias, podendo corresponder ao fenômeno denominado coronária do café ( coffee coronary ).",
+    "Trata-se de modalidade de sufocação direta por oclusão dos orifícios respiratórios externos, equivalente à obstrução simultânea da boca e das fossas nasais.",
+    "A presença de corpo estranho na glote permite a classificação da morte como afogamento interno, uma vez que o material aspirado substitui o ar presente nas vias respiratórias."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-041",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Durante investigação de homicídio, um cadáver em avançado estado de decomposição foi encontrado em área de vegetação, exposto ao ambiente. A equipe pericial realizou coleta de larvas, pupas e insetos adultos presentes no corpo e nas suas proximidades. O delegado responsável pelo inquérito questionou o médico-legista acerca da possibilidade de utilização desses elementos na determinação da cronologia da morte. A partir dessa situação hipotética, assinale a opção correta de acordo com os fundamentos da entomologia médico-legal.",
+   "gabarito": "c",
+   "alternativas": [
+    "Eventuais drogas e substâncias tóxicas existentes no cadáver não interferem no desenvolvimento dos insetos e, consequentemente, não apresentam relevância para a interpretação entomológica.",
+    "A estimativa baseada no desenvolvimento dos insetos independe da temperatura e da umidade, pois cada espécie tem ciclo biológico cronologicamente fixo.",
+    "Segundo Mégnin, a primeira legião dos insetos que surgem no cadáver é composta dos dípteros das espécies Musca domestica , Muscina stabulans e Calliphora vomitoria .",
+    "O comportamento noturno dos insetos não tem relevância médico-legal, uma vez que a oviposição das moscas ocorre exclusivamente durante o período diurno.",
+    "A análise entomológica é útil para a determinação da cronologia da morte somente em cadáveres inumados, pois a exposição ao meio externo produz excessivas variáveis ambientais."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-042",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A investigação da morte de uma pessoa durante custódia policial foi conduzida pela própria unidade onde o evento ocorreu e à qual pertenciam os agentes envolvidos no fato. A apuração começou quatro meses após o óbito, não tendo sido entrevistadas testemunhas independentes. O laudo pericial foi mantido integralmente em sigilo, sem justificativa relacionada à proteção de direitos ou à própria investigação. Considerando a inadequação do procedimento descrito na situação hipotética apresentada, assinale a opção correta à luz do Protocolo de Minnesota.",
+   "gabarito": "d",
+   "alternativas": [
+    "O Protocolo de Minnesota proíbe qualquer participação de instituições estatais na investigação de mortes que envolvam a atuação de agentes públicos.",
+    "Qualquer investigação de morte sob custódia estatal deve obrigatoriamente ser realizada por uma comissão internacional das Nações Unidas.",
+    "A ausência de testemunhas independentes é a única violação aos parâmetros internacionais observada na situação.",
+    "A investigação de mortes potencialmente ilícitas deve observar requisitos como prontidão, efetividade e completude, independência, imparcialidade e transparência.",
+    "A investigação criminal deve necessariamente ocorrer antes da realização da autópsia médico-legal."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-043",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Durante investigação médico-legal, foi encontrado o cadáver de um concepto em circunstâncias suspeitas, sem documentação referente ao parto. A perícia deve estabelecer, entre outros aspectos, a idade gestacional aproximada, a viabilidade, a ocorrência de nascimento com vida e a existência de vida extrauterina. Durante a necropsia, foram realizadas provas destinadas à investigação de respiração e examinados pulmões, trato gastrointestinal, cordão umbilical e demais estruturas. A partir dessa situação hipotética, assinale a opção correta acerca do estudo médico-legal do aborto e do infanticídio.",
+   "gabarito": "e",
+   "alternativas": [
+    "A diferenciação médico-legal entre aborto e morte ocorrida após o nascimento depende exclusivamente da idade gestacional, sendo prescindível a investigação de respiração, circulação ou outras manifestações de vida extrauterina.",
+    "A presença de ar nos pulmões constitui prova absoluta de nascimento com vida, pois fenômenos putrefativos e manobras de reanimação não são capazes de produzir resultados falso-positivos nas docimásias respiratórias.",
+    "A ausência de flutuação dos pulmões na docimásia hidrostática pulmonar demonstra, de maneira inequívoca, que não houve vida extrauterina e, portanto, isoladamente permite concluir a ocorrência de aborto.",
+    "As docimásias são empregadas principalmente para determinar a idade gestacional e estabelecer se o concepto possuía viabilidade fetal, não sendo destinadas à investigação de vida extrauterina.",
+    "A docimásia hidrostática pulmonar de Galeno fundamenta-se nas alterações de densidade decorrentes da aeração pulmonar; entretanto, seu resultado deve ser interpretado em conjunto com os demais achados periciais, considerando-se possíveis interferências, como putrefação e insuflação artificial."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-044",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Durante investigação de possível tentativa de homicídio por envenenamento, apurou-se que a vítima havia ingerido substância de pH extremamente elevado. A avaliação médico- legal revelou extensa lesão do trato gastrointestinal, com destruição tecidual profunda. Considerando essa situação hipotética, assinale a opção correta em relação aos mecanismos de ação das substâncias cáusticas.",
+   "gabarito": "d",
+   "alternativas": [
+    "Os ácidos provocam tipicamente necrose de liquefação por saponificação das gorduras, razão pela qual apresentam, invariavelmente, maior profundidade de penetração que os álcalis.",
+    "O mecanismo de lesão produzido por ácidos e álcalis é idêntico, sendo a extensão do dano determinada exclusivamente pelo volume ingerido.",
+    "Substâncias ácidas somente produzem lesões locais, enquanto as alcalinas podem produzir manifestações sistêmicas.",
+    "Os álcalis provocam predominantemente necrose de liquefação, associada à saponificação das gorduras e à penetração tecidual, enquanto os ácidos estão classicamente associados à necrose de coagulação.",
+    "Os álcalis provocam predominantemente necrose de coagulação, formando uma barreira proteica que impede completamente a progressão da lesão para os planos profundos."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-045",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a concepção dos direitos humanos fundamentais, os direitos de segunda dimensão/geração previstos na Constituição Federal de 1988 incluem",
+   "gabarito": "c",
+   "alternativas": [
+    "o direito à integridade física e moral dos presos.",
+    "o direito ao meio ambiente ecologicamente equilibrado.",
+    "o direito ao trabalho digno e o direito de greve.",
+    "o direito à livre manifestação de pensamento.",
+    "o direito à presunção de inocência e ao devido processo legal."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-046",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Para fins de incorporação e validade no ordenamento jurídico brasileiro, os tratados e as convenções internacionais de direitos humanos dos quais o Brasil seja signatário",
+   "gabarito": "c",
+   "alternativas": [
+    "assumem automaticamente o status de emenda constitucional.",
+    "dependem da aprovação de lei específica para terem validade jurídica no Brasil.",
+    "adquirem status supralegal no ordenamento jurídico pátrio quando ratificados e promulgados no Brasil, segundo o entendimento do STF.",
+    "devem ser ratificados mediante aprovação, em dois turnos, em cada casa do Congresso Nacional.",
+    "equiparam-se às leis ordinárias no ordenamento pátrio, segundo o entendimento do STF."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-047",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando os direitos humanos previstos no Pacto de San José da Costa Rica, em especial no que se refere à integridade pessoal, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Menores de idade não poderão ser processados em nenhuma hipótese.",
+    "As penas privativas de liberdade devem ter como finalidade principal a correção social, sem prejuízo da reforma e readaptação social dos condenados.",
+    "Todas as pessoas, indistintamente, terão direito à preservação de sua integridade física, psíquica e moral, sendo vedados tratos degradantes.",
+    "É vedado o tratamento diferenciado entre processados e condenados.",
+    "Pessoas privadas de liberdade devem ser tratadas de forma proporcional às suas ações."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-048",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "No Sistema Regional Interamericano de Proteção dos Direitos Humanos, é competência da Corte Interamericana de Direitos Humanos",
+   "gabarito": "e",
+   "alternativas": [
+    "elaborar diagnósticos públicos detalhados sobre a situação dos direitos humanos em Estados específicos.",
+    "enviar para julgamento os casos de descumprimento das recomendações expedidas em um relatório de mérito.",
+    "realizar visitas in loco nos Estados-membros, mediante anuência prévia, a fim de apurar potenciais violações de direitos humanos.",
+    "receber petições diretamente de entidades não governamentais legalmente reconhecidas em um ou mais Estados-membros.",
+    "emitir medidas provisórias em casos de extrema gravidade e urgência, quando se fizer necessário evitar danos irreparáveis às pessoas."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-049",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Convenção n.o 169 da Organização Internacional do Trabalho estabelece que atos administrativos ou atividades governamentais capazes de impactar territórios de povos e comunidades tradicionais dependerão, em regra, de",
+   "gabarito": "d",
+   "alternativas": [
+    "justa compensação aos povos e comunidades atingidos.",
+    "autorização do Poder Judiciário.",
+    "realocação das populações impactadas.",
+    "consulta prévia, livre e informada aos povos e comunidades afetados.",
+    "manifestação prévia do Ministério Público."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-050",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base nas regras da ONU sobre o uso da força e de armas de fogo, assinale a opção que apresenta circunstância em que se admite o disparo de arma de fogo contra pessoas.",
+   "gabarito": "a",
+   "alternativas": [
+    "prisão de pessoas que representem grave ameaça à vida e resistam à autoridade dos agentes da lei",
+    "imposição da autoridade diante do cometimento de um crime",
+    "incapacitação de sujeitos para prevenir a fuga diante de crimes cometidos",
+    "defesa de terceiros contra ferimentos de qualquer natureza",
+    "prevenção da perpetração de crimes em flagrante envolvendo ameaça à vida e ao patrimônio"
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-051",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Segundo as Regras Mínimas Padrão das Nações Unidas para o Tratamento de Prisioneiros (Regras de Mandela), em nenhuma hipótese as restrições ou sanções disciplinares devem implicar tortura ou outra forma de tratamento ou sanções cruéis, desumanas ou degradantes. Contudo, na aplicação de sanções disciplinares conforme as Regras de Mandela, admite-se, de forma excepcional e limitada,",
+   "gabarito": "c",
+   "alternativas": [
+    "utilização de instrumentos de imobilização.",
+    "encarceramento em cela escura.",
+    "restrição do contato familiar.",
+    "confinamento solitário prolongado.",
+    "redução da dieta do preso."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-052",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "A compreensão jurídica do significado de tortura contra a pessoa presa, segundo instrumentos normativos internacionais, pressupõe como característica necessária à configuração de tal conduta",
+   "gabarito": "d",
+   "alternativas": [
+    "a sua prática por agente público, com ou sem finalidade, mediante infligência intencional de dor ou sofrimento.",
+    "a sua prática por agente policial, com ou sem finalidade.",
+    "a sua prática por agente público ou privado, desde que resulte em dano físico à pessoa presa.",
+    "a infligência de dor ou sofrimento severo, físico ou mental, de forma intencional, por agente público ou com sua anuência, com finalidade específica.",
+    "a infligência de dano físico à pessoa presa, independentemente da finalidade."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-053",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Durante a vigência de determinada lei penal, o legislador criou novo crime mais gravoso, tipificado como “subtrair, para si ou para outrem, coisa móvel pertencente a hospital público”. Após o início da vigência dessa lei, José ingressou clandestinamente em um hospital público e subtraiu um equipamento pertencente a uma empresa privada que prestava serviços no local. Encerradas as investigações, o Ministério Público denunciou José, sustentando que a nova norma penal deveria ser aplicada, pois a finalidade da lei era proteger o patrimônio destinado à atividade hospitalar, independentemente de quem fosse o proprietário e o destino do bem subtraído. Considerando essa situação hipotética, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "A vigência da norma penal impede sua interpretação restritiva ou extensiva, uma vez que, enquanto vigente, a lei deve ser aplicada exclusivamente de acordo com seu significado literal, sendo vedada qualquer técnica interpretativa que ultrapasse a redação do dispositivo.",
+    "A analogia é inadmissível para fundamentar a responsabilização penal do agente, pois a extensão da norma prejudicial ao acusado viola o princípio da legalidade.",
+    "A analogia é admissível no caso, pois a finalidade protetiva da norma permite ao intérprete ampliar seu alcance para abranger situações materialmente semelhantes, ainda que isso implique a incidência de consequência penal mais gravosa não expressamente prevista para a conduta.",
+    "A nova lei deve ser utilizada para incriminar José, por haver identidade entre a sua conduta e o preceito normativo penal, valendo-se o julgador de interpretação lógica, que despreza o uso de analogia e das fontes indiretas do direito penal.",
+    "A interpretação teleológica da norma permite ao julgador incluir no conceito de “hospital público” todos os bens que estejam no interior do estabelecimento, ainda que pertencentes a empresa privada, pois a finalidade da lei é a proteção da continuidade do serviço de saúde."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-054",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em 1.o de março de 2026, durante situação excepcional de calamidade pública, entrou em vigor lei penal que, expressamente, determinou sua vigência até 30 de junho de 2026, tendo criminalizado determinada conduta relacionada ao desvio de medicamentos destinados ao atendimento emergencial da população. Em 20 de junho de 2026, André, brasileiro, praticou a referida conduta no território brasileiro. Em 10 de julho de 2026, quando já cessada a vigência da lei, foi descoberto o fato e instaurada investigação contra André. Também em 20 de junho de 2026, Bruno, brasileiro, praticou conduta idêntica a bordo de uma embarcação privada brasileira que se encontrava em alto-mar. E Cristiano, brasileiro, praticou, no mesmo dia, a mesma conduta em território estrangeiro, tendo retornado posteriormente ao Brasil. No país estrangeiro, a conduta não era considerada criminosa. Em relação a essa situação hipotética, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A lei temporária será aplicável a André e a Bruno, mas não a Cristiano, pois o Código Penal adota a territorialidade absoluta, admitindo extraterritorialidade somente para crimes praticados contra a vida e a liberdade do presidente da República.",
+    "A lei penal temporária não poderá ser aplicada a André nem a Bruno, ainda que as embarcações brasileiras sejam consideradas extensão territorial do Brasil, porque sua vigência havia terminado antes da instauração de investigação.",
+    "A lei penal temporária poderá ser aplicada a André, mas não a Bruno, pois o princípio da territorialidade somente alcança fatos praticados no território brasileiro, de modo que a lei penal brasileira não alcança os crimes em embarcação privada brasileira em alto-mar.",
+    "A conduta de André não poderá ser punida após o término da lei temporária, em razão do princípio da retroatividade da lei penal benéfica, enquanto Bruno e Cristiano não estarão sujeitos à lei brasileira pelo simples fato de terem praticado a conduta fora do território nacional.",
+    "A lei penal temporária poderá ser aplicada a André em razão de sua ultratividade; a conduta de Bruno, praticada em embarcação brasileira situada em alto-mar, submete-se, em regra, à lei penal brasileira, pelo princípio da territorialidade; e a responsabilização de Cristiano não será possível, por falta de enquadramento nas condições legais de extraterritorialidade."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-055",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Durante uma discussão, Magno, com animus necandi , efetuou um disparo de arma de fogo em direção a região vital de Leonardo, que estava atrás de uma porta. Magno, acreditando tê-lo atingido como pretendia, arrependeu-se logo após o disparo e, supondo que a vítima ainda estivesse viva, acionou o serviço de emergência, que prestou pronto auxílio. Leonardo foi socorrido e levado ao hospital. Contudo, posteriormente, foi constatado que o projétil não atingira Leonardo, pois, antes de alcançá-lo, fora desviado pela maçaneta da porta, circunstância que Magno desconhecia. O laudo pericial concluiu que, nas condições concretas, a arma era apta a matar e que estava municiada de um único projétil. A partir dessa situação hipotética, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Magno não deverá responder por tentativa de homicídio, pois será beneficiado pelo arrependimento eficaz, já que, ao chamar socorro, impediu o resultado morte, sendo suficiente o arrependimento posterior ao disparo, bem como a ausência do resultado morte, para afastar a responsabilidade pela tentativa.",
+    "Magno não deverá responder por tentativa de homicídio, pois, embora ele tenha iniciado atos executórios com dolo de matar, o meio empregado mostrou-se absolutamente ineficaz para produzir o resultado nas circunstâncias concretas, configurando-se crime impossível.",
+    "Magno não deverá responder penalmente pelo fato, pois a ausência de resultado naturalístico impede a existência de crime doloso contra a vida, independentemente da idoneidade do meio empregado ou da intenção do agente, em razão da adoção da teoria naturalística da ação.",
+    "Magno deverá responder por tentativa de homicídio, pois iniciou a execução do crime com dolo de matar e somente não produziu o resultado por circunstância alheia à sua vontade, cabendo ser aplicada a teoria objetiva temperada, não tendo havido, portanto, arrependimento eficaz.",
+    "Magno deverá responder por homicídio consumado equiparado, pois sua conduta dolosa foi dirigida à produção da morte e o resultado somente não ocorreu em razão de circunstância excepcional relacionada à trajetória do projétil, devendo prevalecer a teoria subjetiva da tentativa."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-056",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Durante a madrugada de certo dia, Antônio, policial militar, deslocou-se até uma residência após ter recebido comunicação de que um indivíduo armado ameaçava os moradores. Ao chegar ao local, observou Lucas sair rapidamente da casa, segurando um objeto metálico. Convencido de que Lucas empunhava uma arma de fogo e de que estava prestes a atirar contra um dos moradores, Antônio efetuou um disparo contra Lucas, tendo-lhe causado lesões corporais. Posteriormente, verificou-se que Lucas era, na realidade, um dos moradores da residência e que o objeto metálico que segurava era uma lanterna. As investigações demonstram que Cleomar, vizinho de Lucas, havia informado falsamente à polícia militar que Lucas estava armado e ameaçava os moradores, embora soubesse que isso não era verdade. Antônio havia acreditado sinceramente na informação e, diante das circunstâncias concretas, efetuara o disparo. Diante dessa situação hipotética, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Antônio encontra-se em situação de descriminante putativa inevitável decorrente de erro sobre os pressupostos fáticos da legítima defesa, o que, nos termos do Código Penal, isenta-o de pena.",
+    "Antônio deverá responder necessariamente por homicídio ou lesão corporal dolosa, pois o erro sobre os pressupostos fáticos de uma causa de justificação não exclui o dolo no direito penal brasileiro, produzindo efeitos apenas sobre a culpabilidade.",
+    "Antônio incorreu em erro sobre a pessoa, pois pretendia atingir um indivíduo que acreditava ser agressor, mas acabou atingindo pessoa diversa daquela efetivamente identificada no local, devendo responder como se tivesse praticado o fato contra a vítima que efetivamente pretendia atingir, de modo a ser excluído o crime por legítima defesa putativa.",
+    "Antônio incorreu em erro de proibição indireto, pois equivocou-se quanto à existência dos pressupostos jurídicos da legítima defesa, podendo o erro excluir sua culpabilidade, por ter sido inevitável.",
+    "Antônio encontra-se em situação de descriminante putativa inevitável decorrente de erro sobre os pressupostos jurídicos da legítima defesa, o que exclui o dolo, mas não a culpa, já que o fato é previsto como crime culposo."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-057",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Durante uma operação policial, o superior hierárquico José Tenório, sargento da polícia militar, determinou expressamente ao soldado Luiz Roque que inserisse informação falsa em termo circunstanciado de ocorrência, afirmando que a ordem decorria de autoridade superior e que a recusa do soldado acarretaria imediata instauração de procedimento disciplinar contra este. Luiz, embora ciente da falsidade, cumpriu a ordem. Em relação a essa situação hipotética, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Luiz não será imputável, pois a submissão a uma ordem hierárquica restringe sua capacidade de autodeterminação, configurando causa de exclusão da imputabilidade prevista na legislação penal.",
+    "Luiz não é culpável, pois a existência de relação hierárquica é suficiente para caracterizar obediência hierárquica, independentemente da legalidade ou ilegalidade da ordem recebida.",
+    "Luiz não é culpável, pois a ameaça de instauração de procedimento disciplinar constitui coação moral irresistível, hipótese em que somente o emissor da ordem deverá responder pelo delito.",
+    "Luiz é culpável, pois não há exclusão da culpabilidade por obediência hierárquica quando se trata de ordem manifestamente ilegal, nos termos do Código Penal.",
+    "Luiz não é culpável, por erro de proibição inevitável, pois, diante das circunstâncias fáticas, não podia agir de outra maneira, em razão da ordem emanada do superior hierárquico."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-058",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito do concurso de pessoas de acordo com as teorias adotadas pelo Código Penal, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Pela teoria objetivo-formal, a autoria e a participação distinguem-se pelo grau de contribuição causal para o resultado, de modo que será autor aquele que prestar a contribuição mais relevante e partícipe aquele cuja contribuição seja secundária, independentemente de quem realize o núcleo do tipo penal.",
+    "As elementares de natureza objetiva e subjetiva do crime comunicam-se a todos os agentes, pois a unidade do título de imputação impede tratamento jurídico distinto entre os concorrentes.",
+    "Pela teoria objetivo-material, a participação no delito pressupõe a execução direta do núcleo do tipo penal, não podendo ser considerado partícipe aquele que meramente induza, instigue ou auxilie materialmente o autor.",
+    "No concurso de pessoas, as elementares de caráter pessoal não se comunicam, salvo quando constituem circunstâncias do crime, exigindo-se, contudo, que a participação pressuponha contribuição causal e vínculo subjetivo com a prática criminosa.",
+    "As circunstâncias e condições de caráter pessoal não se comunicam aos demais concorrentes, ainda que constituam elementares do tipo penal, pois o caráter pessoal da circunstância prevalece sobre sua função na estrutura típica."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-059",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ricardo e Tiago, maiores de idade e capazes, praticaram, em comunhão de desígnios, conjunção carnal consentida com Júlia, de 13 anos de idade. Durante a prática, Tiago gravou a cena em vídeo pelo celular. Passados alguns meses, já sob investigação, Tiago, com o propósito de humilhar Júlia, compartilhou o vídeo em um grupo de aplicativo de mensagens. Tempos depois, um pesquisador universitário, ao elaborar artigo científico sobre exploração sexual infantil na Internet, reproduziu na publicação acadêmica fotogramas extraídos do mesmo vídeo, tendo aplicado recurso de borradura apenas sobre o rosto de Tiago, um dos agressores, sob o argumento de que a identificação do autor do fato já seria suficiente para resguardar direitos de terceiros, tendo mantido nítidos, contudo, o rosto e outros elementos identificadores de Júlia. Considerando essa situação hipotética, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "O pesquisador universitário está amparado pela excludente de ilicitude, pois a lei exclui o crime devido à adoção do recurso de borradura da cena, ainda que parcial.",
+    "Ricardo e Tiago, por terem sido os autores da conjunção carnal, devem responder por estupro de vulnerável, e Tiago, apesar de ter gravado e publicado cena do crime, não deverá responder pelo crime de registro não autorizado da intimidade sexual, em razão da consunção do delito pelo estupro de vulnerável.",
+    "Não houve estupro coletivo, segundo a lei penal vigente, então Ricardo e Tiago devem responder por estupro de vulnerável. Tiago, por ter divulgado cena do estupro de vulnerável, deve responder, ainda, pelo respectivo crime previsto no Código Penal, com pena aumentada em razão do fim de humilhação.",
+    "A presunção de vulnerabilidade de menor de 14 anos de idade é relativa e pode ser afastada por prova de experiência sexual anterior ou do consentimento da vítima, conforme entendimento atualmente predominante acerca da legislação penal.",
+    "Ricardo e Tiago devem responder por estupro coletivo de vulnerável, devendo Tiago responder, ainda, pelo crime previsto no Código Penal para a divulgação da cena de estupro de vulnerável, com pena aumentada devido ao fim de humilhação."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-060",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em 12 de agosto de 2026, Enzo, integrante de milícia privada armada, adquiriu, no contexto da atuação do grupo, um lote de cabos de cobre utilizados na transmissão de energia elétrica, subtraídos da rede de uma concessionária de serviço público. Enzo sabia integralmente da origem ilícita do material e pretendia revendê-lo em seu ferro-velho, regularmente registrado como atividade comercial. Na mesma época, Bruno, sem qualquer vínculo com o grupo de Enzo, comprou de um desconhecido, em plena via pública e por preço inferior ao de mercado, um smartphone de última geração recém-lançado, sem questionar a procedência do aparelho. Caio, em situação fática independente das duas anteriores, adquiriu um cavalo de raça, sabendo que o animal havia sido subtraído de propriedade rural vizinha, com o propósito específico de revendê-lo posteriormente a terceiros. Acerca das situações hipotéticas narradas, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Enzo deve responder por apropriação indébita qualificada, com a pena aplicada em dobro, por se tratar de bens de concessionária de serviço público e, simultaneamente, de cabos utilizados na transmissão de energia elétrica, acrescido ainda o aumento de pena por ele ser integrante de milícia privada armada.",
+    "Bruno não cometeu o crime de receptação, uma vez que o respectivo dispositivo do Código Penal exige prova inequívoca de que o receptador efetivamente saiba, e não apenas presuma, a origem criminosa do bem, sendo necessário dolo direto para a configuração de qualquer modalidade do tipo.",
+    "Caio não deve responder por crime de receptação qualificada, pois um cavalo de raça não se enquadra no conceito de semovente domesticável de produção nem no de animal doméstico para os fins do tipo penal, sendo sua conduta subsumida à receptação simples.",
+    "Enzo deve responder pelo crime de receptação simples, com a pena aplicada em dobro, por se tratar de bens de concessionária de serviço público e, simultaneamente, de cabos utilizados na transmissão de energia elétrica, sem majorante da integração de milícia privada armada, por ausência de previsão legal ao tempo do fato.",
+    "Enzo deve responder por receptação qualificada, com a pena aplicada em dobro, sem prejuízo da majorante relativa ao fato de ser integrante de milícia privada e ter praticado o crime no contexto de atuação do grupo; Bruno deve responder por receptação culposa; Caio deve responder por receptação qualificada, por ter adquirido animal que sabia ser produto de crime, com a finalidade específica de comercializá-lo."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-061",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do crime de feminicídio, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Segundo entendimento proferido pelo STJ no julgamento de incidente de deslocamento de competência, admite-se a caracterização do chamado feminicídio político quando a posição de destaque conquistada pela mulher no cenário político ou social é o motivo decisivo para a prática do delito contra sua vida.",
+    "Atualmente, o STJ entende o feminicídio como qualificadora do crime de homicídio de natureza subjetiva, o que autoriza o reconhecimento do denominado feminicídio privilegiado quando o agente pratica o crime sob domínio de violenta emoção, logo em seguida a injusta provocação da vítima.",
+    "Comete feminicídio em concurso formal com vicaricídio o marido que mata a esposa com o fim específico de causar sofrimento em descendente, ascendente, dependente, enteado ou pessoa sob guarda ou responsabilidade direta da mulher, no contexto de violência doméstica e familiar.",
+    "A Lei n.o 14.994/2024 incluiu expressamente, entre as causas de aumento de pena do feminicídio, as circunstâncias relativas a motivo torpe, motivo fútil e conexão teleológica ou consequencial.",
+    "O feminicídio praticado em descumprimento de medida protetiva de urgência deferida configura concurso material de crimes entre o feminicídio majorado, previsto no Código Penal, e o delito autônomo previsto na Lei Maria da Penha."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-062",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta acerca do delito de furto.",
+   "gabarito": "b",
+   "alternativas": [
+    "De acordo com o STJ, é admissível, no furto qualificado, a aplicação da majorante do roubo pelo concurso de duas ou mais pessoas, para o aumento de pena prevista para o crime de furto, em razão do princípio da proporcionalidade.",
+    "Conforme tese fixada pelo STJ no julgamento de tema de recursos repetitivos, a causa de aumento de pena relativa ao repouso noturno, prevista no Código Penal, não incide sobre as figuras qualificadas do furto.",
+    "Para a configuração da qualificadora da destreza, é suficiente que o agente possua especial habilidade manual reconhecida, sendo prescindível que essa habilidade seja efetivamente empregada no caso concreto para subtrair bens que a vítima trazia consigo sem perceber a ação criminosa.",
+    "Conforme entendimento do STJ, o reconhecimento do privilégio previsto no § 2.o do art. 155 do Código Penal é incompatível com o furto qualificado, ainda que presentes a primariedade do agente, o pequeno valor da coisa e a natureza objetiva da qualificadora.",
+    "A destruição ou o rompimento de obstáculo de coisa, quando praticado após a consumação do furto e sem qualquer relação com o meio de execução empregado para a subtração, configura a qualificadora prevista no Código Penal, absorvendo o crime de dano."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-063",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito do instituto da prescrição penal, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Nos termos do Código Penal, a regra da interrupção da prescrição da pretensão punitiva decorrente do recebimento da denúncia produz efeitos relativamente a todos os autores do crime, e, em se tratando de crimes conexos objeto do mesmo processo, a interrupção relativa a um deles estende-se aos demais.",
+    "Segundo o STF, o termo inicial da prescrição da pretensão executória é a data do trânsito em julgado da sentença condenatória para a acusação, não havendo mitigação desse critério em nome do princípio da legalidade.",
+    "De acordo com a Constituição Federal de 1988, são imprescritíveis os crimes de racismo e os de ação de grupos armados, civis ou militares, contra a ordem constitucional e o Estado democrático, prevalecendo na doutrina o entendimento de que a legislação ordinária está autorizada a criar novas hipóteses de imprescritibilidade penal, por se tratar de rol meramente exemplificativo.",
+    "Nos crimes contra a dignidade sexual ou que envolvam violência contra criança e adolescente, o termo inicial da prescrição da pretensão punitiva é a data em que a vítima completar 18 anos de idade, regra aplicável aos demais vulneráveis mencionados no parágrafo único do art. 217-A do Código Penal, tais como pessoas com enfermidade ou deficiência mental sem discernimento para o ato.",
+    "Na hipótese de concurso formal próprio (ou perfeito) e no crime continuado, o cálculo da prescrição da pretensão punitiva deve considerar a pena final resultante da exasperação decorrente do concurso formal ou da continuidade delitiva, e não a pena correspondente aos crimes isoladamente."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-064",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação aos crimes contra a liberdade pessoal previstos no Código Penal, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "O crime de ameaça é de ação penal pública incondicionada em todas as suas modalidades, inclusive na figura simples do caput do artigo do Código Penal que o tipifica, por ser delito que atinge a paz de espírito e o sentimento de segurança da vítima, direitos de natureza indisponível.",
+    "O crime de violência psicológica contra a mulher constitui-se em crime habitual, exigindo a reiteração de condutas para sua consumação, razão pela qual um único ato, ainda que gravoso, é insuficiente para a configuração do delito.",
+    "No crime de constrangimento ilegal, a causa de aumento de pena exige a presença mínima de três agentes nos atos executórios, sendo essa majorante inaplicável quando, entre os envolvidos, houver inimputáveis ou pessoas não identificadas.",
+    "No crime de perseguição ( stalking ), por se tratar de crime habitual, a doutrina reconhece, em caráter excepcional, a possibilidade de tentativa, a exemplo da hipótese em que o agente encaminha reiteradamente mensagens eletrônicas invasivas à privacidade da vítima, mas estas permanecem no lixo eletrônico sem que o ofendido delas tome conhecimento.",
+    "Nos termos do Código Penal, as penas cominadas ao crime de perseguição são aplicadas cumulativamente com as correspondentes à violência e à grave ameaça empregada pelo agente, ainda que esses delitos sejam meios necessários àquele."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-065",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Durante a tramitação de uma ação penal, entrou em vigor uma lei que alterou exclusivamente regras procedimentais, sem estabelecer disposições transitórias. Antes da vigência da nova legislação, determinados atos processuais haviam sido regularmente praticados, enquanto outros ainda estavam pendentes de realização. Considerando essa situação hipotética e as disposições do Código de Processo Penal acerca da aplicação da lei processual penal no tempo, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "A nova lei somente será aplicada ao processo em andamento caso suas disposições sejam mais favoráveis ao acusado.",
+    "A nova lei será aplicada apenas aos processos penais iniciados após sua entrada em vigor, preservando-se integralmente o procedimento anterior nas ações penais em andamento.",
+    "A nova lei será aplicada imediatamente aos atos processuais ainda pendentes de realização, preservada a validade daqueles regularmente praticados sob a vigência da legislação anterior.",
+    "A aplicação da nova lei ao processo em andamento dependerá da concordância das partes, em observância aos princípios do contraditório e da ampla defesa.",
+    "A nova lei terá aplicação retroativa, sendo necessária a repetição dos atos processuais anteriormente praticados, ainda que tenham observado a legislação então vigente."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-066",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere ao indiciamento e à condução do inquérito policial, assinale a opção correta de acordo com a Lei n.o 12.830/2013.",
+   "gabarito": "c",
+   "alternativas": [
+    "A atribuição privativa do delegado de polícia para realizar o indiciamento afasta a possibilidade de avocação do inquérito policial por superior hierárquico, ainda que exista motivo de interesse público devidamente fundamentado.",
+    "A redistribuição do inquérito policial por superior hierárquico implica a transferência da competência para o indiciamento ao Ministério Público, quando este já houver requisitado diligências complementares à autoridade policial.",
+    "O indiciamento deve decorrer de ato fundamentado do delegado de polícia, mediante análise técnico-jurídica do fato, sendo admitida a avocação do inquérito policial por superior hierárquico mediante despacho fundamentado, por motivo de interesse público.",
+    "O indiciamento poderá ser realizado pelo delegado de polícia sem fundamentação específica desde que o inquérito policial contenha laudo pericial conclusivo acerca da materialidade da infração penal.",
+    "A redistribuição do inquérito policial por superior hierárquico, fundada em motivo de interesse público, dispensa a fundamentação do respectivo ato quando a investigação ainda não tiver resultado em indiciamento."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-067",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Concluído o inquérito policial que apurou crime de ação penal pública incondicionada, os autos foram encaminhados ao Ministério Público, estando o investigado em liberdade. Embora presentes os elementos informativos necessários à formação da opinio delicti , o órgão ministerial deixou de oferecer denúncia, requerer diligências complementares ou promover o arquivamento da investigação no prazo legal. Considerando essa situação hipotética e as disposições do Código de Processo Penal, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "O ofendido somente poderá propor ação penal privada subsidiária da pública após o esgotamento das medidas administrativas de controle da atuação ministerial.",
+    "O ofendido poderá propor ação penal privada subsidiária da pública, hipótese em que o Ministério Público conservará a possibilidade de aditar a queixa, oferecer denúncia substitutiva e retomar a ação como parte principal, em caso de negligência do querelante.",
+    "O ofendido poderá propor ação penal privada subsidiária da pública, hipótese em que o Ministério Público perderá a titularidade da ação penal, ficando impedido de intervir no processo.",
+    "O oferecimento da queixa subsidiária dependerá de autorização judicial prévia, mediante reconhecimento da inércia ministerial.",
+    "O transcurso do prazo legal sem oferecimento de denúncia implica a transferência definitiva da titularidade da ação penal ao ofendido, ainda que o Ministério Público posteriormente manifeste interesse em promover a persecução penal."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-068",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da conexão e da continência no processo penal, julgue os itens a seguir. I A conexão pode decorrer da prática de uma infração penal destinada a facilitar ou ocultar outra, ainda que os delitos tenham sido praticados em momentos distintos. II No concurso de jurisdições da mesma categoria, sendo de igual gravidade as penas cominadas às infrações conexas, prevalecerá a competência do lugar em que houver ocorrido o maior número de infrações. III A conexão entre infrações submetidas à jurisdição comum e à jurisdição militar determina a unidade de processo e julgamento, ressalvada a possibilidade de separação facultativa prevista no Código de Processo Penal. IV A separação dos processos conexos poderá ser determinada pelo juiz quando as infrações tiverem sido praticadas em circunstâncias de tempo ou de lugar diferentes, desde que reputada conveniente a medida. V No concurso de jurisdições da mesma categoria, a prevenção prevalecerá sobre o critério da gravidade da pena cominada às infrações, desde que um dos juízos tenha praticado anteriormente ato relacionado à investigação. Estão certos apenas os itens",
+   "gabarito": "a",
+   "alternativas": [
+    "I, II e IV.",
+    "I, II e V.",
+    "I, III e IV.",
+    "II, III e V.",
+    "III, IV e V."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-069",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Durante a investigação de um crime de roubo, a vítima, que não conhecia anteriormente o autor, reconheceu o suspeito após a exibição isolada de sua fotografia, sem a observância das formalidades previstas no Código de Processo Penal. Posteriormente, foi realizado reconhecimento presencial, observadas as formalidades legais, ocasião em que a vítima confirmou a identificação. No curso da investigação, também foram obtidos outros elementos probatórios independentes, sem relação causal com o reconhecimento feito por meio da exibição isolada da fotografia do suspeito. A respeito dessa situação hipotética, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "A natureza inquisitiva da investigação permite aproveitar o reconhecimento fotográfico inicial, apesar da inobservância das formalidades legais, porquanto sua confirmação ocorreu por reconhecimento presencial regular.",
+    "A confirmação da identificação no reconhecimento presencial afastou os efeitos da irregularidade inicial, desde que o segundo procedimento tenha sido documentado e submetido posteriormente ao contraditório judicial.",
+    "O reconhecimento presencial posterior não convalidou o reconhecimento fotográfico irregular, mas a autoria delitiva poderá ser demonstrada por outros elementos probatórios independentes, sem relação causal com o ato viciado.",
+    "O reconhecimento presencial realizado posteriormente convalidou o reconhecimento fotográfico inicial, uma vez que foram observadas as formalidades legais no segundo procedimento.",
+    "A irregularidade do reconhecimento fotográfico inicial comprometeu a validade de todos os elementos probatórios obtidos na investigação, inclusive daqueles produzidos de forma independente."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-070",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere à transação penal no âmbito dos juizados especiais criminais, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A proposta de transação penal poderá ser submetida à apreciação judicial mediante aceitação exclusiva do autor do fato, ainda que seu defensor manifeste discordância.",
+    "A concessão de transação penal impede a obtenção do mesmo benefício pelo prazo de cinco anos, contado da data do fato que deu origem à primeira proposta.",
+    "A existência de condenação criminal definitiva à pena de multa impede o oferecimento de proposta de transação penal, independentemente da natureza da infração anteriormente praticada.",
+    "A decisão judicial que acolhe a proposta de transação penal aceita pelo autor do fato é irrecorrível, por decorrer de manifestação consensual das partes.",
+    "A aplicação de pena restritiva de direitos ou multa em decorrência da transação penal não importará em reincidência, sendo registrada apenas para impedir a concessão do mesmo benefício no prazo de cinco anos."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-071",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Uma vítima de roubo acionou policiais militares logo após o crime e lhes informou as características do autor e a direção de sua fuga. Imediatamente, a equipe iniciou diligências para localizá-lo. Ao avistá-lo, passou a persegui-lo. Durante a perseguição, os policiais perderam o suspeito de vista, mas prosseguiram as buscas sem interrupção, orientados por informações fidedignas sobre seu trajeto. O suspeito foi localizado e preso aproximadamente duas horas após o crime, sem que fossem encontrados com ele os bens subtraídos ou instrumentos utilizados na infração. Considerando essa situação hipotética e as disposições do Código de Processo Penal, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "A prisão configura flagrante impróprio, pois a perseguição foi iniciada logo após a infração e prosseguiu sem interrupção, não sendo descaracterizada pela perda momentânea do contato visual com o suspeito.",
+    "A prisão não configura flagrante impróprio, pois a perda do contato visual com o suspeito interrompe juridicamente a perseguição, ainda que os policiais tenham continuado as diligências.",
+    "A caracterização do flagrante impróprio exige que a perseguição seja iniciada por pessoa que tenha presenciado a infração penal, não sendo suficiente seu início com base nas informações prestadas pela vítima após a consumação do crime.",
+    "A prisão configura flagrante próprio, pois a perseguição policial teve início imediatamente após a prática do crime, embora a captura tenha ocorrido posteriormente.",
+    "A prisão configura flagrante presumido, uma vez que o suspeito foi localizado logo depois do crime, sendo dispensável a apreensão de objetos relacionados à infração quando houver informações fidedignas sobre sua autoria."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-072",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da coisa julgada, do habeas corpus e do processo criminal de crimes comuns, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "O reconhecimento fotográfico realizado na fase do inquérito policial, para fixar a autoria delitiva, deve observar as formalidades do Código de Processo Penal e ser corroborado por outras provas colhidas na fase judicial.",
+    "Conforme entendimento do STJ, não é possível o conhecimento de habeas corpus contra condenação transitada em julgado, mesmo nos casos em que não tenha sido ajuizada a revisão criminal e não tenha havido flagrante ilegalidade demonstrada de pronto nem necessidade de dilação fático/probatória.",
+    "Aos núcleos de prática jurídica das faculdades de direito não é aplicado o prazo em dobro para manifestação no processo penal.",
+    "Em processos por crimes sexuais, as provas obtidas com violação aos direitos fundamentais das vítimas são legítimas desde que necessárias à defesa do acusado.",
+    "Os advogados de núcleos das faculdades de direito não têm a mesma prerrogativa de intimação pessoal dos atos processuais conferida à Defensoria Pública."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-073",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta a respeito do processo penal constitucional, à luz do entendimento dos tribunais superiores.",
+   "gabarito": "e",
+   "alternativas": [
+    "É inadmissível o testemunho indireto, mesmo em contexto de intimidação da prova, facções criminosas e silenciamento imposto a vítimas ou testemunhas.",
+    "Viola o princípio constitucional do juiz natural a designação de magistrados para atuar em ações criminais e execuções penais por meio do mutirão carcerário.",
+    "É vedada a pronúncia baseada apenas nos elementos informativos do inquérito policial, mesmo no caso de provas cautelares, não repetíveis e antecipadas, pois isso viola o princípio do devido processo legal.",
+    "O testemunho indireto ou de ouvir dizer é prova ilícita e inadmissível no ordenamento jurídico brasileiro, por violar o princípio constitucional do devido processo legal.",
+    "O testemunho indireto qualificado poderá assumir importância probatória em contexto de criminalidade organizada, desde que submetido ao controle judicial estrito e preservados o contraditório e a ampla defesa."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-074",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca das nulidades no processo penal, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "O inquérito policial é indispensável ao processo penal, por isso eventual vício nele contaminará toda a ação penal.",
+    "A nulidade decorrente da inobservância da competência penal por prevenção é absoluta.",
+    "A ausência de intimação pessoal da Defensoria Pública ou de defensor dativo sobre os atos do processo pode configurar nulidade.",
+    "No processo penal, a falta de defesa bem como a sua deficiência constituem causas de nulidade absoluta.",
+    "É válida a confissão de crime por pessoa convocada como testemunha, mesmo que a autoridade não tenha advertido previamente sobre o direito ao silêncio e à não autoincriminação."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-075",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta em relação aos recursos em geral.",
+   "gabarito": "b",
+   "alternativas": [
+    "Mesmo se demonstrada a ausência de má-fé e de erro grosseiro, estando presente a tempestividade do recurso, não será aplicado o princípio da fungibilidade à apelação interposta quando cabível o recurso em sentido estrito.",
+    "O julgamento da apelação por órgão fracionário de tribunal composto majoritariamente por juízes convocados não viola o princípio constitucional do juiz natural.",
+    "A nulidade no julgamento da apelação ou do recurso em sentido estrito persistirá mesmo quando o voto do desembargador impedido não interferir no resultado.",
+    "A renúncia ao direito de apelação, manifestada pelo réu sem a assistência do defensor, impede o conhecimento da apelação por este interposta.",
+    "Não é causa de nulidade do julgamento da apelação a ausência de intimação prévia do réu para constituir outro defensor, no caso de manifestação nos autos da renúncia do único defensor."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-076",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base no entendimento do STJ acerca dos institutos de direito processual penal e investigação criminal, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "É lícito o acesso direto da autoridade policial a conversa em aplicativos de mensagens em aparelho celular apreendido por ocasião de prisão em flagrante, independentemente de prévia autorização judicial ou do detentor do bem.",
+    "Admite-se a instauração de inquérito judicial pelo corregedor-geral de justiça para a apuração de ilícitos criminais, pois não viola o princípio acusatório.",
+    "A atribuição para a persecução penal é exclusiva do Ministério Público e da autoridade policial, sendo vedada a iniciativa do juiz na fase de investigação.",
+    "É vedada a utilização de ações encobertas ou agentes infiltrados na investigação de crimes praticados pela via digital.",
+    "A realização de ronda virtual para localização de material relacionado a pornografia infantil prescinde de autorização judicial, porquanto se confunde com o instituto da infiltração de agentes."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-077",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No curso de investigação conduzida pela PC/MA sobre um crime de extorsão mediante sequestro (art. 159 do Código Penal), o delegado de polícia vislumbra a necessidade de custódia cautelar para assegurar a colheita de provas em São Luís – MA. Nessa situação hipotética, de acordo com as legislações que dispõem sobre crimes hediondos e prisão temporária (Leis n.o 8.072/1990 e n.o 7.960/1989), a prisão temporária, se decretada, deverá obedecer ao prazo de",
+   "gabarito": "c",
+   "alternativas": [
+    "sessenta dias, em conformidade com o Marco Legal do Combate ao Crime Organizado.",
+    "quinze dias, improrrogável, por se tratar de crime hediondo.",
+    "trinta dias, prorrogável por igual período em caso de extrema e comprovada necessidade.",
+    "cinco dias, prorrogável por igual período em caso de extrema e comprovada necessidade.",
+    "dez dias, podendo ser convertida automaticamente em preventiva após o indiciamento."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-078",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base no disposto na Lei n.o 7.716/1989 e em suas alterações, assinale a opção correta em relação à classificação e à disciplina jurídica aplicável aos crimes resultantes de preconceito de raça ou de cor.",
+   "gabarito": "c",
+   "alternativas": [
+    "A conduta de obstar a promoção funcional em razão de discriminação ou preconceito de raça ou cor configura delito de racismo, estando seu agente sujeito à pena de reclusão de um a três anos.",
+    "A conduta de injuriar alguém, ofendendo-lhe a dignidade ou o decoro, em razão de discriminação por procedência nacional configura crime cuja pena é aumentada em um terço quando praticado por duas ou mais pessoas.",
+    "O crime de injúria racial é considerado infração penal inafiançável e imprescritível.",
+    "A injúria racial, quando praticada na modalidade denominada racismo recreativo, configura crime de injúria previsto no Código Penal, cujo processamento é da competência do juizado especial criminal.",
+    "A conduta de induzir ou incitar a discriminação ou o preconceito de cor, quando praticada em contexto de atividades esportivas, é crime punível com pena de reclusão, sendo admitido, no entanto, arbitramento de fiança pela autoridade em sede policial."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-079",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Um morador da cidade de Caxias – MA mantém, exclusivamente no interior de sua residência, uma arma de fogo do tipo revólver, calibre .38, sem o devido registro. O artefato está desmuniciado e guardado no interior de um armário. De acordo com o Estatuto do Desarmamento, a conduta descrita na situação hipotética precedente configura",
+   "gabarito": "e",
+   "alternativas": [
+    "conduta atípica, na medida em que o referido armamento encontra-se guardado e desmuniciado, sem oferecer potencialidade lesiva.",
+    "porte ilegal de arma de fogo de uso permitido.",
+    "posse ou porte ilegal de arma de fogo de uso restrito, em razão da ocultação.",
+    "comércio ilegal de arma de fogo, por ausência de registro de origem.",
+    "posse irregular de arma de fogo de uso permitido."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-080",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Durante operação policial na região de Imperatriz – MA, um indivíduo foi preso em flagrante e indiciado pelo porte de 500 g de cocaína. O investigado é primário, possui bons antecedentes, não integra organização criminosa e não se dedica a atividades criminosas. Diante desse caso hipotético, a autoridade policial deve considerar a aplicação da causa de diminuição de pena conhecida como tráfico privilegiado, para fins de",
+   "gabarito": "b",
+   "alternativas": [
+    "substituição da prisão em flagrante por advertência sobre os efeitos das drogas.",
+    "afastamento do caráter hediondo do crime, conforme entendimento jurisprudencial consolidado.",
+    "redução da pena de 1/6 a 2/3, mantendo-se a natureza hedionda da infração em qualquer caso.",
+    "concessão de liberdade provisória com fiança em sede policial.",
+    "desclassificação imediata para o crime de posse de drogas para consumo pessoal."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-081",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No cumprimento de mandado de busca e apreensão domiciliar em Colinas – MA, uma equipe policial, sob determinação do delegado de polícia, ingressou no imóvel às 21 h 30 min, contra a vontade do morador, justificando a urgência na apreensão de dispositivos informáticos. À luz da Lei de Abuso de Autoridade, a conduta da equipe policial na situação hipotética apresentada deve ser considerada",
+   "gabarito": "a",
+   "alternativas": [
+    "crime, pois é vedado o cumprimento de mandado de busca e apreensão domiciliar no intervalo entre as 21 h de um dia e as 5 h do dia seguinte.",
+    "lícita, pois o mandado judicial pode ser cumprido a qualquer hora do dia ou da noite.",
+    "crime apenas se não tiver havido apreensão de objetos ilícitos no local.",
+    "lícita, desde que os policiais estivessem acompanhados de duas testemunhas presenciais.",
+    "atípica, por não caracterizar crime de perigo abstrato que exige dolo específico de vingança."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-082",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Segundo o disposto no Estatuto da Criança e do Adolescente, o proprietário de estabelecimento comercial que vender bebidas alcoólicas a adolescente de dezesseis anos de idade cometerá",
+   "gabarito": "b",
+   "alternativas": [
+    "contravenção penal de servir bebidas a menor de idade, conforme o Decreto-lei n.o 3.688/1941.",
+    "crime cuja pena prevista é detenção e multa.",
+    "crime de corrupção de menores, absorvido pela Lei Antidrogas (Lei n.o 11.343/2006).",
+    "infração administrativa sujeita a multa, a ser aplicada pelo juizado da infância.",
+    "crime, cuja pena será aumentada em 2/3 caso o adolescente consuma ou utilize o produto."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-083",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No curso de investigação sobre violência doméstica em localidade que não é sede de comarca no interior do Maranhão, o delegado da PC/MA verificou a existência de risco atual ou iminente à vida ou à integridade física da mulher, por comportamento do investigado, ex-companheiro da ofendida e pai de seus dois filhos menores de idade. Nos termos da Lei Maria da Penha, a medida administrativa adequada a ser adotada pela autoridade policial nessa situação hipotética é",
+   "gabarito": "c",
+   "alternativas": [
+    "encaminhar os autos do inquérito policial ao Ministério Público, para que este determine o afastamento do agressor do lar.",
+    "acionar a justiça, para que determine o afastamento do agressor do lar, devendo aguardar 48 horas pela decisão judicial para cumprir a medida.",
+    "determinar o afastamento imediato do agressor do domicílio ou local de convivência com a ofendida.",
+    "efetuar a prisão do agressor, podendo-lhe conceder liberdade provisória mediante compromisso de seu comparecimento mensal perante a autoridade policial.",
+    "instaurar incidente de alienação parental para decidir sobre a guarda dos filhos menores de idade."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-084",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No âmbito de investigação de lavagem de capitais, o delegado de polícia civil representou pela alienação antecipada de veículos de luxo apreendidos, para evitar a depreciação econômica. Considerando-se essa situação hipotética e o disposto na Lei n.o 9.613/1998, é correto afirmar que a alienação antecipada de bens para preservação de valor deve ser determinada",
+   "gabarito": "b",
+   "alternativas": [
+    "quando houver indícios de que os bens pertencem a terceiros de boa-fé.",
+    "pelo juiz, de ofício, a requerimento do Ministério Público ou mediante representação da autoridade policial.",
+    "pelo delegado de polícia, mediante despacho fundamentado no inquérito policial.",
+    "somente se os bens forem de origem estrangeira ou vinculados ao tráfico de entorpecentes.",
+    "após o trânsito em julgado da sentença condenatória."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-085",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Suponha que um agente público tenha sido condenado por ter submetido a sofrimento físico pessoa presa em estabelecimento prisional, como forma de aplicar-lhe castigo pessoal. Nesse caso, conforme a Lei n.o 9.455/1997, que dispõe sobre os crimes de tortura, o efeito automático da condenação por tal crime é",
+   "gabarito": "c",
+   "alternativas": [
+    "a demissão a bem do serviço público, sem possibilidade de recurso na esfera administrativa.",
+    "a suspensão dos direitos políticos pelo prazo de dez anos, independentemente da pena privativa de liberdade.",
+    "a perda do cargo, da função ou do emprego público e a interdição para seu exercício pelo dobro do prazo da pena aplicada.",
+    "a interdição para o exercício do cargo pelo prazo de cinco anos após o cumprimento da pena.",
+    "a obrigação de indenizar a vítima em valor correspondente a cem salários mínimos."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-086",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ciente de que determinada organização criminosa utiliza o território maranhense para o escoamento de drogas sintéticas, um delegado da PC/MA decidiu pela utilização da técnica de entrega vigiada, com base nas prerrogativas previstas no Marco Legal do Combate ao Crime Organizado (Lei n.o 15.358/2026) e na Lei Antidrogas. Nessa situação hipotética, a técnica de entrega vigiada",
+   "gabarito": "a",
+   "alternativas": [
+    "pode ser realizada mediante comunicação prévia ao juiz competente, que poderá fixar limites à ação policial, mantendo-se o sigilo.",
+    "dispensa comunicação ao Ministério Público, por ser ato administrativo discricionário do delegado, vinculado à sua atividade de investigação criminal.",
+    "aplica-se apenas se o investigado for agente público em exercício de função de confiança.",
+    "exige autorização judicial prévia e específica, sob pena de nulidade absoluta das provas.",
+    "é permitida, desde que se trate de crime de tráfico de drogas com vinculação concomitante com as hipóteses de concurso de crimes com delitos contra a ordem tributária."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-087",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando a hipótese de que um condenado por crime hediondo com resultado morte, reincidente genérico, cumpre pena em estabelecimento prisional no Maranhão, assinale a opção correta acerca da progressão de regime nessa hipótese, com base nas alterações introduzidas na legislação pelo Pacote Anticrime e na jurisprudência firmada pelo STJ.",
+   "gabarito": "e",
+   "alternativas": [
+    "O condenado faz jus ao benefício no percentual de 70%, caso o crime haja tido repercussão interestadual, nos termos da Lei n.o 10.446/2002.",
+    "O condenado faz jus ao benefício no percentual de 40%, por analogia in bonam partem ao reincidente em crime comum.",
+    "A natureza do crime com resultado morte implica vedação absoluta à progressão de regime.",
+    "O condenado faz jus ao benefício no percentual de 60%, por ser reincidente, independentemente da natureza do crime anterior.",
+    "O condenado faz jus ao benefício no percentual de 50%, visto que a reincidência exigida para o patamar de 60% deve ser específica em crime hediondo ou equiparado com resultado morte."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-088",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em operação de combate à corrupção, um delegado da PC/MA indiciou um ex-prefeito, que, após ter recebido propina em espécie, utilizara interpostas pessoas para adquirir imóveis, ocultando a real propriedade. A partir dessa situação hipotética, assinale a opção correta acerca da lavagem de dinheiro e da autolavagem ( self-laundering ), de acordo com a jurisprudência dos tribunais superiores.",
+   "gabarito": "a",
+   "alternativas": [
+    "Para a configuração da autolavagem, exige-se a demonstração de atos autônomos de ocultação ou dissimulação que não se confundam com o mero usufruto do proveito do crime.",
+    "A autolavagem é conduta atípica no Brasil, pois o exaurimento do crime antecedente absorve a conduta posterior.",
+    "A pena pelo crime de lavagem de dinheiro deve ser obrigatoriamente reduzida da metade se o autor for o mesmo da infração antecedente.",
+    "O crime de lavagem de dinheiro é acessório e exige a condenação definitiva pela infração antecedente.",
+    "A conduta descrita na situação configura lavagem de dinheiro apenas se tiver havido a participação de terceira pessoa que desconhecesse a origem ilícita dos valores."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-089",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação ao controle social do delito como objeto da criminologia, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "O controle social deve ser compreendido como o conjunto de estratégias e doutrinas que buscam a emancipação do indivíduo frente ao sistema penal, garantindo, por meio da atuação dos agentes formais e informais, a libertação da pessoa humana de condicionamentos e disciplinas sociais e normativas que submetem o ser humano a modelos ou padrões de condutas comunitárias.",
+    "O direito penal simboliza, entre todos os subsistemas normativos do controle social, o mais formalizado, racionalmente estruturado, com superior divisão do trabalho e especialidade funcional.",
+    "A criminologia positivista, ao atribuir destaque à pessoa do delinquente, buscou criticar o concreto funcionamento do sistema, questionando as definições legais e seu quadro normativo correspondente, conferindo grande importância e atenção aos problemas do controle social como objeto dos estudos criminológicos.",
+    "Os agentes formais do controle social buscam a disciplina do indivíduo, visando condicioná-lo por meio de um processo de socialização que interioriza na pessoa humana as pautas de conduta transmitidas e apreendidas em núcleos que incluem a família, a escola, a profissão e o trabalho.",
+    "A polícia, a justiça e a opinião pública constituem agentes formais do controle social que atuam quando as instâncias informais de controle social fracassam em alcançar a conformidade ou a adaptação do indivíduo às normas comunitárias."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-090",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação aos modelos de reação ao crime no âmbito da criminologia, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "No modelo dissuasório clássico, o problema criminal é de natureza social, enquanto, no modelo ressocializador, o acontecimento delitivo é a expressão de um enfrentamento formal e simbólico entre o Estado e o infrator.",
+    "O modelo dissuasório clássico confere relevância à pretensão punitiva do Estado e ao justo e necessário castigo do delinquente como forma de prevenção eficaz da criminalidade.",
+    "O modelo ressocializador, de base idealista que se afasta do real, do histórico e do empírico, coloca no centro do debate criminológico o sistema dos fins ideais da pena, considerando o castigo uma inutilidade, uma vez que não reconhece a possibilidade de reinserção social do infrator.",
+    "O modelo ressocializador, ao colocar o sistema no centro da reflexão científica, interessou-se pelo delinquente abstrato e se afastou do estudo do impacto real do castigo no condenado concreto.",
+    "O modelo dissuasório clássico procura dar uma resposta ao delito, tendo como prioridade a reparação do dano causado à vítima e a ressocialização do infrator em detrimento da prevenção eficaz da criminalidade."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-091",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "O método empregado pela criminologia moderna que permitiu o reconhecimento de sua autonomia, sua consolidação e seu status de ciência é o",
+   "gabarito": "c",
+   "alternativas": [
+    "método lógico-dedutivo, o que permitiu a superação da opinião tradicional na análise das questões criminológicas.",
+    "método dedutivo, o qual ajudou o criminólogo a verificar ou refutar suas hipóteses por meio de um elevado grau de intuição e do emprego do silogismo.",
+    "método empírico, baseado na análise, na observação e na indução, por influência do positivismo.",
+    "método abstrato, formal e dedutivo, de base científica, por meio do qual se superou a concepção dos estudiosos criminológicos clássicos.",
+    "método formal e dedutivo, que aproximou a criminologia do direito, qualificando-a como ciência do “dever ser”."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-092",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No curso de um processo criminal sobre crime de estupro, o advogado do réu, em sua fala, responsabilizou a vítima pela ocorrência do delito, argumentando que a conduta dela teria provocado e contribuído para o crime. A vítima sentiu-se muito humilhada por tal sustentação do defensor do réu. Nessa situação hipotética, a conduta do advogado do réu resultou em",
+   "gabarito": "e",
+   "alternativas": [
+    "concurso de vitimização primária e terciária, pois os danos provocados à vítima pelo crime foram relembrados intencionalmente pela estratégia de defesa do advogado do réu.",
+    "vitimização primária, haja vista os efeitos que causou diretamente à pessoa da vítima.",
+    "vitimização terciária, haja vista os custos penais e sociais que a ocorrência do delito provocou na vítima.",
+    "concurso de vitimização primária e secundária, pois a dor e a humilhação sofridas pela vítima geraram novos e graves transtornos psíquicos sobre a própria vida dela.",
+    "vitimização secundária, haja vista o incremento do padecimento gerado à vítima pela intervenção do sistema legal."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-093",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "A prevenção do delito, no Estado democrático de direito, interessa a todos os poderes públicos, ao sistema legal e à sociedade geral. Nesse contexto, a prevenção secundária",
+   "gabarito": "a",
+   "alternativas": [
+    "surge quando e onde o conflito delitivo se manifesta ou se exterioriza, sendo orientada, de forma seletiva, a determinados setores da sociedade, a grupos ou subgrupos que apresentam maior risco ao surgimento do problema criminal.",
+    "opera a médio e longo prazo, dirigindo-se a todos os cidadãos e atuando, entre outros âmbitos, em educação, socialização, trabalho, bem-estar social e qualidade de vida.",
+    "busca evitar a reincidência, apresentando-se como uma intervenção tardia — porque aparece somente depois do cometimento do crime — e, portanto, de caráter acentuadamente punitivo.",
+    "ocorre antes que o crime se manifeste, criando as condições necessárias para uma socialização proveitosa de acordo com os objetivos da sociedade, contribuindo para a formação de cidadãos com capacidade de superar eventuais conflitos.",
+    "ocorre depois da prática do crime, tendo como destinatário o condenado ou recluso, buscando especificamente evitar a reincidência."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-094",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "No âmbito das teorias sociológicas, a ideia de que a cidade produz delinquência, ou seja, de que há um evidente paralelismo entre o processo de criação ou desenvolvimento de novos centros urbanos e a sua criminalidade, é objeto de estudo da",
+   "gabarito": "b",
+   "alternativas": [
+    "teoria do processo social.",
+    "teoria ecológica.",
+    "teoria do conflito social.",
+    "teoria do conflito cultural.",
+    "teoria da anomia."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-095",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito das funções da criminologia e da política criminal, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A criminologia, na resposta científico-social ao problema do crime, apresenta estratégias e alternativas que orientam a política criminal em proposições normativas gerais e obrigatórias.",
+    "A função da criminologia é reunir um conjunto de conhecimentos verificados empiricamente a respeito do fenômeno criminal, ao passo que a função da política criminal é transformar esse conhecimento empírico em decisão normativa ou proposição jurídica de caráter geral.",
+    "A função da criminologia é intermediar a relação entre a política criminal e o direito penal, ao passo que a função da política criminal é intermediar a relação entre o direito penal e as garantias individuais do Estado democrático de direito.",
+    "A criminologia apresenta o saber normativo e instrumental sobre o delito, para que seja transformado em opções, fórmulas e programas que orientem os poderes públicos na tomada de decisões para o controle da criminalidade.",
+    "A criminologia fornece o substrato explicativo-empírico do sistema das ciências criminais, isto é, o fundamento científico."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-096",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme os modelos teóricos da criminologia, a prevenção primária do delito",
+   "gabarito": "c",
+   "alternativas": [
+    "estabelece programas de prevenção policial, de controle dos meios de comunicação e de ordenação do espaço urbano, procurando desenvolver essas ações em bairros de classes sociais menos favorecidas.",
+    "busca compreender os efeitos nocivos derivados do delito ou do fato traumático sobre a vítima, contribuindo, assim, para a reinserção da pessoa ofendida como protagonista do conflito penal.",
+    "cria os pressupostos necessários e orientados para combater as causas do delito, a origem do conflito criminal, procurando neutralizar o problema antes de sua manifestação.",
+    "atua junto à política legislativa e próxima à ação policial, buscando combater o crime no lugar onde o delinquente executa a ação delituosa.",
+    "atua por meio de um conjunto de ações e programas que objetivam a recuperação social do delinquente, visando à diminuição dos índices de reincidência."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-097",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando os três pilares do sistema das ciências criminais, julgue os itens a seguir. I A criminologia deve reunir um conjunto de conhecimentos que tenham sido submetidos a rigorosa verificação empírica sobre o problema criminal. II A política criminal utiliza o conjunto de conhecimentos empíricos reunidos pela criminologia para transformá-lo em opções, alternativas e programas científicos que fundamentem as decisões dos poderes públicos no controle da criminalidade. III O direito penal procura concretizar a oferta da política criminal em instrumental normativo, por intermédio de proposições jurídicas de caráter geral e obrigatório. Assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-098",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a criminologia moderna, os programas que se orientam às causas do crime, isto é, à origem dos conflitos criminais, procurando neutralizá-los antes que eles se manifestem na sociedade, constituem a denominada",
+   "gabarito": "b",
+   "alternativas": [
+    "prevenção especial.",
+    "prevenção primária.",
+    "prevenção secundária.",
+    "prevenção terciária.",
+    "prevenção geral."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-099",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Os objetos da criminologia moderna incluem",
+   "gabarito": "e",
+   "alternativas": [
+    "o estudo dos delitos relacionados à psicopatologia, dos crimes violentos, dos maus-tratos a crianças e adolescentes, do abuso sexual, bem como de outras formas variadas de agressões físicas, aprofundando, dessa maneira, a centralização dos estudos criminológicos na pessoa do delinquente, tornando-o uma realidade biopsicopatológica.",
+    "o estudo das definições formais ou normativas de delito, valorando o fato delitivo abstratamente, o que permite ao Estado a delimitação da intervenção punitiva e um maior controle da criminalidade.",
+    "a prevenção do delito por meio do estudo da pena e do delito, a fim de dar uma resposta eficaz ao problema criminal, e pela melhoria da infraestrutura do sistema legal com mais policiais, melhores juízes e promotores e aumento das unidades prisionais.",
+    "o conceito legal e inquestionável de delito; o princípio da diversidade (patológica) do homem delinquente; as teorias etiológicas da criminalidade; e os fins da pena.",
+    "o delito como algo real, fático; o delinquente examinado nas suas interdependências sociais, como unidade biopsicossocial, e não apenas como realidade biopsicopatológica; a protagonização da vítima do conflito ou problema social; e o controle social do delito como verdadeiro giro metodológico que enriquece o objeto dos estudos criminológicos."
+   ]
+  },
+  {
+   "id": "cebraspe-2026-pcma-delegado-100",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2026,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Segundo a teoria do etiquetamento social ( labelling approach ),",
+   "gabarito": "c",
+   "alternativas": [
+    "a criminalidade é uma característica intrínseca do indivíduo e a função da criminologia é explicar as causas biológicas ou psicológicas do delito.",
+    "o crime é fruto de uma decisão racional e livre do infrator, o qual se utiliza de critérios de utilidade e oportunidade para cometê-lo.",
+    "os processos de criminalização são discriminatórios, seletivos, sendo importante identificar os fatores ou as razões pelas quais as instituições de controle social decidem impor ao indivíduo o status de delinquente.",
+    "o crime deve ser compreendido sob um enfoque dinâmico, de acordo com a natureza do processo de mudança e consolidação dos padrões de conduta do indivíduo e a gênese da conduta criminal, os quais evoluem conforme as variadas etapas do curso da vida do delinquente.",
+    "a cultura é um produto das mudanças sociais e os modelos culturais, por meio de suas numerosas contradições internas, constituem-se no fator mais importante para criminalidade."
+   ]
+  }
+ ]
+}
