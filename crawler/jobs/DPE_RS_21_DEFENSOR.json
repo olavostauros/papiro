@@ -1,0 +1,31 @@
+{
+ "evento": "DPE_RS_21_DEFENSOR",
+ "workdir": "/tmp/dpe_rs_21_defensor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Defensoria Pública do Estado do Rio Grande do Sul",
+  "ano": 2021,
+  "id_orgao": "dpe-rs"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Defensor Público do Estado",
+   "id_cargo": "defensor-publico-estado",
+   "provas": [
+    {
+     "key": "DPERS_001_01",
+     "prova": "pro_DPERS_001_01.pdf",
+     "gabarito": "gab_dpers.txt",
+     "tipo": "ce",
+     "arquivo": "615_DPERS_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {},
+ "nota": "Gabarito oficial publicado apenas como tabela-imagem dentro do Edital nº 8 (gabaritos oficiais preliminares, não há justificativas/alterações publicadas no evento); transcrito para gab_dpers.txt via OCR manual da imagem embutida."
+}
