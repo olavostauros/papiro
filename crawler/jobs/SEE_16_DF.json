@@ -1,0 +1,1116 @@
+{
+ "banca": "cebraspe",
+ "evento": "SEE_16_DF",
+ "workdir": "/tmp/see_16_df",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Secretaria de Estado de Educação do Distrito Federal",
+  "ano": 2017,
+  "id_orgao": "see-df"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Administração",
+   "id_cargo": "professor-administracao",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-01",
+     "prova": "pro_SEEDF_001_01_2.pdf",
+     "gabarito": "gab_SEEDF_001_01_2.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_001_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Atividades",
+   "id_cargo": "professor-atividades",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_SEEDF_CB2_01.pdf",
+     "gabarito": "gab_SEEDF_CB2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB2_01.pdf"
+    },
+    {
+     "key": "cc2",
+     "prova": "pro_SEEDF_CC2_01.pdf",
+     "gabarito": "gab_SEEDF_CC2_01.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC2_01.pdf",
+     "num_offset": 10
+    },
+    {
+     "key": "esp290-02",
+     "prova": "pro_SEEDF_002_01_2.pdf",
+     "gabarito": "gab_SEEDF_002_01_2.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_002_01.pdf",
+     "num_offset": 10
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Artes",
+   "id_cargo": "professor-artes",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-03",
+     "prova": "pro_SEEDF_003_01_2.pdf",
+     "gabarito": "gab_SEEDF_003_01_2.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_003_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Biologia",
+   "id_cargo": "professor-biologia",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-04",
+     "prova": "pro_SEEDF_004_01_2.pdf",
+     "gabarito": "gab_SEEDF_004_01_2.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_004_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Biomedicina",
+   "id_cargo": "professor-biomedicina",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-05",
+     "prova": "pro_SEEDF_005_01_2.pdf",
+     "gabarito": "gab_SEEDF_005_01_2.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_005_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Ciências naturais",
+   "id_cargo": "professor-ciencias-naturais",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-06",
+     "prova": "pro_SEEDF_006_01_2.pdf",
+     "gabarito": "gab_SEEDF_006_01_2.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_006_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Eletrônica",
+   "id_cargo": "professor-eletronica",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-07",
+     "prova": "pro_SEEDF_007_01_2.pdf",
+     "gabarito": "gab_SEEDF_007_01_2.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_007_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Eletrotécnica",
+   "id_cargo": "professor-eletrotecnica",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-08",
+     "prova": "pro_SEEDF_008_01_2.pdf",
+     "gabarito": "gab_SEEDF_008_01_2.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_008_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Enfermagem",
+   "id_cargo": "professor-enfermagem",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-09",
+     "prova": "pro_SEEDF_009_01_2.pdf",
+     "gabarito": "gab_SEEDF_009_01_2.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_009_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Farmácia",
+   "id_cargo": "professor-farmacia",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-10",
+     "prova": "pro_SEEDF_010_01_2.pdf",
+     "gabarito": "gab_SEEDF_010_01_2.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_010_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Filosofia",
+   "id_cargo": "professor-filosofia",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-11",
+     "prova": "pro_SEEDF_011_01_2.pdf",
+     "gabarito": "gab_SEEDF_011_01_2.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_011_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Física",
+   "id_cargo": "professor-fisica",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-12",
+     "prova": "pro_SEEDF_012_01_2.pdf",
+     "gabarito": "gab_SEEDF_012_01_2.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_012_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Fisioterapia",
+   "id_cargo": "professor-fisioterapia",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-13",
+     "prova": "pro_SEEDF_013_01.pdf",
+     "gabarito": "gab_SEEDF_013_01.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_013_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Geografia",
+   "id_cargo": "professor-geografia",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-14",
+     "prova": "pro_SEEDF_014_01.pdf",
+     "gabarito": "gab_SEEDF_014_01.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_014_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "Professor de Educação Básica — Área de Atuação: História",
+   "id_cargo": "professor-historia",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-15",
+     "prova": "pro_SEEDF_015_01.pdf",
+     "gabarito": "gab_SEEDF_015_01.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_015_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Informática",
+   "id_cargo": "professor-informatica",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-16",
+     "prova": "pro_SEEDF_016_01.pdf",
+     "gabarito": "gab_SEEDF_016_01.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_016_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "17",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Lem/espanhol",
+   "id_cargo": "professor-lem-espanhol",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-17",
+     "prova": "pro_SEEDF_017_01.pdf",
+     "gabarito": "gab_SEEDF_017_01.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_017_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "18",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Lem/francês",
+   "id_cargo": "professor-lem-frances",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-18",
+     "prova": "pro_SEEDF_018_01.pdf",
+     "gabarito": "gab_SEEDF_018_01.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_018_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "19",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Lem/inglês",
+   "id_cargo": "professor-lem-ingles",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-19",
+     "prova": "pro_SEEDF_019_01.pdf",
+     "gabarito": "gab_SEEDF_019_01.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_019_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "20",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Lem/japonês",
+   "id_cargo": "professor-lem-japones",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-20",
+     "prova": "pro_SEEDF_020_01.pdf",
+     "gabarito": "gab_SEEDF_020_01.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_020_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "21",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Língua portuguesa",
+   "id_cargo": "professor-lingua-portuguesa",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-21",
+     "prova": "pro_SEEDF_021_01.pdf",
+     "gabarito": "gab_SEEDF_021_01.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_021_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "22",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Matemática",
+   "id_cargo": "professor-matematica",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-22",
+     "prova": "pro_SEEDF_022_01.pdf",
+     "gabarito": "gab_SEEDF_022_01.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_022_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "23",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Nutrição",
+   "id_cargo": "professor-nutricao",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-23",
+     "prova": "pro_SEEDF_023_01.pdf",
+     "gabarito": "gab_SEEDF_023_01.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_023_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "24",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Odontologia",
+   "id_cargo": "professor-odontologia",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-24",
+     "prova": "pro_SEEDF_024_01.pdf",
+     "gabarito": "gab_SEEDF_024_01.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_024_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "25",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Química",
+   "id_cargo": "professor-quimica",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-25",
+     "prova": "pro_SEEDF_025_01.pdf",
+     "gabarito": "gab_SEEDF_025_01.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_025_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "26",
+   "cargo": "Professor de Educação Básica — Área de Atuação: Sociologia",
+   "id_cargo": "professor-sociologia",
+   "provas": [
+    {
+     "key": "cb290",
+     "prova": "pro_SEEDF_CB1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CB1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc290",
+     "prova": "pro_SEEDF_CC1_01_3.pdf",
+     "gabarito": "gab_SEEDF_CC1_01_3.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp290-26",
+     "prova": "pro_SEEDF_026_01.pdf",
+     "gabarito": "gab_SEEDF_026_01.pdf",
+     "tipo": "ce",
+     "arquivo": "290_SEEDF_026_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "27",
+   "cargo": "Analista de Gestão Educacional — Especialidade: Administração",
+   "id_cargo": "analista-administracao",
+   "provas": [
+    {
+     "key": "cb291",
+     "prova": "pro_SEEDF_CB1_01.pdf",
+     "gabarito": "gab_SEEDF_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc291",
+     "prova": "pro_SEEDF_CC1_01.pdf",
+     "gabarito": "gab_SEEDF_CC1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp291-01",
+     "prova": "pro_SEEDF_001_01.pdf",
+     "gabarito": "gab_SEEDF_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_001_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "28",
+   "cargo": "Analista de Gestão Educacional — Especialidade: Arquivologia",
+   "id_cargo": "analista-arquivologia",
+   "provas": [
+    {
+     "key": "cb291",
+     "prova": "pro_SEEDF_CB1_01.pdf",
+     "gabarito": "gab_SEEDF_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc291",
+     "prova": "pro_SEEDF_CC1_01.pdf",
+     "gabarito": "gab_SEEDF_CC1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp291-02",
+     "prova": "pro_SEEDF_002_01.pdf",
+     "gabarito": "gab_SEEDF_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_002_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "29",
+   "cargo": "Analista de Gestão Educacional — Especialidade: Biblioteconomia",
+   "id_cargo": "analista-biblioteconomia",
+   "provas": [
+    {
+     "key": "cb291",
+     "prova": "pro_SEEDF_CB1_01.pdf",
+     "gabarito": "gab_SEEDF_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc291",
+     "prova": "pro_SEEDF_CC1_01.pdf",
+     "gabarito": "gab_SEEDF_CC1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp291-03",
+     "prova": "pro_SEEDF_003_01.pdf",
+     "gabarito": "gab_SEEDF_003_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_003_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "30",
+   "cargo": "Analista de Gestão Educacional — Especialidade: Comunicação social",
+   "id_cargo": "analista-comunicacao-social",
+   "provas": [
+    {
+     "key": "cb291",
+     "prova": "pro_SEEDF_CB1_01.pdf",
+     "gabarito": "gab_SEEDF_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc291",
+     "prova": "pro_SEEDF_CC1_01.pdf",
+     "gabarito": "gab_SEEDF_CC1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp291-04",
+     "prova": "pro_SEEDF_004_01.pdf",
+     "gabarito": "gab_SEEDF_004_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_004_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "31",
+   "cargo": "Analista de Gestão Educacional — Especialidade: Contabilidade",
+   "id_cargo": "analista-contabilidade",
+   "provas": [
+    {
+     "key": "cb291",
+     "prova": "pro_SEEDF_CB1_01.pdf",
+     "gabarito": "gab_SEEDF_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc291",
+     "prova": "pro_SEEDF_CC1_01.pdf",
+     "gabarito": "gab_SEEDF_CC1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp291-05",
+     "prova": "pro_SEEDF_005_01.pdf",
+     "gabarito": "gab_SEEDF_005_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_005_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "32",
+   "cargo": "Analista de Gestão Educacional — Especialidade: Direito e legislação",
+   "id_cargo": "analista-direito-e-legislacao",
+   "provas": [
+    {
+     "key": "cb291",
+     "prova": "pro_SEEDF_CB1_01.pdf",
+     "gabarito": "gab_SEEDF_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc291",
+     "prova": "pro_SEEDF_CC1_01.pdf",
+     "gabarito": "gab_SEEDF_CC1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp291-06",
+     "prova": "pro_SEEDF_006_01.pdf",
+     "gabarito": "gab_SEEDF_006_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_006_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "33",
+   "cargo": "Analista de Gestão Educacional — Especialidade: Economia",
+   "id_cargo": "analista-economia",
+   "provas": [
+    {
+     "key": "cb291",
+     "prova": "pro_SEEDF_CB1_01.pdf",
+     "gabarito": "gab_SEEDF_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc291",
+     "prova": "pro_SEEDF_CC1_01.pdf",
+     "gabarito": "gab_SEEDF_CC1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp291-07",
+     "prova": "pro_SEEDF_007_01.pdf",
+     "gabarito": "gab_SEEDF_007_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_007_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "34",
+   "cargo": "Analista de Gestão Educacional — Especialidade: Psicologia",
+   "id_cargo": "analista-psicologia",
+   "provas": [
+    {
+     "key": "cb291",
+     "prova": "pro_SEEDF_CB1_01.pdf",
+     "gabarito": "gab_SEEDF_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc291",
+     "prova": "pro_SEEDF_CC1_01.pdf",
+     "gabarito": "gab_SEEDF_CC1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp291-08",
+     "prova": "pro_SEEDF_008_01.pdf",
+     "gabarito": "gab_SEEDF_008_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_008_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "35",
+   "cargo": "Analista de Gestão Educacional — Especialidade: Tecnologia da informação",
+   "id_cargo": "analista-tecnologia-da-informacao",
+   "provas": [
+    {
+     "key": "cb291",
+     "prova": "pro_SEEDF_CB1_01.pdf",
+     "gabarito": "gab_SEEDF_CB1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_CB1_01.pdf"
+    },
+    {
+     "key": "cc291",
+     "prova": "pro_SEEDF_CC1_01.pdf",
+     "gabarito": "gab_SEEDF_CC1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_CC1_01.pdf"
+    },
+    {
+     "key": "esp291-09",
+     "prova": "pro_SEEDF_009_01.pdf",
+     "gabarito": "gab_SEEDF_009_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_009_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "36",
+   "cargo": "Técnico de Gestão Educacional — Especialidade: Apoio administrativo",
+   "id_cargo": "tecnico-apoio-administrativo",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_SEEDF_CB2_01.pdf",
+     "gabarito": "gab_SEEDF_CB2_01_2.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_CB2_01.pdf"
+    },
+    {
+     "key": "esp291-10",
+     "prova": "pro_SEEDF_010_01.pdf",
+     "gabarito": "gab_SEEDF_010_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_010_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "37",
+   "cargo": "Técnico de Gestão Educacional — Especialidade: Secretário escolar",
+   "id_cargo": "tecnico-secretario-escolar",
+   "provas": [
+    {
+     "key": "cb2",
+     "prova": "pro_SEEDF_CB2_01.pdf",
+     "gabarito": "gab_SEEDF_CB2_01_2.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_CB2_01.pdf"
+    },
+    {
+     "key": "esp291-11",
+     "prova": "pro_SEEDF_011_01.pdf",
+     "gabarito": "gab_SEEDF_011_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_011_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "38",
+   "cargo": "Monitor de Gestão Educacional",
+   "id_cargo": "monitor",
+   "provas": [
+    {
+     "key": "cb291m",
+     "prova": "pro_SEEDF_CB3_01.pdf",
+     "gabarito": "gab_SEEDF_CB3_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_CB3_01.pdf"
+    },
+    {
+     "key": "esp291-12",
+     "prova": "pro_SEEDF_012_01.pdf",
+     "gabarito": "gab_SEEDF_012_01.pdf",
+     "tipo": "ce",
+     "arquivo": "291_SEEDF_012_01.pdf"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {
+  "esp290-20": [
+   71,
+   72,
+   73,
+   74,
+   75,
+   76,
+   77,
+   78,
+   79,
+   80,
+   81,
+   82,
+   83,
+   84,
+   85,
+   86,
+   87,
+   88,
+   89,
+   90,
+   91,
+   92,
+   93,
+   94,
+   95,
+   96,
+   97,
+   98,
+   99,
+   100
+  ]
+ },
+ "patch": {
+  "esp290-03": {
+   "114": "É vedada a matrícula de adolescente com idade entre quatorze e dezesseis anos na Educação de Jovens e Adultos, ainda que a ele tenha sido concedido o direito de emancipação para os atos da vida civil."
+  },
+  "esp291-08": {
+   "114": "Cabe ao psicólogo escolar analisar e intervir nas interações em sala de aula, visando à melhoria das condições e estratégias de ensino, bem como conceber e executar medidas disciplinares."
+  },
+  "esp291-09": {
+   "109": "O esquema do nível externo de uma arquitetura de três esquemas oculta os detalhes das estruturas de armazenamento físico e se concentra na descrição de entidades, tipos de dados, conexões, operações de usuários e restrições.",
+   "110": "Em uma varredura de arquivos armazenados, se um arquivo legítimo do usuário for classificado como vírus por um software antivírus, então tal ocorrência caracterizará um falso negativo.",
+   "111": "Uma das abordagens comuns dos sistemas IDS na realização de suas funções é aprender a reconhecer padrões de intrusões usando métodos como redes neurais.",
+   "112": "No contexto de uma infraestrutura de chaves públicas, um documento eletrônico assinado digitalmente com a chave pública do remetente falhará na verificação de integridade e autoria pelo destinatário, caso essa verificação seja realizada com a aplicação da mesma chave pública do remetente.",
+   "113": "De acordo com a NBR ISO 27002, a política de controle de acesso deve tratar do controle de acesso lógico, enquanto a política de segurança física e do ambiente deve tratar do controle de acesso físico.",
+   "114": "No contexto da segurança física, é classificado como de risco intermediário um ambiente computacional organizacional que, sem ter asseguradas as condições mínimas de funcionamento e processamento das informações, seja capaz de levar a organização a ter sérios problemas ou incorrer em grandes prejuízos.",
+   "115": "Um dos objetivos do projeto XML é que o número de recursos opcionais da linguagem deve ser maximizado para torná-la versátil e adaptável.",
+   "116": "Na Estratégia de Serviço do ITIL 3, está incluída a garantia de que a organização esteja preparada para lidar com os custos e os riscos associados à sua carteira de serviços e apta para a efetividade operacional.",
+   "117": "Na configuração estática de zoneamento, a zona é designada ao dispositivo, o que facilita a mobilidade dos dispositivos entre as portas, caso isso se faça necessário.",
+   "118": "Comparados aos bancos de dados transacionais, os data warehouses são mais voláteis porque, para que se mantenham consistentes, são atualizados em tempo real a cada atualização que ocorrer em qualquer uma das bases originais de dados que o componham.",
+   "119": "Agrupar registros em grupos, de modo que os registros em um grupo sejam semelhantes entre si e diferentes dos registros em outros grupos é uma maneira de descrever conhecimento descoberto durante processos de mineração de dados.",
+   "120": "Situação hipotética: Uma organização realiza becape completo a cada 180 dias, becape incremental a cada 7 dias e realiza testes de recuperação total dos dados com restauração real do último becape a cada 45 dias. O último becape completo ocorreu há 64 dias e o último teste de recuperação total foi bem-sucedido. Assertiva: Nessa situação, se ocorrer, hoje, um desastre com o sistema de armazenamento, a organização poderá garantir, para efeitos de auditoria, que terá certeza de recuperar e restaurar os dados armazenados em becape até a data de 19 dias atrás."
+  }
+ }
+}
