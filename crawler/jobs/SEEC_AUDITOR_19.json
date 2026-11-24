@@ -1,0 +1,37 @@
+{
+ "evento": "SEEC_AUDITOR_19",
+ "workdir": "/tmp/seec_auditor_19",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Secretaria de Estado de Economia do Distrito Federal",
+  "ano": 2020,
+  "id_orgao": "seec-df"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Auditor Fiscal da Receita do Distrito Federal",
+   "id_cargo": "auditor-fiscal-receita",
+   "provas": [
+    {
+     "key": "cb",
+     "prova": "pro_SEECDF001_JUSTIFICATIVA.pdf",
+     "gabarito": "gab_MATRIZ_504_SEECDFCG1_.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_504_SEECDF001_JUSTIFICATIVA.PDF"
+    },
+    {
+     "key": "esp",
+     "prova": "pro_SEECDF001_JUSTIFICATIVA.pdf",
+     "gabarito": "gab_MATRIZ_504_SEECDF001_.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_504_SEECDF001_JUSTIFICATIVA.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}
