@@ -1,0 +1,58 @@
+{
+ "evento": "ME_20_PSS_2",
+ "workdir": "/tmp/me_20_pss_2",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Ministério da Economia",
+  "ano": 2020,
+  "id_orgao": "me"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Perfil Profissional 1: Arquivologia",
+   "id_cargo": "arquivologia",
+   "provas": [
+    {
+     "key": "cb01",
+     "prova": "pro_ME_001.pdf",
+     "gabarito": "gab_MATRIZ_555_ME_CG1_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_555_ME_001.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_ME_001.pdf",
+     "gabarito": "gab_MATRIZ_555_ME_001_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_555_ME_001.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Perfil Profissional 2: Direito",
+   "id_cargo": "direito",
+   "provas": [
+    {
+     "key": "cb02",
+     "prova": "pro_ME_002.pdf",
+     "gabarito": "gab_MATRIZ_555_ME_CG1_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_555_ME_002.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_ME_002.pdf",
+     "gabarito": "gab_MATRIZ_555_ME_002_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_555_ME_002.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}
