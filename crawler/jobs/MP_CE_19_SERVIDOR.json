@@ -1,0 +1,281 @@
+{
+ "evento": "MP_CE_19_SERVIDOR",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "MP-CE",
+  "ano": 2020,
+  "id_orgao": "mp-ce"
+ },
+ "variant": "modern",
+ "cargos": [
+  {
+   "cargo": "Analista Ministerial – Administração",
+   "id_cargo": "analista-administracao",
+   "provas": [
+    {
+     "key": "cb01",
+     "prova": "pro_MPCE001.pdf",
+     "gabarito": "gab_MPCECB1.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_520_MPCE001_MATRIZ.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_MPCE001.pdf",
+     "gabarito": "gab_MPCE001.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_520_MPCE001_MATRIZ.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial – Biblioteconomia",
+   "id_cargo": "analista-biblioteconomia",
+   "provas": [
+    {
+     "key": "cb02",
+     "prova": "pro_MPCE002.pdf",
+     "gabarito": "gab_MPCECB1.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_520_MPCE002_MATRIZ.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_MPCE002.pdf",
+     "gabarito": "gab_MPCE002.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_520_MPCE002_MATRIZ.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial – Ciências Contábeis",
+   "id_cargo": "analista-ciencias-contabeis",
+   "provas": [
+    {
+     "key": "cb03",
+     "prova": "pro_MPCE003.pdf",
+     "gabarito": "gab_MPCECB1.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_520_MPCE003_MATRIZ.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_MPCE003.pdf",
+     "gabarito": "gab_MPCE003.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_520_MPCE003_MATRIZ.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial – Ciências da Computação",
+   "id_cargo": "analista-ciencias-da-computacao",
+   "provas": [
+    {
+     "key": "cb04",
+     "prova": "pro_MPCE004.pdf",
+     "gabarito": "gab_MPCECB1.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_520_MPCE004_MATRIZ.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_MPCE004.pdf",
+     "gabarito": "gab_MPCE004.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_520_MPCE004_MATRIZ.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial – Direito",
+   "id_cargo": "analista-direito",
+   "provas": [
+    {
+     "key": "cb05",
+     "prova": "pro_MPCE005.pdf",
+     "gabarito": "gab_MPCECB1.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_520_MPCE005_MATRIZ.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_MPCE005.pdf",
+     "gabarito": "gab_MPCE005.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_520_MPCE005_MATRIZ.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial – Engenharia Civil",
+   "id_cargo": "analista-engenharia-civil",
+   "provas": [
+    {
+     "key": "cb06",
+     "prova": "pro_MPCE006.pdf",
+     "gabarito": "gab_MPCECB1.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_520_MPCE006_MATRIZ.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_MPCE006.pdf",
+     "gabarito": "gab_MPCE006.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_520_MPCE006_MATRIZ.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial – Psicologia",
+   "id_cargo": "analista-psicologia",
+   "provas": [
+    {
+     "key": "cb07",
+     "prova": "pro_MPCE007.pdf",
+     "gabarito": "gab_MPCECB1.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_520_MPCE007_MATRIZ.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_MPCE007.pdf",
+     "gabarito": "gab_MPCE007.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_520_MPCE007_MATRIZ.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Analista Ministerial – Serviço Social",
+   "id_cargo": "analista-servico-social",
+   "provas": [
+    {
+     "key": "cb08",
+     "prova": "pro_MPCE008.pdf",
+     "gabarito": "gab_MPCECB1.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_520_MPCE008_MATRIZ.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_MPCE008.pdf",
+     "gabarito": "gab_MPCE008.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_520_MPCE008_MATRIZ.PDF"
+    }
+   ]
+  },
+  {
+   "cargo": "Técnico Ministerial",
+   "id_cargo": "tecnico-ministerial",
+   "provas": [
+    {
+     "key": "cb09",
+     "prova": "pro_MPCE009.pdf",
+     "gabarito": "gab_MPCECB2.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_520_MPCE009_MATRIZ.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_MPCE009.pdf",
+     "gabarito": "gab_MPCE009.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_520_MPCE009_MATRIZ.PDF"
+    }
+   ]
+  }
+ ],
+ "skip": {},
+ "patch": {
+  "cb01": {
+   "1": "Depreende-se do texto que a psicologia experimental é uma área do conhecimento científico que concorda com a tese do caráter hereditário do racismo em humanos.",
+   "4": "A substituição da forma verbal “seja” (R.3) por é manteria a coerência e a correção gramatical do texto.",
+   "7": "A correção gramatical do texto seria mantida caso a forma “existirem” (R.22) fosse substituída por existir.",
+   "10": "O problema dos alimentos não seguros reflete em diversos setores, como o econômico, que perde em produtividade, e o da saúde, que necessita despender altos valores na recuperação das pessoas contaminadas.",
+   "13": "A correção gramatical e os sentidos originais do texto seriam mantidos caso o período “A inocuidade dos alimentos contribui para a segurança alimentar, a saúde humana, a prosperidade econômica, a agricultura, o acesso ao mercado, o turismo e o desenvolvimento sustentável.” (R. 23 a 26) fosse reescrito da seguinte forma: A integridade dos alimentos contribuem com a segurança alimentar, saúde humana, prosperidade econômica, agricultura, acesso ao mercado, turismo e desenvolvimento sustentável."
+  },
+  "cb02": {
+   "1": "Depreende-se do texto que a psicologia experimental é uma área do conhecimento científico que concorda com a tese do caráter hereditário do racismo em humanos.",
+   "4": "A substituição da forma verbal “seja” (R.3) por é manteria a coerência e a correção gramatical do texto.",
+   "7": "A correção gramatical do texto seria mantida caso a forma “existirem” (R.22) fosse substituída por existir.",
+   "10": "O problema dos alimentos não seguros reflete em diversos setores, como o econômico, que perde em produtividade, e o da saúde, que necessita despender altos valores na recuperação das pessoas contaminadas.",
+   "13": "A correção gramatical e os sentidos originais do texto seriam mantidos caso o período “A inocuidade dos alimentos contribui para a segurança alimentar, a saúde humana, a prosperidade econômica, a agricultura, o acesso ao mercado, o turismo e o desenvolvimento sustentável.” (R. 23 a 26) fosse reescrito da seguinte forma: A integridade dos alimentos contribuem com a segurança alimentar, saúde humana, prosperidade econômica, agricultura, acesso ao mercado, turismo e desenvolvimento sustentável."
+  },
+  "cb03": {
+   "1": "Depreende-se do texto que a psicologia experimental é uma área do conhecimento científico que concorda com a tese do caráter hereditário do racismo em humanos.",
+   "4": "A substituição da forma verbal “seja” (R.3) por é manteria a coerência e a correção gramatical do texto.",
+   "7": "A correção gramatical do texto seria mantida caso a forma “existirem” (R.22) fosse substituída por existir.",
+   "10": "O problema dos alimentos não seguros reflete em diversos setores, como o econômico, que perde em produtividade, e o da saúde, que necessita despender altos valores na recuperação das pessoas contaminadas.",
+   "13": "A correção gramatical e os sentidos originais do texto seriam mantidos caso o período “A inocuidade dos alimentos contribui para a segurança alimentar, a saúde humana, a prosperidade econômica, a agricultura, o acesso ao mercado, o turismo e o desenvolvimento sustentável.” (R. 23 a 26) fosse reescrito da seguinte forma: A integridade dos alimentos contribuem com a segurança alimentar, saúde humana, prosperidade econômica, agricultura, acesso ao mercado, turismo e desenvolvimento sustentável."
+  },
+  "cb05": {
+   "1": "Depreende-se do texto que a psicologia experimental é uma área do conhecimento científico que concorda com a tese do caráter hereditário do racismo em humanos.",
+   "4": "A substituição da forma verbal “seja” (R.3) por é manteria a coerência e a correção gramatical do texto.",
+   "7": "A correção gramatical do texto seria mantida caso a forma “existirem” (R.22) fosse substituída por existir.",
+   "10": "O problema dos alimentos não seguros reflete em diversos setores, como o econômico, que perde em produtividade, e o da saúde, que necessita despender altos valores na recuperação das pessoas contaminadas.",
+   "13": "A correção gramatical e os sentidos originais do texto seriam mantidos caso o período “A inocuidade dos alimentos contribui para a segurança alimentar, a saúde humana, a prosperidade econômica, a agricultura, o acesso ao mercado, o turismo e o desenvolvimento sustentável.” (R. 23 a 26) fosse reescrito da seguinte forma: A integridade dos alimentos contribuem com a segurança alimentar, saúde humana, prosperidade econômica, agricultura, acesso ao mercado, turismo e desenvolvimento sustentável."
+  },
+  "cb06": {
+   "1": "Depreende-se do texto que a psicologia experimental é uma área do conhecimento científico que concorda com a tese do caráter hereditário do racismo em humanos.",
+   "4": "A substituição da forma verbal “seja” (R.3) por é manteria a coerência e a correção gramatical do texto.",
+   "7": "A correção gramatical do texto seria mantida caso a forma “existirem” (R.22) fosse substituída por existir.",
+   "10": "O problema dos alimentos não seguros reflete em diversos setores, como o econômico, que perde em produtividade, e o da saúde, que necessita despender altos valores na recuperação das pessoas contaminadas.",
+   "13": "A correção gramatical e os sentidos originais do texto seriam mantidos caso o período “A inocuidade dos alimentos contribui para a segurança alimentar, a saúde humana, a prosperidade econômica, a agricultura, o acesso ao mercado, o turismo e o desenvolvimento sustentável.” (R. 23 a 26) fosse reescrito da seguinte forma: A integridade dos alimentos contribuem com a segurança alimentar, saúde humana, prosperidade econômica, agricultura, acesso ao mercado, turismo e desenvolvimento sustentável."
+  },
+  "cb07": {
+   "1": "Depreende-se do texto que a psicologia experimental é uma área do conhecimento científico que concorda com a tese do caráter hereditário do racismo em humanos.",
+   "4": "A substituição da forma verbal “seja” (R.3) por é manteria a coerência e a correção gramatical do texto.",
+   "7": "A correção gramatical do texto seria mantida caso a forma “existirem” (R.22) fosse substituída por existir.",
+   "10": "O problema dos alimentos não seguros reflete em diversos setores, como o econômico, que perde em produtividade, e o da saúde, que necessita despender altos valores na recuperação das pessoas contaminadas.",
+   "13": "A correção gramatical e os sentidos originais do texto seriam mantidos caso o período “A inocuidade dos alimentos contribui para a segurança alimentar, a saúde humana, a prosperidade econômica, a agricultura, o acesso ao mercado, o turismo e o desenvolvimento sustentável.” (R. 23 a 26) fosse reescrito da seguinte forma: A integridade dos alimentos contribuem com a segurança alimentar, saúde humana, prosperidade econômica, agricultura, acesso ao mercado, turismo e desenvolvimento sustentável."
+  },
+  "cb04": {
+   "1": "Depreende-se do texto que a psicologia experimental é uma área do conhecimento científico que concorda com a tese do caráter hereditário do racismo em humanos.",
+   "4": "A substituição da forma verbal “seja” (R.3) por é manteria a coerência e a correção gramatical do texto.",
+   "7": "A correção gramatical do texto seria mantida caso a forma “existirem” (R.22) fosse substituída por existir.",
+   "10": "O problema dos alimentos não seguros reflete em diversos setores, como o econômico, que perde em produtividade, e o da saúde, que necessita despender altos valores na recuperação das pessoas contaminadas.",
+   "13": "A correção gramatical e os sentidos originais do texto seriam mantidos caso o período “A inocuidade dos alimentos contribui para a segurança alimentar, a saúde humana, a prosperidade econômica, a agricultura, o acesso ao mercado, o turismo e o desenvolvimento sustentável.” (R. 23 a 26) fosse reescrito da seguinte forma: A integridade dos alimentos contribuem com a segurança alimentar, saúde humana, prosperidade econômica, agricultura, acesso ao mercado, turismo e desenvolvimento sustentável.",
+   "14": "Sem alteração dos sentidos originais do texto, a palavra “transmitidas” (R.17) poderia ser substituída por transmissíveis.",
+   "16": "O terceiro parágrafo do texto é essencialmente descritivo, porque caracteriza a liberdade de expressão.",
+   "19": "Sem prejuízo para a correção gramatical e para os sentidos originais do texto, o trecho “em que se incluem a palavra escrita, as peças teatrais, os filmes, os vídeos, as fotografias, os cartuns, as pinturas, entre outros” (R. 5 a 7) poderia ser reescrito da seguinte forma: onde se incluem a palavra escrita, as peças teatrais, os filmes, os vídeos, as fotografias, os cartuns, as pinturas e entre outros.",
+   "22": "Em uma correspondência oficial destinada a um procurador-geral de estado, o vocativo a ser empregado é Excelentíssimo Senhor Procurador-Geral.",
+   "25": "O expediente denominado ofício é apropriado como forma de comunicação entre unidades administrativas de um mesmo órgão.",
+   "28": "Servidor público estadual investido na função de presidente de entidade representativa de sua classe poderá exercer suas funções na direção máxima da referida entidade, sem prejuízo do seu salário e de demais vantagens adquiridas na sua instituição de origem.",
+   "31": "As comissões permanentes que atuam em inquérito administrativo, instrumento por meio do qual os órgãos do estado e as autarquias estaduais apuram a responsabilidade disciplinar de seus servidores, devem ser compostas por três membros, sendo todos funcionários estáveis do estado ou de suas autarquias.",
+   "34": "Denomina-se elevação de nível profissional o avanço entre as referências, decorrente da promoção de servidor na mesma classe.",
+   "37": "A decisão do promotor de justiça sobre o arquivamento de inquérito civil deve ser submetida ao Colégio de Procuradores, órgão de execução com atribuição legal para, se for o caso, rever o ato de arquivamento."
+  },
+  "cb08": {
+   "1": "Depreende-se do texto que a psicologia experimental é uma área do conhecimento científico que concorda com a tese do caráter hereditário do racismo em humanos.",
+   "4": "A substituição da forma verbal “seja” (R.3) por é manteria a coerência e a correção gramatical do texto.",
+   "7": "A correção gramatical do texto seria mantida caso a forma “existirem” (R.22) fosse substituída por existir.",
+   "10": "O problema dos alimentos não seguros reflete em diversos setores, como o econômico, que perde em produtividade, e o da saúde, que necessita despender altos valores na recuperação das pessoas contaminadas.",
+   "13": "A correção gramatical e os sentidos originais do texto seriam mantidos caso o período “A inocuidade dos alimentos contribui para a segurança alimentar, a saúde humana, a prosperidade econômica, a agricultura, o acesso ao mercado, o turismo e o desenvolvimento sustentável.” (R. 23 a 26) fosse reescrito da seguinte forma: A integridade dos alimentos contribuem com a segurança alimentar, saúde humana, prosperidade econômica, agricultura, acesso ao mercado, turismo e desenvolvimento sustentável.",
+   "25": "O expediente denominado ofício é apropriado como forma de comunicação entre unidades administrativas de um mesmo órgão."
+  },
+  "cb09": {
+   "1": "O termo “Desenvolveram-se” (R.5) poderia ser substituído pela locução Foram desenvolvidos, sem prejuízo do sentido e da correção gramatical do texto.",
+   "2": "A “rede mundial de computadores” a que o autor se refere nas linhas 16 e 17 do texto corresponde à Internet.",
+   "4": "A supressão do acento indicativo de crase em “à própria noção de ‘viagem’” (R.18) manteria os sentidos e a correção gramatical do texto.",
+   "7": "As palavras que formam a frase “Estúpida, tímida e livre” (R.6) qualificam o ser que é o tema do texto: a galinha.",
+   "10": "No trecho “Nem ela própria contava consigo, como o galo crê na sua crista” (R. 9 e 10), existe uma relação de oposição entre as orações que compõem o período.",
+   "13": "Os assuntos objetos dos expedientes oficiais devem ser tratados de forma estritamente impessoal, uma vez que a redação oficial é elaborada sempre em nome do serviço público e sempre em atendimento ao interesse geral dos cidadãos.",
+   "39": "Demissão, aposentadoria compulsória e censura são punições disciplinares aplicáveis a membro do Ministério Público."
+  },
+  "esp02": {
+   "52": "A equação fundamental da ciência da informação que representa a passagem de um conhecimento para outro, com modificação do conhecimento anterior, é a seguinte. C + ΔC = C’ / ΔI Nessa equação, C é um conhecimento que gera um novo conhecimento, C’, pela atuação do conhecimento ΔC, que, extraído da informação ΔI, expressa o efeito dessa modificação."
+  },
+  "esp04": {
+   "98": "O código public class mpce { public static int Funcao(int num, int resultado){ if(num<1) return resultado; resultado+=(num%10); return Funcao(num/10, resultado); } public static void main(String[] args) { int res = Funcao(17, 0); System.out.println(\"O resultado é: \" + res); } } apresentará a seguinte saída ao ser executado. O resultado é: 8",
+   "100": "MP é a saída que o código a seguir apresentará ao ser executado. class Teste{ //Parent class constructor Teste(){ System.out.println(\"MP\"); } } public class Exemplo extends Teste{ Exemplo(){ System.out.println(\"MPCE\"); } public static void main(String args[]){ new Exemplo(); } }",
+   "108": "Considere o seguinte modelo. Para criar essas duas tabelas e o relacionamento entre elas, é correto utilizar os scripts SQL a seguir. CREATE TABLE TIPOTREM ( IDTIPOTREM INT NOT NULL, DESCRICAO VARCHAR(45), FOREIGN KEY (IDTIPOTREM) REFERENCES TREM(IDTIPOTREM), PRIMARY KEY (’IDTIPOTREM’) ); CREATE TABLE TREM ( IDTREM INT NOT NULL, DESCRICAO VARCHAR(45), PRIMARY KEY (’IDTREM’) );"
+  },
+  "esp06": {
+   "75": "Nos casos de edificação com estrutura de concreto armado em que a mistura do concreto for feita em obra, o técnico responsável deve garantir que a resistência média do concreto à compressão aos 28 dias (Fc28) esteja de acordo com a resistência característica do concreto à compressão (Fck). Nesse sentido, a relação entre Fc28 e Fck é dada em função do nível de controle da qualidade da concretagem."
+  }
+ }
+}
