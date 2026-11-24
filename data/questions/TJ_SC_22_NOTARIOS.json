@@ -5,7 +5,8 @@
   "Tribunal de Justiça de Santa Catarina"
  ],
  "cargos": [
-  "Modalidade por Remoção"
+  "Modalidade por Remoção",
+  "Modalidade por Provimento"
  ],
  "assuntos": [
   ""
@@ -13,6 +14,9 @@
  "provas": [
   {
    "fonte": "https://cdn.cebraspe.org.br/concursos/TJ_SC_22_NOTARIOS/arquivos/720_TJSCREMOCAO_001_01.PDF"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/TJ_SC_22_NOTARIOS/arquivos/719_TJSCPROVIMENTO_001_01.PDF"
   }
  ],
  "itens": [
@@ -1814,6 +1818,1698 @@
     "Países considerados emergentes, como o Brasil, estão a pleitear maior espaço nos fóruns decisórios mundiais, como na Organização das Nações Unidas (ONU).",
     "A extinção da Organização Mundial do Comércio (OMC), ocorrida por pressão da Comunidade Europeia, deixou um vácuo na regulamentação do sistema de trocas internacional.",
     "Provavelmente por influência dos EUA, os Estados americanos ainda não conseguiram criar um organismo multilateral que os congregue."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-002",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme disposição expressa da Lei n.o 8.935/1994, independentemente de outras disposições normativas, estão sujeitos à circunscrição geográfica",
+   "gabarito": "c",
+   "alternativas": [
+    "os tabeliães de notas e os tabeliães e oficiais de registro de distribuição.",
+    "os tabeliães de notas e os de protesto de títulos.",
+    "os oficiais de registro de imóveis e os de registro civil de pessoas naturais.",
+    "os oficiais de registro de imóveis e os de registro civil das pessoas jurídicas.",
+    "os oficiais de registro de títulos e documentos e os de registro civil das pessoas jurídicas."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-003",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ao apurar falta imputada a um notário, o juiz competente poderá decretar, caso entenda necessário,",
+   "gabarito": "e",
+   "alternativas": [
+    "o afastamento do titular do serviço, por suspensão, devendo nomear um interventor principal e um adjunto.",
+    "a perda temporária da delegação, mantido o recebimento da renda da serventia por até três meses, devendo a perda ser revertida caso se constate que não ocorreu a falta.",
+    "a perda temporária da delegação, devendo nomear como tabelião temporário aquele que seja apontado pelo titular como o que responde em suas ausências e impedimentos.",
+    "a perda temporária da delegação, mantido o recebimento de metade da renda líquida da serventia enquanto durar a apuração, devendo a perda ser revertida caso se constate que não ocorreu a falta.",
+    "o afastamento do titular do serviço, por suspensão, mantido o recebimento de metade da renda líquida da serventia enquanto durar a apuração."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-004",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Antes de ter sido aprovado em um concurso público para o tabelionato e entrado em exercício no respectivo cargo, Paulo havia exercido as seguintes atividades profissionais: (i) por dois anos, advogado autônomo, vinculado ao Regime Geral de Previdência Social; (ii) por dois anos, bancário em instituição privada, regularmente registrado; (iii) por dois anos, militar federal; (iv) por dois anos, servidor público municipal comissionado, em município localizado em estado distinto daquele em que foi aprovado para o tabelionato; (v) por dois anos, servidor público municipal comissionado, em município localizado no mesmo estado em que foi aprovado para o tabelionato; (vi) por dois anos, servidor público municipal efetivo, em município localizado no mesmo estado em que foi aprovado para o tabelionato; (vii) por dois anos, servidor público estadual comissionado, em estado distinto daquele em que foi aprovado para o tabelionato; (viii) por dois anos, servidor público estadual comissionado no mesmo estado em que foi aprovado para o tabelionato; e (ix) por dois anos, servidor público estadual efetivo no mesmo estado em que foi aprovado para o tabelionato. Paulo jamais exerceu alguma dessas atividades ou desses cargos simultaneamente. Na situação hipotética precedente, para efeitos de contagem do tempo de serviço para aposentadoria, Paulo cumpriu, antes de entrar na atividade notarial,",
+   "gabarito": "e",
+   "alternativas": [
+    "10 anos.",
+    "12 anos.",
+    "14 anos.",
+    "16 anos.",
+    "18 anos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-005",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Lei n.o 9.492/1997 — Lei do Protesto de Títulos — prevê que, protocolizado o título, o tabelião de protesto deve expedir a intimação ao devedor, considerando o endereço fornecido pelo apresentante. Conforme a jurisprudência predominante acerca de cédula de crédito bancário garantida por alienação fiduciária, o credor pode apresentar o título a protesto no",
+   "gabarito": "a",
+   "alternativas": [
+    "tabelionato em que se situa a praça de pagamento indicada no título ou no do domicílio do devedor.",
+    "tabelionato do domicílio do representante legal do devedor ou no do credor, caso o devedor seja pessoa jurídica.",
+    "tabelionato em que se situa a praça de pagamento indicada no título ou no do domicílio do credor.",
+    "tabelionato do domicílio do devedor ou no do credor.",
+    "tabelionato em que se situa a praça de pagamento indicada no título ou no do domicílio do representante legal do devedor, caso ele seja pessoa jurídica."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-006",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Consoante instrução normativa da Secretaria da Receita Federal do Brasil acerca da declaração do imposto sobre a renda retido na fonte (DIRF), assinale a opção correta no que se refere às serventias notariais.",
+   "gabarito": "b",
+   "alternativas": [
+    "O tabelião não é obrigado a apresentar DIRF.",
+    "O tabelião tem o dever de apresentar DIRF com o seu cadastro de pessoa física (CPF).",
+    "No caso de serventia mantida diretamente pelo Estado, é dispensada a apresentação da DIRF.",
+    "O tabelião tem o dever de apresentar DIRF com o cadastro nacional de pessoa jurídica (CNPJ) da serventia.",
+    "No caso de serventia mantida diretamente pelo Estado, a DIRF deve ser apresentada pela fonte pagadora, mediante o número do cadastro de pessoa física (CPF) do responsável."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-007",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base no que a Lei n.o 6.015/1973 dispõe acerca do Registro Torrens, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "O pedido pode ser contestado por qualquer proprietário de imóvel lindeiro, independentemente de se considerar proprietário do imóvel a ser registrado.",
+    "O pedido de inscrição no Registro Torrens deve ser apresentado pelo interessado diretamente ao juízo competente.",
+    "O juiz deve determinar a expedição de edital se entender que os documentos encaminhados ao seu conhecimento justificam a propriedade do requerente.",
+    "A publicação de edital supre a intimação das pessoas indicadas pelo requerente.",
+    "O juiz poderá dispensar a manifestação do Ministério Público, se entendê-la desnecessária."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-008",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere à atribuição dos tabeliães de lavrar escrituras de inventário e partilha, assinale a opção correta à luz da Resolução n.o 35/2007 do Conselho Nacional de Justiça (CNJ).",
+   "gabarito": "e",
+   "alternativas": [
+    "Na escritura, a nomeação de um interessado como inventariante é necessária e deve obedecer a ordem prevista no Código de Processo Civil.",
+    "Não se admite a promoção de inventário extrajudicial por cessionário de direitos hereditários.",
+    "A nomeação do inventariante deverá ser efetuada obrigatoriamente na escritura de inventário e partilha.",
+    "A escritura de inventário e partilha pode ser retificada, caso apresente erros materiais, sendo necessário, para tanto, o consentimento de todos os interessados.",
+    "A escritura somente pode ser lavrada se tiver ocorrido o recolhimento dos tributos incidentes no caso."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-009",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A função social da propriedade da terra, cujo cumprimento é princípio da reforma agrária previsto no Estatuto da Terra — Lei n.o 4.504/1964 —, independe de a propriedade da terra",
+   "gabarito": "a",
+   "alternativas": [
+    "proporcionar renda aos proprietários.",
+    "favorecer o bem-estar dos proprietários e dos trabalhadores que nela labutam, assim como de suas famílias.",
+    "manter níveis satisfatórios de produtividade.",
+    "observar as disposições legais que regulam as justas relações de trabalho entre os que a possuem e os que a cultivam.",
+    "assegurar a conservação dos recursos naturais."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-010",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o Código de Normas da Corregedoria-Geral de Justiça do Estado de Santa Catarina, a serventia deverá adotar sistema informatizado de automação, com diversos atributos exigíveis, especialmente acerca dos selos de fiscalização. Nos termos do referido código, é necessário que esse sistema contenha função que assegure I a correta aplicação do selo de fiscalização de acordo com o tipo de ato praticado. II o recebimento, de forma automática, dos lotes de selo de fiscalização. III o impedimento do uso de selo de fiscalização em duplicidade. IV o controle da utilização dos selos de fiscalização, de modo a assegurar seu consumo sequencial e crescente. V a reutilização de selos de atos notariais tornados nulos. Estão certos apenas os itens",
+   "gabarito": "d",
+   "alternativas": [
+    "I e V.",
+    "II e IV.",
+    "I, III e V.",
+    "I, II, III e IV.",
+    "II, III, IV e V."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-011",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da aplicabilidade das normas constitucionais, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Tem eficácia plena a norma constitucional que dispõe sobre a liberdade no tocante ao exercício de qualquer trabalho, ofício ou profissão.",
+    "Norma de eficácia contida não produzirá efeitos enquanto não sobrevier lei que a discipline.",
+    "Segundo a jurisprudência do Supremo Tribunal Federal (STF), tem eficácia contida a norma constitucional que garante aos servidores públicos o direito de greve.",
+    "As normas de eficácia limitada são de aplicabilidade direta, imediata, mas possivelmente não integral, uma vez que estão sujeitas à imposição de restrição pelo legislador ordinário.",
+    "As normas definidoras de princípios organizativos constituem espécies de normas de eficácia limitada, uma vez que dependem de um ato intermediador legislativo que fixe esquemas gerais de estruturação e atribuições de órgãos ou entidades."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-012",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O procurador-geral de justiça de determinado estado da Federação ajuizou, no tribunal de justiça local, representação de inconstitucionalidade de certa lei estadual, sob o argumento de que ela violaria dispositivos da Constituição estadual que consistem em normas constitucionais de reprodução obrigatória pelos estados. A partir dessa situação hipotética, assinale a opção correta em relação ao controle de constitucionalidade.",
+   "gabarito": "a",
+   "alternativas": [
+    "Caso a representação seja julgada improcedente pelo tribunal de justiça, tal decisão será passível de impugnação por meio de recurso extraordinário.",
+    "O tribunal de justiça não poderá adotar a Constituição Federal de 1988 (CF) como parâmetro para o controle de constitucionalidade da lei estadual, ainda que se trate de dispositivos constitucionais de reprodução obrigatória nas Constituições estaduais.",
+    "Não caberá recurso da decisão do tribunal de justiça local quanto à representação de inconstitucionalidade em questão.",
+    "No que se refere aos legitimados para a propositura de representação de inconstitucionalidade, a Constituição Federal de 1988 (CF) permite que a legitimação para agir seja atribuída a apenas um único órgão.",
+    "Caso estejam tramitando, simultaneamente, a representação de inconstitucionalidade no tribunal de justiça local e uma ação direta de inconstitucionalidade (ADI) no STF contra a mesma lei, necessariamente a ação na justiça estadual deverá ser extinta por litispendência."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-013",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação ao preâmbulo da CF e aos princípios fundamentais nela estabelecidos, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "O preâmbulo da CF tem natureza normativa semelhante à do seu corpo principal e, consequentemente, pode ser utilizado como paradigma para o controle de constitucionalidade.",
+    "O Brasil adota a república como sistema de governo, caracterizada pelo caráter eletivo, representativo e transitório dos detentores do poder político e pela responsabilidade dos governantes.",
+    "O preâmbulo da CF é norma de repetição obrigatória para todos os estados da Federação.",
+    "A dignidade da pessoa humana constitui princípio das relações internacionais.",
+    "Em prol da formação de uma comunidade latino-americana de nações, a República Federativa do Brasil deve buscar a integração econômica, política, social e cultural dos povos da América Latina."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-014",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito dos direitos fundamentais, assinale a opção correta à luz da CF e da jurisprudência do STF.",
+   "gabarito": "d",
+   "alternativas": [
+    "É constitucional portaria expedida por diretor de hospital público municipal que proíba quaisquer práticas de natureza religiosa em relação aos pacientes, sob o fundamento de o Estado brasileiro ser laico.",
+    "A liberdade de crença não abrange a proteção a manifestações ateístas ou agnósticas.",
+    "É constitucional lei estadual que imponha a manutenção de exemplares da Bíblia Sagrada em escolas e bibliotecas públicas estaduais sob o fundamento de que ela configura um símbolo da cultura brasileira.",
+    "Segundo a jurisprudência do STF, o ensino religioso nas escolas públicas pode ter caráter confessional, ou seja, as aulas podem seguir os ensinamentos de uma religião específica.",
+    "É constitucional lei que vede a transmissão, em rádios comunitárias, de conteúdo tendente a converter pessoas a uma doutrina, a um sistema religioso, a uma seita ou a uma ideologia."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-015",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Quanto à organização político-administrativa do Estado brasileiro, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A capital federal do Brasil é o Distrito Federal.",
+    "Compete privativamente à União legislar sobre direito tributário, financeiro, econômico e urbanístico.",
+    "Os estados detêm a competência para fixar o horário de funcionamento de estabelecimentos comerciais.",
+    "É constitucional lei estadual que fixe a obrigatoriedade de divulgação diária, em noticiários de televisão e em jornais de Estado-membro, de fotos de crianças desaparecidas, devido ao princípio da proteção integral.",
+    "Viola o princípio da livre concorrência lei municipal que limite o quantitativo de instalação de empresas do mesmo ramo em determinada área."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-016",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Ministério Público ofereceu denúncia criminal, no Superior Tribunal de Justiça (STJ), contra o governador do estado de Santa Catarina, por ele ter praticado infração penal comum sem nenhuma relação com as funções por ele desempenhadas. Com relação a essa situação hipotética, assinale a opção correta à luz da CF e da jurisprudência do STF.",
+   "gabarito": "b",
+   "alternativas": [
+    "Em se tratando de infração comum, enquanto não sobrevier sentença condenatória, o governador, tal qual o presidente da República, não estará sujeito à prisão.",
+    "Não há necessidade de prévia autorização da Assembleia Legislativa para que o STJ receba a denúncia criminal contra o governador.",
+    "Na vigência de seu mandato, o governador não responderá pela infração penal cometida.",
+    "Compete às assembleias legislativas julgar os governadores que cometam crime de responsabilidade.",
+    "Compete ao STF processar e julgar os governadores dos estados e o do Distrito Federal pela prática de crime comum."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-017",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta a respeito da comissão parlamentar de inquérito (CPI).",
+   "gabarito": "b",
+   "alternativas": [
+    "CPI instalada no âmbito do Poder Legislativo municipal pode proceder à quebra de sigilo fiscal.",
+    "Para a criação de CPI, é necessário o requerimento de, no mínimo, um terço dos membros da casa legislativa.",
+    "CPI poderá determinar busca e apreensão domiciliar, independentemente de ordem judicial.",
+    "A CPI destina-se à investigação tanto de fato determinado quanto de fato indeterminado.",
+    "Dada a natureza política da CPI, sua instauração se submete ao juízo discricionário do presidente da casa legislativa."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-018",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação ao Poder Judiciário e às funções essenciais à justiça, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "O Poder Judiciário brasileiro possui autonomia administrativa, mas não autonomia financeira.",
+    "Compete ao CNJ o controle da atuação administrativa, financeira, disciplinar e jurisdicional dos órgãos do Poder Judiciário.",
+    "A unidade, a indivisibilidade e a independência funcional são princípios institucionais do Ministério Público.",
+    "Os substitutos interinos de serventias extrajudiciais não se submetem ao teto remuneratório constitucional.",
+    "A atividade jurisdicional será ininterrupta, sendo vedadas férias coletivas nos juízos e em todos os tribunais."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-020",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "À luz das disposições da Constituição do Estado de Santa Catarina, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Os juízes auditores terão as mesmas garantias, prerrogativas, vencimentos e impedimentos dos magistrados estaduais da última entrância, inclusive em relação ao acesso por promoção ao Tribunal de Justiça do Estado de Santa Catarina.",
+    "Compete ao Tribunal de Justiça do Estado de Santa Catarina processar e julgar, originariamente, o vice-governador do estado por eventual cometimento de crime comum.",
+    "O governador do estado de Santa Catarina poderá solicitar urgência, a qualquer tempo, para a apreciação de projetos de iniciativa dos membros do Poder Legislativo estadual.",
+    "Aos defensores públicos estaduais não se aplica a vedação ao exercício de atividade político-partidária.",
+    "O procurador-geral do estado de Santa Catarina, chefe da advocacia estadual, com prerrogativas e representação de secretário de estado, será nomeado pelo governador, entre os procuradores do estado de carreira, de reconhecido saber jurídico e reputação ilibada."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-021",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere à responsabilidade civil do Estado e de seus agentes, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "O direito de regresso, indisponível e de índole obrigatória, deve ser necessariamente exercido pelo Estado contra o agente público que tenha perpetrado dano, sendo investigada sua responsabilidade subjetiva na espécie.",
+    "O STF equiparou a responsabilidade de notários e de registradores oficiais à das pessoas jurídicas de direito privado prestadoras de serviço público.",
+    "O Estado responde pelos atos dos tabeliães e registradores oficiais que, no exercício de suas funções, causem danos a terceiros, desde que seja possível aferir o dolo ou culpa desses agentes.",
+    "Os notários e oficiais de registro respondem objetivamente pelos atos dos substitutos que designarem ou escreventes que autorizarem.",
+    "A pessoa natural que sofrer prejuízo material em virtude de inexatidão na lavratura de certidão por cartório de registro civil fará jus a indenização por perdas e danos, reparados diretamente pelo Estado, com base na aplicação da teoria do risco integral à hipótese."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-022",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Órgão da administração pública abriu pregão eletrônico para a contratação de solução de tecnologia da informação (TI). A proposta classificada em primeiro lugar na fase de apresentação de propostas não obteve êxito na fase seguinte, a de habilitação, visto que o concorrente requereu prazo para o cumprimento da exigência de apresentação de certificação de qualidade. Assim, depois de verificada a demonstração fiscal dos concorrentes, foi contratada a segunda proposta mais vantajosa. A respeito dessa situação hipotética, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "O pregão é modalidade de licitação que não se presta à contratação de serviços e soluções de TI.",
+    "Por se tratar de pregão, a fase de habilitação deveria preceder à da apresentação de propostas.",
+    "Na modalidade pregão, a demonstração de regularidade fiscal exigida dos concorrentes não inclui prova de regularidade junto ao Fundo de Garantia do Tempo de Serviço (FGTS).",
+    "Eventual culpa no ato de desclassificação da primeira proposta mais vantajosa é suficiente para a configuração de improbidade administrativa.",
+    "A exigência, na fase de habilitação, de certificação relativa ao objeto da licitação afronta o caráter competitivo do certame, por implicar despesas anteriores à contratação."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-023",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Determinada pessoa jurídica, em conluio com agentes públicos, assegurou a assinatura de contrato administrativo a um preço superfaturado. Dias após a conclusão do serviço, o tribunal de contas determinou a suspensão da última parcela do pagamento, por suspeita de irregularidades na licitação. A partir dessa situação hipotética, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "O acórdão de mérito do tribunal de contas que apura o dano à administração, imputando débito a agentes públicos, tem prazo prescricional de cinco anos.",
+    "Se constatada falha do notário em comunicar a existência de operação suspeita de lavagem de dinheiro praticada pelo agente público beneficiado, serão aplicadas àquele as sanções estabelecidas na Lei n.o 12.846/2013 — Lei Anticorrupção.",
+    "A responsabilização individual dos dirigentes e dos administradores exclui a responsabilização da pessoa jurídica nas sanções descritas na Lei n.o 12.846/2013 — Lei Anticorrupção.",
+    "A celebração de acordo de leniência no qual sejam apresentadas provas robustas do envolvimento de agentes públicos na infração poderá reduzir o valor devido a título de indenização pelo dano causado.",
+    "O tribunal de contas não é competente para determinar a suspensão do pagamento do contrato, uma vez que o ato de sustação é privativo do Congresso Nacional ou de órgão legislativo correlato."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-024",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base no Estatuto dos Servidores Públicos Civis do Estado de Santa Catarina, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A readaptação poderá ocasionar diminuição da remuneração se implicar mudança de cargo.",
+    "Ao servidor não aprovado em estágio probatório será aplicada a pena de demissão.",
+    "É prevista a possibilidade de redução da jornada de trabalho para servidores estudantes, sem prejuízo de sua remuneração, desde que demonstrada a necessidade.",
+    "É prevista gratificação de treinamento a ser percebida mediante certificado de aprovação do servidor em curso de qualificação profissional promovido por órgão público.",
+    "O período de estágio probatório é suspenso durante o gozo de licença-maternidade."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-025",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "À luz do que determina o Código de Normas e Provimentos da Corregedoria-Geral da Justiça do Estado de Santa Catarina, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "É vedada a cobrança mensal de emolumentos pelas serventias extrajudiciais.",
+    "É franqueada a adoção de logomarca para a serventia, desde que constem, abaixo da identificação, o nome do notário ou do oficial de registro e as respectivas atribuições legais.",
+    "É obrigatória a afixação de mural, físico ou eletrônico, de ampla visibilidade ao público, que indique a relação dos atos gratuitos ou de valores reduzidos praticados na serventia.",
+    "Ao delegatário é vedado aconselhar usuários sobre a natureza e as consequências dos atos que pretendam produzir.",
+    "É vedada a contratação de advogado como prestador de serviços, sem vínculo empregatício, para o exercício da atividade de assessoramento jurídico ao delegatário."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-026",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação aos conceitos e às fontes do direito administrativo, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "A expressão the king can do no wrong (em português, o rei não pode errar) traduz um fundamento do Estado de direito que remonta à origem do direito administrativo.",
+    "O direito administrativo compreende tanto a proteção da liberdade do cidadão quanto o reconhecimento de prerrogativas e privilégios para a administração pública.",
+    "Um dos efeitos da constitucionalização do direito administrativo é a ampliação do poder discricionário do administrador.",
+    "A doutrina é pacífica acerca da origem autoritária do direito administrativo, que surgiu para proteger interesses econômicos e políticos da burguesia.",
+    "Somente na perspectiva neoconstitucionalista, é possível indicar a Constituição como fonte primária do direito administrativo."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-027",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito dos princípios que regem a atividade administrativa, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "A suspensão de prazos de resposta a pedidos de acesso à informação não viola o princípio da transparência.",
+    "O princípio da juridicidade não é recepcionado pelo ordenamento jurídico brasileiro.",
+    "O princípio da legitimidade é uma faceta do princípio da legalidade.",
+    "A acepção tradicional do princípio da supremacia do interesse público sobre o privado proclama a superioridade do interesse da coletividade, firmando a prevalência dele sobre o particular.",
+    "O princípio da supremacia do interesse público sobre o privado é fundamento suficiente para o afastamento de direito individual constitucionalmente reconhecido."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-028",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta conforme a Lei n.o 8.429/1992 — Lei de Improbidade Administrativa.",
+   "gabarito": "a",
+   "alternativas": [
+    "Não é possível a aplicação de sanção por ato de improbidade resultante de conduta culposa, ainda que decorrente de previsão especial.",
+    "O ressarcimento integral do dano patrimonial exclui as cominações previstas na Lei de Improbidade Administrativa.",
+    "O prazo prescricional para a propositura de ação que vise à aplicação de sanção por ato de improbidade se inicia a partir da cessação do mandato, do cargo em comissão ou da função de confiança.",
+    "Pessoa jurídica poderá sofrer sanção, cumulativamente, por ato de improbidade administrativa e por conduta tipificada na Lei Anticorrupção.",
+    "Não há ato de improbidade se não configurada a produção de dano ao erário."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-029",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base na Lei n.o 9.784/1999, que dispõe sobre o processo administrativo, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "É vedado o direito de manifestação ao ouvinte habilitado a participar do procedimento de decisão coordenada.",
+    "O recurso de reconsideração é admitido apenas de forma excepcional no processo administrativo.",
+    "Terão prioridade de tramitação os procedimentos administrativos em que pessoa com deficiência figure como parte ou interessada.",
+    "A revogação de ato ilegalmente praticado, dentro do prazo prescricional, dispensa a instauração de processo administrativo.",
+    "A intimação dos interessados no processo será feita, em regra, por publicação em diário oficial."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-030",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere aos serviços públicos, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "É vedada a prestação de serviço de saúde por fundação integrante da administração indireta sob regime privado.",
+    "As obrigações de universalização, continuidade e modicidade tarifária são marcas distintivas do serviço público em relação ao privado.",
+    "A responsabilidade civil das pessoas jurídicas de direito privado prestadoras de serviço público é subjetiva em relação a terceiros não usuários do serviço.",
+    "Aos usuários do serviço público não se aplicam as proteções do Código de Defesa do Consumidor.",
+    "A obrigação de continuidade do serviço público afasta a possibilidade de interrupções por falta de pagamento dos valores devidos pelos usuários."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-031",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A disposição a respeito de resolução de conflitos de competência, em matéria tributária, entre os entes da Federação cabe",
+   "gabarito": "c",
+   "alternativas": [
+    "a medida provisória.",
+    "a lei ordinária.",
+    "a lei complementar.",
+    "à Constituição Federal de 1988.",
+    "a resolução do Senado Federal."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-032",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Suponha que uma pessoa física tenha vendido veículo automotor próprio por valor inferior ao pago por ela na aquisição desse bem. Acerca do imposto sobre a renda da pessoa física em relação a essa operação, é correto afirmar que se trata de hipótese de",
+   "gabarito": "a",
+   "alternativas": [
+    "não incidência tributária.",
+    "isenção tributária.",
+    "incidência tributária.",
+    "imunidade tributária.",
+    "anistia tributária."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-033",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca de prescrição e decadência em matéria tributária, julgue os itens seguintes. I Segundo o STJ, o pedido de parcelamento fiscal apresentado pelo contribuinte interrompe o prazo prescricional, mesmo nos casos de indeferimento do pedido, por retratar caso de confissão extrajudicial do débito. II A decadência é a extinção do crédito tributário pelo não ajuizamento da execução fiscal no prazo legal. III De acordo com o STF, as normas relativas a prescrição e decadência tributárias são reservadas a lei complementar. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-034",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O instituto da enfiteuse",
+   "gabarito": "e",
+   "alternativas": [
+    "é negócio jurídico a título gratuito.",
+    "admite o registro notarial quando retrata nova enfiteuse.",
+    "só admite transmissão inter vivos .",
+    "não se sujeita à incidência tributária.",
+    "relaciona-se à transmissão do domínio útil de imóvel."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-035",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a Lei Complementar n.o 116/2003, o imposto sobre serviços de qualquer natureza (ISSQN) não incide sobre",
+   "gabarito": "d",
+   "alternativas": [
+    "serviço proveniente do exterior.",
+    "arbitragem de qualquer espécie, inclusive jurídica.",
+    "cessão de direito de uso de programa de computação.",
+    "exportações de serviços para o exterior.",
+    "serviço cuja prestação tenha sido iniciada no exterior."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-036",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "À luz da Lei estadual n.o 13.136/2004, que trata do imposto sobre transmissão causa mortis e doação de quaisquer bens ou direitos (ITCMD) no âmbito do estado de Santa Catarina, julgue os itens a seguir. I O ITCMD incide na sucessão provisória, admitindo-se o direito de restituição, caso apareça o ausente. II Enquadra-se no conceito de contribuinte do ITCMD o beneficiário de direito real, quando de sua instituição. III A doação de semoventes é fato gerador do ITCMD. Assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-037",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta de acordo com a Lei n.o 3.807/1960 (Lei Orgânica da Previdência Social).",
+   "gabarito": "a",
+   "alternativas": [
+    "Os titulares de firma individual são obrigatoriamente segurados da previdência social.",
+    "Considera-se segurado o beneficiário da previdência social que exerce atividade remunerada, com ou sem vínculo empregatício, desde que em caráter efetivo e a título permanente.",
+    "Incluem-se no Regime Geral de Previdência Social todos os servidores militares da União, dos estados, dos municípios e do Distrito Federal.",
+    "Quem ocupa mais de um emprego remunerado deve contribuir para a previdência social apenas em relação ao emprego que represente sua maior remuneração.",
+    "O início da concessão do benefício relativo à pensão do segurado condiciona-se à inscrição e à habilitação de todos os seus possíveis dependentes."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-038",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base na Lei estadual n.o 10.297/1996 de Santa Catarina, assinale a opção que indica a alíquota do imposto sobre operações relativas à circulação de mercadorias e sobre prestações de serviços de transporte interestadual e intermunicipal e de comunicação (ICMS) incidente sobre o óleo diesel quando este for objeto de fato gerador.",
+   "gabarito": "d",
+   "alternativas": [
+    "4,5%",
+    "5%",
+    "7%",
+    "12%",
+    "25%"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-039",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que diz respeito às formas de integração da norma tributária, de acordo com o Código Tributário Nacional, na ausência de disposição expressa, a autoridade competente para aplicar a legislação tributária deverá utilizar, sucessivamente,",
+   "gabarito": "c",
+   "alternativas": [
+    "os costumes, a equidade e os princípios gerais de direito tributário.",
+    "os princípios gerais de direito público, a equidade, a analogia e os costumes.",
+    "a analogia, os princípios gerais de direito tributário, os princípios gerais de direito público e a equidade.",
+    "a equidade, os princípios gerais de direito tributário e os princípios gerais de direito público.",
+    "os princípios gerais de direito tributário, os princípios gerais de direito público, a equidade e a analogia."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-040",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Consoante a Lei Complementar estadual n.o 465/2009 de Santa Catarina, contra as decisões do julgador de processos administrativos fiscais, caberá",
+   "gabarito": "a",
+   "alternativas": [
+    "recurso ordinário ao Tribunal Administrativo Tributário.",
+    "pedido de reexame ao Tribunal Administrativo Tributário.",
+    "pedido de esclarecimento ao Tribunal Administrativo Tributário.",
+    "recurso especial ao Tribunal Administrativo Tributário.",
+    "recurso de reconsideração ao Tribunal Administrativo Tributário."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-041",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ao realizar compra em uma loja de móveis, Ana Luíza forneceu dados pessoais como nome completo, telefone e endereço de e-mail para efetuar o cadastro. À época, foi avisada que aquelas informações serviriam para compor o mailing da empresa com promoções da loja. Meses depois, ao verificar que diversos empreendimentos do grupo econômico daquela empresa de móveis entravam em contato com ela para anunciar ofertas, Ana Luíza solicitou à empresa da qual era cliente a revogação do consentimento para a utilização de seus dados pessoais. Nessa situação hipotética, de acordo com o disposto na Lei Geral de Proteção de Dados Pessoais, a empresa da qual Ana Luíza era cliente",
+   "gabarito": "c",
+   "alternativas": [
+    "agiu conforme a legislação, visto que o consentimento para a utilização de dados pessoais também serve para o compartilhamento desses dados com outros controladores de um mesmo grupo econômico.",
+    "agiu dentro dos limites da legislação, visto que o comércio insere-se entre as hipóteses de dispensa da exigência de consentimento específico, razão pela qual o compartilhamento de dados pessoais dentro de um mesmo grupo econômico é permitido.",
+    "não agiu legalmente, porque seria necessário obter consentimento específico da cliente para compartilhar dados pessoais com outros controladores, ainda que do mesmo grupo econômico.",
+    "agiu conforme os ditames legais, visto que os dados fornecidos por Ana Luíza não são considerados sensíveis.",
+    "não agiu dentro dos limites da legislação, porque é vedado o compartilhamento de dados pessoais entre controladores de um mesmo grupo econômico mesmo que haja consentimento específico da cliente para esse fim."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-042",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Andreia foi diagnosticada com leucemia, e seu oncologista verificou uma grande chance de superação da doença caso ela seja submetida a um transplante. Na testagem de compatibilidade entre familiares de Andreia, constatou-se clinicamente que Pedro, seu primo de quinze anos de idade, pode ser doador. Considerando essa situação hipotética, é correto afirmar, à luz da Lei de Transplantes — Lei n.o 9.434/1997, que",
+   "gabarito": "d",
+   "alternativas": [
+    "Pedro não poderá fazer a doação, pois a legislação determina que, no caso de indivíduos juridicamente incapazes, a limitação para doação é que o receptor seja parente do doador até o terceiro grau.",
+    "Pedro não poderá fazer a doação por ser um indivíduo juridicamente incapaz.",
+    "Pedro poderá fazer a doação desde que haja consentimento de ambos os pais ou dos seus responsáveis legais e o ato não ofereça risco para a sua saúde, sendo dispensada autorização judicial.",
+    "Pedro poderá fazer a doação desde que haja consentimento de ambos os pais ou dos seus responsáveis legais, autorização judicial e o ato não ofereça risco para a sua saúde.",
+    "Pedro poderá fazer a doação desde que, ainda que exista risco para a sua saúde, haja consentimento de ambos os pais ou dos seus responsáveis legais e autorização judicial."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-045",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Tomás da Silva Filho é o nome completo de registro de nascimento designado a Sara, a qual atualmente se identifica como mulher trans. Buscando alterar seu nome para refletir sua identidade de gênero, Sara, ao completar dezoito anos de idade, dirigiu-se ao ofício de registro de pessoas naturais de sua cidade para realizar o procedimento de retificação extrajudicial. Nessa situação hipotética, à luz do Provimento n.o 73/2018 do CNJ, Sara",
+   "gabarito": "d",
+   "alternativas": [
+    "só poderá retificar seu prenome e seu gênero de maneira extrajudicial após completar 21 anos de idade.",
+    "poderá retificar seu prenome e seu gênero de maneira extrajudicial, mas não o seu agnome indicativo de gênero e descendência nem o seu nome de família.",
+    "poderá retificar seu prenome e seu gênero de maneira extrajudicial, bem como o seu agnome indicativo de gênero e descendência e o seu nome de família.",
+    "poderá retificar seu prenome e seu gênero de maneira extrajudicial, assim como o seu agnome indicativo de gênero e descendência, mas não o seu nome de família.",
+    "poderá retificar seu prenome e seu gênero de maneira extrajudicial, inclusive o seu nome de família, mas não o seu agnome indicativo de gênero e descendência."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-046",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Carlos é um homem viúvo de sessenta e quatro anos de idade e, durante alguns anos, recebeu mesada do seu filho Pedro, porque não desenvolvia trabalhos remunerados por questões de saúde. No ano corrente, Pedro faleceu, o que causou a drástica diminuição de renda de Carlos, que passou a auferir somente a pensão por morte de sua esposa, o que o deixou em situação de miserabilidade. Após o falecimento da esposa e do filho, restaram como familiares de Carlos somente dois irmãos unilaterais um pouco mais novos e de idades distintas e sobre os quais sabe, embora não tenha com eles contato próximo há alguns anos, que gerenciam conjuntamente uma fábrica de embalagens que gera bastante lucro. Em relação a essa situação hipotética, é correto afirmar, à luz da legislação de regência, que",
+   "gabarito": "b",
+   "alternativas": [
+    "cabe o ajuizamento de ação judicial de alimentos em desfavor dos dois irmãos de Carlos, os quais teriam uma obrigação subsidiária entre eles, sendo preferencialmente obrigado o mais velho.",
+    "cabe o ajuizamento de ação judicial de alimentos em desfavor dos dois irmãos de Carlos, que teriam uma obrigação solidária entre eles.",
+    "não cabe o ajuizamento de ação judicial de alimentos em desfavor dos dois irmãos de Carlos dado o parentesco unilateral.",
+    "não cabe o ajuizamento de ação judicial de alimentos em desfavor dos dois irmãos de Carlos porque este recebe uma pensão por morte.",
+    "não cabe o ajuizamento de ação judicial de alimentos em desfavor dos dois irmãos de Carlos porque esse tipo de demanda recai somente a ascendentes e descendentes diretos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-047",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em busca de diversos orçamentos para uma reforma residencial, Henrique entrou em contato com uma empresa de serviços hidráulicos e recebeu um orçamento detalhado, no qual eram discriminados o valor do serviço, dos materiais e dos equipamentos que seriam utilizados, as condições de pagamento, bem como as datas de início e término dos referidos serviços. Satisfeito com a proposta, que não indicava um prazo de validade, Henrique a aceitou após 12 dias do seu recebimento. A empresa respondeu-lhe e indicou um aumento de 10% no valor inicialmente cobrado, o que foi aceito por Henrique. Por fim, a empresa entrou em contato novamente com ele, indicando novo acréscimo relativo à contratação de uma terceirizada até então não prevista. Nessa situação hipotética, de acordo com o disposto no Código de Defesa do Consumidor, a empresa contratada por Henrique",
+   "gabarito": "c",
+   "alternativas": [
+    "poderia aumentar em 10% o valor anteriormente cobrado com fundamento na validade da proposta, que é, em regra, de 10 dias, assim como poderia acrescentar o serviço relativo à contratação de uma terceirizada, ainda que não previsto no orçamento prévio aceito.",
+    "não poderia aumentar em 10% o valor anteriormente cobrado visto que a validade legal da proposta é, em regra, de 15 dias, e não poderia acrescentar o serviço relativo à contratação de uma terceirizada não prevista no orçamento prévio aceito.",
+    "poderia aumentar em 10% o valor anteriormente cobrado com fundamento na validade legal da proposta, que é, em regra, de 10 dias, mas não poderia acrescentar o serviço relativo à contratação de uma terceirizada não prevista no orçamento prévio aceito.",
+    "poderia realizar qualquer alteração no orçamento prévio, visto que este não vincula as partes, as quais só se obrigam depois de assinado o contrato de prestação de serviços decorrente da proposta de trabalho.",
+    "não poderia aumentar em 10% o valor anteriormente cobrado visto que a validade legal da proposta é, em regra, de 15 dias, mas poderia acrescentar o serviço relativo à contratação de uma terceirizada, ainda que não previsto no orçamento prévio aceito."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-048",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Luiz e Carla foram a uma serventia extrajudicial para lavrar a escritura de divórcio perante um tabelião. Concluídos os trabalhos cartorários, receberam um boleto de cobrança dos emolumentos que envolviam o procedimento. Apesar de o divórcio ter sido consensual, como Luiz e Carla não mantêm uma boa relação, ambos se recusaram a pagar os valores devidos. Nessa situação hipotética, de acordo com o Código Civil, o prazo prescricional para o tabelião ajuizar demanda judicial para receber os valores devidos é de",
+   "gabarito": "d",
+   "alternativas": [
+    "cinco anos.",
+    "dez anos.",
+    "dois anos.",
+    "um ano.",
+    "três anos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-050",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Mário vendeu um apartamento a Mauro, seu colega de trabalho. Além das cláusulas gerais dos contratos de venda e compra, ambos optaram por incluir, nos termos legais, a cláusula de retrovenda, que foi devidamente incluída na matrícula do imóvel. Após o falecimento de Mário, dois anos depois da venda regular, Victor, seu único filho e herdeiro, quer acionar imediatamente a cláusula para reaver o imóvel vendido. Nessa situação hipotética, de acordo com o disposto no Código Civil, Victor",
+   "gabarito": "a",
+   "alternativas": [
+    "poderá reaver o apartamento vendido por seu pai, desde que restitua o preço recebido à época da venda e reembolse as despesas do comprador, inclusive as que tenham sido efetuadas após autorização escrita ou para realizar benfeitorias necessárias.",
+    "poderá reaver o apartamento vendido por seu pai, desde que restitua o preço recebido à época da venda, sendo dispensado de ressarcir as despesas do comprador, inclusive as que tenham sido efetuadas com autorização escrita ou para realizar benfeitorias necessárias.",
+    "poderá reaver o apartamento vendido por seu pai, desde que restitua o preço recebido à época da venda, sendo dispensado de ressarcir as despesas do comprador, salvo aquelas que tenham sido efetuadas com autorização escrita ou para realizar benfeitorias necessárias.",
+    "não poderá reaver o imóvel, haja vista que a cláusula especial de retrovenda perde a validade com o falecimento do vendedor, sendo intransferível a herdeiros.",
+    "não poderá reaver o imóvel, haja vista o transcurso do prazo legal para exercer esse direito."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-051",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o Código de Processo Civil (CPC), são títulos executivos extrajudiciais",
+   "gabarito": "d",
+   "alternativas": [
+    "a certidão de serventia notarial referente a emolumentos legais de atos por ela praticados, a sentença arbitral e a decisão homologatória de autocomposição extrajudicial.",
+    "a sentença arbitral, a decisão homologatória de autocomposição extrajudicial e o contrato de seguro de vida em caso de morte.",
+    "a decisão homologatória de autocomposição extrajudicial, o contrato de seguro de vida em caso de morte e o crédito decorrente de foro e laudêmio.",
+    "o contrato de seguro de vida em caso de morte, o crédito decorrente de foro e laudêmio, e a certidão de serventia notarial referente a emolumentos legais de atos por ela praticados.",
+    "o crédito decorrente de foro e laudêmio, a certidão de serventia notarial referente a emolumentos legais de atos por ela praticados e a sentença arbitral."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-052",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a legislação processual em vigor, a representação judicial de determinado município pela Associação de Representação de Municípios é",
+   "gabarito": "e",
+   "alternativas": [
+    "vedada em qualquer demanda judicial, em razão da manifesta ilegitimidade processual de associação para tutelar direito de pessoa jurídica de direito público.",
+    "permitida somente em ações coletivas que versem sobre direitos transindividuais indivisíveis e desde que haja concordância do órgão do Ministério Público que atue como fiscal da ordem jurídica no processo coletivo.",
+    "admitida para a defesa de qualquer município, formalmente associado ou não, seja qual for a natureza do objeto da ação, desde que a atuação associativa seja aprovada pela respectiva câmara municipal.",
+    "obrigatória nos casos de interesse comum dos municípios associados, haja ou não autorização política, nas hipóteses de litisconsórcio unitário entre as pessoas jurídicas de direito público.",
+    "autorizada apenas em casos de interesse comum dos municípios associados e depende de autorização do respectivo chefe do Poder Executivo municipal, com indicação específica do objeto de medida judicial."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-053",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere ao entendimento jurisprudencial do Superior Tribunal de Justiça (STJ) sobre procedimentos especiais, comunicação dos atos processuais, ação civil pública e de improbidade administrativa, julgue os itens a seguir. I É vedado ao ente público ingressar em ação possessória entre particulares para discutir questão jurídica referente ao domínio do bem. II O comparecimento espontâneo do executado constitui termo inicial para o pagamento decorrente do cumprimento de sentença que determina a obrigação de pagar quantia certa, dispensando-se, nessa situação, nova intimação formal. III Em razão da divisão de competência da justiça comum estabelecida pela Constituição Federal de 1988 (CF), é juridicamente impossível a formação de litisconsórcio ativo entre o Ministério Público estadual e o Federal em ação civil pública que tramita em juízo singular. IV A autoridade administrativa está legitimada a apurar a falta disciplinar do servidor público por ato ímprobo, independentemente do processamento do mesmo fato no bojo de ação de improbidade administrativa. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e IV estão certos.",
+    "Apenas os itens III e IV estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-054",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Renata ajuizou ação cível em face de Carla, com o objetivo de reivindicar a propriedade de determinado bem móvel. Durante a fase de instrução processual, Carla vendeu o bem a Maria, que o adquiriu, tendo conhecimento da demanda judicial. Posteriormente, Maria requereu seu ingresso no feito como sucessora processual de Carla, tendo a autora Renata se manifestado expressamente contrária à alteração do polo passivo da demanda. Em relação a essa situação hipotética, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A sucessão processual não deve ocorrer porque a lei processual determina ser nula a alienação de bem litigioso após a distribuição de ação judicial.",
+    "O magistrado deve deferir a sucessão processual porque, nesse caso, ela é obrigatória e não depende da concordância da autora Renata.",
+    "O pedido de sucessão deve ser indeferido porque, seja qual for a vontade das partes, a participação de Maria somente pode ser feita por meio de assistência simples.",
+    "Como a sucessão processual somente é admitida no caso de falecimento de alguma das partes originárias, o juiz deve extinguir o processo sem resolução de mérito.",
+    "Carla deve permanecer no polo passivo do processo como substituta processual de Maria, e os efeitos da sentença se estenderão à adquirente do bem."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-055",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em processo de execução promovido por organismo internacional em face de determinado município, o juízo federal comum responsável pelo exame da causa determinou a expedição de precatório complementar. Nessa situação hipotética, caso deseje impugnar a decisão, o município, de acordo com o disposto no CPC, deve",
+   "gabarito": "c",
+   "alternativas": [
+    "interpor recurso administrativo junto ao presidente do tribunal competente, única medida constitucionalmente cabível para o questionamento da expedição de precatório.",
+    "interpor agravo de instrumento dirigido a tribunal regional federal (TRF).",
+    "interpor agravo de instrumento dirigido ao STJ.",
+    "impetrar mandado de segurança junto a tribunal regional federal (TRF), porque a decisão é considerada como irrecorrível.",
+    "impetrar mandado de segurança junto ao STJ, porque a decisão é considerada irrecorrível."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-056",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o disposto no CPC acerca do procedimento especial do inventário e partilha, terá preferência para figurar como inventariante, em relação a todos os demais, de acordo com a ordem legalmente estabelecida,",
+   "gabarito": "d",
+   "alternativas": [
+    "o Ministério Público, caso haja herdeiro incapaz.",
+    "o herdeiro com maior quinhão na herança.",
+    "o inventariante judicial que aceite atuar como auxiliar da justiça pelo menor custo.",
+    "o companheiro ou cônjuge supérstite que convivia com o falecido ao tempo do óbito.",
+    "o testamenteiro, em todos os casos em que haja cumprimento de testamento."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-057",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Determinada associação de notários e registradores deseja ajuizar duas ações, sem qualquer relação entre si, para impugnar atos distintos que foram praticados pelo Conselho Nacional de Justiça no exercício de suas competências constitucionais. A primeira demanda trata de ação ordinária pelo procedimento comum, e a segunda, de mandado de segurança. Em relação a essa situação hipotética, é correto afirmar, de acordo com a atual jurisprudência do Supremo Tribunal Federal (STF), que",
+   "gabarito": "a",
+   "alternativas": [
+    "ambas as ações são de competência originária do STF.",
+    "ambas as ações são de competência originária do STJ.",
+    "a primeira ação é de competência originária do STJ, enquanto a segunda é de competência originária da justiça comum.",
+    "a primeira ação é de competência originária do STF, enquanto a segunda é de competência originária do STJ.",
+    "a primeira ação é de competência originária do STF, enquanto a segunda é de competência originária da justiça comum."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-058",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta com base nas regras estabelecidas no CPC referentes a atuação das partes e de seus procuradores, de terceiros intervenientes, do juiz e do Ministério Público.",
+   "gabarito": "a",
+   "alternativas": [
+    "Em processo judicial, a concessão do benefício da gratuidade da justiça estende-se aos emolumentos devidos a registradores ou notários em decorrência da prática de registro ou de qualquer outro ato notarial necessário à efetivação de decisão do magistrado.",
+    "A denunciação sucessiva da lide promovida pelo denunciado é incompatível com o ordenamento processual pátrio por violar o princípio da razoável duração do processo.",
+    "Em qualquer momento processual antes da prolação da sentença, o juiz pode determinar que as partes compareçam pessoalmente para, sob pena de confessas, inquiri-las a respeito dos fatos da causa.",
+    "O Ministério Público deve ser intimado para, no prazo legal, intervir como fiscal da ordem jurídica em todas as ações ajuizadas por autarquias estaduais.",
+    "Nos casos de extinção do processo sem resolução do mérito por perda superveniente do objeto, não serão devidos honorários sucumbenciais por nenhuma das partes."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-059",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Cabe reclamação constitucional dirigida ao STF para impugnar ato de natureza administrativa que tenha contrariado entendimento firmado em I súmula vinculante. II precedente de repercussão geral. III acórdão de mérito de ação direta de inconstitucionalidade. Assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Nenhum item está certo.",
+    "Apenas o item I está certo.",
+    "Os itens I e II estão certos.",
+    "Os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-060",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção em que é apresentada hipótese de matéria de defesa do réu que não pode ser conhecida de ofício pelo magistrado.",
+   "gabarito": "a",
+   "alternativas": [
+    "convenção de arbitragem pactuada entre as partes",
+    "nulidade de citação",
+    "perempção",
+    "litispendência",
+    "inépcia da petição inicial"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-061",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Maria, em razão de ser mulher, foi ameaçada e agredida fisicamente por seu companheiro, com quem convivia no mesmo lar havia dez anos. Por causa disso, ela registrou uma ocorrência policial e assinou termo de representação, dado o delito de ameaça. Foi instaurado o respectivo inquérito policial, e Maria obteve medidas protetivas contra o agressor, o qual foi devidamente intimado de que não poderia aproximar-se dela nem manter nenhum tipo de contato com ela. Considerando a situação hipotética anterior, assinale a opção correta à luz da Lei n.o 11.340/2006 (Lei Maria da Penha) e da correlata jurisprudência dos tribunais superiores.",
+   "gabarito": "b",
+   "alternativas": [
+    "Consoante disposto na Lei Maria da Penha, caso o agressor descumpra as medidas protetivas determinadas, a autoridade policial poderá decretar a sua prisão preventiva.",
+    "Segundo entendimento do STJ, a vulnerabilidade e a hipossuficiência de Maria são presumidas pela Lei Maria da Penha, de modo que é desnecessária a demonstração específica da subjugação feminina para que sejam aplicadas as garantias dessa lei ao caso em questão.",
+    "Maria poderá renunciar à representação oferecida, mediante registro, em ata notarial, do seu desejo de não processar o agressor.",
+    "Maria poderá renunciar à representação oferecida na delegacia de polícia, perante a autoridade policial.",
+    "Caso o agressor seja condenado a pena privativa de liberdade pelos delitos praticados contra Maria, será cabível a substituição dessa pena por pena restritiva de direitos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-062",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em determinado cartório de notas e protestos, Tatiana apresentou uma carteira de identidade com a sua foto, mas com o nome de outra pessoa, a qual havia previamente produzido a completa falsificação do documento, tendo-o confeccionado mediante o uso de impressora eletrônica colorida. No estabelecimento cartorial, Tatiana fez uso do citado documento, por meio do qual se passou pela subscritora de documentos que atestavam o adimplemento de dívidas de empresas, destinados ao cancelamento de protestos, com vistas ao reconhecimento, pelo tabelião, das firmas em tais documentos. Ao manusear o documento, a escrevente desconfiou de sua veracidade e chamou sua supervisora. Esta, por sua vez, pediu auxílio ao tabelião, o qual, por fim, fez alguns questionamentos a Tatiana, que acabou reconhecendo que aquele documento era falso e que tinha conhecimento de sua falsidade. Em seguida, o tabelião acionou a polícia militar e Tatiana foi presa em flagrante delito. A partir dessa situação hipotética, assinale a opção correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Tatiana cometeu o delito de falsificação de documento público, consistente no ato de falsificar, no todo ou em parte, documento público, ou alterar documento público verdadeiro.",
+    "A conduta de Tatiana é atípica, em razão da falsidade grosseira do documento.",
+    "Tatiana cometeu delito cuja consumação depende da obtenção de proveito ou da inflição de prejuízo pretendido por seu autor.",
+    "O delito praticado por Tatiana atenta contra a fé pública documental e admite tanto a forma omissiva quanto a comissiva.",
+    "Tatiana praticou delito de mera atividade e instantâneo."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-063",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Valendo-se da situação de calamidade pública decretada em razão da pandemia de covid-19, Eduardo, mediante o uso de uma chave falsa, subtraiu para si um veículo de propriedade de Mariana. Acionada, a polícia militar, após efetuar algumas rondas, prendeu em flagrante Eduardo na posse do veículo e da chave usada por ele para ligar o automóvel. Nessa situação hipotética, houve o delito de",
+   "gabarito": "c",
+   "alternativas": [
+    "furto consumado, segundo a teoria da ablatio , devendo haver a incidência da agravante genérica relativa à ocasião de calamidade pública.",
+    "furto consumado, segundo a teoria da concretatio , devendo haver a incidência da agravante genérica relativa à ocasião de calamidade pública.",
+    "furto consumado, segundo a teoria da amotio ou apprehensio , devendo haver a incidência da agravante genérica relativa à ocasião de calamidade pública.",
+    "furto tentado, uma vez que não houve posse desvigiada do veículo.",
+    "furto tentado, uma vez que o veículo foi retomado em momento imediatamente posterior à sua subtração."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-064",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "José, valendo-se da função de tabelião interino de determinado tabelionato de notas e protestos de títulos, desviou, em proveito próprio, valores por ele recebidos em protestos de títulos, deixando de repassar, no prazo legal, os respectivos valores aos credores, por, pelo menos, sete vezes, em continuidade delitiva. Na situação hipotética apresentada, José cometeu o delito de",
+   "gabarito": "a",
+   "alternativas": [
+    "peculato-desvio.",
+    "peculato-furto.",
+    "estelionato.",
+    "apropriação indébita.",
+    "corrupção passiva."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-065",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Fernando e João, sócios proprietários de um supermercado, tinham em depósito e expuseram à venda produtos impróprios ao consumo humano, com prazo de validade expirado, armazenados de modo incorreto, e sem procedência. A respeito da situação hipotética precedente, assinale a opção correta de acordo com o Código de Defesa do Consumidor (CDC) e a Lei n.o 8.137/1990, que dispõe sobre os crimes contra a ordem tributária e econômica e contra as relações de consumo.",
+   "gabarito": "b",
+   "alternativas": [
+    "O delito em questão é material, de modo que exige um resultado danoso.",
+    "A tipificação legal do delito em questão é norma penal em branco complementada pelo CDC.",
+    "Trata-se de delito de perigo concreto, que exige resultado danoso.",
+    "Inexiste punição para a modalidade culposa do delito praticado nessa situação.",
+    "A configuração do crime em questão pressupõe a demonstração da nocividade dos produtos à saúde humana."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-066",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando a distinção entre atos preparatórios e atos de execução, assinale a opção correta consoante o Código Penal (CP) e a doutrina majoritária.",
+   "gabarito": "a",
+   "alternativas": [
+    "No contexto da teoria objetivo-formal, a teoria da hostilidade ao bem jurídico sustenta que ato executório é aquele que ataca o bem jurídico, retirando-o do estado de paz.",
+    "Conforme a teoria objetivo-material, atos executórios são os que fazem parte do núcleo do tipo.",
+    "Segundo a teoria objetivo-individual, os atos executórios são apenas os que dão início à ação típica, atacando o bem jurídico.",
+    "Na perspectiva da teoria objetivo-individual, o plano concreto do autor é irrelevante para a caracterização dos atos executórios.",
+    "Ao tratar da tentativa, o CP adota a teoria subjetiva ou monista pura."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-067",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base na Lei n.o 9.099/1995 (Lei dos Juizados Especiais), assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Caso a suspensão do processo seja proposta pelo Ministério Público e seja aceita pelo autor, correrá a prescrição durante o prazo da referida suspensão.",
+    "Em caso de flagrante delito, após a lavratura do termo circunstanciado, é cabível a prisão do autor da conduta delitiva, sendo admissível o pagamento de fiança.",
+    "Se o suspeito estiver em lugar incerto ou desconhecido para que seja citado, será inviável a aplicação do rito especial previsto na Lei dos Juizados Especiais.",
+    "Caso não seja alcançada a composição dos danos civis, o ofendido deverá exercer o direito de representação verbal na audiência preliminar, sob pena de decadência do direito.",
+    "Em caso de crime cuja pena mínima cominada seja inferior a um ano, o Ministério Público, ao oferecer a denúncia, poderá propor a suspensão do processo pelo tempo equivalente ao prazo prescricional do delito, desde que o acusado não esteja sendo processado ou não tenha sido condenado por outro crime, presentes os demais requisitos autorizadores da suspensão condicional da pena."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-068",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção correta de acordo com a Lei n.o 13.869/2019 (Lei de Abuso de Autoridade).",
+   "gabarito": "c",
+   "alternativas": [
+    "A insistência do delegado de polícia em interrogar pessoa que tenha decidido exercer o direito ao silêncio não configura abuso de autoridade.",
+    "A violência institucional se restringe às vítimas de infração penal.",
+    "A conduta de um juiz deixar de substituir a prisão preventiva por medida cautelar diversa, quando manifestamente cabível, configura abuso de autoridade.",
+    "Os crimes previstos na lei em questão são de ação penal pública condicionada à representação do ofendido.",
+    "Entre as penas restritivas de direitos substitutivas das privativas de liberdade, a referida lei prevê a suspensão do exercício do cargo, da função ou do mandato, sem perda dos vencimentos e das vantagens."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-069",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Agindo com consciência e vontade de criar documento como se verdadeiro fosse, Silvio falsificou sinal público de tabelião, fabricando-o, a fim de subscrever, como se tabelião substituto fosse, ato notarial de reconhecimento das firmas de Natalia e de Ana apostas em instrumento particular de cessão de direitos que tinha por objeto a gleba de terras. Assinale a opção que apresenta o tipo penal praticado por Silvio na situação hipotética precedente.",
+   "gabarito": "b",
+   "alternativas": [
+    "falsificação de documento público",
+    "falsificação de sinal público de tabelião",
+    "falso reconhecimento de firma ou letra",
+    "falsificação de papéis públicos",
+    "uso de sinal público de tabelião falsificado"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-070",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Pedro e Artur, agindo em comunhão de esforços e unidade de desígnios, um aderindo à conduta do outro, constrangeram Helena, mediante grave ameaça, a entregar-lhes a quantia de R$ 5 mil em espécie, dizendo-lhe que, se ela sacasse o dinheiro, nada de ruim iria lhe acontecer, de forma que ambos os criminosos obtivessem indevida vantagem econômica. Assim, a vítima se dirigiu até uma agência bancária, sempre na vigilância dos dois comparsas, e realizou o saque daquele valor, que foi entregue a eles. No que diz respeito a essa situação hipotética, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Segundo o CP, que adota, como regra, a teoria monista, presentes a pluralidade de agentes e a convergência de vontades voltada à prática da mesma infração penal, Pedro e Artur devem ser responsabilizados pelo delito de extorsão qualificada, na medida da sua culpabilidade.",
+    "Caso Pedro e Artur tivessem interrompido a execução do crime por circunstâncias externas alheias às suas vontades, estaria configurada a desistência voluntária.",
+    "Será viável o reconhecimento do arrependimento posterior caso Pedro e Artur devolvam o dinheiro a Helena antes do início de eventual ação penal.",
+    "Será viável o reconhecimento do arrependimento eficaz caso Pedro e Artur devolvam o dinheiro a Helena antes de iniciada eventual investigação policial.",
+    "Dada a concorrência de Artur e Pedro para a prática de uma mesma infração penal, caracterizou-se o concurso de agentes, na modalidade de participação, segundo o conceito restritivo de autor."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-071",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "João praticou um crime em 4/4/2020. Em 21/7/2021, foi oferecida ação penal, tendo a condenação sido proferida em 15/2/2022. Antes do julgamento do recurso de apelação, interposto em 10/5/2022, entrou em vigor alteração legislativa estritamente processual, que alterava todo o regramento sobre a matéria na primeira instância, trazendo benefícios para o acusado, mas prejuízo em outros aspectos. Na situação hipotética apresentada, a nova lei processual",
+   "gabarito": "c",
+   "alternativas": [
+    "deve ser aplicada ao caso, limitando-se aos dispositivos que trouxerem benefícios ao acusado.",
+    "deve ser aplicada ao caso, uma vez que ainda não ocorreu o trânsito em julgado.",
+    "não deve ser aplicada ao caso, uma vez que se aplica desde logo, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior.",
+    "pode ou não ser aplicada ao caso, a depender de manifestação expressa do acusado.",
+    "não deve ser aplicada ao caso, uma vez que parte da lei poderá trazer prejuízo ao acusado."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-072",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Maria foi vítima de um crime de ação penal pública condicionada. Inicialmente, ela foi até a delegacia de polícia e ofereceu representação contra o autor do crime. Iniciada a investigação, Maria conciliou-se com o autor do fato, percebendo que tudo não passara de um problema já superado. Considerando a situação hipotética apresentada, assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Maria não precisa retratar-se, haja vista já ter ocorrido a retratação tácita.",
+    "Uma vez feita a retratação em juízo por Maria, não há previsão legal de extinção automática da punibilidade do autor.",
+    "Maria pode retratar-se até o recebimento da denúncia, caso não o tenha feito.",
+    "Não é possível a retratação de Maria, uma vez que quem deve realizar tal ato é o autor da conduta.",
+    "Maria não pode alterar o curso do processo ou da investigação, por se tratar de crime de ação penal pública."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-074",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No processo penal, a decisão judicial feita em incidente de falsidade de documento",
+   "gabarito": "a",
+   "alternativas": [
+    "não faz coisa julgada em prejuízo de ulterior processo penal ou cível.",
+    "só fará coisa julgada em posterior processo penal ou cível se não for reconhecida a falsidade.",
+    "só fará coisa julgada em prejuízo de ulterior processo penal ou cível se reconhecida a falsidade.",
+    "fará coisa julgada em prejuízo apenas de ulterior processo penal, independentemente da decisão.",
+    "sempre fará coisa julgada em prejuízo de ulterior processo penal ou cível."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-075",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A citação, no processo penal ordinário, de réu residente no território sujeito à jurisdição do juiz que a houver ordenado será, em princípio, feita I pelo correio. II por meio eletrônico. III por mandado, entregue pessoalmente. IV por edital. Assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Nenhum item está certo.",
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Apenas o item IV está certo."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-076",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Francisco foi vítima de crime contra a honra, de ação penal privada, quatro meses antes de seu falecimento. O cônjuge, o filho e a avó, zelosos pela imagem da vítima, tinham a intenção de propor ação penal, todavia tinham diversos interesses conflitantes entre si. Considerando a situação hipotética apresentada, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Não há como ser proposta a ação penal, haja vista a morte da vítima.",
+    "O filho de Francisco terá preferência na propositura da ação penal.",
+    "A avó de Francisco terá preferência na propositura da ação penal.",
+    "O cônjuge de Francisco terá preferência na propositura da ação penal.",
+    "Não há qualquer preferência na propositura da ação penal, visto que a atuação se dá em nome de terceiro."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-077",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acórdão de tribunal de justiça que, por maioria, tranca a ação penal, por se entender que não há elementos mínimos para a propositura da referida ação, negando-se vigência a lei federal, cabe",
+   "gabarito": "e",
+   "alternativas": [
+    "recurso ordinário para o Superior Tribunal de Justiça.",
+    "embargo infringente para o tribunal de justiça.",
+    "recurso ordinário para o Supremo Tribunal Federal.",
+    "recurso em sentido estrito para o Superior Tribunal de Justiça.",
+    "recurso especial para o Superior Tribunal de Justiça."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-078",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A prisão temporária é cabível quando houver fundadas razões de autoria ou participação do indiciado em",
+   "gabarito": "b",
+   "alternativas": [
+    "lesão corporal de natureza grave.",
+    "qualquer forma de homicídio doloso.",
+    "furto.",
+    "estelionato.",
+    "peculato."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-079",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a Lei n.o 9.296/1996, que versa sobre a interceptação telefônica, a captação ambiental",
+   "gabarito": "e",
+   "alternativas": [
+    "só pode ser realizada quando se tratar de matéria de defesa.",
+    "não tem previsão legal, visto que a referida lei só versa sobre interceptação telefônica e telemática.",
+    "só pode ser admitida em juízo se houver autorização judicial, sendo nula qualquer outra hipótese de captação.",
+    "pode ser autorizada judicialmente, desde que o crime seja punível com pena privativa de liberdade.",
+    "não pode exceder o prazo de quinze dias, renovável por decisão judicial por iguais períodos, caso seja comprovada a indispensabilidade do meio da prova e quando presente atividade permanente, habitual ou continuada."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-080",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com a Lei n.o 12.850/2013, a infiltração de agentes de polícia virtuais em tarefas de investigação na Internet será admitida",
+   "gabarito": "c",
+   "alternativas": [
+    "em todos os crimes punidos com pena de reclusão.",
+    "em todos os crimes punidos com pena privativa de liberdade.",
+    "em todos os crimes previstos na referida lei e em crimes a eles conexos, praticados por organizações criminosas.",
+    "nos crimes hediondos.",
+    "nos crimes praticados com violência ou grave ameaça."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-081",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o Código Civil, em sociedade empresária, quando competir aos sócios, por lei, decidir sobre os negócios da sociedade, as deliberações serão tomadas por",
+   "gabarito": "e",
+   "alternativas": [
+    "decisão exclusiva do administrador da sociedade.",
+    "maioria simples dos votos, considerados os votos dos sócios presentes e participantes da votação.",
+    "maioria simples dos votos, consideradas as quotas sociais dos sócios presentes e participantes da votação.",
+    "maioria absoluta dos votos, computados os votos por sócio.",
+    "maioria absoluta dos votos, computados os votos por quotas sociais."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-082",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Conforme o Código Civil, a produção de efeitos perante terceiros de contratos que tenham por objeto a alienação de estabelecimento comercial de sociedade empresária depende",
+   "gabarito": "b",
+   "alternativas": [
+    "de averbação no registro público de empresas mercantis, publicação na imprensa oficial e consentimento expresso dos credores da sociedade, todos cumulativamente.",
+    "de averbação no registro público de empresas mercantis e publicação na imprensa oficial, ambos cumulativamente.",
+    "apenas da averbação no registro público de empresas mercantis.",
+    "apenas do consentimento expresso dos credores da sociedade.",
+    "apenas da publicação na imprensa oficial."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-083",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que apresenta, respectivamente, o prazo mínimo de duração dos contratos empresariais de leasing operacional e o somatório de todos os pagamentos devidos nesse contrato.",
+   "gabarito": "a",
+   "alternativas": [
+    "90 dias; até 90% do valor do bem arrendado",
+    "6 meses; até 90% do valor do bem arrendado",
+    "6 meses; até 100% do valor do bem arrendado",
+    "12 meses; até 90% do valor do bem arrendado",
+    "12 meses; até 100% do valor do bem arrendado"
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-084",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em se tratando de despersonalização da personalidade jurídica, a teoria adotada pelo Código Civil brasileiro é a",
+   "gabarito": "d",
+   "alternativas": [
+    "teoria maior, na sua vertente subjetiva.",
+    "teoria menor, nas suas duas vertentes, objetiva e subjetiva.",
+    "teoria menor, na sua vertente subjetiva.",
+    "teoria maior, nas suas duas vertentes, objetiva e subjetiva.",
+    "teoria menor, na sua vertente objetiva."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-085",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "São impedidos de exercer atividade empresarial na qualidade de sócio e administrador da sociedade",
+   "gabarito": "d",
+   "alternativas": [
+    "os servidores públicos aposentados.",
+    "os militares reformados.",
+    "os processados por crime de peculato.",
+    "os leiloeiros.",
+    "os menores de 16 anos de idade, emancipados."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-086",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Nos títulos de crédito, a necessidade da existência material do título, ou seja, a de comprovar o crédito pelo documento originário, é instituída pelo princípio da",
+   "gabarito": "e",
+   "alternativas": [
+    "abstração.",
+    "caducidade.",
+    "literalidade.",
+    "autonomia.",
+    "cartularidade."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-087",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Determinada sociedade empresária do setor industrial, enquadrada no Simples Nacional, que possua faturamento anual de R$ 450.000, estará sujeita à alíquota de",
+   "gabarito": "b",
+   "alternativas": [
+    "7,8%.",
+    "10%.",
+    "11,2%.",
+    "14,7%.",
+    "23,5%."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-088",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o Código Civil, na sociedade em comandita simples, a responsabilidade do sócio comanditado, pessoa física, é",
+   "gabarito": "a",
+   "alternativas": [
+    "solidária e ilimitada.",
+    "solidária e limitada ao valor de suas cotas.",
+    "limitada ao valor de suas cotas e subsidiária à sociedade.",
+    "ilimitada e subsidiária à sociedade.",
+    "ilimitada e subsidiária ao comanditário administrador."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-089",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando as disposições da Lei n.o 11.101/2005, julgue as afirmações seguintes. I O juízo do principal estabelecimento do devedor é competente para homologar plano de recuperação extrajudicial. II Não podem ser exigidas do devedor as obrigações a título gratuito. III A decretação de falência interrompe o curso da prescrição. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas o item II está certo.",
+    "Apenas o item III está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens I e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-090",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando o entendimento do Superior Tribunal de Justiça (STJ) em matéria de direito empresarial, julgue os seguintes itens. I Em caso de sucessão empresarial fraudulenta, a comprovação de sua ocorrência, no caso concreto, presume-se a partir da efetiva transmissão da funcionalidade do estabelecimento. II O imóvel pertencente à empresa de pequeno porte em que resida um dos sócios é protegido pela impenhorabilidade de bens de família. III Em atividade agrícola de cultivo e comercialização de grãos, consideram-se bens de capital essenciais à atividade empresarial os grãos de soja e milho enquanto produto final da atividade. Assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e II estão certos.",
+    "Apenas os itens II e III estão certos.",
+    "Todos os itens estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-091",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A guerra em curso na Ucrânia chama atenção por diversos aspectos, sobretudo pelo rastro de destruição e elevado drama humano que produz. Acerca desse conflito, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "A guerra foi iniciada como reação russa ao avanço das forças militares ocidentais sobre seu território a partir de bases situadas na Ucrânia.",
+    "O conflito enfatizou o papel da Organização do Tratado do Atlântico Norte (OTAN), uma aliança militar que foi criada na Guerra Fria pela União das Repúblicas Socialistas Soviéticas (URSS).",
+    "A Ucrânia invadiu a Rússia no ano de 2022, buscando legitimar tal atitude no fato de ter sido a pátria da qual se originou o país hoje governado por Vladimir Putin.",
+    "Essa guerra tem causado sérios transtornos para a economia dos países nela envolvidos e do mundo em geral, sobretudo em razão da interrupção ou redução do fluxo normal de exportação e importação de produtos essenciais, como petróleo, grãos e fertilizantes.",
+    "Essa guerra tem gerado milhões de refugiados ucranianos, que, diferentemente dos migrantes africanos no passado recente, encontram dificuldades instransponíveis para se fixar em países europeus."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-092",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A geopolítica mundial surgida do pós-Segunda Guerra mundial em muito se alterou e, superado, em termos imperativos, o quadro da Guerra Fria, quando o temor de um conflito nuclear manteve as principais potências exercendo um necessário equilíbrio, o mundo de hoje se vê às voltas com uma nova reconfiguração das relações internacionais. No que diz respeito à atuação da Organização das Nações Unidas (ONU) nesse contexto, julgue os itens seguintes. I Criada no imediato pós-Segunda Guerra mundial, a ONU tem sido bastante criticada nos últimos anos, sendo acusada até mesmo de omissão em situações críticas para a paz. II Desde o completo fracasso da primeira grande conferência mundial voltada para a questão ambiental promovida pela ONU no início da década de 70 do século passado, essa organização deixou de atuar na área de meio ambiente. III As ações militares que culminaram em guerras como a no Oriente Médio e, mais recentemente, a no Leste Europeu foram aprovadas pelo Conselho de Segurança da ONU. Assinale a opção correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Nenhum item está certo.",
+    "Apenas o item I está certo.",
+    "Apenas o item II está certo.",
+    "Apenas os itens I e III estão certos.",
+    "Apenas os itens II e III estão certos."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-093",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que concerne à região do Oriente Médio e ao seu papel no mundo contemporâneo, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "O Oriente Médio continua a ser estratégico para a economia mundial justamente pelo volume de petróleo que alguns de seus países produzem e comercializam.",
+    "O Irã é o país árabe com o maior número de seguidores do islamismo em todo o mundo e, em termos econômicos, sofre por não produzir petróleo e ter que se submeter a sanções internacionais.",
+    "A recém-criação oficial do Estado da Palestina, plenamente aceito por Israel, resolveu um grave problema que persistiu por décadas no Oriente Médio e que resultou em milhares de mortes.",
+    "Israel é um país que difere profundamente de seus vizinhos árabes, por ser teocrático e avesso aos padrões da democracia ocidental.",
+    "A Arábia Saudita recentemente deu exemplo de mudança de costumes e práticas ao equiparar, em direitos, mulheres e homens, pondo fim à discriminação contra as mulheres."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-094",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Na economia contemporânea, tende a ganhar espaço um novo tipo de visão e de conceito que se afasta dos padrões desenvolvidos a partir da Revolução Industrial, ao fim do século XVIII. Desse modo, adquirem crescente importância conceitos como o de sustentabilidade econômica, que pode ser corretamente entendido como",
+   "gabarito": "c",
+   "alternativas": [
+    "o retorno a uma economia pré-industrial, para eliminar toda forma de poluição ambiental.",
+    "a promoção do progresso a qualquer custo, como forma de eliminar a pobreza e as desigualdades sociais.",
+    "a produção necessária para assegurar a vida no presente e no futuro, respeitando-se os limites da natureza.",
+    "o incentivo ao uso de todo tipo de fonte de energia, por ser indispensável ao pleno desenvolvimento.",
+    "a defesa da utilização de fontes de energia fósseis, como o petróleo, por seu baixo risco ambiental."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-095",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação ao atual estágio econômico do Brasil, assinale a opção correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "O Brasil é um dos maiores exportadores mundiais de grãos e de proteína animal.",
+    "Atualmente, os maiores parceiros comerciais do Brasil são os países da África Subsaariana e da América do Norte.",
+    "Por não ser autossuficiente na produção de petróleo, o Brasil se encontra impedido de exportar esse óleo natural.",
+    "O fim do desmatamento na Amazônia e no Cerrado amplia as possibilidades de exportação brasileira.",
+    "Mesmo sem contar com aporte científico e tecnológico, estatal ou privado, o agronegócio brasileiro se expande exponencialmente."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-096",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Comumente definida como o atual estágio da economia mundial, a globalização",
+   "gabarito": "b",
+   "alternativas": [
+    "representa a ampliação desmedida do Estado na atividade econômica, reduzindo e, em alguns casos, até impedindo a atuação da iniciativa privada.",
+    "implica a abertura dos mercados para escoar uma produção que tende a se ampliar continuamente, apesar da persistência de certo protecionismo.",
+    "não admite a mediação de organismos multilaterais nas atividades mercantis globais.",
+    "enrijece sobremaneira a noção clássica e tradicional de fronteiras nacionais, para impedir a concorrência externa aos produtos nacionais.",
+    "dificulta a introdução de métodos mais modernos no sistema produtivo dos países, por temor a um aumento incontrolável das taxas de desemprego."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-097",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Quanto à realidade da atual era do conhecimento, ou era da informação, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Na atualidade, há consenso de que, conceitual e tecnicamente, conhecimento e informação são rigorosamente sinônimos.",
+    "A revolução tecnológica em curso é inédita e não tem nenhum vínculo com séculos anteriores.",
+    "O avanço da ciência, com sua aplicação em tecnologia, foi fundamental para a eliminação da desigualdade entre os povos.",
+    "Apesar dos seus inegáveis benefícios, os modernos meios de comunicação também são úteis ao crime organizado, que deles faz uso em sua atuação global.",
+    "Ainda é reduzido o impacto da tecnologia da informação, em suas variadas manifestações, no sistema produtivo."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-098",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação à estrutura política e eleitoral em vigor no Brasil, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "O pluripartidarismo foi formalmente suprimido do cenário político brasileiro, restando apenas dois grandes partidos políticos em ação no Brasil.",
+    "As eleições de governador de estado sempre acontecem em anos alternados com a eleição de presidente da República.",
+    "Prefeitos e vereadores são eleitos por voto indireto.",
+    "Os senadores têm mandato de oito anos, enquanto os deputados federais têm mandato de quatro anos.",
+    "No Brasil, os analfabetos e as pessoas com mais de setenta anos de idade não têm direito de votar nas eleições."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-099",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação ao papel da educação no desenvolvimento econômico e na consolidação da cidadania no Brasil, assinale a opção correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "O exercício da cidadania, cujo fortalecimento é um objetivo da educação, circunscreve-se às eleições.",
+    "Com recentes investimentos financeiros do Estado, foi superado todo o problema da qualidade da educação básica brasileira.",
+    "Educação básica de qualidade e inclusiva é fundamental para o aumento da produtividade econômica.",
+    "Historicamente, o financiamento da educação básica é maior que o da educação superior, se considerado o número de matriculados.",
+    "É pleno o atual domínio das instituições públicas no número de matrículas na educação superior, restando à iniciativa privada uma participação secundária."
+   ]
+  },
+  {
+   "id": "cebraspe-2022-tj-sc-modalidade-provimento-100",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2022,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Tendo em vista que, atualmente, o Brasil é uma República federativa e segue o modelo presidencialista de governo, assinale a opção correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "No presidencialismo existente no Brasil, a nomeação de ministros de Estado depende da aprovação formal do Poder Legislativo.",
+    "O Poder Legislativo brasileiro segue o modelo estadunidense, razão pela qual é unicameral, ou seja, há apenas uma assembleia geral.",
+    "A eleição presidencial brasileira é feita por voto direto e universal, mas a aprovação do resultado das urnas necessita do aval de um colégio eleitoral, à maneira da realidade estadunidense.",
+    "O Poder Executivo brasileiro, no âmbito da União, é exercido pelo presidente da República, auxiliado pelos ministros de Estado; nos estados, pelos governadores; nos municípios, pelos prefeitos.",
+    "O Poder Judiciário brasileiro, cuja posição mais elevada é ocupada pelo Superior Tribunal de Justiça, é responsável pela elaboração das leis relativas ao direito penal."
    ]
   }
  ]

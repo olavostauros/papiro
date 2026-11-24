@@ -1,0 +1,66 @@
+{
+ "banca": "cebraspe",
+ "evento": "TJ_SC_22_NOTARIOS",
+ "workdir": "/tmp/tj_sc_22_notarios",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Tribunal de Justiça de Santa Catarina",
+  "ano": 2022,
+  "id_orgao": "tj-sc"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Modalidade por Provimento",
+   "id_cargo": "modalidade-provimento",
+   "provas": [
+    {
+     "key": "TJSCPROVIMENTO_001_01",
+     "prova": "pro_TJSCPROVIMENTO_001_01.pdf",
+     "gabarito": "gab_TJSCPROVIMENTO_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "719_TJSCPROVIMENTO_001_01.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Modalidade por Remoção",
+   "id_cargo": "modalidade-remocao",
+   "provas": []
+  }
+ ],
+ "unmatched": [
+  {
+   "key": "P_Malote1_Ponto1_TJSC_No",
+   "prova": "pro_P_Malote1_Ponto1_TJSC_No.pdf",
+   "gabarito": "gab_P_MALOTE1_PONTO1_TJSC_NO.pdf",
+   "tipo": "ce",
+   "arquivo": "P_Malote1_Ponto1_TJSC_Notarios_Subjudice_Oral_ComPadrao.pdf"
+  },
+  {
+   "key": "P_MALOTE1_PONTO3_TJSC_NO",
+   "prova": "pro_P_MALOTE1_PONTO3_TJSC_NO.pdf",
+   "gabarito": "gab_P_MALOTE1_PONTO3_TJSC_NO.pdf",
+   "tipo": "ce",
+   "arquivo": "P_MALOTE1_PONTO3_TJSC_NOTARIOS_SUBJUDICE_ORAL_COMPADRAO.PDF"
+  },
+  {
+   "key": "TJ_SC_NOTRIOS_001",
+   "prova": "pro_TJ_SC_NOTRIOS_001.pdf",
+   "gabarito": "gab_TJ_SC_22_NOTARIOS_PADRO_.pdf",
+   "tipo": "ce",
+   "arquivo": "877_TJ_SC_NOTRIOS_001.PDF"
+  },
+  {
+   "key": "TJSCREMOCAO_001_01",
+   "prova": "pro_TJSCREMOCAO_001_01.pdf",
+   "gabarito": "gab_TJSCNOTARIOSREMOCAO_001_.pdf",
+   "tipo": "mc",
+   "arquivo": "720_TJSCREMOCAO_001_01.PDF"
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}
