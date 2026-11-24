@@ -1,0 +1,30 @@
+{
+ "evento": "IBGE_21_PSS_APT",
+ "workdir": "/tmp/ibge_21_pss_apt",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "IBGE",
+  "ano": 2021,
+  "id_orgao": "ibge"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Agente de Pesquisas por Telefone",
+   "id_cargo": "agente-pesquisas-telefone",
+   "provas": [
+    {
+     "key": "obj",
+     "prova": "pro_MATRIZ_MONTADA.pdf",
+     "gabarito": "gab_PRELIMINAR_MATRIZ_IBGE_A.pdf",
+     "tipo": "mc",
+     "arquivo": "587_MATRIZ_MONTADA.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}
