@@ -125,8 +125,10 @@ Spawn them with `run_subagent(profile: ...)`:
   stack on the VM **as the non-root `papiro` user** (uid 10001 — bind
   mounts `data/`/`crawler/jobs/` must be writable by it), runs the
   scheduled ingest via `compose run`, verifies posture (no db port, no
-  secret dumps). Emits a **relatório de fiscalização** com não
-  conformidades + determinações.
+  secret dumps), and **owns the VM git lifecycle** — watches the
+  `papiro-git-sync` timer, resolves rebase CONFLITOs, and decides when
+  local commits ship to the host via `git bundle` + `gcloud scp`. Emits
+  a **relatório de fiscalização** com não conformidades + determinações.
 - `escriba` — frontend/UX scribe. Owns `web/` (Astro + Tailwind v4,
   custom elements, design system) and wires the user experience to the
   read-only API through `web/src/data/questions.ts`. Enforces
