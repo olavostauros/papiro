@@ -222,6 +222,10 @@ hardcoded to `notes/` — run `notes deobfuscate --dir .agents` manually.
 
 ## Development
 
+Host: Omarchy (Arch) — editor padrão é `nvim`. A VM `papiro-vm`
+(Debian 12) também tem neovim instalado via apt (0.7.2) — prefira-o
+a vim/nano em edições remotas.
+
 The site lives in `web/` — run all npm/Astro commands from that directory.
 
 ```
