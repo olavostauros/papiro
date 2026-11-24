@@ -1,0 +1,231 @@
+{
+ "evento": "PG_DF_19",
+ "workdir": "/tmp/pg_df_19",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Procuradoria-Geral do Distrito Federal",
+  "ano": 2019,
+  "id_orgao": "pg-df"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista Jurídico – Especialidade: Administração",
+   "id_cargo": "administracao",
+   "provas": [
+    {
+     "key": "obj01",
+     "prova": "pro_PGDF_001_COM_JUSTIFICATI.pdf",
+     "gabarito": "gab_PGDF_001.txt",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_521_PGDF_001_COM_JUSTIFICATIVA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista Jurídico – Especialidade: Analista de Sistema (Desenvolvimento de Sistema)",
+   "id_cargo": "analista-sistema-desenvolvimento",
+   "provas": [
+    {
+     "key": "obj02",
+     "prova": "pro_PGDF_002_COM_JUSTIFICATI.pdf",
+     "gabarito": "gab_PGDF_002.txt",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_521_PGDF_002_COM_JUSTIFICATIVA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista Jurídico – Especialidade: Analista de Sistema (Suporte e Infraestrutura)",
+   "id_cargo": "analista-sistema-suporte",
+   "provas": [
+    {
+     "key": "obj03",
+     "prova": "pro_PGDF_003_COM_JUSTIFICATI.pdf",
+     "gabarito": "gab_PGDF_003.txt",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_521_PGDF_003_COM_JUSTIFICATIVA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista Jurídico – Especialidade: Arquivologia",
+   "id_cargo": "arquivologia",
+   "provas": [
+    {
+     "key": "obj04",
+     "prova": "pro_PGDF_004_COM_JUSTIFICATI.pdf",
+     "gabarito": "gab_PGDF_004.txt",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_521_PGDF_004_COM_JUSTIFICATIVA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Analista Jurídico – Especialidade: Biblioteconomia",
+   "id_cargo": "biblioteconomia",
+   "provas": [
+    {
+     "key": "obj05",
+     "prova": "pro_PGDF_005_COM_JUSTIFICATI.pdf",
+     "gabarito": "gab_PGDF_005.txt",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_521_PGDF_005_COM_JUSTIFICATIVA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Analista Jurídico – Especialidade: Contabilidade",
+   "id_cargo": "contabilidade",
+   "provas": [
+    {
+     "key": "obj06",
+     "prova": "pro_PGDF_006_COM_JUSTIFICATI.pdf",
+     "gabarito": "gab_PGDF_006.txt",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_521_PGDF_006_COM_JUSTIFICATIVA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Analista Jurídico – Especialidade: Direito e Legislação",
+   "id_cargo": "direito-legislacao",
+   "provas": [
+    {
+     "key": "obj07",
+     "prova": "pro_PGDF_007_COM_JUSTIFICATI.pdf",
+     "gabarito": "gab_PGDF_007.txt",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_521_PGDF_007_COM_JUSTIFICATIVA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Analista Jurídico – Especialidade: Estatística",
+   "id_cargo": "estatistica",
+   "provas": [
+    {
+     "key": "obj08",
+     "prova": "pro_PGDF_008_COM_JUSTIFICATI.pdf",
+     "gabarito": "gab_PGDF_008.txt",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_521_PGDF_008_COM_JUSTIFICATIVA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Analista Jurídico – Especialidade: Farmácia",
+   "id_cargo": "farmacia",
+   "provas": [
+    {
+     "key": "obj09",
+     "prova": "pro_PGDF_009_COM_JUSTIFICATI.pdf",
+     "gabarito": "gab_PGDF_009.txt",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_521_PGDF_009_COM_JUSTIFICATIVA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Analista Jurídico – Especialidade: Jornalismo",
+   "id_cargo": "jornalismo",
+   "provas": [
+    {
+     "key": "obj10",
+     "prova": "pro_PGDF_010_COM_JUSTIFICATI.pdf",
+     "gabarito": "gab_PGDF_010.txt",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_521_PGDF_010_COM_JUSTIFICATIVA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Analista Jurídico – Especialidade: Psicologia",
+   "id_cargo": "psicologia",
+   "provas": [
+    {
+     "key": "obj11",
+     "prova": "pro_PGDF_011_COM_JUSTIFICATI.pdf",
+     "gabarito": "gab_PGDF_011.txt",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_521_PGDF_011_COM_JUSTIFICATIVA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Técnico Jurídico – –Especialidade: Apoio Administrativo",
+   "id_cargo": "apoio-administrativo",
+   "provas": [
+    {
+     "key": "obj12",
+     "prova": "pro_PGDF_012_COM_JUSTIFICATI.pdf",
+     "gabarito": "gab_PGDF_012.txt",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_521_PGDF_012_COM_JUSTIFICATIVA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Técnico Jurídico – Especialidade: Eletricidade e Comunicação",
+   "id_cargo": "eletricidade-comunicacao",
+   "provas": [
+    {
+     "key": "obj13",
+     "prova": "pro_PGDF_013_COM_JUSTIFICATI.pdf",
+     "gabarito": "gab_PGDF_013.txt",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_521_PGDF_013_COM_JUSTIFICATIVA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "Técnico Jurídico – Especialidade: Tecnologia e Informação",
+   "id_cargo": "tecnologia-informacao",
+   "provas": [
+    {
+     "key": "obj14",
+     "prova": "pro_PGDF_014_COM_JUSTIFICATI.pdf",
+     "gabarito": "gab_PGDF_014.txt",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_521_PGDF_014_COM_JUSTIFICATIVA.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "obj01": {
+   "1": "O texto discute a noção de sonho vinculando-a à dimensão cultural e social do mundo contemporâneo."
+  },
+  "obj12": {
+   "1": "Conforme os dados apresentados no texto, de modo geral, as mulheres estão mais vulneráveis às relações precárias de trabalho do que os homens.",
+   "4": "A frase “Essa afirmação está incorreta?” (R. 7 e 8) constitui um recurso retórico empregado para introduzir uma constatação."
+  },
+  "obj13": {
+   "1": "Conforme os dados apresentados no texto, de modo geral, as mulheres estão mais vulneráveis às relações precárias de trabalho do que os homens.",
+   "4": "A frase “Essa afirmação está incorreta?” (R. 7 e 8) constitui um recurso retórico empregado para introduzir uma constatação."
+  },
+  "obj14": {
+   "1": "Conforme os dados apresentados no texto, de modo geral, as mulheres estão mais vulneráveis às relações precárias de trabalho do que os homens.",
+   "4": "A frase “Essa afirmação está incorreta?” (R. 7 e 8) constitui um recurso retórico empregado para introduzir uma constatação."
+  },
+  "obj08": {
+   "63": "P(X + Y/2 ≤ 0) < P(X + Y/2 > 0)"
+  }
+ }
+}
