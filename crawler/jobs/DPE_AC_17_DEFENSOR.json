@@ -1,0 +1,36 @@
+{
+ "banca": "cebraspe",
+ "evento": "DPE_AC_17_DEFENSOR",
+ "workdir": "/tmp/dpe_ac_17_defensor",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "DPE-AC",
+  "ano": 2017,
+  "id_orgao": "dpe-ac"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Defensor Público do Estado do Acre",
+   "id_cargo": "defensor",
+   "provas": [
+    {
+     "key": "DPEAC_001_01",
+     "prova": "pro_DPEAC_001_01.pdf",
+     "gabarito": "gab_DPEAC_001_01.pdf",
+     "tipo": "mc",
+     "arquivo": "338_DPEAC_001_01.pdf"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "DPEAC_001_01": {
+   "67": "Em determinado dia — dia X —, foi registrado flagrante relativo ao cometimento de condutas tidas por criminosas por: André, com dez anos de idade, Bruna, com treze anos de idade, Carla, com dezessete anos de idade, e Diego, com dezoito anos de idade completados no referido dia. Na situação hipotética descrita, conforme as disposições do ECA e da Convenção Internacional sobre os Direitos da Criança, no dia X,",
+   "68": "Em determinado dia — dia X —, foi registrado flagrante relativo ao cometimento de condutas tidas por criminosas por: André, com dez anos de idade, Bruna, com treze anos de idade, Carla, com dezessete anos de idade, e Diego, com dezoito anos de idade completados no referido dia. Considerando as informações apresentadas, assinale a opção correta."
+  }
+ }
+}
