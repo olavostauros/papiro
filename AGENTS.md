@@ -148,6 +148,46 @@ Spawn them with `run_subagent(profile: ...)`:
   (acervo, irregularidades, destino, devoluções). Spawn it to ingest an
   evento, reconcile the dataset, or launch the deploy.
 
+## Encrypted `.agents/` (notes + git-crypt)
+
+Since 2026-11-24 `.agents/**` is git-crypt-encrypted with filenames
+obfuscated via [`notes`](https://github.com/KnickKnackLabs/notes)
+(`--dir .agents`, notes `0.10.3`, rudi `0.5.4`). Git stores
+`.agents/<8-hex>` ciphertext blobs; unlocked clones see readable names.
+History was rewritten (filter-repo) — plaintext .agents exists in no
+reachable commit; old SHAs may linger in GitHub caches — treat
+pre-2026-11-24 content as previously public.
+
+On unlocked machines (host, VM) files just work — read/write normally.
+Commit changes through the notes pipeline so blobs stay encrypted and
+names opaque:
+
+```
+notes stage --all --dir .agents          # or let the pre-commit hook auto-obfuscate
+git commit -m "..."                       # hooks obfuscate + verify
+notes changes --dir .agents              # readable diffs
+notes verify-blobs --ref HEAD --strict --dir .agents   # before pushing
+```
+
+Joining an existing clone: `git crypt unlock` (needs a collaborator
+GPG key in the local keyring) → `notes install-hooks --yes --dir
+.agents` → `notes deobfuscate --dir .agents`. Plain `git pull` then
+auto-deobfuscates via the post-merge hook. The VM (`~/papiro`) is a GPG
+collaborator — add users with `notes add-user --gpg-key <fpr>` from the
+host; symmetric break-glass key at `.env/git-crypt/papiro.key` +
+1Password doc "papiro git-crypt symmetric key" (vault Agents).
+
+**Caveat (notes 0.10.3):** the package's hook templates drop `--dir` on
+`run_notes obfuscate|deobfuscate`, breaking custom dirs. Patched
+locally at
+`~/.local/share/mise/installs/shiv-notes/0.10.3/packages/notes/hooks/*.template`
+(and on the VM). Reinstalling/upgrading notes reverts it — re-apply:
+`sed -i 's/run_notes deobfuscate/run_notes deobfuscate --dir
+"$NOTES_ROOT"/g; s/run_notes obfuscate/run_notes obfuscate --dir
+"$NOTES_ROOT"/g' <pkg>/hooks/*.template` then `notes install-hooks
+--yes --dir .agents`. Also `notes unlock`'s deobfuscation check is
+hardcoded to `notes/` — run `notes deobfuscate --dir .agents` manually.
+
 ## Development
 
 The site lives in `web/` — run all npm/Astro commands from that directory.
