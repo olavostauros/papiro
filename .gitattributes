@@ -1,0 +1,2 @@
+.agents/**                               filter=git-crypt diff=git-crypt
+.agents/.manifest merge=manifest
