@@ -1,0 +1,281 @@
+{
+ "banca": "cebraspe",
+ "evento": "AGSUS_26_SESMT",
+ "workdir": "/tmp/agsus_26_sesmt",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Agência Brasileira de Apoio à Gestão do SUS",
+  "ano": 2026,
+  "id_orgao": "agsus"
+ },
+ "cargos": [
+  {
+   "idArea": "06",
+   "cargo": "Analista de Gestão: Enfermeiro do Trabalho",
+   "id_cargo": "analista-gestao-enfermeiro-trabalho",
+   "provas": [
+    {
+     "key": "cb-sup",
+     "prova": "pro_35A02C607364DC8BC4EA4F1A.pdf",
+     "gabarito": "gab_cb-sup.txt",
+     "tipo": "ce",
+     "arquivo": "35A02C607364DC8BC4EA4F1ACA9A27A52358153AC0B237FE6884971080519A13.pdf"
+    },
+    {
+     "key": "esp1",
+     "prova": "pro_E1D9804A55F9268BF4E56404.pdf",
+     "gabarito": "gab_esp1.txt",
+     "tipo": "ce",
+     "arquivo": "E1D9804A55F9268BF4E564041E76E4BE26AFAE7C6FE05721F6A4693FBB9B31CA.pdf",
+     "num_offset": 20
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Analista de Gestão: Engenharia do Trabalho",
+   "id_cargo": "analista-gestao-engenharia-trabalho",
+   "provas": [
+    {
+     "key": "cb-sup",
+     "prova": "pro_35A02C607364DC8BC4EA4F1A.pdf",
+     "gabarito": "gab_cb-sup.txt",
+     "tipo": "ce",
+     "arquivo": "35A02C607364DC8BC4EA4F1ACA9A27A52358153AC0B237FE6884971080519A13.pdf"
+    },
+    {
+     "key": "esp2",
+     "prova": "pro_BEDEBD142B98048970509E67.pdf",
+     "gabarito": "gab_esp2.txt",
+     "tipo": "ce",
+     "arquivo": "BEDEBD142B98048970509E670A1D4CD4C9BDB4928841AFF0340814EA1F683A99.pdf",
+     "num_offset": 20
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Analista de Gestão: Médico do Trabalho",
+   "id_cargo": "analista-gestao-medico",
+   "provas": [
+    {
+     "key": "cb-sup",
+     "prova": "pro_35A02C607364DC8BC4EA4F1A.pdf",
+     "gabarito": "gab_cb-sup.txt",
+     "tipo": "ce",
+     "arquivo": "35A02C607364DC8BC4EA4F1ACA9A27A52358153AC0B237FE6884971080519A13.pdf"
+    },
+    {
+     "key": "esp3",
+     "prova": "pro_7E3DB1B82225358921C93554.pdf",
+     "gabarito": "gab_esp3.txt",
+     "tipo": "ce",
+     "arquivo": "7E3DB1B82225358921C93554CF34386A043C7DEE5CDF29D77D1C720A6E22CA69.pdf",
+     "num_offset": 20
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Técnico de Enfermagem do Trabalho",
+   "id_cargo": "tecnico-enfermagem-trabalho",
+   "provas": [
+    {
+     "key": "cb-tec",
+     "prova": "pro_C66A29B4FF65E676D8AA1024.pdf",
+     "gabarito": "gab_cb-tec.txt",
+     "tipo": "ce",
+     "arquivo": "C66A29B4FF65E676D8AA10242D3CB4C5F3FD99B7C32945298F0108ECC67769C0.pdf"
+    },
+    {
+     "key": "esp4",
+     "prova": "pro_A937A7F949B834F98FB4C520.pdf",
+     "gabarito": "gab_esp4.txt",
+     "tipo": "ce",
+     "arquivo": "A937A7F949B834F98FB4C520BDA0D024822D8B20EFB9B3B8D32A4A6745DA9CAA.pdf",
+     "num_offset": 20
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Técnico de Segurança do Trabalho",
+   "id_cargo": "tecnico-seguranca-trabalho",
+   "provas": [
+    {
+     "key": "cb-tec",
+     "prova": "pro_C66A29B4FF65E676D8AA1024.pdf",
+     "gabarito": "gab_cb-tec.txt",
+     "tipo": "ce",
+     "arquivo": "C66A29B4FF65E676D8AA10242D3CB4C5F3FD99B7C32945298F0108ECC67769C0.pdf"
+    },
+    {
+     "key": "esp5",
+     "prova": "pro_922DB9339AFE8999D021035F.pdf",
+     "gabarito": "gab_esp5.txt",
+     "tipo": "ce",
+     "arquivo": "922DB9339AFE8999D021035F5A74C162F01641E8401883D6A5DC54DF732F76FD.pdf",
+     "num_offset": 20
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "cb-sup": {
+   "1": "A descentralização é diretriz do SUS que envolve a distribuição de responsabilidades e atribuições entre União, estados, Distrito Federal e municípios.",
+   "2": "Os municípios podem constituir consórcios entre si para desenvolver conjuntamente ações e serviços de saúde, conforme as normas legais aplicáveis.",
+   "3": "A organização dos serviços do SUS deve considerar as características epidemiológicas e territoriais da população, contribuindo para a definição das prioridades de saúde.",
+   "4": "A Política Nacional de Atenção Básica estabelece que as ações da atenção primária devem concentrar-se no atendimento espontâneo realizado dentro das unidades de saúde.",
+   "5": "A Política Nacional de Vigilância em Saúde deve atuar separadamente das demais políticas do SUS, pois suas ações são restritas à investigação de doenças transmissíveis.",
+   "6": "O usuário tem direito à preservação de sua intimidade e à confidencialidade das informações pessoais relacionadas ao atendimento em saúde.",
+   "7": "As conferências de saúde devem ser compostas exclusivamente por gestores e profissionais, pois a participação de usuários comprometeria o caráter técnico das discussões.",
+   "8": "A participação dos usuários nos conselhos de saúde deve ocorrer apenas quando houver problemas na prestação dos serviços, não sendo necessária sua atuação nos processos de planejamento das políticas.",
+   "9": "A atenção terciária envolve serviços de maior densidade tecnológica, destinados a situações que exigem cuidados especializados e recursos mais complexos.",
+   "10": "A contrarreferência consiste no encaminhamento inicial do usuário da atenção primária para um serviço de maior complexidade, antes da realização de qualquer atendimento especializado.",
+   "11": "A AgSUS consiste em um serviço social autônomo instituído como pessoa jurídica de direito privado, sem fins lucrativos, de interesse coletivo e de utilidade pública.",
+   "12": "A estrutura da AgSUS é composta pelo Conselho Deliberativo, pela Diretoria-Executiva e pelo Conselho Fiscal.",
+   "13": "A participação no Conselho Deliberativo da AgSUS constitui atividade remunerada, sendo obrigatório o pagamento de gratificação a seus integrantes, pelo exercício da função.",
+   "14": "As bolsas concedidas aos participantes do Projeto Mais Médicos para o Brasil integram os vencimentos dos profissionais para todos os efeitos legais e previdenciários.",
+   "15": "A Estratégia Nacional de Formação de Especialistas para a Saúde deve ser financiada diretamente pelos municípios participantes do Programa Mais Médicos.",
+   "16": "A atuação da AgSUS prevista no contrato de gestão tem ênfase na atenção primária à saúde e na atenção à saúde indígena.",
+   "17": "A AgSUS deve respeitar a diretriz constitucional da descentralização das ações e dos serviços de saúde na execução das atividades previstas no contrato de gestão.",
+   "18": "No cumprimento do contrato de gestão, a AgSUS deve assegurar ampla transparência na gestão das informações, conciliando o acesso e a divulgação dos dados com a preservação das hipóteses legais de sigilo e das restrições aplicáveis às informações pessoais sensíveis.",
+   "19": "A AgSUS poderá delegar integralmente a terceiros a execução do objeto do contrato de gestão, desde que mantenha o acompanhamento dos resultados alcançados.",
+   "20": "A avaliação dos objetivos, das metas e dos indicadores dos programas de trabalho será realizada apenas ao final da vigência do contrato de gestão."
+  },
+  "cb-tec": {
+   "1": "A Constituição Federal de 1988 estabelece como diretriz do SUS o atendimento integral, com prioridade para as atividades preventivas, sem prejuízo dos serviços assistenciais.",
+   "2": "A descentralização, diretriz constitucional do SUS, está associada à existência de direção única em cada esfera de governo.",
+   "3": "A hierarquização organiza as ações e os serviços de saúde segundo diferentes níveis de complexidade, favorecendo a articulação da assistência.",
+   "4": "A iniciativa privada integra o SUS em caráter substitutivo, assumindo a prestação dos serviços públicos sempre que houver necessidade de ampliação da assistência.",
+   "5": "A participação da comunidade no SUS ocorre exclusivamente por meio do atendimento prestado pelos profissionais de saúde aos usuários.",
+   "6": "No SUS, o encaminhamento de um usuário da atenção primária para um serviço especializado não implica necessariamente a transferência definitiva da responsabilidade integral pelo cuidado para esse serviço.",
+   "7": "A atenção terciária realiza o atendimento de condições clínicas e cirúrgicas graves, raras ou de elevado risco à vida, demandando suporte hospitalar intensivo, centros cirúrgicos especializados e equipamentos de diagnóstico e de terapêutica de ponta.",
+   "8": "A definição das prioridades de uma política de saúde deve considerar, principalmente, a disponibilidade financeira do gestor, independentemente da magnitude e da distribuição dos problemas de saúde.",
+   "9": "Uma vez implantada uma política de saúde, sua continuidade dispensa processos sistemáticos de monitoramento e avaliação, pois os resultados esperados foram definidos no planejamento inicial.",
+   "10": "O profissional de saúde pode deixar de fornecer informações sobre o diagnóstico ao usuário sempre que considerar que elas podem dificultar a adesão ao tratamento.",
+   "11": "O Conselho Deliberativo deve aprovar o planejamento estratégico da AgSUS em consonância com o contrato de gestão firmado com o Poder Executivo federal por meio do Ministério da Saúde.",
+   "12": "O mandato dos membros do Conselho Deliberativo da AgSUS tem duração de dois anos, permitida uma recondução por igual período.",
+   "13": "A AgSUS poderá executar novas iniciativas do Ministério da Saúde, sem que seja necessária a aprovação do Conselho Deliberativo ou a alteração do programa de trabalho.",
+   "14": "A concessão de acesso às informações relativas aos recursos públicos recebidos pela AgSUS no âmbito do contrato de gestão é facultativa, podendo a agência restringi-lo por decisão administrativa própria.",
+   "15": "Os ajustes extraordinários do plano de ação anual podem ser apresentados pela AgSUS a qualquer momento do exercício, independentemente de justificativa ou compatibilidade orçamentária.",
+   "16": "A definição das áreas com vazios assistenciais e dos locais de difícil provimento em que a AgSUS atuará compete exclusivamente à própria agência, independentemente de manifestação do Ministério da Saúde ou de outros órgãos do SUS.",
+   "17": "A remuneração dos profissionais médicos do Programa Médicos pelo Brasil é regulamentada em ato da AgSUS, aprovado pelo Conselho Deliberativo, e pode incluir incentivo financeiro diferenciado e variável.",
+   "18": "É vedado aos profissionais vinculados à AgSUS prometer, oferecer ou autorizar, direta ou indiretamente, benefícios ou vantagens a agente público ou privado com o objetivo de obter benefício indevido.",
+   "19": "Participam, com direito a voto, das reuniões do Conselho Deliberativo os convidados especiais que possuírem notório saber sobre as atividades da AgSUS.",
+   "20": "A AgSUS pode desenvolver atividades de ensino, pesquisa, extensão e inovação mediante integração entre ensino e serviço."
+  },
+  "esp1": {
+   "1": "A NR-7 estabelece diretrizes relacionadas ao programa de controle médico de saúde ocupacional (PCMSO), promovendo a integração do acompanhamento da saúde dos trabalhadores a ações de prevenção.",
+   "2": "As empresas que possuem laudo técnico das condições ambientais do trabalho (LTCAT) estão isentas da fiscalização sanitária pelo SUS.",
+   "3": "A NR-1 estabelece disposições gerais sobre segurança e saúde no trabalho, assim como diretrizes para o gerenciamento de riscos ocupacionais.",
+   "4": "A realização de alterações em diretrizes ergonômicas da NR-17 prescinde do acompanhamento de dados epidemiológicos notificados pelos serviços do SUS.",
+   "5": "A equidade na atenção primária à saúde pressupõe a oferta das mesmas ações e serviços a todos os usuários, independentemente de necessidades particulares da população, de modo a assegurar uniformidade na organização do cuidado no território.",
+   "6": "Na atenção primária à saúde, a longitudinalidade do cuidado pressupõe o acompanhamento das pessoas ao longo do tempo, favorecendo a construção de vínculo entre usuários e equipes de saúde.",
+   "7": "A atenção primária à saúde deve priorizar os atendimentos de maior complexidade clínica, encaminhando os demais casos para ações de promoção e prevenção.",
+   "8": "Na organização do processo de trabalho na atenção primária à saúde, devem-se manter separadas as ações de assistência e vigilância, com vistas à preservação das atribuições específicas de cada área.",
+   "9": "Nos serviços de saúde, os riscos químicos podem decorrer da manipulação ou exposição a substâncias utilizadas em procedimentos, limpeza, desinfecção ou atividades laboratoriais.",
+   "10": "A utilização de equipamentos de proteção individual deve estar associada a outras medidas de prevenção capazes de reduzir a exposição dos trabalhadores a riscos ocupacionais.",
+   "11": "Retirar manualmente a agulha da seringa antes de sua destinação ao recipiente apropriado é um dos procedimentos previstos nas normas de biossegurança para o descarte de agulhas já utilizadas em procedimentos de saúde.",
+   "12": "A desinfecção de materiais é o processo indicado para a eliminação de todas as formas de vida microbiana, inclusive dos esporos bacterianos.",
+   "13": "A Estratégia Saúde da Família concentra suas ações no atendimento individual realizado dentro da unidade de saúde, utilizando o território principalmente como referência para delimitação da área de cobertura.",
+   "14": "A busca ativa pode ser utilizada pelas equipes de saúde da família para identificar pessoas ou situações que demandem acompanhamento pelos serviços de saúde.",
+   "15": "O conhecimento das características epidemiológicas do território deve ser utiliza do precipuamente para registrar doenças já identificadas, sendo inapropriado para subsidiar a definição das prioridades das equipes.",
+   "16": "O acompanhamento das famílias pode considerar condições de saúde, contexto social e fatores que interferem no processo saúde-doença.",
+   "17": "O exame admissional deve ser realizado antes de o trabalhador assumir suas atividades na organização.",
+   "18": "Exames complementares tecnicamente justificados no PCMSO podem ser solicitados pelo médico responsável quando necessários para avaliação da exposição aos riscos ocupacionais classificados no plano de gerenciamento de riscos (PGR).",
+   "19": "O exame de mudança de risco ocupacional deve ocorrer apenas quando houver alteração do cargo formal do trabalhador, independentemente de exposições existentes com relação a novos riscos.",
+   "20": "A realização de exames médicos ocupacionais no PCMSO torna irrelevante a adoção de medidas destinadas ao controle de riscos presentes no ambiente de trabalho."
+  },
+  "esp2": {
+   "1": "O profissional de engenharia deve comunicar situações que possam comprometer sua independência técnica ou caracterizar conflito de interesses, abstendo-se de utilizar sua posição profissional para obter vantagens indevidas.",
+   "2": "Na execução de obras, a integridade envolve não apenas a observância de normas legais, mas também a adoção de mecanismos de prevenção, controle, transparência e responsabilização.",
+   "3": "Alterações relevantes em projeto ou no escopo de uma obra devem ser formalmente justificadas e documentadas, especialmente quando produzirem impactos sobre custos, prazos ou características técnicas da contratação.",
+   "4": "Para fins da NR-35, qualquer atividade executada acima de dois metros de altura é considerada trabalho em altura, independentemente da existência de risco de queda.",
+   "5": "De acordo com a NR-6, o simples fornecimento de EPI ao trabalhador é suficiente para afastar integralmente a responsabilidade do empregador quanto à proteção individual.",
+   "6": "A NR-9 determina que toda exposição ocupacional a agentes físicos, químicos ou biológicos deve ser eliminada para a proteção integral dos trabalhadores, sendo proibida a adoção de medidas de controle destinadas a apenas mitigar a exposição.",
+   "7": "A análise de relatórios de acidentes e incidentes em organizações deve considerar não apenas o evento ocorrido, mas também suas causas e as condições organizacionais que contribuíram para sua ocorrência.",
+   "8": "Os registros de quase acidentes podem ser considerados relevantes para o acompanhamento preventivo, mesmo quando não tenham provocado lesões ou danos materiais.",
+   "9": "Nos relatórios de segurança, os indicadores de acidentes e afastamentos devem ser analisados isoladamente, pois sua combinação com outros indicadores pode dificultar a interpretação dos resultados.",
+   "10": "No mapa de riscos, as cores identificam o grau do risco, sendo o verde utilizado para indicar pequeno grau de risco, o amarelo, médio grau, e o vermelho, grande grau de risco.",
+   "11": "A representação gráfica de riscos em mapas de risco deve estar associada ao setor ou local de trabalho em que esses riscos são identificados.",
+   "12": "O mapa de risco deve apresentar apenas riscos físicos, químicos e biológicos, uma vez que fatores ergonômicos e riscos de acidentes não podem ser representados graficamente.",
+   "13": "O relatório de análise ergonômica do trabalho, quando realizado, deve permanecer à disposição na organização pelo prazo de vinte anos.",
+   "14": "As pausas destinadas à recuperação psicofisiológica devem ser descontadas do tempo efetivamente trabalhado, pois não integram o período de trabalho do empregado.",
+   "15": "Para proporcionar conforto térmico nas situações de trabalho em ambientes climatizados, a temperatura do ar deve ser, no máximo, de 21 °C.",
+   "16": "Ao constituir uma comissão interna de prevenção de acidentes e de assédio (CIPA), a organização deve designar seus representantes e o presidente, ao passo que os representantes dos empregados devem ser por eles eleitos, sendo o vice-presidente o titular mais votado.",
+   "17": "O programa de controle médico de saúde ocupacional (PCMSO) não deve ter finalidade de seleção de pessoal.",
+   "18": "Compete ao serviço especializado em engenharia de segurança e em medicina do trab alho (SESMT) coordenar e gerenciar a comissão interna de prevenção de acidentes e de assédio (CIPA), quando existente.",
+   "19": "O serviço especializado em engenharia de segurança e em medicina do trabalho (SESMT) deve ser coordenado por um de seus profissionais integrantes, não havendo exigência de que ele tenha formação de nível superior.",
+   "20": "A elaboração do programa de controle médico de saúde ocupacional (PCMSO) deve considerar riscos ocupacionais identificados e classificados pelo programa de gerenciamento de riscos (PGR)."
+  },
+  "esp3": {
+   "1": "A estratégia saúde da família é considerada prioritária para a expansão e a consolidação da atenção primária à saúde no âmbito do SUS.",
+   "2": "A territorialização permite à equipe de atenção primária conhecer as características demográficas, epidemio lógicas, sociais e ambientais da população sob sua responsabilidade.",
+   "3": "As políticas públicas de saúde são formuladas exclusivamente pelo Ministério da Saúde, cabendo aos estados e municípios a execução das decisões definidas pela União.",
+   "4": "A implementação de uma política pública de saúde pode produzir resultados diferentes daqueles inicialmente previstos, em razão das condições institucionais, econômicas, sociais e territoriais existentes.",
+   "5": "A educação permanente em saúde parte dos problemas identificados no cotidiano do trabalho e busca produzir mudanças nas práticas profissionais e na organização dos serviços.",
+   "6": "O monitoramento deve ser realizado somente ao final de cada ciclo de planejamento, pois a análise durante a execução das ações pode prejudicar a autonomia das equipes.",
+   "7": "Quanto maior for a prevalência de uma doença em determinada população em um período específico, maior será, necessariamente, sua incidência no mesmo período.",
+   "8": "A vigilância epidemiológica envolve a coleta, a análise e a interpretação de informações sobre eventos relacionados à saúde, com a finalidade de subsidiar medidas de prevenção e controle.",
+   "9": "A proporção de óbitos entre os casos de uma doença é representada pelo coeficiente de letalidade, que funciona como indicativo da gravidade da doença ou do agravo na população.",
+   "10": "A NR-6 determina que o trabalhador adquira o EPI que considerar mais adequado para sua atividade, cabendo ao contratante ressarci-lo posteriormente da despesa realizada.",
+   "11": "De acordo com a NR-5, compete à CIPA registrar a percepção dos riscos dos trabalhadores por meio do ma pa de risco ou de outra técnica ou ferramenta apropriada, sem ordem de preferência.",
+   "12": "Segundo a NR-1, é direito do trabalhador recusar-se, mesmo sem justificativa, a submeter-se aos exames médicos previstos nas normas regulamentadoras.",
+   "13": "O exame médico admissional deve ser realizado, preferencialmente, após o início das atividades do trabalhador, permitindo ao médico avaliar as condições de saúde do empregado já inserido no ambiente de trabalho.",
+   "14": "O PCMSO deve incluir a realização obrigatória dos exames médicos admissional e demissional, periódico, de retorno ao trabalho e de mudança de riscos ocupacionais como parte do acompanhamento da saúde ocupacional dos empregados.",
+   "15": "O prontuário médico do trabalhador deve ser eliminado logo após seu desligamento, pois as informações de saúde ocupacional deixam de ter finalidade após o término do contrato de trabalho.",
+   "16": "Caso o objeto perfurocortante tenha sido utilizado em parto de gestante não identificada e contivesse apenas restos de líquido amniótico, não há indicação para uso da profilaxia pós-exposição (PEP) pela técnica de enfermagem.",
+   "17": "Caso o objeto perfurocortante contivesse sangue, o acesso da técnica de enfermagem à profilaxia pós -exposição (PEP) deveria ocorrer em até 72 horas do acidente, pois, após esse período, a PEP deixaria de ser indicada, sendo necessário, contudo, o acompanhamento sorológico.",
+   "18": "Havendo indicação da profilaxia pós-exposição (PEP), o esquema deverá ter duração de duas semanas, com dois antirretrovirais, se o teste de gravidez da técnica de enfermagem for positivo, ou com três antirretrovirais, se negativo o t este de gravidez.",
+   "19": "Após avaliação médica, caso a profilaxia pós-exposição (PEP) não seja necessária e a capacidade laborativa da técnica de enfermagem não tenha sido afetada, será prescindível a emissão de comunicação de acidente de trabalho (CAT).",
+   "20": "A ocorrência do referido acidente de trabalho enseja a revisão da avaliação de riscos, conforme prevê a NR-1."
+  },
+  "esp4": {
+   "1": "O exame periódico integra o acompanhamento da saúde dos trabalhadores durante a relação de trabalho.",
+   "2": "O atestado de saúde ocupacional deve registrar informações relacionadas à avaliação médica realizada pelo médico do trabalho.",
+   "3": "A conclusão de aptidão no exame médico ocupacional comprova que o ambiente de trabalho é seguro e que não existem riscos ocupacionais para o trabalhador.",
+   "4": "A atenção primária à saúde deve encaminhar sistematicamente os usuários para os serviços especializados, sempre que houver necessidade de tratamento continuado, pois a continuidade do cuidado é responsabilidade exclusiva da atenção secundária.",
+   "5": "A análise dos dados epidemiológicos do território deve ocorrer após a definição das prioridades das equipes, pois os indicadores não devem interferir no planejamento local.",
+   "6": "A busca ativa pode ser utilizada pelas equipes de saúde para identificar pessoas ou situações que demandem acompanhamento.",
+   "7": "O PCMSO deve prever ações de vigilância ativa e passiva da saúde ocupacional, conforme os riscos existentes e as características da organização.",
+   "8": "A realização do exame de mudança de risco ocupacional é restrita à alteração formal do cargo registrado na documentação trabalhista.",
+   "9": "O acompanhamento periódico dos relatórios permite identificar padrões, recorrências e alterações nas condições de segurança e saúde dos trabalhadores.",
+   "10": "A análise dos relatórios de segurança e saúde deve considerar a evolução dos indicadores ao longo do tempo, evitando-se conclusões baseadas exclusivamente em registros isolados.",
+   "11": "A repetição de uma não conformidade em relatórios sucessivos dispensa nova avaliação quando a organização já tiver registrado anteriormente uma medida corretiva.",
+   "12": "A NR-3 estabelece requisitos relacionados a embargo e interdição diante de situações que caracterizem grave e iminente risco, com o objetivo de prevenir danos à integridade física e à saúde dos trabalhadores.",
+   "13": "O descumprimento das disposições de segurança e saúde estabelecidas nas normas regulamentadoras pode sujeitar o empregador às penalidades previstas na legislação.",
+   "14": "A NR-7 estabelece os procedimentos para inspeção, manutenção e operação segura de máquinas e equipamentos utilizados nos estabelecimentos.",
+   "15": "A sistematização da assistência de enfermagem contribui para organizar e qualificar o processo de cuidado desenvolvido pela equipe.",
+   "16": "A organização do processo de trabalho em enfermagem deve considerar a interdependência entre as atividades realizadas pelos diferentes profissionais da equipe de saúde.",
+   "17": "A existência de protocolos assistenciais torna desnecessária a avaliação individualizada do usuário durante a prestação do cuidado de enfermagem.",
+   "18": "A qualidade da informação em saúde depende, entre outros aspectos, da completude, consistência e confiabilidade dos dados registrados.",
+   "19": "A análise de informações sobre morbidade e mortalidade contribui para o conhecimento do perfil epidemiológico de uma população.",
+   "20": "A existência de grande quantidade de dados em um sistema de informação garante, por si só, a qualidade da informação em saúde."
+  },
+  "esp5": {
+   "1": "A NR-9 estabelece requisitos para a avaliação e o controle das exposições ocupacionais a agentes físicos, químicos e biológicos.",
+   "2": "As normas regulamentadoras do MTE estabelecem requisitos mínimos de segurança e saúde no trabalho, permitindo a adoção de medidas de proteção mais abrangentes, quando necessárias.",
+   "3": "Uma vez identificado um risco ocupacional, sua avaliação poderá ser encerrada se for estabelecida alguma medida de prevenção para controlá-lo.",
+   "4": "De acordo com a NR-15, a caracterização de uma atividade como insalubre é determinada exclusivamente pela percepção do trabalhador quanto ao desconforto provocado pelo ambiente de trabalho.",
+   "5": "A análise desses relatórios deve considerar a qualidade das informações registradas, uma vez que dados incompletos podem limitar a avaliação das condições de segurança e saúde em organizações.",
+   "6": "A identificação de inconsistências nos relatórios deve ensejar sua verificação e correção, quando necessária, antes da utilização das informações para tomada de decisão.",
+   "7": "As ocorrências consideradas de baixa gravidade não devem constar dos relatórios, uma vez que não representam situações relevantes para a gestão da segurança no trabalho.",
+   "8": "Os relatórios de segurança e saúde devem ser analisados exclusivamente pelo responsável técnico que os tenha elaborado, pois a participação de outros profissionais pode comprometer a uniformidade da avaliação.",
+   "9": "No mapa de risco, é necessário que a representação dos riscos permita a identificação visual das áreas ou situações que apresentem exposição ocupacional.",
+   "10": "A participação dos trabalhadores na elaboração do mapa de risco pode contribuir para a identificação dos riscos.",
+   "11": "A representação de um risco no mapa indica que a organização está necessariamente exposta àquele agente em todos os momentos da jornada de trabalho.",
+   "12": "Quanto maior for a representação gráfica utilizada no mapa para indicar o risco, maior será necessariamente a gravidade do dano à saúde que o agente poderá provocar.",
+   "13": "No gerenciamento de riscos ocupacionais, é preciso considerar os riscos existentes nas condições e nos processos de trabalho.",
+   "14": "As medidas de prevenção exigem acompanhamento por meio do qual se verifiquem sua implementação e sua efetividade na redução dos riscos ocupacionais.",
+   "15": "A ausência de sintomas de doenças ocupacionais nos trabalhadores permite concluir que as condições de trabalho não oferecem risco à saúde ocupacional.",
+   "16": "O acompanhamento da saúde dos trabalhadores pode ser realizado independentemente dos riscos ocupacionais aos quais estejam expostos, desde que sejam cumpridos os exames médicos previstos nos programas de saúde ocupacional.",
+   "17": "Antes de iniciar o atendimento a uma vítima, o socorrista deve verificar as condições de segurança do local e identificar possíveis riscos para si, para a vítima e para terceiros.",
+   "18": "Em uma vítima inconsciente que apresente respiração normal, a manutenção das vias aéreas e o acompanhamento de sua condição são medidas importantes enquanto se aguarda atendimento especializado.",
+   "19": "Nos primeiros socorros à pessoa em convulsão, devem-se conter fisicamente os movimentos da vítima, segurando-se seus membros, para impedir que ela se fira involuntariamente durante os espasmos musculares.",
+   "20": "Em uma vítima de parada cardiorrespiratória, a realização de compressões torácicas pode ser postergada até a chegada de um profissional de saúde, pois o atendimento por leigos é irrelevante para a sobrevivência da vítima."
+  }
+ }
+}
