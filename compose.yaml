@@ -40,6 +40,9 @@ services:
     environment:
       DATABASE_URL: postgresql://papiro_ro:${POSTGRES_RO_PASSWORD}@db:5432/papiro
       CORS_ORIGINS: ${CORS_ORIGINS:-https://olavostauros.github.io}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      GEMINI_MODEL: ${GEMINI_MODEL:-}
+      GEMINI_FALLBACK_MODEL: ${GEMINI_FALLBACK_MODEL:-}
     depends_on:
       db:
         condition: service_healthy
