@@ -47,17 +47,28 @@ export interface Faceta {
 
 export type FacetDim = 'banca' | 'orgao' | 'cargo' | 'ano' | 'assunto';
 
+/**
+ * `orgaos`/`cargos`/`anos` são do contrato novo de /eventos — a API
+ * antiga em produção não os envia; consumidores devem tratar `?? []`.
+ */
 export interface Evento {
   evento: string;
   banca: string;
   questoes: number;
   provas: number;
+  orgaos?: string[];
+  cargos?: string[];
+  anos?: number[];
 }
 
+/** `cargos`/`anos`/`tipos` idem — opcionais durante a transição da API. */
 export interface Prova {
   evento: string;
   fonte: string;
   questoes: number;
+  cargos?: string[];
+  anos?: number[];
+  tipos?: string[];
 }
 
 export type QuestoesParams = {
@@ -69,6 +80,8 @@ export type QuestoesParams = {
   tipo?: string;
   q?: string;
   evento?: string;
+  /** Match exato na URL da prova — filtra as questões de uma prova só. */
+  fonte?: string;
   page?: number;
   per_page?: number;
 };

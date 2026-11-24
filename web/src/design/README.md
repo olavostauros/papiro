@@ -291,9 +291,12 @@ questões servida pela API (`data/questions.ts`). Os controles disparam
 `GET /questoes` com os filtros ativos; `GET /filtros?dims=banca,ano` repovoa
 os selects pequenos em cascata e os `<facet-combobox>` consultam
 `GET /filtros/{dim}` por conta própria. **O estado vive na URL**
-(`?banca&orgao&cargo&ano&assunto&tipo&q&evento&page&per_page`): mudanças dão
+(`?banca&orgao&cargo&ano&assunto&tipo&q&evento&fonte&prova&page&per_page`): mudanças dão
 `pushState`, `popstate` re-aplica — deep-link, refresh e voltar preservam
-tudo. Sem parâmetros na URL, nenhum fetch acontece na carga (o SSR já é a
+tudo. `prova` é **parâmetro só de exibição** — o rótulo da prova mostrado em
+`[data-prova-aviso]`; nunca vai à API (fora de `CAMPOS`) e só permanece na
+URL enquanto `fonte` estiver ativo. Sem parâmetros na URL, nenhum fetch
+acontece na carga (o SSR já é a
 primeira página do estado padrão). Não entra no showcase (`/design/`) por
 depender de API viva. Contrato interno:
 
@@ -301,13 +304,22 @@ depender de API viva. Contrato interno:
   relativa); sem ele o componente fica inerte e o conteúdo SSR permanece;
 - `data-per-page` — tamanho de página padrão (default 20); `select[data-por-pagina]` muda;
 - `[data-filtro="campo"]` em select ou input — banca | orgao | cargo | ano |
-  assunto | tipo | evento (orgao/cargo/assunto vivem nos hidden dos
-  `<facet-combobox>`; evento é um hidden preenchido por links `?evento=` da
-  página de provas e anunciado em `[data-evento-ativo]` +
-  `[data-limpar-evento]`);
+  assunto | tipo | evento | fonte (orgao/cargo/assunto vivem nos hidden dos
+  `<facet-combobox>`; evento e fonte são hidden preenchidos por links da
+  página de provas — `?evento=` filtra o concurso, `&fonte=` a URL exata de
+  uma prova — anunciados em `[data-evento-ativo]` + `[data-prova-aviso]` +
+  `[data-limpar-evento]`, que limpa os dois e derruba o `prova` da URL);
+- `[data-evento-rotulo]` + `[data-evento-nome]` — dentro do aviso: o rótulo
+  vira "Filtrando pela fonte" quando a URL traz só `fonte=` (link
+  artesanal), e o nome cai em cascata: evento → arquivo da fonte
+  (`arquivoFonte`) → host da URL → `<strong>` oculto. Nunca exibe a URL crua;
+- `[data-prova-aviso]` — visível só com `fonte` ativa: "— somente a prova
+  {prova}" quando a URL traz `?prova=`, senão "— somente a prova
+  selecionada";
 - `input[data-q]` — busca textual no enunciado (debounce 300 ms);
 - `[data-lista]` — contêiner substituído a cada fetch;
-- `[data-contagem]` — total do resultado; `[data-status]` — carregando/erro;
+- `[data-contagem]` — contagem infletida ("1 questão" / "N questões");
+  `[data-status]` — carregando/erro;
 - `[data-paginacao]` — nav de âncoras `?page=N` gerada por
   `paginacaoHtml` (`templates.ts`; a mesma função gera o SSR): primeira,
   anterior, janela de páginas, próxima, última. O elemento intercepta o
@@ -328,10 +340,24 @@ interno:
 
 - `data-api-url` no elemento ou ancestral; sem ele a busca continua
   funcionando e só as provas ficam indisponíveis;
-- `input[data-busca]` — filtra `[data-evento-item]` (li) por `data-busca-texto`;
+- `input[data-busca]` — filtra `[data-evento-item]` (li) por `data-busca-texto`
+  (slug, banca, órgãos, cargos e anos, já normalizados sem acentos);
 - `details[data-evento]` + `[data-provas]` — id do evento e contêiner preenchido
-  na primeira abertura;
-- `[data-contagem]` — total de eventos visíveis.
+  na primeira abertura. Cada prova vira uma entrada nomeada: cargo(s) como
+  título (sem cargos → "Prova N"), meta (`tipo · ano · N itens/questões`) e
+  ações — "Resolver as questões" (`/?evento=…&fonte=…&prova=…`, abre o
+  question-browser filtrado naquela prova; `prova` é o nome de exibição —
+  cargo(s), ou só `N` quando a prova não tem cargos) e link do documento
+  quando a
+  fonte aponta para arquivo ("PDF oficial"/"Fonte oficial"); fonte que é
+  diretório ou não-URL vira texto "Fonte indisponível" sem link;
+- `[data-contagem]` — contagem infletida de eventos visíveis: "1 evento" /
+  "N eventos" ou, com o filtro zerado, "Nenhum evento encontrado com essa
+  busca.".
+
+Os resumos (cargos, anos, tipo, nome de arquivo da fonte, plural) saem de
+helpers puros em `templates.ts` — `resumoCargos`, `resumoAnos`, `tipoLabel`,
+`arquivoFonte`, `plural` — compartilhados entre SSR e elemento.
 
 ### questao-view
 

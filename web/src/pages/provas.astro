@@ -9,7 +9,8 @@ import EmptyState from '../design/components/EmptyState.astro';
 import Input from '../design/components/Input.astro';
 import Link from '../design/components/Link.astro';
 import PageHeader from '../design/components/PageHeader.astro';
-import { API_URL, fetchEventos } from '../data/questions';
+import { plural, resumoAnos, resumoCargos } from '../design/templates';
+import { API_URL, fetchEventos, type Evento } from '../data/questions';
 
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 
@@ -25,60 +26,97 @@ const normaliza = (s: string) =>
     .toLowerCase()
     .normalize('NFD')
     .replace(/\p{Diacritic}/gu, '');
+
+/** Título legível do evento: "Órgão — ano". Sem órgão (API antiga), o slug. */
+const tituloEvento = (ev: Evento): string => {
+  const orgaos = ev.orgaos ?? [];
+  if (!orgaos.length) return ev.evento;
+  const nome =
+    orgaos.length === 1
+      ? orgaos[0]
+      : orgaos.length === 2
+        ? orgaos.join(' · ')
+        : `${orgaos[0]} e mais ${orgaos.length - 1} órgãos`;
+  const anos = resumoAnos(ev.anos ?? []);
+  return anos ? `${nome} — ${anos}` : nome;
+};
+
+/** Linha de descrição: primeiros cargos + "e mais N cargos" (vazio sem cargos). */
+const descricaoEvento = (ev: Evento): string => resumoCargos(ev.cargos ?? []);
+
 ---
 
-<Layout title="papiro — provas" description="Concursos ingeridos no acervo do papiro, com contagens de provas e questões.">
+<Layout title="papiro — provas" description="Concursos já catalogados no acervo do papiro, com as provas e questões de cada evento.">
   <SiteHeader />
 
   <Container as="main" id="conteudo" tabindex="-1" class="py-10">
     <PageHeader title="Provas">
-      Concursos já ingeridos no acervo. Abra um evento para listar as provas ou vá direto
-      para as questões.
+      Cada evento reúne as provas de um concurso do acervo. Abra um deles para listar
+      as provas ou vá direto para as questões.
     </PageHeader>
 
     {
       eventos.length > 0 ? (
         <evento-list data-api-url={API_URL}>
-          <Card as="section" aria-label="Buscar evento" class="mb-8 p-4">
+          <Card as="section" aria-label="Filtrar eventos" class="mb-8 p-4">
             <Input
-              label="Buscar por evento ou banca"
+              label="Filtrar eventos"
               type="search"
-              placeholder="Digite para filtrar a lista…"
+              placeholder="Órgão, cargo, banca ou ano…"
               data-busca
             />
-            <p class="mt-3 text-sm text-ink-soft" role="status">
-              <span data-contagem>{eventos.length}</span> eventos
+            <p class="mt-3 text-sm text-ink-soft" role="status" data-contagem>
+              {plural(eventos.length, 'evento')}
             </p>
           </Card>
 
           <ul class="space-y-3" aria-label="Eventos">
-            {eventos.map((ev) => (
-              <li data-evento-item data-busca-texto={normaliza(`${ev.evento} ${ev.banca}`)}>
+            {eventos.map((ev) => {
+              const titulo = tituloEvento(ev);
+              const descricao = descricaoEvento(ev);
+              const buscaTexto = normaliza(
+                [
+                  ev.evento,
+                  ev.banca,
+                  ...(ev.orgaos ?? []),
+                  ...(ev.cargos ?? []),
+                  ...(ev.anos ?? []),
+                ].join(' '),
+              );
+              return (
+              <li data-evento-item data-busca-texto={buscaTexto}>
                 <details
                   data-evento={ev.evento}
                   class="rounded-xl border border-line bg-surface p-5"
                 >
                   <summary class="flex cursor-pointer flex-wrap items-baseline gap-x-3 gap-y-1 rounded-sm focus-visible:focus-ring">
-                    <span class="font-medium text-ink">{ev.evento}</span>
+                    <span class="font-medium text-ink">{titulo}</span>
                     <Badge>{ev.banca}</Badge>
+                    {titulo !== ev.evento && (
+                      <Badge variant="outline" class="font-mono">{ev.evento}</Badge>
+                    )}
                     <span class="ml-auto text-sm text-ink-soft">
-                      {ev.provas} provas · {ev.questoes.toLocaleString('pt-BR')} questões
+                      {plural(ev.provas, 'prova')} · {plural(ev.questoes, 'questão', 'questões')}
                     </span>
+                    {descricao && (
+                      <span class="basis-full text-sm text-ink-soft">{descricao}</span>
+                    )}
                   </summary>
                   <div class="mt-3 border-t border-line pt-3">
                     <Link
                       href={`${base}/?evento=${encodeURIComponent(ev.evento)}`}
                       variant="underline"
                     >
-                      Resolver as {ev.questoes.toLocaleString('pt-BR')} questões deste evento
+                      Resolver {ev.questoes === 1 ? 'a questão' : `as ${ev.questoes.toLocaleString('pt-BR')} questões`} deste evento
                     </Link>
                     <div data-provas class="mt-3" role="status">
-                      <p class="text-sm text-ink-soft">As provas são carregadas ao abrir.</p>
+                      <p class="text-sm text-ink-soft">A lista de provas deste evento só carrega com JavaScript ativado.</p>
                     </div>
                   </div>
                 </details>
               </li>
-            ))}
+              );
+            })}
           </ul>
         </evento-list>
       ) : (

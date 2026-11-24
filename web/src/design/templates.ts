@@ -21,7 +21,7 @@
 
 import type { Questao } from '../data/questions';
 
-const BASE = import.meta.env.BASE_URL.replace(/\/+$/, '');
+export const BASE = import.meta.env.BASE_URL.replace(/\/+$/, '');
 
 const LETRAS = ['a', 'b', 'c', 'd', 'e'];
 
@@ -66,6 +66,50 @@ export function fonteEhUrl(fonte: string): boolean {
   return FONTE_URL.test(fonte);
 }
 
+/**
+ * Nome do arquivo quando a fonte aponta para um documento
+ * (ex.: `…/arquivos/prova.pdf`); `null` para URLs de diretório
+ * (`…/arquivos/`, `…/ANVISA_16/`) ou fontes que não são URL.
+ */
+export function arquivoFonte(fonte: string): string | null {
+  if (!fonteEhUrl(fonte)) return null;
+  try {
+    const m = new URL(fonte).pathname.match(/\/([^/]+\.[a-z0-9]{2,6})$/i);
+    return m ? m[1] : null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Lista de cargos em uma linha: até `max` nomes por extenso e o resto como
+ * "e mais N cargo(s)" — usado no resumo do evento e no nome da prova.
+ */
+export function resumoCargos(cargos: string[], max = 2): string {
+  if (cargos.length <= max) return cargos.join(' · ');
+  const resto = cargos.length - max;
+  return `${cargos.slice(0, max).join(' · ')} e mais ${resto} ${resto === 1 ? 'cargo' : 'cargos'}`;
+}
+
+/** Contagem infletida em pt-BR: "1 prova" / "42 provas" (milhar em pt-BR). */
+export function plural(n: number, singular: string, pluralForm = `${singular}s`): string {
+  return `${n.toLocaleString('pt-BR')} ${n === 1 ? singular : pluralForm}`;
+}
+
+/** Anos únicos em ordem desc: até 3 → "2024, 2023"; mais → "2018–2024". */
+export function resumoAnos(anos: number[]): string {
+  const unicos = [...new Set(anos)].sort((a, b) => b - a);
+  if (unicos.length <= 3) return unicos.join(', ');
+  return `${unicos[unicos.length - 1]}–${unicos[0]}`;
+}
+
+/** Rótulo legível do tipo de questão (mesmo texto do Select de tipo). */
+export function tipoLabel(tipo: string): string {
+  if (tipo === 'certo_errado') return 'Certo e errado';
+  if (tipo === 'multipla_escolha') return 'Múltipla escolha';
+  return tipo;
+}
+
 function gabaritoTexto(q: Questao): string {
   return q.tipo === 'certo_errado'
     ? q.gabarito === 'certo'
@@ -100,7 +144,7 @@ export function cardHtml(q: Questao): string {
     : `<p data-resultado role="status" class="font-medium text-accent">Gabarito: ${esc(gab)}</p>`;
   const fonte = FONTE_URL.test(q.fonte)
     ? `<a href="${esc(q.fonte)}" class="${LINK_CLS}" aria-label="Fonte oficial — ${aria}">Fonte oficial</a>`
-    : '<span>Fonte oficial</span>';
+    : '<span>Fonte indisponível</span>';
   return `<question-card data-id="${esc(q.id)}" data-banca="${esc(q.banca)}" data-orgao="${esc(q.orgao)}" data-cargo="${esc(q.cargo)}" data-ano="${q.ano}" data-assunto="${esc(q.assunto)}" data-gabarito="${esc(q.gabarito)}" data-gabarito-texto="${esc(gab)}" data-filter-item><article class="rounded-xl border border-line bg-surface p-5" aria-label="${aria}">${meta}<p id="enunciado-${esc(q.id)}" class="mt-3 font-serif text-base leading-relaxed sm:text-lg">${esc(q.enunciado)}</p>${grupo}<div class="mt-4 flex flex-wrap items-center gap-4 text-sm">${resposta}<div class="ml-auto flex items-center gap-4">${permalink}${fonte}</div></div></article></question-card>`;
 }
 

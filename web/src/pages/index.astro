@@ -10,7 +10,7 @@ import Select from '../design/components/Select.astro';
 import FacetCombobox from '../design/components/FacetCombobox.astro';
 import PageHeader from '../design/components/PageHeader.astro';
 import QuestionCard from '../design/components/QuestionCard.astro';
-import { paginacaoHtml } from '../design/templates';
+import { paginacaoHtml, plural } from '../design/templates';
 import {
   API_URL,
   EMPTY_FILTROS,
@@ -58,6 +58,7 @@ const [filtros, primeira] = API_URL
           data-q
         />
         <input type="hidden" data-filtro="evento" />
+        <input type="hidden" data-filtro="fonte" />
         <div class="grid grid-cols-2 gap-3 sm:grid-cols-3">
           <Select label="Banca" placeholder="Todas" options={filtros.bancas ?? []} data-filtro="banca" />
           <Select label="Ano" placeholder="Todos" options={(filtros.anos ?? []).map(String)} data-filtro="ano" />
@@ -75,8 +76,9 @@ const [filtros, primeira] = API_URL
           <FacetCombobox dim="assunto" label="Assunto" />
         </div>
         <p data-evento-ativo hidden class="text-sm text-ink-soft">
-          Filtrando pelo evento
+          <span data-evento-rotulo>Filtrando pelo evento</span>
           <strong data-evento-nome class="font-medium text-ink"></strong>
+          <span data-prova-aviso hidden> — somente a prova selecionada</span>
           <button
             type="button"
             data-limpar-evento
@@ -87,8 +89,8 @@ const [filtros, primeira] = API_URL
         </p>
         <div class="flex flex-wrap items-end justify-between gap-3">
           <p class="text-sm text-ink-soft" role="status">
-            <span data-contagem>{primeira.total}</span>
-            {apiOk ? ' questões' : ' — API indisponível; tentando novamente no navegador.'}
+            <span data-contagem>{plural(primeira.total, 'questão', 'questões')}</span>
+            {!apiOk && ' — API indisponível; tentando novamente no navegador.'}
           </p>
           <Select
             label="Por página"
