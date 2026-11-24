@@ -1,0 +1,288 @@
+{
+ "banca": "cebraspe",
+ "evento": "TCE_PR_16_ANALISTA",
+ "workdir": "/tmp/tce_pr_16_analista",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "TRIBUNAL DE CONTAS DO ESTADO DO PARANÁ",
+  "ano": 2016,
+  "id_orgao": "tce-pr"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Analista de Controle – Área: Administração",
+   "id_cargo": "administracao",
+   "provas": [
+    {
+     "key": "269TCEPR_CB1_01",
+     "prova": "pro_269TCEPR_CB1_01.pdf",
+     "gabarito": "gab_Preliminar_269TCEPR_CB1_.pdf",
+     "tipo": "mc",
+     "arquivo": "269TCEPR_CB1_01.pdf"
+    },
+    {
+     "key": "269TCEPR_001_01",
+     "prova": "pro_269TCEPR_001_01.pdf",
+     "gabarito": "gab_Preliminar_269TCEPR_001_.pdf",
+     "tipo": "mc",
+     "arquivo": "269TCEPR_001_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Analista de Controle – Área: Arquitetura",
+   "id_cargo": "arquitetura",
+   "provas": [
+    {
+     "key": "269TCEPR_CB1_01",
+     "prova": "pro_269TCEPR_CB1_01.pdf",
+     "gabarito": "gab_Preliminar_269TCEPR_CB1_.pdf",
+     "tipo": "mc",
+     "arquivo": "269TCEPR_CB1_01.pdf"
+    },
+    {
+     "key": "269TCEPR_002_01",
+     "prova": "pro_269TCEPR_002_01.pdf",
+     "gabarito": "gab_Preliminar_269TCEPR_002_.pdf",
+     "tipo": "mc",
+     "arquivo": "269TCEPR_002_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Analista de Controle – Área: Atuarial",
+   "id_cargo": "atuarial",
+   "provas": [
+    {
+     "key": "269TCEPR_CB1_01",
+     "prova": "pro_269TCEPR_CB1_01.pdf",
+     "gabarito": "gab_Preliminar_269TCEPR_CB1_.pdf",
+     "tipo": "mc",
+     "arquivo": "269TCEPR_CB1_01.pdf"
+    },
+    {
+     "key": "269TCEPR_003_01",
+     "prova": "pro_269TCEPR_003_01.pdf",
+     "gabarito": "gab_Preliminar_269TCEPR_003_.pdf",
+     "tipo": "mc",
+     "arquivo": "269TCEPR_003_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Analista de Controle – Área: Comunicação Social",
+   "id_cargo": "comunicacao-social",
+   "provas": [
+    {
+     "key": "269TCEPR_CB1_01",
+     "prova": "pro_269TCEPR_CB1_01.pdf",
+     "gabarito": "gab_Preliminar_269TCEPR_CB1_.pdf",
+     "tipo": "mc",
+     "arquivo": "269TCEPR_CB1_01.pdf"
+    },
+    {
+     "key": "269TCEPR_004_01",
+     "prova": "pro_269TCEPR_004_01.pdf",
+     "gabarito": "gab_Preliminar_269TCEPR_004_.pdf",
+     "tipo": "mc",
+     "arquivo": "269TCEPR_004_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Analista de Controle – Área: Contábil",
+   "id_cargo": "contabil",
+   "provas": [
+    {
+     "key": "269TCEPR_CB1_01",
+     "prova": "pro_269TCEPR_CB1_01.pdf",
+     "gabarito": "gab_Preliminar_269TCEPR_CB1_.pdf",
+     "tipo": "mc",
+     "arquivo": "269TCEPR_CB1_01.pdf"
+    },
+    {
+     "key": "269TCEPR_005_01",
+     "prova": "pro_269TCEPR_005_01.pdf",
+     "gabarito": "gab_Preliminar_269TCEPR_005_.pdf",
+     "tipo": "mc",
+     "arquivo": "269TCEPR_005_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Analista de Controle – Área: Engenharia Civil",
+   "id_cargo": "engenharia-civil",
+   "provas": [
+    {
+     "key": "269TCEPR_CB1_01",
+     "prova": "pro_269TCEPR_CB1_01.pdf",
+     "gabarito": "gab_Preliminar_269TCEPR_CB1_.pdf",
+     "tipo": "mc",
+     "arquivo": "269TCEPR_CB1_01.pdf"
+    },
+    {
+     "key": "269TCEPR_006_01",
+     "prova": "pro_269TCEPR_006_01.pdf",
+     "gabarito": "gab_Preliminar_269TCEPR_006_.pdf",
+     "tipo": "mc",
+     "arquivo": "269TCEPR_006_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Analista de Controle – Área: Engenharia Elétrica",
+   "id_cargo": "engenharia-eletrica",
+   "provas": [
+    {
+     "key": "269TCEPR_CB1_01",
+     "prova": "pro_269TCEPR_CB1_01.pdf",
+     "gabarito": "gab_Preliminar_269TCEPR_CB1_.pdf",
+     "tipo": "mc",
+     "arquivo": "269TCEPR_CB1_01.pdf"
+    },
+    {
+     "key": "269TCEPR_007_01",
+     "prova": "pro_269TCEPR_007_01.pdf",
+     "gabarito": "gab_Preliminar_269TCEPR_007_.pdf",
+     "tipo": "mc",
+     "arquivo": "269TCEPR_007_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Analista de Controle – Área: Tecnologia da Informação",
+   "id_cargo": "tecnologia-informacao",
+   "provas": [
+    {
+     "key": "269TCEPR_CB1_01",
+     "prova": "pro_269TCEPR_CB1_01.pdf",
+     "gabarito": "gab_Preliminar_269TCEPR_CB1_.pdf",
+     "tipo": "mc",
+     "arquivo": "269TCEPR_CB1_01.pdf"
+    },
+    {
+     "key": "269TCEPR_008_01",
+     "prova": "pro_269TCEPR_008_01.pdf",
+     "gabarito": "gab_Preliminar_269TCEPR_008_.pdf",
+     "tipo": "mc",
+     "arquivo": "269TCEPR_008_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Analista de Controle – Área: Jurídica",
+   "id_cargo": "juridica",
+   "provas": [
+    {
+     "key": "269TCEPR_CB1_01",
+     "prova": "pro_269TCEPR_CB1_01.pdf",
+     "gabarito": "gab_Preliminar_269TCEPR_CB1_.pdf",
+     "tipo": "mc",
+     "arquivo": "269TCEPR_CB1_01.pdf"
+    },
+    {
+     "key": "269TCEPR_009_01",
+     "prova": "pro_269TCEPR_009_01.pdf",
+     "gabarito": "gab_Preliminar_269TCEPR_009_.pdf",
+     "tipo": "mc",
+     "arquivo": "269TCEPR_009_01.pdf"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "269TCEPR_CB1_01": {
+   "4": {
+    "alternativas": [
+     "No ano considerado, o segundo trimestre caracterizou-se por uma queda contínua na arrecadação de receitas, situação que se repetiu no trimestre seguinte.",
+     "No primeiro quadrimestre de 2015, houve um período de queda simultânea dos gastos com despesas e da arrecadação de receitas e dois períodos de aumento simultâneo de gastos e de arrecadação.",
+     "No último bimestre do ano de 2015, foram registrados tanto o maior gasto com despesas quanto a maior arrecadação de receitas.",
+     "No ano em questão, janeiro e dezembro foram os únicos meses em que a arrecadação de receitas foi ultrapassada por gastos com despesas.",
+     "A menor arrecadação mensal de receitas e o menor gasto mensal com despesas foram verificados, respectivamente, no primeiro e no segundo semestre do ano de 2015."
+    ]
+   }
+  },
+  "269TCEPR_002_01": {
+   "53": {
+    "alternativas": [
+     "ter sido realizada, no método do projeto, uma análise global do desempenho de prazos, em vez de uma análise pelo caminho crítico, o que comprometeu o resultado esperado.",
+     "ter havido uma distorção na escala do gráfico no projeto.",
+     "o projeto corresponder a um percentual aleatório de projetos em que a análise de valor agregado não se aplica.",
+     "pequenas variações no projeto representarem grandes distorções de desempenho, uma vez que a análise do método é pontual.",
+     "ter sido escolhido um método de sumarização não adequado para o projeto."
+    ]
+   },
+   "61": {
+    "alternativas": [
+     "A construtora está isenta de constituir o SESMT, uma vez que possui menos de 150 empregados.",
+     "Cabe à CIPA determinar o EPI que será utilizado pelo trabalhador.",
+     "O técnico de segurança do trabalho não tem competência para embargar a obra, atribuição essa do auditor fiscal do trabalho.",
+     "Caso ocorra algum acidente com o operário que se recusa a usar o EPI, a empresa estará isenta de qualquer punição prevista nos dispositivos legais.",
+     "O empregado que não realizou os exames médicos, ainda que tenha justificado a razão de sua não realização, cometeu um ato faltoso."
+    ]
+   },
+   "88": {
+    "alternativas": [
+     "A linha tracejada larga pode ser utilizada para contornos e arestas não visíveis.",
+     "A linha traço e ponto estreita pode ser utilizada para marcar a interrupção de um desenho.",
+     "A relação de larguras entre as linhas larga e estreita não deve ser inferior a 1,5.",
+     "As linhas de chamada devem terminar com uma seta se conduzirem a uma linha de cota.",
+     "A linha contígua estreita deve ser utilizada para representar arestas visíveis e limites de vistas ou cortes."
+    ]
+   },
+   "89": {
+    "alternativas": [
+     "O uso de materiais brilhantes no fundo das peças de sinalização facilita a leitura, uma vez que permitem que o texto seja destacado.",
+     "A norma vigente sugere algumas representações do símbolo internacional de acesso, permitindo que sejam feitas pequenas alterações, de acordo com o modelo de placas adotado em cada edifício.",
+     "Havendo informação em braile, as sinalizações visual e tátil podem ser dispensadas.",
+     "Para letras e números visuais, a norma recomenda apenas o uso das fontes arial e verdana em caixa alta, mesmo em caso de sentenças.",
+     "As informações visual, sonora ou tátil são essenciais aos espaços nas edificações, devendo-se atender a, pelo menos, dois sentidos."
+    ]
+   }
+  },
+  "269TCEPR_003_01": {
+   "88": {
+    "enunciado": "Considerando as informações contidas no texto 3A5CCC e que nPx é a probabilidade de um indivíduo com x anos de idade na data de hoje viver mais n anos, assinale a opção que mostra a expressão para o valor da reserva atuarial.",
+    "alternativas": [
+     "A = ∑(n = 1 a 20) [100·nPx/(1,06)^n]",
+     "A = ∑(n = 1 a 20) [2.000·nPx/(1,06)^n]",
+     "A = 20Px × ∑(n = 1 a 20) [2.000/(1,06)^n]",
+     "A = ∑(n = 0 a 19) [2.000·nPx/(0,06)^n]",
+     "A = ∑(n = 1 a 20) [2.000/(1,06)^n]"
+    ]
+   }
+  },
+  "269TCEPR_007_01": {
+   "53": {
+    "alternativas": [
+     "pequenas variações no projeto representarem grandes distorções de desempenho, uma vez que a análise do método é pontual.",
+     "ter sido escolhido um método de sumarização não adequado para o projeto.",
+     "ter sido realizada, no método do projeto, uma análise global do desempenho de prazos, em vez de uma análise pelo caminho crítico, o que comprometeu o resultado esperado.",
+     "ter havido uma distorção na escala do gráfico no projeto.",
+     "o projeto corresponder a um percentual aleatório de projetos em que a análise de valor agregado não se aplica."
+    ]
+   },
+   "61": {
+    "alternativas": [
+     "Cabe à CIPA determinar o EPI que será utilizado pelo trabalhador.",
+     "O técnico de segurança do trabalho não tem competência para embargar a obra, atribuição essa do auditor fiscal do trabalho.",
+     "Caso ocorra algum acidente com o operário que se recusa a usar o EPI, a empresa estará isenta de qualquer punição prevista nos dispositivos legais.",
+     "O empregado que não realizou os exames médicos, ainda que tenha justificado a razão de sua não realização, cometeu um ato faltoso.",
+     "A construtora está isenta de constituir o SESMT, uma vez que possui menos de 150 empregados."
+    ]
+   }
+  }
+ }
+}
