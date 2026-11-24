@@ -1,0 +1,332 @@
+{
+ "banca": "cebraspe",
+ "evento": "CODEVASF_20",
+ "workdir": "/tmp/codevasf_20",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Companhia de Desenvolvimento dos Vales do São Francisco e do Parnaíba",
+  "ano": 2021,
+  "id_orgao": "codevasf"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "ANALISTA EM DESENVOLVIMENTO REGIONAL – ÁREA: ADMINISTRAÇÃO",
+   "id_cargo": "analista-dev-regional-administracao",
+   "provas": [
+    {
+     "key": "cb01",
+     "prova": "pro_C01.pdf",
+     "gabarito": "gab_CB1.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_01__REA__ADMINISTRAO.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_C01.pdf",
+     "gabarito": "gab_C01.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_01__REA__ADMINISTRAO.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "ANALISTA EM DESENVOLVIMENTO REGIONAL – ÁREA: CARTOGRAFIA",
+   "id_cargo": "analista-dev-regional-cartografia",
+   "provas": [
+    {
+     "key": "cb02",
+     "prova": "pro_C02.pdf",
+     "gabarito": "gab_CB1.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_02__REA__CARTOGRAFIA.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_C02.pdf",
+     "gabarito": "gab_C02.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_02__REA__CARTOGRAFIA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "ANALISTA EM DESENVOLVIMENTO REGIONAL – ÁREA : CONTABILIDADE",
+   "id_cargo": "analista-dev-regional-contabilidade",
+   "provas": [
+    {
+     "key": "cb03",
+     "prova": "pro_C03.pdf",
+     "gabarito": "gab_CB1.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_03__REA___CONTABILIDADE.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_C03.pdf",
+     "gabarito": "gab_C03.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_03__REA___CONTABILIDADE.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "ANALISTA EM DESENVOLVIMENTO REGIONAL – ÁREA: ECONOMIA",
+   "id_cargo": "analista-dev-regional-economia",
+   "provas": [
+    {
+     "key": "cb04",
+     "prova": "pro_C04.pdf",
+     "gabarito": "gab_CB1.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_04__REA__ECONOMIA.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_C04.pdf",
+     "gabarito": "gab_C04.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_04__REA__ECONOMIA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "ANALISTA EM DESENVOLVIMENTO REGIONAL – ÁREA: ENGENHARIA AGRONÔMICA",
+   "id_cargo": "analista-dev-regional-eng-agronomica",
+   "provas": [
+    {
+     "key": "cb05",
+     "prova": "pro_C05.pdf",
+     "gabarito": "gab_CB1.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_05__REA__ENGENHARIA_AGRONMICA.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_C05.pdf",
+     "gabarito": "gab_C05.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_05__REA__ENGENHARIA_AGRONMICA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "ANALISTA EM DESENVOLVIMENTO REGIONAL – ÁREA: ENGENHARIA AMBIENTAL",
+   "id_cargo": "analista-dev-regional-eng-ambiental",
+   "provas": [
+    {
+     "key": "cb06",
+     "prova": "pro_C06.pdf",
+     "gabarito": "gab_CB1.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_06__REA__ENGENHARIA_AMBIENTAL.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_C06.pdf",
+     "gabarito": "gab_C06.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_06__REA__ENGENHARIA_AMBIENTAL.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "ANALISTA EM DESENVOLVIMENTO REGIONAL – ÁREA: ENGENHARIA CIVIL",
+   "id_cargo": "analista-dev-regional-eng-civil",
+   "provas": [
+    {
+     "key": "cb07",
+     "prova": "pro_C07.pdf",
+     "gabarito": "gab_CB1.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_07__REA__ENGENHARIA_CIVIL.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_C07.pdf",
+     "gabarito": "gab_C07.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_07__REA__ENGENHARIA_CIVIL.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "ANALISTA EM DESENVOLVIMENTO REGIONAL – ÁREA: ENGENHARIA DE AGRIMENSURA",
+   "id_cargo": "analista-dev-regional-eng-agrimensura",
+   "provas": [
+    {
+     "key": "cb08",
+     "prova": "pro_C08.pdf",
+     "gabarito": "gab_CB1.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_08__REA__ENGENHARIA_DE_AGRIMENSURA.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_C08.pdf",
+     "gabarito": "gab_C08.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_08__REA__ENGENHARIA_DE_AGRIMENSURA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "ANALISTA EM DESENVOLVIMENTO REGIONAL – ÁREA: ENGENHARIA DE PESCA",
+   "id_cargo": "analista-dev-regional-eng-pesca",
+   "provas": [
+    {
+     "key": "cb09",
+     "prova": "pro_C09.pdf",
+     "gabarito": "gab_CB1.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_09__REA__ENGENHARIA_DE_PESCA.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_C09.pdf",
+     "gabarito": "gab_C09.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_09__REA__ENGENHARIA_DE_PESCA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "ANALISTA EM DESENVOLVIMENTO REGIONAL – ÁREA DE FORMAÇÃO: ENGENHARIA ELÉTRICA",
+   "id_cargo": "analista-dev-regional-eng-eletrica",
+   "provas": [
+    {
+     "key": "cb10",
+     "prova": "pro_C10.pdf",
+     "gabarito": "gab_CB1.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_10__REA__ENGENHARIA_ELTRICA.PDF"
+    },
+    {
+     "key": "esp10",
+     "prova": "pro_C10.pdf",
+     "gabarito": "gab_C10.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_10__REA__ENGENHARIA_ELTRICA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "ANALISTA EM DESENVOLVIMENTO REGIONAL – ÁREA: ENGENHARIA MECÂNICA",
+   "id_cargo": "analista-dev-regional-eng-mecanica",
+   "provas": [
+    {
+     "key": "cb11",
+     "prova": "pro_C11.pdf",
+     "gabarito": "gab_CB1.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_11__REA__ENGENHARIA_MECNICA.PDF"
+    },
+    {
+     "key": "esp11",
+     "prova": "pro_C11.pdf",
+     "gabarito": "gab_C11.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_11__REA__ENGENHARIA_MECNICA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "ANALISTA EM DESENVOLVIMENTO REGIONAL – ÁREA: GEOLOGIA",
+   "id_cargo": "analista-dev-regional-geologia",
+   "provas": [
+    {
+     "key": "cb12",
+     "prova": "pro_C12.pdf",
+     "gabarito": "gab_CB1.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_12__REA__GEOLOGIA.PDF"
+    },
+    {
+     "key": "esp12",
+     "prova": "pro_C12.pdf",
+     "gabarito": "gab_C12.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_12__REA__GEOLOGIA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "ANALISTA EM DESENVOLVIMENTO REGIONAL – ÁREA: PSICOLOGIA",
+   "id_cargo": "analista-dev-regional-psicologia",
+   "provas": [
+    {
+     "key": "cb13",
+     "prova": "pro_C13.pdf",
+     "gabarito": "gab_CB1.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_13__REA__PSICOLOGIA.PDF"
+    },
+    {
+     "key": "esp13",
+     "prova": "pro_C13.pdf",
+     "gabarito": "gab_C13.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_13__REA__PSICOLOGIA.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "14",
+   "cargo": "ANALISTA EM DESENVOLVIMENTO REGIONAL – ÁREA: TECNOLOGIA DA INFORMAÇÃO",
+   "id_cargo": "analista-dev-regional-tecnologia-informacao",
+   "provas": [
+    {
+     "key": "cb14",
+     "prova": "pro_C14.pdf",
+     "gabarito": "gab_CB1.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_14__REA__TECNOLOGIA_DA_INFORMAO.PDF"
+    },
+    {
+     "key": "esp14",
+     "prova": "pro_C14.pdf",
+     "gabarito": "gab_C14.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_14__REA__TECNOLOGIA_DA_INFORMAO.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "ASSESSOR JURÍDICO – ÁREA: DIREITO",
+   "id_cargo": "assessor-juridico-direito",
+   "provas": [
+    {
+     "key": "cb15",
+     "prova": "pro_C15.pdf",
+     "gabarito": "gab_CB1.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_15___ASSESSOR_JURDICO__REA__DIREITO.PDF"
+    },
+    {
+     "key": "esp15",
+     "prova": "pro_C15.pdf",
+     "gabarito": "gab_C15.pdf",
+     "tipo": "ce",
+     "arquivo": "CARGO_15___ASSESSOR_JURDICO__REA__DIREITO.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}
