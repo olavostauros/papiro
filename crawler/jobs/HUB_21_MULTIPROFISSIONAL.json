@@ -1,0 +1,205 @@
+{
+ "evento": "HUB_21_MULTIPROFISSIONAL",
+ "workdir": "/tmp/hub_21_multiprofissional",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Hospital Universitário de Brasília",
+  "ano": 2020,
+  "id_orgao": "hub"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Enfermagem",
+   "id_cargo": "enfermagem",
+   "provas": [
+    {
+     "key": "cb01",
+     "prova": "pro_CARGO_1.pdf",
+     "gabarito": "gab_MATRIZ_563_RMULTI_CB1_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_1.PDF"
+    },
+    {
+     "key": "esp01",
+     "prova": "pro_CARGO_1.pdf",
+     "gabarito": "gab_MATRIZ_563_RMULTI_001_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_1.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Farmácia",
+   "id_cargo": "farmacia",
+   "provas": [
+    {
+     "key": "cb02",
+     "prova": "pro_CARGO_2.pdf",
+     "gabarito": "gab_MATRIZ_563_RMULTI_CB1_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_2.PDF"
+    },
+    {
+     "key": "esp02",
+     "prova": "pro_CARGO_2.pdf",
+     "gabarito": "gab_MATRIZ_563_RMULTI_002_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_2.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Fisioterapia",
+   "id_cargo": "fisioterapia",
+   "provas": [
+    {
+     "key": "cb03",
+     "prova": "pro_CARGO_3.pdf",
+     "gabarito": "gab_MATRIZ_563_RMULTI_CB1_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_3.PDF"
+    },
+    {
+     "key": "esp03",
+     "prova": "pro_CARGO_3.pdf",
+     "gabarito": "gab_MATRIZ_563_RMULTI_003_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_3.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Nutrição",
+   "id_cargo": "nutricao",
+   "provas": [
+    {
+     "key": "cb04",
+     "prova": "pro_CARGO_4.pdf",
+     "gabarito": "gab_MATRIZ_563_RMULTI_CB1_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_4.PDF"
+    },
+    {
+     "key": "esp04",
+     "prova": "pro_CARGO_4.pdf",
+     "gabarito": "gab_MATRIZ_563_RMULTI_004_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_4.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Odontologia",
+   "id_cargo": "odontologia",
+   "provas": [
+    {
+     "key": "cb05",
+     "prova": "pro_CARGO_5.pdf",
+     "gabarito": "gab_MATRIZ_563_RMULTI_CB1_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_5.PDF"
+    },
+    {
+     "key": "esp05",
+     "prova": "pro_CARGO_5.pdf",
+     "gabarito": "gab_MATRIZ_563_RMULTI_005_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_5.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Psicologia",
+   "id_cargo": "psicologia",
+   "provas": [
+    {
+     "key": "cb06",
+     "prova": "pro_CARGO_6.pdf",
+     "gabarito": "gab_MATRIZ_563_RMULTI_CB1_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_6.PDF"
+    },
+    {
+     "key": "esp06",
+     "prova": "pro_CARGO_6.pdf",
+     "gabarito": "gab_MATRIZ_563_RMULTI_006_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_6.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Saúde Coletiva",
+   "id_cargo": "saude-coletiva",
+   "provas": [
+    {
+     "key": "cb07",
+     "prova": "pro_CARGO_7.pdf",
+     "gabarito": "gab_MATRIZ_563_RMULTI_CB1_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_7.PDF"
+    },
+    {
+     "key": "esp07",
+     "prova": "pro_CARGO_7.pdf",
+     "gabarito": "gab_MATRIZ_563_RMULTI_007_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_7.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Serviço Social",
+   "id_cargo": "servico-social",
+   "provas": [
+    {
+     "key": "cb08",
+     "prova": "pro_CARGO_8.pdf",
+     "gabarito": "gab_MATRIZ_563_RMULTI_CB1_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_8.PDF"
+    },
+    {
+     "key": "esp08",
+     "prova": "pro_CARGO_8.pdf",
+     "gabarito": "gab_MATRIZ_563_RMULTI_008_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_8.PDF"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Terapia Ocupacional",
+   "id_cargo": "terapia-ocupacional",
+   "provas": [
+    {
+     "key": "cb09",
+     "prova": "pro_CARGO_9.pdf",
+     "gabarito": "gab_MATRIZ_563_RMULTI_CB1_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_9.PDF"
+    },
+    {
+     "key": "esp09",
+     "prova": "pro_CARGO_9.pdf",
+     "gabarito": "gab_MATRIZ_563_RMULTI_009_00.pdf",
+     "tipo": "ce",
+     "arquivo": "MATRIZ_CARGO_9.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}
