@@ -397,3 +397,313 @@ def test_script_aquecer_cache(client, tmp_path: Path, monkeypatch):
     res2 = aquecer_cache(ids, base_url="", intervalo=0.0, client=client)
     assert all(item.ok and item.cached is True for item in res2)
     assert calls == 2
+
+
+def _sample_edital_json(qtd_topicos: int = 8) -> dict[str, Any]:
+    base = [
+        {"disciplina": "Direito Administrativo", "topico": "Atos administrativos", "prioridade": "alta", "termo_busca": "ato administrativo"},
+        {"disciplina": "Direito Administrativo", "topico": "Motivação dos atos", "prioridade": "alta", "termo_busca": "motivacao"},
+        {"disciplina": "Direito Administrativo", "topico": "Licenças", "prioridade": "media", "termo_busca": "licenca"},
+        {"disciplina": "Direito Constitucional", "topico": "Controle de constitucionalidade", "prioridade": "media", "termo_busca": "constitucionalidade"},
+        {"disciplina": "Língua Portuguesa", "topico": "Crase", "prioridade": "baixa", "termo_busca": "crase"},
+        {"disciplina": "Direito Penal", "topico": "Crimes contra a administração", "prioridade": "media", "termo_busca": "peculato"},
+        {"disciplina": "Tópico Extra 7", "topico": "Não deve entrar", "prioridade": "baixa", "termo_busca": "extra7"},
+        {"disciplina": "Tópico Extra 8", "topico": "Não deve entrar", "prioridade": "baixa", "termo_busca": "extra8"},
+    ]
+    return {
+        "resumo": "Edital focado em Direito Administrativo e interpretação.",
+        "banca_identificada": "Cebraspe",
+        "topicos": base[:qtd_topicos],
+    }
+
+
+def test_edital_sucesso_max_6_topicos_e_contagem_real(client, monkeypatch):
+    seen_payloads: list[dict[str, Any]] = []
+
+    def fake_post(url, headers, payload, timeout):
+        seen_payloads.append(payload)
+        return _gemini_ok_response(_sample_edital_json(8))
+
+    monkeypatch.setattr(agente, "_post_interaction", fake_post)
+
+    texto = (
+        "Concurso Público Cebraspe. Conhecimentos Específicos: "
+        "1. Atos administrativos: conceito, requisitos, vinculação e motivação. "
+        "2. Controle de legalidade e licenças administrativas."
+    )
+    r = client.post(
+        "/agente/edital",
+        json={"texto_edital": texto, "cargo": "Escrivão"},
+    )
+    assert r.status_code == 200
+    body = r.json()
+    assert body["modelo"] == "gemini-4-hydrogen"
+    assert body["banca_identificada"] == "Cebraspe"
+    assert len(body["topicos"]) == 6
+    assert "<conteudo_edital>" in seen_payloads[0]["input"]
+
+    por_termo = {t["termo_busca"]: t for t in body["topicos"]}
+    assert por_termo["ato administrativo"]["questoes_disponiveis"] == 3
+    assert por_termo["motivacao"]["questoes_disponiveis"] == 2
+    assert por_termo["licenca"]["questoes_disponiveis"] == 0  # FCC foi filtrada por banca=Cebraspe
+    assert por_termo["ato administrativo"]["filtro_sugerido"] == {
+        "q": "ato administrativo",
+        "banca": "Cebraspe",
+    }
+    assert all(t["timeout_consulta"] is False for t in body["topicos"])
+    assert body["tempo_total_consultas_ms"] >= 0
+
+
+def test_edital_timeout_consulta_degrada_sem_quebrar(client, monkeypatch):
+    monkeypatch.setattr(
+        agente,
+        "_post_interaction",
+        lambda *a, **k: _gemini_ok_response(_sample_edital_json(2)),
+    )
+    monkeypatch.setattr(
+        agente,
+        "_contar_questoes_por_termo",
+        lambda session, termo, banca, timeout_ms: (None, True, 2501),
+    )
+
+    r = client.post(
+        "/agente/edital",
+        json={"texto_edital": "Conteúdo programático de exemplo suficientemente longo para validação."},
+    )
+    assert r.status_code == 200
+    body = r.json()
+    assert len(body["topicos"]) == 2
+    assert all(t["timeout_consulta"] is True and t["questoes_disponiveis"] is None for t in body["topicos"])
+    assert body["tempo_total_consultas_ms"] == 5002
+
+
+def test_edital_curto_422(client):
+    r = client.post("/agente/edital", json={"texto_edital": "curto demais"})
+    assert r.status_code == 422
+
+
+def test_edital_sem_api_key_503(client, monkeypatch):
+    monkeypatch.delenv("GEMINI_API_KEY", raising=False)
+    r = client.post(
+        "/agente/edital",
+        json={"texto_edital": "Conteúdo programático de exemplo suficientemente longo para validação."},
+    )
+    assert r.status_code == 503
+
+
+def test_edital_fallback_503_para_modelo_secundario(client, monkeypatch):
+    calls: list[str] = []
+
+    def fake_post(url, headers, payload, timeout):
+        calls.append(payload["model"])
+        if payload["model"] == "gemini-4-hydrogen":
+            return httpx.Response(503, json={"error": {"message": "high demand"}})
+        return _gemini_ok_response(_sample_edital_json(3))
+
+    monkeypatch.setattr(agente.time, "sleep", lambda _: None)
+    monkeypatch.setattr(agente, "_post_interaction", fake_post)
+
+    r = client.post(
+        "/agente/edital",
+        json={"texto_edital": "Conteúdo programático de exemplo suficientemente longo para validação."},
+    )
+    assert r.status_code == 200
+    assert r.json()["modelo"] == "gemini-3.5-flash-lite"
+    assert calls == [
+        "gemini-4-hydrogen",
+        "gemini-4-hydrogen",
+        "gemini-3.5-flash-lite",
+    ]
+
+
+def test_explicar_texto_base_ausente_curto_circuito(tmp_path, monkeypatch):
+    recs = RECS + [
+        _rec(
+            "cebraspe-2026-agepar-001",
+            tipo="multipla_escolha",
+            enunciado="Com base nas ideias expressas no texto CG1A1, é correto afirmar que",
+            alternativas=["Opt A", "Opt B", "Opt C", "Opt D correta", "Opt E"],
+            gabarito="d",
+            fonte="https://cdn.cebraspe.org.br/concursos/AGEPAR_26/prova.pdf",
+        ),
+        _rec(
+            "cebraspe-2025-exemplo-001",
+            enunciado="Segundo o texto I, o autor defende a reforma tributária.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2025-exemplo-002",
+            tipo="multipla_escolha",
+            enunciado="De acordo com o texto 1A1, assinale a opção correta.",
+            alternativas=["Alt A", "Alt B", "Alt C", "Alt D", "Alt E"],
+            gabarito="a",
+        ),
+        _rec(
+            "cebraspe-2025-exemplo-003",
+            enunciado="No texto, afirma-se que os recursos hídricos são ilimitados.",
+            gabarito="errado",
+        ),
+        _rec(
+            "cebraspe-2025-const-004",
+            enunciado="Segundo o texto constitucional, compete privativamente à União legislar sobre direito penal.",
+            gabarito="certo",
+        ),
+    ]
+    url = f"sqlite:///{tmp_path / 'texto_base.db'}"
+    eng = db.get_engine(url)
+    db.create_schema(eng)
+    db.sync_records(recs, eng)
+    if "api.main" not in sys.modules and "DATABASE_URL" not in os.environ:
+        monkeypatch.setenv("DATABASE_URL", url)
+    from api.main import create_app
+
+    monkeypatch.setenv("AGENTE_RATE_PER_MIN", "30")
+    cli = TestClient(create_app(url))
+
+    llm_calls = 0
+
+    def fake_post(*args, **kwargs):
+        nonlocal llm_calls
+        llm_calls += 1
+        return _gemini_ok_response(_sample_llm_json())
+
+    monkeypatch.setattr(agente, "_post_interaction", fake_post)
+
+    for qid in [
+        "cebraspe-2026-agepar-001",
+        "cebraspe-2025-exemplo-001",
+        "cebraspe-2025-exemplo-002",
+        "cebraspe-2025-exemplo-003",
+    ]:
+        r = cli.post("/agente/explicar", json={"questao_id": qid})
+        assert r.status_code == 200
+        body = r.json()
+        assert body["texto_base_ausente"] is True
+        assert body["modelo"] == "nenhum"
+        assert body["armadilha_banca"] == ""
+        assert body["fonte"] in body["explicacao"]
+        assert "não é possível justificar a resposta com base no texto" in body["explicacao"]
+
+    assert llm_calls == 0
+
+    r_const = cli.post("/agente/explicar", json={"questao_id": "cebraspe-2025-const-004"})
+    assert r_const.status_code == 200
+    assert r_const.json()["texto_base_ausente"] is False
+    assert llm_calls == 1
+
+
+def test_explicar_texto_com_trecho_citado_nao_dispara_ausente(tmp_path, monkeypatch):
+    recs = RECS + [
+        _rec(
+            "cebraspe-2026-agepar-002",
+            tipo="multipla_escolha",
+            enunciado=(
+                'Dos sentidos do texto CG1A1 conclui-se que, no trecho “No total, 101 mil '
+                'pessoas em 15 estados foram impactadas pela extração de minerais da transição, '
+                'que desencadeou 380 confrontos”, o vocábulo “que” retoma'
+            ),
+            alternativas=["A", "B", "C", "extração de minerais da transição", "E"],
+            gabarito="d",
+        )
+    ]
+    url = f"sqlite:///{tmp_path / 'trecho.db'}"
+    eng = db.get_engine(url)
+    db.create_schema(eng)
+    db.sync_records(recs, eng)
+    from api.main import create_app
+
+    cli = TestClient(create_app(url))
+    called = False
+
+    def fake_post(*args, **kwargs):
+        nonlocal called
+        called = True
+        return _gemini_ok_response(_sample_llm_json())
+
+    monkeypatch.setattr(agente, "_post_interaction", fake_post)
+    r = cli.post("/agente/explicar", json={"questao_id": "cebraspe-2026-agepar-002"})
+    assert r.status_code == 200
+    assert r.json()["texto_base_ausente"] is False
+    assert called is True
+
+
+def test_explicar_mc_envia_todas_alternativas_no_prompt(client, monkeypatch):
+    seen: list[dict[str, Any]] = []
+
+    def fake_post(url, headers, payload, timeout):
+        seen.append(payload)
+        return _gemini_ok_response(_sample_llm_json())
+
+    monkeypatch.setattr(agente, "_post_interaction", fake_post)
+
+    r = client.post("/agente/explicar", json={"questao_id": "fcc-2024-tj-analista-001"})
+    assert r.status_code == 200
+    prompt_in = seen[0]["input"]
+    sys_inst = seen[0]["system_instruction"]
+    for alt in ["A) Ato vinculado", "B) Ato precário", "C) Ato revogável", "D) Ato nulo", "E) Ato tácito"]:
+        assert alt in prompt_in
+    assert "MÚLTIPLA ESCOLHA" in sys_inst
+    assert "letra da alternativa correta" in sys_inst
+    assert "RIGOR NORMATIVO" in sys_inst
+    assert "costumam vedar" in sys_inst
+
+
+def test_edital_termo_max_2_palavras_e_retry_menor_que_5(tmp_path, monkeypatch):
+    extra_recs = RECS + [
+        _rec(
+            f"cebraspe-2024-pf-escrivao-{100 + i}",
+            enunciado=f"Sobre a licitação pública realizada pelo órgão ({i}).",
+        )
+        for i in range(6)
+    ]
+    url = f"sqlite:///{tmp_path / 'edital_retry.db'}"
+    eng = db.get_engine(url)
+    db.create_schema(eng)
+    db.sync_records(extra_recs, eng)
+    from api.main import create_app
+
+    cli = TestClient(create_app(url))
+    monkeypatch.setattr(
+        agente,
+        "_post_interaction",
+        lambda *a, **k: _gemini_ok_response(
+            {
+                "resumo": "Edital de teste.",
+                "banca_identificada": "",
+                "topicos": [
+                    {
+                        "disciplina": "Direito Constitucional",
+                        "topico": "Controle de constitucionalidade",
+                        "prioridade": "alta",
+                        "termo_busca": "controle de constitucionalidade",
+                    },
+                    {
+                        "disciplina": "Língua Portuguesa",
+                        "topico": "Interpretação",
+                        "prioridade": "media",
+                        "termo_busca": "interpretacao de textos",
+                    },
+                    {
+                        "disciplina": "Direito Administrativo",
+                        "topico": "Licitações específicas",
+                        "prioridade": "alta",
+                        "termo_busca": "licitacao obscura",
+                    },
+                ],
+            }
+        ),
+    )
+
+    r = cli.post(
+        "/agente/edital",
+        json={"texto_edital": "Conteúdo programático com licitações, controle de constitucionalidade e interpretação."},
+    )
+    assert r.status_code == 200
+    body = r.json()
+    topicos = body["topicos"]
+    assert all(len(t["termo_busca"].split()) <= 2 for t in topicos)
+    assert topicos[0]["termo_busca"] == "constitucionalidade"
+    assert topicos[1]["termo_busca"] == "interpretacao"
+    # "licitacao obscura" teve 0 (< 5), tentou 1x com "licitacao" e adotou contagem maior
+    assert topicos[2]["termo_busca"] == "licitacao"
+    assert topicos[2]["questoes_disponiveis"] >= 5

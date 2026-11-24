@@ -118,6 +118,7 @@ Proposta técnica consolidada para o agente de IA do **Papiro** (HackBrasil — 
 | `gabarito_oficial` | `string` | Gabarito definitivo vindo direto do Postgres (`"certo"`, `"errado"` ou `"a"`–`"e"`). |
 | `fonte` | `string` | URL oficial do caderno/prova no Postgres. |
 | `anulada` | `boolean` | `true` quando anulada/fora do domínio (retorna sem chamar LLM). |
+| `texto_base_ausente` | `boolean` | `true` quando o enunciado referencia texto externo ausente (curto-circuito seguro sem LLM). |
 | `acertou` | `boolean \| null` | `true`/`false` quando `resposta_usuario` foi enviada; `null` caso contrário. |
 | `disciplina_inferida` | `string` | Disciplina/matéria estimada (útil nos 60,6% sem `assunto`). |
 | `explicacao` | `string` | Explicação didática fundamentada no gabarito oficial. |
@@ -134,6 +135,7 @@ Proposta técnica consolidada para o agente de IA do **Papiro** (HackBrasil — 
   "gabarito_oficial": "certo",
   "fonte": "https://cdn.cebraspe.org.br/concursos/PF_24/arquivos/p1.pdf",
   "anulada": false,
+  "texto_base_ausente": false,
   "acertou": false,
   "disciplina_inferida": "Direito Administrativo",
   "explicacao": "O gabarito oficial é CERTO porque...",
@@ -178,3 +180,25 @@ curl -s -X POST http://127.0.0.1:8000/agente/explicar \
     "duvida": "Qual é a pegadinha desse item?"
   }'
 ```
+
+---
+
+## 8. Contrato de `POST /agente/edital` (Entrega 2) e medição real
+
+- **Request (`EditalRequest`):** `texto_edital` (`50` a `30.000` chars), `banca` (opcional), `cargo` (opcional).
+- **Response `200 OK` (`EditalResponse`):** `resumo`, `banca_identificada`, até **6** `topicos` (`disciplina`, `topico`, `prioridade` `"alta"|"media"|"baixa"`, `termo_busca` com no máximo 2 palavras técnicas, `questoes_disponiveis`, `timeout_consulta`, `tempo_consulta_ms`, `filtro_sugerido`), `tempo_total_consultas_ms`, `modelo`. Se a contagem inicial for menor que 5 (e sem timeout), tenta 1 vez com termo mais curto.
+- **Timeout por consulta:** `AGENTE_EDITAL_QUERY_TIMEOUT_MS` (padrão `2500` ms). Em Postgres usa `SET LOCAL statement_timeout`; em SQLite usa `set_progress_handler`. Se estourar o timeout em um tópico, retorna `timeout_consulta: true` e `questoes_disponiveis: null` sem falhar a requisição (`200`).
+
+### Medição real de `unaccent_ilike` (307.446 questões no SQLite local)
+
+| Termo | Questões encontradas | Sem filtro de banca | Com `banca="Cebraspe"` |
+|---|---:|---:|---:|
+| `"ato administrativo"` | 1.141 | 5.221 ms | 4.995 ms |
+| `"improbidade"` | 1.690 | 5.475 ms | 5.055 ms |
+| `"licitacao"` | 2.581 | 5.183 ms | 5.000 ms |
+| `"crase"` | 834 | 5.359 ms | 4.737 ms |
+| `"constitucionalidade"` | 484 | 5.042 ms | 4.938 ms |
+| `"habeas corpus"` | 299 | 5.146 ms | 4.828 ms |
+| **Total (6 queries)** | — | **31.426 ms** | **29.553 ms** |
+
+*Nota:* no SQLite o `unaccent()` roda via UDF Python por linha (~5 s por varredura completa), e o timeout de `1.000 ms` disparou exatamente em `1.002 ms`. Em produção no Postgres 17 (extensão `unaccent` nativa em C), espera-se execução bem mais rápida; o teto de `2.500 ms` por consulta protege contra bloqueios na VM `e2-small`. (Melhoria futura para o pós-hackathon: índice GIN `pg_trgm` sobre `unaccent(enunciado)` se houver escrita/migração no Postgres.)
