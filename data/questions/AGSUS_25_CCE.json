@@ -1,0 +1,877 @@
+{
+ "evento": "AGSUS_25_CCE",
+ "banca": "Cebraspe",
+ "orgaos": [
+  "Agência Brasileira de Apoio à Gestão do SUS"
+ ],
+ "cargos": [
+  "Assistente Administrativo de CCE",
+  "Agente Administrativo de CCE"
+ ],
+ "assuntos": [
+  ""
+ ],
+ "provas": [
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/AGSUS_25_CCE/arquivos/7EF273ADE5BF87D768EE8D5C2BE8CE36F1485EC6E3EF64468213C1168053721E.pdf"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/AGSUS_25_CCE/arquivos/5B0C591D4033C261FC602C2A3E48D29E9DC447ECB4A2845D17E7652B2B8A7100.pdf"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/AGSUS_25_CCE/arquivos/E630B638C32E7860D6BF0004D98DB87A733B55CB83D351A28603CB596C4E74D4.pdf"
+  },
+  {
+   "fonte": "https://cdn.cebraspe.org.br/concursos/AGSUS_25_CCE/arquivos/BD70BB27206DD042EF4F1C23DA127751E2351DA7C46E6221149E02D8AD653CA1.pdf"
+  }
+ ],
+ "itens": [
+  {
+   "id": "cebraspe-2025-agsus-assistente-001",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A penalidade para membro do Conselho Deliberativo da AGSUS que for condenado em processo administrativo disciplinar é de afastamento do cargo por 120 dias, por decisão da maioria absoluta dos membros daquele conselho.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-002",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O diretor-presidente da AGSUS é escolhido e designado pelo Ministro da Saúde.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-003",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A prestação à sociedade de informação sobre a parcela de recursos públicos recebidos no âmbito do referido contrato de gestão é obrigação da AgSUS.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-004",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A publicação do contrato de gestão no Diário Oficial da União não substitui a necessidade de publicação no sítio eletrônico da agência.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-005",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Pessoas de notório saber em assuntos referentes às atividades da AgSUS podem ser convidados para participar de reuniões do conselho deliberativo, e, por terem notório saber nesses assuntos, também têm direito a voto.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-006",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A aprovação da remuneração de empregados e colaboradores da AgSUS é competência do Conselho Fiscal.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-007",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A prorrogação da participação do médico intercambista no Projeto Mais Médicos para o Brasil dispensa apresentação de diploma revalidado.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-008",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A indenização devida aos médicos que atuarem no Projeto Mais Médicos para o Brasil, de forma ininterrupta, em área de difícil fixação poderá ser paga de forma parcelada.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-009",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O Código de Conduta e Ética da AgSUS orienta que a imagem e o nome da agência não podem ser usados para a criação de mídias digitais não oficiais.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-010",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A respeito do uso do celular no ambiente de trabalho, é recomendado que o celular seja mantido em modo silencioso durante o expediente.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-011",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A vacina contra o HPV é disponibilizada pelo SUS para grupos prioritários especiais, com vacinação seletiva.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-012",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Uma atenção primária de qualidade, como parte integrante da rede de atenção à saúde, estrutura- se segundo atributos como primeiro contato, longitudinalidade e integralidade.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-013",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A gestante assistida pelo SUS tem o direito de conhecer previamente a maternidade na qual ela será atendida nos casos de intercorrência pré-natal.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-014",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A paciente usuária do SUS poderá recusar acompanhante nos procedimentos em que houver necessidade de submetê-la a sedação.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-015",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Enquanto o processo eleitoral de escolha dos conselheiros do Conselho Nacional de Saúde é realizado a cada três anos, o dos gestores de saúde é realizado a cada 2 anos.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-016",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O campo de atuação do SUS inclui a execução de ações de assistência terapêutica integral, inclusive farmacêutica.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-017",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O conjunto de ações realizadas pela vigilância sanitária inclui apenas o controle da prestação de serviços que se relacionam diretamente com a saúde, como o comércio de alimentos e medicamentos.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-018",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Os municípios poderão constituir consórcios para desenvolver em conjunto as ações e serviços de saúde que lhes correspondam.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-019",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "As instituições de atenção primária, secundária e terciária devem atuar de forma integrada para garantir a continuidade do cuidado ao usuário.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-020",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Nas instituições de saúde, a gestão administrativa e a prestação direta de serviços assistenciais constituem esferas totalmente independentes.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-021",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A estrutura analítica do projeto decompõe o trabalho em componentes gerenciáveis, sem necessariamente refletir a sequência temporal das atividades.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-022",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O encerramento do projeto ocorre automaticamente quando o orçamento é integralmente utilizado.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-023",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O termo de abertura do projeto formaliza a autorização para sua execução e define a autoridade do gerente de projetos.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-024",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O ciclo PDCA estrutura a melhoria contínua por meio de etapas sequenciais de planejamento, execução, verificação e ação corretiva.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-025",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A análise SWOT restringe-se à avaliação de indicadores financeiros.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-026",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A gestão por processos envolve o mapeamento das atividades organizacionais com foco em entradas, saídas e responsáveis.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-027",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A transparência na gestão das políticas de saúde envolve a publicidade de dados orçamentários, metas pactuadas e resultados alcançados.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-028",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A formulação de políticas públicas em saúde ocorre exclusivamente no âmbito do Poder Executivo federal.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-029",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A devolutiva dos resultados da avaliação aos gestores e à sociedade contribui para o aperfeiçoamento das políticas públicas em saúde.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-030",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O monitoramento restringe-se à coleta de dados financeiros, não incluindo metas assistenciais.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-031",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A avaliação pode ocorrer de forma ex ante , concomitante ou ex post , conforme o momento do ciclo da política pública.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-032",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O acesso à atenção especializada pode ser regulado por centrais de marcação e critérios clínicos previamente definidos.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-033",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A contrarreferência é dispensável quando o atendimento especializado é concluído.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-034",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A oferta de exames diagnósticos de média e alta complexidade compõe o escopo da atenção especializada.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-035",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A escalabilidade de uma inovação social depende de condições institucionais, financiamento e capacidade de replicação.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-036",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Modelos de governança colaborativa podem favorecer a sustentabilidade de iniciativas de inovação social.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-037",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O uso de tecnologia de ponta é requisito obrigatório para caracterizar inovação social.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-038",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A incorporação de tecnologias educacionais demanda planejamento pedagógico alinhado aos objetivos de aprendizagem",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-039",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A formação em políticas públicas em saúde pode incluir análise de instrumentos normativos e de mecanismos de financiamento do sistema.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-assistente-040",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A definição do conteúdo de programas de capacitação em políticas públicas em saúde independe das funções exercidas pelos participantes nas instituições em que atuam.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-001",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "É permitido que os membros do conselho fiscal sejam reconduzidos duas vezes.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-002",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Cumprir e fazer cumprir as decisões do Conselho Deliberativo, o estatuto, o contrato de gestão e os demais regulamentos e normas da AgSUS compete à sua Diretoria-Executiva.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-003",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A gestão transparente da informação que cabe à AgSUS contempla hipóteses legais de sigilo e restrição de acesso às informações pessoais sensíveis.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-004",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O Ministério da Saúde tem obrigação de transferir os créditos previstos no contrato de gestão, de acordo com o cronograma de desembolso estabelecido, observados os valores aprovados na lei orçamentária anual e a existência de limite financeiro-orçamentário.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-005",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Os emolumentos provenientes de serviços prestados nos termos regimentais a pessoas jurídicas de direito público não constituem receitas da AgSUS.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-006",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Em caso de extinção da AgSUS, seu patrimônio será transferido à União.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-007",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "As bolsas concedidas no âmbito do Projeto Mais Médicos para o Brasil não caracterizam vínculo empregatício do médico estrangeiro participante com a União.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-008",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "As bolsas e as indenizações estabelecidas no âmbito do Projeto Mais Médicos para o Brasil serão pagas em igual valor e de forma direta apenas aos médicos de nacionalidade brasileira.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-009",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "É dever de todos os colaboradores da AgSUS ter autorização formal para divulgação ou uso do patrimônio intelectual da agência.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-010",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Condicionar decisões institucionais ― como investimentos, novos negócios ou projetos ― ao atendimento de interesses pessoais de funcionário da AgSUS não constitui conflito de interesse se a decisão for altamente benéfica para a agência.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-011",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O PNI é coordenado pelo Ministério da Saúde, que planeja, financia e distribui as vacinas.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-012",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O PNI disponibiliza imunobiológicos que contemplam todas as fases da vida.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-013",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "As UPA prestam atendimento resolutivo e qualificado a pacientes com condições clínicas graves e não graves, mas o primeiro atendimento a casos cirúrgicos e traumáticos devem ser encaminhados ao hospital mais próximo.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-014",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A UPA 24h opera ininterruptamente todos os dias da semana, com uma equipe multiprofissional qualificada e adaptada às demandas específicas de cada região.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-015",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O cumprimento dos objetivos da rede de atenção à saúde dependem de que os domicílios e as unidades básicas de saúde tenham maior importância em relação aos demais pontos de atenção à saúde.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-016",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "É recomendado que não seja informado ao paciente a duração prevista do tratamento proposto, pois esse tipo de informação tende a aumentar os níveis de ansiedade do paciente, agravando seu estado de saúde.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-017",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O prontuário dos pacientes deve conter, de forma atualizada e legível, o motivo do atendimento e(ou) internação bem como a prescrição terapêutica.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-019",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Em relação à participação da iniciativa privada no SUS, empresas com fins lucrativos têm prioridade sobre as entidades sem fins lucrativos.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-020",
+   "prova": 2,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Os cargos e funções de assessoramento, no âmbito do Sistema Único de Saúde (SUS), poderão ser exercidas em regime de tempo parcial.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-021",
+   "prova": 3,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A agenda de compromissos deve ser única e centralizada, devendo o profissional evitar anotar reuniões em papéis avulsos ou em calendários diferentes.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-022",
+   "prova": 3,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Ao redigir um memorando interno, o funcionário pode omitir a data, sendo obrigatória a identificação do setor.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-024",
+   "prova": 3,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Na cotação de preços com fornecedores, o assistente administrativo deve escolher sempre o valor mais baixo.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-025",
+   "prova": 3,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "A ata de reunião é o documento que registra as decisões tomadas, os responsáveis por cada tarefa e os prazos acordados durante um encontro de trabalho.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-026",
+   "prova": 3,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Um procedimento operacional padrão (POP) é um roteiro escrito que descreve passo a passo como uma tarefa deve ser feita, servindo para que qualquer pessoa consiga executá-la da mesma forma.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-027",
+   "prova": 3,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Um checklist é uma ferramenta simples de controle que ajuda a garantir que apenas os itens com caráter de urgência de uma tarefa ou um processo não sejam esquecidos.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-028",
+   "prova": 3,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O retrabalho é um sinal de que o processo está mal controlado ou de que as instruções não estão claras.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-029",
+   "prova": 3,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Documentar um processo refere-se apenas a escrever o que deve ser feito.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-030",
+   "prova": 3,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O controle de processos tende a tornar o trabalho das pessoas mecânico, pois todo o foco é concentrado estritamente em rotinas e organização, deixando-se a criatividade em segundo plano.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-031",
+   "prova": 3,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "O uso de modelos de documento ajuda a manter o padrão visual da empresa e evita que informações essenciais, como data e assinatura, sejam esquecidas.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-033",
+   "prova": 3,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Documentos importantes, como contratos e notas fiscais, nunca devem ser guardados apenas em formato físico, sendo essencial manter uma cópia digital.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-034",
+   "prova": 3,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Nomear arquivos no computador como \"documento1\", \"teste\" ou \"final\" é uma prática eficiente que facilita a busca rápida no Windows.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-035",
+   "prova": 3,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Enviar documentos por email em formato PDF é mais seguro que em formato Word, pois evita que o conteúdo seja alterado acidentalmente por quem os recebe.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-036",
+   "prova": 3,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "No PowerPoint, para garantir que uma apresentação seja dinâmica, o usuário deve aplicar diferentes tipos de transições e animações em todos os elementos de cada slide .",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-037",
+   "prova": 3,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Uma vez excluída, uma aba de um arquivo Excel pode ser facilmente recuperada por meio do atalho Ctrl + Z.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-038",
+   "prova": 3,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "Para editar arquivos com senha no Word, basta que o usuário crie uma cópia do arquivo em outra pasta o que desfaz a estrutura de senha do arquivo.",
+   "gabarito": "errado"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-039",
+   "prova": 3,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "No Excel, a formatação condicional permite alterar automaticamente a cor de uma célula, por exemplo, com base em regras definidas pelo usuário.",
+   "gabarito": "certo"
+  },
+  {
+   "id": "cebraspe-2025-agsus-agente-administrativo-040",
+   "prova": 3,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "certo_errado",
+   "enunciado": "No Word, uso de Estilos (como Título 1, Título 2 e Normal) permite a padronização automática de fontes e espaçamentos em todo o documento, além de facilitar a criação de sumários automáticos.",
+   "gabarito": "certo"
+  }
+ ]
+}
