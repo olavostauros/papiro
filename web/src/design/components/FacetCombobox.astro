@@ -1,0 +1,35 @@
+---
+interface Props {
+  /** Dimensão da API: banca | orgao | cargo | ano | assunto. */
+  dim: string;
+  label: string;
+  placeholder?: string;
+  /** Valor inicial (deep-link SSR). */
+  value?: string;
+  class?: string;
+}
+
+const { dim, label, placeholder = 'Todos', value = '', class: className, ...rest } = Astro.props;
+---
+
+<facet-combobox class={className} {...rest}>
+  <label class="flex flex-col gap-1 text-xs font-medium text-ink-soft">
+    {label}
+    <input
+      type="text"
+      list={`faceta-${dim}`}
+      placeholder={placeholder}
+      value={value}
+      autocomplete="off"
+      spellcheck="false"
+      data-busca
+      class="rounded-md border border-line-strong bg-surface px-2 py-1.5 text-base text-ink focus-visible:border-accent focus-visible:focus-ring sm:text-sm"
+    />
+  </label>
+  <input type="hidden" data-filtro={dim} value={value} />
+  <datalist id={`faceta-${dim}`}></datalist>
+</facet-combobox>
+
+<script>
+  import '../elements/facet-combobox';
+</script>

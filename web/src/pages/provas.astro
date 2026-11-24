@@ -2,21 +2,97 @@
 import Layout from '../layouts/Layout.astro';
 import SiteHeader from '../design/components/SiteHeader.astro';
 import SiteFooter from '../design/components/SiteFooter.astro';
+import Badge from '../design/components/Badge.astro';
+import Card from '../design/components/Card.astro';
 import Container from '../design/components/Container.astro';
 import EmptyState from '../design/components/EmptyState.astro';
+import Input from '../design/components/Input.astro';
+import Link from '../design/components/Link.astro';
 import PageHeader from '../design/components/PageHeader.astro';
+import { API_URL, fetchEventos } from '../data/questions';
+
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+
+const eventos = API_URL
+  ? await fetchEventos().catch((err) => {
+      console.warn('provas SSR /eventos:', err);
+      return [];
+    })
+  : [];
+
+const normaliza = (s: string) =>
+  s
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/\p{Diacritic}/gu, '');
 ---
 
-<Layout title="papiro — provas">
+<Layout title="papiro — provas" description="Concursos ingeridos no acervo do papiro, com contagens de provas e questões.">
   <SiteHeader />
 
   <Container as="main" id="conteudo" tabindex="-1" class="py-10">
     <PageHeader title="Provas">
-      Provas oficiais completas por banca, órgão, cargo e ano.
+      Concursos já ingeridos no acervo. Abra um evento para listar as provas ou vá direto
+      para as questões.
     </PageHeader>
 
-    <EmptyState>Em breve — a listagem de provas por concurso está em desenho.</EmptyState>
+    {
+      eventos.length > 0 ? (
+        <evento-list data-api-url={API_URL}>
+          <Card as="section" aria-label="Buscar evento" class="mb-8 p-4">
+            <Input
+              label="Buscar por evento ou banca"
+              type="search"
+              placeholder="Digite para filtrar a lista…"
+              data-busca
+            />
+            <p class="mt-3 text-sm text-ink-soft" role="status">
+              <span data-contagem>{eventos.length}</span> eventos
+            </p>
+          </Card>
+
+          <ul class="space-y-3" aria-label="Eventos">
+            {eventos.map((ev) => (
+              <li data-evento-item data-busca-texto={normaliza(`${ev.evento} ${ev.banca}`)}>
+                <details
+                  data-evento={ev.evento}
+                  class="rounded-xl border border-line bg-surface p-5"
+                >
+                  <summary class="flex cursor-pointer flex-wrap items-baseline gap-x-3 gap-y-1 rounded-sm focus-visible:focus-ring">
+                    <span class="font-medium text-ink">{ev.evento}</span>
+                    <Badge>{ev.banca}</Badge>
+                    <span class="ml-auto text-sm text-ink-soft">
+                      {ev.provas} provas · {ev.questoes.toLocaleString('pt-BR')} questões
+                    </span>
+                  </summary>
+                  <div class="mt-3 border-t border-line pt-3">
+                    <Link
+                      href={`${base}/?evento=${encodeURIComponent(ev.evento)}`}
+                      variant="underline"
+                    >
+                      Resolver as {ev.questoes.toLocaleString('pt-BR')} questões deste evento
+                    </Link>
+                    <div data-provas class="mt-3" role="status">
+                      <p class="text-sm text-ink-soft">As provas são carregadas ao abrir.</p>
+                    </div>
+                  </div>
+                </details>
+              </li>
+            ))}
+          </ul>
+        </evento-list>
+      ) : (
+        <EmptyState>
+          Não foi possível carregar a lista de eventos — a API está indisponível no
+          momento.
+        </EmptyState>
+      )
+    }
   </Container>
 
   <SiteFooter />
+
+  <script>
+    import '../design/elements/evento-list';
+  </script>
 </Layout>

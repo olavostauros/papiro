@@ -1,0 +1,54 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from '../design/components/SiteHeader.astro';
+import SiteFooter from '../design/components/SiteFooter.astro';
+import Container from '../design/components/Container.astro';
+import EmptyState from '../design/components/EmptyState.astro';
+import PageHeader from '../design/components/PageHeader.astro';
+import QuestionCard from '../design/components/QuestionCard.astro';
+import { API_URL, fetchQuestao } from '../data/questions';
+
+// Em build estático não há query string — a página nasce com o EmptyState e
+// <questao-view> busca a questão no cliente. Se um dia houver SSR, renderiza
+// já com o card.
+const id = Astro.url.searchParams.get('id') ?? '';
+const q = id
+  ? await fetchQuestao(id).catch((err) => {
+      console.warn(`questao SSR (${id}):`, err);
+      return null;
+    })
+  : null;
+---
+
+<Layout title={q ? `papiro — ${q.id}` : 'papiro — questão'}>
+  <SiteHeader />
+
+  <Container as="main" id="conteudo" tabindex="-1" class="py-10">
+    <PageHeader title="Questão">Página permanente de uma questão do acervo.</PageHeader>
+
+    <questao-view data-api-url={API_URL}>
+      <div data-alvo class="space-y-4">
+        {
+          q ? (
+            <QuestionCard q={q} />
+          ) : (
+            <EmptyState>
+              Informe o identificador da questão na URL — por exemplo,
+              <code class="rounded-sm bg-accent-soft px-1 py-0.5 font-mono text-xs text-accent"
+                >?id=cebraspe-2024-…</code
+              >
+              (o link Permalink de cada cartão aponta para cá).
+            </EmptyState>
+          )
+        }
+      </div>
+      <p class="mt-4 text-center text-sm text-ink-soft" role="status" data-status hidden></p>
+    </questao-view>
+  </Container>
+
+  <SiteFooter />
+
+  <script>
+    import '../design/elements/questao-view';
+  </script>
+</Layout>

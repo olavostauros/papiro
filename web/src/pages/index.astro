@@ -4,9 +4,13 @@ import SiteHeader from '../design/components/SiteHeader.astro';
 import SiteFooter from '../design/components/SiteFooter.astro';
 import Card from '../design/components/Card.astro';
 import Container from '../design/components/Container.astro';
+import EmptyState from '../design/components/EmptyState.astro';
+import Input from '../design/components/Input.astro';
 import Select from '../design/components/Select.astro';
+import FacetCombobox from '../design/components/FacetCombobox.astro';
 import PageHeader from '../design/components/PageHeader.astro';
 import QuestionCard from '../design/components/QuestionCard.astro';
+import { paginacaoHtml } from '../design/templates';
 import {
   API_URL,
   EMPTY_FILTROS,
@@ -16,20 +20,24 @@ import {
 } from '../data/questions';
 
 const PER_PAGE = 20;
-// Build-time: SSR da 1ª página + opções dos Selects. Sem a API acessível,
-// a página sai com listas vazias e <question-browser> tenta de novo no cliente.
-const [filtros, primeira] = await Promise.all([
-  fetchFiltros().catch(() => EMPTY_FILTROS),
-  fetchQuestoes({ page: 1, per_page: PER_PAGE }).catch(() => EMPTY_PAGE),
-]);
-
-const campos = [
-  { id: 'banca', label: 'Banca', placeholder: 'Todas', valores: filtros.bancas },
-  { id: 'orgao', label: 'Órgão', placeholder: 'Todos', valores: filtros.orgaos },
-  { id: 'cargo', label: 'Cargo', placeholder: 'Todos', valores: filtros.cargos },
-  { id: 'ano', label: 'Ano', placeholder: 'Todos', valores: filtros.anos.map(String) },
-  { id: 'assunto', label: 'Assunto', placeholder: 'Todos', valores: filtros.assuntos },
-];
+// Build-time: SSR da 1ª página + opções dos selects pequenos (banca, ano —
+// as dimensões grandes viram combobox assíncrono). Sem a API acessível, a
+// página sai com EmptyState e <question-browser> tenta de novo no cliente.
+let apiOk = Boolean(API_URL);
+const [filtros, primeira] = API_URL
+  ? await Promise.all([
+      fetchFiltros({ dims: 'banca,ano' }).catch((err) => {
+        apiOk = false;
+        console.warn('index SSR /filtros:', err);
+        return EMPTY_FILTROS;
+      }),
+      fetchQuestoes({ page: 1, per_page: PER_PAGE }).catch((err) => {
+        apiOk = false;
+        console.warn('index SSR /questoes:', err);
+        return EMPTY_PAGE;
+      }),
+    ])
+  : [EMPTY_FILTROS, EMPTY_PAGE];
 ---
 
 <Layout title="papiro — questões de concursos públicos">
@@ -37,31 +45,82 @@ const campos = [
 
   <Container as="main" id="conteudo" tabindex="-1" class="py-10">
     <PageHeader title="Provas e questões oficiais de concursos, de graça">
-      Filtre por banca, órgão, cargo, ano e assunto. Resolva e confira o gabarito definitivo na
-      hora, com a fonte de cada questão. Sem cadastro.
+      Busque no enunciado e filtre por banca, órgão, cargo, ano, assunto e tipo. Resolva e
+      confira o gabarito definitivo na hora, com a fonte de cada questão. Sem cadastro.
     </PageHeader>
 
     <question-browser data-api-url={API_URL} data-per-page={PER_PAGE}>
-      <Card
-        as="section"
-        aria-label="Filtros"
-        class="mb-8 grid grid-cols-2 gap-3 p-4 sm:grid-cols-3 lg:grid-cols-5"
-      >
-        {
-          campos.map((f) => (
-            <Select label={f.label} placeholder={f.placeholder} options={f.valores} data-filtro={f.id} />
-          ))
-        }
-        <p class="col-span-full text-sm text-ink-soft" role="status">
-          <span data-contagem>{primeira.total}</span> questões
+      <Card as="section" aria-label="Filtros" class="mb-8 space-y-3 p-4">
+        <Input
+          label="Buscar no enunciado"
+          type="search"
+          placeholder="Palavra ou trecho da questão…"
+          data-q
+        />
+        <input type="hidden" data-filtro="evento" />
+        <div class="grid grid-cols-2 gap-3 sm:grid-cols-3">
+          <Select label="Banca" placeholder="Todas" options={filtros.bancas ?? []} data-filtro="banca" />
+          <Select label="Ano" placeholder="Todos" options={(filtros.anos ?? []).map(String)} data-filtro="ano" />
+          <Select
+            label="Tipo"
+            placeholder="Todos"
+            options={[
+              { value: 'certo_errado', label: 'Certo e errado' },
+              { value: 'multipla_escolha', label: 'Múltipla escolha' },
+            ]}
+            data-filtro="tipo"
+          />
+          <FacetCombobox dim="orgao" label="Órgão" />
+          <FacetCombobox dim="cargo" label="Cargo" />
+          <FacetCombobox dim="assunto" label="Assunto" />
+        </div>
+        <p data-evento-ativo hidden class="text-sm text-ink-soft">
+          Filtrando pelo evento
+          <strong data-evento-nome class="font-medium text-ink"></strong>
+          <button
+            type="button"
+            data-limpar-evento
+            class="rounded-sm text-accent underline decoration-line underline-offset-2 transition-colors hover:text-ink focus-visible:focus-ring"
+          >
+            limpar
+          </button>
         </p>
+        <div class="flex flex-wrap items-end justify-between gap-3">
+          <p class="text-sm text-ink-soft" role="status">
+            <span data-contagem>{primeira.total}</span>
+            {apiOk ? ' questões' : ' — API indisponível; tentando novamente no navegador.'}
+          </p>
+          <Select
+            label="Por página"
+            placeholder=""
+            value={String(PER_PAGE)}
+            options={['20', '50', '100']}
+            data-por-pagina
+          />
+        </div>
       </Card>
 
       <section class="space-y-4" aria-label="Questões" data-lista>
-        {primeira.items.map((q) => <QuestionCard q={q} />)}
+        {
+          primeira.items.length > 0 ? (
+            primeira.items.map((q) => <QuestionCard q={q} />)
+          ) : (
+            <EmptyState>
+              {apiOk
+                ? 'Nenhuma questão cadastrada ainda.'
+                : 'Não foi possível carregar as questões — a API está indisponível no momento.'}
+            </EmptyState>
+          )
+        }
       </section>
 
-      <nav class="mt-6 flex items-center justify-center gap-3" aria-label="Paginação" data-paginacao></nav>
+      <nav
+        class="mt-6 flex flex-wrap items-center justify-center gap-2"
+        aria-label="Paginação"
+        data-paginacao
+        set:html={paginacaoHtml(1, primeira.pages)}
+      >
+      </nav>
       <p class="mt-4 text-center text-sm text-ink-soft" role="status" data-status hidden></p>
     </question-browser>
   </Container>

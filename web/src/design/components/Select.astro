@@ -1,12 +1,28 @@
 ---
+interface Opcao {
+  value: string;
+  label: string;
+}
+
 interface Props {
   label: string;
-  options: string[];
+  options: (string | Opcao)[];
+  /** Rótulo da opção vazia; passe '' para omiti-la. */
   placeholder?: string;
+  /** Valor selecionado no SSR. */
+  value?: string;
   class?: string;
 }
 
-const { label, options, placeholder = 'Todas', class: className, ...rest } = Astro.props;
+const {
+  label,
+  options,
+  placeholder = 'Todas',
+  value,
+  class: className,
+  ...rest
+} = Astro.props;
+const ops: Opcao[] = options.map((o) => (typeof o === 'string' ? { value: o, label: o } : o));
 ---
 
 <label class:list={['flex flex-col gap-1 text-xs font-medium text-ink-soft', className]}>
@@ -15,7 +31,7 @@ const { label, options, placeholder = 'Todas', class: className, ...rest } = Ast
     {...rest}
     class="rounded-md border border-line-strong bg-surface px-2 py-1.5 text-base text-ink focus-visible:border-accent focus-visible:focus-ring sm:text-sm"
   >
-    <option value="">{placeholder}</option>
-    {options.map((v) => <option value={v}>{v}</option>)}
+    {placeholder !== '' && <option value="">{placeholder}</option>}
+    {ops.map((o) => <option value={o.value} selected={o.value === value}>{o.label}</option>)}
   </select>
 </label>

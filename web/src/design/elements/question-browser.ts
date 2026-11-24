@@ -2,164 +2,275 @@ import {
   fetchFiltros,
   fetchQuestoes,
   type Filtros,
-  type Questao,
   type QuestoesPage,
 } from '../../data/questions';
 // cards inseridos dinamicamente precisam do elemento definido mesmo quando o
 // SSR veio vazio (API fora no build) — senão nada importaria question-card.ts
 import './question-card';
+import './facet-combobox';
+import { cardHtml, esc, paginacaoHtml } from '../templates';
+import type { FacetComboboxElement } from './facet-combobox';
 
 /**
  * <question-browser> — lista paginada de questões servida pela API.
  *
- * Substitui o filtro client-side de <question-filters> (que escondia itens já
- * renderizados) por fetch server-side: selects disparam /questoes com os
- * filtros ativos e /filtros repovoa as opções em cascata.
+ * Busca server-side: controles disparam GET /questoes com os filtros ativos;
+ * GET /filtros?dims=banca,ano repovoa os selects pequenos em cascata e os
+ * <facet-combobox> (orgao/cargo/assunto) consultam /filtros/{dim} sozinhos.
+ * O estado vive na URL (?banca&orgao&cargo&ano&assunto&tipo&q&evento&page&
+ * per_page): mudanças dão pushState, popstate re-aplica — deep-link,
+ * refresh e voltar preservam tudo.
  *
  * Contrato interno (a página fornece o markup inicial — SSR da 1ª página):
  * - `data-api-url` no elemento: base da API; sem ele o componente fica inerte
  *   (conteúdo SSR permanece).
- * - `select[data-filtro="campo"]`: banca|orgao|cargo|ano|assunto.
+ * - `data-per-page`: tamanho de página padrão (select [data-por-pagina] pode
+ *   mudar; a URL manda nos dois).
+ * - `[data-filtro="campo"]` em select ou input: banca|orgao|cargo|ano|assunto
+ *   |tipo|evento (evento é hidden — vem de links da página de provas).
+ * - `input[data-q]`: busca textual no enunciado (debounce).
+ * - `select[data-por-pagina]`: 20/50/100.
+ * - `[data-evento-ativo]`/`[data-evento-nome]`/`[data-limpar-evento]`: aviso
+ *   de evento filtrado + botão de limpar.
  * - `[data-lista]`: contêiner dos cards (substituído a cada fetch).
- * - `[data-contagem]`: total de questões do resultado.
- * - `[data-paginacao]`: nav onde o elemento injeta Anterior/Próxima + status.
+ * - `[data-contagem]`: total; `[data-paginacao]`: nav de âncoras (ver
+ *   templates.ts); `[data-status]`: carregando/erro.
+ * - Sem parâmetros na URL, NENHUM fetch acontece na carga: o SSR já é a
+ *   primeira página do estado padrão.
  *
- * O template do card replica o markup de QuestionCard/Alternativa/QuestionMeta
- * (components/) — inclusive o contrato data-* lido por <question-card>
- * (gabarito, gabarito-texto, opcao, ver-gabarito, resultado). Ao mudar um,
- * mudar o outro: o elemento <question-card> já cuida da interação de qualquer
- * markup inserido que siga o contrato.
+ * O template do card vive em design/templates.ts e replica o markup de
+ * QuestionCard/Alternativa/QuestionMeta — ao mudar um, mude o outro.
  */
 
-const LETRAS = ['a', 'b', 'c', 'd', 'e'];
-
-const CHECK_SVG =
-  '<svg class="ml-auto hidden size-4 group-data-[state=correct]:inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>';
-const X_SVG =
-  '<svg class="ml-auto hidden size-4 group-data-[state=wrong]:inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg>';
-
-const ALTERNATIVA_CLS =
-  'group flex w-full cursor-pointer items-baseline gap-2 rounded-md border px-3 py-2 text-left text-sm transition-colors' +
-  ' border-line-strong bg-surface text-ink-soft' +
-  ' enabled:hover:border-accent enabled:hover:bg-accent-soft enabled:hover:text-ink' +
-  ' data-[state=selected]:border-accent data-[state=selected]:bg-accent-soft data-[state=selected]:text-ink' +
-  ' data-[state=correct]:border-success-line data-[state=correct]:bg-success-soft data-[state=correct]:text-success' +
-  ' data-[state=wrong]:border-danger-line data-[state=wrong]:bg-danger-soft data-[state=wrong]:text-danger' +
-  ' data-[state=dim]:opacity-60 focus-visible:focus-ring' +
-  ' disabled:cursor-default aria-disabled:pointer-events-none';
-
-const BOTAO_CLS =
-  'inline-flex cursor-pointer items-center justify-center rounded-md font-medium transition-colors focus-visible:focus-ring px-3 py-1.5 text-xs text-accent hover:bg-accent-soft';
-const PAG_CLS =
-  'inline-flex cursor-pointer items-center justify-center rounded-md font-medium transition-colors focus-visible:focus-ring px-3 py-1.5 text-xs border border-line-strong bg-surface text-ink hover:bg-accent-soft disabled:cursor-default disabled:opacity-50';
-const LINK_CLS =
-  'rounded-sm text-ink-soft transition-colors hover:text-ink focus-visible:focus-ring underline decoration-line underline-offset-2 ml-auto';
-
-function esc(s: string): string {
-  return s
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
-}
-
-// fonte vira href: só http(s) é clicável (banca futura com fonte arbitrária)
-const FONTE_URL = /^https?:/i;
-
-function gabaritoTexto(q: Questao): string {
-  return q.tipo === 'certo_errado'
-    ? q.gabarito === 'certo'
-      ? 'Certo'
-      : 'Errado'
-    : `Alternativa ${q.gabarito.toUpperCase()}`;
-}
-
-function cardHtml(q: Questao): string {
-  const ce = q.tipo === 'certo_errado';
-  const aria = esc(`Questão — ${q.banca}, ${q.cargo}, ${q.ano}`);
-  const opcoes = q.alternativas
-    .map((alt, i) => {
-      const valor = ce ? alt.toLowerCase() : LETRAS[i];
-      const letra = ce ? '' : `<span class="font-medium text-ink-faint group-data-[state=correct]:text-success group-data-[state=wrong]:text-danger">${LETRAS[i].toUpperCase()})</span>`;
-      return `<button type="button" role="radio" aria-checked="false" data-opcao="${esc(valor)}" class="${ALTERNATIVA_CLS}${ce ? ' justify-center' : ''}">${letra}<span>${esc(alt)}</span>${CHECK_SVG}${X_SVG}</button>`;
-    })
-    .join('');
-  const meta = `<p class="flex flex-wrap gap-x-2 gap-y-1 text-xs text-ink-soft"><span class="font-medium text-ink">${esc(q.banca)}</span><span aria-hidden="true">·</span><span>${esc(q.orgao)}</span><span aria-hidden="true">·</span><span>${esc(q.cargo)}</span><span aria-hidden="true">·</span><span>${q.ano}</span>${
-    q.assunto
-      ? `<span class="ml-auto inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium bg-accent-soft text-accent">${esc(q.assunto)}</span>`
-      : ''
-  }</p>`;
-  const fonte = FONTE_URL.test(q.fonte)
-    ? `<a href="${esc(q.fonte)}" class="${LINK_CLS}" aria-label="Fonte oficial — ${esc(q.banca)}, ${esc(q.cargo)}, ${q.ano}">Fonte oficial</a>`
-    : `<span class="${LINK_CLS}">Fonte oficial</span>`;
-  return `<question-card data-banca="${esc(q.banca)}" data-orgao="${esc(q.orgao)}" data-cargo="${esc(q.cargo)}" data-ano="${q.ano}" data-assunto="${esc(q.assunto)}" data-gabarito="${esc(q.gabarito)}" data-gabarito-texto="${esc(gabaritoTexto(q))}" data-filter-item><article class="rounded-xl border border-line bg-surface p-5" aria-label="${aria}">${meta}<p id="enunciado-${esc(q.id)}" class="mt-3 font-serif text-base leading-relaxed sm:text-lg">${esc(q.enunciado)}</p><div class="mt-3 grid gap-1.5${ce ? ' grid-cols-2' : ''}" role="radiogroup" aria-labelledby="enunciado-${esc(q.id)}">${opcoes}</div><div class="mt-4 flex flex-wrap items-center gap-4 text-sm"><button class="${BOTAO_CLS}" type="button" data-ver-gabarito>Ver gabarito</button><p data-resultado role="status" class="hidden font-medium"></p>${fonte}</div></article></question-card>`;
-}
-
-const CAMPOS = ['banca', 'orgao', 'cargo', 'ano', 'assunto'] as const;
+/** Campos lidos de [data-filtro]. banca/ano vêm de /filtros?dims=; tipo e
+ * evento são fixos (select estático e hidden). */
+const CAMPOS = ['banca', 'orgao', 'cargo', 'ano', 'assunto', 'tipo', 'evento'] as const;
 type Campo = (typeof CAMPOS)[number];
+
+/** Selects repovoados por GET /filtros?dims=banca,ano (os demais campos são
+ * combobox assíncrono ou fixos). */
+const DIMS_SELECT = ['banca', 'ano'] as const;
+const DIMS_QS = DIMS_SELECT.join(',');
+const PER_PAGE_PADRAO = 20;
+const DEBOUNCE_MS = 300;
 
 interface State extends Record<Campo, string> {
   page: number;
 }
 
 export class QuestionBrowserElement extends HTMLElement {
-  private selects: NodeListOf<HTMLSelectElement> | [] = [];
+  private campos: (HTMLSelectElement | HTMLInputElement)[] = [];
+  private combos: FacetComboboxElement[] = [];
+  private busca: HTMLInputElement | null = null;
+  private porPagina: HTMLSelectElement | null = null;
   private lista: HTMLElement | null = null;
   private contagem: HTMLElement | null = null;
   private paginacao: HTMLElement | null = null;
-  private perPage = 20;
+  private perPage = PER_PAGE_PADRAO;
   private abort: AbortController | null = null;
+  private debounce = 0;
 
   connectedCallback() {
     if (!this.dataset.apiUrl) return; // sem API: conteúdo SSR permanece
-    this.selects = this.querySelectorAll('select[data-filtro]');
+    this.campos = [
+      ...this.querySelectorAll<HTMLSelectElement | HTMLInputElement>(
+        'select[data-filtro], input[data-filtro]',
+      ),
+    ];
+    this.combos = [...this.querySelectorAll<FacetComboboxElement>('facet-combobox')];
+    this.busca = this.querySelector('[data-q]');
+    this.porPagina = this.querySelector('[data-por-pagina]');
     this.lista = this.querySelector('[data-lista]');
     this.contagem = this.querySelector('[data-contagem]');
     this.paginacao = this.querySelector('[data-paginacao]');
-    this.perPage = Number(this.dataset.perPage) || 20;
-    this.selects.forEach((s) =>
-      s.addEventListener('change', () => this.carregar(this.lerEstado(1))),
-    );
-    this.carregar(this.lerEstado(1), { manterSsr: true });
+
+    // Estado inicial = URL (deep-link). Sem params, o SSR já é a resposta.
+    const st = this.estadoDaUrl();
+    this.aplicarEstado(st);
+    this.atualizarContextos(st);
+
+    this.addEventListener('change', (e) => {
+      const t = e.target as HTMLElement;
+      if (t.matches?.('[data-filtro]')) this.mudar(t.dataset.filtro);
+      if (t.matches?.('[data-por-pagina]')) {
+        this.perPage = Number(this.porPagina?.value) || PER_PAGE_PADRAO;
+        this.mudar();
+      }
+    });
+    this.busca?.addEventListener('input', () => {
+      window.clearTimeout(this.debounce);
+      this.debounce = window.setTimeout(() => this.mudar('q'), DEBOUNCE_MS);
+    });
+    this.querySelector('[data-limpar-evento]')?.addEventListener('click', () => {
+      const campo = this.campos.find((c) => c.dataset.filtro === 'evento');
+      if (campo) {
+        campo.value = '';
+        campo.dispatchEvent(new Event('change', { bubbles: true }));
+      }
+    });
+    this.paginacao?.addEventListener('click', (e) => {
+      const a = (e.target as HTMLElement).closest?.('a[data-nav]');
+      if (!a || a.getAttribute('aria-disabled') === 'true') return;
+      e.preventDefault();
+      const st2 = this.lerEstado(Number((a as HTMLElement).dataset.pagina));
+      this.carregar(st2, { push: true, focar: (a as HTMLElement).dataset.nav });
+      this.lista?.scrollIntoView({ block: 'start' });
+    });
+    window.addEventListener('popstate', this.onPop);
+
+    // Fetch inicial só se a URL pede algo diferente do estado padrão (que o
+    // SSR já renderizou) — evita o fetch duplo /questoes+/filtros na carga.
+    if (this.temParams()) this.carregar(st);
   }
 
-  private lerEstado(page: number): State {
-    const st: State = { banca: '', orgao: '', cargo: '', ano: '', assunto: '', page };
-    this.selects.forEach((s) => {
-      const campo = s.dataset.filtro as Campo | undefined;
-      if (campo && CAMPOS.includes(campo)) st[campo] = s.value;
-    });
+  disconnectedCallback() {
+    window.removeEventListener('popstate', this.onPop);
+  }
+
+  private onPop = () => {
+    const st = this.estadoDaUrl();
+    this.aplicarEstado(st);
+    this.atualizarContextos(st);
+    this.carregar(st);
+  };
+
+  private temParams(): boolean {
+    const p = new URLSearchParams(location.search);
+    return [...CAMPOS, 'q', 'page', 'per_page'].some((k) => p.has(k));
+  }
+
+  private estadoDaUrl(): State & { q: string } {
+    const p = new URLSearchParams(location.search);
+    const st = this.estadoBase(Math.max(1, Number(p.get('page')) || 1));
+    for (const c of CAMPOS) st[c] = p.get(c) ?? '';
+    st.q = p.get('q') ?? '';
+    this.perPage = Number(p.get('per_page')) || Number(this.dataset.perPage) || PER_PAGE_PADRAO;
     return st;
   }
 
-  private async carregar(st: State, opts: { manterSsr?: boolean } = {}) {
+  private lerEstado(page: number): State & { q: string } {
+    const st = this.estadoBase(page);
+    for (const c of this.campos) {
+      const campo = c.dataset.filtro as Campo | undefined;
+      if (campo && (CAMPOS as readonly string[]).includes(campo)) st[campo] = c.value;
+    }
+    st.q = this.busca?.value.trim() ?? '';
+    return st;
+  }
+
+  private estadoBase(page: number): State & { q: string } {
+    return { banca: '', orgao: '', cargo: '', ano: '', assunto: '', tipo: '', evento: '', q: '', page };
+  }
+
+  /** Aplica o estado aos controles (deep-link, popstate). */
+  private aplicarEstado(st: State & { q?: string }) {
+    for (const c of this.campos) {
+      const campo = c.dataset.filtro as Campo | undefined;
+      if (!campo) continue;
+      const v = st[campo] ?? '';
+      if (c instanceof HTMLSelectElement) {
+        if (v && ![...c.options].some((o) => o.value === v)) {
+          c.add(new Option(v, v)); // valor de deep-link fora do SSR
+        }
+        c.value = v;
+      } else {
+        const combo = c.closest<FacetComboboxElement>('facet-combobox');
+        if (combo?.setValue) combo.setValue(v);
+        else c.value = v;
+      }
+    }
+    if (this.busca && st.q !== undefined) this.busca.value = st.q;
+    if (this.porPagina) this.porPagina.value = String(this.perPage);
+    const aviso = this.querySelector<HTMLElement>('[data-evento-ativo]');
+    if (aviso) {
+      aviso.hidden = !st.evento;
+      const nome = aviso.querySelector('[data-evento-nome]');
+      if (nome) nome.textContent = st.evento;
+    }
+  }
+
+  /** Cascata para os comboboxes: todos os filtros menos a própria dim e q
+   * (q de /filtros/{dim} é busca na faceta, não no enunciado). */
+  private atualizarContextos(st: State) {
+    const ctx: Record<string, string | undefined> = {};
+    for (const c of CAMPOS) ctx[c] = st[c] || undefined;
+    for (const combo of this.combos) combo.setContext?.(ctx);
+  }
+
+  private paramsDe(st: State & { q?: string }) {
+    const p: Record<string, string | number | undefined> = {};
+    for (const c of CAMPOS) p[c] = st[c] || undefined;
+    p.q = st.q || undefined;
+    return p;
+  }
+
+  /** Querystring para URL/âncoras — omite vazios e defaults (page=1,
+   * per_page=20). */
+  private qsDe(st: State & { q?: string }): string {
+    const p = new URLSearchParams();
+    for (const c of CAMPOS) if (st[c]) p.set(c, st[c]);
+    if (st.q) p.set('q', st.q);
+    if (this.perPage !== PER_PAGE_PADRAO) p.set('per_page', String(this.perPage));
+    return p.toString();
+  }
+
+  private mudar(protegido?: string) {
+    this.carregar(this.lerEstado(1), { push: true, protegido });
+  }
+
+  private async carregar(
+    st: State & { q?: string },
+    opts: { push?: boolean; focar?: string; refeito?: boolean; protegido?: string } = {},
+  ): Promise<void> {
     this.abort?.abort();
     this.abort = new AbortController();
     const sinal = this.abort.signal;
     if (this.lista) this.lista.setAttribute('aria-busy', 'true');
     this.status('Carregando…');
     try {
+      const params = this.paramsDe(st);
       const [pagina, filtros] = await Promise.all([
-        fetchQuestoes({ ...st, ano: st.ano || undefined, per_page: this.perPage }, sinal),
-        fetchFiltros({ ...st, ano: st.ano || undefined }, sinal),
+        fetchQuestoes({ ...params, page: st.page, per_page: this.perPage }, sinal),
+        fetchFiltros({ ...params, dims: DIMS_QS }, sinal),
       ]);
       if (sinal.aborted) return;
+      // Cascata: se um select perdeu o valor (filtro incompatível), o estado
+      // efetivo muda — refaz o fetch UMA vez com o estado pós-reset, senão a
+      // página exibe "Nenhuma questão" do filtro derrubado. O campo que o
+      // usuário acabou de mudar (opts.protegido) nunca é derrubado: o filtro
+      // mais antigo é quem cede.
+      const mudou = this.repovoar(filtros, st, opts.protegido);
+      if (mudou && !opts.refeito) {
+        this.aplicarEstado(st);
+        return this.carregar(st, { ...opts, refeito: true });
+      }
       this.renderLista(pagina);
-      this.renderPaginacao(pagina, st);
-      this.repovoar(filtros, st);
+      this.renderPaginacao(pagina, st, opts.focar);
+      this.atualizarContextos(st);
+      if (opts.push) this.pushUrl(st);
     } catch (err) {
       if (sinal.aborted) return;
       const temItens = !!this.lista?.querySelector('question-card');
-      if (!temItens || !opts.manterSsr) {
-        this.status('Não foi possível carregar as questões — API indisponível.');
-        if (!temItens && this.lista) this.lista.innerHTML = '';
-      } else {
-        this.status(''); // SSR do build permanece
+      this.status(
+        temItens
+          ? 'API indisponível — exibindo os últimos resultados carregados.'
+          : 'Não foi possível carregar as questões — API indisponível.',
+      );
+      if (!temItens && this.lista) {
+        this.lista.innerHTML =
+          '<div class="rounded-xl border border-line bg-surface p-5"><p class="text-ink-soft">Não foi possível carregar as questões — a API está indisponível no momento.</p></div>';
       }
       console.error('question-browser:', err);
     } finally {
       if (!sinal.aborted && this.lista) this.lista.removeAttribute('aria-busy');
     }
+  }
+
+  private pushUrl(st: State & { q?: string }) {
+    const p = new URLSearchParams(this.qsDe(st));
+    if (st.page > 1) p.set('page', String(st.page));
+    const s = p.toString();
+    history.pushState(null, '', location.pathname + (s ? `?${s}` : ''));
   }
 
   private renderLista(pagina: QuestoesPage) {
@@ -171,42 +282,56 @@ export class QuestionBrowserElement extends HTMLElement {
     this.status('');
   }
 
-  private renderPaginacao(pagina: QuestoesPage, st: State) {
+  private renderPaginacao(pagina: QuestoesPage, st: State, focar?: string) {
     if (!this.paginacao) return;
-    if (pagina.pages <= 1) {
-      this.paginacao.innerHTML = '';
-      return;
+    this.paginacao.innerHTML = paginacaoHtml(pagina.page, pagina.pages, this.qsDe(st));
+    // Foco: o botão clicado foi destruído pelo innerHTML — reaplica no
+    // equivalente novo; sem equivalente, cai no indicador da página atual.
+    if (focar) {
+      const alvo =
+        this.paginacao.querySelector<HTMLElement>(
+          `a[data-nav="${focar}"]:not([aria-disabled])`,
+        ) ?? this.paginacao.querySelector<HTMLElement>('[data-atual]');
+      alvo?.focus();
     }
-    this.paginacao.innerHTML =
-      `<button type="button" class="${PAG_CLS}" data-pag="-1"${st.page <= 1 ? ' disabled' : ''}>Anterior</button>` +
-      `<span class="text-sm text-ink-soft">Página ${pagina.page} de ${pagina.pages}</span>` +
-      `<button type="button" class="${PAG_CLS}" data-pag="1"${st.page >= pagina.pages ? ' disabled' : ''}>Próxima</button>`;
-    this.paginacao.querySelectorAll('button[data-pag]').forEach((b) =>
-      b.addEventListener('click', () => {
-        this.carregar(this.lerEstado(st.page + Number((b as HTMLElement).dataset.pag)));
-        this.lista?.scrollIntoView({ block: 'start' });
-      }),
-    );
   }
 
-  private repovoar(f: Filtros, st: State) {
-    const listas: Record<string, (string | number)[]> = {
+  /** Repovoa os selects pequenos com a cascata de /filtros. Retorna true se
+   * algum valor foi derrubado (estado efetivo mudou → refazer o fetch).
+   * `protegido` — o campo recém-mudado — mantém o valor mesmo fora da lista
+   * (a opção é injetada); são os filtros mais antigos que cedem. */
+  private repovoar(f: Filtros, st: State, protegido?: string): boolean {
+    const listas: Partial<Record<Campo, (string | number)[] | undefined>> = {
       banca: f.bancas,
-      orgao: f.orgaos,
-      cargo: f.cargos,
       ano: f.anos,
-      assunto: f.assuntos,
     };
-    this.selects.forEach((s) => {
+    let mudou = false;
+    for (const s of this.campos) {
+      if (!(s instanceof HTMLSelectElement)) continue;
       const campo = s.dataset.filtro as Campo;
+      if (!(DIMS_SELECT as readonly string[]).includes(campo)) continue;
       const valores = listas[campo];
-      if (!valores) return;
+      if (!valores) continue;
       const atual = st[campo];
-      const placeholder = s.querySelector('option[value=""]')?.outerHTML ?? '<option value=""></option>';
+      const placeholder =
+        s.querySelector('option[value=""]')?.outerHTML ?? '<option value=""></option>';
       s.innerHTML =
-        placeholder + valores.map((v) => `<option value="${esc(String(v))}">${esc(String(v))}</option>`).join('');
-      s.value = valores.map(String).includes(atual) ? atual : '';
-    });
+        placeholder +
+        valores.map((v) => `<option value="${esc(String(v))}">${esc(String(v))}</option>`).join('');
+      if (atual && !valores.map(String).includes(atual)) {
+        if (campo === protegido) {
+          s.add(new Option(atual, atual));
+          s.value = atual;
+          continue;
+        }
+        st[campo] = '';
+        s.value = '';
+        mudou = true;
+      } else {
+        s.value = atual;
+      }
+    }
+    return mudou;
   }
 
   private status(msg: string) {

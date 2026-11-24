@@ -10,6 +10,8 @@ import Button from '../design/components/Button.astro';
 import Badge from '../design/components/Badge.astro';
 import Link from '../design/components/Link.astro';
 import Select from '../design/components/Select.astro';
+import Input from '../design/components/Input.astro';
+import FacetCombobox from '../design/components/FacetCombobox.astro';
 import Alternativa from '../design/components/Alternativa.astro';
 import QuestionMeta from '../design/components/QuestionMeta.astro';
 import QuestionCard from '../design/components/QuestionCard.astro';
@@ -28,7 +30,7 @@ const secoes = [
   { id: 'raios', label: 'Raios' },
   { id: 'botoes', label: 'Botões' },
   { id: 'badges-e-links', label: 'Badges e links' },
-  { id: 'select', label: 'Select' },
+  { id: 'campos', label: 'Campos' },
   { id: 'alternativa', label: 'Alternativa' },
   { id: 'card-e-empty-state', label: 'Card e EmptyState' },
   { id: 'questao', label: 'Questão' },
@@ -60,7 +62,10 @@ const feedback = [
 const raios = ['sm', 'md', 'lg', 'xl'];
 
 const exemplo = (await fetchQuestoes({ tipo: 'multipla_escolha', per_page: 1 })
-  .catch(() => EMPTY_PAGE)).items[0] ?? {
+  .catch((err) => {
+    console.warn('design SSR /questoes:', err);
+    return EMPTY_PAGE;
+  })).items[0] ?? {
   id: 'exemplo',
   banca: 'Cebraspe',
   orgao: 'Polícia Federal',
@@ -238,11 +243,24 @@ const exemplo = (await fetchQuestoes({ tipo: 'multipla_escolha', per_page: 1 })
       </Card>
     </DocSection>
 
-    <DocSection id="select" title="Select" desc="Campo de filtro com rótulo e placeholder.">
+    <DocSection
+      id="campos"
+      title="Campos"
+      desc="Select para listas pequenas, Input para texto e FacetCombobox para facetas grandes buscadas na API."
+    >
       <Card class="grid gap-3 sm:grid-cols-3">
         <Select label="Banca" options={['Cebraspe', 'FGV', 'FCC']} />
-        <Select label="Ano" options={['2024', '2023', '2022']} />
-        <Select label="Assunto" options={['Direito Administrativo', 'Língua Portuguesa']} />
+        <Select
+          label="Tipo"
+          options={[
+            { value: 'certo_errado', label: 'Certo e errado' },
+            { value: 'multipla_escolha', label: 'Múltipla escolha' },
+          ]}
+        />
+        <Select label="Por página" placeholder="" value="20" options={['20', '50', '100']} />
+        <Input label="Buscar no enunciado" type="search" placeholder="Palavra ou trecho…" />
+        <FacetCombobox dim="cargo" label="Cargo" />
+        <FacetCombobox dim="assunto" label="Assunto" />
       </Card>
     </DocSection>
 

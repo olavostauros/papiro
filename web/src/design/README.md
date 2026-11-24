@@ -14,6 +14,7 @@ web/src/
 ├── design/
 │   ├── tokens.css          # todos os design tokens (@theme do Tailwind v4) + modo escuro
 │   ├── nav.ts              # itens de navegação usados por SiteHeader e SiteFooter
+│   ├── templates.ts        # markup de string SSR↔elemento (card, paginação) — puro
 │   ├── components/         # componentes base (.astro, sem framework de UI)
 │   │   └── icons/          # ícones SVG (Check, Moon, Sun, X)
 │   └── elements/           # custom elements (.ts) — comportamento dos componentes
@@ -26,10 +27,13 @@ Stack: **Astro + Tailwind CSS v4** (via `@tailwindcss/vite`). Não existe
 `tailwind.config` — toda a configuração é CSS-first em `tokens.css`. Fontes via
 `@fontsource-variable` (Inter e Source Serif 4). Sem React/Vue: interatividade é
 JavaScript vanilla na forma de **custom elements** (`design/elements/`) —
-`<question-browser>`, `<question-card>`, `<question-filters>`, `<theme-toggle>` —
+`<question-browser>`, `<question-card>`, `<facet-combobox>`, `<evento-list>`,
+`<questao-view>`, `<theme-toggle>` —
 que envolvem o markup
 dos componentes e se auto-inicializam em `connectedCallback`, com escopo por
 instância (`this.querySelector`) em vez de queries globais no `document`.
+Markup de string compartilhado entre SSR e elementos (cartão de questão e
+paginação) vive em `design/templates.ts` — módulo puro, sem side effects.
 
 ## Regras de ouro (leia antes de escrever UI)
 
@@ -197,11 +201,37 @@ Pílula pequena (`rounded-full`, `text-xs font-medium`). `soft` usa
 
 ### Select
 
-`label: string` · `options: string[]` · `placeholder?: string` (default `'Todas'`).
+`label: string` · `options: (string | { value: string; label: string })[]` ·
+`placeholder?: string` (default `'Todas'`; passe `''` para omitir a opção
+vazia) · `value?: string` (seleção inicial).
 
-`<label>` + `<select>` já rotulados e estilizados; a primeira `<option>` é o
-placeholder com `value=""`. Filtros consomem via `data-filtro` repassado por
-`...rest` (ver `question-filters` e `index.astro`).
+`<label>` + `<select>` já rotulados e estilizados. Filtros consomem via
+`data-filtro`/`data-por-pagina` repassados por `...rest` (ver
+`question-browser` e `index.astro`).
+
+### Input
+
+`label: string` · `type?: 'text' | 'search'` (default `text`) ·
+`placeholder?` · `value?`.
+
+`<label>` + `<input>` rotulados com o mesmo visual do `Select`. Usado para a
+busca textual (`data-q` no question-browser) e filtros de lista client-side
+(`data-busca` no evento-list).
+
+### FacetCombobox
+
+`dim: 'banca' | 'orgao' | 'cargo' | 'ano' | 'assunto'` · `label: string` ·
+`placeholder?: string` (default `'Todos'`) · `value?: string`.
+
+Campo de faceta para dimensões grandes demais para um `<select>` (cargo tem
+milhares de valores). Renderiza `<facet-combobox>` com `input[list]` +
+`<datalist>` + `input[type=hidden][data-filtro]` — o combobox nativo do
+navegador dá a acessibilidade (setas, leitor de tela) de graça. O elemento
+(`design/elements/facet-combobox.ts`) busca `GET /filtros/{dim}?q=&limit=50`
+com debounce, respeitando a cascata dos demais filtros (`setContext` é
+chamado pelo `<question-browser>`), e grava o valor efetivo no hidden —
+que se comporta como qualquer outro `[data-filtro]` para o browser. Texto
+que não casa com faceta nenhuma não vira filtro.
 
 ### Alternativa
 
@@ -236,59 +266,80 @@ envolvido por `<question-card>` (`design/elements/question-card.ts`), que cuida
 da interação (seleção por click/setas, correção via `data-state`).
 
 ```ts
-interface Question {
-  id: string;
-  banca: string;
-  orgao: string;
-  cargo: string;
-  ano: number;
-  assunto: string;
-  tipo: 'certo_errado' | 'multipla_escolha';
-  enunciado: string;
-  alternativas: string[];   // 'Certo'/'Errado' ou opções a–e
-  gabarito: string;         // 'certo' | 'errado' | 'a'..'e'
-  fonte: string;            // URL da fonte oficial
+interface Props {
+  q: Questao;   // importada de src/data/questions.ts — shape flat de GET /questoes
 }
 ```
 
-Contrato `data-*` no elemento `<question-card>` renderizado: `data-banca`,
-`data-orgao`, `data-cargo`, `data-ano`, `data-assunto` (lidos pelo filtro —
-o elemento também leva `data-filter-item`), `data-gabarito` e
+`Questao` espelha o registro flat da API: `id`, `banca`, `orgao`, `cargo`,
+`ano: number`, `assunto`, `tipo: 'certo_errado' | 'multipla_escolha'`,
+`enunciado`, `alternativas: string[]` ('Certo'/'Errado' ou opções a–e; pode
+vir `[]`), `gabarito` ('certo' | 'errado' | 'a'..'e') e `fonte`.
+
+Contrato `data-*` no elemento `<question-card>` renderizado: `data-id`,
+`data-banca`, `data-orgao`, `data-cargo`, `data-ano`, `data-assunto` (lidos
+pelo filtro — o elemento também leva `data-filter-item`), `data-gabarito` e
 `data-gabarito-texto` (lidos pelo próprio elemento para a correção). Preserve
-esses atributos ao alterar o componente.
+esses atributos ao alterar o componente. Questão sem alternativas (MC rara)
+não renderiza `radiogroup` nem `data-ver-gabarito` — o gabarito vai inline
+em `data-resultado`.
 
 ### question-browser
 
 Elemento wrapper (`design/elements/question-browser.ts`) — lista paginada de
-questões servida pela API (`data/questions.ts`). Substituiu o filtro
-client-side na `index`: os `<select>`s disparam `GET /questoes` com os filtros
-ativos e `GET /filtros` repovoa as opções em cascata. Não entra no showcase
-(`/design/`) por depender de API viva. Contrato interno:
+questões servida pela API (`data/questions.ts`). Os controles disparam
+`GET /questoes` com os filtros ativos; `GET /filtros?dims=banca,ano` repovoa
+os selects pequenos em cascata e os `<facet-combobox>` consultam
+`GET /filtros/{dim}` por conta própria. **O estado vive na URL**
+(`?banca&orgao&cargo&ano&assunto&tipo&q&evento&page&per_page`): mudanças dão
+`pushState`, `popstate` re-aplica — deep-link, refresh e voltar preservam
+tudo. Sem parâmetros na URL, nenhum fetch acontece na carga (o SSR já é a
+primeira página do estado padrão). Não entra no showcase (`/design/`) por
+depender de API viva. Contrato interno:
 
-- `data-api-url` no elemento — base da API (`PUBLIC_API_URL`); sem ele o
-  componente fica inerte e o conteúdo SSR da página permanece;
-- `data-per-page` — tamanho de página (default 20);
-- `select[data-filtro="campo"]` — banca | orgao | cargo | ano | assunto;
+- `data-api-url` no elemento — base da API (`PUBLIC_API_URL`, absoluta ou
+  relativa); sem ele o componente fica inerte e o conteúdo SSR permanece;
+- `data-per-page` — tamanho de página padrão (default 20); `select[data-por-pagina]` muda;
+- `[data-filtro="campo"]` em select ou input — banca | orgao | cargo | ano |
+  assunto | tipo | evento (orgao/cargo/assunto vivem nos hidden dos
+  `<facet-combobox>`; evento é um hidden preenchido por links `?evento=` da
+  página de provas e anunciado em `[data-evento-ativo]` +
+  `[data-limpar-evento]`);
+- `input[data-q]` — busca textual no enunciado (debounce 300 ms);
 - `[data-lista]` — contêiner substituído a cada fetch;
-- `[data-contagem]` — total do resultado; `[data-paginacao]` — nav onde o
-  elemento injeta Anterior/Próxima; `[data-status]` — mensagens de carregando/erro.
+- `[data-contagem]` — total do resultado; `[data-status]` — carregando/erro;
+- `[data-paginacao]` — nav de âncoras `?page=N` gerada por
+  `paginacaoHtml` (`templates.ts`; a mesma função gera o SSR): primeira,
+  anterior, janela de páginas, próxima, última. O elemento intercepta o
+  clique para fetch + `pushState` e restaura o foco no controle equivalente.
 
-O template do card replica o markup de `QuestionCard`/`Alternativa`/
-`QuestionMeta` — inclusive o contrato `data-*` lido por `<question-card>`.
-**Ao mudar um, mude o outro** (o comentário no topo de
-`question-browser.ts` lista os atributos do contrato). Todo texto dinâmico
-passa por `esc()` antes de entrar no `innerHTML`.
+O template do card vive em `design/templates.ts` e replica o markup de
+`QuestionCard`/`Alternativa`/`QuestionMeta` — inclusive o contrato `data-*`
+lido por `<question-card>`. **Ao mudar um, mude o outro.** Todo texto
+dinâmico passa por `esc()` antes de entrar no `innerHTML`.
 
-### question-filters
+### evento-list
 
-Elemento wrapper (`design/elements/question-filters.ts`) que filtra itens por
-`<select>`s escondendo/mostrando os já renderizados — adequado para listas
-pequenas inteiramente no cliente (a `index` usa `question-browser` porque a
-lista completa não cabe no build). Contrato interno:
+Elemento wrapper (`design/elements/evento-list.ts`) da página `/provas/` —
+eventos (concursos) servidos por `GET /eventos` no SSR, com busca textual
+**client-side** (sem fetch, ignora acentos) e provas carregadas sob demanda
+por `GET /provas?evento=` na primeira abertura de cada `<details>`. Contrato
+interno:
 
-- `select[data-filtro="campo"]` — filtra itens cujo `dataset[campo]` bate com o valor;
-- `[data-filter-item]` — item filtrável (escondido via atributo `hidden`);
-- `[data-contagem]` — elemento que recebe a contagem de itens visíveis.
+- `data-api-url` no elemento ou ancestral; sem ele a busca continua
+  funcionando e só as provas ficam indisponíveis;
+- `input[data-busca]` — filtra `[data-evento-item]` (li) por `data-busca-texto`;
+- `details[data-evento]` + `[data-provas]` — id do evento e contêiner preenchido
+  na primeira abertura;
+- `[data-contagem]` — total de eventos visíveis.
+
+### questao-view
+
+Elemento wrapper (`design/elements/questao-view.ts`) da página `/questao/` —
+permalink de uma questão via `GET /questoes/{id}` lido de `?id=` na URL.
+Contrato interno: `data-api-url`, `[data-alvo]` (recebe o card via
+`cardHtml`; se o SSR já renderizou `<question-card data-id>` igual ao da URL,
+não refaz o fetch) e `[data-status]`.
 
 ### Logo
 
@@ -369,8 +420,8 @@ import Container from '../design/components/Container.astro';
 import PageHeader from '../design/components/PageHeader.astro';
 import Card from '../design/components/Card.astro';
 import Button from '../design/components/Button.astro';
-// Badge, Link, Select, Alternativa, QuestionMeta, QuestionCard,
-// EmptyState, Logo, ThemeToggle, icons/* — mesmo diretório
+// Badge, Link, Select, Input, FacetCombobox, Alternativa, QuestionMeta,
+// QuestionCard, EmptyState, Logo, ThemeToggle, icons/* — mesmo diretório
 ---
 
 <Layout title="papiro — título">

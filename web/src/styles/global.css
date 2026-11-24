@@ -6,7 +6,9 @@
 /* Custom elements (design/elements/) — wrappers de comportamento */
 question-browser,
 question-card,
-question-filters {
+facet-combobox,
+evento-list,
+questao-view {
   display: block;
 }
 
