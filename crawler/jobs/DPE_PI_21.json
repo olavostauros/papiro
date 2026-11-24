@@ -1,0 +1,30 @@
+{
+ "evento": "DPE_PI_21",
+ "workdir": "/tmp/dpe_pi_21",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Defensoria Pública do Estado do Piauí",
+  "ano": 2021,
+  "id_orgao": "dpe-pi"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Defensor Público Substituto",
+   "id_cargo": "defensor-publico-substituto",
+   "provas": [
+    {
+     "key": "obj",
+     "prova": "pro_DPE_PI_001_01.pdf",
+     "gabarito": "gab_PRELIMINAR_634_DPE_PI_00.pdf",
+     "tipo": "mc",
+     "arquivo": "634_DPE_PI_001_01.PDF"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}
