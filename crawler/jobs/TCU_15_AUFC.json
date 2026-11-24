@@ -1,0 +1,85 @@
+{
+ "banca": "cebraspe",
+ "evento": "TCU_15_AUFC",
+ "workdir": "/tmp/TCU_15_AUFC",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Tribunal de Contas da União",
+  "ano": 2015,
+  "id_orgao": "tcu"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Auditor Federal de Controle Externo – Orientação: Auditoria Governamental",
+   "id_cargo": "auditoria-governamental",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_173TCUAUFC_CG1_01.pdf",
+     "gabarito": "gab_173TCUAUFC_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "173TCUAUFC_CG1_01.pdf"
+    },
+    {
+     "key": "esp1",
+     "prova": "pro_173TCUAUFC_001_01.pdf",
+     "gabarito": "gab_173TCUAUFC_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "173TCUAUFC_001_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Auditor Federal de Controle Externo – Orientação: Auditoria de Tecnologia da Informação",
+   "id_cargo": "auditoria-tecnologia-informacao",
+   "provas": [
+    {
+     "key": "cg1",
+     "prova": "pro_173TCUAUFC_CG1_01.pdf",
+     "gabarito": "gab_173TCUAUFC_CG1_01.pdf",
+     "tipo": "ce",
+     "arquivo": "173TCUAUFC_CG1_01.pdf"
+    },
+    {
+     "key": "esp2",
+     "prova": "pro_173TCUAUFC_002_01.pdf",
+     "gabarito": "gab_173TCUAUFC_002_01.pdf",
+     "tipo": "ce",
+     "arquivo": "173TCUAUFC_002_01.pdf"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {
+  "cg1": {
+   "1": "Os pronomes relativos “que” ( R .9) e “que” ( R .15), embora retomem elementos distintos do texto, desempenham a mesma função sintática nos períodos em que ocorrem.",
+   "4": "As palavras “líquida”, “público”, “órgãos” e “episódicas” obedecem à mesma regra de acentuação gráfica.",
+   "7": "A posição da partícula “se” em relação às formas verbais “relaciona” ( R .7) e “inter-relaciona” ( R .11) é explicada com base na mesma regra de colocação pronominal.",
+   "10": "Na linha 3, o uso do sinal indicativo de crase em “à denúncia” deve-se à presença do substantivo “origem” e à presença do artigo definido feminino diante da palavra “denúncia”.",
+   "13": "Apesar de conter dois documentos importantes — que aparecem como Anexos I e II —, a forma de apresentação do texto bem como as estruturas linguísticas nele empregadas permitem afirmar que essa comunicação oficial não funciona como mero encaminhamento de documentos.",
+   "20": "The expressions “scrutinised” ( R .7), “undertaking” ( R .15) and “comply with” ( R .21) can be respectively replaced by probed, setting about and conform to without this harming the text’s coherence and meaning.",
+   "91": "A estimativa do vetor de parâmetros produzida pelo método de mínimos quadrados ordinários é (3,5; 0; −2)ᵀ.",
+   "93": "O erro padrão de ln(ω̂) é inferior a 1.",
+   "95": "A diferença X − Y segue uma distribuição normal cuja variância é igual ou inferior a 1."
+  },
+  "esp1": {
+   "123": "Situação hipotética: O balancete de verificação de determinada companhia aberta tem as seguintes contas sintéticas: participações permanentes em outras sociedades — avaliadas por equivalência patrimonial, e participações permanentes em outras sociedades — avaliadas pelo valor justo; e a essas contas estão vinculadas as subcontas a seguir.\nsubcontas | saldo\nmais valia sobre os ativos das investidas controladas | 800.000,00\nparticipações em controladas | 2.000.000,00\nparticipações minoritárias em outras sociedades | 1.200.000,00\nperdas estimadas em controladas | 100.000,00\nAssertiva: De acordo com essas informações, o saldo da conta participações permanentes em sociedades avaliadas por equivalência patrimonial é igual a R$ 2.700.000,00.",
+   "124": "Situação hipotética: Em 30 de junho de 2015, o livro diário de determinada empresa registrou a seguinte partida dobrada. débito despesas com seguros R$ 2.000,00 crédito prêmios de seguros a apropriar R$ 2.000,00 Assertiva: Nesse caso, as informações se referem a um lançamento de ajuste — decorrente da aplicação do princípio da competência — para reconhecimento da despesa com o prêmio de seguros, que havia sido pago antecipadamente.",
+   "127": "Situação hipotética: As seguintes informações constam da demonstração do resultado do exercício da empresa XYZ S.A. referente ao exercício de 2014.\ndescrição | valor em R$\ncusto do produto vendido | 2.678.380,00\ndespesas administrativas | 209.190,00\ndespesas comerciais | 150.340,00\ndespesas financeiras | 921.580,00\ndescontos de abatimentos de vendas | 7.300,00\ndevoluções e cancelamentos de vendas | 76.300,00\nimpostos sobre vendas | 479.300,00\nreceita bruta de venda | 4.196.300,00\nreceitas financeiras | 144.300,00\nAssertiva: De acordo com esses dados, ao final do exercício de 2014, o lucro bruto apurado pela companhia foi superior a R$ 1.000.000,00 e o resultado anterior aos tributos sobre o lucro correspondeu a um prejuízo superior a R$ 200.000,00.",
+   "168": "Situação hipotética: No demonstrativo do resultado nominal do governo federal constante do Relatório Resumido da Execução Orçamentária de maio de 2015, constavam as informações mostradas na tabela a seguir, e os restos a pagar processados apresentavam o valor de R$ 45.446.936.\nespecificação | saldo (em R$)\ndívida consolidada | 3.610.068.016\ndeduções | \nativo disponível | 720.847.465\nhaveres financeiros | 1.575.856.214\nAssertiva: Nesse caso, a dívida consolidada líquida será de R$ 1.358.811.273.",
+   "177": "A situação do ótimo de Pareto decorre da atuação do Estado na economia."
+  },
+  "esp2": {
+   "126": "Como forma de permitir as buscas em documentos semiestruturados, um banco de dados NoSQL do tipo orientado a documentos armazena objetos indexados por chaves utilizando tabelas de hash distribuídas.",
+   "127": "Se, em uma tabela de nome Cliente, a chave primária for NrCliente, então o comando Oracle SQL a seguir será bem-sucedido em eliminar a coluna NrCliente dessa tabela, qualquer que seja a condição dos registros do banco de dados. ALTER TABLE Cliente DROP (NrCliente) CASCADE CONSTRAINTS;",
+   "128": "No trecho do código JavaScript a seguir, o valor retornado em this, da função minhaMsg, será CampoRequerido. var minhaMsg ={ m1: “Campo”, m2:”Requerido”, mensagem: function () { return this; } } minhaMsg.mensagem();",
+   "129": "A partir da interpretação do trecho JSF (JavaServer Faces), versão 2, no código a seguir, verifica-se que uma providência válida é configurar o managed-bean clientePage no arquivo faces-config.xml. <f:view> <h:form id=”clienteForm”> <h:outputLabel for=”informeNome” value=”Informe Nome”/> <h:inputText id=”informeNome” value =”#{clientePage.nome}”/> <h:commandButton value=”Nome do Cliente” action=”#{clientePage.cliente}”/> </h:form> </f:view>",
+   "154": "Segundo o que se afirma em II, é possível implementar cluster de EJBs (Enterprise JavaBeans) de modo a prover fail-over. Entretanto, por questões de segurança, é necessário utilizar explicitamente APIs nativas do cliente JBoss EJB para a comunicação com os servidores. Nesse caso, é vedada a utilização de JNDI (Java Naming and Directory Interface) para comunicação entre os nós do cluster, uma vez que a JNDI acessa os recursos externos utilizando hierarquia nos nomes de seus objetos."
+  }
+ }
+}
