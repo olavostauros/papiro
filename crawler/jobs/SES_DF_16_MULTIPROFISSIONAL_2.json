@@ -1,0 +1,240 @@
+{
+ "banca": "cebraspe",
+ "evento": "SES_DF_16_MULTIPROFISSIONAL_2",
+ "workdir": "/tmp/ses_df_16_multiprofissional_2",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Secretaria de Estado de Saúde do Distrito Federal",
+  "ano": 2016,
+  "id_orgao": "ses-df"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Multiprofissional em Atenção Básica Enfermagem",
+   "id_cargo": "multiprofissional-atencao-basica-enfermagem",
+   "provas": [
+    {
+     "key": "001",
+     "prova": "pro_241RESMULT_001_01.pdf",
+     "gabarito": "gab_Preliminar_241RESMULT_00_8.pdf",
+     "tipo": "ce",
+     "arquivo": "241RESMULT_001_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "02",
+   "cargo": "Multiprofissional em Atenção Básica Farmácia",
+   "id_cargo": "multiprofissional-atencao-basica-farmacia",
+   "provas": [
+    {
+     "key": "002",
+     "prova": "pro_241RESMULT_002_01.pdf",
+     "gabarito": "gab_Preliminar_241RESMULT_00_7.pdf",
+     "tipo": "ce",
+     "arquivo": "241RESMULT_002_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "03",
+   "cargo": "Multiprofissional em Atenção Básica Nutrição",
+   "id_cargo": "multiprofissional-atencao-basica-nutricao",
+   "provas": [
+    {
+     "key": "003",
+     "prova": "pro_241RESMULT_003_01.pdf",
+     "gabarito": "gab_Preliminar_241RESMULT_00_6.pdf",
+     "tipo": "ce",
+     "arquivo": "241RESMULT_003_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "04",
+   "cargo": "Multiprofissional em Atenção Básica Odontologia",
+   "id_cargo": "multiprofissional-atencao-basica-odontologia",
+   "provas": [
+    {
+     "key": "004",
+     "prova": "pro_241RESMULT_004_01.pdf",
+     "gabarito": "gab_Preliminar_241RESMULT_00_5.pdf",
+     "tipo": "ce",
+     "arquivo": "241RESMULT_004_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "05",
+   "cargo": "Multiprofissional em Atenção Básica Saúde Coletiva",
+   "id_cargo": "multiprofissional-atencao-basica-saude-coletiva",
+   "provas": [
+    {
+     "key": "005",
+     "prova": "pro_241RESMULT_005_01.pdf",
+     "gabarito": "gab_Preliminar_241RESMULT_00_4.pdf",
+     "tipo": "ce",
+     "arquivo": "241RESMULT_005_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "06",
+   "cargo": "Multiprofissional em Atenção Oncológica Fisioterapia",
+   "id_cargo": "multiprofissional-atencao-oncologica-fisioterapia",
+   "provas": [
+    {
+     "key": "006",
+     "prova": "pro_241RESMULT_006_01.pdf",
+     "gabarito": "gab_Preliminar_241RESMULT_00_3.pdf",
+     "tipo": "ce",
+     "arquivo": "241RESMULT_006_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "07",
+   "cargo": "Multiprofissional em Atenção Oncológica Serviço Social",
+   "id_cargo": "multiprofissional-atencao-oncologica-servico-social",
+   "provas": [
+    {
+     "key": "007",
+     "prova": "pro_241RESMULT_007_01.pdf",
+     "gabarito": "gab_Preliminar_241RESMULT_00_2.pdf",
+     "tipo": "ce",
+     "arquivo": "241RESMULT_007_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "08",
+   "cargo": "Multiprofissional em Atenção Cardíaca Enfermagem",
+   "id_cargo": "multiprofissional-atencao-cardiaca-enfermagem",
+   "provas": [
+    {
+     "key": "001",
+     "prova": "pro_241RESMULT_001_01.pdf",
+     "gabarito": "gab_Preliminar_241RESMULT_00_8.pdf",
+     "tipo": "ce",
+     "arquivo": "241RESMULT_001_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "09",
+   "cargo": "Multiprofissional em Atenção Cardíaca Fisioterapia",
+   "id_cargo": "multiprofissional-atencao-cardiaca-fisioterapia",
+   "provas": [
+    {
+     "key": "006",
+     "prova": "pro_241RESMULT_006_01.pdf",
+     "gabarito": "gab_Preliminar_241RESMULT_00_3.pdf",
+     "tipo": "ce",
+     "arquivo": "241RESMULT_006_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "10",
+   "cargo": "Multiprofissional em Atenção Cardíaca Nutrição",
+   "id_cargo": "multiprofissional-atencao-cardiaca-nutricao",
+   "provas": [
+    {
+     "key": "003",
+     "prova": "pro_241RESMULT_003_01.pdf",
+     "gabarito": "gab_Preliminar_241RESMULT_00_6.pdf",
+     "tipo": "ce",
+     "arquivo": "241RESMULT_003_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "11",
+   "cargo": "Multiprofissional em Atenção Cardíaca Psicologia",
+   "id_cargo": "multiprofissional-atencao-cardiaca-psicologia",
+   "provas": [
+    {
+     "key": "008",
+     "prova": "pro_241RESMULT_008_01.pdf",
+     "gabarito": "gab_Preliminar_241RESMULT_00.pdf",
+     "tipo": "ce",
+     "arquivo": "241RESMULT_008_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "12",
+   "cargo": "Multiprofissional em Oncologia Serviço Social",
+   "id_cargo": "multiprofissional-oncologia-servico-social",
+   "provas": [
+    {
+     "key": "007",
+     "prova": "pro_241RESMULT_007_01.pdf",
+     "gabarito": "gab_Preliminar_241RESMULT_00_2.pdf",
+     "tipo": "ce",
+     "arquivo": "241RESMULT_007_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "13",
+   "cargo": "Multiprofissional em Saúde Coletiva Fisioterapia",
+   "id_cargo": "multiprofissional-saude-coletiva-fisioterapia",
+   "provas": [
+    {
+     "key": "006",
+     "prova": "pro_241RESMULT_006_01.pdf",
+     "gabarito": "gab_Preliminar_241RESMULT_00_3.pdf",
+     "tipo": "ce",
+     "arquivo": "241RESMULT_006_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "15",
+   "cargo": "Multiprofissional em Saúde Mental Infanto Juvenil Nutrição",
+   "id_cargo": "multiprofissional-saude-mental-infanto-juvenil-nutricao",
+   "provas": [
+    {
+     "key": "003",
+     "prova": "pro_241RESMULT_003_01.pdf",
+     "gabarito": "gab_Preliminar_241RESMULT_00_6.pdf",
+     "tipo": "ce",
+     "arquivo": "241RESMULT_003_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "16",
+   "cargo": "Multiprofissional em Saúde Mental Infanto Juvenil Farmácia",
+   "id_cargo": "multiprofissional-saude-mental-infanto-juvenil-farmacia",
+   "provas": [
+    {
+     "key": "002",
+     "prova": "pro_241RESMULT_002_01.pdf",
+     "gabarito": "gab_Preliminar_241RESMULT_00_7.pdf",
+     "tipo": "ce",
+     "arquivo": "241RESMULT_002_01.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "17",
+   "cargo": "Multiprofissional em Saúde Mental do Adulto Nutrição",
+   "id_cargo": "multiprofissional-saude-mental-adulto-nutricao",
+   "provas": [
+    {
+     "key": "003",
+     "prova": "pro_241RESMULT_003_01.pdf",
+     "gabarito": "gab_Preliminar_241RESMULT_00_6.pdf",
+     "tipo": "ce",
+     "arquivo": "241RESMULT_003_01.pdf"
+    }
+   ]
+  }
+ ],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}
