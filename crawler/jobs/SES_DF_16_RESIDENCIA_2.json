@@ -1,0 +1,101 @@
+{
+  "banca": "cebraspe",
+  "evento": "SES_DF_16_RESIDENCIA_2",
+  "workdir": "/tmp/ses_df_16_residencia_2",
+  "meta": {
+    "banca": "Cebraspe",
+    "orgao": "Secretaria de Estado de Saúde do Distrito Federal",
+    "ano": 2016,
+    "id_orgao": "ses-df"
+  },
+  "cargos": [
+    {
+      "idArea": "01",
+      "cargo": "Anestesiologia",
+      "id_cargo": "anestesiologia",
+      "provas": [
+        {"key": "acesso", "prova": "pro_240RMU2PROC_001_01.pdf", "gabarito": "gab_true_001.pdf", "tipo": "ce", "arquivo": "240RMU2PROC_001_01.pdf"}
+      ]
+    },
+    {
+      "idArea": "02",
+      "cargo": "Obstetrícia e Ginecologia",
+      "id_cargo": "obstetricia-ginecologia",
+      "provas": [
+        {"key": "acesso", "prova": "pro_240RMU2PROC_001_01.pdf", "gabarito": "gab_true_001.pdf", "tipo": "ce", "arquivo": "240RMU2PROC_001_01.pdf"}
+      ]
+    },
+    {
+      "idArea": "03",
+      "cargo": "Cirurgia-Geral",
+      "id_cargo": "cirurgia-geral",
+      "provas": [
+        {"key": "acesso", "prova": "pro_240RMU2PROC_001_01.pdf", "gabarito": "gab_true_001.pdf", "tipo": "ce", "arquivo": "240RMU2PROC_001_01.pdf"}
+      ]
+    },
+    {
+      "idArea": "04",
+      "cargo": "Medicina de Família e Comunidade",
+      "id_cargo": "medicina-familia-comunidade-4",
+      "provas": [
+        {"key": "acesso", "prova": "pro_240RMU2PROC_001_01.pdf", "gabarito": "gab_true_001.pdf", "tipo": "ce", "arquivo": "240RMU2PROC_001_01.pdf"}
+      ]
+    },
+    {
+      "idArea": "05",
+      "cargo": "Medicina do Trabalho",
+      "id_cargo": "medicina-trabalho",
+      "provas": [
+        {"key": "acesso", "prova": "pro_240RMU2PROC_001_01.pdf", "gabarito": "gab_true_001.pdf", "tipo": "ce", "arquivo": "240RMU2PROC_001_01.pdf"}
+      ]
+    },
+    {
+      "idArea": "06",
+      "cargo": "Medicina Intensiva",
+      "id_cargo": "medicina-intensiva",
+      "provas": [
+        {"key": "esp06", "prova": "pro_240RMU2PROC_002_01.pdf", "gabarito": "gab_true_002.pdf", "tipo": "ce", "arquivo": "240RMU2PROC_002_01.pdf"}
+      ]
+    },
+    {
+      "idArea": "07",
+      "cargo": "Medicina Paliativa",
+      "id_cargo": "medicina-paliativa",
+      "provas": [
+        {"key": "esp07", "prova": "pro_240RMU2PROC_003_01.pdf", "gabarito": "gab_true_003.pdf", "tipo": "ce", "arquivo": "240RMU2PROC_003_01.pdf"}
+      ]
+    },
+    {
+      "idArea": "08",
+      "cargo": "Psiquiatria da Infância e Adolescência",
+      "id_cargo": "psiquiatria-infancia-adolescencia",
+      "provas": [
+        {"key": "esp08", "prova": "pro_240RMU2PROC_004_01.pdf", "gabarito": "gab_true_004.pdf", "tipo": "ce", "arquivo": "240RMU2PROC_004_01.pdf"}
+      ]
+    },
+    {
+      "idArea": "09",
+      "cargo": "Obstetrícia e Ginecologia R4",
+      "id_cargo": "obstetricia-ginecologia-r4",
+      "provas": [
+        {"key": "esp09", "prova": "pro_240RMU2PROC_005_01.pdf", "gabarito": "gab_true_005.pdf", "tipo": "ce", "arquivo": "240RMU2PROC_005_01.pdf"}
+      ]
+    },
+    {
+      "idArea": "10",
+      "cargo": "Medicina da Família e Comunidade",
+      "id_cargo": "medicina-familia-comunidade-10",
+      "provas": [
+        {"key": "acesso", "prova": "pro_240RMU2PROC_001_01.pdf", "gabarito": "gab_true_001.pdf", "tipo": "ce", "arquivo": "240RMU2PROC_001_01.pdf"}
+      ]
+    },
+    {
+      "idArea": "11",
+      "cargo": "Transplante Renal",
+      "id_cargo": "transplante-renal",
+      "provas": [
+        {"key": "esp11", "prova": "pro_240RMU2PROC_006_01.pdf", "gabarito": "gab_true_006.pdf", "tipo": "ce", "arquivo": "240RMU2PROC_006_01.pdf"}
+      ]
+    }
+  ]
+}
