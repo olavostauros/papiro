@@ -1,0 +1,31 @@
+{
+ "banca": "cebraspe",
+ "evento": "AGU_15_ADV",
+ "workdir": "/tmp/agu_15_adv",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Advocacia-Geral da União",
+  "ano": 2015,
+  "id_orgao": "agu"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Advogado da União de 2ª Categoria",
+   "id_cargo": "advogado-da-uniao",
+   "provas": [
+    {
+     "key": "187AGU_001_01",
+     "prova": "pro_187AGU_001_01.pdf",
+     "gabarito": "gab_187AGU_001_01.pdf",
+     "tipo": "ce",
+     "arquivo": "187AGU_001_01.pdf"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}
