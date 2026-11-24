@@ -1,0 +1,38 @@
+{
+ "evento": "SEFAZ_RS_18_TECNICO",
+ "workdir": "/tmp/sefaz_rs_18_tecnico",
+ "meta": {
+  "banca": "Cebraspe",
+  "orgao": "Secretaria da Fazenda do Estado do Rio Grande do Sul",
+  "ano": 2018,
+  "id_orgao": "sefazrs"
+ },
+ "cargos": [
+  {
+   "idArea": "01",
+   "cargo": "Técnico Tributário da Receita Estadual",
+   "id_cargo": "tecnico-tributario-receita",
+   "provas": [
+    {
+     "key": "p1",
+     "prova": "pro_SEFAZRSTTRE001.pdf",
+     "gabarito": "gab_SEFAZRS_TTRE_001_00_MATR.pdf",
+     "tipo": "mc",
+     "arquivo": "MATRIZ_423_SEFAZRSTTRE001_PAG_14.PDF"
+    },
+    {
+     "key": "p2",
+     "prova": "pro_SEFAZRSTTRE002.pdf",
+     "gabarito": "gab_SEFAZRS_TTRE_002_00_MATR.pdf",
+     "tipo": "mc",
+     "arquivo": "MATRIZ_423_SEFAZRSTTRE002_PAG_13.PDF",
+     "num_offset": 80
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {},
+ "patch": {}
+}
