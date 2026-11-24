@@ -5,10 +5,10 @@ Endpoints (surface mínima do plano docker-postgres):
     GET /health                       probe do compose
     GET /filtros?…&dims=              opções dos Selects (cascata; dims limita dimensões)
     GET /filtros/{dim}?q=&limit=      facetas de uma dimensão (busca + top-N p/ combobox)
-    GET /questoes?…&page&per_page     lista paginada filtrada (inclui evento=)
+    GET /questoes?…&page&per_page     lista paginada filtrada (inclui evento= e fonte=)
     GET /questoes/{id}                detalhe
-    GET /eventos                      concursos ingeridos (contagens)
-    GET /provas?evento=               provas (fonte) por evento
+    GET /eventos                      concursos ingeridos (contagens + orgaos/cargos/anos)
+    GET /provas?evento=               provas por evento (fonte + cargos/anos/tipos)
 
 Respostas usam o shape flat de ``crawler.models.Questao`` — o mesmo que
 ``shard_to_records`` emite e ``web/src/data/questions.ts`` tipifica.
@@ -62,12 +62,18 @@ class EventoInfo(BaseModel):
     banca: str
     questoes: int
     provas: int
+    orgaos: list[str]
+    cargos: list[str]
+    anos: list[int]
 
 
 class ProvaInfo(BaseModel):
     evento: str
     fonte: str
     questoes: int
+    cargos: list[str]
+    anos: list[int]
+    tipos: list[str]
 
 
 DEFAULT_CORS = "https://olavostauros.github.io,http://localhost:4321"
@@ -124,9 +130,10 @@ def create_app(database_url: Optional[str] = None) -> FastAPI:
         s.execute(text("SELECT 1"))
         return {"status": "ok"}
 
-    def filtros_kw(banca, orgao, cargo, ano, assunto, tipo, q, evento):
+    def filtros_kw(banca, orgao, cargo, ano, assunto, tipo, q, evento, fonte):
         return dict(banca=banca, orgao=orgao, cargo=cargo, ano=ano,
-                    assunto=assunto, tipo=tipo, q=q, evento=evento)
+                    assunto=assunto, tipo=tipo, q=q, evento=evento,
+                    fonte=fonte)
 
     @app.get("/filtros", response_model=Filtros,
              response_model_exclude_none=True)
@@ -136,12 +143,14 @@ def create_app(database_url: Optional[str] = None) -> FastAPI:
         cargo: Optional[str] = None, ano: Optional[int] = None,
         assunto: Optional[str] = None, tipo: Optional[Tipo] = None,
         q: Optional[str] = None, evento: Optional[str] = None,
+        fonte: Optional[str] = None,
         dims: Optional[str] = None,
     ):
         wanted = set(dims.split(",")) if dims else set(DIMS)
         if bad := wanted - set(DIMS):
             raise HTTPException(422, f"dims desconhecidas: {sorted(bad)}")
-        kw = filtros_kw(banca, orgao, cargo, ano, assunto, tipo, q, evento)
+        kw = filtros_kw(banca, orgao, cargo, ano, assunto, tipo, q, evento,
+                        fonte)
         out = {}
         for dim, (col, field) in DIMS.items():
             if dim not in wanted:
@@ -157,7 +166,7 @@ def create_app(database_url: Optional[str] = None) -> FastAPI:
         banca: Optional[str] = None, orgao: Optional[str] = None,
         cargo: Optional[str] = None, ano: Optional[int] = None,
         assunto: Optional[str] = None, tipo: Optional[Tipo] = None,
-        evento: Optional[str] = None,
+        evento: Optional[str] = None, fonte: Optional[str] = None,
         q: Optional[str] = None,
         limit: int = Query(50, ge=1, le=MAX_FACETAS),
     ):
@@ -177,7 +186,7 @@ def create_app(database_url: Optional[str] = None) -> FastAPI:
             .group_by(col),
             exclude=dim,
             **filtros_kw(banca, orgao, cargo, ano, assunto, tipo, None,
-                         evento))
+                         evento, fonte))
         if q:
             stmt = stmt.where(
                 queries.unaccent_ilike(cast(col, String), q))
@@ -193,10 +202,12 @@ def create_app(database_url: Optional[str] = None) -> FastAPI:
         cargo: Optional[str] = None, ano: Optional[int] = None,
         assunto: Optional[str] = None, tipo: Optional[Tipo] = None,
         q: Optional[str] = None, evento: Optional[str] = None,
+        fonte: Optional[str] = None,
         page: int = Query(1, ge=1, le=MAX_PAGE),
         per_page: int = Query(20, ge=1, le=MAX_PER_PAGE),
     ):
-        kw = filtros_kw(banca, orgao, cargo, ano, assunto, tipo, q, evento)
+        kw = filtros_kw(banca, orgao, cargo, ano, assunto, tipo, q, evento,
+                        fonte)
         stmt = queries.apply_filters(queries.base_questao(), **kw)
         count_stmt = queries.apply_filters(
             select(func.count()).select_from(QuestaoDB)
@@ -227,7 +238,7 @@ def create_app(database_url: Optional[str] = None) -> FastAPI:
 
     @app.get("/eventos", response_model=list[EventoInfo])
     def eventos(s: Session = Depends(session)):
-        rows = s.execute(
+        counts = s.execute(
             select(Evento.evento, Banca.nome,
                    func.count(QuestaoDB.id).label("questoes"),
                    func.count(func.distinct(Prova.id)).label("provas"))
@@ -238,14 +249,34 @@ def create_app(database_url: Optional[str] = None) -> FastAPI:
             .group_by(Evento.id, Evento.evento, Banca.nome)
             .order_by(Evento.evento)
         ).all()
+        dims = s.execute(
+            select(Evento.evento, Orgao.nome, Cargo.nome, QuestaoDB.ano)
+            .select_from(Evento)
+            .join(Prova, Prova.evento_id == Evento.id)
+            .join(QuestaoDB, QuestaoDB.prova_id == Prova.id)
+            .join(Cargo, QuestaoDB.cargo_id == Cargo.id)
+            .join(Orgao, Cargo.orgao_id == Orgao.id)
+            .distinct()
+        ).all()
+        detalhes: dict[str, dict[str, set]] = {}
+        for ev, org, cargo, ano in dims:
+            d = detalhes.setdefault(
+                ev, {"orgaos": set(), "cargos": set(), "anos": set()})
+            d["orgaos"].add(org)
+            d["cargos"].add(cargo)
+            d["anos"].add(ano)
+        vazio = {"orgaos": set(), "cargos": set(), "anos": set()}
         return [EventoInfo(evento=r.evento, banca=r.nome,
-                           questoes=r.questoes, provas=r.provas)
-                for r in rows]
+                           questoes=r.questoes, provas=r.provas,
+                           orgaos=sorted(d["orgaos"]),
+                           cargos=sorted(d["cargos"]),
+                           anos=sorted(d["anos"], reverse=True))
+                for r in counts for d in [detalhes.get(r.evento, vazio)]]
 
     @app.get("/provas", response_model=list[ProvaInfo])
     def provas(s: Session = Depends(session), evento: Optional[str] = None):
         stmt = (
-            select(Evento.evento, Prova.fonte,
+            select(Evento.evento, Prova.id, Prova.fonte,
                    func.count(QuestaoDB.id).label("questoes"))
             .select_from(Prova)
             .join(Evento, Prova.evento_id == Evento.id)
@@ -253,10 +284,32 @@ def create_app(database_url: Optional[str] = None) -> FastAPI:
             .group_by(Prova.id, Evento.evento, Prova.fonte)
             .order_by(Evento.evento, Prova.fonte)
         )
+        dims = (
+            select(Prova.id, Cargo.nome, QuestaoDB.ano, QuestaoDB.tipo)
+            .select_from(Prova)
+            .join(Evento, Prova.evento_id == Evento.id)
+            .join(QuestaoDB, QuestaoDB.prova_id == Prova.id)
+            .join(Cargo, QuestaoDB.cargo_id == Cargo.id)
+            .distinct()
+        )
         if evento:
             stmt = stmt.where(Evento.evento == evento)
-        return [ProvaInfo(evento=r.evento, fonte=r.fonte, questoes=r.questoes)
-                for r in s.execute(stmt)]
+            dims = dims.where(Evento.evento == evento)
+        detalhes: dict[int, dict[str, set]] = {}
+        for pid, cargo, ano, tipo in s.execute(dims):
+            d = detalhes.setdefault(
+                pid, {"cargos": set(), "anos": set(), "tipos": set()})
+            d["cargos"].add(cargo)
+            d["anos"].add(ano)
+            d["tipos"].add(tipo)
+        vazio = {"cargos": set(), "anos": set(), "tipos": set()}
+        return [ProvaInfo(evento=r.evento, fonte=r.fonte,
+                          questoes=r.questoes,
+                          cargos=sorted(d["cargos"]),
+                          anos=sorted(d["anos"], reverse=True),
+                          tipos=sorted(d["tipos"]))
+                for r in s.execute(stmt)
+                for d in [detalhes.get(r.id, vazio)]]
 
     return app
 

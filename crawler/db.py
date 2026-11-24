@@ -34,6 +34,7 @@ from __future__ import annotations
 
 import argparse
 import os
+import re
 import sys
 import unicodedata
 from dataclasses import dataclass, field
@@ -42,7 +43,7 @@ from typing import Iterable, Optional
 
 from sqlalchemy import (JSON, CheckConstraint, ForeignKey, Index, Integer,
                         SmallInteger, Text, UniqueConstraint, create_engine,
-                        event, func, insert, select, text)
+                        delete, event, func, insert, select, text, update)
 from sqlalchemy.dialects import postgresql
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import DeclarativeBase, Mapped, Session, mapped_column
@@ -149,6 +150,71 @@ def unaccent_str(s: Optional[str]) -> Optional[str]:
                    if not unicodedata.combining(c))
 
 
+# ---------------------------------------------------------------------------
+# Normalização de nomes de dimensão (display)
+#
+# Shards guardam o texto cru da banca; ~10% dos orgao/cargo chegam ALL-CAPS.
+# O DB é o store curado que a API serve — normaliza ao internar a dimensão.
+# Regras: conectivos minúsculos, siglas preservadas (sem vogal, ≤2 letras ou
+# na lista), demais palavras capitalizadas.
+# ---------------------------------------------------------------------------
+
+_VOGAL = re.compile(r"[AEIOUÁÉÍÓÚÂÊÎÔÛÃÕÀÄËÏÖÜ]")
+_PIECE = re.compile(r"^(\W*)(\w*)(\W*)$")
+
+_CONECTIVOS = frozenset("""
+    a o as os um uma uns umas e de da do das dos em no na nos nas
+    num numa nuns numas para por pelo pela pelos pelas com sem sob sobre
+    ao aos à às
+""".split())
+
+# Siglas com vogal que a regra "sem vogal" não captura — mantidas maiúsculas.
+_SIGLAS = frozenset("""
+    ABIN AGU ANAC ANATEL ANEEL ANM ANP ANS ANSA ANTAQ ANTT ANVISA APEX
+    BANESE BANRISUL BCB BDMG BNDES CAGEPA CAESB CAPES CAU CBM CGU CNPJ
+    CNPQ COREN CRESS CVM DEPEN DETRAN DNIT DPE DPU EEAR EFOMM EMBRAPA
+    EMPREL ESA EXE FAB FNDE FUNAI FUNPRESP IBAMA IBGE IML INPI INSA INSS IPEA
+    ITA MCTI MEC MMA OAB PGE PGFN PGU PREVIC SEBRAE SEFAZ SEFIN SEPLAG
+    SENAC SENAI SENAT SERPRO SESI SESC SEST SUSEP UDESC UEM UEPG UNB
+    UNESP UNICAMP UNIFESP UNIVESP URCA UVA
+""".split())
+
+
+def _norm_piece(piece: str, first: bool) -> str:
+    m = _PIECE.match(piece)
+    if not m or not m.group(2):
+        return piece
+    pre, core, suf = m.groups()
+    if not first and core.lower() in _CONECTIVOS:
+        return pre + core.lower() + suf
+    if (not core.isalpha() or core in _SIGLAS
+            or not _VOGAL.search(core) or len(core) <= 2):
+        return piece
+    return pre + core.capitalize() + suf
+
+
+def _norm_token(token: str, first: bool) -> str:
+    parts = re.split(r"([-/])", token)
+    return "".join(
+        p if p in "-/" else _norm_piece(p, first and i == 0)
+        for i, p in enumerate(parts))
+
+
+def normalize_nome(nome: str) -> str:
+    """Title-case de nome ALL-CAPS (orgao/cargo) para exibição.
+
+    Nomes com qualquer letra minúscula são retornados intactos — só o
+    dataset gritado é tocado. Token único curto é tratado como sigla.
+    ('ª'/'º' contam como neutros — isupper() falharia em "8ª REGIÃO".)
+    """
+    if not nome or nome != nome.upper() or nome.upper() == nome.lower():
+        return nome
+    tokens = nome.split()
+    if len(tokens) == 1 and len(tokens[0]) <= 10:
+        return nome
+    return " ".join(_norm_token(t, i == 0) for i, t in enumerate(tokens))
+
+
 def get_engine(url: Optional[str] = None, **kw) -> Engine:
     """Engine for DATABASE_URL (env), explicit url, or the local default.
 
@@ -244,10 +310,12 @@ def sync_records(records: Iterable[dict], engine: Engine, *,
                     evento_id=evento_id, fonte=fonte)
 
             def cargo_id(r: dict) -> int:
-                oid = _get_or_create(session, orgaos, r["orgao"],
-                                     Orgao, nome=r["orgao"])
-                return _get_or_create(session, cargos, (oid, r["cargo"]),
-                                      Cargo, orgao_id=oid, nome=r["cargo"])
+                orgao = normalize_nome(r["orgao"])
+                cargo = normalize_nome(r["cargo"])
+                oid = _get_or_create(session, orgaos, orgao,
+                                     Orgao, nome=orgao)
+                return _get_or_create(session, cargos, (oid, cargo),
+                                      Cargo, orgao_id=oid, nome=cargo)
 
             def assunto_id(r: dict) -> Optional[int]:
                 if not r["assunto"]:
@@ -304,6 +372,59 @@ def sync_all(engine: Engine, shard_dir: Path = SHARD_DIR) -> SyncStats:
 
 
 # ---------------------------------------------------------------------------
+# Normalização retroativa
+# ---------------------------------------------------------------------------
+
+def normalize_dims(engine: Engine,
+                   renames: Optional[dict[str, str]] = None) -> dict[str, int]:
+    """Renomeia dimensões existentes para exibição.
+
+    ``renames`` (orgao bruto → nome alvo) cobre valores inválidos que o
+    title-case não adivinha — slugs de evento internados como órgão.
+    O restante passa por ``normalize_nome``. Renomear na linha basta
+    quando o alvo não existe; colisão com uma dimensão já no destino
+    mescla — reponta dependentes e remove a dupla. Retorna contagens.
+    """
+    renames = renames or {}
+    moved = {"orgao": 0, "cargo": 0}
+    with Session(engine) as s:
+        orgaos = s.execute(select(Orgao.id, Orgao.nome)).all()
+        id_por_nome: dict[str, int] = {nome: oid for oid, nome in orgaos}
+        for oid, nome in orgaos:
+            new = renames.get(nome, normalize_nome(nome))
+            if new == nome:
+                continue
+            if keep := id_por_nome.get(new):
+                s.execute(update(Cargo).where(Cargo.orgao_id == oid)
+                          .values(orgao_id=keep))
+                s.execute(delete(Orgao).where(Orgao.id == oid))
+            else:
+                s.execute(update(Orgao).where(Orgao.id == oid)
+                          .values(nome=new))
+                id_por_nome[new] = oid
+            moved["orgao"] += 1
+
+        cargos = s.execute(select(Cargo.id, Cargo.orgao_id, Cargo.nome)).all()
+        id_por_key = {(oid, nome): cid for cid, oid, nome in cargos}
+        for cid, oid, nome in cargos:
+            new = normalize_nome(nome)
+            if new == nome:
+                continue
+            if keep := id_por_key.get((oid, new)):
+                s.execute(update(QuestaoDB)
+                          .where(QuestaoDB.cargo_id == cid)
+                          .values(cargo_id=keep))
+                s.execute(delete(Cargo).where(Cargo.id == cid))
+            else:
+                s.execute(update(Cargo).where(Cargo.id == cid)
+                          .values(nome=new))
+                id_por_key[(oid, new)] = cid
+            moved["cargo"] += 1
+        s.commit()
+    return moved
+
+
+# ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
 
@@ -337,6 +458,11 @@ def main(argv: Optional[list[str]] = None) -> int:
     p.set_defaults(fn=_cmd_sync)
     p = sub.add_parser("init", parents=[common], help="só cria o schema")
     p.set_defaults(fn=lambda a: (create_schema(get_engine(a.url)), 0)[1])
+    p = sub.add_parser("normalize", parents=[common],
+                       help="renomeia dimensões ALL-CAPS existentes")
+    p.set_defaults(fn=lambda a: (
+        print("normalize:", (m := normalize_dims(get_engine(a.url))),
+              "dimensões"), 0)[1])
     p = sub.add_parser("stats", parents=[common], help="contagens por tabela")
     p.set_defaults(fn=_cmd_stats)
     args = ap.parse_args(argv)

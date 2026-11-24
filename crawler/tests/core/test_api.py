@@ -146,7 +146,22 @@ def test_faceta(client):
 
 def test_eventos_e_provas(client):
     evs = {e["evento"]: e for e in client.get("/eventos").json()}
-    assert evs["PF_24"]["questoes"] == 2 and evs["PF_24"]["provas"] == 1
+    ev = evs["PF_24"]
+    assert ev["questoes"] == 2 and ev["provas"] == 1
+    assert ev["orgaos"] == ["Polícia Federal"]
+    assert ev["cargos"] == ["Escrivão de Polícia Federal"]
+    assert ev["anos"] == [2024]
     provas = client.get("/provas", params={"evento": "PF_24"}).json()
     assert len(provas) == 1 and provas[0]["questoes"] == 2
     assert provas[0]["fonte"].endswith("p1.pdf")
+    assert provas[0]["cargos"] == ["Escrivão de Polícia Federal"]
+    assert provas[0]["anos"] == [2024]
+    assert provas[0]["tipos"] == ["certo_errado"]
+
+
+def test_questoes_filtro_fonte(client):
+    fonte = "https://cdn.cebraspe.org.br/concursos/PF_23/arquivos/p1.pdf"
+    r = client.get("/questoes", params={"fonte": fonte})
+    assert r.json()["total"] == 1
+    r = client.get("/questoes", params={"evento": "PF_24", "fonte": fonte})
+    assert r.json()["total"] == 0

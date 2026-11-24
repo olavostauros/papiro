@@ -113,3 +113,64 @@ def test_get_engine_coage_driver_postgres(monkeypatch):
     monkeypatch.setenv("DATABASE_URL", "postgresql://u:p@host:5432/db")
     e = db.get_engine()
     assert e.url.drivername == "postgresql+psycopg"
+
+
+def test_normalize_nome():
+    n = db.normalize_nome
+    # ALL-CAPS → title-case com conectivos minúsculos e siglas preservadas
+    assert n("MINISTÉRIO DA EDUCAÇÃO") == "Ministério da Educação"
+    assert n("AGENTE DE SUPORTE AO NEGÓCIO") == "Agente de Suporte ao Negócio"
+    assert n("ADVOCACIA-GERAL DA UNIÃO") == "Advocacia-Geral da União"
+    assert n("SECRETARIA MUNICIPAL DAS FINANÇAS (SEFIN)") == \
+        "Secretaria Municipal das Finanças (SEFIN)"
+    assert n("TRIBUNAL REGIONAL DO TRABALHO – TRT 8ª REGIÃO") == \
+        "Tribunal Regional do Trabalho – TRT 8ª Região"
+    assert n("PGE-ES") == "PGE-ES"
+    # token único curto = sigla; misto já curado não é tocado
+    assert n("ANVISA") == "ANVISA"
+    assert n("Polícia Federal") == "Polícia Federal"
+
+
+def test_sync_normaliza_dimensoes_allcaps(engine):
+    sync_records([
+        rec("cebraspe-2024-agu-a-001", orgao="ADVOCACIA-GERAL DA UNIÃO",
+            cargo="ADVOGADO DA UNIÃO"),
+    ], engine)
+    with Session(engine) as s:
+        assert s.scalar(select(Orgao.nome)) == "Advocacia-Geral da União"
+        assert s.scalar(select(Cargo.nome)) == "Advogado da União"
+
+
+def test_normalize_dims_renomeia_e_mescla(engine):
+    # seed legado sem normalização (simula DB pré-normalizador)
+    with Session(engine) as s:
+        agu = Orgao(nome="ADVOCACIA-GERAL DA UNIÃO")
+        fnde_x = Orgao(nome="FNDE_23_ESPECIALISTA")
+        fnde = Orgao(nome="FNDE")
+        s.add_all([agu, fnde_x, fnde])
+        s.flush()
+        c1 = Cargo(orgao_id=agu.id, nome="ADVOGADO DA UNIÃO")
+        c2 = Cargo(orgao_id=fnde_x.id, nome="ESPECIALISTA")
+        c3 = Cargo(orgao_id=fnde.id, nome="Especialista")
+        s.add_all([c1, c2, c3])
+        s.flush()
+        c3_id = c3.id
+        s.add_all([
+            QuestaoDB(id="q1", prova_id=0, cargo_id=c1.id, ano=2024,
+                      tipo="certo_errado", enunciado="e",
+                      gabarito="certo"),
+            QuestaoDB(id="q2", prova_id=0, cargo_id=c2.id, ano=2024,
+                      tipo="certo_errado", enunciado="e",
+                      gabarito="certo"),
+        ])
+        s.commit()
+    moved = db.normalize_dims(
+        engine, renames={"FNDE_23_ESPECIALISTA": "FNDE"})
+    assert moved == {"orgao": 2, "cargo": 2}
+    with Session(engine) as s:
+        nomes = set(s.scalars(select(Orgao.nome)))
+        assert nomes == {"Advocacia-Geral da União", "FNDE"}
+        cargos = {(c.orgao_id, c.nome) for c in s.scalars(select(Cargo))}
+        assert len(cargos) == 2           # ESPECIALISTA fundiu em Especialista
+        q2 = s.scalar(select(QuestaoDB).where(QuestaoDB.id == "q2"))
+        assert q2.cargo_id == c3_id       # repontada, não duplicada

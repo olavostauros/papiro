@@ -75,6 +75,7 @@ def apply_filters(
     tipo: Optional[str] = None,
     q: Optional[str] = None,
     evento: Optional[str] = None,
+    fonte: Optional[str] = None,
     exclude: Optional[str] = None,
 ) -> Select:
     """WHERE clauses shared by /questoes and the /filtros cascade.
@@ -83,7 +84,8 @@ def apply_filters(
     narrowed by itself (standard faceted-select behaviour).
     """
     f = {"banca": banca, "orgao": orgao, "cargo": cargo, "ano": ano,
-         "assunto": assunto, "tipo": tipo, "q": q, "evento": evento}
+         "assunto": assunto, "tipo": tipo, "q": q, "evento": evento,
+         "fonte": fonte}
     if exclude:
         f[exclude] = None
     if f["banca"]:
@@ -100,6 +102,8 @@ def apply_filters(
         stmt = stmt.where(QuestaoDB.tipo == f["tipo"])
     if f["evento"]:
         stmt = stmt.where(Evento.evento == f["evento"])
+    if f["fonte"]:
+        stmt = stmt.where(Prova.fonte == f["fonte"])
     if f["q"]:
         stmt = stmt.where(unaccent_ilike(QuestaoDB.enunciado, f["q"]))
     return stmt
