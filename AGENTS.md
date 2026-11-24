@@ -48,7 +48,10 @@ from the repo root with `.venv/bin/python`):
    and probes each detail for provas.
 2. `... files <EVENTO_URL>` shows cargos + prova/gabarito classification;
    `... fetch <EVENTO_URL>` downloads to `/tmp/<evento>/` and drafts
-   `job.json`.
+   `job.json`. Eventos confirmados não-ingeríveis (prova discursiva,
+   sem arquivos, API 500 permanente) vão em `crawler/jobs/_skip.json`
+   (`{evento: motivo}`) — `done_eventos()` os trata como feitos e o
+   `next` não os reprova a cada run.
 3. Fix `job.json`: assign unmatched/shared provas to cargos, set `meta`
    (orgao/id_orgao/ano), `tipo: ce|mc`, `variant`, `skip`, `patch`. Commit a
    copy to `crawler/jobs/<EVENTO>.json`.

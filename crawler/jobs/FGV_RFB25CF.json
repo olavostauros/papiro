@@ -1,0 +1,49 @@
+{
+ "banca": "fgv",
+ "evento": "FGV_RFB25CF",
+ "workdir": "/tmp/fgv_rfb22",
+ "meta": {
+  "banca": "FGV",
+  "orgao": "Receita Federal do Brasil",
+  "ano": 2025,
+  "id_orgao": "rfb"
+ },
+ "cargos": [
+  {
+   "idArea": "auditor-fiscal",
+   "cargo": "auditor fiscal",
+   "id_cargo": "auditor-fiscal",
+   "provas": [
+    {
+     "key": "auditor-fiscal_t1",
+     "prova": "pro_auditor-fiscal_t1.pdf",
+     "gabarito": "gab_gabdef-cf__auditor-fiscal_t1.txt",
+     "tipo": "mc",
+     "arquivo": "auditor-fiscal-frb100-tipo-1.pdf"
+    }
+   ]
+  },
+  {
+   "idArea": "analista-tributario",
+   "cargo": "analista tributario",
+   "id_cargo": "analista-tributario",
+   "provas": [
+    {
+     "key": "analista-tributario_t1",
+     "prova": "pro_analista-tributario_t1.pdf",
+     "gabarito": "gab_gabdef-cf__analista-tributario_t1.txt",
+     "tipo": "mc",
+     "arquivo": "analista-tributario-rfb200-tipo-1.pdf"
+    }
+   ]
+  }
+ ],
+ "unmatched": [],
+ "variant": "modern",
+ "skip": {
+  "analista-tributario_t1": [
+   26
+  ]
+ },
+ "patch": {}
+}

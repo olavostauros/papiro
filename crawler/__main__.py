@@ -19,7 +19,11 @@ JOBS_DIR = Path(__file__).resolve().parent / "jobs"
 
 def done_eventos():
     # shard filenames são o identificador do evento (EXTERNO_* incluso)
-    return {p.stem for p in SHARD_DIR.glob("*.json")}
+    done = {p.stem for p in SHARD_DIR.glob("*.json")}
+    skip = JOBS_DIR / "_skip.json"        # eventos não-ingeríveis, com motivo
+    if skip.exists():
+        done |= set(json.loads(skip.read_text()))
+    return done
 
 
 def cmd_next(args):

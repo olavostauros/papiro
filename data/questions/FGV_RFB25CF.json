@@ -1,0 +1,2120 @@
+{
+ "evento": "FGV_RFB25CF",
+ "banca": "FGV",
+ "orgaos": [
+  "Receita Federal do Brasil"
+ ],
+ "cargos": [
+  "auditor fiscal",
+  "analista tributario"
+ ],
+ "assuntos": [
+  "Administração Aduaneira e Modelo de Controle - MCA",
+  "Despacho Aduaneiro Operacional - DDA",
+  "Gestão do Crédito Tributário",
+  "Estado, Sociedade e Transformação Digital",
+  "Tecnologia da Informação e Fluência em Dados II",
+  "Sigilo Fiscal",
+  "Tributação e Contencioso",
+  "Arrecadação, Cobrança e Controle do Crédito Tributário",
+  "Atendimento ao Contribuinte"
+ ],
+ "provas": [
+  {
+   "fonte": "https://conhecimento.fgv.br/sites/default/files/concursos/auditor-fiscal-frb100-tipo-1.pdf"
+  },
+  {
+   "fonte": "https://conhecimento.fgv.br/sites/default/files/concursos/analista-tributario-rfb200-tipo-1.pdf"
+  }
+ ],
+ "itens": [
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-001",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Tendo em vista o papel histórico e atual das aduanas, assim como a evolução de sua missão e de suas atribuições até os dias atuais, assinale a afirmativa incorreta .",
+   "gabarito": "c",
+   "alternativas": [
+    "Até a metade do século passado, as funções das aduanas se resumiam à arrecadação de tributos e à aplicação de proibições e restrições à entrada ou saída de mercadorias (funções exercidas por meio de medidas tarifárias e não tarifárias).",
+    "O documento da OMA, conhecido como Marco SAFE, foi criado para estabelecer uma maior facilitação de negócios legítimos e um comércio internacional mais seguro, como resposta da comunidade aduaneira global às ameaças à segurança da cadeia de abastecimento.",
+    "O Brasil, assim como a maioria dos países, insere a Aduana na estrutura do Ministério da Fazenda, tendo tal estrutura guarida no art. 237 da Constituição Federal de 1988, que estabelece que o controle e fiscalização do comércio exterior e do comércio interno serão realizados pelo Ministério da Fazenda.",
+    "A OMA destaca que, hoje em dia, a missão mundialmente aceita das Aduanas é desenvolver e implementar um conjunto de políticas e procedimentos integrados que garantam uma segurança cada vez maior, assim como o ingresso de receitas e a facilitação efetiva do comércio.",
+    "As aduanas desempenham funções econômicas e não econômicas, estando entre as funções não econômicas a de segurança pública e do Estado, incluindo o combate ao crime organizado internacional e ao terrorismo, controlando a movimentação de bens sensíveis."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-002",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação à estrutura e às atribuições da administração aduaneira, na Secretaria Especial da Receita Federal do Brasil (RFB), assinale a afirmativa correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "Compete à Coordenação-Geral de Combate ao Contrabando e Descaminho (Corep), uma das três coordenações jurisdicionadas pela Suana (Subsecretaria de Administração Aduaneira)i, gerenciar as atividades relativas ao controle aduaneiro e, em especial, à execução da fiscalização aduaneira.",
+    "A Coordenação-Geral de Administração Aduaneira (Coana), por meio da Coordenação Operacional Aduaneira e sua divisão de Divisão de Controles Aduaneiros Especiais (Dicae), é responsável pelo controle aduaneiro de remessas expressas e postais internacionais, bem como de bens de viajantes, inclusive bagagem desacompanhada.",
+    "A RFB possui uma infraestrutura de informática – servidores, bancos de dados, redes de telecomunicações, estações de trabalho – específica para as atividades aduaneiras, devido à especificidade dos contribuintes e das operações realizadas, envolvendo conexão com diversos órgãos de controle.",
+    "O desafio para um controle aduaneiro eficaz, no Brasil, é muito grande, devido à extensão do território nacional e da amplitude de suas fronteiras terrestres e de sua orla marítima; e, por isso, é importante a descentralização e a capilarização da atuação aduaneira.",
+    "A Coordenação Especial de Riscos Aduaneiros (Corad) é competente para gerir e, em conjunto com as Unidades Descentralizadas, executar as atividades relativas à gestão de riscos para o controle aduaneiro, desmembrando-se em duas coordenações de área, além de um Centro Nacional de Operadores Econômicos Autorizados (CeOEA)."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-003",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sobre os processos de trabalho aduaneiros e o fluxo do comércio internacional, avalie as afirmativas a seguir e assinale (V) para a verddadeira e (F) para a falsa.. ( ) Entre as atividades desempenhadas pelos servidores da RFB, há processos que são comuns à área tributária e aduaneira, enquanto outros são exclusivos à área aduaneira. ( ) Os process os de trabalho que tratam de “autorizar intervenientes” são comuns às áreas tributária e aduaneira, sendo imprescindíveis à adequada identificação das características de cada interveniente e à gestão de riscos. ( ) No Brasil, é obrigatória a atuação de despachantes aduaneiros, na intermediação de atividades de importação e exportação; porém, em alguns casos, os operadores econômicos autorizados podem substituir o despachante aduaneiro. ( ) O controle dos processos de importação e exportação, baseado em uma gestão de riscos bem aplicada aos trâmites prévios ao despacho, permite que haja seletividade mais eficaz e maior celeridade na liberação das mercadorias. As afirmativas são, respectivamente,",
+   "gabarito": "a",
+   "alternativas": [
+    "V – F – F – V.",
+    "V – V – F – V.",
+    "F – F – V – V.",
+    "V – V – V – F.",
+    "V – F – V – V."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-004",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "As opções a seguir apresentam elementos que caracterizam nova solução estratégica para as aduanas modernas, de acordo com o documento Customs in the 21 st Century , à exceção de uma . Assinale-a.",
+   "gabarito": "d",
+   "alternativas": [
+    "A colaboração Aduana-Empresa.",
+    "A melhor coordenação da gestão das fronteiras.",
+    "A conexão global e em tempo real entre as aduanas.",
+    "O predomínio das medidas tarifárias.",
+    "A gestão de riscos baseada em informações antecipadas."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-005",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere ao controle aduaneiro e à fiscalização aduaneira, assinale a afirmativa correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "As operações de controle aduaneiro não se referem, necessariamente, a uma efetiva ação fiscal, podendo abranger o acompanhamento ou o monitoramento, inclusive remoto, e ocorrem, em regra, posteriormente à operação de fiscalização aduaneira.",
+    "São ações de controle aduaneiro, entre outras, a identificação dos sujeitos passivos e a caracterização de suas responsabilidades quanto à matéria aduaneira, assim como a delimitação ou segregação física de locais e recintos alfandegados.",
+    "A fiscalização aduaneira é focada nas operações de comércio exterior, abrangendo, entre outras, os registros de informação sobre a movimentação, estocagem e transformação industrial de mercadorias em recintos alfandegados e a inspeção periódica das condições de alfandegamento dos recintos.",
+    "O controle aduaneiro visa garantir a efetividade da fiscalização, sendo focado em ações que permeiam as operações de comércio exterior, como, por exemplo, a inspeção de sistemas informatizados das pessoas sujeitas ao controle aduaneiro para fins de alfandegamento.",
+    "Além da fiscalização no curso do despacho até a liberação da mercadoria, a RFB também exerce outras modalidades de fiscalização aduaneira, como vigilância aduaneira, representação fiscal aduaneira e auditorias posteriores à liberação das mercadorias. Controle de Carga, Fluxo de Informações e Gestão Coordenada de Fronteiras - CCA"
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-006",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação às vias de transporte de carga utilizados no comércio exterior brasileiro, assinale a afirmativa correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "O transporte de cargas pelo modal aéreo permite a transferência segura e rápida de qualquer mercadoria, sendo o mais utilizado para a exportação de commodities .",
+    "O transporte ferroviário de cargas é o mais utilizado nas transações comerciais com os países do Mercosul devido a ampla malha ferroviária disponível e a total inexistência de barreiras estruturais nas linhas férreas.",
+    "A utilização do modal terrestre ocorre, principalmente, no âmbito dos países do Mercosul em virtude da proximidade geográfica e a facilidade de acessos por rodovias.",
+    "A utilização do modal aquaviário restringe-se somente à navegação de interior e lacustre, realizada nos rios que transpõem os países ou servem como divisas naturais.",
+    "O transporte por diferentes modais deve ser realizado por um único tipo de veículo apto a rodar por vias terrestres e ser carregado em um avião ou em uma embarcação."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-007",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do regime especial de trânsito aduaneiro, assinale a afirmativa correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "O controle do regime de trânsito aduaneiro se inicia com a habilitação do transportador para operar no regime, que, atualmente, prescinde da apresentação de garantia em todos os casos.",
+    "O trânsito aduaneiro é concluído automaticamente pelo sistema caso haja o registro de chegada do veículo, não seja constatado indícios de violação dos elementos de segurança, tampouco divergência na informação de armazenamento",
+    "Um trânsito aduaneiro interrompido em nenhuma hipótese poderá seguir para a unidade de destino inicialmente informada.",
+    "Após a conclusão do trânsito, a carga transportada estará automaticamente desembaraçada para entrega ao importador.",
+    "O regime de trânsito aduaneiro permite tão somente a transferência de carga de uma zona primária (local de chegada do veículo estrangeiro no país) para uma zona secundária (portos secos ou CLIAS) com a suspensão de tributos."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-008",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Gestão Coordenada de Fronteiras (GCF) consiste em iniciativas para implementar ações coordenadas e integradas para as atividades de controle aduaneiro entre países fronteiriços. Dentre as iniciativas citam-se a Área de Controle Integrado, a Janela Única e o Marco SAFE. O objetivo principal da GCF consiste em",
+   "gabarito": "b",
+   "alternativas": [
+    "centralizar o controle aduaneiro em nas capitais que são cidades sedes de Superintendências Regionais da RFB.",
+    "facilitar o comércio exterior por meio da cooperação e ação coordenada entre órgãos dos países fronteiriços.",
+    "intensificar o controle manual das operações em detrimento à utilização de sistemas informatizados.",
+    "reduzir o número de intervenientes do comércio exterior.",
+    "compartimentalizar procedimentos, de modo que cada ponto de fronteira tenha suas próprias normas e regras para o controle aduaneiro."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-009",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "O manifesto de carga é um documento emitido pelo transportador e nele constam informações das mercadorias que foram carregadas em um ponto no exterior e terão como destino um determinado local em território nacional. Com base nos requisitos impostos pela Receita Federal do Brasil, o manifesto de carga deverá, obrigatoriamente, conter",
+   "gabarito": "c",
+   "alternativas": [
+    "o número das faturas comerciais e os respectivos romaneios de carga associadas ao conhecimento de carga transportado no veículo.",
+    "a informação de todos os portos de escala no exterior, mesmo os portos em que não ocorreram a baldeação da carga.",
+    "data, local e nome do agente de cargas emissor dos conhecimentos agregados, ou master, transportados no veículo.",
+    "o consignatário do conhecimento de carga listado no manifesto de carga.",
+    "a quantidade, pesos e valor total da mercadoria na moeda de origem."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-010",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação ao despacho aduaneiro de importação no Brasil, avalie as afirmativas a seguir. I. Para registrar DI o importador deve estar previamente habilitado a operar no comércio exterior, porém a habilitação não é necessária para o registro de Duimp. II. O registro da declaração de importação deve ocorrer em até 90 dias da descarga, se a mercadoria estiver em recinto alfandegado de zona primária. III. Caso o importador não registre a declaração de importação nos prazos legais, a mercadoria será considerada abandonada e será lavrado o auto de infração para aplicação da pena de perdimento. Está correto o que se afirma em",
+   "gabarito": "d",
+   "alternativas": [
+    "I, apenas.",
+    "II, apenas.",
+    "I e II, apenas.",
+    "I e III, apenas.",
+    "II e III, apenas."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-011",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sobre o despacho aduaneiro de importação com base na Declaração de Importação (DI), assinale a afirmativa correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "O registro da DI pode ser feito antes da chegada da carga, somente no caso de o importador ser certificado como Operador Econômico Autorizado (OEA).",
+    "A seleção para o canal verde de conferência aduaneira dispensa o exame documental, mas exige obrigatoriamente a verificação física da mercadoria.",
+    "A verificação da mercadoria é realizada sempre com a presença do importador e pode ser realizada por Analista- Tributário da Receita Federal do Brasil, desde que sob supervisão de Auditor-Fiscal.",
+    "A entrega da mercadoria ao importador pode ocorrer antes do desembaraço, desde que autorizada por Auditor-Fiscal da Receita Federal do Brasil.",
+    "O desembaraço aduaneiro pode ser realizado por qualquer servidor da Receita Federal, desde que autorizado pelo chefe da unidade de despacho."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-012",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base nos procedimentos de despacho aduaneiro de importação por meio da Declaração Única de Importação (Duimp) e da Declaração Simplificada de Importação (DSI), assinale a afirmativa incorreta .",
+   "gabarito": "c",
+   "alternativas": [
+    "O canal único de conferência da Duimp é definido com base no nível de conferência mais gravoso indicado por qualquer órgão participante, seja a Receita Federal ou os órgãos anuentes.",
+    "A Duimp pode ser registrada de forma antecipada, ou seja, antes da chegada da carga, independentemente do tipo de operação ou importador.",
+    "A conferência dos órgãos anuentes, como Anvisa e MAPA, ocorre em paralelo à conferência aduaneira da Duimp.",
+    "A entrega antecipada da mercadoria objeto de Duimp pode ser autorizada mesmo que a conferência dos órgãos anuentes ainda não tenha sido concluída, desde que o respectivo órgão autorize no sistema",
+    "No despacho com DSI registrada no Siscomex, os documentos instrutivos devem ser anexados digitalmente, da mesma forma que ocorre com a DI e a Duimp."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-013",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação ao despacho aduaneiro de exportação por meio da DU-E, assinale a afirmativa correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "A verificação física da mercadoria é obrigatória para DU-E selecionada para canal cinza de conferência aduaneira.",
+    "O desembaraço aduaneiro pode ser realizado por qualquer servidor da Receita Federal, desde que autorizado pelo chefe da unidade.",
+    "A DU-E será cancelada automaticamente pelo sistema, se não ocorrer a apresentação da carga para despacho no prazo previsto em norma.",
+    "O evento Carga completamente Exportada (CCE) ocorre antes do desembaraço e autoriza o embarque da mercadoria.",
+    "A não vinculação do LPCO à DU-E sempre impede o embarque ou transposição de fronteira da mercadoria."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-014",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "De acordo com o processo de despacho aduaneiro de exportação via DU-E, relacione os elementos a seguir às respectivas descrições. 1. DU-E 2. LPCO 3. CCE 4. Canal Laranja 5. Averbação ( ) Documento eletrônico que serve de base para o despacho aduaneiro de exportação. ( ) Documento eletrônico obtido no Portal Siscomex, exigido por órgãos anuentes. ( ) Evento que marca o fim do controle de carga na exportação. ( ) Exige análise documental, mas dispensa verificação física da mercadoria. ( ) Confirmação da saída da mercadoria do País. Assinale a opção que indica a relação correta, na ordem apresentada.",
+   "gabarito": "c",
+   "alternativas": [
+    "1 – 2 – 3 – 4 – 5.",
+    "3 – 4 – 5 – 1 – 2.",
+    "1 – 2 – 5 – 4 – 3.",
+    "2 – 1 – 3 – 4 – 5.",
+    "1 – 2 – 3 – 5 – 4."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-015",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Letícia recebeu notificação de lançamento relativa ao IRPF/2025. Todavia, tomou conhecimento da autuação após o prazo regular para impugnação, pois o condomínio onde mora havia remetido a notificação para outra unidade. A contribuinte ingressou com impugnação, alegando preliminar de tempestividade, requerendo seu encaminhamento à autoridade julgadora de primeira instância, mas também solicitou a revisão do lançamento por erro de fato, apresentando comprovantes de despesas médicas de que não dispunha por ocasião da intimação da Equipe de Malha Fiscal. Considerando a situação descrita, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) Tendo em vista a interposição de impugnação com preliminar de tempestividade, compete à autoridade julgadora de primeira instância apreciar a revisão de ofício por erro de fato. ( ) A interposição de impugnação não impede a revisão de ofício do lançamento, relativamente ao erro de fato, que pode e deve ser apreciado pela autoridade lançadora da Equipe de Malha Fiscal. ( ) A revisão de ofício só será cabível se, após a apreciação da preliminar de tempestividade pela autoridade julgadora de primeira instância, for declarada a intempestividade da impugnação. As afirmativas são, respectivamente,",
+   "gabarito": "c",
+   "alternativas": [
+    "V – F – V.",
+    "F – V – F.",
+    "V – V – F.",
+    "F – V – V.",
+    "V – F – F."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-017",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Uma empresa ingressou com mandado de segurança e obteve liminar afastando a aplicação de lei tributária que majorou a base de cálculo da Cofins. A esse respeito, avalie as afirmativas a seguir. I. A suspensão da exigibilidade do crédito tributário, por liminar em mandado de segurança, não impede o lançamento de ofício, caso a empresa não declare o crédito tributário sub judice, a fim de evitar a decadência do lançamento. II. A liminar judicial não tem o condão de suspender a exigibilidade do crédito tributário, posto que não cabe mandado de segurança contra lei em tese e, assim, a empresa deveria ter ingressado com ação ordinária. III. A suspensão da exigibilidade, por meio de concessão de liminar em mandado de segurança, está condicionada ao depósito do montante integral do crédito tributário sub judice. Está correto o que se afirma em",
+   "gabarito": "a",
+   "alternativas": [
+    "I, apenas.",
+    "II, apenas.",
+    "I e II, apenas.",
+    "II e III, apenas.",
+    "I, II e III."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-018",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Avalie situações descritas a seguir. I. Contribuinte recebeu notificação de lançamento do IRPF, por omissão de rendimentos, apurada pela malha fiscal, ao cruzar informações prestadas pela fonte pagadora e aquelas declaradas pela contribuinte. Irresignada, a contribuinte, utilizando o e-CAC, formalizou uma Solicitação de Retificação do Lançamento, de modo a comprovar que, na verdade, tratava-se de erro da empresa, que transmitiu a declaração utilizando o CNPJ da matriz e entregou à funcionária um informe de rendimentos sob o CNPJ do estabelecimento filial em que ela trabalha. II. Em sede de impugnação, uma empresa conseguiu decisão parcialmente favorável, que descaracterizou a majoração da multa de ofício. Em vista do valor vultoso exonerado, a Delegacia da Receita Federal do Brasil de Julgamento, por força legal, interpôs recurso de ofício contra o acórdão por ela própria exarado. III. Após o resultado do julgamento de primeira instância, mantendo a autuação, o contribuinte ingressou com ação judicial contra o lançamento de ofício e, ao mesmo tempo, fundado nos mesmos argumentos, interpôs recurso voluntário ao Conselho Administrativo de Recursos Fiscais, o qual não foi conhecido pela autoridade julgadora de segunda instância, tendo em vista a prevalência das decisões judiciais. IV. Contribuinte compareceu ao CAC da Receita Federal relatando que tentou parcelar o auto de infração que sofreu, em vista de fiscalização que glosou deduções não comprovadas por documentação hábil, mas que o sistema não estava aplicando a redução de 40% na multa de ofício, tal como constava nas orientações da autuação. A servidora que o atendeu explicou que a redução era aplicada para pagamento ou parcelamento efetuado dentro do prazo de 30 dias após a ciência do lançamento, prazo esse que já tinha expirado. Irresignado, o contribuinte apresentou recurso contra a não aplicação da redução da multa ao parcelar o auto de infração, solicitando que suas alegações fossem apreciadas pela autoridade administrativa competente. A partir dessas situações, assinale a afirmativa incorreta .",
+   "gabarito": "c",
+   "alternativas": [
+    "A SRL, mencionada na situação descrita em I, é um exemplo de via não litigiosa de alteração do lançamento.",
+    "Em II, impugnação e recurso de ofício constituem exemplos de modalidade litigiosa de alteração do lançamento.",
+    "Em III, impugnação e recurso voluntário são exemplos de modalidade litigiosa de alteração do lançamento.",
+    "Em IV, o recurso apresentado não pode ser considerado uma modalidade de alteração do crédito tributário.",
+    "Todas as situações descritas apresentam exemplos de modalidades litigiosas de alteração do lançamento."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-019",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Fábio é taxista e há tempos tem a intenção de comprar um carro elétrico, mas vem adiando essa aquisição devido ao alto custo deste tipo de veículo. Porém, ficou animado após ler a notícia a seguir. BYD Dolphin Mim terá preço de R$ 98,5 mil na venda direta a taxistas Versão de entrada tem valor sugerido de R$ 118.990 e descontos com sistema diferenciado de comercialização. Com o início da operação de sua fábrica em Camaçari, na Bahia, a montadora chinesa BYD esquenta a disputa por preços mais competitivos de modelos elétricos e híbridos no mercado brasileiro. Com produção local, a fabricante ingressa no mercado de vendas diretas (da fábrica para alguns tipos de clientes) e pode oferecer novos descontos, já que se beneficiará de isenções de impostos. Com isso, a nova versão de entrada do Dolphin Mini será oferecida por até R$ 98,5 mil. A montadora informou que além do Dolphin Mini, os modelos BYD King e BYD Song Pro, produzidos nacionalmente, terão isenção de IPI e ICMS para clientes de vendas diretas. Com descontos, a marca pretende ampliar sua participação no mercado de eletrificados no país. O alto valor dos veículos elétricos e híbridos ainda é uma barreira, apontam especialistas. (Trecho de reportagem de João Sorima Neto, publicada no jornal O Globo, em 17/10/2025, destaques não originais). Agora, decidiu concretizar esse desejo e precisa formalizar o pedido de isenção do IPI perante a Secretaria da Receita Federal do Brasil. Nesse contexto, dentre as ações e requisitos necessários para obter a isenção, assinale a afirmativa incorreta .",
+   "gabarito": "b",
+   "alternativas": [
+    "Fábio deverá fazer o requerimento de forma eletrônica, diretamente no Sistema de Concessão Eletrônica de Isenção de IPI e IOF (Sisen).",
+    "Caso a compra não seja feita por financiamento bancário, Fábio precisará comprovar possuir recursos financeiros ou patrimoniais compatíveis com o valor do veículo a ser comprado.",
+    "Para comprovar sua profissão, Fábio precisa apresentar sua Carteira Nacional de Habilitação (CNH), onde deverá constar a informação de que ele exerce atividade remunerada de taxista.",
+    "A decisão acerca do deferimento ou indeferimento do pedido será proferida por meio de despacho eletrônico diretamente no SISEN e, para consultar o resultado do requerimento, Fábio deverá acessar referido sistema.",
+    "Caso o requerimento seja indeferido, Fábio poderá apresentar recurso, diretamente no Sisen ou de forma presencial em qualquer unidade de atendimento da Receita Federal do Brasil, no prazo de 30 dias."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-020",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Veja a seguir o trecho de uma reportagem publicada no jornal Valor Econômico, em 17/10/2025. “Gastos tributários avançam e devem ir a 7,1% do PIB em 2026 Contas públicas FGV Ibre projeta alta de 0,65 ponto percentual na soma das renúncias de União e Estados; total para o ano que vem supera R$ 950 bi Os gastos tributários federais e estaduais vêm crescendo. No total de União e Estados, esses gastos devem somar R$ 954,73 bilhões em 2026, equivalente a 7,1% do Produto Interno Bruto (PIB), 0,6 ponto percentual (p.p.) a mais do que devem alcançar em 2025. Em 2017 correspondiam a 5,5% do PIB. A parcela da União é maior, mas o avanço como proporção do PIB tem ritmo mais forte nos Estados. Os gastos tributários federais devem subir de 4,4% para 4,6% do PIB de 2017 a 2026, em acréscimo de 0,2 p.p. A parte dos Estados, com Distrito Federal, deve subir de 1,1% para 2,5% do PIB, alta de 1,4 p.p. Gastos tributários são políticas públicas que trazem renúncias fiscais relativas a grupos específicos que se beneficiam de tratamento diferenciado do sistema tributário padrão, de referência.” Trecho de reportagem de Marta Watanabe, publicada no jornal Valor Econômico, em 17/10/2025. No atual cenário econômico, os valores “gastos” pelo governo a título de renúncias fiscais têm ganhado bastante destaque na imprensa. Essas renúncias, em sua grande maioria, são oriundas da concessão de benefícios fiscais. Sobre benefícios fiscais, assinale a afirmativa correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Quando um novo benefício fiscal é criado pelo governo, é necessário avaliar qual será o impacto orçamentário- financeiro esperado. Porém, esta avaliação não é exigida nos casos de prorrogação de prazo ou ampliação do benefício.",
+    "Uma vez concedido o benefício fiscal, o contribuinte não precisa cumprir nenhum requisito ou exigência para manter a sua fruição.",
+    "O regime especial de tributação é uma forma diferenciada de tributação aplicada a determinado setor ou atividade empresarial, mas não possui qualquer relação com a fruição de benefício fiscal ou redução de carga tributária.",
+    "São requisitos comuns à maioria dos benefícios fiscais: a sua escrituração na ECF; a manutenção da regularidade fiscal e o cumprimento das obrigações acessórias.",
+    "Os benefícios fiscais podem ser concedidos por lei genérica, por decreto e por medida provisória."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-021",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Consoante disposto no Art. 113, §§ 2o e 3o, do CTN, a obrigação acessória tem como finalidade as prestações previstas na legislação tributária, no interesse da arrecadação ou da fiscalização. A sua inobservância faz com que a obrigação acessória se converta em obrigação principal relativamente à penalidade pecuniária. Neste contexto, avalie as afirmativa a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) As obrigações acessórias podem ser classificadas em obrigações acessórias constitutivas de crédito tributário, informações econômico-fiscais e prestações obrigatórias. ( ) É por meio das obrigações acessórias constitutivas de crédito tributário, como por exemplo o e-Social, a ECF e a EFD- Contribuições, que o contribuinte confessa os valores devidos e informa a(s) forma(s) de extinção do crédito tributário. ( ) As prestações obrigatórias referem-se, normalmente, à antecipação de tributos. São exemplos o pagamento do carnê- leão, para pessoas físicas, e o pagamento das estimativas de IRPJ e CSLL, para as pessoas jurídicas. Está correto o que se afirma em",
+   "gabarito": "a",
+   "alternativas": [
+    "F – V – F.",
+    "V – F – V.",
+    "F – F – V.",
+    "V – V – F.",
+    "V – F – F."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-022",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "As garantias do crédito tributário consistem em um conjunto de instrumentos jurídicos e prerrogativas que visam assegurar ao Fisco o recebimento dos tributos devidos pelos contribuintes. Esses mecanismos funcionam como formas de proteção que reforçam a posição do Estado na relação com o devedor, reduzindo o risco de inadimplência e garantindo a arrecadação dos recursos públicos. Uma das medidas mais efetivas para garantir a arrecadação é a responsabilização tributária. A esse respeito, assinale a afirmativa incorreta .",
+   "gabarito": "d",
+   "alternativas": [
+    "As empresas que integram grupo econômico respondem solidariamente pelas obrigações relativas à seguridade social: CSLL, PIS, Cofins e retenções previdenciárias. Portanto, na falta de recolhimento destes tributos pelo devedor principal, todas as empresas que integram o grupo econômico podem ser responsabilizadas.",
+    "Quando uma empresa deixa de funcionar no seu domicílio fiscal, sem comunicação aos órgãos competentes, há a presunção de dissolução irregular, o que legitima o redirecionamento da execução fiscal ao sócio-gerente, de acordo com entendimento sumulado pelo STJ (Súmula 435 do STJ).",
+    "A prática de atos em que ocorra infração à lei ou ao contrato social permite a responsabilização dos administradores da pessoa jurídica ou dos responsáveis por ela. Trata-se de responsabilidade pessoal ao agente.",
+    "No caso de incorporação de pessoa jurídica, cabe à pessoa jurídica sucessora a responsabilidade pelo pagamento dos tributos devidos até o momento da incorporação.",
+    "A responsabilização tributária aplica-se apenas para tributos devidos por pessoas jurídicas, inexistindo responsabilidade por sucessão no caso de pessoas naturais."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-023",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "O ressarcimento é um dos direitos creditórios de maior impacto. Isso porque seus volumes são significativos. Esse direito creditório relaciona-se com políticas de incentivo à exportação, ao incentivo de cadeia produtivas e a outras políticas públicas no Brasil. Sobre esse direito creditório, assinale a afirmativa correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "O ressarcimento ocorre do pagamento a maior de retenção na fonte. A partir desse recolhimento, ele surge para o beneficiário desse pagamento – e não para quem efetivamente realizou o pagamento da retenção na fonte.",
+    "O ressarcimento é a devolução de créditos presumidos, cujos valores ultrapassam os tributos apurados relacionados a esses créditos.",
+    "O ressarcimento e a restituição são conceitos iguais aplicados a tributos diferentes. O primeiro aborda PIS e Cofins; o segundo, IRPJ e CSLL.",
+    "A diferença entre ressarcimento e restituição é formal/operacional. O primeiro só pode ser utilizado na forma de compensação. O segundo pode ser compensado ou pago ao solicitante.",
+    "Quando pessoas físicas apuram ressarcimento, elas só podem solicitar tais valores na forma de devolução do dinheiro; e não na forma de compensação."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-024",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "A restituição, o ressarcimento e o reembolso são formas de direito creditório. A despeito de serem usualmente tratadas como sinônimos, há pequenas diferenças entre esses direitos creditórios. Sobre a característica desses direitos, assinale a afirmativa correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "O reembolso é direito creditório tipicamente de origem previdenciária. Ele surge do pagamento de benefícios sociais, como o auxílio-doença e o salário-maternidade.",
+    "O reembolso é o equivalente ao ressarcimento, em crédito previdenciário. Ele surge de um crédito presumido, todavia, relativo a tributos previdenciários; já o ressarcimento surge de créditos presumidos de PIS e Cofins, por exemplo.",
+    "Não há declaração de compensação cujo fundamento é um crédito de reembolso.",
+    "Tanto pessoas físicas quanto jurídicas podem apurar reembolso. A diferença é que as empresas podem utilizá-lo de declaração de compensação. Já as pessoas físicas não podem.",
+    "Atualmente, um mesmo Darf pode recolher mais de um tributo. Esses tributos podem ser previdenciários ou não previdenciários. Desse modo, atualmente, um mesmo Darf pode originar um ressarcimento e uma restituição."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-025",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca dos efeitos, da homologação e do processamento da compensação de créditos tributários no âmbito administrativo, assinale a afirmativa correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "A compensação é forma de suspensão do crédito tributário. Assim, uma vez compensado um débito, ele fica inexigível até análise da Receita Federal.",
+    "A compensação não homologada pela Receita Federal pode ser objeto de discussão administrativa. Enquanto essa discussão ocorre, o débito pode ser exigido da empresa ou cidadão.",
+    "As compensações têm três resultados possíveis. Elas podem ser homologadas, não homologadas ou não declaradas. A primeira é aquela analisada pela Receita Federal e deferida; a segunda, é aquela não analisada pela Receita; a terceira é aquela analisada e indeferida.",
+    "As declarações de compensação são sempre eletrônicas. Quando elas se realizam de maneira não eletrônica (em formulário), são consideradas não declaradas.",
+    "Uma vez iniciado o processo administrativo fiscal (PAF), não há que se falar em cobrança dos débitos em discussão até o fim do PAF."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-026",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "O sistema Per/Dcomp tem mais de 20 anos. Trata-se de um aplicativo em aprimoramento, que recebe evoluções com frequência. A despeito disso, há situações em que não é possível o pedido de forma eletrônica. Algumas dessas situações são, inclusive, previstas em norma. A esse respeito, assinale a afirmativa incorreta .",
+   "gabarito": "c",
+   "alternativas": [
+    "Não é possível prever todas as situações excepcionais; dessa forma, em caso de pedido feito em formulário sob alegação de falha do sistema Per/Dcomp, cabe ao contribuinte comprovar a falha.",
+    "Com alguma frequência, um pedido de restituição que deveria ser realizado de forma eletrônica é apresentado em formulário ou por algum requerimento à mão; nessas situações, o indeferimento do pedido é sumário.",
+    "Com alguma frequência, um pedido de compensação que deveria ser realizado de forma eletrônica é apresentado em formulário ou por algum requerimento à mão; nessas situações, a compensação é considerada não declarada.",
+    "O indeferimento sumário e a não declaração podem ser objeto de recurso; todavia, trata-se de recurso hierárquico, cujo prazo de contestação é de 10 dias a partir da ciência do contribuinte.",
+    "O recurso hierárquico não é enviado à DRJ (delegacia da Receita Federal de julgamento), mas apreciado pelo superior hierárquico de quem decidiu sobre o pedido objeto do recurso."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-027",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação ao Cadastro de Pessoas Físicas (CPF) assinale a afirmativa incorreta .",
+   "gabarito": "b",
+   "alternativas": [
+    "No exercício em que for realizada a inscrição no CPF, a situação cadastral será regular. Já nos exercícios seguintes, para as pessoas físicas obrigadas à entrega de DIRPF, a situação regular apenas será mantida se a referida declaração for entregue. Caso não ocorra a entrega, a situação cadastral será automaticamente alterada para “Suspensa”.",
+    "Foi criado por meio da Lei no 4.862/1965 com o objetivo de que a administração tributária nacional pudesse coletar as informações das Pessoas Físicas que eram obrigadas a apresentar a declaração de rendimentos e bens, ou seja, servia para identificar os contribuintes do Imposto de Renda.",
+    "Com o passar do tempo, porém, o CPF ganhou uma importância muito maior; hoje, é utilizado em várias atividades cotidianas, por exemplo, nas atividades financeiras – abertura de contas, solicitação de empréstimos e financiamentos, solicitação de cartão de crédito – , bem como nos cadastros governamentais para acesso a serviços públicos, tais como saúde, educação e previdência social.",
+    "Qualquer pessoa física, mesmo que não obrigada, pode solicitar a sua inscrição.",
+    "A relação das pessoas obrigadas a se inscrever no CPF consta no Art. 32 do Decreto no 9.723/2019, e no art. 2o da Instrução Normativa RFB no 1.548/2015. De forma bem resumida, pode- se dizer que estão obrigadas a se inscrever no CPF as pessoas físicas, brasileiras ou estrangeiras, não residentes no Brasil ou residentes no Brasil que possuam bens e direitos sujeitos a registro público no Brasil, inclusive imóveis; veículos; embarcações; aeronaves; contas-correntes bancárias; aplicações em mercado financeiro; e aplicações em mercado de capital."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-028",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 2,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Globo - 16/10/2025 Operação da Receita de SP mira empresas que emitiam notas 'frias' para vender bebidas a bares Agentes fiscais procuram ligações entre fornecedores e bares onde vítimas foram intoxicadas com metanol O governo de São Paulo, por meio da Secretaria da Fazenda e Planejamento, realizou nesta quinta-feira (16) uma operação em estabelecimentos ligados a casos de intoxicação por metanol. Após investigação da pasta, em conjunto com a Polícia Civil, os agentes procuraram a ligação entre um dos fornecedores de bebidas e dois bares onde foram constatadas vítimas de intoxicação após o consumo de produtos adulterados. Na ação, intitulada \"Gota a gota\", foram fiscalizadas dez empresas na capital e na Região Metropolitana. Em oito locais, as firmas não foram encontradas nos endereços declarados ao fisco, o que é um indício que as notas emitidas para estes estabelecimentos são “frias”. Por isso, as oito empresas terão inscrições estaduais suspensas. Nos locais, a fiscalização identificou diversas mudanças de endereços e de razões sociais entre contribuintes, o que sugere indícios de grupos e redes coligadas de atuação no setor de bebidas destiladas. Num só endereço, eram cinco empresas. Chamou a atenção que uma delas pediu alteração de razão social e alteração de endereços na semana passada após infelizmente os fatos ocorridos. O dia de hoje é importante porque foi encontrado um fornecedor que segue um caminho de documentos fiscais que chegam aos dois bares que já tiveram, infelizmente, casos de contaminação – informou o auditor fiscal Marcio Araújo, responsável pela operação. Por Sérgio Quintella — São Paulo – 16/10/2025 14h46 Baseado na reportagem acima, acerca do Cadastro Nacional da Pessoa Jurídica (CNPJ), assinale a afirmativa correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "A suspensão das inscrições estaduais é considerada uma alteração cadastral de ofício perante CNPJ",
+    "Verificada a divergência entre dado cadastral informado no CNPJ e dado registrado em ato constitutivo, alterador ou extintivo, a alteração cadastral no CNPJ deve ser realizada de ofício.",
+    "O/A Auditor (a) Fiscal da Receita Federal do Brasil não tem competência para prática de atos de ofício perante o CNPJ.",
+    "As cinco empresas no mesmo endereço poderão ser canceladas por multiplicidade",
+    "As empresas que tiverem a situação cadastral enquadrada como suspensa perante o CNPJ, não poderão retornar à condição de ativa perante o CNPJ."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-029",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Se você estivesse diante do desafio de integrar as aduanas de diversos países em um modelo federativo de compartilhamento de dados e decidisse adotar o mesmo paradigma tecnológico utilizado no projeto bCONNECT do MERCOSUL, você sugeriria a seguinte tecnologia:",
+   "gabarito": "c",
+   "alternativas": [
+    "ExcriptoChain",
+    "LavoisierChain",
+    "Blockchain",
+    "TecnologiaChain",
+    "InovationChain"
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-030",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Quando você é questionado sobre o funcionamento da tecnologia de assinatura digital de documentos, baseada no paradigma de par de chaves, sobre o significado da expressão “par de chaves”, é correto afirmar que corresponde a uma",
+   "gabarito": "d",
+   "alternativas": [
+    "chave Estrangeira e uma primária",
+    "chave Americana e uma do Mercosul",
+    "chave Liberada e a uma Bloqueada",
+    "chave Público e uma Privada",
+    "chave do Sul e uma do Norte"
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-031",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "A tecnologia de assinatura digital de documentos e a criptografia utilizadas em diversos projetos da Receita Federal do Brasil (RFB) baseiam- se no conceito de “par de chaves”. Nesse contexto, o nome da chave que forma par com a chave privada é a Chave",
+   "gabarito": "b",
+   "alternativas": [
+    "Mercosul.",
+    "Republicana.",
+    "Carioca.",
+    "Pública.",
+    "Americana."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-032",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que associa corretamente as expressões força bruta , inteligência e íris apresentadas durante o curso.",
+   "gabarito": "b",
+   "alternativas": [
+    "O projeto Íris da RFB usou a força bruta para solucionar o excesso de inteligência.",
+    "O projeto Íris da RFB usou inteligência em contraponto a técnica de força bruta.",
+    "Iris e Força Bruta são nomes de galáxias usadas para batizar as duas últimas ações de inteligência da RFB.",
+    "Força bruta é a solução adequada para ler a Íris de animais domésticos e calcular a sua inteligência e, portanto, a sua adequação ao trabalho de localização de drogas.",
+    "Força bruta e força mole são técnicas de inteligência usadas para identificar, pela íris humana, pessoas mal-intencionadas."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-033",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que indica a tecnologia utilizada pela Receita Federal do Brasil (RFB) que se caracteriza por adotar os paradigmas peer-to-peer , registrar informações de forma imutável (“gravar dados em pedra”), utilizar smart contracts e funcionar como um banco de dados distribuído.",
+   "gabarito": "c",
+   "alternativas": [
+    "Computação Quântica.",
+    "Computação em nuvem.",
+    "Blockchain.",
+    "Starlink.",
+    "Redes Sociais."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-035",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sobre a história do Analytics na RFB, avalie as afirmativas a seguir. I. Os trabalhos de seleção interna eram realizados sem esforço, considerando que os sistemas se comunicavam diretamente. II. Para se extrair dados de diferentes sistemas e realizar os cruzamentos de dados, não se exigia muito trabalho manual. III. O data warehouse não é apenas um grande banco de dados, mas, sim, um ambiente que inclui um processo por meio do qual dados são coletados de diferentes origens. Está correto o que se afirma em",
+   "gabarito": "c",
+   "alternativas": [
+    "I, apenas.",
+    "II, apenas.",
+    "III, apenas.",
+    "I e II, apenas.",
+    "II e III, apenas."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-036",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do Data Warehouse Corporativo (DW), avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) O DW é um ambiente que inclui um processo por meio do qual dados são coletados para apoiar as análises e o processo de tomada de decisão para o planejamento estratégico de diferentes divisões dentro da organização. ( ) O DW não permite que cada usuário construa e compartilhe seus relatórios de forma flexível, juntando dados de diferentes fontes. ( ) O DW armazena dados detalhados de contabilidade e notas fiscais. As afirmativas são, respetivamente,",
+   "gabarito": "e",
+   "alternativas": [
+    "V – F – F.",
+    "V – F – V.",
+    "F – F – V.",
+    "V – V – F.",
+    "F – V – F."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-037",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do ContÁgil, assinale a afirmativa correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Suas funcionalidades se aplicavam exclusivamente à fiscalização.",
+    "Embora fosse capaz de armazenar as informações, não conseguia cruzá-las entre si.",
+    "Tornava possível visualizar graficamente, por meio do chamado “Gráfico de Fluxos Contábeis”, as movimentações que havia entre todas as contas, utilizando algoritmos que reorganizavam os dados de uma forma mais adequada.",
+    "Era capaz de receber e tratar com agilidade dados de contabilidade; mas não de notas fiscais e folha de pagamentos.",
+    "Foi construído por um pool de empresas contratadas em licitação."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-038",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sobre o ambiente de Analytics na Receita Federal, avalie as afirmativas a seguir. I. A infraestrutura tecnológica por trás do DW não estava dimensionada para disponibilizar o grande volume de dados do Sped em todos os detalhes. II. Colocado em produção em 2018, baseado na tecnologia Hadoop , o Receita Data tornou-se o principal ambiente para análise e cruzamento de dados na Receita Federal. III. O Receita Data consiste em um cluster de centenas de máquinas, com elevada capacidade de memória, CPU e discos. Está correto o que se afirma em",
+   "gabarito": "c",
+   "alternativas": [
+    "I, apenas.",
+    "II, apenas.",
+    "I e II, apenas.",
+    "II e III, apenas.",
+    "I, II e III."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-039",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação aos aspectos gerais do sigilo fiscal, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) Entre as exceções ao sigilo fiscal, está a requisição de autoridade legislativa, no interesse do Poder Legislativo. ( ) Com base o sigilo fiscal, é proibida a divulgação de dados prevista no § 3o do Art. 198 do Código Tributário Nacional (CTN) (representações fiscais para fins penais, inscrições na dívida pública, parcelamento ou moratória, e incentivo, renúncia, benefício ou imunidade de natureza tributária cujo beneficiário seja pessoa jurídica). ( ) A permuta de informações entre a Fazenda Pública da União e os Estados estrangeiros, desde que prevista em tratados, acordos ou convênios, configura uma exceção ao sigilo fiscal. As afirmativas são, respectivamente,",
+   "gabarito": "a",
+   "alternativas": [
+    "F – V – V.",
+    "V – F – V.",
+    "F – F – V.",
+    "V – V – F.",
+    "V – V – F."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-040",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do sigilo fiscal e das suas exceções, assinale a afirmativa incorreta .",
+   "gabarito": "c",
+   "alternativas": [
+    "Quando houver previsão em convênio firmado entre a RFB e outra administração tributária de entes públicos estaduais, municipais e do Distrito Federal, e atendidos os requisitos estabelecidos no respectivo convênio, as Fazendas Públicas deverão prestar assistência mútua e permutar dados para auxiliar na fiscalização dos respectivos tributos.",
+    "Caso o sujeito passivo seja casado, é necessário informar os dados protegidos por sigilo fiscal da unidade familiar para a autoridade administrativa solicitante.",
+    "Também se configura exceção ao sigilo fiscal a possibilidade de permutar informações com Estados estrangeiros, no interesse da arrecadação e fiscalização de tributos, com base no estabelecido em tratados, acordos e convênios.",
+    "Caso a solicitação de autoridade administrativa, no interesse da Administração Pública, se referir a processo de investigação de infração de natureza penal, não é possível fornecer dados protegidos por sigilo fiscal.",
+    "Não cabe à Receita Federal analisar se a motivação da requisição judiciária é no interesse da Justiça."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-041",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "A respeito das situações específicas de exceção ao sigilo fiscal, assinale a afirmativa correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A Receita Federal do Brasil (RFB) deve fornecer informações sujeitas ao sigilo fiscal à Controladoria Geral da União (CGU) para o desempenho de atribuições institucionais pelo referido órgão, exceto operações financeiras previstas no art. 6o da Lei Complementar no 105, de 2001.",
+    "Quando da instauração de Comissão Parlamentar Mista de Inquérito (CPMI) ou Comissão Parlamentar de Inquérito (CPI), estas comissões são revestidas de poderes de investigação das autoridades policiais e administrativas, no interesse da Administração Pública.",
+    "O Ministério Público Eleitoral possui competência para requisitar informações protegidas pelo sigilo fiscal, com base na Lei Complementar no 75, de 1993.",
+    "A Defensoria Pública da União pode ter acesso a dados protegidos pelo sigilo fiscal em todos os processos em que atuar.",
+    "A Receita Federal do Brasil (RFB) deve fornecer de forma ampla dados solicitados pela Advocacia-Geral da União (AGU), pois este órgão busca a defesa da Administração Pública."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-042",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação às consequências da inobservância ao sigilo fiscal, assinale a afirmativa correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "Somente há previsão de penalidades no âmbito penal quando da violação ao sigilo fiscal, não ao sigilo funcional.",
+    "A Lei no 8.112, de 1990, prevê penalidade de demissão quando for apurada revelação de segredo apropriado em razão do cargo.",
+    "A violação ao sigilo fiscal apenas pode ser punida no âmbito administrativo e penal.",
+    "É permitido o compartilhamento de senha para acesso a sistemas para despachantes aduaneiros, quando necessário para agilizar o andamento do trabalho.",
+    "A Lei no 8.112 de 1990 silencia quanto à previsão de penalidade por violação ao sigilo funcional. Sistema Público de Escriturações Digitais - SPED"
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-043",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sobre o eSocial, assinale a afirmativa incorreta .",
+   "gabarito": "b",
+   "alternativas": [
+    "Após o envio de todas as informações relativas a um movimento, o contribuinte declarante deve fechá-lo, utilizando-se do evento de fechamento.",
+    "Caso sejam necessárias retificações, exclusões ou envio de novos eventos referentes a um movimento já fechado, ele deve ser reaberto.",
+    "Podemos dizer que um conjunto de eventos periódicos referentes ao mesmo período de apuração corresponde a um “movimento”.",
+    "O fechamento do movimento sinaliza que o envio das informações relativas ao respectivo período de apuração foi finalizado.",
+    "O envio de eventos periódicos é permitido apenas se o movimento estiver com status fechado."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-044",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sobre a EFD-Contribuições, assinale a afirmativa correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "A EFD-Contribuições foi criada junto com o regime não cumulativo do PIS, em dezembro de 2002.",
+    "O IPI e o ICMS são os tributos apurados e escriturados na EFD- Contribuições.",
+    "Os optantes pelo Simples Nacional estão dispensados da EFD- Contribuições, relativamente aos períodos abrangidos por esse regime.",
+    "A EFD-Contribuições é administrada pela SEFAZ-RS.",
+    "Os arquivos da EFD-Contribuições têm periodicidade decendial."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-045",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação aos documentos fiscais do Sped , assinale a afirmativa correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Na NF-e de mercadorias há unificação nacional no quesito apuração e recolhimento.",
+    "A NF’s -e padrão nacional surgiu em 2006, juntamente com a NF-e.",
+    "Com a Emenda Constitucional no 132 de, 20 de dezembro de 2023, que deu ensejo à Reforma Tributária do Consumo (RTC) os atuais documentos fiscais continuarão sendo o meio de formalização das operações de consumo.",
+    "O CT-e não precisará passar por alterações em seu layout em razão da Reforma Tributária do Consumo (RTC).",
+    "Na NF-e ouro ativo financeiro, a receita federal do brasil foi a única responsável pela concepção, especificações e requisitos."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-046",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da E-Financeira, assinale a afirmativa incorreta .",
+   "gabarito": "e",
+   "alternativas": [
+    "Acordos internacionais fomentaram a criação da e-Financeira.",
+    "A e-Financeira não tem a finalidade de apuração de tributos.",
+    "Na e-Financeira, há eventos de tabela, periódicos, de abertura e de fechamento.",
+    "O modelo de eventos adotado pela e-Financeira é semelhante ao adotado pelo eSocial e pelo EFD-Reinf.",
+    "Transferência entre contas de mesma titularidade não precisam ser identificadas na e-Financeira."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-047",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação à Escrituração Contábil Digital (ECD), avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) A pessoa jurídica dispensada de apresentar a ECD pela Instrução Normativa RFB no 2.003/21, mas que apresentá-la de forma facultativa, não está sujeita a multas por não apresentação da ECD nos prazos fixados. ( ) Todas as pessoas jurídicas obrigadas a manter escrituração contábil nos termos da legislação comercial, inclusive as equiparadas, as imunes, as isentas, os órgãos públicos, as autarquias e as fundações públicas deverão apresentar a ECD. ( ) O arquivo digital da ECD é constituído de blocos, referindo-se cada um deles a um agrupamento de diversas informações e registros. Cada bloco possui um conjunto de registros e cada registro possui um conjunto de campos. As afirmativas são, respectivamente,",
+   "gabarito": "e",
+   "alternativas": [
+    "V – V – F.",
+    "V – F – V.",
+    "V – F – F.",
+    "F – V – V.",
+    "F – V – F."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-048",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação à Escrituração Fiscal Contábil (ECF), assinale a afirmativa correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Deve ser entregue de forma centralizada pela matriz, sendo uma ECF para cada estabelecimento da pessoa jurídica.",
+    "Entre as funcionalidades do Programa Validador da ECF está a recuperação das informações das ECD dos últimos 5 (cinco) anos-calendário.",
+    "Para as pessoas jurídicas não obrigadas a entregar a ECD, a ECF deve conter todas as informações da ECF e da ECD.",
+    "A ECF contém informações econômicas e gerais das pessoas jurídicas, além da Declaração País-a-País (Country By Country Report) e da Demonstração Sobre a Utilização de Recursos em Moeda Estrangeira Decorrente do Recebimento de Exportações (Derex).",
+    "A ECF foi criada para a apuração do Imposto sobre a Renda da Pessoa Jurídica (IRPJ), da Contribuição Social sobre o Lucro Líquido (CSLL), da Contribuição para o PIS/Pasep e da Cofins."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-049",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Escrituração Fiscal Digital ICMS/IPI (EFD-ICMS/IPI) é uma obrigação acessória integrante do Sistema Público de Escrituração Digital (Sped). Sobre essa escrituração, assinale a afirmativa correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "A EFD-ICMS/IPI deve ser entregue trimestralmente, até o último dia útil do mês subsequente ao trimestre de apuração.",
+    "A EFD-ICMS/IPI substitui a escrituração e impressão dos livros Registro de Entradas, Registro de Saídas, Registro de Inventário, Registro de Apuração do ICMS e do IPI, Livro CIAP e Livro Registro de Controle da Produção e do Estoque.",
+    "A obrigatoriedade da EFD-ICMS/IPI está vinculada à forma de constituição da empresa, sendo dispensadas as sociedades limitadas.",
+    "O prazo geral para entrega da EFD-ICMS/IPI é definido pela Receita Federal do Brasil, sendo até o décimo dia útil do mês subsequente ao encerramento do mês da apuração.",
+    "A recepção do arquivo digital da EFD-ICMS/IPI implica automaticamente a homologação das apurações dos impostos efetuadas pelo contribuinte."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-050",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sobre a EFD-Reinf, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) A EFD-Reinf é utilizada para informar retenções na fonte de IR, CSLL, Cofins e PIS/Pasep, além de contribuições previdenciárias não relacionadas à folha de pagamento. ( ) A periodicidade da EFD-Reinf é mensal, com exceção do evento relativo à Contribuição Previdenciária sobre Receita de Espetáculos Desportivos, que deve ser informada até o segundo dia útil após a realização dos espetáculos. ( ) O envio da EFD-Reinf dispensa a utilização de certificado digital, bastando login no e-CAC. As afirmativas são, respectivamente,",
+   "gabarito": "e",
+   "alternativas": [
+    "V – V – F.",
+    "F – F – V.",
+    "V – F – F.",
+    "F – V – F.",
+    "V – F – V."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-051",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sobre as fontes de direito tributário, assinale a afirmativa correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "As fontes formais são os próprios fatos da vida social.",
+    "As fontes materiais são as formas assumidas pelas normas jurídicas.",
+    "A legislação tributária, tal qual estabelecida pelo artigo 96 do CTN, abrange somente as regras constitucionais previstas na Constituição.",
+    "As propostas de emenda constitucional podem alterar todo e qualquer aspecto da Constituição em que o legislador constitucional entenda necessária alteração.",
+    "Não será objeto de deliberação a proposta de emenda constitucional tendente a abolir a forma federativa de Estado."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-052",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sobre o lançamento do crédito tributário, assinale a afirmativa correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Nos termos do artigo 142 do CTN, compete privativamente à autoridade administrativa constituir o crédito tributário pelo lançamento.",
+    "O CTN prevê as seguintes modalidades de lançamento: de ofício, por declaração ou em virtude de acordo entre as partes.",
+    "O lançamento por homologação é aquele efetuado com base na declaração do sujeito passivo ou de terceiro.",
+    "O lançamento por homologação prevê a obrigatoriedade da homologação expressa pela autoridade administrativa, sem a qual o lançamento é nulo de pleno direito.",
+    "O lançamento de ofício é aquele originado de confissão de dívida constituída a partir da declaração do contribuinte."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-053",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca dos princípios relativos ao processo administrativo fiscal, assinale a opção que apresenta o conceito correto.",
+   "gabarito": "d",
+   "alternativas": [
+    "Contraditório e ampla defesa – somente aplicado na esfera judicial, tendo em vista que a esfera administrativa exige celeridade e eficiência .",
+    "Verdade material – o processo tem que ser impulsionado de ofício até a sua conclusão .",
+    "Informalidade – é o princípio que determina o desapego às formalidades excessivas e complexos ritos processuais, sem prejuízo à regular constituição e segurança jurídica dos atos que compõem o processo .",
+    "Unidade de jurisdição – as decisões administrativas são definitivas para os contribuintes que dela fizerem parte .",
+    "Celeridade processual – é vinculado ao princípio da oficialidade, significando que a Administração deve tomar decisões com base nos fatos como se apresentam na realidade ."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-054",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da comunicação dos atos processuais, assinale a afirmativa incorreta .",
+   "gabarito": "d",
+   "alternativas": [
+    "A intimação pessoal é realizada pelo autor do procedimento ou servidor do órgão preparador, provada com a assinatura do sujeito passivo, do seu mandatário ou preposto.",
+    "A ordem de preferência para utilização dos meios de intimação prevê a obrigatoriedade da utilização da intimação pessoal antes de qualquer outra no processo, sob pena de nulidade do procedimento.",
+    "A intimação por via postal é confirmada pela assinatura do recebedor da correspondência no seu domicílio tributário, ainda que não seja o representante legal do destinatário.",
+    "A intimação por edital somente pode ser utilizada quando resultar improfícua a intimação por uma das formas previstas de intimação, quais sejam, a pessoal, a postal ou a eletrônica.",
+    "O edital pode ser publicado no endereço da administração tributária na internet."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-055",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da contagem dos prazos no processo administrativo, assinale a afirmativa correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "É realizada em dias úteis.",
+    "Será incluído o dia de início na contagem e excluído o dia do vencimento.",
+    "Os prazos sempre se iniciam no dia de início, mesmo que este dia não for um dia de expediente normal na repartição pública.",
+    "Os prazos só se iniciam ou vencem em dia de expediente normal no órgão em que corra o processo ou deva ser praticado o ato.",
+    "O prazo de contagem pode ser interrompido após a contagem em caso da ocorrência de feriado municipal, estadual ou federal."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-056",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "A empresa Alfa foi intimada de auto de infração pessoalmente, por meio do seu representante legal, no dia 6 de janeiro de 2025, dia de expediente normal na Delegacia da Receita Federal de Porto Alegre. A delegacia funcionou normalmente em todos os dias úteis nos meses de janeiro e fevereiro. Nesse caso, a data final para apresentação da impugnação ao lançamento é dia",
+   "gabarito": "c",
+   "alternativas": [
+    "4 de fevereiro, terça-feira.",
+    "21 de janeiro, terça-feira.",
+    "20 de janeiro, segunda-feira.",
+    "5 de fevereiro, quarta-feira.",
+    "6 de fevereiro, quinta-feira."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-057",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sobre o início do procedimento fiscal, assinale a afirmativa correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Inicia-se pelo primeiro ato escrito praticado por qualquer servidor integrante da administração tributária federal.",
+    "Inicia-se pelo começo do despacho aduaneiro de mercadoria importada.",
+    "A exclusão da espontaneidade somente ocorrerá se lavrado o respectivo auto de infração.",
+    "A exclusão da espontaneidade se aplica somente aos atos posteriores ao termo de início de fiscalização.",
+    "Os efeitos da exclusão de espontaneidade se estendem pelo prazo de 180 dias contados do início do procedimento fiscal."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-058",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sobre a formalização da exigência fiscal, assinale a afirmativa correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "A qualificação do autuado e a descrição dos fatos são dois dos requisitos mínimos exigidos para a formalização do auto de infração.",
+    "A determinação da exigência e o prazo de 10 dias para apresentação da impugnação são requisitos mínimos para formalização do auto de infração.",
+    "Qualquer servidor pode lavrar auto de infração em caso de urgência ou necessidade da repartição mediante portaria do seu delegado.",
+    "O despacho aduaneiro deve ser precedido de autorização expressa da fiscalização para dar início ao procedimento fiscal.",
+    "A competência para a expedição da notificação de lançamento é exclusiva do secretário da Receita Federal no exercício do cargo."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-059",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sobre o contencioso administrativo, assinale a afirmativa incorreta .",
+   "gabarito": "a",
+   "alternativas": [
+    "A decisão monocrática de primeira instância é proferida por integrante das turmas ordinárias das DRJs, desde que o lançamento fiscal ou controvérsia não supere 60 salários- mínimos.",
+    "A decisão de segunda instância é proferida pelas turmas recursais da DRJ-R, desde que o lançamento fiscal ou controvérsia não supere 60 salários-mínimos.",
+    "A decisão de primeira instância para os processos cujo valor supere os 60 salários-mínimos é monocrática, de auditor-fiscal integrante das turmas da DRJ.",
+    "A decisão de segunda instância para os processos cujo valor supere os 60 salários-mínimos é do Carf.",
+    "A decisão de instância especial é da Câmara Superior de Recursos Fiscais para processos cujo valor supere os 60 salários-mínimos."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-auditor-fiscal-060",
+   "prova": 0,
+   "orgao": 0,
+   "cargo": 0,
+   "ano": 2025,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sobre o processo de consulta, assinale a afirmativa correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "O processo de consulta pode ser formulado verbalmente, no contato com o fiscal de plantão na administração tributária.",
+    "Somente o sujeito passivo pode formular consultas à administração tributária.",
+    "Se o resultado da consulta implicar pagamento, este deve ser efetuado no prazo de 5 dias para resguardar o contribuinte da aplicação de penalidades.",
+    "As decisões da Cosit em solução de consulta valem somente para a parte formuladora, não vinculando os demais órgãos da RFB.",
+    "A consulta será solucionada em instância única."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-001",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Ao longo do tempo, observaram-se alterações no papel e na missão das Aduanas, que evoluíram em função das transformações no comércio e nas sociedades. Com relação à evolução das aduanas e sua missão, assim como sua importância no futuro do comércio exterior, assinale a afirmativa correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A redução paulatina de alíquotas nas sucessivas rodadas de negociações multilaterais do GATT, a partir da metade do século passado, fez com que os tributos aduaneiros tivessem cada vez menos importância na arrecadação da maioria dos países, dando-se maior relevância a temas não tarifários, que afetam as operações de comércio exterior.",
+    "O documento Customs in the 21st Century: Enhancing Growth and Development through Trade Facilitation and Border Security , da OMA, esclarece que a missão das Aduanas, mundialmente aceita, é a de desenvolver e implementar um conjunto de políticas e procedimentos que promovam o aumento do volume de comércio entre nações.",
+    "Cada país aloca a Aduana em distintos órgãos e ministérios, de acordo com sua política governamental e administrativa, sendo que, em alguns países, como os Estados Unidos, o Canadá, a China e a Austrália, a segurança nacional e proteção de fronteiras possui alta relevância, o que acarreta que as Aduanas atuem vinculadas a Ministérios da Justiça, Interior ou Segurança Nacional, fusionadas ao controle de imigração.",
+    "Há um núcleo comum, nos diversos países do mundo que adotam diferentes modelos de estrutura organizacional das Aduanas, uma vez que há, primordialmente, a preocupação com o aumento do comércio internacional e, em consequência, com o aumento da receita gerada pela cobrança de direitos de importação e exportação, os quais ainda representam substancial parte da arrecadação em vários países membros da OMA.",
+    "De acordo com a OMA, o futuro das Aduanas dependerá das iniciativas tomadas e da liderança das Aduanas nas medidas de fronteira, em um mundo cada vez mais complexo, sendo elementos-chave a capacidade de negociação entre órgãos da Aduana e o Setor Privado, e entre as Aduanas e Operadores Econômicos Autorizados, exatamente os dois pilares do Marco SAFE."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-002",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em 2012, o Ministério da Fazenda, que tem a atribuição constitucional para a fiscalização e controle do comércio exterior, essenciais à defesa dos interesses fazendários nacionais, publicou o documento Visão de Futuro para a Aduana Brasileira . De acordo com esse documento, as funções da Aduana podem ser econômicas e não-econômicas, sendo correto afirmar que",
+   "gabarito": "a",
+   "alternativas": [
+    "entre as funções não-econômicas ressalta-se a aplicação de medidas de defesa comercial ( antidumping , salvaguardas, direitos compensatórios e controle de cotas).",
+    "as funções econômicas podem ser subdivididas, ainda, como medidas de defesa da segurança pública e do Estado e medidas de proteção da sociedade.",
+    "entre as funções econômicas encontra-se a manutenção do ambiente concorrencial, combatendo o descaminho, a informalidade, o subfaturamento e a pirataria.",
+    "a garantia da defesa dos direitos dos consumidores, e a observância às normas técnicas para comercialização de produtos são uma função não-econômica, de segurança pública e do Estado.",
+    "o combate à lavagem de dinheiro e à movimentação internacional de recursos do crime, realizada pelo controle da entrada de dinheiro no território nacional e de sua saída, são uma função econômica."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-003",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sobre a organização e estrutura da Aduana, na Secretaria Especial da Receita Federal do Brasil (RFB), assinale a afirmativa incorreta .",
+   "gabarito": "d",
+   "alternativas": [
+    "De acordo com o Regimento Interno da RFB, cabe à Subsecretaria de Administração Aduaneira (Suana), que é órgão máximo aduaneiro na estrutura da RFB, as funções de planejar, coordenar e supervisionar as atividades relativas à administração aduaneira, e de gerenciar as atividades relativas às operações aéreas desenvolvidas pela RFB.",
+    "Compete à Coordenação-Geral de Combate ao Contrabando e Descaminho (Corep) gerenciar as atividades relativas ao combate ao contrabando, ao descaminho, à contrafação, à pirataria, ao tráfico ilícito de entorpecentes e de drogas afins, ao tráfico internacional de armas de fogo e munições, à lavagem ou ocultação de bens, direitos e valores e a outros ilícitos aduaneiros.",
+    "A Subsecretaria de Administração Aduaneira (Suana) têm sob sua jurisdição três coordenações: a Coordenação-Geral de Administração Aduaneira (Coana) - que comporta duas coordenações de área, um Centro Nacional de Operadores Econômicos Autorizados e uma Seção de Assessoramento Técnico Aduaneiro - a Coordenação-Geral de Combate ao Contrabando e Descaminho (Corep) e a Coordenação Especial de Riscos Aduaneiros (Corad).",
+    "Além das unidades centrais aduaneiras, há ainda, regimentalmente, unidades descentralizadas aduaneiras, no âmbito das 10 Superintendências Regionais da RFB, sendo esta estrutura descentralizada composta por Divisões de Administração Aduaneira (Diana), Divisões de Vigilância e Repressão ao Contrabando e Descaminho (Direp) e unidades descentralizadas locais, com competência aduaneira, em Delegacias, Alfândegas e Inspetorias.",
+    "A Coordenação de Controle de Intervenientes no Comércio Exterior (Coint), faz parte da estrutura da Coordenação Especial de Riscos Aduaneiros (Corad) e tem por função gerenciar as atividades relativas ao controle das operações de importação, exportação e internação; ao controle de carga, de veículos e de trânsito aduaneiro; ao controle de regimes aduaneiros especiais; e ao controle de bens de viajantes."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-004",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Os processos de trabalho aduaneiro podem impactar significativamente o fluxo do comércio internacional. Na Secretaria Especial da Receita Federal do Brasil (RFB), os processos de trabalho podem ser exclusivamente aduaneiros ou podem ser processos comuns tanto à área aduaneira como à tributária. Porém, mesmo sendo processos comuns a ambas as áreas, existem especificidades aduaneiras em relação a eles. Assinale a opção que apresenta apenas processos de trabalho comuns às áreas aduaneira e tributária.",
+   "gabarito": "b",
+   "alternativas": [
+    "Autorizar intervenientes e formular atos normativos e interpretativos.",
+    "Capacitar e desenvolver pessoas e promover a ética institucional;",
+    "Realizar governança de TI e controlar processos de importação e exportação.",
+    "Controlar o cumprimento das obrigações acessórias e realizar a vigilância e repressão.",
+    "Controlar processos aduaneiros diferenciados e realizar pesquisa, seleção e gestão de riscos."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-005",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Tendo em vista as atividades de controle aduaneiro e de fiscalização aduaneira, avalie as afirmativas a seguir. I. A expressão controle aduaneiro não se refere, necessariamente, a uma efetiva ação fiscal, podendo abranger o acompanhamento ou o monitoramento, inclusive remoto. II. A fiscalização aduaneira tem por substrato as operações de comércio exterior, enquanto o controle aduaneiro é focado nos elementos que permeiam tais operações. III. A habilitação de pessoas para atuar no comércio exterior, na sua logística ou nos procedimentos aduaneiros é atividade de fiscalização aduaneira. Está correto o que se afirma em",
+   "gabarito": "a",
+   "alternativas": [
+    "I, apenas.",
+    "I e II, apenas.",
+    "III, apenas.",
+    "II e III, apenas.",
+    "I, II e III."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-006",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "No despacho aduaneiro todas as operações estão sujeitas a controles horizontais, sendo que tanto as importações como as exportações estão sujeitas a apresentação da carga em recinto alfandegado e são obrigatoriamente objeto de apresentação de declarações por parte dos importadores e exportadores por meio do (Siscomex). Com relação aos canais de conferência aduaneira, assinale a afirmativa correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "Em menos da metade das importações e das exportações, as verificações são efetuadas exclusivamente no Siscomex, com a liberação automática das mercadorias, no chamado canal verde de conferência aduaneira.",
+    "As ações da fiscalização podem se resumir a verificações documentais no canal amarelo, na exportação, ou no canal laranja, na importação.",
+    "As ações de fiscalização podem abranger operações mais complexas, de verificação da origem dos recursos aplicados no comércio exterior, combate à interposição fraudulenta e à lavagem de dinheiro, no canal vermelho, na importação, e no canal cinza, na exportação.",
+    "A fiscalização, no canal cinza, por ser a mais rigorosa, só pode ser efetuada em recinto alfandegado de zona secundária, e inclui a verificação física das mercadorias, documental e de origem dos recursos, assim como o combate à interposição fraudulenta e à lavagem de dinheiro.",
+    "As ações de fiscalização aduaneira podem abranger as verificações documental e física das mercadorias no chamado canal vermelho, tanto na exportação como na importação. Controle de Carga, Fluxo de Informações e Gestão Coordenada de Fronteiras - CCA"
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-007",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sobre o trânsito aduaneiro, assinale a afirmativa correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "O regime aduaneiro especial de trânsito aduaneiro permite a internalização do processo de importação para recintos alfandegados localizados em zona secundária, pela transferência da mercadoria de um ponto alfandegado a outro, com a suspensão do pagamento do IPI Importação.",
+    "As sociedades empresárias usam o regime de trânsito aduaneiro para permitir melhor planejamento e controle logístico da cadeia produtiva na importação de insumos, transferindo as mercadorias diretamente dos pontos de chegada no território nacional até os seus estabelecimentos, com suspensão dos tributos e aptas a serem utilizadas em seu processo produtivo.",
+    "Existem diversos tipos de Declaração de Trânsito Aduaneiro (DTA) de acordo com a finalidade da movimentação de carga estrangeira dentro do território nacional, sendo o beneficiário do regime exclusivamente o consignatário que consta no conhecimento de carga.",
+    "As mercadorias de origem estrangeira destinadas ao exterior, mas em passagem pelo território nacional, não deverão ser submetidas ao regime de trânsito aduaneiro.",
+    "O beneficiário de trânsito poderá contratar qualquer transportador para a realização da transferência da mercadoria do ponto de entrada no território nacional até o ponto de destino."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-008",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sobre os procedimentos de controle do regime de trânsito aduaneiro, assinale a afirmativa correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "A verificação da integridade dos elementos de segurança é realizada antes da partida do veículo na unidade de origem e após o registro da chegada do veículo na unidade de destino.",
+    "A interrupção e o redirecionamento encerram a operação de trânsito aduaneiro em qualquer caso.",
+    "O armazenamento da carga é uma etapa realizada pelo depositário do recinto de destino do trânsito após o registro da chegada do veículo nesse recinto.",
+    "A conferência do trânsito por violação de lacre ocorre no destino do trânsito em todos os veículos que foram informados em uma operação de trânsito.",
+    "A parametrização da declaração de trânsito aduaneiro para canal de conferência e a sua conferência são etapas realizadas no destino do trânsito."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-009",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Gestão Coordenada de Fronteira consiste em iniciativas e ações que envolvem a cooperação e coordenação entre as autoridades aduaneiras, migratórias, sanitárias e outros órgãos governamentais, de um mesmo país ou de países vizinhos, que atuam diretamente nessas fronteiras. Assinale a opção que indica uma ação correta para a iniciativa destacada.",
+   "gabarito": "d",
+   "alternativas": [
+    "Criação de áreas de controle integrado – permitir que a comunicação entre as autoridades de fronteira ocorra de forma sistêmica e organizada entre os diferentes órgãos dos diferentes países.",
+    "Capacitação e treinamento – permitir a transmissão e troca de informações entre os órgãos de controle de forma eletrônica, com a utilização de tecnologia e inovações em sistemas, proporcionando maior eficiência nas operações de fronteira.",
+    "Harmonização de procedimentos – permitir que procedimentos aduaneiros de órgãos com funções análogas, mas de países distintos, sejam também realizados de forma análoga nas inspeções de fronteira.",
+    "Nomeação de coordenadores de fronteira – permitir o compartilhamento físico de instalações no qual autoridades de diferentes países possam trabalhar de forma conjunta e coordenada, eliminado redundâncias e agilizando os processos.",
+    "Utilização de tecnologia para intercâmbio de informações – permitir a uniformização dos procedimentos nas unidades de fronteira, assim como a disseminação de melhores práticas a serem adotadas."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-010",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 0,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sobre o controle de carga no comércio exterior brasileiro, realizado a partir de informações prestadas pelos intervenientes responsáveis pelo fluxo logístico da carga em sistemas de controle informatizados geridos pela Receita Federal do Brasil, assinale a afirmativa correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Existem prazos legais para que os transportadores informem os dados do manifesto e do conhecimento nos sistemas informatizados; o seu descumprimento acarreta multa aplicada ao responsável pela informação.",
+    "Os sistemas de controle não registram as operações que configuram a troca de responsabilidade dos intervenientes pela carga sob a sua custódia, como, por exemplo, a entrega da carga do depositário de um recinto para o transportador responsável pelo trânsito aduaneiro.",
+    "Os sistemas informatizados da Receita Federal do Brasil são limitados a registros de conhecimento e manifesto, não permitindo sua utilização para fins de auditorias de conformidade, como, por exemplo, verificar se a quantidade informada em manifesto foi efetivamente descarregada em determinado ponto de desembarque da carga.",
+    "No modal rodoviário, as cargas e os veículos, na importação e na exportação, são manifestados em um mesmo sistema de controle.",
+    "Uma Declaração de Importação (DI) ou uma Declaração Única de Importação (DUIMP) prescindem do registro do conhecimento de carga a um sistema de controle em todos os casos."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-011",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sobre o despacho aduaneiro de importação, assinale a afirmativa correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "A mercadoria procedente do exterior está dispensada de despacho de importação quando destinada a uso pessoal do importador.",
+    "O despacho aduaneiro de importação tem por finalidade verificar apenas a regularidade fiscal da mercadoria importada.",
+    "A Declaração Única de Importação (Duimp) substituiu integralmente a Declaração de Importação (DI) desde 2018, sendo esta última extinta.",
+    "A Duimp pode ser registrada de forma antecipada, ou seja, antes da chegada da carga, para qualquer operação de importação e tipo de importador, OEA ou não OEA.",
+    "As mercadorias estrangeiras admitidas em regime aduaneiro especial estão dispensadas de despacho quando transferidas para outro regime, pois já se submeteram a despacho para admissão no primeiro regime."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-012",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Correlacione as etapas do fluxo normal do despacho de importação com DI às respectivas descrições. 1. Registro da DI 2. Gestão de risco 3. Verificação da mercadoria 4. Desembaraço aduaneiro 5. Distribuição da DI ( ) Etapa em que o sistema define o canal de conferência (verde, amarelo, vermelho ou cinza), conforme análise do gerenciamento de risco. ( ) Ato inicial do despacho, no qual ocorre o pagamento automático dos tributos e a vinculação da carga à declaração de importação. ( ) Procedimento realizado por Auditor-Fiscal da Receita Federal do Brasil ou, sob a sua supervisão, por Analista-Tributário da Receita Federal do Brasil. ( ) Ato privativo do Auditor-Fiscal da Receita Federal do Brasil que marca a conclusão da conferência aduaneira e autoriza a liberação da mercadoria. ( ) Ocorre após a anexação dos documentos pelo importador e é realizada por Auditor Fiscal da Receita Federal do Brasil com perfil de supervisor Assinale a opção que indica a relação correta, na ordem apresentada.",
+   "gabarito": "b",
+   "alternativas": [
+    "2 – 1 – 3 – 4 – 5.",
+    "2 – 1 – 3 – 5 – 4.",
+    "1 – 3 – 2 – 4 – 5.",
+    "1 – 2 – 4 – 3 – 5.",
+    "2 – 1 – 4 – 3 – 5."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-013",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base no disposto sobre a verificação da mercadoria no curso da conferência aduaneira, assinale a afirmativa incorreta .",
+   "gabarito": "e",
+   "alternativas": [
+    "A verificação da mercadoria tem como finalidade sua identificação e quantificação, bem como a determinação de sua origem e classificação fiscal.",
+    "A lavratura do Relatório de Verificação Física (RVF) é obrigatória sempre que a verificação física da mercadoria for realizada por Analista-Tributário da Receita Federal do Brasil.",
+    "A verificação da mercadoria pode ser realizada por Auditor- Fiscal da Receita Federal do Brasil ou, sob sua supervisão, por Analista-Tributário da Receita Federal do Brasil.",
+    "No curso da conferência aduaneira, a verificação da mercadoria pode ser realizada por amostragem.",
+    "Quando a mercadoria estiver depositada em recinto alfandegado, a verificação poderá ser feita na presença do depositário ou de seus prepostos, sendo dispensada a presença do importador."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-014",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base nas disposições sobre o despacho aduaneiro de exportação, avalie as afirmativas a seguir. I. O embarque da mercadoria para o exterior só pode ocorrer após o desembaraço da DU-E. II. A Declaração Única de Exportação (DU-E), registrada no Portal Único Siscomex, é o documento-base do despacho de exportação e substituiu integralmente, desde 2018, todos os demais tipos de declarações, sem exceções. III. O controle administrativo das exportações realizadas via DU-E é processado de forma independente e paralela ao controle aduaneiro, e as autorizações de órgãos anuentes são obtidas por meio do Módulo LPCO. Está correto o que se afirma em",
+   "gabarito": "d",
+   "alternativas": [
+    "I, apenas.",
+    "II, apenas.",
+    "III, apenas.",
+    "I e III, apenas.",
+    "II e III, apenas."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-015",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 1,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com base nas disposições sobre o despacho aduaneiro de exportação processado por meio da Declaração Única de Exportação (DU-E), assinale a afirmativa correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "O Relatório de Verificação Física (RVF) é facultativo nas DU-E selecionadas para o canal vermelho, sendo lavrado apenas quando houver indícios de fraude.",
+    "O despacho com embarque antecipado ocorre quando o exportador registra a DU-E após o embarque da mercadoria.",
+    "No gerenciamento de risco da DU-E, os canais de conferência aduaneira possíveis são: verde, amarelo, vermelho e cinza, conforme a intensidade da fiscalização necessária.",
+    "A averbação do embarque é a confirmação da saída da mercadoria do País, podendo ocorrer automaticamente desde que a DU-E esteja desembaraçada, não haja exigências fiscais ativas e o evento “Carga Completamente Exportada (CCE)” tenha ocorrido.",
+    "O cancelamento da DU-E depende sempre de requerimento do exportador e somente pode ser autorizado pela Receita Federal, não sendo possível o cancelamento automático pelo sistema."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-016",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 7,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Cadastro de Atividade Econômica de Pessoa Física (CAEPF) é o cadastro da RFB com informações das atividades econômicas exercidas pela pessoa física, quando dispensadas de inscrição no CNPJ. Assim, as pessoas físicas equiparadas a empresas que antes utilizavam a matrícula CEI (Cadastro Específico do INSS) para cadastro de suas atividades econômicas, passaram a utilizar o CAEPF. Conforme definido na Lei no 8.212/1991, no Decreto no 3.048/ 1999, e nas Instruções Normativas RFB nos 1.828/2018, e 2.110/2022, estão obrigados a se inscrever no CAEPF as pessoas físicas que exercem atividade econômica como contribuinte individual, exceto",
+   "gabarito": "d",
+   "alternativas": [
+    "a que possua segurado que lhe preste serviço.",
+    "o produtor rural cuja atividade constitua fato gerador da contribuição previdenciária.",
+    "o titular de cartório, caso em que a matrícula será emitida no nome do titular, ainda que a respectiva serventia seja registrada no CNPJ.",
+    "a pessoa física não produtor rural que adquire produção rural para venda, no varejo, a consumidor pessoa física.",
+    "o perito contábil."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-017",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 7,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação ao Cadastro de Pessoas Físicas (CPF), assinale a afirmativa correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "É um banco de dados gerenciado pela Receita Federal do Brasil (RFB), que armazena informações cadastrais de todos os cidadãos inscritos. Cada pessoa registrada possui um único número de identificação formado por treze dígitos.",
+    "Foi criado em 1965, por meio da Lei no 4.862, com o objetivo de que a administração tributária nacional pudesse coletar as informações das Pessoas Físicas que eram obrigadas a apresentar a declaração de rendimentos e bens, ou seja, servia para identificar os contribuintes do Imposto de Renda.",
+    "Apesar de a inscrição no CPF não ser obrigatória para todos, em muitos municípios do país a inscrição já tem sido feita no momento do registro do recém-nascido no cartório de registro de pessoas naturais, desde que o cartório tenha aderido ao convênio da REDESIM.",
+    "A solicitação de inscrição, atualização, regularização, consultas e outras atualizações de cadastro CPF somente podem ser solicitadas na rede de atendimento virtual (sítio eletrônico da RFB na internet, e-CAC).",
+    "Uma vez inscrita uma pessoa física, por ocasião do término de sua existência ou de seus bens as informações inseridas no CPF são eliminadas."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-018",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 7,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sobre as causas suspensivas e extintivas do crédito tributário, segundo o Código Tributário Nacional (CTN), assinale a opção que relaciona corretamente a causa e seu efeito.",
+   "gabarito": "c",
+   "alternativas": [
+    "O depósito judicial do montante integral suspende a exigibilidade do crédito tributário e sua conversão em renda extingue o crédito tributário.",
+    "A anistia é causa de extinção do crédito tributário por ela atingido.",
+    "A remissão é causa de exclusão do crédito tributário.",
+    "A transação, cumpridos seus requisitos, suspende o crédito tributário.",
+    "A tutela judicial antecipada, em ação declaratória, extingue o crédito tributário, sob condição ulterior de confirmação da tutela."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-019",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 7,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considere o relato a seguir. I. Alexandre finalmente conquistou seu sonho: adquiriu uma vasta propriedade no campo. II. Sem familiaridade com o Imposto sobre a Propriedade Territorial Rural (ITR), não sabia que era necessário preencher e enviar a Declaração do Imposto sobre a Propriedade Territorial Rural (DITR) e, quando enviou a declaração, o prazo para envio já havia expirado. III. Transmitiu a declaração e foi surpreendido com uma multa por atraso na entrega da DITR. IV. Optou por pagar o ITR apurado em quatro cotas, tal como permitido pela legislação. V. Parcelou a multa, o que lhe ainda dava o direito a desconto de 50% do valor. A partir desse relato, assinale a afirmativa incorreta .",
+   "gabarito": "e",
+   "alternativas": [
+    "Em I, temos o fato gerador do ITR.",
+    "Em II, a DITR é um exemplo de obrigação acessória.",
+    "Em III, a multa por atraso na entrega é um exemplo de lançamento de ofício.",
+    "Em IV, temos um exemplo de homologação do crédito tributário pelo pagamento antecipado e posterior extinção do lançamento.",
+    "Em V, o parcelamento da multa representa uma forma de suspensão do crédito tributário."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-020",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 7,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação à revisão de débitos inscritos em Dívida Ativa da União (DAU), avalie as afirmativas a seguir. I. Apenas débitos declarados podem ser objeto de Pedido de Revisão de Dívida Inscrita (PRDI); isto é, o PRDI não se aplica a lançamentos de ofício. II. O pedido de parcelamento efetuado após a inscrição em DAU é um dos motivos que podem embasar um PRDI. III. A retificação de declaração que importe em redução de débitos já inscritos em DAU não surtirá efeito e, portanto, não pode ser acatada como motivo para deferimento de PRDI. Está correto o que se afirmativa em",
+   "gabarito": "c",
+   "alternativas": [
+    "II, apenas.",
+    "III, apenas.",
+    "I e III, apenas.",
+    "II e III, apenas.",
+    "I, II e III, apenas."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-022",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 7,
+   "tipo": "multipla_escolha",
+   "enunciado": "Leia o fragmento a seguir. No atual cenário econômico brasileiro, os benefícios fiscais desempenham um papel ambíguo: são considerados essenciais para estimular o crescimento, atrair investimentos e mitigar os efeitos da desaceleração econômica, mas também representam um desafio fiscal relevante devido ao seu alto custo e complexidade . A esse respeito, assinale a afirmativa correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Os benefícios fiscais são desonerações autorizadas por lei, voltadas para um grupo específico de contribuintes, que resultam em acréscimo de arrecadação tributária.",
+    "Os principais tipos de benefícios fiscais são anistia, remissão, subsídio, crédito presumido, isenção, alteração de alíquota ou modificação da base de cálculo que implique redução discriminada de tributos ou contribuições.",
+    "A instituição de um benefício fiscal visa sempre ao alcance de objetivos de interesse privado e tem como destinatário um grupo específico de contribuintes, de setor ou de região.",
+    "Após a concessão do benefício fiscal, o contribuinte passa a usufruí-lo sem que haja qualquer fiscalização por parte da RFB para verificação da continuidade do cumprimento das condições e requisitos exigidos.",
+    "O Simples Nacional é um exemplo típico de regime especial de tributação, em que uma forma diferenciada de tributação é aplicada a determinado setor ou atividade empresarial. Contudo, não possui qualquer relação com a fruição de benefício fiscal ou redução de carga tributária."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-023",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 7,
+   "tipo": "multipla_escolha",
+   "enunciado": "A partir de 1o de janeiro de 2025, os débitos informados na DCTF PGD passaram a ser declarados na DCTFWeb mensal, usando o Módulo de Inclusão de Tributos (MIT). A respeito dessas declarações e do MIT, assinale a afirmativa correta.",
+   "gabarito": "a",
+   "alternativas": [
+    "O MIT é um serviço integrado à DCTFWeb usado para incluir nesta declaração os tributos previdenciários apurados pelo e- Social e pela EFD-Reinf.",
+    "O Módulo de Inclusão de Tributos (MIT) é uma declaração acessória, assim como a DCTF e a DCTFWeb.",
+    "A partir do advento do MIT, os créditos tributários constituídos pela DCTF não são mais passíveis de retificação, mesmo que ainda não tenham se passado 5 (cinco) anos da sua constituição.",
+    "Os débitos na DCTFWeb são gerados, regra geral, a partir das informações prestadas nas escriturações do eSocial e EFD- Reinf. Por isso, para alterar os seus valores é necessário também corrigir as escriturações que deram origem à DCTFWeb.",
+    "São exemplos de tributos apurados no e- Social e “puxados” pela DCTFWeb o IRPJ, a CSLL, o PIS, a COFINS e a CIDE."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-024",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 7,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Sistema Público de escrituração Digital (SPED) foi instituído pelo Decreto no 6.022, de 22 de janeiro de 2007. Ele unifica as atividades de recepção, validação, armazenamento e autenticação de livros e documentos que integram a escrituração contábil e fiscal dos empresários e das pessoas jurídicas mediante fluxo único e computadorizado de informações. Sobre o Sped, assinale a afirmativa incorreta .",
+   "gabarito": "e",
+   "alternativas": [
+    "Por meio do SPED os contribuintes transmitem às administrações tributárias e aos órgãos fiscalizadores diversos documentos eletrônicos, como por exemplo a ECF, EFD- Contribuições, EFD-Reinf e e-Social.",
+    "A Escrituração Contábil Fiscal (ECF) substituiu a Declaração de Informações Econômicos-Fiscais da Pessoa Jurídica (DIPJ) e é a obrigação acessória por meio da qual o contribuinte apresenta as informações referentes à apuração do Imposto sobre a Renda da Pessoa Jurídica (IRPJ) e da Contribuição Social sobre o Lucro Líquido (CSLL).",
+    "O contribuinte que deixa de apresentar as obrigações acessórias nos prazos fixados, ou que as apresentam com incorreções, estão sujeitos à aplicação de multas.",
+    "A EFD-Reinf tem por objetivo coletar informações trabalhistas, previdenciárias e tributárias, de forma a possibilitar o acesso a tais informações pelos órgãos participantes do projeto.",
+    "A Nota Fiscal eletrônica (NF-e) é um projeto desenvolvido de forma conjunta pelas Secretarias de Fazenda dos Estados e a Receita Federal do Brasil."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-025",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 7,
+   "tipo": "multipla_escolha",
+   "enunciado": "O sistema “Omissos” engloba um conjunto de ferramentas tecnológicas que permitem à Receita Federal identificar e cobrar, de forma automatizada e eficiente, as obrigações acessórias não cumpridas pelos contribuintes. Nesse contexto, avalie as afirmativas a seguir. I. O principal objetivo do sistema Omissos é identificar omissões na entrega de declarações, tanto de pessoas físicas quanto de pessoas jurídicas. II. O sistema Omissos possibilita uma atualização ágil da situação cadastral dos contribuintes, pois estabelece integrações para registrar as inaptidões e as regularizações de inaptidões feitas pelo sistema no Cadastro Nacional da Pessoa Jurídica (CNPJ). III. Apesar de estar integrado a diversos outros sistemas, o sistema Omissos ainda não fornece subsídios aos sistemas responsáveis pela verificação da regularidade fiscal do contribuinte (Situação Fiscal e Certidão). Está correto o que se afirma em",
+   "gabarito": "e",
+   "alternativas": [
+    "I e II, apenas.",
+    "I e III, apenas.",
+    "I, apenas.",
+    "II, apenas.",
+    "I, II e III."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-027",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 7,
+   "tipo": "multipla_escolha",
+   "enunciado": "O direito creditório tem no Sistema de Controle de Créditos (SCC) um importante programa de controle. O SCC cumpre diversas funções e se comunica com diversos sistemas. Acerca do direito creditório e o SCC, assinale a afirmativa incorreta .",
+   "gabarito": "b",
+   "alternativas": [
+    "O SCC se comunica com sistemas como a estão a Escrituração Contábil Fiscal (ECF), a Declaração de Débitos e Créditos Tributários Federais (DCTF), a Declaração de Imposto Retido na Fonte (DIRF), a Escrituração Fiscal Digital da Contribuição para o PIS/Pasep, da Contribuição para o Financiamento da Seguridade Social (Cofins) e da Contribuição Previdenciária sobre a Receita (EFD-Contribuições).",
+    "O Sistema de Controle recepciona os dados, valida as informações e processa diversos itens. Além disso, ele emite documentos, decide sobre os pedidos e ainda encaminha o resultado de seu trabalho para as próximas etapas de processamento.",
+    "Como regra, o SCC decide sobre os pedidos dos contribuintes.",
+    "O SCC não consegue processar as informações advindas da Declaração de Imposto de Renda da Pessoa Física (DIRPF).",
+    "O sistema Per/Dcomp é a interface entre o pedido de direito creditório dos contribuintes e os sistemas de processamento da RFB."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-028",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 8,
+   "tipo": "multipla_escolha",
+   "enunciado": "A atuação da Administração Tributária como principal orientadora dos contribuintes no que diz respeito ao recolhimento de impostos e o estímulo a arrecadação espontânea, não só permite a prestação de um serviço de qualidade, como também a otimização do uso do dinheiro público, permitindo que seus maiores esforços sejam concentrados no combate à fraude e sonegação fiscal. É nesse contexto de modernização da atuação das Administrações Tributárias, da otimização da utilização dos recursos públicos, da melhoria na prestação de serviços, do investimento tecnológico e do foco no combate a fraudes e sonegação que se desenha os esforços para incrementar a arrecadação espontânea. Considerando que o atendimento ao contribuinte é peça primordial nesta evolução e modernização da Receita Federal, com foco na solução de problemas, na orientação tributária e na conformidade tributária, assinale a afirmativa incorreta .",
+   "gabarito": "c",
+   "alternativas": [
+    "As Administrações Tributárias ao redor do mundo têm assumido cada vez mais um papel orientador no qual a qualidade de seu desempenho é medida tanto pela arrecadação quanto pela qualidade do serviço prestado.",
+    "A prestação de serviço de qualidade envolve não só investimento em pessoal, em tecnologia, mas também o uso consciente do dinheiro público através da otimização do seu uso.",
+    "Há uma tendência cada vez maior em que as Administrações Tributárias assumam um papel de repressor.",
+    "Na Receita Federal do Brasil, o atendimento ao contribuinte está vinculado à Suara (Subsecretaria de Arrecadação, Cadastro e Atendimento), pois compete a ela planejar, coordenar e supervisionar as atividades relativas ao atendimento presencial e à distância ao contribuinte.",
+    "Nos últimos anos, as sociedades têm exigido mais qualidade na prestação de serviços e colaboração na atuação do Fisco."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-029",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 8,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Ouvidoria é o elo entre a sociedade e a Receita Federal para garantir o direito à manifestação e orientar o cidadão sobre como proceder na defesa de sua cidadania. Após a implantação da plataforma GOV.br, a Ouvidoria do Ministério da Fazenda passou a constar no Fala.br, uma Plataforma Integrada de Ouvidoria e Acesso à Informação do governo federal. Acerca da Ouvidoria na Receita Federal do Brasil, assinale a afirmativa correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Os fatos deverão ser apresentados de forma clara e objetiva, relatando os possíveis delitos e/ou irregularidades e contendo elementos mínimos de identificação, como CPF ou CNPJ bem como endereço ou cidade do denunciado para que a irregularidade possa ser analisada.",
+    "No caso de denúncias realizadas pela Ouvidoria, todo o processo é feito via sistema e não há garantia de proteção dos dados pessoais do denunciante.",
+    "O cidadão pode acessar o canal da ouvidoria somente na página inicial da RFB na internet.",
+    "Fale Conosco é, essencialmente, um canal de pós- atendimento, destinado a prestar informações de caráter geral, que não substituem o processo de consulta, tampouco o atendimento presencial",
+    "Ouvidoria é um canal de pré-atendimento ao cidadão, que se presta a atender àqueles que não tenham ficado satisfeitos com resposta ou solução apresentada nos demais canais de atendimentos da Receita Federal."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-030",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 8,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Chat RFB foi implantado em abril de 2019 e está disponível no Portal e- CAC na Aba \"Outros”. Trata -se de atendimento por meio do cha t (bate-papo), ou seja, é uma conversa direta com o servidor da Receita Federal especialista no assunto escolhido. Sobre o Chat RFB , avalie as afirmativas a seguir. I. Possui uma funcionalidade de abertura automática de processos de atendimento, onde o diálogo do atendimento não é transcrito II. Não realiza os serviços disponíveis no Portal e-CAC ou via Processo Digital, a fim de evitar concorrência de canais de atendimento. III. A Portaria RFB no 90/2021, permite a prestação de mais de um atendimento para o mesmo interessado ou atendimento para serviço diferente daquele que foi selecionado. Está correto o que se afirma em",
+   "gabarito": "d",
+   "alternativas": [
+    "I, apenas.",
+    "II, apenas.",
+    "I e II, apenas.",
+    "II e III, apenas.",
+    "I, II e III."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-031",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 8,
+   "tipo": "multipla_escolha",
+   "enunciado": "Em relação ao tema de Digitalização de serviços e à obrigatoriedade de entrega digital por meio do e-CAC, avalie as afirmativas a seguir. I. Quando o serviço ainda não estiver disponibilizado no e-CAC ou quando o sistema estiver temporariamente indisponível, o contribuinte obrigado à entrega pelo e-CAC pode apresentar o pedido no atendimento presencial, mas em formato digital, assinando os documentos com assinatura eletrônica permitida pela legislação. II. O processo digital aberto no e-CAC ficará disponível para solicitação de juntada de documentos pelo prazo de três dias úteis, contado da data de sua abertura, respeitada a jurisdição do contribuinte/interessado do processo digital. III. Na solicitação de juntada, os documentos deverão ser enviados em arquivos separados, conforme o conteúdo, com indicação do tipo de documento no sistema e-Processo. Está correto o que se afirma em",
+   "gabarito": "a",
+   "alternativas": [
+    "I, apenas.",
+    "II, apenas.",
+    "I e III, apenas.",
+    "II e III, apenas.",
+    "I, II e III."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-032",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Um funcionário foi convidado a representar a Receita Federal do Brasil (RFB) em um evento internacional e foi questionado sobre como o Brasil gerencia suas extensas fronteiras terrestres. Considerando a estratégia adotada pela RFB nos últimos anos que, atualmente, está em curso na instituição, assinale a opção que apresenta a resposta mais apropriada a esse questionamento.",
+   "gabarito": "b",
+   "alternativas": [
+    "O Brasil não controla suas fronteiras.",
+    "A RFB está planejando contratar um quadro específico de servidores e criar uma fronteira blindada, com um posto de fronteira no máximo a cada 10 km de distância.",
+    "O Brasil controla as suas fronteiras de forma otimizada usando, sempre que possível e adequado, tecnologia da informação e inteligência.",
+    "A RFB não tem limitações de recurso que justifiquem quaisquer ações mitigatórias ou de otimização por isso opta pelo controle de força bruta em toda a sua fronteira.",
+    "O Brasil subcontrata outros países para fazer o controle da fronteira nacional."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-033",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "Um funcionário foi convidado para representar a RFB em um evento internacional e foi questionado sobre o projeto IRIS de viajantes. Assinale a opção que indica a resposta mais adequada a esse questionamento.",
+   "gabarito": "c",
+   "alternativas": [
+    "O Brasil adotou a técnica de abuso de autoridade, e impõe que todos os viajantes sejam submetidos a uma minuciosa inspeção física.",
+    "O escaneamento das írises dos viajantes aumenta a assertividade do processo de localização de viajantes problemáticos.",
+    "A leitura da íris permite identificar padrões de comportamento mal-intencionados",
+    "Haja vista as limitações de recursos e a necessidade de um processo mais eficiente, o projeto ÍRIS utiliza as técnicas de gestão de risco e inteligência para identificar os alvos mais adequados para a inspeção aduaneira. Neste sentido, a identificação por tecnologia de reconhecimento facial trás celeridade e assertividade ao processo.",
+    "A burocracia é saudável e, por esta razão, o projeto ÍRIS solicita que cada viajante preencha um formulário de identificação semelhante ao utilizado nos voos para os Estados Unidos."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-034",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "A pandemia de COVID-19 foi um divisor de águas e impôs grandes desafios a toda a sociedade brasileira. A Receita Federal do Brasil (RFB) contribuiu para minimizar os impactos econômicos dessa catástrofe por meio de um projeto paradigmático. Nesse sentido, assinale a opção que indica corretamente o nome desse projeto e seu papel para a sociedade brasileira.",
+   "gabarito": "a",
+   "alternativas": [
+    "Projeto controle aduaneiro pelo Blockchain / Governo agiu para combater a pandemia no Mercosul.",
+    "COMPARTILHA-RFB / Governo como plataforma em prol da sociedade.",
+    "COMPARTILHA – RFB / Pronamp a favor das empresas da américa do sul e do caribe.",
+    "COMPARTILHA – RFB / Gestão por créditos e carbono.",
+    "ZERO-DADO / Prova da ineficiência e falta de criatividade da RFB."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-035",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "As opções a seguir estão relacionadas à tecnologia blockchain , à exceção de uma . Assinale-a.",
+   "gabarito": "c",
+   "alternativas": [
+    "O Bitcoin usa um blockchain .",
+    "A tecnologia é usada pela RFB apenas para a gestão de ativos financeiros que são regulados pela Portaria no 342/98 da RFB.",
+    "É um contraponto ao modelo cliente-servidor.",
+    "Se caracteriza por regras de governança definidas via smartcontracts .",
+    "Se caracteriza por regras de comportamento definidas via smartcontracts ."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-036",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 3,
+   "tipo": "multipla_escolha",
+   "enunciado": "O Fundo Monetário Internacional (FMI) enviou uma missão para comparar o Brasil às principais economias do mundo. Durante a análise, a missão examinou a Receita Federal do Brasil (RFB) e identificou uma característica marcante do país no que se refere às soluções tecnológicas e à oferta de serviços à sociedade. Nesse contexto, assinale a opção que apresenta uma provável conclusão do relatório do FMI.",
+   "gabarito": "e",
+   "alternativas": [
+    "A RFB entende que é função de governo e busca a maior dotação orçamentária possível junto ao congresso nacional. Idealmente superior ao orçamento das forças armadas.",
+    "A RFB escolheu uma solução célere para oferecer soluções inovadoras: Optou por ser o laboratório de testes para soluções de grandes empresas internacionais em detrimento de soluções criativas locais.",
+    "A RFB ainda carece de adotar novas tecnologias e de propor soluções inovadoras em prol da sociedade.",
+    "A RFB deu um importante salto e está adotando a Inteligência Artificial. Nos próximos cinco anos, todo o trabalho será feito apenas por máquinas o que trará uma economia substancial para a sociedade brasileira em detrimento da força de trabalho humana da instituição.",
+    "A RFB se destaca por usar amplamente a tecnologia da informação para compensar a falta de recursos financeiros e humanos."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-037",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "O armazenamento de arquivos referentes a documentos fiscais no Receita Data é feito de forma direta na HBase. Contudo, para arquivos maiores, consta no HBase apenas a referência a esses arquivos que, efetivamente, são armazenados no",
+   "gabarito": "d",
+   "alternativas": [
+    "Power BI .",
+    "HDFS.",
+    "ContÁgil.",
+    "DW.",
+    "MS Excel."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-038",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "Os dados no Receita Data são classificados em fases 1, 2 e 3, as quais são chamadas de dados brutos, dados estruturantes e dados de negócio, respectivamente. Com relação aos dados estruturantes: I. sempre que possível, devem manter todos os campos contantes dos dados brutos (fase 1), sem qualquer agregação, PORQUE II. cada área da RFB tem interesses em análises diferentes sobre as mesmas bases de modo a atender às suas necessidades de negócio. Considerando a relação entre as frases I e II, assinale a afirmativa correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "As frases I e II são verdadeiras, mas a II não é uma justificativa da I.",
+    "As frases I e II são falsas.",
+    "A frase I é verdadeira, mas a II é falsa.",
+    "As frases I e II são verdadeiras, sendo que a II é uma justificativa da I.",
+    "A frase I é falsa, mas a II é verdadeira."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-039",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "Analise o fragmento a seguir. Visando a redução do tempo de consulta, dado o grande volume de dados envolvidos, os registros são _____, o que resulta em um _____ no tamanho da estrutura da tabela. Em razão disso, as tabelas são armazenadas no formato _____, que é orientado a _____, facilitando a consulta aos dados . Assinale a opção que preenche corretamente as lacunas do fragmento acima.",
+   "gabarito": "b",
+   "alternativas": [
+    "normalizados – encolhimento – Kudu – linhas",
+    "normalizados – aumento – Parquet – linhas",
+    "desnormalizados – aumento – Kudu – colunas",
+    "desnormalizados – encolhimento – Parquet – colunas",
+    "desnormalizados – aumento – Parquet – colunas"
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-040",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "No que se refere à construção da estrutura desnormalizada dos documentos ficais no Receita Data, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) O formato de arquivo Parquet otimizam o armazenamento dos dados “por linha”, evitando assim as repetições de valores em vários registros na mesma coluna, que são comuns com o armazenamento de estrutura “desnormalizada”. ( ) As diferentes versões que existirem sobre um mesmo leiaute de arquivo são consolidadas de modo a resultar em uma única estrutura que englobe todas as mudanças. ( ) Não são tratadas as compatibilidades de versões em situações nas quais, por exemplo, um campo que em uma versão apresentava as informações de data e hora juntas, mas em outra versão passou a apresentá-las em campos separados. As afirmativas são respectivamente,",
+   "gabarito": "a",
+   "alternativas": [
+    "V – F – F.",
+    "V – V – F.",
+    "F – V – F.",
+    "F – F – V.",
+    "V – F – V."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-041",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sobre as diretrizes da Política de Governança de Dados do Ambiente Analítico da RFB, considerando o disposto no Art. 3o da Portaria RFB no 206/2022, avalie as afirmativas a seguir. I. Prover os insumos de informações necessários ao cumprimento da missão do órgão com qualidade, tempestividade, facilidade e meios de acesso; II. Apoiar a governança de dados da RFB e garantir que sejam gerenciáveis; III. Tratar os dados e as informações de forma responsável e ética. Está correto o que se afirma em",
+   "gabarito": "a",
+   "alternativas": [
+    "I, apenas.",
+    "I e II, apenas.",
+    "I e III, apenas.",
+    "II e III, apenas.",
+    "I, II e III."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-042",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "Analise o fragmento da diretriz da Política de Governança de Dados do Ambiente Analítico da RFB constante do Artigo 3o, inciso IV, da Portaria RFB no 206/2022, a seguir. Propiciar a todos os usuários do Ambiente _______, de acordo com as políticas de _______ em vigor na RFB, o uso dos dados por meio da disponibilização de recursos para todos os _______, a fim de incrementar a proficiência na _______ Assinale a opção que apresenta os termos que completam corretamente as lacunas do fragmento.",
+   "gabarito": "d",
+   "alternativas": [
+    "Transacional – conformidade – serviços – solução de problemas.",
+    "Analítico – conformidade – perfis de usuários – análise de dados.",
+    "Transacional – segurança – perfis de usuários – análise de dados.",
+    "Analítico – segurança – perfis de usuários – análise dos dados.",
+    "Analítico – segurança – serviços – solução de problemas."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-043",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "As opções a seguir apresentam atribuições da Divisão de Administração da Informação (Disad), constante do Art. 8a da Portaria RFB no 206/2022, à exceção de uma . Assinale-a.",
+   "gabarito": "b",
+   "alternativas": [
+    "Acompanhar a execução da Política de Governança de Dados do Ambiente Analítico.",
+    "Apoiar atividades de gestão de dados nas áreas de Tecnologia da Informação (TI), mas não para as áreas de negócio.",
+    "Esclarecer dúvidas quanto à implementação da Política de Governança de Dados do Ambiente Analítico.",
+    "Prestar o suporte necessário ao uso e à análise de informações, bem como ao desenvolvimento das soluções de TI relacionadas ao ambiente analítico.",
+    "Propor normas, padrões e procedimentos de TI relativos à análise de informações."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-044",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "A Portaria RFB no 206/2022, elenca, no seu Art. 5o, três comitês cuja função é harmonizar tanto o desenvolvimento quanto a aplicação da Política de Governança de Dados por meio da participação das diversas áreas da RFB. Nesse sentido, relacione os comitês às respectivas competências. 1. Comitê de Tecnologia e Segurança da Informação (CTSI). 2. Subcomitê de Governança de Dados (SCGD). 3. Conselho de Curadores de Dados (CCD). ( ) Tem uma atuação técnica, buscando identificar as dificuldades operacionais da Política de Governança de Dados, propondo aos órgãos com competência normativa soluções para que esta possa ser aplicada na prática. ( ) Tem a atribuição de aprovar as políticas e diretrizes relativas à Política de Governança de Dados do Ambiente Analítico da RFB. ( ) Tem atuação entre o estratégico e o técnico, tendo a incumbência auxiliar nas suas tomadas de decisão no que tange à governança de dados. Assinale a opção que indica a relação correta, na ordem apresentada.",
+   "gabarito": "e",
+   "alternativas": [
+    "3 – 1 – 2.",
+    "1 – 3 – 2.",
+    "2 – 1 – 3.",
+    "3 – 2 – 1.",
+    "1 – 2 – 3."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-045",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sobre o ContÁgil, assinale a afirmativa incorreta .",
+   "gabarito": "b",
+   "alternativas": [
+    "Foi desenvolvido por um pool de empresas, em licitação internacional, visando receber dados minudentemente estruturados.",
+    "Permite a leitura, o tratamento, a importação e a análise de dados, empregando recursos visuais.",
+    "Permite a aplicação de recursos matemáticos e estatísticos na resolução das tarefas de quaisquer dos processos de trabalho definidos na instituição.",
+    "Tornou-se uma plataforma de desenvolvimento que integra o trabalho realizado nas estações de trabalho com o potencial de armazenamento e processamento do ambiente de big data da instituição.",
+    "Não se limita a apresentar tabelas, possui uma forma flexível de analisar os conjuntos de dados; o recurso denominado de MAD – Modelo Analítico Dinâmico."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-046",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 4,
+   "tipo": "multipla_escolha",
+   "enunciado": "Sobre scripts do ContÁgil, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para falsa. ( ) Scripts são componentes desenvolvidos por usuários do ContÁgil, que ampliam as possibilidades de uso da ferramenta. ( ) A construção de um script requer a participação de um desenvolvedor do código fonte utilizado para a construção do ContÁgil, e não dispensa a instalação de softwares adicionais de desenvolvimento. ( ) O script pode ser construído no ambiente ContÁgil nas linguagens JavaScript, Python, Ruby e Groovy, além da linguagem Java na qual o ContÁgil é desenvolvido. As afirmativas são, respectivamente,",
+   "gabarito": "c",
+   "alternativas": [
+    "F – V – F.",
+    "V – F – V.",
+    "V – V – F.",
+    "F – F – V.",
+    "F – V – V."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-047",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "Quanto aos aspectos gerais do sigilo fiscal, assinale a afirmativa incorreta .",
+   "gabarito": "d",
+   "alternativas": [
+    "Em que pese não haver menção específica na Constituição Federal, o sigilo fiscal tem sua previsão expressa no Código Tributário Nacional (Lei no 5.172/1966).",
+    "Mesmo tendo em conta o respeito aos direitos individuais, o Estado precisa ter acesso a dados que identifiquem o patrimônio, a renda e as atividades econômicas dos contribuintes, no âmbito de arrecadação tributária.",
+    "O sigilo fiscal se ampara constitucionalmente, de forma indireta, na inviolabilidade do direito à vida privada e à intimidade das pessoas, presente no Art. 5o.",
+    "As informações sujeitas ao sigilo fiscal são todas que versem sobre a situação econômica ou financeira do sujeito passivo ou de terceiros, e sobre a natureza e o estado de seus negócios.",
+    "Os servidores da fazenda pública sujeitos ao dever de sigilo fiscal referem-se, de maneira taxativa, às pessoas físicas concursadas ou em cargo em comissão."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-048",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "Assinale a opção que indica a informação que está sujeita ao sigilo fiscal.",
+   "gabarito": "e",
+   "alternativas": [
+    "Dados agregados em que não seja possível identificar o sujeito passivo.",
+    "Informações cadastrais de nome, data de nascimento, endereço, filiação, qualificação e composição societária.",
+    "Dados de parcelamentos concedidos.",
+    "Dados de representações fiscais para fins penais, após a constituição do crédito tributário.",
+    "Operações financeiras fornecidas à RFB com base na Lei Complementar no 105/2001."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-049",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "Com relação ao fornecimento de dados protegidos por sigilo fiscal à Polícia Federal, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) É permitido o fornecimento de dados protegidos por sigilo fiscal com base no Art. 198, § 1o, inciso II, do Código Tributário Nacional (CTN), em atendimento a solicitação administrativa, no interesse da Administração Pública. ( ) Quando houver apreensão realizada pelo Departamento de Polícia Federal (DPF), e com a apresentação de cópia de Auto de Infração e Termo de Apreensão e Guarda Fiscal, devem ser fornecidas de forma ampla as informações solicitadas sujeitas ao sigilo fiscal. ( ) A Receita Federal do Brasil deve fornecer informações protegidas por sigilo fiscal da unidade familiar e relativos aos negócios do sujeito passivo, para complementar a apuração de prática de infração penal objeto de representação fiscal para fins penais (RFFP). As afirmativas são, respectivamente,",
+   "gabarito": "c",
+   "alternativas": [
+    "F – V – F",
+    "V – F – V",
+    "F – V – V.",
+    "V – F – F.",
+    "F – F – V"
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-050",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 5,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do sigilo fiscal e suas exceções, assinale a afirmativa correta.",
+   "gabarito": "d",
+   "alternativas": [
+    "A divulgação de informações sobre as representações fiscais para fins penais (RFFP) deve ser realizada no momento da ciência do sujeito passivo.",
+    "Verificam-se três hipóteses de divulgação de informações previstas no Art. 198, § 3o, do Código Tributário Nacional.",
+    "Quando da solicitação de autoridade administrativa no interesse da Administração Pública, a exceção ao sigilo fiscal exige a análise do caso concreto, ou seja, se os dados solicitados possuem pertinência direta com a infração administrativa investigada.",
+    "Considerando a previsão em Lei federal, a exceção relativa às solicitações de autoridade administrativa está restrita à esfera federal da Administração Pública.",
+    "A exceção ao sigilo relativa à requisição de autoridade judiciária só pode ser aplicada quando a autoridade requisitante é o magistrado."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-051",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca dos princípios aplicados ao processo administrativo, assinale a afirmativa incorreta .",
+   "gabarito": "b",
+   "alternativas": [
+    "A unidade de jurisdição reserva ao Poder Judiciário a definitividade da prestação jurisdicional.",
+    "O princípio do contraditório e a ampla defesa significa assegurar aos litigantes, em processo judicial ou administrativo, e aos acusados em geral, o contraditório e ampla defesa, com os meios e recursos a ela inerentes.",
+    "O princípio da celeridade processual permite que os prazos processuais para os contribuintes sejam diminuídos se houver necessidade de uma tramitação mais ágil no curso do processo administrativo.",
+    "O Art. 5o, inciso LX, da Constituição Federal, determina que a lei só poderá restringir a publicidade dos atos processuais quando a defesa da intimidade ou o interesse social o exigirem.",
+    "Segundo o princípio da oficialidade, uma vez iniciado o processo, compete à própria administração impulsioná-lo até sua conclusão, diligenciando no sentido de reunir o conhecimento dos atos necessários ao seu deslinde."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-052",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da comunicação dos atos processuais, assinale a afirmativa correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "A intimação por edital somente pode ser realizada se infrutíferas todas as alternativas de intimação possíveis no processo administrativo.",
+    "A intimação pessoal será realizada pelo autor do procedimento ou por servidor do órgão preparador, provada pela assinatura do sujeito passivo, do seu mandatário ou do preposto.",
+    "A intimação pela via postal somente poderá ser efetivada se o próprio sujeito passivo assinar o aviso de recebimento com prova do recebimento no seu domicílio tributário.",
+    "A intimação por meio eletrônico somente pode ser realizada se a intimação pessoal resultar infrutífera.",
+    "O edital independe de tentativa frustrada de outra modalidade de intimação, tendo em vista que a nenhuma pessoa é recusado desconhecer as leis ou atos administrativos publicados no Diário Oficial da União (DOU)."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-053",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Quanto à intimação, avalie as afirmativas a seguir. I. A intimação pessoal efetiva-se na data da assinatura ou na data da declaração de recusa. II. A intimação postal efetiva-se na data do recebimento no domicílio tributário do intimado, desde que provada a sua recepção, ou, se omitida esta data, quinze dias após a expedição da intimação. III. A intimação pela via eletrônica somente se efetiva na data em que o sujeito passivo efetuar a consulta no endereço eletrônico a ele atribuído pela administração tributária. Está correto o que se afirma em",
+   "gabarito": "c",
+   "alternativas": [
+    "I, apenas.",
+    "II, apenas.",
+    "III, apenas.",
+    "I e II apenas.",
+    "II e III, apenas."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-054",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "A sociedade empresária Beta foi comunicada de decisão em primeira instância no dia 24 de janeiro, dia de expediente normal. Nesse caso, o prazo final para apresentação do recurso voluntário é",
+   "gabarito": "c",
+   "alternativas": [
+    "25 de fevereiro, terça-feira.",
+    "22 de fevereiro, sábado.",
+    "24 de fevereiro, segunda-feira.",
+    "21 de fevereiro, sexta-feira.",
+    "11 de março, terça-feira."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-055",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca dos prazos processuais, assinale a afirmativa correta.",
+   "gabarito": "c",
+   "alternativas": [
+    "Uma vez iniciada a contagem, ela não se interrompe, exceto se houver feriados prolongados no seu intercurso.",
+    "Os prazos são contados em dias úteis, conforme determinação existente no Código de Processo Civil.",
+    "Os prazos somente se iniciam ou se encerram em dia de expediente normal na repartição pública.",
+    "São contados no prazo o dia de início e o dia do vencimento.",
+    "Considera-se efetivada a intimação se esta ocorrer na área aduaneira, num sábado, tendo em vista que a administração tributária estaria trabalhando normalmente neste dia."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-056",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca da formalização da exigência, assinale a afirmativa incorreta .",
+   "gabarito": "c",
+   "alternativas": [
+    "Os tributos informados pelo contribuinte em instrumentos de confissão de dívida são passíveis de cobrança administrativa sem necessidade da lavratura de auto de infração.",
+    "O despacho aduaneiro é o procedimento mediante o qual é verificada a exatidão dos dados declarados pelo interessado em relação à mercadoria importada ou exportada.",
+    "Em relação ao mesmo sujeito passivo, deve ser lavrado auto de infração ou notificação de lançamento distintos para cada tributo ou penalidade.",
+    "No âmbito da União, a autoridade com atribuição de competência para a lavratura do auto de infração é o Auditor- Fiscal da Receita Federal do Brasil.",
+    "Nos processos de parcelamento há uma confissão de dívida provisória do crédito tributário que deverá ser convalidada por auto de infração para possibilitar a efetivação da sua cobrança."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-057",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Considerando o caso de exigência fiscal formalizada, assinale a afirmativa correta.",
+   "gabarito": "e",
+   "alternativas": [
+    "Se houver impugnação fora do prazo, o processo deverá obrigatoriamente ser remetido à DRJ para apreciação de ofício de eventual vício material no processo.",
+    "O contribuinte pode solicitar prorrogação do prazo para a apresentação da impugnação se comprovar dificuldade na formulação de sua defesa.",
+    "A revelia significa a ausência do comparecimento do contribuinte no processo.",
+    "A impugnação somente suspende a exigibilidade do crédito tributário se houver comprovação do depósito integral do crédito tributário.",
+    "O sujeito passivo somente poderá cumprir a sua obrigação mediante pagamento à vista, em dinheiro."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-058",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Acerca do contencioso administrativo, assinale a afirmativa incorreta .",
+   "gabarito": "c",
+   "alternativas": [
+    "Contencioso administrativo fiscal de pequeno valor é aquele em que o lançamento fiscal ou controvérsia não supera 60 salários-mínimos.",
+    "No processo de pequeno valor, a decisão monocrática de primeira instância é proferida por integrante das turmas ordinárias das Delegacias da Receita Federal do Brasil de Julgamento (DRJ).",
+    "No processo de pequeno valor, a decisão de segunda instância é proferida pelo Carf somente em sede de recurso especial.",
+    "Nos processos acima de 60 salários-mínimos, a decisão de segunda instância é proferida pelas turmas de julgamento da delegacia de julgamento recursal da RFB (DRJ-R).",
+    "Nos processos acime de 60 salários-mínimos, o recurso especial é proferido pela Câmara Superior de Recursos Fiscais."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-059",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Quanto ao recurso voluntário, assinale a afirmativa correta.",
+   "gabarito": "b",
+   "alternativas": [
+    "O prazo para interposição do recurso voluntário é de 20 dias.",
+    "O processo será analisado pelo Carf mesmo que não seja apresentado recurso voluntário, pela aplicação do princípio da verdade material.",
+    "O recurso especial é um direito do contribuinte, devendo ser julgado, em qualquer caso, pelo Presidente da Câmara Superior de Recursos Fiscais.",
+    "O recurso voluntário tem efeito suspensivo e, em consequência, a eficácia da decisão de primeira instância fica sobrestada até que se decida o recurso.",
+    "O parcela do crédito tributário que não for objeto de recurso voluntário deve ser mantida no processo que será julgado no Carf, tendo em vista o princípio da sua unicidade."
+   ]
+  },
+  {
+   "id": "fgv-2025-rfb-analista-tributario-060",
+   "prova": 1,
+   "orgao": 0,
+   "cargo": 1,
+   "ano": 2025,
+   "assunto": 6,
+   "tipo": "multipla_escolha",
+   "enunciado": "Quanto ao caráter definitivo de uma decisão, assinale a afirmativa incorreta .",
+   "gabarito": "a",
+   "alternativas": [
+    "A decisão administrativa somente será definitiva após o término do prazo estabelecido pela administração para que o contribuinte interponha ação judicial sobre a matéria objeto da decisão.",
+    "É definitiva a decisão de primeira instância, esgotado o prazo para recurso voluntário sem que este tenha sido interposto.",
+    "É definitiva a decisão de segunda instância, de que não caiba recurso ou, se cabível, quando decorrido o prazo sem sua interposição.",
+    "É definitiva a decisão em sede de instância especial.",
+    "É definitiva a decisão de primeira instância na parte que não for objeto de recurso voluntário ou não estiver sujeita a recurso de ofício."
+   ]
+  }
+ ]
+}
