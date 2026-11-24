@@ -102,7 +102,10 @@ context) and `.devin/agents/` (local-only, gitignored). Layout here:
   host, activate them once per clone:
   `mkdir -p .devin/agents && cd .devin/agents && ln -sf ../../.agents/host-agents/*.md .`
 
-Spawn them with `run_subagent(profile: ...)`:
+Spawn the host profiles with `run_subagent(profile: ...)`. `auditor` is
+the exception: `run_subagent` always executes on the host, and the
+charter forbids it there — delegate via the herdr bridge (next section)
+instead.
 
 - `perito` — cybersecurity examiner (Perito Criminal Federal Área 14). Audits
   code/config/pipeline against `.agents/docs/SECURITY.md` — secrets handling,
@@ -129,6 +132,7 @@ Spawn them with `run_subagent(profile: ...)`:
   `papiro-git-sync` timer, resolves rebase CONFLITOs, and decides when
   local commits ship to the host via `git bundle` + `gcloud scp`. Emits
   a **relatório de fiscalização** com não conformidades + determinações.
+  Reach it through the herdr bridge below — never `run_subagent`.
 - `escriba` — frontend/UX scribe. Owns `web/` (Astro + Tailwind v4,
   custom elements, design system) and wires the user experience to the
   read-only API through `web/src/data/questions.ts`. Enforces
@@ -147,6 +151,34 @@ Spawn them with `run_subagent(profile: ...)`:
   `auditor` (it never administers it). Emits a **guia de remessa**
   (acervo, irregularidades, destino, devoluções). Spawn it to ingest an
   evento, reconcile the dataset, or launch the deploy.
+
+## Reaching the VM agent (herdr)
+
+A Devin session lives on `papiro-vm` inside a pane of the VM's own
+`herdr` server. The host reaches it through herdr's machine forwarding
+(saved profile `papiro-vm`, SSH over IAP) — this is the delegation path
+for `auditor` work:
+
+```
+herdr --machine papiro-vm agent list                # discover the pane id
+herdr --machine papiro-vm agent prompt <PANE> "..." --wait --timeout 90000
+herdr --machine papiro-vm agent read <PANE> --lines 80
+```
+
+- Agent commands take a live name or pane ID (`w2:p1`), never the agent
+  kind — `agent prompt devin` fails `agent_not_found`. The remote agent
+  is unnamed; optionally name it once per session
+  (`agent rename <PANE> auditor`) or rediscover the pane id each time.
+- Omitting `--machine` targets the *local* session — where the only
+  agent is the host Devin itself.
+- Forwarding never installs or starts the remote server. The VM's
+  `herdr server` is an unsupervised daemon and the devin pane is
+  ephemeral — after a VM reboot the channel is dead until restarted
+  over SSH (`ssh papiro-vm-iap`, then start herdr + a devin pane).
+- `agent prompt` rejects a `blocked` agent (`agent_blocked`); `--wait`
+  needs `working`/`blocked` within 5 s or returns `agent_prompt_stalled`.
+  IAP drops are transient — retry, but check remote state first: a lost
+  connection doesn't prove the prompt wasn't applied.
 
 ## Encrypted `.agents/` (notes + git-crypt)
 
