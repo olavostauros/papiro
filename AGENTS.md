@@ -98,9 +98,9 @@ context) and `.devin/agents/` (local-only, gitignored). Layout here:
   lives here: the VM must see exactly one agent — the one that administers
   it — and it is also the only profile `COPY`ed into the image.
 - `.agents/host-agents/` — host-only charters (`perito`, `sentinela`,
-  `arquivista`), tracked for versioning but NOT auto-discovered. On the
+  `arquivista`, `escriba`), tracked for versioning but NOT auto-discovered. On the
   host, activate them once per clone:
-  `mkdir -p .devin/agents && ln -s ../../.agents/host-agents/*.md .devin/agents/`
+  `mkdir -p .devin/agents && cd .devin/agents && ln -sf ../../.agents/host-agents/*.md .`
 
 Spawn them with `run_subagent(profile: ...)`:
 
@@ -127,6 +127,15 @@ Spawn them with `run_subagent(profile: ...)`:
   scheduled ingest via `compose run`, verifies posture (no db port, no
   secret dumps). Emits a **relatório de fiscalização** com não
   conformidades + determinações.
+- `escriba` — frontend/UX scribe. Owns `web/` (Astro + Tailwind v4,
+  custom elements, design system) and wires the user experience to the
+  read-only API through `web/src/data/questions.ts`. Enforces
+  `web/src/design/README.md` (semantic tokens, `data-*` contracts,
+  a11y, no UI framework); `api/`/`crawler/` are read-only reference —
+  needed contract changes come back as devoluções, never edits. Emits
+  a **colofão** (obra, materiais, integração, verificações,
+  devoluções). Spawn it for new pages/components/elements,
+  question-browser work, or design-system extensions.
 - `arquivista` — data-operations archivist on the **host**. Runs the whole
   ingest workflow — `next/files/fetch`, job.json curation, `audit`,
   `assemble --write`, shard hygiene scan, `crawler.db sync`, batch
