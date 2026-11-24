@@ -35,13 +35,14 @@ from __future__ import annotations
 import argparse
 import os
 import sys
+import unicodedata
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Iterable, Optional
 
 from sqlalchemy import (JSON, CheckConstraint, ForeignKey, Index, Integer,
                         SmallInteger, Text, UniqueConstraint, create_engine,
-                        func, insert, select)
+                        event, func, insert, select, text)
 from sqlalchemy.dialects import postgresql
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import DeclarativeBase, Mapped, Session, mapped_column
@@ -140,19 +141,37 @@ Index("questao_assunto", QuestaoDB.assunto_id,
 # Engine / session
 # ---------------------------------------------------------------------------
 
+def unaccent_str(s: Optional[str]) -> Optional[str]:
+    """Strip diacritics — mirrors the SQL ``unaccent()`` used by ?q= filters."""
+    if s is None:
+        return None
+    return "".join(c for c in unicodedata.normalize("NFD", s)
+                   if not unicodedata.combining(c))
+
+
 def get_engine(url: Optional[str] = None, **kw) -> Engine:
     """Engine for DATABASE_URL (env), explicit url, or the local default.
 
     Plain ``postgresql://`` URLs are coerced to the psycopg 3 driver.
+    SQLite engines get a ``unaccent()`` SQL function so accent-insensitive
+    search behaves like on Postgres (contrib extension).
     """
     url = url or os.environ.get("DATABASE_URL") or DEFAULT_URL
     if url.startswith(("postgresql://", "postgres://")):
         url = "postgresql+psycopg://" + url.split("://", 1)[1]
     kw.setdefault("pool_pre_ping", True)
-    return create_engine(url, **kw)
+    engine = create_engine(url, **kw)
+    if engine.url.get_backend_name() == "sqlite":
+        event.listen(engine, "connect",
+                     lambda conn, _: conn.create_function(
+                         "unaccent", 1, unaccent_str))
+    return engine
 
 
 def create_schema(engine: Engine) -> None:
+    if engine.url.get_backend_name() == "postgresql":
+        with engine.begin() as conn:
+            conn.execute(text("CREATE EXTENSION IF NOT EXISTS unaccent"))
     Base.metadata.create_all(engine)
 
 

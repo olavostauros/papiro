@@ -9,13 +9,18 @@ from __future__ import annotations
 
 from typing import Optional
 
-from sqlalchemy import Select, select
+from sqlalchemy import Select, func, select
 from sqlalchemy.orm import Session
 
-from crawler.db import Assunto, Banca, Cargo, Evento, Orgao, Prova, QuestaoDB
+from crawler.db import (Assunto, Banca, Cargo, Evento, Orgao, Prova,
+                        QuestaoDB, unaccent_str)
 from crawler.shards import CERTO_ERRADO
 
 TIPOS = ("certo_errado", "multipla_escolha")
+
+# Sonda feita por api.main.create_app: False se o banco não tem unaccent()
+# (Postgres sem a extensão) — os filtros q= degradam para ILIKE acentuado.
+USE_UNACCENT = True
 
 
 def base_questao() -> Select:
@@ -46,6 +51,17 @@ def base_questao() -> Select:
 
 def _escape_like(q: str) -> str:
     return q.replace("\\", "\\\\").replace("%", "\\%").replace("_", "\\_")
+
+
+def unaccent_ilike(column, q: str):
+    """``ILIKE %q%`` insensível a acentos — 'escrivao' casa 'Escrivão'.
+
+    Normaliza o termo em Python e a coluna via ``unaccent()`` quando a
+    função existe no banco (USE_UNACCENT); senão, ILIKE direto.
+    """
+    term = _escape_like(unaccent_str(q) if USE_UNACCENT else q)
+    col = func.unaccent(column) if USE_UNACCENT else column
+    return col.ilike(f"%{term}%", escape="\\")
 
 
 def apply_filters(
@@ -85,8 +101,7 @@ def apply_filters(
     if f["evento"]:
         stmt = stmt.where(Evento.evento == f["evento"])
     if f["q"]:
-        stmt = stmt.where(
-            QuestaoDB.enunciado.ilike(f"%{_escape_like(f['q'])}%", escape="\\"))
+        stmt = stmt.where(unaccent_ilike(QuestaoDB.enunciado, f["q"]))
     return stmt
 
 

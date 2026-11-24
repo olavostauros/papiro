@@ -27,7 +27,8 @@ def rec(qid, **kw):
 
 
 RECS = [
-    rec("cebraspe-2024-pf-escrivao-001"),
+    rec("cebraspe-2024-pf-escrivao-001",
+        enunciado="enunciado órgão palavra-chave"),
     rec("cebraspe-2024-pf-escrivao-002", gabarito="errado"),
     rec("cebraspe-2023-pf-escrivao-001", ano=2023, assunto="",
         fonte="https://cdn.cebraspe.org.br/concursos/PF_23/arquivos/p1.pdf"),
@@ -90,6 +91,14 @@ def test_questoes_evento_e_tipo_estrito(client):
     r = client.get("/questoes", params={"evento": "NAO_EXISTE"})
     assert r.json()["total"] == 0
     assert client.get("/questoes", params={"tipo": "xpto"}).status_code == 422
+
+
+def test_questoes_q_sem_acento(client):
+    # "órgão" no enunciado do rec 001 casa busca sem acento
+    r = client.get("/questoes", params={"q": "orgao"})
+    assert r.json()["total"] == 1
+    r = client.get("/filtros/cargo", params={"q": "escrivao"}).json()
+    assert [f["valor"] for f in r] == ["Escrivão de Polícia Federal"]
 
 
 def test_questao_por_id_e_404(client):

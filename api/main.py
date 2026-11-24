@@ -95,6 +95,18 @@ def create_app(database_url: Optional[str] = None) -> FastAPI:
         "options": f"-c statement_timeout={STATEMENT_TIMEOUT_MS}"}} \
         if url.startswith("postgres") else {}
     engine = get_engine(url, **kw)
+    if url.startswith("postgres"):
+        try:  # usuário sem privilégio de extensão — a sonda abaixo decide
+            with engine.begin() as c:
+                c.execute(text("CREATE EXTENSION IF NOT EXISTS unaccent"))
+        except Exception:
+            pass
+    try:  # DB fora do ar no boot não deve derrubar o import — degrada
+        with engine.connect() as c:
+            c.execute(text("SELECT unaccent('e')"))
+        queries.USE_UNACCENT = True
+    except Exception:
+        queries.USE_UNACCENT = False
     app = FastAPI(title="papiro API", version="0.1.0")
     app.add_middleware(
         CORSMiddleware,
@@ -168,8 +180,7 @@ def create_app(database_url: Optional[str] = None) -> FastAPI:
                          evento))
         if q:
             stmt = stmt.where(
-                cast(col, String).ilike(f"%{queries._escape_like(q)}%",
-                                        escape="\\"))
+                queries.unaccent_ilike(cast(col, String), q))
         order = col.desc() if dim == "ano" else func.count().desc()
         rows = s.execute(stmt.order_by(order, col).limit(limit))
         return [Faceta(valor=str(v), questoes=c)
