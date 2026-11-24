@@ -88,14 +88,14 @@ Pré-requisitos: Docker (com o plugin compose) e Node.js 22+ para o site.
 ### Operação (api + crawler + Postgres)
 
 ```bash
-export POSTGRES_PASSWORD=$(cat .env/POSTGRES_PASSWORD)
-docker compose up -d --build                # sobe db + api
+# segredos no agregado .env/docker.env (KEY=VAL — ver compose.yaml)
+docker compose --env-file .env/docker.env up -d --build   # sobe db + api
 
 # primeira vez (ou para reconstruir): shards → Postgres
-docker compose run --rm crawler python -m crawler.db sync
+docker compose --env-file .env/docker.env run --rm crawler python -m crawler.db sync
 
 # crawler roda one-shot sob o profile `crawler`
-docker compose run --rm crawler python -m crawler next --probe 30
+docker compose --env-file .env/docker.env run --rm crawler python -m crawler next --probe 30
 ```
 
 - `db` — Postgres, o banco de questões (populado pelos shards de `data/questions/`)

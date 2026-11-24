@@ -25,8 +25,12 @@ sites das bancas → crawler → PDFs → extração → shards (backup) → Pos
   (`PUBLIC_API_URL`) + `<question-browser>`. Never bundle the dataset.
 - `compose.yaml` + `Dockerfile` — one `papiro` image backs `api` and
   `crawler` (compose profile, one-shot commands) next to `postgres:17-alpine`.
-  Deploy plan + schema decisions: `.agents/docs/docker-postgres.md`.
-  **Docker local first, then the cloud VM.**
+  Deploy plan + schema decisions: `.agents/docs/docker-postgres.md`;
+  runbook: `.agents/docs/deploy-gcp.md`. **Deployed 2026-11-23** — GCP
+  `e2-small` behind Cloudflare Tunnel (`https://api.olavostauros.com`),
+  daily ingest via systemd timer; state + open determinações in
+  `.agents/docs/pericias/2026-11-24_fiscalizacao-vm.md`. Image changes
+  still go Docker-local first, then the VM.
 
 ## Crawler
 
@@ -126,8 +130,8 @@ Specialized subagent profiles live in `.agents/agents/<name>.md` (tracked;
 The site lives in `web/` — run all npm/Astro commands from that directory.
 
 ```
-cd web && astro dev --background      # dev server in background
-astro dev stop | status | logs        # manage it
+cd web && npm run dev                # dev server (long-running — background it)
+npm run build && npm run preview     # production build check
 ```
 
 Tokens and base components live in `web/src/design/` — read
@@ -139,10 +143,13 @@ Secrets live in `.env/` at the repo root — fully gitignored, never
 committed or pasted into chat. Rules:
 
 - NEVER read, cat, grep, print, or quote `.env/`, `*.local.json`, `*.pem`,
-  or `*.key` files. `.devin/config.json` denies Read/Write on them; do not
-  work around this with shell commands echoing values into the transcript.
-- Refer to secrets by name/path only ("the key in `.env/FIRECRAWL_API_KEY`").
+  or `*.key` files. A local `.devin/config.json` denies Read/Write on them
+  (recreated per clone — see `.agents/docs/SECURITY.md` §7); do not work
+  around this with shell commands echoing values into the transcript.
+- Refer to secrets by name/path only ("the keys in `.env/docker.env`",
+  "`.env/cloudflared/creds.json`").
 - Wire secrets into config via shell indirection so the value never reaches
-  the transcript, e.g. `jq --arg k "$(tr -d '[:space:]' < .env/KEY)" ...`.
+  the transcript, e.g. `jq --arg k "$(tr -d '[:space:]' < .env/KEY)" ...`;
+  compose takes the aggregate via `--env-file .env/docker.env`.
 - Upload to Devin Cloud with `devin cloud drs secret-create --from-file
   .env/<file>`; to GitHub Actions with `gh secret set <NAME> < .env/<file>`.
