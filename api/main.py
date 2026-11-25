@@ -34,6 +34,7 @@ from crawler.db import (DEFAULT_URL, Assunto, Banca, Cargo, Evento, Orgao,
 from crawler.models import Questao
 
 from . import queries
+from .agente import create_agente_router
 
 
 class QuestaoPage(BaseModel):
@@ -117,7 +118,7 @@ def create_app(database_url: Optional[str] = None) -> FastAPI:
     app.add_middleware(
         CORSMiddleware,
         allow_origins=os.environ.get("CORS_ORIGINS", DEFAULT_CORS).split(","),
-        allow_methods=["GET"],
+        allow_methods=["GET", "POST"],
         allow_headers=["*"],
     )
 
@@ -310,6 +311,8 @@ def create_app(database_url: Optional[str] = None) -> FastAPI:
                           tipos=sorted(d["tipos"]))
                 for r in s.execute(stmt)
                 for d in [detalhes.get(r.id, vazio)]]
+
+    app.include_router(create_agente_router(session))
 
     return app
 
