@@ -20,6 +20,7 @@ from __future__ import annotations
 from collections import OrderedDict, deque
 from datetime import datetime, timezone
 import json
+import logging
 import os
 import re
 import threading
@@ -37,10 +38,16 @@ from crawler.db import Assunto, Banca, Evento, Orgao, Prova, QuestaoDB, unaccent
 
 from . import queries
 
+logger = logging.getLogger("papiro.agente")
+
 DEFAULT_API_URL = "https://generativelanguage.googleapis.com/v1/interactions"
 API_REVISION = "2026-05-20"
 DEFAULT_MODEL = "gemini-4-hydrogen"
 DEFAULT_FALLBACK_MODEL = "gemini-3.5-flash-lite"
+DEFAULT_PRIMARY_TIMEOUT_S = 10.0
+DEFAULT_FALLBACK_TIMEOUT_S = 15.0
+DEFAULT_PRIMARY_COOLDOWN_S = 300.0
+DEFAULT_RELACIONADAS_TIMEOUT_MS = 1200
 MAX_EDITAL_TOPICOS = 6
 DEFAULT_EDITAL_QUERY_TIMEOUT_MS = 2500
 
@@ -73,7 +80,7 @@ _CONTRADICAO_GERAL_RE = re.compile(
 _REF_TEXTO_EXTERNO_RE = re.compile(
     r"\b(?:"
     r"(?:(?:no|do|ao|pelo|segundo\s+o|conforme\s+o|de\s+acordo\s+com\s+o|com\s+base\s+no|a\s+partir\s+do|em\s+rela[cç][aã]o\s+ao)\s+)?textos?[\s-]+(?:[A-Za-z]{0,4}\d[A-Za-z0-9-]*|(?-i:[IVX]{1,4})\b|base\b|acima\b|anterior\b|a\s+seguir\b|associado\b|apresentado\b)|"
-    r"(?:no|do|ao|pelo|segundo\s+o|conforme\s+o|de\s+acordo\s+com\s+o|com\s+base\s+no|a\s+partir\s+do|em\s+rela[cç][aã]o\s+ao)\s+texto\b"
+    r"(?:(?:no|do|ao|pelo|segundo\s+o|conforme\s+o|de\s+acordo\s+com\s+o|com\s+base\s+no|a\s+partir\s+do|em\s+rela[cç][aã]o\s+ao)\s+texto|(?:seg[uú]n|de\s+acuerdo\s+con)\s+el\s+texto)\b"
     r"(?!\s+(?:constitucional|legal|normativo|da\s+lei|da\s+constitui[cç][aã]o|do\s+c[oó]digo|do\s+decreto|da\s+norma|da\s+emenda))"
     r")",
     re.IGNORECASE,
@@ -272,6 +279,21 @@ class AgenteState:
         self._cache: OrderedDict[str, tuple[float, ExplicarResponse]] = OrderedDict()
         self._global_day = _utc_day()
         self._global_calls = 0
+        self._primary_open_until: float = 0.0
+
+    def primary_circuit_open(self, now: Optional[float] = None) -> bool:
+        ts = time.monotonic() if now is None else now
+        with self._lock:
+            return ts < self._primary_open_until
+
+    def trip_primary_circuit(
+        self, cooldown_s: float, now: Optional[float] = None
+    ) -> None:
+        if cooldown_s <= 0:
+            return
+        ts = time.monotonic() if now is None else now
+        with self._lock:
+            self._primary_open_until = max(self._primary_open_until, ts + cooldown_s)
 
     def check_ip_rate(
         self, ip: str, per_min: int, per_day: int, now: Optional[float] = None
@@ -379,12 +401,22 @@ def _extract_model_json(data: dict[str, Any]) -> dict[str, Any]:
     return parsed
 
 
+def _attempt_timeout(specific_env: str, default: float) -> float:
+    if os.environ.get(specific_env, "").strip():
+        return _env_float(specific_env, default)
+    if os.environ.get("AGENTE_TIMEOUT_S", "").strip():
+        return _env_float("AGENTE_TIMEOUT_S", default)
+    return default
+
+
 def call_gemini(
     system_instruction: str,
     user_input: str,
     response_schema: dict[str, Any],
+    *,
+    state: Optional[AgenteState] = None,
 ) -> tuple[dict[str, Any], str]:
-    """Chama a Interactions API v1 com retry (1s) no principal e fallback em 429/503."""
+    """Chama a Interactions API v1 com timeouts curtos, circuit breaker e fallback."""
     api_key = _env_str("GEMINI_API_KEY")
     if not api_key:
         raise HTTPException(503, "agente indisponível: GEMINI_API_KEY não configurada")
@@ -392,8 +424,10 @@ def call_gemini(
     primary = _env_str("GEMINI_MODEL", DEFAULT_MODEL)
     fallback = _env_str("GEMINI_FALLBACK_MODEL", DEFAULT_FALLBACK_MODEL)
     url = _env_str("GEMINI_API_URL", DEFAULT_API_URL)
-    timeout = _env_float("AGENTE_TIMEOUT_S", 25.0)
+    primary_timeout = _attempt_timeout("AGENTE_PRIMARY_TIMEOUT_S", DEFAULT_PRIMARY_TIMEOUT_S)
+    fallback_timeout = _attempt_timeout("AGENTE_FALLBACK_TIMEOUT_S", DEFAULT_FALLBACK_TIMEOUT_S)
     retry_delay = max(0.0, _env_float("AGENTE_RETRY_DELAY_S", 1.0))
+    cooldown_s = _env_float("AGENTE_PRIMARY_COOLDOWN_S", DEFAULT_PRIMARY_COOLDOWN_S)
 
     headers = {
         "x-goog-api-key": api_key,
@@ -401,7 +435,9 @@ def call_gemini(
         "Content-Type": "application/json",
     }
 
-    def invoke(model_name: str) -> tuple[Optional[httpx.Response], Optional[Exception]]:
+    def invoke(
+        model_name: str, req_timeout: float
+    ) -> tuple[Optional[httpx.Response], Optional[Exception]]:
         payload = {
             "model": model_name,
             "system_instruction": system_instruction,
@@ -414,17 +450,47 @@ def call_gemini(
                 "schema": response_schema,
             },
         }
+        t0 = time.perf_counter()
         try:
-            return _post_interaction(url, headers, payload, timeout), None
+            r = _post_interaction(url, headers, payload, req_timeout)
+            ms = int((time.perf_counter() - t0) * 1000)
+            logger.info(
+                "agente.gemini attempt model=%s status=%s ms=%d timeout=%.1fs",
+                model_name,
+                r.status_code,
+                ms,
+                req_timeout,
+            )
+            return r, None
         except httpx.HTTPError as exc:
+            ms = int((time.perf_counter() - t0) * 1000)
+            logger.info(
+                "agente.gemini attempt model=%s status=%s ms=%d timeout=%.1fs",
+                model_name,
+                type(exc).__name__,
+                ms,
+                req_timeout,
+            )
             return None, exc
 
-    resp, err = invoke(primary)
+    can_fallback = bool(fallback and fallback != primary)
+
+    if state is not None and can_fallback and state.primary_circuit_open():
+        logger.info("agente.gemini circuit_skip primary=%s fallback=%s", primary, fallback)
+        fb_resp, fb_err = invoke(fallback, fallback_timeout)
+        if fb_err is None and fb_resp is not None and fb_resp.status_code == 200:
+            try:
+                return _extract_model_json(fb_resp.json()), fallback
+            except (ValueError, json.JSONDecodeError):
+                raise HTTPException(503, "agente indisponível: resposta inválida do provedor")
+        raise HTTPException(503, "agente indisponível no provedor no momento")
+
+    resp, err = invoke(primary, primary_timeout)
 
     # Em 503/429 de sobrecarga: aguarda ~1s e tenta 1x mais no principal
     if resp is not None and resp.status_code in _OVERLOAD_STATUSES:
         time.sleep(retry_delay)
-        resp, err = invoke(primary)
+        resp, err = invoke(primary, primary_timeout)
 
     if resp is not None and resp.status_code == 200:
         try:
@@ -432,12 +498,24 @@ def call_gemini(
         except (ValueError, json.JSONDecodeError):
             raise HTTPException(503, "agente indisponível: resposta inválida do provedor")
 
-    can_fallback = bool(fallback and fallback != primary)
+    overload_or_timeout = err is not None or (
+        resp is not None and resp.status_code in _OVERLOAD_STATUSES
+    )
+    if state is not None and can_fallback and overload_or_timeout:
+        state.trip_primary_circuit(cooldown_s)
+        reason = type(err).__name__ if err is not None else str(resp.status_code)  # type: ignore[union-attr]
+        logger.warning(
+            "agente.gemini circuit_open primary=%s cooldown=%.0fs reason=%s",
+            primary,
+            cooldown_s,
+            reason,
+        )
+
     retryable_failure = err is not None or (
         resp is not None and (resp.status_code in _OVERLOAD_STATUSES or resp.status_code >= 500)
     )
     if can_fallback and retryable_failure:
-        fb_resp, fb_err = invoke(fallback)
+        fb_resp, fb_err = invoke(fallback, fallback_timeout)
         if fb_err is None and fb_resp is not None and fb_resp.status_code == 200:
             try:
                 return _extract_model_json(fb_resp.json()), fallback
@@ -580,6 +658,57 @@ def _resumir(texto: str, limite: int = 160) -> str:
     return compacto[: limite - 1].rstrip() + "…"
 
 
+def _run_with_timeout(
+    session: Session,
+    fn: Callable[[], Any],
+    timeout_ms: int,
+) -> tuple[Any, bool, int]:
+    """Executa uma consulta read-only com timeout explícito (Postgres/SQLite)."""
+    t0 = time.perf_counter()
+    dialect = session.bind.dialect.name if session.bind is not None else ""
+
+    if dialect == "postgresql":
+        try:
+            with session.begin_nested():
+                if timeout_ms > 0:
+                    session.execute(
+                        text(f"SET LOCAL statement_timeout = {int(timeout_ms)}")
+                    )
+                res = fn()
+            if timeout_ms > 0:
+                session.execute(text("RESET statement_timeout"))
+            return res, False, int((time.perf_counter() - t0) * 1000)
+        except SQLAlchemyError:
+            return None, True, int((time.perf_counter() - t0) * 1000)
+
+    if dialect == "sqlite" and timeout_ms > 0:
+        sa_conn = session.connection()
+        raw_conn = getattr(sa_conn.connection, "driver_connection", None) or getattr(
+            sa_conn, "driver_connection", None
+        )
+        deadline = time.perf_counter() + (timeout_ms / 1000.0)
+        installed = False
+        if raw_conn is not None and hasattr(raw_conn, "set_progress_handler"):
+            raw_conn.set_progress_handler(
+                lambda: 1 if time.perf_counter() >= deadline else 0, 5000
+            )
+            installed = True
+        try:
+            res = fn()
+            return res, False, int((time.perf_counter() - t0) * 1000)
+        except SQLAlchemyError:
+            return None, True, int((time.perf_counter() - t0) * 1000)
+        finally:
+            if installed:
+                raw_conn.set_progress_handler(None, 0)
+
+    try:
+        res = fn()
+        return res, False, int((time.perf_counter() - t0) * 1000)
+    except SQLAlchemyError:
+        return None, True, int((time.perf_counter() - t0) * 1000)
+
+
 def _buscar_relacionadas(
     session: Session,
     questao: dict[str, Any],
@@ -590,16 +719,10 @@ def _buscar_relacionadas(
     encontradas: list[QuestaoRelacionada] = []
     vistos = {questao["id"]}
 
-    def coletar(stmt) -> None:
-        faltam = limit - len(encontradas)
-        if faltam <= 0:
-            return
-        rows = session.execute(
-            stmt.where(QuestaoDB.id.notin_(vistos))
-            .order_by(QuestaoDB.ano.desc(), QuestaoDB.id)
-            .limit(faltam)
-        ).all()
-        for r in rows:
+    def registrar(rows) -> None:
+        for r in rows or ():
+            if r.id in vistos:
+                continue
             vistos.add(r.id)
             encontradas.append(
                 QuestaoRelacionada(
@@ -612,12 +735,33 @@ def _buscar_relacionadas(
                 )
             )
 
+    def coletar(stmt, *, ordenar: bool = True, timeout_ms: int = 0) -> None:
+        faltam = limit - len(encontradas)
+        if faltam <= 0:
+            return
+        q = stmt.where(QuestaoDB.id.notin_(vistos))
+        if ordenar:
+            q = q.order_by(QuestaoDB.ano.desc(), QuestaoDB.id)
+        q = q.limit(faltam)
+        if timeout_ms > 0:
+            rows, _, _ = _run_with_timeout(
+                session, lambda: session.execute(q).all(), timeout_ms
+            )
+            registrar(rows)
+        else:
+            registrar(session.execute(q).all())
+
     termo = " ".join(termo_busca.split()).strip()
     if len(termo) >= 3:
+        # Sem ORDER BY no ILIKE para o LIMIT 3 parar assim que encontrar 3 itens
         coletar(
             queries.base_questao().where(
                 queries.unaccent_ilike(QuestaoDB.enunciado, termo)
-            )
+            ),
+            ordenar=False,
+            timeout_ms=_env_int(
+                "AGENTE_RELACIONADAS_TIMEOUT_MS", DEFAULT_RELACIONADAS_TIMEOUT_MS
+            ),
         )
     if len(encontradas) < limit and _assunto_util(questao.get("assunto") or ""):
         coletar(queries.base_questao().where(Assunto.nome == questao["assunto"]))
@@ -678,49 +822,12 @@ def _contar_questoes_por_termo(
             .where(Banca.nome == banca)
         )
 
-    t0 = time.perf_counter()
-    dialect = session.bind.dialect.name if session.bind is not None else ""
-
-    if dialect == "postgresql":
-        try:
-            with session.begin_nested():
-                if timeout_ms > 0:
-                    session.execute(
-                        text(f"SET LOCAL statement_timeout = {int(timeout_ms)}")
-                    )
-                count = session.scalar(stmt) or 0
-            if timeout_ms > 0:
-                session.execute(text("RESET statement_timeout"))
-            return int(count), False, int((time.perf_counter() - t0) * 1000)
-        except SQLAlchemyError:
-            return None, True, int((time.perf_counter() - t0) * 1000)
-
-    if dialect == "sqlite" and timeout_ms > 0:
-        sa_conn = session.connection()
-        raw_conn = getattr(sa_conn.connection, "driver_connection", None) or getattr(
-            sa_conn, "driver_connection", None
-        )
-        deadline = time.perf_counter() + (timeout_ms / 1000.0)
-        installed = False
-        if raw_conn is not None and hasattr(raw_conn, "set_progress_handler"):
-            raw_conn.set_progress_handler(
-                lambda: 1 if time.perf_counter() >= deadline else 0, 5000
-            )
-            installed = True
-        try:
-            count = session.scalar(stmt) or 0
-            return int(count), False, int((time.perf_counter() - t0) * 1000)
-        except SQLAlchemyError:
-            return None, True, int((time.perf_counter() - t0) * 1000)
-        finally:
-            if installed:
-                raw_conn.set_progress_handler(None, 0)
-
-    try:
-        count = session.scalar(stmt) or 0
-        return int(count), False, int((time.perf_counter() - t0) * 1000)
-    except SQLAlchemyError:
-        return None, True, int((time.perf_counter() - t0) * 1000)
+    val, timed_out, elapsed_ms = _run_with_timeout(
+        session, lambda: session.scalar(stmt) or 0, timeout_ms
+    )
+    if timed_out:
+        return None, True, elapsed_ms
+    return int(val), False, elapsed_ms
 
 
 def _build_edital_prompts(
@@ -942,7 +1049,7 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
             questao, gab_oficial, resp_usuario, duvida
         )
         raw_llm, modelo_usado = call_gemini(
-            sys_prompt, user_prompt, _EXPLICAR_JSON_SCHEMA
+            sys_prompt, user_prompt, _EXPLICAR_JSON_SCHEMA, state=state
         )
         try:
             llm_out = _LLMExplicacao.model_validate(raw_llm)
@@ -999,7 +1106,7 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
             body.texto_edital.strip(), banca_req, cargo_req
         )
         raw_llm, modelo_usado = call_gemini(
-            sys_prompt, user_prompt, _EDITAL_JSON_SCHEMA
+            sys_prompt, user_prompt, _EDITAL_JSON_SCHEMA, state=state
         )
         try:
             llm_out = _LLMEdital.model_validate(raw_llm)

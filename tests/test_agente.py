@@ -707,3 +707,110 @@ def test_edital_termo_max_2_palavras_e_retry_menor_que_5(tmp_path, monkeypatch):
     # "licitacao obscura" teve 0 (< 5), tentou 1x com "licitacao" e adotou contagem maior
     assert topicos[2]["termo_busca"] == "licitacao"
     assert topicos[2]["questoes_disponiveis"] >= 5
+
+
+def test_explicar_circuit_breaker_pula_principal_apos_503(client, monkeypatch):
+    calls: list[str] = []
+
+    def fake_post(url, headers, payload, timeout):
+        model = payload["model"]
+        calls.append(model)
+        if model == "gemini-4-hydrogen":
+            return httpx.Response(503, json={"error": {"message": "high demand"}})
+        return _gemini_ok_response(_sample_llm_json())
+
+    monkeypatch.setenv("AGENTE_PRIMARY_COOLDOWN_S", "300")
+    monkeypatch.setattr(agente.time, "sleep", lambda _: None)
+    monkeypatch.setattr(agente, "_post_interaction", fake_post)
+
+    r1 = client.post("/agente/explicar", json={"questao_id": "cebraspe-2024-pf-escrivao-001"})
+    assert r1.status_code == 200
+    assert r1.json()["modelo"] == "gemini-3.5-flash-lite"
+
+    # Segunda chamada com ID diferente deve pular o principal e ir direto ao fallback
+    r2 = client.post("/agente/explicar", json={"questao_id": "fcc-2024-tj-analista-001"})
+    assert r2.status_code == 200
+    assert r2.json()["modelo"] == "gemini-3.5-flash-lite"
+
+    assert calls == [
+        "gemini-4-hydrogen",
+        "gemini-4-hydrogen",
+        "gemini-3.5-flash-lite",
+        "gemini-3.5-flash-lite",
+    ]
+
+
+def test_explicar_timeouts_distintos_e_timeout_abre_breaker(client, monkeypatch):
+    monkeypatch.delenv("AGENTE_TIMEOUT_S", raising=False)
+    monkeypatch.delenv("AGENTE_PRIMARY_TIMEOUT_S", raising=False)
+    monkeypatch.delenv("AGENTE_FALLBACK_TIMEOUT_S", raising=False)
+
+    seen: list[tuple[str, float]] = []
+
+    def fake_post(url, headers, payload, timeout):
+        model = payload["model"]
+        seen.append((model, timeout))
+        if model == "gemini-4-hydrogen":
+            raise httpx.ReadTimeout("timeout no principal")
+        return _gemini_ok_response(_sample_llm_json())
+
+    monkeypatch.setattr(agente, "_post_interaction", fake_post)
+
+    # ReadTimeout no principal vai direto ao fallback sem gastar outro timeout
+    r1 = client.post("/agente/explicar", json={"questao_id": "cebraspe-2024-pf-escrivao-001"})
+    assert r1.status_code == 200
+    assert r1.json()["modelo"] == "gemini-3.5-flash-lite"
+
+    # Próxima chamada pula direto ao fallback
+    r2 = client.post("/agente/explicar", json={"questao_id": "fcc-2024-tj-analista-001"})
+    assert r2.status_code == 200
+    assert r2.json()["modelo"] == "gemini-3.5-flash-lite"
+
+    assert seen == [
+        ("gemini-4-hydrogen", 10.0),
+        ("gemini-3.5-flash-lite", 15.0),
+        ("gemini-3.5-flash-lite", 15.0),
+    ]
+
+
+def test_explicar_texto_base_ausente_espanhol(tmp_path, monkeypatch):
+    recs = RECS + [
+        _rec(
+            "cebraspe-2022-see-pe-esp-075",
+            enunciado="Según el texto, Paola Vicenci dio a luz a tres hijos en un único parto.",
+            gabarito="certo",
+            fonte="https://cdn.cebraspe.org.br/concursos/SEE_PE_22/arquivos/esp.pdf",
+        ),
+        _rec(
+            "cebraspe-2022-see-pe-esp-076",
+            enunciado="De acuerdo con el texto, el autor propone una reforma educativa.",
+            gabarito="errado",
+            fonte="https://cdn.cebraspe.org.br/concursos/SEE_PE_22/arquivos/esp.pdf",
+        ),
+    ]
+    url = f"sqlite:///{tmp_path / 'espanhol.db'}"
+    eng = db.get_engine(url)
+    db.create_schema(eng)
+    db.sync_records(recs, eng)
+    from api.main import create_app
+
+    cli = TestClient(create_app(url))
+    called = False
+
+    def fake_post(*args, **kwargs):
+        nonlocal called
+        called = True
+        return _gemini_ok_response(_sample_llm_json())
+
+    monkeypatch.setattr(agente, "_post_interaction", fake_post)
+
+    for qid in ("cebraspe-2022-see-pe-esp-075", "cebraspe-2022-see-pe-esp-076"):
+        r = cli.post("/agente/explicar", json={"questao_id": qid})
+        assert r.status_code == 200
+        body = r.json()
+        assert body["texto_base_ausente"] is True
+        assert body["modelo"] == "nenhum"
+        assert body["fonte"] in body["explicacao"]
+        assert "não é possível justificar a resposta com base no texto" in body["explicacao"]
+
+    assert called is False
