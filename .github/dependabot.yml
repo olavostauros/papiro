@@ -1,0 +1,19 @@
+version: 2
+updates:
+  # actions pinadas por SHA — o bump do dependabot preserva o pin
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /web
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+  # digests das base images (Dockerfile + compose.yaml)
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: weekly
+  # pip propositalmente fora: requirements.lock (--generate-hashes) é
+  # regenerado manualmente com `uv pip compile`

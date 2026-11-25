@@ -30,7 +30,8 @@ sites das bancas → crawler → PDFs → extração → shards (backup) → Pos
   `e2-small` behind Cloudflare Tunnel (`https://api.olavostauros.com`),
   daily ingest via systemd timer; state + open determinações in
   `.agents/docs/pericias/2026-11-24_fiscalizacao-vm.md`. Image changes
-  still go Docker-local first, then the VM.
+  are built in CI (`.github/workflows/image.yml` — pushes to AR once
+  WIF is provisioned, deploy-gcp.md §CI—imagem); the VM stays pull-based.
 
 ## Crawler
 

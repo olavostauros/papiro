@@ -3,12 +3,15 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [master]
+    # site só depende de web/ + PUBLIC_API_URL — batches de ingest em
+    # data/ e crawler/jobs/ não rebuildam; mudança de var → workflow_dispatch
+    paths:
+      - web/**
+      - .github/workflows/deploy.yml
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: "pages"
@@ -17,17 +20,20 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
       - name: Setup Node
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
         with:
           node-version: 22
           cache: npm
           cache-dependency-path: web/package-lock.json
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
       - name: Install dependencies
         run: npm ci
         working-directory: ./web
@@ -40,7 +46,7 @@ jobs:
           # PUBLIC_API_URL estiver definida no build.
           PUBLIC_API_URL: ${{ vars.PUBLIC_API_URL }}
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:
           path: ./web/dist
 
@@ -50,7 +56,16 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     needs: build
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write # OIDC do deploy-pages
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+      - name: Smoke check
+        run: >-
+          curl -fsS --retry 10 --retry-delay 5 --retry-all-errors
+          -o /dev/null "${{ steps.deployment.outputs.page_url }}"
