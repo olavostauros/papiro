@@ -7,6 +7,7 @@ banca (``--banca``, default cebraspe) e não conhecem layout de banca.
 import argparse
 import json
 import os
+import re
 import sys
 from pathlib import Path
 
@@ -72,6 +73,18 @@ def cmd_files(args):
         print(f'             {(a.get("descricaoArquivo") or "")[:90]}')
 
 
+def _anos_do_nome(nome: str) -> set[int]:
+    """Anos embutidos no nome do evento — só tokens puramente numéricos
+    (`HUB_21` → {2021}, `APEX_22_2` → {2022}, `CD26PL` → vazio)."""
+    anos: set[int] = set()
+    for tok in re.split(r"[^A-Za-z0-9]+", nome):
+        if re.fullmatch(r"\d{2}", tok):
+            anos.add(2000 + int(tok))
+        elif re.fullmatch(r"(?:19|20)\d{2}", tok):
+            anos.add(int(tok))
+    return anos
+
+
 def cmd_fetch(args):
     adapter = bancas.get_adapter(args.banca)
     det = adapter.get_evento(args.evento)
@@ -88,6 +101,18 @@ def cmd_fetch(args):
     (workdir / "job.json").write_text(json.dumps(job, ensure_ascii=False, indent=1))
     print(f"\njob skeleton -> {workdir}/job.json  "
           f"({len(job['cargos'])} cargos, {len(job['unmatched'])} unmatched provas)")
+    # a API reporta o ano do EDITAL — para famílias como a HUB o ano do
+    # programa é o do nome do evento (caso HUB_21, 2026-11-25). Aviso, não
+    # correção: a decisão final fica na curadoria do job.
+    try:
+        ano_meta = int(job["meta"]["ano"])
+    except (KeyError, TypeError, ValueError):
+        ano_meta = None
+    anos_nome = _anos_do_nome(evento)
+    if ano_meta is not None and anos_nome and ano_meta not in anos_nome:
+        print(f"\nAVISO: meta.ano={ano_meta} diverge do ano no nome do evento "
+              f"({sorted(anos_nome)}) — a API reporta o ano do edital; "
+              "confira o ano do programa na curadoria")
 
 
 def cmd_audit(args):
