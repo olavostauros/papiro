@@ -1,10 +1,13 @@
 ---
-interface Props {
-  variant?: 'primary' | 'outline' | 'ghost';
-  size?: 'sm' | 'md';
-  href?: string;
-  class?: string;
-}
+import type { HTMLAttributes } from 'astro/types';
+
+// Polimórfico: <a> com href, <button> sem — aceita os atributos dos dois.
+type Props = HTMLAttributes<'a'> &
+  HTMLAttributes<'button'> & {
+    variant?: 'primary' | 'outline' | 'ghost';
+    size?: 'sm' | 'md';
+    class?: string;
+  };
 
 const { variant = 'primary', size = 'md', href, class: className, ...rest } = Astro.props;
 const Tag = href ? 'a' : 'button';

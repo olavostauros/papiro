@@ -1,8 +1,9 @@
 ---
+import type { HTMLAttributes } from 'astro/types';
 import Check from './icons/Check.astro';
 import X from './icons/X.astro';
 
-interface Props {
+interface Props extends HTMLAttributes<'button'> {
   valor: string;
   letra?: string;
   class?: string;

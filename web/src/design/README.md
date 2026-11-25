@@ -144,7 +144,9 @@ desliga todas as transições durante a troca de tema.
 
 Todos em `web/src/design/components/`. Props com valor padrão são opcionais.
 Todo componente aceita `class?: string` e repassa atributos extras via
-`...rest`.
+`...rest` — os que renderizam elemento nativo declaram isso na tipagem
+estendendo `HTMLAttributes<'tag'>` de `astro/types` (`'a' & 'button'` nos
+polimórficos por `href`, como Button); `data-*`/`aria-*` passam em todos.
 
 ### Container
 

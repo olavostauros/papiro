@@ -78,7 +78,7 @@ const rotulo = `Questão — ${q.banca}, ${q.cargo}, ${q.ano}`;
           aria-labelledby={`enunciado-${q.id}`}
         >
           {opcoes.map((op) => (
-            <Alternativa valor={op.valor} letra={op.letra} class={certoErrado && 'justify-center'}>
+            <Alternativa valor={op.valor} letra={op.letra} class={certoErrado ? 'justify-center' : undefined}>
               {op.texto}
             </Alternativa>
           ))}

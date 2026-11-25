@@ -1,5 +1,7 @@
 ---
-interface Props {
+import type { HTMLAttributes } from 'astro/types';
+
+interface Props extends HTMLAttributes<'div'> {
   as?: 'div' | 'main' | 'section' | 'header' | 'footer';
   class?: string;
 }
