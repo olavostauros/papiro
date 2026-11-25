@@ -31,7 +31,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “Nessa transformação, misturaram-se dois processos” (primeiro parágrafo), a substituição de “misturaram-se” pela locução foram misturados prejudicaria os sentidos originais do texto e sua correção gramatical.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-seris-al-agente-penitenciario-003",
@@ -42,7 +43,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em “sua eficácia é atribuída à sua fatalidade, não à sua intensidade visível” (segundo parágrafo), o emprego do acento indicativo de crase é facultativo em ambas as ocorrências.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-seris-al-agente-penitenciario-004",
@@ -53,7 +55,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do primeiro período do segundo parágrafo seria mantida caso o trecho “em que” fosse substituído por onde .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-seris-al-agente-penitenciario-005",
@@ -64,7 +67,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “acostumando os espectadores a uma ferocidade de que todos queriam vê-los afastados, mostrando-lhes a frequência dos crimes” (primeiro parágrafo), as formas pronominais “los” e “lhes” retomam “todos”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-seris-al-agente-penitenciario-006",
@@ -75,7 +79,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “E tudo o que pudesse implicar de espetáculo desde então terá um cunho negativo” (primeiro parágrafo), a supressão da preposição “de” manteria a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-seris-al-agente-penitenciario-007",
@@ -108,7 +113,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto informa que, até o final do século XVIII e início do século XIX, a pena adotada para punir aqueles que cometiam crimes consistia em queimá-los em fogueiras.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-seris-al-agente-penitenciario-010",
@@ -119,7 +125,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto aponta para uma reflexão sobre o sistema de punição de criminosos: a violência envolvida na pena pode fazê-la se parecer com os crimes que se deseja evitar.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-seris-al-agente-penitenciario-011",
@@ -130,7 +137,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Por ser de implantação mais recente, o sistema penitenciário federal brasileiro segue o que é previsto pela Lei de Execução Penal para os presídios estaduais, por meio de uma doutrina judicial e da chamada lei de regência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-seris-al-agente-penitenciario-012",
@@ -141,7 +149,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No mês de fevereiro de 2021, o Departamento Penitenciário Nacional (DEPEN), responsável pelo sistema penitenciário federal, conteve um ensaio de motim acontecido, em plena pandemia, em um presídio federal situado em Aparecida de Goiânia – GO.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-seris-al-agente-penitenciario-013",
@@ -152,7 +161,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A crise na segurança pública está diretamente ligada a falhas no sistema carcerário brasileiro: apesar da alta quantidade de apreensões todos os dias, a criminalidade no país não tem diminuído efetivamente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-seris-al-agente-penitenciario-014",
@@ -163,7 +173,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sistema prisional brasileiro está com sua taxa oficial de ocupação quase no limite constitucional, o que compromete a garantia de direitos legalmente previstos, como a assistência educacional aos detentos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-seris-al-agente-penitenciario-015",
@@ -174,7 +185,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em meio à pandemia do novo coronavírus, presos do sistema penitenciário brasileiro enfrentam dificuldade para atendimento médico, havendo casos de presos com covid-19 que dividem espaço com presos sem sintomas e sem a doença.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-seris-al-agente-penitenciario-016",
@@ -295,7 +307,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em uma feira de ciências, cinco crianças, designadas pelas letras A, B, C, D e E, participarão de um experimento no qual um robô distribuirá três tipos de bala: de morango, de laranja ou de hortelã. A cada nova rodada, somente uma bala será dada pelo robô a cada criança, partindo-se da criança A até a criança E, em ordem alfabética. A distribuição das balas seguirá a seguinte rotina, a qual será obedecida também quando se passar de uma rodada para outra: se uma criança receber uma bala de morango, a criança seguinte receberá uma bala de laranja; se uma criança receber uma bala de laranja, a criança seguinte receberá uma bala de hortelã; se uma criança receber uma bala de hortelã, a criança seguinte receberá uma bala de morango. Considerando essa situação hipotética e que a criança A receberá uma bala de morango na primeira rodada, julgue o item a seguir. Ao final da sétima rodada, a criança A terá recebido, pelo menos, três balas de morango.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-seris-al-agente-penitenciario-027",
@@ -306,7 +319,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em uma feira de ciências, cinco crianças, designadas pelas letras A, B, C, D e E, participarão de um experimento no qual um robô distribuirá três tipos de bala: de morango, de laranja ou de hortelã. A cada nova rodada, somente uma bala será dada pelo robô a cada criança, partindo-se da criança A até a criança E, em ordem alfabética. A distribuição das balas seguirá a seguinte rotina, a qual será obedecida também quando se passar de uma rodada para outra: se uma criança receber uma bala de morango, a criança seguinte receberá uma bala de laranja; se uma criança receber uma bala de laranja, a criança seguinte receberá uma bala de hortelã; se uma criança receber uma bala de hortelã, a criança seguinte receberá uma bala de morango. Considerando essa situação hipotética e que a criança A receberá uma bala de morango na primeira rodada, julgue o item a seguir. Na rodada de número 19, a criança D receberá uma bala de hortelã.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-seris-al-agente-penitenciario-028",
@@ -317,7 +331,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em uma feira de ciências, cinco crianças, designadas pelas letras A, B, C, D e E, participarão de um experimento no qual um robô distribuirá três tipos de bala: de morango, de laranja ou de hortelã. A cada nova rodada, somente uma bala será dada pelo robô a cada criança, partindo-se da criança A até a criança E, em ordem alfabética. A distribuição das balas seguirá a seguinte rotina, a qual será obedecida também quando se passar de uma rodada para outra: se uma criança receber uma bala de morango, a criança seguinte receberá uma bala de laranja; se uma criança receber uma bala de laranja, a criança seguinte receberá uma bala de hortelã; se uma criança receber uma bala de hortelã, a criança seguinte receberá uma bala de morango. Considerando essa situação hipotética e que a criança A receberá uma bala de morango na primeira rodada, julgue o item a seguir. Ao final da rodada de número 30, a criança C terá recebido exatamente 10 balas de morango.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-seris-al-agente-penitenciario-029",
@@ -328,7 +343,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em uma feira de ciências, cinco crianças, designadas pelas letras A, B, C, D e E, participarão de um experimento no qual um robô distribuirá três tipos de bala: de morango, de laranja ou de hortelã. A cada nova rodada, somente uma bala será dada pelo robô a cada criança, partindo-se da criança A até a criança E, em ordem alfabética. A distribuição das balas seguirá a seguinte rotina, a qual será obedecida também quando se passar de uma rodada para outra: se uma criança receber uma bala de morango, a criança seguinte receberá uma bala de laranja; se uma criança receber uma bala de laranja, a criança seguinte receberá uma bala de hortelã; se uma criança receber uma bala de hortelã, a criança seguinte receberá uma bala de morango. Considerando essa situação hipotética e que a criança A receberá uma bala de morango na primeira rodada, julgue o item a seguir. As chances de que, após 92 rodadas, todas as cinco crianças tenham recebido, pelo menos, 30 balas do mesmo sabor são superiores a 75%.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-seris-al-agente-penitenciario-030",
@@ -339,7 +355,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em uma feira de ciências, cinco crianças, designadas pelas letras A, B, C, D e E, participarão de um experimento no qual um robô distribuirá três tipos de bala: de morango, de laranja ou de hortelã. A cada nova rodada, somente uma bala será dada pelo robô a cada criança, partindo-se da criança A até a criança E, em ordem alfabética. A distribuição das balas seguirá a seguinte rotina, a qual será obedecida também quando se passar de uma rodada para outra: se uma criança receber uma bala de morango, a criança seguinte receberá uma bala de laranja; se uma criança receber uma bala de laranja, a criança seguinte receberá uma bala de hortelã; se uma criança receber uma bala de hortelã, a criança seguinte receberá uma bala de morango. Considerando essa situação hipotética e que a criança A receberá uma bala de morango na primeira rodada, julgue o item a seguir. A probabilidade de duas crianças receberem uma bala de laranja na rodada 42 é inferior a 0,2.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-seris-al-agente-penitenciario-031",
@@ -1319,6 +1336,26 @@
    "tipo": "certo_errado",
    "enunciado": "Um dos sistemas atmosféricos responsáveis por essa elevada precipitação pluviométrica é a Zona de Convergência do Atlântico Sul, extensa e persistente faixa de nuvens que atua durante vários dias consecutivos.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Em uma feira de ciências, cinco crianças, designadas pelas letras A, B, C, D e E, participarão de um experimento no qual um robô distribuirá três tipos de bala: de morango, de laranja ou de hortelã. A cada nova rodada, somente uma bala será dada pelo robô a cada criança, partindo-se da criança A até a criança E, em ordem alfabética, conforme ilustrado na figura a seguir. A distribuição das balas seguirá a seguinte rotina, a qual será obedecida também quando se passar de uma rodada para outra: se uma criança receber uma bala de morango, a criança seguinte receberá uma bala de laranja; se uma criança receber uma bala de laranja, a criança seguinte receberá uma bala de hortelã; se uma criança receber uma bala de hortelã, a criança seguinte receberá uma bala de morango. A partir dessa situação hipotética, julgue os itens seguintes, considerando que a criança A receberá uma bala de morango na primeira rodada.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "conhecimentos de informática e(ou) tecnologia da informação informado o contrário, considere que todos os programas mencionados estão em configuração padrão e que não há restrições de proteção, de funcionamento e de uso em relação aos programas, arquivos, diretórios, recursos e equipamentos mencionados. • Eventuais espaços livres — identificados ou não pela expressão “ poderão ser utilizados para rascunho.\n\n-- CONHECIMENTOS GERAIS --",
+   "citacao": "No fim do século XVIII e começo do XIX, a despeito de algumas grandes fogueiras, a melancólica festa de punição vai-se extinguindo. Nessa transformação, misturaram-se dois processos. Não tiveram nem a mesma cronologia, nem as mesmas razões de ser. De um lado, a supressão do espetáculo punitivo. O cerimonial da pena vai sendo obliterado e passa a ser apenas um novo ato de procedimento ou de administração. A punição pouco a pouco deixou de ser uma cena. E tudo o que pudesse implicar de espetáculo desde então terá um cunho negativo; e como as funções da cerimônia penal deixavam pouco a pouco de ser compreendidas, ficou a suspeita de que tal rito que dava um “fecho” ao crime mantinha com ele afinidades espúrias: igualando-o, ou mesmo ultrapassando-o em selvageria, acostumando os espectadores a uma ferocidade de que todos queriam vê-los afastados, mostrando-lhes a frequência dos crimes, fazendo o carrasco se parecer com criminoso, os juízes com os assassinos, invertendo no último momento os papéis, fazendo do supliciado um objeto de piedade e de admiração. A execução pública é vista então como uma fornalha em que se acende a violência. A punição vai-se tornando, pois, a parte mais velada do processo penal, provocando várias consequências: deixa o campo da percepção quase diária e entra no da consciência abstrata; sua eficácia é atribuída à sua fatalidade, não à sua intensidade visível; a certeza de ser punido é que deve desviar o homem do crime e não mais o abominável teatro; a mecânica exemplar da punição muda as engrenagens. Michel Foucault. Vigiar e punir: nascimento da prisão. Tradução: Raquel Ramalhete. Petrópolis: Vozes, 1987 (com adaptações). Com relação aos aspectos linguísticos e aos sentidos do texto",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A segurança é direito social, fundamental e inviolável de todo cidadão brasileiro. O Estado, por meio dos órgãos elencados na Constituição Federal de 1988, é o principal responsável por buscar medidas para que seja concretizado o direito à segurança. Contudo, é importante ressaltar que o papel de promover o equilíbrio, de modo a evitar atitudes ameaçadoras e violentas, não compete somente ao Estado, visto que cada um deve ter consciência de suas escolhas e consequências. Daí se depreende a relevância da aplicabilidade de políticas públicas de segurança duradouras e eficazes.\n\nAna Luiza Fontoura Reis e Igor de Andrade Barbosa.\n\nA crise da segurança pública e sua relação direta\n\ncom o sistema carcerário brasileiro . In : Revista Jus Navigandi ,\n\nano 24, n.º 5776, abr./2019 (com adaptações). Considerando o assunto do texto anterior, julgue os itens que se seguem, relativos ao sistema prisional brasileiro, ao sistema penitenciário federal, às políticas públicas de segurança pública e cidadania e ao papel do sistema penitenciário nas políticas nacionais de segurança pública.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

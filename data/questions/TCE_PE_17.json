@@ -1121,7 +1121,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O teorema de Bernoulli pode ser aplicado entre os pontos A e E exatamente como foi postulado, pois a conservação de energia se mantém constante para qualquer uma das tubulações que interligue esses dois pontos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-083",
@@ -1132,7 +1133,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A perda de carga unitária tende ao seno da linha de carga efetiva à medida que a declividade da tubulação tende a zero e, para os condutos livres com fluxo em movimento uniforme, a perda de carga unitária representa a declividade real do conduto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-084",
@@ -1143,7 +1145,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem a atuação de forças externas, o fluxo de água na tubulação A-B”-C”-D”-E se mantém, devido, exclusivamente, à ação da Pa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-085",
@@ -1154,7 +1157,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho B-C-D do conduto A-B-C-D-E, atua uma pressão inferior à Pa que provoca a formação de uma bolsa gasosa no ponto C, o mais alto da tubulação. Se essa bolsa não for removida, ela crescerá até que a pressão interna do tubo se iguale à Pa enquanto a vazão diminuirá. Nesta situação, uma válvula de expulsão e admissão de ar instalada no ponto mais alto da tubulação restabeleceria a vazão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-086",
@@ -1165,7 +1169,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As linhas R1, R2, R3 e R4 representam, respectivamente, a linha de carga absoluta, a linha de carga efetiva, o plano de carga absoluto e o plano de carga efetivo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-087",
@@ -1275,7 +1280,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O nível d’água registrado próximo ao nível do terreno indica a ocorrência de artesianismo, o que prejudica qualquer atividade de terraplenagem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-098",
@@ -1286,7 +1292,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para confirmar o comportamento do subsolo apresentado no ponto 5 da figura, o estudo deverá ser ampliado, pois o resultado da sondagem poderia indicar também a presença de um matacão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-099",
@@ -1297,7 +1304,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Devido à existência de uma camada de argila mole no terreno, a falta de resistência à penetração da haste inviabiliza a execução adequada da sondagem à percussão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-100",
@@ -1308,7 +1316,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A vida útil de determinado equipamento é estimada pelo tempo correspondente ao cruzamento entre as curvas de depreciação e o custo de reparo, conforme indicado no gráfico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-101",
@@ -1319,7 +1328,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A apropriação de custos permite definir a vida útil de um equipamento de forma mais precisa do que a aplicação de tabelas de referência de fabricantes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-102",
@@ -1330,7 +1340,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Com referência ao comportamento dos custos de depreciação e de reparos apresentados no gráfico, a metodologia do SICRO2, na orçamentação de obras rodoviárias, considera, em suas composições de custos dos equipamentos, parcelas de custos variáveis, que mudam conforme a idade da frota.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-103",
@@ -2023,7 +2034,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A análise vertical do passivo da companhia Alfa evidencia que a soma do percentual obtido da razão entre passivo circulante e passivo total com o percentual obtido da razão entre patrimônio líquido e passivo total é menor que o percentual da razão entre passivo não circulante e passivo total.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2017-tcepe-analista-auditoria-contas-publicas-099",
@@ -2034,7 +2046,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os indicadores de endividamento sugerem que a companhia Alfa depende financeiramente de recursos de terceiros, pois somente 33,33% dos ativos são financiados por recursos próprios.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2017-tcepe-analista-auditoria-contas-publicas-100",
@@ -3805,7 +3818,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da informação veiculada no texto, seria mantida sua correção gramatical se o termo “proteção”, em “Não havia proteção contra as decisões da assembleia soberana” (R. 18 e 19), fosse substituído por mecanismos de proteção.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-tcepe-auditor-auditoria-contas-publicas-002",
@@ -3816,7 +3830,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Com o emprego das aspas na palavra ‘falha’ (R.17), o autor deixa explícita uma marca de opinião que interfere no sentido dessa palavra no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-tcepe-auditor-auditoria-contas-publicas-003",
@@ -3827,7 +3842,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o autor, no mundo contemporâneo há proporcionalmente mais participação política do que havia na democracia ateniense.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-tcepe-auditor-auditoria-contas-publicas-004",
@@ -3838,7 +3854,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O texto defende a ideia de que, com as revoluções modernas, aumentou a capacidade de defesa do indivíduo contra o Estado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-tcepe-auditor-auditoria-contas-publicas-005",
@@ -3849,7 +3866,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O autor emprega recursos do tipo textual narrativo para explicar o funcionamento da democracia direta ateniense.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-tcepe-auditor-auditoria-contas-publicas-006",
@@ -3860,7 +3878,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As formas pronominais em “ele salvara” (R.21) e “protegendo-o” (R.22) remetem ao mesmo referente: “Temístocles” (R.20).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-tcepe-auditor-auditoria-contas-publicas-007",
@@ -3871,7 +3890,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se do texto que, no que se refere à democracia e à cidadania, existem um plano que se pode denominar de formal e outro que se pode conceber como real.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-tcepe-auditor-auditoria-contas-publicas-008",
@@ -3882,7 +3902,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que, para o autor, o Estado não é o necessário agente indutor de cidadania e de democracia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-tcepe-auditor-auditoria-contas-publicas-009",
@@ -3893,7 +3914,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A tese central do autor pode ser resumida da seguinte forma: apenas com a efetividade dos direitos civis garante-se a efetividade da democracia.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-tcepe-auditor-auditoria-contas-publicas-010",
@@ -3904,7 +3926,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O autor apoia sua argumentação sobre a seguinte premissa: os diversos tipos de direitos (sociais, políticos e civis) são indistintos no que se refere à promoção da igualdade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-tcepe-auditor-auditoria-contas-publicas-011",
@@ -3915,7 +3938,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seriam mantidos a correção gramatical e os sentidos do texto caso a forma verbal “terem” (R.20) fosse substituída por existirem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-tcepe-auditor-auditoria-contas-publicas-012",
@@ -3926,7 +3950,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trecho ‘um patamar mínimo de igualdade entre os membros da sociedade’ (R. 37 e 38) exerce a função de complemento do verbo ‘existir’ (R.37).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-tcepe-auditor-auditoria-contas-publicas-013",
@@ -3937,7 +3962,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As expressões “cidadania integral” (R.28) e “democracia eleitoral” (R.30) foram empregadas no texto como sinônimos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-tcepe-auditor-auditoria-contas-publicas-014",
@@ -3948,7 +3974,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No último período do terceiro parágrafo, o trecho “ser o desafio das democracias de massa para obter legitimidade”, formado por duas orações coordenadas entre si, exerce a função sintática de sujeito da forma verbal “parece”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-tcepe-auditor-auditoria-contas-publicas-015",
@@ -3959,7 +3986,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Feitas as devidas alterações de maiúsculas e minúsculas e de pontuação, a expressão uma vez que poderia ser utilizada para ligar os dois períodos que compõem o quarto parágrafo do texto, sem prejuízo para seus sentidos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-tcepe-auditor-auditoria-contas-publicas-016",
@@ -4344,7 +4372,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da informação veiculada no texto, seria mantida sua correção gramatical se o termo “proteção”, em “Não havia proteção contra as decisões da assembleia soberana” (R. 18 e 19), fosse substituído por mecanismos de proteção.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-002",
@@ -4355,7 +4384,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Com o emprego das aspas na palavra ‘falha’ (R.17), o autor deixa explícita uma marca de opinião que interfere no sentido dessa palavra no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-003",
@@ -4366,7 +4396,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o autor, no mundo contemporâneo há proporcionalmente mais participação política do que havia na democracia ateniense.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-004",
@@ -4377,7 +4408,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O texto defende a ideia de que, com as revoluções modernas, aumentou a capacidade de defesa do indivíduo contra o Estado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-005",
@@ -4388,7 +4420,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O autor emprega recursos do tipo textual narrativo para explicar o funcionamento da democracia direta ateniense.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-006",
@@ -4399,7 +4432,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As formas pronominais em “ele salvara” (R.21) e “protegendo-o” (R.22) remetem ao mesmo referente: “Temístocles” (R.20).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-007",
@@ -4410,7 +4444,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se do texto que, no que se refere à democracia e à cidadania, existem um plano que se pode denominar de formal e outro que se pode conceber como real.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-008",
@@ -4421,7 +4456,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que, para o autor, o Estado não é o necessário agente indutor de cidadania e de democracia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-009",
@@ -4432,7 +4468,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A tese central do autor pode ser resumida da seguinte forma: apenas com a efetividade dos direitos civis garante-se a efetividade da democracia.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-010",
@@ -4443,7 +4480,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O autor apoia sua argumentação sobre a seguinte premissa: os diversos tipos de direitos (sociais, políticos e civis) são indistintos no que se refere à promoção da igualdade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-011",
@@ -4454,7 +4492,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seriam mantidos a correção gramatical e os sentidos do texto caso a forma verbal “terem” (R.20) fosse substituída por existirem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-012",
@@ -4465,7 +4504,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trecho ‘um patamar mínimo de igualdade entre os membros da sociedade’ (R. 37 e 38) exerce a função de complemento do verbo ‘existir’ (R.37).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-013",
@@ -4476,7 +4516,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As expressões “cidadania integral” (R.28) e “democracia eleitoral” (R.30) foram empregadas no texto como sinônimos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-014",
@@ -4487,7 +4528,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No último período do terceiro parágrafo, o trecho “ser o desafio das democracias de massa para obter legitimidade”, formado por duas orações coordenadas entre si, exerce a função sintática de sujeito da forma verbal “parece”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-015",
@@ -4498,7 +4540,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Feitas as devidas alterações de maiúsculas e minúsculas e de pontuação, a expressão uma vez que poderia ser utilizada para ligar os dois períodos que compõem o quarto parágrafo do texto, sem prejuízo para seus sentidos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-tcepe-auditoria-obras-publicas-016",
@@ -4883,7 +4926,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se do texto que a aplicação do princípio da transparência no âmbito da auditoria permite tornar públicos aspectos como gastos e a forma de prestação dos serviços.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-tcepe-analista-auditoria-contas-publicas-002",
@@ -4894,7 +4938,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O texto defende que o processo de auditoria, por se vincular à análise dos contratos e por levar em conta o princípio da equidade entre as partes, deva alhear-se da opinião de quem presta os serviços e de quem os recebe.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-tcepe-analista-auditoria-contas-publicas-003",
@@ -4905,7 +4950,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Ao afirmar que “A auditoria seria o primeiro capítulo da transparência na gestão” (R. 32 e 33), o autor presume que, sem a auditoria, é impossível a legitimação social dos atos decisórios dos administradores.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-tcepe-analista-auditoria-contas-publicas-004",
@@ -4916,7 +4962,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que o sucesso de uma empresa ou organização está relacionado a sua credibilidade perante a sociedade, o que, quanto à auditoria, se fundamenta na preservação da idoneidade ética.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-tcepe-analista-auditoria-contas-publicas-005",
@@ -4927,7 +4974,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que o princípio da equidade pressupõe que, tendo toda pessoa a mesma dignidade, ninguém pode ser discriminado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-tcepe-analista-auditoria-contas-publicas-006",
@@ -4938,7 +4986,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme o texto, a auditoria deve aferir a verdade dos fatos contábeis, devendo, assim, adotar uma política que favoreça precipuamente o interesse de empresas e organizações e dos particulares.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-tcepe-analista-auditoria-contas-publicas-007",
@@ -4949,7 +4998,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com os fundamentos filosóficos da auditoria, o gestor, no que se refere ao quesito transparência, deve agir de modo que a motivação de sua ação possa se tornar pública e a norma que inspira essa ação possa se tornar universal, passível de ser aproveitada por todos os cidadãos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-tcepe-analista-auditoria-contas-publicas-008",
@@ -4960,7 +5010,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sentido original e a correção gramatical do texto seriam preservados caso o trecho “O princípio da equidade, uma ampliação do princípio da dignidade feita pela Organização das Nações Unidas, em sua Carta de 1946, diz que todo ser humano possui a mesma dignidade e deve ser tratado com igual consideração e respeito” (R. 16 a 20) fosse assim reescrito: Em sua Carta de 1946, a Organização das Nações Unidas ampliou o princípio da dignidade ao estabelecer o princípio da equidade, segundo o qual todo ser humano tem a mesma dignidade e deve ser tratado igualmente com consideração e respeito.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-tcepe-analista-auditoria-contas-publicas-009",
@@ -4971,7 +5022,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do primeiro parágrafo, a oração introduzida pela preposição “para” (R.6) introduz a finalidade da cobrança de valores nos contratos analisados na auditoria.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-tcepe-analista-auditoria-contas-publicas-010",
@@ -4982,7 +5034,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No período “Assim, os negócios escusos, a corrupção, a gatunagem, os procedimentos ilícitos fogem da luz da divulgação como os vampiros da luz do Sol” (R. 24 a 27), a expressão “da luz”, em ambas as ocorrências, exerce funções gramaticais distintas, embora tenha sido empregada com o mesmo sentido.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-tcepe-analista-auditoria-contas-publicas-011",
@@ -4993,7 +5046,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sentido original e a correção gramatical do texto seriam preservados caso a expressão “em vigor” (R.3) fosse substituída por vigente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-tcepe-analista-auditoria-contas-publicas-012",
@@ -5004,7 +5058,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical do texto e das informações nele veiculadas, a forma verbal “seja” (R.7) poderia ser substituída por seria.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-tcepe-analista-auditoria-contas-publicas-013",
@@ -5015,7 +5070,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seriam mantidos a correção gramatical e os sentidos originais do texto caso o trecho “o princípio da dignidade, o da equidade e o da transparência” (R. 12 e 13) fosse reescrito da seguinte forma: o princípio da dignidade, equidade e transparência.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-tcepe-analista-auditoria-contas-publicas-014",
@@ -5026,7 +5082,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os sentidos originais do texto seriam alterados caso fosse suprimida a vírgula empregada imediatamente após “serviços” (R.5).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-tcepe-analista-auditoria-contas-publicas-015",
@@ -5037,7 +5094,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e as relações de coesão do texto seriam mantidas caso o pronome “essa” (R.37) fosse substituído por ela.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-tcepe-analista-auditoria-contas-publicas-016",
@@ -5411,7 +5469,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, controle, fiscalização e, principalmente, legalidade são pilares da administração pública e assombram os entes públicos que buscam qualidade e celeridade na gestão pública, já que se gasta tempo na análise das contas pelos tribunais especializados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2017-tcepe-administracao-003",
@@ -5422,7 +5481,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo o autor, tanto o administrador público quanto o privado submetem-se aos ditames e aos preceitos legais que estabelecem critérios para a aprovação de suas contas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2017-tcepe-administracao-004",
@@ -5433,7 +5493,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sentido original e a correção gramatical do texto seriam preservados se o trecho “que tem seus principais pilares fincados na persecução do bem comum” (R. 4 e 5) fosse assim reescrito: cujos pilares principais se assentam na busca do bem comum.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2017-tcepe-administracao-005",
@@ -5444,7 +5505,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A oração “que as suas contas sejam analisadas à luz da estrita legalidade” (R. 13 e 14) exerce a função de complemento do adjetivo “necessário” (R.13).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2017-tcepe-administracao-006",
@@ -5455,7 +5517,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A substituição do trecho “à publicidade dos gastos” (R.13) por na publicidade manteria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2017-tcepe-administracao-007",
@@ -5477,7 +5540,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seriam mantidos o sentido original e a correção gramatical do texto caso a forma verbal “Inexistindo” (R.6) e o trecho “não estando” (R.7) fossem substituídos, respectivamente, por Se inexiste e se não está. 1 O princípio constitucional da eficiência exige do administrador público não apenas a execução de políticas públicas, mas, acima de tudo, a valorização do bem comum, 4 com menos esforço, com menos custo e com melhores resultados. Assim, caminha-se em direção ao controle do mérito das atividades governamentais. Quando se anula um contrato 7 ou se edita medida preventiva, impedindo-se a sua consumação por ser antieconômica, afirma-se que os benefícios decorrentes do projeto ou da ação governamental não justificam os custos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2017-tcepe-administracao-009",
@@ -5488,7 +5552,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, a partícula “se”, em todas as suas ocorrências, foi empregada para indeterminar o sujeito das orações em que ocorre.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2017-tcepe-administracao-010",
@@ -5499,7 +5564,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os sentidos do texto seriam preservados caso os vocábulos “utilidade” (R.20) e “sacrifício” (R.21) fossem substituídos, respectivamente, por vantagem e esforço.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2017-tcepe-administracao-011",
@@ -5510,7 +5576,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A supressão das vírgulas que isolam o trecho “orientada por princípios de racionalidade” (R.15) alteraria o sentido original do período em que esse trecho se insere.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2017-tcepe-administracao-012",
@@ -5521,7 +5588,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Na linha 12, a substituição do ponto e vírgula por ponto final prejudicaria a correção gramatical do trecho, ainda que a letra inicial de “consequentemente” fosse ajustada para maiúscula.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2017-tcepe-administracao-013",
@@ -5532,7 +5600,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O texto defende a ideia de que o controle e a fiscalização dos gastos públicos garantem não só a legalidade dos processos, mas também o melhor uso dos recursos públicos, de forma a beneficiar a sociedade, principalmente a parcela mais carente da população.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2017-tcepe-administracao-014",
@@ -5543,7 +5612,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que a má gestão pública é responsável por ações antieconômicas e pela redução da eficiência na execução de projetos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2017-tcepe-administracao-015",
@@ -5554,7 +5624,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sentido original do texto seria preservado caso o primeiro parágrafo fosse reescrito da seguinte forma: O administrador público é responsável pela execução de políticas públicas que atendam aos preceitos do princípio constitucional da eficiência, ou seja, por valorizar o bem comum com pouco esforço e custo e muitos resultados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2017-tcepe-administracao-016",
@@ -5928,7 +5999,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, a disciplina políticas públicas surgiu embasada na teoria de Madison, que prioriza o estudo das estruturas institucionais e das formas de controle da natureza humana.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2017-tcepe-julgamento-002",
@@ -5939,7 +6011,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O texto apresenta determinadas áreas de conhecimento a partir de uma relação hierárquica: a avaliação é subárea da política pública, que, por sua vez, é um ramo da ciência política.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2017-tcepe-julgamento-003",
@@ -5950,7 +6023,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A oração “que se concentravam, então, mais na análise sobre o Estado e suas instituições do que na produção dos governos” (R. 8 a 10) introduz, no período em que ocorre, além de uma explicação sobre “estudos e pesquisas nessa área” (R. 7 e 8), uma comparação.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2017-tcepe-julgamento-004",
@@ -5961,7 +6035,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sentido original e a correção gramatical do texto seriam preservados caso o primeiro parágrafo fosse reescrito da seguinte maneira: A relevância da área de conhecimento chamado políticas públicas, bem como das instituições, regras e modelos pelo os quais são regidos sua decisão, elaboração, implementação e avaliação, teve nas últimas décadas, o registro de seu ressurgimento.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2017-tcepe-julgamento-005",
@@ -5972,7 +6047,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A introdução da preposição por imediatamente após “denominado” (R.2) manteria o sentido e a correção gramatical do texto, além de imprimir-lhe mais clareza.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2017-tcepe-julgamento-006",
@@ -5983,7 +6059,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Feitos os devidos ajustes de maiúsculas e minúsculas, a substituição do ponto final empregado logo após “pesquisas” (R.44) por ponto e vírgula manteria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2017-tcepe-julgamento-007",
@@ -5994,7 +6071,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seriam mantidos o sentido original do texto e sua correção gramatical caso o trecho “a ela não se resume” (R.36) fosse substituído por não lhe resume.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2017-tcepe-julgamento-008",
@@ -6005,7 +6083,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo do texto, o autor continua sua interpretação da frase de Guimarães Rosa ‘o animal satisfeito dorme’ (R. 1 e 2), estabelecendo um contraste entre a letargia da satisfação e noções que representam movimento e vitalidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-tcepe-julgamento-009",
@@ -6016,7 +6095,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Apesar do uso de formas masculinas no plural, como “absortos” (R.22), são utilizados recursos linguísticos para a marcação da presença feminina no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-tcepe-julgamento-010",
@@ -6027,7 +6107,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o sexto e sétimo parágrafos do texto, só envelhece quem não se aprimora, quem se desgasta preso ao presente e às situações desconhecidas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-tcepe-julgamento-011",
@@ -6038,7 +6119,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No trecho “rendendo-se” (R.8), o pronome “se” indica que o sujeito dessa forma verbal é indeterminado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-tcepe-julgamento-012",
@@ -6049,7 +6131,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A expressão “Ainda bem” (R.28) contribui para imprimir um tom formal ao parágrafo em que aparece.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-tcepe-julgamento-013",
@@ -6060,7 +6143,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo dos sentidos originais e da correção gramatical do texto, o trecho “Diante dessa realidade, deve-se questionar a ideia de que uma pessoa, quanto mais vive, mais velha fica” (R. 30 e 31) poderia ser reescrito da seguinte maneira: Frente à essa realidade, não se deve acreditar na ideia que uma pessoa vive mais à medida em que envelhece.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-tcepe-julgamento-014",
@@ -6071,7 +6155,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sentido original do trecho “aliás, como falou o mesmo Guimarães” (R. 40 e 41) seria alterado caso a palavra “mesmo” fosse deslocada para antes do vocábulo “o” — aliás, como falou mesmo o Guimarães.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-tcepe-julgamento-015",
@@ -6082,7 +6167,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O ponto e vírgula empregado na linha 35 poderia ser substituído por dois-pontos, sem prejuízo para os sentidos e para a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-tcepe-julgamento-016",
@@ -6446,6 +6532,74 @@
    "tipo": "certo_errado",
    "enunciado": "A participação da população na formulação de políticas públicas foi uma premissa adotada na década de 90 do século passado, no contexto da gestão pública centralizada, atualmente considerada ultrapassada.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "O estudo da geometria das tubulações é fundamental para garantir o fluxo de água nas estruturas hidráulicas. Nesse sentido, tendo como base a figura precedente, considere os reservatórios de água R e R , as linhas R , R , R e R e o desenvolvimento dos condutos fechados A-E, A-B-C-D-E, A-B”-C”-D”-E e A-B”-C”-D”-E em 1 2 1 2 3 4 relação às referidas linhas, em que a pressão atmosférica (Pa) é a",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Antes de iniciar os trabalhos, o engenheiro responsável pela execução de uma obra de terraplenagem observou que a sondagem à percussão realizada no ponto 5 havia gerado uma mudança de perfil de subsolo, representado na figura precedente. A respeito do ensaio realizado e do perfil apresentado do subsolo, julgue os itens a seguir, considerando que o solo acima da rocha foi classificado como argila mole e que a protuberância está a 5 m do nível do terreno.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Manual de custos rodoviários do DNIT. Metodologias e conceitos. SICRO-2. v.1. p. 44. O gráfico precedente representa a evolução de parte do custo horário de um equipamento durante sua vida útil. Considerando esse gráfico e os conceitos relacionados aos custos de depreciação",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "No final do primeiro semestre de 2017, a companhia Alfa possuía R$ 20,4 milhões em recursos a sua disposição e patrimônio líquido de R$ 6,8 milhões. Em relação ao endividamento dessa empresa, um analista financeiro apresentou o gráfico precedente. A partir das informações e do gráfico apresentados, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Renato Janine Ribeiro. Os direitos humanos e a democracia . In : Valor Econômico . 7/1/2013. Internet: <www.valor.com.br> (com adaptações). Com relação às ideias e aos aspectos linguísticos do texto",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CB1A1",
+   "conteudo": "Eduardo José Grin. Democracia e direitos civis: um debate necessário . In : Revista Videre , Dourados, MS, ano 1, n.º 1, jan. – jun./2009. Internet: <www.researchgate.net> (com adaptações). Com referência às ideias do texto CB1A1AAA, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CB2A1",
+   "conteudo": "Ricardo Vélez Rodríguez. Auditoria, fundamentos éticos . In : Auditoria, uma abordagem interdisciplinar: aspectos relevantes para o setor público . Anais da V Jornada Brasileira de Controle Interno. Rio de Janeiro, dez./2003, p. 32. Internet: <www.rio.rj.gov.br> (com adaptações).\n\nNo que se refere às ideias do texto CB2A1AAA, julgue os itens a\n\nseguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "José Fernandes de Lemos. A importância do Tribunal de Contas para a gestão pública . In : Revista TCE-PE , v. 18, p. 19-23, jun./2011 (com adaptações). Em relação às ideias e às estruturas linguísticas do texto",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Idem . Ibidem . Julgue os próximos itens, relativos a aspectos linguísticos e às ideias do texto precedente.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Celina Souza. Políticas públicas: uma revisão da literatura . In : Sociologias . Ano 8, n.º 16, Porto Alegre, jul. – dez./2006, p. 20-45 (com adaptações). Com relação às ideias e às estruturas linguísticas do texto",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Mario Sérgio Cortella. Não nascemos prontos! Provocações filosóficas . Petrópolis, RJ: Vozes, 2006, p. 11-13 (com adaptações). ! F i m D o T e x t o ! Com relação às ideias e aos aspectos linguísticos do texto",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

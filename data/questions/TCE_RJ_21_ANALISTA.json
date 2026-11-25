@@ -578,7 +578,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No contexto da engenharia de requisitos, a matriz de rastreabilidade é um artefato da rastreabilidade de requisitos que descreve a relação entre os requisitos e outros artefatos da engenharia de software , indicando a presença de um vínculo entre esses requisitos e os artefatos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-156",
@@ -655,7 +656,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A tabela a seguir mostra dados de uma aplicação: aplicação — tipo — complexidade — quantidade: ALI — baixa — 1; AIE — baixa — 2; SE — média — 3; EE — média — 4. Considerando os valores da tabela precedente, julgue os itens a seguir, em relação a métricas e estimativas de software. Para a aplicação em questão, caso se utilize a análise de pontos de função (APF), o tamanho de pontos de função sem fator de ajuste será 48.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-165",
@@ -666,7 +668,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A tabela a seguir mostra dados de uma aplicação: aplicação — tipo — complexidade — quantidade: ALI — baixa — 1; AIE — baixa — 2; SE — média — 3; EE — média — 4. Considerando os valores da tabela precedente, julgue os itens a seguir, em relação a métricas e estimativas de software. Para a aplicação em tela, utilizando-se a medição estimativa baseada no método da NESMA, o tamanho de pontos de função sem fator de ajuste é superior a 47.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-166",
@@ -1062,7 +1065,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No texto, o autor dedica-se a denunciar as falhas do sistema democrático.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-002",
@@ -1073,7 +1077,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A democracia lança mão das limitações dos saberes humanos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-003",
@@ -1084,7 +1089,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto é iniciado com a advertência de que o domínio da inteligência artificial representa risco à democracia, ainda que isso se dê de forma diversa da representada na ficção.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-004",
@@ -1095,7 +1101,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro parágrafo, o autor defende que os avanços da IA tornaram a democracia obsoleta, ao superarem as incongruências desse sistema político.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-005",
@@ -1106,7 +1113,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do primeiro parágrafo do texto que o autor considera o conflito de ideias como algo inerente à política.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-006",
@@ -1117,7 +1125,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O último parágrafo do texto demonstra que a opinião do autor harmoniza-se com o entusiasmo dos intelectuais do Vale do Silício.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-007",
@@ -1128,7 +1137,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, depreende-se do emprego de “tem se mostrado” que a capacidade do sistema democrático de “aproveitar nossas imperfeições” remonta ao passado e permanece no presente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-008",
@@ -1139,7 +1149,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do último parágrafo, as formas verbais “reajustariam” e “revisariam” expressam ações que estavam prestes a acontecer no passado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-009",
@@ -1150,7 +1161,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do terceiro parágrafo, a forma pronominal “sua” tem como referente o termo “essa corrente”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-010",
@@ -1161,7 +1173,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do primeiro parágrafo, o emprego do sinal indicativo de crase no vocábulo “à” é facultativo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-011",
@@ -1172,7 +1185,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do primeiro parágrafo, o segmento “de que é sobretudo por meio da deliberação e do debate que expressamos nossa aprovação e nosso descontentamento” complementa o termo “pressupostos”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-012",
@@ -1183,7 +1197,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do terceiro parágrafo, o vocábulo “afinal” confere sentido conclusivo à oração que introduz.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-013",
@@ -1194,7 +1209,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do terceiro parágrafo, a forma verbal “contribuíram” estabelece concordância com o termo “operações massivas de coleta de dados”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-014",
@@ -1205,7 +1221,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, o sinal de dois-pontos introduz uma explicação.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-015",
@@ -1216,7 +1233,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro parágrafo, o adjetivo “tecnocrata” (segundo período) qualifica o termo “pensamento político” (primeiro período).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-016",
@@ -1227,7 +1245,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do terceiro parágrafo, a substituição da palavra “âmago” por cerne manteria os sentidos e a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-017",
@@ -1238,7 +1257,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do texto, caso o pronome “se”, na expressão “se preocupar”, fosse deslocado para depois do verbo, escrevendo-se preocupar-se , a correção gramatical do texto seria mantida.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-018",
@@ -1249,7 +1269,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último período do texto, a substituição de “até exaltam” por chegam a exaltar manteria a correção gramatical e a coerência do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-019",
@@ -1260,7 +1281,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência do texto seriam preservadas se o primeiro período do primeiro parágrafo fosse reescrito da seguinte forma: Há motivos para se preocupar com a sobrevivência da democracia em um mundo dominado pela inteligência artificial, mesmo sem temer as máquinas à maneira do Exterminador do futuro .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-020",
@@ -1271,7 +1293,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e os sentidos do texto seriam preservados se, no final do segundo parágrafo, o trecho “a fim de evitar sermos arrastados pelos vínculos do fanatismo e do perfeccionismo” fosse reescrito da seguinte forma: com a intensão de impedir que sejamos atraídos pelo fanatismo e perfeccionismo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-021",
@@ -1282,7 +1305,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, o discurso caracteriza-se por pretender gerar impacto no público ao qual se destina.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-022",
@@ -1293,7 +1317,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se do texto que, deixando de lado o foco na eloquência, atualmente a retórica volta à sua vocação original, como fruto das reflexões que se desenvolvem na era da democracia e da comunicação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-023",
@@ -1304,7 +1329,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto informa que, já na Antiguidade, o discurso era relacionado à retórica, uma teoria da fala eficaz e uma arte de persuadir.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-024",
@@ -1315,7 +1341,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, a visada argumentativa de um discurso e a sua dimensão argumentativa são duas características indissociáveis e de igual importância no estudo e na compreensão dos discursos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-025",
@@ -1326,7 +1353,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do presente do indicativo no primeiro parágrafo tem a finalidade de aproximar o leitor do exato momento em que a autora escrevia o texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-026",
@@ -1337,7 +1365,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do texto, o termo “da palavra” complementa o sentido do substantivo “uso”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-027",
@@ -1348,7 +1377,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do primeiro parágrafo, a eliminação do vocábulo “a”, em todas as suas ocorrências, não prejudicaria a correção gramatical do texto, mas implicaria mudança de sentido.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-028",
@@ -1359,7 +1389,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último período do segundo parágrafo, o vocábulo “que”, em suas duas ocorrências, tem a função coesiva de retomar a palavra que imediatamente o antecede — na primeira ocorrência, retoma “objetivo”, e na segunda, “reflexões”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-029",
@@ -1370,7 +1401,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem alteração dos sentidos do texto, a oração “das quais se percebe facilmente a importância na prática social” (primeiro período do segundo parágrafo) poderia ser reescrita corretamente da seguinte maneira: cuja importância na prática social é facilmente percebida.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-030",
@@ -1381,7 +1413,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na oração “ao longo da qual os homens da cidade se iniciavam na arte de persuadir” (segundo período do segundo parágrafo), a posição proclítica do pronome “se” justifica-se pela flexão de tempo na forma verbal “iniciavam”, que determina o uso obrigatório da próclise.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-031",
@@ -1392,7 +1425,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto concebe as pseudociências como ciências em si mesmas, na medida em que explicita que elas evitam, em sua metodologia de trabalho, o confronto de suas hipóteses com hipóteses alternativas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-032",
@@ -1403,7 +1437,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, a abertura à refutação de hipóteses formuladas é uma prática constante na metodologia de trabalho da ciência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-033",
@@ -1414,7 +1449,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conforme se explicita no texto, a ciência só prospera quando elimina todos os erros.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-034",
@@ -1425,7 +1461,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro parágrafo, o trecho “Conclusões falsas são tiradas todo o tempo, mas elas constituem tentativas” representa uma das características da pseudociência que a torna diferente da ciência.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-035",
@@ -1436,7 +1473,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a correção gramatical do texto caso a forma verbal “difere” (primeiro período do primeiro parágrafo) estivesse acompanhada do pronome se — escrevendo-se difere-se ou se difere .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-037",
@@ -1447,7 +1485,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A oração “de modo a poderem ser refutadas” (quarto período do primeiro parágrafo) expressa circunstância de finalidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-038",
@@ -1458,7 +1497,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A supressão da vírgula presente logo após a palavra “erro” (segundo período do terceiro parágrafo) prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-039",
@@ -1469,7 +1509,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “Conclusões falsas são tiradas todo o tempo, mas elas constituem tentativas” (primeiro parágrafo), o teor da oração introduzida pelo vocábulo “mas” atenua a força argumentativa do conteúdo da primeira oração.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-040",
@@ -1480,7 +1521,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “podemos ter quase certeza de que o erro nos acompanhará para sempre” (terceiro parágrafo), o pronome “nos” funciona como complemento da forma verbal “acompanhará”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-041",
@@ -1491,7 +1533,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It can be inferred from the text that the SAO keeps certain issues secret to avoid endangering security.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-042",
@@ -1502,7 +1545,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word state has the same meaning in the first and in the second sentences of the first paragraph.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-043",
@@ -1513,7 +1557,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “reliant” (in the second sentence of the first paragraph) could be correctly replaced by dependent without any change in the meaning of the text.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-044",
@@ -1524,7 +1569,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "In the second paragraph, the word “audit” is synonymous with audition .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-045",
@@ -1535,7 +1581,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “Therefore” (in the fourth sentence of the second paragraph) could be correctly replaced by Henceforth without any change in the meaning of the text.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-046",
@@ -1546,7 +1593,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "New online safety laws in the United Kingdom could send tech company leaders to jail.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-047",
@@ -1557,7 +1605,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "One of the objectives of the new legislation is to cease social media operations.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-048",
@@ -1568,7 +1617,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Lawmakers have always been supportive of the online safety legislation.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-049",
@@ -1579,7 +1629,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The expression “bipartisan support” (third paragraph) means a support by two political parties.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-050",
@@ -1590,7 +1641,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The new version of the bill includes large amounts of fines if the company disobeys certain rules.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-051",
@@ -1601,7 +1653,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ofcom receives money from the government to collect information from companies.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-052",
@@ -1612,7 +1665,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Everyone supports the updated version of the bill.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-053",
@@ -1623,7 +1677,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The expression “Draft legislation” (second paragraph) means that the laws are not in their final form.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-054",
@@ -1634,7 +1689,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “liable” (at the end of the first sentence of the seventh paragraph) could be correctly replaced by liar without changing the meaning of the text.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-055",
@@ -1645,7 +1701,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "In the second sentence of sixth paragraph, the pronoun “they” refers to “The Office of Communications”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-056",
@@ -1656,7 +1713,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The noun “revenues” (at the end of the text) could be correctly replaced by renewals without any change in the meaning of the sentence.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-057",
@@ -1667,7 +1725,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The study aims at examining citizens’ access to government financial information.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-058",
@@ -1678,7 +1737,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “Despite” (in the third sentence) is synonymous with In spite of .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-059",
@@ -1689,7 +1749,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "In “State and local governments regularly disclose financial information” the verb “disclose” is close in meaning to make something known publicly .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-060",
@@ -1700,7 +1761,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The study shows that citizens’ perception of disclosed financial information is essentially shaped by fiscal stress.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2021-tce-rj-analista-controle-externo-ti-061",
@@ -2141,6 +2203,50 @@
    "tipo": "certo_errado",
    "enunciado": "Os conselheiros do Tribunal de Contas do Estado do Rio de Janeiro, ainda que em disponibilidade, não poderão exercer outra função pública ou qualquer profissão remunerada, nem receber, a qualquer título ou pretexto, participação nos processos, tampouco dedicar-se a atividade político-partidária, sob pena de perda do cargo.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Considerando a figura precedente como referência inicial, julgue os itens a seguir, em relação à engenharia de requisitos.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "aplicação tipo complexidade quantidade ALI baixa 1 AIE baixa 2 SE média 3 EE média 4 Considerando os valores da tabela precedente, julgue os itens a seguir, em relação a métricas e estimativas de software .",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CB1A1",
+   "conteudo": "Não é preciso temer as máquinas, à maneira do Exterminador do futuro , para se preocupar com a sobrevivência da democracia em um mundo dominado pela inteligência artificial (IA). No fim das contas, a democracia sempre teve como alicerces os pressupostos de que nosso conhecimento do mundo é imperfeito e incompleto; de que não há resposta definitiva para grande parte das questões políticas; e de que é sobretudo por meio da deliberação e do debate que expressamos nossa aprovação e nosso descontentamento. Em certo sentido, o sistema democrático tem se mostrado capaz de aproveitar nossas imperfeições da melhor maneira: uma vez que de fato não sabemos tudo, e tampouco podemos testar empiricamente todas as nossas suposições teóricas, estabelecemos certa margem de manobra democrática, uma folga política, em nossas instituições, a fim de evitar sermos arrastados pelos vínculos do fanatismo e do perfeccionismo. Agora, novas melhorias na IA, viabilizadas por operações massivas de coleta de dados, aperfeiçoadas ao máximo por grupos digitais, contribuíram para a retomada de uma velha corrente positivista do pensamento político. Extremamente tecnocrata em seu âmago, essa corrente sustenta que a democracia talvez tenha tido sua época, mas que hoje, com tantos dados à nossa disposição, afinal estamos prestes a automatizar e simplificar muitas daquelas imperfeições que teriam sido — deliberadamente — incorporadas ao sistema político. Dessa forma, podemos delegar cada vez mais tarefas a algoritmos que, avaliando os resultados de tarefas anteriores e quaisquer alterações nas predileções individuais e nas curvas de indiferença, se reajustariam e revisariam suas regras de funcionamento. Alguns intelectuais proeminentes do Vale do Silício até exaltam o surgimento de uma “regulação algorítmica”, celebrando-a como uma alternativa poderosa à aparentemente ineficaz regulação normal.",
+   "citacao": "Evgeny Morozov. Big Tech . A ascensão dos dados e a morte da política. São Paulo: Ubu Editora, 2018, p. 138-139 (com adaptações).",
+   "imagem": false
+  },
+  {
+   "ref": "CB1A2",
+   "conteudo": "O uso da palavra está, necessariamente, ligado à questão da eficácia. Visando a uma multidão indistinta, a um grupo definido ou a um auditório privilegiado, o discurso procura sempre produzir um impacto sobre seu público. Esforça-se, frequentemente, para fazê-lo aderir a uma tese: ele tem, então, uma visada argumentativa. Mas o discurso também pode, mais modestamente, procurar modificar a orientação dos modos de ver e de sentir: nesse caso, ele tem uma dimensão argumentativa. Como o uso da palavra se dota do poder de influenciar seu auditório? Por quais meios verbais, por quais estratégias programadas ou espontâneas ele assegura a sua força? Essas questões, das quais se percebe facilmente a importância na prática social, estão no centro de uma disciplina cujas raízes remontam à Antiguidade: a retórica. Para os antigos, a retórica era uma teoria da fala eficaz e também uma aprendizagem ao longo da qual os homens da cidade se iniciavam na arte de persuadir. Com o passar do tempo, entretanto, ela tornou-se, progressivamente, uma arte do bem dizer, reduzindo-se a um arsenal de figuras. Voltada para os ornamentos do discurso, a retórica chegou a se esquecer de sua vocação primeira: imprimir ao verbo a capacidade de provocar a convicção. É a esse objetivo que retornam, atualmente, as reflexões que se desenvolvem na era da democracia e da comunicação.",
+   "citacao": "Ruth Amosy. A argumentação no discurso . São Paulo: Editora Contexto, 2018, p. 7 (com adaptações).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Information technology (IT) serves a critical role in state operations. State agencies and higher education institutions are increasingly reliant on the automated processing of information. It is important that the IT applications that process information have controls to ensure and protect the accuracy, integrity, reliability, and confidentiality of the State’s information. Due to the increased reliance on IT applications, a significant portion of the audits the State Auditor’s Office (SAO) performs include an IT component. Auditors select IT controls for testing during an audit based on a risk assessment. The risk assessment considers, among other factors, the objectives and scope of the audit. Therefore, the SAO does not test all IT controls in every audit, with the high-risk and high-impact IT controls being tested more frequently. In addition, to minimize security risks, the SAO does not publicly report sensitive IT audit issues, in accordance with the Texas Government Code, Section 552.139.\n\nTexas state auditor’s office report . Internet: <sao.texas.gov> (adapted). Judge the following items considering the text above and the vocabulary used in it .",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Leaders at tech companies around the world could face up to two years in prison in the United Kingdom if they do not comply with new online safety laws. Draft legislation aims to crack down on social media and other online entities to ensure safety and privacy for users, particularly children. The laws were drafted to prevent uploading and spreading of harmful content such as racism, bullying, fraud and sexual abuse. While the legislation has been criticized by Parliament members in the past, the new draft has received bipartisan support. The bill has to be voted on by British lawmakers. The legislation has been updated several times since its inception. Among the changes are hefty fines or blockages if networks fail to remove harmful content after being notified of its existence, as well as the labeling of sending unsolicited nudes as a criminal offense. The fines could be up to 10 percent of the affected company’s annual global income. The Office of Communications (Ofcom), the bill’s regulator, has been granted legal grounds to request information from companies they suspect of not following the bill’s rules. If Ofcom is able to prove that the companies withheld information or have not responded properly to notifications of inappropriate or illegal content, the executives would be held criminally liable. This part of the law will be enforced two months after the law itself is enacted, meaning companies and websites will have time to crack down on their content before facing legal consequences.\n\nSome U.K. residents have pushed back against the new\n\nversion of the bill, including memes from the Open Rights\n\nGroup. The organization claims that, despite good intentions, the\n\nregulations could result in a slippery slope that could end up\n\nviolating free speech.\n\nInternet:<www.newsweek.com> (adapted).\n\nConsidering the text presented above and the vocabulary used in",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "State and local governments regularly disclose financial information to the public so that the current financial status of the government is recognized publicly. The purpose of such disclosure is to achieve accountability and inform citizens about governments’ financial decisions. Despite the efforts to improve the accessibility and readability of financial information, we do not know whether and how the financial information is processed by citizens. This study investigates how citizens assess the financial condition of governments when different financial information is presented. We conduct an online survey experiment to understand how disclosed financial information shapes citizens’ perceived level of a government’s fiscal stress and their attitudes toward governments’ revenue-raising strategies. We find that citizens prioritize the financial indicators that they are familiar with, such as debt and surplus ratios. While both historical and social reference points play an important role, social reference is more effective in influencing citizens’ perception. We only find limited evidence to support the relationship between citizens’ perception of fiscal stress and their support toward governments’ decisions to raise revenues.\n\nInternet: <www.sciencedirect.com> (adapted). Based on the text above and the vocabulary used in it, judge the following items.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

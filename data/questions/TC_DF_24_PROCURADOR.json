@@ -1774,7 +1774,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Por meio de lei de iniciativa do respectivo Poder Executivo, a União, os estados, o DF e os municípios devem instituir regime de previdência complementar para seus servidores públicos ocupantes de cargo efetivo, observado o limite máximo dos benefícios do RGPS para o valor das aposentadorias e das pensões em RPPS.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-procurador-166",
@@ -1785,7 +1786,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É vedada a criação de mais de um RPPS e de mais de um órgão ou entidade gestora desse regime em cada ente federativo, ficando a cargo de lei complementar estadual estabelecer, entre outros aspectos, as normas gerais de organização, de funcionamento e de responsabilidade da gestão já existente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-procurador-167",
@@ -1796,7 +1798,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A contagem recíproca do tempo de contribuição entre o RGPS e os RPPS, e destes entre si, é garantida ao segurado, para fins de aposentadoria, quando houver necessidade de computar períodos de contribuição ou atividade sujeitos a regimes previdenciários distintos, devendo ser observada a compensação financeira entre eles, de acordo com os critérios estabelecidos em lei.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-procurador-168",
@@ -1807,7 +1810,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O RGPS aplica-se ao agente público que ocupa exclusivamente cargo em comissão declarado em lei de livre nomeação e exoneração ou outro cargo temporário, podendo este ser, por exemplo, mandato eletivo ou emprego público.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-procurador-169",
@@ -1818,7 +1822,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É permitida a filiação ao RGPS, na qualidade de segurado facultativo, de pessoa participante de RPPS.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-procurador-170",
@@ -1829,7 +1834,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A lei pode estabelecer contagem de tempo de contribuição fictício, para fins de concessão de aposentadoria ou contagem recíproca de tempo de contribuição.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-procurador-171",
@@ -2149,6 +2155,14 @@
    "tipo": "certo_errado",
    "enunciado": "O descumprimento de decisão judicial que tenha deferido medida protetiva de urgência à mulher vítima de violência doméstica sujeita o infrator à pena de reclusão.",
    "gabarito": "certo"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Julgue os itens a seguir, relativos ao Regime Geral de Previdência Social (RGPS), aos regimes próprios de previdência social (RPPS) e à previdência complementar, conforme disposto no texto constitucional.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

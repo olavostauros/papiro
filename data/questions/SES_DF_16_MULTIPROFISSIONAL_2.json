@@ -424,7 +424,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso clínico, a taquicardia e a redução do débito urinário levaram à diminuição do sódio sérico, já que o mecanismo envolvido relaciona-se à síndrome da secreção inapropriada do hormônio antidiurético.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-basica-enfermagem-035",
@@ -435,7 +436,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A sondagem vesical de alívio é o procedimento mais indicado para controlar o débito urinário dessa paciente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-basica-enfermagem-036",
@@ -446,7 +448,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entre as medidas que devem ser tomadas para o tratamento dessa paciente incluem-se monitorização do quadro neurológico, verificação dos sinais vitais, realização de balanço hídrico, monitoramento frequente dos eletrólitos e infusão de solução fisiológica, caso prescrito.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-basica-enfermagem-037",
@@ -457,7 +460,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A causa mais provável das alterações neurológicas apresentadas pela paciente pode ser a hiponatremia, decorrente da síndrome cerebral perdedora de sal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-basica-enfermagem-038",
@@ -809,7 +813,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para que a ondansentrona seja administrada por via parental, em caso de tratamento de pacientes com impossibilidade de deglutição, poderá ser usado o comprimido diluído em água ou em soro fisiológico na forma injetável.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-basica-farmacia-020",
@@ -820,7 +825,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nos casos de ajuste de dosagem, a partição do comprimido é indesejada, por acelerar a desintegração e o efeito do medicamento bem como ocasionar, em algumas situações, efeitos tóxicos aos pacientes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-basica-farmacia-021",
@@ -831,7 +837,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "atua como agente emulsificante, espessante e estabilizante, propiciando consistência à emulsão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-basica-farmacia-022",
@@ -842,7 +849,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "é um ácido graxo, que, devido ao seu caráter oleoso, ficará dissolvido na fase oleosa da emulsão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-basica-farmacia-023",
@@ -853,7 +861,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O medicamento A apresenta-se na forma em pó ou granulada, haja vista que comprimidos têm conteúdo compactado que dificulta a rápida dissolução do fármaco.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-basica-farmacia-024",
@@ -864,7 +873,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O medicamento B apresenta-se na forma de drágea, com revestimento açucarado, que permite o controle da liberação do fármaco em meio básico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-basica-farmacia-025",
@@ -875,7 +885,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em casos de emergência, em que se deseja rápido efeito terapêutico no organismo, deverá ser administrado o medicamento A.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-basica-farmacia-026",
@@ -941,7 +952,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Esse tipo de curva de concentração plasmática sugere que, no regime terapêutico, não são necessárias administrações frequentes da forma farmacêutica, o que promove uma melhor adesão do paciente ao tratamento.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-basica-farmacia-032",
@@ -952,7 +964,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O tempo de meia-vida biológica do fármaco em questão é de seis horas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-basica-farmacia-033",
@@ -963,7 +976,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A curva de concentração plasmática apresentada poderia ser atribuída a um sistema terapêutico transdérmico, usualmente contido em fármacos potentes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-basica-farmacia-034",
@@ -974,7 +988,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O início da ação do medicamento em questão ocorre duas horas após a sua administração.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-basica-farmacia-035",
@@ -985,7 +1000,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A curva ilustrada é compatível com a verificada após a administração oral de um fármaco de ação repetida, como um comprimido ou uma cápsula dura de gelatina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-basica-farmacia-036",
@@ -2393,7 +2409,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para o rastreamento de problemas auditivos, o mais indicado seria o uso de testes mais sensíveis que específicos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-basica-saude-coletiva-014",
@@ -2404,7 +2421,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A sensibilidade é uma propriedade inerente de cada teste, entretanto a aplicação de uma avaliação (clínica ou laboratorial) por profissional não treinado na respectiva técnica pode alterar essa propriedade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-basica-saude-coletiva-015",
@@ -2415,7 +2433,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A avaliação da validade de testes é importante para o planejamento de programas de saúde pública; para isso, deve-se considerar, além da sensibilidade e da especificidade, o valor preditivo de cada teste.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-basica-saude-coletiva-016",
@@ -2426,7 +2445,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considerando que a prevalência de hipoacusia nessa amostragem seja de 60%, o valor preditivo positivo da audiometria tonal será comparativamente maior nessa amostra do que em uma população que apresente menor prevalência de hipoacusia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-basica-saude-coletiva-017",
@@ -2437,7 +2457,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A audiometria tonal é mais específica e menos sensível que o exame físico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-basica-saude-coletiva-018",
@@ -2866,7 +2887,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ineficácia no controle do débito cardíaco e a disfunção das estruturas envolvidas na regulação do débito cardíaco interferem diretamente na pressão arterial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-oncologica-fisioterapia-007",
@@ -2877,7 +2899,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O cateter da artéria pulmonar permite o diagnóstico de quadros hemodinâmicos, principalmente na diferenciação dos edemas pulmonares cardiogênicos e não cardiogênicos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-oncologica-fisioterapia-008",
@@ -2888,7 +2911,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A fisiopatologia do choque séptico envolve o aumento do débito cardíaco associado à diminuição da capacidade de extração de oxigênio e consequente aumento da concentração de lactato sérico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-oncologica-fisioterapia-009",
@@ -2899,7 +2923,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O exercício físico intenso pode levar à fadiga muscular, devido à intensa utilização da via aeróbica para a produção de energia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-oncologica-fisioterapia-010",
@@ -2910,7 +2935,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na insuficiência cardíaca, ocorre diminuição do transporte de oxigênio pelos capilares; e, não havendo alteração do consumo de oxigênio, ocorrerá um aumento da saturação venosa de oxigênio, o que faz que menos oxigênio retorne ao coração.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-oncologica-fisioterapia-011",
@@ -2921,7 +2947,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A frequência cardíaca e a pressão arterial são, na semiologia cardíaca, variáveis básicas que respondem pelos ajustes do débito cardíaco resultantes do produto da frequência cardíaca pelo volume sistólico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-oncologica-fisioterapia-012",
@@ -3141,7 +3168,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Embora existam cinco fases distintas dos sons de Korotkoff, a percepção das fases apontadas no texto são suficientes para a determinação da pressão arterial sistólica e diastólica de um paciente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-oncologica-fisioterapia-032",
@@ -3328,7 +3356,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O resgate histórico, descrito no texto, permite compreender como a fisioterapia avançou de um contexto de atenção coletiva a determinadas doenças para um contexto de atenção reabilitadora.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-oncologica-fisioterapia-049",
@@ -3339,7 +3368,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O objeto original de intervenção da fisioterapia, mencionada no início do texto, é o sujeito individualizado, atendido em um nível de atenção secundária e terciária.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-oncologica-fisioterapia-050",
@@ -3350,7 +3380,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conforme o texto, atualmente compete ao fisioterapeuta o desenvolvimento de ações para um ambiente saudável, por meio de realização de adequações mobiliárias nos domicílios dos pacientes, minimizando os riscos de acidente. Aos demais profissionais da equipe interdisciplinar compete prestar orientações acerca da adoção de hábitos alimentares saudáveis, combate ao álcool e às drogas ilícitas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-oncologica-servico-social-001",
@@ -4274,7 +4305,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso clínico, a taquicardia e a redução do débito urinário levaram à diminuição do sódio sérico, já que o mecanismo envolvido relaciona-se à síndrome da secreção inapropriada do hormônio antidiurético.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-cardiaca-enfermagem-035",
@@ -4285,7 +4317,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A sondagem vesical de alívio é o procedimento mais indicado para controlar o débito urinário dessa paciente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-cardiaca-enfermagem-036",
@@ -4296,7 +4329,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entre as medidas que devem ser tomadas para o tratamento dessa paciente incluem-se monitorização do quadro neurológico, verificação dos sinais vitais, realização de balanço hídrico, monitoramento frequente dos eletrólitos e infusão de solução fisiológica, caso prescrito.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-cardiaca-enfermagem-037",
@@ -4307,7 +4341,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A causa mais provável das alterações neurológicas apresentadas pela paciente pode ser a hiponatremia, decorrente da síndrome cerebral perdedora de sal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-cardiaca-enfermagem-038",
@@ -4516,7 +4551,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ineficácia no controle do débito cardíaco e a disfunção das estruturas envolvidas na regulação do débito cardíaco interferem diretamente na pressão arterial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-cardiaca-fisioterapia-007",
@@ -4527,7 +4563,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O cateter da artéria pulmonar permite o diagnóstico de quadros hemodinâmicos, principalmente na diferenciação dos edemas pulmonares cardiogênicos e não cardiogênicos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-cardiaca-fisioterapia-008",
@@ -4538,7 +4575,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A fisiopatologia do choque séptico envolve o aumento do débito cardíaco associado à diminuição da capacidade de extração de oxigênio e consequente aumento da concentração de lactato sérico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-cardiaca-fisioterapia-009",
@@ -4549,7 +4587,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O exercício físico intenso pode levar à fadiga muscular, devido à intensa utilização da via aeróbica para a produção de energia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-cardiaca-fisioterapia-010",
@@ -4560,7 +4599,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na insuficiência cardíaca, ocorre diminuição do transporte de oxigênio pelos capilares; e, não havendo alteração do consumo de oxigênio, ocorrerá um aumento da saturação venosa de oxigênio, o que faz que menos oxigênio retorne ao coração.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-cardiaca-fisioterapia-011",
@@ -4571,7 +4611,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A frequência cardíaca e a pressão arterial são, na semiologia cardíaca, variáveis básicas que respondem pelos ajustes do débito cardíaco resultantes do produto da frequência cardíaca pelo volume sistólico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-cardiaca-fisioterapia-012",
@@ -4791,7 +4832,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Embora existam cinco fases distintas dos sons de Korotkoff, a percepção das fases apontadas no texto são suficientes para a determinação da pressão arterial sistólica e diastólica de um paciente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-cardiaca-fisioterapia-032",
@@ -4978,7 +5020,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O resgate histórico, descrito no texto, permite compreender como a fisioterapia avançou de um contexto de atenção coletiva a determinadas doenças para um contexto de atenção reabilitadora.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-cardiaca-fisioterapia-049",
@@ -4989,7 +5032,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O objeto original de intervenção da fisioterapia, mencionada no início do texto, é o sujeito individualizado, atendido em um nível de atenção secundária e terciária.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-cardiaca-fisioterapia-050",
@@ -5000,7 +5044,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conforme o texto, atualmente compete ao fisioterapeuta o desenvolvimento de ações para um ambiente saudável, por meio de realização de adequações mobiliárias nos domicílios dos pacientes, minimizando os riscos de acidente. Aos demais profissionais da equipe interdisciplinar compete prestar orientações acerca da adoção de hábitos alimentares saudáveis, combate ao álcool e às drogas ilícitas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-atencao-cardiaca-nutricao-001",
@@ -6716,7 +6761,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ineficácia no controle do débito cardíaco e a disfunção das estruturas envolvidas na regulação do débito cardíaco interferem diretamente na pressão arterial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-saude-coletiva-fisioterapia-007",
@@ -6727,7 +6773,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O cateter da artéria pulmonar permite o diagnóstico de quadros hemodinâmicos, principalmente na diferenciação dos edemas pulmonares cardiogênicos e não cardiogênicos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-saude-coletiva-fisioterapia-008",
@@ -6738,7 +6785,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A fisiopatologia do choque séptico envolve o aumento do débito cardíaco associado à diminuição da capacidade de extração de oxigênio e consequente aumento da concentração de lactato sérico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-saude-coletiva-fisioterapia-009",
@@ -6749,7 +6797,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O exercício físico intenso pode levar à fadiga muscular, devido à intensa utilização da via aeróbica para a produção de energia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-saude-coletiva-fisioterapia-010",
@@ -6760,7 +6809,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na insuficiência cardíaca, ocorre diminuição do transporte de oxigênio pelos capilares; e, não havendo alteração do consumo de oxigênio, ocorrerá um aumento da saturação venosa de oxigênio, o que faz que menos oxigênio retorne ao coração.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-saude-coletiva-fisioterapia-011",
@@ -6771,7 +6821,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A frequência cardíaca e a pressão arterial são, na semiologia cardíaca, variáveis básicas que respondem pelos ajustes do débito cardíaco resultantes do produto da frequência cardíaca pelo volume sistólico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-saude-coletiva-fisioterapia-012",
@@ -6991,7 +7042,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Embora existam cinco fases distintas dos sons de Korotkoff, a percepção das fases apontadas no texto são suficientes para a determinação da pressão arterial sistólica e diastólica de um paciente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-saude-coletiva-fisioterapia-032",
@@ -7178,7 +7230,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O resgate histórico, descrito no texto, permite compreender como a fisioterapia avançou de um contexto de atenção coletiva a determinadas doenças para um contexto de atenção reabilitadora.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-saude-coletiva-fisioterapia-049",
@@ -7189,7 +7242,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O objeto original de intervenção da fisioterapia, mencionada no início do texto, é o sujeito individualizado, atendido em um nível de atenção secundária e terciária.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-saude-coletiva-fisioterapia-050",
@@ -7200,7 +7254,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conforme o texto, atualmente compete ao fisioterapeuta o desenvolvimento de ações para um ambiente saudável, por meio de realização de adequações mobiliárias nos domicílios dos pacientes, minimizando os riscos de acidente. Aos demais profissionais da equipe interdisciplinar compete prestar orientações acerca da adoção de hábitos alimentares saudáveis, combate ao álcool e às drogas ilícitas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-saude-mental-infanto-juvenil-nutricao-001",
@@ -7959,7 +8014,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para que a ondansentrona seja administrada por via parental, em caso de tratamento de pacientes com impossibilidade de deglutição, poderá ser usado o comprimido diluído em água ou em soro fisiológico na forma injetável.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-saude-mental-infanto-juvenil-farmacia-020",
@@ -7970,7 +8026,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nos casos de ajuste de dosagem, a partição do comprimido é indesejada, por acelerar a desintegração e o efeito do medicamento bem como ocasionar, em algumas situações, efeitos tóxicos aos pacientes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-saude-mental-infanto-juvenil-farmacia-021",
@@ -7981,7 +8038,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "atua como agente emulsificante, espessante e estabilizante, propiciando consistência à emulsão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-saude-mental-infanto-juvenil-farmacia-022",
@@ -7992,7 +8050,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "é um ácido graxo, que, devido ao seu caráter oleoso, ficará dissolvido na fase oleosa da emulsão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-saude-mental-infanto-juvenil-farmacia-023",
@@ -8003,7 +8062,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O medicamento A apresenta-se na forma em pó ou granulada, haja vista que comprimidos têm conteúdo compactado que dificulta a rápida dissolução do fármaco.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-saude-mental-infanto-juvenil-farmacia-024",
@@ -8014,7 +8074,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O medicamento B apresenta-se na forma de drágea, com revestimento açucarado, que permite o controle da liberação do fármaco em meio básico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-saude-mental-infanto-juvenil-farmacia-025",
@@ -8025,7 +8086,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em casos de emergência, em que se deseja rápido efeito terapêutico no organismo, deverá ser administrado o medicamento A.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-saude-mental-infanto-juvenil-farmacia-026",
@@ -8091,7 +8153,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Esse tipo de curva de concentração plasmática sugere que, no regime terapêutico, não são necessárias administrações frequentes da forma farmacêutica, o que promove uma melhor adesão do paciente ao tratamento.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-saude-mental-infanto-juvenil-farmacia-032",
@@ -8102,7 +8165,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O tempo de meia-vida biológica do fármaco em questão é de seis horas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-saude-mental-infanto-juvenil-farmacia-033",
@@ -8113,7 +8177,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A curva de concentração plasmática apresentada poderia ser atribuída a um sistema terapêutico transdérmico, usualmente contido em fármacos potentes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-saude-mental-infanto-juvenil-farmacia-034",
@@ -8124,7 +8189,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O início da ação do medicamento em questão ocorre duas horas após a sua administração.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-saude-mental-infanto-juvenil-farmacia-035",
@@ -8135,7 +8201,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A curva ilustrada é compatível com a verificada após a administração oral de um fármaco de ação repetida, como um comprimido ou uma cápsula dura de gelatina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-ses-df-multiprofissional-saude-mental-infanto-juvenil-farmacia-036",
@@ -8851,6 +8918,56 @@
    "tipo": "certo_errado",
    "enunciado": "Para prevenir o refluxo, é recomendado ao paciente diminuir o fracionamento e aumentar o volume das refeições.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Uma mulher de quarenta e nove anos de idade, hipertensa, foi internada, havia quatro dias, em uma unidade de terapia intensiva, após ter sofrido uma hemorragia subaracnoidea. O quadro clínico da paciente evoluía bem, até que ela ficou agudamente confusa, sonolenta, não apresentando déficits neurológicos focais. Os sinais vitais da paciente eram estáveis, mas foram constatados taquicardia leve (110 bpm), mucosas secas, débito urinário, nas últimas duas horas, de 50 mL, e pressão venosa central de 5 cmH 2 0. Os resultados dos exames laboratoriais indicaram níveis séricos de sódio abaixo do normal.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Na prevenção e no tratamento de náuseas e vômitos, pediatras têm prescrito ondansentrona, um antiemético encontrado comercialmente na forma de comprimidos de desintegração oral, com dosagens de 4 mg — recomendada, conforme tabela posológica presente na bula, para crianças de dois a onze anos de idade — e dosagens de 8 mg. Considerando as informações apresentadas, julgue os itens seguintes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma emulsão hipotética do tipo óleo em água foi elaborada por meio dos seguintes processos: fusão das fases aquosa e oleosa, união das fases à mesma temperatura e manutenção da agitação até arrefecimento. Na fórmula dessa emulsão há um composto que se apresenta como um sólido branco à temperatura ambiente e insolúvel em água. A estrutura química desse composto é apresentada na figura precedente.\n\nFonte: <http://www.wikiwand.com>. Considerando-se as informações e os aspectos farmacotécnicos envolvidos na produção de emulsões, é correto afirmar que o composto representado",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "No gráfico estão representados os perfis de liberação in vitro de dois medicamentos para administração oral contendo o mesmo fármaco. O ensaio foi realizado utilizando-se água purificada (pH = 6) como meio de dissolução. Um dos medicamentos apresenta em sua composição substâncias moduladoras da liberação. Com base nas informações apresentadas e considerando os aspectos biofarmacêuticos e farmacotécnicos envolvidos, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Com base nesse gráfico, que representa a curva plasmática de determinado medicamento, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": true
+  },
+  {
+   "ref": "",
+   "conteudo": "Foram submetidos a audiometria e exame físico, 500 indivíduos com queixas auditivas. Dessa população, 300 tiveram confirmação diagnóstica de hipoacusia. Os resultados obtidos nessas avaliações estão descritos na tabela a seguir.\n\nresultado do exame físico hipoacusia\n\notorrinolaringológico presente ausente positivo 240 40 negativo 60 160\n\nhipoacusia resultado da audiometria tonal presente ausente positivo 270 60 negativo 30 140",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O entendimento do terapeuta no que se refere ao quadro hemodinâmico está relacionado à alteração fisiopatológica que envolve o sistema cardiovascular. Outro aspecto importante para o fisioterapeuta que busca um diagnóstico funcional é o entendimento dos processos metabólicos como, por exemplo, das respostas",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A criação da fisioterapia teve como base o modelo assistencial curativo, destinando-se, quase exclusivamente, ao controle de danos de determinadas doenças. Sua atuação é destinada à cura de algumas enfermidades e ao manejo de sequelas e complicações. Nessa fase, destacavam-se os locais de atuação profissional como as clínicas especializadas e os hospitais. Com o passar dos anos, os novos desafios da sociedade brasileira, as mudanças no quadro epidemiológico e a reorganização dos sistemas de saúde exigiram um redimensionamento do objeto de intervenção fisioterapêutica que, a partir dessa transformação, deveria aproximar-se do campo da promoção da saúde e da nova lógica de organização dos modelos assistenciais. Esse avanço na profissão ampliou as possibilidades de atuação e desenvolvimento profissional tanto para o controle de danos como para o controle de riscos. Por isso, surgiram possibilidades de atuação do fisioterapeuta na atenção básica como, por exemplo, na vigilância dos distúrbios cinesiofuncionais e posturais, na promoção de ambientes saudáveis, e como incentivador da adoção de estilos de vida saudável. A partir desse texto e dos vários aspectos a ele relacionados, julgue os itens seguintes.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

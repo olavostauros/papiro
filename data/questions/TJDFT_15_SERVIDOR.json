@@ -822,7 +822,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os atos dos documentos estão interligados aos atos da fala quando compreendidos dentro de contextos sociais, nos quais a função do documento como meio e instrumento de interação social corresponde às funções da linguagem de articulação, cooperação e coordenação de atividades.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-052",
@@ -833,7 +834,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O escopo da Teoria dos Atos dos Documentos inclui o que se pode realizar com documentos, tipos de suporte dos documentos, sistemas institucionais aos quais pertencem os documentos e tipo de indexação e classificação dos documentos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-053",
@@ -3099,7 +3101,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O tratamento de escolha para a paciente do referido caso clínico inclui o uso de brometo de pinavério em associação à loperamida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-056",
@@ -3110,7 +3113,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O mecanismo fisiopatológico dessa paciente pode ser explicado por alterações na percepção visceral e aumento da frequência e irregularidade das contrações luminais, além de uma resposta motora exagerada a colecistocinina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-057",
@@ -3187,7 +3191,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Deve-se prescrever para a paciente do referido caso clínico a oxigenoterapia de longa duração, tratamento conhecido por melhorar a sobrevida e a qualidade de vida de pacientes hipoxêmicos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-064",
@@ -3198,7 +3203,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Deve-se recomendar para essa paciente a tripla terapia com formoterol, brometo de tiotrópio e fluticasona inalatórios, medida que contribui para a redução do número de hospitalizações e a melhora da qualidade de vida em pacientes com DPOC.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-065",
@@ -3308,7 +3314,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para o tratamento dessa paciente, deve-se recomendar imediatamente corticoide em altas doses.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-075",
@@ -3319,7 +3326,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O mecanismo eletrofisiológico mais provável da arritmia desse paciente é o de reentrada, devido à presença de uma via acessória oculta.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-076",
@@ -3330,7 +3338,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O medicamento de escolha para o rápido controle da frequência cardíaca do referido paciente é o digitálico endovenoso.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-077",
@@ -3341,7 +3350,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Após a resolução do quadro clínico, esse paciente deverá receber anticoagulante oral permanente devido ao risco de eventos tromboembólicos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-078",
@@ -3352,7 +3362,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Trata-se de um caso de acidose respiratória.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-079",
@@ -3363,7 +3374,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A associação de dois fármacos que inibem o sistema renina-angiotensina, como um inibidor da enzima de conversão da angiotensina e um bloqueador do receptor da angiotensina, deve ser evitada devido ao risco de eventos adversos, como hipotensão, hipercalemia e insuficiência renal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-080",
@@ -3374,7 +3386,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hipótese mais provável é de nefropatia por imunoglobulina A (IgA). A confirmação diagnóstica só pode ser feita por meio de biópsia renal com imunofluorescência ou por estudos de imunoperoxidase para detectar depósitos de imunoglobulina A (IgA).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-081",
@@ -4210,7 +4223,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso o feto mencionado permaneça em apresentação pélvica no termo, a conduta mais adequada é programar a cesariana eletiva por volta das trinta e oito semanas com a intenção de reduzir a mortalidade perinatal e a morbidade neonatal.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-089",
@@ -4221,7 +4235,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso a paciente citada evolua para parto vaginal e seja realizada, sem sucesso, a manobra de Brach — que consiste em direcionar o dorso fetal em direção ao abdome materno —, deve-se aplicar em seguida o fórceps de Piper para o desprendimento da cabeça derradeira do feto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-090",
@@ -4232,7 +4247,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A conduta do obstetra está de acordo com as diretrizes atuais do Ministério da Saúde.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-091",
@@ -4727,7 +4743,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A espectroscopia por ressonância magnética nessa paciente evidenciará, no local da lesão, aumento de N-acetilaspartato e redução de colina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-067",
@@ -4738,7 +4755,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso em questão, caso ocorram síncopes causadas por tosse, espirros ou por vômitos, elas refletirão reduções temporárias da pressão de perfusão cerebral, associadas a ondas platô — tipo A de Lundberg — na pressão intracraniana.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-068",
@@ -4749,7 +4767,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Deve-se iniciar o tratamento dessa paciente com anticonvulsivante profilático para se prevenir uma primeira convulsão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-069",
@@ -4760,7 +4779,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os sintomas descritos no caso clínico podem ser reduzidos com a administração de dexametasona venosa em alta dose.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-070",
@@ -5123,7 +5143,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os movimentos periódicos dos membros durante o sono, comumente associados à doença de Willis-Ekbon, são caracterizados pela dorsiflexão dos pododáctilos e dos tornozelos, com ativação do músculo tibial anterior. Esses movimentos têm a duração aproximada de trinta segundos, com intervalo médio de cinco a noventa minutos e em uma série de, pelo menos, quatro movimentos consecutivos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-103",
@@ -5134,7 +5155,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O transtorno comportamental do sono de movimentos rápidos dos olhos é um quadro clínico que pode ser associado ao aumento no risco de desenvolvimento de sinucleinopatias degenerativas, como a demência por corpos de Lewy e a atrofia de múltiplos sistemas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-104",
@@ -5376,7 +5398,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O provável diagnóstico para essa criança é de bronquiolite viral aguda, não sendo possível fazer o diagnóstico de asma devido a sua idade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-057",
@@ -5387,7 +5410,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Devido à saturação de oxigênio do paciente, deve-se utilizar oxigênio inalatório somente durante as nebulizações.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-058",
@@ -5398,7 +5422,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso a criança seja corticodependente ou não apresente boa resposta ao tratamento com beta 2 agonista, o tratamento com corticoide oral está indicado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-059",
@@ -5475,7 +5500,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As descrições relatadas acerca das características das fezes da criança são as mesmas observadas em um quadro clínico de hipolactasia.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-067",
@@ -5486,7 +5512,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O quadro clínico dessa paciente é compatível com crise celíaca.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-068",
@@ -5497,7 +5524,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com as orientações do MS, o tratamento indicado para a criança é o plano B.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-069",
@@ -6388,7 +6416,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O medicamento mais indicado para o tratamento dessa paciente é a bupropiona.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-081",
@@ -6399,7 +6428,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico da paciente nesse caso clínico é de transtorno de ansiedade generalizada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-082",
@@ -7026,7 +7056,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Deve-se indicar a essa paciente a troca da restauração do dente 36 por uma restauração de resina composta.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-071",
@@ -7037,7 +7068,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O uso noturno de placa de interoclusal é indicado para o controle da parafunção oclusal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-073",
@@ -7048,7 +7080,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico clínico desta paciente é de bruxismo cêntrico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-074",
@@ -10392,7 +10425,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Devido ao quadro de anúria, é importante medir com precisão a ingestão e excreção de líquidos por meio da realização de um balanço hídrico rigoroso e instalar um cateter vesical de alívio.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2015-tjdft-enfermagem-110",
@@ -10403,7 +10437,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Deve-se avaliar o nível de consciência e ter atenção aos sinais de hipercalemia — como fraqueza muscular, alterações no eletrocardiograma (ECG) e arritmias —, pois são sinais e sintomas característicos do aumento nos níveis de cálcio no sangue.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2015-tjdft-enfermagem-111",
@@ -10546,7 +10581,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A tag <css> é utilizada para definir um estilo interno.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2015-tjdft-programacao-sistemas-054",
@@ -10579,7 +10615,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso seja atribuído 15 para Valor 1 e 4 para Valor 2 , o código gerará um resultado como o apresentado a seguir.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2015-tjdft-programacao-sistemas-057",
@@ -10700,7 +10737,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagrama apresenta a forma denominada nomeação herdada dos atributos de pessoa para aluno e professor .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2015-tjdft-programacao-sistemas-068",
@@ -10711,7 +10749,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A seguir é apresentado o comando SQL correto para gerar o esquema físico do DER. CREATE TABLE Pessoa ( Nome VARCHAR(50), Sexo VARCHAR(1), CPF VARCHAR(11), Inheritance (aluno, pessoa) ) CREATE TABLE Aluno ( Curso VARCHAR(20), CPF VARCHAR(11) PRIMARY KEY ) CREATE TABLE Professor ( Departamento VARCHAR(30), CPF VARCHAR(11) PRIMARY KEY )",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2015-tjdft-programacao-sistemas-069",
@@ -11294,7 +11333,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O direito é um produto histórico que resulta de constante luta de uma coletividade ou de um indivíduo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-003",
@@ -11305,7 +11345,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A espada e a balança representam dois conceitos a partir dos quais se constrói o sentido do direito, sentido esse que se descaracteriza na falta de um deles.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-005",
@@ -11316,7 +11357,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Ao se utilizar da luta como o meio para alcançar seu objetivo, o direito promove a ressignificação dos conceitos de luta e de paz, passando a encará-los como conceitos complementares.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-006",
@@ -11327,7 +11369,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido original do texto seriam preservados caso a oração “que se lhe contrapôs” ( R . 7 e 8) fosse reescrita como que foi contraposto a ele .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-008",
@@ -11338,7 +11381,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo “ambientalmente correto, socialmente justo e economicamente viável” ( R . 14 e 15) exerce a função de predicativo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-009",
@@ -11349,7 +11393,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O deslocamento da partícula “se”, em “Define-se” ( R .24), para o início do período — escrevendo-se Se define — prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-011",
@@ -11360,7 +11405,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo “à recuperação do meio ambiente” ( R . 12 e 13) desempenha a função de complemento verbal na oração em que ocorre.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-012",
@@ -11371,7 +11417,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso a vírgula empregada logo após a palavra “sustentáveis” ( R .13) fosse suprimida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-013",
@@ -11382,7 +11429,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Historicamente, a sociedade tem atuado à sombra do Poder Judiciário na luta contra a violência. Atualmente, essa situação mudou e o envolvimento da sociedade na formulação de políticas de prevenção da violência é cada vez mais fundamental.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-014",
@@ -11393,7 +11441,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A universalização do acesso à justiça é dificultada pela distância entre os órgãos da justiça e os lugares onde ocorrem conflitos e pela existência de muitos espaços marcados por coerções, exclusões e violência.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-015",
@@ -11404,7 +11453,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A radicalização das políticas de promoção da justiça, defendida no texto, não se esgota em medidas de inclusão da maioria excluída no sistema judiciário, devendo contemplar medidas de proteção de direitos violados e medidas de prevenção de violência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-016",
@@ -11415,7 +11465,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No primeiro parágrafo do texto, utiliza-se trecho de natureza descritiva para fundamentar a argumentação, pois o parágrafo se inicia com uma ideia que é corroborada pela descrição de uma série de fatos relevantes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-017",
@@ -11426,7 +11477,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A oração “radicalizar a política de ampliação do acesso à justiça” ( R .12) e o termo “consenso” ( R .14) exercem a mesma função sintática nos períodos em que ocorrem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-018",
@@ -11437,7 +11489,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O uso do modo subjuntivo em “que assegure direitos e promova a paz” ( R . 22 e 23) indica que a ideia expressa nessas orações é uma possibilidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-019",
@@ -11448,7 +11501,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do terceiro parágrafo, a escolha vocabular — exemplificada por “revanchista” ( R .31), entre outros exemplos — e o uso de certas estruturas sintáticas — ilustradas por “Não é aceitável” ( R .29) — contribuem para a veiculação da opinião da autora do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-020",
@@ -11459,7 +11513,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do verbo “dever” e o uso das expressões “ser preciso” e “ser necessário” ao longo do texto servem para sinalizar ações consideradas importantes e programáticas no desenvolvimento de uma nova política de acesso à justiça.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-021",
@@ -11470,7 +11525,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em “mas, sobretudo, realizada por todos” ( R .51), a palavra “sobretudo” significa especialmente e serve para reforçar a ideia de oposição veiculada pela conjunção “mas”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-022",
@@ -11481,7 +11537,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do emprego do fecho “Respeitosamente” que o texto estabelece uma comunicação entre chefias de unidades administrativas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-023",
@@ -11492,7 +11549,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O texto, uma comunicação administrativa entre unidades administrativas de um mesmo órgão, classifica-se como memorando.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-024",
@@ -11503,7 +11561,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O posicionamento adotado para a data e a numeração do documento está em desacordo com o disposto no referido manual para o padrão ofício de documentos oficiais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-025",
@@ -11514,7 +11573,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do vocativo “Excelentíssima” está adequado e justifica-se pelo fato de a destinatária do documento ocupar cargo de chefia de unidade administrativa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-026",
@@ -11525,7 +11585,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Para garantir a correção gramatical e a adequação da linguagem, o pronome “Você” deveria ser substituído por Sua Excelência , considerando-se o cargo ocupado pela autoridade a que o documento se destina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-027",
@@ -11701,7 +11762,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O Brasil, nação simpatizante à ALCA e com objetivo de aderir ao TPP, suscitou desentendimentos entre seus parceiros de MERCOSUL, sobretudo com a Argentina, ao unir-se com o Chile e com o Peru.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-044",
@@ -11712,7 +11774,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A TPP insere-se no amplo contexto de uma economia crescentemente globalizada, realidade que, alimentada pela contínua ampliação da capacidade produtiva e alicerçada nas inovações tecnológicas que o desenvolvimento científico tem propiciado constantemente, é assinalada, entre outros elementos, pela extraordinária expansão do comércio e pelo elevado grau de competitividade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-045",
@@ -11723,7 +11786,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o ponto de vista norte-americano, a TPP garante continuidade aos passos estratégicos realizados anteriormente pelo país com a criação do NAFTA — que integrou as economias dos EUA, do México e do Canadá — e da ALCA, voltada para o conjunto das Américas, ambos de inegável êxito político e econômico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-046",
@@ -11734,7 +11798,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A crescente importância econômica de países como China e Índia, somada ao protagonismo do Japão na economia mundial após a Segunda Grande Guerra, cria a perspectiva de que a Ásia se torne cada vez mais influente no cenário econômico global.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-047",
@@ -11745,7 +11810,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "É possível inferir que a criação da TPP obedece a uma lógica essencialmente mercantil, o que afasta qualquer pretensão de hegemonia política e de hegemonia estratégica por parte dos EUA.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-048",
@@ -11756,7 +11822,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a declaração universal dos direitos humanos, aprovada pela ONU, “toda pessoa vítima de perseguição tem o direito de procurar e de gozar asilo em outros países”. Isso leva a concluir que cada refugiado é reflexo de um grave padrão de violação dos direitos humanos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-049",
@@ -11767,7 +11834,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As atuais correntes migratórias, que chamam a atenção do mundo, partem de pontos distintos. Em geral, os grupos originados da África subsaariana e do Oriente Médio — especialmente da conflagrada Síria — têm como destino a Europa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-biblioteconomia-050",
@@ -11778,7 +11846,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "À exceção da Alemanha, que enfrenta significativa crise econômica, os demais países integrantes da União Europeia foram ágeis na recepção dos atuais imigrantes refugiados, e lhes ofereceram abrigos provisórios, alimentação e documentação regularizada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-002",
@@ -11789,7 +11858,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O direito é um produto histórico que resulta de constante luta de uma coletividade ou de um indivíduo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-003",
@@ -11800,7 +11870,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A espada e a balança representam dois conceitos a partir dos quais se constrói o sentido do direito, sentido esse que se descaracteriza na falta de um deles.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-005",
@@ -11811,7 +11882,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Ao se utilizar da luta como o meio para alcançar seu objetivo, o direito promove a ressignificação dos conceitos de luta e de paz, passando a encará-los como conceitos complementares.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-006",
@@ -11822,7 +11894,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido original do texto seriam preservados caso a oração “que se lhe contrapôs” ( R . 7 e 8) fosse reescrita como que foi contraposto a ele .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-008",
@@ -11833,7 +11906,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo “ambientalmente correto, socialmente justo e economicamente viável” ( R . 14 e 15) exerce a função de predicativo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-009",
@@ -11844,7 +11918,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O deslocamento da partícula “se”, em “Define-se” ( R .24), para o início do período — escrevendo-se Se define — prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-011",
@@ -11855,7 +11930,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo “à recuperação do meio ambiente” ( R . 12 e 13) desempenha a função de complemento verbal na oração em que ocorre.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-012",
@@ -11866,7 +11942,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso a vírgula empregada logo após a palavra “sustentáveis” ( R .13) fosse suprimida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-013",
@@ -11877,7 +11954,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Historicamente, a sociedade tem atuado à sombra do Poder Judiciário na luta contra a violência. Atualmente, essa situação mudou e o envolvimento da sociedade na formulação de políticas de prevenção da violência é cada vez mais fundamental.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-014",
@@ -11888,7 +11966,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A universalização do acesso à justiça é dificultada pela distância entre os órgãos da justiça e os lugares onde ocorrem conflitos e pela existência de muitos espaços marcados por coerções, exclusões e violência.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-015",
@@ -11899,7 +11978,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A radicalização das políticas de promoção da justiça, defendida no texto, não se esgota em medidas de inclusão da maioria excluída no sistema judiciário, devendo contemplar medidas de proteção de direitos violados e medidas de prevenção de violência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-016",
@@ -11910,7 +11990,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No primeiro parágrafo do texto, utiliza-se trecho de natureza descritiva para fundamentar a argumentação, pois o parágrafo se inicia com uma ideia que é corroborada pela descrição de uma série de fatos relevantes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-017",
@@ -11921,7 +12002,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A oração “radicalizar a política de ampliação do acesso à justiça” ( R .12) e o termo “consenso” ( R .14) exercem a mesma função sintática nos períodos em que ocorrem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-018",
@@ -11932,7 +12014,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O uso do modo subjuntivo em “que assegure direitos e promova a paz” ( R . 22 e 23) indica que a ideia expressa nessas orações é uma possibilidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-019",
@@ -11943,7 +12026,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do terceiro parágrafo, a escolha vocabular — exemplificada por “revanchista” ( R .31), entre outros exemplos — e o uso de certas estruturas sintáticas — ilustradas por “Não é aceitável” ( R .29) — contribuem para a veiculação da opinião da autora do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-020",
@@ -11954,7 +12038,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do verbo “dever” e o uso das expressões “ser preciso” e “ser necessário” ao longo do texto servem para sinalizar ações consideradas importantes e programáticas no desenvolvimento de uma nova política de acesso à justiça.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-021",
@@ -11965,7 +12050,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em “mas, sobretudo, realizada por todos” ( R .51), a palavra “sobretudo” significa especialmente e serve para reforçar a ideia de oposição veiculada pela conjunção “mas”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-022",
@@ -11976,7 +12062,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do emprego do fecho “Respeitosamente” que o texto estabelece uma comunicação entre chefias de unidades administrativas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-023",
@@ -11987,7 +12074,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O texto, uma comunicação administrativa entre unidades administrativas de um mesmo órgão, classifica-se como memorando.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-024",
@@ -11998,7 +12086,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O posicionamento adotado para a data e a numeração do documento está em desacordo com o disposto no referido manual para o padrão ofício de documentos oficiais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-025",
@@ -12009,7 +12098,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do vocativo “Excelentíssima” está adequado e justifica-se pelo fato de a destinatária do documento ocupar cargo de chefia de unidade administrativa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-026",
@@ -12020,7 +12110,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Para garantir a correção gramatical e a adequação da linguagem, o pronome “Você” deveria ser substituído por Sua Excelência , considerando-se o cargo ocupado pela autoridade a que o documento se destina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-027",
@@ -12196,7 +12287,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O Brasil, nação simpatizante à ALCA e com objetivo de aderir ao TPP, suscitou desentendimentos entre seus parceiros de MERCOSUL, sobretudo com a Argentina, ao unir-se com o Chile e com o Peru.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-044",
@@ -12207,7 +12299,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A TPP insere-se no amplo contexto de uma economia crescentemente globalizada, realidade que, alimentada pela contínua ampliação da capacidade produtiva e alicerçada nas inovações tecnológicas que o desenvolvimento científico tem propiciado constantemente, é assinalada, entre outros elementos, pela extraordinária expansão do comércio e pelo elevado grau de competitividade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-045",
@@ -12218,7 +12311,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o ponto de vista norte-americano, a TPP garante continuidade aos passos estratégicos realizados anteriormente pelo país com a criação do NAFTA — que integrou as economias dos EUA, do México e do Canadá — e da ALCA, voltada para o conjunto das Américas, ambos de inegável êxito político e econômico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-046",
@@ -12229,7 +12323,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A crescente importância econômica de países como China e Índia, somada ao protagonismo do Japão na economia mundial após a Segunda Grande Guerra, cria a perspectiva de que a Ásia se torne cada vez mais influente no cenário econômico global.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-047",
@@ -12240,7 +12335,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "É possível inferir que a criação da TPP obedece a uma lógica essencialmente mercantil, o que afasta qualquer pretensão de hegemonia política e de hegemonia estratégica por parte dos EUA.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-048",
@@ -12251,7 +12347,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a declaração universal dos direitos humanos, aprovada pela ONU, “toda pessoa vítima de perseguição tem o direito de procurar e de gozar asilo em outros países”. Isso leva a concluir que cada refugiado é reflexo de um grave padrão de violação dos direitos humanos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-049",
@@ -12262,7 +12359,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As atuais correntes migratórias, que chamam a atenção do mundo, partem de pontos distintos. Em geral, os grupos originados da África subsaariana e do Oriente Médio — especialmente da conflagrada Síria — têm como destino a Europa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-psicologia-050",
@@ -12273,7 +12371,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "À exceção da Alemanha, que enfrenta significativa crise econômica, os demais países integrantes da União Europeia foram ágeis na recepção dos atuais imigrantes refugiados, e lhes ofereceram abrigos provisórios, alimentação e documentação regularizada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-002",
@@ -12284,7 +12383,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O direito é um produto histórico que resulta de constante luta de uma coletividade ou de um indivíduo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-003",
@@ -12295,7 +12395,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A espada e a balança representam dois conceitos a partir dos quais se constrói o sentido do direito, sentido esse que se descaracteriza na falta de um deles.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-005",
@@ -12306,7 +12407,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Ao se utilizar da luta como o meio para alcançar seu objetivo, o direito promove a ressignificação dos conceitos de luta e de paz, passando a encará-los como conceitos complementares.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-006",
@@ -12317,7 +12419,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido original do texto seriam preservados caso a oração “que se lhe contrapôs” ( R . 7 e 8) fosse reescrita como que foi contraposto a ele .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-008",
@@ -12328,7 +12431,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo “ambientalmente correto, socialmente justo e economicamente viável” ( R . 14 e 15) exerce a função de predicativo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-009",
@@ -12339,7 +12443,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O deslocamento da partícula “se”, em “Define-se” ( R .24), para o início do período — escrevendo-se Se define — prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-011",
@@ -12350,7 +12455,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo “à recuperação do meio ambiente” ( R . 12 e 13) desempenha a função de complemento verbal na oração em que ocorre.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-012",
@@ -12361,7 +12467,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso a vírgula empregada logo após a palavra “sustentáveis” ( R .13) fosse suprimida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-013",
@@ -12372,7 +12479,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Historicamente, a sociedade tem atuado à sombra do Poder Judiciário na luta contra a violência. Atualmente, essa situação mudou e o envolvimento da sociedade na formulação de políticas de prevenção da violência é cada vez mais fundamental.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-014",
@@ -12383,7 +12491,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A universalização do acesso à justiça é dificultada pela distância entre os órgãos da justiça e os lugares onde ocorrem conflitos e pela existência de muitos espaços marcados por coerções, exclusões e violência.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-015",
@@ -12394,7 +12503,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A radicalização das políticas de promoção da justiça, defendida no texto, não se esgota em medidas de inclusão da maioria excluída no sistema judiciário, devendo contemplar medidas de proteção de direitos violados e medidas de prevenção de violência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-016",
@@ -12405,7 +12515,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No primeiro parágrafo do texto, utiliza-se trecho de natureza descritiva para fundamentar a argumentação, pois o parágrafo se inicia com uma ideia que é corroborada pela descrição de uma série de fatos relevantes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-017",
@@ -12416,7 +12527,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A oração “radicalizar a política de ampliação do acesso à justiça” ( R .12) e o termo “consenso” ( R .14) exercem a mesma função sintática nos períodos em que ocorrem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-018",
@@ -12427,7 +12539,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O uso do modo subjuntivo em “que assegure direitos e promova a paz” ( R . 22 e 23) indica que a ideia expressa nessas orações é uma possibilidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-019",
@@ -12438,7 +12551,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do terceiro parágrafo, a escolha vocabular — exemplificada por “revanchista” ( R .31), entre outros exemplos — e o uso de certas estruturas sintáticas — ilustradas por “Não é aceitável” ( R .29) — contribuem para a veiculação da opinião da autora do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-020",
@@ -12449,7 +12563,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do verbo “dever” e o uso das expressões “ser preciso” e “ser necessário” ao longo do texto servem para sinalizar ações consideradas importantes e programáticas no desenvolvimento de uma nova política de acesso à justiça.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-021",
@@ -12460,7 +12575,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em “mas, sobretudo, realizada por todos” ( R .51), a palavra “sobretudo” significa especialmente e serve para reforçar a ideia de oposição veiculada pela conjunção “mas”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-022",
@@ -12471,7 +12587,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do emprego do fecho “Respeitosamente” que o texto estabelece uma comunicação entre chefias de unidades administrativas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-023",
@@ -12482,7 +12599,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O texto, uma comunicação administrativa entre unidades administrativas de um mesmo órgão, classifica-se como memorando.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-024",
@@ -12493,7 +12611,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O posicionamento adotado para a data e a numeração do documento está em desacordo com o disposto no referido manual para o padrão ofício de documentos oficiais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-025",
@@ -12504,7 +12623,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do vocativo “Excelentíssima” está adequado e justifica-se pelo fato de a destinatária do documento ocupar cargo de chefia de unidade administrativa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-026",
@@ -12515,7 +12635,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Para garantir a correção gramatical e a adequação da linguagem, o pronome “Você” deveria ser substituído por Sua Excelência , considerando-se o cargo ocupado pela autoridade a que o documento se destina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-027",
@@ -12691,7 +12812,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O Brasil, nação simpatizante à ALCA e com objetivo de aderir ao TPP, suscitou desentendimentos entre seus parceiros de MERCOSUL, sobretudo com a Argentina, ao unir-se com o Chile e com o Peru.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-044",
@@ -12702,7 +12824,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A TPP insere-se no amplo contexto de uma economia crescentemente globalizada, realidade que, alimentada pela contínua ampliação da capacidade produtiva e alicerçada nas inovações tecnológicas que o desenvolvimento científico tem propiciado constantemente, é assinalada, entre outros elementos, pela extraordinária expansão do comércio e pelo elevado grau de competitividade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-045",
@@ -12713,7 +12836,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o ponto de vista norte-americano, a TPP garante continuidade aos passos estratégicos realizados anteriormente pelo país com a criação do NAFTA — que integrou as economias dos EUA, do México e do Canadá — e da ALCA, voltada para o conjunto das Américas, ambos de inegável êxito político e econômico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-046",
@@ -12724,7 +12848,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A crescente importância econômica de países como China e Índia, somada ao protagonismo do Japão na economia mundial após a Segunda Grande Guerra, cria a perspectiva de que a Ásia se torne cada vez mais influente no cenário econômico global.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-047",
@@ -12735,7 +12860,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "É possível inferir que a criação da TPP obedece a uma lógica essencialmente mercantil, o que afasta qualquer pretensão de hegemonia política e de hegemonia estratégica por parte dos EUA.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-048",
@@ -12746,7 +12872,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a declaração universal dos direitos humanos, aprovada pela ONU, “toda pessoa vítima de perseguição tem o direito de procurar e de gozar asilo em outros países”. Isso leva a concluir que cada refugiado é reflexo de um grave padrão de violação dos direitos humanos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-049",
@@ -12757,7 +12884,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As atuais correntes migratórias, que chamam a atenção do mundo, partem de pontos distintos. Em geral, os grupos originados da África subsaariana e do Oriente Médio — especialmente da conflagrada Síria — têm como destino a Europa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-clinica-medica-050",
@@ -12768,7 +12896,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "À exceção da Alemanha, que enfrenta significativa crise econômica, os demais países integrantes da União Europeia foram ágeis na recepção dos atuais imigrantes refugiados, e lhes ofereceram abrigos provisórios, alimentação e documentação regularizada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-002",
@@ -12779,7 +12908,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O direito é um produto histórico que resulta de constante luta de uma coletividade ou de um indivíduo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-003",
@@ -12790,7 +12920,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A espada e a balança representam dois conceitos a partir dos quais se constrói o sentido do direito, sentido esse que se descaracteriza na falta de um deles.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-005",
@@ -12801,7 +12932,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Ao se utilizar da luta como o meio para alcançar seu objetivo, o direito promove a ressignificação dos conceitos de luta e de paz, passando a encará-los como conceitos complementares.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-006",
@@ -12812,7 +12944,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido original do texto seriam preservados caso a oração “que se lhe contrapôs” ( R . 7 e 8) fosse reescrita como que foi contraposto a ele .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-008",
@@ -12823,7 +12956,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo “ambientalmente correto, socialmente justo e economicamente viável” ( R . 14 e 15) exerce a função de predicativo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-009",
@@ -12834,7 +12968,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O deslocamento da partícula “se”, em “Define-se” ( R .24), para o início do período — escrevendo-se Se define — prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-011",
@@ -12845,7 +12980,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo “à recuperação do meio ambiente” ( R . 12 e 13) desempenha a função de complemento verbal na oração em que ocorre.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-012",
@@ -12856,7 +12992,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso a vírgula empregada logo após a palavra “sustentáveis” ( R .13) fosse suprimida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-013",
@@ -12867,7 +13004,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Historicamente, a sociedade tem atuado à sombra do Poder Judiciário na luta contra a violência. Atualmente, essa situação mudou e o envolvimento da sociedade na formulação de políticas de prevenção da violência é cada vez mais fundamental.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-014",
@@ -12878,7 +13016,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A universalização do acesso à justiça é dificultada pela distância entre os órgãos da justiça e os lugares onde ocorrem conflitos e pela existência de muitos espaços marcados por coerções, exclusões e violência.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-015",
@@ -12889,7 +13028,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A radicalização das políticas de promoção da justiça, defendida no texto, não se esgota em medidas de inclusão da maioria excluída no sistema judiciário, devendo contemplar medidas de proteção de direitos violados e medidas de prevenção de violência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-016",
@@ -12900,7 +13040,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No primeiro parágrafo do texto, utiliza-se trecho de natureza descritiva para fundamentar a argumentação, pois o parágrafo se inicia com uma ideia que é corroborada pela descrição de uma série de fatos relevantes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-017",
@@ -12911,7 +13052,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A oração “radicalizar a política de ampliação do acesso à justiça” ( R .12) e o termo “consenso” ( R .14) exercem a mesma função sintática nos períodos em que ocorrem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-018",
@@ -12922,7 +13064,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O uso do modo subjuntivo em “que assegure direitos e promova a paz” ( R . 22 e 23) indica que a ideia expressa nessas orações é uma possibilidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-019",
@@ -12933,7 +13076,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do terceiro parágrafo, a escolha vocabular — exemplificada por “revanchista” ( R .31), entre outros exemplos — e o uso de certas estruturas sintáticas — ilustradas por “Não é aceitável” ( R .29) — contribuem para a veiculação da opinião da autora do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-020",
@@ -12944,7 +13088,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do verbo “dever” e o uso das expressões “ser preciso” e “ser necessário” ao longo do texto servem para sinalizar ações consideradas importantes e programáticas no desenvolvimento de uma nova política de acesso à justiça.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-021",
@@ -12955,7 +13100,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em “mas, sobretudo, realizada por todos” ( R .51), a palavra “sobretudo” significa especialmente e serve para reforçar a ideia de oposição veiculada pela conjunção “mas”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-022",
@@ -12966,7 +13112,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do emprego do fecho “Respeitosamente” que o texto estabelece uma comunicação entre chefias de unidades administrativas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-023",
@@ -12977,7 +13124,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O texto, uma comunicação administrativa entre unidades administrativas de um mesmo órgão, classifica-se como memorando.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-024",
@@ -12988,7 +13136,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O posicionamento adotado para a data e a numeração do documento está em desacordo com o disposto no referido manual para o padrão ofício de documentos oficiais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-025",
@@ -12999,7 +13148,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do vocativo “Excelentíssima” está adequado e justifica-se pelo fato de a destinatária do documento ocupar cargo de chefia de unidade administrativa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-026",
@@ -13010,7 +13160,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Para garantir a correção gramatical e a adequação da linguagem, o pronome “Você” deveria ser substituído por Sua Excelência , considerando-se o cargo ocupado pela autoridade a que o documento se destina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-027",
@@ -13186,7 +13337,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O Brasil, nação simpatizante à ALCA e com objetivo de aderir ao TPP, suscitou desentendimentos entre seus parceiros de MERCOSUL, sobretudo com a Argentina, ao unir-se com o Chile e com o Peru.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-044",
@@ -13197,7 +13349,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A TPP insere-se no amplo contexto de uma economia crescentemente globalizada, realidade que, alimentada pela contínua ampliação da capacidade produtiva e alicerçada nas inovações tecnológicas que o desenvolvimento científico tem propiciado constantemente, é assinalada, entre outros elementos, pela extraordinária expansão do comércio e pelo elevado grau de competitividade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-045",
@@ -13208,7 +13361,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o ponto de vista norte-americano, a TPP garante continuidade aos passos estratégicos realizados anteriormente pelo país com a criação do NAFTA — que integrou as economias dos EUA, do México e do Canadá — e da ALCA, voltada para o conjunto das Américas, ambos de inegável êxito político e econômico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-046",
@@ -13219,7 +13373,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A crescente importância econômica de países como China e Índia, somada ao protagonismo do Japão na economia mundial após a Segunda Grande Guerra, cria a perspectiva de que a Ásia se torne cada vez mais influente no cenário econômico global.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-047",
@@ -13230,7 +13385,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "É possível inferir que a criação da TPP obedece a uma lógica essencialmente mercantil, o que afasta qualquer pretensão de hegemonia política e de hegemonia estratégica por parte dos EUA.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-048",
@@ -13241,7 +13397,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a declaração universal dos direitos humanos, aprovada pela ONU, “toda pessoa vítima de perseguição tem o direito de procurar e de gozar asilo em outros países”. Isso leva a concluir que cada refugiado é reflexo de um grave padrão de violação dos direitos humanos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-049",
@@ -13252,7 +13409,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As atuais correntes migratórias, que chamam a atenção do mundo, partem de pontos distintos. Em geral, os grupos originados da África subsaariana e do Oriente Médio — especialmente da conflagrada Síria — têm como destino a Europa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-ginecologia-050",
@@ -13263,7 +13421,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "À exceção da Alemanha, que enfrenta significativa crise econômica, os demais países integrantes da União Europeia foram ágeis na recepção dos atuais imigrantes refugiados, e lhes ofereceram abrigos provisórios, alimentação e documentação regularizada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-002",
@@ -13274,7 +13433,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O direito é um produto histórico que resulta de constante luta de uma coletividade ou de um indivíduo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-003",
@@ -13285,7 +13445,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A espada e a balança representam dois conceitos a partir dos quais se constrói o sentido do direito, sentido esse que se descaracteriza na falta de um deles.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-005",
@@ -13296,7 +13457,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Ao se utilizar da luta como o meio para alcançar seu objetivo, o direito promove a ressignificação dos conceitos de luta e de paz, passando a encará-los como conceitos complementares.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-006",
@@ -13307,7 +13469,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido original do texto seriam preservados caso a oração “que se lhe contrapôs” ( R . 7 e 8) fosse reescrita como que foi contraposto a ele .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-008",
@@ -13318,7 +13481,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo “ambientalmente correto, socialmente justo e economicamente viável” ( R . 14 e 15) exerce a função de predicativo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-009",
@@ -13329,7 +13493,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O deslocamento da partícula “se”, em “Define-se” ( R .24), para o início do período — escrevendo-se Se define — prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-011",
@@ -13340,7 +13505,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo “à recuperação do meio ambiente” ( R . 12 e 13) desempenha a função de complemento verbal na oração em que ocorre.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-012",
@@ -13351,7 +13517,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso a vírgula empregada logo após a palavra “sustentáveis” ( R .13) fosse suprimida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-013",
@@ -13362,7 +13529,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Historicamente, a sociedade tem atuado à sombra do Poder Judiciário na luta contra a violência. Atualmente, essa situação mudou e o envolvimento da sociedade na formulação de políticas de prevenção da violência é cada vez mais fundamental.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-014",
@@ -13373,7 +13541,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A universalização do acesso à justiça é dificultada pela distância entre os órgãos da justiça e os lugares onde ocorrem conflitos e pela existência de muitos espaços marcados por coerções, exclusões e violência.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-015",
@@ -13384,7 +13553,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A radicalização das políticas de promoção da justiça, defendida no texto, não se esgota em medidas de inclusão da maioria excluída no sistema judiciário, devendo contemplar medidas de proteção de direitos violados e medidas de prevenção de violência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-016",
@@ -13395,7 +13565,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No primeiro parágrafo do texto, utiliza-se trecho de natureza descritiva para fundamentar a argumentação, pois o parágrafo se inicia com uma ideia que é corroborada pela descrição de uma série de fatos relevantes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-017",
@@ -13406,7 +13577,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A oração “radicalizar a política de ampliação do acesso à justiça” ( R .12) e o termo “consenso” ( R .14) exercem a mesma função sintática nos períodos em que ocorrem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-018",
@@ -13417,7 +13589,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O uso do modo subjuntivo em “que assegure direitos e promova a paz” ( R . 22 e 23) indica que a ideia expressa nessas orações é uma possibilidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-019",
@@ -13428,7 +13601,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do terceiro parágrafo, a escolha vocabular — exemplificada por “revanchista” ( R .31), entre outros exemplos — e o uso de certas estruturas sintáticas — ilustradas por “Não é aceitável” ( R .29) — contribuem para a veiculação da opinião da autora do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-020",
@@ -13439,7 +13613,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do verbo “dever” e o uso das expressões “ser preciso” e “ser necessário” ao longo do texto servem para sinalizar ações consideradas importantes e programáticas no desenvolvimento de uma nova política de acesso à justiça.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-021",
@@ -13450,7 +13625,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em “mas, sobretudo, realizada por todos” ( R .51), a palavra “sobretudo” significa especialmente e serve para reforçar a ideia de oposição veiculada pela conjunção “mas”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-022",
@@ -13461,7 +13637,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do emprego do fecho “Respeitosamente” que o texto estabelece uma comunicação entre chefias de unidades administrativas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-023",
@@ -13472,7 +13649,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O texto, uma comunicação administrativa entre unidades administrativas de um mesmo órgão, classifica-se como memorando.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-024",
@@ -13483,7 +13661,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O posicionamento adotado para a data e a numeração do documento está em desacordo com o disposto no referido manual para o padrão ofício de documentos oficiais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-025",
@@ -13494,7 +13673,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do vocativo “Excelentíssima” está adequado e justifica-se pelo fato de a destinatária do documento ocupar cargo de chefia de unidade administrativa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-026",
@@ -13505,7 +13685,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Para garantir a correção gramatical e a adequação da linguagem, o pronome “Você” deveria ser substituído por Sua Excelência , considerando-se o cargo ocupado pela autoridade a que o documento se destina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-027",
@@ -13681,7 +13862,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O Brasil, nação simpatizante à ALCA e com objetivo de aderir ao TPP, suscitou desentendimentos entre seus parceiros de MERCOSUL, sobretudo com a Argentina, ao unir-se com o Chile e com o Peru.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-044",
@@ -13692,7 +13874,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A TPP insere-se no amplo contexto de uma economia crescentemente globalizada, realidade que, alimentada pela contínua ampliação da capacidade produtiva e alicerçada nas inovações tecnológicas que o desenvolvimento científico tem propiciado constantemente, é assinalada, entre outros elementos, pela extraordinária expansão do comércio e pelo elevado grau de competitividade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-045",
@@ -13703,7 +13886,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o ponto de vista norte-americano, a TPP garante continuidade aos passos estratégicos realizados anteriormente pelo país com a criação do NAFTA — que integrou as economias dos EUA, do México e do Canadá — e da ALCA, voltada para o conjunto das Américas, ambos de inegável êxito político e econômico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-046",
@@ -13714,7 +13898,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A crescente importância econômica de países como China e Índia, somada ao protagonismo do Japão na economia mundial após a Segunda Grande Guerra, cria a perspectiva de que a Ásia se torne cada vez mais influente no cenário econômico global.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-047",
@@ -13725,7 +13910,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "É possível inferir que a criação da TPP obedece a uma lógica essencialmente mercantil, o que afasta qualquer pretensão de hegemonia política e de hegemonia estratégica por parte dos EUA.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-048",
@@ -13736,7 +13922,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a declaração universal dos direitos humanos, aprovada pela ONU, “toda pessoa vítima de perseguição tem o direito de procurar e de gozar asilo em outros países”. Isso leva a concluir que cada refugiado é reflexo de um grave padrão de violação dos direitos humanos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-049",
@@ -13747,7 +13934,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As atuais correntes migratórias, que chamam a atenção do mundo, partem de pontos distintos. Em geral, os grupos originados da África subsaariana e do Oriente Médio — especialmente da conflagrada Síria — têm como destino a Europa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-neurologia-050",
@@ -13758,7 +13946,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "À exceção da Alemanha, que enfrenta significativa crise econômica, os demais países integrantes da União Europeia foram ágeis na recepção dos atuais imigrantes refugiados, e lhes ofereceram abrigos provisórios, alimentação e documentação regularizada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-002",
@@ -13769,7 +13958,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O direito é um produto histórico que resulta de constante luta de uma coletividade ou de um indivíduo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-003",
@@ -13780,7 +13970,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A espada e a balança representam dois conceitos a partir dos quais se constrói o sentido do direito, sentido esse que se descaracteriza na falta de um deles.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-005",
@@ -13791,7 +13982,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Ao se utilizar da luta como o meio para alcançar seu objetivo, o direito promove a ressignificação dos conceitos de luta e de paz, passando a encará-los como conceitos complementares.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-006",
@@ -13802,7 +13994,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido original do texto seriam preservados caso a oração “que se lhe contrapôs” ( R . 7 e 8) fosse reescrita como que foi contraposto a ele .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-008",
@@ -13813,7 +14006,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo “ambientalmente correto, socialmente justo e economicamente viável” ( R . 14 e 15) exerce a função de predicativo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-009",
@@ -13824,7 +14018,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O deslocamento da partícula “se”, em “Define-se” ( R .24), para o início do período — escrevendo-se Se define — prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-011",
@@ -13835,7 +14030,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo “à recuperação do meio ambiente” ( R . 12 e 13) desempenha a função de complemento verbal na oração em que ocorre.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-012",
@@ -13846,7 +14042,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso a vírgula empregada logo após a palavra “sustentáveis” ( R .13) fosse suprimida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-013",
@@ -13857,7 +14054,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Historicamente, a sociedade tem atuado à sombra do Poder Judiciário na luta contra a violência. Atualmente, essa situação mudou e o envolvimento da sociedade na formulação de políticas de prevenção da violência é cada vez mais fundamental.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-014",
@@ -13868,7 +14066,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A universalização do acesso à justiça é dificultada pela distância entre os órgãos da justiça e os lugares onde ocorrem conflitos e pela existência de muitos espaços marcados por coerções, exclusões e violência.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-015",
@@ -13879,7 +14078,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A radicalização das políticas de promoção da justiça, defendida no texto, não se esgota em medidas de inclusão da maioria excluída no sistema judiciário, devendo contemplar medidas de proteção de direitos violados e medidas de prevenção de violência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-016",
@@ -13890,7 +14090,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No primeiro parágrafo do texto, utiliza-se trecho de natureza descritiva para fundamentar a argumentação, pois o parágrafo se inicia com uma ideia que é corroborada pela descrição de uma série de fatos relevantes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-017",
@@ -13901,7 +14102,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A oração “radicalizar a política de ampliação do acesso à justiça” ( R .12) e o termo “consenso” ( R .14) exercem a mesma função sintática nos períodos em que ocorrem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-018",
@@ -13912,7 +14114,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O uso do modo subjuntivo em “que assegure direitos e promova a paz” ( R . 22 e 23) indica que a ideia expressa nessas orações é uma possibilidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-019",
@@ -13923,7 +14126,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do terceiro parágrafo, a escolha vocabular — exemplificada por “revanchista” ( R .31), entre outros exemplos — e o uso de certas estruturas sintáticas — ilustradas por “Não é aceitável” ( R .29) — contribuem para a veiculação da opinião da autora do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-020",
@@ -13934,7 +14138,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do verbo “dever” e o uso das expressões “ser preciso” e “ser necessário” ao longo do texto servem para sinalizar ações consideradas importantes e programáticas no desenvolvimento de uma nova política de acesso à justiça.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-021",
@@ -13945,7 +14150,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em “mas, sobretudo, realizada por todos” ( R .51), a palavra “sobretudo” significa especialmente e serve para reforçar a ideia de oposição veiculada pela conjunção “mas”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-022",
@@ -13956,7 +14162,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do emprego do fecho “Respeitosamente” que o texto estabelece uma comunicação entre chefias de unidades administrativas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-023",
@@ -13967,7 +14174,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O texto, uma comunicação administrativa entre unidades administrativas de um mesmo órgão, classifica-se como memorando.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-024",
@@ -13978,7 +14186,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O posicionamento adotado para a data e a numeração do documento está em desacordo com o disposto no referido manual para o padrão ofício de documentos oficiais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-025",
@@ -13989,7 +14198,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do vocativo “Excelentíssima” está adequado e justifica-se pelo fato de a destinatária do documento ocupar cargo de chefia de unidade administrativa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-026",
@@ -14000,7 +14210,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Para garantir a correção gramatical e a adequação da linguagem, o pronome “Você” deveria ser substituído por Sua Excelência , considerando-se o cargo ocupado pela autoridade a que o documento se destina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-027",
@@ -14176,7 +14387,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O Brasil, nação simpatizante à ALCA e com objetivo de aderir ao TPP, suscitou desentendimentos entre seus parceiros de MERCOSUL, sobretudo com a Argentina, ao unir-se com o Chile e com o Peru.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-044",
@@ -14187,7 +14399,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A TPP insere-se no amplo contexto de uma economia crescentemente globalizada, realidade que, alimentada pela contínua ampliação da capacidade produtiva e alicerçada nas inovações tecnológicas que o desenvolvimento científico tem propiciado constantemente, é assinalada, entre outros elementos, pela extraordinária expansão do comércio e pelo elevado grau de competitividade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-045",
@@ -14198,7 +14411,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o ponto de vista norte-americano, a TPP garante continuidade aos passos estratégicos realizados anteriormente pelo país com a criação do NAFTA — que integrou as economias dos EUA, do México e do Canadá — e da ALCA, voltada para o conjunto das Américas, ambos de inegável êxito político e econômico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-046",
@@ -14209,7 +14423,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A crescente importância econômica de países como China e Índia, somada ao protagonismo do Japão na economia mundial após a Segunda Grande Guerra, cria a perspectiva de que a Ásia se torne cada vez mais influente no cenário econômico global.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-047",
@@ -14220,7 +14435,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "É possível inferir que a criação da TPP obedece a uma lógica essencialmente mercantil, o que afasta qualquer pretensão de hegemonia política e de hegemonia estratégica por parte dos EUA.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-048",
@@ -14231,7 +14447,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a declaração universal dos direitos humanos, aprovada pela ONU, “toda pessoa vítima de perseguição tem o direito de procurar e de gozar asilo em outros países”. Isso leva a concluir que cada refugiado é reflexo de um grave padrão de violação dos direitos humanos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-049",
@@ -14242,7 +14459,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As atuais correntes migratórias, que chamam a atenção do mundo, partem de pontos distintos. Em geral, os grupos originados da África subsaariana e do Oriente Médio — especialmente da conflagrada Síria — têm como destino a Europa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-pediatria-050",
@@ -14253,7 +14471,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "À exceção da Alemanha, que enfrenta significativa crise econômica, os demais países integrantes da União Europeia foram ágeis na recepção dos atuais imigrantes refugiados, e lhes ofereceram abrigos provisórios, alimentação e documentação regularizada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-002",
@@ -14264,7 +14483,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O direito é um produto histórico que resulta de constante luta de uma coletividade ou de um indivíduo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-003",
@@ -14275,7 +14495,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A espada e a balança representam dois conceitos a partir dos quais se constrói o sentido do direito, sentido esse que se descaracteriza na falta de um deles.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-005",
@@ -14286,7 +14507,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Ao se utilizar da luta como o meio para alcançar seu objetivo, o direito promove a ressignificação dos conceitos de luta e de paz, passando a encará-los como conceitos complementares.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-006",
@@ -14297,7 +14519,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido original do texto seriam preservados caso a oração “que se lhe contrapôs” ( R . 7 e 8) fosse reescrita como que foi contraposto a ele .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-008",
@@ -14308,7 +14531,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo “ambientalmente correto, socialmente justo e economicamente viável” ( R . 14 e 15) exerce a função de predicativo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-009",
@@ -14319,7 +14543,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O deslocamento da partícula “se”, em “Define-se” ( R .24), para o início do período — escrevendo-se Se define — prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-011",
@@ -14330,7 +14555,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo “à recuperação do meio ambiente” ( R . 12 e 13) desempenha a função de complemento verbal na oração em que ocorre.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-012",
@@ -14341,7 +14567,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso a vírgula empregada logo após a palavra “sustentáveis” ( R .13) fosse suprimida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-013",
@@ -14352,7 +14579,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Historicamente, a sociedade tem atuado à sombra do Poder Judiciário na luta contra a violência. Atualmente, essa situação mudou e o envolvimento da sociedade na formulação de políticas de prevenção da violência é cada vez mais fundamental.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-014",
@@ -14363,7 +14591,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A universalização do acesso à justiça é dificultada pela distância entre os órgãos da justiça e os lugares onde ocorrem conflitos e pela existência de muitos espaços marcados por coerções, exclusões e violência.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-015",
@@ -14374,7 +14603,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A radicalização das políticas de promoção da justiça, defendida no texto, não se esgota em medidas de inclusão da maioria excluída no sistema judiciário, devendo contemplar medidas de proteção de direitos violados e medidas de prevenção de violência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-016",
@@ -14385,7 +14615,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No primeiro parágrafo do texto, utiliza-se trecho de natureza descritiva para fundamentar a argumentação, pois o parágrafo se inicia com uma ideia que é corroborada pela descrição de uma série de fatos relevantes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-017",
@@ -14396,7 +14627,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A oração “radicalizar a política de ampliação do acesso à justiça” ( R .12) e o termo “consenso” ( R .14) exercem a mesma função sintática nos períodos em que ocorrem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-018",
@@ -14407,7 +14639,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O uso do modo subjuntivo em “que assegure direitos e promova a paz” ( R . 22 e 23) indica que a ideia expressa nessas orações é uma possibilidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-019",
@@ -14418,7 +14651,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do terceiro parágrafo, a escolha vocabular — exemplificada por “revanchista” ( R .31), entre outros exemplos — e o uso de certas estruturas sintáticas — ilustradas por “Não é aceitável” ( R .29) — contribuem para a veiculação da opinião da autora do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-020",
@@ -14429,7 +14663,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do verbo “dever” e o uso das expressões “ser preciso” e “ser necessário” ao longo do texto servem para sinalizar ações consideradas importantes e programáticas no desenvolvimento de uma nova política de acesso à justiça.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-021",
@@ -14440,7 +14675,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em “mas, sobretudo, realizada por todos” ( R .51), a palavra “sobretudo” significa especialmente e serve para reforçar a ideia de oposição veiculada pela conjunção “mas”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-022",
@@ -14451,7 +14687,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do emprego do fecho “Respeitosamente” que o texto estabelece uma comunicação entre chefias de unidades administrativas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-023",
@@ -14462,7 +14699,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O texto, uma comunicação administrativa entre unidades administrativas de um mesmo órgão, classifica-se como memorando.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-024",
@@ -14473,7 +14711,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O posicionamento adotado para a data e a numeração do documento está em desacordo com o disposto no referido manual para o padrão ofício de documentos oficiais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-025",
@@ -14484,7 +14723,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do vocativo “Excelentíssima” está adequado e justifica-se pelo fato de a destinatária do documento ocupar cargo de chefia de unidade administrativa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-026",
@@ -14495,7 +14735,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Para garantir a correção gramatical e a adequação da linguagem, o pronome “Você” deveria ser substituído por Sua Excelência , considerando-se o cargo ocupado pela autoridade a que o documento se destina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-027",
@@ -14671,7 +14912,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O Brasil, nação simpatizante à ALCA e com objetivo de aderir ao TPP, suscitou desentendimentos entre seus parceiros de MERCOSUL, sobretudo com a Argentina, ao unir-se com o Chile e com o Peru.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-044",
@@ -14682,7 +14924,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A TPP insere-se no amplo contexto de uma economia crescentemente globalizada, realidade que, alimentada pela contínua ampliação da capacidade produtiva e alicerçada nas inovações tecnológicas que o desenvolvimento científico tem propiciado constantemente, é assinalada, entre outros elementos, pela extraordinária expansão do comércio e pelo elevado grau de competitividade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-045",
@@ -14693,7 +14936,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o ponto de vista norte-americano, a TPP garante continuidade aos passos estratégicos realizados anteriormente pelo país com a criação do NAFTA — que integrou as economias dos EUA, do México e do Canadá — e da ALCA, voltada para o conjunto das Américas, ambos de inegável êxito político e econômico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-046",
@@ -14704,7 +14948,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A crescente importância econômica de países como China e Índia, somada ao protagonismo do Japão na economia mundial após a Segunda Grande Guerra, cria a perspectiva de que a Ásia se torne cada vez mais influente no cenário econômico global.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-047",
@@ -14715,7 +14960,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "É possível inferir que a criação da TPP obedece a uma lógica essencialmente mercantil, o que afasta qualquer pretensão de hegemonia política e de hegemonia estratégica por parte dos EUA.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-048",
@@ -14726,7 +14972,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a declaração universal dos direitos humanos, aprovada pela ONU, “toda pessoa vítima de perseguição tem o direito de procurar e de gozar asilo em outros países”. Isso leva a concluir que cada refugiado é reflexo de um grave padrão de violação dos direitos humanos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-049",
@@ -14737,7 +14984,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As atuais correntes migratórias, que chamam a atenção do mundo, partem de pontos distintos. Em geral, os grupos originados da África subsaariana e do Oriente Médio — especialmente da conflagrada Síria — têm como destino a Europa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-psiquiatria-050",
@@ -14748,7 +14996,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "À exceção da Alemanha, que enfrenta significativa crise econômica, os demais países integrantes da União Europeia foram ágeis na recepção dos atuais imigrantes refugiados, e lhes ofereceram abrigos provisórios, alimentação e documentação regularizada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-002",
@@ -14759,7 +15008,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O direito é um produto histórico que resulta de constante luta de uma coletividade ou de um indivíduo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-003",
@@ -14770,7 +15020,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A espada e a balança representam dois conceitos a partir dos quais se constrói o sentido do direito, sentido esse que se descaracteriza na falta de um deles.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-005",
@@ -14781,7 +15032,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Ao se utilizar da luta como o meio para alcançar seu objetivo, o direito promove a ressignificação dos conceitos de luta e de paz, passando a encará-los como conceitos complementares.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-006",
@@ -14792,7 +15044,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido original do texto seriam preservados caso a oração “que se lhe contrapôs” ( R . 7 e 8) fosse reescrita como que foi contraposto a ele .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-008",
@@ -14803,7 +15056,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo “ambientalmente correto, socialmente justo e economicamente viável” ( R . 14 e 15) exerce a função de predicativo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-009",
@@ -14814,7 +15068,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O deslocamento da partícula “se”, em “Define-se” ( R .24), para o início do período — escrevendo-se Se define — prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-011",
@@ -14825,7 +15080,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo “à recuperação do meio ambiente” ( R . 12 e 13) desempenha a função de complemento verbal na oração em que ocorre.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-012",
@@ -14836,7 +15092,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso a vírgula empregada logo após a palavra “sustentáveis” ( R .13) fosse suprimida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-013",
@@ -14847,7 +15104,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Historicamente, a sociedade tem atuado à sombra do Poder Judiciário na luta contra a violência. Atualmente, essa situação mudou e o envolvimento da sociedade na formulação de políticas de prevenção da violência é cada vez mais fundamental.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-014",
@@ -14858,7 +15116,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A universalização do acesso à justiça é dificultada pela distância entre os órgãos da justiça e os lugares onde ocorrem conflitos e pela existência de muitos espaços marcados por coerções, exclusões e violência.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-015",
@@ -14869,7 +15128,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A radicalização das políticas de promoção da justiça, defendida no texto, não se esgota em medidas de inclusão da maioria excluída no sistema judiciário, devendo contemplar medidas de proteção de direitos violados e medidas de prevenção de violência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-016",
@@ -14880,7 +15140,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No primeiro parágrafo do texto, utiliza-se trecho de natureza descritiva para fundamentar a argumentação, pois o parágrafo se inicia com uma ideia que é corroborada pela descrição de uma série de fatos relevantes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-017",
@@ -14891,7 +15152,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A oração “radicalizar a política de ampliação do acesso à justiça” ( R .12) e o termo “consenso” ( R .14) exercem a mesma função sintática nos períodos em que ocorrem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-018",
@@ -14902,7 +15164,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O uso do modo subjuntivo em “que assegure direitos e promova a paz” ( R . 22 e 23) indica que a ideia expressa nessas orações é uma possibilidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-019",
@@ -14913,7 +15176,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do terceiro parágrafo, a escolha vocabular — exemplificada por “revanchista” ( R .31), entre outros exemplos — e o uso de certas estruturas sintáticas — ilustradas por “Não é aceitável” ( R .29) — contribuem para a veiculação da opinião da autora do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-020",
@@ -14924,7 +15188,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do verbo “dever” e o uso das expressões “ser preciso” e “ser necessário” ao longo do texto servem para sinalizar ações consideradas importantes e programáticas no desenvolvimento de uma nova política de acesso à justiça.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-021",
@@ -14935,7 +15200,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em “mas, sobretudo, realizada por todos” ( R .51), a palavra “sobretudo” significa especialmente e serve para reforçar a ideia de oposição veiculada pela conjunção “mas”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-022",
@@ -14946,7 +15212,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do emprego do fecho “Respeitosamente” que o texto estabelece uma comunicação entre chefias de unidades administrativas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-023",
@@ -14957,7 +15224,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O texto, uma comunicação administrativa entre unidades administrativas de um mesmo órgão, classifica-se como memorando.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-024",
@@ -14968,7 +15236,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O posicionamento adotado para a data e a numeração do documento está em desacordo com o disposto no referido manual para o padrão ofício de documentos oficiais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-025",
@@ -14979,7 +15248,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do vocativo “Excelentíssima” está adequado e justifica-se pelo fato de a destinatária do documento ocupar cargo de chefia de unidade administrativa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-026",
@@ -14990,7 +15260,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Para garantir a correção gramatical e a adequação da linguagem, o pronome “Você” deveria ser substituído por Sua Excelência , considerando-se o cargo ocupado pela autoridade a que o documento se destina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-027",
@@ -15166,7 +15437,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O Brasil, nação simpatizante à ALCA e com objetivo de aderir ao TPP, suscitou desentendimentos entre seus parceiros de MERCOSUL, sobretudo com a Argentina, ao unir-se com o Chile e com o Peru.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-044",
@@ -15177,7 +15449,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A TPP insere-se no amplo contexto de uma economia crescentemente globalizada, realidade que, alimentada pela contínua ampliação da capacidade produtiva e alicerçada nas inovações tecnológicas que o desenvolvimento científico tem propiciado constantemente, é assinalada, entre outros elementos, pela extraordinária expansão do comércio e pelo elevado grau de competitividade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-045",
@@ -15188,7 +15461,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o ponto de vista norte-americano, a TPP garante continuidade aos passos estratégicos realizados anteriormente pelo país com a criação do NAFTA — que integrou as economias dos EUA, do México e do Canadá — e da ALCA, voltada para o conjunto das Américas, ambos de inegável êxito político e econômico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-046",
@@ -15199,7 +15473,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A crescente importância econômica de países como China e Índia, somada ao protagonismo do Japão na economia mundial após a Segunda Grande Guerra, cria a perspectiva de que a Ásia se torne cada vez mais influente no cenário econômico global.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-047",
@@ -15210,7 +15485,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "É possível inferir que a criação da TPP obedece a uma lógica essencialmente mercantil, o que afasta qualquer pretensão de hegemonia política e de hegemonia estratégica por parte dos EUA.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-048",
@@ -15221,7 +15497,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a declaração universal dos direitos humanos, aprovada pela ONU, “toda pessoa vítima de perseguição tem o direito de procurar e de gozar asilo em outros países”. Isso leva a concluir que cada refugiado é reflexo de um grave padrão de violação dos direitos humanos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-049",
@@ -15232,7 +15509,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As atuais correntes migratórias, que chamam a atenção do mundo, partem de pontos distintos. Em geral, os grupos originados da África subsaariana e do Oriente Médio — especialmente da conflagrada Síria — têm como destino a Europa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-ramo-dentistica-050",
@@ -15243,7 +15521,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "À exceção da Alemanha, que enfrenta significativa crise econômica, os demais países integrantes da União Europeia foram ágeis na recepção dos atuais imigrantes refugiados, e lhes ofereceram abrigos provisórios, alimentação e documentação regularizada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-002",
@@ -15254,7 +15533,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O direito é um produto histórico que resulta de constante luta de uma coletividade ou de um indivíduo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-003",
@@ -15265,7 +15545,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A espada e a balança representam dois conceitos a partir dos quais se constrói o sentido do direito, sentido esse que se descaracteriza na falta de um deles.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-005",
@@ -15276,7 +15557,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Ao se utilizar da luta como o meio para alcançar seu objetivo, o direito promove a ressignificação dos conceitos de luta e de paz, passando a encará-los como conceitos complementares.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-006",
@@ -15287,7 +15569,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido original do texto seriam preservados caso a oração “que se lhe contrapôs” ( R . 7 e 8) fosse reescrita como que foi contraposto a ele .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-008",
@@ -15298,7 +15581,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo “ambientalmente correto, socialmente justo e economicamente viável” ( R . 14 e 15) exerce a função de predicativo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-009",
@@ -15309,7 +15593,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O deslocamento da partícula “se”, em “Define-se” ( R .24), para o início do período — escrevendo-se Se define — prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-011",
@@ -15320,7 +15605,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo “à recuperação do meio ambiente” ( R . 12 e 13) desempenha a função de complemento verbal na oração em que ocorre.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-012",
@@ -15331,7 +15617,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso a vírgula empregada logo após a palavra “sustentáveis” ( R .13) fosse suprimida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-013",
@@ -15342,7 +15629,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Historicamente, a sociedade tem atuado à sombra do Poder Judiciário na luta contra a violência. Atualmente, essa situação mudou e o envolvimento da sociedade na formulação de políticas de prevenção da violência é cada vez mais fundamental.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-014",
@@ -15353,7 +15641,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A universalização do acesso à justiça é dificultada pela distância entre os órgãos da justiça e os lugares onde ocorrem conflitos e pela existência de muitos espaços marcados por coerções, exclusões e violência.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-015",
@@ -15364,7 +15653,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A radicalização das políticas de promoção da justiça, defendida no texto, não se esgota em medidas de inclusão da maioria excluída no sistema judiciário, devendo contemplar medidas de proteção de direitos violados e medidas de prevenção de violência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-016",
@@ -15375,7 +15665,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No primeiro parágrafo do texto, utiliza-se trecho de natureza descritiva para fundamentar a argumentação, pois o parágrafo se inicia com uma ideia que é corroborada pela descrição de uma série de fatos relevantes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-017",
@@ -15386,7 +15677,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A oração “radicalizar a política de ampliação do acesso à justiça” ( R .12) e o termo “consenso” ( R .14) exercem a mesma função sintática nos períodos em que ocorrem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-018",
@@ -15397,7 +15689,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O uso do modo subjuntivo em “que assegure direitos e promova a paz” ( R . 22 e 23) indica que a ideia expressa nessas orações é uma possibilidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-019",
@@ -15408,7 +15701,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do terceiro parágrafo, a escolha vocabular — exemplificada por “revanchista” ( R .31), entre outros exemplos — e o uso de certas estruturas sintáticas — ilustradas por “Não é aceitável” ( R .29) — contribuem para a veiculação da opinião da autora do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-020",
@@ -15419,7 +15713,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do verbo “dever” e o uso das expressões “ser preciso” e “ser necessário” ao longo do texto servem para sinalizar ações consideradas importantes e programáticas no desenvolvimento de uma nova política de acesso à justiça.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-021",
@@ -15430,7 +15725,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em “mas, sobretudo, realizada por todos” ( R .51), a palavra “sobretudo” significa especialmente e serve para reforçar a ideia de oposição veiculada pela conjunção “mas”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-022",
@@ -15441,7 +15737,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do emprego do fecho “Respeitosamente” que o texto estabelece uma comunicação entre chefias de unidades administrativas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-023",
@@ -15452,7 +15749,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O texto, uma comunicação administrativa entre unidades administrativas de um mesmo órgão, classifica-se como memorando.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-024",
@@ -15463,7 +15761,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O posicionamento adotado para a data e a numeração do documento está em desacordo com o disposto no referido manual para o padrão ofício de documentos oficiais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-025",
@@ -15474,7 +15773,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do vocativo “Excelentíssima” está adequado e justifica-se pelo fato de a destinatária do documento ocupar cargo de chefia de unidade administrativa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-026",
@@ -15485,7 +15785,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Para garantir a correção gramatical e a adequação da linguagem, o pronome “Você” deveria ser substituído por Sua Excelência , considerando-se o cargo ocupado pela autoridade a que o documento se destina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-027",
@@ -15661,7 +15962,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O Brasil, nação simpatizante à ALCA e com objetivo de aderir ao TPP, suscitou desentendimentos entre seus parceiros de MERCOSUL, sobretudo com a Argentina, ao unir-se com o Chile e com o Peru.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-044",
@@ -15672,7 +15974,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A TPP insere-se no amplo contexto de uma economia crescentemente globalizada, realidade que, alimentada pela contínua ampliação da capacidade produtiva e alicerçada nas inovações tecnológicas que o desenvolvimento científico tem propiciado constantemente, é assinalada, entre outros elementos, pela extraordinária expansão do comércio e pelo elevado grau de competitividade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-045",
@@ -15683,7 +15986,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o ponto de vista norte-americano, a TPP garante continuidade aos passos estratégicos realizados anteriormente pelo país com a criação do NAFTA — que integrou as economias dos EUA, do México e do Canadá — e da ALCA, voltada para o conjunto das Américas, ambos de inegável êxito político e econômico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-046",
@@ -15694,7 +15998,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A crescente importância econômica de países como China e Índia, somada ao protagonismo do Japão na economia mundial após a Segunda Grande Guerra, cria a perspectiva de que a Ásia se torne cada vez mais influente no cenário econômico global.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-047",
@@ -15705,7 +16010,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "É possível inferir que a criação da TPP obedece a uma lógica essencialmente mercantil, o que afasta qualquer pretensão de hegemonia política e de hegemonia estratégica por parte dos EUA.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-048",
@@ -15716,7 +16022,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a declaração universal dos direitos humanos, aprovada pela ONU, “toda pessoa vítima de perseguição tem o direito de procurar e de gozar asilo em outros países”. Isso leva a concluir que cada refugiado é reflexo de um grave padrão de violação dos direitos humanos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-049",
@@ -15727,7 +16034,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As atuais correntes migratórias, que chamam a atenção do mundo, partem de pontos distintos. Em geral, os grupos originados da África subsaariana e do Oriente Médio — especialmente da conflagrada Síria — têm como destino a Europa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-judiciaria-050",
@@ -15738,7 +16046,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "À exceção da Alemanha, que enfrenta significativa crise econômica, os demais países integrantes da União Europeia foram ágeis na recepção dos atuais imigrantes refugiados, e lhes ofereceram abrigos provisórios, alimentação e documentação regularizada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-002",
@@ -15749,7 +16058,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O direito é um produto histórico que resulta de constante luta de uma coletividade ou de um indivíduo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-003",
@@ -15760,7 +16070,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A espada e a balança representam dois conceitos a partir dos quais se constrói o sentido do direito, sentido esse que se descaracteriza na falta de um deles.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-005",
@@ -15771,7 +16082,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Ao se utilizar da luta como o meio para alcançar seu objetivo, o direito promove a ressignificação dos conceitos de luta e de paz, passando a encará-los como conceitos complementares.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-006",
@@ -15782,7 +16094,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido original do texto seriam preservados caso a oração “que se lhe contrapôs” ( R . 7 e 8) fosse reescrita como que foi contraposto a ele .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-008",
@@ -15793,7 +16106,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo “ambientalmente correto, socialmente justo e economicamente viável” ( R . 14 e 15) exerce a função de predicativo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-009",
@@ -15804,7 +16118,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O deslocamento da partícula “se”, em “Define-se” ( R .24), para o início do período — escrevendo-se Se define — prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-011",
@@ -15815,7 +16130,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo “à recuperação do meio ambiente” ( R . 12 e 13) desempenha a função de complemento verbal na oração em que ocorre.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-012",
@@ -15826,7 +16142,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso a vírgula empregada logo após a palavra “sustentáveis” ( R .13) fosse suprimida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-013",
@@ -15837,7 +16154,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Historicamente, a sociedade tem atuado à sombra do Poder Judiciário na luta contra a violência. Atualmente, essa situação mudou e o envolvimento da sociedade na formulação de políticas de prevenção da violência é cada vez mais fundamental.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-014",
@@ -15848,7 +16166,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A universalização do acesso à justiça é dificultada pela distância entre os órgãos da justiça e os lugares onde ocorrem conflitos e pela existência de muitos espaços marcados por coerções, exclusões e violência.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-015",
@@ -15859,7 +16178,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A radicalização das políticas de promoção da justiça, defendida no texto, não se esgota em medidas de inclusão da maioria excluída no sistema judiciário, devendo contemplar medidas de proteção de direitos violados e medidas de prevenção de violência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-016",
@@ -15870,7 +16190,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No primeiro parágrafo do texto, utiliza-se trecho de natureza descritiva para fundamentar a argumentação, pois o parágrafo se inicia com uma ideia que é corroborada pela descrição de uma série de fatos relevantes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-017",
@@ -15881,7 +16202,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A oração “radicalizar a política de ampliação do acesso à justiça” ( R .12) e o termo “consenso” ( R .14) exercem a mesma função sintática nos períodos em que ocorrem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-018",
@@ -15892,7 +16214,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O uso do modo subjuntivo em “que assegure direitos e promova a paz” ( R . 22 e 23) indica que a ideia expressa nessas orações é uma possibilidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-019",
@@ -15903,7 +16226,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do terceiro parágrafo, a escolha vocabular — exemplificada por “revanchista” ( R .31), entre outros exemplos — e o uso de certas estruturas sintáticas — ilustradas por “Não é aceitável” ( R .29) — contribuem para a veiculação da opinião da autora do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-020",
@@ -15914,7 +16238,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do verbo “dever” e o uso das expressões “ser preciso” e “ser necessário” ao longo do texto servem para sinalizar ações consideradas importantes e programáticas no desenvolvimento de uma nova política de acesso à justiça.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-021",
@@ -15925,7 +16250,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em “mas, sobretudo, realizada por todos” ( R .51), a palavra “sobretudo” significa especialmente e serve para reforçar a ideia de oposição veiculada pela conjunção “mas”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-022",
@@ -15936,7 +16262,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do emprego do fecho “Respeitosamente” que o texto estabelece uma comunicação entre chefias de unidades administrativas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-023",
@@ -15947,7 +16274,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O texto, uma comunicação administrativa entre unidades administrativas de um mesmo órgão, classifica-se como memorando.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-024",
@@ -15958,7 +16286,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O posicionamento adotado para a data e a numeração do documento está em desacordo com o disposto no referido manual para o padrão ofício de documentos oficiais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-025",
@@ -15969,7 +16298,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do vocativo “Excelentíssima” está adequado e justifica-se pelo fato de a destinatária do documento ocupar cargo de chefia de unidade administrativa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-026",
@@ -15980,7 +16310,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Para garantir a correção gramatical e a adequação da linguagem, o pronome “Você” deveria ser substituído por Sua Excelência , considerando-se o cargo ocupado pela autoridade a que o documento se destina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-027",
@@ -16156,7 +16487,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O Brasil, nação simpatizante à ALCA e com objetivo de aderir ao TPP, suscitou desentendimentos entre seus parceiros de MERCOSUL, sobretudo com a Argentina, ao unir-se com o Chile e com o Peru.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-044",
@@ -16167,7 +16499,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A TPP insere-se no amplo contexto de uma economia crescentemente globalizada, realidade que, alimentada pela contínua ampliação da capacidade produtiva e alicerçada nas inovações tecnológicas que o desenvolvimento científico tem propiciado constantemente, é assinalada, entre outros elementos, pela extraordinária expansão do comércio e pelo elevado grau de competitividade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-045",
@@ -16178,7 +16511,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o ponto de vista norte-americano, a TPP garante continuidade aos passos estratégicos realizados anteriormente pelo país com a criação do NAFTA — que integrou as economias dos EUA, do México e do Canadá — e da ALCA, voltada para o conjunto das Américas, ambos de inegável êxito político e econômico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-046",
@@ -16189,7 +16523,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A crescente importância econômica de países como China e Índia, somada ao protagonismo do Japão na economia mundial após a Segunda Grande Guerra, cria a perspectiva de que a Ásia se torne cada vez mais influente no cenário econômico global.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-047",
@@ -16200,7 +16535,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "É possível inferir que a criação da TPP obedece a uma lógica essencialmente mercantil, o que afasta qualquer pretensão de hegemonia política e de hegemonia estratégica por parte dos EUA.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-048",
@@ -16211,7 +16547,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a declaração universal dos direitos humanos, aprovada pela ONU, “toda pessoa vítima de perseguição tem o direito de procurar e de gozar asilo em outros países”. Isso leva a concluir que cada refugiado é reflexo de um grave padrão de violação dos direitos humanos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-049",
@@ -16222,7 +16559,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As atuais correntes migratórias, que chamam a atenção do mundo, partem de pontos distintos. Em geral, os grupos originados da África subsaariana e do Oriente Médio — especialmente da conflagrada Síria — têm como destino a Europa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2015-tjdft-oficial-justica-050",
@@ -16233,7 +16571,160 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "À exceção da Alemanha, que enfrenta significativa crise econômica, os demais países integrantes da União Europeia foram ágeis na recepção dos atuais imigrantes refugiados, e lhes ofereceram abrigos provisórios, alimentação e documentação regularizada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "CONHECIMENTOS ESPECÍFICOS",
+   "citacao": "O professor e especialista em ontologia Barry Smith desenvolveu a Teoria dos Atos dos Documentos ( Document acts ). Essa teoria se concentra na forma como as pessoas utilizam documentos não só para registrar a informação mas também para gerar uma variedade de fenômenos sociais, e tem como objetivo fornecer melhor compreensão do papel desempenhado pelos documentos na coordenação de ações humanas, possibilitando novos tipos de relações sociais. Simone Torres, Maurício Almeida e Maurício B. Reflexões sobre a função social do documento aplicadas à documentação jurídica. In : DataGramaZero – Revista de Informação, v. 15, n.º 2, abr./2014 (com adaptações). Tendo como referência esse fragmento de texto, julgue os itens subsequentes.",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma paciente de sessenta e seis anos de idade procurou atendimento médico devido a quadro de diarreia aquosa. Ela relatou que, nos últimos seis meses, havia apresentado de seis a oito episódios diários de diarreia de grande volume. A paciente não apresentou sinais ou sintomas sistêmicos, e negou febre, uso recente de antibióticos e outras medicações, além de mudança no hábito alimentar. Os resultados dos exames físico e laboratoriais de rotina foram normais. O exame de fezes foi negativo para leucócitos, cistos, parasitas ou sangue. A colonoscopia foi normal, mas a biópsia demonstrou infiltração da lâmina própria por células inflamatórias e linfócitos intraepiteliais, com espessamento da camada de colágeno subepitelial na parede cólica (11 µm).",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma paciente de sessenta e cinco anos de idade, portadora de doença pulmonar obstrutiva crônica (DPOC), compareceu a consulta de rotina uma semana após ter recebido alta hospitalar. Ela havia passado pela segunda internação por insuficiência respiratória e exacerbação da DPOC nos últimos seis meses. A paciente reclamou de dispneia aos esforços habituais. Os resultados dos exames clínico e laboratoriais não mostraram alterações significativas. A gasometria em ar ambiente revelou pH = 7,40; pCO = 42 mmHg; HCO = 25 mEq/L; BE = ! 2 mEq/L;\n\n2 3 pO 2 = 54 mmHg; e SO 2 = 86%.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma paciente com sessenta e oito anos de idade procurou atendimento médico com o quadro clínico de episódios recentes de cefaleia bitemporal, além de dor nos ombros e no quadril e perda de dois quilos no último mês. Ela relatou que um dia antes da consulta médica havia tido uma perda súbita da visão do olho direito que durou cerca de trinta minutos. Ao exame físico, não foram detectadas alterações significativas. Os resultados dos exames laboratoriais foram normais, exceto por uma leve anemia normocrômica e aumento da velocidade de hemossedimentação (102 mm/h).",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um homem de quarenta e três anos de idade, hígido, compareceu ao pronto-atendimento com queixas de palpitações taquicárdicas havia duas horas. Ele negou outros sintomas e relatou ingesta abusiva de álcool no dia anterior. Ao exame físico apresentou pressão arterial de 124 mmHg × 78 mmHg; frequência cardíaca de 148 bpm e frequência respiratória de 18 irpm. A ausculta cardíaca revelou ritmo cardíaco irregular em dois tempos com bulhas normofonéticas e sem sopros. O restante do exame físico foi normal. A radiografia do tórax e o ecocardiograma não mostraram anormalidades. O paciente foi submetido à realização de eletrocardiograma (com calibração padrão), cujo resultado está mostrado na figura precedente.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um indivíduo portador de doença pulmonar obstrutiva crônica procurou atendimento médico por apresentar piora da dispneia associada a sonolência excessiva, tosse produtiva e febre. O paciente negou outros sinais ou sintomas, estava hemodinamicamente normal e apresentava a seguinte gasometria: pH = 7,29; PCO2 = 70 mmHg; PO2 = 40 mmHg; e bicarbonato = 32 mEq/L.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um paciente assintomático de quarenta e um anos de idade foi encaminhado para avaliação devido à presença de microhematúria. Ele relatou que, havia quatro anos, foi submetido à tomografia computadorizada de abdome total, além de citologia urinária e citoscopia com pielografia retrógrada também devido a um quadro de hematúria, após ter sido tratado de uma infecção do trato urinário. Na ocasião, todos esses exames demonstraram resultados normais. Ele não apresentou comorbidades ou histórico familiar de doença renal e não foram encontradas anormalidades ao exame físico. Os exames laboratoriais revelaram glicose = 106 mg/dL; creatinina = 1,8 mg/dL; proteinúria de 24 horas = 2,1 g; e análise de urina com hematúria 3+. Os demais resultados foram normais: velocidade de hemossedimentação; testes de anticorpos antinucleares; anticorpos antimieloperoxidase e proteinase 3; eletroforese de proteínas e sorologias para hepatites e HIV.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma gestante com trinta e seis semanas completas de idade gestacional, sem trabalho de parto foi admitida em um hospital com o seguinte quadro clínico: membranas amnióticas íntegras; feto em apresentação pélvica; ausência de sangramentos ou complicações maternas no período pré-natal. O médico constatou que o feto apresentava boas condições de vitalidade. O obstetra do pré-natal tentou realizar a manobra de versão cefálica externa mediante o consentimento da paciente.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma mulher com cinquenta e três anos de idade foi admitida em um hospital apresentando, havia dois meses, quadro de cefaleia, hemiparesia à direita, náuseas e dificuldade na fala — todos de caráter progressivo. A paciente negou febre e não houve crise convulsiva nem alterações comportamentais. Os resultados do exame de ressonância magnética contrastada do crânio são mostrados na figura precedente.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Os transtornos do sono podem ocorrer com movimentos involuntários, podendo esses movimentos se apresentar de maneira estereotipada, violenta e periódica. As etiologias são diversas, e acredita-se que haja componentes genéticos, autoimunes ou mesmo degenerativos. Considerando o texto apresentado, julgue os itens seguintes a respeito de transtornos do movimento e do sono.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um menino de dois anos e seis meses de idade chegou ao pronto-socorro sudoreico, agitado, com dificuldade respiratória moderada e fazendo uso da musculatura acessória. A criança apresentava ainda retrações sub e intercostais e de fúrcula esternal, murmúrio vesicular diminuído, sibilos difusos, frequência cardíaca igual a 135 bpm, frequência respiratória de 60 irpm e saturação de oxigênio de 91%.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma menina de quatro meses de idade, em aleitamento materno exclusivo, apresentava febre e vômitos pós-alimentares havia três dias, e diarreia com fezes líquidas, amareladas, explosivas, com distensão e dor abdominal havia um dia. O exame clínico apresentou quadro de desidratação de leve a moderada.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma mulher com trinta e dois anos de idade, após ser promovida no emprego, procurou atendimento psiquiátrico. Relatou que esteve muito relutante em assumir o novo cargo devido às dificuldades que esse cargo impõe aos ocupantes. Informou que sempre ficava muito ansiosa quando tinha de interagir com pessoas que não conhecia bem, e que isso aumentava sua frequência cardíaca e a sudorese, além de deixar a boca seca. A paciente informou que, em reuniões, apresentava um comportamento de medo por achar que iria falar alguma coisa irrelevante ou cometer alguma gafe. Sentia-se aterrorizada quando precisava falar em público. Disse que o quadro se agravou desde que assumiu o novo cargo, que exige maior interação com pessoas.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma paciente de vinte e cinco anos de idade procurou tratamento odontológico apresentando o seguinte quadro clínico: fratura de onlay cerâmico no dente 36; desgaste na face oclusal dos dentes 37, 46 e 47 com aspecto de faceta ativa vítrea; e desgaste nas incisais dos dentes anteriores. Os dentes molares superiores apresentavam desgaste e pequena perda de esmalte. A paciente não apresentou sintomatologia dolorosa. Na anamnese, a paciente relatou que, às vezes, acordava devido ao ranger dos dentes. No exame radiográfico, não foram constatadas alterações diferentes das observadas clinicamente e o periodonto se encontrava preservado. A partir das informações apresentadas nesse quadro clínico, julgue os itens subsequentes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um homem de vinte e seis anos de idade, com história de diabetes melito tipo 1, diagnosticado havia dez anos, deu entrada em um pronto-socorro, queixando-se de náuseas e mal-estar geral nas últimas duas semanas. Relatou, ainda, que seu quadro havia piorado nos últimos dias, tendo passado a apresentar dor abdominal e vômitos. No exame físico, o paciente estava emagrecido, consciente, orientado, hipertenso (200 mmHg × 120 mmHg) e taquicárdico (120 bpm). Os membros inferiores encontravam-se edemaciados e o volume urinário era de 400 mL nas últimas vinte e quatro horas. Os exames laboratoriais indicaram uremia, hipercalemia e acidose metabólica. Após os exames, o médico constatou que o quadro era de insuficiência renal crônica agudizada e instalou um cateter de duplo lúmen em veia jugular interna direita. Com relação ao quadro clínico desse paciente e aos cuidados de",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "<!DOCTYPE HTML> <html> <body> <canvas id=\"meuCanvas\" width=\"578\" height=\"200\"> </canvas> <script> var canvas = document.getElementById('meuCanvas'); var context = canvas.getContext('2d'); context.font = '30pt Helvetica'; context.fillStyle = 'black'; context.fillText('Alô SIEFGS', 150, 100); context.beginPath(); context.moveTo(100, 150); context.lineTo(450, 50); context.lineTo(100, 50); context.lineTo(100, 150); context.lineTo(450, 150); context.lineTo(450, 50); context.stroke(); </script> </body> </html> Após a execução desse código, será apresentado um resultado como o ilustrado a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "<!DOCTYPE html> <html> <head> <meta charset=\"UTF-8\"> <title>CEBRASPE</title> <script> function pqr() { var x = document.getElementById('a').value; var y = document.getElementById('b').value; if (x>y) alert(\"Valor 1 é Maior\"); else alert(\"Valor 2 é Maior\"); } </script> </head> <body> <form name='frm'> <BR>Valor 1:<input type='text' id='a' size='2'> <BR>Valor 2:<input type='text' id='b' size='2'> <BR><input type='button' onclick='pqr()' value='Resultado'> </form> </body> </html>",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Com base no diagrama de entidade e relacionamento (DER) apresentado, julgue os itens que se seguem a respeito de modelagem de dados e linguagem de definição dos dados.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Rudolf von Ihering. A luta pelo direito . Tradução de J. Cretella Jr. e Agnes Cretella. 5.ª ed. revista da tradução. São Paulo: Editora Revista dos Tribunais, 2008, p. 31 (com adaptações). Com referência às ideias apresentadas no texto precedente e a seus",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Eles chegaram num fluxo incessante. No auge, eram cerca de dez mil imigrantes por dia, e de um milhão dirigindo-se à Europa desde o começo deste ano. Era um cenário em que pessoas empurravam bebês em carrinhos, bem como pais idosos em cadeiras de rodas, e levavam nas meias as economias de uma vida inteira. Vieram à procura de uma nova realidade, mas, sob muitos aspectos, eram eles os arautos de uma nova época. Atualmente, estima-se que há sessenta milhões de refugiados pelo mundo, o que representa um número maior do que em qualquer outro momento registrado na história, e eles estão se deslocando em quantidades inéditas desde a Segunda Guerra Mundial.\n\nThe New York Times (International Weekly). In : Folha de S.Paulo , 7/11/2015 (com adaptações). Julgue os itens subsequentes a respeito dos refugiados pelo mundo, assunto abordado no texto precedente.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Internet: <www.tjdft.jus.br> (com adaptações). A respeito das estruturas linguísticas do texto precedente, julgue os itens subsequentes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Glaúcia Falsarella Foley. Nova política de acesso à justiça é possível . In : Correio Braziliense , 22/12/2014 (com adaptações).\n\nA respeito das ideias apresentadas no texto, julgue os itens\n\nseguintes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "No que se refere aos aspectos linguísticos do texto, julgue os próximos itens.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "***. 118/MJ Em 12 de maio de 2011 À Excelentíssima Sra. Chefe da Gerência de Manutenção e Tecnologia do MJ Assunto: Administração. Pedido de agendamento de manutenção em equipamentos. 1. Com o objetivo de dar cumprimento ao Plano Geral de Reparos e Modernização dos equipamentos de tecnologia deste Órgão, gentilmente, solicito a Você o agendamento de visita técnica a este Departamento. 2. Durante as últimas semanas, foram constatados diversos defeitos nos computadores e nos monitores utilizados pelos funcionários. Será necessário reparos e substituições de alguns equipamentos. Por esta razão, solicitamos que a equipe de manutenção dirija-se ao local com peças de substituição. 3. Os equipamentos a serem substituídos são três teclados e três estabilizadores, conforme relatório produzido pela área técnica do Departamento, que segue anexo. 4. Solicitamos que o agendamento seja realizado o mais rapidamente possível pois a inoperância dos equipamentos ocasiona atraso no andamento dos processos que estão sob nossa responsabilidade.\n\nRespeitosamente,\n\nMaria Helena Júlia\n\nDiretora do Departamento de Comunicação Social do MJ Com base no disposto no Manual de Redação Oficial da Presidência da República , julgue os próximos itens, tendo como referência o texto apresentado.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A parceria transpacífica (TPP) — peça central da estratégia dos Estados Unidos da América (EUA) de fortalecer sua influência na Ásia — vai muito além da abertura comercial, visto que ela avalia a liderança de Washington na definição de regras que poderão ditar um novo capítulo da integração econômica mundial, com a regulação dos investimentos, o funcionamento da Internet e a atuação de empresas estatais.\n\nO Estado de S.Paulo , 11/10/2015, p. B8 (com adaptações). Considerando o fragmento de texto precedente como referência inicial, julgue os itens seguintes acerca do cenário econômico mundial contemporâneo.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

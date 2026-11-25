@@ -209,7 +209,8 @@ def create_app(database_url: Optional[str] = None) -> FastAPI:
     ):
         kw = filtros_kw(banca, orgao, cargo, ano, assunto, tipo, q, evento,
                         fonte)
-        stmt = queries.apply_filters(queries.base_questao(), **kw)
+        stmt = queries.apply_filters(
+            queries.base_questao(with_texto=True), **kw)
         count_stmt = queries.apply_filters(
             select(func.count()).select_from(QuestaoDB)
             .join(Prova, QuestaoDB.prova_id == Prova.id)
@@ -231,7 +232,8 @@ def create_app(database_url: Optional[str] = None) -> FastAPI:
     @app.get("/questoes/{questao_id}", response_model=Questao)
     def questao(questao_id: str, s: Session = Depends(session)):
         row = s.execute(
-            queries.base_questao().where(QuestaoDB.id == questao_id)
+            queries.base_questao(with_texto=True)
+            .where(QuestaoDB.id == questao_id)
         ).first()
         if row is None:
             raise HTTPException(404, "questão não encontrada")

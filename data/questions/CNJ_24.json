@@ -133,7 +133,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O histograma a seguir representa corretamente a distribuição de frequências da variável .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-cnj-analista-ciencias-sociais-113",
@@ -144,7 +145,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A média de X é inferior a 1.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-cnj-analista-ciencias-sociais-114",
@@ -155,7 +157,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A moda da variável X é igual a 4.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-cnj-analista-ciencias-sociais-115",
@@ -166,7 +169,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A mediana de X é igual a 2.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-cnj-analista-engenharia-eletrica-008",
@@ -188,7 +192,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para a fonte v2(t) curto-circuitada, o modelo equivalente de Thévenin visto a partir dos terminais da tensão vs(t) será composto por uma tensão VTH = 2 V, em série com uma resistência RTH = 2/3 kΩ.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2024-cnj-analista-engenharia-eletrica-055",
@@ -210,7 +215,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expressão booleana mínima, na forma soma de produtos, que relaciona a saída S com as variáveis de entrada, é dada por S = A̅B̅C + A̅BD + BC̅D + B̅CD.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2024-cnj-analista-engenharia-eletrica-057",
@@ -243,7 +249,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Estaria preservada a correção gramatical do segundo parágrafo caso se inserisse uma vírgula após a palavra “alvos”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-cnj-analista-judiciaria-002",
@@ -254,7 +261,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do primeiro parágrafo, a flexão dos termos “são” e “benefícios” no plural deve-se à concordância que estabelecem com “Inúmeros”, que funciona como sujeito da oração.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-cnj-analista-judiciaria-003",
@@ -265,7 +273,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No texto, emprega-se o nível formal de linguagem e predomina a função denotativa da linguagem.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-cnj-analista-judiciaria-004",
@@ -276,7 +285,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, a seleção do alvo de um ataque cibernético varia de acordo com as consequências que se pretende desencadear, com esse ataque, na sociedade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-cnj-analista-judiciaria-005",
@@ -287,7 +297,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Estariam mantidos os sentidos e a correção gramatical do texto caso o primeiro período do primeiro parágrafo fosse reescrito da seguinte forma: Por conta do crescimento de novas tecnologias da comunicação e da informação, a atualidade vivencia um processo onde observam-se a migração de ambientes de natureza real e analógica para ambientes de natureza virtual e digital.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-cnj-analista-judiciaria-006",
@@ -298,7 +309,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As expressões “os ciberataques” (último período do primeiro parágrafo) e “Os ataques cibernéticos” (início do segundo parágrafo), bem como o emprego das formas pronominais “seu” (último período do primeiro parágrafo) e “os”, em “os ensejou” (segundo parágrafo), constituem mecanismos de coesão referencial no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-cnj-analista-judiciaria-007",
@@ -309,7 +321,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, pairam dúvidas sobre a validade do senso comum como uma forma legítima de conhecimento por ser ele um conhecimento de natureza tradicional e popular.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2024-cnj-analista-judiciaria-008",
@@ -331,7 +344,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O primeiro parágrafo do texto é predominantemente expositivo, no que se refere à tipologia textual.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2024-cnj-analista-judiciaria-010",
@@ -342,7 +356,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No terceiro parágrafo, o trecho “mas, ainda assim, temos dificuldade em abrir mão das nossas crenças e do nosso senso comum” contribui para a construção do sentido do texto na medida em que apresenta significado contextual de oposição ao que o autor afirma no segmento “a ciência é importante e necessária”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2024-cnj-analista-judiciaria-011",
@@ -353,7 +368,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As orações ‘de aceitar as verdades mais simples e óbvias’ (segundo período do segundo parágrafo) e “em abrir mão das nossas crenças e do nosso senso comum” (primeiro período do terceiro parágrafo) desempenham a mesma função sintática nos períodos em que ocorrem.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2024-cnj-analista-judiciaria-012",
@@ -364,7 +380,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Estariam mantidos o sentido original, a correção gramatical e a coerência do texto caso o primeiro período do terceiro parágrafo fosse assim reestruturado: É claro também que a ciência é importante e necessária e a maioria das pessoas reconhece, mas, mesmo quando necessário, ainda assim, temos dificuldade em abrir mão das nossas crenças e do nosso senso comum.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2024-cnj-analista-judiciaria-013",
@@ -375,7 +392,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase em “àquilo” (segundo período do terceiro parágrafo) é facultativo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2024-cnj-analista-judiciaria-014",
@@ -386,7 +404,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No último parágrafo, a substituição do segmento “uma vez que” por de modo que preservaria as relações de sentido estabelecidas no período.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2024-cnj-analista-judiciaria-015",
@@ -1497,7 +1516,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A linguagem empregada no texto é informal, direta e acessível, com predomínio da função metalinguística, visto que o texto se desenvolve em resposta ao questionamento nele mesmo levantado inicialmente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-cnj-tecnico-programacao-001",
@@ -1508,7 +1528,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ideia defendida pelo autor no primeiro parágrafo do texto opõe-se ao pensamento de que Estado e família têm o mesmo fundamento.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-cnj-tecnico-programacao-002",
@@ -1607,7 +1628,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Com a observação apresentada entre travessões, as autoras destacam que sua abordagem acerca da história do Brasil é feita com base em um recorte temporal específico, que não considera a existência de uma história do país antes da chegada dos portugueses.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-cnj-tecnico-programacao-011",
@@ -1618,7 +1640,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os sentidos do texto seriam mantidos se a forma verbal “fiarmos” (quarto período) fosse substituída por envolvermos .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-cnj-tecnico-programacao-012",
@@ -1629,7 +1652,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A linguagem empregada no texto é informal, direta e acessível, com predomínio da função metalinguística, visto que o texto se desenvolve em resposta ao questionamento nele mesmo levantado inicialmente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-cnj-tecnico-programacao-013",
@@ -1640,7 +1664,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A mediana do tempo de serviço dos seis funcionários é inferior a 8 anos e 6 meses.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cnj-tecnico-programacao-014",
@@ -1651,7 +1676,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se dois funcionários forem aleatoriamente selecionados, então a probabilidade de no máximo um deles ter mais de 5 anos de tempo de serviço será igual a 3/5.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cnj-tecnico-programacao-015",
@@ -1662,7 +1688,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Evandro deverá receber de bônus um valor superior a R$ 2.000.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cnj-tecnico-programacao-016",
@@ -1673,7 +1700,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se um novo servidor, com a mesma eficiência dos outros cinco servidores, integrar a equipe da secretaria para realizar o mesmo trabalho de digitalização, então a quantidade de páginas de documentos digitalizadas pelos seis servidores em 6 horas de trabalho aumentará menos de 25%.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cnj-tecnico-programacao-017",
@@ -1684,7 +1712,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se, em determinado dia, a distribuição de pessoas, a cada instante entre 10 h e 17 h, não for dada pelo gráfico apresentado e se a quantidade total de pessoas que comparecerem à secretaria nesse dia for inferior à quantidade média diária de comparecimento, então o número de pessoas que estarão presentes na secretaria para atendimento nesse determinado dia, será, em todos os instantes, inferior a 50.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cnj-tecnico-programacao-018",
@@ -2058,7 +2087,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria preservada a correção gramatical do segundo parágrafo caso se inserisse uma vírgula após a palavra “alvos”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-cnj-pedagogia-002",
@@ -2069,7 +2099,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No texto, emprega-se o nível formal de linguagem e predomina a função denotativa da linguagem.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-cnj-pedagogia-003",
@@ -2080,7 +2111,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, a seleção do alvo de um ataque cibernético varia de acordo com as consequências que se pretende desencadear, com esse ataque, na sociedade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-cnj-pedagogia-004",
@@ -2091,7 +2123,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estariam mantidos os sentidos e a correção gramatical do texto caso o primeiro período do primeiro parágrafo fosse reescrito da seguinte forma: Por conta do crescimento de novas tecnologias da comunicação e da informação, a atualidade vivencia um processo onde observam-se a migração de ambientes de natureza real e analógica para ambientes de natureza virtual e digital.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-cnj-pedagogia-005",
@@ -2102,7 +2135,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do primeiro parágrafo, a flexão dos termos “são” e “benefícios” no plural deve-se à concordância que estabelecem com “Inúmeros”, que funciona como sujeito da oração.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-cnj-pedagogia-006",
@@ -2113,7 +2147,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As expressões “os ciberataques” (último período do primeiro parágrafo) e “Os ataques cibernéticos” (início do segundo parágrafo), bem como o emprego das formas pronominais “seu” (último período do primeiro parágrafo) e “os”, em “os ensejou” (segundo parágrafo), constituem mecanismos de coesão referencial no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-cnj-pedagogia-007",
@@ -2124,7 +2159,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro parágrafo, o trecho “mas, ainda assim, temos dificuldade em abrir mão das nossas crenças e do nosso senso comum” contribui para a construção do sentido do texto na medida em que apresenta significado contextual de oposição ao que o autor afirma no segmento “a ciência é importante e necessária”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-cnj-pedagogia-008",
@@ -2146,7 +2182,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O primeiro parágrafo do texto é predominantemente expositivo, no que se refere à tipologia textual.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-cnj-pedagogia-010",
@@ -2157,7 +2194,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No texto, a citação do trecho da obra de Tolstói tem o papel textual de confirmar, reforçar, como argumento de autoridade, a afirmação anterior acerca do senso comum, sendo uma forma de intertextualidade explícita.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-cnj-pedagogia-011",
@@ -2168,7 +2206,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As orações ‘de aceitar as verdades mais simples e óbvias’ (segundo período do segundo parágrafo) e “em abrir mão das nossas crenças e do nosso senso comum” (primeiro período do terceiro parágrafo) desempenham a mesma função sintática nos períodos em que ocorrem.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-cnj-pedagogia-012",
@@ -2179,7 +2218,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estariam mantidos o sentido original, a correção gramatical e a coerência do texto caso o primeiro período do terceiro parágrafo fosse assim reestruturado: É claro também que a ciência é importante e necessária e a maioria das pessoas reconhece, mas, mesmo quando necessário, ainda assim, temos dificuldade em abrir mão das nossas crenças e do nosso senso comum.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-cnj-pedagogia-013",
@@ -2190,7 +2230,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase em “àquilo” (segundo período do terceiro parágrafo) é facultativo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-cnj-pedagogia-014",
@@ -2201,7 +2242,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último parágrafo, a substituição do segmento “uma vez que” por de modo que preservaria as relações de sentido estabelecidas no período.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-cnj-pedagogia-015",
@@ -2597,7 +2639,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ideia defendida pelo autor no primeiro parágrafo do texto opõe-se ao pensamento de que Estado e família têm o mesmo fundamento.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-cnj-administrativa-002",
@@ -2707,7 +2750,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os sentidos do texto seriam mantidos se a forma verbal “fiarmos” (quarto período) fosse substituída por envolvermos .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-cnj-administrativa-012",
@@ -2718,7 +2762,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Com a observação apresentada entre travessões, as autoras destacam que sua abordagem acerca da história do Brasil é feita com base em um recorte temporal específico, que não considera a existência de uma história do país antes da chegada dos portugueses.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-cnj-administrativa-013",
@@ -2729,7 +2774,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A linguagem empregada no texto é informal, direta e acessível, com predomínio da função metalinguística, visto que o texto se desenvolve em resposta ao questionamento nele mesmo levantado inicialmente. funcionário tempo de Paulo serviço (anos)",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-cnj-administrativa-014",
@@ -2740,7 +2786,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se dois funcionários forem aleatoriamente selecionados, então a probabilidade de no máximo um deles ter mais de 5 anos de tempo de serviço será igual a 3/5.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cnj-administrativa-015",
@@ -2751,7 +2798,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A mediana do tempo de serviço dos seis funcionários é inferior a 8 anos e 6 meses.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cnj-administrativa-016",
@@ -2762,7 +2810,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Evandro deverá receber de bônus um valor superior a R$ 2.000.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cnj-administrativa-017",
@@ -2773,7 +2822,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se um novo servidor, com a mesma eficiência dos outros cinco servidores, integrar a equipe da secretaria para realizar o mesmo trabalho de digitalização, então a quantidade de páginas de documentos digitalizadas pelos seis servidores em 6 horas de trabalho aumentará menos de 25%.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cnj-administrativa-018",
@@ -2784,7 +2834,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se, em determinado dia, a distribuição de pessoas, a cada instante entre 10 h e 17 h, não for dada pelo gráfico apresentado e se a quantidade total de pessoas que comparecerem à secretaria nesse dia for inferior à quantidade média diária de comparecimento, então o número de pessoas que estarão presentes na secretaria para atendimento nesse determinado dia será, em todos os instantes, inferior a 50.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cnj-administrativa-019",
@@ -6051,7 +6102,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O tamanho da amostra é igual a 1.010.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-cnj-ciencias-sociais-116",
@@ -6062,7 +6114,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o diagrama esquemático, o valor zero representa uma observação discrepante.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-cnj-ciencias-sociais-117",
@@ -6073,7 +6126,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O desvio padrão de Y é superior a 50.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-cnj-ciencias-sociais-118",
@@ -6084,7 +6138,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pelo menos metade da distribuição da variável Y encontra-se no intervalo 40, 60 .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-cnj-ciencias-sociais-119",
@@ -6095,7 +6150,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O intervalo interquartil referente ao diagrama esquemático é igual a 20.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-cnj-ciencias-sociais-120",
@@ -6106,7 +6162,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O terceiro quartil da distribuição em questão é igual a 60.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-cnj-engenharia-eletrica-052",
@@ -6194,7 +6251,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Enquanto as saídas das portas CMOS só podem acionar um máximo de 10 outras portas da mesma família, as portas TTL são capazes de acionar até 50 entradas de outras portas da mesma família.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2024-cnj-engenharia-eletrica-063",
@@ -6205,7 +6263,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O circuito sequencial representado na figura realiza uma contagem de forma cíclica, repetindo a sequência 00 01 10 11 .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2024-cnj-engenharia-eletrica-064",
@@ -6216,7 +6275,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se o capacitor C1 for substituído por outro de valor igual a 1.000 μF, então a tensão de ripple será reduzida para a metade do valor original, e a tensão média de saída no resistor RL aumentará.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2024-cnj-engenharia-eletrica-065",
@@ -7019,7 +7079,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É correto afirmar que, na execução orçamentária do CNJ em 2023, não foram realizadas despesas com aquisição de imóveis ou bens de capital já em utilização.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2024-cnj-administrativa-069",
@@ -7030,7 +7091,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A diferença de R$ 28.693.000 entre os valores da dotação disponível e da dotação inicial corresponde a créditos adicionais e reabertura de créditos orçamentários.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2024-cnj-administrativa-070",
@@ -7041,7 +7103,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na classificação orçamentária do GND investimentos, foram pagos R$ 2.242.625, valor alocado no orçamento de investimento da lei orçamentária anual.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2024-cnj-administrativa-071",
@@ -7052,7 +7115,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os valores liquidados totais foram, no mínimo, iguais a R$ 275.587.087.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2024-cnj-administrativa-072",
@@ -8362,6 +8426,92 @@
    "tipo": "certo_errado",
    "enunciado": "O Centro de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos do Poder Judiciário deve atuar na consolidação das informações e geração de estatísticas relacionadas aos incidentes ocorridos no Poder Judiciário.",
    "gabarito": "certo"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "a menos que seja explicitamente informado o contrário, considere que todos os programas mencionados estão em configuração-padrão e que não há restrições de proteção, de funcionamento e de uso em relação aos programas, arquivos, diretórios, recursos e equipamentos mencionados. • Eventuais espaços livres — identificados ou não pela expressão “ poderão ser utilizados para rascunho.\n\n-- PROVAS OBJETIVAS --\n\n-- CONHECIMENTOS BÁSICOS --",
+   "citacao": "Com o avanço das novas tecnologias da informação e comunicação, observa-se na atualidade um processo de migração dos ambientes reais e analógicos para os virtuais e digitais. Inúmeros são os benefícios do oferecimento de produtos e da prestação de serviços no ambiente digital. No entanto, a exposição em rede costuma atrair riscos que, embora invisíveis, apresentam um potencial destrutivo alto: os ciberataques e o seu impacto para as organizações, as empresas e as pessoas envolvidas. Os ataques cibernéticos podem ter como alvos pessoas, organizações políticas e sociais, empresas públicas e privadas, postos fiscais, tribunais, bases militares, autarquias e ministérios do Estado, variando conforme a motivação que os ensejou: interrupção de sistemas e serviços essenciais, resgate de valores em troca de arquivos criptografados, extração de dados, repercussão política ou até mesmo a lesão física de pessoas. Gabriel Cemin Petry; Haide Maria Hupffer. O princípio da segurança na era dos ciberataques : uma análise a partir do escopo protetivo da LGPD. In: Revista CNJ , v. 7, n.º 1, jan.-jun./2023, p. 85-86 (com adaptações). Com referência às ideias e às estruturas linguísticas do texto",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "conhecimentos de informática e(ou) tecnologia da informação ,\n\nEspaço livre ” — que constarem deste caderno de provas O senso comum é acumulado ao longo da vida de cada um de nós e acaba sendo transmitido de geração em geração. É um tipo de conhecimento não científico, formado pelas nossas impressões subjetivas sobre o mundo, fruto das nossas experiências pessoais. Embora esse seja um tipo de conhecimento popular e prático que nos orienta no dia a dia, por não ser testado, verificado ou analisado por uma metodologia científica, permanece um alto grau de incerteza sobre a sua validade, ou seja, é um conhecimento tradicionalmente bem aceito, que pode ou não estar correto ou em consonância com a realidade. Trata-se, contudo, apenas de um mito, assim como muitos outros ensinados e perpetuados pela força da tradição e da crença, tal qual afirma Tolstói em sua obra Uma confissão : “Sei que a maior parte dos homens raramente são capazes de aceitar as verdades mais simples e óbvias se essas os obrigarem a admitir a falsidade das conclusões que eles, orgulhosamente, ensinaram aos outros, e que teceram, fio por fio, trançando-as no tecido da própria vida.”. É claro que a maioria das pessoas reconhece também que a ciência é importante e necessária, mas, ainda assim, temos dificuldade em abrir mão das nossas crenças e do nosso senso comum, mesmo quando necessário. Tendemos a nos manter fiéis àquilo que “testemunhamos com nossos próprios olhos”. Confiar nos “nossos olhos” — na nossa percepção pessoal — é um processo natural e compreensível, uma vez que essa é a ferramenta com que somos equipados “de fábrica” e que nos ajudou a sobreviver até aqui ao longo da nossa evolução.\n\nAndré Demambre Bacchi. Afinal, o que é ciência : ... E o que não é?\n\nSão Paulo: Editora Contexto, 2024, p. 10-11 (com adaptações). Julgue os itens subsequentes, referentes às características textuais e aos aspectos linguísticos do texto precedente, bem como às ideias nele veiculadas.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "X frequência absoluta acumulada 0 120 1 180 2 220 3 240 4 250 A tabela precedente mostra a distribuição de frequências do número diário ( ) de denúncias recebidas pela ouvidoria de um tribunal de justiça. Com base nos dados apresentados na tabela, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Tendo como base o diagrama esquemático box plot precedente, que descreve a distribuição de uma variável quantitativa Y , julgue os próximos itens.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "-- CONHECIMENTOS ESPECÍFICOS --",
+   "citacao": "Considerando que, no circuito representado na figura precedente, R 1 = 1 k  , R 2 = 4 k  , R 3 = 4 k  , V 1 = 3 V e",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "େ మ do módulo do campo elétrico na menor distância equidistante às cargas é de 2,4 × 10 6 N/C.\n\nA B C D S\n\n0 0 0 0 0\n\n0 0 0 1 0\n\n0 0 1 0 1\n\n0 0 1 1 1\n\n0 1 0 0 0\n\n0 1 0 1 1\n\n0 1 1 0 0\n\n0 1 1 1 1\n\n1 0 0 0 0\n\n1 0 0 1 0\n\n1 0 1 0 0\n\n1 0 1 1 1\n\n1 1 0 0 0\n\n1 1 0 1 1\n\n1 1 1 0 0\n\n1 1 1 1 0 A partir das informações da tabela-verdade precedente, que corresponde a um circuito combinacional com quatro entradas",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A figura precedente representa um circuito sequencial com 2 bits , que utiliza flip-flops do tipo D, gatilhados por borda de subida. A sequência é iniciada por ação de um circuito de",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O circuito representado na figura precedente, que corresponde a uma fonte não regulada simples, é constituído por um transformador que reduz, na proporção de 18:1, a tensão no primário do transformador, que é de 220 V RMS /60 Hz; por um diodo retificador; e por um capacitor C 1 de 2.000  F, sendo a carga um resistor R L de 200  .",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "conhecimentos de informática menos que seja explicitamente informado o contrário, considere que todos os programas mencionados estão em configuração-padrão e que não há restrições de proteção, de funcionamento e de uso em relação aos programas, arquivos, diretórios, recursos e equipamentos mencionados. • Eventuais espaços livres — identificados ou não pela expressão “ poderão ser utilizados para rascunho.\n\n-- PROVAS OBJETIVAS --\n\n-- CONHECIMENTOS BÁSICOS --",
+   "citacao": "Com o avanço das novas tecnologias da informação e comunicação, observa-se na atualidade um processo de migração dos ambientes reais e analógicos para os virtuais e digitais. Inúmeros são os benefícios do oferecimento de produtos e da prestação de serviços no ambiente digital. No entanto, a exposição em rede costuma atrair riscos que, embora invisíveis, apresentam um potencial destrutivo alto: os ciberataques e o seu impacto para as organizações, as empresas e as pessoas envolvidas. Os ataques cibernéticos podem ter como alvos pessoas, organizações políticas e sociais, empresas públicas e privadas, postos fiscais, tribunais, bases militares, autarquias e ministérios do Estado, variando conforme a motivação que os ensejou: interrupção de sistemas e serviços essenciais, resgate de valores em troca de arquivos criptografados, extração de dados, repercussão política ou até mesmo a lesão física de pessoas. Gabriel Cemin Petry; Haide Maria Hupffer. O princípio da segurança na era dos ciberataques : uma análise a partir do escopo protetivo da LGPD. In: Revista CNJ , v. 7, n.º 1, jan.-jun./2023, p. 85-86 (com adaptações). Com referência às ideias e às estruturas linguísticas do texto",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "e(ou) tecnologia da informação , a Espaço livre ” — que constarem deste caderno de provas O senso comum é acumulado ao longo da vida de cada um de nós e acaba sendo transmitido de geração em geração. É um tipo de conhecimento não científico, formado pelas nossas impressões subjetivas sobre o mundo, fruto das nossas experiências pessoais. Embora esse seja um tipo de conhecimento popular e prático que nos orienta no dia a dia, por não ser testado, verificado ou analisado por uma metodologia científica, permanece um alto grau de incerteza sobre a sua validade, ou seja, é um conhecimento tradicionalmente bem aceito, que pode ou não estar correto ou em consonância com a realidade. Trata-se, contudo, apenas de um mito, assim como muitos outros ensinados e perpetuados pela força da tradição e da crença, tal qual afirma Tolstói em sua obra Uma confissão : “Sei que a maior parte dos homens raramente são capazes de aceitar as verdades mais simples e óbvias se essas os obrigarem a admitir a falsidade das conclusões que eles, orgulhosamente, ensinaram aos outros, e que teceram, fio por fio, trançando-as no tecido da própria vida.”. É claro que a maioria das pessoas reconhece também que a ciência é importante e necessária, mas, ainda assim, temos dificuldade em abrir mão das nossas crenças e do nosso senso comum, mesmo quando necessário. Tendemos a nos manter fiéis àquilo que “testemunhamos com nossos próprios olhos”. Confiar nos “nossos olhos” — na nossa percepção pessoal — é um processo natural e compreensível, uma vez que essa é a ferramenta com que somos equipados “de fábrica” e que nos ajudou a sobreviver até aqui ao longo da nossa evolução.\n\nAndré Demambre Bacchi. Afinal, o que é ciência : ... E o que não é?\n\nSão Paulo: Editora Contexto, 2024, p. 10-11 (com adaptações). Julgue os itens subsequentes, referentes às características textuais e aos aspectos linguísticos do texto precedente, bem como às ideias nele veiculadas.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Afinal, “o que faz do brasil, Brasil ou do Brazil, Brasil?” Desde que os portugueses aqui chegaram, cinco séculos atrás, essa pergunta faz parte do cotidiano local, por vezes merecendo respostas otimistas, por vezes, mais negativas. Por certo, a pergunta não é fácil, nem a história é o único caminho para dar conta dela. A história do Brasil é jovem de cinco séculos — ao menos se nos fiarmos na narrativa oficial, que inicia sua contagem a partir do desembarque dos portugueses na América — e é inquieta. Uma vez provocada, fala de tudo e adora embarcar numa polêmica: passa a limpo conceitos e mitos, questiona muitas das perguntas que nos habituamos a fazer sobre o país, mostra tendência e recorrências que bem merecem nova interpretação. Também faz um jogo com o tempo: embaralha, ordena e reordena o fio da meada; põe um olho no passado, mas mantém o outro aberto no presente e até no futuro.\n\nLilia M. Schwarcz; Heloisa M. Starling. Brasil : uma biografia.\n\nSão Paulo: Cia. das Letras, 2018. p. 499 (com adaptações). A respeito dos sentidos e aspectos linguísticos do texto",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "tempo de funcionário\n\nserviço (anos) Paulo 2 Marco 4 Sabrina 8 Evandro 10 Fabiana 12 Alice 14 Na tabela precedente, é apresentado o tempo de serviço, em anos, de seis funcionários de determinada empresa. A título de bônus de fim de ano, serão distribuídos entre esses funcionários R$ 12.000, valor que será repartido de forma que cada funcionário receba um valor diretamente proporcional ao respectivo tempo de serviço.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "No gráfico precedente, é mostrada a frequência diária do número de pessoas que comparecem, na maior parte dos dias da semana, a uma secretaria de atendimento ao público, onde uma equipe de cinco servidores digitaliza 3.500 páginas de documentos em 7 horas de trabalho.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "grupo de dotação dotação execução orçamentária natureza de inicial disponível despesa (GND) empenhado pago pessoal e 99.470.023 95.131.279 94.127.957 91.843.149 encargos sociais outras despesas 146.200.519 186.436.826 186.110.626 181.501.313 correntes investimentos 9.581.087 2.376.524 2.322.775 2.242.625 inversões financeiras TOTAL 255.251.629 283.944.629 282.561.358 275.587.087\n\nInternet: <www.cnj.jus.br> (com adaptações). Com base na tabela precedente, em que são apresentadas informações da execução orçamentária do CNJ no ano de 2023 com os valores indicados em reais (R$), julgue os itens subsecutivos.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

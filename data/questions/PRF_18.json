@@ -128,7 +128,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As formas pronominais “Estas” (ℓ.4) e “las” (ℓ.7) referem -se a “necessidades dos seres humanos” (ℓ. 2 e 3).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2018-prf-policial-011",
@@ -139,7 +140,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Seriam mantidos os sentidos do texto caso o primeiro período do segundo parágrafo fosse assim reescrito: Quando prestamos atenção a nossa volta, percebemos que quase tudo que vemos existe pelas atividades do trabalho humano.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2018-prf-policial-012",
@@ -150,7 +152,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A locução “em razão de” (ℓ.9) expressa uma ideia de causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2018-prf-policial-013",
@@ -161,7 +164,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Com o emprego da expressão “assim como” (ℓ.12), estabelece-se uma relação de comparação entre ideias expressas no período.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2018-prf-policial-014",
@@ -172,7 +176,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se do texto que, devido à abundância de recursos, nas sociedades tribais os indivíduos não têm necessidade de separar as práticas laborais das outras atividades sociais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2018-prf-policial-015",
@@ -183,7 +188,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso o advérbio “praticamente” (ℓ.23) fosse isolado por vírgulas, a correção gramatical do trecho seria alterada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2018-prf-policial-016",
@@ -194,7 +200,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “Os processos de produção dos objetos que nos cercam movimentam relações diversas entre os indivíduos” (ℓ. 10 a 12), o sujeito da forma verbal “cercam” é “Os processos de produção dos objetos”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2018-prf-policial-017",
@@ -205,7 +212,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A afirmação de que alguns nomes põem nos olhos de seus donos “um azul que não possuem” (ℓ. 4 e 5) contradiz a ideia de que os nomes definem não as qualidades reais de cada um, mas o modo como os outros o veem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2018-prf-policial-018",
@@ -216,7 +224,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A informação apresentada pela oração “nenhuma letra se igualando a outra” (ℓ. 7 e 8) é redundante em relação à informação apresentada na oração imediatamente anterior, servindo para reforçar-lhe o sentido.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2018-prf-policial-019",
@@ -227,7 +236,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo “um” (ℓ.14) refere -se a um indivíduo cujo nome é idêntico ao do autor do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2018-prf-policial-020",
@@ -238,7 +248,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se que o autor do texto é espanhol.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2018-prf-policial-021",
@@ -348,7 +359,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O deslocamento do projétil na direção horizontal ocorre de acordo com uma função quadrática do tempo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2018-prf-policial-036",
@@ -359,7 +371,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na situação em tela, o projétil atingirá o alvo circular.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2018-prf-policial-037",
@@ -370,7 +383,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se o alvo fosse retirado da direção do projétil, então o trabalho realizado pela força gravitacional para levar o projétil até o solo seria superior a 0,10 J.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2018-prf-policial-038",
@@ -458,7 +472,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O custo do frete e as grandes distâncias a serem percorridas entre as regiões produtoras e os centros urbanos consumidores e os portos de exportação são fatores que impactam diretamente no preço dos produtos agropecuários e industriais brasileiros e em sua competividade nos mercados nacional e internacional.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2018-prf-policial-046",
@@ -469,7 +484,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A rede de transporte rodoviário integra todo o território brasileiro, com rodovias conectando em rede todos os municípios das cinco macrorregiões do território nacional, e a predominância desse modal de transporte é fator de vulnerabilidade em relação aos países desenvolvidos, os quais também dependem desse modal de transporte.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2018-prf-policial-047",
@@ -480,7 +496,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O processo de globalização econômica e desenvolvimento tecnológico é marcado pela solidariedade organizacional entre empresas, sistema financeiro, tecnologia e lugares eleitos como regiões de investimento pela economia globalizada e, com o capital globalizado, busca-se desenvolver as regiões de modo a diminuir as desigualdades regionais e a oferecer uma economia justa e solidária.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2018-prf-policial-048",
@@ -491,7 +508,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No Brasil, o setor de serviços ampliou a sua participação no PIB; o setor agropecuário, estratégico na economia brasileira, se tornou mais complexo, o que permitiu a ampliação de diversos serviços relacionados aos diferentes momentos do processo de produção/consumo, como os setores de tecnologia, transporte e finanças.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2018-prf-policial-049",
@@ -524,7 +542,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Godofredo e Antônio responderiam por crime de trânsito independentemente da lesão corporal causada, pois a conduta de ambos gerou situação de risco à incolumidade pública.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2018-prf-policial-052",
@@ -535,7 +554,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Godofredo e Antônio estão sujeitos à pena de reclusão, em razão do resultado danoso da conduta delitiva narrada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2018-prf-policial-053",
@@ -546,7 +566,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Por se tratar de lesão corporal de natureza culposa, é vedada a instauração de inquérito policial para apurar as condutas de Godofredo e Antônio, bastando a realização dos exames médicos da vítima e o compromisso dos autores em comparecer a todos os atos necessários junto às autoridades policial e judiciária.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2018-prf-policial-054",
@@ -777,7 +798,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O condutor em questão não ultrapassou o tempo máximo ininterrupto de direção previsto na legislação de trânsito para o tipo de veículo referido.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2018-prf-policial-080",
@@ -788,7 +810,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Nessa situação, apesar de o disco-diagrama não se prestar para exame, não cabe a aplicação de penalidade decorrente do defeito no aparelho registrador, já que foi possível a fiscalização do tempo de direção do motorista por meio da verificação da ficha de trabalho do autônomo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2018-prf-policial-081",
@@ -799,7 +822,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Haja vista o horário e o local da vistoria, bem como as condições de transporte do veículo, o policial rodoviário federal deverá lavrar auto de infração pelo descumprimento da restrição de tráfego, cabendo a aplicação de penalidades previstas no CTB.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2018-prf-policial-082",
@@ -832,7 +856,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Entre as três situações ilustradas a seguir, apenas o dispositivo utilizado na figura 1A9-V é permitido para o transporte de galões de água mineral com capacidade de até 20 litros.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2018-prf-policial-086",
@@ -843,7 +868,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "É permitido que motociclista levante a viseira do capacete enquanto o veículo conduzido estiver parado, aguardando a travessia de pedestres diante de semáforo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2018-prf-policial-087",
@@ -854,7 +880,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Situação hipotética : Em operação de fiscalização em uma rodovia federal, a equipe da PRF verificou que o condutor de um quadriciclo não fazia uso do capacete. O policial que abordou o condutor o liberou, considerando que o uso de capacete pelo condutor desse tipo de veículo se restringe à condução em vias urbanas pavimentadas. Assertiva : Nessa situação, foram adequadas as condutas do policial e do condutor.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2018-prf-policial-088",
@@ -4606,6 +4633,62 @@
    "tipo": "certo_errado",
    "enunciado": "O policial rodoviário federal, no exercício de suas funções, pode usar dispositivo de condução de energia, vedado o emprego da Spark Z2.0 como arma de contato.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "O do autor deste texto é um nome simples,",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Thiago de Mello. Trabalho . Internet: <educacao.globo.com> (com adaptações). Julgue os seguintes itens, a respeito das ideias e das construções linguísticas do texto apresentado.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "João Anzanello Carrascoza. Homônimo . In : Diário das Coincidências . Ed. digital. São Paulo: Objetiva, p. 52 (com adaptações).",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A figura seguinte ilustra uma prova de tiro ao alvo com arma de fogo: o alvo é um círculo de 20 cm de diâmetro e está localizado a 50 m da extremidade do cano da arma. O cano da arma e o centro do alvo estão à altura de 1,5 m do solo.\n\nNessa situação, um projétil de massa igual a 15 g sai do cano da arma paralelamente ao solo, com velocidade horizontal inicial de 720 km/h. Tendo como referência a situação apresentada, julgue os itens a seguir, considerando que a aceleração da gravidade seja de 9,8 m/s 2 e desprezando o atrito do ar sobre o projétil.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Figura\n\nMapa rodoviário 2016. Ministério dos Transportes.\n\nO Brasil é o país com a maior concentração rodoviária de transporte de cargas e passageiros entre as principais economias mundiais. Segundo dados do Banco Mundial, referentes a 2013, 58% do transporte no país é feito por rodovias — contra 53% da Austrália, 50% da China, 43% da Rússia e 8% do Canadá.\n\nInternet: <www.bbc.com> (com adaptações). Considerando o texto apresentado, que destaca o papel do modal rodoviário de cargas e passageiros no Brasil, e a figura precedente, que ilustra como a rede rodoviária integra as diversas regiões que compõem o território nacional, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Como salienta Milton Santos (1994), a noção de território, na atualidade, transcende a ideia apenas geográfica de espaços contíguos vizinhos que caracterizam uma região, estendendo-se para a noção de rede, formada por pontos distantes uns dos outros, ligados por todas as formas e processos sociais; o espaço econômico, nesse sentido, é organizado hierarquicamente, como resultado da tendência à racionalização das atividades, e se faz sob um comando que tende a ser concentrado em cidades mundiais, em que a tecnologia da informação desempenha papel relevante; esse comando então passa a ser feito pelas empresas por meio de suas bases em territórios globais diversos.\n\nInternet: <www.fgv.br> (com adaptações). Tendo o texto precedente como referência inicial, julgue os próximos itens.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "TEXTO BLOCO II Ao final de uma festa, Godofredo e Antônio realizaram uma disputa automobilística com seus veículos, fazendo manobras arriscadas, em via pública, sem que tivessem autorização para tanto. Nessa contenda, houve colisão dos veículos, o que causou lesão corporal culposa de natureza grave em um transeunte.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "No dia 3/1/2019, às 21 horas, um policial rodoviário federal, em rodovia federal de pista simples, abordou um veículo do tipo cegonha — combinação de um caminhão-trator e um semirreboque —, com 22 metros de comprimento e distância entre eixos extremos de 18 metros, que transportava veículos nas plataformas inferior e superior. O disco-diagrama do registrador instantâneo e inalterável de velocidade e tempo do veículo mostrava superposição de registros, o que impossibilitava a leitura do tempo de movimentação do veículo e de suas interrupções. Na ficha de trabalho de autônomo do condutor constavam: data de saída = 3/1/2019 e hora de saída = 17 horas.\n\nAlém disso, a autorização especial de trânsito de posse do condutor não permitia o tráfego em local e horário distintos do que prevê a norma aplicável. Considerando essa situação hipotética, julgue os próximos itens, à luz do CTB e das resoluções do CONTRAN.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Figura 1A9-I Figura 1A9-II\n\nÀ luz das disposições do CTB e das resoluções do CONTRAN\n\nacerca das regras de circulação de motocicletas, motonetas,\n\nciclomotores, triciclos e quadriciclos motorizados, julgue os itens\n\nseguintes.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

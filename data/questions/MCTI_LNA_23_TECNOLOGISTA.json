@@ -2266,7 +2266,8 @@
     "anodização.",
     "corrosão por tensão (ou corrosão sob tensão).",
     "corrosão por pite."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-mcti-tecnologista-especialidade-desenvolvimento-de-projetos-mecanicos-com-foco-em-instrumentacao-cientifica-027",
@@ -2374,7 +2375,8 @@
     "preditiva.",
     "preventiva.",
     "corretiva."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-mcti-tecnologista-especialidade-desenvolvimento-de-projetos-mecanicos-com-foco-em-instrumentacao-cientifica-034",
@@ -5363,6 +5365,14 @@
     "jogam na atmosfera o ar retirado do sistema.",
     "aprisionam o gás em suas paredes, não tendo saída externa."
    ]
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Gráfico 3A3",
+   "citacao": "Internet: <pt-static.z-dn.net>.",
+   "imagem": false
   }
  ]
 }

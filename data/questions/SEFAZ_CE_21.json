@@ -433,7 +433,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor do IPTU desse imóvel é superior a R$ 1.000.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-sefaz-ce-auditor-fiscal-039",
@@ -1555,7 +1556,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A estimativa da média populacional obtida pelo critério de mínimos quadrados ordinários é igual a 3.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-sefaz-ce-auditor-fiscal-145",
@@ -1566,7 +1568,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A estimativa de máxima verossimilhança para o desvio padrão populacional é igual a 3.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-sefaz-ce-auditor-fiscal-146",
@@ -1577,7 +1580,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pelo critério da máxima verossimilhança, a estimativa do parâmetro é igual a 3.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-sefaz-ce-auditor-fiscal-147",
@@ -2127,7 +2131,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor do IPTU desse imóvel é superior a R$ 1.000.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-sefaz-ce-auditor-fiscal-contabil-financeiro-039",
@@ -3161,7 +3166,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A estimativa da média populacional obtida pelo critério de mínimos quadrados ordinários é igual a 3.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-sefaz-ce-auditor-fiscal-contabil-financeiro-135",
@@ -3172,7 +3178,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A estimativa de máxima verossimilhança para o desvio padrão populacional é igual a 3.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-sefaz-ce-auditor-fiscal-contabil-financeiro-136",
@@ -3183,7 +3190,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pelo critério da máxima verossimilhança, a estimativa do parâmetro é igual a 3.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-sefaz-ce-auditor-fiscal-contabil-financeiro-137",
@@ -3843,7 +3851,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor do IPTU desse imóvel é superior a R$ 1.000.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-sefaz-ce-auditor-fiscal-juridico-039",
@@ -5570,7 +5579,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor do IPTU desse imóvel é superior a R$ 1.000.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-sefaz-ce-auditor-fiscal-ti-039",
@@ -6054,7 +6064,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ao executar o seguinte SQL SELECT IdCategoria, SUM(ValorProduto) AS ValorTotal FROM Produto GROUP BY idCategoria HAVING Valortotal > 45 o resultado retornará mais de uma linha.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-sefaz-ce-auditor-fiscal-ti-084",
@@ -6197,7 +6208,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A estimativa da média populacional obtida pelo critério de mínimos quadrados ordinários é igual a 3.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2021-sefaz-ce-auditor-fiscal-ti-097",
@@ -6208,7 +6220,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A estimativa de máxima verossimilhança para o desvio padrão populacional é igual a 3.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2021-sefaz-ce-auditor-fiscal-ti-098",
@@ -6219,7 +6232,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pelo critério da máxima verossimilhança, a estimativa do parâmetro é igual a 3.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2021-sefaz-ce-auditor-fiscal-ti-099",
@@ -6747,7 +6761,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "One example of what this method can do to the photo is add the sound of the water in a waterfall.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-sefaz-ce-auditor-fiscal-ti-147",
@@ -6758,7 +6773,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "When people are fixated on something for a while, there might be a chance of that thing being in movement.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-sefaz-ce-auditor-fiscal-ti-148",
@@ -6769,7 +6785,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "One of the drawbacks of this method is the amount of user input and information it requires.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-sefaz-ce-auditor-fiscal-ti-149",
@@ -6780,7 +6797,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It was not so easy to develop such a method to give motion to a single picture.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-sefaz-ce-auditor-fiscal-ti-150",
@@ -6791,7 +6809,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It can be inferred from the text that, in the future, the researchers would like this method to animate a photo of a woman on a motorbike without wearing a helmet, for example.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-sefaz-ce-auditor-fiscal-ti-151",
@@ -6902,6 +6921,44 @@
    "tipo": "certo_errado",
    "enunciado": "Eventual abuso do poder regulamentar pelo Poder Executivo sujeita o transgressor ao controle jurisdicional e ao exercício da competência extraordinária do Poder Legislativo para sustar os atos administrativos dele decorrentes.",
    "gabarito": "certo"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Determinada cidade estabeleceu que o valor do IPTU corresponderá a 0,2% do valor do imóvel avaliado no mercado imobiliário. O imóvel cuja planta é dada na figura precedente está localizado em um bairro dessa cidade, onde o metro quadrado está avaliado em R$ 1.500.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma amostra aleatória simples de tamanho igual a 4 foi retirada de uma população exponencial cuja função de densidade de probabilidade é dada por\n\n= ି஺௫ , para ≥ 0, em que > 0 é o parâmetro desconhecido.\n\n0,5 1,0 0,8 9,7 Com base nos valores mostrados no quadro anterior, que constituem uma realização dessa amostra aleatória simples,",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "( = 0) + ( = 0) = 5 × ିହ . ସ ହ Uma amostra aleatória simples de tamanho igual a 4 foi retirada de uma população exponencial cuja função de densidade de probabilidade é dada por\n\n= ି஺௫ , para ≥ 0, em que > 0 é o parâmetro desconhecido.\n\n0,5 1,0 0,8 9,7 Com base nos valores mostrados no quadro anterior, que constituem uma realização dessa amostra aleatória simples,",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "IdProduto IdCategoria ValorProduto\n\n1 1 10,00\n\n2 1 30,00\n\n3 2 20,00\n\n4 2 25,00\n\n5 1 25,00",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "( ସ = 0) + ( ହ = 0) = 5 × ିହ .\n\nUma amostra aleatória simples de tamanho igual a 4 foi\n\nretirada de uma população exponencial cuja função de densidade\n\nde probabilidade é dada por\n\n= ି஺௫ ,\n\npara ≥ 0, em que > 0 é o parâmetro desconhecido.\n\n0,5 1,0 0,8 9,7\n\nCom base nos valores mostrados no quadro anterior, que\n\nconstituem uma realização dessa amostra aleatória simples,",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Researchers can turn a single photo into a video Sometimes photos cannot truly capture a scene. How much more epic would that vacation photo of Niagara Falls be if the water were moving? Researchers at the University of Washington have developed a deep learning method that can do just that: if given a single photo of a waterfall, the system creates a video showing that water cascading down. All that’s missing is the roar of the water and the feeling of the spray on your face. This method can animate any flowing material, including smoke and clouds. This technique produces a short video that loops seamlessly, giving the impression of endless movement. An expert says that a picture captures a moment frozen in time, but a lot of information is lost in a static image. That makes people wonder what led to that moment, and how things are changing. If people think about the last time that they found themselves fixated on something really interesting, chances are, it was’t totally static. What is special about that method is that it doesn’t require any user input or extra information. All that is needed is a picture. And it produces as output a high-resolution, seamlessly looping video that quite often looks like a real video. Developing a method that turns a single photo into a believable video has been a challenge for the field. The system consists of two parts: first, it predicts how things were moving when the photo was taken, and then uses that information to create the animation. Then the system uses that information to determine if and how each pixel should move. Finally, the researchers want their animation to loop seamlessly to create a look of continuous movement. The animation network follows a few tricks to keep things clean, including transitioning different parts of the frame at different times and deciding how quickly or slowly to blend each pixel depending on its surroundings. This method works best for objects with predictable fluid motion, like water, fire or smoke. These types of motions obey the same set of physical laws, and there are usually cues in the image that tell us how things should be moving. Currently, the technology struggles to predict how reflections should move or how water distorts the appearance of objects beneath it. In the future, the researchers would like to extend their work to operate on a wider range of objects, like animating a person’s hair blowing in the wind.",
+   "citacao": "Internet: <www.sciencedaily.com> (adapted).",
+   "imagem": false
   }
  ]
 }

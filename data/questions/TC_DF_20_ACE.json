@@ -29,7 +29,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que fatores como idade e gênero têm impacto semelhante ao impacto do local de habitação no que se refere à medida das habilidades de localização das pessoas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-tcdf-auditor-controle-externo-002",
@@ -40,7 +41,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, os meios de transporte e o aparato de sinalização urbana podem debilitar o desenvolvimento de um senso de orientação espacial mais acurado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-tcdf-auditor-controle-externo-003",
@@ -51,7 +53,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se dos dois últimos parágrafos do texto que, quanto mais organizado o formato de uma cidade, piores serão as habilidades de navegação de seus habitantes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-tcdf-auditor-controle-externo-004",
@@ -62,7 +65,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sendo uma reportagem de divulgação científica, o texto apresenta uma estrutura tipológica essencialmente argumentativa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-tcdf-auditor-controle-externo-005",
@@ -73,7 +77,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expressão “esse efeito” (R.5) faz referência à relação entre local de moradia e habilidade de localização, estabelecida anteriormente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-tcdf-auditor-controle-externo-006",
@@ -84,7 +89,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No texto, o sentido de “teorizar” (R.33) é equivalente a criar hipóteses.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-tcdf-auditor-controle-externo-007",
@@ -95,7 +101,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último período do texto, a expressão “o jeito é aprender na marra” (R.42) estabelece a ideia de que as pessoas que moram em áreas rurais ou vilarejos aprendem a se orientar enfrentando com coragem as circunstâncias dificultosas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-tcdf-auditor-controle-externo-008",
@@ -106,7 +113,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O pronome “Eles” (R.11) retoma “estudiosos” (R.7).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-tcdf-auditor-controle-externo-009",
@@ -150,7 +158,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego de vírgulas para isolar o trecho “enquanto aglomerações urbanas” (R.26) justifica-se pela natureza explicativa desse trecho dentro do período.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2020-tcdf-auditor-controle-externo-013",
@@ -161,7 +170,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “vêm” (R.6) é acentuada devido à concordância que estabelece com o termo “o planejamento urbano e a gestão das cidades e áreas metropolitanas” (R. 4 a 6).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2020-tcdf-auditor-controle-externo-014",
@@ -172,7 +182,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e da coerência do texto, o trecho “uma parcela da população urbana usufrui dos avanços técnico-científicos, da infraestrutura e do conforto que a vida urbana e sua produção econômica disponibilizam” (R. 17 a 19) poderia ser reescrito da seguinte forma: uma parcela da população urbana usufrui dos avanços técnico-científicos, da infraestrutura e do conforto disponibilizados pela vida urbana e pela produção econômica deles.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2020-tcdf-auditor-controle-externo-015",
@@ -183,7 +194,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se inserisse o acento indicativo de crase no vocábulo “a” presente no trecho “daqui a alguns anos” (R.14), visto que o emprego desse sinal é optativo nesse caso.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2020-tcdf-auditor-controle-externo-016",
@@ -1041,7 +1053,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Após serem elaborados, projetos de lei orçamentária como o mencionado devem ser enviados à Câmara Legislativa do Distrito Federal, iniciando-se, com isso, a fase de apreciação legislativa do ciclo orçamentário.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2020-tcdf-auditor-controle-externo-098",
@@ -1052,7 +1065,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o princípio da universalidade do orçamento, o montante da receita estimada para o orçamento de 2021 do Distrito Federal será de R$ 15.771.420.244.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2020-tcdf-auditor-controle-externo-099",
@@ -1206,7 +1220,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Caso a empresa receba um benefício fiscal e o tributo sobre o seu lucro seja reduzido para 18%, a margem líquida da empresa passará a ser superior a 32%.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2020-tcdf-auditor-controle-externo-114",
@@ -1217,7 +1232,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Caso a empresa obtivesse uma variação favorável de 10% sobre os custos unitários dos produtos vendidos, mantendo as demais condições, a sua margem bruta seria maior que 70%.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2020-tcdf-auditor-controle-externo-115",
@@ -1569,7 +1585,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Se a rotação do ativo da empresa Beta cair 50%, a margem de lucro terá que dobrar para manter a rentabilidade dos investimentos constante.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2020-tcdf-auditor-controle-externo-148",
@@ -1580,7 +1597,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os ciclos operacional e financeiro da empresa Alfa são menores que os da empresa Beta.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2020-tcdf-auditor-controle-externo-149",
@@ -1603,6 +1621,38 @@
    "tipo": "certo_errado",
    "enunciado": "O ativo A é menos arriscado que o ativo B.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "CB1A1",
+   "conteudo": "Bruno Carbinatto. Pessoas que crescem em cidades têm senso de direção pior . In : Revista Superinteressante , fev./2020. Internet: < h t t p s : / / s u p e r . a b r i l . c o m . b r > ( c o m a d a p t a ç õ e s ) . Com relação às ideias e à tipologia do texto CB1A1, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CB1A2",
+   "conteudo": "Com relação aos aspectos linguísticos e aos sentidos do texto",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "As tabelas a seguir, extraídas de projeto de lei orçamentária que estima a receita e fixa a despesa do Distrito Federal para o exercício financeiro de 2021, apresentam, respectivamente, a distribuição do orçamento por esfera orçamentária e a distribuição do fundo constitucional do Distrito Federal.\n\nTabela 1A16-I esfera valor (em reais) fiscal 17.906.421.036 seguridade 8.997.021.291 investimentos das empresas estatais 1.512.982.019 total 28.416.424.346\n\nInternet: <www.economia.df.gov.br> (com adaptações).\n\nTabela 1A16-II área valor (em reais) % segurança pública 8.346.317.628 52,92 saúde 4.081.820.588 25,88 educação 3.343.282.028 21,20 total 15.771.420.244 100",
+   "citacao": "Internet: <www.economia.df.gov.br> (com adaptações).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A tabela seguinte apresenta informações acerca de contas, tributos e demais dados relativos a determinado mês de atividade de uma empresa que fabrica apenas um produto.\n\ncomponente valor (R$) preço de venda do produto (unitário) 80 custos dos produtos vendidos (unitário) 20 despesa de depreciação 6.500 despesas administrativas (exceto depreciação) 12.800 despesas financeiras 4.800 estoque de produtos para revenda 50.000\n\nNesse mesmo mês, essa empresa vendeu a prazo 1.200 unidades, tendo sido apurada a carga tributária indicada no quadro a seguir.\n\ntributos alíquota tributos incidentes sobre receita 20% tributos incidentes sobre lucro 24%",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A próxima tabela mostra indicadores das empresas Espaço livre hipotéticas e distintas Alfa e Beta.\n\nindicador Alfa Beta prazo médio de compras (em dias) 45 60 prazo médio de permanência dos estoques\n\n50 40 (em dias) prazo médio de recebimento dos clientes (em\n\n60 70 dias) rentabilidade dos investimentos (ao ano) 30% 30% margem operacional de lucro 15% 10% rotação do ativo 2 3",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

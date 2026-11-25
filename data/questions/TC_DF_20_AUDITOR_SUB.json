@@ -1117,7 +1117,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na situação em tela, a apresentação das previsões de receita do IPTU até o ano de 2023, tal qual indicado na tabela, é uma exigência prevista na Lei de Responsabilidade Fiscal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-tcdf-auditor-conselheiro-104",
@@ -1128,7 +1129,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No momento da elaboração do projeto de lei orçamentária anual de 2021, a receita do IPTU do GDF se encontrava no estágio de lançamento.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-tcdf-auditor-conselheiro-105",
@@ -1546,7 +1548,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para qualquer taxa mínima de atratividade superior a 20% ao período, o projeto A é preferível ao projeto C.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2020-tcdf-auditor-conselheiro-150",
@@ -1557,7 +1560,22 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se os projetos A e B forem mutuamente excludentes, o projeto B deverá ser executado caso haja disponibilidade para o investimento adicional.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "No mês de setembro de 2020, o governo do Distrito Federal (GDF) encaminhou à Câmara Legislativa do DF projeto de lei orçamentária com estimativa da receita do IPTU para os anos de 2021 a 2023, nos valores (em milhares de reais) apresentados na seguinte tabela.\n\nano\n\nitem\n\n2021 2022 2023 receita bruta de fatos geradores 1.563.286 1.617.218 1.673.116 do exercício (−) desconto para pagamento em 13.586 14.055 14.541 cota única (−) inadimplência estimada 529.276 547.536 566.461 (+) arrecadação estimada de 24.785 25.177 25.671 exercícios anteriores estimativa REFIS-DF 2020 1.130 706 354 (+) receita estimada de multas e juros 18.835 20.157 21.586 estimativa REFIS-DF 2020 2.144 1.340 672 (+) receita estimada da dívida 194.512 230.321 266.728 ativa estimativa REFIS-DF 2020 9.417 5.885 2.952 (+) receita estimada de multas e 38.201 35.192 33.038 juros da dívida ativa estimativa REFIS-DF 2020 17.865 11.165 5.600 (−) renúncia estimada 131.221 126.787 123.880 remissão REFIS-DF 2020 2.679 1.674 840 anistia REFIS-DF 2020 19.203 12.001 6.019 (=) receita líquida prevista 1.165.535 1.239.687 1.315.25",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "ଶସ଴ 1 ଶସ଴ 50 + ௧ = 500.000\n\n1 + ௧ 1 + ௧\n\n௧ୀଵ ௧ୀଵ A próxima tabela apresenta indicadores relativos aos projetos para investimento A, B e C.\n\ninvestimento taxa interna de valor presente projeto\n\ninicial (em R$) retorno (%) líquido (em R$)\n\nA 100.000 35 30.000\n\nB 200.000 25 55.000\n\nC 100.000 30 50.000 A taxa mínima de atratividade é de 20% ao período. Em comparação com o projeto A, os projetos B e C apresentam os seguintes indicadores para os fluxos de caixa incrementais.\n\ninvestimento taxa interna de valor presente\n\nincremental retorno (%) líquido (em R$)\n\n(B – A) 27 25.000\n\n(C – A) 24 20.000",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

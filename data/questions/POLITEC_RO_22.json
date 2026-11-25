@@ -12910,7 +12910,8 @@
     "−50 kJ/mol.",
     "+50 kJ/mol.",
     "+602 kJ/mol."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-politec-perito-criminal-area-8-072",
@@ -12928,7 +12929,8 @@
     "Apenas o item II está certo.",
     "Apenas o item III está certo.",
     "Todos os itens estão certos."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-politec-perito-criminal-area-8-073",
@@ -12946,7 +12948,8 @@
     "cria um caminho alternativo para a reação, com maior energia de ativação.",
     "aumenta a entalpia de reação, de forma a favorecer a formação dos produtos.",
     "cria um caminho alternativo para a reação, com menor energia de ativação."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-politec-perito-criminal-area-8-074",
@@ -13018,7 +13021,8 @@
     "0,43 bar.",
     "0,60 bar.",
     "0,77 bar."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-politec-perito-criminal-area-8-078",
@@ -13036,7 +13040,8 @@
     ", . /",
     "/ .",
     "/ ."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-politec-perito-criminal-area-8-079",
@@ -13054,7 +13059,8 @@
     "por temperaturas e pressões reduzidas.",
     "por temperaturas elevadas e pressões reduzidas.",
     "pela adição de um catalisador e por pressões elevadas."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-politec-perito-criminal-area-8-080",
@@ -15034,7 +15040,8 @@
     "Em obras de edificações, nota-se historicamente que uma pequena parcela dos itens da planilha orçamentária representa uma parcela considerável do custo total da obra.",
     "A faixa C da curva representa os serviços mais importantes.",
     "Em sua forma gráfica de representação, a curva ABC assemelha-se a uma curva exponencial negativa."
-   ]
+   ],
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-politec-perito-criminal-area-9-094",
@@ -15052,7 +15059,8 @@
     "os serviços de azulejo e alvenaria.",
     "os serviços de azulejo, emboço e pintura.",
     "os serviços de alvenaria e pintura."
-   ]
+   ],
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-politec-perito-criminal-area-9-095",
@@ -15070,7 +15078,8 @@
     "20%.",
     "25%.",
     "30%."
-   ]
+   ],
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-politec-perito-criminal-area-9-096",
@@ -27653,6 +27662,20 @@
     "A terceira fase do levantamento do local de acidente de trânsito tem como base o fator humano, ou seja, nos dados dos condutores e proprietários, excetuada a oitiva de testemunhas.",
     "A segunda fase do levantamento do local de acidente de trânsito tem como objeto os veículos, as forças envolvidas sobre os veículos e os danos decorrentes do acidente de tráfego."
    ]
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "O SO 2 Cl 2 ( g ) decompõe-se facilmente de acordo com a equação:\n\nSO 2 Cl 2 ( g ) ⇌ SO 2 ( g ) + Cl 2 ( g )  H > 0 Por esse motivo, ele é muito empregado como fonte de Cl 2 ( g ) em reações químicas. Considere que todas as espécies gasosas envolvidas nessa reação apresentem comportamento ideal e que a lei de velocidade para a reação seja dada pela equação v = k × [SO 2 Cl 2 ]. Considere também que, na temperatura em que a reação ocorre ( T ), a constante de equilíbrio ( K eq ) da reação valha 0,40.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Na tabela a seguir, são informados os custos de uma obra hipotética, na qual o insumo azulejo representa 30% do custo total da obra. serviço und quantidade custo %acum\n\nunitário custo total % ulado azulejo m² 160 24,4 3.904,00 46,3% 46,3% alvenaria m² 100 18,3 1.830,00 21,7% 68,0% emboço m² 160 10 1.600,00 19,0% 87,0% pintura m² 40 11,2 448,00 5,3% 92,3% chapisco m² 180 2 360,00 4,3% 96,6% reboco m² 40 7,2 288,00 3,4% 100,0%\n\ntotal = 8.430,00",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

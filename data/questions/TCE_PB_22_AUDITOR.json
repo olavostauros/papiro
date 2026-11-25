@@ -25,7 +25,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Com o fenômeno da globalização, os incentivos fiscais passaram a ser vistos pelos Estados como um dos principais instrumentos para o desenvolvimento.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-tce-pb-auditor-002",
@@ -36,7 +37,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As “negociações bilaterais entre Estados”, mencionadas no primeiro período do terceiro parágrafo, exemplificam o avanço robusto do direito tributário, mencionado no período seguinte.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-tce-pb-auditor-003",
@@ -47,7 +49,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entre os temas que desafiam o direito internacional do presente e do futuro, destaca-se a “tributação internacional”, citada no período final do primeiro parágrafo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-tce-pb-auditor-004",
@@ -69,7 +72,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sentido original do texto e a sua correção gramatical seriam mantidos caso o segundo período do terceiro parágrafo “Contudo, (...) revolução tecnológica” fosse assim reescrito: Embora robustamente movido pela interação dos agentes econômicos e pela revolução tecnológica, somente depois da segunda metade do século XX é que o direito tributário avançou.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-tce-pb-auditor-006",
@@ -80,7 +84,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido original do texto seriam preservados, se, no trecho “O cerne do fenômeno concorrencial está na pressão internacional” (terceiro período do segundo parágrafo), os vocábulos “cerne” e “está” fossem substituídos, respectivamente, por núcleo e consiste .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-tce-pb-auditor-007",
@@ -91,7 +96,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido original do texto seriam preservados, se o vocábulo “que”, no segundo período do terceiro parágrafo, fosse substituído por onde .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-tce-pb-auditor-008",
@@ -102,7 +108,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria preservada a correção gramatical do texto caso o termo “Destaca-se” (terceiro período do primeiro parágrafo) fosse reescrito como Se destaca .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-tce-pb-auditor-009",
@@ -113,7 +120,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último parágrafo, a expressão “o qual”, em “segundo o qual”, retoma o segmento antecedente “o legislador brasileiro”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-tce-pb-auditor-010",
@@ -124,7 +132,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência do texto seriam preservadas caso o sinal de dois-pontos, empregado ao fim do primeiro parágrafo, fosse substituído por uma vírgula.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-tce-pb-auditor-011",
@@ -1654,6 +1663,20 @@
    "tipo": "certo_errado",
    "enunciado": "Uma dívida de natureza não tributária e que deva ser cobrada por uma autarquia federal não está compreendida no conceito de dívida ativa.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Nos umbrais do Século XXI, a pós-modernidade vem provocando alterações cada vez mais velozes nas diversas formas de relação entre os países. Vários são os temas que desafiam o direito internacional do presente e do futuro, tais como o meio ambiente, o terrorismo, os direitos humanos, a miséria, a corrupção e tantos outros. Destaca-se desse rol o tema da tributação internacional, fonte primordial de recursos do mais tradicional sujeito de direito internacional: o Estado. O fenômeno da globalização trouxe severas mudanças ao cenário da tributação mundial. A livre movimentação de fatores de produção, especialmente do capital, ameaçando as bases de tributação dos diferentes Estados, estimulou o que se convencionou denominar concorrência tributária internacional . O cerne do fenômeno concorrencial está na pressão internacional exercida sobre a política tributária dos Estados, que passaram a ver nos incentivos fiscais uma das principais alavancas para o desenvolvimento. Desde o ocaso do século XIX, registram-se negociações bilaterais entre Estados europeus visando regrar situações econômicas conectadas a ambas as jurisdições. Contudo, foi somente na segunda metade do século XX que o direito tributário avançou robustamente, movido pela interação dos agentes econômicos e pela revolução tecnológica. A modificação do cenário internacional tornou mais complexa a tarefa do legislador doméstico, cuja possibilidade de escolha das situações passíveis de imposição ou desoneração tributária, antes livre, passou a sofrer limitações externas pelo mercado e por força de acordos bilaterais, regionais ou multilaterais. Assim, ao atuar sobre os agentes econômicos, por meio de incentivos fiscais, o legislador brasileiro estará limitado por cláusulas não discriminatórias da Organização Mundial do Comércio no campo externo, e vinculado, internamente, pelo “vetor da atuação estatal positiva”, segundo o qual deverá buscar a concretização de diversos princípios da Ordem Econômica, que bem poderiam ser acobertados sob o manto do Princípio do Estado Democrático de Direito.",
+   "citacao": "Carlos Otavio Ferreira de Almeida. Concorrência internacional e tributação da renda no Brasil. Tese de doutorado. São Paulo: USP, 2012, p. xvi-xvii. Internet: <www.teses.usp.br> (com adaptações).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Julgue os itens subsequentes, relativos a aspectos linguísticos do texto 1-A1.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

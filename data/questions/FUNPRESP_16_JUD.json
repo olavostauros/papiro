@@ -1593,7 +1593,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso a entidade mantenha os registros por meio do método PEPS (primeiro a entrar, primeiro a sair) e resolva alterar a forma de mensuração para a média ponderada móvel (MPM), será necessário ajustar o resultado, de modo a constar um débito na conta de custo da mercadoria vendida e um crédito em estoques de mercadorias.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-052",
@@ -1604,7 +1605,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pelo método PEPS (primeiro a entrar, primeiro a sair) de avaliação de estoque, constata-se que o valor do estoque final foi inferior a R$ 275.000,00.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-053",
@@ -1615,7 +1617,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considerando-se o método de avaliação de estoque pela média ponderada, é correto afirmar que o lucro foi superior a R$ 550.000,00.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-054",
@@ -1626,7 +1629,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se a avaliação de estoque tivesse sido feita pela média ponderada, o valor do estoque final teria sido superior a R$ 300.000,00.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-055",
@@ -1747,7 +1751,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor da receita líquida de vendas obtido a partir das contas apresentadas é superior a R$ 900.000,00.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-066",
@@ -1758,7 +1763,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Debitando-se todas as contas de receita, em contrapartida à conta de apuração do resultado do exercício (ARE), e creditando-se todas as contas de despesas, também em contrapartida à conta de ARE, constata-se que a conta de ARE apresenta um saldo credor superior a R$ 240.000,00, que equivale ao lucro apurado no exercício.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-067",
@@ -1769,7 +1775,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O ativo circulante é superior a R$ 800.000,00, e o passivo circulante é inferior a R$ 300.000,00.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-068",
@@ -1780,7 +1787,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor do capital integralizado é superior a R$ 300.000,00.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-069",
@@ -1791,7 +1799,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A empresa deverá desembolsar mais de R$ 150.000,00 para pagar os impostos apurados em 31/7/20X6.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-070",
@@ -3089,7 +3098,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expectativa completa de vida de uma pessoa com 90 anos de idade é maior que 5 anos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-052",
@@ -3100,7 +3110,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A probabilidade de uma pessoa com 2 anos de idade viver até os 90 anos é inferior a 20%.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-053",
@@ -3177,7 +3188,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se uma pessoa de 60 anos de idade tiver contratado um seguro de vida no valor de R$ 50.000,00 a ser pago em qualquer momento, então, assim que essa pessoa atingir os 70 anos de idade, sua reserva matemática será superior a R$ 8.000,00.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-060",
@@ -3188,7 +3200,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso uma pessoa de 60 anos de idade deseje resgatar um benefício vitalício de R$ 30.000,00 por ano, a reserva matemática a ser mantida pelo fundo, calculada pelo método prospectivo, será de R$ 300.000,00.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-061",
@@ -3683,7 +3696,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O cálculo do IGP-M inclui o índice que registra as variações médias dos preços praticados pelos produtores domésticos na venda de seus produtos, razão pela qual esse índice pode diferir significativamente dos índices de preços ao consumidor, como o IPCA.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-106",
@@ -3694,7 +3708,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A partir da previsão do Boletim Focus para o valor do dólar ao final de 2016, é possível estimar que, ao final deste ano, será de R$ 3,60 o valor da PTAX, que é medida pela média das taxas das operações de câmbio praticadas no mercado primário.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-107",
@@ -3705,7 +3720,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A estimativa de mercado para o PIB mencionada no texto indica que o estoque de riquezas do país, ao final de 2016, será inferior àquele verificado em igual período de 2015.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-108",
@@ -3749,7 +3765,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ao ter permitido, a partir de 2012, que o cumprimento da exigibilidade de recolhimento compulsório sobre os recursos à vista fosse efetuado com redução do valor correspondente ao saldo devedor atualizado dos financiamentos contratados no âmbito do Programa de Sustentação do Investimento (PSI), o BCB praticou uma política monetária expansionista.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-112",
@@ -3760,7 +3777,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As atribuições do Comitê de Política Monetária (COPOM) incluem a definição da meta para a inflação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-113",
@@ -3771,7 +3789,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em 2013, embora o resultado nominal das contas públicas tenha sido deficitário, o resultado primário foi superavitário, indicando que, naquele exercício, as receitas do governo superaram as despesas, inclusive as referentes à dívida pública contraída em exercícios anteriores.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-114",
@@ -3782,7 +3801,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entre 2013 e 2014, a dívida fiscal líquida cresceu mais de R$ 340 bilhões, montante que representa a necessidade de financiamento do setor público em 2014.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-115",
@@ -3793,7 +3813,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em uma conjuntura de política monetária restritiva, quanto maior for a parcela da dívida mobiliária federal indexada à taxa SELIC, maiores serão os superávits primários necessários para estabilizar a dívida pública.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-116",
@@ -3892,7 +3913,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso as informações contidas na tabela 1 e na tabela 2 correspondam, respectivamente, à situação inicial e à situação subsequente à inicial, será correto concluir que houve aumento do volume de recursos captados de terceiros, o que reduziu o WACC do projeto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-055",
@@ -3903,7 +3925,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se o retorno do investimento for superior ao WACC calculado, haverá ganho para o acionista.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-056",
@@ -3914,7 +3937,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com as informações contidas na tabela 1, o retorno mínimo exigido para remunerar o custo do capital do projeto é superior a 23%.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-057",
@@ -3925,7 +3949,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se a taxa de juros que remunera o capital de terceiros for de 60% ao ano, o custo do capital ponderado da operação subirá para 24% ao ano.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-059",
@@ -3936,7 +3961,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A covariância entre x e y é igual a 122.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-060",
@@ -3947,7 +3973,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correlação entre x e y é maior que 1.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-061",
@@ -3958,7 +3985,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O retorno esperado do ativo x é superior ao retorno esperado do ativo y .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-062",
@@ -4002,7 +4030,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor absoluto da covariância entre X e Y é igual ou inferior a 12.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-066",
@@ -4013,7 +4042,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se as variáveis X e Y forem independentes, o desvio padrão da soma X + Y será igual a 7.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-067",
@@ -4057,7 +4087,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A partir da previsão do Boletim Focus para o valor do dólar ao final de 2016, é possível estimar que, ao final deste ano, será de R$ 3,60 o valor da PTAX, que é medida pela média das taxas das operações de câmbio praticadas no mercado primário.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-071",
@@ -4068,7 +4099,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A estimativa de mercado para o PIB mencionada no texto indica que o estoque de riquezas do país, ao final de 2016, será inferior àquele verificado em igual período de 2015.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-072",
@@ -4079,7 +4111,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O cálculo do IGP-M inclui o índice que registra as variações médias dos preços praticados pelos produtores domésticos na venda de seus produtos, razão pela qual esse índice pode diferir significativamente dos índices de preços ao consumidor, como o IPCA.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-073",
@@ -4134,7 +4167,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ao ter permitido, a partir de 2012, que o cumprimento da exigibilidade de recolhimento compulsório sobre os recursos à vista fosse efetuado com redução do valor correspondente ao saldo devedor atualizado dos financiamentos contratados no âmbito do Programa de Sustentação do Investimento (PSI), o BCB praticou uma política monetária expansionista.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-078",
@@ -4145,7 +4179,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entre 2013 e 2014, a dívida fiscal líquida cresceu mais de R$ 340 bilhões, montante que representa a necessidade de financiamento do setor público em 2014.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-079",
@@ -4156,7 +4191,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em uma conjuntura de política monetária restritiva, quanto maior for a parcela da dívida mobiliária federal indexada à taxa SELIC, maiores serão os superávits primários necessários para estabilizar a dívida pública.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-080",
@@ -4167,7 +4203,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em 2013, embora o resultado nominal das contas públicas tenha sido deficitário, o resultado primário foi superavitário, indicando que, naquele exercício, as receitas do governo superaram as despesas, inclusive as referentes à dívida pública contraída em exercícios anteriores.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-081",
@@ -4992,7 +5029,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É possível aferir o desempenho dos servidores Primary e Secondary, bem como do Network Switch, por meio do SNMP ( Simple Network Management Protocol ), que é um protocolo da camada de aplicação, não orientado à conexão e que utiliza o protocolo UDP para trocar informações entre os dispositivos da rede.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-funpresp-tecnologia-informacao-087",
@@ -5003,7 +5041,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os programas Pacemaker e Heartbeat podem ser utilizados para monitorar, detectar e recuperar falhas nos servidores Primary e Secondary.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-funpresp-tecnologia-informacao-088",
@@ -5179,7 +5218,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No PMBOK 5, a diretiva para pré-projetos é semelhante à apresentada para o item pré-projeto da tabela precedente; contudo, no PMBOK, o pré-projeto, juntamente com o termo de abertura do projeto, é elaborado pelo gerente de projetos no processo desenvolver pré-projeto do grupo iniciação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-funpresp-tecnologia-informacao-104",
@@ -5190,7 +5230,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A descrição do item business case , na tabela, está em conformidade com o MPS.BR, mas diverge do PMBOK, já que esse prevê que o business case seja elaborado pelo projeto desenvolver plano de negócio do projeto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-funpresp-tecnologia-informacao-105",
@@ -5201,7 +5242,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O MPS.BR inclui, em seu modelo de referência para gestão de pessoas, a formação de comitê gestor de projetos sob a mesma perspectiva do item comitê de projeto, apresentado na tabela; por outro lado, no PMBOK não há referência para a formação desse colegiado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-funpresp-tecnologia-informacao-106",
@@ -5212,7 +5254,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O MPS.BR pode ser utilizado para aferir a qualidade de softwares desenvolvidos por métodos ágeis; o PMBOK também adere a esse tipo de desenvolvimento, mas com base no ciclo de vida adaptativo, projetado para promover envolvimento contínuo entre as partes interessadas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-funpresp-tecnologia-informacao-107",
@@ -5311,7 +5354,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Mesh topologies differ from others because the failure of the central element results in the failure of the whole network.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-funpresp-tecnologia-informacao-116",
@@ -5322,7 +5366,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Having many access links makes a network more trustworthy compared to other kinds of networks.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-funpresp-tecnologia-informacao-117",
@@ -5333,7 +5378,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "If any network element fails in whatever kind of network, operations will be interrupted.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-funpresp-tecnologia-informacao-118",
@@ -5344,7 +5390,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Star topologies have a leading node connecting network elements discretely.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-funpresp-tecnologia-informacao-119",
@@ -5355,7 +5402,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "“it” ( R .9) refers to “network element” ( R . 8 and 9).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-funpresp-tecnologia-informacao-120",
@@ -5366,7 +5414,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "“en route” ( R .24) can be replaced by on the way without any change in the meaning of the sentence.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-funpresp-direito-051",
@@ -7511,7 +7560,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O cálculo do IGP-M inclui o índice que registra as variações médias dos preços praticados pelos produtores domésticos na venda de seus produtos, razão pela qual esse índice pode diferir significativamente dos índices de preços ao consumidor, como o IPCA.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-funpresp-analista-contabilidade-106",
@@ -7522,7 +7572,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A partir da previsão do Boletim Focus para o valor do dólar ao final de 2016, é possível estimar que, ao final deste ano, será de R$ 3,60 o valor da PTAX, que é medida pela média das taxas das operações de câmbio praticadas no mercado primário.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-funpresp-analista-contabilidade-107",
@@ -7533,7 +7584,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A estimativa de mercado para o PIB mencionada no texto indica que o estoque de riquezas do país, ao final de 2016, será inferior àquele verificado em igual período de 2015.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-funpresp-analista-contabilidade-108",
@@ -7577,7 +7629,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ao ter permitido, a partir de 2012, que o cumprimento da exigibilidade de recolhimento compulsório sobre os recursos à vista fosse efetuado com redução do valor correspondente ao saldo devedor atualizado dos financiamentos contratados no âmbito do Programa de Sustentação do Investimento (PSI), o BCB praticou uma política monetária expansionista.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-funpresp-analista-contabilidade-112",
@@ -7588,7 +7641,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As atribuições do Comitê de Política Monetária (COPOM) incluem a definição da meta para a inflação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-funpresp-analista-contabilidade-113",
@@ -7599,7 +7653,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em 2013, embora o resultado nominal das contas públicas tenha sido deficitário, o resultado primário foi superavitário, indicando que, naquele exercício, as receitas do governo superaram as despesas, inclusive as referentes à dívida pública contraída em exercícios anteriores.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-funpresp-analista-contabilidade-114",
@@ -7610,7 +7665,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entre 2013 e 2014, a dívida fiscal líquida cresceu mais de R$ 340 bilhões, montante que representa a necessidade de financiamento do setor público em 2014.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-funpresp-analista-contabilidade-115",
@@ -7621,7 +7677,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em uma conjuntura de política monetária restritiva, quanto maior for a parcela da dívida mobiliária federal indexada à taxa SELIC, maiores serão os superávits primários necessários para estabilizar a dívida pública.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-funpresp-analista-contabilidade-116",
@@ -8446,7 +8503,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Com um lar, com a vida que “quisera e escolhera”, a única preocupação de Ana era ser uma exímia dona de casa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-administrativa-003",
@@ -8457,7 +8515,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do primeiro parágrafo do texto que, desde a juventude, Ana considerava o casamento e a maternidade sua vocação inata, ou seja, seu destino de mulher.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-administrativa-005",
@@ -8468,7 +8527,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, o emprego do tempo verbal em formas como “Saía” ( R .23), “exigiam” ( R .25), “Encontrava” ( R .27) e “alimentava” ( R .30) denota o caráter rotineiro de determinados acontecimentos na vida de Ana.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-administrativa-006",
@@ -8479,7 +8539,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No trecho “uma exaltação perturbada (...) com felicidade insuportável” ( R . 12 a 14), os adjetivos “perturbada” e “insuportável” qualificam a vida que Ana “quisera e escolhera” ( R .15).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-administrativa-008",
@@ -8490,7 +8551,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A expressão “com persistência, continuidade, alegria” ( R . 10 e 11) refere-se ao modo como vivem as pessoas que trabalham.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-administrativa-009",
@@ -8501,7 +8563,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em “Olhando os móveis limpos, seu coração se apertava um pouco em espanto” ( R . 19 e 20), o agente da forma verbal “Olhando” corresponde ao referente do pronome “seu”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-administrativa-011",
@@ -8512,7 +8575,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A introdução do sinal grave indicativo de crase em “a noite” ( R .26) manteria a correção gramatical do texto, mas prejudicaria seu sentido original.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-administrativa-012",
@@ -8523,7 +8587,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Ao refletir sobre a importância da sua arte, o narrador sente-se impelido a desenvolver uma disciplina física e mental para expandir suas potencialidades, conforme se depreende do trecho “E senti como nunca dantes (...) meu coração mais simples para dar” ( R . 17 a 21).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-administrativa-013",
@@ -8534,7 +8599,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, uma das obrigações do poeta é “fazer alguém parar no seu cotidiano e se pôr a sonhar” ( R .8).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-administrativa-014",
@@ -8545,7 +8611,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Do trecho ‘com o poder de interpretar para alguém o milagre de um sentimento ignorado’ ( R . 13 e 14) entende-se que o narrador considera o poeta alguém capaz de explicar por que determinados sentimentos são ignorados pelo ser humano.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-administrativa-015",
@@ -8556,7 +8623,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A supressão da vírgula empregada logo após a palavra “também” ( R .6) não prejudicaria o sentido original do período em que ocorre.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-administrativa-016",
@@ -8567,7 +8635,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A vírgula empregada logo após “protegia” ( R .4) separa orações aditivas que têm sujeitos distintos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-administrativa-017",
@@ -8578,7 +8647,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sujeito da forma verbal “era” ( R .6) está elíptico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-administrativa-018",
@@ -8589,7 +8659,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A oração “por me fazer feliz” ( R .5) expressa uma ideia de finalidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-administrativa-019",
@@ -8919,7 +8990,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Com um lar, com a vida que “quisera e escolhera”, a única preocupação de Ana era ser uma exímia dona de casa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-003",
@@ -8930,7 +9002,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do primeiro parágrafo do texto que, desde a juventude, Ana considerava o casamento e a maternidade sua vocação inata, ou seja, seu destino de mulher.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-005",
@@ -8941,7 +9014,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, o emprego do tempo verbal em formas como “Saía” ( R .23), “exigiam” ( R .25), “Encontrava” ( R .27) e “alimentava” ( R .30) denota o caráter rotineiro de determinados acontecimentos na vida de Ana.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-006",
@@ -8952,7 +9026,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No trecho “uma exaltação perturbada (...) com felicidade insuportável” ( R . 12 a 14), os adjetivos “perturbada” e “insuportável” qualificam a vida que Ana “quisera e escolhera” ( R .15).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-008",
@@ -8963,7 +9038,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A expressão “com persistência, continuidade, alegria” ( R . 10 e 11) refere-se ao modo como vivem as pessoas que trabalham.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-009",
@@ -8974,7 +9050,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em “Olhando os móveis limpos, seu coração se apertava um pouco em espanto” ( R . 19 e 20), o agente da forma verbal “Olhando” corresponde ao referente do pronome “seu”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-011",
@@ -8985,7 +9062,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A introdução do sinal grave indicativo de crase em “a noite” ( R .26) manteria a correção gramatical do texto, mas prejudicaria seu sentido original.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-012",
@@ -8996,7 +9074,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Ao refletir sobre a importância da sua arte, o narrador sente-se impelido a desenvolver uma disciplina física e mental para expandir suas potencialidades, conforme se depreende do trecho “E senti como nunca dantes (...) meu coração mais simples para dar” ( R . 17 a 21).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-013",
@@ -9007,7 +9086,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, uma das obrigações do poeta é “fazer alguém parar no seu cotidiano e se pôr a sonhar” ( R .8).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-014",
@@ -9018,7 +9098,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Do trecho ‘com o poder de interpretar para alguém o milagre de um sentimento ignorado’ ( R . 13 e 14) entende-se que o narrador considera o poeta alguém capaz de explicar por que determinados sentimentos são ignorados pelo ser humano.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-015",
@@ -9029,7 +9110,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A supressão da vírgula empregada logo após a palavra “também” ( R .6) não prejudicaria o sentido original do período em que ocorre.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-016",
@@ -9040,7 +9122,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A vírgula empregada logo após “protegia” ( R .4) separa orações aditivas que têm sujeitos distintos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-017",
@@ -9051,7 +9134,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sujeito da forma verbal “era” ( R .6) está elíptico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-018",
@@ -9062,7 +9146,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A oração “por me fazer feliz” ( R .5) expressa uma ideia de finalidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-assistente-contabilidade-019",
@@ -9392,7 +9477,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Com um lar, com a vida que “quisera e escolhera”, a única preocupação de Ana era ser uma exímia dona de casa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-secretariado-executivo-003",
@@ -9403,7 +9489,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do primeiro parágrafo do texto que, desde a juventude, Ana considerava o casamento e a maternidade sua vocação inata, ou seja, seu destino de mulher.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-secretariado-executivo-005",
@@ -9414,7 +9501,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, o emprego do tempo verbal em formas como “Saía” ( R .23), “exigiam” ( R .25), “Encontrava” ( R .27) e “alimentava” ( R .30) denota o caráter rotineiro de determinados acontecimentos na vida de Ana.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-secretariado-executivo-006",
@@ -9425,7 +9513,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No trecho “uma exaltação perturbada (...) com felicidade insuportável” ( R . 12 a 14), os adjetivos “perturbada” e “insuportável” qualificam a vida que Ana “quisera e escolhera” ( R .15).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-secretariado-executivo-008",
@@ -9436,7 +9525,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A expressão “com persistência, continuidade, alegria” ( R . 10 e 11) refere-se ao modo como vivem as pessoas que trabalham.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-secretariado-executivo-009",
@@ -9447,7 +9537,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em “Olhando os móveis limpos, seu coração se apertava um pouco em espanto” ( R . 19 e 20), o agente da forma verbal “Olhando” corresponde ao referente do pronome “seu”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-secretariado-executivo-011",
@@ -9458,7 +9549,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A introdução do sinal grave indicativo de crase em “a noite” ( R .26) manteria a correção gramatical do texto, mas prejudicaria seu sentido original.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-secretariado-executivo-012",
@@ -9469,7 +9561,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Ao refletir sobre a importância da sua arte, o narrador sente-se impelido a desenvolver uma disciplina física e mental para expandir suas potencialidades, conforme se depreende do trecho “E senti como nunca dantes (...) meu coração mais simples para dar” ( R . 17 a 21).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-secretariado-executivo-013",
@@ -9480,7 +9573,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, uma das obrigações do poeta é “fazer alguém parar no seu cotidiano e se pôr a sonhar” ( R .8).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-secretariado-executivo-014",
@@ -9491,7 +9585,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Do trecho ‘com o poder de interpretar para alguém o milagre de um sentimento ignorado’ ( R . 13 e 14) entende-se que o narrador considera o poeta alguém capaz de explicar por que determinados sentimentos são ignorados pelo ser humano.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-secretariado-executivo-015",
@@ -9502,7 +9597,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A supressão da vírgula empregada logo após a palavra “também” ( R .6) não prejudicaria o sentido original do período em que ocorre.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-secretariado-executivo-016",
@@ -9513,7 +9609,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A vírgula empregada logo após “protegia” ( R .4) separa orações aditivas que têm sujeitos distintos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-secretariado-executivo-017",
@@ -9524,7 +9621,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sujeito da forma verbal “era” ( R .6) está elíptico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-secretariado-executivo-018",
@@ -9535,7 +9633,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A oração “por me fazer feliz” ( R .5) expressa uma ideia de finalidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-secretariado-executivo-019",
@@ -9865,7 +9964,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Com um lar, com a vida que “quisera e escolhera”, a única preocupação de Ana era ser uma exímia dona de casa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-previdencial-003",
@@ -9876,7 +9976,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do primeiro parágrafo do texto que, desde a juventude, Ana considerava o casamento e a maternidade sua vocação inata, ou seja, seu destino de mulher.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-previdencial-005",
@@ -9887,7 +9988,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, o emprego do tempo verbal em formas como “Saía” ( R .23), “exigiam” ( R .25), “Encontrava” ( R .27) e “alimentava” ( R .30) denota o caráter rotineiro de determinados acontecimentos na vida de Ana.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-previdencial-006",
@@ -9898,7 +10000,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No trecho “uma exaltação perturbada (...) com felicidade insuportável” ( R . 12 a 14), os adjetivos “perturbada” e “insuportável” qualificam a vida que Ana “quisera e escolhera” ( R .15).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-previdencial-008",
@@ -9909,7 +10012,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A expressão “com persistência, continuidade, alegria” ( R . 10 e 11) refere-se ao modo como vivem as pessoas que trabalham.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-previdencial-009",
@@ -9920,7 +10024,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em “Olhando os móveis limpos, seu coração se apertava um pouco em espanto” ( R . 19 e 20), o agente da forma verbal “Olhando” corresponde ao referente do pronome “seu”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-previdencial-011",
@@ -9931,7 +10036,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A introdução do sinal grave indicativo de crase em “a noite” ( R .26) manteria a correção gramatical do texto, mas prejudicaria seu sentido original.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-previdencial-012",
@@ -9942,7 +10048,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Ao refletir sobre a importância da sua arte, o narrador sente-se impelido a desenvolver uma disciplina física e mental para expandir suas potencialidades, conforme se depreende do trecho “E senti como nunca dantes (...) meu coração mais simples para dar” ( R . 17 a 21).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-previdencial-013",
@@ -9953,7 +10060,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, uma das obrigações do poeta é “fazer alguém parar no seu cotidiano e se pôr a sonhar” ( R .8).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-previdencial-014",
@@ -9964,7 +10072,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Do trecho ‘com o poder de interpretar para alguém o milagre de um sentimento ignorado’ ( R . 13 e 14) entende-se que o narrador considera o poeta alguém capaz de explicar por que determinados sentimentos são ignorados pelo ser humano.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-previdencial-015",
@@ -9975,7 +10084,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A supressão da vírgula empregada logo após a palavra “também” ( R .6) não prejudicaria o sentido original do período em que ocorre.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-previdencial-016",
@@ -9986,7 +10096,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A vírgula empregada logo após “protegia” ( R .4) separa orações aditivas que têm sujeitos distintos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-previdencial-017",
@@ -9997,7 +10108,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sujeito da forma verbal “era” ( R .6) está elíptico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-previdencial-018",
@@ -10008,7 +10120,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A oração “por me fazer feliz” ( R .5) expressa uma ideia de finalidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-funpresp-previdencial-019",
@@ -10338,7 +10451,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que a narradora acredita ser mais importante para as mulheres ter dinheiro que votar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-comunicacao-marketing-005",
@@ -10349,7 +10463,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do trecho “ganhara algumas libras endereçando envelopes (...) jardim de infância” ( R . 11 a 14) que as diversas ocupações da narradora garantiam-lhe uma renda fixa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-comunicacao-marketing-006",
@@ -10360,7 +10475,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Sem alterar o sentido original do texto, o verbo “admitir” ( R .8) poderia ser substituído por reconhecer .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-comunicacao-marketing-008",
@@ -10371,7 +10487,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Tanto o vocábulo “Nenhuma” ( R .18) quanto o vocábulo “algum” ( R .22) foram empregados com sentido negativo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-comunicacao-marketing-009",
@@ -10382,7 +10499,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A narradora utiliza a expressão “outra metade da raça humana” ( R .25) para se referir ao gênero masculino.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-comunicacao-marketing-011",
@@ -10393,7 +10511,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A partir do trecho “Nem uma nem outra coisa” ( R . 6 e 7), a autora apresenta ideias antagônicas para desconstruir estereótipos associados à mulher brasileira.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-comunicacao-marketing-012",
@@ -10404,7 +10523,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A autora refuta, no texto, a ideia de que a beleza da mulher brasileira limita-se à juventude.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-comunicacao-marketing-013",
@@ -10415,7 +10535,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo a autora, ao homem europeu a mulher brasileira parece ser “indiferente ou sossegada” ( R .15) porque sua alegria não diminui frente à dor de outrem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-comunicacao-marketing-014",
@@ -10426,7 +10547,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido do texto seriam preservados caso o vocábulo “amada” ( R .12) fosse empregado no masculino: amado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-comunicacao-marketing-015",
@@ -10437,7 +10559,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seria preservada a correção gramatical do texto caso o trecho “Dir-se-ia” ( R .4) fosse substituído por Dizem .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-comunicacao-marketing-016",
@@ -10448,7 +10571,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sentido original e a correção gramatical do texto seriam preservados caso o primeiro período fosse reescrito da seguinte maneira: A concepção do europeu acerca da mulher brasileira é demasiado falsa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-comunicacao-marketing-017",
@@ -10822,7 +10946,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que a narradora acredita ser mais importante para as mulheres ter dinheiro que votar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-analista-contabilidade-005",
@@ -10833,7 +10958,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do trecho “ganhara algumas libras endereçando envelopes (...) jardim de infância” ( R . 11 a 14) que as diversas ocupações da narradora garantiam-lhe uma renda fixa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-analista-contabilidade-006",
@@ -10844,7 +10970,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Sem alterar o sentido original do texto, o verbo “admitir” ( R .8) poderia ser substituído por reconhecer .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-analista-contabilidade-008",
@@ -10855,7 +10982,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Tanto o vocábulo “Nenhuma” ( R .18) quanto o vocábulo “algum” ( R .22) foram empregados com sentido negativo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-analista-contabilidade-009",
@@ -10866,7 +10994,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A narradora utiliza a expressão “outra metade da raça humana” ( R .25) para se referir ao gênero masculino.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-analista-contabilidade-011",
@@ -10877,7 +11006,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A partir do trecho “Nem uma nem outra coisa” ( R . 6 e 7), a autora apresenta ideias antagônicas para desconstruir estereótipos associados à mulher brasileira.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-analista-contabilidade-012",
@@ -10888,7 +11018,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A autora refuta, no texto, a ideia de que a beleza da mulher brasileira limita-se à juventude.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-analista-contabilidade-013",
@@ -10899,7 +11030,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo a autora, ao homem europeu a mulher brasileira parece ser “indiferente ou sossegada” ( R .15) porque sua alegria não diminui frente à dor de outrem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-analista-contabilidade-014",
@@ -10910,7 +11042,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido do texto seriam preservados caso o vocábulo “amada” ( R .12) fosse empregado no masculino: amado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-analista-contabilidade-015",
@@ -10921,7 +11054,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seria preservada a correção gramatical do texto caso o trecho “Dir-se-ia” ( R .4) fosse substituído por Dizem .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-analista-contabilidade-016",
@@ -10932,7 +11066,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sentido original e a correção gramatical do texto seriam preservados caso o primeiro período fosse reescrito da seguinte maneira: A concepção do europeu acerca da mulher brasileira é demasiado falsa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-analista-contabilidade-017",
@@ -11306,7 +11441,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que a narradora acredita ser mais importante para as mulheres ter dinheiro que votar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-controle-interno-005",
@@ -11317,7 +11453,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do trecho “ganhara algumas libras endereçando envelopes (...) jardim de infância” ( R . 11 a 14) que as diversas ocupações da narradora garantiam-lhe uma renda fixa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-controle-interno-006",
@@ -11328,7 +11465,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Sem alterar o sentido original do texto, o verbo “admitir” ( R .8) poderia ser substituído por reconhecer .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-controle-interno-008",
@@ -11339,7 +11477,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Tanto o vocábulo “Nenhuma” ( R .18) quanto o vocábulo “algum” ( R .22) foram empregados com sentido negativo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-controle-interno-009",
@@ -11350,7 +11489,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A narradora utiliza a expressão “outra metade da raça humana” ( R .25) para se referir ao gênero masculino.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-controle-interno-011",
@@ -11361,7 +11501,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A partir do trecho “Nem uma nem outra coisa” ( R . 6 e 7), a autora apresenta ideias antagônicas para desconstruir estereótipos associados à mulher brasileira.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-controle-interno-012",
@@ -11372,7 +11513,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A autora refuta, no texto, a ideia de que a beleza da mulher brasileira limita-se à juventude.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-controle-interno-013",
@@ -11383,7 +11525,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo a autora, ao homem europeu a mulher brasileira parece ser “indiferente ou sossegada” ( R .15) porque sua alegria não diminui frente à dor de outrem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-controle-interno-014",
@@ -11394,7 +11537,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido do texto seriam preservados caso o vocábulo “amada” ( R .12) fosse empregado no masculino: amado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-controle-interno-015",
@@ -11405,7 +11549,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seria preservada a correção gramatical do texto caso o trecho “Dir-se-ia” ( R .4) fosse substituído por Dizem .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-controle-interno-016",
@@ -11416,7 +11561,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sentido original e a correção gramatical do texto seriam preservados caso o primeiro período fosse reescrito da seguinte maneira: A concepção do europeu acerca da mulher brasileira é demasiado falsa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-controle-interno-017",
@@ -11790,7 +11936,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que a narradora acredita ser mais importante para as mulheres ter dinheiro que votar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-tecnologia-informacao-005",
@@ -11801,7 +11948,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do trecho “ganhara algumas libras endereçando envelopes (...) jardim de infância” ( R . 11 a 14) que as diversas ocupações da narradora garantiam-lhe uma renda fixa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-tecnologia-informacao-006",
@@ -11812,7 +11960,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Sem alterar o sentido original do texto, o verbo “admitir” ( R .8) poderia ser substituído por reconhecer .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-tecnologia-informacao-008",
@@ -11823,7 +11972,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Tanto o vocábulo “Nenhuma” ( R .18) quanto o vocábulo “algum” ( R .22) foram empregados com sentido negativo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-tecnologia-informacao-009",
@@ -11834,7 +11984,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A narradora utiliza a expressão “outra metade da raça humana” ( R .25) para se referir ao gênero masculino.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-tecnologia-informacao-011",
@@ -11845,7 +11996,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A partir do trecho “Nem uma nem outra coisa” ( R . 6 e 7), a autora apresenta ideias antagônicas para desconstruir estereótipos associados à mulher brasileira.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-tecnologia-informacao-012",
@@ -11856,7 +12008,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A autora refuta, no texto, a ideia de que a beleza da mulher brasileira limita-se à juventude.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-tecnologia-informacao-013",
@@ -11867,7 +12020,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo a autora, ao homem europeu a mulher brasileira parece ser “indiferente ou sossegada” ( R .15) porque sua alegria não diminui frente à dor de outrem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-tecnologia-informacao-014",
@@ -11878,7 +12032,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido do texto seriam preservados caso o vocábulo “amada” ( R .12) fosse empregado no masculino: amado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-tecnologia-informacao-015",
@@ -11889,7 +12044,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seria preservada a correção gramatical do texto caso o trecho “Dir-se-ia” ( R .4) fosse substituído por Dizem .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-tecnologia-informacao-016",
@@ -11900,7 +12056,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sentido original e a correção gramatical do texto seriam preservados caso o primeiro período fosse reescrito da seguinte maneira: A concepção do europeu acerca da mulher brasileira é demasiado falsa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-tecnologia-informacao-017",
@@ -12274,7 +12431,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que a narradora acredita ser mais importante para as mulheres ter dinheiro que votar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-005",
@@ -12285,7 +12443,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do trecho “ganhara algumas libras endereçando envelopes (...) jardim de infância” ( R . 11 a 14) que as diversas ocupações da narradora garantiam-lhe uma renda fixa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-006",
@@ -12296,7 +12455,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Sem alterar o sentido original do texto, o verbo “admitir” ( R .8) poderia ser substituído por reconhecer .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-008",
@@ -12307,7 +12467,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Tanto o vocábulo “Nenhuma” ( R .18) quanto o vocábulo “algum” ( R .22) foram empregados com sentido negativo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-009",
@@ -12318,7 +12479,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A narradora utiliza a expressão “outra metade da raça humana” ( R .25) para se referir ao gênero masculino.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-011",
@@ -12329,7 +12491,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A partir do trecho “Nem uma nem outra coisa” ( R . 6 e 7), a autora apresenta ideias antagônicas para desconstruir estereótipos associados à mulher brasileira.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-012",
@@ -12340,7 +12503,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A autora refuta, no texto, a ideia de que a beleza da mulher brasileira limita-se à juventude.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-013",
@@ -12351,7 +12515,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo a autora, ao homem europeu a mulher brasileira parece ser “indiferente ou sossegada” ( R .15) porque sua alegria não diminui frente à dor de outrem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-014",
@@ -12362,7 +12527,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido do texto seriam preservados caso o vocábulo “amada” ( R .12) fosse empregado no masculino: amado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-015",
@@ -12373,7 +12539,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seria preservada a correção gramatical do texto caso o trecho “Dir-se-ia” ( R .4) fosse substituído por Dizem .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-016",
@@ -12384,7 +12551,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sentido original e a correção gramatical do texto seriam preservados caso o primeiro período fosse reescrito da seguinte maneira: A concepção do europeu acerca da mulher brasileira é demasiado falsa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-investimentos-017",
@@ -12758,7 +12926,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que a narradora acredita ser mais importante para as mulheres ter dinheiro que votar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-005",
@@ -12769,7 +12938,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do trecho “ganhara algumas libras endereçando envelopes (...) jardim de infância” ( R . 11 a 14) que as diversas ocupações da narradora garantiam-lhe uma renda fixa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-006",
@@ -12780,7 +12950,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Sem alterar o sentido original do texto, o verbo “admitir” ( R .8) poderia ser substituído por reconhecer .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-008",
@@ -12791,7 +12962,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Tanto o vocábulo “Nenhuma” ( R .18) quanto o vocábulo “algum” ( R .22) foram empregados com sentido negativo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-009",
@@ -12802,7 +12974,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A narradora utiliza a expressão “outra metade da raça humana” ( R .25) para se referir ao gênero masculino.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-011",
@@ -12813,7 +12986,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A partir do trecho “Nem uma nem outra coisa” ( R . 6 e 7), a autora apresenta ideias antagônicas para desconstruir estereótipos associados à mulher brasileira.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-012",
@@ -12824,7 +12998,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A autora refuta, no texto, a ideia de que a beleza da mulher brasileira limita-se à juventude.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-013",
@@ -12835,7 +13010,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo a autora, ao homem europeu a mulher brasileira parece ser “indiferente ou sossegada” ( R .15) porque sua alegria não diminui frente à dor de outrem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-014",
@@ -12846,7 +13022,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido do texto seriam preservados caso o vocábulo “amada” ( R .12) fosse empregado no masculino: amado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-015",
@@ -12857,7 +13034,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seria preservada a correção gramatical do texto caso o trecho “Dir-se-ia” ( R .4) fosse substituído por Dizem .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-016",
@@ -12868,7 +13046,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sentido original e a correção gramatical do texto seriam preservados caso o primeiro período fosse reescrito da seguinte maneira: A concepção do europeu acerca da mulher brasileira é demasiado falsa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-funpresp-atuaria-017",
@@ -13242,7 +13421,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que a narradora acredita ser mais importante para as mulheres ter dinheiro que votar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-funpresp-direito-005",
@@ -13253,7 +13433,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A conquista da “liberdade de pensar nas coisas em si” ( R .30) resultou em sentimentos de piedade e tolerância em relação aos homens, sentimentos esses que substituíram o ódio e a amargura nutridos inicialmente pela narradora.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-funpresp-direito-006",
@@ -13264,7 +13445,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do trecho “ganhara algumas libras endereçando envelopes (...) jardim de infância” ( R . 11 a 14) que as diversas ocupações da narradora garantiam-lhe uma renda fixa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-funpresp-direito-008",
@@ -13275,7 +13457,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As formas pronominais “a” ( R .5) e “ela” ( R .6) referem-se a “A carta” ( R .4).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-funpresp-direito-009",
@@ -13286,7 +13469,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e do sentido do texto, o trecho “é impressionante a mudança de ânimo que uma renda fixa promove” ( R . 17 e 18) poderia ser reescrito da seguinte forma: a mudança de ânimo promovida por uma renda fixa é impressionante.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-funpresp-direito-011",
@@ -13297,7 +13481,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A narradora utiliza a expressão “outra metade da raça humana” ( R .25) para se referir ao gênero masculino.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-funpresp-direito-012",
@@ -13308,7 +13493,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sinal indicativo de crase em “às mulheres” ( R .4) é facultativo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-funpresp-direito-013",
@@ -13319,7 +13505,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo a autora, ao homem europeu a mulher brasileira parece ser “indiferente ou sossegada” ( R .15) porque sua alegria não diminui frente à dor de outrem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-funpresp-direito-014",
@@ -13330,7 +13517,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do trecho “Mas não tivesse ela capacidade para a luta (...) nem teria ela conseguido lecionar em colégios superiores” ( R . 16 a 19) que as mulheres brasileiras conquistaram, com “sacrifícios e coragem” ( R .20), o direito do acesso irrestrito às universidades tanto como estudantes quanto como professoras.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-funpresp-direito-015",
@@ -13341,7 +13529,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A partir do trecho “Nem uma nem outra coisa” ( R . 6 e 7), a autora apresenta ideias antagônicas para desconstruir estereótipos associados à mulher brasileira.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-funpresp-direito-016",
@@ -13352,7 +13541,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A autora refuta, no texto, a ideia de que a beleza da mulher brasileira limita-se à juventude.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-funpresp-direito-017",
@@ -13363,7 +13553,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sentido original e a correção gramatical do texto seriam preservados caso o primeiro período fosse reescrito da seguinte maneira: A concepção do europeu acerca da mulher brasileira é demasiado falsa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-funpresp-direito-018",
@@ -13374,7 +13565,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido do texto seriam preservados caso o vocábulo “amada” ( R .12) fosse empregado no masculino: amado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-funpresp-direito-019",
@@ -13385,7 +13577,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seria preservada a correção gramatical do texto caso o trecho “Dir-se-ia” ( R .4) fosse substituído por Dizem .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-funpresp-direito-020",
@@ -13396,7 +13589,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do trecho “as portas das academias não se lhe teriam aberto” ( R . 17 e 18) seria mantida caso ele fosse reescrito da seguinte forma: não teriam sido abertas as portas das academias à brasileira.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-funpresp-direito-021",
@@ -13727,6 +13921,110 @@
    "tipo": "certo_errado",
    "enunciado": "É permitida a contratação de terceiros para auxiliar o trabalho do representante da administração que tenha sido designado para acompanhar e fiscalizar a execução do contrato administrativo.",
    "gabarito": "certo"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "CONHECIMENTOS ESPECÍFICOS",
+   "citacao": "A tabela a seguir mostra o relatório de compras de mercadorias para revenda e de vendas de mercadorias de determinada entidade no mês de fevereiro de 20X6. valor por dia fato gerador unidades unidade (R$) 2 compra 10.000 10 3 compra 15.000 15 5 venda 20.000 20 12 compra 25.000 20 22 venda 20.000 30 24 compra 30.000 25 26 venda 25.000 45",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A tabela seguinte mostra os saldos contábeis, em reais, de determinada empresa, em 31/7/20X6.\n\ncontas saldos\n\nabatimentos sobre vendas 30.000\n\nbanco conta movimento 280.000\n\ncapital a integralizar 30.000\n\ncapital subscrito 294.000\n\nCOFINS a recuperar 6.000\n\nCOFINS sobre faturamento 95.760\n\ncomissões de vendedores 54.000\n\ncontas a receber 259.500\n\ncusto das mercadorias vendidas 510.000\n\ndespesas com salários 96.000\n\ndespesas de juros 5.100\n\nduplicatas a pagar 210.000\n\ndebêntures perpétuas 160.000\n\nestoque de mercadorias 270.000\n\nICMS a recuperar 60.000\n\nICMS sobre vendas 214.200\n\nimóveis de uso 225.000\n\nPIS a recuperar 1.500\n\nPIS sobre faturamento 20.790\n\nreceita bruta de vendas 1.260.000\n\nreceitas de juros 7.800\n\nreserva de lucros 90.000\n\nseguros pagos antecipadamente 13.950\n\nempréstimos e financiamentos 150.000",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "x D x N x C x M x 50 4.800 60.000 36 1.440 60 2.340 23.400 45 1.170 70 900 7.200 44 540 80 250 1.250 25 175 90 25 80 5 20 A tabela precedente mostra um trecho de uma tábua de comutações, em que x é a idade, D x e N x são funções de sobrevivência e C x e M x são funções de morte; a taxa de desconto atuarial é fixada.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Os analistas consultados pelo Banco Central do Brasil (BCB) preveem que, em 2016, haja uma contração de 3,44% do Produto Interno Bruto (PIB) registrado em 2015. Nas estimativas para a inflação, o destaque desta semana fica por conta da projeção para o IPCA em 12 meses, que, depois de dez semanas em queda, subiu de 5,91% para 5,93%. Por outro lado, as revisões referentes aos IGP foram mais fortes. A mediana para o avanço do IGP-DI saiu de 7,97% para 8,27%, e a do IGP-M, de 7,95% para 8,34%, ambos referentes a 2016.\n\nO Boletim Focus prevê que o dólar passe de R$ 3,65 para R$ 3,60 ao final de 2016.\n\nValor Econômico . 20/6/2016 (com adaptações). Tendo como referência inicial o texto apresentado, julgue os seguintes itens, relativos a indicadores econômicos.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Considerando-se todas as demais variáveis como constantes, é correto afirmar que, não havendo a denominada esterilização, o gráfico referente à base monetária é compatível com a compra líquida de divisas pelo BCB.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A tabela seguinte mostra as necessidades de financiamento do setor público (NFSP) brasileiro e suas fontes de financiamento nos anos de 2013 e 2014.\n\nusos e fontes – setor público consolidado\n\nfluxos acumulados no ano\n\n2013 2014\n\nR$ milhões % do PIB R$ milhões % do PIB usos (= NFSP) 157.550 3,05 343.916 6,23 primário ! 91.306 ! 1,77 32.536 0,59 juros internos 248.704 4,82 310.550 5,62 juros reais 133.139 2,58 220.705 4,00 atualização monetária 115.566 2,24 89.845 1,63 juros externos 151 0,00 831 0,02 fontes 157.550 3,05 343.916 6,23 financiamento interno 179.126 3,47 334.882 6,07 dívida mobiliária 113.800 2,21 434.291 7,87 dívida bancária 45.736 0,89 ! 118.707 ! 2,15 demais 19.043 0,37 19.298 0,35 financiamento externo ! 21.577 ! 0,42 9.034 0,16 PIB acumulado no ano 5.157.569 100,0 5.521.256 100,0",
+   "citacao": "Internet: < http://www4.bcb.gov.br> (com adaptações).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Tabela 1 fonte de montante percentual de custo líquido capital (em R$) participação do capital ao ano\n\nno projeto próprio 200.000 40% 25% terceiros 300.000 60% 20%\n\nTabela 2 fonte de montante percentual de custo líquido capital (em R$) participação do capital ao ano\n\nno projeto próprio 200.000 25% 25% terceiros 600.000 75% 20% As tabelas 1 e 2 anteriormente apresentadas contêm informações das fontes de capital de determinado projeto necessárias para o cálculo do custo médio ponderado do capital — WACC ( weighted average cost of capital ). Considerando essas informações, julgue os itens seguintes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "fonte de montante participação do capital (em R$) capital na empresa terceiros 400 40% próprio 600 60% A tabela precedente mostra as fontes de capital de uma empresa hipotética. Sabendo que o custo do capital próprio é de 16% ao ano e que o custo do capital de terceiros é de 10% ao ano, com alíquota",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "período I II III probabilidade 0,2 0,6 0,2\n\nativo x ! 5 10 20 retorno\n\nativo y ! 10 10 40 A tabela precedente mostra os ativos x e y (variáveis aleatórias) e seus retornos. Considerando que as variâncias de x e y sejam σ 2 = 64 e σ 2 = 256, respectivamente, julgue os próximos\n\nx y itens.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "variável estatística X Y média amostral 25 27 variância amostral 16 9 Com base na tabela precedente, que apresenta estatísticas referentes a duas variáveis observadas em um estudo previdenciário, julgue os seguintes itens.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A figura seguinte mostra a arquitetura a ser implementada para prover alta disponibilidade entre os servidores Linux Primary e Secondary.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A tabela seguinte mostra a metodologia de gerenciamento de projetos adotada atualmente por determinado órgão.\n\ndocumento formal e obrigatório elaborado pelo pré-projeto gerente de projeto e avaliado pelo patrocinador do\n\nprojeto\n\ndocumento formal e obrigatório elaborado pelo business case gerente de projeto para os casos relacionados à\n\ngerência de portfólios de projetos ou para os casos\n\nem que o escritório de projeto atue\n\ncolegiado responsável pela tomada de decisões comitê de projeto estratégicas; é formado pelo gerente de projeto,\n\npatrocinador, gerente da área, cliente do projeto e\n\ngestor de TI do órgão manifesto ágil refere-se às diretivas de desenvolvimento ágil de\n\nsoftware Foi solicitado a um analista de TI que avaliasse, em relação às boas práticas do PMBOK 5 e ao MPS.BR (2016), os critérios elencados pelo órgão e discutidos pelo comitê de TI. Tendo como referência essas informações, julgue os seguintes itens, a respeito de gerenciamento de projetos e qualidade de software .",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Text 5A5AAA 1 Computer networks, whether LANs, MANs, or\n\nWANs, are constructed based on a topology. There are several\n\ntopologies, such as tree, bus and ring, and the popular mesh 4 and star.\n\nA mesh topology allows multiple access links between\n\nnetwork elements, unlike other types of topologies. The 7 multiplicity of access links between network elements offers an\n\nadvantage in network reliability because whenever one network\n\nelement fails, the network does not cease operations; it simply 10 finds a bypass to the failed element and the network remains to\n\nfunction. Mesh topology is most often applied in MAN networks.\n\nAnother very popular topology, especially in LAN 13 network technologies, is a star topology. A star topology is\n\ncharacterized by a central prominent node that connects to\n\nevery other element in the network. So all elements in the 16 network are connected to a central element. Every network\n\nelement in a star topology is pairwise connected in a\n\npoint-to-point manner through the central element, and 19 communication between any pair of elements must go through\n\nthis central element. The central element or node can operate\n\neither in a broadcast fashion, in which case information from 22 one element is broadcast to all connected elements, or it can\n\ntransmit as a switching device in which the incoming data is\n\ntransmitted only to one element, the nearest element en route 25 to the destination. The biggest disadvantage to the star\n\ntopology in networks is that the failure of the central element\n\nresults in the failure of the entire network.",
+   "citacao": "Joseph M. Kizza. Network topology . In : Computer network security . Chattanooga: Springer, 2005, p. 15-7 (adapted).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "In the text 5A5AAA,",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CB1A1",
+   "conteudo": "Clarice Lispector. Amor . In : Laços de família . Rio de Janeiro: Rocco, 2009, p. 20-1. Com relação às ideias do texto CB1A1AAA, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CB3A1",
+   "conteudo": "Virginia Woolf. Um teto todo seu . Trad. de Vera Ribeiro. Rio de Janeiro: Nova Fronteira, 1985 (com adaptações). Com relação às ideias desenvolvidas no texto CB3A1AAA, julgue os itens subsequentes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CB3A1",
+   "conteudo": "Virginia Woolf. Um teto todo seu . Trad. de Vera Ribeiro. Rio de Janeiro: Nova Fronteira, 1985 (com adaptações).\n\nCom relação às ideias desenvolvidas no texto CB3A1AAA, julgue\n\nos itens subsequentes.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

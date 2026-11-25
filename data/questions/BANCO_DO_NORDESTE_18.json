@@ -287,7 +287,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A aplicação A possui mais de sessenta pontos de função brutos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-076",
@@ -298,7 +299,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A aplicação A possui mais pontos de função brutos do que a aplicação B.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-077",
@@ -331,7 +333,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O DB2 for z/OS 12.0.0 não suporta a criação de stored procedures; em razão da sua estrutura de camadas internas, somente é possível a atualização de dados direta, sem o uso de funções e(ou) procedimentos armazenados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-080",
@@ -793,7 +796,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Sem alteração dos sentidos e da correção do texto, a forma verbal “havia” (R.1) poderia ser substituída por ocorriam.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-002",
@@ -804,7 +808,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção do texto seria prejudicada caso o pronome “me”, empregado em “me mandaram para Buenos Aires” (R.3), fosse deslocado para imediatamente após a forma verbal “mandaram”, da seguinte forma: mandaram-me para Buenos",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-003",
@@ -815,7 +820,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As vírgulas que isolam a oração “que estava sentada na ponta da cama” (R. 11 e 12) foram empregadas para dar ênfase às ideias do texto, por isso sua supressão não interferiria nos sentidos originais do trecho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-004",
@@ -826,7 +832,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O texto é predominantemente narrativo, haja vista, entre outras características, o emprego de verbos no passado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-005",
@@ -837,7 +844,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Na linha 4, o acento indicativo de crase em “à meia-noite” poderia ser suprimido, sem comprometimento da correção gramatical do texto, uma vez que é facultativo o uso de artigo definido feminino antes de termos que indicam horário, como “meia-noite”. CESPE | CEBRASPE – BNB – Aplicação: 2018 1 Uma noite destas, vindo da cidade para o Engenho Novo, encontrei num trem da Central um rapaz aqui do bairro, que eu conheço de vista e de chapéu. Cumprimentou-me, 4 sentou-se ao pé de mim, falou da lua e dos ministros, e acabou recitando-me versos. A viagem era curta, e os versos pode ser que não fossem inteiramente maus. Sucedeu, porém, que, como 7 eu estava cansado, fechei os olhos três ou quatro vezes; tanto bastou para que ele interrompesse a leitura e metesse os versos no bolso.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-006",
@@ -859,7 +867,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que o narrador julgou ruins os versos de autoria do rapaz com quem se encontrou dentro do trem, razão por que o narrador demonstrou enfado quando o rapaz os recitou.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-008",
@@ -870,7 +879,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo dos sentidos e da correção gramatical do texto, o trecho “Contei a anedota aos amigos da cidade, e eles, por graça, chamam-me assim” (R. 18 e 19) poderia ser reescrito da seguinte forma: Contei a anedota aos amigos da cidade, que, por graça, me chamam assim.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-009",
@@ -881,7 +891,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A vírgula empregada na linha 15 indica a existência de uma relação de oposição entre as ideias dos trechos “No dia seguinte entrou a dizer de mim nomes feios” (R.14 e 15) e “e acabou alcunhando-me Dom Casmurro” (R.15 e 16).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-010",
@@ -903,7 +914,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No texto, Chico Bento relembra as dificuldades, principalmente aquelas desencadeadas pela fome, enfrentadas por ele durante o período em que peregrinou pelo sertão, em fuga da seca.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-012",
@@ -936,7 +948,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que Chico Bento, durante sua peregrinação pelo sertão, furtou animais, como, por exemplo, uma cabra, para saciar a fome de sua família.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-015",
@@ -947,7 +960,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Chico Bento afirma se considerar forte “que nem borracha” (R.42) para rebater o comentário de sua comadre, Conceição, que o tinha qualificado como um homem fraco.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-016",
@@ -969,7 +983,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo “porque” (R.35), no contexto em que foi empregado, poderia ser suprimido sem prejuízo da correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-018",
@@ -980,7 +995,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seriam preservados a correção gramatical e o sentido original do texto caso os travessões empregados no quarto parágrafo, para efeito de ênfase, fossem substituídos por parênteses ou por vírgulas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-019",
@@ -1013,7 +1029,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A “senhora” a que o narrador se refere na linha 4 é dona Rachel, a quem se destina a narrativa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-022",
@@ -1024,7 +1041,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os sentidos originais do texto seriam alterados caso o trecho “já que pior do que a seca é a solidão” (R. 7 e 8) fosse reescrito da seguinte maneira: já que a solidão é pior que a seca.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-023",
@@ -1035,7 +1053,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo para o sentido original e para a correção gramatical do texto, a forma verbal ‘grelasse’ (R.13) poderia ser substituída por germinasse.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-024",
@@ -1046,7 +1065,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Nos trechos ‘Não me deixes’ (R.25) e ‘seca encarrilhada’ (R.27), as aspas foram empregadas com a mesma finalidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-025",
@@ -1057,7 +1077,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo para o sentido original e para a correção gramatical do texto, o trecho “Essas são as gentes da Conceição e do Vicente — que não envergavam e permaneceram porque o sertão mesmo diz: ‘Não me deixes’” (R. 23 a 25) poderia ser reescrito da seguinte maneira: São essas as gentes da Conceição e do Vicente, os quais não envergaram e permaneceram, pois o sertão mesmo clamava: “Não me deixes”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-026",
@@ -1255,7 +1276,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os elementos da coluna da tabela-verdade correspondente à proposição Pv(QwR), de cima para baixo, na ordem em que aparecem, são V / V / V / V / F / V / F / F.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-044",
@@ -1266,7 +1288,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os elementos da coluna da tabela-verdade correspondente à proposição (P:Q)wR, de cima para baixo, na ordem em que aparecem, são V / V / V / F / V / F / V / V.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2018-bancodonordeste-qualificador-analista-045",
@@ -1343,7 +1366,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Não podemos descartar a operação humana por trás dos sistemas, muito menos a presença de analistas reais. Vamos supor que um sistema de aprendizagem de máquina perceba",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-002",
@@ -1354,7 +1378,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Para aprender, primeiramente, as máquinas recebem dados de compras — tanto as efetivamente realizadas pelo usuário/dono do cartão quanto outras consideradas ilegítimas —; depois, elas avaliam compras reais, levando em conta padrões detectados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-003",
@@ -1365,7 +1390,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "No primeiro parágrafo do texto, predomina o tipo textual narrativo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-004",
@@ -1376,7 +1402,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "que todas as pessoas com índice de massa corporal regular tomam café com açúcar, enquanto todas as pessoas com índice elevado tomam a bebida com adoçante. A inteligência artificial",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-006",
@@ -1387,7 +1414,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "A inserção de vírgula imediatamente após a palavra “diretamente” ( R .29) não comprometeria a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-007",
@@ -1398,7 +1426,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "poderá inferir, assim, que o adoçante é o responsável pela obesidade dos usuários, o que nós sabemos, pela nossa inteligência humana, que não é bem assim.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-008",
@@ -1409,7 +1438,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Na linha 30, a palavra ‘apenas’ foi empregada para dar ênfase ao sentido do verbo ‘detectar’, mas sua exclusão não alteraria os sentidos originais do período como um todo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-009",
@@ -1420,7 +1450,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase em ‘à máquina’ ( R .33) é facultativo; portanto, sua eliminação não prejudicaria a correção gramatical do trecho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-010",
@@ -1431,7 +1462,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "O sistema de aprendizagem de máquina diminui a ocorrência de falsos positivos e deve contribuir para cortes de gastos. Contudo, não podemos deixar de considerar uma pessoa",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-011",
@@ -1442,7 +1474,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência do texto seriam mantidas caso a expressão “nos Estados Unidos da América” ( R .10) fosse deslocada para imediatamente antes de “cientistas” ( R .9), da seguinte forma: (...) Internet, nos Estados Unidos da América, cientistas do Instituto de Tecnologia de Massachusetts desenvolveram (...).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-013",
@@ -1453,7 +1486,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "que esteja por trás do sistema, pronta para lidar com casos realmente duvidosos, que mereçam ser mais bem avaliados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-014",
@@ -1464,7 +1498,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "“Segundo um arquiteto (...) fraudes reais” ( R . 26 a 29): O modo como a máquina aprende os padrões antes de começar a analisar compras, segundo um arquiteto de software de uma empresa não participante do estudo, interfere diretamente no registro de falsos positivos e fraudes reais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-015",
@@ -1475,7 +1510,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "“‘Sendo assim, (...) do que o outro’, detalha” ( R . 31 a 34): É preciso aumentar ao máximo, o balanço de situações apresentadas para que um lado não pese mais que o outro, o arquiteto de software detalha.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-016",
@@ -1486,7 +1522,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, a inteligência artificial cometeria um equívoco se associasse o adoçante à causa da obesidade das pessoas com índice de massa corporal elevado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-017",
@@ -1497,7 +1534,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Considerando-se que, segundo o último parágrafo, o uso do sistema de aprendizagem de máquina deve “contribuir para cortes de gastos” ( R . 11 e 12), é correto inferir do texto que esses gastos são ocasionados pelos analistas na operação humana.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-018",
@@ -1508,7 +1546,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Os vocábulos “trás”, “é” e “nós” recebem acento gráfico em obediência à mesma regra de acentuação.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-019",
@@ -1519,7 +1558,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Tanto na linha 7 quanto na linha 9, o vocábulo “assim” confere sentido de conclusão às ideias do período em que é empregado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-020",
@@ -1530,7 +1570,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Nas linhas 5 e 6, a forma verbal “tomam”, em ambas as suas ocorrências, poderia ser substituída por tomem , sem prejuízo para a correção gramatical e para a coerência do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-021",
@@ -1541,7 +1582,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Seria correto isolar a expressão “nós sabemos” ( R .8) entre vírgulas, para dar maior destaque às ideias do trecho em que ela aparece.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-022",
@@ -1552,7 +1594,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e os sentidos do texto seriam mantidos caso o trecho “tomam a bebida com adoçante” ( R .6) fosse reescrito da seguinte maneira: o tomam com adoçante.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-023",
@@ -1563,7 +1606,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e dos sentidos originais do texto, o trecho “que mereçam ser mais bem avaliados” ( R .14) poderia ser reescrito da seguinte forma: e que mereçam ser melhores avaliados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-024",
@@ -1574,7 +1618,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "No período em que se insere, a palavra “regular” ( R .4) tem a função de especificar a frequência com que determinadas pessoas tomam café com açúcar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-025",
@@ -1585,7 +1630,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Na linha 12, o termo “Contudo” foi empregado com o mesmo sentido de Porquanto .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-026",
@@ -1596,7 +1642,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "No encontro entre os líderes citados no texto, o presidente sul-coreano manifestou o seu apoio à criação de uma usina de energia nuclear na Coreia do Norte.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-027",
@@ -1607,7 +1654,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "A diplomacia da Coreia do Norte tem posição de destaque no mundo, em razão de sua longa tradição de relações internacionais com a maioria dos países.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-028",
@@ -1618,7 +1666,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Encontro entre Donald Trump e Kim Jong-un, em 2018, gerou, pela primeira vez na história, um acordo de cooperação entre os Estados Unidos da América e a Coreia do Norte.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-029",
@@ -1629,7 +1678,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "A Coreia do Norte, oficialmente denominada República Popular Democrática da Coreia, possui um regime democrático que resulta de uma construção popular acontecida posteriormente à libertação da anexação japonesa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-030",
@@ -1640,7 +1690,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Atualmente, as democracias do planeta estão ameaçadas por países de regimes totalitários, que possuem o pleno domínio bélico da tecnologia nuclear.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-031",
@@ -1651,7 +1702,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Desde a segunda metade do século XX, o crescimento econômico da Coreia do Sul vem sendo impulsionado pela exportação de bens de consumo duráveis e pela formação educacional de trabalhadores qualificados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-032",
@@ -1838,7 +1890,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "No sistema operacional Linux, é possível utilizar duas extensões para nomear os arquivos. Assim, nesse sistema, um arquivo poderia ser nomeado, por exemplo, como contrato_BNB.tar.gz .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-049",
@@ -1849,7 +1902,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Quando se cria um diretório no ambiente Linux, são criados outros dois diretórios: o “.”, que faz referência ao diretório anterior, dentro da árvore de diretórios; e o “..”, que faz referência ao diretório atual.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-050",
@@ -1860,7 +1914,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Na utilização do terminal de qualquer sistema operacional Linux, como o Ubuntu, o aparecimento do caractere $ no prompt de comando significa que o usuário que esteja conectado é o superusuário root .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-051",
@@ -1871,7 +1926,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "O Word 2013 permite fazer referência cruzada de itens localizados em um mesmo documento e também de itens localizados em documentos separados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-052",
@@ -1882,7 +1938,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "O Word 2013, por padrão, cria quebras de texto automaticamente nas células das tabelas, mas é possível alterar essa configuração.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2018-bancodonordeste-analista-bancario-1-053",
@@ -2609,6 +2666,86 @@
    "tipo": "certo_errado",
    "enunciado": "Situação hipotética : Um cliente tomou R$ 60.000 de empréstimo em um banco. A quantia foi entregue no ato, sem prazo de carência, e deverá ser quitada pelo sistema de amortização constante (SAC) em 12 prestações mensais consecutivas e com a primeira prestação vencendo um mês após a tomada do empréstimo. A taxa de juros contratada foi de 2% ao mês. Assertiva : Nesse caso, o valor da sexta prestação será de R$ 5.700.",
    "gabarito": "certo"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "aplicação A B ALI (arquivos lógicos internos) 2 baixa 1 alta AIE (arquivos de interface externa) 3 alta 2 baixa CE (consultas externas) –3 média EE (entradas externas) 1 alta 6 baixa SE (saídas externas) 1 média Considerando a tabela precedente, em que baixa, média e alta são as complexidades das funções, julgue os próximos itens, relativos a análise de pontos de função (APF).",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "CREATE VIEW VwTeste WITH SCHEMABINDING AS SELECT campo1 FROM tabela WHERE campo1 > 17;",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CB1A3",
+   "conteudo": "Rachel de Queiroz. O quinze . Rio de Janeiro: José Olympio, 2012 (com adaptações). Com referência às ideias e aos sentidos do texto CB1A3-I, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Chico Buarque. Budapeste . São Paulo: Companhia das Letras, 2003 (com adaptações). Julgue os itens seguintes, relativos aos sentidos e a aspectos linguísticos do texto precedente.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Machado de Assis. Dom Casmurro . Internet: <www.dominiopublico.gov.br> (com adaptações).",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Internet: <https://especiais.opovo.com.br> (com adaptações). A respeito dos sentidos e dos aspectos linguísticos do texto",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A tabela a seguir mostra o início da construção de tabelas-verdade de proposições compostas a partir das proposições simples P, Q e R.\n\nP Q R\n\nV V V\n\nV V F\n\nV F V\n\nV F F\n\nF V V\n\nF V F\n\nF F V\n\nF F F Julgue os itens seguintes, considerando o correto preenchimento da tabela anterior, se necessário.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Cada um dos itens a seguir apresenta um trecho do texto 2A1-I — entre aspas —, seguido de uma proposta de reescrita desse trecho. Julgue-os quanto à correção gramatical das propostas de reescrita apresentadas.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Correio Braziliense , 1.º/10/2018, p. 14 (com adaptações). Acerca das ideias e de aspectos linguísticos do texto 2A1-I, julgue os itens seguintes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Julgue os próximos itens, relativos aos sentidos e a aspectos linguísticos do texto 2A1-I.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Correio Braziliense , 1.º/10/2018, p. 14 (com adaptações).",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Líderes coreanos encerram cúpula em ‘montanha sagrada’ na Coreia do Norte O presidente sul-coreano Moon Jae-in realizou, nesta quinta-feira, 20 de setembro, um desejo anunciado em abril deste ano quando encontrou Kim Jong-un pela primeira vez: visitar o Monte Paektu, vulcão considerado sagrado na Coreia do Norte. Os dois líderes reuniram-se no local no último dia da cúpula intercoreana realizada na mesma semana em Pyongyang.\n\nO Estado de S.Paulo , 20/9/2018 (com adaptações). Tendo o texto precedente como referência, julgue os itens a seguir, a respeito das relações internacionais e de possíveis desdobramentos contemporâneos que envolvam a Coreia do Sul e a Coreia do Norte.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Julgue os itens a seguir, a respeito do sistema operacional Linux e do editor de texto Word 2013.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

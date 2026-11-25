@@ -8898,7 +8898,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Na propagação das ondas de rádio, ocorrem, entre outras, perdas por multipercurso, conhecidas como desvanecimento lento.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-anatel-engenharia-053",
@@ -8909,7 +8910,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O microfone da estação é o transdutor de entrada do sistema.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-anatel-engenharia-054",
@@ -8920,7 +8922,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As ondas eletromagnéticas transmitidas pelo sistema têm comprimentos de onda inferiores aos das ondas em UHF (ultra-high frequency).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-anatel-engenharia-055",
@@ -8997,7 +9000,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A exposição da população em geral à radiação não ionizante, a 30 m da antena, na direção de maior emissão do sistema, está dentro dos limites determinados pela ANATEL.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-anatel-engenharia-064",
@@ -9008,7 +9012,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A técnica de beamforming, com a instalação de um conjunto de antenas, pode ser utilizada para produzir diagrama de radiação com lóbulos laterais e traseiro inferiores aos da antena em questão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-anatel-engenharia-065",
@@ -9019,7 +9024,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A antena tem largura de feixe de meia potência igual a 15° e relação frente-costas de 10 dB.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-anatel-engenharia-067",
@@ -10329,6 +10335,20 @@
    "tipo": "certo_errado",
    "enunciado": "As metas de desempenho administrativo e operacional do plano de gestão anual circunscrevem-se a ações para a promoção da qualidade dos serviços prestados pela agência reguladora e para o fomento à pesquisa no setor regulado, quando cabível.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "-- CONHECIMENTOS ESPECÍFICOS --",
+   "citacao": "Em um sistema de comunicação composto por uma estação de rádio FM ( frequency modulation ) e um equipamento de gravação digital, o locutor narra um texto escrito e o sinal eletromagnético da estação é propagado por meio de ondas de rádio até o sistema de recepção do sinal, onde o sinal é amostrado e gravado em um arquivo eletrônico.",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um sistema de comunicação, que opera em 100 MHz, utiliza uma antena cujos diagramas de radiação horizontal e vertical estão representados na figura a seguir. O módulo do campo elétrico radiado na saída da antena, na direção de maior emissão, é igual a 18 kV/m. Com relação à situação hipotética apresentada, julgue os itens seguintes, desprezando as perdas no ambiente de propagação e assumindo  = 3.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

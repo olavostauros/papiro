@@ -45,7 +45,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Defende-se, no texto, o emprego do termo “discriminação” com viés exclusivamente negativo, a fim de se evitar que se confundam as ações afirmativas com atos discriminatórios.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-002",
@@ -56,7 +57,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se da leitura do texto que existem situações em que é lícito tratar as pessoas de modo diferenciado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-003",
@@ -67,7 +69,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Embora o texto trate de discriminação em geral, observa-se que a organização de suas ideias progride no sentido de enfocar o tema em um contexto mais específico, o das relações trabalhistas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-005",
@@ -78,7 +81,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A coerência das ideias do texto e sua correção gramatical seriam mantidas caso se substituísse o trecho “por motivo não justificável” (primeiro período do segundo parágrafo) por injustificadamente .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-006",
@@ -89,7 +93,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Mantendo-se os sentidos do texto e sua correção gramatical, o trecho “Explica-se: a discriminação, por si só, não é necessariamente medida reprovável” (primeiro período do quinto parágrafo) poderia ser reescrito da seguinte forma: Explica-se que atos discriminatórios, por si só, não são necessariamente medidas reprováveis .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-007",
@@ -100,7 +105,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical, a coesão e a coerência das ideias do texto seriam mantidas caso o sinal de dois-pontos empregado após “discriminação” (primeiro período do último parágrafo) fosse substituído por uma vírgula.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-008",
@@ -111,7 +117,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em “a que os sujeitos podem estar obrigados pelo direito” (segundo período do quinto parágrafo), o emprego da preposição “a” justifica-se pela regência do termo “obrigados”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-009",
@@ -320,7 +327,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor do coeficiente de variação (ou coeficiente de variação de Pearson) é inferior a 7%, o que indica uma dispersão baixa dos dados dessa sequência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-029",
@@ -331,7 +339,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A moda dessa sequência de dados é 10% superior à sua média.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-030",
@@ -342,7 +351,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O desvio padrão é inferior a 0,11, o que indica uma variação baixa dos dados em relação à média.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-031",
@@ -353,7 +363,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A mediana dessa sequência de dados é inferior à sua média.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-032",
@@ -540,7 +551,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O tempo de guarda de qualquer documento no arquivo corrente é definido por legislação específica.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-109",
@@ -551,7 +563,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A classificação estrutural é a mais adequada para a elaboração de planos de classificação de organizações institucionalmente instáveis.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-110",
@@ -562,7 +575,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os princípios de classificação comumente utilizados na elaboração do plano de classificação são função, atividade e tarefa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-111",
@@ -573,7 +587,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A indicação da destinação final de um documento para a guarda permanente em uma tabela de temporalidade pode ser realizada sem que seja necessário passar o documento pelo arquivo intermediário.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-112",
@@ -584,7 +599,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A menor unidade de classificação na estrutura de um plano ou código de classificação corresponde ao item documental.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-arquivologia-113",
@@ -1090,7 +1106,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Defende-se, no texto, o emprego do termo “discriminação” com viés exclusivamente negativo, a fim de se evitar que se confundam as ações afirmativas com atos discriminatórios.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-002",
@@ -1101,7 +1118,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se da leitura do texto que existem situações em que é lícito tratar as pessoas de modo diferenciado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-003",
@@ -1112,7 +1130,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Embora o texto trate de discriminação em geral, observa-se que a organização de suas ideias progride no sentido de enfocar o tema em um contexto mais específico, o das relações trabalhistas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-005",
@@ -1123,7 +1142,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A coerência das ideias do texto e sua correção gramatical seriam mantidas caso se substituísse o trecho “por motivo não justificável” (primeiro período do segundo parágrafo) por injustificadamente .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-006",
@@ -1134,7 +1154,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Mantendo-se os sentidos do texto e sua correção gramatical, o trecho “Explica-se: a discriminação, por si só, não é necessariamente medida reprovável” (primeiro período do quinto parágrafo) poderia ser reescrito da seguinte forma: Explica-se que atos discriminatórios, por si só, não são necessariamente medidas reprováveis .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-007",
@@ -1145,7 +1166,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical, a coesão e a coerência das ideias do texto seriam mantidas caso o sinal de dois-pontos empregado após “discriminação” (primeiro período do último parágrafo) fosse substituído por uma vírgula.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-008",
@@ -1156,7 +1178,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em “a que os sujeitos podem estar obrigados pelo direito” (segundo período do quinto parágrafo), o emprego da preposição “a” justifica-se pela regência do termo “obrigados”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-009",
@@ -1365,7 +1388,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor do coeficiente de variação (ou coeficiente de variação de Pearson) é inferior a 7%, o que indica uma dispersão baixa dos dados dessa sequência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-029",
@@ -1376,7 +1400,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A moda dessa sequência de dados é 10% superior à sua média.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-030",
@@ -1387,7 +1412,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O desvio padrão é inferior a 0,11, o que indica uma variação baixa dos dados em relação à média.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-031",
@@ -1398,7 +1424,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A mediana dessa sequência de dados é inferior à sua média.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-psicologia-032",
@@ -2102,7 +2129,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Defende-se, no texto, o emprego do termo “discriminação” com viés exclusivamente negativo, a fim de se evitar que se confundam as ações afirmativas com atos discriminatórios.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-002",
@@ -2113,7 +2141,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se da leitura do texto que existem situações em que é lícito tratar as pessoas de modo diferenciado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-003",
@@ -2124,7 +2153,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Embora o texto trate de discriminação em geral, observa-se que a organização de suas ideias progride no sentido de enfocar o tema em um contexto mais específico, o das relações trabalhistas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-005",
@@ -2135,7 +2165,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A coerência das ideias do texto e sua correção gramatical seriam mantidas caso se substituísse o trecho “por motivo não justificável” (primeiro período do segundo parágrafo) por injustificadamente .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-006",
@@ -2146,7 +2177,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Mantendo-se os sentidos do texto e sua correção gramatical, o trecho “Explica-se: a discriminação, por si só, não é necessariamente medida reprovável” (primeiro período do quinto parágrafo) poderia ser reescrito da seguinte forma: Explica-se que atos discriminatórios, por si só, não são necessariamente medidas reprováveis .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-007",
@@ -2157,7 +2189,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical, a coesão e a coerência das ideias do texto seriam mantidas caso o sinal de dois-pontos empregado após “discriminação” (primeiro período do último parágrafo) fosse substituído por uma vírgula.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-008",
@@ -2168,7 +2201,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em “a que os sujeitos podem estar obrigados pelo direito” (segundo período do quinto parágrafo), o emprego da preposição “a” justifica-se pela regência do termo “obrigados”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-009",
@@ -2377,7 +2411,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor do coeficiente de variação (ou coeficiente de variação de Pearson) é inferior a 7%, o que indica uma dispersão baixa dos dados dessa sequência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-029",
@@ -2388,7 +2423,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A moda dessa sequência de dados é 10% superior à sua média.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-030",
@@ -2399,7 +2435,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O desvio padrão é inferior a 0,11, o que indica uma variação baixa dos dados em relação à média.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-031",
@@ -2410,7 +2447,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A mediana dessa sequência de dados é inferior à sua média.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-032",
@@ -2465,7 +2503,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It can be concluded from the text that, for Michel Foucault, the panopticon is a powerful illustration of the symmetrical relations that take part in organized societies.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-037",
@@ -2476,7 +2515,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Although conveying different notions and images, the word adopted could replace the word “commandeered” (fourth sentence of the first paragraph) without contradicting the main idea of the sentence in which it is used in the text.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-038",
@@ -2487,7 +2527,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The text informs that the prisoners of a panopticon know they are under surveillance, but they do not know the exact moments they are being watched.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-039",
@@ -2498,7 +2539,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "According to the researcher Jake Goldenfein, the fact that nowadays people know they are being watched by cameras is the aspect that lessens the panopticon effectiveness as a metaphor for contemporary surveillance.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-040",
@@ -2509,7 +2551,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "According to the text, Jeremy Bentham prominently protested against the dissociation of religion from state institutions.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-041",
@@ -2520,7 +2563,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The words “forestall” and “facilitate” (third sentence of the text) work as antonyms and are being used to convey opposite reactions.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-042",
@@ -2531,7 +2575,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Is it correct to infer from the text’s information that in strategic games both parties must be large players since the beginning of the interaction.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-043",
@@ -2542,7 +2587,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The sentence “For the interaction to become a strategic game, however, we need the participants’ mutual awareness of this cross-effect.” can be correctly rephrased as However, participants must be reciprocally aware of this cross-effect for the interaction to develop into a strategic game.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-044",
@@ -2553,7 +2599,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The text presents a field of study, called strategic games, that uses concepts derived from business and politics to analyze social interactions.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-045",
@@ -2564,7 +2611,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "In the first sentence of the text, the phrase “what one does must affect the outcome for the other” functions as an explanation of the previous expression “cross-effect”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-046",
@@ -2575,7 +2623,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The words “stretch” (last sentence of the text) and “stretchy” (second sentence of the last paragraph), although similar, convey different meanings: “stretchy” refers to a concrete sensation, whereas “stretch” is used in a metaphorical abstract way.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-047",
@@ -2586,7 +2635,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "According to the text, Nobell Foods works to implement a more efficient supply chain for the production of dairy cheese.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-048",
@@ -2597,7 +2647,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Magi Richani affirms that the motivation to seek the production of plant-based cheese is twofold.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-049",
@@ -2608,7 +2659,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “offspring”, in the first sentence of the last paragraph, can be replaced with calf without harming the coherence and the correctness of the text.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2024-tc-df-auditor-ti-050",
@@ -3796,7 +3848,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A primeira forma normal (1NF) sugere que informações repetitivas, como endereços de clientes, sejam armazenadas em uma tabela separada, para evitar redundâncias e garantir a integridade dos dados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2024-tcdf-arquivologia-036",
@@ -4456,7 +4509,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso em apreço, caso a paciente necessite de documento para justificar sua falta ao trabalho devido ao comparecimento à UBS, o psicólogo deverá emitir uma declaração, da qual devem constar as seguintes informações: nome completo da paciente, horário do atendimento, tempo de atendimento e registro de sintomas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2024-tcdf-psicologia-097",
@@ -4467,7 +4521,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O psicodiagnóstico é um processo contínuo que envolve a avaliação detalhada do funcionamento psicológico do indivíduo, utilizando-se entrevistas, observações e testes psicológicos para a compreensão das queixas apresentadas e orientação sobre o tratamento.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2024-tcdf-psicologia-098",
@@ -4478,7 +4533,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O uso de um teste de rastreio cognitivo, como o miniexame do estado mental (MEEM), pode auxiliar a detectar na paciente possíveis sinais de demência, sendo necessária uma requisição médica para a realização do teste, visto que sua aplicação é vedada a psicólogos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2024-tcdf-psicologia-099",
@@ -4489,7 +4545,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A psicopatologia do caso apresentado sugere que a paciente pode apresentar sintomas compatíveis com quadro depressivo ou transtorno neurocognitivo, o que torna necessária uma avaliação cuidadosa para se distinguirem as possíveis causas desses sintomas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2024-tcdf-psicologia-100",
@@ -4797,7 +4854,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A avaliação da funcionalidade global deve ser levada em consideração no caso de Margarida.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-tcdf-psicologia-130",
@@ -4808,7 +4866,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O miniexame do estado mental (MEEM) é um instrumento padronizado que poderá ser aplicado na avaliação de Margarida.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-tcdf-psicologia-131",
@@ -4819,7 +4878,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A investigação complementar é indispensável para o diagnóstico diferencial e a identificação etiológica em quadros demenciais como o apresentado por Margarida.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-tcdf-psicologia-132",
@@ -4830,7 +4890,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na doença de Alzheimer, os sintomas cognitivos tendem a preceder os sintomas depressivos, tal qual se observa no caso de Margarida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-tcdf-psicologia-133",
@@ -4841,7 +4902,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Além da agressividade, ainda podem surgir no quadro de Margarida sintomas como apatia, ansiedade, irritabilidade e distúrbios do sono.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-tcdf-psicologia-134",
@@ -4852,7 +4914,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O prejuízo visuoespacial apresentado por Margarida é critério clínico essencial para fins diagnósticos em quadros demenciais, conforme o Manual Diagnóstico e Estatístico de Transtornos Mentais (DSM-5 TR).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-tcdf-psicologia-135",
@@ -4863,7 +4926,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A apresentação característica amnéstica pode ser sugestiva de síndrome de transtorno neurocognitivo, de acordo com o Manual Diagnóstico e Estatístico de Transtornos Mentais (DSM-5 TR).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-tcdf-psicologia-136",
@@ -4874,7 +4938,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A anosognosia apresentada por Margarida é um sinal importante a ser considerado diante de um possível quadro demencial, de acordo com o Manual Diagnóstico e Estatístico de Transtornos Mentais (DSM-5 TR).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-tcdf-psicologia-137",
@@ -4885,7 +4950,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Eventual avaliação cognitiva de Margarida consistirá em uma avaliação neuropsicológica a ser realizada por médico em conjunto com psicólogo, a fim de que sejam identificados os domínios prejudicados e proposta, multidisciplinarmente, a devida intervenção.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-tcdf-psicologia-138",
@@ -4896,7 +4962,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Testes cognitivos de rastreio são recomendados no caso de Margarida, apesar de não permitirem uma avaliação global de sua cognição.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-tcdf-psicologia-139",
@@ -5139,6 +5206,62 @@
    "tipo": "certo_errado",
    "enunciado": "As práticas gerenciais de gestão por estresse visam essencialmente ao bem-estar dos trabalhadores e ao aumento do seu envolvimento no trabalho.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "conhecimentos de informática que seja explicitamente informado o contrário, considere que todos os programas mencionados estão em configuração-padrão e que não há restrições de proteção, de funcionamento e de uso em relação aos programas, arquivos, diretórios, recursos e equipamentos mencionados. • Eventuais espaços livres — identificados ou não pela expressão “ poderão ser utilizados para rascunho.\n\n-- PROVAS OBJETIVAS --\n\n-- CONHECIMENTOS BÁSICOS --",
+   "citacao": "O conceito de discriminação usualmente leva à sensação de medida negativa, que causa prejuízo a alguém. Trata-se, efetivamente, do conceito de discriminação sob o aspecto prejudicial, ou, do ponto de vista jurídico, ilícito, do instituto. Em breve síntese, a discriminação consiste em tratar de maneira diferente determinada pessoa por motivo não justificável. A discriminação vedada é aquela que, como regra, encontra proibição legal e causa prejuízo à pessoa discriminada. O caput do artigo 5.º da Constituição Federal de 1988 dispõe que “Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à igualdade, à segurança e à propriedade”. Esse dispositivo revela a importância do status da igualdade entre as pessoas e, consequentemente, entre os trabalhadores. Evidentemente, conduta em sentido contrário constitui ilícito, excepcionadas as hipóteses de ações afirmativas. Explica-se: a discriminação, por si só, não é necessariamente medida reprovável. Pode constituir, inclusive, ação afirmativa a que os sujeitos podem estar obrigados pelo direito. Exemplo disso é a discriminação em favor das pessoas com deficiência, ao se estabelecer cota mínima a ser preenchida por elas. No âmbito das relações de trabalho, algumas situações são mais comuns no que se refere à discriminação: discriminação pelo sexo, pela idade, pela etnia, pela orientação sexual. Nesse contexto, a conduta discriminatória que não pode ser admitida é aquela que trata de maneira distinta os trabalhadores, sem qualquer justificativa ou causa lícita para tanto, preterindo determinada classe de pessoas por motivos totalmente injustificáveis e que não guardam qualquer relação com o tipo de trabalho desenvolvido. Internet: <https://enciclopediajuridica.pucsp.br> (com adaptações).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "de fecundidade. Em 2000, no país, essa taxa era de 2,32 filhos por mulher, tendo, em 2023, atingido seu menor valor, 1,57 filho por mulher. No gráfico a seguir, elaborado a partir de dados divulgados pelo Instituto Brasileiro de Geografia e Estatística (IBGE), pode-se observar a variação da taxa de fecundidade no Brasil ao longo dos anos (estimativa do número de filhos nascidos vivos por mulher, ao final de seu período reprodutivo). Com base nessas informações, e considerando que a média da sequência de dados no gráfico seja igual a µ = 1,8 e que sua",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Em relação aos instrumentos de gestão de documentos (plano de classificação e tabela de temporalidade), julgue os itens seguintes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "-- CONHECIMENTOS ESPECÍFICOS --",
+   "citacao": "The philosopher Jeremy Bentham was regarded as the founder of utilitarianism and a leading advocate of the separation of church and state, freedom of expression, and individual legal rights. Furthermore, the “panopticon” is a type of institutional building that has long dominated Bentham’s legacy. As a work of architecture, the panopticon allows a watchman in a central tower to observe occupants of surrounding cells without the occupants knowing whether or not they are being watched. As a metaphor, the panopticon was commandeered in the latter half of the 20 th century as a way to trace the surveillance tendencies of disciplinarian societies. Is it still a useful way to think about surveillance today? The French philosopher Michel Foucault used the idea of the panopticon as a way to illustrate the proclivity of disciplinary societies to subjugate its citizens. He describes the prisoner of a panopticon as being at the receiving end of asymmetrical surveillance: “He is seen, but he does not see.” As a consequence, the inmate polices himself for fear of punishment. The parallels between the panopticon and surveillance cameras may be obvious, but what happens when you step into the world of digital surveillance and data capture? Unlike the panopticon, citizens don’t know they are being watched. Jake Goldenfein, from the University of Melbourne, tells me it’s important to remember the corrective purposes of Bentham’s panopticon when considering it as a metaphor for modern surveillance. “The relevance of the panopticon as a metaphor begins to wither when we start thinking about whether contemporary types of visuality are analogous to the central tower concept. For example, whether this type of visuality is as asymmetrical, and being co-opted for the same political exercise.” In the panopticon the occupants are constantly aware of the threat of being watched — this is the whole point — but state surveillance on the Internet is invisible; there is no looming tower, no dead-eye lens staring at you every time you enter a URL. There may not be a central tower, but there will be communicating sensors in our most intimate objects. Internet: <theguardian.com> (adapted).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "how to act in dealings with other people (or teams or firms or governments), there must be some cross-effect of their actions; what one does must affect the outcome for the other. For the interaction to become a strategic game, however, we need the participants’ mutual awareness of this cross-effect. What the other person does affects you; if you know this, you can react to his actions, or take advance actions to forestall the bad effects his future actions may have on you and to facilitate any good effects, or even take advance actions so as to alter his future reactions to your advantage. If you know that the other person knows that what you do affects him, you know that he will be taking similar actions. And so on. It is this mutual awareness of the cross-effects of actions and the actions taken as a result of this awareness that constitute the most interesting aspects of strategy.\n\nWhen each participant is significant in the interaction, either because each is a large player to start with or because commitments or private information narrow the scope of the relationship to a point where each is an important player within the relationship, we must think of the interaction as a strategic game. Such situations are the rule rather than the exception in business, in politics, and even in social interactions. Therefore, the study of strategic games forms an important part of all fields that analyze these matters.",
+   "citacao": "Avinash Dixit et al . Games of strategy . New York: W.W. Norton & Coadapted, 2015 (adapted).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Nobell Foods, a startup company developing a new kind of cheese made from soybeans. She says plant-based cheese not only accommodates people who can’t consume dairy, but it also could be key to more sustainable food production worldwide. “The reality is that when you raise an animal for food, it’s not just the animals, you are actually growing crops, you are clearing land, and you’re raising the animal for years so it builds biomass,” Richani explained. “It’s an extremely inefficient supply chain.”\n\nNobell is particularly focused on creating plant-based casein, which is a protein produced when a cow gives birth and is present in the milk for its offspring. It is the ingredient that gives dairy cheese its unique stretchy texture. If Nobell is able to go to market and have the kind of impact it’s hoping to, then plant-based cheese could help us stretch toward a more sustainable future.\n\nInternet: <newsweek.com> (adapted). Based on the ideas presented in the previous text as well as its",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "cria uma conta de usuário anônima, ou seja, uma conta sem nome no sistema a partir de um host e existir uma conta anônima com uma\n\nlog-in como a conta anônima, se não houver nenhuma\n\ne column3 da tabela table1 no esquema schema1 , com\n\nclassificado em ordem crescente.\n\ncria um índice clusterizado chamado\n\ncolumn1 , column2 e column3 , e a ordem de classificação para\n\njoins entre tabelas, o que diminui o tempo de consultas; no\n\njoins\n\nsnowflake utiliza a normalização dos dados,\n\nstar\n\nSELECT em subtabelas atuais também àquelas que serão criadas no futuro. O uso do termo “automático” indica que não é necessário conceder permissões adicionais manualmente.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "-- CONHECIMENTOS ESPECIALIZADOS --",
+   "citacao": "Uma idosa de 66 anos de idade recebeu atendimento psicológico em unidade básica de saúde (UBS), durante o qual relatou falhas de memória, desorientação em algumas situações e perda de interesse por atividades que antes lhe eram prazerosas. Referiu aumento da sensação de cansaço e falta de motivação, além de dificuldades em lembrar compromissos e informações recentes, o que lhe causava constrangimentos em seu ambiente de trabalho. Ao realizar a avaliação inicial, o psicólogo considerou a necessidade de um psicodiagnóstico para o entendimento da extensão e da natureza dos sintomas e para a identificação de outros fatores que poderiam estar contribuindo para o quadro clínico da paciente. A partir do caso clínico hipotético apresentado, julgue os seguintes itens.",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Margarida, de 72 anos de idade, foi levada por sua filha, Ângela, ao pronto-socorro, por apresentar quadro de desorientação temporal e espacial, anosognosia, agressividade e recusa alimentar. Segundo Ângela, há alguns meses sua mãe vem apresentando prejuízos de memória e de aprendizagem; inicialmente, associou o declínio de Margarida à perda de uma amiga muito próxima e até levou a mãe à consulta com geriatra, que solicitou alguns exames laboratoriais complementares à avaliação clínica. Nesse contexto, Margarida iniciou medicação para o tratamento de possível quadro depressivo. Tendo percebido a fraqueza da mãe devido à recusa alimentar e sua piora progressiva em pouco tempo, Ângela resolveu levá-la ao pronto-socorro, onde Margarida está internada há dois dias, para melhor investigação do quadro. Considerando esse caso clínico hipotético, julgue os itens a seguir, referentes ao processo de envelhecimento, a doenças crônicas e degenerativas e à saúde mental na terceira idade.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

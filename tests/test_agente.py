@@ -640,6 +640,51 @@ def test_explicar_texto_com_trecho_citado_nao_dispara_ausente(tmp_path, monkeypa
     assert called is True
 
 
+def test_explicar_com_texto_nao_corta_e_injeta_conteudo(tmp_path, monkeypatch):
+    """Texto-base no recorte: sem curto-circuito, conteúdo+fonte no prompt."""
+    recs = RECS + [
+        _rec(
+            "cebraspe-2026-agepar-txt-001",
+            tipo="multipla_escolha",
+            enunciado="Com base nas ideias expressas no texto CG1A1, é correto afirmar que",
+            alternativas=["A", "B", "C", "D correta", "E"],
+            gabarito="d",
+            fonte="https://cdn.cebraspe.org.br/concursos/AGEPAR_26/prova.pdf",
+            texto={
+                "ref": "CG1A1",
+                "conteudo": "A corrida pela exploração dos minerais críticos acentua conflitos.",
+                "citacao": "Christina Queiroz. Revista Pesquisa FAPESP, 2024.",
+                "imagem": False,
+            },
+        )
+    ]
+    url = f"sqlite:///{tmp_path / 'texto_presente.db'}"
+    eng = db.get_engine(url)
+    db.create_schema(eng)
+    db.sync_records(recs, eng)
+    from api.main import create_app
+
+    cli = TestClient(create_app(url))
+    seen: list[dict[str, Any]] = []
+
+    async def fake_post(u, headers, payload, timeout):
+        seen.append(payload)
+        return _gemini_ok_response(_sample_llm_json())
+
+    monkeypatch.setattr(agente, "_post_interaction", fake_post)
+    r = cli.post("/agente/explicar",
+                 json={"questao_id": "cebraspe-2026-agepar-txt-001"})
+    assert r.status_code == 200
+    assert r.json()["texto_base_ausente"] is False
+    prompt_in = seen[0]["input"]
+    assert "Texto-base (CG1A1)" in prompt_in
+    assert "minerais críticos" in prompt_in
+    assert "Fonte do texto: Christina Queiroz" in prompt_in
+    det = cli.get("/questoes/cebraspe-2026-agepar-txt-001")
+    assert det.status_code == 200
+    assert det.json()["texto"]["ref"] == "CG1A1"
+
+
 def test_explicar_mc_envia_todas_alternativas_no_prompt(client, monkeypatch):
     seen: list[dict[str, Any]] = []
 

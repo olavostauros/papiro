@@ -81,7 +81,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que, em relação às mudanças climáticas, ainda não se pode definir ao certo quais cenários realmente devem ser esperados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-002",
@@ -92,7 +93,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, as espécies serão atingidas de maneira uniforme pelo aquecimento global.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-003",
@@ -103,7 +105,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do segundo parágrafo, há elipse da forma verbal funciona logo após “mas”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-004",
@@ -114,7 +117,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sentido original do texto e a sua correção gramatical seriam mantidos caso o vocábulo “inexoravelmente”, no último período do segundo parágrafo, fosse substituído por definitivamente .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-005",
@@ -125,7 +129,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência do texto seriam preservadas caso fosse suprimida a vírgula empregada logo após o vocábulo “como”, no segundo período do último parágrafo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-006",
@@ -136,7 +141,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo “demasiado” pertence à mesma classe de palavras em ambas as suas ocorrências no primeiro e no último período do último parágrafo. Espaço livre ” — que constarem deste caderno de provas",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-007",
@@ -147,7 +153,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No período “Também na região mais seca do Nordeste e nos estados de Minas Gerais e São Paulo, era utilizada em culturas de cana-de-açúcar, batatinha, pomares e hortas.”, no segundo parágrafo, a expressão a irrigação poderia ser inserida antes da locução “era utilizada” — a irrigação era utilizada — sem prejuízo dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-008",
@@ -158,7 +165,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no trecho “de caráter suplementar às chuvas”, no terceiro parágrafo, é facultativo; portanto, a supressão desse sinal não prejudicaria a correção gramatical do trecho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-009",
@@ -169,7 +177,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e dos sentidos originais do texto, o vocábulo “onde”, no segundo período do primeiro parágrafo, poderia ser substituído pela expressão uma vez que .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-010",
@@ -180,7 +189,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período segundo parágrafo, o trecho “embora haja” poderia ser substituída por apesar de existir sem prejuízo da correção gramatical e dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-011",
@@ -191,7 +201,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No sétimo parágrafo, o termo “Ali” (no início do segundo período) refere-se à expressão \"região Nordeste\" e funciona como elemento de coesão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-012",
@@ -202,7 +213,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último parágrafo do texto, o pronome “ela”, em “Aliada a ela”, refere-se à expressão “produtividade agrícola”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-013",
@@ -213,7 +225,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, a irrigação constitui uma das mais importantes tecnologias para o aumento da produtividade agrícola, especialmente no cultivo de culturas perenes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-014",
@@ -224,7 +237,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que a escassez de chuvas na região central do Brasil não permite a prática de culturas anuais sem o uso de tecnologias de irrigação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-015",
@@ -235,7 +249,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical do texto e da informação nele veiculada, o sexto parágrafo poderia ser reescrito da seguinte forma: A garantia de colheita, apesar da incerteza das chuvas, consiste na vantagem e na principal justificativa econômica da irrigação suplementar.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-016",
@@ -246,7 +261,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ideia principal do texto é defender a técnica de irrigação na região Nordeste do Brasil, já que se trata de uma área semiárida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-017",
@@ -257,7 +273,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto do documento oficial, padrão ofício, deve seguir a seguinte padronização de estrutura: introdução, desenvolvimento e conclusão, sendo facultativo o desenvolvimento nos casos em que há apenas encaminhamento de documentos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-018",
@@ -510,7 +527,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O navegador Google Chrome dispõe de recursos para traduzir textos de uma página web acessada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-042",
@@ -1225,7 +1243,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor das receitas correntes é de R$ 17.000.000.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-111",
@@ -1236,7 +1255,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor das despesas de capital é de R$ 4.500.000.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-112",
@@ -1247,7 +1267,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor das despesas correntes é de R$ 13.000.000.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-113",
@@ -1291,7 +1312,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O referido ente público apurou os restos a pagar processados do ano 20X0 no valor de R$ 10.000.000.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-117",
@@ -1302,7 +1324,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O ente público apurou as despesas de exercícios anteriores no valor de R$ 20.000.000.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-118",
@@ -1313,7 +1336,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O referido ente público apurou o valor de excesso de arrecadação de R$ 5.000.000.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-administracao-119",
@@ -1324,7 +1348,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O ente público apurou de superávit orçamentário de R$ 10.000.000.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-001",
@@ -1335,7 +1360,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que, em relação às mudanças climáticas, ainda não se pode definir ao certo quais cenários realmente devem ser esperados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-002",
@@ -1346,7 +1372,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, as espécies serão atingidas de maneira uniforme pelo aquecimento global.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-003",
@@ -1357,7 +1384,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do segundo parágrafo, há elipse da forma verbal funciona logo após “mas”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-004",
@@ -1368,7 +1396,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sentido original do texto e a sua correção gramatical seriam mantidos caso o vocábulo “inexoravelmente”, no último período do segundo parágrafo, fosse substituído por definitivamente .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-005",
@@ -1379,7 +1408,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência do texto seriam preservadas caso fosse suprimida a vírgula empregada logo após o vocábulo “como”, no segundo período do último parágrafo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-006",
@@ -1390,7 +1420,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo “demasiado” pertence à mesma classe de palavras em ambas as suas ocorrências no primeiro e no último período do último parágrafo. Espaço livre ” — que constarem deste caderno de provas",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-007",
@@ -1401,7 +1432,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No período “Também na região mais seca do Nordeste e nos estados de Minas Gerais e São Paulo, era utilizada em culturas de cana-de-açúcar, batatinha, pomares e hortas.”, no segundo parágrafo, a expressão a irrigação poderia ser inserida antes da locução “era utilizada” — a irrigação era utilizada — sem prejuízo dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-008",
@@ -1412,7 +1444,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no trecho “de caráter suplementar às chuvas”, no terceiro parágrafo, é facultativo; portanto, a supressão desse sinal não prejudicaria a correção gramatical do trecho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-009",
@@ -1423,7 +1456,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e dos sentidos originais do texto, o vocábulo “onde”, no segundo período do primeiro parágrafo, poderia ser substituído pela expressão uma vez que .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-010",
@@ -1434,7 +1468,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período segundo parágrafo, o trecho “embora haja” poderia ser substituída por apesar de existir sem prejuízo da correção gramatical e dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-011",
@@ -1445,7 +1480,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No sétimo parágrafo, o termo “Ali” (no início do segundo período) refere-se à expressão \"região Nordeste\" e funciona como elemento de coesão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-012",
@@ -1456,7 +1492,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último parágrafo do texto, o pronome “ela”, em “Aliada a ela”, refere-se à expressão “produtividade agrícola”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-013",
@@ -1467,7 +1504,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, a irrigação constitui uma das mais importantes tecnologias para o aumento da produtividade agrícola, especialmente no cultivo de culturas perenes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-014",
@@ -1478,7 +1516,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que a escassez de chuvas na região central do Brasil não permite a prática de culturas anuais sem o uso de tecnologias de irrigação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-015",
@@ -1489,7 +1528,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical do texto e da informação nele veiculada, o sexto parágrafo poderia ser reescrito da seguinte forma: A garantia de colheita, apesar da incerteza das chuvas, consiste na vantagem e na principal justificativa econômica da irrigação suplementar.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-016",
@@ -1500,7 +1540,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ideia principal do texto é defender a técnica de irrigação na região Nordeste do Brasil, já que se trata de uma área semiárida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-017",
@@ -2138,7 +2179,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As fotos foram obtidas em uma escala de 1:300.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-077",
@@ -2149,7 +2191,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor de SL é maior que 65%.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-078",
@@ -2160,7 +2203,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A altitude do ponto N é de 150 metros.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-079",
@@ -2171,7 +2215,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A declividade entre os pontos M e N é menor que a declividade entre os pontos N e O.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-080",
@@ -2281,7 +2326,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As áreas cobertas com MG irão apresentar tonalidades de cinza escuro na imagem adquirida pelo satélite Landsat 8 e tonalidades de cinza claro na imagem adquirida pelo satélite ALOS-2.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-092",
@@ -2292,7 +2338,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em relação à SE1, SE2 irá apresentar tonalidades de cinza mais escuro nas duas imagens.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-093",
@@ -2303,7 +2350,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O efeito da presença de vento superficial na área AG2 tende a ser mais intenso na imagem do satélite Landsat 8 do que na imagem do satélite ALOS-2.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-094",
@@ -2314,7 +2362,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No exemplo (I), a operação de proximidade é denominada buffer .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-095",
@@ -2325,7 +2374,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No exemplo (II), a operação de sobreposição é denominada intersect .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-096",
@@ -2336,7 +2386,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No exemplo (III), a operação de sobreposição é denominada union .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-097",
@@ -2501,7 +2552,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na figura A, CoVar( x , y ) = 0.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-114",
@@ -2512,7 +2564,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na figura B, Var( x ) < Var( y ).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-115",
@@ -2523,7 +2576,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na figura C, CoVar( x , y ) = 0 e Var( x ) = Var( y ).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-cartografia-116",
@@ -2567,7 +2621,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que, em relação às mudanças climáticas, ainda não se pode definir ao certo quais cenários realmente devem ser esperados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-002",
@@ -2578,7 +2633,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, as espécies serão atingidas de maneira uniforme pelo aquecimento global.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-003",
@@ -2589,7 +2645,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do segundo parágrafo, há elipse da forma verbal funciona logo após “mas”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-004",
@@ -2600,7 +2657,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sentido original do texto e a sua correção gramatical seriam mantidos caso o vocábulo “inexoravelmente”, no último período do segundo parágrafo, fosse substituído por definitivamente .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-005",
@@ -2611,7 +2669,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência do texto seriam preservadas caso fosse suprimida a vírgula empregada logo após o vocábulo “como”, no segundo período do último parágrafo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-006",
@@ -2622,7 +2681,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo “demasiado” pertence à mesma classe de palavras em ambas as suas ocorrências no primeiro e no último período do último parágrafo. Espaço livre ” — que constarem deste caderno de provas",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-007",
@@ -2633,7 +2693,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No período “Também na região mais seca do Nordeste e nos estados de Minas Gerais e São Paulo, era utilizada em culturas de cana-de-açúcar, batatinha, pomares e hortas.”, no segundo parágrafo, a expressão a irrigação poderia ser inserida antes da locução “era utilizada” — a irrigação era utilizada — sem prejuízo dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-008",
@@ -2644,7 +2705,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no trecho “de caráter suplementar às chuvas”, no terceiro parágrafo, é facultativo; portanto, a supressão desse sinal não prejudicaria a correção gramatical do trecho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-009",
@@ -2655,7 +2717,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e dos sentidos originais do texto, o vocábulo “onde”, no segundo período do primeiro parágrafo, poderia ser substituído pela expressão uma vez que .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-010",
@@ -2666,7 +2729,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período segundo parágrafo, o trecho “embora haja” poderia ser substituída por apesar de existir sem prejuízo da correção gramatical e dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-011",
@@ -2677,7 +2741,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No sétimo parágrafo, o termo “Ali” (no início do segundo período) refere-se à expressão \"região Nordeste\" e funciona como elemento de coesão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-012",
@@ -2688,7 +2753,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último parágrafo do texto, o pronome “ela”, em “Aliada a ela”, refere-se à expressão “produtividade agrícola”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-013",
@@ -2699,7 +2765,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, a irrigação constitui uma das mais importantes tecnologias para o aumento da produtividade agrícola, especialmente no cultivo de culturas perenes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-014",
@@ -2710,7 +2777,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que a escassez de chuvas na região central do Brasil não permite a prática de culturas anuais sem o uso de tecnologias de irrigação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-015",
@@ -2721,7 +2789,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical do texto e da informação nele veiculada, o sexto parágrafo poderia ser reescrito da seguinte forma: A garantia de colheita, apesar da incerteza das chuvas, consiste na vantagem e na principal justificativa econômica da irrigação suplementar.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-016",
@@ -2732,7 +2801,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ideia principal do texto é defender a técnica de irrigação na região Nordeste do Brasil, já que se trata de uma área semiárida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-017",
@@ -2743,7 +2813,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto do documento oficial, padrão ofício, deve seguir a seguinte padronização de estrutura: introdução, desenvolvimento e conclusão, sendo facultativo o desenvolvimento nos casos em que há apenas encaminhamento de documentos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-018",
@@ -2996,7 +3067,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O navegador Google Chrome dispõe de recursos para traduzir textos de uma página web acessada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-042",
@@ -3535,7 +3607,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso o auditor encontre um desfalque de R$ 240.000 no caixa, não será possível afirmar que esse desfalque está dentro do erro esperado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-091",
@@ -3546,7 +3619,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considere que, na situação em apreço, o auditor, depois de ter realizado inspeção em uma amostra dos estoques, tenha admitido, incorretamente, que o saldo da conta estava relevantemente distorcido, o qual efetivamente não estava. Nesse caso, o auditor incorreu no risco de amostragem de rejeição incorreta.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-092",
@@ -3557,7 +3631,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso o auditor tenha elementos indicativos de superavaliação dos estoques, será adequado ele executar um teste primário de superavaliação no ativo e um teste secundário de superavaliação do passivo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-093",
@@ -3568,7 +3643,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso o auditor tenha suspeita de uma distorção dos registros contábeis de um dos fundos de investimentos que represente 5% do total das aplicações financeiras, será adequado ele realizar uma amostragem casual dos fundos que compõem a conta aplicações de curto de prazo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-094",
@@ -3755,7 +3831,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor das receitas correntes é de R$ 17.000.000.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-111",
@@ -3766,7 +3843,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor das despesas de capital é de R$ 4.500.000.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-112",
@@ -3777,7 +3855,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor das despesas correntes é de R$ 13.000.000.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-113",
@@ -3821,7 +3900,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O referido ente público apurou os restos a pagar processados do ano 20X0 no valor de R$ 10.000.000.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-117",
@@ -3832,7 +3912,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O ente público apurou as despesas de exercícios anteriores no valor de R$ 20.000.000.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-118",
@@ -3843,7 +3924,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O referido ente público apurou o valor de excesso de arrecadação de R$ 5.000.000.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-contabilidade-119",
@@ -3854,7 +3936,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O ente público apurou de superávit orçamentário de R$ 10.000.000.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-001",
@@ -3865,7 +3948,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que, em relação às mudanças climáticas, ainda não se pode definir ao certo quais cenários realmente devem ser esperados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-002",
@@ -3876,7 +3960,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, as espécies serão atingidas de maneira uniforme pelo aquecimento global.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-003",
@@ -3887,7 +3972,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do segundo parágrafo, há elipse da forma verbal funciona logo após “mas”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-004",
@@ -3898,7 +3984,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sentido original do texto e a sua correção gramatical seriam mantidos caso o vocábulo “inexoravelmente”, no último período do segundo parágrafo, fosse substituído por definitivamente .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-005",
@@ -3909,7 +3996,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência do texto seriam preservadas caso fosse suprimida a vírgula empregada logo após o vocábulo “como”, no segundo período do último parágrafo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-006",
@@ -3920,7 +4008,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo “demasiado” pertence à mesma classe de palavras em ambas as suas ocorrências no primeiro e no último período do último parágrafo. Espaço livre ” — que constarem deste caderno de provas",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-007",
@@ -3931,7 +4020,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No período “Também na região mais seca do Nordeste e nos estados de Minas Gerais e São Paulo, era utilizada em culturas de cana-de-açúcar, batatinha, pomares e hortas.”, no segundo parágrafo, a expressão a irrigação poderia ser inserida antes da locução “era utilizada” — a irrigação era utilizada — sem prejuízo dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-008",
@@ -3942,7 +4032,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no trecho “de caráter suplementar às chuvas”, no terceiro parágrafo, é facultativo; portanto, a supressão desse sinal não prejudicaria a correção gramatical do trecho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-009",
@@ -3953,7 +4044,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e dos sentidos originais do texto, o vocábulo “onde”, no segundo período do primeiro parágrafo, poderia ser substituído pela expressão uma vez que .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-010",
@@ -3964,7 +4056,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período segundo parágrafo, o trecho “embora haja” poderia ser substituída por apesar de existir sem prejuízo da correção gramatical e dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-011",
@@ -3975,7 +4068,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No sétimo parágrafo, o termo “Ali” (no início do segundo período) refere-se à expressão \"região Nordeste\" e funciona como elemento de coesão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-012",
@@ -3986,7 +4080,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último parágrafo do texto, o pronome “ela”, em “Aliada a ela”, refere-se à expressão “produtividade agrícola”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-013",
@@ -3997,7 +4092,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, a irrigação constitui uma das mais importantes tecnologias para o aumento da produtividade agrícola, especialmente no cultivo de culturas perenes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-014",
@@ -4008,7 +4104,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que a escassez de chuvas na região central do Brasil não permite a prática de culturas anuais sem o uso de tecnologias de irrigação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-015",
@@ -4019,7 +4116,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical do texto e da informação nele veiculada, o sexto parágrafo poderia ser reescrito da seguinte forma: A garantia de colheita, apesar da incerteza das chuvas, consiste na vantagem e na principal justificativa econômica da irrigação suplementar.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-016",
@@ -4030,7 +4128,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ideia principal do texto é defender a técnica de irrigação na região Nordeste do Brasil, já que se trata de uma área semiárida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-017",
@@ -4041,7 +4140,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto do documento oficial, padrão ofício, deve seguir a seguinte padronização de estrutura: introdução, desenvolvimento e conclusão, sendo facultativo o desenvolvimento nos casos em que há apenas encaminhamento de documentos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-018",
@@ -4294,7 +4394,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O navegador Google Chrome dispõe de recursos para traduzir textos de uma página web acessada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-042",
@@ -5020,7 +5121,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor das receitas correntes é de R$ 17.000.000.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-111",
@@ -5031,7 +5133,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor das despesas de capital é de R$ 4.500.000.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-112",
@@ -5042,7 +5145,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor das despesas correntes é de R$ 13.000.000.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-113",
@@ -5086,7 +5190,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O referido ente público apurou os restos a pagar processados do ano 20X0 no valor de R$ 10.000.000.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-117",
@@ -5097,7 +5202,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O ente público apurou as despesas de exercícios anteriores no valor de R$ 20.000.000.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-118",
@@ -5108,7 +5214,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O referido ente público apurou o valor de excesso de arrecadação de R$ 5.000.000.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-economia-119",
@@ -5119,7 +5226,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O ente público apurou de superávit orçamentário de R$ 10.000.000.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agronomica-001",
@@ -5130,7 +5238,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que, em relação às mudanças climáticas, ainda não se pode definir ao certo quais cenários realmente devem ser esperados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agronomica-002",
@@ -5141,7 +5250,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, as espécies serão atingidas de maneira uniforme pelo aquecimento global.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agronomica-003",
@@ -5152,7 +5262,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do segundo parágrafo, há elipse da forma verbal funciona logo após “mas”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agronomica-004",
@@ -5163,7 +5274,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sentido original do texto e a sua correção gramatical seriam mantidos caso o vocábulo “inexoravelmente”, no último período do segundo parágrafo, fosse substituído por definitivamente .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agronomica-005",
@@ -5174,7 +5286,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência do texto seriam preservadas caso fosse suprimida a vírgula empregada logo após o vocábulo “como”, no segundo período do último parágrafo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agronomica-006",
@@ -5185,7 +5298,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo “demasiado” pertence à mesma classe de palavras em ambas as suas ocorrências no primeiro e no último período do último parágrafo. Espaço livre ” — que constarem deste caderno de provas",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agronomica-007",
@@ -5196,7 +5310,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No período “Também na região mais seca do Nordeste e nos estados de Minas Gerais e São Paulo, era utilizada em culturas de cana-de-açúcar, batatinha, pomares e hortas.”, no segundo parágrafo, a expressão a irrigação poderia ser inserida antes da locução “era utilizada” — a irrigação era utilizada — sem prejuízo dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agronomica-008",
@@ -5207,7 +5322,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no trecho “de caráter suplementar às chuvas”, no terceiro parágrafo, é facultativo; portanto, a supressão desse sinal não prejudicaria a correção gramatical do trecho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agronomica-009",
@@ -5218,7 +5334,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e dos sentidos originais do texto, o vocábulo “onde”, no segundo período do primeiro parágrafo, poderia ser substituído pela expressão uma vez que .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agronomica-010",
@@ -5229,7 +5346,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período segundo parágrafo, o trecho “embora haja” poderia ser substituída por apesar de existir sem prejuízo da correção gramatical e dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agronomica-011",
@@ -5240,7 +5358,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No sétimo parágrafo, o termo “Ali” (no início do segundo período) refere-se à expressão \"região Nordeste\" e funciona como elemento de coesão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agronomica-012",
@@ -5251,7 +5370,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último parágrafo do texto, o pronome “ela”, em “Aliada a ela”, refere-se à expressão “produtividade agrícola”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agronomica-013",
@@ -5262,7 +5382,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, a irrigação constitui uma das mais importantes tecnologias para o aumento da produtividade agrícola, especialmente no cultivo de culturas perenes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agronomica-014",
@@ -5273,7 +5394,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que a escassez de chuvas na região central do Brasil não permite a prática de culturas anuais sem o uso de tecnologias de irrigação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agronomica-015",
@@ -5284,7 +5406,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical do texto e da informação nele veiculada, o sexto parágrafo poderia ser reescrito da seguinte forma: A garantia de colheita, apesar da incerteza das chuvas, consiste na vantagem e na principal justificativa econômica da irrigação suplementar.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agronomica-016",
@@ -5295,7 +5418,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ideia principal do texto é defender a técnica de irrigação na região Nordeste do Brasil, já que se trata de uma área semiárida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agronomica-017",
@@ -6395,7 +6519,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que, em relação às mudanças climáticas, ainda não se pode definir ao certo quais cenários realmente devem ser esperados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-ambiental-002",
@@ -6406,7 +6531,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, as espécies serão atingidas de maneira uniforme pelo aquecimento global.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-ambiental-003",
@@ -6417,7 +6543,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do segundo parágrafo, há elipse da forma verbal funciona logo após “mas”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-ambiental-004",
@@ -6428,7 +6555,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sentido original do texto e a sua correção gramatical seriam mantidos caso o vocábulo “inexoravelmente”, no último período do segundo parágrafo, fosse substituído por definitivamente .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-ambiental-005",
@@ -6439,7 +6567,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência do texto seriam preservadas caso fosse suprimida a vírgula empregada logo após o vocábulo “como”, no segundo período do último parágrafo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-ambiental-006",
@@ -6450,7 +6579,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo “demasiado” pertence à mesma classe de palavras em ambas as suas ocorrências no primeiro e no último período do último parágrafo. Espaço livre ” — que constarem deste caderno de provas",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-ambiental-007",
@@ -6461,7 +6591,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No período “Também na região mais seca do Nordeste e nos estados de Minas Gerais e São Paulo, era utilizada em culturas de cana-de-açúcar, batatinha, pomares e hortas.”, no segundo parágrafo, a expressão a irrigação poderia ser inserida antes da locução “era utilizada” — a irrigação era utilizada — sem prejuízo dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-ambiental-008",
@@ -6472,7 +6603,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no trecho “de caráter suplementar às chuvas”, no terceiro parágrafo, é facultativo; portanto, a supressão desse sinal não prejudicaria a correção gramatical do trecho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-ambiental-009",
@@ -6483,7 +6615,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e dos sentidos originais do texto, o vocábulo “onde”, no segundo período do primeiro parágrafo, poderia ser substituído pela expressão uma vez que .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-ambiental-010",
@@ -6494,7 +6627,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período segundo parágrafo, o trecho “embora haja” poderia ser substituída por apesar de existir sem prejuízo da correção gramatical e dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-ambiental-011",
@@ -6505,7 +6639,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No sétimo parágrafo, o termo “Ali” (no início do segundo período) refere-se à expressão \"região Nordeste\" e funciona como elemento de coesão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-ambiental-012",
@@ -6516,7 +6651,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último parágrafo do texto, o pronome “ela”, em “Aliada a ela”, refere-se à expressão “produtividade agrícola”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-ambiental-013",
@@ -6527,7 +6663,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, a irrigação constitui uma das mais importantes tecnologias para o aumento da produtividade agrícola, especialmente no cultivo de culturas perenes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-ambiental-014",
@@ -6538,7 +6675,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que a escassez de chuvas na região central do Brasil não permite a prática de culturas anuais sem o uso de tecnologias de irrigação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-ambiental-015",
@@ -6549,7 +6687,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical do texto e da informação nele veiculada, o sexto parágrafo poderia ser reescrito da seguinte forma: A garantia de colheita, apesar da incerteza das chuvas, consiste na vantagem e na principal justificativa econômica da irrigação suplementar.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-ambiental-016",
@@ -6560,7 +6699,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ideia principal do texto é defender a técnica de irrigação na região Nordeste do Brasil, já que se trata de uma área semiárida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-ambiental-017",
@@ -7638,7 +7778,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que, em relação às mudanças climáticas, ainda não se pode definir ao certo quais cenários realmente devem ser esperados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-civil-002",
@@ -7649,7 +7790,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, as espécies serão atingidas de maneira uniforme pelo aquecimento global.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-civil-003",
@@ -7660,7 +7802,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do segundo parágrafo, há elipse da forma verbal funciona logo após “mas”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-civil-004",
@@ -7671,7 +7814,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sentido original do texto e a sua correção gramatical seriam mantidos caso o vocábulo “inexoravelmente”, no último período do segundo parágrafo, fosse substituído por definitivamente .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-civil-005",
@@ -7682,7 +7826,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência do texto seriam preservadas caso fosse suprimida a vírgula empregada logo após o vocábulo “como”, no segundo período do último parágrafo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-civil-006",
@@ -7693,7 +7838,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo “demasiado” pertence à mesma classe de palavras em ambas as suas ocorrências no primeiro e no último período do último parágrafo. Espaço livre ” — que constarem deste caderno de provas",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-civil-007",
@@ -7704,7 +7850,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No período “Também na região mais seca do Nordeste e nos estados de Minas Gerais e São Paulo, era utilizada em culturas de cana-de-açúcar, batatinha, pomares e hortas.”, no segundo parágrafo, a expressão a irrigação poderia ser inserida antes da locução “era utilizada” — a irrigação era utilizada — sem prejuízo dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-civil-008",
@@ -7715,7 +7862,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no trecho “de caráter suplementar às chuvas”, no terceiro parágrafo, é facultativo; portanto, a supressão desse sinal não prejudicaria a correção gramatical do trecho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-civil-009",
@@ -7726,7 +7874,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e dos sentidos originais do texto, o vocábulo “onde”, no segundo período do primeiro parágrafo, poderia ser substituído pela expressão uma vez que .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-civil-010",
@@ -7737,7 +7886,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período segundo parágrafo, o trecho “embora haja” poderia ser substituída por apesar de existir sem prejuízo da correção gramatical e dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-civil-011",
@@ -7748,7 +7898,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No sétimo parágrafo, o termo “Ali” (no início do segundo período) refere-se à expressão \"região Nordeste\" e funciona como elemento de coesão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-civil-012",
@@ -7759,7 +7910,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último parágrafo do texto, o pronome “ela”, em “Aliada a ela”, refere-se à expressão “produtividade agrícola”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-civil-013",
@@ -7770,7 +7922,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, a irrigação constitui uma das mais importantes tecnologias para o aumento da produtividade agrícola, especialmente no cultivo de culturas perenes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-civil-014",
@@ -7781,7 +7934,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que a escassez de chuvas na região central do Brasil não permite a prática de culturas anuais sem o uso de tecnologias de irrigação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-civil-015",
@@ -7792,7 +7946,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical do texto e da informação nele veiculada, o sexto parágrafo poderia ser reescrito da seguinte forma: A garantia de colheita, apesar da incerteza das chuvas, consiste na vantagem e na principal justificativa econômica da irrigação suplementar.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-civil-016",
@@ -7803,7 +7958,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ideia principal do texto é defender a técnica de irrigação na região Nordeste do Brasil, já que se trata de uma área semiárida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-civil-017",
@@ -8738,7 +8894,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O perímetro molhado do escoamento é inferior a 25 m.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-civil-109",
@@ -8749,7 +8906,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O raio hidráulico do escoamento é superior a 3 m.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-civil-110",
@@ -8760,7 +8918,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso a vazão transportada seja igual a 216 m 3 /s, a velocidade média do escoamento será igual a 3 m/s.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-civil-111",
@@ -8881,7 +9040,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que, em relação às mudanças climáticas, ainda não se pode definir ao certo quais cenários realmente devem ser esperados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agrimensura-002",
@@ -8892,7 +9052,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, as espécies serão atingidas de maneira uniforme pelo aquecimento global.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agrimensura-003",
@@ -8903,7 +9064,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do segundo parágrafo, há elipse da forma verbal funciona logo após “mas”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agrimensura-004",
@@ -8914,7 +9076,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sentido original do texto e a sua correção gramatical seriam mantidos caso o vocábulo “inexoravelmente”, no último período do segundo parágrafo, fosse substituído por definitivamente .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agrimensura-005",
@@ -8925,7 +9088,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência do texto seriam preservadas caso fosse suprimida a vírgula empregada logo após o vocábulo “como”, no segundo período do último parágrafo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agrimensura-006",
@@ -8936,7 +9100,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo “demasiado” pertence à mesma classe de palavras em ambas as suas ocorrências no primeiro e no último período do último parágrafo. Espaço livre ” — que constarem deste caderno de provas",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agrimensura-007",
@@ -8947,7 +9112,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No período “Também na região mais seca do Nordeste e nos estados de Minas Gerais e São Paulo, era utilizada em culturas de cana-de-açúcar, batatinha, pomares e hortas.”, no segundo parágrafo, a expressão a irrigação poderia ser inserida antes da locução “era utilizada” — a irrigação era utilizada — sem prejuízo dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agrimensura-008",
@@ -8958,7 +9124,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no trecho “de caráter suplementar às chuvas”, no terceiro parágrafo, é facultativo; portanto, a supressão desse sinal não prejudicaria a correção gramatical do trecho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agrimensura-009",
@@ -8969,7 +9136,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e dos sentidos originais do texto, o vocábulo “onde”, no segundo período do primeiro parágrafo, poderia ser substituído pela expressão uma vez que .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agrimensura-010",
@@ -8980,7 +9148,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período segundo parágrafo, o trecho “embora haja” poderia ser substituída por apesar de existir sem prejuízo da correção gramatical e dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agrimensura-011",
@@ -8991,7 +9160,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No sétimo parágrafo, o termo “Ali” (no início do segundo período) refere-se à expressão \"região Nordeste\" e funciona como elemento de coesão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agrimensura-012",
@@ -9002,7 +9172,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último parágrafo do texto, o pronome “ela”, em “Aliada a ela”, refere-se à expressão “produtividade agrícola”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agrimensura-013",
@@ -9013,7 +9184,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, a irrigação constitui uma das mais importantes tecnologias para o aumento da produtividade agrícola, especialmente no cultivo de culturas perenes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agrimensura-014",
@@ -9024,7 +9196,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que a escassez de chuvas na região central do Brasil não permite a prática de culturas anuais sem o uso de tecnologias de irrigação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agrimensura-015",
@@ -9035,7 +9208,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical do texto e da informação nele veiculada, o sexto parágrafo poderia ser reescrito da seguinte forma: A garantia de colheita, apesar da incerteza das chuvas, consiste na vantagem e na principal justificativa econômica da irrigação suplementar.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agrimensura-016",
@@ -9046,7 +9220,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ideia principal do texto é defender a técnica de irrigação na região Nordeste do Brasil, já que se trata de uma área semiárida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agrimensura-017",
@@ -9684,7 +9859,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As áreas cobertas com MG irão apresentar tonalidades de cinza escuro na imagem adquirida pelo satélite Landsat 8 e tonalidades de cinza claro na imagem adquirida pelo satélite ALOS-2.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agrimensura-079",
@@ -9695,7 +9871,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em relação à SE1, SE2 irá apresentar tonalidades de cinza mais escuro nas duas imagens.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agrimensura-080",
@@ -9706,7 +9883,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O efeito da presença de vento superficial na área AG2 tende a ser mais intenso na imagem do satélite Landsat 8 do que na imagem do satélite ALOS-2.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agrimensura-081",
@@ -9805,7 +9983,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na figura A, CoVar( x , y ) = 0.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agrimensura-091",
@@ -9816,7 +9995,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na figura B, Var( x ) < Var( y ).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agrimensura-092",
@@ -9827,7 +10007,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na figura C, CoVar( x , y ) = 0 e Var( x ) = Var( y ).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-agrimensura-093",
@@ -10124,7 +10305,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que, em relação às mudanças climáticas, ainda não se pode definir ao certo quais cenários realmente devem ser esperados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-002",
@@ -10135,7 +10317,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, as espécies serão atingidas de maneira uniforme pelo aquecimento global.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-003",
@@ -10146,7 +10329,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do segundo parágrafo, há elipse da forma verbal funciona logo após “mas”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-004",
@@ -10157,7 +10341,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sentido original do texto e a sua correção gramatical seriam mantidos caso o vocábulo “inexoravelmente”, no último período do segundo parágrafo, fosse substituído por definitivamente .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-005",
@@ -10168,7 +10353,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência do texto seriam preservadas caso fosse suprimida a vírgula empregada logo após o vocábulo “como”, no segundo período do último parágrafo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-006",
@@ -10179,7 +10365,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo “demasiado” pertence à mesma classe de palavras em ambas as suas ocorrências no primeiro e no último período do último parágrafo. Espaço livre ” — que constarem deste caderno de provas",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-007",
@@ -10190,7 +10377,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No período “Também na região mais seca do Nordeste e nos estados de Minas Gerais e São Paulo, era utilizada em culturas de cana-de-açúcar, batatinha, pomares e hortas.”, no segundo parágrafo, a expressão a irrigação poderia ser inserida antes da locução “era utilizada” — a irrigação era utilizada — sem prejuízo dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-008",
@@ -10201,7 +10389,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no trecho “de caráter suplementar às chuvas”, no terceiro parágrafo, é facultativo; portanto, a supressão desse sinal não prejudicaria a correção gramatical do trecho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-009",
@@ -10212,7 +10401,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e dos sentidos originais do texto, o vocábulo “onde”, no segundo período do primeiro parágrafo, poderia ser substituído pela expressão uma vez que .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-010",
@@ -10223,7 +10413,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período segundo parágrafo, o trecho “embora haja” poderia ser substituída por apesar de existir sem prejuízo da correção gramatical e dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-011",
@@ -10234,7 +10425,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No sétimo parágrafo, o termo “Ali” (no início do segundo período) refere-se à expressão \"região Nordeste\" e funciona como elemento de coesão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-012",
@@ -10245,7 +10437,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último parágrafo do texto, o pronome “ela”, em “Aliada a ela”, refere-se à expressão “produtividade agrícola”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-013",
@@ -10256,7 +10449,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, a irrigação constitui uma das mais importantes tecnologias para o aumento da produtividade agrícola, especialmente no cultivo de culturas perenes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-014",
@@ -10267,7 +10461,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que a escassez de chuvas na região central do Brasil não permite a prática de culturas anuais sem o uso de tecnologias de irrigação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-015",
@@ -10278,7 +10473,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical do texto e da informação nele veiculada, o sexto parágrafo poderia ser reescrito da seguinte forma: A garantia de colheita, apesar da incerteza das chuvas, consiste na vantagem e na principal justificativa econômica da irrigação suplementar.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-016",
@@ -10289,7 +10485,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ideia principal do texto é defender a técnica de irrigação na região Nordeste do Brasil, já que se trata de uma área semiárida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-017",
@@ -10806,7 +11003,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A manipulação do sexo fenotípico em peixes pode ser realizada por ginogênese, que consiste em uma biotécnica empregada para produzir uma prole que contenha apenas o material genético da mãe.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-065",
@@ -10817,7 +11015,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Um dos benefícios decorrentes do uso da ginogênese para a produção de populações monosexo de diferentes espécies de peixes é a melhora da qualidade da carne.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-066",
@@ -11103,7 +11302,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entre os processos que influenciam na retenção e transporte dos agrotóxicos pelo solo até as águas superficiais e subterrâneas, estão a lixiviação e o escoamento superficial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-096",
@@ -11114,7 +11314,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A adsorção e o tipo do solo e a sua solubilidade em água são parâmetros físicos e químicos que influenciam na capacidade de contaminação das águas superficiais e subterrâneas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-097",
@@ -11125,7 +11326,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Condições ambientais como solo argiloso, pluviosidade anual maior que 250 mm e aquífero confinado favorecem a percolação de água contaminada com agrotóxico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-098",
@@ -11136,7 +11338,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A identificação de contaminantes em sedimentos de fundo pode ser determinada por meio de análises físico-químicas do sedimento, tais como pH, acidez potencial, níveis de P e carbono orgânico total.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-099",
@@ -11147,7 +11350,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O processo de escoamento superficial em áreas agrícolas não contribui para a eutrofização dos corpos aquáticos, uma vez que esta só ocorre devido ao lançamento de esgoto bruto em águas superficiais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-100",
@@ -11158,7 +11362,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Parâmetros físico-químicos de qualidade de água, como oxigênio dissolvido (mg L-1), pH, transparência (cm), temperatura (oC), alcalinidade (mg L -1), amônia total (mg L-1), amônia tóxica (mg L-1) e nitrito (mg L-1), auxiliam na tomada de decisão quanto ao uso da água para a aquicultura.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-101",
@@ -11169,7 +11374,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Efluentes de criadouros de peixes apresentam reduzidas concentrações de nutrientes orgânicos e inorgânicos sólidos e solúveis.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-102",
@@ -11180,7 +11386,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As macrófitas ilustradas na figura 1, ao contrário das demais pressões, são utilizadas para reduzir a demanda biológica por oxigênio (DBO), o que, consequentemente, reduz a contaminação por químicos e torna o ambiente mais propício para a vida aquática. Figura 1. Pirá ou pirá-tamanduá, Conorhynchos conirostris.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-103",
@@ -11191,7 +11398,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os dois principais motivos para o desaparecimento do pirá no rio são Francisco foram a pesca abundante e a construção de hidrelétricas no curso do rio, que dificultou sua reprodução.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-104",
@@ -11202,7 +11410,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As espécies de peixes mais encontradas nas bacias dos rios São Francisco e Mearim pertencem principalmente às ordens Characiformes e Cichliformes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-105",
@@ -11213,7 +11422,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Além do Conorhynchos conirostris, as espécies de peixes Salminus franciscanus e Brycon cephalus possuem alto valor comercial e estão ameaçadas de extinção.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-106",
@@ -11224,7 +11434,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O peixe Surubin, também conhecido como Pintado, pertencente a ordem dos Characiformes, pode ser encontrado nas bacias hidrográficas do São Francisco, Paraná e do Prata.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-107",
@@ -11235,7 +11446,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O estudo de patógenos de peixes é importante para a saúde pública e ambiental, pois pode indicar um fator limitante para a criação comercial de uma dada espécie, apontando que o patógeno pode ser usado como bioindicador de qualidade ambiental.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-108",
@@ -11246,7 +11458,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A presença de Escherichia coli e coliformes termotolerantes em corpos aquáticos não se relaciona com características físico-químicos da água, como disponibilidade de oxigênio e níveis de amônia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-109",
@@ -11257,7 +11470,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os peixes possuem menor quantidade de parasitas entre os vertebrados, isso ocorre devido ao fato de que, dentro dos criadouros, os peixes recebem altas doses de antibióticos, o que contribui para a resistência bacteriana.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-110",
@@ -11268,7 +11482,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Protozoa, Myxozoa, Ciliophora, Platyhelminthes, Nematoda, Acanthocephala, Arthropoda, Annelida e Pentastomida são os principais grupos de parasitas de peixes neotropicais de água doce.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-pesca-111",
@@ -11378,7 +11593,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que, em relação às mudanças climáticas, ainda não se pode definir ao certo quais cenários realmente devem ser esperados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-002",
@@ -11389,7 +11605,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, as espécies serão atingidas de maneira uniforme pelo aquecimento global.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-003",
@@ -11400,7 +11617,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do segundo parágrafo, há elipse da forma verbal funciona logo após “mas”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-004",
@@ -11411,7 +11629,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sentido original do texto e a sua correção gramatical seriam mantidos caso o vocábulo “inexoravelmente”, no último período do segundo parágrafo, fosse substituído por definitivamente .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-005",
@@ -11422,7 +11641,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência do texto seriam preservadas caso fosse suprimida a vírgula empregada logo após o vocábulo “como”, no segundo período do último parágrafo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-006",
@@ -11433,7 +11653,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo “demasiado” pertence à mesma classe de palavras em ambas as suas ocorrências no primeiro e no último período do último parágrafo. Espaço livre ” — que constarem deste caderno de provas",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-007",
@@ -11444,7 +11665,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No período “Também na região mais seca do Nordeste e nos estados de Minas Gerais e São Paulo, era utilizada em culturas de cana-de-açúcar, batatinha, pomares e hortas.”, no segundo parágrafo, a expressão a irrigação poderia ser inserida antes da locução “era utilizada” — a irrigação era utilizada — sem prejuízo dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-008",
@@ -11455,7 +11677,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no trecho “de caráter suplementar às chuvas”, no terceiro parágrafo, é facultativo; portanto, a supressão desse sinal não prejudicaria a correção gramatical do trecho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-009",
@@ -11466,7 +11689,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e dos sentidos originais do texto, o vocábulo “onde”, no segundo período do primeiro parágrafo, poderia ser substituído pela expressão uma vez que .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-010",
@@ -11477,7 +11701,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período segundo parágrafo, o trecho “embora haja” poderia ser substituída por apesar de existir sem prejuízo da correção gramatical e dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-011",
@@ -11488,7 +11713,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No sétimo parágrafo, o termo “Ali” (no início do segundo período) refere-se à expressão \"região Nordeste\" e funciona como elemento de coesão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-012",
@@ -11499,7 +11725,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último parágrafo do texto, o pronome “ela”, em “Aliada a ela”, refere-se à expressão “produtividade agrícola”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-013",
@@ -11510,7 +11737,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, a irrigação constitui uma das mais importantes tecnologias para o aumento da produtividade agrícola, especialmente no cultivo de culturas perenes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-014",
@@ -11521,7 +11749,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que a escassez de chuvas na região central do Brasil não permite a prática de culturas anuais sem o uso de tecnologias de irrigação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-015",
@@ -11532,7 +11761,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical do texto e da informação nele veiculada, o sexto parágrafo poderia ser reescrito da seguinte forma: A garantia de colheita, apesar da incerteza das chuvas, consiste na vantagem e na principal justificativa econômica da irrigação suplementar.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-016",
@@ -11543,7 +11773,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ideia principal do texto é defender a técnica de irrigação na região Nordeste do Brasil, já que se trata de uma área semiárida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-017",
@@ -11961,7 +12192,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para um funcionamento correto, o circuito apresentado deve ser alimentado com tensão VCC de 2V.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-056",
@@ -11972,7 +12204,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A série mostrada na figura possui redução de atraso no tempo de armazenamento devido à utilização do diodo entre o emissor e o coletor do transistor de saída.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-057",
@@ -11983,7 +12216,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O circuito apresentado é de uma porta NAND.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-058",
@@ -11994,7 +12228,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na família representada pelo circuito da figura em questão, como muitos dos transistores realizam o chaveamento com saturação, há um atraso no armazenamento.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-059",
@@ -12082,7 +12317,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O referido sistema está com sobremodulação, o que causou a inversão de fase.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-067",
@@ -12093,7 +12329,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sinal apresentado na figura pode ser demodulado por um detector de envoltória.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-068",
@@ -12104,7 +12341,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A frequência da portadora deve ser menor que a do sinal banda-base para uma correta modulação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-069",
@@ -12115,7 +12353,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sistema em questão utiliza a técnica de modulação em fase.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-070",
@@ -12126,7 +12365,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O controlador 1 pode conter um intervalo diferencial antes da comutação dos valores, podendo ser intencional para reduzir o desgaste do mecanismo de comutação.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-071",
@@ -12137,7 +12377,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O controlador automático determina o desvio entre a saída do processo e o valor de referência, produzindo um sinal de controle que reduz o desvio a zero ou a um pequeno valor.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-072",
@@ -12148,7 +12389,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ação de controle do controlador 2 é denominada controle de taxa, visto que é proporcional à taxa de variação do sinal de erro atuante.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-073",
@@ -12159,7 +12401,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O baixo custo é uma das vantagens do controlador 1, que pode ser amplamente utilizado tanto em sistemas de controle industriais quanto domésticos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-eletrica-074",
@@ -12665,7 +12908,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que, em relação às mudanças climáticas, ainda não se pode definir ao certo quais cenários realmente devem ser esperados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-mecanica-002",
@@ -12676,7 +12920,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, as espécies serão atingidas de maneira uniforme pelo aquecimento global.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-mecanica-003",
@@ -12687,7 +12932,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do segundo parágrafo, há elipse da forma verbal funciona logo após “mas”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-mecanica-004",
@@ -12698,7 +12944,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sentido original do texto e a sua correção gramatical seriam mantidos caso o vocábulo “inexoravelmente”, no último período do segundo parágrafo, fosse substituído por definitivamente .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-mecanica-005",
@@ -12709,7 +12956,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência do texto seriam preservadas caso fosse suprimida a vírgula empregada logo após o vocábulo “como”, no segundo período do último parágrafo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-mecanica-006",
@@ -12720,7 +12968,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo “demasiado” pertence à mesma classe de palavras em ambas as suas ocorrências no primeiro e no último período do último parágrafo. Espaço livre ” — que constarem deste caderno de provas",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-mecanica-007",
@@ -12731,7 +12980,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No período “Também na região mais seca do Nordeste e nos estados de Minas Gerais e São Paulo, era utilizada em culturas de cana-de-açúcar, batatinha, pomares e hortas.”, no segundo parágrafo, a expressão a irrigação poderia ser inserida antes da locução “era utilizada” — a irrigação era utilizada — sem prejuízo dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-mecanica-008",
@@ -12742,7 +12992,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no trecho “de caráter suplementar às chuvas”, no terceiro parágrafo, é facultativo; portanto, a supressão desse sinal não prejudicaria a correção gramatical do trecho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-mecanica-009",
@@ -12753,7 +13004,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e dos sentidos originais do texto, o vocábulo “onde”, no segundo período do primeiro parágrafo, poderia ser substituído pela expressão uma vez que .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-mecanica-010",
@@ -12764,7 +13016,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período segundo parágrafo, o trecho “embora haja” poderia ser substituída por apesar de existir sem prejuízo da correção gramatical e dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-mecanica-011",
@@ -12775,7 +13028,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No sétimo parágrafo, o termo “Ali” (no início do segundo período) refere-se à expressão \"região Nordeste\" e funciona como elemento de coesão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-mecanica-012",
@@ -12786,7 +13040,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último parágrafo do texto, o pronome “ela”, em “Aliada a ela”, refere-se à expressão “produtividade agrícola”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-mecanica-013",
@@ -12797,7 +13052,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, a irrigação constitui uma das mais importantes tecnologias para o aumento da produtividade agrícola, especialmente no cultivo de culturas perenes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-mecanica-014",
@@ -12808,7 +13064,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que a escassez de chuvas na região central do Brasil não permite a prática de culturas anuais sem o uso de tecnologias de irrigação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-mecanica-015",
@@ -12819,7 +13076,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical do texto e da informação nele veiculada, o sexto parágrafo poderia ser reescrito da seguinte forma: A garantia de colheita, apesar da incerteza das chuvas, consiste na vantagem e na principal justificativa econômica da irrigação suplementar.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-mecanica-016",
@@ -12830,7 +13088,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ideia principal do texto é defender a técnica de irrigação na região Nordeste do Brasil, já que se trata de uma área semiárida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-mecanica-017",
@@ -13204,7 +13463,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O centroide é centro mecânico do objeto que representa um corpo. O centro de massa, o centro de gravidade e o centroide sempre têm a mesma localização espacial.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-mecanica-053",
@@ -13215,7 +13475,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O momento de inércia de massa é uma medida de resistência de um corpo à aceleração angular.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-mecanica-054",
@@ -13226,7 +13487,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Um movimento bastante característico que uma bailarina realiza quando está rodopiando é a abertura e o fechamento dos braços, o que permite que ela controle a velocidade angular do seu corpo, aumentando e diminuindo o atrito com o ar; assim, a velocidade angular aumenta com o fechamento dos braços.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-mecanica-055",
@@ -13237,7 +13499,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em um material dúctil, a região plástica tem comportamento linear plástico, a ruptura do material ocorre na região linear elástica e ocorrem deformações permanentes na região plástica.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-mecanica-056",
@@ -13248,7 +13511,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em um material dúctil, é possível dividir a curva tensão- deformação em uma região elástica e outra plástica. Nessa curva, o material tem um comportamento inicial linear elástico, que possibilita a obtenção do módulo de elasticidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-mecanica-058",
@@ -13259,7 +13523,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Com relação às propriedades mecânicas dos materiais, a tensão de escoamento é a tensão máxima que o material resiste a tração; e o módulo de resiliência, a energia absorvida até o limite de ruptura.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-eng-mecanica-059",
@@ -13886,7 +14151,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que, em relação às mudanças climáticas, ainda não se pode definir ao certo quais cenários realmente devem ser esperados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-geologia-002",
@@ -13897,7 +14163,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, as espécies serão atingidas de maneira uniforme pelo aquecimento global.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-geologia-003",
@@ -13908,7 +14175,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do segundo parágrafo, há elipse da forma verbal funciona logo após “mas”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-geologia-004",
@@ -13919,7 +14187,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sentido original do texto e a sua correção gramatical seriam mantidos caso o vocábulo “inexoravelmente”, no último período do segundo parágrafo, fosse substituído por definitivamente .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-geologia-005",
@@ -13930,7 +14199,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência do texto seriam preservadas caso fosse suprimida a vírgula empregada logo após o vocábulo “como”, no segundo período do último parágrafo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-geologia-006",
@@ -13941,7 +14211,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo “demasiado” pertence à mesma classe de palavras em ambas as suas ocorrências no primeiro e no último período do último parágrafo. Espaço livre ” — que constarem deste caderno de provas",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-geologia-007",
@@ -13952,7 +14223,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No período “Também na região mais seca do Nordeste e nos estados de Minas Gerais e São Paulo, era utilizada em culturas de cana-de-açúcar, batatinha, pomares e hortas.”, no segundo parágrafo, a expressão a irrigação poderia ser inserida antes da locução “era utilizada” — a irrigação era utilizada — sem prejuízo dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-geologia-008",
@@ -13963,7 +14235,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no trecho “de caráter suplementar às chuvas”, no terceiro parágrafo, é facultativo; portanto, a supressão desse sinal não prejudicaria a correção gramatical do trecho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-geologia-009",
@@ -13974,7 +14247,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e dos sentidos originais do texto, o vocábulo “onde”, no segundo período do primeiro parágrafo, poderia ser substituído pela expressão uma vez que .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-geologia-010",
@@ -13985,7 +14259,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período segundo parágrafo, o trecho “embora haja” poderia ser substituída por apesar de existir sem prejuízo da correção gramatical e dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-geologia-011",
@@ -13996,7 +14271,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No sétimo parágrafo, o termo “Ali” (no início do segundo período) refere-se à expressão \"região Nordeste\" e funciona como elemento de coesão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-geologia-012",
@@ -14007,7 +14283,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último parágrafo do texto, o pronome “ela”, em “Aliada a ela”, refere-se à expressão “produtividade agrícola”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-geologia-013",
@@ -14018,7 +14295,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, a irrigação constitui uma das mais importantes tecnologias para o aumento da produtividade agrícola, especialmente no cultivo de culturas perenes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-geologia-014",
@@ -14029,7 +14307,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que a escassez de chuvas na região central do Brasil não permite a prática de culturas anuais sem o uso de tecnologias de irrigação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-geologia-015",
@@ -14040,7 +14319,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical do texto e da informação nele veiculada, o sexto parágrafo poderia ser reescrito da seguinte forma: A garantia de colheita, apesar da incerteza das chuvas, consiste na vantagem e na principal justificativa econômica da irrigação suplementar.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-geologia-016",
@@ -14051,7 +14331,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ideia principal do texto é defender a técnica de irrigação na região Nordeste do Brasil, já que se trata de uma área semiárida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-geologia-017",
@@ -14865,7 +15146,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Carta clinométrica é um tipo de carta geotécnica obtida de mapa topográfico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-geologia-092",
@@ -14876,7 +15158,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A carta de risco geológico apresenta informações geográficas de interesse para o uso e a ocupação do solo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-geologia-093",
@@ -14887,7 +15170,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os mapas oferecem imagem interpretativa do meio físico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-geologia-094",
@@ -14898,7 +15182,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Atributo do meio físico-geológico é a característica qualitativa ou quantitativa que identifica o componente de um sistema.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-geologia-095",
@@ -14909,7 +15194,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A carta geotécnica genérica tem caráter orientador no planejamento do uso e da ocupação do espaço físico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-geologia-096",
@@ -15195,7 +15481,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que, em relação às mudanças climáticas, ainda não se pode definir ao certo quais cenários realmente devem ser esperados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-psicologia-002",
@@ -15206,7 +15493,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, as espécies serão atingidas de maneira uniforme pelo aquecimento global.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-psicologia-003",
@@ -15217,7 +15505,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do segundo parágrafo, há elipse da forma verbal funciona logo após “mas”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-psicologia-004",
@@ -15228,7 +15517,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sentido original do texto e a sua correção gramatical seriam mantidos caso o vocábulo “inexoravelmente”, no último período do segundo parágrafo, fosse substituído por definitivamente .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-psicologia-005",
@@ -15239,7 +15529,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência do texto seriam preservadas caso fosse suprimida a vírgula empregada logo após o vocábulo “como”, no segundo período do último parágrafo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-psicologia-006",
@@ -15250,7 +15541,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo “demasiado” pertence à mesma classe de palavras em ambas as suas ocorrências no primeiro e no último período do último parágrafo. Espaço livre ” — que constarem deste caderno de provas",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-psicologia-007",
@@ -15261,7 +15553,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No período “Também na região mais seca do Nordeste e nos estados de Minas Gerais e São Paulo, era utilizada em culturas de cana-de-açúcar, batatinha, pomares e hortas.”, no segundo parágrafo, a expressão a irrigação poderia ser inserida antes da locução “era utilizada” — a irrigação era utilizada — sem prejuízo dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-psicologia-008",
@@ -15272,7 +15565,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no trecho “de caráter suplementar às chuvas”, no terceiro parágrafo, é facultativo; portanto, a supressão desse sinal não prejudicaria a correção gramatical do trecho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-psicologia-009",
@@ -15283,7 +15577,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e dos sentidos originais do texto, o vocábulo “onde”, no segundo período do primeiro parágrafo, poderia ser substituído pela expressão uma vez que .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-psicologia-010",
@@ -15294,7 +15589,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período segundo parágrafo, o trecho “embora haja” poderia ser substituída por apesar de existir sem prejuízo da correção gramatical e dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-psicologia-011",
@@ -15305,7 +15601,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No sétimo parágrafo, o termo “Ali” (no início do segundo período) refere-se à expressão \"região Nordeste\" e funciona como elemento de coesão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-psicologia-012",
@@ -15316,7 +15613,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último parágrafo do texto, o pronome “ela”, em “Aliada a ela”, refere-se à expressão “produtividade agrícola”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-psicologia-013",
@@ -15327,7 +15625,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, a irrigação constitui uma das mais importantes tecnologias para o aumento da produtividade agrícola, especialmente no cultivo de culturas perenes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-psicologia-014",
@@ -15338,7 +15637,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que a escassez de chuvas na região central do Brasil não permite a prática de culturas anuais sem o uso de tecnologias de irrigação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-psicologia-015",
@@ -15349,7 +15649,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical do texto e da informação nele veiculada, o sexto parágrafo poderia ser reescrito da seguinte forma: A garantia de colheita, apesar da incerteza das chuvas, consiste na vantagem e na principal justificativa econômica da irrigação suplementar.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-psicologia-016",
@@ -15360,7 +15661,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ideia principal do texto é defender a técnica de irrigação na região Nordeste do Brasil, já que se trata de uma área semiárida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-psicologia-017",
@@ -16504,7 +16806,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que, em relação às mudanças climáticas, ainda não se pode definir ao certo quais cenários realmente devem ser esperados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-tecnologia-informacao-002",
@@ -16515,7 +16818,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, as espécies serão atingidas de maneira uniforme pelo aquecimento global.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-tecnologia-informacao-003",
@@ -16526,7 +16830,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do segundo parágrafo, há elipse da forma verbal funciona logo após “mas”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-tecnologia-informacao-004",
@@ -16537,7 +16842,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sentido original do texto e a sua correção gramatical seriam mantidos caso o vocábulo “inexoravelmente”, no último período do segundo parágrafo, fosse substituído por definitivamente .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-tecnologia-informacao-005",
@@ -16548,7 +16854,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência do texto seriam preservadas caso fosse suprimida a vírgula empregada logo após o vocábulo “como”, no segundo período do último parágrafo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-tecnologia-informacao-006",
@@ -16559,7 +16866,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo “demasiado” pertence à mesma classe de palavras em ambas as suas ocorrências no primeiro e no último período do último parágrafo. Espaço livre ” — que constarem deste caderno de provas",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-tecnologia-informacao-007",
@@ -16570,7 +16878,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No período “Também na região mais seca do Nordeste e nos estados de Minas Gerais e São Paulo, era utilizada em culturas de cana-de-açúcar, batatinha, pomares e hortas.”, no segundo parágrafo, a expressão a irrigação poderia ser inserida antes da locução “era utilizada” — a irrigação era utilizada — sem prejuízo dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-tecnologia-informacao-008",
@@ -16581,7 +16890,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no trecho “de caráter suplementar às chuvas”, no terceiro parágrafo, é facultativo; portanto, a supressão desse sinal não prejudicaria a correção gramatical do trecho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-tecnologia-informacao-009",
@@ -16592,7 +16902,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e dos sentidos originais do texto, o vocábulo “onde”, no segundo período do primeiro parágrafo, poderia ser substituído pela expressão uma vez que .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-tecnologia-informacao-010",
@@ -16603,7 +16914,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período segundo parágrafo, o trecho “embora haja” poderia ser substituída por apesar de existir sem prejuízo da correção gramatical e dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-tecnologia-informacao-011",
@@ -16614,7 +16926,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No sétimo parágrafo, o termo “Ali” (no início do segundo período) refere-se à expressão \"região Nordeste\" e funciona como elemento de coesão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-tecnologia-informacao-012",
@@ -16625,7 +16938,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último parágrafo do texto, o pronome “ela”, em “Aliada a ela”, refere-se à expressão “produtividade agrícola”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-tecnologia-informacao-013",
@@ -16636,7 +16950,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, a irrigação constitui uma das mais importantes tecnologias para o aumento da produtividade agrícola, especialmente no cultivo de culturas perenes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-tecnologia-informacao-014",
@@ -16647,7 +16962,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que a escassez de chuvas na região central do Brasil não permite a prática de culturas anuais sem o uso de tecnologias de irrigação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-tecnologia-informacao-015",
@@ -16658,7 +16974,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical do texto e da informação nele veiculada, o sexto parágrafo poderia ser reescrito da seguinte forma: A garantia de colheita, apesar da incerteza das chuvas, consiste na vantagem e na principal justificativa econômica da irrigação suplementar.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-tecnologia-informacao-016",
@@ -16669,7 +16986,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ideia principal do texto é defender a técnica de irrigação na região Nordeste do Brasil, já que se trata de uma área semiárida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-tecnologia-informacao-017",
@@ -17725,7 +18043,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "SolarWinds is a software company which is headquartered in Texas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 25
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-tecnologia-informacao-114",
@@ -17736,7 +18055,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "American cybersecurity experts and federal authorities are not only in a hurry to solve the problem, but they are also sure the hackers are from Russia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 25
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-tecnologia-informacao-115",
@@ -17747,7 +18067,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "In \"It now seems likely the scope of the victims could be broad\", the word 'likely' is a synonymous with lovely .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 25
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-tecnologia-informacao-116",
@@ -17758,7 +18079,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Microsoft reported that over three-thirds of the cyberattacks happened to companies and organizations located in the USA.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 25
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-tecnologia-informacao-117",
@@ -17769,7 +18091,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The cyberattacks have stopped, but authorities and experts still want to find who or what is responsible for such crime.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 25
   },
   {
    "id": "cebraspe-2021-codevasf-analista-dev-regional-tecnologia-informacao-118",
@@ -17813,7 +18136,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que, em relação às mudanças climáticas, ainda não se pode definir ao certo quais cenários realmente devem ser esperados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-assessor-juridico-direito-002",
@@ -17824,7 +18148,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, as espécies serão atingidas de maneira uniforme pelo aquecimento global.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-assessor-juridico-direito-003",
@@ -17835,7 +18160,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do segundo parágrafo, há elipse da forma verbal funciona logo após “mas”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-assessor-juridico-direito-004",
@@ -17846,7 +18172,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sentido original do texto e a sua correção gramatical seriam mantidos caso o vocábulo “inexoravelmente”, no último período do segundo parágrafo, fosse substituído por definitivamente .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-assessor-juridico-direito-005",
@@ -17857,7 +18184,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência do texto seriam preservadas caso fosse suprimida a vírgula empregada logo após o vocábulo “como”, no segundo período do último parágrafo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-assessor-juridico-direito-006",
@@ -17868,7 +18196,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo “demasiado” pertence à mesma classe de palavras em ambas as suas ocorrências no primeiro e no último período do último parágrafo. Espaço livre ” — que constarem deste caderno de provas",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-codevasf-assessor-juridico-direito-007",
@@ -17879,7 +18208,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No período “Também na região mais seca do Nordeste e nos estados de Minas Gerais e São Paulo, era utilizada em culturas de cana-de-açúcar, batatinha, pomares e hortas.”, no segundo parágrafo, a expressão a irrigação poderia ser inserida antes da locução “era utilizada” — a irrigação era utilizada — sem prejuízo dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-assessor-juridico-direito-008",
@@ -17890,7 +18220,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no trecho “de caráter suplementar às chuvas”, no terceiro parágrafo, é facultativo; portanto, a supressão desse sinal não prejudicaria a correção gramatical do trecho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-assessor-juridico-direito-009",
@@ -17901,7 +18232,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e dos sentidos originais do texto, o vocábulo “onde”, no segundo período do primeiro parágrafo, poderia ser substituído pela expressão uma vez que .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-assessor-juridico-direito-010",
@@ -17912,7 +18244,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período segundo parágrafo, o trecho “embora haja” poderia ser substituída por apesar de existir sem prejuízo da correção gramatical e dos sentidos originais do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-assessor-juridico-direito-011",
@@ -17923,7 +18256,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No sétimo parágrafo, o termo “Ali” (no início do segundo período) refere-se à expressão \"região Nordeste\" e funciona como elemento de coesão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-assessor-juridico-direito-012",
@@ -17934,7 +18268,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último parágrafo do texto, o pronome “ela”, em “Aliada a ela”, refere-se à expressão “produtividade agrícola”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-assessor-juridico-direito-013",
@@ -17945,7 +18280,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, a irrigação constitui uma das mais importantes tecnologias para o aumento da produtividade agrícola, especialmente no cultivo de culturas perenes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-assessor-juridico-direito-014",
@@ -17956,7 +18292,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que a escassez de chuvas na região central do Brasil não permite a prática de culturas anuais sem o uso de tecnologias de irrigação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-assessor-juridico-direito-015",
@@ -17967,7 +18304,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical do texto e da informação nele veiculada, o sexto parágrafo poderia ser reescrito da seguinte forma: A garantia de colheita, apesar da incerteza das chuvas, consiste na vantagem e na principal justificativa econômica da irrigação suplementar.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-assessor-juridico-direito-016",
@@ -17978,7 +18316,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ideia principal do texto é defender a técnica de irrigação na região Nordeste do Brasil, já que se trata de uma área semiárida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-codevasf-assessor-juridico-direito-017",
@@ -19057,6 +19396,164 @@
    "tipo": "certo_errado",
    "enunciado": "Indivíduo sem vínculo efetivo com qualquer dos entes federativos que tenha sido nomeado para exercer cargo em comissão junto a órgão público federal é considerado segurado obrigatório do RGPS, devido ao cargo que passou a ocupar.",
    "gabarito": "certo"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "RECEITAS ORÇAMENTÁRIAS VALOR\n\n(em milhões de reais) Previsão inicial 100 Receitas realizadas 105 DESPESAS ORÇAMENTÁRIAS Dotação inicial 100 Despesas empenhadas 80 Despesas liquidadas 70 Despesas pagas 60 Despesas empenhadas, liquidadas e pagas em 20X1 relativas a 20X0 10 Com base nas informações da tabela apresentada, que mostra",
+   "citacao": "contas extraídas em 31/12/20X0 da contabilidade de determinado",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Nos itens que avaliarem conhecimentos de informática e(ou) tecnologia da informação, a menos que seja explicitamente informado o contrário, considere que todos os programas mencionados estão em configuração padrão e que não há restrições de proteção, de funcionamento e de uso em relação aos programas, arquivos, diretórios, recursos e equipamentos mencionados.  Eventuais espaços livres — identificados ou não pela expressão “ poderão ser utilizados para rascunho.\n\n-- CONHECIMENTOS BÁSICOS --",
+   "citacao": "Desde fim dos anos 80 do século passado, o efeito estufa como ameaça ecológica número um não é mais contestado. Embora não se possa provar, irrefutavelmente, que o aumento até agora medido das temperaturas anuais médias (em torno de um grau nos últimos cem anos) se refere ao desenvolvimento humano, essa suposição tem, no entanto, muita probabilidade de ser correta — de tal forma que seria irresponsabilidade deixar as coisas seguirem seu curso. Um primeiro sinal de que o clima mundial já começou a mudar é o aumento de anomalias meteorológicas — ciclones, períodos de seca e trombas-d’água diluvianas — desde os anos 90 do século passado. Os limites do crescimento marcam uma espécie de escassez, embora no mercado não se tornem imediatamente notados como tais. A atmosfera, por exemplo, não funciona como um reservatório, que um dia esvaziará e outro dia será novamente enchido por bombeamento (a isso, o mercado poderia ao menos reagir em curto prazo), mas como um mecanismo que, lenta mas inexoravelmente, terá efeito retroativo em nossas condições de vida, comparável a um parafuso de rosca que se aperta sempre mais. O limite do demasiado é invisível e também não pode ser determinado diretamente por experimentos. Assim como, ao se escalarem montanhas, o ar cada vez mais rarefeito nas alturas desafia os alpinistas diferenciadamente — uns mais, outros menos —, a fauna e a flora, em regiões diferenciadas, reagem diferentemente ao aquecimento da atmosfera. Uma das preocupações mais sérias é provocada pela velocidade com que já está ocorrendo a mudança climática. Se ela não for eficazmente freada, poderá exigir demasiado da capacidade adaptativa de muitas espécies. Thomas Kesselring. Depois de nós, o dilúvio. A dimensão do meio ambiente . In : Ética, política e desenvolvimento humano: a justiça na era da globalização. Benno Dischinger (Trad.). Caxias do Sul, RS: Educs, 2007, p. 222 (com adaptações). Em relação aos aspectos linguísticos e às ideias do texto",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A história da irrigação se confunde, na maioria das vezes, com a história da agricultura e da prosperidade econômica de inúmeros povos. Muitas civilizações antigas se originaram assim, em regiões áridas, onde a produção só era possível com o uso da irrigação. O Brasil, dotado de grandes áreas agricultáveis localizadas em regiões úmidas, não se baseou, no passado, na irrigação, embora haja registro de que, já em 1589, os jesuítas praticavam a técnica na antiga Fazenda Santa Cruz, no estado do Rio de Janeiro. Também na região mais seca do Nordeste e nos estados de Minas Gerais e São Paulo, era utilizada em culturas de cana-de-açúcar, batatinha, pomares e hortas. Em cafezais, seu emprego iniciou-se na década de 50 do século passado, com a utilização da aspersão, que se mostrou particularmente interessante, especialmente nas terras roxas do estado de São Paulo. A irrigação, de caráter suplementar às chuvas, tem sido aplicada na região Centro-Oeste do país, especialmente em culturas perenes. Embora a região central do Brasil apresente boas médias anuais de precipitação pluviométrica, sua distribuição anual (concentrada no verão, sujeita a veranicos e escassa ou completamente ausente no inverno) permite, apenas, a prática de culturas anuais (arroz, milho, soja etc.), as quais podem se desenvolver no período chuvoso e encontrar no solo um suprimento adequado de água. Já as culturas mais perenes (como café, citrus , cana-de-açúcar e pastagem) atravessam, no período seco, fases de sensível deficiência de água, pela limitada capacidade de armazenamento no solo, o que interrompe o desenvolvimento vegetativo e acarreta colheitas menores ou nulas. A vantagem e a principal justificativa econômica da irrigação suplementar estão na garantia de safra, a despeito da incerteza das chuvas. Na região Nordeste, a irrigação foi introduzida pelo governo federal e aparece vinculada ao abastecimento de água no Semiárido e a planos de desenvolvimento do vale do São Francisco. Ali, a irrigação é vista como importante medida para amenizar os problemas advindos das secas periódicas, que acarretam sérias consequências econômicas e sociais. No contexto das estratégias nacionais de desenvolvimento, um programa de irrigação pode contribuir para o equacionamento de um amplo conjunto de problemas estruturais. Com relação à geração de empregos diretos, a agricultura irrigada nordestina é mais intensiva do que nas outras regiões do país. Na região semiárida, em especial no vale do São Francisco, a irrigação tem destacado papel a cumprir, como, aliás, já ocorre em importantes polos agroindustriais da região Nordeste. A irrigação constitui-se em uma das mais importantes tecnologias para o aumento da produtividade agrícola. Aliada a ela, uma série de práticas agronômicas deve ser devidamente considerada.\n\nInternet: <www.codevasf.gov.br> (com adaptações). No que se refere aos aspectos linguísticos e às ideias do texto",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Quadro das receitas e despesas CODEVASF 20XX\n\nDISCRIMINAÇÃO VALOR (R$) Receita de Alienação de bens imóveis em 500.000 Juazeiro Receita de remuneração de depósitos 4.500.000 bancários Receita proveniente do de serviço de fornecimento de água para o perímetro 12.500.000 irrigado Receita de alienação de bens imóveis em 1.500.000 Petrolina Despesa com locação de mão de obra 1.000.000 Despesa com obras e instalações (implantação, ampliação ou melhoria de 3.000.000 sistemas de esgotamento sanitário na área de atuação em Petrolina) Despesa com vencimentos e vantagens fixas 12.000.000 — pessoal civil Considerando o quadro hipotético apresentado, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Suponha que um veículo aéreo não tripulado tenha realizado uma missão aerofotogramétrica cujas características de aerolevantamento estão ilustradas nas duas figuras anteriores.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Com base na figura acima, que representa as curvas de nível de um terreno hipotético, julgue os itens subsequentes.",
+   "citacao": "",
+   "imagem": true
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma área hipotética foi imageada simultaneamente pelo satélite Landsat 8 na banda 4 (faixa espectral do vermelho) e pelo satélite ALOS-2 na banda L (faixa espectral de micro-ondas), conforme mostrado na figura acima. Na figura, MG representa uma área de mata de galeria; AG1 e AG2 representam reservatórios de água sem e com incidência de vento superficial, respectivamente; SE1 e SE2 representam áreas com solo exposto com baixa umidade e alta umidade, respectivamente. Com base na figura e nessas",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Internet: <desktop.arcgis.com>. As figuras acima representam exemplos de operações de proximidade e sobreposição que podem ser realizadas em",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "As figuras A, B e C a seguir mostram diferentes tipos de elipse de erros em função das variâncias [Var( x ), Var( y )] e da covariância CoVar( x , y ). A figura C corresponde a um círculo perfeito.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "VALOR RECEITAS ORÇAMENTÁRIAS (em milhões de reais) Previsão inicial 100 Receitas realizadas 105 DESPESAS ORÇAMENTÁRIAS Dotação inicial 100 Despesas empenhadas 80 Despesas liquidadas 70 Despesas pagas 60 Despesas empenhadas, liquidadas e pagas em 20X1 relativas a 20X0 10 Com base nas informações da tabela apresentada, que mostra",
+   "citacao": "contas extraídas em 31/12/20X0 da contabilidade de determinado",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Determinado auditor, durante a fase de planejamento da auditoria, determinou como erro tolerável distorções de até 0,5% por contas, desde que não superiores a 1% por grupo de contas. A tabela a seguir mostra a composição do ativo circulante da empresa auditada.\n\nvalor\n\nativo circulante\n\n(em milhares de R$) caixa 5.000 bancos 25.000 clientes 42.300 estoques 24.900 aplicações de curto prazo 8.500 Considerando essa situação hipotética e os dados fornecidos, julgue os próximos itens, relativos a planejamento, erro e amostragem em auditoria.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Quadro das receitas e despesas CODEVASF 20XX\n\nDISCRIMINAÇÃO VALOR (R$) Receita de Alienação de bens imóveis em\n\n500.000 Juazeiro Receita de remuneração de depósitos\n\n4.500.000 bancários Receita proveniente do de serviço de fornecimento de água para o perímetro 12.500.000 irrigado Receita de alienação de bens imóveis em\n\n1.500.000 Petrolina Despesa com locação de mão de obra 1.000.000 Despesa com obras e instalações (implantação, ampliação ou melhoria de\n\n3.000.000 sistemas de esgotamento sanitário na área de atuação em Petrolina) Despesa com vencimentos e vantagens fixas\n\n12.000.000 — pessoal civil Considerando o quadro hipotético apresentado, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Quadro das receitas e despesas CODEVASF 20XX\n\nDISCRIMINAÇÃO VALOR (R$) Receita de Alienação de bens imóveis em\n\n500.000 Juazeiro Receita de remuneração de depósitos\n\n4.500.000 bancários Receita proveniente do de serviço de fornecimento de água para o perímetro 12.500.000 irrigado Receita de alienação de bens imóveis em\n\n1.500.000 Petrolina Despesa com locação de mão de obra 1.000.000 Despesa com obras e instalações (implantação, ampliação ou melhoria de sistemas de esgotamento sanitário na área de 3.000.000 atuação em Petrolina) Despesa com vencimentos e vantagens fixas\n\n12.000.000 — pessoal civil Considerando o quadro hipotético apresentado, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Considerando o pré-dimensionamento do canal trapezoidal apresentado na figura precedente, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": true
+  },
+  {
+   "ref": "",
+   "conteudo": "Pesquisadores do Centro Nacional de Pesquisa e Inovação Agrícola da Hungria criaram acidentalmente um novo tipo de peixe chamado sturddlefish : um híbrido de peixe-espátula ( paddlefish ) e esturjão russo ( sturgeon ). Os cientistas que participaram da pesquisa afirmaram que o objetivo não era criar uma nova espécie, mas realizar ginogênese com as células reprodutivas dos animais.",
+   "citacao": "Internet:<revistagalileu.globo.com> (com adaptações).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Os impactos ambientais sobre o solo, água e sua microbiota causados pelo uso dos agrotóxicos estão relacionados principalmente com o tempo de permanência de seus resíduos nesses compartimentos acima do necessário para exercer sua ação. O destino dos agrotóxicos no ambiente é governado por processos de retenção, de transformação e de transporte, e por interações entre esses. Alguns tipos de agrotóxicos, ao permanecerem no ambiente ou atingirem o meio aquático, oferecem riscos para espécies animais por sua toxicidade e possibilita a bioacumulação ao longo da cadeia alimentar. Guarda et al. Avaliação da contaminação por pesticidas nos sedimentos do\n\nRio Formoso, no Estado de Tocantins . Revista Desafios, v. 7, 2020 (com\n\nadaptações). Tendo o texto anterior como referência inicial, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Figura 1. A interação da piscicultura em tanques-rede com uma série de atividades que podem definir o sucesso ou o fracasso dos empreendimentos aquícolas.\n\nBueno et al. Produção de peixes cultivados em reservatórios : ferramentas utilizadas nas estimativas de capacidade de suporte. Panorama da Aquicultura,\n\nsetembro, outubro, 2011.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O Pirá é uma espécie de peixe endêmica considerado símbolo da bacia hidrográfica do rio São Francisco. Por ser uma espécie que realiza a reprodução no período da piracema, o Pirá necessita realizar grandes migrações como estímulo natural à ovulação.\n\nInternet: <cbhsaofrancisco.org.br>. Tendo como referência inicial a figura e o texto apresentados,",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O surgimento de enfermidades em peixes, principalmente de origem bacteriana, tem aumentado significativamente nos últimos anos. Esse fato está associado a fatores, como a intensificação da produção aquícola, manejos errôneos, ausência de medidas sanitárias preventivas e, principalmente, má qualidade de água. Sabe-se que, a microbiota dos peixes é idêntica à microbiota da água em que está inserido, o que tem provocado o aumento crescente do número de gêneros bacterianos encontrados nos peixes, incluindo-se a ocorrência de patógenos de interesse em saúde pública.",
+   "citacao": "D. V. SILVA. Monitoramento da resistência à antimicrobianos na aquicultura : isolamento e infecção experimental de tilápia-do-Nilo com Klebsiella pneumoniae. 2020 vi, 59 p. In : Internet: <https://repositorio.unesp.br>.",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Considerando o circuito apresentado na figura precedente, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Considerando o sistema de comunicação cuja forma de onda é apresentada na figura anterior, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": true
+  },
+  {
+   "ref": "",
+   "conteudo": "Considere que o projetista de um sistema que precise ser controlado tenha como opções os controladores apresentados na",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "-- CONHECIMENTOS ESPECIALIZADOS --",
+   "citacao": "Quando um corpo está em equilíbrio estático, o somatório de todas as forças externas e de reações é igual a zero, da mesma forma ocorre para os momentos. As forças externas produzem forças internas e, da mesma forma, as forças internas estarão em equilíbrio estático. Com a finalidade de melhor entendimento dos esforços internos, esses são separados em forças (normais e cortantes) e momentos (fletores e torçores). Por outro lado, tem- se o equilíbrio dinâmico quando são adicionados a massa, o movimento e o tempo no equilíbrio estático. Além disso, são utilizadas várias grandezas que ajudam a determinação de esforços externos e internos. Dentre essas grandezas estão o centro de massa, momento de inércia de massa, centro de gravidade e o centroide.",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Ensaios em laboratório são necessários para a obtenção de algumas propriedades mecânicas do material. O teste de tração é bastante usado para tal e consiste em usar um corpo de prova padrão de um determinado material e tracionar até a sua ruptura. Com esse teste, é possível obter o comportamento mecânico do material pela curva tensão-deformação.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A cartografia visa à obtenção de dados e informações para a elaboração de plantas, cartas, mapas, gráficos, diagramas e outras formas de expressão. No que se refere a esse assunto, julgue os próximos itens.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "As American federal authorities and cybersecurity experts rush to identify the full scope of the SolarWinds compromise, the list of known targets grows. The fallout from the cyberattack on the Texas-based software company appears to be vast, with a slew of powerful U.S. government agencies and businesses seemingly being infected by hackers who are believed to be affiliated with Russia. SolarWinds says it has identified 18,000 customers potentially affected by the incident, which saw the culprits hijack software updates for a widely-used IT monitoring tool called \"Orion\" to spread malware, seemingly with the intention of espionage. The consequences of the brazen cyber-assault, which was first discovered by security firm FireEye after it too was infiltrated by the same group, are yet to be understood. But experts fear the hackers' access could be exploited to steal sensitive information or destroy and falsify government data, and warn it could take years to fix. While the full list of victims is unclear — and expanding almost daily — Microsoft said its teams had identified more than 40 of its customers the attackers had aimed at \"more precisely and compromised through additional and sophisticated measures.\" It now seems likely the scope of the victims could be broad. Microsoft said the initial list included security, technology and non-governmental organizations (NGOs) alongside the government targets. It said 80 percent of attacks that it logged were U.S. based. \"This is not 'espionage as usual,' even in the digital age. Instead, it represents an act of recklessness that created a serious technological vulnerability for the United States and the world,\" Brad Smith, president of the U.S. tech giant, wrote on Thursday. \"The attack unfortunately represents a broad and successful espionage-based assault on both the confidential information of the U.S. government and the tech tools used by firms to protect them. The attack is ongoing,\" the executive continued. Analysis is ongoing to determine which companies were impacted by the hack, as just because an entity used Orion is not evidence that it was actively compromised.",
+   "citacao": "Internet: <www.newsweek.com> (adapted).",
+   "imagem": false
   }
  ]
 }

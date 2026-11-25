@@ -149,7 +149,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso clínico, a conduta recomendada é realizar a erradicação do H. pylori e proceder à vigilância da mucosa gástrica com realização de endoscopia digestiva seriada, para que se possa avaliar se ocorrerá evolução da metaplasia intestinal para displasia e, consequentemente, para neoplasia.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-ses-df-anestesiologia-011",
@@ -215,7 +216,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se na paciente ocorrer trombocitose, complicação não hemorrágica decorrente do uso de heparina, essa medicação deverá ser imediatamente substituída por anticoagulantes orais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-ses-df-anestesiologia-017",
@@ -226,7 +228,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nessa situação, deve-se inicialmente indicar repouso em posição Trendelemburg, uso de meias elásticas e administração imediata de anticoagulantes orais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-ses-df-anestesiologia-018",
@@ -347,7 +350,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para o tratamento da referida paciente é contraindicado o uso de trombolítico, tanto por ter sido ultrapassado o tempo da janela terapêutica recomendado — intervalo de tempo entre o início dos sintomas e a confirmação do diagnóstico clínico-laboratorial — quanto pelos achados descritos no laudo da tomografia computadorizada de crânio.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-ses-df-anestesiologia-029",
@@ -358,7 +362,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O principal diagnóstico para a paciente desse caso clínico é de acidente vascular cerebral hemorrágico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-ses-df-anestesiologia-030",
@@ -413,7 +418,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A reação hansênica do tipo 2 envolve principalmente mecanismos associados à imunidade mediada por células ou de hipersensibilidade tardia. O processo inflamatório acomete, principalmente, a pele e os nervos invadidos pelo bacilo hansênico, ocasionando dor e edema em lesões preexistentes, que podem sofrer descamação ou ulceração.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-ses-df-anestesiologia-035",
@@ -424,7 +430,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A reação hansênica do tipo 1, cuja expressão clínica mais frequente é o eritema nodoso hansênico, caracteriza-se por reação inflamatória aguda, sistêmica, envolvendo a formação de imunocomplexos que circulam no sangue periférico. Essa reação manifesta-se por febre, mal-estar geral e presença de placas e nódulos eritematosos disseminados; podendo desencadear complicações sérias, como as neurites e uveítes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-ses-df-anestesiologia-036",
@@ -545,7 +552,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pericardite, hipervolemia refratária a diuréticos, sangramentos associados à uremia, acidose metabólica não controlável, náuseas e vômitos persistentes, manifestações clínicas de encefalopatia, hipercalemia não controlada clinicamente e hipertensão arterial refratária a tratamento clínico são condições clínicas indicativas de início de terapia contínua de reposição renal em pacientes com IRC.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-ses-df-anestesiologia-047",
@@ -1084,7 +1092,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pode-se afirmar, com acuidade maior que 90%, que o diagnóstico dessa paciente é de vaginose bacteriana.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-ses-df-anestesiologia-096",
@@ -1095,7 +1104,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso em questão, o exame a fresco da secreção vaginal, por meio da adição de uma gota do conteúdo vaginal em soro fisiológico, é patognomônico da vaginose bacteriana, quando se observa o movimento dos parasitas ao microscópio.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-ses-df-anestesiologia-097",
@@ -1139,7 +1149,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os nódulos de Aschoff, patognomônicos da CRC, agem como células apresentadoras de antígeno para as células T, o que amplifica a resposta imune e promove a ativação de clones autorreativos de linfócitos T.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-anestesiologia-101",
@@ -1150,7 +1161,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Deve-se recomendar ao paciente o uso de abciximab, inibidor da glicoproteína IIb/IIIa, por se tratar de caso de síndrome coronariana aguda de alto risco.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-anestesiologia-102",
@@ -1161,7 +1173,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os resultados dos exames indicam que esse é um caso de angina instável de início recente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-anestesiologia-103",
@@ -1172,7 +1185,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A esse paciente deve-se administrar imediatamente amiodarona, visando à redução da mortalidade intra-hospitalar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-ses-df-anestesiologia-104",
@@ -1183,7 +1197,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nessa situação, deve-se submeter imediatamente o paciente à intubação orotraqueal auxiliada com a manobra de Sellick.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-ses-df-anestesiologia-105",
@@ -1469,7 +1484,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso clínico, a conduta recomendada é realizar a erradicação do H. pylori e proceder à vigilância da mucosa gástrica com realização de endoscopia digestiva seriada, para que se possa avaliar se ocorrerá evolução da metaplasia intestinal para displasia e, consequentemente, para neoplasia.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-ses-df-obstetricia-ginecologia-011",
@@ -1535,7 +1551,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se na paciente ocorrer trombocitose, complicação não hemorrágica decorrente do uso de heparina, essa medicação deverá ser imediatamente substituída por anticoagulantes orais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-ses-df-obstetricia-ginecologia-017",
@@ -1546,7 +1563,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nessa situação, deve-se inicialmente indicar repouso em posição Trendelemburg, uso de meias elásticas e administração imediata de anticoagulantes orais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-ses-df-obstetricia-ginecologia-018",
@@ -1667,7 +1685,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para o tratamento da referida paciente é contraindicado o uso de trombolítico, tanto por ter sido ultrapassado o tempo da janela terapêutica recomendado — intervalo de tempo entre o início dos sintomas e a confirmação do diagnóstico clínico-laboratorial — quanto pelos achados descritos no laudo da tomografia computadorizada de crânio.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-ses-df-obstetricia-ginecologia-029",
@@ -1678,7 +1697,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O principal diagnóstico para a paciente desse caso clínico é de acidente vascular cerebral hemorrágico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-ses-df-obstetricia-ginecologia-030",
@@ -1733,7 +1753,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A reação hansênica do tipo 2 envolve principalmente mecanismos associados à imunidade mediada por células ou de hipersensibilidade tardia. O processo inflamatório acomete, principalmente, a pele e os nervos invadidos pelo bacilo hansênico, ocasionando dor e edema em lesões preexistentes, que podem sofrer descamação ou ulceração.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-ses-df-obstetricia-ginecologia-035",
@@ -1744,7 +1765,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A reação hansênica do tipo 1, cuja expressão clínica mais frequente é o eritema nodoso hansênico, caracteriza-se por reação inflamatória aguda, sistêmica, envolvendo a formação de imunocomplexos que circulam no sangue periférico. Essa reação manifesta-se por febre, mal-estar geral e presença de placas e nódulos eritematosos disseminados; podendo desencadear complicações sérias, como as neurites e uveítes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-ses-df-obstetricia-ginecologia-036",
@@ -1865,7 +1887,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pericardite, hipervolemia refratária a diuréticos, sangramentos associados à uremia, acidose metabólica não controlável, náuseas e vômitos persistentes, manifestações clínicas de encefalopatia, hipercalemia não controlada clinicamente e hipertensão arterial refratária a tratamento clínico são condições clínicas indicativas de início de terapia contínua de reposição renal em pacientes com IRC.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-ses-df-obstetricia-ginecologia-047",
@@ -2404,7 +2427,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pode-se afirmar, com acuidade maior que 90%, que o diagnóstico dessa paciente é de vaginose bacteriana.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-ses-df-obstetricia-ginecologia-096",
@@ -2415,7 +2439,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso em questão, o exame a fresco da secreção vaginal, por meio da adição de uma gota do conteúdo vaginal em soro fisiológico, é patognomônico da vaginose bacteriana, quando se observa o movimento dos parasitas ao microscópio.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-ses-df-obstetricia-ginecologia-097",
@@ -2459,7 +2484,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os nódulos de Aschoff, patognomônicos da CRC, agem como células apresentadoras de antígeno para as células T, o que amplifica a resposta imune e promove a ativação de clones autorreativos de linfócitos T.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-obstetricia-ginecologia-101",
@@ -2470,7 +2496,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Deve-se recomendar ao paciente o uso de abciximab, inibidor da glicoproteína IIb/IIIa, por se tratar de caso de síndrome coronariana aguda de alto risco.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-obstetricia-ginecologia-102",
@@ -2481,7 +2508,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os resultados dos exames indicam que esse é um caso de angina instável de início recente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-obstetricia-ginecologia-103",
@@ -2492,7 +2520,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A esse paciente deve-se administrar imediatamente amiodarona, visando à redução da mortalidade intra-hospitalar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-ses-df-obstetricia-ginecologia-104",
@@ -2503,7 +2532,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nessa situação, deve-se submeter imediatamente o paciente à intubação orotraqueal auxiliada com a manobra de Sellick.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-ses-df-obstetricia-ginecologia-105",
@@ -2789,7 +2819,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso clínico, a conduta recomendada é realizar a erradicação do H. pylori e proceder à vigilância da mucosa gástrica com realização de endoscopia digestiva seriada, para que se possa avaliar se ocorrerá evolução da metaplasia intestinal para displasia e, consequentemente, para neoplasia.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-ses-df-cirurgia-geral-011",
@@ -2855,7 +2886,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se na paciente ocorrer trombocitose, complicação não hemorrágica decorrente do uso de heparina, essa medicação deverá ser imediatamente substituída por anticoagulantes orais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-ses-df-cirurgia-geral-017",
@@ -2866,7 +2898,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nessa situação, deve-se inicialmente indicar repouso em posição Trendelemburg, uso de meias elásticas e administração imediata de anticoagulantes orais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-ses-df-cirurgia-geral-018",
@@ -2987,7 +3020,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para o tratamento da referida paciente é contraindicado o uso de trombolítico, tanto por ter sido ultrapassado o tempo da janela terapêutica recomendado — intervalo de tempo entre o início dos sintomas e a confirmação do diagnóstico clínico-laboratorial — quanto pelos achados descritos no laudo da tomografia computadorizada de crânio.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-ses-df-cirurgia-geral-029",
@@ -2998,7 +3032,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O principal diagnóstico para a paciente desse caso clínico é de acidente vascular cerebral hemorrágico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-ses-df-cirurgia-geral-030",
@@ -3053,7 +3088,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A reação hansênica do tipo 2 envolve principalmente mecanismos associados à imunidade mediada por células ou de hipersensibilidade tardia. O processo inflamatório acomete, principalmente, a pele e os nervos invadidos pelo bacilo hansênico, ocasionando dor e edema em lesões preexistentes, que podem sofrer descamação ou ulceração.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-ses-df-cirurgia-geral-035",
@@ -3064,7 +3100,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A reação hansênica do tipo 1, cuja expressão clínica mais frequente é o eritema nodoso hansênico, caracteriza-se por reação inflamatória aguda, sistêmica, envolvendo a formação de imunocomplexos que circulam no sangue periférico. Essa reação manifesta-se por febre, mal-estar geral e presença de placas e nódulos eritematosos disseminados; podendo desencadear complicações sérias, como as neurites e uveítes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-ses-df-cirurgia-geral-036",
@@ -3185,7 +3222,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pericardite, hipervolemia refratária a diuréticos, sangramentos associados à uremia, acidose metabólica não controlável, náuseas e vômitos persistentes, manifestações clínicas de encefalopatia, hipercalemia não controlada clinicamente e hipertensão arterial refratária a tratamento clínico são condições clínicas indicativas de início de terapia contínua de reposição renal em pacientes com IRC.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-ses-df-cirurgia-geral-047",
@@ -3724,7 +3762,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pode-se afirmar, com acuidade maior que 90%, que o diagnóstico dessa paciente é de vaginose bacteriana.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-ses-df-cirurgia-geral-096",
@@ -3735,7 +3774,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso em questão, o exame a fresco da secreção vaginal, por meio da adição de uma gota do conteúdo vaginal em soro fisiológico, é patognomônico da vaginose bacteriana, quando se observa o movimento dos parasitas ao microscópio.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-ses-df-cirurgia-geral-097",
@@ -3779,7 +3819,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os nódulos de Aschoff, patognomônicos da CRC, agem como células apresentadoras de antígeno para as células T, o que amplifica a resposta imune e promove a ativação de clones autorreativos de linfócitos T.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-cirurgia-geral-101",
@@ -3790,7 +3831,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Deve-se recomendar ao paciente o uso de abciximab, inibidor da glicoproteína IIb/IIIa, por se tratar de caso de síndrome coronariana aguda de alto risco.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-cirurgia-geral-102",
@@ -3801,7 +3843,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os resultados dos exames indicam que esse é um caso de angina instável de início recente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-cirurgia-geral-103",
@@ -3812,7 +3855,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A esse paciente deve-se administrar imediatamente amiodarona, visando à redução da mortalidade intra-hospitalar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-ses-df-cirurgia-geral-104",
@@ -3823,7 +3867,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nessa situação, deve-se submeter imediatamente o paciente à intubação orotraqueal auxiliada com a manobra de Sellick.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-ses-df-cirurgia-geral-105",
@@ -4109,7 +4154,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso clínico, a conduta recomendada é realizar a erradicação do H. pylori e proceder à vigilância da mucosa gástrica com realização de endoscopia digestiva seriada, para que se possa avaliar se ocorrerá evolução da metaplasia intestinal para displasia e, consequentemente, para neoplasia.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-4-011",
@@ -4175,7 +4221,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se na paciente ocorrer trombocitose, complicação não hemorrágica decorrente do uso de heparina, essa medicação deverá ser imediatamente substituída por anticoagulantes orais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-4-017",
@@ -4186,7 +4233,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nessa situação, deve-se inicialmente indicar repouso em posição Trendelemburg, uso de meias elásticas e administração imediata de anticoagulantes orais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-4-018",
@@ -4307,7 +4355,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para o tratamento da referida paciente é contraindicado o uso de trombolítico, tanto por ter sido ultrapassado o tempo da janela terapêutica recomendado — intervalo de tempo entre o início dos sintomas e a confirmação do diagnóstico clínico-laboratorial — quanto pelos achados descritos no laudo da tomografia computadorizada de crânio.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-4-029",
@@ -4318,7 +4367,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O principal diagnóstico para a paciente desse caso clínico é de acidente vascular cerebral hemorrágico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-4-030",
@@ -4373,7 +4423,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A reação hansênica do tipo 2 envolve principalmente mecanismos associados à imunidade mediada por células ou de hipersensibilidade tardia. O processo inflamatório acomete, principalmente, a pele e os nervos invadidos pelo bacilo hansênico, ocasionando dor e edema em lesões preexistentes, que podem sofrer descamação ou ulceração.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-4-035",
@@ -4384,7 +4435,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A reação hansênica do tipo 1, cuja expressão clínica mais frequente é o eritema nodoso hansênico, caracteriza-se por reação inflamatória aguda, sistêmica, envolvendo a formação de imunocomplexos que circulam no sangue periférico. Essa reação manifesta-se por febre, mal-estar geral e presença de placas e nódulos eritematosos disseminados; podendo desencadear complicações sérias, como as neurites e uveítes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-4-036",
@@ -4505,7 +4557,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pericardite, hipervolemia refratária a diuréticos, sangramentos associados à uremia, acidose metabólica não controlável, náuseas e vômitos persistentes, manifestações clínicas de encefalopatia, hipercalemia não controlada clinicamente e hipertensão arterial refratária a tratamento clínico são condições clínicas indicativas de início de terapia contínua de reposição renal em pacientes com IRC.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-4-047",
@@ -5044,7 +5097,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pode-se afirmar, com acuidade maior que 90%, que o diagnóstico dessa paciente é de vaginose bacteriana.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-4-096",
@@ -5055,7 +5109,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso em questão, o exame a fresco da secreção vaginal, por meio da adição de uma gota do conteúdo vaginal em soro fisiológico, é patognomônico da vaginose bacteriana, quando se observa o movimento dos parasitas ao microscópio.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-4-097",
@@ -5099,7 +5154,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os nódulos de Aschoff, patognomônicos da CRC, agem como células apresentadoras de antígeno para as células T, o que amplifica a resposta imune e promove a ativação de clones autorreativos de linfócitos T.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-4-101",
@@ -5110,7 +5166,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Deve-se recomendar ao paciente o uso de abciximab, inibidor da glicoproteína IIb/IIIa, por se tratar de caso de síndrome coronariana aguda de alto risco.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-4-102",
@@ -5121,7 +5178,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os resultados dos exames indicam que esse é um caso de angina instável de início recente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-4-103",
@@ -5132,7 +5190,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A esse paciente deve-se administrar imediatamente amiodarona, visando à redução da mortalidade intra-hospitalar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-4-104",
@@ -5143,7 +5202,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nessa situação, deve-se submeter imediatamente o paciente à intubação orotraqueal auxiliada com a manobra de Sellick.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-4-105",
@@ -5429,7 +5489,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso clínico, a conduta recomendada é realizar a erradicação do H. pylori e proceder à vigilância da mucosa gástrica com realização de endoscopia digestiva seriada, para que se possa avaliar se ocorrerá evolução da metaplasia intestinal para displasia e, consequentemente, para neoplasia.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-trabalho-011",
@@ -5495,7 +5556,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se na paciente ocorrer trombocitose, complicação não hemorrágica decorrente do uso de heparina, essa medicação deverá ser imediatamente substituída por anticoagulantes orais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-trabalho-017",
@@ -5506,7 +5568,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nessa situação, deve-se inicialmente indicar repouso em posição Trendelemburg, uso de meias elásticas e administração imediata de anticoagulantes orais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-trabalho-018",
@@ -5627,7 +5690,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para o tratamento da referida paciente é contraindicado o uso de trombolítico, tanto por ter sido ultrapassado o tempo da janela terapêutica recomendado — intervalo de tempo entre o início dos sintomas e a confirmação do diagnóstico clínico-laboratorial — quanto pelos achados descritos no laudo da tomografia computadorizada de crânio.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-trabalho-029",
@@ -5638,7 +5702,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O principal diagnóstico para a paciente desse caso clínico é de acidente vascular cerebral hemorrágico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-trabalho-030",
@@ -5693,7 +5758,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A reação hansênica do tipo 2 envolve principalmente mecanismos associados à imunidade mediada por células ou de hipersensibilidade tardia. O processo inflamatório acomete, principalmente, a pele e os nervos invadidos pelo bacilo hansênico, ocasionando dor e edema em lesões preexistentes, que podem sofrer descamação ou ulceração.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-trabalho-035",
@@ -5704,7 +5770,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A reação hansênica do tipo 1, cuja expressão clínica mais frequente é o eritema nodoso hansênico, caracteriza-se por reação inflamatória aguda, sistêmica, envolvendo a formação de imunocomplexos que circulam no sangue periférico. Essa reação manifesta-se por febre, mal-estar geral e presença de placas e nódulos eritematosos disseminados; podendo desencadear complicações sérias, como as neurites e uveítes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-trabalho-036",
@@ -5825,7 +5892,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pericardite, hipervolemia refratária a diuréticos, sangramentos associados à uremia, acidose metabólica não controlável, náuseas e vômitos persistentes, manifestações clínicas de encefalopatia, hipercalemia não controlada clinicamente e hipertensão arterial refratária a tratamento clínico são condições clínicas indicativas de início de terapia contínua de reposição renal em pacientes com IRC.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-trabalho-047",
@@ -6364,7 +6432,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pode-se afirmar, com acuidade maior que 90%, que o diagnóstico dessa paciente é de vaginose bacteriana.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-trabalho-096",
@@ -6375,7 +6444,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso em questão, o exame a fresco da secreção vaginal, por meio da adição de uma gota do conteúdo vaginal em soro fisiológico, é patognomônico da vaginose bacteriana, quando se observa o movimento dos parasitas ao microscópio.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-trabalho-097",
@@ -6419,7 +6489,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os nódulos de Aschoff, patognomônicos da CRC, agem como células apresentadoras de antígeno para as células T, o que amplifica a resposta imune e promove a ativação de clones autorreativos de linfócitos T.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-trabalho-101",
@@ -6430,7 +6501,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Deve-se recomendar ao paciente o uso de abciximab, inibidor da glicoproteína IIb/IIIa, por se tratar de caso de síndrome coronariana aguda de alto risco.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-trabalho-102",
@@ -6441,7 +6513,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os resultados dos exames indicam que esse é um caso de angina instável de início recente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-trabalho-103",
@@ -6452,7 +6525,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A esse paciente deve-se administrar imediatamente amiodarona, visando à redução da mortalidade intra-hospitalar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-trabalho-104",
@@ -6463,7 +6537,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nessa situação, deve-se submeter imediatamente o paciente à intubação orotraqueal auxiliada com a manobra de Sellick.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-trabalho-105",
@@ -6650,7 +6725,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para controlar de forma mais adequada a frequência cardíaca dessa paciente, deve-se, nesse momento, substituir o atenolol pela amiodarona.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-002",
@@ -6661,7 +6737,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Recomenda-se a introdução de ácido acetilsalicílico para a prevenção de tromboembolismo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-003",
@@ -6672,7 +6749,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Após a ablação por cateter dessa arritmia com sucesso, o risco de eventos tromboembólicos cessará.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-004",
@@ -6683,7 +6761,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O mecanismo eletrofisiológico mais provável dessa arritmia é devido a defeitos canaliculares que permitem a geração de novos potenciais de ação nos pós-potenciais precoces e tardios.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-005",
@@ -6694,7 +6773,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Recomenda-se, inicialmente, dieta líquida sem resíduos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-006",
@@ -6705,7 +6785,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hipótese diagnóstica principal para esse caso é de diverticulite aguda.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-007",
@@ -6716,7 +6797,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para o sucesso do tratamento, a internação hospitalar imediata é imprescindível.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-008",
@@ -6727,7 +6809,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A antibioticoterapia empírica deve ser dirigida contra bactérias Gram-negativas e anaeróbias.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-009",
@@ -6760,7 +6843,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para o caso em questão, é indicado o uso de metoprolol por via endovenosa nas primeiras vinte e quatro horas, seguido da administração oral, a partir do segundo dia, visando à redução de arritmias ventriculares e morte súbita.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-012",
@@ -6771,7 +6855,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Está indicado o uso de tenecteplase em um único bolo intravenoso.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-013",
@@ -6782,7 +6867,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso clínico, no manuseio do desconforto isquêmico, o profissional deve recomendar a aplicação de nitroglicerina intravenosa por vinte e quatro horas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-014",
@@ -6837,7 +6923,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para o caso em tela, recomenda-se o uso de ciprofloxacina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-019",
@@ -6848,7 +6935,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O tratamento deverá ser feito em regime de internação hospitalar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-020",
@@ -6947,7 +7035,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso, o uso da ivabradina, um inibidor específico e seletivo da corrente “If” do nódulo sinoatrial, permitirá uma redução do risco de novas hospitalizações.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-029",
@@ -6958,7 +7047,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Deve ser indicada para esse caso terapia de ressincronização ventricular e atrioventricular.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-030",
@@ -6969,7 +7059,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Recomenda-se a introdução de espironolactona e a associação hidralazina e nitrato junto com o tratamento padrão, objetivando a redução de mortalidade e a melhora da qualidade de vida.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-031",
@@ -7002,7 +7093,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Por ser o paciente do sexo masculino e previamente hígido, ele deve ser tranquilizado sobre o curso autolimitado e sem complicações da doença.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-034",
@@ -7013,7 +7105,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Recomenda-se, imediatamente, o teste sorológico (ELISA) para a detecção de anticorpos específicos contra o Zika vírus.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-035",
@@ -7640,7 +7733,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "alteração ortostática dos sinais vitais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-092",
@@ -7651,7 +7745,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "hipertensão arterial acentuada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-093",
@@ -7662,7 +7757,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "anisocoria.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-094",
@@ -7673,7 +7769,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "crise de dispneia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-095",
@@ -7684,7 +7781,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "taquicardia não responsiva ao tratamento inicial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-intensiva-096",
@@ -7970,7 +8068,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Após a ablação por cateter dessa arritmia com sucesso, o risco de eventos tromboembólicos cessará.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-paliativa-002",
@@ -7981,7 +8080,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O mecanismo eletrofisiológico mais provável dessa arritmia é devido a defeitos canaliculares que permitem a geração de novos potenciais de ação nos pós-potenciais precoces e tardios.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-paliativa-003",
@@ -7992,7 +8092,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para controlar de forma mais adequada a frequência cardíaca dessa paciente, deve-se, nesse momento, substituir o atenolol pela amiodarona.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-paliativa-004",
@@ -8003,7 +8104,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Recomenda-se a introdução de ácido acetilsalicílico para a prevenção de tromboembolismo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-paliativa-005",
@@ -8014,7 +8116,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para o sucesso do tratamento, a internação hospitalar imediata é imprescindível.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-paliativa-006",
@@ -8025,7 +8128,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A antibioticoterapia empírica deve ser dirigida contra bactérias Gram-negativas e anaeróbias.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-paliativa-007",
@@ -8036,7 +8140,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Recomenda-se, inicialmente, dieta líquida sem resíduos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-paliativa-008",
@@ -8047,7 +8152,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hipótese diagnóstica principal para esse caso é de diverticulite aguda.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-paliativa-009",
@@ -8069,7 +8175,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso clínico, no manuseio do desconforto isquêmico, o profissional deve recomendar a aplicação de nitroglicerina intravenosa por vinte e quatro horas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-paliativa-011",
@@ -8080,7 +8187,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para o caso em questão, é indicado o uso de metoprolol por via endovenosa nas primeiras vinte e quatro horas, seguido da administração oral, a partir do segundo dia, visando à redução de arritmias ventriculares e morte súbita.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-paliativa-012",
@@ -8091,7 +8199,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Está indicado o uso de tenecteplase em um único bolo intravenoso.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-paliativa-013",
@@ -8135,7 +8244,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para o caso em tela, recomenda-se o uso de ciprofloxacina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-paliativa-017",
@@ -8146,7 +8256,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O tratamento deverá ser feito em regime de internação hospitalar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-paliativa-018",
@@ -9026,7 +9137,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pacientes em uso de dose acima de 40 mg/dia de corticosteroides por um período superior a seis meses possuem alto risco de osteoporose e devem realizar densitometria óssea anual.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-paliativa-098",
@@ -9037,7 +9149,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os agentes antirreabsortivos alendronato e o risendronato reduzem fraturas vertebrais e não vertebrais em aproximadamente 50% dos pacientes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-paliativa-099",
@@ -9048,7 +9161,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Raloxifeno é um inibidor da reabsorção óssea que diminui o risco de fratura vertebral, mas não reduz risco de fraturas não vertebrais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-paliativa-100",
@@ -9059,7 +9173,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O uso de bifosfonados deve ser limitado a pacientes que possuem clearance de creatinina $ 35 mL/min /1,73 m 2 .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-paliativa-101",
@@ -9290,7 +9405,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O uso de antipsicóticos de depósito pode ser uma boa opção para essa paciente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2016-ses-df-psiquiatria-infancia-adolescencia-002",
@@ -9301,7 +9417,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A paciente citada apresenta síndrome de Capgras.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2016-ses-df-psiquiatria-infancia-adolescencia-003",
@@ -9312,7 +9429,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A primeira opção de tratamento para os movimentos bucolinguomastigatórios, os movimentos lateralizados de mandíbula e os movimentos coreoatetoides de língua seria o uso de biperideno.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2016-ses-df-psiquiatria-infancia-adolescencia-004",
@@ -9323,7 +9441,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A paciente mencionada tem diagnóstico de esquizofrenia residual.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2016-ses-df-psiquiatria-infancia-adolescencia-005",
@@ -9334,7 +9453,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A paciente em questão apresenta palilalia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2016-ses-df-psiquiatria-infancia-adolescencia-006",
@@ -10456,7 +10576,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O quadro clínico apresentado pela paciente costuma ocorrer frequentemente em indivíduos com pouca instrução e baixo nível socioeconômico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2016-ses-df-psiquiatria-infancia-adolescencia-108",
@@ -10467,7 +10588,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico mais provável para essa paciente é transtorno conversivo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2016-ses-df-psiquiatria-infancia-adolescencia-109",
@@ -12029,7 +12151,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso clínico, a conduta recomendada é realizar a erradicação do H. pylori e proceder à vigilância da mucosa gástrica com realização de endoscopia digestiva seriada, para que se possa avaliar se ocorrerá evolução da metaplasia intestinal para displasia e, consequentemente, para neoplasia.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-10-011",
@@ -12095,7 +12218,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se na paciente ocorrer trombocitose, complicação não hemorrágica decorrente do uso de heparina, essa medicação deverá ser imediatamente substituída por anticoagulantes orais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-10-017",
@@ -12106,7 +12230,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nessa situação, deve-se inicialmente indicar repouso em posição Trendelemburg, uso de meias elásticas e administração imediata de anticoagulantes orais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-10-018",
@@ -12227,7 +12352,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para o tratamento da referida paciente é contraindicado o uso de trombolítico, tanto por ter sido ultrapassado o tempo da janela terapêutica recomendado — intervalo de tempo entre o início dos sintomas e a confirmação do diagnóstico clínico-laboratorial — quanto pelos achados descritos no laudo da tomografia computadorizada de crânio.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-10-029",
@@ -12238,7 +12364,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O principal diagnóstico para a paciente desse caso clínico é de acidente vascular cerebral hemorrágico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-10-030",
@@ -12293,7 +12420,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A reação hansênica do tipo 2 envolve principalmente mecanismos associados à imunidade mediada por células ou de hipersensibilidade tardia. O processo inflamatório acomete, principalmente, a pele e os nervos invadidos pelo bacilo hansênico, ocasionando dor e edema em lesões preexistentes, que podem sofrer descamação ou ulceração.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-10-035",
@@ -12304,7 +12432,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A reação hansênica do tipo 1, cuja expressão clínica mais frequente é o eritema nodoso hansênico, caracteriza-se por reação inflamatória aguda, sistêmica, envolvendo a formação de imunocomplexos que circulam no sangue periférico. Essa reação manifesta-se por febre, mal-estar geral e presença de placas e nódulos eritematosos disseminados; podendo desencadear complicações sérias, como as neurites e uveítes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-10-036",
@@ -12425,7 +12554,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pericardite, hipervolemia refratária a diuréticos, sangramentos associados à uremia, acidose metabólica não controlável, náuseas e vômitos persistentes, manifestações clínicas de encefalopatia, hipercalemia não controlada clinicamente e hipertensão arterial refratária a tratamento clínico são condições clínicas indicativas de início de terapia contínua de reposição renal em pacientes com IRC.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-10-047",
@@ -12964,7 +13094,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pode-se afirmar, com acuidade maior que 90%, que o diagnóstico dessa paciente é de vaginose bacteriana.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-10-096",
@@ -12975,7 +13106,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso em questão, o exame a fresco da secreção vaginal, por meio da adição de uma gota do conteúdo vaginal em soro fisiológico, é patognomônico da vaginose bacteriana, quando se observa o movimento dos parasitas ao microscópio.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-10-097",
@@ -13019,7 +13151,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os nódulos de Aschoff, patognomônicos da CRC, agem como células apresentadoras de antígeno para as células T, o que amplifica a resposta imune e promove a ativação de clones autorreativos de linfócitos T.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-10-101",
@@ -13030,7 +13163,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Deve-se recomendar ao paciente o uso de abciximab, inibidor da glicoproteína IIb/IIIa, por se tratar de caso de síndrome coronariana aguda de alto risco.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-10-102",
@@ -13041,7 +13175,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os resultados dos exames indicam que esse é um caso de angina instável de início recente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-10-103",
@@ -13052,7 +13187,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A esse paciente deve-se administrar imediatamente amiodarona, visando à redução da mortalidade intra-hospitalar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-10-104",
@@ -13063,7 +13199,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nessa situação, deve-se submeter imediatamente o paciente à intubação orotraqueal auxiliada com a manobra de Sellick.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-ses-df-medicina-familia-comunidade-10-105",
@@ -13294,7 +13431,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pacientes com doença óssea adinâmica apresentam risco aumentado de fraturas e hipocalcemia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-006",
@@ -13305,7 +13443,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A doença óssea adinâmica é a forma predominante de osteodistrofia renal em pacientes submetidos à diálise peritoneal e à hemodiálise, particularmente os pacientes diabéticos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-007",
@@ -13316,7 +13455,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Reduzida concentração de cálcio no dialisato e uso de análogos da vitamina D são considerados fatores de risco para o aparecimento da doença óssea adinâmica.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-008",
@@ -13327,7 +13467,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na osteíte fibrosa cística, existe perda da atividade celular dos osteoblastos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-009",
@@ -13514,7 +13655,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Cefaleia na diálise, durante a sessão de hemodiálise, sem hipotensão ou sintomas sugestivos de desequilíbrio da diálise, pode ter como causa o consumo prévio de cafeína.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-026",
@@ -13525,7 +13667,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para tratar a hipotensão intradialítica, deve-se aumentar a concentração do cálcio no dialisato acima de 5 mEq/L.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-027",
@@ -13536,7 +13679,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A redução da temperatura do dialisato aumenta a resistência vascular periférica e melhora o estado hemodinâmico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-028",
@@ -13558,7 +13702,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Uma resposta inicial inadequada ao tratamento com agentes estimuladores da eritropoiese ocorre quando não há aumento da concentração da hemoglobina em pelo menos 3g/dL após o primeiro mês de tratamento do paciente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-030",
@@ -13569,7 +13714,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A administração de ferro intravenoso a pacientes com doença renal crônica deverá ser evitada se houver infecção sistêmica ativa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-031",
@@ -13580,7 +13726,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os diuréticos tiazídicos conservam seu efeito anti-hipertensivo em taxas de filtração glomerular (TFG) na faixa entre 30-50 mL/min/1,73 m 2 , o que os torna uma opção terapêutica para pacientes com DRC classe I, II, III.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-032",
@@ -13591,7 +13738,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A suplementação de bicarbonato de sódio oral deve ser indicada no tratamento da acidose metabólica relacionada à DRC somente quando a concentração sérica de bicarbonato de sódio for inferior a 15 mmol/L.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-033",
@@ -14053,7 +14201,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso o paciente em questão, após tratamento inicial adequado, permaneça com a coloração turva do efluente, essa peritonite será considerada refratária.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-075",
@@ -14064,7 +14213,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A análise laboratorial afasta o diagnóstico de peritonite.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-076",
@@ -14075,7 +14225,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A terapia antimicrobiana deve ser iniciada tão logo o efluente turvo seja detectado, sem esperar a confirmação laboratorial pela contagem de células.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-077",
@@ -14086,7 +14237,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na peritonite, a dor abdominal é geralmente localizada e associada com descompressão dolorosa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-078",
@@ -14097,7 +14249,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para o cálculo de dose de antibióticos a ser administrado no paciente, é necessário considerar o tipo de capilar utilizado na hemodiálise.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-079",
@@ -14108,7 +14261,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O paciente deve ser classificado como RIFLE I ( injury ).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-080",
@@ -14119,7 +14273,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A administração de furosemida endovenosa está indicada para esse paciente com o objetivo de melhorar o seu débito urinário.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-081",
@@ -14130,7 +14285,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O quadro clínico do paciente, em conjunto com os exames apresentados, indica a necessidade de iniciar terapia hemodialítica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-082",
@@ -14141,7 +14297,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Deve-se dar preferência à realização de hemodiálise intermitente convencional para esse paciente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-083",
@@ -14240,7 +14397,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "São possíveis causas para a FTE: infarto ou necrose cortical; trombose arterial ou venosa; estenose de artéria renal grave; e recorrência da doença de base.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 25
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-092",
@@ -14251,7 +14409,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os fatores de risco para a FTE estão relacionados a causas diversas associadas ao receptor ou ao procedimento cirúrgico, e não ao doador.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 25
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-093",
@@ -14262,7 +14421,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A FTE está associada à pior função renal e à pior sobrevida do enxerto, o que pode ser explicado pela maior incidência de rejeição aguda e crônica causadas, provavelmente, pela maior exposição antigênica de moléculas de MHC ( major histocompatibility complex ).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 25
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-094",
@@ -14273,7 +14433,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A definição mais utilizada de FTE é a que considera a necessidade de diálise nos primeiros sete dias após o transplante.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 25
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-095",
@@ -14284,7 +14445,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entre as causas para a FTE, a principal é a lesão aguda pré-renal.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 25
   },
   {
    "id": "cebraspe-2016-ses-df-transplante-renal-096",
@@ -14560,6 +14722,164 @@
    "tipo": "certo_errado",
    "enunciado": "O emprego de transfusões de hemácias em pacientes com DRC deve ser criterioso e restrito. Ocorrendo piora aguda da anemia, a transfusão estará indicada na ausência de manifestações clínicas se a concentração de hemoglobina for < 11g/dL.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Uma paciente com trinta e dois anos de idade procurou serviço médico por estar sentindo empachamento e queimação em epigástrio, que era aliviada após as refeições. Devido a esse quadro clínico, a paciente foi submetida a videoendoscopia digestiva alta com biópsia, por meio da qual foram identificadas, na mucosa do antro gástrico, áreas de atrofia intensa associadas a áreas sugestivas de metaplasia intestinal. O estudo histopatológico revelou a presença de H. pylori e atrofia da mucosa do antro com áreas de metaplasia intestinal incompleta tipo III. Com base nas informações apresentadas nesse caso clínico, julgue o próximo item.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma gestante com vinte e três anos de idade apresentou quadro de dor abdominal, febre e leucocitose no terceiro mês de gestação. Ao ser submetida à ultrassonografia abdominal, foi detectado que ela estava com apendicite aguda, cujo tratamento inicial foi a realização de videolaparoscopia com apendicectomia. No segundo dia do pós-operatório, a paciente apresentava panturrilha direita endurecida e dolorosa, além de limitação discreta de movimento do membro inferior direito em virtude do desconforto doloroso. Nessa ocasião, a paciente foi diagnosticada com trombose venosa profunda (TVP) da veia poplítea direita.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma paciente de cinquenta e cinco anos de idade foi levada a uma unidade de emergência de um hospital terciário com dificuldade de deambulação, havia duas horas, por não conseguir movimentar adequadamente o membro inferior direito e apresentar dificuldade de fala. Os acompanhantes relataram que a paciente era tabagista crônica e hipertensa, em uso irregular de medicação anti-hipertensiva. No exame clínico, constatou-se que a paciente estava consciente, orientada, eupneica, afebril, acianótica e com disfasia (leve) de expressão. Além disso, a paciente apresentou os seguintes dados clínicos: pressão arterial de 140 mmHg × 95 mmHg, frequência cardíaca de 90 bpm, saturação de oxigênio em ar ambiente de 94% (oximetria de pulso), ritmo cardíaco regular em dois tempos, bulhas normofonéticas, sem sopros, pulmões limpos, abdome livre, sem megalias, ruídos hidroaéreos presentes e normais. No exame neurológico, constataram-se disfasia de expressão, pupilas isocóricas e fotorreagentes, hemiparesia flácida em hemicorpo direito (mais acentuada no membro inferior direito), reflexos profundos acentuados à direita e presença do sinal de Babinski à direita. Os resultados da tomografia computadorizada do crânio sem contraste revelaram área de hipodensidade no território da artéria cerebral média esquerda, sem evidências de sinais de alta densidade. Com relação ao caso clínico anteriormente descrito, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "As reações hansênicas são fenômenos agudos que se sobrepõem à evolução crônica e insidiosa da hanseníase, sendo potencialmente responsáveis por perda funcional de nervos periféricos e agravantes",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Com relação à insuficiência renal crônica (IRC), julgue o próximo item.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma paciente de vinte e dois anos de idade compareceu ao ambulatório de ginecologia apresentando o seguinte quadro clínico: corrimento transvaginal branco-acinzentado, abundante, homogêneo, bolhoso, fétido, aderente à mucosa vaginal, associado a prurido genital, havia quatro dias. A paciente não apresentou outras comorbidades clínicas, não estava gestante, negou alergias e uso de medicações. O pH vaginal medido foi maior que 4,5 e o Whiff- test foi positivo. Com base nesse caso clínico, julgue os itens seguintes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Acerca da cardiopatia reumática crônica (CRC), julgue o item seguinte.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Durante consulta, um paciente de cinquenta e sete anos de idade, com histórico de hipertensão arterial sistêmica e tabagismo, reportou que, havia uma semana, vinha tendo episódios de dor retroesternal opressiva, de moderada intensidade, com irradiação para membro superior esquerdo. A dor geralmente surgia durante pequenos esforços habituais como o banho. Ele acrescentou que, no dia anterior à consulta, tivera, em momento de repouso, dois episódios de dor com as mesmas características, que cessaram em torno de vinte minutos. Na consulta, foi detectado que o paciente apresentava precordialgia que já persistia havia três horas com as mesmas características descritas anteriormente. No exame físico, constatou-se que o paciente estava com saturação de oxigênio de 93% (em ar ambiente), pressão arterial de 136 mmHg × 74 mmHg (aferida por três vezes), frequência cardíaca de 76 bpm e ritmo cardíaco regular em dois tempos sem sopros. O restante do exame físico foi normal. Os resultados da dosagem de CK–MB massa e da troponina, no momento de admissão no pronto-socorro, foram normais. O paciente foi submetido à realização de eletrocardiograma (com calibração padrão), cujo resultado está apresentado na figura precedente.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um paciente de sessenta e dois anos de idade apresentou perda súbita da consciência enquanto aguardava atendimento no pronto-socorro. Ele foi levado imediatamente à sala de emergência e foi conectado ao monitor cardíaco, no qual se apresentou o traçado eletrocardiográfico mostrado na figura precedente.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Cada um dos itens da prova objetiva está vinculado ao comando que imediatamente o antecede. De acordo com o comando a que cada um deles esteja vinculado, marque, na folha de respostas , para cada item: o campo designado com o código CERTO ; ou o campo designado com o código E , caso julgue o item os campos não serão apenadas, ou seja, não receberão pontuação negativa. Para as devidas marcações, use a documento válido para a correção da sua prova objetiva. • Em sua prova, caso haja item(ns) constituído(s) pela estrutura Situação Hipotética:\n\ncomo situação hipotética deverão ser considerados como premissa(s) para o julgamento da assertiva proposta. • Eventuais espaços livres — identificados ou não pela expressão “Espaço livre” — que constarem deste caderno de prova poderão ser\n\nutilizados para anotações, rascunhos etc.\n\nPROVA OBJETIVA\n\nClínica Médica",
+   "citacao": "Uma paciente de setenta e dois anos de idade, hipertensa e diabética, compareceu à consulta de rotina sem queixas. Estava em uso regular de atenolol 50 mg ao dia e metformina 1 g ao dia. No exame físico, a paciente apresentava pressão arterial de 132 mmHg × 84 mmHg (média de três medidas), frequência cardíaca de 86 bpm com ritmo cardíaco irregular, sem sopros. Não foram detectadas outras anormalidades durante o exame físico. Com relação ao caso clínico apresentado e ao resultado do eletrocardiograma (com calibração padrão) mostrado na figura",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "C , caso julgue o item ERRADO . A ausência de marcação ou a marcação de ambos\n\nfolha de respostas , único\n\n... seguida de Assertiva: ..., os dados apresentados\n\nUm indivíduo de cinquenta anos de idade, previamente hígido, sem febre, anorexia nem alteração do funcionamento intestinal, foi atendido na emergência com dor abdominal na fossa ilíaca esquerda e no hipogástrio havia quarenta e oito horas. No exame físico, constatou-se que ele estava em bom estado geral e, com a palpação abdominal, foi evidenciada leve dor na fossa ilíaca esquerda e no hipogástrio, sem sinais peritoneais. Não foram detectadas outras anormalidades durante o exame físico. O hemograma revelou discreta leucocitose, sem desvio à esquerda. Os demais exames laboratoriais não apresentaram anormalidades. A tomografia computadorizada do abdômen revelou espessamento inflamatório da parede intestinal de 6 mm, densificação da gordura pericólica e múltiplos divertículos, sem líquido livre ou abcessos.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma paciente de setenta e sete anos de idade foi atendida na emergência ambulatorial apresentando um quadro de precordialgia opressiva, de forte intensidade, com irradiação para região cervical havia quatro horas. Com base no relato da paciente, o médico ficou informado de antecedentes de hipertensão arterial sistêmica mal controlada e acidente vascular cerebral do tipo isquêmico, ocorrido dois meses antes da consulta. No exame físico, ela apresentou saturação de oxigênio (em ar ambiente) de 91%, pressão arterial de 91 mmHg × 58 mmHg (média de três medidas), frequência cardíaca de 78 bpm, turgência de jugular a 45º e ritmo cardíaco regular em dois tempos sem sopros. O restante do exame físico foi normal. Os resultados da dosagem de CK-MB massa e da troponina da admissão no pronto-socorro foram normais. Com base no quadro clínico apresentado e no resultado do eletrocardiograma (com calibração padrão) precedente, julgue os próximos itens.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma paciente de sessenta e quatro anos de idade, com antecedentes de hipertensão arterial sistêmica e diabetes do tipo 2 controladas, procurou o pronto atendimento. De acordo com as informações prestadas pela paciente, o médico registrou queixas de dispneia leve, tosse produtiva com expectoração amarelada e febre nos últimos dois dias. No exame físico, apresentava-se em regular estado geral, orientada no tempo e espaço, com saturação de oxigênio (em ar ambiente) de 93%, temperatura axilar de 38,6 ºC, pressão arterial de 131 mmHg × 78 mmHg (média de três medidas), frequência respiratória de 22 rpm, frequência cardíaca de 92 bpm e estertores crepitantes no terço superior pulmonar direito. O restante do exame físico foi normal. Apresentava discreta leucocitose sem desvio à esquerda, glicemia = 162 mg ' dL, ureia = 38 mg ' dL e os demais resultados foram normais. A radiografia de tórax revelou somente consolidação em ápice pulmonar direito.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um paciente de sessenta e um anos de idade, afrodescendente e com antecedente de hipertensão arterial fazia vários anos, compareceu ao ambulatório com quadro de dispneia. Havia trinta dias, apresentava dispneia aos esforços maiores que os habituais e, nas últimas duas semanas, o quadro evoluiu para dispneia aos médios e pequenos esforços. Estava em uso regular de enalapril 20 mg ao dia, furosemida 40 mg ao dia e carvedilol 50 mg ao dia. Durante o exame físico, apresentava-se com extremidades quentes, normocorado, frequência cardíaca de 92 bpm, pressão arterial de 136 mmHg × 84 mmHg, turgência jugular a 30 ºC e ausculta pulmonar normal. O ictus cordis era propulsivo no 6.º EICE linha axilar anterior, ritmo cardíaco em galope (presença de terceira bulha) e sem sopros. Os demais dados do exame físico apresentaram-se normais. O eletrocardiograma revelou ritmo sinusal com bloqueio de ramo esquerdo com duração do QRS de 152 ms. O ecocardiograma demonstrou fração de ejeção de 28% e nenhum dos exames laboratoriais de rotina demonstrou anormalidades significativas. Com relação ao caso clínico apresentado, julgue os itens subsequentes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um indivíduo de trinta e dois anos de idade procurou o serviço ambulatorial apresentando o seguinte quadro clínico: febre intermitente com início havia dois dias, hiperemia conjuntival não purulenta, artralgia nas mãos e cefaleia. No exame físico apresentava-se em bom estado geral, com temperatura axilar de 37,9 ºC, hemodinamicamente normal e com exantema maculopapular no tórax e abdômen. Os demais dados do exame físico não apresentaram alterações significativas. O teste de antigenemia NS1 da dengue pela técnica ELISA foi negativo. Com base no caso hipotético apresentado, julgue os itens subsequentes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "No quadro clínico de instabilidade hemodinâmica, identifica-se a presença de",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "de 78 bpm, turgência de jugular a 45º e ritmo cardíaco regular em dois tempos sem sopros. O restante do exame físico foi normal. Os resultados da dosagem de CK-MB massa e da troponina da admissão no pronto-socorro foram normais. Com base no quadro clínico apresentado e no resultado do eletrocardiograma (com calibração padrão) precedente, julgue os próximos itens.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Geriatria A osteoporose é uma desordem esquelética crônica de origem multifatorial que predispõe o indivíduo ao aumento do risco de fraturas e incapacidade física. Com relação a esse assunto, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Cada um dos itens da prova objetiva está vinculado ao comando que imediatamente o antecede. De acordo com o comando a que cada um deles esteja vinculado, marque, na folha de respostas , para cada item: o campo designado com o código CERTO ; ou o campo designado com o código E , caso julgue o item os campos não serão apenadas, ou seja, não receberão pontuação negativa. Para as devidas marcações, use a documento válido para a correção da sua prova objetiva. • Em sua prova, caso haja item(ns) constituído(s) pela estrutura Situação Hipotética:\n\ncomo situação hipotética deverão ser considerados como premissa(s) para o julgamento da assertiva proposta. • Eventuais espaços livres — identificados ou não pela expressão “Espaço livre” — que constarem deste caderno de prova poderão ser\n\nutilizados para anotações, rascunhos etc.\n\nPROVA OBJETIVA",
+   "citacao": "Paciente do sexo feminino, de sessenta e um anos de idade, solteira, natural de Fortaleza e morando em Brasília, que se encontra em tratamento no CAPS em regime de hospital-dia, possui história de diversas internações psiquiátricas desde a juventude. A paciente relatou que teve dois filhos de pais diferentes — mas não tem contato com eles; disse também sobre, no momento, não ter nenhum vínculo social e nunca ter tido trabalho regular. Ao conversar com ela, percebem-se aspectos como discurso não espontâneo, conteúdo limitado — pobre, monossilábico, desconexo — e mescla de delírios de religiosidade e para-normalidade. Frequentemente a paciente repete a última ou últimas palavras que o entrevistador diz. Ela está desorientada no tempo e no espaço. Às vezes identifica falsamente uma pessoa estranha como se fosse conhecida. Passa a maior parte do tempo isolada. Apresenta movimentos bucolinguomastigatórios, movimentos lateralizados de mandíbula e movimentos coreoatetoides de língua com frequência. Por fim, a paciente tem dificuldade em tomar as medicações regularmente e apresenta piora evidente do quadro ao suspender os remédios.",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma paciente com vinte e nove anos de idade, solteira, desempregada, compareceu ao consultório psiquiátrico apresentando o seguinte quadro clínico: múltiplas queixas de dores abdominais; retenção urinária; diplopia; menstruação irregular; cefaleia; dores musculares; náuseas; diarreia; e dores nas articulações dos joelhos. Disse que seus problemas de saúde iniciaram-se havia cerca de três anos, logo após o falecimento do pai. Relatou que os sintomas não a deixavam trabalhar ou se relacionar com as pessoas. Já procurou diversos médicos, fez vários exames, mas nunca foi feito um diagnóstico. Não apresentou relato de uso atual de medicamentos ou substâncias psicoativas. Manifestava alto grau de ansiedade e preocupação com os sintomas. O exame físico e as investigações laboratoriais não detectaram anormalidades.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O distúrbio mineral e ósseo da doença renal crônica (osteodistrofia renal), conforme diagnosticado por biópsia óssea, inclui a osteíte fibrosa cística, a doença óssea adinâmica, a osteomalácia e a lesão",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "No que tange a complicações durante o procedimento de hemodiálise em pacientes com doença renal crônica, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma atualização da diretriz para o tratamento da anemia no paciente com doença renal crônica foi elaborada recentemente pela Sociedade Brasileira de Nefrologia e publicada em 2014. No que concerne às recomendações atuais dessa diretriz, julgue os itens subsecutivos.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma paciente de trinta e quatro anos de idade, portadora de doença renal crônica secundária a diabetes melito tipo 1 e integrante de programa de diálise peritoneal automatizada, havia quatro anos, chegou à unidade de diálise com relato de febre havia dois dias, associada a dor abdominal importante e efluente peritoneal turvo. A enfermeira responsável pelo programa de diálise peritoneal realizou a coleta do efluente para análise laboratorial, que revelou os seguintes achados: contagem de células = 300/μL e neutrófilos = 70%. Com relação a esse caso clínico e aos assuntos suscitados por ele,",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um paciente de setenta anos de idade e 80 kg foi internado há um dia na unidade de terapia intensiva (UTI) com quadro de pneumonia complicada com sepse. Após medidas iniciais de ressuscitação volêmica na sepse, o paciente foi deixado em ventilação mecânica, recebendo noradrenalina a 1,2 µg/kg/min. Os resultados dos exames laboratoriais mais recentes mostraram os seguintes resultados: hemoglobina = 9,0 g/dL; creatinina = 3,0 mg/dL (na admissão era de 1,0 mg/dL); leucócitos = 18.000; ureia = 90 mg/dL (na admissão era de 42 mg/dL); bastões = 7%; potássio = 4,8 mEq/L; PCR = 300; bicarbonato = 12 mEq/L; e débito urinário = 200 mL nas últimas doze horas.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Após o transplante renal, o paciente pode apresentar quadro clínico variado, desde diurese abundante e queda rápida da creatinina sérica até oligoanúria e necessidade de diálise. Com relação",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

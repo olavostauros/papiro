@@ -1763,7 +1763,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O tema central do texto é a língua portuguesa oficial, aquela que está representada nos compêndios gramaticais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-mpc-procurador-165",
@@ -1774,7 +1775,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Dos pontos de vista lexical e sintático, o texto está de acordo com a modalidade padrão da língua portuguesa usada contemporaneamente no Brasil.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-mpc-procurador-166",
@@ -1785,7 +1787,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pelos objetivos do texto, percebe-se que o autor desenvolve sua argumentação tomando como parâmetro o caráter científico da língua portuguesa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-mpc-procurador-168",
@@ -1796,7 +1799,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do segundo parágrafo, predomina a função referencial da linguagem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-mpc-procurador-169",
@@ -1807,7 +1811,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Jorge Amado é referido no texto por meio de um processo metonímico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-mpc-procurador-170",
@@ -1818,7 +1823,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o autor do texto, Jorge Amado interferiu de modo deletério na constituição das literaturas africanas de língua portuguesa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-mpc-procurador-171",
@@ -1829,7 +1835,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No que se refere ao nível de linguagem do texto, é correto afirmar que, devido à abundância de metáforas, ele é predominantemente informal.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-mpc-procurador-172",
@@ -1840,7 +1847,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Quando afirma que “era clara a necessidade de rupturas com os modelos europeus” (terceiro período do terceiro parágrafo), o autor do texto não remete diretamente ao conceito de variação linguística diastrática.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-mpc-procurador-173",
@@ -1851,7 +1859,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ao se posicionar de modo refratário às influências da metrópole portuguesa, a autor do texto incorre em preconceito linguístico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-mpc-procurador-174",
@@ -1862,7 +1871,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Quanto ao gênero textual, o texto deve ser classificado como uma resenha, dada a análise que o autor empreende de obras de outros autores.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-mpc-procurador-175",
@@ -1873,7 +1883,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No penúltimo parágrafo do texto, identifica-se o emprego de um mecanismo de progressão temática no uso dos termos “semelhanças”, “comparações” e “analogias”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-mpc-procurador-176",
@@ -1884,7 +1895,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os vocábulos “África” e “Atlântico” são acentuados graficamente pelo mesmo motivo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-mpc-procurador-178",
@@ -1895,7 +1907,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Haveria alteração do sentido original do texto caso fosse inserida uma vírgula imediatamente após a palavra “escrita” (penúltimo período do terceiro parágrafo).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-mpc-procurador-179",
@@ -2138,6 +2151,20 @@
    "tipo": "certo_errado",
    "enunciado": "A eventual validade do argumento cujas premissas sejam as proposições P 1 , P 2 , P 3 e P 4 , e cuja conclusão seja a proposição C confirmaria a existência de prejuízo causado ao interesse coletivo.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "estruturais e conceituais do texto 1A16-I.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Em relação a aspectos textuais e linguísticos do texto 1A16-I,",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

@@ -190,7 +190,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a Convenção Americana sobre Direitos Humanos, o direito à liberdade de pensamento e de expressão deve ser amplo, mas a lei deve proibir toda apologia ao ódio que constitua incitação à discriminação, à hostilidade, ao crime ou à violência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-pmal-soldado-combatente-067",
@@ -201,7 +202,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em caso de guerra, as garantias asseguradas pela Convenção Americana sobre Direitos Humanos podem ser suspensas por tempo ilimitado, mesmo após o fim dos conflitos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-pmal-soldado-combatente-068",
@@ -212,7 +214,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sistema de proteção global dos direitos humanos é formado tanto por instituições quanto por documentos legais, como tratados, resoluções e pactos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-pmal-soldado-combatente-069",
@@ -223,7 +226,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sistema interamericano dos direitos humanos consegue garantir efetivamente os direitos fundamentais dos povos dessa região, principalmente porque a democracia está consolidada em todos os Estados das Américas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-pmal-soldado-combatente-070",
@@ -234,7 +238,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Atualmente, o Brasil admite a prisão civil por dívida exclusivamente no caso de inadimplemento de obrigação alimentar, nos termos da Convenção Americana sobre Direitos Humanos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-pmal-soldado-combatente-071",
@@ -630,7 +635,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A exclusividade comercial do Brasil com a metrópole portuguesa foi rompida a partir da transferência da Corte portuguesa para o Brasil e da abertura dos portos às nações amigas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-pmal-soldado-combatente-108",
@@ -641,7 +647,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A produção dos engenhos das Alagoas na Capitania de Pernambuco voltava-se essencialmente ao consumo interno da população urbana que surgia na região, apesar da importância do açúcar para o comércio internacional da metrópole portuguesa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-pmal-soldado-combatente-109",
@@ -652,7 +659,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O descobrimento do Brasil se insere no contexto das práticas mercantilistas, que pressupunham a intervenção do Estado na implantação e na criação de condições favoráveis ao desenvolvimento de atividades econômicas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-pmal-soldado-combatente-110",
@@ -774,6 +782,20 @@
    "tipo": "certo_errado",
    "enunciado": "O declínio das usinas de produção de álcool combustível existentes em Alagoas e na região metropolitana de Maceió revela que o setor sucroalcooleiro do estado foi superado por outras atividades econômicas.",
    "gabarito": "certo"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Com as atrocidades cometidas durante a Segunda Guerra Mundial, emergiu a noção de que os direitos humanos deveriam servir como paradigma para orientar a ordem internacional, reforçando-se a ideia de que a proteção dos direitos humanos deveria ser global — e não reduzida ao domínio local dos Estados —, por se tratar de questão de legítimo interesse mundial.\n\nNesse contexto, surgiu a Organização das Nações Unidas (ONU) e foi adotada a Declaração Universal dos Direitos Humanos — que representa uma plataforma comum de ação de todos os Estados —, bem como foi aprovada a Convenção Americana sobre Direitos Humanos, no âmbito da Organização dos Estados Americanos (OEA). Tendo como referência o texto anterior, julgue os itens subsequentes, acerca do sistema de proteção e da Convenção Americana sobre Direitos Humanos.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "No início do século XV, a expansão marítima correspondia aos interesses diversos de classes, grupos sociais e instituições que compunham a sociedade portuguesa. Para os comerciantes, era a perspectiva de um bom negócio; para o rei, era a oportunidade de criar novas fontes de receita; para os nobres e os membros da Igreja, servir ao rei ou servir a Deus cristianizando “povos bárbaros” resultava em recompensas e em cargos cada vez mais difíceis de conseguir, nos estreitos quadros da Metrópole; para o povo, lançar-se ao mar significava, sobretudo, emigrar, tentar uma vida melhor. Daí a expansão ter-se convertido em uma espécie de grande projeto nacional ao qual todos, ou quase todos, aderiram e que atravessou os séculos.",
+   "citacao": "Boris Fausto. História do Brasil . São Paulo: Edusp, 1995. p. 23 (com adaptações).",
+   "imagem": false
   }
  ]
 }

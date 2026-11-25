@@ -1573,7 +1573,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Do ponto de vista econômico, a melhor decisão seria a adoção de uma patrulha composta por uma carregadeira e seis caminhões.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-prefjp-auditor-campo-atuacao-infraestrutura-052",
@@ -1584,7 +1585,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso o custo da carregadeira fosse de R$ 90,00/h, seria mais vantajoso, do ponto de vista econômico, impor ociosidade à carregadeira e compor a equipe com uma carregadeira e cinco caminhões.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-prefjp-auditor-campo-atuacao-infraestrutura-053",
@@ -1595,7 +1597,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso sejam adotados cinco caminhões para uma carregadeira, a produtividade do sistema será de 125 m3/h.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-prefjp-auditor-campo-atuacao-infraestrutura-054",
@@ -1650,7 +1653,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se fossem mantidas as condições observadas até o segundo mês de execução, o projeto teria apresentado atraso, pois progrediria a uma taxa de 40% do planejado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-prefjp-auditor-campo-atuacao-infraestrutura-059",
@@ -1661,7 +1665,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do segundo mês de atividade, o projeto apresentou uma economia de R$ 1.000.000,00.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-prefjp-auditor-campo-atuacao-infraestrutura-061",
@@ -1672,7 +1677,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Com base no desempenho até o segundo mês, ou seja, seguindo a linearidade do gráfico, o projeto, quando concluído, apresentou sobrecusto de R$ 8.000.000,00.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-prefjp-auditor-campo-atuacao-infraestrutura-062",
@@ -1804,7 +1810,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para o contratante será financeiramente mais vantajoso contratar um profissional pelo regime mensal que pelo regime horário, caso seja mantido o mesmo período de contratação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-prefjp-auditor-campo-atuacao-infraestrutura-074",
@@ -1815,7 +1822,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os encargos sociais da mão de obra mensalista deveriam ser maiores que os encargos sociais do trabalhador horista.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-prefjp-auditor-campo-atuacao-infraestrutura-075",
@@ -1826,7 +1834,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor total dos encargos sociais básicos deveria ser diferente entre trabalhadores horistas e mensalistas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-prefjp-auditor-campo-atuacao-infraestrutura-076",
@@ -1837,7 +1846,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No cálculo da mão de obra mensalista apresentado na tabela, os encargos sociais do repouso semanal são contabilizados como iguais a zero porque já estão incluídos no salário mensal do trabalhador.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-prefjp-auditor-campo-atuacao-infraestrutura-077",
@@ -1848,7 +1858,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os valores dos encargos sociais relativos às férias deveriam ser os mesmos tanto para a mão de obra horista quanto para a mão de obra mensalista.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-prefjp-auditor-campo-atuacao-infraestrutura-078",
@@ -1958,7 +1969,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A inabilitação da empresa pela comissão de licitação feriu a lei em questão, pois, no caso, o registro da empresa nas entidades profissionais não poderia ser exigido.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2017-prefjp-auditor-campo-atuacao-infraestrutura-089",
@@ -1969,7 +1981,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O edital de licitação descumpriu a legislação ao exigir atestados técnicos fornecidos por pessoas físicas ou jurídicas, pois apenas os de pessoas jurídicas podem ser aceitos. CESPE | CEBRASPE – PMJP/CGM – Aplicação: 2018",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2017-prefjp-auditor-campo-atuacao-infraestrutura-090",
@@ -3025,7 +3038,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O texto confirma que a mídia desmonta uma lógica naturalizada segundo a qual a aplicação das leis varia em razão da vontade de uma minoria.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-prefjp-tecnico-campo-atuacao-geral-003",
@@ -3036,7 +3050,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme o texto, a caracterização do “jeitinho brasileiro” como um comportamento ético ou antiético depende das suas consequências.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-prefjp-tecnico-campo-atuacao-geral-004",
@@ -3058,7 +3073,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em “temos o ‘jeitinho’ virando corrupção” (R.15), os termos ‘jeitinho’ e “corrupção” funcionam como complementos diretos da forma verbal “temos”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-prefjp-tecnico-campo-atuacao-geral-006",
@@ -3069,7 +3085,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seriam mantidos a correção gramatical e os sentidos originais do texto caso o trecho “O ‘jeitinho’ se confunde com corrupção” (R. 15 e 16) fosse reescrito da seguinte forma: Confunde-se o “jeitinho” e corrupção.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-prefjp-tecnico-campo-atuacao-geral-008",
@@ -3080,7 +3097,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os sentidos originais do texto seriam alterados caso, na linha 28, a palavra “certas” fosse deslocada para imediatamente após “pessoas”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-prefjp-tecnico-campo-atuacao-geral-009",
@@ -3091,7 +3109,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A palavra “que” (R.4) retoma o termo que a antecede e relaciona duas orações no período.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-prefjp-tecnico-campo-atuacao-geral-010",
@@ -3113,7 +3132,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No trecho “Diga não às ‘corrupções’ do dia a dia”, seria correto o emprego do sinal indicativo de crase no vocábulo “a” em “dia a dia”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-prefjp-tecnico-campo-atuacao-geral-012",
@@ -3124,7 +3144,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os termos “antiéticas”, “ilegais” e “combatidas” qualificam a palavra “práticas”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-prefjp-tecnico-campo-atuacao-geral-013",
@@ -3135,7 +3156,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O texto apresentado combina elementos das tipologias expositiva e injuntiva.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-prefjp-tecnico-campo-atuacao-geral-014",
@@ -3146,7 +3168,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A substituição de “teremos conquistado” (R.10) por conquistaremos manteria os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-prefjp-tecnico-campo-atuacao-geral-015",
@@ -3157,7 +3180,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No texto, a forma verbal “acomete” (R.2) está empregada com o significado de afetar, contagiar.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-prefjp-tecnico-campo-atuacao-geral-016",
@@ -3168,7 +3192,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os dois-pontos empregados na linha 4 introduzem um aposto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-prefjp-tecnico-campo-atuacao-geral-017",
@@ -3465,7 +3490,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A Faixa de Opções do Word 2013 foi criada com o intuito de ajudar o usuário a localizar rapidamente os comandos, que estão organizados em guias, as quais, por sua vez, são organizadas em grupos lógicos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2017-prefjp-tecnico-campo-atuacao-geral-044",
@@ -3476,7 +3502,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No Linux, a senha de usuário pode ser alterada via terminal por meio do comando passwd, mas o usuário, com exceção do root, não consegue alterar sua própria senha.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2017-prefjp-tecnico-campo-atuacao-geral-045",
@@ -3487,7 +3514,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O Windows 10 pode ser configurado para que, ao se clicar o menu Iniciar, seja disponibilizada uma lista de aplicativos instalados no computador, classificados em ordem alfabética.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2017-prefjp-tecnico-campo-atuacao-geral-046",
@@ -3498,7 +3526,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No Word 2013, para se inserir uma página em branco no final do documento em edição, é suficiente clicar o botão Página em Branco, localizado na guia Inserir do grupo Páginas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2017-prefjp-tecnico-campo-atuacao-geral-047",
@@ -5193,6 +5222,56 @@
    "tipo": "certo_errado",
    "enunciado": "As transferências recebidas de outros entes não integram a receita corrente líquida.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "CONHECIMENTOS ESPECÍFICOS",
+   "citacao": "rendimento (m 3 /h) custo (R$/h) Espaço livre caminhão basculante 25 15,00 carregadeira 146 120,00 Considerando a tabela precedente, que apresenta os rendimentos e os custos de uma carregadeira e de um caminhão basculante",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A construção de uma obra foi orçada em R$ 10 milhões Espaço livre com prazo de execução de quatro meses. O gráfico a seguir mostra o acompanhamento dessa obra, realizado pelo método do valor agregado.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Em auditoria interna para averiguar possíveis irregularidades na elaboração do orçamento para licitação de uma obra pública em determinado órgão público, foi observado, entre outros assuntos, que algumas fichas de composição de custos unitários de serviço apresentavam encargos sociais que incidiam sobre a mão de obra horista e outras, sobre a mão de obra mensalista. A partir dos documentos levantados, os auditores elaboraram a seguinte tabela de encargos sociais.\n\nencargos sociais sobre a mão de obra código descrição horista % mensalista %\n\ngrupo A A1 INSS 20,00 20,00 A2 SESI 1,50 1,50 A3 SENAI 1,00 1,00 A4 INCRA 0,20 0,20 A5 SEBRAE 0,60 0,60 A6 salário-educação 2,50 2,50 A7 seguro contra acidentes de 3,00 3,00\n\ntrabalho A8 FGTS 8,00 8,00 A9 SECONCI 1,00 1,00\n\nA total dos encargos sociais 37,80 37,80\n\nbásicos\n\ngrupo B B1 repouso semanal remunerado 17,87 0,00 B2 feriados 4,47 0,00 B3 aviso prévio 12,79 10,20 B4 auxílio-enfermidade 0,77 0,62 B5 13.º salário 10,31 8,22 B6 licença paternidade 0,06 0,05\n\nausências abonadas/dias de B7 chuvas 2,24 1,78\n\nB total de encargos sociais que 48,51 20,87\n\nrecebem incidências de A\n\ngrupo C\n\ndepósito rescisão sem justa C1 causa 5,94 4,83 C2 férias (indenizadas) 13,74 10,96\n\ntotal dos encargos sociais\n\nC que não recebem as 19,68 15,79\n\nincidências globais de A\n\ngrupo D D1 reincidência de A sobre B 18,34 7,89\n\ntotal das taxas incidências e\n\nD reincidências 18,34 7,89\n\ntotal (A+B+C+D) 124,33 82,35\n\nCom base nas informações da tabela precedente e considerando os\n\naspectos técnicos da elaboração de orçamento de obras públicas,",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Durante o processo licitatório de uma obra regido pela Lei n.º 8.666/1993, a comissão de licitação inabilitou uma das empresas construtoras licitantes ao constatar que ela não tinha registro no conselho regional de engenharia e agronomia nem no conselho de arquitetura e urbanismo, apesar de possuir, em seu quadro permanente de empregados, engenheiros civis habilitados para executar a obra licitada.\n\nAlém disso, o edital de licitação exigia, para a avaliação da capacidade técnico-profissional dos licitantes, atestados técnicos fornecidos por pessoas físicas ou jurídicas, os quais deveriam indicar as quantidades mínimas de serviços relevantes para a obra. Acerca dessa situação hipotética, julgue os itens subsequentes à luz da lei nela mencionada.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CB2A1",
+   "conteudo": "Roberto da Matta. O jeitinho brasileiro . Internet: <https://maniadehistoria.wordpress.com> (com adaptações). Com relação às ideias do texto CB2A1AAA, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Internet:<www.cgu.gov.br> (com adaptações). Acerca das propriedades linguísticas do texto precedente, julgue os itens subsequentes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Isaac Roitman. Corrupção e democracia . Internet: <https://noticias.unb.br> (com adaptações). Com relação aos sentidos e aos aspectos gramaticais do texto",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Julgue os próximos itens, relativos aos sistemas operacionais Linux e Windows e ao editor de texto Microsoft Word 2013.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

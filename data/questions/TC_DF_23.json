@@ -139,7 +139,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É necessário que a redação oficial seja isenta de interferência da individualidade de quem a elabora, portanto é inadequado o emprego dos verbos na primeira pessoa, seja no singular, seja no plural; assim, na elaboração de atos de comunicação, são indevidas construções como informo que ou informamos que .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-tc-analista-administrativo-de-controle-externo-gestao-servicos-tecnicos-e-administrativos-012",
@@ -271,7 +272,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A composição histórica e social do Distrito Federal caracteriza-se por um número expressivo de migrantes e, etnicamente, a população que mora nos limites da capital é majoritariamente branca, segundo dados oficiais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-tc-analista-administrativo-de-controle-externo-gestao-servicos-tecnicos-e-administrativos-024",
@@ -282,7 +284,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o último censo demográfico divulgado pelo Instituto Brasileiro de Geografia e Estatística (IBGE), Brasília possui o maior rendimento domiciliar per capita do Brasil.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-tc-analista-administrativo-de-controle-externo-gestao-servicos-tecnicos-e-administrativos-025",
@@ -293,7 +296,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Por ser marco da arquitetura moderna e do urbanismo, Brasília foi inscrita, na segunda metade da década de 1980, na Lista de Bens do Patrimônio Mundial da Organização das Nações Unidas para a Educação, a Ciência e a Cultura, tornando-se a maior área tombada do mundo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-tc-analista-administrativo-de-controle-externo-gestao-servicos-tecnicos-e-administrativos-026",
@@ -370,7 +374,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "São logicamente equivalentes as sentenças I e II, a seguir. I “Se o governador do DF indicou o presidente do TCDF e a Câmara Legislativa indicou o corregedor, então o ouvidor é apreciador de música clássica.” II “Ou o presidente do TCDF não foi indicado pelo governador ou o corregedor não foi indicado pela Câmara Legislativa ou o ouvidor é apreciador de música clássica.”",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-tc-analista-administrativo-de-controle-externo-gestao-servicos-tecnicos-e-administrativos-033",
@@ -381,7 +386,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto a seguir apresenta um argumento válido. “Se o auditor gosta de poesia francesa do século XIX, então o procurador geral aprecia os quadros de Vincent van Gogh. Se o auditor não gosta de poesia francesa do século XIX, então o corregedor admira os escritores de romances policiais. O corregedor não admira os escritores de romances policiais. Logo, o procurador geral aprecia os quadros de Vincent van Gogh.”",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-tc-analista-administrativo-de-controle-externo-gestao-servicos-tecnicos-e-administrativos-034",
@@ -392,7 +398,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depois de realizado o sorteio, caso sejam escolhidos dois conselheiros ao acaso, a chance de que o primeiro conselheiro escolhido seja o corregedor e o segundo seja o ouvidor é superior a 6%.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-tc-analista-administrativo-de-controle-externo-gestao-servicos-tecnicos-e-administrativos-035",
@@ -403,7 +410,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A probabilidade de que o presidente sorteado seja um dos conselheiros indicados pelo governador, e o vice-presidente sorteado seja um daqueles indicados pela câmara legislativa é inferior a 0,30.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-tc-analista-administrativo-de-controle-externo-gestao-servicos-tecnicos-e-administrativos-036",
@@ -755,7 +763,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É inconstitucional a delegação legislativa de poderes aos governadores dos estados e do Distrito Federal para, mediante decreto, criar cargos públicos, fixando-lhes denominações, remunerações e atribuições.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2023-tc-analista-administrativo-de-controle-externo-gestao-servicos-tecnicos-e-administrativos-072",
@@ -766,7 +775,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Compete ao TCDF apreciar, para fins de registro, a legalidade dos atos de admissão dos empregados públicos das empresas estatais do Distrito Federal, bem como a legalidade das respectivas aposentadorias.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2023-tc-analista-administrativo-de-controle-externo-gestao-servicos-tecnicos-e-administrativos-073",
@@ -777,7 +787,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A competência do TCDF pode alcançar pessoas físicas e pessoas jurídicas da iniciativa privada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2023-tc-analista-administrativo-de-controle-externo-gestao-servicos-tecnicos-e-administrativos-074",
@@ -788,7 +799,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O tribunal de contas, por vocação institucional, é o guardião do erário e do bom uso dos recursos públicos. Nesse sentido, a competência do TCDF fica adstrita à análise da despesa pública, ao passo que a receita é da alçada da Secretaria de Fazenda do Distrito Federal e demais órgãos tributários.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2023-tc-analista-administrativo-de-controle-externo-gestao-servicos-tecnicos-e-administrativos-075",
@@ -2812,7 +2824,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A fração amostral é inferior a 0,01.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2023-tc-auditor-de-controle-externo-especializada-tecnologia-da-informacao-sistemas-de-ti-029",
@@ -2823,7 +2836,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse método de amostragem, há d = 1.000 100 diferentes amostras possíveis, de modo que a probabilidade de seleção de um grupo particular de 100 pessoas deve ser igual a 1.000 −100 .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2023-tc-auditor-de-controle-externo-especializada-tecnologia-da-informacao-sistemas-de-ti-030",
@@ -2900,7 +2914,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A fiscalização e a correção dos atos do Poder Executivo só são executadas por órgãos pertencentes à estrutura do órgão responsável pela atividade controlada, com base no seu poder de autotutela sobre os próprios atos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2023-tc-auditor-de-controle-externo-especializada-tecnologia-da-informacao-sistemas-de-ti-037",
@@ -2911,7 +2926,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Direito de petição, reclamação, representação e pedido de reconsideração são instrumentos utilizados para o exercício do controle externo mediante provocação.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2023-tc-auditor-de-controle-externo-especializada-tecnologia-da-informacao-sistemas-de-ti-038",
@@ -2922,7 +2938,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Decorrente do poder hierárquico, que faculta à administração pública a possibilidade de escalonar sua estrutura, a fiscalização hierárquica pode ser realizada a qualquer tempo, antes ou depois da edição do ato, e independentemente de qualquer provocação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2023-tc-auditor-de-controle-externo-especializada-tecnologia-da-informacao-sistemas-de-ti-039",
@@ -2933,7 +2950,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Constitui hipótese de controle político a competência do Senado Federal para dispor, por proposta do presidente da República, sobre limites globais e condições para operações de crédito externo e interno da União, dos estados, dos municípios e do Distrito Federal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2023-tc-auditor-de-controle-externo-especializada-tecnologia-da-informacao-sistemas-de-ti-040",
@@ -2944,7 +2962,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Devido a seu elevado grau de discricionariedade, os atos políticos, quando arguidos de lesivos ao patrimônio público, são afastados da apreciação judicial.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2023-tc-auditor-de-controle-externo-especializada-tecnologia-da-informacao-sistemas-de-ti-041",
@@ -2988,7 +3007,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Compete aos tribunais de contas o julgamento das contas daqueles que derem causa a perda, extravio ou outra irregularidade de que resulte prejuízo ao erário, sendo excluída da decisão a possibilidade de o recorrente pedir a apreciação do Poder Judiciário.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2023-tc-auditor-de-controle-externo-especializada-tecnologia-da-informacao-sistemas-de-ti-045",
@@ -2999,7 +3019,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Compete aos tribunais de contas decretar a anulação de atos e contratos de órgão jurisdicionado eivados de vícios.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2023-tc-auditor-de-controle-externo-especializada-tecnologia-da-informacao-sistemas-de-ti-046",
@@ -3010,7 +3031,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O Tribunal de Contas do Distrito Federal tem a responsabilidade de fiscalizar exclusivamente a aplicação de recursos repassados ao Distrito Federal mediante convênio ou acordo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2023-tc-auditor-de-controle-externo-especializada-tecnologia-da-informacao-sistemas-de-ti-047",
@@ -3021,7 +3043,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Compete ao Tribunal de Contas do Distrito Federal realizar, por iniciativa própria, inspeções e auditorias de estimativa, lançamento, arrecadação, recolhimento, parcelamento e renúncia de receitas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2023-tc-auditor-de-controle-externo-especializada-tecnologia-da-informacao-sistemas-de-ti-048",
@@ -3428,7 +3451,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "One of the drawbacks about the current forms of extraction of hydrogen as fuel is the elevated cost.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2023-tcdf-orientacao-sistemas-ti-037",
@@ -3439,7 +3463,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The pronoun “their” (first sentence of the third paragraph) refers back to “plastic waste samples”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2023-tcdf-orientacao-sistemas-ti-038",
@@ -3450,7 +3475,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “itself” (last sentence of the first paragraph) refers back to “plastic”, meaning that plastic could pay for its cost.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2023-tcdf-orientacao-sistemas-ti-039",
@@ -3461,7 +3487,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The sentence “‘green’ hydrogen ⎯ produced using renewable energy sources to split water into its two component elements ⎯ costs roughly US$ 5” could be correctly rewritten as the use of renewable energy sources to separate water into its two component elements produces ‘green’ hydrogen, which costs about US$ 5.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2023-tcdf-orientacao-sistemas-ti-040",
@@ -3472,7 +3499,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is correct to infer from text 1A1-I that researcher Kevin Wyss is unenthusiastic about the potential of his work as a possible solution for some environmental issues.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2023-tcdf-orientacao-sistemas-ti-041",
@@ -3516,7 +3544,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The first Brazilian expedition to the Arctic, as presented in the first paragraph, has a threefold objective. 897CE101303634",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2023-tcdf-orientacao-sistemas-ti-045",
@@ -3527,7 +3556,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is possible to infer from the text that only nations that are members of the Arctic Council are allowed to sign the Svalbard Treaty.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2023-tcdf-orientacao-sistemas-ti-046",
@@ -3538,7 +3568,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The excerpt “without a voice on issues related to the region” (first sentence of the third paragraph), could be correctly replaced by “that lacks representation in matters pertaining to the region”, without changing its meaning.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2023-tcdf-orientacao-sistemas-ti-047",
@@ -3549,7 +3580,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "According to the text, the Arctic Circle today is a territory controlled by Norway.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2023-tcdf-orientacao-sistemas-ti-048",
@@ -4341,7 +4373,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "XML é uma linguagem de marcação para a criação de documentos com dados organizados hierarquicamente e pode ser utilizada para compartilhar informações entre computadores.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2023-tcdf-orientacao-sistemas-ti-122",
@@ -4352,7 +4385,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na formatação de arquivos do tipo JSON, utilizam-se colchetes para delimitar objetos, sendo eles obrigatórios para iniciar e encerrar conteúdo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2023-tcdf-orientacao-sistemas-ti-123",
@@ -4363,7 +4397,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O arquivo no formato CSV suporta delimitação das colunas por vírgula (,), mas não por ponto e vírgula (;).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2023-tcdf-orientacao-sistemas-ti-124",
@@ -4594,7 +4629,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Embora não haja processo específico para o gerenciamento de riscos no COBIT 2019, o processo segurança gerenciada visa integrar o gerenciamento do risco corporativo relacionado à TI com o gerenciamento geral de risco corporativo, aliado à gestão de controle de incidentes de segurança da informação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2023-tcdf-orientacao-sistemas-ti-146",
@@ -4605,7 +4641,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o MPS.BR 2021, para se alcançar o nível C - Totalmente Definido, deve-se incluir o processo gerência de decisões, e, nesse nível, os processos são implementados como um processo padrão definido e adaptável.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2023-tcdf-orientacao-sistemas-ti-147",
@@ -4616,7 +4653,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em que pese não haver processo específico para gerenciar mudanças organizacionais no COBIT 2019, o processo mudança gerenciada permite maximizar a probabilidade de implementar com sucesso mudanças organizacionais sustentáveis em toda a empresa, de forma rápida e com risco reduzido.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2023-tcdf-orientacao-sistemas-ti-148",
@@ -5111,7 +5149,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A avaliação da significância estatística da diferença entre as médias amostrais produzidas por esses dois conjuntos de dados deve ser feita com base na distribuição t de Student com 50 graus de liberdade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2023-tcdf-servicos-tecnicos-072",
@@ -5122,7 +5161,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sob a hipótese nula H0: μ1 = μ2, as amostras são combinadas para se obter uma estimativa comum para a variância populacional σ2, e o valor dessa estimativa combinada é igual a 8.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2023-tcdf-servicos-tecnicos-073",
@@ -5133,7 +5173,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O referido teste de hipóteses é unilateral à esquerda, pois a diferença entre as médias é negativa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2023-tcdf-servicos-tecnicos-074",
@@ -5144,7 +5185,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A estimativa da variância da diferença entre as médias amostrais é igual a 5 + 10. 21 31",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2023-tcdf-servicos-tecnicos-075",
@@ -5551,7 +5593,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se as despesas pagas, em 2021, tiverem sido iguais às despesas empenhadas de R$ 30,83 bilhões, então a inscrição em restos a pagar não processados terá totalizado R$ 3,57 bilhões.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2023-tcdf-servicos-tecnicos-113",
@@ -5562,7 +5605,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As despesas com investimentos não devem ser contabilizadas no orçamento fiscal e da seguridade social, senão, caso o sejam, competirá ao TCDF determinar a sua alocação no orçamento de investimento aprovado na lei orçamentária anual (LOA).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2023-tcdf-servicos-tecnicos-114",
@@ -5573,7 +5617,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Haja vista os estágios de realização da despesa pública, é correto afirmar que as despesas pagas em 2021 não ultrapassaram R$ 30,83 bilhões.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2023-tcdf-servicos-tecnicos-115",
@@ -5584,7 +5629,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As despesas correntes com juros e encargos da dívida devem ser computadas no cálculo do resultado primário do governo da unidade federativa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2023-tcdf-servicos-tecnicos-116",
@@ -5959,6 +6005,68 @@
    "tipo": "certo_errado",
    "enunciado": "No Distrito Federal, se a licitação envolver serviços especiais, o agente de contratação deverá ser substituído por comissão de contratação.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "P R Q V V V V V F V F V V F F F V V F V F F F V F F F Nessa situação, é correto afirmar que a sequência de valores V ou F, tomados de cima para baixo, da última coluna dessa tabela-verdade será F V V V F V V V. Em determinada data, 450 processos concluídos foram Espaço livre enviados para o arquivo geral. Verificou-se que 300 desses processos eram ou exclusivamente relacionados à área de saúde ou exclusivamente relacionados à área de infraestrutura, 210 não eram relacionados à área de infraestrutura e 160 eram relacionados à área de saúde. Em relação à situação hipotética precedente e às operações com",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Internet: <ibge.gov.br> (com adaptações). Em relação aos dados apresentados na tabela precedente e a outros aspectos relevantes da realidade geográfica da Região Integrada de Desenvolvimento do Distrito Federal e Entorno",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "operação lógica símbolo conjunção ∧ disjunção ∨ negação ~ condicional ⇒ bicondicional ⇔ Considerando que as proposições lógicas simples sejam representadas por letras maiúsculas e que os símbolos lógicos usuais estejam representados conforme a tabela precedente, julgue os próximos itens, relacionados à proposição lógica (P∧R) ⇒ (~Q).",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um pesquisador deseja avaliar a significância estatística da diferença entre as médias amostrais produzidas por dois conjuntos de dados, amostras 1 e 2, conforme mostra o quadro a seguir. Esses conjuntos de dados foram obtidos por amostragem aleatória de populações normais, sendo que a primeira amostra foi retirada da população N( 𝜇 1 , 𝜎 2 ), e a segunda foi extraída da N( 𝜇 2 , 𝜎 2 ). As duas amostras são independentes e possuem tamanhos distintos: 21 e 31, respectivamente. O quadro também apresenta duas estimativas diferentes para a variância populacional 𝜎 2 : 5 (amostra 1) e 10 (amostra 2). Nessas condições, o pesquisador deseja testar a hipótese nula 𝐻 0 : 𝜇 1 = 𝜇 2 contra a hipótese alternativa 𝐻 1 : 𝜇 1 ≠ 𝜇 2 mediante aplicação do teste (paramétrico) 𝑡 de Student para comparação de duas médias.\n\ntamanho da média variância\n\namostra\n\namostra amostral amostral\n\n1 21 12 5\n\n2 31 15 10 Considerando a situação hipotética apresentada, julgue os próximos itens.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A tabela a seguir representa o balanço orçamentário de determinada unidade federativa no ano de 2021. Os valores mostrados estão na ordem dos milhares de reais.\n\ndespesa dotação dotação despesas orçamentária inicial atualizada empenhadas despesas correntes 23.582.739 30.171.584 27.966.169 pessoal e encargos sociais 15.288.365 17.409.417 16.633.904 juros e encargos da 299.061 236.498 235.333 dívida outras despesas correntes 7.995.313 12.525.669 11.096.932 despesas de capital 1.953.808 3.102.353 1.563.281 investimento 1.421.833 2.492.445 984.733 inversões financeiras 23.365 52.568 21.855 amortização da 508.610 557.340 556.693 dívida reserva de 1.328.460 1.132.615 0 contingência subtotal das despesas 26.865.008 34.406.552 29.529.448 superávit 0 0 1.296.531 Total 26.865.008 34.406.552 30.825.980 A partir dos valores intraorçamentários apresentados na tabela anterior e do previsto na Lei n.º 4.320/1964, julgue os próximos itens, acerca da execução das despesas públicas e dos seus estágios.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "estrato tamanho tamanho desvio padrão\n\npopulacional da amostra da variável 𝑿 I 50.000 𝑛 1 5 II 25.000 𝑛 2 10 III 25.000 𝑛 3 30 total 100.000 1.000 --- No planejamento de um levantamento estatístico, para se estimar a média populacional de uma variável 𝑋 , será extraída uma amostra aleatória estratificada de tamanho 𝑛 = 1.000 de uma população de tamanho 𝑁 = 100.000 . A população é segmentada em três estratos, e os tamanhos das amostras a serem extraídas desses estratos são representados por 𝑛 1 , 𝑛 2 , e 𝑛 3 , de modo que 𝑛 1 + 𝑛 2 + 𝑛 3 = 1.000. O tamanho populacional e o valor do desvio padrão da variável 𝑋 por estrato estão demonstrados na tabela precedente. Considerando as informações apresentadas, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "-- CONHECIMENTOS ESPECÍFICOS --",
+   "citacao": "Text 1A1-I Hydrogen is viewed as a promising alternative to fossil fuel, but the methods used to make it either generate too much carbon dioxide or are too expensive. Rice University researchers have found a way to harvest hydrogen from plastic waste using a low-emission method that could more than pay for itself. By comparison, “green” hydrogen ⎯ produced using renewable energy sources to split water into its two component elements ⎯ costs roughly US$ 5 for just over two pounds. Though cheaper, most of the nearly 100 million tons of hydrogen used globally in 2022 was derived from fossil fuels, its production generating roughly 12 tons of carbon dioxide per ton of hydrogen. The researchers exposed plastic waste samples to rapid flash Joule, bringing their temperature up to 3100 Kelvin. “We demonstrated that we are able to recover up to 68% of that atomic hydrogen as gas with a 94% purity,” Kevin Wyss said. “I hope that this work will allow for the production of clean hydrogen from waste plastics, possibly solving major environmental problems like plastic pollution and the greenhouse gas-intensive production of hydrogen by steam-methane reforming.” Internet: <news.rice.edu> (adapted).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Text 1A1-II\n\nBrazil’s first scientific expedition to the Arctic aims to explore the biodiversity of one of the planet’s coldest territories, learn more about its ecological importance and its role in global climate change, and contribute to its preservation. The Brazilian team of scientists from the University of Brasília and the Federal University of Minas Gerais has been in the Svalbard archipelago—a section of the Arctic Circle that belongs to Norway—since July 8.\n\nAccording to the expert, research in the region is crucial in monitoring relevant developments in Brazil as well as worldwide. “What happens here in the Arctic affects Brazil, so we should have the right to speak and vote, which is not happening.”\n\nBrazil is the only among the ten largest global economies without a voice on issues related to the region. Therefore, Brazil’s scientific presence in the Arctic—a region covering more than 16 million square kilometers—can prove significant for the inclusion of the nation as an observer member of the Arctic Council, the international cooperation body on environmental strategies for the territory. The country should also join the Svalbard Treaty, which not only recognizes Norway’s sovereignty over the archipelago, but also grants access to the area’s resources for signatory nations.",
+   "citacao": "Internet: <agenciabrasil.ebc.com.br> (adapted).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "create table tabela (a integer, b numeric(4,2), c char(10)); insert into tabela (a,b,c) values (4,3,5); insert into tabela (a,c) values (5,5); insert into tabela (b,c) values (5,3); insert into tabela (c) values (7); insert into tabela (b) values (7); select avg(a),avg(b) from tabela; Executando-se esse código, obtém-se o resultado a seguir. avg |avg | ------+---------+ 4 |5 | Julgue os itens a seguir, a respeito de formatos e tecnologias XML, JSON e CSV.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Com base no diagrama precedente, infere-se, após a análise do caminho crítico, que o caminho C-G-I -K representa a menor duração possível para o projeto. Julgue os próximos itens, relativos à governança de TI e à qualidade de software .",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

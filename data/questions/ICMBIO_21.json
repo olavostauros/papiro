@@ -36,7 +36,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto apresenta dados de uma pesquisa que alerta sobre o perigo do desaparecimento de antigos conhecimentos acerca de plantas medicinais a partir da extinção das línguas indígenas. , para cada item: o campo designado com o código C , caso",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-icmbio-analista-ambiental-002",
@@ -575,7 +576,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Quanto maior for o número de espécies catalogadas, maiores serão as chances de entender sua importância ao equilíbrio do meio ambiente e à prevenção de riscos à saúde humana.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-icmbio-analista-ambiental-052",
@@ -586,7 +588,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O Programa Ecológico de Longa Duração (PELD) promoveu a criação de um repositório de dados, para que fossem feitas comparações entre sítios de pesquisas, de forma a facilitar as avaliações do estado da biodiversidade requeridas em vários tratados internacionais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-icmbio-analista-ambiental-053",
@@ -597,7 +600,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A biodiversidade consiste apenas em unidades estáticas chamadas espécies, o que exclui desse conceito a estocagem de carbono e os microrganismos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-icmbio-analista-ambiental-055",
@@ -619,7 +623,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Quanto ao fator fecundidade, os dados obtidos em estudos científicos raramente o relacionam ao risco de extinção dos animais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-icmbio-analista-ambiental-057",
@@ -630,7 +635,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O maior tamanho corporal das espécies de mamíferos sujeitos à caça é uma característica que os predispõe à extinção.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-icmbio-analista-ambiental-058",
@@ -751,7 +757,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O erro de omissão para a categoria floresta foi de 55%.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-icmbio-analista-ambiental-074",
@@ -1048,7 +1055,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O tema central do texto é o crescimento exagerado das árvores nos grandes centros urbanos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-icmbio-tecnico-ambiental-002",
@@ -1059,7 +1067,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Predomina no texto a descrição dos tipos de malefícios que as árvores podem causar à infraestrutura das cidades.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-icmbio-tecnico-ambiental-003",
@@ -1070,7 +1079,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que a presença de árvores nas cidades promove benefícios para a qualidade de vida das pessoas, os quais, contudo, muitas vezes não são considerados em avaliações técnicas de paisagismo urbano.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-icmbio-tecnico-ambiental-004",
@@ -1081,7 +1091,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do texto, a conjunção “mas” introduz uma ressalva à afirmação de que “Nossas cidades estão perdendo suas árvores rapidamente”. , para cada item: o campo designado com o código C , caso",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-icmbio-tecnico-ambiental-005",
@@ -1367,7 +1378,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A avocação do ato delegado deverá ocorrer nas hipóteses de o gestor entender por nova redistribuição de trabalho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2021-icmbio-tecnico-ambiental-031",
@@ -1378,7 +1390,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sob a conveniência do gestor da UC, em razão de situações envolvendo natureza técnica, social, econômica, jurídica ou territorial, pode ocorrer delegação de competência a outra administração de UC para fins de gerir recursos destinados a colaborar com a conservação de UC.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2021-icmbio-tecnico-ambiental-032",
@@ -1389,7 +1402,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para a formalização da delegação a ser promovida, deve ocorrer a publicação oficial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2021-icmbio-tecnico-ambiental-033",
@@ -1400,7 +1414,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para a delegação de competência para editar atos normativos de organização interna e de administração da UC exige-se a autorização do presidente do ICMBio.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2021-icmbio-tecnico-ambiental-034",
@@ -1785,7 +1800,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O acesso, o uso e a exploração lícita dos conhecimentos dos Ashaninka sobre o uso do murumuru dependem da comprovação do consentimento prévio informado, por tratar-se de conhecimento tradicional associado de origem identificável, diferentemente do acesso a conhecimento tradicional de origem não identificável, que independe de consentimento prévio informado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-icmbio-tecnico-ambiental-069",
@@ -1796,7 +1812,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Nos termos da legislação vigente, uma proteína oriunda do metabolismo de microrganismo isolado a partir de substratos do mar territorial e cultivado em estufa não integra o patrimônio genético nacional.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-icmbio-tecnico-ambiental-070",
@@ -1807,7 +1824,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O CGen é um órgão colegiado de caráter deliberativo, normativo, consultivo e recursal, formado por representação de órgãos e entidades da administração pública federal, bem como da sociedade civil, assegurada a participação de populações indígenas e comunidades tradicionais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-icmbio-tecnico-ambiental-071",
@@ -2314,6 +2332,44 @@
    "tipo": "certo_errado",
    "enunciado": "Constitui crime inafiançável, imprescritível e insuscetível de graça ou anistia a prática da tortura, o tráfico ilícito de entorpecentes, de animais silvestres, de minerais preciosos, de madeiras nobres e de material genético, o terrorismo e o bioterrorismo, os crimes hediondos, a ação de grupos armados, civis ou militares, contra a ordem constitucional e o Estado democrático, a prática do racismo, do especismo e do ecocídio.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "conhecimentos de informática e(ou) tecnologia da informação informado o contrário, considere que todos os programas mencionados estão em configuração-padrão e que não há restrições de proteção, de funcionamento e de uso em relação aos programas, arquivos, diretórios, recursos e equipamentos mencionados. • Eventuais espaços livres — identificados ou não pela expressão “Espaço livre” — que constarem deste caderno de provas poderão ser utilizados para rascunho.\n\n-- PROVAS OBJETIVAS --\n\n-- CONHECIMENTOS BÁSICOS --",
+   "citacao": "“Cada língua indígena é um reservatório único de conhecimento medicinal”. Assim escrevem os pesquisadores Rodrigo Cámara-Leret e Jordi Bascompte em um recente estudo que faz um alerta: o perigo do desaparecimento de antigos conhecimentos de plantas medicinais a partir da extinção das línguas indígenas. Em geral, quando se fala em plantas com propriedades medicinais, as discussões giram em torno da extinção da biodiversidade. Nessa pesquisa, contudo, os cientistas focaram no que costuma ser esquecido: o impacto da extinção das línguas para a perda desse conhecimento, tradicionalmente transmitido oralmente. Antes de tudo, a equipe do estudo precisava entender em que medida acontecia a perda de conhecimento linguisticamente único. No caso das plantas medicinais, era preciso entender em que grau o conhecimento delas estava atrelado a apenas uma língua indígena. Dessa forma, seria possível compreender quais saberes seriam perdidos no caso de extinção de determinado idioma. Para isso, os pesquisadores analisaram três conjuntos de dados etnobotânicos (a ciência que estuda a relação entre humanos e plantas). Eles contavam com cerca de 3,6 mil plantas medicinais, 236 línguas indígenas e 12,5 mil “serviços de plantas medicinais” — combinações entre espécies de plantas e a subcategoria medicinal para a qual elas eram indicadas, como “figueira-brava ( Ficus insipida ) + sistema digestivo”. Os dados são referentes a três regiões com grande diversidade linguística e biológica: América do Norte, noroeste da Amazônia e Nova Guiné. Depois de analisarem os dados, os cientistas apontaram que o conhecimento indígena sobre as plantas medicinais está, de fato, apoiado na singularidade linguística. No noroeste da Amazônia, 91% do conhecimento medicinal não é compartilhado entre línguas — e se concentra em apenas um idioma. Em Nova Guiné, essa taxa é de 84%; na América do Norte, 73%. Além disso, eles observaram a porcentagem desse conhecimento que se concentra, especificamente, em línguas ameaçadas de extinção. Na América do Norte, 86% do conhecimento medicinal único ocorre, justamente, em idiomas em risco. No noroeste da Amazônia, 100%. Para os cientistas, uma das hipóteses é a alta rotatividade cultural. Isso significa que, para uma mesma planta, os povos indígenas possuem diversos conhecimentos e aplicações exclusivos. Sem uma Wikipédia para reunir informações, cada cultura acumulou, ao longo do tempo, as próprias descobertas sobre cada espécie. O estudo ajuda a mostrar que cada língua (e cultura) indígena tem percepções únicas que, inclusive, podem vir a oferecer seus conhecimentos medicinais também a outras sociedades. Internet: <super.abril.com.br> (com adaptações). FimDoTexto Com base nas ideias e nos aspectos linguísticos do texto",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O Brasil é o país com a maior quantidade de espécies de animais vertebrados terrestres ainda desconhecidas pela ciência. Trinta e cinco mil espécies de vertebrados terrestres já foram descritas, mas estimativas apontam que devam existir cerca de cinquenta mil. Porém, o financiamento para pesquisas científicas no Brasil tem sido um entrave para a conservação da biodiversidade, o que obriga os pesquisadores a produzir dados completos a partir de estudos com espécies conhecidas.\n\nInternet: <https://oglobo.globo.com> (com adaptações). Considerando o texto precedente e assuntos correlatos, julgue os itens seguintes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Aproximadamente um quarto de todas as espécies de mamíferos possui algum grau de ameaça, constituindo-se como um dos maiores desafios da biologia da conservação entender quais fatores determinam o risco de extinção dessas espécies. Muitos trabalhos tentam responder a essa questão procurando as associações existentes entre as características biológicas e ecológicas das espécies e o seu grau de vulnerabilidade.",
+   "citacao": "Internet: <https://revistas.ufrj.br> (com adaptações).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "verdade de campo\n\nfloresta outros total t floresta 15 10 25 outros 10 20 30 plane total 25 30 55 Na tabela precedente, é mostrada a matriz de confusão de um mapeamento de cobertura vegetal realizado com imagens do satélite PlanetScope. Julgue os itens a seguir considerando conceitos básicos de sensoriamento remoto e os dados apresentados na tabela.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Para fins de tornar mais eficiente a distribuição da força de trabalho das equipes, os gestores de unidades de conservação da natureza (UC) federais pretendem formalizar a delegação de atos administrativos aos técnicos que atuam na administração das UC.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Em 2019, o Conselho de Gestão do Patrimônio Genético (CGen) deu ganho de causa ao povo Ashaninka no julgamento de um ato de infração da empresa Tawaya, por usar indevidamente o conhecimento tradicional dos indígenas na fabricação do sabonete de murumuru e não repartir os benefícios com as comunidades. Os Ashaninka usam o murumuru como hidratante e remédio, e a empresa, cujo fundador teve acesso aos conhecimentos do povo indígena, beneficiou-se das informações para desenvolver o sabonete, sem contrapartida justa e equitativa à comunidade.",
+   "citacao": "Internet: <https://www.gov.br> (com adaptações).",
+   "imagem": false
   }
  ]
 }

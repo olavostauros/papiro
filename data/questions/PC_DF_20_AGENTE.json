@@ -1415,7 +1415,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Diferentemente do que ocorria nas primeiras arquiteturas computacionais, em que as interrupções eram utilizadas para melhorar a eficiência do processamento, os computadores e os sistemas operacionais contemporâneos não utilizam mais o tratador de interrupção, pois, além de os dispositivos de E/S serem mais velozes e acompanharem os ciclos de instruções do processador sem desperdício de tempo, há também a execução em multithread. JUSTIFICATIVA - ERRADO. Ainda que exista algum overhead envolvido nesse processo, instruções extras precisam ser executadas (no tratador de interrupção) para determinar a natureza da interrupção e decidir sobre a ação apropriada. Apesar disso, devido à quantidade de tempo relativamente grande que seria desperdiçada pela simples espera por uma operação de E/S, o processador pode ser empregado de modo muito mais eficiente com o uso de interrupções. Praticamente todos os computadores oferecem um mecanismo por meio do qual outros módulos (E/S, memória) podem interromper o processamento normal do processador. As interrupções são fornecidas, primeiramente, como um modo de melhorar a eficiência do processamento. Por exemplo, a maioria dos dispositivos externos é muito mais lenta do que o processador. Então, suponha que o processador esteja transferindo dados a uma impressora usando o esquema de ciclo de instrução e que, após cada operação de escrita, o processador deva parar e permanecer ocioso até que a impressora o alcance. A extensão dessa pausa pode estar na ordem de muitas centenas ou mesmo em milhares de ciclos de instrução que não envolvam memória. Claramente, esse é um grande desperdício de uso do processador.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-pcdf-agente-policia-carreira-084",
@@ -1426,7 +1427,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso o programa do usuário fosse compatível somente com o Linux, seria impossível executá-lo em um Sistema Operacional Windows 10 utilizando-se o Hyper-V da Microsoft, visto que este não suporta máquinas virtuais Linux. ERRADO. O Hyper-V dá suporte a dispositivos emulados e Hyper- V específicos para máquinas virtuais Linux e FreeBSD. Ao executar com dispositivos emulados, nenhum software adicional é necessário. Uma agente, a partir do computador de sua casa, necessitava acessar, com segurança, os serviços de PaaS na nuvem, com criptografia, utilizando a Internet pública como meio de comunicação entre essas localidades. Para tanto, criou-se uma",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-pcdf-agente-policia-carreira-085",
@@ -1437,7 +1439,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A solução descreve corretamente o uso da VPN como meio de prover segurança no tráfego, mas torna-se inviável nessa situação, pois uma VPN não pode ser utilizada para acesso a serviço do tipo PaaS como o descrito. JUSTIFICATIVA - ERRADO. Poderia ser utilizada, pois, em vez de implementar e manter uma rede privada, hoje muitas instituições criam VPNs em cima da internet pública. Com uma VPN, o tráfego interdepartamental é enviado por meio da internet pública, e não de uma rede fisicamente independente. Mas, para prover sigilo, esse tráfego é criptografado antes de entrar na internet pública. Isso serve para PaaS, SaaS ou IaaS. VPN é uma ferramenta extremamente poderosa para a segurança das informações pessoais, mas muitos usuários ainda desconhecem o recurso. O acrônimo, que representa uma “Rede Privada Virtual” (Virtual Private Network), permite o tráfego de dados de forma segura e também permite o acesso a uma rede interna de uma empresa, mesmo que o usuário esteja trabalhando em casa, por exemplo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2020-pcdf-agente-policia-carreira-086",
@@ -1448,7 +1451,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso o acesso fosse realizado por meio da VPN para o SaaS, por exemplo, para um webmail, os emails estariam imunes a vírus, pois, em um tunelamento criptográfico, o tráfego é, necessariamente e continuadamente, analisado por antivírus. JUSTIFICATIVA - ERRADO. Não ficam imunes ao vírus, pois, ainda que o tunelamento seja uma técnica utilizada pela maioria das VPNs (Redes Virtuais Privadas), esse é um processo que basicamente coloca cada pacote de informação enviado dentro de outro pacote, criando uma espécie de envoltório. Esse encapsulamento apenas é compreendido pelo emissor e pelo receptor, sendo completamente transparente, uma vez que o empacotamento e o desempacotamento são realizados na porta de saída, e não no computador. Dependendo do problema tratado, essa técnica é utilizada com objetivos distintos. Nesse tipo de VPN, não há necessariamente o uso de antivírus. Logo não seriam imunes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2020-pcdf-agente-policia-carreira-087",
@@ -1668,7 +1672,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O número de contas credoras é igual ao número de contas devedoras. JUSTIFICATIVA - CERTO. A lista é composta por seis contas devedoras e seis credoras. São devedoras caixa, bancos conta movimento, juros passivos a transcorrer, instalações, veículos e ações em tesouraria. As demais são credoras.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2020-pcdf-agente-policia-carreira-114",
@@ -1679,7 +1684,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O registro contábil da baixa de uma duplicata descontada não quitada, com os juros correspondentes, pode ser realizado por meio de uma partida de segunda fórmula. JUSTIFICATIVA - ERRADO. A baixa de uma duplicata descontada não quitada é feita a crédito da conta Bancos Conta Movimento, com débito nas contas Duplicatas Descontadas e Despesa com Encargos Financeiros. Dois débitos e um crédito caracteriza uma partida de terceira fórmula.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2020-pcdf-agente-policia-carreira-115",
@@ -1746,6 +1752,26 @@
    "tipo": "certo_errado",
    "enunciado": "O desconto financeiro concedido pela antecipação do recebimento de aluguéis, já registrados na contabilidade da empresa em mês anterior, proporcionará uma redução no valor recebido pela empresa, sem impacto sobre o resultado do exercício apurado no mês da concessão do desconto.JUSTIFICATIVA - ERRADO. A contabilização de desconto financeiro reduzirá o valor recebido pela empresa e também seu resultado do exercício. O correto registro implica um débito na conta de desconto financeiro concedido — resultado do exercício — e um crédito em contas a pagar — ativo.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Tendo a figura precedente como referência inicial, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma agente, a partir do computador de sua casa, necessitava acessar, com segurança, os serviços de PaaS na nuvem, com criptografia, utilizando a Internet pública como meio de comunicação entre essas localidades. Para tanto, criou-se uma VPN ( virtual private network ) da Internet pública, a fim de estabelecer a conexão entre as localidades e, para prover o sigilo, criptografou-se o referido tráfego antes de ele entrar na Internet pública.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Considere que tenham sido selecionadas algumas contas integrantes do plano de contas de determinada companhia, conforme especificado na tabela precedente. Com relação a esse",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

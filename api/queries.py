@@ -13,7 +13,7 @@ from sqlalchemy import Select, func, select
 from sqlalchemy.orm import Session
 
 from crawler.db import (Assunto, Banca, Cargo, Evento, Orgao, Prova,
-                        QuestaoDB, unaccent_str)
+                        QuestaoDB, Texto, unaccent_str)
 from crawler.shards import CERTO_ERRADO
 
 TIPOS = ("certo_errado", "multipla_escolha")
@@ -23,22 +23,28 @@ TIPOS = ("certo_errado", "multipla_escolha")
 USE_UNACCENT = True
 
 
-def base_questao() -> Select:
-    """questao joined out to every dimension — yields flat-record columns."""
-    return (
-        select(
-            QuestaoDB.id,
-            Banca.nome.label("banca"),
-            Orgao.nome.label("orgao"),
-            Cargo.nome.label("cargo"),
-            QuestaoDB.ano,
-            Assunto.nome.label("assunto"),
-            QuestaoDB.tipo,
-            QuestaoDB.enunciado,
-            QuestaoDB.alternativas,
-            QuestaoDB.gabarito,
-            Prova.fonte,
-        )
+def base_questao(with_texto: bool = False) -> Select:
+    """questao joined out to every dimension — yields flat-record columns.
+
+    ``with_texto`` acrescenta o texto-base (ref/conteudo/citacao/imagem) —
+    usado no detalhe e no agente; a listagem também o traz (o card exibe o
+    texto em <details>).
+    """
+    cols = [
+        QuestaoDB.id,
+        Banca.nome.label("banca"),
+        Orgao.nome.label("orgao"),
+        Cargo.nome.label("cargo"),
+        QuestaoDB.ano,
+        Assunto.nome.label("assunto"),
+        QuestaoDB.tipo,
+        QuestaoDB.enunciado,
+        QuestaoDB.alternativas,
+        QuestaoDB.gabarito,
+        Prova.fonte,
+    ]
+    stmt = (
+        select(*cols)
         .select_from(QuestaoDB)
         .join(Prova, QuestaoDB.prova_id == Prova.id)
         .join(Evento, Prova.evento_id == Evento.id)
@@ -47,6 +53,14 @@ def base_questao() -> Select:
         .join(Orgao, Cargo.orgao_id == Orgao.id)
         .outerjoin(Assunto, QuestaoDB.assunto_id == Assunto.id)
     )
+    if with_texto:
+        stmt = stmt.add_columns(
+            Texto.ref.label("texto_ref"),
+            Texto.conteudo.label("texto_conteudo"),
+            Texto.citacao.label("texto_citacao"),
+            Texto.imagem.label("texto_imagem"),
+        ).outerjoin(Texto, QuestaoDB.texto_id == Texto.id)
+    return stmt
 
 
 def _escape_like(q: str) -> str:
@@ -111,6 +125,16 @@ def apply_filters(
 
 def row_to_questao(row) -> dict:
     """Join row → flat ``Questao`` dict. NULLs map back to shard defaults."""
+    texto = None
+    if getattr(row, "texto_ref", None) is not None or \
+            getattr(row, "texto_conteudo", None) is not None or \
+            getattr(row, "texto_imagem", None):
+        texto = {
+            "ref": row.texto_ref or "",
+            "conteudo": row.texto_conteudo or "",
+            "citacao": row.texto_citacao or "",
+            "imagem": bool(row.texto_imagem),
+        }
     return {
         "id": row.id,
         "banca": row.banca,
@@ -125,6 +149,7 @@ def row_to_questao(row) -> dict:
                          else row.alternativas),
         "gabarito": row.gabarito,
         "fonte": row.fonte,
+        "texto": texto,
     }
 
 

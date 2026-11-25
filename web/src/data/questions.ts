@@ -8,6 +8,14 @@
  * que `shard_to_records` emite em data/questions/.
  */
 
+/** Texto-base da prova — `ref` é o rótulo da banca ("CG1A1"); `imagem` marca texto só em imagem no PDF. */
+export interface TextoBase {
+  ref: string;
+  conteudo: string;
+  citacao: string;
+  imagem: boolean;
+}
+
 export interface Questao {
   id: string;
   banca: string;
@@ -20,6 +28,7 @@ export interface Questao {
   alternativas: string[];
   gabarito: string;
   fonte: string;
+  texto?: TextoBase | null;
 }
 
 export interface QuestoesPage {

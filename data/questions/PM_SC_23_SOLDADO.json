@@ -560,7 +560,8 @@
     "informação de dados estatísticos do uso de algoritmos em diversas áreas.",
     "apresentação de exemplos do uso dos algoritmos em diferentes setores da sociedade.",
     "definição de que algoritmo é uma sequência de etapas para resolver um problema."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-pmsc-soldado-policia-militar-034",
@@ -578,7 +579,8 @@
     "triviais e imprecisos .",
     "práticas e inalcançáveis .",
     "vulgares e incontestáveis ."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-pmsc-soldado-policia-militar-035",
@@ -596,7 +598,8 @@
     "Apenas os itens I e II estão certos.",
     "Apenas os itens I e III estão certos.",
     "Todos os itens estão certos."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-pmsc-soldado-policia-militar-036",
@@ -614,7 +617,8 @@
     "explicação.",
     "conformidade.",
     "comparação."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-pmsc-soldado-policia-militar-037",
@@ -650,7 +654,8 @@
     "desde que.",
     "ainda que.",
     "de sorte que."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-pmsc-soldado-policia-militar-039",
@@ -686,7 +691,8 @@
     "ao acesso ao sistema SISREG.",
     "à humanização dos serviços, ao controle do fluxo e à otimização na utilização dos recursos.",
     "à implantação da Central de Regulação de Consultas e Exames do Município."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-pmsc-soldado-policia-militar-041",
@@ -704,7 +710,8 @@
     "Apenas os itens I e III estão certos.",
     "Apenas os itens II e III estão certos.",
     "Todos os itens estão certos."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-pmsc-soldado-policia-militar-042",
@@ -866,7 +873,8 @@
     "8",
     "16",
     "32"
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-pmsc-soldado-policia-militar-052",
@@ -884,7 +892,8 @@
     "c (Mário) → l (Mário)",
     "c (Mário) ↔ l (Mário)",
     "~ c (Mário) ˅ l (Mário)"
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-pmsc-soldado-policia-militar-053",
@@ -902,7 +911,8 @@
     "C e L devem coincidir (C = L).",
     "C deve conter L (L ⸦ C).",
     "L deve conter C (C ⸦ L)."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-pmsc-soldado-policia-militar-054",
@@ -920,7 +930,8 @@
     "Priscila confunde liberdade de expressão com crime.",
     "Se Priscila confunde crime com liberdade de expressão, então Priscila confunde liberdade de expressão com crime.",
     "Se Priscila confunde liberdade de expressão com crime, então Priscila confunde crime com liberdade de expressão."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-pmsc-soldado-policia-militar-055",
@@ -975,6 +986,14 @@
     "62,35%.",
     "72,5%."
    ]
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Considere-se que C, L e W representem, respectivamente, os conjuntos verdade das seguintes sentenças abertas, todas com a variável x = “pessoa” tomada no conjunto universo V de todos os cidadãos de determinada cidade. c ( x ): a pessoa confunde crime com liberdade de expressão l ( x ): a pessoa confunde liberdade de expressão com crime w ( x ): a pessoa que confunde crime com liberdade de expressão confunde liberdade de expressão com crime",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

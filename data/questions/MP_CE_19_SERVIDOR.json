@@ -871,7 +871,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor correto do total das receitas correntes é R$ 5.100.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-administracao-077",
@@ -882,7 +883,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor da receita de capital é R$ 9.000.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-administracao-078",
@@ -3676,7 +3678,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor correto do total das receitas correntes é R$ 5.100.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-ciencias-contabeis-102",
@@ -3687,7 +3690,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor da receita de capital é R$ 9.000.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-ciencias-contabeis-103",
@@ -3896,7 +3900,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e os sentidos do texto seriam mantidos caso o período “Assim, foge da postura típica dos animais, que só passam a rejeitar aquilo que os prejudica a partir da experiência adquirida.” ( R . 7 a 9) fosse reescrito da seguinte forma: Assim, o preconceito foge da postura típica dos animais, que rejeitam aquilo que é prejudicial a partir da experiência adquirida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-ciencias-da-computacao-006",
@@ -3929,7 +3934,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O verbo ‘postular’ ( R .34) está empregado no texto com o mesmo sentido de pressupor .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-ciencias-da-computacao-009",
@@ -3940,7 +3946,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Embora seja um problema mundial, a contaminação dos alimentos ocorre de forma mais severa nos países do continente americano, de acordo com o texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-ciencias-da-computacao-010",
@@ -3962,7 +3969,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “quase uma em cada dez pessoas no mundo” ( R .5), a inserção de uma vírgula logo após “pessoas” prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-ciencias-da-computacao-012",
@@ -3973,7 +3981,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A substituição da expressão “metade delas” ( R .15) por cuja metade manteria a correção gramatical e a coesão do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-ciencias-da-computacao-013",
@@ -3995,7 +4004,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem alteração dos sentidos originais do texto, a palavra “transmitidas” (R.17) poderia ser substituída por transmissíveis.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-ciencias-da-computacao-015",
@@ -4028,7 +4038,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No texto, sugere-se que a liberdade de expressão pode ser usada em favor da mentira e da manipulação.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-ciencias-da-computacao-018",
@@ -4039,7 +4050,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É facultativo o emprego da vírgula presente na afirmação atribuída a Voltaire, no primeiro período do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-ciencias-da-computacao-019",
@@ -4061,7 +4073,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência do texto seriam mantidas caso fosse inserida a expressão por isso , isolada por vírgulas, entre as palavras “e” e “não”, na linha 13 — e, por isso, não .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-ciencias-da-computacao-021",
@@ -4611,7 +4624,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O método apresentado se caracteriza pela utilização de padrões fractais aplicados em escalas menores, no qual padrões se inserem dentro de padrões, sucessivamente, até que se obtenha o limite racional para o software .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-ciencias-da-computacao-072",
@@ -4622,7 +4636,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os estágios do processo de software no diagrama em questão são independentes, o que evita a coexistência deles em algum nível de detalhe.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-ciencias-da-computacao-073",
@@ -4699,7 +4714,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No diagrama apresentado, a modalidade obrigatória que conecta transportador e transporta indica que, para todo alimento fabricado, é necessária uma ação de transporte.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-ciencias-da-computacao-080",
@@ -4710,7 +4726,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A cardinalidade e a modalidade apresentada para a entidade fabricante mostram que obrigatoriamente um fabricante inicializa a ação de solicitação de distribuição, contratação de transporte e produção de alimento , o que caracteriza uma relação 1 × n.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-ciencias-da-computacao-081",
@@ -4743,7 +4760,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considerando-se que o somatório obtido para as respostas dos níveis de influência dos 14 questionamentos que definem o ajuste da complexidade na metodologia de pontos por função, para a totalidade das cinco características mencionadas, tenha sido 30 e que o valor de cada ponto por função seja R$ 2.000, é correto afirmar que o custo estimado para o projeto é superior a R$ 100.000.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-ciencias-da-computacao-084",
@@ -4941,7 +4959,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nos algoritmos de cifração simétrica DES ( data encryption standard ) e AES ( advanced encryption standard ), um algoritmo de cifração executa várias substituições e transformações no texto às claras, enquanto um algoritmo de decifração é, essencialmente, o algoritmo de cifração executado ao contrário.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-ciencias-da-computacao-102",
@@ -5106,7 +5125,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The purpose of the text is to give helpful advice to new supervisors.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-ciencias-da-computacao-117",
@@ -5117,7 +5137,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "According to the author, when a new supervisor starts the job, he or she should make changes quickly.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-ciencias-da-computacao-118",
@@ -5128,7 +5149,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “even-handed” ( R .14), as it is used in the text, is a synonym with impartial .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-ciencias-da-computacao-119",
@@ -5139,7 +5161,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "In the text, the word “reports” ( R .24) refers to written records of the work that has been accomplished.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-ciencias-da-computacao-120",
@@ -5150,7 +5173,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The author supports the idea that it is productive to assign tasks to different team members according to their skills and characteristics and then be strategic about when to check on their progress.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-direito-001",
@@ -10001,7 +10025,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A escassez de recursos econômicos, de bens, de serviços essenciais e da dificuldade de acesso a outros meios complementares de sobrevivência gera pobreza, desigualdade e pauperização (absoluta e relativa) de um povo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-servico-social-097",
@@ -10012,7 +10037,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A pobreza, que se traduz por privações materiais, é sanada com ações que se direcionem para uma nova fase de expansão do capital, enfrentando e superando a crise capitalista.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-servico-social-098",
@@ -10023,7 +10049,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em uma sociedade capitalista, é no mercado que são geradas as contradições fundantes entre as classes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-servico-social-099",
@@ -10034,7 +10061,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No sistema capitalista, a socialização da riqueza, ainda que parcial, resolve a desigualdade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-servico-social-100",
@@ -10045,7 +10073,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os direitos, assim como a cidadania, são concedidos a partir da correlação de forças dos blocos sociais existentes, sendo sua instituição suficiente para que sejam garantidos e respeitados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-servico-social-101",
@@ -10056,7 +10085,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O serviço social, na contribuição com a transformação social, deve aprofundar a noção de cidadania social, que abrange a integralidade do ser humano e a complexidade da sociedade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2020-mp-ce-analista-servico-social-102",
@@ -10276,7 +10306,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O termo “Desenvolveram-se” (R.5) poderia ser substituído pela locução Foram desenvolvidos, sem prejuízo do sentido e da correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2020-mp-ce-tecnico-ministerial-002",
@@ -10287,7 +10318,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A “rede mundial de computadores” a que o autor se refere nas linhas 16 e 17 do texto corresponde à Internet.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2020-mp-ce-tecnico-ministerial-003",
@@ -10298,7 +10330,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As formas pronominais “os quais” ( R .9) e “a qual” ( R .16) referem-se, respectivamente, a “portadores físicos” ( R .8) e “situação” ( R .15).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2020-mp-ce-tecnico-ministerial-004",
@@ -10320,7 +10353,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A substituição do conectivo “Afinal” ( R .16) por Contudo manteria os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2020-mp-ce-tecnico-ministerial-006",
@@ -10331,7 +10365,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “pairava ofegante num beiral de telhado” ( R . 2 e 3), o verbo pairar está empregado com o mesmo sentido de ameaçar .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2020-mp-ce-tecnico-ministerial-007",
@@ -10353,7 +10388,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “É verdade que não se poderia contar com ela para nada” ( R . 8 e 9), o uso da próclise justifica-se pela presença da palavra negativa “não”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2020-mp-ce-tecnico-ministerial-009",
@@ -10364,7 +10400,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho “enquanto o rapaz galgava outros com dificuldade” ( R . 3 e 4) mostra que havia uma perseguição à galinha pelos telhados da casa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2020-mp-ce-tecnico-ministerial-010",
@@ -10408,7 +10445,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto apresentado é predominantemente descritivo, já que exemplifica uma das acepções do termo ritual .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2020-mp-ce-tecnico-ministerial-015",
@@ -10419,7 +10457,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A substituição do trecho “se for considerado” ( R .12) por quando considerado preservaria a coerência e a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2020-mp-ce-tecnico-ministerial-016",
@@ -10430,7 +10469,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A acepção de ritual empregada nos dois primeiros períodos do texto afasta-se, segundo a autora, do sentido corrente dessa palavra, explorado no restante do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2020-mp-ce-tecnico-ministerial-017",
@@ -10441,7 +10481,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A substituição da conjunção “porque” ( R .3) pela locução de modo que preservaria os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2020-mp-ce-tecnico-ministerial-018",
@@ -10452,7 +10493,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “em relação à expectativa de um importante comunicado” ( R . 12 e 13), a retirada do sinal indicativo de crase no vocábulo “à” prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2020-mp-ce-tecnico-ministerial-019",
@@ -10463,7 +10505,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expressão “sua relevância” ( R .8) refere-se a “rituais” ( R .5).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2020-mp-ce-tecnico-ministerial-020",
@@ -10474,7 +10517,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do trecho “Tudo se passa como se nós, modernos, guiados pela livre vontade, estivéssemos liberados desse fenômeno do passado” ( R . 19 a 21) que a autora, ao se declarar moderna, repudia o que pertence ao passado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2020-mp-ce-tecnico-ministerial-021",
@@ -10485,7 +10529,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto defende que, em uma manifestação social, o ritual é a dimensão que mais contribui para a transmissão dos valores e conteúdos implicados nessa manifestação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2020-mp-ce-tecnico-ministerial-022",
@@ -10496,7 +10541,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expressão “do passado” ( R .21) foi empregada no texto com o mesmo sentido de obsoleto .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2020-mp-ce-tecnico-ministerial-023",
@@ -10518,7 +10564,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto de um documento oficial deve seguir a estrutura padronizada de introdução, desenvolvimento e conclusão, exceto em casos de encaminhamento de documentos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2020-mp-ce-tecnico-ministerial-025",
@@ -11520,6 +11567,74 @@
    "tipo": "certo_errado",
    "enunciado": "Na sentença condenatória de Nero, o juiz deve fixar valor mínimo para reparação dos danos, considerando os prejuízos causados à vítima.",
    "gabarito": "certo"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "A seguinte tabela representa um demonstrativo financeiro hipotético.\n\nreceita patrimonial R$ 1.000\n\nreceita de serviços R$ 1.500\n\nreceita industrial R$ 1.500\n\noperação de crédito R$ 3.000\n\nimpostos R$ 500\n\ntaxas R$ 500\n\ncontribuições previdenciárias R$ 100\n\nalienação de bens R$ 2.000\n\namortização R$ 4.000 Considerando esse demonstrativo financeiro, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Lisa Jasper. 5 tips to set first-time supervisors up for",
+   "citacao": "success . Internet: <www.insperity.com> (adapted).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "As métricas embasadas em pontos por função utilizam uma relação empírica a partir de medidas de contagem direta do domínio de informação do software e avaliação da complexidade das funcionalidades. Basicamente, determina a apuração de cinco características do domínio da informação e suas contagens registradas, corrigindo-se a contagem final a partir do nível de complexidade de cada projeto.\n\nEm um projeto de software simples, os registros dos valores das características dos cinco domínios da informação foram definidos com base no histórico de projetos realizados, utilizando-se como referência os dados da tabela a seguir.\n\npeso (fator de complexidade)\n\nfuncionalidade\n\nsimples média alta entradas do usuário 3 4 6 saídas do usuário 4 5 7 consultas do usuário 3 4 6 arquivos 7 10 15 interfaces externas 5 7 10\n\nO projeto envolveu as seguintes funcionalidades. • entradas do usuário: 2 (uma de simples e outra de média\n\ncomplexidade) • saídas do usuário: 2 (uma de média e outra de alta\n\ncomplexidade) • consultas do usuário: 3 de média complexidade • arquivo: 1 de média complexidade • interfaces externas: 2 de simples complexidade\n\nO ajuste da complexidade considerado pela metodologia",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A figura precedente apresenta um método universal e clássico utilizado em processos de engenharia de software , no qual se verifica o ciclo para a solução de um problema. Considerando a metodologia apresentada no diagrama e suas particularidades inerentes ao desenvolvimento de soluções de software que efetivamente apresentam resultados aos usuários",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Considerando o diagrama entidade-relacionamento precedente e os múltiplos aspectos que a modelagem de dados oferece ao analista para examinar os dados no contexto de uma aplicação de software ,",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "de pontos por função (a partir da maior ou menor complexidade apurada, respectivamente), computada para as cinco características apresentadas na tabela.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A pobreza é parte de nossa experiência diária. Os impactos destrutivos das transformações em andamento no capitalismo contemporâneo vão deixando suas marcas sobre a população empobrecida: o aviltamento do trabalho, o desemprego, os empregados de modo precário e intermitente, os que se tornaram não empregáveis e supérfluos, a debilidade da saúde, o desconforto da moradia precária e insalubre, a alimentação insuficiente, a fome, a fadiga, a ignorância, a resignação, a revolta, a tensão e o medo são sinais que muitas vezes anunciam os limites da condição de vida dos excluídos e subalternizados na sociedade.\n\nMaria Carmelita Yazbek. Classes subalternas e\n\nassistência social . 9.ª ed. São Paulo: Cortez, 2009. Tendo o texto anterior como referência inicial e considerando as diferentes expressões da questão social e suas formas de enfrentamento pelo serviço social, bem como o conceito de",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "PROVA DISCURSIVA",
+   "citacao": "• Nesta prova, faça o que se pede, usando, caso deseje, o espaço para rascunho indicado no presente caderno. Em seguida, transcreva o texto para a FOLHA DE TEXTO DEFINITIVO DA PROVA DISCURSIVA , no local apropriado, pois não será avaliado fragmento de texto escrito em local indevido . • Qualquer fragmento de texto além da extensão máxima de linhas disponibilizadas será desconsiderado. • Na Folha de Texto Definitivo , a presença de qualquer marca identificadora no espaço destinado à transcrição do texto definitivo acarretará a anulação da sua prova discursiva. • Ao domínio do conteúdo serão atribuídos até 30,00 pontos , dos quais até 1,50 ponto será atribuído ao quesito apresentação (legibilidade, respeito às margens e indicação de parágrafos) e estrutura textual (organização das ideias em texto estruturado). Lei n.º 12.305, de 2 de agosto de 2010 Art. 6.º São princípios da Política Nacional de Resíduos Sólidos: (...) VI – a cooperação entre as diferentes esferas do poder público, o setor empresarial e demais segmentos da sociedade; VII – a responsabilidade compartilhada pelo ciclo de vida dos produtos; VIII – o reconhecimento do resíduo sólido reutilizável e reciclável como um bem econômico e de valor social, gerador de trabalho e renda e promotor de cidadania; IX – o respeito às diversidades locais e regionais; (...). Internet: <mma.gov.br> (com adaptações). média da composição gravimétrica dos resíduos sólidos gerados no Brasil resíduos participação quantidade (%) ( t por dia) material reciclável 31,9 58.527,40 metais 2,9 5.293,50 aço 2,3 4.213,70 alumínio 0,6 1.079,90 papel, papelão e tetrapak 13,1 23.997,40 plástico total 13,5 24.847,90 plástico filme 8,9 16.399,60 plástico rígido 4,6 8.448,30 vidro 2,4 4.388,60 material orgânico 51,4 94.335,10 outros 16,7 30.618,90 total 100 183.481,50 Internet: <www.politize.com.br> (com adaptações). /*Cargo: /C**C/ – 1 – À proporção em que aumenta o número de habitantes nas cidades, cresce a geração de lixo. Observa-se que as cidades, cada vez mais, apresentam dificuldades para implantar, ordenar e gerenciar de modo sustentável os resíduos por elas gerados. Nesse contexto, em 12/8/2010, foi instituída a Política Nacional de Resíduos Sólidos (PNRS), pela Lei n.º 12.305/2010, que definiu princípios, objetivos, instrumentos e diretrizes relativos à gestão e ao gerenciamento de resíduos sólidos, incluídos os perigosos, em âmbito nacional. Entre os conceitos introduzidos está o de responsabilidade compartilhada pelo ciclo de vida dos produtos: “ conjunto de atribuições individualizadas e encadeadas dos fabricantes, importadores, distribuidores e comerciantes, dos consumidores e dos titulares dos serviços públicos de limpeza urbana e de manejo dos resíduos sólidos, para minimizar o volume de resíduos sólidos e rejeitos gerados, bem como para reduzir os impactos causados à saúde humana e à qualidade ambiental decorrentes do ciclo de vida dos produtos, nos termos desta Lei ” . Isso quer dizer que a lei exige que as empresas assumam o retorno de seus produtos descartados e cuidem da adequada destinação ao final de seu ciclo de vida útil. Internet: <oeco.org.br> (com adaptações). Cerca de 80% do impacto de um produto na natureza está relacionado ao seu design e a toda a cadeia logística. Assim, torna-se necessário rever os tipos de materiais produzidos e repensar suas formas de produção, para que seu destino final seja o começo de um novo ciclo, e não os aterros sanitários e os oceanos. O principal objetivo da economia circular é acabar com os resíduos, ou seja, não gerar desperdício. Internet: <positiva.eco.br> (com adaptações). Considerando que os fragmentos de texto precedentes têm caráter motivador, redija um texto dissertativo sobre o seguinte tema. O DESCARTE DE RESÍDUOS SÓLIDOS NO B RASIL NO SÉCULO XXI",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Zygmunt Bauman. Globalização : as consequências humanas. Trad. Marcus Penchel. Rio de Janeiro: Zahar, 1999 (com adaptações). Com relação aos aspectos linguísticos e aos sentidos do texto",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Clarice Lispector. Uma galinha . In : Laços de família : contos. Rio de Janeiro: Rocco, 1998.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Mariza Peirano. Rituais ontem e hoje . Rio de Janeiro: Jorge Zahar Editor, 2003, p. 7-8 (com adaptações). Com relação às ideias, aos sentidos e aos aspectos linguísticos",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

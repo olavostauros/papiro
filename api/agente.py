@@ -725,7 +725,8 @@ def _build_explicar_prompts(
         "REGRAS INVIOLÁVEIS: "
         "(1) GABARITO OFICIAL: o gabarito definitivo informado foi publicado oficialmente "
         "pela banca e é a fonte absoluta da verdade. Nunca contradiga a banca. "
-        "(2) TEXTO-BASE AUSENTE: se a questão depender de texto externo não reproduzido "
+        "(2) TEXTO-BASE: quando o texto-base estiver reproduzido nos dados da questão, "
+        "fundamente a justificativa nele; se depender de texto externo não reproduzido "
         "integralmente nos dados, confirme o gabarito oficial, diga expressamente que não "
         "é possível justificar com base no texto sem tê-lo disponível, aponte o link da fonte "
         "oficial e NÃO afirme o que o texto diz nem por que as outras alternativas falham. "
@@ -764,6 +765,19 @@ def _build_explicar_prompts(
         f"Banca: {questao['banca']} | Órgão: {questao['orgao']} | Cargo: {questao['cargo']} | Ano: {questao['ano']}",
         f"Assunto cadastrado: {questao['assunto'] or '(não informado)'}",
         f"Tipo: {questao['tipo']}",
+    ]
+    texto_base = (questao.get("texto") or {})
+    if texto_base.get("conteudo"):
+        rotulo = f" ({texto_base['ref']})" if texto_base.get("ref") else ""
+        bloco = f"Texto-base{rotulo}:\n{texto_base['conteudo']}"
+        if texto_base.get("imagem"):
+            bloco += ("\n[O material-base inclui figura/imagem disponível "
+                      "apenas no caderno oficial — não afirme seu conteúdo "
+                      "visual]")
+        if texto_base.get("citacao"):
+            bloco += f"\nFonte do texto: {texto_base['citacao']}"
+        linhas.append(bloco)
+    linhas += [
         f"Enunciado:\n{questao['enunciado']}",
         f"Alternativas:\n{alts_txt}",
         f"Gabarito oficial definitivo (FONTE DA VERDADE): {_formatar_gabarito_prompt(questao, gabarito)}",
@@ -1092,7 +1106,8 @@ def _adquirir_slot_agente(state: AgenteState) -> None:
 
 def _buscar_questao_row(session: Session, questao_id: str):
     return session.execute(
-        queries.base_questao().where(QuestaoDB.id == questao_id)
+        queries.base_questao(with_texto=True)
+        .where(QuestaoDB.id == questao_id)
     ).first()
 
 
@@ -1173,8 +1188,9 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
             if cached is not None:
                 return cached
 
+        tem_texto = bool((questao.get("texto") or {}).get("conteudo"))
         ausente, ref_texto = _texto_base_ausente(questao["enunciado"])
-        if ausente:
+        if ausente and not tem_texto:
             gab_desc = _formatar_gabarito_prompt(questao, gab_oficial).rstrip(".")
             extra_mc = (
                 " nem por que as demais alternativas falham"

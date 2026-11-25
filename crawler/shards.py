@@ -15,10 +15,13 @@ Shard schema:
   "cargos": ["Escrivão de Polícia Federal"],
   "assuntos": ["", "Direito Administrativo"],
   "provas": [{"fonte": "https://cdn.../arquivos/106_PF_015_01.pdf"}],
+  "textos": [{"ref": "CB1A1", "conteudo": "...", "citacao": "...",
+              "imagem": false}],            # referenced by item.texto
   "itens": [
     {"id": "cebraspe-2024-pf-escrivao-042",
      "prova": 0, "orgao": 0, "cargo": 0, "ano": 2024, "assunto": 1,
      "tipo": "certo_errado", "enunciado": "...", "gabarito": "certo",
+     "texto": 0,                            # omitted iff sem texto-base
      "alternativas": ["A", "B"]}             # omitted iff ["Certo", "Errado"]
   ]
 }
@@ -71,8 +74,10 @@ def records_to_shard(evento: str, records: list[dict]) -> dict:
     cargos: dict[str, int] = {}
     assuntos: dict[str, int] = {}
     provas: dict[str, int] = {}
+    textos: dict[tuple, int] = {}
+    textos_list: list[dict] = []
 
-    def intern(table: dict[str, int], value: str) -> int:
+    def intern(table: dict, value) -> int:
         if value not in table:
             table[value] = len(table)
         return table[value]
@@ -92,9 +97,20 @@ def records_to_shard(evento: str, records: list[dict]) -> dict:
         }
         if r["alternativas"] != CERTO_ERRADO:
             item["alternativas"] = r["alternativas"]
+        if t := r.get("texto"):
+            key = (t.get("ref", ""), t.get("conteudo", ""))
+            if key not in textos:
+                textos[key] = len(textos_list)
+                textos_list.append({
+                    "ref": t.get("ref", ""),
+                    "conteudo": t.get("conteudo", ""),
+                    "citacao": t.get("citacao", ""),
+                    "imagem": bool(t.get("imagem")),
+                })
+            item["texto"] = textos[key]
         itens.append(item)
 
-    return {
+    shard = {
         "evento": evento,
         "banca": next(iter(bancas)),
         "orgaos": list(orgaos),
@@ -103,11 +119,15 @@ def records_to_shard(evento: str, records: list[dict]) -> dict:
         "provas": [{"fonte": f} for f in provas],
         "itens": itens,
     }
+    if textos_list:
+        shard["textos"] = textos_list
+    return shard
 
 
 def shard_to_records(shard: dict) -> list[dict]:
     """Flatten a shard back into the original record shape (order preserved)."""
     fontes = [p["fonte"] for p in shard["provas"]]
+    textos = shard.get("textos", [])
     out = []
     for it in shard["itens"]:
         out.append({
@@ -122,6 +142,8 @@ def shard_to_records(shard: dict) -> list[dict]:
             "alternativas": it.get("alternativas", CERTO_ERRADO),
             "gabarito": it["gabarito"],
             "fonte": fontes[it["prova"]],
+            "texto": (textos[it["texto"]] if it.get("texto") is not None
+                      else None),
         })
     return out
 

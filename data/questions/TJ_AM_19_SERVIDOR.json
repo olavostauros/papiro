@@ -81,7 +81,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na modelagem EPC, após a execução do operador lógico E/AND na saída de uma atividade, todos os ramos de execução imediatamente subsequentes devem ser executados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2019-tjam-analista-sistemas-042",
@@ -92,7 +93,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No BPMN, o swimlane do tipo lane (raia) é empregado quando se deseja subdividir um swimlane do tipo pool (piscina) para decompor as atribuições de uma unidade de negócio.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2019-tjam-analista-sistemas-043",
@@ -103,7 +105,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A notação DMN substitui a notação BPMN, de modo a introduzir o suporte para a modelagem de aspectos comportamentais do fluxo de trabalho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2019-tjam-analista-sistemas-044",
@@ -2094,7 +2097,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ao contrário da Classificação Decimal de Dewey (CDD), a CDU não é considerada uma classificação documentária enumerativa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2019-tjam-biblioteconomia-067",
@@ -2105,7 +2109,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A estrutura da CDU é hierárquica: o conhecimento é dividido em dez classes e pode ser subdividido em infinitas partes lógicas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2019-tjam-biblioteconomia-068",
@@ -2116,7 +2121,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As tabelas auxiliares de relação indicam o relacionamento entre dois ou mais números principais ou auxiliares e são de uso obrigatório.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2019-tjam-biblioteconomia-069",
@@ -2127,7 +2133,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A notação 53(035)=111=112.2=133.1 indica o assunto principal, a forma e as línguas em que está escrito o documento.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2019-tjam-biblioteconomia-070",
@@ -2611,7 +2618,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Acessibilidade bibliográfica e acessibilidade física no controle bibliográfico correspondem, respectivamente, à identificação da existência do documento e à identificação da localização.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2019-tjam-biblioteconomia-114",
@@ -2622,7 +2630,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Bibliografia pode ser definida como produção sistemática de listas descritivas do conhecimento, as quais são sistematizadas a partir de alguma organização ou arranjo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2019-tjam-biblioteconomia-115",
@@ -2633,7 +2642,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Com o advento e o crescimento da Internet, as bibliografias caíram em desuso.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2019-tjam-biblioteconomia-116",
@@ -2644,7 +2654,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As bibliografias podem ser diferenciadas no que concerne à periodicidade, à forma de tratamento de documentos e ao alcance dos tipos de documentos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2019-tjam-biblioteconomia-117",
@@ -2919,7 +2930,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para o reconhecimento das máquinas como ativo da ABC S.A., é necessário que a empresa detenha a efetiva propriedade jurídica delas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2019-tjam-contabilidade-062",
@@ -2930,7 +2942,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os pagamentos das parcelas do contrato gerarão, na ABC S.A., lançamentos a débito no passivo de arrendamento e a crédito nas disponibilidades.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2019-tjam-contabilidade-063",
@@ -2941,7 +2954,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ABC S.A. está isenta do reconhecimento de depreciação das máquinas arrendadas, por serem bens advindos de um contrato de arrendamento.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2019-tjam-contabilidade-064",
@@ -2952,7 +2966,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O reconhecimento inicial do arrendamento pela ABC S.A. gerará impacto nos seus indicadores de liquidez.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2019-tjam-contabilidade-065",
@@ -3062,7 +3077,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O índice de liquidez seca é inferior a 1,0.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2019-tjam-contabilidade-075",
@@ -3073,7 +3089,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O total do ativo não circulante é igual a R$ 130.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2019-tjam-contabilidade-076",
@@ -3084,7 +3101,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor do capital social é maior que o do patrimônio líquido.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2019-tjam-contabilidade-077",
@@ -3095,7 +3113,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O índice de endividamento geral apresenta valor inferior ao do índice de liquidez imediata.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2019-tjam-contabilidade-078",
@@ -3106,7 +3125,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor presente líquido do financiamento é igual a R$ 50.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2019-tjam-contabilidade-079",
@@ -3117,7 +3137,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O saldo líquido do financiamento é menor que o valor das disponibilidades.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2019-tjam-contabilidade-080",
@@ -3128,7 +3149,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor do patrimônio líquido é maior que o valor do ativo não circulante.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2019-tjam-contabilidade-081",
@@ -3194,7 +3216,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O montante da receita orçamentária corrente foi inferior a R$ 3.600.000.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2019-tjam-contabilidade-087",
@@ -3205,7 +3228,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O total da despesa realizada sob a ótica orçamentária foi inferior a R$ 6.500.000.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2019-tjam-contabilidade-088",
@@ -3216,7 +3240,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O montante da despesa orçamentária de capital foi superior a R$ 3.000.000.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2019-tjam-contabilidade-089",
@@ -3227,7 +3252,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O montante da receita extraorçamentária foi superior a R$ 1.000.000.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2019-tjam-contabilidade-090",
@@ -3238,7 +3264,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sob a ótica patrimonial, o tratamento a ser dado ao evento “lançamento do IPVA do exercício” deve ser o reconhecimento da receita.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2019-tjam-contabilidade-091",
@@ -3293,7 +3320,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O valor das variações patrimoniais aumentativas foi inferior a R$ 7.000.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2019-tjam-contabilidade-096",
@@ -3304,7 +3332,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O saldo do ativo não circulante no balanço patrimonial de 20X9 aumentou em relação ao exercício de 20X8.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2019-tjam-contabilidade-097",
@@ -3315,7 +3344,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O resultado patrimonial do período foi superavitário.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2019-tjam-contabilidade-098",
@@ -3326,7 +3356,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O balanço orçamentário de 20X9 apresenta resultado orçamentário superavitário.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2019-tjam-contabilidade-099",
@@ -4921,7 +4952,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Quanto à carga movimentada, o arranjo geral indica que esse é um porto especializado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2019-tjam-engenharia-civil-086",
@@ -4932,7 +4964,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É possível identificar na figura a existência de um quebra-mar, como estrutura de proteção da área de atracação das embarcações.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2019-tjam-engenharia-civil-087",
@@ -4943,7 +4976,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A área do retroporto apresenta guias-correntes, para melhorar as condições de acesso das embarcações ao terminal.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2019-tjam-engenharia-civil-088",
@@ -4998,7 +5032,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A cota mínima do nível de água do reservatório deverá ser igual a 465 m, para atender à pressão dinâmica mínima exigida na rede de distribuição.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2019-tjam-engenharia-civil-093",
@@ -5009,7 +5044,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A cota máxima do nível de água do reservatório deverá ser igual a 495 m, para atender à pressão máxima estática exigida na rede de distribuição.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2019-tjam-engenharia-civil-094",
@@ -5746,7 +5782,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A estimativa do desvio padrão σ foi igual ou inferior a 3.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2019-tjam-estatistica-082",
@@ -5757,7 +5794,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O tamanho da amostra utilizada para o ajuste do referido modelo de regressão foi igual a 25.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2019-tjam-estatistica-083",
@@ -5768,7 +5806,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Com relação ao teste linear geral, a hipótese nula H0 : b1 = b2 = 0 não seria rejeitada caso fosse escolhido para esse teste um nível de significância igual ou superior a 1%.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2019-tjam-estatistica-084",
@@ -5779,7 +5818,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A variância amostral da variável dependente T foi igual a 10.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2019-tjam-estatistica-085",
@@ -5790,7 +5830,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conjuntamente, segundo o modelo ajustado, a violência intrafamiliar e o inventário do clima familiar explicam 60,8% da variabilidade total dos sintomas de transtornos mentais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2019-tjam-estatistica-086",
@@ -5856,7 +5897,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O erro padrão da estimativa do coeficiente β1 foi superior a 0,3.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2019-tjam-estatistica-092",
@@ -5867,7 +5909,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A estimativa do coeficiente β0, com base no método de mínimos quadrados ordinários, foi igual a 15.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2019-tjam-estatistica-093",
@@ -6076,7 +6119,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A estimativa da proporção populacional de servidores que estão satisfeitos no ambiente de trabalho foi igual ou superior a 0,80.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2019-tjam-estatistica-112",
@@ -6087,7 +6131,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O desenho amostral empregado nessa pesquisa foi a amostragem aleatória estratificada com alocação proporcional aos tamanhos dos estratos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2019-tjam-estatistica-113",
@@ -6098,7 +6143,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Com relação ao grupo k = 2, o erro padrão da estimativa da proporção dos servidores satisfeitos no ambiente de trabalho foi inferior a 0,1.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2019-tjam-estatistica-114",
@@ -6109,7 +6155,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nessa pesquisa, o nível do cargo corresponde à unidade amostral primária; o servidor representa a unidade amostral secundária.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2019-tjam-estatistica-115",
@@ -6120,7 +6167,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A variância da estimativa da proporção populacional de servidores satisfeitos no ambiente de trabalho foi inferior a 0,004.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2019-tjam-estatistica-116",
@@ -6329,7 +6377,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A associação de um beta2-agonista de longa duração com um anticolinérgico de longa duração e com um corticoide inalatório é indicada nesse caso, com o objetivo de reduzir a recorrência das hospitalizações.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2019-tjam-medico-trabalho-055",
@@ -6340,7 +6389,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A oxigenoterapia em longo prazo é indicada nesse caso, para reduzir o risco de mortalidade geral.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2019-tjam-medico-trabalho-056",
@@ -6472,7 +6522,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico mais provável para o caso descrito é de asma induzida por irritante, também denominada síndrome de disfunção reativa das vias aéreas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2019-tjam-medico-trabalho-068",
@@ -6483,7 +6534,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No referido caso clínico, o mecanismo imune envolvido é aquele mediado por imunoglobulina do tipo IgE, embora a ação de linfócitos T também possa estar associada a esse mecanismo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2019-tjam-medico-trabalho-069",
@@ -6582,7 +6634,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico mais provável para a enfermeira-chefe é de estresse pós-traumático.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2019-tjam-medico-trabalho-078",
@@ -6593,7 +6646,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O quadro de irritabilidade, mau humor e alterações de sono, que é apresentado pela enfermeira-chefe pode ser corretamente classificado tanto como distúrbio caracterizado por fadiga, tanto como patologia da violência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2019-tjam-medico-trabalho-079",
@@ -6692,7 +6746,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Concorrem para o assédio moral fatores psicossociais que se manifestam na jornada de trabalho: dizem respeito a situações indiretamente relacionadas ao trabalho, mais especificamente a questões ligadas ao trabalhador, como seus antecedentes psicológicos pessoais e aspectos familiares.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2019-tjam-medico-trabalho-088",
@@ -6703,7 +6758,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para a Organização Mundial da Saúde, no âmbito da saúde pública, constitui um grave problema o assédio moral, que se caracteriza pelo uso deliberado da força e do poder contra a pessoa, o grupo ou a comunidade, e que provoque ou tenha a possibilidade de provocar lesões, morte, danos psicológicos, transtornos e privações.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2019-tjam-medico-trabalho-089",
@@ -6714,7 +6770,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No que concerne à causalidade do assédio moral, existem controvérsias. Alguns defendem a ideia de que a personalidade do autor da violência ou daquele que a sofre é irrelevante ante o assédio moral; outros acreditam que sejam causais os fatores organizacionais e psicossociais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2019-tjam-medico-trabalho-090",
@@ -6725,7 +6782,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Punir o trabalhador por não alcançar a meta e premiar os que a atingem está diretamente relacionado a um modo adequado de organizar o trabalho, a meritocracia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2019-tjam-medico-trabalho-091",
@@ -6846,7 +6904,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para avaliar a relação entre o trabalho e o processo de adoecimento dos trabalhadores, a classificação proposta por Schilling permite combinar a abordagem clinicoindividual com a coletivoepidemiológica e agrupar as doenças segundo a contribuição ou o papel causal desempenhado pelo trabalho no adoecimento.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2019-tjam-medico-trabalho-102",
@@ -6857,7 +6916,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nos casos em que a pneumoconiose associada com tuberculose for classificada como doença ocupacional, deverá ser considerada como etiologia dessas complicações clínicas a exposição do indivíduo ao asbesto no ambiente de trabalho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2019-tjam-medico-trabalho-103",
@@ -6868,7 +6928,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Como a exposição do trabalhador ao cromo e ao níquel pode desencadear asma, essa afecção é classificada por Schilling como causa necessária.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2019-tjam-medico-trabalho-104",
@@ -6879,7 +6940,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O alcoolismo crônico, caso seja doença ocupacional, é desencadeado por problemas relacionados com o emprego e o desemprego e com as condições difíceis do trabalho.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2019-tjam-medico-trabalho-105",
@@ -6890,7 +6952,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A exposição de trabalhadores a agrotóxicos é considerada fator contributivo — e não causa necessária — de leucemias caracterizadas como doenças ocupacionais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2019-tjam-medico-trabalho-106",
@@ -6901,7 +6964,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A LER e o DORT possuem etiologia especificamente relacionadas às exigências das tarefas realizadas no trabalho, que geram sobrecarga osteomuscular, como por exemplo, a utilização excessiva de determinados grupos musculares em movimentos repetitivos com ou sem exigência de esforço localizado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2019-tjam-medico-trabalho-107",
@@ -12027,7 +12091,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso de obra de construção de um prédio de 10 pavimentos, o dimensionamento da quantidade de técnicos de segurança do trabalho depende do nível de poeira, de ruído e de trabalho em altura.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2019-tjam-tecnico-seguranca-082",
@@ -12038,7 +12103,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O ônus decorrente da instalação e da manutenção do SESMT é de responsabilidade exclusiva do empregador.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2019-tjam-tecnico-seguranca-084",
@@ -12049,7 +12115,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso de estabelecimento com 510 empregados e com grau de risco 3, um engenheiro de segurança do trabalho deverá ser contratado para se dedicar três horas semanais, no mínimo, ao estabelecimento.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2019-tjam-tecnico-seguranca-085",
@@ -12060,7 +12127,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É necessária a contratação de um fisioterapeuta ocupacional para trabalhar por, pelo menos, 3 horas diariamente, quando o estabelecimento operar em grau de risco 4 e com mais de 1.000 empregados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2019-tjam-tecnico-seguranca-086",
@@ -12071,7 +12139,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso o estabelecimento tenha 9.388 empregados e opere em grau de risco 1, o SESMT deverá ser dimensionado com um médico do trabalho com jornada integral e outro com jornada parcial de, no mínimo, 3 horas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2019-tjam-tecnico-seguranca-087",
@@ -12082,7 +12151,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O técnico de segurança do trabalho deverá dedicar 8 horas diárias para as atividades do SESMT, ao passo que o engenheiro de segurança do trabalho deverá dedicar, no mínimo, 3 horas diárias, em tempo parcial, ou 6 horas diárias, em tempo integral.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2019-tjam-tecnico-seguranca-088",
@@ -12093,7 +12163,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A atividade econômica está associada a um grau de risco correspondente a um valor numérico de 1 a 4, definido a partir da associação aos perigos a que se submetem os empregados que trabalham no estabelecimento.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2019-tjam-tecnico-seguranca-089",
@@ -12104,7 +12175,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Apenas médico do trabalho, engenheiro de segurança do trabalho, técnico de segurança do trabalho, enfermeiro do trabalho e auxiliar ou técnico em enfermagem do trabalho comporão o SESMT, conforme o grau de risco e a quantidade de empregados do estabelecimento.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2019-tjam-tecnico-seguranca-090",
@@ -12226,6 +12298,116 @@
    "tipo": "certo_errado",
    "enunciado": "O estado psicológico dos trabalhadores, individual ou coletivo, é desvinculado das variações de produção, não se relacionando com fatores que determinam satisfação ou patologias.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "CONHECIMENTOS ESPECÍFICOS ENGENHARIA DE SOFTWARE",
+   "citacao": "Na modelagem de processos de negócio, três notações gráficas podem ser identificadas: EPC ( Event-driven Process Chain ), BPMN ( Business Process Model and Notation ) e DMN ( Decision Model and Notation ). A respeito dessas notações, julgue os itens a seguir.",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Paul Otlet e Henri La Fontaine foram os mentores da Classificação Decimal Universal (CDU). No Brasil, o antigo Instituto Brasileiro de Bibliografia e Documentação (IBBD) desempenhou importante papel na difusão da CDU ao instalar, em 1958, a Comissão Brasileira da Classificação Decimal Universal, ampliando o uso desse sistema de classificação no país. Considerando o assunto abordado no texto precedente, julgue os itens seguintes, acerca do emprego de tabelas auxiliares e da estrutura, dos princípios e das características da CDU.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Desde o advento da imprensa, o controle bibliográfico tem sido aprimorado pela área de biblioteconomia, por meio de atividades desenvolvidas por bibliotecas, centros de documentação e agências bibliográficas nacionais. Catálogos e bibliografias contam e registram a história do mundo para as gerações futuras. A dispersão da produção bibliográfica mundial, a Internet e o livro digital tornaram o controle bibliográfico uma atividade complexa e desafiadora.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A empresa ABC S.A. figura como arrendatária em um contrato de arrendamento mercantil de um conjunto de máquinas pelo valor futuro de R$ 1 milhão, com opção de compra ao final do contrato. Os pagamentos do contrato serão feitos mensalmente durante o prazo de 10 anos. As máquinas são de controle da ABC S.A. e foram confeccionadas conforme as solicitações dessa empresa, para que as atividades comerciais da arrendatária pudessem ser realizadas. Com base nessa situação hipotética, julgue os itens a seguir, de acordo com a legislação vigente.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A tabela a seguir mostra os saldos, em valores absolutos, de todas as contas que compõem o balanço patrimonial de determinada empresa comercial.\n\ncontas contábeis saldo (R$) amortização acumulada 20 bancos 30 capital social 150 contas a pagar 10 contas a receber 30 depreciação acumulada 30 despesas antecipadas 10 encargos a transcorrer de financiamento de longo prazo 10 estoques 50 financiamento de longo prazo 60 fornecedores 30 impostos a recolher 10 máquinas e equipamentos 100 marcas e patentes 80 prejuízo acumulado 10 provisão para contingências 10 Tendo como referência a tabela mostrada, julgue os itens que se seguem, a respeito das contas patrimoniais e da análise econômico-financeira da referida empresa comercial.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Os eventos mostrados na tabela a seguir, em que os valores são expressos em R$ mil, ocorreram em determinado estado da Federação, no exercício de 20X9. Nesse sentido, considere que as siglas IPVA e ICMS referem-se, respectivamente a imposto sobre a propriedade de veículos automotores e imposto sobre circulação de mercadorias e serviços.\n\nitens valores pagamento de mobiliário entregue em 20X8 2.400 lançamento do IPVA do exercício 1.900 receita de aluguéis prevista na lei orçamentária anual 800 (LOA) empenho para aquisição de imóveis 1.100 recebimento de empréstimos concedidos 2.900 arrecadação de ICMS do período 1.300 liquidação da dívida interna 1.200 pagamento de salários do exercício 1.700 recebimento de royalties 1.700 liquidação de serviço de limpeza 1.800 pagamento de operações de crédito por antecipação orçamentária 600 recolhimento, à conta única do Tesouro, de taxa de 500 bombeiro recebida na rede bancária alienação de veículos usados 700 empenho referente à concessão de empréstimos 500 recebimento de depósitos em garantia 700",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O quadro a seguir mostra ingressos e dispêndios de Espaço livre recursos de determinado ente público, referentes a eventos ocorridos no exercício de 20X9.\n\nvalor valor\n\ningressos dispêndios\n\n(em R$) (em R$) dívida ativa tributária 600 juros da dívida 400\n\ndevolução de depósitos alienação de bens 1.500 700\n\ndados em garantia\n\npagamento de restos a cauções 900 900\n\npagar operações de crédito 1.200 amortização da dívida 1.400\n\ndespesas de exercícios aluguéis 2.100 anteriores: plano de 600\n\nsaúde de servidores retenções sobre a folha\n\n300 construção de imóveis 2.800 de pagamento\n\ncontratos terceirizados: impostos e taxas 2.600 1.300\n\nlimpeza e vigilância concessões públicas 800 salários e encargos 1.900\n\nAlém de não ter havido inscrição de restos a pagar no exercício nem outras despesas empenhadas, ocorreram ainda os seguintes eventos.\n\nitens valor (em R$) reconhecimento de dívidas 3.100 depreciação do período 2.000 dação de imóvel em pagamento da dívida ativa 2.900 redução de valor recuperável do imobilizado no período 800 veículos recebidos em doação 1.200",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "!FimDoTexto! Paolo Alfredini e Emilia Arasaki. Engenharia portuária : manual técnico.\n\nSão Paulo: Blucher, 2. a ed., 2018, p. 1.504 (com adaptações). A figura precedente corresponde ao arranjo geral do terminal portuário de Ponta Ubu, em Anchieta – ES. Tendo como referência essa figura e os vários aspectos a ela relacionados, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "dados de um projeto de reservação e distribuição de\n\nágua de uma cidade pressão dinâmica mínima exigida para a rede 100 kPa (10 mca) pressão estática máxima exigida para a rede 500 kPa (50 mca) cota topográfica do nó mais desfavorável da rede, em 440 m termos de pressão dinâmica mínima soma das perdas de carga dos trechos da rede, desde 15 m o reservatório até o nó mais desfavorável da rede cota topográfica do nó da rede mais baixo 430 m Com base nos dados apresentados na tabela antecedente, julgue os próximos itens, relativos às cotas dos níveis mínimo e máximo de água do reservatório.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um modelo de regressão linear foi ajustado para explicar os sintomas de transtornos mentais ( T ) em função da violência intrafamiliar ( V ) e do inventário do clima familiar ( C ). A forma desse modelo é dada por T = b 0 + b 1 V + b 2 C + ε, em que ε representa o erro aleatório normal com média zero e desvio padrão σ, e b 0 , b 1 e b 2 são os coeficientes do modelo. A tabela a seguir mostra os resultados da análise de variância (ANOVA) do referido modelo. fonte de graus de soma dos média dos f p -valor variação liberdade quadrados quadrados razão regressão 2 608 304 76 < 0,0001 resíduo 98 392 4 total 100 1.000 (corrigido) Com base na tabela e nas informações apresentadas, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "β 0 1510 < 0,00001 β 1 1 10 < 0,00001 β 2 0,1 1 0,331 Com base nessas informações e no quadro apresentado, julgue os próximos itens.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Para avaliar a satisfação dos servidores públicos de certo tribunal no ambiente de trabalho, realizou-se uma pesquisa. Os servidores foram classificados em três grupos, de acordo com o nível do cargo ocupado. Na tabela seguinte, k é um índice que se refere ao grupo de servidores, e N k denota o tamanho populacional de servidores pertencentes ao grupo k . nível do k N n p cargo k k k\n\nI 1 500 50 0,7\n\nII 2 300 20 0,8\n\nIII 3 200 10 0,9\n\nDe cada grupo k foi retirada uma amostra aleatória simples sem reposição de tamanho n ; p representa a proporção de\n\nk k servidores amostrados do grupo k que se mostraram satisfeitos no ambiente de trabalho. A partir das informações e da tabela apresentadas, julgue os próximos itens.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um homem de 67 anos de idade e com doença pulmonar obstrutiva crônica (DPOC) grave compareceu a ambulatório para acompanhamento após internação recente. Por duas vezes nos últimos seis meses, ele havia sido internado em decorrência de falência respiratória e exacerbação da DPOC. Da última internação, ocorrida havia dez dias, ele recebera alta com saturação de oxigênio de 88% em ar ambiente e sem hipercapnia. No ambulatório, ele relatou apresentar, atualmente, dispneia a pequenos esforços. Considerando esse caso clínico hipotético, julgue os itens subsecutivos.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Carlos, com vinte e cinco anos de idade, trabalhador de uma indústria química há quatro meses, relatou, durante atendimento médico, que sofria exposição aguda a alta concentração de gás cloro no ambiente de trabalho. O quadro clínico apresentado era de dispneia, característico de asma brônquica; o paciente informou que não tinha antecedentes de qualquer doença do trato respiratório.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A enfermeira-chefe de uma UTI há 20 anos, sempre muito ativa e respeitada, passou a apresentar quadro de irritabilidade, mau humor e alterações de sono, após período de sobrecarga de suas atividades, devido à ausência de colegas de trabalho que haviam sido afastados do hospital. Em determinada ocasião, ela perdeu o controle e gritou com um familiar de um paciente em estado terminal. Diante disso, a enfermeira-chefe foi encaminhada para avaliação médica.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Assédio moral é um tema complexo por fazer parte de um fenômeno mais amplo — a violência genérica —, revelando-se como uma das faces mais desafiadoras dessa violência. Está relacionado aos fatores psicossociais que se manifestam durante a jornada de trabalho e nas relações laborais, em decorrência do modo de organização do processo produtivo.",
+   "citacao": "Compreendendo o assédio moral no ambiente de trabalho (Seminário). Coord. técnica: Cristiane Queiroz Barbeiro Lima et al. São Paulo: Fundacentro, 2013, p. 13 (com adaptações).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A relação entre o trabalho e o processo de adoecimento dos trabalhadores pode ser mais bem compreendida considerando-se a classificação proposta por Schilling. Essa classificação foi adotada para a elaboração da lista de doenças relacionadas ao trabalho, disposta do anexo LXXX da Portaria de Consolidação n.º 5/2017, com a finalidade de orientar os profissionais de saúde sobre a possível relação do adoecimento com a exposição a riscos para a saúde presentes no trabalho.",
+   "citacao": "Brasil. Cadernos de atenção básica . Brasília: Ministério da Saúde, n.º 41, 2018, p. 23 (com adaptações).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O quadro a seguir — quadro II da NR n.º 4, com adaptações — mostra como deve ser dimensionado o SESMT.\n\nn.º de empregados no grau estabelecimento 50 101 de a a risco 100 250\n\ntécnicos\n\ntécnico de segurança do trabalho\n\nengenheiro de segurança do trabalho 1 auxiliar de enfermagem do trabalho\n\nenfermeiro do trabalho\n\nmédico do trabalho\n\ntécnico de segurança do trabalho\n\nengenheiro de segurança do trabalho 2 auxiliar de enfermagem do trabalho\n\nenfermeiro do trabalho\n\nmédico do trabalho\n\ntécnico de segurança do trabalho 1\n\nengenheiro de segurança do trabalho 3 auxiliar de enfermagem do trabalho\n\nenfermeiro do trabalho\n\nmédico do trabalho\n\ntécnico de segurança do trabalho 1 2\n\nengenheiro de segurança do trabalho 1* 4 auxiliar de enfermagem do trabalho\n\nenfermeiro do trabalho\n\nmédico do trabalho 1* (*) tempo parcial (mínimo de três horas) (**) o dimensionamento total deverá ser feito levando-se em consideração o dimensionamento de faixas de 3.501 a 5.000 mais o dimensionamento do(s) grupo(s) de 4.000 ou fração acima de 2.000 Julgue os itens seguintes, no tocante ao SESMT e a seu funcionamento nas empresas, considerando, no que couber, o quadro anterior e a legislação pertinente em vigor.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

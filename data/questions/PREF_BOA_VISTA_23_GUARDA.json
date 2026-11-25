@@ -47,7 +47,8 @@
     "estão apenas em terras indígenas.",
     "são integralmente cadastrados no IPHAN.",
     "situam-se, em sua maioria, na capital do estado."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-boa-vista-guarda-civil-municipal-002",
@@ -64,7 +65,8 @@
     "O depósito sedimentar nesse sítio é malconservado.",
     "Nesse sítio, há gravuras rupestres zoomorfas.",
     "É grande a quantidade de gravuras rupestres encontradas nesse sítio, mas elas são muito repetitivas."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-boa-vista-guarda-civil-municipal-003",
@@ -81,7 +83,8 @@
     "cuja.",
     "aos quais.",
     "em que."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-boa-vista-guarda-civil-municipal-004",
@@ -98,7 +101,8 @@
     "tinham.",
     "existiu.",
     "existem."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-boa-vista-guarda-civil-municipal-005",
@@ -115,7 +119,8 @@
     "falta de investimento em segurança pública.",
     "desinformação da população.",
     "carência de escolas nas cidades."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-boa-vista-guarda-civil-municipal-006",
@@ -132,7 +137,8 @@
     "impede.",
     "ocasiona.",
     "soluciona."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-boa-vista-guarda-civil-municipal-007",
@@ -149,7 +155,8 @@
     "a “macrocefalia urbana”.",
     "“o processo de urbanização”.",
     "“o crescimento das cidades”."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-boa-vista-guarda-civil-municipal-008",
@@ -166,7 +173,8 @@
     "Diante isso.",
     "Devido a isso.",
     "Apesar disso."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-boa-vista-guarda-civil-municipal-009",
@@ -183,7 +191,8 @@
     "lugar.",
     "tempo.",
     "modo."
-   ]
+   ],
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-boa-vista-guarda-civil-municipal-010",
@@ -200,7 +209,8 @@
     "agilidade.",
     "honestidade.",
     "força física."
-   ]
+   ],
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-boa-vista-guarda-civil-municipal-011",
@@ -217,7 +227,8 @@
     "critica a rivalidade entre homens e mulheres.",
     "expõe as diferenças culturais entre esses povos.",
     "descreve hábitos sociais e culturais desses povos."
-   ]
+   ],
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-boa-vista-guarda-civil-municipal-012",
@@ -234,7 +245,8 @@
     "exploravam os homens.",
     "coagiam os homens.",
     "assustavam os homens."
-   ]
+   ],
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-boa-vista-guarda-civil-municipal-013",
@@ -251,7 +263,8 @@
     "expulsão.",
     "submissão.",
     "anulação."
-   ]
+   ],
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-boa-vista-guarda-civil-municipal-014",
@@ -268,7 +281,8 @@
     "“todas as mulheres” (quinto período).",
     "“as meninas recém-nascidas” (sexto período).",
     "“as máscaras” (quinto período)."
-   ]
+   ],
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-boa-vista-guarda-civil-municipal-015",
@@ -285,7 +299,8 @@
     "ligar duas orações coordenadas.",
     "isolar o advérbio de lugar “na popa”.",
     "separar os elementos de uma enumeração. NOÇÕES DE DIREITO CONSTITUCIONAL; NOÇÕES DE DIREITO PENAL;"
-   ]
+   ],
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-boa-vista-guarda-civil-municipal-016",
@@ -3129,6 +3144,20 @@
    "tipo": "certo_errado",
    "enunciado": "A carga de projeção, genericamente conhecida como pólvora, é responsável pela produção de gases, a partir de cuja combustão o projétil é expelido.",
    "gabarito": "certo"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "CG1A1",
+   "conteudo": "A violência urbana é, ao mesmo tempo, um fenômeno social e um problema de ordem estrutural que podem ser observados em cidades de todo o mundo, sejam elas metrópoles globais, cidades médias ou cidades pequenas. Por essa razão, muitas das causas da violência urbana estão enraizadas no processo histórico de formação de um país. Também figura como causa a maneira como a urbanização e, consequentemente, a segregação do espaço urbano contribuiu para o aprofundamento das desigualdades socioeconômicas e para a exclusão de uma parcela da população, exclusão essa que é refletida no modo de organização do tecido urbano. A principal causa da violência urbana é a desigualdade socioeconômica que caracteriza diversas sociedades, inclusive a brasileira, e se expressa principalmente por meio da má distribuição de renda entre a população, que acarreta outros problemas mais graves, como a fome, a miséria e a falta de acesso a serviços e direitos básicos do cidadão que assegurariam a ele uma vida digna, com moradia, saneamento, saúde e educação. Tais desigualdades foram ainda reforçadas com o processo de urbanização, em especial nos países subdesenvolvidos e nos países emergentes, nos quais o crescimento das cidades aconteceu em um período mais recente, a partir de meados do século XX, e se deu de forma rápida e sem planejamento, causando a chamada macrocefalia urbana.",
+   "citacao": "Internet: <https://brasilescola.uol.com.br> (com adaptações).",
+   "imagem": false
+  },
+  {
+   "ref": "CG1A2",
+   "conteudo": "Em épocas remotas, as mulheres se sentavam na proa das canoas e os homens, na popa. As mulheres caçavam e pescavam. Elas saíam das aldeias e voltavam quando podiam ou queriam. Os homens montavam as choças, preparavam a comida, mantinham acesas as fogueiras contra o frio, cuidavam dos filhos e curtiam as peles de abrigo. Assim era a vida entre os índios onas e os yaganes, na Terra do Fogo, até que um dia os homens mataram todas as mulheres e puseram as máscaras que as mulheres tinham inventado para aterrorizá-los. Somente as meninas recém-nascidas se salvaram do extermínio. Enquanto elas cresciam, os assassinos lhes diziam e repetiam que servir aos homens era seu destino. Elas acreditaram. Também acreditaram suas filhas e as filhas de suas filhas.",
+   "citacao": "Eduardo Galeano. A autoridade . In : Mulheres . Internet: <www.lpm.com.br> (com adaptações).",
+   "imagem": false
   }
  ]
 }

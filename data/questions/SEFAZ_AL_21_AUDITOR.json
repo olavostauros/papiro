@@ -29,7 +29,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto apresenta o personagem Matias como um exímio conhecedor de economia e finanças.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-financas-controle-arrecadacao-002",
@@ -40,7 +41,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que a fala “Nem tanto, nem tanto...” (terceiro parágrafo) demonstra falsa modéstia do personagem Matias.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-financas-controle-arrecadacao-003",
@@ -51,7 +53,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Apesar da presença de diálogo, característica da narração, no texto predomina o tipo dissertativo, haja vista a exposição de fatos e o posicionamento do autor contra o jargão técnico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-financas-controle-arrecadacao-004",
@@ -62,7 +65,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do último parágrafo, a palavra “insólita” tem o mesmo sentido de firme , inabalável .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-financas-controle-arrecadacao-005",
@@ -73,7 +77,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A substituição de “invocando” (último parágrafo) por que invoca alteraria os sentidos originais do texto, embora mantivesse sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-financas-controle-arrecadacao-006",
@@ -1008,7 +1013,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A proposição Q é uma negação da proposição “Se Marcos está com os pagamentos em dia, então ele figura no quadro de associados.”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-financas-controle-arrecadacao-097",
@@ -1019,7 +1025,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considerando-se verdadeira a proposição P, é correto concluir que, se Marcos não tem direito a receber os benefícios providos pela associação de moradores de seu condomínio, então, necessariamente, ele não figura no quadro de associados nem está com os pagamentos em dia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-financas-controle-arrecadacao-098",
@@ -1030,7 +1037,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Mesmo que sejam verdadeiras as proposições P e Q, não se pode afirmar que Marcos não tem direito a receber os benefícios providos pela associação de moradores de seu condomínio.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-financas-controle-arrecadacao-099",
@@ -1041,7 +1049,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A proposição P é equivalente à proposição “Se Marcos não figura no quadro de associados ou não está com os pagamentos em dia, então ele não tem direito a receber os benefícios providos pela associação de moradores de seu condomínio.”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-financas-controle-arrecadacao-100",
@@ -1052,7 +1061,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A proposição P é equivalente à proposição “Se Marcos tem direito a receber os benefícios providos pela associação de moradores de seu condomínio, então ele figura no quadro de associados e está com os pagamentos em dia.”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-financas-controle-arrecadacao-101",
@@ -1250,7 +1260,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O gateway apresentado descreve que haverá uma paralelização de trabalho, ou seja, haverá uma divisão de um fluxo em três eventos que serão executados paralelamente, de modo que os caminhos que saem desse gateway serão executados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-financas-controle-arrecadacao-121",
@@ -1514,7 +1525,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A seguir, é apresentado o resultado correto do código em SQL.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-financas-controle-arrecadacao-145",
@@ -1580,7 +1592,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A regressão logística é um modelo de regressão no qual a relação entre as variáveis independentes e a variável dependente é representada por uma função degrau, a qual, por sua vez, pode ser representada por uma spline .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-financas-controle-arrecadacao-151",
@@ -1591,7 +1604,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "DAX ( data analysis expressions ) é uma linguagem utilizada pelo PowerBI para criar as medidas e consultas visualizadas em relatórios e painéis.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-financas-controle-arrecadacao-152",
@@ -1602,7 +1616,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Mineração de texto refere-se ao processo de extração automática de informações relevantes, novas e interessantes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-financas-controle-arrecadacao-153",
@@ -1701,7 +1716,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto apresenta o personagem Matias como um exímio conhecedor de economia e finanças.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-fiscal-receita-estadual-002",
@@ -1712,7 +1728,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que a fala “Nem tanto, nem tanto...” (terceiro parágrafo) demonstra falsa modéstia do personagem Matias.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-fiscal-receita-estadual-003",
@@ -1723,7 +1740,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Apesar da presença de diálogo, característica da narração, no texto predomina o tipo dissertativo, haja vista a exposição de fatos e o posicionamento do autor contra o jargão técnico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-fiscal-receita-estadual-004",
@@ -1734,7 +1752,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do último parágrafo, a palavra “insólita” tem o mesmo sentido de firme , inabalável .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-fiscal-receita-estadual-005",
@@ -1745,7 +1764,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A substituição de “invocando” (último parágrafo) por que invoca alteraria os sentidos originais do texto, embora mantivesse sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-fiscal-receita-estadual-006",
@@ -2680,7 +2700,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A proposição Q é uma negação da proposição “Se Marcos está com os pagamentos em dia, então ele figura no quadro de associados.”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-fiscal-receita-estadual-097",
@@ -2691,7 +2712,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considerando-se verdadeira a proposição P, é correto concluir que, se Marcos não tem direito a receber os benefícios providos pela associação de moradores de seu condomínio, então, necessariamente, ele não figura no quadro de associados nem está com os pagamentos em dia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-fiscal-receita-estadual-098",
@@ -2702,7 +2724,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Mesmo que sejam verdadeiras as proposições P e Q, não se pode afirmar que Marcos não tem direito a receber os benefícios providos pela associação de moradores de seu condomínio.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-fiscal-receita-estadual-099",
@@ -2713,7 +2736,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A proposição P é equivalente à proposição “Se Marcos não figura no quadro de associados ou não está com os pagamentos em dia, então ele não tem direito a receber os benefícios providos pela associação de moradores de seu condomínio.”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-fiscal-receita-estadual-100",
@@ -2724,7 +2748,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A proposição P é equivalente à proposição “Se Marcos tem direito a receber os benefícios providos pela associação de moradores de seu condomínio, então ele figura no quadro de associados e está com os pagamentos em dia.”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-fiscal-receita-estadual-101",
@@ -3175,7 +3200,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso a empresa tivesse deixado de registrar duas notas fiscais de venda no valor total de R$ 5.300 e o recebimento tivesse ocorrido no caixa, o saldo do caixa seria devedor de R$ 3.200.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-fiscal-receita-estadual-143",
@@ -3186,7 +3212,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Suponha que a empresa tivesse realizado mais três pagamentos de R$ 700, cada um com recursos de seu caixa; nesse caso, não foram registradas entradas de caixa de, pelo menos, R$ 4.200.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2021-sefaz-al-auditor-fiscal-receita-estadual-144",
@@ -3308,6 +3335,50 @@
    "tipo": "certo_errado",
    "enunciado": "Considere que não tenha sido registrada a compensação do ICMS a recuperar referente à mercadoria vendida quando do reconhecimento da receita oriunda de sua venda, bem como do seu respectivo custo. Nesse caso, o auditor fiscal deverá considerar que a conta de ICMS sobre vendas, redutora da receita, ficou com saldo superavaliado.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "conhecimentos de informática e(ou) tecnologia da informação informado o contrário, considere que todos os programas mencionados estão em configuração-padrão e que não há restrições de proteção, de funcionamento e de uso em relação aos programas, arquivos, diretórios, recursos e equipamentos mencionados. • Eventuais espaços livres — identificados ou não pela expressão “ poderão ser utilizados para rascunho.\n\n-- PROVAS OBJETIVAS --\n\n-- CONHECIMENTOS BÁSICOS --\n\nLÍNGUA PORTUGUESA",
+   "citacao": "Nenhuma figura é tão fascinante quanto o Falso Entendido. É o cara que não sabe nada de nada, mas sabe o jargão. E passa por autoridade no assunto. Um refinamento ainda maior da espécie é o tipo que não sabe o jargão, mas inventa. — Ó, Matias, você que entende de mercado de capitais... — Nem tanto, nem tanto... — Você, no momento, aconselharia que tipo de aplicação? — Bom. Depende do yield pretendido, do throwback e do ciclo refratário. Na faixa de papéis top market — ou o que nós chamamos de topimarque —, o throwback recai sobre o repasse, e não sobre o release , entende? — Francamente, não. Aí o Falso Entendido sorri com tristeza e abre os braços como quem diz “É difícil conversar com leigos...”. Uma variação do Falso Entendido é o sujeito que sempre parece saber mais do que ele pode dizer. A conversa é sobre política, os boatos cruzam os ares, mas ele mantém um discreto silêncio. Até que alguém pede a sua opinião, e ele pensa muito antes de decidir responder: — Há muito mais coisa por trás disso do que você pensa... Ou então, e esta é mortal: — Não é tão simples assim... Faz-se aquele silêncio que precede as grandes revelações, mas o falso informado não diz nada. Fica subentendido que ele está protegendo as suas fontes em Brasília. E há o falso que interpreta. Para ele, tudo o que acontece deve ser posto na perspectiva de vastas transformações históricas que só ele está sacando. — O avanço do socialismo na Europa ocorre em proporção direta ao declínio no uso de gordura animal nos países do Mercado Comum Europeu. Só não vê quem não quer. E, se alguém quer mais detalhes sobre a sua insólita teoria, ele vê a pergunta como manifestação de uma hostilidade bastante significativa a interpretações não ortodoxas, e passa a interpretar os motivos de quem o questiona, invocando a Igreja medieval, os grandes hereges da história, os mistérios por trás da Reforma de Lutero. Luís Fernando Veríssimo. O jargão . In : As mentiras que os homens contam . Rio de Janeiro: Objetiva, 2001, p. 69-71 (com adaptações).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "RACIOCÍNIO LÓGICO Considere as proposições lógicas P e Q, a seguir, a respeito de um condômino chamado Marcos. • P: “Se Marcos figura no quadro de associados e está com os pagamentos em dia, então ele tem direito a receber os benefícios providos pela associação de moradores de seu condomínio.” • Q: “Marcos não figura no quadro de associados, mas ele está com os pagamentos em dia.” Tendo como referência essas proposições, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Acerca da figura precedente, que representa uma parte de um mapeamento de processos hipotético, e de aspectos relativos a",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "X Y ‒1 ‒1 0 0 ‒1 ‒2 SELECT curto FROM ( SELECT SQRT(POW((p1.x-p2.x),2)+POW((p1.y- p2.y),2)) as curto FROM pontos_xy AS p1 CROSS JOIN pontos_xy AS p2 WHERE p1.x!=p2.x OR p1.y!=p2.y ORDER BY SQRT(POW((p1.x-p2.x),2)+POW((p1.y- p2.y),2)) LIMIT 1) AS a Com base na tabela com duas colunas (X e Y) e no trecho de código anteriormente apresentados, julgue o item seguinte, a respeito de linguagens de definição e manipulação de dados em SGBDs relacionais.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Considere ainda, para os valores da tabela, que: • a soma dos valores da coluna X é X 𝑠𝑠𝑠𝑠 = 20; • a média dos valores da coluna X é X 𝑠é𝑑𝑑𝑠 = 5; • a soma dos valores da coluna Y é Y 𝑠𝑠𝑠𝑠 = 24; • a média dos valores da coluna Y é Y 𝑠é𝑑𝑑𝑠 = 6; • ∑ (X 4 ‒ X ) × (Y ‒ Y ) = 16 ;\n\n𝑑=1 𝑑 𝑠é𝑑𝑑𝑠 𝑑 𝑠é𝑑𝑑𝑠 • ∑ (X 4 ‒ X ) 2 = 20 .\n\n𝑑=1 𝑑 𝑠é𝑑𝑑𝑠 A partir dessas informações, é correto afirmar que a regressão linear para os dados em questão pode ser definida pela expressão Y 𝑑 = 2,0 + 0,8· X 𝑑 .",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Quanto a ferramentas de análise e mineração de texto, julgue os próximos itens.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A tabela a seguir apresenta a transcrição do razonete de conta caixa de uma empresa, cujos registros contábeis de receita somente são realizados após a emissão de cupom fiscal.\n\ncaixa\n\n3.500\n\n1.500\n\n2.400\n\n1.700\n\n3.500 5.600",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

@@ -29,7 +29,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É possível inferir do texto que a prosperidade da cidade de Olívia pressupõe uma infraestrutura material que produz sujeira e desconforto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-cgeal-analista-de-controle-interno-ciencias-contabeis-002",
@@ -40,7 +41,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, é impossível representar, por meio do discurso, a beleza de Olívia, a operosidade de seus habitantes e sua tendência a uma vida livre e civilizada, uma vez que uma cidade não se confunde com o discurso que a descreve.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-cgeal-analista-de-controle-interno-ciencias-contabeis-003",
@@ -51,7 +53,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ao final do texto, a afirmação de que a mentira não está no discurso, mas nas coisas, significa que uma construção discursiva é capaz de superar as contradições presentes na realidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-cgeal-analista-de-controle-interno-ciencias-contabeis-004",
@@ -1228,7 +1231,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O saldo em espécie para o exercício seguinte (saldo final), apurado no balanço financeiro, é de R$ 380.000.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-cgeal-analista-de-controle-interno-ciencias-contabeis-111",
@@ -1239,7 +1243,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O resultado orçamentário do exercício, apurado no balanço orçamentário, foi superavitário em R$ 100.000.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-cgeal-analista-de-controle-interno-ciencias-contabeis-112",
@@ -1250,7 +1255,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O resultado patrimonial do exercício, apurado na demonstração das variações patrimoniais, apresentou superávit de R$ 160.000.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-cgeal-analista-de-controle-interno-ciencias-contabeis-113",
@@ -1339,6 +1345,20 @@
    "tipo": "certo_errado",
    "enunciado": "É proibido à comissão de ética escusar-se de fundamentar o julgamento de falta ética sob alegação de ausência de previsão expressa no código de ética, sendo-lhe facultado recorrer à analogia, aos costumes e aos princípios éticos e morais reconhecidos em outras profissões.",
    "gabarito": "certo"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "conhecimentos de informática e(ou) informado o contrário, considere que todos os programas mencionados estão em configuração-padrão e que não há restrições de proteção, de funcionamento e de uso em relação aos programas, arquivos, diretórios, recursos e equipamentos mencionados. • Eventuais espaços livres — identificados ou não pela expressão “ poderão ser utilizados para rascunho.\n\nPROVAS OBJETIVAS\n\n-- CONHECIMENTOS BÁSICOS --",
+   "citacao": "Você sabe melhor do que ninguém, sábio Kublai, que jamais se deve confundir uma cidade com o discurso que a descreve. Contudo, existe uma ligação entre eles. Se descrevo Olívia, cidade rica de mercadorias e de lucros, o único modo de representar a sua prosperidade é falar dos palácios de filigranas com almofadas franjadas nos parapeitos dos bífores; uma girândola d’água num pátio protegido por uma grade rega o gramado em que um pavão branco abre a cauda em leque. Mas, a partir desse discurso, é fácil compreender que Olívia é envolta por uma nuvem de fuligem e gordura que gruda na parede das casas; que, na aglomeração das ruas, os guinchos manobram comprimindo os pedestres contra os muros. Se devo descrever a operosidade dos habitantes, falarei das selarias com cheiro de couro, das mulheres que tagarelam enquanto entrelaçam tapetes de ráfia, dos canais suspensos cujas cascatas movem as pás dos moinhos. Mas a imagem que essas palavras evocam na sua iluminada consciência é o movimento que leva o mandril até os dentes da engrenagem repetido por milhares de mãos milhares de vezes nos tempos previstos para cada turno. Se devo explicar como o espírito de Olívia tende para uma vida livre e um alto grau de civilização, falarei das mulheres que navegam de noite cantando em canoas iluminadas entre as margens de um estuário verde. Mas isso serve apenas para recordar que, nos subúrbios em que homens e mulheres desembarcam, todas as noites, como fileiras de sonâmbulos, sempre existe quem começa a gargalhar na escuridão, dá vazão às piadas e aos sarcasmos. Pode ser que isto você não saiba: que, para falar de Olívia, eu não poderia fazer outro discurso. Se, de fato, existisse uma Olívia de bífores e pavões, de seleiros e tecelãs de tapetes e de canoas e estuários, seria um mero buraco negro de moscas, e, para descrevê-la, eu teria de utilizar as metáforas da fuligem, dos chiados de rodas, dos movimentos repetidos, dos sarcasmos. A mentira não está no discurso, mas nas coisas. Italo Calvino. As cidades e os símbolos (5) . In : As cidades invisíveis . Tradução: Diogo Mainardi. Coleção Biblioteca Folha. São Paulo: Publifolha, 2003 (com adaptações).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "itens valores\n\nem R$ previsão atualizada da receita 1.000.000 receita arrecadada 950.000 dotação atualizada da despesa 1.000.000 despesa empenhada 900.000 despesa liquidada 850.000 despesa paga 800.000 variações patrimoniais aumentativas (VPA) 980.000 variações patrimoniais diminutivas (VPD) 820.000 saldo inicial do caixa 100.000 Considerando os dados da tabela precedente, relativos às demonstrações contábeis de uma autarquia estadual ao final do exercício de 2025, julgue os itens a seguir, com base nas normas aplicadas à estrutura e fechamento das demonstrações contábeis do setor público.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

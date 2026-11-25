@@ -10410,7 +10410,8 @@
     "O NPSH (Net Positive Suction Head) disponível é insuficiente.",
     "A altura manométrica total do sistema foi aumentada.",
     "A velocidade do impelidor foi reduzida."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-caesb-analista-de-sistemas-de-saneamento-engenheiro-mecanico-044",
@@ -10428,7 +10429,8 @@
     "Houve redução da viscosidade da água.",
     "Os mancais da bomba apresentam atrito menor que o recomendado.",
     "Desgaste do selo mecânico."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-caesb-analista-de-sistemas-de-saneamento-engenheiro-mecanico-045",
@@ -10446,7 +10448,8 @@
     "lubrificação excessiva dos mancais",
     "desbalanceamento do rotor impelidor",
     "válvula de retenção aberta durante a operação"
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-caesb-analista-de-sistemas-de-saneamento-engenheiro-mecanico-046",
@@ -10500,7 +10503,8 @@
     "Bomba de água com vazão superior à recomendada.",
     "Ventilador do radiador operando continuamente, sem pausas.",
     "Filtro de ar sujo."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-caesb-analista-de-sistemas-de-saneamento-engenheiro-mecanico-049",
@@ -10518,7 +10522,8 @@
     "Uso de óleo com viscosidade maior que a recomendado.",
     "Operação em baixas rotação e carga.",
     "Desgaste excessivo nos anéis de segmento."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-caesb-analista-de-sistemas-de-saneamento-engenheiro-mecanico-050",
@@ -10536,7 +10541,8 @@
     "Operação na faixa, mas em menores razões de compressão.",
     "Filtro de ar incorreto com perda de carga menor que a requerida.",
     "Rotação do compressor fora da faixa operacional."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-caesb-analista-de-sistemas-de-saneamento-engenheiro-mecanico-051",
@@ -10554,7 +10560,8 @@
     "Manter o compressor operando sempre em sua máxima capacidade, independentemente do consumo de ar demandado.",
     "Substituir o óleo lubrificante por um de menor viscosidade.",
     "Instalar filtros de ar adicionais na linha de sucção para reduzir ao máximo a penetração de contaminantes."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-caesb-analista-de-sistemas-de-saneamento-engenheiro-mecanico-052",
@@ -10572,7 +10579,8 @@
     "O superaquecimento vale 5 K e seu aumento além desse valor é desejável, pois reduz o trabalho de compressão.",
     "O grau de subresfriamento vale 10 K e o grau de superaquecimento vale 7°C.",
     "O grau de subresfriamento vale 35°C e o grau de superaquecimento vale 7 K."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-caesb-analista-de-sistemas-de-saneamento-engenheiro-mecanico-053",
@@ -10590,7 +10598,8 @@
     "O alto GWP do refrigerante significa que, em caso de vazamento, o impacto ambiental será significativo devido à sua alta capacidade de aquecer a atmosfera.",
     "O refrigerante utilizado não apresenta riscos ambientais, pois é de baixa toxicidade e não contribui para a destruição da camada de ozônio.",
     "A temperatura de evaporação de −5°C contribui para a redução do GWP, uma vez que sistemas de baixa temperatura possuem refrigerantes com menor impacto ambiental."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-caesb-analista-de-sistemas-de-saneamento-engenheiro-mecanico-054",
@@ -10608,7 +10617,8 @@
     "A concentração de CO 2 de 1.500 ppm é aceitável para um auditório com grande lotação, uma vez que esse valor é comum em ambientes com aglomeração de pessoas.",
     "A concentração de CO 2 de 1.500 ppm não tem impacto significativo na qualidade do ar, pois o PMV está dentro da faixa adequada.",
     "A concentração de CO 2 de 1.500 ppm está acima dos limites recomendados, o que pode indicar ventilação insuficiente e ter impacto negativo sobre os ocupantes do auditório."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-caesb-analista-de-sistemas-de-saneamento-engenheiro-mecanico-055",
@@ -10626,7 +10636,8 @@
     "O PMV de + 0,5 pode ser ligeiramente reduzido, para um valor nulo por exemplo, em favor do conforto térmico, graças apenas ao aumento da umidade relativa do ar interior.",
     "O valor do PMV de + 0,5 está dentro da faixa de conforto térmico, indicando que a maioria dos ocupantes provavelmente se sentirá confortável.",
     "O PMV de + 0,5 é considerado confortável apenas para ocupantes habituados a temperaturas mais altas e pessoas em maior atividade metabólica, sendo inadequado para a maioria das pessoas."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-caesb-analista-de-sistemas-de-saneamento-engenheiro-mecanico-056",
@@ -33613,6 +33624,14 @@
     "expediente",
     "cabeçalho"
    ]
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "O sistema de ar-condicionado que atende a um grande auditório instalado no interior de um edifício foi monitorado durante um evento em que o auditório contava com sua lotação máxima, obtendo-se os seguintes resultados:\n\n• concentração de CO 2 no ar de retorno = 1.500 ppm;\n\n• PMV (Predicted Mean Vote) = + 0,5.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

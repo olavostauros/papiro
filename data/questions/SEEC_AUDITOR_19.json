@@ -25,7 +25,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os resultados da pesquisa realizada pelos dois professores do IMD refletem a atitude dos executivos quanto à sustentabilidade, conforme comprovam as informações do segundo parágrafo do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-seec-df-auditor-fiscal-receita-002",
@@ -36,7 +37,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com as informações do texto, setores econômicos distintos apresentam resultados diferentes em termos de ações voltadas para a sustentabilidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-seec-df-auditor-fiscal-receita-003",
@@ -47,7 +49,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto informa que os investidores levam em consideração o impacto social das empresas nas quais investem, o que é comprovado pelo estudo mencionado no segundo parágrafo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-seec-df-auditor-fiscal-receita-004",
@@ -58,7 +61,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se da noção de sustentabilidade presente no texto que ser sustentável é incompatível com criar valor.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-seec-df-auditor-fiscal-receita-005",
@@ -69,7 +73,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto é um artigo de opinião, em que predomina o tipo argumentativo, haja vista a presença de diversos argumentos para sustentar a ideia defendida por seu autor.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-seec-df-auditor-fiscal-receita-006",
@@ -80,7 +85,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e do sentido original do texto, a forma verbal “restam” ( R .26) poderia ser substituída por mantém-se .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-seec-df-auditor-fiscal-receita-007",
@@ -91,7 +97,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A substituição da forma verbal “desenvolveram” ( R .22) por desenvolveu manteria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-seec-df-auditor-fiscal-receita-008",
@@ -102,7 +109,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Dada a regência do verbo tender , é facultativo o emprego do sinal indicativo de crase no vocábulo “a” em “tendem a ser menos efetivas” ( R .45).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-seec-df-auditor-fiscal-receita-009",
@@ -113,7 +121,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e da coerência do texto, o período “Sustentabilidade é vista como uma abordagem de negócios para criar valor a longo prazo, levando-se em conta como uma companhia opera nos ambientes ecológico, social e econômico.” ( R . 12 a 15) poderia ser reescrito da seguinte forma: Vê-se sustentabilidade como uma abordagem de negócios para criar valor a longo prazo, considerando-se como uma companhia opera no ambiente ecológico, no social e no econômico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-seec-df-auditor-fiscal-receita-010",
@@ -124,7 +133,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “os investidores reconhecem cada vez mais o impacto, para a sociedade, das empresas nas quais investem” ( R . 35 a 37), a substituição de “nas quais” por aonde prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-seec-df-auditor-fiscal-receita-011",
@@ -1720,6 +1730,14 @@
    "tipo": "certo_errado",
    "enunciado": "A referida lei federal impõe que o processo administrativo se inicie apenas por iniciativa do interessado.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "CG1A1",
+   "conteudo": "Assis Moreira. Valor econômico , 18/3/2019. Internet: <valor.globo.com> (com adaptações). /R* Cargo: Auditor-Fiscal da Receita do Distrito Federal *R/\n\nConsiderando as informações veiculadas no texto CG1A1-I, julgue\n\nos itens seguintes.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

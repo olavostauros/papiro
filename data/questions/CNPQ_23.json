@@ -59,7 +59,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto apresenta um relato sobre a criação do CNPq, em meados do século passado, destacando a participação ativa do físico César Lattes nesse acontecimento.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-administracao-e-recursos-logisticos-002",
@@ -70,7 +71,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que o almirante Álvaro Alberto estava envolvido com o projeto de criação do que viria a ser o CNPq enquanto César Lattes conquistava reconhecimento científico internacional.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-administracao-e-recursos-logisticos-003",
@@ -81,7 +83,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "À época da criação do CNPq, a física nuclear era um campo de conhecimento estratégico na política nacional e internacional, conforme se infere do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-administracao-e-recursos-logisticos-004",
@@ -92,7 +95,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se do texto que, apesar do impacto das descobertas de César Lattes, a ciência brasileira ainda ocupava uma posição marginal no cenário mundial quando da criação do CNPq.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-administracao-e-recursos-logisticos-005",
@@ -103,7 +107,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expressão “em maio de 1949” (penúltimo período do segundo parágrafo) indica a data da organização da citada coletânea por Shozo Motoyama.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-administracao-e-recursos-logisticos-006",
@@ -114,7 +119,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No penúltimo período do segundo parágrafo, o segmento “seus depoimentos” refere-se aos depoimentos do presidente Dutra reproduzidos na coletânea 50 anos do CNPq contados pelos presidentes .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-administracao-e-recursos-logisticos-007",
@@ -125,7 +131,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sujeito da forma verbal “confirmou” (primeiro período do primeiro parágrafo) é “César Lattes”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-administracao-e-recursos-logisticos-008",
@@ -136,7 +143,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência das ideias do texto seriam preservadas caso o trecho “com o almirante como seu primeiro presidente” (final do segundo parágrafo) fosse reescrito da seguinte forma: cujo primeiro presidente foi o almirante Álvaro Alberto .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-administracao-e-recursos-logisticos-009",
@@ -147,7 +155,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após “bastante” (penúltimo período do primeiro parágrafo) preservaria a correção gramatical e os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-administracao-e-recursos-logisticos-010",
@@ -158,7 +167,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e da coerência das ideias do texto, a forma verbal “nascia” (último período do segundo parágrafo) poderia ser substituída por nasceu .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-administracao-e-recursos-logisticos-011",
@@ -554,7 +564,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "One of the reasons why business owners have introduced the option for tipping at self-checkout machines is that they believe it may raise their employees’ payment.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-administracao-e-recursos-logisticos-047",
@@ -565,7 +576,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “Despite” in the sentence “Despite having zero interaction with employees during transactions” (second sentence of the first paragraph) can be correctly replaced by In spite of , maintaining both the meaning of the fragment and its correction.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-administracao-e-recursos-logisticos-048",
@@ -576,7 +588,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Tipping at self-checkout machines have become mandatory in most places like coffee shops, bakeries, airports, and sports stadiums.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-administracao-e-recursos-logisticos-049",
@@ -587,7 +600,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The sentence “And soon they figured it was some sort of chatbot” can be correctly rephrased as And, before long, they realized it was some form of chatbot .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-administracao-e-recursos-logisticos-050",
@@ -598,7 +612,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is correct to infer from the text that, due to the lawyer’s expertise, he had used ChatGPT for work before.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-administracao-e-recursos-logisticos-051",
@@ -1357,7 +1372,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto apresenta um relato sobre a criação do CNPq, em meados do século passado, destacando a participação ativa do físico César Lattes nesse acontecimento.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-desenvolvimento-e-arquitetura-de-software-002",
@@ -1368,7 +1384,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que o almirante Álvaro Alberto estava envolvido com o projeto de criação do que viria a ser o CNPq enquanto César Lattes conquistava reconhecimento científico internacional.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-desenvolvimento-e-arquitetura-de-software-003",
@@ -1379,7 +1396,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se do texto que, apesar do impacto das descobertas de César Lattes, a ciência brasileira ainda ocupava uma posição marginal no cenário mundial quando da criação do CNPq.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-desenvolvimento-e-arquitetura-de-software-004",
@@ -1390,7 +1408,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "À época da criação do CNPq, a física nuclear era um campo de conhecimento estratégico na política nacional e internacional, conforme se infere do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-desenvolvimento-e-arquitetura-de-software-005",
@@ -1412,7 +1431,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O pronome “daquela”, no primeiro período do segundo parágrafo, indica que se trata, nesse trecho do texto, da mesma partícula especificada no primeiro período do primeiro parágrafo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-desenvolvimento-e-arquitetura-de-software-007",
@@ -1423,7 +1443,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expressão “em maio de 1949” (penúltimo período do segundo parágrafo) indica a data da organização da citada coletânea por Shozo Motoyama.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-desenvolvimento-e-arquitetura-de-software-008",
@@ -1434,7 +1455,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No penúltimo período do segundo parágrafo, o segmento “seus depoimentos” refere-se aos depoimentos do presidente Dutra reproduzidos na coletânea 50 anos do CNPq contados pelos presidentes .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-desenvolvimento-e-arquitetura-de-software-009",
@@ -1445,7 +1467,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sujeito da forma verbal “confirmou” (primeiro período do primeiro parágrafo) é “César Lattes”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-desenvolvimento-e-arquitetura-de-software-010",
@@ -1456,7 +1479,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após “bastante” (penúltimo período do primeiro parágrafo) preservaria a correção gramatical e os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-desenvolvimento-e-arquitetura-de-software-011",
@@ -1467,7 +1491,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência das ideias do texto seriam preservadas caso o trecho “com o almirante como seu primeiro presidente” (final do segundo parágrafo) fosse reescrito da seguinte forma: cujo primeiro presidente foi o almirante Álvaro Alberto .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-desenvolvimento-e-arquitetura-de-software-012",
@@ -1478,7 +1503,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e da coerência das ideias do texto, a forma verbal “nascia” (último período do segundo parágrafo) poderia ser substituída por nasceu .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-desenvolvimento-e-arquitetura-de-software-013",
@@ -1819,7 +1845,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "One of the reasons why business owners have introduced the option for tipping at self-checkout machines is that they believe it may raise their employees’ payment.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-desenvolvimento-e-arquitetura-de-software-044",
@@ -1830,7 +1857,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Tipping at self-checkout machines have become mandatory in most places like coffee shops, bakeries, airports, and sports stadiums.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-desenvolvimento-e-arquitetura-de-software-045",
@@ -1841,7 +1869,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It can be inferred from the text that tipping reseachers and some customers suspect that the tips given through self-checkout machines will never reach the employees.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-desenvolvimento-e-arquitetura-de-software-046",
@@ -1852,7 +1881,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “Despite” in the sentence “Despite having zero interaction with employees during transactions” (second sentence of the first paragraph) can be correctly replaced by In spite of , maintaining both the meaning of the fragment and its correction.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-desenvolvimento-e-arquitetura-de-software-047",
@@ -1863,7 +1893,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The sentence “And soon they figured it was some sort of chatbot” can be correctly rephrased as And, before long, they realized it was some form of chatbot .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-desenvolvimento-e-arquitetura-de-software-048",
@@ -1874,7 +1905,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The passenger who sued the airline company because of an incident that happened during his flight is Colombian.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-desenvolvimento-e-arquitetura-de-software-049",
@@ -1885,7 +1917,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "When ChatGPT gave the passenger’s lawyer some court cases, it warned him they could not be factual.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-desenvolvimento-e-arquitetura-de-software-050",
@@ -1896,7 +1929,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is correct to infer from the text that, due to the lawyer’s expertise, he had used ChatGPT for work before.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-desenvolvimento-e-arquitetura-de-software-051",
@@ -2677,7 +2711,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto apresenta um relato sobre a criação do CNPq, em meados do século passado, destacando a participação ativa do físico César Lattes nesse acontecimento.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-de-dados-corporativos-002",
@@ -2688,7 +2723,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que o almirante Álvaro Alberto estava envolvido com o projeto de criação do que viria a ser o CNPq enquanto César Lattes conquistava reconhecimento científico internacional.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-de-dados-corporativos-003",
@@ -2699,7 +2735,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se do texto que, apesar do impacto das descobertas de César Lattes, a ciência brasileira ainda ocupava uma posição marginal no cenário mundial quando da criação do CNPq.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-de-dados-corporativos-004",
@@ -2710,7 +2747,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "À época da criação do CNPq, a física nuclear era um campo de conhecimento estratégico na política nacional e internacional, conforme se infere do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-de-dados-corporativos-005",
@@ -2732,7 +2770,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O pronome “daquela”, no primeiro período do segundo parágrafo, indica que se trata, nesse trecho do texto, da mesma partícula especificada no primeiro período do primeiro parágrafo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-de-dados-corporativos-007",
@@ -2743,7 +2782,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expressão “em maio de 1949” (penúltimo período do segundo parágrafo) indica a data da organização da citada coletânea por Shozo Motoyama.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-de-dados-corporativos-008",
@@ -2754,7 +2794,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No penúltimo período do segundo parágrafo, o segmento “seus depoimentos” refere-se aos depoimentos do presidente Dutra reproduzidos na coletânea 50 anos do CNPq contados pelos presidentes .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-de-dados-corporativos-009",
@@ -2765,7 +2806,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sujeito da forma verbal “confirmou” (primeiro período do primeiro parágrafo) é “César Lattes”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-de-dados-corporativos-010",
@@ -2776,7 +2818,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após “bastante” (penúltimo período do primeiro parágrafo) preservaria a correção gramatical e os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-de-dados-corporativos-011",
@@ -2787,7 +2830,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência das ideias do texto seriam preservadas caso o trecho “com o almirante como seu primeiro presidente” (final do segundo parágrafo) fosse reescrito da seguinte forma: cujo primeiro presidente foi o almirante Álvaro Alberto .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-de-dados-corporativos-012",
@@ -2798,7 +2842,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e da coerência das ideias do texto, a forma verbal “nascia” (último período do segundo parágrafo) poderia ser substituída por nasceu .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-de-dados-corporativos-013",
@@ -3139,7 +3184,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "One of the reasons why business owners have introduced the option for tipping at self-checkout machines is that they believe it may raise their employees’ payment.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-de-dados-corporativos-044",
@@ -3150,7 +3196,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Tipping at self-checkout machines have become mandatory in most places like coffee shops, bakeries, airports, and sports stadiums.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-de-dados-corporativos-045",
@@ -3161,7 +3208,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It can be inferred from the text that tipping reseachers and some customers suspect that the tips given through self-checkout machines will never reach the employees.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-de-dados-corporativos-046",
@@ -3172,7 +3220,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “Despite” in the sentence “Despite having zero interaction with employees during transactions” (second sentence of the first paragraph) can be correctly replaced by In spite of , maintaining both the meaning of the fragment and its correction.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-de-dados-corporativos-047",
@@ -3183,7 +3232,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The sentence “And soon they figured it was some sort of chatbot” can be correctly rephrased as And, before long, they realized it was some form of chatbot .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-de-dados-corporativos-048",
@@ -3194,7 +3244,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The passenger who sued the airline company because of an incident that happened during his flight is Colombian.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-de-dados-corporativos-049",
@@ -3205,7 +3256,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "When ChatGPT gave the passenger’s lawyer some court cases, it warned him they could not be factual.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-de-dados-corporativos-050",
@@ -3216,7 +3268,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is correct to infer from the text that, due to the lawyer’s expertise, he had used ChatGPT for work before.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-de-dados-corporativos-051",
@@ -3392,7 +3445,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considere-se a seguinte expressão SQL.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-de-dados-corporativos-067",
@@ -3997,7 +4051,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto apresenta um relato sobre a criação do CNPq, em meados do século passado, destacando a participação ativa do físico César Lattes nesse acontecimento.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-acompanhamento-de-projetos-e-programas-em-ct-i-002",
@@ -4008,7 +4063,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que o almirante Álvaro Alberto estava envolvido com o projeto de criação do que viria a ser o CNPq enquanto César Lattes conquistava reconhecimento científico internacional.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-acompanhamento-de-projetos-e-programas-em-ct-i-003",
@@ -4019,7 +4075,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "À época da criação do CNPq, a física nuclear era um campo de conhecimento estratégico na política nacional e internacional, conforme se infere do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-acompanhamento-de-projetos-e-programas-em-ct-i-004",
@@ -4030,7 +4087,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se do texto que, apesar do impacto das descobertas de César Lattes, a ciência brasileira ainda ocupava uma posição marginal no cenário mundial quando da criação do CNPq.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-acompanhamento-de-projetos-e-programas-em-ct-i-005",
@@ -4041,7 +4099,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expressão “em maio de 1949” (penúltimo período do segundo parágrafo) indica a data da organização da citada coletânea por Shozo Motoyama.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-acompanhamento-de-projetos-e-programas-em-ct-i-006",
@@ -4052,7 +4111,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No penúltimo período do segundo parágrafo, o segmento “seus depoimentos” refere-se aos depoimentos do presidente Dutra reproduzidos na coletânea 50 anos do CNPq contados pelos presidentes .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-acompanhamento-de-projetos-e-programas-em-ct-i-007",
@@ -4063,7 +4123,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sujeito da forma verbal “confirmou” (primeiro período do primeiro parágrafo) é “César Lattes”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-acompanhamento-de-projetos-e-programas-em-ct-i-008",
@@ -4074,7 +4135,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência das ideias do texto seriam preservadas caso o trecho “com o almirante como seu primeiro presidente” (final do segundo parágrafo) fosse reescrito da seguinte forma: cujo primeiro presidente foi o almirante Álvaro Alberto .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-acompanhamento-de-projetos-e-programas-em-ct-i-009",
@@ -4085,7 +4147,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após “bastante” (penúltimo período do primeiro parágrafo) preservaria a correção gramatical e os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-acompanhamento-de-projetos-e-programas-em-ct-i-010",
@@ -4096,7 +4159,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e da coerência das ideias do texto, a forma verbal “nascia” (último período do segundo parágrafo) poderia ser substituída por nasceu .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-acompanhamento-de-projetos-e-programas-em-ct-i-011",
@@ -4492,7 +4556,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "One of the reasons why business owners have introduced the option for tipping at self-checkout machines is that they believe it may raise their employees’ payment.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-acompanhamento-de-projetos-e-programas-em-ct-i-047",
@@ -4503,7 +4568,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “Despite” in the sentence “Despite having zero interaction with employees during transactions” (second sentence of the first paragraph) can be correctly replaced by In spite of , maintaining both the meaning of the fragment and its correction.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-acompanhamento-de-projetos-e-programas-em-ct-i-048",
@@ -4514,7 +4580,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Tipping at self-checkout machines have become mandatory in most places like coffee shops, bakeries, airports, and sports stadiums.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-acompanhamento-de-projetos-e-programas-em-ct-i-049",
@@ -4525,7 +4592,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The sentence “And soon they figured it was some sort of chatbot” can be correctly rephrased as And, before long, they realized it was some form of chatbot .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-acompanhamento-de-projetos-e-programas-em-ct-i-050",
@@ -4536,7 +4604,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is correct to infer from the text that, due to the lawyer’s expertise, he had used ChatGPT for work before.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-acompanhamento-de-projetos-e-programas-em-ct-i-051",
@@ -5295,7 +5364,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto apresenta um relato sobre a criação do CNPq, em meados do século passado, destacando a participação ativa do físico César Lattes nesse acontecimento.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-governanca-de-tecnologia-da-informacao-002",
@@ -5306,7 +5376,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que o almirante Álvaro Alberto estava envolvido com o projeto de criação do que viria a ser o CNPq enquanto César Lattes conquistava reconhecimento científico internacional.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-governanca-de-tecnologia-da-informacao-003",
@@ -5317,7 +5388,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se do texto que, apesar do impacto das descobertas de César Lattes, a ciência brasileira ainda ocupava uma posição marginal no cenário mundial quando da criação do CNPq.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-governanca-de-tecnologia-da-informacao-004",
@@ -5328,7 +5400,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "À época da criação do CNPq, a física nuclear era um campo de conhecimento estratégico na política nacional e internacional, conforme se infere do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-governanca-de-tecnologia-da-informacao-005",
@@ -5350,7 +5423,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O pronome “daquela”, no primeiro período do segundo parágrafo, indica que se trata, nesse trecho do texto, da mesma partícula especificada no primeiro período do primeiro parágrafo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-governanca-de-tecnologia-da-informacao-007",
@@ -5361,7 +5435,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expressão “em maio de 1949” (penúltimo período do segundo parágrafo) indica a data da organização da citada coletânea por Shozo Motoyama.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-governanca-de-tecnologia-da-informacao-008",
@@ -5372,7 +5447,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No penúltimo período do segundo parágrafo, o segmento “seus depoimentos” refere-se aos depoimentos do presidente Dutra reproduzidos na coletânea 50 anos do CNPq contados pelos presidentes .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-governanca-de-tecnologia-da-informacao-009",
@@ -5383,7 +5459,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sujeito da forma verbal “confirmou” (primeiro período do primeiro parágrafo) é “César Lattes”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-governanca-de-tecnologia-da-informacao-010",
@@ -5394,7 +5471,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após “bastante” (penúltimo período do primeiro parágrafo) preservaria a correção gramatical e os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-governanca-de-tecnologia-da-informacao-011",
@@ -5405,7 +5483,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência das ideias do texto seriam preservadas caso o trecho “com o almirante como seu primeiro presidente” (final do segundo parágrafo) fosse reescrito da seguinte forma: cujo primeiro presidente foi o almirante Álvaro Alberto .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-governanca-de-tecnologia-da-informacao-012",
@@ -5416,7 +5495,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e da coerência das ideias do texto, a forma verbal “nascia” (último período do segundo parágrafo) poderia ser substituída por nasceu .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-governanca-de-tecnologia-da-informacao-013",
@@ -5757,7 +5837,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "One of the reasons why business owners have introduced the option for tipping at self-checkout machines is that they believe it may raise their employees’ payment.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-governanca-de-tecnologia-da-informacao-044",
@@ -5768,7 +5849,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Tipping at self-checkout machines have become mandatory in most places like coffee shops, bakeries, airports, and sports stadiums.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-governanca-de-tecnologia-da-informacao-045",
@@ -5779,7 +5861,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It can be inferred from the text that tipping reseachers and some customers suspect that the tips given through self-checkout machines will never reach the employees.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-governanca-de-tecnologia-da-informacao-046",
@@ -5790,7 +5873,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “Despite” in the sentence “Despite having zero interaction with employees during transactions” (second sentence of the first paragraph) can be correctly replaced by In spite of , maintaining both the meaning of the fragment and its correction.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-governanca-de-tecnologia-da-informacao-047",
@@ -5801,7 +5885,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The sentence “And soon they figured it was some sort of chatbot” can be correctly rephrased as And, before long, they realized it was some form of chatbot .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-governanca-de-tecnologia-da-informacao-048",
@@ -5812,7 +5897,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The passenger who sued the airline company because of an incident that happened during his flight is Colombian.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-governanca-de-tecnologia-da-informacao-049",
@@ -5823,7 +5909,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "When ChatGPT gave the passenger’s lawyer some court cases, it warned him they could not be factual.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-governanca-de-tecnologia-da-informacao-050",
@@ -5834,7 +5921,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is correct to infer from the text that, due to the lawyer’s expertise, he had used ChatGPT for work before.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-governanca-de-tecnologia-da-informacao-051",
@@ -5889,7 +5977,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conforme o símbolo indicado por #2 na figura, quando uma das atividades — Anexar negativa civil , Anexar negativa criminal ou Anexar negativa de débitos — for concluída, será executado o processo Analisar validade dos documentos .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-governanca-de-tecnologia-da-informacao-056",
@@ -5900,7 +5989,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o símbolo identificado por #1 na figura, o fluxo fará que os processos Anexar negativa civil , Anexar negativa criminal e Anexar negativa de débitos sejam executados sempre, todos em paralelo, ou seja, permite que processos múltiplos ocorram ao mesmo tempo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-e-governanca-de-tecnologia-da-informacao-057",
@@ -6615,7 +6705,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto apresenta um relato sobre a criação do CNPq, em meados do século passado, destacando a participação ativa do físico César Lattes nesse acontecimento.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-orcamentaria-financeira-e-contabil-002",
@@ -6626,7 +6717,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que o almirante Álvaro Alberto estava envolvido com o projeto de criação do que viria a ser o CNPq enquanto César Lattes conquistava reconhecimento científico internacional.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-orcamentaria-financeira-e-contabil-003",
@@ -6637,7 +6729,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "À época da criação do CNPq, a física nuclear era um campo de conhecimento estratégico na política nacional e internacional, conforme se infere do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-orcamentaria-financeira-e-contabil-004",
@@ -6648,7 +6741,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se do texto que, apesar do impacto das descobertas de César Lattes, a ciência brasileira ainda ocupava uma posição marginal no cenário mundial quando da criação do CNPq.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-orcamentaria-financeira-e-contabil-005",
@@ -6659,7 +6753,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expressão “em maio de 1949” (penúltimo período do segundo parágrafo) indica a data da organização da citada coletânea por Shozo Motoyama.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-orcamentaria-financeira-e-contabil-006",
@@ -6670,7 +6765,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No penúltimo período do segundo parágrafo, o segmento “seus depoimentos” refere-se aos depoimentos do presidente Dutra reproduzidos na coletânea 50 anos do CNPq contados pelos presidentes .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-orcamentaria-financeira-e-contabil-007",
@@ -6681,7 +6777,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sujeito da forma verbal “confirmou” (primeiro período do primeiro parágrafo) é “César Lattes”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-orcamentaria-financeira-e-contabil-008",
@@ -6692,7 +6789,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência das ideias do texto seriam preservadas caso o trecho “com o almirante como seu primeiro presidente” (final do segundo parágrafo) fosse reescrito da seguinte forma: cujo primeiro presidente foi o almirante Álvaro Alberto .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-orcamentaria-financeira-e-contabil-009",
@@ -6703,7 +6801,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após “bastante” (penúltimo período do primeiro parágrafo) preservaria a correção gramatical e os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-orcamentaria-financeira-e-contabil-010",
@@ -6714,7 +6813,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e da coerência das ideias do texto, a forma verbal “nascia” (último período do segundo parágrafo) poderia ser substituída por nasceu .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-orcamentaria-financeira-e-contabil-011",
@@ -7110,7 +7210,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "One of the reasons why business owners have introduced the option for tipping at self-checkout machines is that they believe it may raise their employees’ payment.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-orcamentaria-financeira-e-contabil-047",
@@ -7121,7 +7222,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “Despite” in the sentence “Despite having zero interaction with employees during transactions” (second sentence of the first paragraph) can be correctly replaced by In spite of , maintaining both the meaning of the fragment and its correction.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-orcamentaria-financeira-e-contabil-048",
@@ -7132,7 +7234,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Tipping at self-checkout machines have become mandatory in most places like coffee shops, bakeries, airports, and sports stadiums.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-orcamentaria-financeira-e-contabil-049",
@@ -7143,7 +7246,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The sentence “And soon they figured it was some sort of chatbot” can be correctly rephrased as And, before long, they realized it was some form of chatbot .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-orcamentaria-financeira-e-contabil-050",
@@ -7154,7 +7258,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is correct to infer from the text that, due to the lawyer’s expertise, he had used ChatGPT for work before.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-orcamentaria-financeira-e-contabil-051",
@@ -7627,7 +7732,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As exigibilidades de curto prazo representam mais de dois terços das fontes de recursos de terceiros.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-orcamentaria-financeira-e-contabil-094",
@@ -7638,7 +7744,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os recursos onerosos captados financiam menos de 40% dos investimentos totais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-orcamentaria-financeira-e-contabil-095",
@@ -7649,7 +7756,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Predominam os capitais de terceiros no financiamento dos negócios da empresa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-orcamentaria-financeira-e-contabil-096",
@@ -7660,7 +7768,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Há predominância de capitais de terceiros no financiamento do giro da empresa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-gestao-orcamentaria-financeira-e-contabil-097",
@@ -7935,7 +8044,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto apresenta um relato sobre a criação do CNPq, em meados do século passado, destacando a participação ativa do físico César Lattes nesse acontecimento.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao-002",
@@ -7946,7 +8056,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que o almirante Álvaro Alberto estava envolvido com o projeto de criação do que viria a ser o CNPq enquanto César Lattes conquistava reconhecimento científico internacional.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao-003",
@@ -7957,7 +8068,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se do texto que, apesar do impacto das descobertas de César Lattes, a ciência brasileira ainda ocupava uma posição marginal no cenário mundial quando da criação do CNPq.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao-004",
@@ -7968,7 +8080,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "À época da criação do CNPq, a física nuclear era um campo de conhecimento estratégico na política nacional e internacional, conforme se infere do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao-005",
@@ -7990,7 +8103,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O pronome “daquela”, no primeiro período do segundo parágrafo, indica que se trata, nesse trecho do texto, da mesma partícula especificada no primeiro período do primeiro parágrafo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao-007",
@@ -8001,7 +8115,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expressão “em maio de 1949” (penúltimo período do segundo parágrafo) indica a data da organização da citada coletânea por Shozo Motoyama.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao-008",
@@ -8012,7 +8127,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No penúltimo período do segundo parágrafo, o segmento “seus depoimentos” refere-se aos depoimentos do presidente Dutra reproduzidos na coletânea 50 anos do CNPq contados pelos presidentes .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao-009",
@@ -8023,7 +8139,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sujeito da forma verbal “confirmou” (primeiro período do primeiro parágrafo) é “César Lattes”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao-010",
@@ -8034,7 +8151,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após “bastante” (penúltimo período do primeiro parágrafo) preservaria a correção gramatical e os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao-011",
@@ -8045,7 +8163,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência das ideias do texto seriam preservadas caso o trecho “com o almirante como seu primeiro presidente” (final do segundo parágrafo) fosse reescrito da seguinte forma: cujo primeiro presidente foi o almirante Álvaro Alberto .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao-012",
@@ -8056,7 +8175,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e da coerência das ideias do texto, a forma verbal “nascia” (último período do segundo parágrafo) poderia ser substituída por nasceu .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao-013",
@@ -8397,7 +8517,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "One of the reasons why business owners have introduced the option for tipping at self-checkout machines is that they believe it may raise their employees’ payment.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao-044",
@@ -8408,7 +8529,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Tipping at self-checkout machines have become mandatory in most places like coffee shops, bakeries, airports, and sports stadiums.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao-045",
@@ -8419,7 +8541,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It can be inferred from the text that tipping reseachers and some customers suspect that the tips given through self-checkout machines will never reach the employees.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao-046",
@@ -8430,7 +8553,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “Despite” in the sentence “Despite having zero interaction with employees during transactions” (second sentence of the first paragraph) can be correctly replaced by In spite of , maintaining both the meaning of the fragment and its correction.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao-047",
@@ -8441,7 +8565,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The sentence “And soon they figured it was some sort of chatbot” can be correctly rephrased as And, before long, they realized it was some form of chatbot .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao-048",
@@ -8452,7 +8577,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The passenger who sued the airline company because of an incident that happened during his flight is Colombian.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao-049",
@@ -8463,7 +8589,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "When ChatGPT gave the passenger’s lawyer some court cases, it warned him they could not be factual.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao-050",
@@ -8474,7 +8601,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is correct to infer from the text that, due to the lawyer’s expertise, he had used ChatGPT for work before.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao-051",
@@ -8661,7 +8789,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na situação do diagrama apresentado, os elementos indicados por I e II correspondem a gateways inclusivos, os quais são representados por um losango com um círculo dentro dele.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao-069",
@@ -8672,7 +8801,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nos diagramas BPMN, uma das regras estabelece que a divisão de um fluxo de execução em dois ou mais fluxos com execução em paralelo é definida por um elemento do tipo parallel gateway .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao-070",
@@ -8683,7 +8813,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O BPMN permite a indicação de eventos de início, intermediários, finalísticos e futuros, além da indicação dos fluxos de atividades e mensagens de comunicação intranegócio.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2023-cnpq-analista-em-ciencia-e-tecnologia-pleno-i-infraestrutura-de-tecnologia-da-informacao-071",
@@ -9233,7 +9364,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto apresenta um relato sobre a criação do CNPq, em meados do século passado, destacando a participação ativa do físico César Lattes nesse acontecimento.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-pleno-i-administracao-de-pessoal-002",
@@ -9244,7 +9376,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que o almirante Álvaro Alberto estava envolvido com o projeto de criação do que viria a ser o CNPq enquanto César Lattes conquistava reconhecimento científico internacional.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-pleno-i-administracao-de-pessoal-003",
@@ -9255,7 +9388,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "À época da criação do CNPq, a física nuclear era um campo de conhecimento estratégico na política nacional e internacional, conforme se infere do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-pleno-i-administracao-de-pessoal-004",
@@ -9266,7 +9400,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se do texto que, apesar do impacto das descobertas de César Lattes, a ciência brasileira ainda ocupava uma posição marginal no cenário mundial quando da criação do CNPq.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-pleno-i-administracao-de-pessoal-005",
@@ -9277,7 +9412,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expressão “em maio de 1949” (penúltimo período do segundo parágrafo) indica a data da organização da citada coletânea por Shozo Motoyama.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-pleno-i-administracao-de-pessoal-006",
@@ -9288,7 +9424,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No penúltimo período do segundo parágrafo, o segmento “seus depoimentos” refere-se aos depoimentos do presidente Dutra reproduzidos na coletânea 50 anos do CNPq contados pelos presidentes .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-pleno-i-administracao-de-pessoal-007",
@@ -9299,7 +9436,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sujeito da forma verbal “confirmou” (primeiro período do primeiro parágrafo) é “César Lattes”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-cnpq-analista-pleno-i-administracao-de-pessoal-008",
@@ -9310,7 +9448,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência das ideias do texto seriam preservadas caso o trecho “com o almirante como seu primeiro presidente” (final do segundo parágrafo) fosse reescrito da seguinte forma: cujo primeiro presidente foi o almirante Álvaro Alberto .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-pleno-i-administracao-de-pessoal-009",
@@ -9321,7 +9460,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após “bastante” (penúltimo período do primeiro parágrafo) preservaria a correção gramatical e os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-pleno-i-administracao-de-pessoal-010",
@@ -9332,7 +9472,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e da coerência das ideias do texto, a forma verbal “nascia” (último período do segundo parágrafo) poderia ser substituída por nasceu .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-pleno-i-administracao-de-pessoal-011",
@@ -9728,7 +9869,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "One of the reasons why business owners have introduced the option for tipping at self-checkout machines is that they believe it may raise their employees’ payment.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-pleno-i-administracao-de-pessoal-047",
@@ -9739,7 +9881,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “Despite” in the sentence “Despite having zero interaction with employees during transactions” (second sentence of the first paragraph) can be correctly replaced by In spite of , maintaining both the meaning of the fragment and its correction.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-pleno-i-administracao-de-pessoal-048",
@@ -9750,7 +9893,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Tipping at self-checkout machines have become mandatory in most places like coffee shops, bakeries, airports, and sports stadiums.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-cnpq-analista-pleno-i-administracao-de-pessoal-049",
@@ -9761,7 +9905,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The sentence “And soon they figured it was some sort of chatbot” can be correctly rephrased as And, before long, they realized it was some form of chatbot .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-pleno-i-administracao-de-pessoal-050",
@@ -9772,7 +9917,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is correct to infer from the text that, due to the lawyer’s expertise, he had used ChatGPT for work before.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-cnpq-analista-pleno-i-administracao-de-pessoal-051",
@@ -10532,6 +10678,50 @@
    "tipo": "certo_errado",
    "enunciado": "Como tempo de contribuição ao Regime Geral de Previdência Social, o segurado somente terá reconhecida a competência cuja contribuição seja igual ou inferior à contribuição mínima mensal exigida para a sua categoria.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "A lawyer used ChatGPT to prepare a court filing. It went horribly awry. A lawyer who relied on ChatGPT to prepare a court filing on behalf of a man suing an airline is now all too familiar with the artificial intelligence (AI) tool’s shortcomings — including its propensity to invent facts. Roberto Mata sued Colombian airline Avianca last year, alleging that a metal food and beverage cart injured his knee on a flight to Kennedy International Airport in New York. When Avianca asked a Manhattan judge to dismiss the lawsuit based on the statute of limitations, his lawyer submitted a brief based on research done by ChatGPT. While ChatGPT can be useful to professionals in numerous industries, including the legal profession, it has proved itself to be both limited and unreliable. In this case, the AI invented court cases that didn’t exist, and asserted that they were real. The fabrications were revealed when Avianca’s lawyers approached the case’s judge, saying they couldn’t locate the cases cited in Mata’s lawyers’ brief in legal databases. “It seemed clear when we didn’t recognize any of the cases in their opposition brief that something was amiss,” said the airline’s lawyer. And soon they figured it was some sort of chatbot of some kind. On the other hand, the passenger’s lawyer said that it was the first time he’d used ChatGPT for work and, therefore, he was unaware of the possibility that its content could be false.",
+   "citacao": "Internet: <www.cbsnews.com> (adapted).",
+   "imagem": false
+  },
+  {
+   "ref": "CG1A1",
+   "conteudo": "Em 1947, o físico brasileiro César Lattes causou grande impacto nos meios científicos internacionais e conquistou reconhecimento com sua descoberta que elucidou alguns problemas pendentes de solução no campo da radiação cósmica e confirmou a teoria do físico japonês Hideki Yukawa sobre a existência de uma partícula supostamente responsável pela ligação entre prótons e nêutrons nos núcleos atômicos. Esse último aspecto foi bastante para dar um relevo todo especial à descoberta, enriquecendo seu significado com a possibilidade de novas aberturas no controle das forças nucleares, tão cobiçado depois das explosões atômicas. Toda a imprensa mundial e brasileira aclamou a descoberta, e a ciência brasileira saiu do porão para a sala de visitas. No ano seguinte, Lattes voltou a causar impacto após conseguir a produção artificial daquela partícula em um acelerador do tipo circular, em Berkeley, nos Estados Unidos da América. E em 1949, a física no Brasil começou a se institucionalizar com a criação do Centro Brasileiro de Pesquisas Físicas. Junto com ela, a ciência, em geral, também organizava sua entidade representativa, com o surgimento da Sociedade Brasileira para o Progresso da Ciência (SBPC) naquele mesmo ano. Foi nesse caldo cultural que o almirante Álvaro Alberto ganhou mais argumentos para persuadir o governo brasileiro. Segundo seus depoimentos reproduzidos na coletânea",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Businesses are starting to introduce new options for tipping at self-checkout machines, putting even more pressure on customers amid rising inflation costs. Despite having zero interaction with employees during transactions, self-checkout machines at places such as coffee shops, bakeries, airports, and sports stadiums are giving customers the option to leave the typical 20% tip, according to a report from the Wall Street Journal. Business owners believe that the prompt for a tip can boost staff pay and increase gratuities — but customers are questioning where and to whom the extra cash is going, considering self-checkout is done by the customers themselves. “They’re cutting labor costs by doing self-checkout. So what’s the point of asking for a tip? And where is it going?” are some of the questions customers ask. But tipping researchers claim this is a way for companies to put the responsibility of paying employees on the customer rather than increasing employee salaries themselves. Self-tipping is viewed by many customers as a way to guilt-trip the person into tipping on something when they typically wouldn’t. Many companies told the Journal that these tipping prompts are optional, and the extra gratuity is split between all employees. However, experts say that tips at a self-checkout machine might never even get to an actual employee since protections for tipped workers in the federal Fair Labor Standards Act don’t extend to machines.",
+   "citacao": "Internet: <https://nypost.com> (adapted).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "categoria| modelo | valor| ---------+---------+------+ 1 | A | 40| 1 | A | 18| 1 | B | 76| 2 | B | 97| Tendo como referência a tabela precedente, de nome dados ,",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Internet: <blog.iprocess.com.br> (com adaptações). Com base na figura precedente, julgue os itens a seguir, relativos a BPMN.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "dado valores, em\n\nmilhões de R$ ativo circulante cíclico 137 ativo circulante financeiro 146 ativo não circulante (inclui 189 imobilizações) passivo circulante cíclico 46 passivo circulante financeiro 123 passivo não circulante (inclui 300 o patrimônio líquido) Os dados da tabela precedente constam nas demonstrações contábeis de determinada companhia, cujo patrimônio líquido totaliza R$ 246 milhões e o montante de imobilizações soma R$ 161 milhões.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Tendo como referência a metodologia e o diagrama BPMN",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

@@ -153,7 +153,8 @@ def build_records(job, workdir, adapter=None):
                 # letra estranha (ex.: "A" em prova c/e) passa crua: to_questao reprova
                 gab_val = (gab.para_dataset(n, tipo_gab)
                            or gab.respostas[n].lower())
-                recs.append(to_questao(q, m2, gabarito=gab_val).model_dump())
+                recs.append(to_questao(q, m2, gabarito=gab_val,
+                                       texto=it.get("texto")).model_dump())
         yield c["id_cargo"], recs, missing
 
 

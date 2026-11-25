@@ -28,7 +28,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do segundo parágrafo, o termo “Segundo” expressa ideia de conformidade e poderia ser substituído, sem prejuízo da coerência das ideias e da correção gramatical do texto, por Conforme .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pref-cachoeiro-guarda-civil-municipal-002",
@@ -39,7 +40,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As relações de coesão e coerência do texto seriam preservadas caso a oração ‘embora não sejam uma panaceia’ (último período do segundo parágrafo) fosse reescrita como mesmo não sendo uma panaceia .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pref-cachoeiro-guarda-civil-municipal-003",
@@ -50,7 +52,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, o estudo feito pelo Instituto Sou da Paz e pelo INSPER apresenta modelos exitosos de políticas de segurança pública no Brasil.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pref-cachoeiro-guarda-civil-municipal-004",
@@ -61,7 +64,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que é necessário investir em programas de gestão de resultados na segurança pública, porque eles são fundamentais para a promoção de melhorias nessa área.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pref-cachoeiro-guarda-civil-municipal-005",
@@ -72,7 +76,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro parágrafo, a substituição da forma verbal “caíram” (segundo período) por caiu alteraria o sentido do texto, porém sua correção gramatical seria preservada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pref-cachoeiro-guarda-civil-municipal-006",
@@ -83,7 +88,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A coerência das ideias do terceiro período do segundo parágrafo seria mantida caso o termo “longeva” fosse substituído por distante .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pref-cachoeiro-guarda-civil-municipal-007",
@@ -94,7 +100,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os vocábulos “homicídios” e “caíram” são acentuados graficamente de acordo com a mesma regra de acentuação gráfica.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pref-cachoeiro-guarda-civil-municipal-008",
@@ -105,7 +112,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A supressão da vírgula empregada logo após “Alagoas” (segundo período do primeiro parágrafo) prejudicaria a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pref-cachoeiro-guarda-civil-municipal-009",
@@ -116,7 +124,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A vírgula empregada logo após o verbo ‘coordenar’ (último período do segundo parágrafo) poderia ser substituída, sem prejuízo da correção gramatical e da coerência do texto, pelo vocábulo e .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pref-cachoeiro-guarda-civil-municipal-010",
@@ -127,7 +136,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A coerência e a correção gramatical do texto estariam preservadas caso a expressão “mesmo com o” (primeiro período do primeiro parágrafo) fosse substituída por apesar do .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pref-cachoeiro-guarda-civil-municipal-011",
@@ -138,7 +148,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estariam mantidos os sentidos e a correção gramatical do texto caso se substituísse, no último período do texto, a forma verbal “alcançaram” por têm alcançado .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pref-cachoeiro-guarda-civil-municipal-012",
@@ -149,7 +160,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e dos sentidos do texto, o trecho ‘essencial para a promoção’ (primeiro período do último parágrafo) poderia ser reescrito como essencial à promoção .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pref-cachoeiro-guarda-civil-municipal-013",
@@ -1085,6 +1097,14 @@
    "tipo": "certo_errado",
    "enunciado": "A primeira providência do socorrista deve ser liberar as vias aéreas.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Espírito Santo, que tem uma ação mais longeva e consegue manter um programa central que envolve as polícias com resultados importantes na redução dos homicídios. “São programas que, embora não sejam uma panaceia, conseguem contribuir muito para a integração das polícias, dão uma ferramenta para o secretário de segurança coordenar, dão uma visão de longo prazo para a segurança pública nos estados, o que não é algo trivial”, disse a diretora.\n\n“O estabelecimento de diretrizes baseadas em evidências é essencial para a promoção de melhorias na segurança pública dos estados brasileiros”, afirmou um professor do Centro de Gestão e Políticas Públicas do INSPER. Ele acrescentou que o balanço apresentado pelo instituto e pelo Sou da Paz buscou analisar o que funciona para a área, quais estados alcançaram sucesso nos últimos anos e como os gestores podem orientar propostas para conseguir os melhores resultados possíveis.\n\nInternet: <https://agenciabrasil.ebc.com.br> (com adaptações). Em relação às ideias e a aspectos linguísticos do texto",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

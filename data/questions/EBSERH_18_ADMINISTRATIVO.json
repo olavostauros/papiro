@@ -2642,7 +2642,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A tabela de temporalidade do arquivo de uma instituição pública deve contemplar informações relativas à eliminação ou à guarda permanente dos documentos, além dos prazos de permanência em cada fase de arquivamento.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2018-ebserh-assistente-097",
@@ -2653,7 +2654,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em documentos mantidos em arquivos permanentes, as reações químicas devido aos materiais utilizados nos invólucros são situações esperadas, mas praticamente impossíveis de ser evitadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2018-ebserh-assistente-098",
@@ -2664,7 +2666,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É adequado o arquivamento, em um mesmo local, de maneira conjunta, de documentos pertencentes a uma instituição hospitalar compostos por gravações em pendrives, documentos impressos e microfilmes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2018-ebserh-assistente-099",
@@ -2675,7 +2678,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A estrutura para armazenamento e conservação de documentos em arquivo deve apresentar facilidade para acesso, acondicionamento, manuseio e transporte dos materiais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2018-ebserh-assistente-100",
@@ -2686,7 +2690,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para a definição dos locais mais adequados ao armazenamento de documentos, é possível estabelecer critérios restritos ao ambiente interno do depósito, uma vez que as áreas externas extrapolam a capacidade de averiguação do profissional de arquivologia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2018-ebserh-tecnologo-gestao-publica-041",
@@ -3357,7 +3362,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Revistas costumam adotar em seus textos estruturas de relatórios ou de textos didáticos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-042",
@@ -3368,7 +3374,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O registro descritivo dos fazeres jornalísticos é chamado de rastreamento.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-043",
@@ -3379,7 +3386,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No telejornalismo, o texto deve ser culto, tendo em vista a necessidade de se respeitarem as regras gramaticais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-044",
@@ -3390,7 +3398,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A notícia é o relato de uma série de fatos a partir do fato mais importante ou interessante.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-045",
@@ -3401,7 +3410,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Tempo, lugar, instrumento e causa são sintagmas nominais da notícia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-046",
@@ -3412,7 +3422,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O lide é o primeiro parágrafo da notícia no jornalismo impresso, mas pode haver outros lides no corpo do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-047",
@@ -3511,7 +3522,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para os estudos em comunicação, uma pintura pelo agrupamento de signos com sentido completo é um texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-056",
@@ -3577,7 +3589,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No fluxo do processo de impressão, um canal de saída de uma etapa se torna o canal de entrada de outra.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-062",
@@ -3588,7 +3601,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A etapa do ajuste de texto calcula o espaço que texto e imagem ocuparão em uma impressão final.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-063",
@@ -3599,7 +3613,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No exemplo a seguir, o revisor de texto solicita a formatação em negrito quando insere barras nas laterais de um texto sob revisão: /Ela abriu a porta/.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-064",
@@ -3610,7 +3625,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na etapa de prova, o designer verifica a nitidez, o contraste e as fontes de iluminação de uma imagem.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-066",
@@ -3731,7 +3747,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As novas tecnologias têm investido em experiências estéticas que sejam simulacros da realidade, incluindo-se entre elas a realidade aumentada, que insere objetos virtuais em ambientes reais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-077",
@@ -3742,7 +3759,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A partir da tipificação da mensagem visual, a mensagem icônica refere-se à imagem das palavras.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-078",
@@ -3753,7 +3771,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O cenário, os objetos que compõem a cena, o elenco, o figurino, os enquadramentos e os movimentos da câmera definem a linguagem de um produto audiovisual.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-079",
@@ -3764,7 +3783,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A imagem mental é formada a partir da visualidade mediada por equipamentos tecnológicos, como a câmera fotográfica.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-080",
@@ -3775,7 +3795,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O cinema tem como modelo a percepção natural objetiva.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-081",
@@ -3786,7 +3807,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os desenhos nas paredes das cavernas, no período pré-histórico, são um exemplo de tentativa de manifestação artística que procura representar a realidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-082",
@@ -3797,7 +3819,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As campanhas educativas utilizam a linguagem gráfica com o objetivo de atingir um número elevado da população à qual se destinam. Dessa forma, não convém limitar a utilização de imagens.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-083",
@@ -3808,7 +3831,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os significados dos elementos visuais incluídos nas peças gráficas precisam ser analisados, pois podem variar conforme a sociedade e o seu contexto histórico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-084",
@@ -3819,7 +3843,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entre os elementos que podem mudar a interpretação de uma informação, estão a falta de dados na mensagem; a falta de repertório do leitor e o contexto cultural/social diferente da mensagem vivenciada e experimentada por ele. Por isso, é necessária a realização de um estudo sobre o público-alvo, antes da produção das peças.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-085",
@@ -3830,7 +3855,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considerando-se os níveis semióticos, os problemas de reconhecimento dos elementos gráficos acontecem no nível pragmático.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-086",
@@ -3907,7 +3933,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A assessoria de comunicação deve focar na produção de notícias institucionais, deixando o planejamento estratégico para segundo plano.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-093",
@@ -3918,7 +3945,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Mailing list é um termo usado para designar a lista dos contatos pessoais dos jornalistas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-094",
@@ -3929,7 +3957,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Newsletter eletrônica é utilizada para repassar notícias externas, de interesse da organização, para todos os colaboradores.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-095",
@@ -3940,7 +3969,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A coletiva de imprensa é um evento em que uma assessoria de imprensa convida jornalistas para transmitir-lhes alguma informação, permitindo-se a interação do grupo com um representante da organização.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-096",
@@ -3951,7 +3981,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A assessoria de comunicação deve encaminhar o press release ao máximo de jornalistas possível, tendo em vista que a alta amplitude de informação gera espaço proporcional na mídia tradicional.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-097",
@@ -3962,7 +3993,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Media training é o nome do treinamento dados às pessoas-chave da organização para fins de adequação do trato com a imprensa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-098",
@@ -3973,7 +4005,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Uma atividade operacional a ser realizada antes do lançamento de um novo produto é o envio de teasers para colunistas especializados e veículos com audiência segmentada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-099",
@@ -3984,7 +4017,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O spot é uma peça radiofônica utilizada para divulgar, geralmente em forma cantada, produtos, instituições ou serviços, com o intuito de fazer que o público fixe o nome e as características do elemento divulgado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-100",
@@ -3995,7 +4029,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A linguagem do produto jornalístico deve ser acessível ao público de interesse da organização.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-clinico-041",
@@ -4050,7 +4085,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O circuito apresentado utiliza a tecnologia CMOS.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-clinico-046",
@@ -4061,7 +4097,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No circuito em questão, quando VI = 0, a saída V0 = 0.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-clinico-047",
@@ -4820,7 +4857,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na situação em questão, o caminho crítico tem duração de 11 semanas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-056",
@@ -4831,7 +4869,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na situação considerada, mantendo-se a duração total da construção e a precedência das atividades, é possível reduzir as flutuações do histograma de forma que o máximo de serventes necessários passe de 8 para 6.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-057",
@@ -4842,7 +4881,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O nivelamento de recursos busca uma distribuição mais uniforme do histograma para reduzir problemas gerenciais de mobilização e desmobilização de mão de obra ou de equipamentos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-058",
@@ -4853,7 +4893,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com os dados em consideração, o caminho composto pelas atividades A-B, B-C, C-F, F-G e G-H tem folga total de duas semanas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-059",
@@ -4864,7 +4905,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se, devido ao fato de a construção em apreço ocorrer em área remota, apenas quatro serventes tivessem interesse em trabalhar na obra, o recurso serventes estaria superalocado nas semanas 4, 5 e 6, na situação apresentada nos gráficos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-060",
@@ -4875,7 +4917,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso considerado, se a atividade E-G atrasar uma semana e a atividade B-D adiantar-se uma semana, não haverá alteração no tempo total da construção.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-061",
@@ -5029,7 +5072,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na situação apresentada, os indícios indicam fissuras por torção da viga.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-075",
@@ -5040,7 +5084,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A retirada precoce do escoramento da viga pode ter contribuído para o surgimento das fissuras.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-076",
@@ -5051,7 +5096,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A propagação de fissuras na alvenaria e a flecha excessiva podem indicar deficiência de armadura na parte inferior da viga.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-077",
@@ -5062,7 +5108,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Por envolver uma relação de confiança entre o solicitante e o perito, a atividade de perícia em questão também poderia ter sido realizada por engenheiro mecânico, que possui conhecimentos de resistência dos materiais em sua formação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-078",
@@ -5106,7 +5153,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para ajustar corretamente a composição do assentamento de guia em trecho reto, os seus coeficientes de argamassa e areia também deveriam ser reduzidos, proporcionalmente à redução de pedreiro e servente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-083",
@@ -5117,7 +5165,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considerando-se que os coeficientes representam a produtividade real de determinada obra, a mesma equipe executa mais rapidamente o assentamento de guia em trecho curvo que em trecho reto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-084",
@@ -5161,7 +5210,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A fórmula estatística MED(B2:B6) permite o cálculo da mediana entre os preços cotados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-088",
@@ -5172,7 +5222,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A fórmula SOMA(B2:B6)/CONT.NÚM(B2:B6) permite o cálculo da média aritmética dos preços cotados, em substituição à fórmula estatística padrão do Excel para esse cálculo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-089",
@@ -5183,7 +5234,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A fórmula MENOR(B2:B6) permite determinar o menor valor cotado entre as lojas pesquisadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-090",
@@ -5403,7 +5455,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o gráfico, não há contradição entre o trabalho inteligente e eficaz e as atividades complexas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-052",
@@ -5414,7 +5467,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o gráfico, quanto mais complexa a atividade, mais eficaz é o trabalho humano.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-053",
@@ -5425,7 +5479,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A sinalização tátil no piso, também denominada podotátil, é necessária para que todos os portadores de necessidades especiais tenham maior conforto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-054",
@@ -5436,7 +5491,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os dois tipos de placa de piso para sinalização tátil são: as direcionais, identificadas pelo número 2 na figura em apreço; e as de alerta, identificadas pelo número 1.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-055",
@@ -5447,7 +5503,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na figura em questão, o “montante fixado na extremidade do corrimão central” não tem função estrutural; sua finalidade restringe-se a alertar o deficiente visual para a existência de um corrimão logo adiante. Figura I – centralizada Figura II – linear",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-056",
@@ -5458,7 +5515,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Uma das vantagens da planta centralizada (figura I) é a pequena distância entre os ambientes, pois a quantidade de circulações é menor que nos demais partidos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-057",
@@ -5469,7 +5527,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No desenho da planta de tipologia linear (figura II), fica evidente que esse partido arquitetônico leva à existência de uma grande quantidade de circulações, aumentando as distâncias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-058",
@@ -5480,7 +5539,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Além de bonito, o partido arquitetônico radial (figura III) é racional, facilitando a implantação e o conforto térmico dos ambientes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-059",
@@ -5491,7 +5551,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A tipologia em malha (figura IV) não é racional devido à grande quantidade de pilares, que aumentam os custos da construção e dificultam a flexibilidade dos espaços internos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-060",
@@ -5502,7 +5563,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A figura I trata de um partido de níveis com quatro pavimentos mais o térreo em um corte típico, incluindo um destaque da parte atípica das lajes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-061",
@@ -5513,7 +5575,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A figura II trata do partido estrutural com o emprego de treliças em uma edificação, com o destaque de um apoio descentralizado e um balanço à direita da imagem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-062",
@@ -5590,7 +5653,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O rufo, indicado pelo número 1 na figura, tem dupla finalidade: arrematar a linha superior do volume edificado e proteger a mureta da umidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-069",
@@ -5601,7 +5665,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O rebaixo na alvenaria, indicado pelo número 3, é feito para evitar o engrossamento da parede no local da impermeabilização com o volume de suas camadas, melhorando o acabamento.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-070",
@@ -5612,7 +5677,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Por cima da impermeabilização propriamente dita (número 6), obtida com manta asfáltica, o isolamento térmico (número 7) pode ser obtido assentando-se uma camada de polivinil e, sobre esta, aplicando-se a proteção mecânica armada (número 9), feita com argamassa e tela.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-071",
@@ -8879,7 +8945,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O Estado, ao contribuir para a disponibilização de informações acerca do histórico de crédito de pessoas físicas e jurídicas, atua no âmbito de sua função alocativa, uma vez que as informações constantes do Cadastro Positivo podem ser consideradas bens públicos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2018-ebserh-economia-072",
@@ -8890,7 +8957,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O Estado brasileiro atua no âmbito de sua função distributiva, produzindo diretamente bem público, quando, por meio de políticas de crédito direcionado, estabelece o montante mínimo de recursos que deve ser emprestado pelas instituições financeiras para determinados segmentos econômicos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2018-ebserh-economia-073",
@@ -8901,7 +8969,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O serviço público de saneamento básico prestado pela CEDAE, em caso de privatização, deixará de ser de titularidade do estado do Rio de Janeiro. Nesse caso, o estado passará a atuar como poder regulador, com a obrigação de zelar para que o serviço seja prestado pelo concessionário privado de forma adequada e por preço justo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2018-ebserh-economia-074",
@@ -8912,7 +8981,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O saneamento básico é uma necessidade pública, sendo a sua prestação, por meio de serviços públicos, de responsabilidade do Estado, por força de normas jurídicas constitucionais e legais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2018-ebserh-economia-075",
@@ -8956,7 +9026,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O aumento da necessidade de financiamento do setor público verificado a partir de 2014 não teve influência da política monetária contracionista que marcou o período, tendo decorrido, essencialmente, da piora do resultado primário.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2018-ebserh-economia-079",
@@ -8967,7 +9038,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A diferença entre resultado primário e resultado nominal indica a despesa com os juros reais incidentes sobre a dívida líquida do setor público.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2018-ebserh-economia-080",
@@ -8978,7 +9050,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A dívida líquida do setor público desconsidera os efeitos dos juros nominais sobre a dívida pública, razão pela qual apresentou trajetória decrescente mesmo nos períodos em que o resultado nominal foi negativo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2018-ebserh-economia-081",
@@ -8989,7 +9062,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O resultado primário requerido para manter estável a dívida pública como proporção do PIB será tão maior quanto mais elevado for o nível de endividamento do país.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2018-ebserh-economia-082",
@@ -9132,7 +9206,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ainda que introduzida uma idade mínima universal para aposentadoria no Brasil, os gastos previdenciários como proporção do PIB tendem a crescer como resultado do processo de envelhecimento da população e da própria estrutura da previdência no Brasil, baseada na solidariedade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2018-ebserh-economia-095",
@@ -9143,7 +9218,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As projeções da razão de dependência no Brasil indicam que o gasto público com saúde tende a crescer mais que o gasto associado à educação. CESPE | CEBRASPE – EBSERH_ADMINISTRATIVA – Aplicação: 2018",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2018-ebserh-economia-096",
@@ -9154,7 +9230,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A recessão pela qual passou o país impactou negativamente a formalidade no mercado de trabalho entre 2012 e 2016, com a diminuição de postos com carteira assinada e o aumento de trabalhadores por conta própria que contribuem para a previdência social.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2018-ebserh-economia-097",
@@ -11849,7 +11926,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A cultura familista e pró-natalista que predominou no Brasil durante séculos foi fruto da forte influência católica da colonização portuguesa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-assistente-002",
@@ -11860,7 +11938,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Durante o Estado Novo, os privilégios oferecidos aos homens casados e com filhos eram parte das medidas adotadas pelo governo para incentivar a natalidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-assistente-003",
@@ -11871,7 +11950,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A legislação vigente na primeira metade do século XX desestimulava o controle da natalidade pela população brasileira.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-assistente-004",
@@ -11882,7 +11962,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A substituição do ponto empregado logo após “pró-natalista” (R.2) por vírgula, com a devida alteração da letra inicial maiúscula para minúscula, manteria a correção do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-assistente-005",
@@ -11893,7 +11974,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trecho “da prevalência de altas taxas de mortalidade, dos interesses da colonização portuguesa, da expansão da ocupação territorial e do crescimento do mercado interno” (R. 4 a 6) constitui uma enumeração que complementa o sentido da expressão iniciada por “em função” (R.4).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-assistente-006",
@@ -11904,7 +11986,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A substituição de “foram adotados” (R.8) por adotou-se preservaria a correção e o sentido do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-assistente-007",
@@ -11926,7 +12009,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “vigia” (R.20) tem, no texto, o sentido de estava vigente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-assistente-009",
@@ -11937,7 +12021,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido do texto seriam preservados caso o trecho “que tivesse por fim impedir a concepção” (R. 22 e 23) fosse assim reescrito: adotada afim de impedir a concepção.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-assistente-010",
@@ -11948,7 +12033,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, um estudo da Universidade da Califórnia apresentou uma novidade: os efeitos nocivos do consumo do açúcar para a aprendizagem e para a memória.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-assistente-011",
@@ -11959,7 +12045,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os efeitos danosos do açúcar para o organismo não eram conhecidos até poucas décadas atrás, o que justifica o aumento considerável do consumo desse produto pela população.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-assistente-012",
@@ -11970,7 +12057,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo do texto, o nome “açúcar” (R.6) é retomado por meio do pronome “ele” (R.7) e da expressão “desse alimento” (R. 8 e 9).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-assistente-013",
@@ -11981,7 +12069,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção e a coerência do texto seriam mantidas caso o termo “ileso” (R.15) fosse substituído por incólume.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-assistente-014",
@@ -11992,7 +12081,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A colocação de uma vírgula logo após a forma verbal “mostram” (R.15) prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-assistente-015",
@@ -12003,7 +12093,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido original do texto seriam preservados caso o trecho “o açúcar pode causar, ainda, problemas metabólicos, como diabetes, hipertensão e aumento do colesterol ruim” (R. 18 a 20) fosse reescrito da seguinte forma: problemas metabólicos, como por exemplo diabetes, hipertensão e aumento do colesterol ruim, também tem origem no consumo de açúcar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-assistente-016",
@@ -12289,7 +12380,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A cultura familista e pró-natalista que predominou no Brasil durante séculos foi fruto da forte influência católica da colonização portuguesa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-contabilidade-002",
@@ -12300,7 +12392,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Durante o Estado Novo, os privilégios oferecidos aos homens casados e com filhos eram parte das medidas adotadas pelo governo para incentivar a natalidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-contabilidade-003",
@@ -12311,7 +12404,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A legislação vigente na primeira metade do século XX desestimulava o controle da natalidade pela população brasileira.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-contabilidade-004",
@@ -12322,7 +12416,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A substituição do ponto empregado logo após “pró-natalista” (R.2) por vírgula, com a devida alteração da letra inicial maiúscula para minúscula, manteria a correção do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-contabilidade-005",
@@ -12333,7 +12428,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trecho “da prevalência de altas taxas de mortalidade, dos interesses da colonização portuguesa, da expansão da ocupação territorial e do crescimento do mercado interno” (R. 4 a 6) constitui uma enumeração que complementa o sentido da expressão iniciada por “em função” (R.4).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-contabilidade-006",
@@ -12344,7 +12440,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A substituição de “foram adotados” (R.8) por adotou-se preservaria a correção e o sentido do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-contabilidade-007",
@@ -12366,7 +12463,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “vigia” (R.20) tem, no texto, o sentido de estava vigente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-contabilidade-009",
@@ -12377,7 +12475,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido do texto seriam preservados caso o trecho “que tivesse por fim impedir a concepção” (R. 22 e 23) fosse assim reescrito: adotada afim de impedir a concepção.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-contabilidade-010",
@@ -12388,7 +12487,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, um estudo da Universidade da Califórnia apresentou uma novidade: os efeitos nocivos do consumo do açúcar para a aprendizagem e para a memória.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-contabilidade-011",
@@ -12399,7 +12499,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os efeitos danosos do açúcar para o organismo não eram conhecidos até poucas décadas atrás, o que justifica o aumento considerável do consumo desse produto pela população.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-contabilidade-012",
@@ -12410,7 +12511,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo do texto, o nome “açúcar” (R.6) é retomado por meio do pronome “ele” (R.7) e da expressão “desse alimento” (R. 8 e 9).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-contabilidade-013",
@@ -12421,7 +12523,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção e a coerência do texto seriam mantidas caso o termo “ileso” (R.15) fosse substituído por incólume.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-contabilidade-014",
@@ -12432,7 +12535,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A colocação de uma vírgula logo após a forma verbal “mostram” (R.15) prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-contabilidade-015",
@@ -12443,7 +12547,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido original do texto seriam preservados caso o trecho “o açúcar pode causar, ainda, problemas metabólicos, como diabetes, hipertensão e aumento do colesterol ruim” (R. 18 a 20) fosse reescrito da seguinte forma: problemas metabólicos, como por exemplo diabetes, hipertensão e aumento do colesterol ruim, também tem origem no consumo de açúcar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-contabilidade-016",
@@ -12729,7 +12834,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A cultura familista e pró-natalista que predominou no Brasil durante séculos foi fruto da forte influência católica da colonização portuguesa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-informatica-002",
@@ -12740,7 +12846,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Durante o Estado Novo, os privilégios oferecidos aos homens casados e com filhos eram parte das medidas adotadas pelo governo para incentivar a natalidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-informatica-003",
@@ -12751,7 +12858,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A legislação vigente na primeira metade do século XX desestimulava o controle da natalidade pela população brasileira.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-informatica-004",
@@ -12762,7 +12870,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A substituição do ponto empregado logo após “pró-natalista” (R.2) por vírgula, com a devida alteração da letra inicial maiúscula para minúscula, manteria a correção do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-informatica-005",
@@ -12773,7 +12882,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trecho “da prevalência de altas taxas de mortalidade, dos interesses da colonização portuguesa, da expansão da ocupação territorial e do crescimento do mercado interno” (R. 4 a 6) constitui uma enumeração que complementa o sentido da expressão iniciada por “em função” (R.4).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-informatica-006",
@@ -12784,7 +12894,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A substituição de “foram adotados” (R.8) por adotou-se preservaria a correção e o sentido do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-informatica-007",
@@ -12806,7 +12917,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “vigia” (R.20) tem, no texto, o sentido de estava vigente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-informatica-009",
@@ -12817,7 +12929,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido do texto seriam preservados caso o trecho “que tivesse por fim impedir a concepção” (R. 22 e 23) fosse assim reescrito: adotada afim de impedir a concepção.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-informatica-010",
@@ -12828,7 +12941,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, um estudo da Universidade da Califórnia apresentou uma novidade: os efeitos nocivos do consumo do açúcar para a aprendizagem e para a memória.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-informatica-011",
@@ -12839,7 +12953,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os efeitos danosos do açúcar para o organismo não eram conhecidos até poucas décadas atrás, o que justifica o aumento considerável do consumo desse produto pela população.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-informatica-012",
@@ -12850,7 +12965,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo do texto, o nome “açúcar” (R.6) é retomado por meio do pronome “ele” (R.7) e da expressão “desse alimento” (R. 8 e 9).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-informatica-013",
@@ -12861,7 +12977,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção e a coerência do texto seriam mantidas caso o termo “ileso” (R.15) fosse substituído por incólume.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-informatica-014",
@@ -12872,7 +12989,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A colocação de uma vírgula logo após a forma verbal “mostram” (R.15) prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-informatica-015",
@@ -12883,7 +13001,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido original do texto seriam preservados caso o trecho “o açúcar pode causar, ainda, problemas metabólicos, como diabetes, hipertensão e aumento do colesterol ruim” (R. 18 a 20) fosse reescrito da seguinte forma: problemas metabólicos, como por exemplo diabetes, hipertensão e aumento do colesterol ruim, também tem origem no consumo de açúcar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-informatica-016",
@@ -13169,7 +13288,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A cultura familista e pró-natalista que predominou no Brasil durante séculos foi fruto da forte influência católica da colonização portuguesa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-seguranca-002",
@@ -13180,7 +13300,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Durante o Estado Novo, os privilégios oferecidos aos homens casados e com filhos eram parte das medidas adotadas pelo governo para incentivar a natalidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-seguranca-003",
@@ -13191,7 +13312,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A legislação vigente na primeira metade do século XX desestimulava o controle da natalidade pela população brasileira.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-seguranca-004",
@@ -13202,7 +13324,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A substituição do ponto empregado logo após “pró-natalista” (R.2) por vírgula, com a devida alteração da letra inicial maiúscula para minúscula, manteria a correção do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-seguranca-005",
@@ -13213,7 +13336,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trecho “da prevalência de altas taxas de mortalidade, dos interesses da colonização portuguesa, da expansão da ocupação territorial e do crescimento do mercado interno” (R. 4 a 6) constitui uma enumeração que complementa o sentido da expressão iniciada por “em função” (R.4).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-seguranca-006",
@@ -13224,7 +13348,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A substituição de “foram adotados” (R.8) por adotou-se preservaria a correção e o sentido do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-seguranca-007",
@@ -13246,7 +13371,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “vigia” (R.20) tem, no texto, o sentido de estava vigente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-seguranca-009",
@@ -13257,7 +13383,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido do texto seriam preservados caso o trecho “que tivesse por fim impedir a concepção” (R. 22 e 23) fosse assim reescrito: adotada afim de impedir a concepção.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-seguranca-010",
@@ -13268,7 +13395,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, um estudo da Universidade da Califórnia apresentou uma novidade: os efeitos nocivos do consumo do açúcar para a aprendizagem e para a memória.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-seguranca-011",
@@ -13279,7 +13407,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os efeitos danosos do açúcar para o organismo não eram conhecidos até poucas décadas atrás, o que justifica o aumento considerável do consumo desse produto pela população.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-seguranca-012",
@@ -13290,7 +13419,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo do texto, o nome “açúcar” (R.6) é retomado por meio do pronome “ele” (R.7) e da expressão “desse alimento” (R. 8 e 9).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-seguranca-013",
@@ -13301,7 +13431,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção e a coerência do texto seriam mantidas caso o termo “ileso” (R.15) fosse substituído por incólume.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-seguranca-014",
@@ -13312,7 +13443,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A colocação de uma vírgula logo após a forma verbal “mostram” (R.15) prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-seguranca-015",
@@ -13323,7 +13455,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido original do texto seriam preservados caso o trecho “o açúcar pode causar, ainda, problemas metabólicos, como diabetes, hipertensão e aumento do colesterol ruim” (R. 18 a 20) fosse reescrito da seguinte forma: problemas metabólicos, como por exemplo diabetes, hipertensão e aumento do colesterol ruim, também tem origem no consumo de açúcar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2018-ebserh-tecnico-seguranca-016",
@@ -13609,7 +13742,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que seu autor concorda com a ideia de que a cidade do Rio de Janeiro, à época, assemelhava-se a um vasto paiol.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-advogado-002",
@@ -13620,7 +13754,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme o texto, o governo vendia a particulares todo o excedente de explosivos não utilizados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-advogado-003",
@@ -13631,7 +13766,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se do texto que as autoridades do estado do Rio de",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-advogado-004",
@@ -13642,7 +13778,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Feitas as devidas alterações nas letras maiúsculas e minúsculas e retirada a vírgula após “Na verdade” (R.2), esta expressão poderia ser deslocada para o final do período, logo após “rural”, sem prejuízo para a correção gramatical e para os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-advogado-005",
@@ -13653,7 +13790,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trecho “se são acidentais ou propositais” (R.11) exprime uma condição sobre a ideia expressa na oração anterior.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-advogado-006",
@@ -13664,7 +13802,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de caso fossem imediatamente antes do termo “submetidas” (R.15) explicitaria o sentido condicional do trecho “submetidas a dadas condições” (R. 15 e 16) sem que houvesse prejuízo para a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-advogado-007",
@@ -13675,7 +13814,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida, se o período “Noticiam os jornais que o governo vende, quando avariada, grande quantidade dessas pólvoras” (R. 20 e 21) fosse reescrito como Uma grande quantidade dessas pólvoras é vendida pelo governo, quando avariadas — noticia-se nos jornais, embora a ênfase nas informações desse período fosse alterada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-advogado-008",
@@ -13686,7 +13826,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do penúltimo parágrafo do texto seria preservada, embora seu sentido fosse alterado, caso o advérbio “não” (R.23) fosse deslocado para imediatamente após “governo” (R.22).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-advogado-009",
@@ -13697,7 +13838,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sujeito elíptico da forma verbal “anda” (R.28) retoma a expressão “um negociante ganancioso” (R. 26 e 27).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-advogado-010",
@@ -13708,7 +13850,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, realizava-se a delimitação de foco, medida de prevenção à reprodução do Aedes aegypti, no caso de serem identificados os pontos estratégicos de ocorrência do mosquito em São José do Rio Preto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-advogado-011",
@@ -13719,7 +13862,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De 1991 a 2015, houve um aumento progressivo de casos de dengue no município de São José do Rio Preto, devido à resistência do mosquito Aedes aegypti às medidas implantadas para seu controle.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-advogado-012",
@@ -13730,7 +13874,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria preservada caso a preposição que inicia o trecho “em área de clima tropical” (R. 3 e 4) fosse eliminada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-advogado-013",
@@ -13741,7 +13886,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após o vocábulo “Logo” (R.18) alteraria os sentidos do texto, apesar de manter sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-advogado-014",
@@ -13752,7 +13898,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A expressão “com a introdução dos demais sorotipos” (R. 26 e 27) exprime ideia de causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-advogado-015",
@@ -13763,7 +13910,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os vocábulos “mosquito” (R.18) e “patógeno” (R.39) têm o mesmo referente no texto: “Aedes aegypti” (R. 6 e 11).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-advogado-016",
@@ -13994,7 +14142,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Pelo menos 30 casais dessa comunidade têm 2 ou mais filhos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-advogado-037",
@@ -14005,7 +14154,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Se um casal dessa comunidade for escolhido ao acaso, então a probabilidade de ele ter menos de 4 filhos será superior a 0,3.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-advogado-038",
@@ -14016,7 +14166,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A referida comunidade é formada por menos de 180 pessoas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-advogado-039",
@@ -14049,7 +14200,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que seu autor concorda com a ideia de que a cidade do Rio de Janeiro, à época, assemelhava-se a um vasto paiol.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-administracao-002",
@@ -14060,7 +14212,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme o texto, o governo vendia a particulares todo o excedente de explosivos não utilizados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-administracao-003",
@@ -14071,7 +14224,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se do texto que as autoridades do estado do Rio de",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-administracao-004",
@@ -14082,7 +14236,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Feitas as devidas alterações nas letras maiúsculas e minúsculas e retirada a vírgula após “Na verdade” (R.2), esta expressão poderia ser deslocada para o final do período, logo após “rural”, sem prejuízo para a correção gramatical e para os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-administracao-005",
@@ -14093,7 +14248,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trecho “se são acidentais ou propositais” (R.11) exprime uma condição sobre a ideia expressa na oração anterior.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-administracao-006",
@@ -14104,7 +14260,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de caso fossem imediatamente antes do termo “submetidas” (R.15) explicitaria o sentido condicional do trecho “submetidas a dadas condições” (R. 15 e 16) sem que houvesse prejuízo para a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-administracao-007",
@@ -14115,7 +14272,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida, se o período “Noticiam os jornais que o governo vende, quando avariada, grande quantidade dessas pólvoras” (R. 20 e 21) fosse reescrito como Uma grande quantidade dessas pólvoras é vendida pelo governo, quando avariadas — noticia-se nos jornais, embora a ênfase nas informações desse período fosse alterada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-administracao-008",
@@ -14126,7 +14284,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do penúltimo parágrafo do texto seria preservada, embora seu sentido fosse alterado, caso o advérbio “não” (R.23) fosse deslocado para imediatamente após “governo” (R.22).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-administracao-009",
@@ -14137,7 +14296,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sujeito elíptico da forma verbal “anda” (R.28) retoma a expressão “um negociante ganancioso” (R. 26 e 27).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-administracao-010",
@@ -14148,7 +14308,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, realizava-se a delimitação de foco, medida de prevenção à reprodução do Aedes aegypti, no caso de serem identificados os pontos estratégicos de ocorrência do mosquito em São José do Rio Preto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-administracao-011",
@@ -14159,7 +14320,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De 1991 a 2015, houve um aumento progressivo de casos de dengue no município de São José do Rio Preto, devido à resistência do mosquito Aedes aegypti às medidas implantadas para seu controle.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-administracao-012",
@@ -14170,7 +14332,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria preservada caso a preposição que inicia o trecho “em área de clima tropical” (R. 3 e 4) fosse eliminada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-administracao-013",
@@ -14181,7 +14344,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após o vocábulo “Logo” (R.18) alteraria os sentidos do texto, apesar de manter sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-administracao-014",
@@ -14192,7 +14356,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A expressão “com a introdução dos demais sorotipos” (R. 26 e 27) exprime ideia de causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-administracao-015",
@@ -14203,7 +14368,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os vocábulos “mosquito” (R.18) e “patógeno” (R.39) têm o mesmo referente no texto: “Aedes aegypti” (R. 6 e 11).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-administracao-016",
@@ -14434,7 +14600,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Pelo menos 30 casais dessa comunidade têm 2 ou mais filhos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-administracao-037",
@@ -14445,7 +14612,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Se um casal dessa comunidade for escolhido ao acaso, então a probabilidade de ele ter menos de 4 filhos será superior a 0,3.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-administracao-038",
@@ -14456,7 +14624,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A referida comunidade é formada por menos de 180 pessoas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-administracao-039",
@@ -14489,7 +14658,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que seu autor concorda com a ideia de que a cidade do Rio de Janeiro, à época, assemelhava-se a um vasto paiol.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-biblioteconomia-002",
@@ -14500,7 +14670,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme o texto, o governo vendia a particulares todo o excedente de explosivos não utilizados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-biblioteconomia-003",
@@ -14511,7 +14682,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se do texto que as autoridades do estado do Rio de",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-biblioteconomia-004",
@@ -14522,7 +14694,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Feitas as devidas alterações nas letras maiúsculas e minúsculas e retirada a vírgula após “Na verdade” (R.2), esta expressão poderia ser deslocada para o final do período, logo após “rural”, sem prejuízo para a correção gramatical e para os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-biblioteconomia-005",
@@ -14533,7 +14706,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trecho “se são acidentais ou propositais” (R.11) exprime uma condição sobre a ideia expressa na oração anterior.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-biblioteconomia-006",
@@ -14544,7 +14718,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de caso fossem imediatamente antes do termo “submetidas” (R.15) explicitaria o sentido condicional do trecho “submetidas a dadas condições” (R. 15 e 16) sem que houvesse prejuízo para a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-biblioteconomia-007",
@@ -14555,7 +14730,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida, se o período “Noticiam os jornais que o governo vende, quando avariada, grande quantidade dessas pólvoras” (R. 20 e 21) fosse reescrito como Uma grande quantidade dessas pólvoras é vendida pelo governo, quando avariadas — noticia-se nos jornais, embora a ênfase nas informações desse período fosse alterada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-biblioteconomia-008",
@@ -14566,7 +14742,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do penúltimo parágrafo do texto seria preservada, embora seu sentido fosse alterado, caso o advérbio “não” (R.23) fosse deslocado para imediatamente após “governo” (R.22).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-biblioteconomia-009",
@@ -14577,7 +14754,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sujeito elíptico da forma verbal “anda” (R.28) retoma a expressão “um negociante ganancioso” (R. 26 e 27).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-biblioteconomia-010",
@@ -14588,7 +14766,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, realizava-se a delimitação de foco, medida de prevenção à reprodução do Aedes aegypti, no caso de serem identificados os pontos estratégicos de ocorrência do mosquito em São José do Rio Preto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-biblioteconomia-011",
@@ -14599,7 +14778,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De 1991 a 2015, houve um aumento progressivo de casos de dengue no município de São José do Rio Preto, devido à resistência do mosquito Aedes aegypti às medidas implantadas para seu controle.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-biblioteconomia-012",
@@ -14610,7 +14790,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria preservada caso a preposição que inicia o trecho “em área de clima tropical” (R. 3 e 4) fosse eliminada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-biblioteconomia-013",
@@ -14621,7 +14802,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após o vocábulo “Logo” (R.18) alteraria os sentidos do texto, apesar de manter sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-biblioteconomia-014",
@@ -14632,7 +14814,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A expressão “com a introdução dos demais sorotipos” (R. 26 e 27) exprime ideia de causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-biblioteconomia-015",
@@ -14643,7 +14826,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os vocábulos “mosquito” (R.18) e “patógeno” (R.39) têm o mesmo referente no texto: “Aedes aegypti” (R. 6 e 11).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-biblioteconomia-016",
@@ -14874,7 +15058,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Pelo menos 30 casais dessa comunidade têm 2 ou mais filhos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-biblioteconomia-037",
@@ -14885,7 +15070,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Se um casal dessa comunidade for escolhido ao acaso, então a probabilidade de ele ter menos de 4 filhos será superior a 0,3.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-biblioteconomia-038",
@@ -14896,7 +15082,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A referida comunidade é formada por menos de 180 pessoas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-biblioteconomia-039",
@@ -14929,7 +15116,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que seu autor concorda com a ideia de que a cidade do Rio de Janeiro, à época, assemelhava-se a um vasto paiol.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-contabilidade-002",
@@ -14940,7 +15128,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme o texto, o governo vendia a particulares todo o excedente de explosivos não utilizados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-contabilidade-003",
@@ -14951,7 +15140,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se do texto que as autoridades do estado do Rio de",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-contabilidade-004",
@@ -14962,7 +15152,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Feitas as devidas alterações nas letras maiúsculas e minúsculas e retirada a vírgula após “Na verdade” (R.2), esta expressão poderia ser deslocada para o final do período, logo após “rural”, sem prejuízo para a correção gramatical e para os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-contabilidade-005",
@@ -14973,7 +15164,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trecho “se são acidentais ou propositais” (R.11) exprime uma condição sobre a ideia expressa na oração anterior.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-contabilidade-006",
@@ -14984,7 +15176,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de caso fossem imediatamente antes do termo “submetidas” (R.15) explicitaria o sentido condicional do trecho “submetidas a dadas condições” (R. 15 e 16) sem que houvesse prejuízo para a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-contabilidade-007",
@@ -14995,7 +15188,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida, se o período “Noticiam os jornais que o governo vende, quando avariada, grande quantidade dessas pólvoras” (R. 20 e 21) fosse reescrito como Uma grande quantidade dessas pólvoras é vendida pelo governo, quando avariadas — noticia-se nos jornais, embora a ênfase nas informações desse período fosse alterada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-contabilidade-008",
@@ -15006,7 +15200,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do penúltimo parágrafo do texto seria preservada, embora seu sentido fosse alterado, caso o advérbio “não” (R.23) fosse deslocado para imediatamente após “governo” (R.22).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-contabilidade-009",
@@ -15017,7 +15212,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sujeito elíptico da forma verbal “anda” (R.28) retoma a expressão “um negociante ganancioso” (R. 26 e 27).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-contabilidade-010",
@@ -15028,7 +15224,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, realizava-se a delimitação de foco, medida de prevenção à reprodução do Aedes aegypti, no caso de serem identificados os pontos estratégicos de ocorrência do mosquito em São José do Rio Preto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-contabilidade-011",
@@ -15039,7 +15236,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De 1991 a 2015, houve um aumento progressivo de casos de dengue no município de São José do Rio Preto, devido à resistência do mosquito Aedes aegypti às medidas implantadas para seu controle.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-contabilidade-012",
@@ -15050,7 +15248,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria preservada caso a preposição que inicia o trecho “em área de clima tropical” (R. 3 e 4) fosse eliminada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-contabilidade-013",
@@ -15061,7 +15260,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após o vocábulo “Logo” (R.18) alteraria os sentidos do texto, apesar de manter sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-contabilidade-014",
@@ -15072,7 +15272,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A expressão “com a introdução dos demais sorotipos” (R. 26 e 27) exprime ideia de causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-contabilidade-015",
@@ -15083,7 +15284,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os vocábulos “mosquito” (R.18) e “patógeno” (R.39) têm o mesmo referente no texto: “Aedes aegypti” (R. 6 e 11).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-contabilidade-016",
@@ -15314,7 +15516,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Pelo menos 30 casais dessa comunidade têm 2 ou mais filhos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-contabilidade-037",
@@ -15325,7 +15528,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Se um casal dessa comunidade for escolhido ao acaso, então a probabilidade de ele ter menos de 4 filhos será superior a 0,3.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-contabilidade-038",
@@ -15336,7 +15540,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A referida comunidade é formada por menos de 180 pessoas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-contabilidade-039",
@@ -15369,7 +15574,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que seu autor concorda com a ideia de que a cidade do Rio de Janeiro, à época, assemelhava-se a um vasto paiol.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-economia-002",
@@ -15380,7 +15586,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme o texto, o governo vendia a particulares todo o excedente de explosivos não utilizados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-economia-003",
@@ -15391,7 +15598,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se do texto que as autoridades do estado do Rio de",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-economia-004",
@@ -15402,7 +15610,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Feitas as devidas alterações nas letras maiúsculas e minúsculas e retirada a vírgula após “Na verdade” (R.2), esta expressão poderia ser deslocada para o final do período, logo após “rural”, sem prejuízo para a correção gramatical e para os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-economia-005",
@@ -15413,7 +15622,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trecho “se são acidentais ou propositais” (R.11) exprime uma condição sobre a ideia expressa na oração anterior.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-economia-006",
@@ -15424,7 +15634,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de caso fossem imediatamente antes do termo “submetidas” (R.15) explicitaria o sentido condicional do trecho “submetidas a dadas condições” (R. 15 e 16) sem que houvesse prejuízo para a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-economia-007",
@@ -15435,7 +15646,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida, se o período “Noticiam os jornais que o governo vende, quando avariada, grande quantidade dessas pólvoras” (R. 20 e 21) fosse reescrito como Uma grande quantidade dessas pólvoras é vendida pelo governo, quando avariadas — noticia-se nos jornais, embora a ênfase nas informações desse período fosse alterada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-economia-008",
@@ -15446,7 +15658,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do penúltimo parágrafo do texto seria preservada, embora seu sentido fosse alterado, caso o advérbio “não” (R.23) fosse deslocado para imediatamente após “governo” (R.22).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-economia-009",
@@ -15457,7 +15670,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sujeito elíptico da forma verbal “anda” (R.28) retoma a expressão “um negociante ganancioso” (R. 26 e 27).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-economia-010",
@@ -15468,7 +15682,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, realizava-se a delimitação de foco, medida de prevenção à reprodução do Aedes aegypti, no caso de serem identificados os pontos estratégicos de ocorrência do mosquito em São José do Rio Preto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-economia-011",
@@ -15479,7 +15694,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De 1991 a 2015, houve um aumento progressivo de casos de dengue no município de São José do Rio Preto, devido à resistência do mosquito Aedes aegypti às medidas implantadas para seu controle.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-economia-012",
@@ -15490,7 +15706,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria preservada caso a preposição que inicia o trecho “em área de clima tropical” (R. 3 e 4) fosse eliminada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-economia-013",
@@ -15501,7 +15718,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após o vocábulo “Logo” (R.18) alteraria os sentidos do texto, apesar de manter sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-economia-014",
@@ -15512,7 +15730,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A expressão “com a introdução dos demais sorotipos” (R. 26 e 27) exprime ideia de causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-economia-015",
@@ -15523,7 +15742,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os vocábulos “mosquito” (R.18) e “patógeno” (R.39) têm o mesmo referente no texto: “Aedes aegypti” (R. 6 e 11).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-economia-016",
@@ -15754,7 +15974,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Pelo menos 30 casais dessa comunidade têm 2 ou mais filhos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-economia-037",
@@ -15765,7 +15986,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Se um casal dessa comunidade for escolhido ao acaso, então a probabilidade de ele ter menos de 4 filhos será superior a 0,3.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-economia-038",
@@ -15776,7 +15998,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A referida comunidade é formada por menos de 180 pessoas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-economia-039",
@@ -15809,7 +16032,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que seu autor concorda com a ideia de que a cidade do Rio de Janeiro, à época, assemelhava-se a um vasto paiol.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-estatistica-002",
@@ -15820,7 +16044,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme o texto, o governo vendia a particulares todo o excedente de explosivos não utilizados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-estatistica-003",
@@ -15831,7 +16056,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se do texto que as autoridades do estado do Rio de",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-estatistica-004",
@@ -15842,7 +16068,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Feitas as devidas alterações nas letras maiúsculas e minúsculas e retirada a vírgula após “Na verdade” (R.2), esta expressão poderia ser deslocada para o final do período, logo após “rural”, sem prejuízo para a correção gramatical e para os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-estatistica-005",
@@ -15853,7 +16080,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trecho “se são acidentais ou propositais” (R.11) exprime uma condição sobre a ideia expressa na oração anterior.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-estatistica-006",
@@ -15864,7 +16092,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de caso fossem imediatamente antes do termo “submetidas” (R.15) explicitaria o sentido condicional do trecho “submetidas a dadas condições” (R. 15 e 16) sem que houvesse prejuízo para a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-estatistica-007",
@@ -15875,7 +16104,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida, se o período “Noticiam os jornais que o governo vende, quando avariada, grande quantidade dessas pólvoras” (R. 20 e 21) fosse reescrito como Uma grande quantidade dessas pólvoras é vendida pelo governo, quando avariadas — noticia-se nos jornais, embora a ênfase nas informações desse período fosse alterada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-estatistica-008",
@@ -15886,7 +16116,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do penúltimo parágrafo do texto seria preservada, embora seu sentido fosse alterado, caso o advérbio “não” (R.23) fosse deslocado para imediatamente após “governo” (R.22).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-estatistica-009",
@@ -15897,7 +16128,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sujeito elíptico da forma verbal “anda” (R.28) retoma a expressão “um negociante ganancioso” (R. 26 e 27).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-estatistica-010",
@@ -15908,7 +16140,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, realizava-se a delimitação de foco, medida de prevenção à reprodução do Aedes aegypti, no caso de serem identificados os pontos estratégicos de ocorrência do mosquito em São José do Rio Preto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-estatistica-011",
@@ -15919,7 +16152,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De 1991 a 2015, houve um aumento progressivo de casos de dengue no município de São José do Rio Preto, devido à resistência do mosquito Aedes aegypti às medidas implantadas para seu controle.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-estatistica-012",
@@ -15930,7 +16164,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria preservada caso a preposição que inicia o trecho “em área de clima tropical” (R. 3 e 4) fosse eliminada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-estatistica-013",
@@ -15941,7 +16176,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após o vocábulo “Logo” (R.18) alteraria os sentidos do texto, apesar de manter sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-estatistica-014",
@@ -15952,7 +16188,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A expressão “com a introdução dos demais sorotipos” (R. 26 e 27) exprime ideia de causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-estatistica-015",
@@ -15963,7 +16200,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os vocábulos “mosquito” (R.18) e “patógeno” (R.39) têm o mesmo referente no texto: “Aedes aegypti” (R. 6 e 11).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-estatistica-016",
@@ -16194,7 +16432,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Pelo menos 30 casais dessa comunidade têm 2 ou mais filhos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-estatistica-037",
@@ -16205,7 +16444,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Se um casal dessa comunidade for escolhido ao acaso, então a probabilidade de ele ter menos de 4 filhos será superior a 0,3.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-estatistica-038",
@@ -16216,7 +16456,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A referida comunidade é formada por menos de 180 pessoas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-estatistica-039",
@@ -16249,7 +16490,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que seu autor concorda com a ideia de que a cidade do Rio de Janeiro, à época, assemelhava-se a um vasto paiol.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-gestao-hospitalar-002",
@@ -16260,7 +16502,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme o texto, o governo vendia a particulares todo o excedente de explosivos não utilizados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-gestao-hospitalar-003",
@@ -16271,7 +16514,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se do texto que as autoridades do estado do Rio de",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-gestao-hospitalar-004",
@@ -16282,7 +16526,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Feitas as devidas alterações nas letras maiúsculas e minúsculas e retirada a vírgula após “Na verdade” (R.2), esta expressão poderia ser deslocada para o final do período, logo após “rural”, sem prejuízo para a correção gramatical e para os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-gestao-hospitalar-005",
@@ -16293,7 +16538,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trecho “se são acidentais ou propositais” (R.11) exprime uma condição sobre a ideia expressa na oração anterior.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-gestao-hospitalar-006",
@@ -16304,7 +16550,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de caso fossem imediatamente antes do termo “submetidas” (R.15) explicitaria o sentido condicional do trecho “submetidas a dadas condições” (R. 15 e 16) sem que houvesse prejuízo para a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-gestao-hospitalar-007",
@@ -16315,7 +16562,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida, se o período “Noticiam os jornais que o governo vende, quando avariada, grande quantidade dessas pólvoras” (R. 20 e 21) fosse reescrito como Uma grande quantidade dessas pólvoras é vendida pelo governo, quando avariadas — noticia-se nos jornais, embora a ênfase nas informações desse período fosse alterada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-gestao-hospitalar-008",
@@ -16326,7 +16574,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do penúltimo parágrafo do texto seria preservada, embora seu sentido fosse alterado, caso o advérbio “não” (R.23) fosse deslocado para imediatamente após “governo” (R.22).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-gestao-hospitalar-009",
@@ -16337,7 +16586,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sujeito elíptico da forma verbal “anda” (R.28) retoma a expressão “um negociante ganancioso” (R. 26 e 27).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-gestao-hospitalar-010",
@@ -16348,7 +16598,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, realizava-se a delimitação de foco, medida de prevenção à reprodução do Aedes aegypti, no caso de serem identificados os pontos estratégicos de ocorrência do mosquito em São José do Rio Preto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-gestao-hospitalar-011",
@@ -16359,7 +16610,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De 1991 a 2015, houve um aumento progressivo de casos de dengue no município de São José do Rio Preto, devido à resistência do mosquito Aedes aegypti às medidas implantadas para seu controle.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-gestao-hospitalar-012",
@@ -16370,7 +16622,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria preservada caso a preposição que inicia o trecho “em área de clima tropical” (R. 3 e 4) fosse eliminada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-gestao-hospitalar-013",
@@ -16381,7 +16634,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após o vocábulo “Logo” (R.18) alteraria os sentidos do texto, apesar de manter sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-gestao-hospitalar-014",
@@ -16392,7 +16646,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A expressão “com a introdução dos demais sorotipos” (R. 26 e 27) exprime ideia de causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-gestao-hospitalar-015",
@@ -16403,7 +16658,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os vocábulos “mosquito” (R.18) e “patógeno” (R.39) têm o mesmo referente no texto: “Aedes aegypti” (R. 6 e 11).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-gestao-hospitalar-016",
@@ -16634,7 +16890,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Pelo menos 30 casais dessa comunidade têm 2 ou mais filhos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-gestao-hospitalar-037",
@@ -16645,7 +16902,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Se um casal dessa comunidade for escolhido ao acaso, então a probabilidade de ele ter menos de 4 filhos será superior a 0,3.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-gestao-hospitalar-038",
@@ -16656,7 +16914,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A referida comunidade é formada por menos de 180 pessoas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-gestao-hospitalar-039",
@@ -16689,7 +16948,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que seu autor concorda com a ideia de que a cidade do Rio de Janeiro, à época, assemelhava-se a um vasto paiol.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-qualquer-nivel-superior-002",
@@ -16700,7 +16960,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme o texto, o governo vendia a particulares todo o excedente de explosivos não utilizados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-qualquer-nivel-superior-003",
@@ -16711,7 +16972,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se do texto que as autoridades do estado do Rio de",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-qualquer-nivel-superior-004",
@@ -16722,7 +16984,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Feitas as devidas alterações nas letras maiúsculas e minúsculas e retirada a vírgula após “Na verdade” (R.2), esta expressão poderia ser deslocada para o final do período, logo após “rural”, sem prejuízo para a correção gramatical e para os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-qualquer-nivel-superior-005",
@@ -16733,7 +16996,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trecho “se são acidentais ou propositais” (R.11) exprime uma condição sobre a ideia expressa na oração anterior.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-qualquer-nivel-superior-006",
@@ -16744,7 +17008,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de caso fossem imediatamente antes do termo “submetidas” (R.15) explicitaria o sentido condicional do trecho “submetidas a dadas condições” (R. 15 e 16) sem que houvesse prejuízo para a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-qualquer-nivel-superior-007",
@@ -16755,7 +17020,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida, se o período “Noticiam os jornais que o governo vende, quando avariada, grande quantidade dessas pólvoras” (R. 20 e 21) fosse reescrito como Uma grande quantidade dessas pólvoras é vendida pelo governo, quando avariadas — noticia-se nos jornais, embora a ênfase nas informações desse período fosse alterada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-qualquer-nivel-superior-008",
@@ -16766,7 +17032,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do penúltimo parágrafo do texto seria preservada, embora seu sentido fosse alterado, caso o advérbio “não” (R.23) fosse deslocado para imediatamente após “governo” (R.22).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-qualquer-nivel-superior-009",
@@ -16777,7 +17044,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sujeito elíptico da forma verbal “anda” (R.28) retoma a expressão “um negociante ganancioso” (R. 26 e 27).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-qualquer-nivel-superior-010",
@@ -16788,7 +17056,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, realizava-se a delimitação de foco, medida de prevenção à reprodução do Aedes aegypti, no caso de serem identificados os pontos estratégicos de ocorrência do mosquito em São José do Rio Preto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-qualquer-nivel-superior-011",
@@ -16799,7 +17068,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De 1991 a 2015, houve um aumento progressivo de casos de dengue no município de São José do Rio Preto, devido à resistência do mosquito Aedes aegypti às medidas implantadas para seu controle.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-qualquer-nivel-superior-012",
@@ -16810,7 +17080,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria preservada caso a preposição que inicia o trecho “em área de clima tropical” (R. 3 e 4) fosse eliminada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-qualquer-nivel-superior-013",
@@ -16821,7 +17092,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após o vocábulo “Logo” (R.18) alteraria os sentidos do texto, apesar de manter sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-qualquer-nivel-superior-014",
@@ -16832,7 +17104,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A expressão “com a introdução dos demais sorotipos” (R. 26 e 27) exprime ideia de causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-qualquer-nivel-superior-015",
@@ -16843,7 +17116,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os vocábulos “mosquito” (R.18) e “patógeno” (R.39) têm o mesmo referente no texto: “Aedes aegypti” (R. 6 e 11).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-qualquer-nivel-superior-016",
@@ -17074,7 +17348,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Pelo menos 30 casais dessa comunidade têm 2 ou mais filhos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-qualquer-nivel-superior-037",
@@ -17085,7 +17360,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Se um casal dessa comunidade for escolhido ao acaso, então a probabilidade de ele ter menos de 4 filhos será superior a 0,3.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-qualquer-nivel-superior-038",
@@ -17096,7 +17372,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A referida comunidade é formada por menos de 180 pessoas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-qualquer-nivel-superior-039",
@@ -17129,7 +17406,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que seu autor concorda com a ideia de que a cidade do Rio de Janeiro, à época, assemelhava-se a um vasto paiol.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-relacoes-publicas-002",
@@ -17140,7 +17418,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme o texto, o governo vendia a particulares todo o excedente de explosivos não utilizados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-relacoes-publicas-003",
@@ -17151,7 +17430,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se do texto que as autoridades do estado do Rio de",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-relacoes-publicas-004",
@@ -17162,7 +17442,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Feitas as devidas alterações nas letras maiúsculas e minúsculas e retirada a vírgula após “Na verdade” (R.2), esta expressão poderia ser deslocada para o final do período, logo após “rural”, sem prejuízo para a correção gramatical e para os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-relacoes-publicas-005",
@@ -17173,7 +17454,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trecho “se são acidentais ou propositais” (R.11) exprime uma condição sobre a ideia expressa na oração anterior.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-relacoes-publicas-006",
@@ -17184,7 +17466,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de caso fossem imediatamente antes do termo “submetidas” (R.15) explicitaria o sentido condicional do trecho “submetidas a dadas condições” (R. 15 e 16) sem que houvesse prejuízo para a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-relacoes-publicas-007",
@@ -17195,7 +17478,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida, se o período “Noticiam os jornais que o governo vende, quando avariada, grande quantidade dessas pólvoras” (R. 20 e 21) fosse reescrito como Uma grande quantidade dessas pólvoras é vendida pelo governo, quando avariadas — noticia-se nos jornais, embora a ênfase nas informações desse período fosse alterada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-relacoes-publicas-008",
@@ -17206,7 +17490,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do penúltimo parágrafo do texto seria preservada, embora seu sentido fosse alterado, caso o advérbio “não” (R.23) fosse deslocado para imediatamente após “governo” (R.22).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-relacoes-publicas-009",
@@ -17217,7 +17502,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sujeito elíptico da forma verbal “anda” (R.28) retoma a expressão “um negociante ganancioso” (R. 26 e 27).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-relacoes-publicas-010",
@@ -17228,7 +17514,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, realizava-se a delimitação de foco, medida de prevenção à reprodução do Aedes aegypti, no caso de serem identificados os pontos estratégicos de ocorrência do mosquito em São José do Rio Preto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-relacoes-publicas-011",
@@ -17239,7 +17526,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De 1991 a 2015, houve um aumento progressivo de casos de dengue no município de São José do Rio Preto, devido à resistência do mosquito Aedes aegypti às medidas implantadas para seu controle.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-relacoes-publicas-012",
@@ -17250,7 +17538,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria preservada caso a preposição que inicia o trecho “em área de clima tropical” (R. 3 e 4) fosse eliminada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-relacoes-publicas-013",
@@ -17261,7 +17550,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após o vocábulo “Logo” (R.18) alteraria os sentidos do texto, apesar de manter sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-relacoes-publicas-014",
@@ -17272,7 +17562,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A expressão “com a introdução dos demais sorotipos” (R. 26 e 27) exprime ideia de causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-relacoes-publicas-015",
@@ -17283,7 +17574,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os vocábulos “mosquito” (R.18) e “patógeno” (R.39) têm o mesmo referente no texto: “Aedes aegypti” (R. 6 e 11).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-relacoes-publicas-016",
@@ -17514,7 +17806,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Pelo menos 30 casais dessa comunidade têm 2 ou mais filhos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-relacoes-publicas-037",
@@ -17525,7 +17818,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Se um casal dessa comunidade for escolhido ao acaso, então a probabilidade de ele ter menos de 4 filhos será superior a 0,3.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-relacoes-publicas-038",
@@ -17536,7 +17830,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A referida comunidade é formada por menos de 180 pessoas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-relacoes-publicas-039",
@@ -17569,7 +17864,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que seu autor concorda com a ideia de que a cidade do Rio de Janeiro, à época, assemelhava-se a um vasto paiol.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-analista-tecnologia-002",
@@ -17580,7 +17876,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme o texto, o governo vendia a particulares todo o excedente de explosivos não utilizados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-analista-tecnologia-003",
@@ -17591,7 +17888,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se do texto que as autoridades do estado do Rio de",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-analista-tecnologia-004",
@@ -17602,7 +17900,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Feitas as devidas alterações nas letras maiúsculas e minúsculas e retirada a vírgula após “Na verdade” (R.2), esta expressão poderia ser deslocada para o final do período, logo após “rural”, sem prejuízo para a correção gramatical e para os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-analista-tecnologia-005",
@@ -17613,7 +17912,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trecho “se são acidentais ou propositais” (R.11) exprime uma condição sobre a ideia expressa na oração anterior.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-analista-tecnologia-006",
@@ -17624,7 +17924,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de caso fossem imediatamente antes do termo “submetidas” (R.15) explicitaria o sentido condicional do trecho “submetidas a dadas condições” (R. 15 e 16) sem que houvesse prejuízo para a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-analista-tecnologia-007",
@@ -17635,7 +17936,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida, se o período “Noticiam os jornais que o governo vende, quando avariada, grande quantidade dessas pólvoras” (R. 20 e 21) fosse reescrito como Uma grande quantidade dessas pólvoras é vendida pelo governo, quando avariadas — noticia-se nos jornais, embora a ênfase nas informações desse período fosse alterada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-analista-tecnologia-008",
@@ -17646,7 +17948,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do penúltimo parágrafo do texto seria preservada, embora seu sentido fosse alterado, caso o advérbio “não” (R.23) fosse deslocado para imediatamente após “governo” (R.22).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-analista-tecnologia-009",
@@ -17657,7 +17960,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sujeito elíptico da forma verbal “anda” (R.28) retoma a expressão “um negociante ganancioso” (R. 26 e 27).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-analista-tecnologia-010",
@@ -17668,7 +17972,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, realizava-se a delimitação de foco, medida de prevenção à reprodução do Aedes aegypti, no caso de serem identificados os pontos estratégicos de ocorrência do mosquito em São José do Rio Preto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-analista-tecnologia-011",
@@ -17679,7 +17984,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De 1991 a 2015, houve um aumento progressivo de casos de dengue no município de São José do Rio Preto, devido à resistência do mosquito Aedes aegypti às medidas implantadas para seu controle.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-analista-tecnologia-012",
@@ -17690,7 +17996,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria preservada caso a preposição que inicia o trecho “em área de clima tropical” (R. 3 e 4) fosse eliminada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-analista-tecnologia-013",
@@ -17701,7 +18008,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após o vocábulo “Logo” (R.18) alteraria os sentidos do texto, apesar de manter sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-analista-tecnologia-014",
@@ -17712,7 +18020,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A expressão “com a introdução dos demais sorotipos” (R. 26 e 27) exprime ideia de causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-analista-tecnologia-015",
@@ -17723,7 +18032,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os vocábulos “mosquito” (R.18) e “patógeno” (R.39) têm o mesmo referente no texto: “Aedes aegypti” (R. 6 e 11).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-analista-tecnologia-016",
@@ -17954,7 +18264,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Pelo menos 30 casais dessa comunidade têm 2 ou mais filhos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-analista-tecnologia-037",
@@ -17965,7 +18276,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Se um casal dessa comunidade for escolhido ao acaso, então a probabilidade de ele ter menos de 4 filhos será superior a 0,3.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-analista-tecnologia-038",
@@ -17976,7 +18288,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A referida comunidade é formada por menos de 180 pessoas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-analista-tecnologia-039",
@@ -18009,7 +18322,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que seu autor concorda com a ideia de que a cidade do Rio de Janeiro, à época, assemelhava-se a um vasto paiol.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-002",
@@ -18020,7 +18334,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme o texto, o governo vendia a particulares todo o excedente de explosivos não utilizados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-003",
@@ -18031,7 +18346,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se do texto que as autoridades do estado do Rio de",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-004",
@@ -18042,7 +18358,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Feitas as devidas alterações nas letras maiúsculas e minúsculas e retirada a vírgula após “Na verdade” (R.2), esta expressão poderia ser deslocada para o final do período, logo após “rural”, sem prejuízo para a correção gramatical e para os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-005",
@@ -18053,7 +18370,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trecho “se são acidentais ou propositais” (R.11) exprime uma condição sobre a ideia expressa na oração anterior.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-006",
@@ -18064,7 +18382,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de caso fossem imediatamente antes do termo “submetidas” (R.15) explicitaria o sentido condicional do trecho “submetidas a dadas condições” (R. 15 e 16) sem que houvesse prejuízo para a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-007",
@@ -18075,7 +18394,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida, se o período “Noticiam os jornais que o governo vende, quando avariada, grande quantidade dessas pólvoras” (R. 20 e 21) fosse reescrito como Uma grande quantidade dessas pólvoras é vendida pelo governo, quando avariadas — noticia-se nos jornais, embora a ênfase nas informações desse período fosse alterada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-008",
@@ -18086,7 +18406,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do penúltimo parágrafo do texto seria preservada, embora seu sentido fosse alterado, caso o advérbio “não” (R.23) fosse deslocado para imediatamente após “governo” (R.22).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-009",
@@ -18097,7 +18418,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sujeito elíptico da forma verbal “anda” (R.28) retoma a expressão “um negociante ganancioso” (R. 26 e 27).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-010",
@@ -18108,7 +18430,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, realizava-se a delimitação de foco, medida de prevenção à reprodução do Aedes aegypti, no caso de serem identificados os pontos estratégicos de ocorrência do mosquito em São José do Rio Preto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-011",
@@ -18119,7 +18442,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De 1991 a 2015, houve um aumento progressivo de casos de dengue no município de São José do Rio Preto, devido à resistência do mosquito Aedes aegypti às medidas implantadas para seu controle.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-012",
@@ -18130,7 +18454,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria preservada caso a preposição que inicia o trecho “em área de clima tropical” (R. 3 e 4) fosse eliminada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-013",
@@ -18141,7 +18466,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após o vocábulo “Logo” (R.18) alteraria os sentidos do texto, apesar de manter sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-014",
@@ -18152,7 +18478,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A expressão “com a introdução dos demais sorotipos” (R. 26 e 27) exprime ideia de causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-015",
@@ -18163,7 +18490,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os vocábulos “mosquito” (R.18) e “patógeno” (R.39) têm o mesmo referente no texto: “Aedes aegypti” (R. 6 e 11).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-016",
@@ -18394,7 +18722,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Pelo menos 30 casais dessa comunidade têm 2 ou mais filhos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-037",
@@ -18405,7 +18734,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Se um casal dessa comunidade for escolhido ao acaso, então a probabilidade de ele ter menos de 4 filhos será superior a 0,3.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-038",
@@ -18416,7 +18746,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A referida comunidade é formada por menos de 180 pessoas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-arquiteto-039",
@@ -18449,7 +18780,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que seu autor concorda com a ideia de que a cidade do Rio de Janeiro, à época, assemelhava-se a um vasto paiol.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-002",
@@ -18460,7 +18792,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme o texto, o governo vendia a particulares todo o excedente de explosivos não utilizados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-003",
@@ -18471,7 +18804,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se do texto que as autoridades do estado do Rio de",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-004",
@@ -18482,7 +18816,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Feitas as devidas alterações nas letras maiúsculas e minúsculas e retirada a vírgula após “Na verdade” (R.2), esta expressão poderia ser deslocada para o final do período, logo após “rural”, sem prejuízo para a correção gramatical e para os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-005",
@@ -18493,7 +18828,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trecho “se são acidentais ou propositais” (R.11) exprime uma condição sobre a ideia expressa na oração anterior.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-006",
@@ -18504,7 +18840,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de caso fossem imediatamente antes do termo “submetidas” (R.15) explicitaria o sentido condicional do trecho “submetidas a dadas condições” (R. 15 e 16) sem que houvesse prejuízo para a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-007",
@@ -18515,7 +18852,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida, se o período “Noticiam os jornais que o governo vende, quando avariada, grande quantidade dessas pólvoras” (R. 20 e 21) fosse reescrito como Uma grande quantidade dessas pólvoras é vendida pelo governo, quando avariadas — noticia-se nos jornais, embora a ênfase nas informações desse período fosse alterada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-008",
@@ -18526,7 +18864,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do penúltimo parágrafo do texto seria preservada, embora seu sentido fosse alterado, caso o advérbio “não” (R.23) fosse deslocado para imediatamente após “governo” (R.22).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-009",
@@ -18537,7 +18876,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sujeito elíptico da forma verbal “anda” (R.28) retoma a expressão “um negociante ganancioso” (R. 26 e 27).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-010",
@@ -18548,7 +18888,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, realizava-se a delimitação de foco, medida de prevenção à reprodução do Aedes aegypti, no caso de serem identificados os pontos estratégicos de ocorrência do mosquito em São José do Rio Preto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-011",
@@ -18559,7 +18900,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De 1991 a 2015, houve um aumento progressivo de casos de dengue no município de São José do Rio Preto, devido à resistência do mosquito Aedes aegypti às medidas implantadas para seu controle.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-012",
@@ -18570,7 +18912,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria preservada caso a preposição que inicia o trecho “em área de clima tropical” (R. 3 e 4) fosse eliminada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-013",
@@ -18581,7 +18924,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após o vocábulo “Logo” (R.18) alteraria os sentidos do texto, apesar de manter sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-014",
@@ -18592,7 +18936,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A expressão “com a introdução dos demais sorotipos” (R. 26 e 27) exprime ideia de causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-015",
@@ -18603,7 +18948,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os vocábulos “mosquito” (R.18) e “patógeno” (R.39) têm o mesmo referente no texto: “Aedes aegypti” (R. 6 e 11).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-016",
@@ -18834,7 +19180,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Pelo menos 30 casais dessa comunidade têm 2 ou mais filhos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-037",
@@ -18845,7 +19192,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Se um casal dessa comunidade for escolhido ao acaso, então a probabilidade de ele ter menos de 4 filhos será superior a 0,3.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-038",
@@ -18856,7 +19204,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A referida comunidade é formada por menos de 180 pessoas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-civil-039",
@@ -18889,7 +19238,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que seu autor concorda com a ideia de que a cidade do Rio de Janeiro, à época, assemelhava-se a um vasto paiol.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-clinico-002",
@@ -18900,7 +19250,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme o texto, o governo vendia a particulares todo o excedente de explosivos não utilizados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-clinico-003",
@@ -18911,7 +19262,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se do texto que as autoridades do estado do Rio de",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-clinico-004",
@@ -18922,7 +19274,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Feitas as devidas alterações nas letras maiúsculas e minúsculas e retirada a vírgula após “Na verdade” (R.2), esta expressão poderia ser deslocada para o final do período, logo após “rural”, sem prejuízo para a correção gramatical e para os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-clinico-005",
@@ -18933,7 +19286,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trecho “se são acidentais ou propositais” (R.11) exprime uma condição sobre a ideia expressa na oração anterior.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-clinico-006",
@@ -18944,7 +19298,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de caso fossem imediatamente antes do termo “submetidas” (R.15) explicitaria o sentido condicional do trecho “submetidas a dadas condições” (R. 15 e 16) sem que houvesse prejuízo para a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-clinico-007",
@@ -18955,7 +19310,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida, se o período “Noticiam os jornais que o governo vende, quando avariada, grande quantidade dessas pólvoras” (R. 20 e 21) fosse reescrito como Uma grande quantidade dessas pólvoras é vendida pelo governo, quando avariadas — noticia-se nos jornais, embora a ênfase nas informações desse período fosse alterada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-clinico-008",
@@ -18966,7 +19322,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do penúltimo parágrafo do texto seria preservada, embora seu sentido fosse alterado, caso o advérbio “não” (R.23) fosse deslocado para imediatamente após “governo” (R.22).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-clinico-009",
@@ -18977,7 +19334,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sujeito elíptico da forma verbal “anda” (R.28) retoma a expressão “um negociante ganancioso” (R. 26 e 27).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-clinico-010",
@@ -18988,7 +19346,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, realizava-se a delimitação de foco, medida de prevenção à reprodução do Aedes aegypti, no caso de serem identificados os pontos estratégicos de ocorrência do mosquito em São José do Rio Preto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-clinico-011",
@@ -18999,7 +19358,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De 1991 a 2015, houve um aumento progressivo de casos de dengue no município de São José do Rio Preto, devido à resistência do mosquito Aedes aegypti às medidas implantadas para seu controle.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-clinico-012",
@@ -19010,7 +19370,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria preservada caso a preposição que inicia o trecho “em área de clima tropical” (R. 3 e 4) fosse eliminada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-clinico-013",
@@ -19021,7 +19382,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após o vocábulo “Logo” (R.18) alteraria os sentidos do texto, apesar de manter sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-clinico-014",
@@ -19032,7 +19394,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A expressão “com a introdução dos demais sorotipos” (R. 26 e 27) exprime ideia de causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-clinico-015",
@@ -19043,7 +19406,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os vocábulos “mosquito” (R.18) e “patógeno” (R.39) têm o mesmo referente no texto: “Aedes aegypti” (R. 6 e 11).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-clinico-016",
@@ -19274,7 +19638,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Pelo menos 30 casais dessa comunidade têm 2 ou mais filhos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-clinico-037",
@@ -19285,7 +19650,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Se um casal dessa comunidade for escolhido ao acaso, então a probabilidade de ele ter menos de 4 filhos será superior a 0,3.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-clinico-038",
@@ -19296,7 +19662,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A referida comunidade é formada por menos de 180 pessoas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-engenheiro-clinico-039",
@@ -19329,7 +19696,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que seu autor concorda com a ideia de que a cidade do Rio de Janeiro, à época, assemelhava-se a um vasto paiol.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-002",
@@ -19340,7 +19708,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme o texto, o governo vendia a particulares todo o excedente de explosivos não utilizados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-003",
@@ -19351,7 +19720,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se do texto que as autoridades do estado do Rio de",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-004",
@@ -19362,7 +19732,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Feitas as devidas alterações nas letras maiúsculas e minúsculas e retirada a vírgula após “Na verdade” (R.2), esta expressão poderia ser deslocada para o final do período, logo após “rural”, sem prejuízo para a correção gramatical e para os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-005",
@@ -19373,7 +19744,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trecho “se são acidentais ou propositais” (R.11) exprime uma condição sobre a ideia expressa na oração anterior.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-006",
@@ -19384,7 +19756,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de caso fossem imediatamente antes do termo “submetidas” (R.15) explicitaria o sentido condicional do trecho “submetidas a dadas condições” (R. 15 e 16) sem que houvesse prejuízo para a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-007",
@@ -19395,7 +19768,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida, se o período “Noticiam os jornais que o governo vende, quando avariada, grande quantidade dessas pólvoras” (R. 20 e 21) fosse reescrito como Uma grande quantidade dessas pólvoras é vendida pelo governo, quando avariadas — noticia-se nos jornais, embora a ênfase nas informações desse período fosse alterada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-008",
@@ -19406,7 +19780,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do penúltimo parágrafo do texto seria preservada, embora seu sentido fosse alterado, caso o advérbio “não” (R.23) fosse deslocado para imediatamente após “governo” (R.22).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-009",
@@ -19417,7 +19792,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sujeito elíptico da forma verbal “anda” (R.28) retoma a expressão “um negociante ganancioso” (R. 26 e 27).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-010",
@@ -19428,7 +19804,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, realizava-se a delimitação de foco, medida de prevenção à reprodução do Aedes aegypti, no caso de serem identificados os pontos estratégicos de ocorrência do mosquito em São José do Rio Preto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-011",
@@ -19439,7 +19816,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De 1991 a 2015, houve um aumento progressivo de casos de dengue no município de São José do Rio Preto, devido à resistência do mosquito Aedes aegypti às medidas implantadas para seu controle.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-012",
@@ -19450,7 +19828,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria preservada caso a preposição que inicia o trecho “em área de clima tropical” (R. 3 e 4) fosse eliminada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-013",
@@ -19461,7 +19840,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após o vocábulo “Logo” (R.18) alteraria os sentidos do texto, apesar de manter sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-014",
@@ -19472,7 +19852,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A expressão “com a introdução dos demais sorotipos” (R. 26 e 27) exprime ideia de causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-015",
@@ -19483,7 +19864,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os vocábulos “mosquito” (R.18) e “patógeno” (R.39) têm o mesmo referente no texto: “Aedes aegypti” (R. 6 e 11).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-016",
@@ -19714,7 +20096,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Pelo menos 30 casais dessa comunidade têm 2 ou mais filhos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-037",
@@ -19725,7 +20108,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Se um casal dessa comunidade for escolhido ao acaso, então a probabilidade de ele ter menos de 4 filhos será superior a 0,3.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-038",
@@ -19736,7 +20120,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A referida comunidade é formada por menos de 180 pessoas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-jornalista-039",
@@ -19769,7 +20154,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que seu autor concorda com a ideia de que a cidade do Rio de Janeiro, à época, assemelhava-se a um vasto paiol.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-tecnologo-gestao-publica-002",
@@ -19780,7 +20166,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme o texto, o governo vendia a particulares todo o excedente de explosivos não utilizados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-tecnologo-gestao-publica-003",
@@ -19791,7 +20178,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se do texto que as autoridades do estado do Rio de",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-tecnologo-gestao-publica-004",
@@ -19802,7 +20190,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Feitas as devidas alterações nas letras maiúsculas e minúsculas e retirada a vírgula após “Na verdade” (R.2), esta expressão poderia ser deslocada para o final do período, logo após “rural”, sem prejuízo para a correção gramatical e para os sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-tecnologo-gestao-publica-005",
@@ -19813,7 +20202,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trecho “se são acidentais ou propositais” (R.11) exprime uma condição sobre a ideia expressa na oração anterior.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-tecnologo-gestao-publica-006",
@@ -19824,7 +20214,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de caso fossem imediatamente antes do termo “submetidas” (R.15) explicitaria o sentido condicional do trecho “submetidas a dadas condições” (R. 15 e 16) sem que houvesse prejuízo para a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-tecnologo-gestao-publica-007",
@@ -19835,7 +20226,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida, se o período “Noticiam os jornais que o governo vende, quando avariada, grande quantidade dessas pólvoras” (R. 20 e 21) fosse reescrito como Uma grande quantidade dessas pólvoras é vendida pelo governo, quando avariadas — noticia-se nos jornais, embora a ênfase nas informações desse período fosse alterada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-tecnologo-gestao-publica-008",
@@ -19846,7 +20238,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do penúltimo parágrafo do texto seria preservada, embora seu sentido fosse alterado, caso o advérbio “não” (R.23) fosse deslocado para imediatamente após “governo” (R.22).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-tecnologo-gestao-publica-009",
@@ -19857,7 +20250,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O sujeito elíptico da forma verbal “anda” (R.28) retoma a expressão “um negociante ganancioso” (R. 26 e 27).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-tecnologo-gestao-publica-010",
@@ -19868,7 +20262,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, realizava-se a delimitação de foco, medida de prevenção à reprodução do Aedes aegypti, no caso de serem identificados os pontos estratégicos de ocorrência do mosquito em São José do Rio Preto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-tecnologo-gestao-publica-011",
@@ -19879,7 +20274,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De 1991 a 2015, houve um aumento progressivo de casos de dengue no município de São José do Rio Preto, devido à resistência do mosquito Aedes aegypti às medidas implantadas para seu controle.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-tecnologo-gestao-publica-012",
@@ -19890,7 +20286,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria preservada caso a preposição que inicia o trecho “em área de clima tropical” (R. 3 e 4) fosse eliminada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-tecnologo-gestao-publica-013",
@@ -19901,7 +20298,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A inserção de uma vírgula imediatamente após o vocábulo “Logo” (R.18) alteraria os sentidos do texto, apesar de manter sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-tecnologo-gestao-publica-014",
@@ -19912,7 +20310,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A expressão “com a introdução dos demais sorotipos” (R. 26 e 27) exprime ideia de causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-tecnologo-gestao-publica-015",
@@ -19923,7 +20322,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os vocábulos “mosquito” (R.18) e “patógeno” (R.39) têm o mesmo referente no texto: “Aedes aegypti” (R. 6 e 11).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2018-ebserh-tecnologo-gestao-publica-016",
@@ -20154,7 +20554,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Pelo menos 30 casais dessa comunidade têm 2 ou mais filhos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-tecnologo-gestao-publica-037",
@@ -20165,7 +20566,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Se um casal dessa comunidade for escolhido ao acaso, então a probabilidade de ele ter menos de 4 filhos será superior a 0,3.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-tecnologo-gestao-publica-038",
@@ -20176,7 +20578,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A referida comunidade é formada por menos de 180 pessoas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2018-ebserh-tecnologo-gestao-publica-039",
@@ -20199,6 +20602,152 @@
    "tipo": "certo_errado",
    "enunciado": "A negação da proposição “Se o fogo for desencadeado por curto-circuito no sistema elétrico, será recomendável iniciar o combate às chamas com extintor à base de espuma.” é equivalente à proposição “O fogo foi desencadeado por curto-circuito no sistema elétrico e não será recomendável iniciar o combate às chamas com extintor à base de espuma.”",
    "gabarito": "certo"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Julgue os próximos itens, referentes a tabela de temporalidade, acondicionamento, armazenamento, preservação e conservação de documentos em arquivo.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "No século XXI, o ser humano se recria a partir da mídia. O movimento iniciado há um século com o cinema e a televisão atinge um grau inédito, no qual as pessoas têm a possibilidade de criar uma nova identidade individual nas mídias eletrônicas, ao mesmo tempo em que o planeta se unifica quase à força no fluxo global de imagens e sentidos.",
+   "citacao": "Márcia Nogueira Alves et al Mídia e produção audiovisual : uma introdução Curitiba: IBPEX, 2008 (com adaptações)",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "CONHECIMENTOS ESPECÍFICOS",
+   "citacao": "Tendo em vista que a notícia é uma construção retórica referencial acerca das aparências do mundo, julgue os seguintes itens, acerca da estrutura da notícia e do texto jornalístico.",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Com relação aos processos de produção gráfica, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Podemos dizer que a imagem é narrativa. Por mais estática que ela seja, outras tantas são desencadeadas em nossa mente, num movimento frenético de associações. Nossas ideias se constroem a partir de imagens. A imagem é questionadora e sempre tentaremos encontrar uma resposta diante dela. Por último, em uma perspectiva subjetiva e até um pouco poética, ela é o próprio espelho, na lente da câmera, na tela, nos olhos de outro alguém. A imagem é a linguagem da alma.\n\nMárcia Nogueira Alves et al Mídia e produção audiovisual :\n\numa introdução Curitiba: IBPEX, 2008 (com adaptações) Tendo o texto precedente como referência inicial, julgue os itens a seguir, relativos à teoria da imagem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Entre os meios de design de informação, o infográfico surge com a informação a partir de desenhos e gráficos que denotam um conteúdo dinâmico e interativo. A Internet propicia um ambiente que privilegia a interatividade de forma ampla a partir dos elementos da hipermídia (som, imagem e movimento), que facilitam uma melhor absorção de conhecimento e informação.",
+   "citacao": "Ailton S Silva et al Design de informação : uma explosão de possibilidades num mundo imagético e interativo Portugal: Instituto Politécnico de Tomar, 2013 (com adaptações)",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Tendo como base o circuito apresentado na figura precedente e os conceitos envolvidos com os transistores de efeito de campo (FET),",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Considerando a tabela e o histograma mostrados nas figuras precedentes, que contêm informações elaboradas para gerenciar uma construção, julgue os próximos itens, a respeito de planejamento e programação de obras com PERT-CPM, cronograma e histograma de mão de obra.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um engenheiro civil foi designado para periciar um prédio que apresentava fissuras em uma viga de concreto biapoiada, conforme figura precedente. Ao vistoriar o local, ele constatou que havia uma flecha excessiva na viga e que as fissuras se propagavam também para a parede de alvenaria, construída acima da viga. No diário de obras sobre a execução da peça, encontrou a informação de que o escoramento da viga fora retirado cinco dias após a concretagem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "serviço unidade coeficiente assentamento de guia (meio-fio) em trecho curvo, confeccionada em concreto pré-fabricado com dimensões 80 cm × 8 cm × 8 cm × 25 cm m (comprimento × base inferior × base superior × altura), para urbanização interna de empreendimentos pedreiro com encargos complementares h 0,4210 servente com encargos complementares h 0,4210 guia ou meio-fio de concreto pré-fabricado, para un 1,2560 urbanização interna de empreendimentos argamassa traço 1:3 (cimento e areia média), m³ 0,0010 preparo manual areia média, posto jazida/fornecedor (sem frete) m³ 0,0070\n\nA tabela precedente apresenta uma composição do Sistema Nacional de Pesquisa de Custos e Índices da Construção Civil (SINAPI) para o serviço de assentamento de guia (meio-fio) em trecho curvo, confeccionada em concreto pré-fabricado, sem os respectivos custos. A única diferença entre a composição desse serviço e o do assentamento de guia (meio-fio) em trecho reto são os coeficientes de pedreiro e servente, que passam a ser de 0,3320 cada. Tendo como referência as informações apresentadas, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Para fins de orçamentação de uma obra, foi feita a cotação de um equipamento em cinco diferentes lojas. Os valores obtidos foram registrados na coluna B, da linha 2 à linha 6, de uma planilha elaborada em Excel, conforme ilustrado na figura anterior. Nas linhas 8 e 9 da coluna B dessa planilha, estão registradas, respectivamente, a média aritmética e a mediana dos preços cotados, calculadas usando-se comandos do próprio Excel.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Etienne Grandjean Manual artes médicas de ergonomia Porto Alegre, 1998, p 159 Há objeções críticas pelo lado da sociologia industrial e da psicologia empresarial ao princípio da extrema fragmentação do trabalho no taylorismo. O trabalho muito repetitivo é visto como um esvaziamento do conteúdo do trabalho. O gráfico precedente apresenta a conjectura de relacionamento entre o grau de complexidade da atividade e o grau de eficácia do trabalho humano.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "De acordo com a norma ABNT 9050, que trata de acessibilidade universal, a sinalização tátil e visual no piso deve ser de alerta e",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Figura III – radial Figura IV – em malha Com base na organização espacial em planta, Francis Ching divide as tipologias de edificações conforme mostrado nas figuras precedentes. Considerando essas tipologias, julgue os itens subsecutivos.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Figura II – Nam June Paik Museum. Coreia do Sul. Croqui de\n\nMario Biselli. Considerando os croquis de partidos arquitetônicos e construtivos mostrados nas figuras I e II precedentes e a frase “Arquiteto não",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Na figura precedente, que mostra um corte junto à fachada de uma edificação, na altura do terraço junto à mureta, estão destacados os detalhes de impermeabilização.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A falta de informações sobre o histórico de crédito afeta especialmente os mais frágeis, já que os ricos têm bens para oferecer como garantia. Para lidar com esse problema, tramita no Congresso Nacional um projeto de lei que corrigirá a fragilidade da ausência de informação sobre o histórico de crédito: o aperfeiçoamento do Cadastro Positivo.\n\nNesse cadastro, computa-se a nota de crédito do cidadão. Quanto mais responsável ele for ao pagar as suas contas, melhor será a sua nota, que estará disponível para todo o mercado. Reduzem-se, assim, o risco de emprestar e, com ele, as taxas de juros dos tomadores.",
+   "citacao": "Cadastro Positivo e a democratização do crédito J M Pinho de Melo, M Mendes e M e F Kanczuk In : Folha de S.Paulo , 12/2/2018 (com adaptações)",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Rio de Janeiro — Marcada por protestos e imbróglio judicial, a privatização da Companhia Estadual de Águas e Esgotos (CEDAE) ainda depende de comprador. Trata-se do principal ativo do Rio de Janeiro a ser repassado à iniciativa privada em 2018. Empresa de economia mista, com sede na capital fluminense, a CEDAE tem como acionista majoritário o governo do estado do Rio de Janeiro. Presente em 64 dos 92 municípios, ela presta serviços de fornecimento de água potável, de coleta, tratamento e disposição final de esgotos. A venda do ativo foi estabelecida como uma das condições de entrada do Rio de Janeiro no regime de recuperação fiscal proposto pela União. Com a privatização da companhia, o governo espera arrecadar R$ 3,5 bilhões.\n\nG1, 30/1/2018 (com adaptações) Considerando o texto precedente como referência inicial, julgue os seguintes itens.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Os gráficos a seguir mostram o resultado primário e o resultado nominal do setor público no Brasil, em proporção do PIB, assim como a dívida líquida do setor público, também tendo o PIB como base.",
+   "citacao": "Internet: <www bcb gov br>",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Os gráficos a seguir mostram as despesas previdenciárias de diversos países em relação ao PIB, tomando-se como referência a razão de dependência, e a estimativa de evolução da própria razão de dependência no Brasil e na Europa.\n\nOCDE, Banco Mundial, ONU\n\nOCDE, Banco Mundial, ONU Acerca das informações e dos gráficos mostrados, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O gráfico seguinte mostra a distribuição percentual da Espaço livre população ocupada, com dezesseis anos de idade ou mais, de acordo com as categorias que compõem o trabalho formal no Brasil.\n\nIBGE, pesquisa nacional por amostra de domicílios contínua 2012-2016 Considerando as informações apresentadas, julgue o item subsequente.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CB2A1",
+   "conteudo": "José Eustáquio Diniz Alves O planejamento familiar no Brasil Internet: <www ecodebate com br> (com adaptações) A respeito das ideias do texto CB2A1AAA, julgue os itens subsequentes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CB1A1",
+   "conteudo": "Lima Barreto Pólvora e cocaína In : Vida urbana , 5/1/1915 Internet: <www dominiopublico gov br> (com adaptações) Com relação às ideias do texto CB1A1AAA, que data de janeiro",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma pesquisa revelou características da população de uma pequena comunidade composta apenas por casais e seus filhos. Todos os casais dessa comunidade são elementos do conjunto A c B c C, em que\n\nA = {casais com pelo menos um filho com mais de 20 anos de\n\nidade};\n\nB = {casais com pelo menos um filho com menos de 10 anos\n\nde idade};\n\nC = {casais com pelo menos 4 filhos}.\n\nConsiderando que n (P) indique a quantidade de elementos de um conjunto P, suponha que n (A) = 18; n (B) = 20; n (C) = 25; n (A 1 B) = 13; n (A 1 C) = 11; n (B 1 C) = 12 e n (A 1 B 1 C) = 8. O diagrama a seguir mostra essas quantidades de elementos. Com base nas informações e no diagrama precedentes, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

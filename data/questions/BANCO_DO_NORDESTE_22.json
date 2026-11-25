@@ -144,7 +144,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considerando a figura a seguir — ciclo DevOps composto pelas etapas plan, code, build, test, release, deploy, operate e monitor —, julgue os próximos itens, acerca dos conceitos de DevOps. Situação hipotética: Alguns funcionários de determinada organização foram encarregados de selecionar uma ferramenta para auxiliar os gestores na execução das atividades relacionadas à fase build dos projetos da empresa. Após se reunirem para debater o assunto, os funcionários optaram pela ferramenta puppet . Assertiva: Nessa situação, os funcionários da empresa escolheram a ferramenta mais adequada, uma vez que o puppet é utilizado para realizar, de forma padronizada, a automação e construção de código, verificando-se as dependências necessárias durante o processo de compilação das aplicações.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2022-bnb-analista-infraestrutura-seguranca-104",
@@ -155,7 +156,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considerando a figura a seguir — ciclo DevOps composto pelas etapas plan, code, build, test, release, deploy, operate e monitor —, julgue os próximos itens, acerca dos conceitos de DevOps. Com base nas etapas do DevOps, é correto afirmar que a ferramenta Jenkins está mais relacionada à etapa monitor que à etapa deploy .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2022-bnb-analista-infraestrutura-seguranca-105",
@@ -166,7 +168,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considerando a figura a seguir — ciclo DevOps composto pelas etapas plan, code, build, test, release, deploy, operate e monitor —, julgue os próximos itens, acerca dos conceitos de DevOps. A ferramenta RedHat Ansible está mais relacionada à etapa deploy do que à etapa plan .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-001",
@@ -254,7 +257,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho “ao proporcionar-lhe realizar um ofício de forma sustentável” (primeiro parágrafo) exprime a causa da ação de Gandhi em relação ao uso da roca.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-009",
@@ -265,7 +269,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O pronome “lhe” em “proporcionar-lhe” (primeiro parágrafo) refere-se a “o seu povo” (primeiro parágrafo).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-010",
@@ -276,7 +281,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expressão “de forma sustentável” (primeiro parágrafo) relaciona-se com o termo “ofício”, modificando seu sentido.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-011",
@@ -287,7 +293,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego da forma verbal “faz” (primeiro período do segundo parágrafo) no presente justifica-se pela referência ao fato passado mencionado no parágrafo anterior.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-012",
@@ -298,7 +305,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro parágrafo, é facultativo o uso da preposição “a” para introduzir o complemento da forma verbal “remete”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-013",
@@ -309,7 +317,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os substantivos “soluções” (quarto parágrafo) e “educação” (quarto parágrafo) estabelecem com o termo “disseminação” (quarto parágrafo) o mesmo tipo de relação sintática.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-014",
@@ -320,7 +329,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No contexto em que aparece, o pronome “Ela” (quarto parágrafo) poderia ser substituído por A abordagem ativista , sem prejuízo dos sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-015",
@@ -331,7 +341,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em relação à tipologia textual, o texto é predominantemente narrativo, uma vez que os autores organizam os fatos segundo critérios cronológicos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-016",
@@ -342,7 +353,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto apresenta os conceitos de economia solidária e de capital social, que divergem entre si, mas que concordam com a noção de tecnologias sociais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-017",
@@ -353,7 +365,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que os conceitos de economia solidária e de capital social contribuem para o desenvolvimento de ações para o enfrentamento de problemas sociais do mundo capitalista.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-018",
@@ -364,7 +377,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O conceito de capital social evidencia a produção de mercadorias como diretriz fundamental da ação comunitária.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-019",
@@ -375,7 +389,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A superação da pobreza e a reconstrução do tecido social estão intimamente relacionadas aos conceitos de capital social e economia solidária, apresentados no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-020",
@@ -386,7 +401,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do terceiro parágrafo, o termo “essas experiências” refere-se a “situações de pobreza e miséria”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-021",
@@ -397,7 +413,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expressão “Ao contrário” (terceiro período do primeiro parágrafo) poderia ser substituída pela expressão Por isso , sem prejuízo da correção gramatical e dos sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-022",
@@ -408,7 +425,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A palavra “consequências” (segundo período do primeiro parágrafo) pode ser grafada, de acordo com a ortografia oficial, com o uso do trema: conseqüências .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-023",
@@ -419,7 +437,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do texto, o pronome “lhe” refere-se a “o conceito de tecnologias sociais”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-024",
@@ -430,7 +449,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “pontua” (quarto período do primeiro parágrafo) é empregada como sinônimo de assinalar .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-025",
@@ -441,7 +461,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O pronome “Sua” (segundo período do segundo parágrafo) retoma o termo “Capital social”, no período anterior.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-026",
@@ -452,7 +473,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No quarto período do primeiro parágrafo, o trecho “em todos os debates travados nos últimos anos” encontra-se isolado por vírgulas por constituir uma expressão adverbial deslocada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-027",
@@ -463,7 +485,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A palavra “paliativas” (segundo período do terceiro parágrafo) está empregada com o sentido de protelar uma crise .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-029",
@@ -474,7 +497,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Não haveria prejuízo do sentido original do texto caso fosse inserida, entre vírgulas, a conjunção portanto , após “Sua importância” (último período do segundo parágrafo).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-030",
@@ -485,7 +509,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “requerem” (terceiro período do primeiro parágrafo) estabelece concordância com o trecho “As graves consequências do capitalismo e da globalização”, no período imediatamente anterior.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-1-031",
@@ -793,7 +818,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho “ao proporcionar-lhe realizar um ofício de forma sustentável” (primeiro parágrafo) exprime a causa da ação de Gandhi em relação ao uso da roca.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-009",
@@ -804,7 +830,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O pronome “lhe” em “proporcionar-lhe” (primeiro parágrafo) refere-se a “o seu povo” (primeiro parágrafo).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-010",
@@ -815,7 +842,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expressão “de forma sustentável” (primeiro parágrafo) relaciona-se com o termo “ofício”, modificando seu sentido.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-011",
@@ -826,7 +854,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego da forma verbal “faz” (primeiro período do segundo parágrafo) no presente justifica-se pela referência ao fato passado mencionado no parágrafo anterior.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-012",
@@ -837,7 +866,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro parágrafo, é facultativo o uso da preposição “a” para introduzir o complemento da forma verbal “remete”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-013",
@@ -848,7 +878,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os substantivos “soluções” (quarto parágrafo) e “educação” (quarto parágrafo) estabelecem com o termo “disseminação” (quarto parágrafo) o mesmo tipo de relação sintática.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-014",
@@ -859,7 +890,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No contexto em que aparece, o pronome “Ela” (quarto parágrafo) poderia ser substituído por A abordagem ativista , sem prejuízo dos sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-015",
@@ -870,7 +902,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em relação à tipologia textual, o texto é predominantemente narrativo, uma vez que os autores organizam os fatos segundo critérios cronológicos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-016",
@@ -881,7 +914,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto apresenta os conceitos de economia solidária e de capital social, que divergem entre si, mas que concordam com a noção de tecnologias sociais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-017",
@@ -892,7 +926,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que os conceitos de economia solidária e de capital social contribuem para o desenvolvimento de ações para o enfrentamento de problemas sociais do mundo capitalista.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-018",
@@ -903,7 +938,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O conceito de capital social evidencia a produção de mercadorias como diretriz fundamental da ação comunitária.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-019",
@@ -914,7 +950,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A superação da pobreza e a reconstrução do tecido social estão intimamente relacionadas aos conceitos de capital social e economia solidária, apresentados no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-020",
@@ -925,7 +962,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do terceiro parágrafo, o termo “essas experiências” refere-se a “situações de pobreza e miséria”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-021",
@@ -936,7 +974,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expressão “Ao contrário” (terceiro período do primeiro parágrafo) poderia ser substituída pela expressão Por isso , sem prejuízo da correção gramatical e dos sentidos do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-022",
@@ -947,7 +986,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A palavra “consequências” (segundo período do primeiro parágrafo) pode ser grafada, de acordo com a ortografia oficial, com o uso do trema: conseqüências .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-023",
@@ -958,7 +998,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do texto, o pronome “lhe” refere-se a “o conceito de tecnologias sociais”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-024",
@@ -969,7 +1010,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “pontua” (quarto período do primeiro parágrafo) é empregada como sinônimo de assinalar .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-025",
@@ -980,7 +1022,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O pronome “Sua” (segundo período do segundo parágrafo) retoma o termo “Capital social”, no período anterior.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-026",
@@ -991,7 +1034,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No quarto período do primeiro parágrafo, o trecho “em todos os debates travados nos últimos anos” encontra-se isolado por vírgulas por constituir uma expressão adverbial deslocada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-027",
@@ -1002,7 +1046,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A palavra “paliativas” (segundo período do terceiro parágrafo) está empregada com o sentido de protelar uma crise .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-029",
@@ -1013,7 +1058,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Não haveria prejuízo do sentido original do texto caso fosse inserida, entre vírgulas, a conjunção portanto , após “Sua importância” (último período do segundo parágrafo).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-030",
@@ -1024,7 +1070,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “requerem” (terceiro período do primeiro parágrafo) estabelece concordância com o trecho “As graves consequências do capitalismo e da globalização”, no período imediatamente anterior.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-031",
@@ -2531,7 +2578,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Situação hipotética: Alguns funcionários de determinada organização foram encarregados de selecionar uma ferramenta para auxiliar os gestores na execução das atividades relacionadas à fase build dos projetos da empresa. Após se reunirem para debater o assunto, os funcionários optaram pela ferramenta puppet. Assertiva: Nessa situação, os funcionários da empresa escolheram a ferramenta mais adequada, uma vez que o puppet é utilizado para realizar, de forma padronizada, a automação e construção de código, verificando-se as dependências necessárias durante o processo de compilação das aplicações.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-104",
@@ -2542,7 +2590,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Com base nas etapas do DevOps, é correto afirmar que a ferramenta Jenkins está mais relacionada à etapa monitor que à etapa deploy.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-105",
@@ -2553,7 +2602,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "A ferramenta RedHat Ansible está mais relacionada à etapa deploy do que à etapa plan.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-106",
@@ -2564,7 +2614,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Um serverless é definido como um modelo operacional cujos princípios incluem a ausência de infraestrutura para gerenciar e o dimensionamento automático por unidade de consumo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-107",
@@ -2575,7 +2626,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os microsserviços são módulos implantados e monitorados de forma independente, os quais são combinados, em uma coleção desacoplada, por aplicativos baseados nesses microsserviços.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-108",
@@ -2586,7 +2638,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A entrega contínua (CD) no DevOps é o processo de automatização que inclui a configuração e implantação de um aplicativo em um pipeline de produção, mas não abrange a compilação e o teste.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2022-bancodonordeste-tecnico-perfil-2-109",
@@ -2719,6 +2772,26 @@
    "tipo": "certo_errado",
    "enunciado": "Considere o seguinte Dockerfile para uma aplicação .NET. FROM mcr.microsoft.com/dotnet/aspnet:6.0 WORKDIR /App COPY --from=build-env /App/out . ENTRYPOINT [“dotnet”, “DotNet.Docker.dll”] Nesse caso, o comando ENTRYPOINT solicita ao Docker que configure o container para que ele seja executado como um executável; desse modo, quando o container é iniciado, esse comando ENTRYPOINT é executado.",
    "gabarito": "certo"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "CG1A1",
+   "conteudo": "Na Índia do século XX, Gandhi usou a roca de fiar para valorizar as práticas e os costumes tradicionais como instrumentos de inclusão social do seu povo, ao proporcionar-lhe realizar um ofício de forma sustentável. Esse uso faz que a roca seja considerada a primeira “tecnologia apropriada” do mundo. No Brasil, o movimento da “tecnologia apropriada” é conhecido como “tecnologia social”. Tecnologia social é entendida como um conjunto de técnicas e metodologias transformadoras, desenvolvidas e(ou) aplicadas na interação com a população e apropriadas por ela, que representam soluções para a inclusão social e para a melhoria das condições de vida. O conceito de tecnologia social remete a uma proposta inovadora de desenvolvimento, considerando uma abordagem ativista de participação coletiva no processo de implantação, organização e desenvolvimento, aliando saber popular, cooperação social e conhecimento técnico-científico. Ela tem como base a disseminação de soluções para problemas voltados a demandas de renda, trabalho, educação, conhecimento, cultura, alimentação, saúde, habitação, recursos hídricos, saneamento básico, energia, ambiente, igualdade de raça e gênero, por exemplo, sendo importante, essencialmente, que essas soluções sejam efetivas, reaplicáveis e que promovam a inclusão social e a melhoria da qualidade de vida das populações em situação de vulnerabilidade social. Por fim, o conceito de tecnologia social (TS) estabelece quatro dimensões: 1) conhecimento, ciência, tecnologia; 2) participação, cidadania e democracia; 3) educação; 4) relevância social.",
+   "citacao": "Internet: <www.antigo.mctic.gov.br> (com alterações).",
+   "imagem": false
+  },
+  {
+   "ref": "CG1A1",
+   "conteudo": "A crescente adoção do conceito de tecnologias sociais ocorre concomitantemente com o avanço de dois conceitos que lhe são complementares: economia solidária e capital social. As graves consequências do capitalismo e da globalização, refletidas em altos índices de desemprego, aumento de índices de violência e criminalidade, aprofundamento da pobreza e da degradação ambiental, não podem ser abordadas por projetos paternalistas e compensatórios. Ao contrário, requerem estudos aprofundados sobre um novo tipo de desenvolvimento. O professor Henrique Rattner pontua que, entre os cientistas sociais que se debruçam sobre os fracassos do desenvolvimento e suas causas, em todos os debates travados nos últimos anos, o conceito de capital social tem ocupado espaço crescente. O capital social, segundo Rattner, procura trabalhar com a necessidade gregária, o espírito de cooperação e os valores de apoio mútuo e solidariedade, com base na “eficiência social coletiva”. Capital social, segundo o estudioso John Durston, é o conjunto de normas, instituições e organizações que promovem a confiança, a ajuda recíproca e a cooperação e que incorporam benefícios como redução dos custos de transação, produção de bens públicos e facilitação da constituição de organizações de gestão de bases efetivas, de atores sociais e de sociedades civis saudáveis. Sua importância está na busca de estratégias de superação da pobreza e de integração de setores sociais excluídos. No Brasil, nas últimas décadas, tem havido uma multiplicação de experiências baseadas no conceito de economia solidária. Diferentemente de iniciativas meramente paliativas, como respostas emergenciais a situações de pobreza e miséria, há agora uma interpretação de que essas experiências devam ser uma base para a reconstrução do tecido social. Como diz o pesquisador Luis Inácio Gaiger, elas “constituiriam uma ação geradora de embriões de novas formas de produção e estimuladora de alternativas de vida econômica e social”. Ivete Rodrigues e José Carlos Barbieri. A emergência da tecnologia social: revisitando o movimento da tecnologia apropriada como estratégia de desenvolvimento sustentável . In : Revista de Administração\n\nPública – FGV, Rio de Janeiro, 42(6):1069-94, nov./dez. 2008 (com alterações). No que diz respeito aos sentidos e à estrutura do texto CG1A1-II,",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Considerando a figura a seguir, julgue os próximos itens, acerca dos conceitos de DevOps.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

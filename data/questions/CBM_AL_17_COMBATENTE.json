@@ -205,7 +205,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se a corda se romper quando a cadeira estiver parada a uma altura de 1,5 m do solo, a energia cinética do sistema (pessoa e cadeira) ao tocar o solo será superior a 1.000 J.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-cbmal-soldado-combatente-068",
@@ -216,7 +217,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para que a pessoa sentada na cadeira fique em equilíbrio, o homem deve aplicar uma força vertical para baixo de módulo igual a 350 N.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-cbmal-soldado-combatente-069",
@@ -260,7 +262,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A intensidade da força exercida pelo líquido no fundo do recipiente I é maior que a força exercida pelo líquido no fundo do recipiente III.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-cbmal-soldado-combatente-073",
@@ -271,7 +274,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os fundos dos três recipientes suportam a mesma pressão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-cbmal-soldado-combatente-074",
@@ -282,7 +286,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para transformar água a 100 oC em vapor a 250 oC deve-se fornecer 20.000 cal para a água.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-cbmal-soldado-combatente-075",
@@ -293,7 +298,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para fundir o gelo, é necessário que ele receba 4.000 cal de calor.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-cbmal-soldado-combatente-076",
@@ -304,7 +310,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para elevar a temperatura da água de 0 ºC para 100 ºC, deve-se fornecer 5.000 cal de calor. CESPE | CEBRASPE – CBM/AL – Aplicação: 2017 Figura I Figura II",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-cbmal-soldado-combatente-077",
@@ -315,7 +322,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Observando a figura II é correto inferir que, apesar da existência das juntas de dilatação, a deformação dos trilhos deveu-se à dilatação dos trilhos que, com a alta temperatura, foi maior que a largura das juntas de dilatação.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2017-cbmal-soldado-combatente-078",
@@ -326,7 +334,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Situação hipotética: Uma estrada de ferro, corretamente projetada, vai empregar trilhos de comprimento L e, entre os trilhos, será deixada uma junta de dilatação de 2 cm. Assertiva: Nessa situação, se uma mudança de projeto implicar a utilização de trilhos de comprimento maior que L, então as juntas de dilatação deverão ser superiores a 2 cm.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2017-cbmal-soldado-combatente-079",
@@ -370,7 +379,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considerando-se que a resistência interna de um homem seja de 200 Ω e que esteja passando pelo seu corpo uma corrente de 2 mA, é correto afirmar que, por efeito joule, será dissipado pelo seu corpo uma potência maior que 1 W.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-cbmal-soldado-combatente-083",
@@ -381,7 +391,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ao colocar a mão nos pinos de uma tomada de 220 V, um indivíduo saudável, com resistência do corpo igual a 200 Ω, poderá sofrer fibrilação ventricular.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-cbmal-soldado-combatente-084",
@@ -392,7 +403,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se a partícula carregada for lançada paralelamente ao campo magnético, ela será desviada para baixo, na direção perpendicular ao campo magnético B.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-cbmal-soldado-combatente-085",
@@ -678,7 +690,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A principal medida para a eliminação dos ovos do mosquito Aedes aegypti depositados nos recipientes considerados criadouros com água parada — como pneus e pratos dos vasos de planta — consiste em jogar a água fora e aguardar que esses criadouros sequem naturalmente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-cbmal-soldado-combatente-111",
@@ -689,7 +702,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Embora seja uma doença curável, a tuberculose tem sido responsável pela morte de milhares de indivíduos coinfectados com o vírus HIV.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-cbmal-soldado-combatente-112",
@@ -700,7 +714,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A transmissão da dengue ocorre pela picada do mosquito vetor, que transfere para o hospedeiro o helminto causador dessa doença.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-cbmal-soldado-combatente-113",
@@ -711,7 +726,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Doença relacionada a más condições de higiene e saneamento básico, a esquistossomose é causada por protozoários do gênero Plasmodium. CESPE | CEBRASPE – CBM/AL – Aplicação: 2017 O Xote das meninas Mandacaru quando fulora na seca É o siná que a chuva chega no sertão Toda menina que enjoa da boneca É siná que o amor já chegou no coração...",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-cbmal-soldado-combatente-114",
@@ -722,7 +738,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em uma das fases do seu ciclo de vida, o mandacaru desenvolve espinhos que promovem a perda excessiva de água nessa planta.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2017-cbmal-soldado-combatente-115",
@@ -733,7 +750,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O mandacaru é uma planta típica de biomas com climas secos e pouca disponibilidade e precipitação pluvial de água, como a Caatinga, o Cerrado e o Pampa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2017-cbmal-soldado-combatente-116",
@@ -744,7 +762,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O fragmento da canção menciona uma planta xerófita cujo nome científico é Cereus jamacaru, pertencente à família das cactáceas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2017-cbmal-soldado-combatente-117",
@@ -898,7 +917,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se a corda presa ao homem a ser resgatado se romper quando ele estiver a 3,2 m do solo, ele chegará ao solo com uma velocidade superior a 10 m/s.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2017-cbmal-oficial-combatente-063",
@@ -909,7 +929,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na situação de equilíbrio, a densidade ρ do líquido é igual a duas vezes a densidade ρe, isto é, ρ = 2ρe.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2017-cbmal-oficial-combatente-064",
@@ -920,7 +941,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na situação de equilíbrio, se as chaves S1 e S2 estiverem fechadas, a diferença de potencial entre os pontos B e E será a mesma que entre os pontos E e D.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-cbmal-oficial-combatente-065",
@@ -931,7 +953,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na situação de equilíbrio, quando a chave S1 estiver aberta e a S2 fechada, a corrente que passa por R1 é menor que 3,0 A.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-cbmal-oficial-combatente-066",
@@ -942,7 +965,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Durante toda a mudança de fase a substância absorveu 600 cal de calor.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2017-cbmal-oficial-combatente-067",
@@ -953,7 +977,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A primeira substância citada no texto — NaHCO3 — pode ser formada pela adição de CO2 a uma solução de hidróxido de sódio.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2017-cbmal-oficial-combatente-068",
@@ -975,7 +1000,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No texto, são apresentadas fórmulas que contêm átomos de elementos químicos de não metal e de um metal de transição.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2017-cbmal-oficial-combatente-070",
@@ -1184,7 +1210,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A nova ordem mundial, caracterizada no texto 1A7AAA, reorganizou o espaço geoeconômico mundial, por meio da formação de blocos econômicos regionais, e fragmentou o poder estatal, com o surgimento de instituições globais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2017-cbmal-oficial-combatente-090",
@@ -1195,7 +1222,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A alusão à Terceira Revolução Industrial no texto 1A7AAA remete à revolução técnico-científica que alterou o mercado de trabalho, favorecendo a mobilidade do trabalhador e a irrestrita transferência de mão de obra de um país para outro, característica da globalização.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2017-cbmal-oficial-combatente-091",
@@ -1206,7 +1234,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No cenário de intensificação das migrações — uma consequência da globalização, como mostra o texto 1A7BBB —, o Brasil mantém-se estagnado como região de expulsão de migrantes em razão do aprofundamento das disparidades socioeconômicas entre o país e os países desenvolvidos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2017-cbmal-oficial-combatente-092",
@@ -1371,7 +1400,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ilicitude de atos contaminados por abuso de poder decorre de sua relação direta com o princípio da moralidade, também conhecido como princípio da proibição de excesso.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2017-cbmal-oficial-combatente-107",
@@ -1382,7 +1412,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O desvio de poder e o excesso de poder são espécies de abuso de poder que podem resultar em abuso de autoridade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2017-cbmal-oficial-combatente-108",
@@ -1514,7 +1545,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A regra constitucional que restringe às autoridades judiciárias a competência para determinar a prisão excepciona os casos de transgressão militar ou crime propriamente militar, o que inclui as prisões disciplinares de militares.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2017-cbmal-oficial-combatente-120",
@@ -1525,7 +1557,94 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A conveniência, a oportunidade e a legalidade das punições disciplinares militares podem ser questionadas por meio de habeas corpus.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Para facilitar o processo de içar um corpo, pode-se utilizar um sistema de roldanas, como o ilustrado na figura acima. Na figura, o homem que puxa a corda aplica uma força para levantar uma pessoa de 65 kg, que está presa a uma cadeira de 5 kg, que, por sua vez, está suspensa por uma corda inextensível ideal que, também, passa por uma roldana móvel ideal. Com relação a essa situação e aos",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Os recipientes I, II e III mostrados na figura precedente contêm o mesmo líquido, até a mesma altura. As áreas dos fundos dos recipientes I e II são iguais e a área do fundo do recipiente III é",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "calor específico calor latente de calor latente de substância (cal/g ºC) vaporização fusão (cal/g)\n\n(cal/g) água 1 540 80 gelo 0,50 vapor d´agua 0,50 Considerando os dados apresentados na tabela precedente, julgue os itens a seguir, a respeito do processo de transformar 50 gramas de gelo a 0 ºC em vapor à temperatura de 250 ºC.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Figura I Figura II No ambiente, é possível constatar várias situações em que a dilatação térmica de materiais desempenha importante papel. Para que a dilatação dos materiais não cause danos, por exemplo, nas grandes estruturas de concreto armado e nos trilhos das estradas de ferro, são deixadas juntas de dilatação. A figura I mostra o trecho de uma estrada de ferro em que aparece uma junta de dilatação. A figura II mostra os trilhos deformados após ocorrer um incêndio com grande elevação da temperatura. Tendo as figuras e o texto como referência inicial, julgue os seguintes itens.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "queimaduras I > 5 A internas e externas morte O ser humano, mesmo sendo condutor, mostra certa resistência à passagem da corrente elétrica. A tabela precedente mostra, de forma simplificada, algumas informações sobre a influência da corrente elétrica no corpo de um homem saudável. A respeito desse assunto e tendo como referência a tabela precedente, julgue os próximos itens.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma partícula de carga Q e massa M é lançada, com velocidade v , em uma região do campo magnético B, cuja direção e sentido — que aponta para a direita — são mostrados na figura precedente.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "As doenças negligenciadas são um grupo de doenças tropicais que acometem populações pobres da África, Ásia e América Latina. Juntas, essas doenças são responsáveis pela morte de milhares de pessoas anualmente.\n\nInternet: <https://agencia.fiocruz.br> (com adaptações). Tendo como referência o fragmento de texto apresentado e considerando os múltiplos aspectos a ele relacionados, julgue os itens subsequentes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O Xote das meninas Mandacaru quando fulora na seca É o siná que a chuva chega no sertão Toda menina que enjoa da boneca É siná que o amor já chegou no coração...\n\nLuiz Gonzaga e Zé Dantas (fragmento da música). Tendo como referência os versos acima, extraídos da letra de uma canção que faz uma comparação rústica entre os ciclos de vida do",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A figura a seguir mostra um sistema de roldanas utilizado para resgatar um homem de 80 kg. Considerando a figura, que as roldanas sejam ideais, os fios inextensíveis e que a gravidade local seja igual a 10 m/s 2 , julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A figura precedente mostra uma esfera homogênea de volume V flutuando em um líquido de densidade constante igual a ρ; metade da esfera está submersa. Considerando que a densidade da esfera seja constante e igual a ρ ,",
+   "citacao": "e",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "e e O circuito mostrado na figura a seguir é constituído de uma fonte com força eletromotriz ε = 35 V, dos resistores R = 1 Ω, R = 2 Ω, R = 3 Ω e R = 4 Ω, e das chaves liga-desliga S 1 e S .",
+   "citacao": "2 3 4 1 2",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "1 S fechada, a corrente que passa por R é menor que 3,0 A. 2 1 A figura seguinte mostra o gráfico da temperatura em função da quantidade de calor absorvida por 50 gramas de uma substância, inicialmente, no estado líquido.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O Projeto de Lei Complementar n.º 148/2015, proveniente da Câmara dos Deputados, prevê o fim da prisão disciplinar para policiais e bombeiros militares e está pronto para ser votado pelo Plenário do Senado Federal. Em 2016, a proposta foi aprovada pela Comissão de Constituição, Justiça e Cidadania do Senado (CCJ) e, segundo o relator, a intenção do projeto é garantir que os militares sejam punidos apenas por delitos graves.\n\nInternet: <www.12.senado.leg.br> (com adaptações). Considerando o assunto do texto precedente, que versa acerca da prisão de policiais e de bombeiros militares, julgue os itens subsequentes no que se refere à disciplina constitucional acerca da matéria.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Em abril de 2017, o plenário do Senado Federal aprovou, por 54 votos a 19, o controverso projeto de lei que propõe regular o crime de abuso de autoridade e revogar a atual legislação que trata do assunto. Antes de ser convertido em lei, o texto depende de aprovação da Câmara dos Deputados.\n\nInternet: www.conjur.com.br (com adaptações). Considerando que o crime de abuso de autoridade possa resultar do abuso de poder por agente público, julgue os itens seguintes, à luz dos princípios da administração pública.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

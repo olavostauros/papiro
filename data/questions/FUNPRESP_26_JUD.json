@@ -79,7 +79,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Quanto à tipologia, o texto classifica-se como injuntivo, pois instrui o leitor a realizar pesquisa sobre as diversas implicações do agrupamento de pessoas em classes sociais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-advogado-002",
@@ -90,7 +91,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que o agrupamento de pessoas em classes sociais não é útil para a sociedade, pois resulta em políticas públicas injustas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-advogado-003",
@@ -189,7 +191,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"O crescimento das casas de apostas online no Brasil impacta diretamente o consumo e a renda das famílias brasileiras\" (primeiro parágrafo), o segmento \"o consumo e a renda\" poderia ser corretamente reescrito como no consumo e na renda , pois, de acordo com a norma padrão, a regência do verbo impactar é variável.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-advogado-013",
@@ -200,7 +203,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"Esse apostador contumaz, geralmente das classes mais desfavorecidas, tende a encarar a aposta como investimento\" (segundo parágrafo), o vocábulo \"contumaz\" poderia ser substituído, sem prejuízo da correção e da coerência das ideias do texto, por incorrigível .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-advogado-014",
@@ -211,7 +215,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho \"O ciclo vicioso de apostas pode levar ao desenvolvimento de sintomas de ansiedade, frustração e desesperança\" (último parágrafo) poderia ser reescrito, preservadas a correção gramatical e a coerência textual, da seguinte forma: O ciclo vicioso de apostas pode levar à sintomas de ansiedade, frustração e desesperança .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-advogado-015",
@@ -222,7 +227,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, o segmento \"pela facilidade de acesso e ausência de empecilhos legais e burocráticos de controle\" expressa causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-advogado-017",
@@ -233,7 +239,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O pronome \"o\", em \"aprofunda-o com sensações de impotência e isolamento\" (final do último parágrafo), retoma o substantivo \"vício\".",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-advogado-018",
@@ -244,7 +251,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"estima-se que 0,22% do PIB tenha sido destinado a apostas online \" (primeiro parágrafo), o emprego da partícula \"se\" indica que o sujeito da primeira oração se classifica como indeterminado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-advogado-019",
@@ -255,7 +263,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a correção gramatical do texto caso a forma verbal \"gastaram\" (segundo período do primeiro parágrafo) fosse flexionada na terceira pessoa do singular — gastou .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-advogado-020",
@@ -266,7 +275,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na oração \"A facilidade de acesso e a promessa de ganhos rápidos atraem um número crescente de brasileiros\" (primeiro parágrafo), não haveria prejuízo da correção gramatical se o verbo fosse flexionado na terceira pessoa do singular, pois, nesse caso, como o sujeito é composto, a concordância pode ser feita com o núcleo do sujeito mais próximo, de acordo com a norma padrão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-advogado-022",
@@ -420,7 +430,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No Microsoft 365, os recursos de salvamento automático e colaboração em tempo real do Word, do Excel e do PowerPoint independem do armazenamento do arquivo em serviço de nuvem, visto que a instalação local desses aplicativos dispensa o uso do OneDrive para a criação e a edição de arquivos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2026-funprespjud-advogado-037",
@@ -431,7 +442,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ao oferecer interfaces padronizadas para acesso a arquivos, configurações e aplicativos, o Windows atua como camada de abstração entre o usuário, os programas de aplicação e os recursos físicos do computador, o que reduz a necessidade de interação direta com detalhes do hardware .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2026-funprespjud-advogado-038",
@@ -1355,7 +1367,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Quanto à tipologia, o texto classifica-se como injuntivo, pois instrui o leitor a realizar pesquisa sobre as diversas implicações do agrupamento de pessoas em classes sociais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-administracao-governanca-e-planejamento-002",
@@ -1366,7 +1379,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que o agrupamento de pessoas em classes sociais não é útil para a sociedade, pois resulta em políticas públicas injustas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-administracao-governanca-e-planejamento-003",
@@ -1465,7 +1479,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"O crescimento das casas de apostas online no Brasil impacta diretamente o consumo e a renda das famílias brasileiras\" (primeiro parágrafo), o segmento \"o consumo e a renda\" poderia ser corretamente reescrito como no consumo e na renda , pois, de acordo com a norma padrão, a regência do verbo impactar é variável.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-administracao-governanca-e-planejamento-013",
@@ -1476,7 +1491,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"Esse apostador contumaz, geralmente das classes mais desfavorecidas, tende a encarar a aposta como investimento\" (segundo parágrafo), o vocábulo \"contumaz\" poderia ser substituído, sem prejuízo da correção e da coerência das ideias do texto, por incorrigível .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-administracao-governanca-e-planejamento-014",
@@ -1487,7 +1503,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho \"O ciclo vicioso de apostas pode levar ao desenvolvimento de sintomas de ansiedade, frustração e desesperança\" (último parágrafo) poderia ser reescrito, preservadas a correção gramatical e a coerência textual, da seguinte forma: O ciclo vicioso de apostas pode levar à sintomas de ansiedade, frustração e desesperança .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-administracao-governanca-e-planejamento-016",
@@ -1498,7 +1515,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, o segmento \"pela facilidade de acesso e ausência de empecilhos legais e burocráticos de controle\" expressa causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-administracao-governanca-e-planejamento-017",
@@ -1509,7 +1527,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O pronome \"o\", em \"aprofunda-o com sensações de impotência e isolamento\" (final do último parágrafo), retoma o substantivo \"vício\".",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-administracao-governanca-e-planejamento-018",
@@ -1520,7 +1539,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"estima-se que 0,22% do PIB tenha sido destinado a apostas online \" (primeiro parágrafo), o emprego da partícula \"se\" indica que o sujeito da primeira oração se classifica como indeterminado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-administracao-governanca-e-planejamento-019",
@@ -1531,7 +1551,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a correção gramatical do texto caso a forma verbal \"gastaram\" (segundo período do primeiro parágrafo) fosse flexionada na terceira pessoa do singular — gastou .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-administracao-governanca-e-planejamento-020",
@@ -1542,7 +1563,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na oração \"A facilidade de acesso e a promessa de ganhos rápidos atraem um número crescente de brasileiros\" (primeiro parágrafo), não haveria prejuízo da correção gramatical se o verbo fosse flexionado na terceira pessoa do singular, pois, nesse caso, como o sujeito é composto, a concordância pode ser feita com o núcleo do sujeito mais próximo, de acordo com a norma padrão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-administracao-governanca-e-planejamento-021",
@@ -1641,7 +1663,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No Microsoft 365, os recursos de salvamento automático e colaboração em tempo real do Word, do Excel e do PowerPoint independem do armazenamento do arquivo em serviço de nuvem, visto que a instalação local desses aplicativos dispensa o uso do OneDrive para a criação e a edição de arquivos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-administracao-governanca-e-planejamento-032",
@@ -1652,7 +1675,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ao oferecer interfaces padronizadas para acesso a arquivos, configurações e aplicativos, o Windows atua como camada de abstração entre o usuário, os programas de aplicação e os recursos físicos do computador, o que reduz a necessidade de interação direta com detalhes do hardware .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-administracao-governanca-e-planejamento-033",
@@ -2620,7 +2644,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Quanto à tipologia, o texto classifica-se como injuntivo, pois instrui o leitor a realizar pesquisa sobre as diversas implicações do agrupamento de pessoas em classes sociais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-auditoria-e-controle-interno-002",
@@ -2631,7 +2656,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que o agrupamento de pessoas em classes sociais não é útil para a sociedade, pois resulta em políticas públicas injustas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-auditoria-e-controle-interno-003",
@@ -2730,7 +2756,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"O crescimento das casas de apostas online no Brasil impacta diretamente o consumo e a renda das famílias brasileiras\" (primeiro parágrafo), o segmento \"o consumo e a renda\" poderia ser corretamente reescrito como no consumo e na renda , pois, de acordo com a norma padrão, a regência do verbo impactar é variável.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-auditoria-e-controle-interno-013",
@@ -2741,7 +2768,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"Esse apostador contumaz, geralmente das classes mais desfavorecidas, tende a encarar a aposta como investimento\" (segundo parágrafo), o vocábulo \"contumaz\" poderia ser substituído, sem prejuízo da correção e da coerência das ideias do texto, por incorrigível .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-auditoria-e-controle-interno-014",
@@ -2752,7 +2780,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho \"O ciclo vicioso de apostas pode levar ao desenvolvimento de sintomas de ansiedade, frustração e desesperança\" (último parágrafo) poderia ser reescrito, preservadas a correção gramatical e a coerência textual, da seguinte forma: O ciclo vicioso de apostas pode levar à sintomas de ansiedade, frustração e desesperança .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-auditoria-e-controle-interno-016",
@@ -2763,7 +2792,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, o segmento \"pela facilidade de acesso e ausência de empecilhos legais e burocráticos de controle\" expressa causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-auditoria-e-controle-interno-017",
@@ -2774,7 +2804,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O pronome \"o\", em \"aprofunda-o com sensações de impotência e isolamento\" (final do último parágrafo), retoma o substantivo \"vício\".",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-auditoria-e-controle-interno-018",
@@ -2785,7 +2816,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"estima-se que 0,22% do PIB tenha sido destinado a apostas online \" (primeiro parágrafo), o emprego da partícula \"se\" indica que o sujeito da primeira oração se classifica como indeterminado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-auditoria-e-controle-interno-019",
@@ -2796,7 +2828,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a correção gramatical do texto caso a forma verbal \"gastaram\" (segundo período do primeiro parágrafo) fosse flexionada na terceira pessoa do singular — gastou .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-auditoria-e-controle-interno-020",
@@ -2807,7 +2840,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na oração \"A facilidade de acesso e a promessa de ganhos rápidos atraem um número crescente de brasileiros\" (primeiro parágrafo), não haveria prejuízo da correção gramatical se o verbo fosse flexionado na terceira pessoa do singular, pois, nesse caso, como o sujeito é composto, a concordância pode ser feita com o núcleo do sujeito mais próximo, de acordo com a norma padrão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-auditoria-e-controle-interno-021",
@@ -2906,7 +2940,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No Microsoft 365, os recursos de salvamento automático e colaboração em tempo real do Word, do Excel e do PowerPoint independem do armazenamento do arquivo em serviço de nuvem, visto que a instalação local desses aplicativos dispensa o uso do OneDrive para a criação e a edição de arquivos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-auditoria-e-controle-interno-032",
@@ -2917,7 +2952,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ao oferecer interfaces padronizadas para acesso a arquivos, configurações e aplicativos, o Windows atua como camada de abstração entre o usuário, os programas de aplicação e os recursos físicos do computador, o que reduz a necessidade de interação direta com detalhes do hardware .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-auditoria-e-controle-interno-033",
@@ -3896,7 +3932,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Quanto à tipologia, o texto classifica-se como injuntivo, pois instrui o leitor a realizar pesquisa sobre as diversas implicações do agrupamento de pessoas em classes sociais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-jornalismo-002",
@@ -3907,7 +3944,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que o agrupamento de pessoas em classes sociais não é útil para a sociedade, pois resulta em políticas públicas injustas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-jornalismo-003",
@@ -4006,7 +4044,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"O crescimento das casas de apostas online no Brasil impacta diretamente o consumo e a renda das famílias brasileiras\" (primeiro parágrafo), o segmento \"o consumo e a renda\" poderia ser corretamente reescrito como no consumo e na renda , pois, de acordo com a norma padrão, a regência do verbo impactar é variável.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-jornalismo-013",
@@ -4017,7 +4056,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"Esse apostador contumaz, geralmente das classes mais desfavorecidas, tende a encarar a aposta como investimento\" (segundo parágrafo), o vocábulo \"contumaz\" poderia ser substituído, sem prejuízo da correção e da coerência das ideias do texto, por incorrigível .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-jornalismo-014",
@@ -4028,7 +4068,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho \"O ciclo vicioso de apostas pode levar ao desenvolvimento de sintomas de ansiedade, frustração e desesperança\" (último parágrafo) poderia ser reescrito, preservadas a correção gramatical e a coerência textual, da seguinte forma: O ciclo vicioso de apostas pode levar à sintomas de ansiedade, frustração e desesperança .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-jornalismo-016",
@@ -4039,7 +4080,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, o segmento \"pela facilidade de acesso e ausência de empecilhos legais e burocráticos de controle\" expressa causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-jornalismo-017",
@@ -4050,7 +4092,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O pronome \"o\", em \"aprofunda-o com sensações de impotência e isolamento\" (final do último parágrafo), retoma o substantivo \"vício\".",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-jornalismo-018",
@@ -4061,7 +4104,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"estima-se que 0,22% do PIB tenha sido destinado a apostas online \" (primeiro parágrafo), o emprego da partícula \"se\" indica que o sujeito da primeira oração se classifica como indeterminado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-jornalismo-019",
@@ -4072,7 +4116,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a correção gramatical do texto caso a forma verbal \"gastaram\" (segundo período do primeiro parágrafo) fosse flexionada na terceira pessoa do singular — gastou .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-jornalismo-020",
@@ -4083,7 +4128,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na oração \"A facilidade de acesso e a promessa de ganhos rápidos atraem um número crescente de brasileiros\" (primeiro parágrafo), não haveria prejuízo da correção gramatical se o verbo fosse flexionado na terceira pessoa do singular, pois, nesse caso, como o sujeito é composto, a concordância pode ser feita com o núcleo do sujeito mais próximo, de acordo com a norma padrão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-jornalismo-021",
@@ -4182,7 +4228,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No Microsoft 365, os recursos de salvamento automático e colaboração em tempo real do Word, do Excel e do PowerPoint independem do armazenamento do arquivo em serviço de nuvem, visto que a instalação local desses aplicativos dispensa o uso do OneDrive para a criação e a edição de arquivos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-jornalismo-032",
@@ -4193,7 +4240,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ao oferecer interfaces padronizadas para acesso a arquivos, configurações e aplicativos, o Windows atua como camada de abstração entre o usuário, os programas de aplicação e os recursos físicos do computador, o que reduz a necessidade de interação direta com detalhes do hardware .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-jornalismo-033",
@@ -4567,7 +4615,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Quanto ao estilo, o texto atende às regras da norma padrão da língua, com emprego de estruturas características de textos com considerável grau de formalidade e emprego de itens lexicais pouco frequentes na modalidade oral.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-jornalismo-067",
@@ -4578,7 +4627,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No que concerne aos seus elementos estruturais, o texto prescinde de conclusão, já que seu objetivo principal é o estabelecimento de contrastes entre fala e escrita e a relação do tipo de linguagem com o gênio de uma língua.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-jornalismo-068",
@@ -4589,7 +4639,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O texto apresentado caracteriza-se como um ensaio, organizado em um único parágrafo, no qual o autor expõe, de modo claro e objetivo, um conjunto de informações ao leitor sobre as diferenças entre fala e escrita na estruturação gramatical de uma língua.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-jornalismo-069",
@@ -4600,7 +4651,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segmento \"A escrita, que parece dever fixar a língua, é justamente o que a altera; não lhe muda as palavras, mas o gênio; substitui a expressão pela exatidão\", é apresentada a tese do texto, a qual se refere às consequências da escrita no gênio de uma língua.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-jornalismo-070",
@@ -4611,7 +4663,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"Só a casa de Nossa Senhora de Penha de França foi milagrosa, e é milagrosa, e há de ser milagrosa, porque os seus milagres nunca passam\", é a relação de causa e efeito estabelecida que expressa a atemporalidade da natureza milagrosa da casa de Nossa Senhora de Penha de França, atemporalidade essa que tem como consequência o fato de os milagres operados nessa casa não passarem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-jornalismo-071",
@@ -4622,7 +4675,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No texto, Vieira associa o tempo a um tirano e o esquecimento dos homens a uma tirania, para mostrar a natureza desses dois elementos, que, agindo implacavelmente, apagam a memória das coisas passadas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-jornalismo-072",
@@ -4633,7 +4687,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A credibilidade de Vieira no texto deriva do pathos de um indivíduo religioso e culto, leitor de autores como Gilberto e S. Máximo e conhecedor da realidade de várias igrejas portuguesas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-jornalismo-073",
@@ -4644,7 +4699,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O autor do texto se vale de uma oposição para explicar a invenção dos livros.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-jornalismo-074",
@@ -5150,7 +5206,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Quanto à tipologia, o texto classifica-se como injuntivo, pois instrui o leitor a realizar pesquisa sobre as diversas implicações do agrupamento de pessoas em classes sociais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-002",
@@ -5161,7 +5218,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que o agrupamento de pessoas em classes sociais não é útil para a sociedade, pois resulta em políticas públicas injustas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-003",
@@ -5260,7 +5318,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"O crescimento das casas de apostas online no Brasil impacta diretamente o consumo e a renda das famílias brasileiras\" (primeiro parágrafo), o segmento \"o consumo e a renda\" poderia ser corretamente reescrito como no consumo e na renda , pois, de acordo com a norma padrão, a regência do verbo impactar é variável.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-013",
@@ -5271,7 +5330,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"Esse apostador contumaz, geralmente das classes mais desfavorecidas, tende a encarar a aposta como investimento\" (segundo parágrafo), o vocábulo \"contumaz\" poderia ser substituído, sem prejuízo da correção e da coerência das ideias do texto, por incorrigível .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-014",
@@ -5282,7 +5342,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho \"O ciclo vicioso de apostas pode levar ao desenvolvimento de sintomas de ansiedade, frustração e desesperança\" (último parágrafo) poderia ser reescrito, preservadas a correção gramatical e a coerência textual, da seguinte forma: O ciclo vicioso de apostas pode levar à sintomas de ansiedade, frustração e desesperança .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-016",
@@ -5293,7 +5354,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, o segmento \"pela facilidade de acesso e ausência de empecilhos legais e burocráticos de controle\" expressa causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-017",
@@ -5304,7 +5366,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O pronome \"o\", em \"aprofunda-o com sensações de impotência e isolamento\" (final do último parágrafo), retoma o substantivo \"vício\".",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-018",
@@ -5315,7 +5378,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"estima-se que 0,22% do PIB tenha sido destinado a apostas online \" (primeiro parágrafo), o emprego da partícula \"se\" indica que o sujeito da primeira oração se classifica como indeterminado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-019",
@@ -5326,7 +5390,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a correção gramatical do texto caso a forma verbal \"gastaram\" (segundo período do primeiro parágrafo) fosse flexionada na terceira pessoa do singular — gastou .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-020",
@@ -5337,7 +5402,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na oração \"A facilidade de acesso e a promessa de ganhos rápidos atraem um número crescente de brasileiros\" (primeiro parágrafo), não haveria prejuízo da correção gramatical se o verbo fosse flexionado na terceira pessoa do singular, pois, nesse caso, como o sujeito é composto, a concordância pode ser feita com o núcleo do sujeito mais próximo, de acordo com a norma padrão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-021",
@@ -5436,7 +5502,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No Microsoft 365, os recursos de salvamento automático e colaboração em tempo real do Word, do Excel e do PowerPoint independem do armazenamento do arquivo em serviço de nuvem, visto que a instalação local desses aplicativos dispensa o uso do OneDrive para a criação e a edição de arquivos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-032",
@@ -5447,7 +5514,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ao oferecer interfaces padronizadas para acesso a arquivos, configurações e aplicativos, o Windows atua como camada de abstração entre o usuário, os programas de aplicação e os recursos físicos do computador, o que reduz a necessidade de interação direta com detalhes do hardware .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-033",
@@ -5700,7 +5768,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A decupagem de um roteiro publicitário para televisão é de responsabilidade do produtor executivo, cabendo ao diretor de arte apenas validar as escolhas de enquadramento após a conclusão do processo de filmagem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-057",
@@ -5711,7 +5780,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em comunicação publicitária, o ROI ( return on investment ) é de difícil mensuração em campanhas de construção de marca, pois os efeitos dessas campanhas tendem a ser de longo prazo e não se traduzem diretamente em transações imediatas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-058",
@@ -5722,7 +5792,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O IBOPE, no Brasil, é a única fonte de medição de audiência televisiva, sendo seus dados os únicos aceitos pelo mercado publicitário para a negociação de espaços em televisão aberta e por assinatura.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-059",
@@ -5733,7 +5804,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O uso da gestalt na publicidade restringe-se à análise de logotipos e identidades visuais, sendo inadequado à composição de anúncios ou de peças de comunicação em geral.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-060",
@@ -5744,7 +5816,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O planejamento de mídia deve ser elaborado de forma integrada ao planejamento de comunicação, pois a escolha dos canais de veiculação deve ser orientada pelo perfil do público-alvo e pelos objetivos da campanha.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-061",
@@ -5755,7 +5828,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O marketing de influência, no contexto do planejamento de mídia digital, integra a categoria de mídia paga, uma vez que envolve necessariamente a contratação remunerada de criadores de conteúdo para divulgar produtos e marcas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-062",
@@ -5799,7 +5873,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Na pesquisa de mercado aplicada à publicidade, a pesquisa qualitativa busca, por meio de técnicas como grupos focais e entrevistas em profundidade, compreender motivações, percepções e significados atribuídos pelos consumidores a marcas e produtos, ao passo que a pesquisa quantitativa visa mensurar fenômenos e generalizar resultados para populações maiores, com base em amostras representativas e tratamento estatístico dos dados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-066",
@@ -5810,7 +5885,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Na redação publicitária, o headline (título) é o elemento de maior impacto imediato de uma peça, pois é o primeiro ponto de contato do receptor com a mensagem, devendo ser capaz de capturar a atenção, despertar interesse e, idealmente, criar no leitor o desejo de continuar a leitura ou a interação com o conteúdo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-067",
@@ -5821,7 +5897,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Instrumento de pré-produção audiovisual, o storyboard consiste em uma sequência de desenhos ou imagens representativos dos planos e das cenas de um filme publicitário, funcionando como um roteiro visual que orienta a equipe de produção durante as filmagens.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-068",
@@ -5832,7 +5909,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Na produção gráfica publicitária, a resolução de imagens destinadas à impressão deve ser, em regra, de 72 DPI, padrão adequado tanto para materiais impressos de alta qualidade quanto para aplicações em meios digitais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-069",
@@ -5843,7 +5921,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A cibercultura, definida como o conjunto de práticas tecnológicas associadas ao desenvolvimento e ao uso de dispositivos digitais, restringe-se às transformações de ordem técnica promovidas pela Internet, sem implicar mudanças nos valores, nas atitudes ou nos modos de pensamento de indivíduos e de grupos sociais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-070",
@@ -5854,7 +5933,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O Adobe Premiere e o Adobe After Effects destinam-se às mesmas finalidades de edição, sendo intercambiáveis na produção publicitária audiovisual, uma vez que ambos realizam edição linear de vídeo, composição de camadas, aplicação de efeitos visuais e motion graphics com o mesmo nível de especialização e resultados equivalentes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-071",
@@ -5865,7 +5945,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No web design , a experiência do usuário (UX) e a interface do usuário (UI) são conceitos distintos: enquanto a UX abrange a totalidade da experiência do usuário na interação com um produto digital, incluindo aspectos funcionais, emocionais e de usabilidade, a UI refere-se especificamente aos elementos visuais e interativos da interface, como botões, tipografia, cores e layout .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-072",
@@ -5876,7 +5957,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O SOV ( share of voice ) é uma métrica de pesquisa de mídia utilizada para a medição do número absoluto de inserções publicitárias de uma marca em determinado veículo de comunicação em período específico, desconsiderados os investimentos dos concorrentes e a participação relativa da marca no total de verbas do setor.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-073",
@@ -5887,7 +5969,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O merchandising editorial presente em telenovelas e programas de televisão equivale, para fins legais e éticos, ao intervalo comercial tradicional, uma vez que ambos constituem modalidades de publicidade claramente identificadas pelo espectador como mensagens de natureza comercial, não havendo distinção relevante entre as duas formas quanto à exigência de identificação ou transparência quanto ao conteúdo veiculado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-074",
@@ -5898,7 +5981,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O CONAR é uma organização não governamental de caráter privado que opera um sistema de autorregulamentação voluntária da publicidade, e suas decisões têm natureza recomendatória, sem poder coercitivo estatal para retirar peças do ar ou aplicar sanções administrativas com força de lei.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-comunicacao-social-publicidade-e-propaganda-075",
@@ -6404,7 +6488,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Quanto à tipologia, o texto classifica-se como injuntivo, pois instrui o leitor a realizar pesquisa sobre as diversas implicações do agrupamento de pessoas em classes sociais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-contabilidade-002",
@@ -6415,7 +6500,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que o agrupamento de pessoas em classes sociais não é útil para a sociedade, pois resulta em políticas públicas injustas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-contabilidade-003",
@@ -6514,7 +6600,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"O crescimento das casas de apostas online no Brasil impacta diretamente o consumo e a renda das famílias brasileiras\" (primeiro parágrafo), o segmento \"o consumo e a renda\" poderia ser corretamente reescrito como no consumo e na renda , pois, de acordo com a norma padrão, a regência do verbo impactar é variável.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-contabilidade-013",
@@ -6525,7 +6612,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"Esse apostador contumaz, geralmente das classes mais desfavorecidas, tende a encarar a aposta como investimento\" (segundo parágrafo), o vocábulo \"contumaz\" poderia ser substituído, sem prejuízo da correção e da coerência das ideias do texto, por incorrigível .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-contabilidade-014",
@@ -6536,7 +6624,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho \"O ciclo vicioso de apostas pode levar ao desenvolvimento de sintomas de ansiedade, frustração e desesperança\" (último parágrafo) poderia ser reescrito, preservadas a correção gramatical e a coerência textual, da seguinte forma: O ciclo vicioso de apostas pode levar à sintomas de ansiedade, frustração e desesperança .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-contabilidade-016",
@@ -6547,7 +6636,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, o segmento \"pela facilidade de acesso e ausência de empecilhos legais e burocráticos de controle\" expressa causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-contabilidade-017",
@@ -6558,7 +6648,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O pronome \"o\", em \"aprofunda-o com sensações de impotência e isolamento\" (final do último parágrafo), retoma o substantivo \"vício\".",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-contabilidade-018",
@@ -6569,7 +6660,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"estima-se que 0,22% do PIB tenha sido destinado a apostas online \" (primeiro parágrafo), o emprego da partícula \"se\" indica que o sujeito da primeira oração se classifica como indeterminado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-contabilidade-019",
@@ -6580,7 +6672,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a correção gramatical do texto caso a forma verbal \"gastaram\" (segundo período do primeiro parágrafo) fosse flexionada na terceira pessoa do singular — gastou .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-contabilidade-020",
@@ -6591,7 +6684,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na oração \"A facilidade de acesso e a promessa de ganhos rápidos atraem um número crescente de brasileiros\" (primeiro parágrafo), não haveria prejuízo da correção gramatical se o verbo fosse flexionado na terceira pessoa do singular, pois, nesse caso, como o sujeito é composto, a concordância pode ser feita com o núcleo do sujeito mais próximo, de acordo com a norma padrão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-contabilidade-021",
@@ -6690,7 +6784,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No Microsoft 365, os recursos de salvamento automático e colaboração em tempo real do Word, do Excel e do PowerPoint independem do armazenamento do arquivo em serviço de nuvem, visto que a instalação local desses aplicativos dispensa o uso do OneDrive para a criação e a edição de arquivos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-contabilidade-032",
@@ -6701,7 +6796,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ao oferecer interfaces padronizadas para acesso a arquivos, configurações e aplicativos, o Windows atua como camada de abstração entre o usuário, os programas de aplicação e os recursos físicos do computador, o que reduz a necessidade de interação direta com detalhes do hardware .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-contabilidade-033",
@@ -7680,7 +7776,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Quanto à tipologia, o texto classifica-se como injuntivo, pois instrui o leitor a realizar pesquisa sobre as diversas implicações do agrupamento de pessoas em classes sociais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-gestao-e-risco-de-investimentos-002",
@@ -7691,7 +7788,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que o agrupamento de pessoas em classes sociais não é útil para a sociedade, pois resulta em políticas públicas injustas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-gestao-e-risco-de-investimentos-003",
@@ -7790,7 +7888,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"O crescimento das casas de apostas online no Brasil impacta diretamente o consumo e a renda das famílias brasileiras\" (primeiro parágrafo), o segmento \"o consumo e a renda\" poderia ser corretamente reescrito como no consumo e na renda , pois, de acordo com a norma padrão, a regência do verbo impactar é variável.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-gestao-e-risco-de-investimentos-013",
@@ -7801,7 +7900,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"Esse apostador contumaz, geralmente das classes mais desfavorecidas, tende a encarar a aposta como investimento\" (segundo parágrafo), o vocábulo \"contumaz\" poderia ser substituído, sem prejuízo da correção e da coerência das ideias do texto, por incorrigível .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-gestao-e-risco-de-investimentos-014",
@@ -7812,7 +7912,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho \"O ciclo vicioso de apostas pode levar ao desenvolvimento de sintomas de ansiedade, frustração e desesperança\" (último parágrafo) poderia ser reescrito, preservadas a correção gramatical e a coerência textual, da seguinte forma: O ciclo vicioso de apostas pode levar à sintomas de ansiedade, frustração e desesperança .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-gestao-e-risco-de-investimentos-016",
@@ -7823,7 +7924,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, o segmento \"pela facilidade de acesso e ausência de empecilhos legais e burocráticos de controle\" expressa causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-gestao-e-risco-de-investimentos-017",
@@ -7834,7 +7936,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O pronome \"o\", em \"aprofunda-o com sensações de impotência e isolamento\" (final do último parágrafo), retoma o substantivo \"vício\".",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-gestao-e-risco-de-investimentos-018",
@@ -7845,7 +7948,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"estima-se que 0,22% do PIB tenha sido destinado a apostas online \" (primeiro parágrafo), o emprego da partícula \"se\" indica que o sujeito da primeira oração se classifica como indeterminado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-gestao-e-risco-de-investimentos-019",
@@ -7856,7 +7960,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a correção gramatical do texto caso a forma verbal \"gastaram\" (segundo período do primeiro parágrafo) fosse flexionada na terceira pessoa do singular — gastou .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-gestao-e-risco-de-investimentos-020",
@@ -7867,7 +7972,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na oração \"A facilidade de acesso e a promessa de ganhos rápidos atraem um número crescente de brasileiros\" (primeiro parágrafo), não haveria prejuízo da correção gramatical se o verbo fosse flexionado na terceira pessoa do singular, pois, nesse caso, como o sujeito é composto, a concordância pode ser feita com o núcleo do sujeito mais próximo, de acordo com a norma padrão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-gestao-e-risco-de-investimentos-021",
@@ -7966,7 +8072,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No Microsoft 365, os recursos de salvamento automático e colaboração em tempo real do Word, do Excel e do PowerPoint independem do armazenamento do arquivo em serviço de nuvem, visto que a instalação local desses aplicativos dispensa o uso do OneDrive para a criação e a edição de arquivos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-gestao-e-risco-de-investimentos-032",
@@ -7977,7 +8084,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ao oferecer interfaces padronizadas para acesso a arquivos, configurações e aplicativos, o Windows atua como camada de abstração entre o usuário, os programas de aplicação e os recursos físicos do computador, o que reduz a necessidade de interação direta com detalhes do hardware .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-gestao-e-risco-de-investimentos-033",
@@ -8945,7 +9053,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Quanto à tipologia, o texto classifica-se como injuntivo, pois instrui o leitor a realizar pesquisa sobre as diversas implicações do agrupamento de pessoas em classes sociais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-seguridade-002",
@@ -8956,7 +9065,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que o agrupamento de pessoas em classes sociais não é útil para a sociedade, pois resulta em políticas públicas injustas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-seguridade-003",
@@ -9055,7 +9165,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"O crescimento das casas de apostas online no Brasil impacta diretamente o consumo e a renda das famílias brasileiras\" (primeiro parágrafo), o segmento \"o consumo e a renda\" poderia ser corretamente reescrito como no consumo e na renda , pois, de acordo com a norma padrão, a regência do verbo impactar é variável.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-seguridade-013",
@@ -9066,7 +9177,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"Esse apostador contumaz, geralmente das classes mais desfavorecidas, tende a encarar a aposta como investimento\" (segundo parágrafo), o vocábulo \"contumaz\" poderia ser substituído, sem prejuízo da correção e da coerência das ideias do texto, por incorrigível .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-seguridade-014",
@@ -9077,7 +9189,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho \"O ciclo vicioso de apostas pode levar ao desenvolvimento de sintomas de ansiedade, frustração e desesperança\" (último parágrafo) poderia ser reescrito, preservadas a correção gramatical e a coerência textual, da seguinte forma: O ciclo vicioso de apostas pode levar à sintomas de ansiedade, frustração e desesperança .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-seguridade-016",
@@ -9088,7 +9201,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, o segmento \"pela facilidade de acesso e ausência de empecilhos legais e burocráticos de controle\" expressa causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-seguridade-017",
@@ -9099,7 +9213,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O pronome \"o\", em \"aprofunda-o com sensações de impotência e isolamento\" (final do último parágrafo), retoma o substantivo \"vício\".",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-seguridade-018",
@@ -9110,7 +9225,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"estima-se que 0,22% do PIB tenha sido destinado a apostas online \" (primeiro parágrafo), o emprego da partícula \"se\" indica que o sujeito da primeira oração se classifica como indeterminado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-seguridade-019",
@@ -9121,7 +9237,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a correção gramatical do texto caso a forma verbal \"gastaram\" (segundo período do primeiro parágrafo) fosse flexionada na terceira pessoa do singular — gastou .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-seguridade-020",
@@ -9132,7 +9249,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na oração \"A facilidade de acesso e a promessa de ganhos rápidos atraem um número crescente de brasileiros\" (primeiro parágrafo), não haveria prejuízo da correção gramatical se o verbo fosse flexionado na terceira pessoa do singular, pois, nesse caso, como o sujeito é composto, a concordância pode ser feita com o núcleo do sujeito mais próximo, de acordo com a norma padrão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-seguridade-021",
@@ -9231,7 +9349,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No Microsoft 365, os recursos de salvamento automático e colaboração em tempo real do Word, do Excel e do PowerPoint independem do armazenamento do arquivo em serviço de nuvem, visto que a instalação local desses aplicativos dispensa o uso do OneDrive para a criação e a edição de arquivos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-seguridade-032",
@@ -9242,7 +9361,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ao oferecer interfaces padronizadas para acesso a arquivos, configurações e aplicativos, o Windows atua como camada de abstração entre o usuário, os programas de aplicação e os recursos físicos do computador, o que reduz a necessidade de interação direta com detalhes do hardware .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-seguridade-033",
@@ -9847,7 +9967,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No atendimento telefônico, a ausência de contato visual desloca a efetividade da comunicação para a objetividade das informações transmitidas, reduzindo a influência de aspectos vocais na percepção do atendimento.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-seguridade-088",
@@ -9858,7 +9979,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A padronização de procedimentos no atendimento ao público favorece a maior uniformidade na prestação do serviço, reduzindo a necessidade de adaptações comportamentais em interações rotineiras com os clientes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-seguridade-089",
@@ -9869,7 +9991,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A propaganda caracteriza-se por sua capacidade de gerar efeitos imediatos sobre o comportamento de compra, razão pela qual tende a assumir papel predominante nas estratégias de incremento de vendas no curto prazo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-seguridade-090",
@@ -9880,7 +10003,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As promoções de vendas tendem a estimular a experimentação e o aumento temporário da demanda, podendo, entretanto, afetar negativamente a percepção de valor da marca quando utilizadas de maneira excessiva.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-seguridade-091",
@@ -9891,7 +10015,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No atendimento ao cliente, a manutenção de postura profissional diante de situações conflituosas pode requerer flexibilidade comportamental, sem afastar a necessidade de controle emocional.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-seguridade-092",
@@ -9902,7 +10027,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A integração entre propaganda e promoção de vendas, no contexto da comunicação integrada de marketing , busca alinhar objetivos de longo prazo a estímulos de curto prazo, evitando inconsistências na mensagem da marca.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-especialidade-seguridade-093",
@@ -10221,7 +10347,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Quanto à tipologia, o texto classifica-se como injuntivo, pois instrui o leitor a realizar pesquisa sobre as diversas implicações do agrupamento de pessoas em classes sociais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-ciencia-de-dados-e-inovacao-002",
@@ -10232,7 +10359,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que o agrupamento de pessoas em classes sociais não é útil para a sociedade, pois resulta em políticas públicas injustas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-ciencia-de-dados-e-inovacao-003",
@@ -10331,7 +10459,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"O crescimento das casas de apostas online no Brasil impacta diretamente o consumo e a renda das famílias brasileiras\" (primeiro parágrafo), o segmento \"o consumo e a renda\" poderia ser corretamente reescrito como no consumo e na renda , pois, de acordo com a norma padrão, a regência do verbo impactar é variável.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-ciencia-de-dados-e-inovacao-013",
@@ -10342,7 +10471,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"Esse apostador contumaz, geralmente das classes mais desfavorecidas, tende a encarar a aposta como investimento\" (segundo parágrafo), o vocábulo \"contumaz\" poderia ser substituído, sem prejuízo da correção e da coerência das ideias do texto, por incorrigível .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-ciencia-de-dados-e-inovacao-014",
@@ -10353,7 +10483,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho \"O ciclo vicioso de apostas pode levar ao desenvolvimento de sintomas de ansiedade, frustração e desesperança\" (último parágrafo) poderia ser reescrito, preservadas a correção gramatical e a coerência textual, da seguinte forma: O ciclo vicioso de apostas pode levar à sintomas de ansiedade, frustração e desesperança .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-ciencia-de-dados-e-inovacao-015",
@@ -10364,7 +10495,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, o segmento \"pela facilidade de acesso e ausência de empecilhos legais e burocráticos de controle\" expressa causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-ciencia-de-dados-e-inovacao-016",
@@ -10375,7 +10507,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"estima-se que 0,22% do PIB tenha sido destinado a apostas online \" (primeiro parágrafo), o emprego da partícula \"se\" indica que o sujeito da primeira oração se classifica como indeterminado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-ciencia-de-dados-e-inovacao-018",
@@ -10386,7 +10519,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O pronome \"o\", em \"aprofunda-o com sensações de impotência e isolamento\" (final do último parágrafo), retoma o substantivo \"vício\".",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-ciencia-de-dados-e-inovacao-019",
@@ -10397,7 +10531,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a correção gramatical do texto caso a forma verbal \"gastaram\" (segundo período do primeiro parágrafo) fosse flexionada na terceira pessoa do singular — gastou .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-ciencia-de-dados-e-inovacao-020",
@@ -10408,7 +10543,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na oração \"A facilidade de acesso e a promessa de ganhos rápidos atraem um número crescente de brasileiros\" (primeiro parágrafo), não haveria prejuízo da correção gramatical se o verbo fosse flexionado na terceira pessoa do singular, pois, nesse caso, como o sujeito é composto, a concordância pode ser feita com o núcleo do sujeito mais próximo, de acordo com a norma padrão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-ciencia-de-dados-e-inovacao-022",
@@ -11497,7 +11633,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Quanto à tipologia, o texto classifica-se como injuntivo, pois instrui o leitor a realizar pesquisa sobre as diversas implicações do agrupamento de pessoas em classes sociais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-desenvolvimento-de-sistemas-002",
@@ -11508,7 +11645,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que o agrupamento de pessoas em classes sociais não é útil para a sociedade, pois resulta em políticas públicas injustas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-desenvolvimento-de-sistemas-003",
@@ -11607,7 +11745,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"O crescimento das casas de apostas online no Brasil impacta diretamente o consumo e a renda das famílias brasileiras\" (primeiro parágrafo), o segmento \"o consumo e a renda\" poderia ser corretamente reescrito como no consumo e na renda , pois, de acordo com a norma padrão, a regência do verbo impactar é variável.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-desenvolvimento-de-sistemas-013",
@@ -11618,7 +11757,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"Esse apostador contumaz, geralmente das classes mais desfavorecidas, tende a encarar a aposta como investimento\" (segundo parágrafo), o vocábulo \"contumaz\" poderia ser substituído, sem prejuízo da correção e da coerência das ideias do texto, por incorrigível .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-desenvolvimento-de-sistemas-014",
@@ -11629,7 +11769,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho \"O ciclo vicioso de apostas pode levar ao desenvolvimento de sintomas de ansiedade, frustração e desesperança\" (último parágrafo) poderia ser reescrito, preservadas a correção gramatical e a coerência textual, da seguinte forma: O ciclo vicioso de apostas pode levar à sintomas de ansiedade, frustração e desesperança .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-desenvolvimento-de-sistemas-015",
@@ -11640,7 +11781,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, o segmento \"pela facilidade de acesso e ausência de empecilhos legais e burocráticos de controle\" expressa causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-desenvolvimento-de-sistemas-016",
@@ -11651,7 +11793,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"estima-se que 0,22% do PIB tenha sido destinado a apostas online \" (primeiro parágrafo), o emprego da partícula \"se\" indica que o sujeito da primeira oração se classifica como indeterminado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-desenvolvimento-de-sistemas-018",
@@ -11662,7 +11805,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O pronome \"o\", em \"aprofunda-o com sensações de impotência e isolamento\" (final do último parágrafo), retoma o substantivo \"vício\".",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-desenvolvimento-de-sistemas-019",
@@ -11673,7 +11817,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a correção gramatical do texto caso a forma verbal \"gastaram\" (segundo período do primeiro parágrafo) fosse flexionada na terceira pessoa do singular — gastou .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-desenvolvimento-de-sistemas-020",
@@ -11684,7 +11829,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na oração \"A facilidade de acesso e a promessa de ganhos rápidos atraem um número crescente de brasileiros\" (primeiro parágrafo), não haveria prejuízo da correção gramatical se o verbo fosse flexionado na terceira pessoa do singular, pois, nesse caso, como o sujeito é composto, a concordância pode ser feita com o núcleo do sujeito mais próximo, de acordo com a norma padrão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-desenvolvimento-de-sistemas-022",
@@ -12333,7 +12479,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No PostgreSQL, funções são blocos de instruções SQL que, assim como procedimentos, não retornam valor após sua execução.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-desenvolvimento-de-sistemas-082",
@@ -12344,7 +12491,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os backups no MySQL podem ser dos tipos físico ou lógico, devendo o tipo lógico ser utilizado para recriar os dados em uma diferente arquitetura de máquina.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-desenvolvimento-de-sistemas-083",
@@ -12355,7 +12503,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No PostgreSQL, a execução da instrução a seguir criará uma tabela com três colunas, tendo a terceira um valor padrão atribuído a ela.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-desenvolvimento-de-sistemas-084",
@@ -12366,7 +12515,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Nos ambientes Unix e Windows, os nomes dos databases criados no MySQL são case-sensitives , ou seja, devem ser referenciados exatamente como foram criados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-desenvolvimento-de-sistemas-085",
@@ -12377,7 +12527,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O MySQL utiliza triggers associados a tabelas, que são acionados quando determinado evento ocorre, sendo que, para comandos de LOAD DATA , o trigger de INSERT é acionado para cada linha inserida.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-desenvolvimento-de-sistemas-086",
@@ -12388,7 +12539,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Colunas de tabelas do PostgreSQL podem ser alteradas para tipos de dados diferentes, com exceção de colunas do tipo texto, que não podem ser alteradas para o tipo numérico devido ao conflito de tipos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-desenvolvimento-de-sistemas-087",
@@ -12773,7 +12925,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Quanto à tipologia, o texto classifica-se como injuntivo, pois instrui o leitor a realizar pesquisa sobre as diversas implicações do agrupamento de pessoas em classes sociais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-infraestrutura-e-seguranca-da-informacao-002",
@@ -12784,7 +12937,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que o agrupamento de pessoas em classes sociais não é útil para a sociedade, pois resulta em políticas públicas injustas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-infraestrutura-e-seguranca-da-informacao-003",
@@ -12883,7 +13037,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"O crescimento das casas de apostas online no Brasil impacta diretamente o consumo e a renda das famílias brasileiras\" (primeiro parágrafo), o segmento \"o consumo e a renda\" poderia ser corretamente reescrito como no consumo e na renda , pois, de acordo com a norma padrão, a regência do verbo impactar é variável.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-infraestrutura-e-seguranca-da-informacao-013",
@@ -12894,7 +13049,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"Esse apostador contumaz, geralmente das classes mais desfavorecidas, tende a encarar a aposta como investimento\" (segundo parágrafo), o vocábulo \"contumaz\" poderia ser substituído, sem prejuízo da correção e da coerência das ideias do texto, por incorrigível .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-infraestrutura-e-seguranca-da-informacao-014",
@@ -12905,7 +13061,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho \"O ciclo vicioso de apostas pode levar ao desenvolvimento de sintomas de ansiedade, frustração e desesperança\" (último parágrafo) poderia ser reescrito, preservadas a correção gramatical e a coerência textual, da seguinte forma: O ciclo vicioso de apostas pode levar à sintomas de ansiedade, frustração e desesperança .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-infraestrutura-e-seguranca-da-informacao-015",
@@ -12916,7 +13073,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, o segmento \"pela facilidade de acesso e ausência de empecilhos legais e burocráticos de controle\" expressa causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-infraestrutura-e-seguranca-da-informacao-016",
@@ -12927,7 +13085,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"estima-se que 0,22% do PIB tenha sido destinado a apostas online \" (primeiro parágrafo), o emprego da partícula \"se\" indica que o sujeito da primeira oração se classifica como indeterminado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-infraestrutura-e-seguranca-da-informacao-018",
@@ -12938,7 +13097,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O pronome \"o\", em \"aprofunda-o com sensações de impotência e isolamento\" (final do último parágrafo), retoma o substantivo \"vício\".",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-infraestrutura-e-seguranca-da-informacao-019",
@@ -12949,7 +13109,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a correção gramatical do texto caso a forma verbal \"gastaram\" (segundo período do primeiro parágrafo) fosse flexionada na terceira pessoa do singular — gastou .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-infraestrutura-e-seguranca-da-informacao-020",
@@ -12960,7 +13121,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na oração \"A facilidade de acesso e a promessa de ganhos rápidos atraem um número crescente de brasileiros\" (primeiro parágrafo), não haveria prejuízo da correção gramatical se o verbo fosse flexionado na terceira pessoa do singular, pois, nesse caso, como o sujeito é composto, a concordância pode ser feita com o núcleo do sujeito mais próximo, de acordo com a norma padrão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-analista-de-tecnologia-da-informacao-especialidade-infraestrutura-e-seguranca-da-informacao-022",
@@ -14038,7 +14200,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Quanto à tipologia, o texto classifica-se como injuntivo, pois instrui o leitor a realizar pesquisa sobre as diversas implicações do agrupamento de pessoas em classes sociais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-atuario-002",
@@ -14049,7 +14212,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que o agrupamento de pessoas em classes sociais não é útil para a sociedade, pois resulta em políticas públicas injustas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-funprespjud-atuario-003",
@@ -14148,7 +14312,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"O crescimento das casas de apostas online no Brasil impacta diretamente o consumo e a renda das famílias brasileiras\" (primeiro parágrafo), o segmento \"o consumo e a renda\" poderia ser corretamente reescrito como no consumo e na renda , pois, de acordo com a norma padrão, a regência do verbo impactar é variável.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-atuario-013",
@@ -14159,7 +14324,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"Esse apostador contumaz, geralmente das classes mais desfavorecidas, tende a encarar a aposta como investimento\" (segundo parágrafo), o vocábulo \"contumaz\" poderia ser substituído, sem prejuízo da correção e da coerência das ideias do texto, por incorrigível .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-atuario-014",
@@ -14170,7 +14336,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho \"O ciclo vicioso de apostas pode levar ao desenvolvimento de sintomas de ansiedade, frustração e desesperança\" (último parágrafo) poderia ser reescrito, preservadas a correção gramatical e a coerência textual, da seguinte forma: O ciclo vicioso de apostas pode levar à sintomas de ansiedade, frustração e desesperança .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-atuario-016",
@@ -14181,7 +14348,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, o segmento \"pela facilidade de acesso e ausência de empecilhos legais e burocráticos de controle\" expressa causa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-atuario-017",
@@ -14192,7 +14360,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O pronome \"o\", em \"aprofunda-o com sensações de impotência e isolamento\" (final do último parágrafo), retoma o substantivo \"vício\".",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-atuario-018",
@@ -14203,7 +14372,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho \"estima-se que 0,22% do PIB tenha sido destinado a apostas online \" (primeiro parágrafo), o emprego da partícula \"se\" indica que o sujeito da primeira oração se classifica como indeterminado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-atuario-019",
@@ -14214,7 +14384,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a correção gramatical do texto caso a forma verbal \"gastaram\" (segundo período do primeiro parágrafo) fosse flexionada na terceira pessoa do singular — gastou .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-atuario-020",
@@ -14225,7 +14396,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na oração \"A facilidade de acesso e a promessa de ganhos rápidos atraem um número crescente de brasileiros\" (primeiro parágrafo), não haveria prejuízo da correção gramatical se o verbo fosse flexionado na terceira pessoa do singular, pois, nesse caso, como o sujeito é composto, a concordância pode ser feita com o núcleo do sujeito mais próximo, de acordo com a norma padrão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-funprespjud-atuario-021",
@@ -14324,7 +14496,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No Microsoft 365, os recursos de salvamento automático e colaboração em tempo real do Word, do Excel e do PowerPoint independem do armazenamento do arquivo em serviço de nuvem, visto que a instalação local desses aplicativos dispensa o uso do OneDrive para a criação e a edição de arquivos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2026-funprespjud-atuario-032",
@@ -14335,7 +14508,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ao oferecer interfaces padronizadas para acesso a arquivos, configurações e aplicativos, o Windows atua como camada de abstração entre o usuário, os programas de aplicação e os recursos físicos do computador, o que reduz a necessidade de interação direta com detalhes do hardware .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2026-funprespjud-atuario-033",
@@ -15304,6 +15478,74 @@
    "tipo": "certo_errado",
    "enunciado": "O seguro com cobertura de sobrevivência de assistido de EFPC deve ser estruturado na modalidade de benefício definido.",
    "gabarito": "certo"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "conhecimentos de informática e(ou) informado o contrário, considere que todos os programas mencionados estão em configuração-padrão e que não há restrições de proteção, de funcionamento e de uso em relação aos programas, arquivos, diretórios, recursos e equipamentos mencionados. • Eventuais espaços livres — identificados ou não pela expressão “ poderão ser utilizados para rascunho.\n\nPROVAS OBJETIVAS\n\n-- CONHECIMENTOS GERAIS --",
+   "citacao": "O agrupamento das pessoas em classes sociais não é, ao contrário do que alguns pensam, \"apenas uma decisão técnica como outra qualquer\". Como tudo no estudo da desigualdade, esse agrupamento reflete decisões políticas, ainda que elas não sejam explícitas. E não é sem razão: a escolha da identificação de classes de uma forma específica tem implicações concretas. O problema não está apenas na terminologia usada, está também na forma como as classes são definidas. Quem não consegue entender isso pode fazer um exercício simples: identifique pobres como uma classe; considere que quase todo mundo queira erradicar a pobreza; que quase todo mundo queira saber melhor o que é preciso para tanto; defina como pobre 0,1% da população; nesse caso, que medida erradicaria a pobreza? Caridade privada seria suficiente; agora defina como pobre 99,9% da população. A medida recomendada seria uma revolução. Conclui-se desse exercício que a forma como pesquisas dividem a sociedade em classes tem implicações práticas, pois pesquisa em desigualdade é usada para definir políticas. Quando se coloca uma pessoa numa classe, a tendência é que essa pessoa passe a ser vista como todas as demais pessoas que estão naquela classe e, em alguns casos, passe a ser tratada do mesmo modo pelas políticas. Qual é a diferença substantiva entre uma pessoa um centavo abaixo da linha de renda que define os benefícios de assistência social e outra um centavo acima? Em renda, irrelevante, mas a classificação elegível e não elegível tem impactos concretos na vida das pessoas. Elas passam ou não pelo buraco da agulha dos critérios de elegibilidade de programas sociais. Alguns programas chegam a ser desenhados com base em classes, por isso o assunto não é apenas um detalhe acadêmico. Marcelo Medeiros. Os ricos e os pobres . São Paulo: Companhia das Letras, 2023 (com adaptações). Julgue os itens a seguir, relativos às ideias e a aspectos linguísticos do texto precedente.",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "disputam espaços com outras formas de consumo, a renda disponível para educação, saúde e lazer torna-se cada vez mais comprimida.\n\nOs impactos são mais sentidos nas classes sociais mais desfavorecidas. O tipo de jogo conhecido como bet , acessível por aparelhos celulares, tem seu nicho de exploração entre os mais pobres, pela facilidade de acesso e ausência de empecilhos legais e burocráticos de controle. Esse apostador contumaz, geralmente das classes mais desfavorecidas, tende a encarar a aposta como investimento e acredita que, \"investindo\" pouco dinheiro, pode multiplicá-lo. Quando essa perspectiva se associa a um comportamento compulsivo, ela se torna a fórmula perfeita para o vício e o comprometimento da renda familiar.\n\nEsse cenário afeta não apenas a situação financeira das famílias, mas também a saúde mental dos envolvidos. O ciclo vicioso de apostas pode levar ao desenvolvimento de sintomas de ansiedade, frustração e desesperança, à medida que as perdas se acumulam e as promessas de ganhos nunca se concretizam. De acordo com pesquisa do Instituto Locomotiva, 51% dos brasileiros que apostam sentem aumento de sintomas de ansiedade. Além disso, a pesquisa revela que 42% desse público usa esse vício como uma fuga ilusória das dificuldades cotidianas, mas, ao invés de aliviar o estresse, aprofunda-o com sensações de impotência e isolamento.",
+   "citacao": "Internet: <www.uff.br> (com adaptações).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "No que diz respeito às funcionalidades do Windows e ao uso de editores de texto, planilhas eletrônicas e programas de",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A escrita, que parece dever fixar a língua, é justamente o que a altera; não lhe muda as palavras, mas o gênio; substitui a expressão pela exatidão. Quando se fala, transmitem-se os sentimentos, e quando se escreve, as ideias. Ao escrever, é-se obrigado a tomar todas as palavras em sua acepção comum, porém aquele que fala varia suas acepções pelos tons, determina- as como lhe apraz. Menos preocupado em ser claro, dá maior importância à força; não é possível que uma língua escrita guarde por muito tempo a vivacidade daquela que só é falada. Escrevem- se as vozes e não os sons. Ora, numa língua acentuada são os sons, os acentos, as inflexões de toda sorte que constituem a maior energia da linguagem, que tornam uma frase, fora daí comum, adequada unicamente ao caso em que se encontra. Os meios que se utilizam para substituir esse recurso estendem, alongam a língua escrita e, passando dos livros para o discurso, enfraquecem a própria palavra.\n\nJean-Jacques Rousseau. Ensaio sobre a origem das línguas no qual\n\nse fala da melodia e da imitação musical . Lourdes Santos Machado (Trad.).\n\nSão Paulo: Editora Abril, 1973, p. 277 (Coleção Os Pensadores – volume XXIV). Julgue os itens seguintes, com base na interpretação e na análise crítica do texto precedente.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O fim para que os homens inventaram os livros foi para conservar a memória das coisas passadas contra a tirania do tempo e contra o esquecimento dos homens, que ainda é maior tirania. Por isso, Gilberto chamou aos livros reparadores da memória; e S. Máximo, medicina do esquecimento. E, como os livros foram inventados para conservadores das coisas passadas, por isso os milagres de Penha de França não hão mister livros, porque são milagres que não passam. Esta é uma excelência com que a Virgem Maria quis singularizar os privilégios desta sua casa, sobre todas as que tem milagrosas no mundo, e sobre todas as que tem nesta cidade (...). Foi milagrosa em Lisboa a casa de Nossa Senhora da Natividade; mas passaram os milagres da Natividade. Foi milagrosa a casa de Nossa Senhora do Amparo; mas passaram os milagres do Amparo. Foi milagrosa a casa de Nossa Senhora do Desterro; mas passaram os milagres do Desterro. Foi milagrosa a casa da Senhora da Luz; mas passaram os milagres da Luz. Só a casa de Nossa Senhora de Penha de França foi milagrosa, e é milagrosa, e há de ser milagrosa, porque os seus milagres nunca passam; e as coisas que não passam, nem acabam; as coisas que permanecem sempre, não hão mister livros.\n\nPadre Antonio Vieira. Sermão de Nossa Senhora de Penha de França na sua igreja\n\ne convento da sagrada religião de Santo Agostinho. In: Sermões do Padre António Vieira.\n\nTomo VI. Lisboa: Editores J.M.C. Seabra & T. Q. Antunes, 1855, p. 43-44 (com adaptações). Julgue os itens a seguir, relativos a aspectos da retórica do texto precedente.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A respeito dos fundamentos teóricos e práticos da publicidade e da propaganda, que abrangem o planejamento de comunicação, o processo de criação e direção de arte, os princípios do design gráfico aplicados à atividade publicitária, o atendimento e o",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Julgue os itens a seguir, que tratam de aspectos diversos da redação publicitária, produção gráfica, produção audiovisual, cibercultura e pesquisa de mercado.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Julgue os itens subsequentes, relativos a pesquisa de mídia, ética e legislação publicitária, merchandising editorial, web design e softwares de produção gráfica e audiovisual.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A respeito da propaganda, da promoção e do conjunto de regras de conduta da etiqueta empresarial, julgue os itens subsequentes.",
+   "citacao": "",
+   "imagem": true
+  },
+  {
+   "ref": "",
+   "conteudo": "1 CREATE TABLE pessoa ( 2 name text, 3 idade int 4 ); 5 CREATE TABLE funcionario ( 6 matricula int UNIQUE NOT NULL 7 ) INHERITS (pessoa);",
+   "citacao": "1",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "1 CREATE TABLE produto ( 2 codigo integer, 3 nome text, 4 custo numeric DEFAULT '' 5 )",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

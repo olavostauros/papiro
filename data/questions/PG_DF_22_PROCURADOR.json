@@ -1389,7 +1389,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A captação de água do sistema Corumbá IV ocorre no município goiano de Luziânia e, a partir dali, a água captada segue por todo um conjunto de elevatórias e estações de tratamento e distribuição para municípios goianos e regiões administrativas do DF; trata-se, portanto, de uma ação de integração política e econômica entre os entes da RIDE/DF, pois água potável é condição para o desenvolvimento econômico da região.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-pg-df-procurador-do-distrito-federal-132",
@@ -1400,7 +1401,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sistema Corumbá IV para fornecimento de água ao DF é uma iniciativa da Companhia de Saneamento Ambiental do Distrito Federal (CAESB), empresa pública que desenvolveu o projeto de forma unilateral, em razão de limitações orçamentárias e de recursos humanos e de impedimentos jurídicos do governo do estado de Goiás.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-pg-df-procurador-do-distrito-federal-133",
@@ -1411,7 +1413,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A água captada pelo sistema Corumbá IV destina-se ao abastecimento de todo o DF e das cidades goianas de maior porte demográfico da RIDE/DF, nas quais a demanda por água potável é maior.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2022-pg-df-procurador-do-distrito-federal-134",
@@ -1433,7 +1436,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No período do ano em que ocorre a maior pluviosidade e se registram os maiores valores de temperatura do ar, atua, predominantemente, no DF, a massa Equatorial Continental.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2022-pg-df-procurador-do-distrito-federal-136",
@@ -2138,6 +2142,20 @@
    "tipo": "certo_errado",
    "enunciado": "O direito de ação quanto aos créditos resultantes das relações de trabalho prescreve em cinco anos, até o limite de dois anos após a extinção do contrato de trabalho, para todos os trabalhadores, à exceção dos rurais.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "No aspecto saneamento básico, as cidades grandes que se destacam em uma região integrada de desenvolvimento (RIDE) consomem mais água, geram mais esgoto e mais lixo, e os municípios do entorno, por sua vez, muitas vezes não dispõem de recursos para um sistema adequado de saneamento básico.\n\nMinistério do Desenvolvimento Regional. 2019 (com adaptações). Tendo o fragmento de texto anterior como referência inicial, julgue os itens a seguir, pertinentes à Região Integrada de Desenvolvimento do Distrito Federal e Entorno (RIDE/DF).",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O gráfico seguinte mostra a variação da média compensada da temperatura do ar e do total de precipitação pluvial referentes à Normal Climatológica de 1981 a 2010 da Estação Brasília.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

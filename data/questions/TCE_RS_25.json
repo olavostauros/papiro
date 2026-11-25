@@ -180,7 +180,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O plano diretor, aprovado por lei municipal, é o instrumento básico da política de desenvolvimento e expansão urbana.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2025-tcers-auditor-de-controle-externo-arquitetura-094",
@@ -334,7 +335,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Desprovida de agregado graúdo e com uma armadura constituída por uma malha muito fina, de telas de aço, a argamassa armada é um tipo de concreto armado adequado à moldagem de peças bastante delgadas, pois, além de o consumo de cimento e ferro por metro cúbico ser menor, as peças de argamassa armada consomem menos material por metro linear.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2025-tcers-auditor-de-controle-externo-arquitetura-110",
@@ -444,7 +446,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso o orçamentista da obra consiga obter um desconto de 10% nos três insumos de maior relevância orçamentária da tabela, a economia atingida superará o custo total de todos os insumos não relacionados na tabela (itens 14 a 435).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tcers-auditor-de-controle-externo-arquitetura-120",
@@ -455,7 +458,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A classificação disposta na tabela apresentada permite a identificação dos serviços de maior relevância orçamentária.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tcers-auditor-de-controle-externo-arquitetura-121",
@@ -466,7 +470,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os dez insumos de maior relevância orçamentária representam, aproximadamente, 90% do custo total da obra em questão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tcers-auditor-de-controle-externo-arquitetura-122",
@@ -477,7 +482,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se houver um atraso de três semanas na atividade I, o prazo total para a conclusão da reforma será afetado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tcers-auditor-de-controle-externo-arquitetura-123",
@@ -488,7 +494,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O caminho crítico para o início da atividade L é composto pela sequência B-C-F-E-L, sendo necessário um período mínimo de 18 semanas para que L seja iniciada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tcers-auditor-de-controle-externo-arquitetura-125",
@@ -1126,7 +1133,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A companhia deve destinar R$ 5.000 para a constituição de reserva legal.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2025-tcers-auditor-de-controle-externo-ciencias-contabeis-105",
@@ -1137,7 +1145,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considerando que o pagamento do dividendo obrigatório seja incompatível com a situação financeira da companhia, esta poderá, atendidos os requisitos legais, constituir uma reserva especial que permitirá a postergação do pagamento do referido dividendo aos acionistas para o momento em que a situação financeira da companhia assim o permitir, desde que os lucros que deixarem de ser distribuídos não sejam absorvidos por prejuízos em exercícios subsequentes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2025-tcers-auditor-de-controle-externo-ciencias-contabeis-106",
@@ -1148,7 +1157,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É vedado à companhia utilizar, parcial ou totalmente, os R$ 30.000 registrados como saldo da conta “reservas de capital” para o pagamento de quaisquer espécies de dividendos aos seus acionistas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2025-tcers-auditor-de-controle-externo-ciencias-contabeis-109",
@@ -3392,7 +3402,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência das ideias do texto seriam mantidas caso se substituísse o vocábulo “que” (primeiro período do primeiro parágrafo) por onde se .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-arquitetura-009",
@@ -3403,7 +3414,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do primeiro parágrafo, as orações construídas com as formas verbais “descarbonizar”, “conter”, “medir” e “reduzir” são coordenadas entre si e exercem a mesma função sintática.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-arquitetura-010",
@@ -3414,7 +3426,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho “é na cadeia de valor que acontece a maior parte das emissões” (segundo período do primeiro parágrafo) poderia ser reescrito, mantendo-se a correção gramatical e a coerência do texto, da seguinte forma: a maior parte das emissões acontece na cadeia de valor .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-arquitetura-011",
@@ -3425,7 +3438,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do segundo parágrafo, a forma pronominal presente em “reduzi-la” refere-se à pegada de carbono da cadeia de valor dos negócios.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-arquitetura-012",
@@ -3436,7 +3450,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso a forma verbal “está” (primeiro período do segundo parágrafo) fosse flexionada no plural — estão .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-arquitetura-013",
@@ -3447,7 +3462,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É facultativo o emprego do artigo definido masculino — o — após o vocábulo “pelo” (segundo período do segundo parágrafo).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-arquitetura-014",
@@ -3458,7 +3474,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último período do quinto parágrafo, a substituição da palavra “impacto” por efeito não comprometeria a coerência das ideias do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-arquitetura-015",
@@ -3469,7 +3486,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso a palavra “como”, em “Entender como as emissões de GEE ganharam destaque” (último período do texto), fosse substituída por por que , o sentido do texto seria alterado, mas não seriam prejudicadas a correção gramatical nem a coerência das ideias do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-arquitetura-016",
@@ -3480,7 +3498,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “de reduzirem suas emissões” (primeiro período do terceiro parágrafo), a substituição da preposição “de” pela preposição a manteria a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-arquitetura-017",
@@ -3491,7 +3510,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A alteração do trecho “de 1,5 °C a 2 °C” (primeiro período do terceiro parágrafo) para à até 2 °C prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-arquitetura-018",
@@ -3502,7 +3522,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo das ideias originais e da correção gramatical do texto, o quarto parágrafo poderia ser reescrito em um único período, da seguinte forma: A União Europeia (UE), por exemplo, estabeleceu, para seus Estados-membros, metas e compromissos de redução de emissões, entre cujos objetivos se inclui a redução das suas emissões de GEE em, pelo menos, 40% até 2030, em comparação aos níveis de 1990.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-arquitetura-019",
@@ -3513,7 +3534,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do último parágrafo, a palavra “relevante” está empregada com o mesmo sentido de notório .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-arquitetura-020",
@@ -3524,7 +3546,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “A falta de informação, transparência e padronização, no entanto, também continua sendo um desafio” (último período do quinto parágrafo), a correção gramatical seria mantida caso o segmento “no entanto” fosse deslocado para o início do período, da seguinte forma: No entanto, a falta de informação, transparência e padronização, também continua sendo um desafio .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-arquitetura-021",
@@ -4239,7 +4262,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência das ideias do texto seriam mantidas caso se substituísse o vocábulo “que” (primeiro período do primeiro parágrafo) por onde se .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-ciencias-contabeis-009",
@@ -4250,7 +4274,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do primeiro parágrafo, as orações construídas com as formas verbais “descarbonizar”, “conter”, “medir” e “reduzir” são coordenadas entre si e exercem a mesma função sintática.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-ciencias-contabeis-010",
@@ -4261,7 +4286,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho “é na cadeia de valor que acontece a maior parte das emissões” (segundo período do primeiro parágrafo) poderia ser reescrito, mantendo-se a correção gramatical e a coerência do texto, da seguinte forma: a maior parte das emissões acontece na cadeia de valor .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-ciencias-contabeis-011",
@@ -4272,7 +4298,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do segundo parágrafo, a forma pronominal presente em “reduzi-la” refere-se à pegada de carbono da cadeia de valor dos negócios.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-ciencias-contabeis-012",
@@ -4283,7 +4310,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso a forma verbal “está” (primeiro período do segundo parágrafo) fosse flexionada no plural — estão .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-ciencias-contabeis-013",
@@ -4294,7 +4322,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É facultativo o emprego do artigo definido masculino — o — após o vocábulo “pelo” (segundo período do segundo parágrafo).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-ciencias-contabeis-014",
@@ -4305,7 +4334,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último período do quinto parágrafo, a substituição da palavra “impacto” por efeito não comprometeria a coerência das ideias do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-ciencias-contabeis-015",
@@ -4316,7 +4346,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso a palavra “como”, em “Entender como as emissões de GEE ganharam destaque” (último período do texto), fosse substituída por por que , o sentido do texto seria alterado, mas não seriam prejudicadas a correção gramatical nem a coerência das ideias do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-ciencias-contabeis-016",
@@ -4327,7 +4358,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “de reduzirem suas emissões” (primeiro período do terceiro parágrafo), a substituição da preposição “de” pela preposição a manteria a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-ciencias-contabeis-017",
@@ -4338,7 +4370,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A alteração do trecho “de 1,5 °C a 2 °C” (primeiro período do terceiro parágrafo) para à até 2 °C prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-ciencias-contabeis-018",
@@ -4349,7 +4382,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo das ideias originais e da correção gramatical do texto, o quarto parágrafo poderia ser reescrito em um único período, da seguinte forma: A União Europeia (UE), por exemplo, estabeleceu, para seus Estados-membros, metas e compromissos de redução de emissões, entre cujos objetivos se inclui a redução das suas emissões de GEE em, pelo menos, 40% até 2030, em comparação aos níveis de 1990.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-ciencias-contabeis-019",
@@ -4360,7 +4394,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do último parágrafo, a palavra “relevante” está empregada com o mesmo sentido de notório .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-ciencias-contabeis-020",
@@ -4371,7 +4406,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “A falta de informação, transparência e padronização, no entanto, também continua sendo um desafio” (último período do quinto parágrafo), a correção gramatical seria mantida caso o segmento “no entanto” fosse deslocado para o início do período, da seguinte forma: No entanto, a falta de informação, transparência e padronização, também continua sendo um desafio .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-ciencias-contabeis-021",
@@ -5086,7 +5122,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência das ideias do texto seriam mantidas caso se substituísse o vocábulo “que” (primeiro período do primeiro parágrafo) por onde se .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-engenharia-civil-009",
@@ -5097,7 +5134,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do primeiro parágrafo, as orações construídas com as formas verbais “descarbonizar”, “conter”, “medir” e “reduzir” são coordenadas entre si e exercem a mesma função sintática.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-engenharia-civil-010",
@@ -5108,7 +5146,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho “é na cadeia de valor que acontece a maior parte das emissões” (segundo período do primeiro parágrafo) poderia ser reescrito, mantendo-se a correção gramatical e a coerência do texto, da seguinte forma: a maior parte das emissões acontece na cadeia de valor .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-engenharia-civil-011",
@@ -5119,7 +5158,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do segundo parágrafo, a forma pronominal presente em “reduzi-la” refere-se à pegada de carbono da cadeia de valor dos negócios.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-engenharia-civil-012",
@@ -5130,7 +5170,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso a forma verbal “está” (primeiro período do segundo parágrafo) fosse flexionada no plural — estão .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-engenharia-civil-013",
@@ -5141,7 +5182,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É facultativo o emprego do artigo definido masculino — o — após o vocábulo “pelo” (segundo período do segundo parágrafo).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-engenharia-civil-014",
@@ -5152,7 +5194,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último período do quinto parágrafo, a substituição da palavra “impacto” por efeito não comprometeria a coerência das ideias do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-engenharia-civil-015",
@@ -5163,7 +5206,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso a palavra “como”, em “Entender como as emissões de GEE ganharam destaque” (último período do texto), fosse substituída por por que , o sentido do texto seria alterado, mas não seriam prejudicadas a correção gramatical nem a coerência das ideias do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-engenharia-civil-016",
@@ -5174,7 +5218,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “de reduzirem suas emissões” (primeiro período do terceiro parágrafo), a substituição da preposição “de” pela preposição a manteria a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-engenharia-civil-017",
@@ -5185,7 +5230,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A alteração do trecho “de 1,5 °C a 2 °C” (primeiro período do terceiro parágrafo) para à até 2 °C prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-engenharia-civil-018",
@@ -5196,7 +5242,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo das ideias originais e da correção gramatical do texto, o quarto parágrafo poderia ser reescrito em um único período, da seguinte forma: A União Europeia (UE), por exemplo, estabeleceu, para seus Estados-membros, metas e compromissos de redução de emissões, entre cujos objetivos se inclui a redução das suas emissões de GEE em, pelo menos, 40% até 2030, em comparação aos níveis de 1990.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-engenharia-civil-019",
@@ -5207,7 +5254,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do último parágrafo, a palavra “relevante” está empregada com o mesmo sentido de notório .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-engenharia-civil-020",
@@ -5218,7 +5266,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “A falta de informação, transparência e padronização, no entanto, também continua sendo um desafio” (último período do quinto parágrafo), a correção gramatical seria mantida caso o segmento “no entanto” fosse deslocado para o início do período, da seguinte forma: No entanto, a falta de informação, transparência e padronização, também continua sendo um desafio .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-engenharia-civil-021",
@@ -5933,7 +5982,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência das ideias do texto seriam mantidas caso se substituísse o vocábulo “que” (primeiro período do primeiro parágrafo) por onde se .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-tecnologia-informacao-009",
@@ -5944,7 +5994,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do primeiro parágrafo, as orações construídas com as formas verbais “descarbonizar”, “conter”, “medir” e “reduzir” são coordenadas entre si e exercem a mesma função sintática.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-tecnologia-informacao-010",
@@ -5955,7 +6006,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho “é na cadeia de valor que acontece a maior parte das emissões” (segundo período do primeiro parágrafo) poderia ser reescrito, mantendo-se a correção gramatical e a coerência do texto, da seguinte forma: a maior parte das emissões acontece na cadeia de valor .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-tecnologia-informacao-011",
@@ -5966,7 +6018,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do segundo parágrafo, a forma pronominal presente em “reduzi-la” refere-se à pegada de carbono da cadeia de valor dos negócios.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-tecnologia-informacao-012",
@@ -5977,7 +6030,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso a forma verbal “está” (primeiro período do segundo parágrafo) fosse flexionada no plural — estão .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-tecnologia-informacao-013",
@@ -5988,7 +6042,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É facultativo o emprego do artigo definido masculino — o — após o vocábulo “pelo” (segundo período do segundo parágrafo).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-tecnologia-informacao-014",
@@ -5999,7 +6054,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último período do quinto parágrafo, a substituição da palavra “impacto” por efeito não comprometeria a coerência das ideias do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-tecnologia-informacao-015",
@@ -6010,7 +6066,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso a palavra “como”, em “Entender como as emissões de GEE ganharam destaque” (último período do texto), fosse substituída por por que , o sentido do texto seria alterado, mas não seriam prejudicadas a correção gramatical nem a coerência das ideias do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-tecnologia-informacao-016",
@@ -6021,7 +6078,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “de reduzirem suas emissões” (primeiro período do terceiro parágrafo), a substituição da preposição “de” pela preposição a manteria a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-tecnologia-informacao-017",
@@ -6032,7 +6090,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A alteração do trecho “de 1,5 °C a 2 °C” (primeiro período do terceiro parágrafo) para à até 2 °C prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-tecnologia-informacao-018",
@@ -6043,7 +6102,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo das ideias originais e da correção gramatical do texto, o quarto parágrafo poderia ser reescrito em um único período, da seguinte forma: A União Europeia (UE), por exemplo, estabeleceu, para seus Estados-membros, metas e compromissos de redução de emissões, entre cujos objetivos se inclui a redução das suas emissões de GEE em, pelo menos, 40% até 2030, em comparação aos níveis de 1990.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-tecnologia-informacao-019",
@@ -6054,7 +6114,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do último parágrafo, a palavra “relevante” está empregada com o mesmo sentido de notório .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-tecnologia-informacao-020",
@@ -6065,7 +6126,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “A falta de informação, transparência e padronização, no entanto, também continua sendo um desafio” (último período do quinto parágrafo), a correção gramatical seria mantida caso o segmento “no entanto” fosse deslocado para o início do período, da seguinte forma: No entanto, a falta de informação, transparência e padronização, também continua sendo um desafio .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tcers-tecnologia-informacao-021",
@@ -6758,7 +6820,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se das relações de sentido estabelecidas no quarto parágrafo que o vocábulo “política” (último período) retoma, por coesão referencial, “republicanismo” (primeiro período).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2025-tcers-oficial-instrutivo-007",
@@ -6769,7 +6832,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho “que ainda” (último período do terceiro parágrafo) poderia ser substituído por do qual ainda , sem prejuízo da correção gramatical e do sentido do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2025-tcers-oficial-instrutivo-008",
@@ -6780,7 +6844,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O termo “Ademais” (último período do quarto parágrafo) introduz uma oração que expressa consequência em relação à afirmação feita no período imediatamente anterior.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2025-tcers-oficial-instrutivo-009",
@@ -6791,7 +6856,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O referente das formas pronominais “suas” e “seus”, no segundo período do quarto parágrafo, é “pessoas”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2025-tcers-oficial-instrutivo-010",
@@ -6802,7 +6868,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Por meio do emprego da expressão “isso sim” (último período do texto), o autor retoma e, ao mesmo tempo, confirma a ideia apresentada anteriormente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2025-tcers-oficial-instrutivo-011",
@@ -6813,7 +6880,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expressão “Nessa chave” (primeiro período do último parágrafo) poderia ser substituída por Sob esse ângulo , sem prejuízo da coerência textual.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2025-tcers-oficial-instrutivo-012",
@@ -6824,7 +6892,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do texto, a expressão “como também” tem sentido aditivo, pois introduz uma informação adicional acerca dos âmbitos sociais em que se verifica a alusão ao republicanismo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2025-tcers-oficial-instrutivo-013",
@@ -6835,7 +6904,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto classifica-se como predominantemente argumentativo, o que se evidencia pela organização do discurso e pelo posicionamento do autor em relação ao assunto abordado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2025-tcers-oficial-instrutivo-014",
@@ -6846,7 +6916,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, todo o trecho subsequente aos dois-pontos constitui uma enumeração na qual se discriminam os “diversos elementos e institutos que guardam estreita relação com o ideário republicano”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2025-tcers-oficial-instrutivo-015",
@@ -7374,7 +7445,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na auditoria financeira, a responsabilidade primária pela prevenção e pela detecção de fraude é do auditor, que deve avaliar se o sistema de controle interno é adequado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2025-tcers-arquitetura-094",
@@ -8618,6 +8690,50 @@
    "tipo": "certo_errado",
    "enunciado": "A licitante ou a contratada pode ser responsabilizada administrativamente por dar causa à inexecução parcial do contrato, mas não por deixar de entregar a documentação exigida para o certame.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "O diagrama de rede apresentado a seguir relaciona",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Julgue os itens que se seguem, em relação a programa de necessidades/fluxograma, modulação e racionalização da construção.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Considerando que a tabela precedente representa uma curva ABC de orçamento de determinada obra, julgue os próximos itens.",
+   "citacao": "",
+   "imagem": true
+  },
+  {
+   "ref": "",
+   "conteudo": "reforma. Os números indicados em cada uma das atividades representam, em semanas, suas respectivas durações. Considerando a metodologia PERT/CPM de planejamento de atividades e as informações do diagrama de rede precedente,",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A tabela a seguir apresenta a composição do patrimônio líquido de determinada companhia aberta no dia 31/12/2024. Nessa companhia, o lucro líquido do exercício em 2024 totalizou R$ 100.000.\n\ncapital social R$ 400.000\n\nreservas de capital R$ 30.000\n\nreserva legal R$ 78.000\n\najustes de avaliação patrimonial R$ 2.000 A partir da situação hipotética precedente, julgue os próximos itens, a respeito da destinação a ser dada ao lucro líquido do exercício pela referida companhia.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CG2A1",
+   "conteudo": "A alusão ao princípio republicano tornou-se extremamente frequente no Brasil, não só em textos acadêmicos e decisões judiciais, como também nos debates travados na sociedade por pessoas alheias ao mundo do direito. O tema tem vindo à baila, por exemplo, em discussões sobre a corrupção e seu combate; sobre privilégios concedidos a autoridades públicas e poderosos de todo tipo; sobre a persistência no país de cultura patrimonialista e desigualitária, que não separa o público do privado e não trata a todos com o mesmo respeito e consideração. Existe na sociedade a difusa percepção, infelizmente correta, de que, embora nossa forma de governo seja a república e não a monarquia, falta República — com “r” maiúsculo — às nossas relações políticas e sociais. A Constituição Federal de 1988 consagrou o princípio republicano em seu art. 1.º e acolheu diversos elementos e institutos que guardam estreita relação com o ideário republicano: o direito à igualdade; a legitimidade de todo cidadão para propor ação popular visando à garantia da coisa pública; os princípios da moralidade, publicidade e impessoalidade administrativa; as exigências constitucionais de concurso público e licitação; entre tantos outros. O próprio nome atribuído ao país — República Federativa do Brasil — sinaliza a centralidade do princípio republicano entre nós. Essa centralidade foi reforçada pelo povo brasileiro no plebiscito ocorrido em 1993, quando, por expressiva maioria, optamos pela manutenção da forma republicana de governo, em detrimento da monarquia. Porém, entre a proclamação do princípio e a realidade há um abismo que ainda não fomos capazes de transpor nestes trinta anos de vigência da Carta de 1988. O republicanismo projeta um ideal ambicioso para a política. Deseja-se que a política — compreendida em sentido amplo — tenha importância para as pessoas, que não devem limitar suas atividades e atenção a seus interesses e negócios privados. Ademais, espera-se que a política não se resuma à disputa entre forças movidas por interesses egoísticos, mas se volte à busca coletiva do bem comum. Nessa chave, a esfera pública é idealmente concebida não como algo similar ao mercado — em que os agentes visam apenas a defender os próprios interesses —, mas como um fórum, em que existe disputa, mas também troca de razões e argumentos, objetivando-se a identificação e a persecução do interesse público. Não se afirma que essa seja a realidade da política nas sociedades contemporâneas. Trata-se, isso sim, do ideal normativo a ser perseguido para a construção do Estado republicano.\n\nDaniel Sarmento. O princípio republicano nos 30 anos da Constituição de 88 . Revista EMERJ ,\n\nv. 20, n.º 3, Rio de Janeiro, set. – dez./2018. Internet: <www.emerj.tjrj.jus.br> (com adaptações).\n\nFimDoTexto\n\ntecnologia da informação , a menos que seja explicitamente\n\nEspaço livre ” — que constarem deste caderno de provas",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CG1A1",
+   "conteudo": "Em um mundo que corre contra o relógio para descarbonizar a economia e conter o avanço das mudanças climáticas, medir e reduzir as emissões de gases de efeito estufa (GEE) das atividades diretas dos negócios está longe de ser suficiente. Na maioria dos setores, é na cadeia de valor que acontece a maior parte das emissões, ou seja, fora do “muro” das fábricas, dos escritórios e de outros negócios. Isso inclui as operações dos fornecedores, até mesmo os pequenos, e o modo como os clientes usam um produto ou serviço. Fazer o diagnóstico da pegada de carbono de toda a cadeia e agir para reduzi-la está na ordem do dia. Não só porque é a coisa certa a se fazer, mas porque o mundo caminha para exigir das empresas que se responsabilizem pelo que acontece em sua cadeia de valor. O Acordo de Paris e outras iniciativas internacionais reforçaram o compromisso de países e empresas de reduzirem suas emissões para limitar o aquecimento global a uma temperatura de 1,5 °C a 2 °C acima dos níveis pré-industriais até 2100. Além disso, muitos países estão introduzindo regulamentações e padrões de sustentabilidade que exigem uma abordagem mais abrangente para medir emissões de carbono. A União Europeia (UE), por exemplo, estabeleceu uma série de metas e compromissos de redução de emissões para seus Estados-membros. Um dos objetivos é a redução das suas emissões de GEE em pelo menos 40% até 2030, em comparação com os níveis de 1990. Além disso, o impacto ambiental das marcas é cada vez mais considerado pelos consumidores ao redor do mundo. A pesquisa Future Consumer Index, da consultoria Ernest&Young, realizada com 21.000 entrevistados de 27 países, evidencia essa percepção. Entre os brasileiros, por exemplo, 73% se declararam profundamente preocupados com a fragilidade do planeta. A falta de informação, transparência e padronização, no entanto, também continua sendo um desafio mencionado pelos consumidores, que ainda não enxergam o impacto das escolhas que fazem para o meio ambiente quando compram um produto. Dessa forma, a pegada de carbono de um produto torna-se um fator relevante de atenção da indústria. Além da preocupação ambiental e regulatória, esse tema se tornou uma questão de mercado. Entender como as emissões de GEE ganharam destaque na mesa de discussões de presidentes e diretores-executivos é importante para compreender como o tema foi ganhando força nas últimas décadas.\n\nInternet: <www.basf.com/br/pt> (com adaptações).\n\n, para cada item: o campo designado com o código C , caso\n\nE , caso julgue o item ERRADO . A ausência de marcação ou a\n\nP 1 .\n\ntecnologia da informação , a menos que seja explicitamente\n\nEspaço livre ” — que constarem deste caderno de provas\n\nP",
+   "citacao": "1",
+   "imagem": false
   }
  ]
 }

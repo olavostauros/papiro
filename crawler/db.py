@@ -10,6 +10,7 @@ global tables:
            ├─ evento ── prova ──┐
     orgao ─┴─ cargo ────────────┼─ questao
     assunto ────────────────────┘
+    texto ──────────────────────┘  (prova_id + ref; texto-base compartilhado)
 
 Decisions (see .agents/docs/docker-postgres.md):
 
@@ -21,6 +22,9 @@ Decisions (see .agents/docs/docker-postgres.md):
 - ``alternativas`` NULL = ``["Certo", "Errado"]`` — the same omission the
   shard format uses (``[]`` is stored as-is: a MC item with no extracted
   alternatives is not a C/E item).
+- ``texto`` guarda o texto-base da prova (``item["texto"]`` do shard):
+  um registro por (prova, ref) — várias questões e cargos apontam para a
+  mesma linha. ``questao.texto_id`` NULL = sem texto-base.
 
 The sync is dialect-agnostic (select-then-insert per batch), so it runs
 against Postgres in production and SQLite in tests:
@@ -41,9 +45,10 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Iterable, Optional
 
-from sqlalchemy import (JSON, CheckConstraint, ForeignKey, Index, Integer,
-                        SmallInteger, Text, UniqueConstraint, create_engine,
-                        delete, event, func, insert, select, text, update)
+from sqlalchemy import (JSON, Boolean, CheckConstraint, ForeignKey, Index,
+                        Integer, SmallInteger, Text, UniqueConstraint,
+                        create_engine, delete, event, func, insert,
+                        inspect, select, text, update)
 from sqlalchemy.dialects import postgresql
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import DeclarativeBase, Mapped, Session, mapped_column
@@ -108,6 +113,18 @@ class Cargo(Base):
     nome: Mapped[str] = mapped_column(Text, nullable=False)
 
 
+class Texto(Base):
+    __tablename__ = "texto"
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    prova_id: Mapped[int] = mapped_column(
+        Integer, ForeignKey("prova.id"), nullable=False)
+    ref: Mapped[str] = mapped_column(Text, nullable=False, default="")
+    conteudo: Mapped[str] = mapped_column(Text, nullable=False, default="")
+    citacao: Mapped[str] = mapped_column(Text, nullable=False, default="")
+    imagem: Mapped[bool] = mapped_column(
+        Boolean, nullable=False, default=False)
+
+
 class QuestaoDB(Base):
     __tablename__ = "questao"
     __table_args__ = (
@@ -124,6 +141,8 @@ class QuestaoDB(Base):
         Integer, ForeignKey("cargo.id"), nullable=False)
     assunto_id: Mapped[Optional[int]] = mapped_column(
         Integer, ForeignKey("assunto.id"))
+    texto_id: Mapped[Optional[int]] = mapped_column(
+        Integer, ForeignKey("texto.id"))
     ano: Mapped[int] = mapped_column(SmallInteger, nullable=False)
     tipo: Mapped[str] = mapped_column(Text, nullable=False)
     enunciado: Mapped[str] = mapped_column(Text, nullable=False)
@@ -239,6 +258,17 @@ def create_schema(engine: Engine) -> None:
         with engine.begin() as conn:
             conn.execute(text("CREATE EXTENSION IF NOT EXISTS unaccent"))
     Base.metadata.create_all(engine)
+    _migrate(engine)
+
+
+def _migrate(engine: Engine) -> None:
+    """ALTERs incrementais para bancos existentes (create_all só cria tabelas)."""
+    cols = {c["name"] for c in inspect(engine).get_columns("questao")}
+    if "texto_id" not in cols:
+        with engine.begin() as conn:
+            conn.execute(text(
+                "ALTER TABLE questao ADD COLUMN texto_id "
+                "INTEGER REFERENCES texto(id)"))
 
 
 # ---------------------------------------------------------------------------
@@ -293,6 +323,7 @@ def sync_records(records: Iterable[dict], engine: Engine, *,
     orgaos: dict[str, int] = {}
     assuntos: dict[str, int] = {}
     cargos: dict[tuple[int, str], int] = {}
+    textos: dict[tuple, int] = {}
 
     for ev, recs in _group_by_evento(records, evento).items():
         stats.eventos += 1
@@ -323,16 +354,31 @@ def sync_records(records: Iterable[dict], engine: Engine, *,
                 return _get_or_create(session, assuntos, r["assunto"],
                                       Assunto, nome=r["assunto"])
 
+            def texto_id(r: dict) -> Optional[int]:
+                t = r.get("texto")
+                if not t:
+                    return None
+                pid = prova_ids[r["fonte"]]
+                key = (pid, t.get("ref", ""), t.get("conteudo", ""))
+                return _get_or_create(
+                    session, textos, key, Texto,
+                    prova_id=pid, ref=t.get("ref", ""),
+                    conteudo=t.get("conteudo", ""),
+                    citacao=t.get("citacao", ""),
+                    imagem=bool(t.get("imagem")))
+
             for i in range(0, len(recs), BATCH):
                 chunk = recs[i:i + BATCH]
                 ids = [r["id"] for r in chunk]
-                existing = set(session.scalars(
-                    select(QuestaoDB.id).where(QuestaoDB.id.in_(ids))))
+                existing = {qid: tid for qid, tid in session.execute(
+                    select(QuestaoDB.id, QuestaoDB.texto_id)
+                    .where(QuestaoDB.id.in_(ids)))}
                 rows = [{
                     "id": r["id"],
                     "prova_id": prova_ids[r["fonte"]],
                     "cargo_id": cargo_id(r),
                     "assunto_id": assunto_id(r),
+                    "texto_id": texto_id(r),
                     "ano": r["ano"],
                     "tipo": r["tipo"],
                     "enunciado": r["enunciado"],
@@ -342,6 +388,19 @@ def sync_records(records: Iterable[dict], engine: Engine, *,
                 } for r in chunk if r["id"] not in existing]
                 if rows:
                     session.execute(insert(QuestaoDB), rows)
+                # backfill: rows antigas sem texto_id ganham o link quando o
+                # shard passa a carregar o texto-base
+                fills = [{"qid": r["id"], "tid": t}
+                         for r in chunk
+                         if r["id"] in existing
+                         and existing[r["id"]] is None
+                         and (t := texto_id(r)) is not None]
+                if fills:
+                    session.execute(
+                        update(QuestaoDB)
+                        .execution_options(synchronize_session=None),
+                        [{"id": f["qid"], "texto_id": f["tid"]}
+                         for f in fills])
                 stats.inserted += len(rows)
                 stats.skipped += len(chunk) - len(rows)
             session.commit()
@@ -442,7 +501,8 @@ def _cmd_sync(args) -> int:
 def _cmd_stats(args) -> int:
     engine = get_engine(args.url)
     with Session(engine) as s:
-        for model in (Banca, Orgao, Cargo, Assunto, Evento, Prova, QuestaoDB):
+        for model in (Banca, Orgao, Cargo, Assunto, Evento, Prova, Texto,
+                      QuestaoDB):
             n = s.scalar(select(func.count()).select_from(model))
             print(f"{model.__tablename__:10} {n}")
     return 0

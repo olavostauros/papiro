@@ -613,7 +613,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico clínico é de meningite bacteriana.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-hub-anestesiologia-057",
@@ -624,7 +625,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O tratamento específico inicial deve ser realizado com ceftriaxona na dose de 100 mg/kg/dia.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-hub-anestesiologia-058",
@@ -635,7 +637,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O agente etiológico mais provável é o Haemophilus influenzae B. 561001_01N323078 Uma menina de seis anos de idade foi levada ao pediatra por apresentar discreto sangramento vaginal. A mãe informou que a criança apresentava aumento do volume das mamas seguido do aparecimento de pelos pubianos havia um ano. Não havia história familiar semelhante e outros antecedentes significativos. Ao exame físico, foram verificados: peso = 22 kg",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2020-hub-anestesiologia-059",
@@ -1009,7 +1012,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para atingir o objetivo de redução global de casos e óbitos por covid-19, a aplicação de uma vacina segura e comprovadamente eficaz em toda a população (vacinação em massa) seria mais efetiva do que vacinar seletivamente a população com alto risco para o desenvolvimento de casos graves da doença.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2020-hub-anestesiologia-098",
@@ -1812,7 +1816,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O RN deveria ter sido inicialmente ventilado com pressão positiva (VPP) sob máscara e oxigênio a 30%. Se, ao final de 30 segundos de ventilação efetiva, ele não tivesse melhorado (não respirando espontaneamente ou com gasping e com frequência cardíaca menor que 100 bpm), estaria indicada a intubação orotraqueal, a administração de surfactante e a manutenção da VPP no tubo mantendo-se a FiO2 de acordo com a saturação de oxigênio à oximetria de pulso pré-ductal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2020-hub-infectologia-069",
@@ -1823,7 +1828,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Esse RN deverá receber antibioticoterapia de amplo espectro, haja vista o alto risco de apresentar sepse bacteriana precoce.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2020-hub-infectologia-070",
@@ -1834,7 +1840,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na UTI, ao final da primeira hora, estaria indicada a administração de surfactante na dose de 100 mg/kg por via endotraqueal, mesmo que o RN tivesse recebido uma dose precocemente na sala de parto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2020-hub-infectologia-071",
@@ -1900,7 +1907,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O paciente apresenta, pelo menos, 10% de perda de peso, pela desidratação, e deve receber solução isotônica pela via intravenosa, na quantidade de 20 mL/kg em bolus.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2020-hub-infectologia-077",
@@ -1911,7 +1919,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se esse paciente realizar o RT-PCR para SARS-CoV-2, é esperado que o resultado seja positivo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2020-hub-infectologia-078",
@@ -1922,7 +1931,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Alterações cardíacas no exame ecocardiográfico são frequentes em pacientes com esse quadro clínico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2020-hub-infectologia-079",
@@ -1933,7 +1943,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O uso de imunoglobulinas intravenosas (IGIV) e de corticoides pode ser adotado para o manejo do quadro em questão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2020-hub-infectologia-080",
@@ -1944,7 +1955,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É provável que os valores de ferritina estejam elevados, ao contrário dos valores da proteína C reativa e da procalcitonina, que geralmente se encontram reduzidos em um quadro como o relatado. Em atendimento no ambulatório de pediatria, um adolescente de 11 anos de idade, com diagnóstico de asma brônquica, em uso regular de doses moderadas de corticosteroide inalatório, informa que segue apresentando sintomas diurnos e noturnos da asma semanalmente, com uso de broncodilatador de resgate mais de 2 vezes por semana. Segundo os pais dele, houve a necessidade de um internamento hospitalar no último mês. No momento da consulta, o paciente encontra-se assintomático, e o exame do aparelho respiratório está normal.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2020-hub-infectologia-081",
@@ -2175,7 +2187,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As lesões de uretra são raras durante os procedimentos de sling: ocorrem em menos de 1% dos casos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-002",
@@ -2186,7 +2199,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em casos de pacientes com quadro de incontinência urinária como a da situação apresentada, é necessário, para confirmação diagnóstica da patologia urinária, realizar um estudo urodinâmico antes de submeter a paciente ao procedimento de sling de uretra média sem tensão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-003",
@@ -2197,7 +2211,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Slings de uretra média sem tensão como o utilizado pela referida paciente, com tela sintética, apresentam mais chance de erosão uretral do que os confeccionados com fáscia autóloga.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-004",
@@ -2208,7 +2223,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A via de acesso de escolha para a realização do procedimento de sling de uretra média sem tensão é a retropúbica, que apresenta menor chance de complicações e maior taxa de cura, em comparação com a via transobturatória.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-005",
@@ -2219,7 +2235,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em caso de perfuração vesical em razão da passagem de agulha durante o procedimento de sling de uretra média retropúbica, a conduta mais adequada a ser tomada é a interrupção do procedimento e a execução de laparotomia exploradora imediata. CEBRASPE | UnB | HUB - RM - Edital: 2020",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-006",
@@ -2230,7 +2247,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em casos como o da referida paciente, deve-se considerar o diagnóstico de obstrução infravesical, independentemente da necessidade de abordagem cirúrgica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-007",
@@ -2241,7 +2259,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na hipótese de haver obstrução infravesical após o procedimento de sling na referida paciente, são possíveis abordagens cirúrgicas para tratamento uma única incisão da tela sintética e uretrólise clássica com dissecção de toda uretra.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-008",
@@ -2252,7 +2271,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na hipótese de a referida paciente ser submetida a uretrólise, há risco de 50% de recidiva da incontinência urinária de esforço.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-009",
@@ -2263,7 +2283,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso essa paciente apresente obstrução infravesical e seja submetida a uretrólise, o posicionamento de um retalho de Martius — enxerto de gordura pediculado retirado do grande lábio — circunferencial na uretra, durante o procedimento, diminuirá a chance de fibrose e de recorrência da obstrução infravesical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-010",
@@ -2274,7 +2295,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Síndrome da bexiga hiperativa pode ser um diagnóstico diferencial da referida paciente e está, necessariamente, associada a obstrução infravesical.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-011",
@@ -2340,7 +2362,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Mesmo que não haja exame de imagem que confirme o diagnóstico de torção testicular, é indicada a exploração cirúrgica, pois o tempo de torção é o principal determinante da perda da unidade testicular torcida.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-017",
@@ -2351,7 +2374,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso, deve ser realizada distorção cirúrgica em até 6 h após o evento inicial. Após 12 h de torção, em apenas 20% dos casos os testículos ainda serão viáveis; após 24 h de torção, em quase todos os casos os testículos serão removidos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-018",
@@ -2362,7 +2386,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A fixação do testículo contralateral ao torcido somente deverá ser realizada caso o testículo torcido tenha que ser removido.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-019",
@@ -2560,7 +2585,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Dada a existência de potencial elevado para desenvolvimento de sepse nesse caso, deve-se iniciar imediatamente a antibioticoterapia direcionada a germes gram-positivos, além de monitorização cuidadosa do paciente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-037",
@@ -2571,7 +2597,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Uma abordagem única combinada na fase aguda com acesso anterógrado e retrógrado possivelmente seria a escolha correta.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-038",
@@ -2582,7 +2609,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso, durante o manejo endoscópico, seja identificada a presença de secreção purulenta, o procedimento deverá ser interrompido, realiza-se drenagem, e posterior programação terapêutica definitiva.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-039",
@@ -2593,7 +2621,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso a evolução clínica seja de rápida piora, com sepse franca e instabilidade hemodinâmica, deve-se considerar a realização de drenagem renal percutânea como primeira opção.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-040",
@@ -2604,7 +2633,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pacientes com cálculos coraliformes podem ser comumente assintomáticos, até a ocorrência de um episódio agudo infeccioso.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-041",
@@ -2681,7 +2711,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O comprometimento renal reflete o diagnóstico tardio da obstrução urinária, havendo indicação de tratamento cirúrgico da próstata mesmo que o paciente seja encaminhado para tratamento dialítico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-048",
@@ -2692,7 +2723,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso, não há necessidade de investigação da hematúria com cistoscopia, pois não há imagem suspeita no exame de ecografia e a hematúria pode ser atribuída à hiperplasia prostática.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-049",
@@ -2703,7 +2735,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O estudo urodinâmico completo deve ser utilizado para definir se a causa da obstrução é infravesical.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-050",
@@ -2714,7 +2747,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estrategicamente, o tratamento cirúrgico da hiperplasia pela técnica de prostatectomia a céu aberto transvesical deve ser a primeira escolha nesse caso, devido ao grande volume prostático e aos melhores resultados funcionais oferecidos. CEBRASPE | UnB | HUB - RM - Edital: 2020",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-051",
@@ -3077,7 +3111,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Síndrome hemolítico-urêmica é uma causa comum de insuficiência renal crônica terminal em crianças, com alta probabilidade de recidiva e perda do enxerto após o transplante.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-084",
@@ -3088,7 +3123,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "São considerados doadores falecidos de critério expandido os doadores falecidos com idade menor que sessenta anos ou entre cinquenta e um e cinquenta e nove anos com dois dos seguintes fatores: morte por acidente cerebrovascular, hipertensão e creatinina sérica de entrada > 1,5 mg/dL.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-085",
@@ -3099,7 +3135,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Após a nefrectomia de doadores vivos, o clearance de creatinina rapidamente retorna ao mesmo valor pré-transplante, mantendo-se estável por mais de dez anos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-086",
@@ -3110,7 +3147,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O risco de câncer renal e câncer de bexiga é aumentado em pacientes com insuficiência renal crônica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-087",
@@ -3121,7 +3159,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pacientes candidatos a transplante renal com diagnóstico de câncer de próstata de baixo risco devem obrigatoriamente realizar o tratamento ativo da doença maligna antes do transplante.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-088",
@@ -3132,7 +3171,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Pacientes com glomeruloesclerose segmentar focal (GESF), oxalose primária ou nefropatia por IgA como causa da insuficiência renal crônica devem ser esclarecidos, antes da realização do transplante, quanto à probabilidade elevada de recidiva da doença e falência do enxerto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2020-hub-nefrologia-089",
@@ -3287,6 +3327,68 @@
    "tipo": "certo_errado",
    "enunciado": "Pode ocorrer choque séptico secundário devido à peritonite, embora isso não seja causa de aumento da mortalidade.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Um menino de dezoito meses de idade foi levado pela mãe à emergência de um hospital porque havia dois dias apresentava febre alta, associada a vômitos e irritabilidade. O esquema vacinal era desconhecido. No exame físico, o médico assistente observou temperatura de 39 ºC, irritabilidade, petéquias disseminadas pelo corpo, predominantemente em extremidades. Foram ainda observados sinais de irritação meníngea. Foi feita uma punção lombar, a qual apresentou os seguintes resultados: aspecto: turvo; células: 1.000/mm 3 , com predomínio de polimorfonucleares; glicose: 20 mg/dL; proteínas: 150 mg/d; esfregaço Gram: diplococos gram-negativo.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Geoffrey Rose discutiu as bases da medicina preventiva em relação à redução dos fatores de risco de doenças cardiovasculares, classificando as ações preventivas em medidas de amplitude populacional e medidas de alto risco. Essa segunda abordagem refere-se à estratégia de classificar pessoas a partir da seleção do grupo de alto risco para a aplicação de uma medida preventiva. Apesar de parecer intuitivamente racional para pacientes e profissionais, essa abordagem apresenta um pequeno impacto para a saúde pública, visto que um grande número de pessoas submetidas a um risco pequeno produzirá mais casos de doença/evento mórbido do que um pequeno grupo com risco elevado.\n\nArmando H. Norman e Charles D. Tesser. Acesso ao cuidado na Estratégia Saúde da Família :\n\nequilíbrio entre demanda espontânea e prevenção/promoção da saúde.\n\nIn : Saúde e Sociedade , São Paulo, v. 24, n.º 1, p. 165-79, 2015 (com adaptações). Com base nos conceitos apresentados no texto precedente, julgue o item seguinte.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma gestante com 28 semanas de gravidez deu entrada na emergência obstétrica apresentando convulsões. O diagnóstico foi eclampsia e, após 8 horas de tentativas de estabilização clínica, foi indicada a interrupção da gestação como uma das medidas para interromper a gravidade do quadro. O RN prematuro não respirava e encontrava-se em hipotonia generalizada. Na sala de parto, o RN recebeu as manobras de reanimação para a sua condição de prematuridade extrema e em seguida foi encaminhado para a unidade de terapia intensiva neonatal, onde foi colocado em suporte respiratório não invasivo com CPAP nasal e oxigênio e FiO 2 progressiva até 100%. Mesmo com todas essas medidas, ao final da primeira hora de vida, não houve qualquer melhora do quadro respiratório. A radiografia de tórax mostrou infiltrado reticulogranular difuso até periferia pulmonar sem discriminação da silhueta cardíaca. A gasometria arterial mostrou pH 7,28; paO 2 45 mmHg; paCO 2 65 mmHg; e BE −10.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um garoto de 9 anos de idade foi levado por seus pais a uma unidade de pronto atendimento pediátrico, por apresentar febre diária havia 6 dias, queda no estado geral, dor abdominal intensa, diarreia, vômitos e exantema. Havia 25 dias, os pais tinham sido diagnosticados com covid-19, porém a criança não fora testada, porque se assumiu que ela também estivesse infectada, já que apresentava tosse, febre persistente durante cerca de dois dias e rinorreia hialina, com resolução espontânea. No exame realizado no pronto atendimento, a criança encontrava-se prostrada, taquipneica, afebril, com turgor da pele diminuído e perfusão periférica maior que 4 segundos. A oximetria de pulso, em ar ambiente, era de 96%. A ausculta pulmonar estava normal. Não havia eritema ou edema de mãos e pés nem alterações na mucosa oral. Considerando o quadro clínico precedente, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "use a Folha de Respostas, único documento válido para a correção da sua prova objetiva. • Caso haja item(ns) constituído(s) pela estrutura Situação hipotética\n\nsituação hipotética deverão ser considerados premissa(s) para o julgamento da assertiva proposta. • Eventuais espaços livres — identificados ou não pela expressão “Espaço livre” — que constarem deste caderno de prova poderão\n\nser utilizados para rascunho.\n\nPROVA OBJETIVA",
+   "citacao": "Caso clínico 8A1-I Uma mulher de sessenta e sete anos de idade foi atendida em um hospital com quadro de incontinência urinária ao praticar exercícios físicos e ao tossir. A paciente informou que utilizava um protetor íntimo diário devido às perdas urinárias. Ela não apresentava urgência miccional e noctúria. Em razão das queixas urinárias, a paciente foi submetida ao procedimento de sling (faixa suburetral) de uretra média sem tensão, com uso de tela sintética de polipropileno.",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A paciente mencionada no caso clínico 8A1-I retornou ao hospital três meses após o procedimento de sling de uretra média com quadro de intervalo miccional de uma hora no período diurno, urgência urinária, noctúria de até três vezes por noite, jato urinário fraco sem esforço miccional, sem perdas urinárias. Em relação ao caso clínico precedente, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um garoto de quatorze anos de idade deu entrada no pronto-socorro de urologia às 9 h da manhã, com quadro de dor no testículo esquerdo, de início súbito, associada a aumento do volume da bolsa testicular ipsilateral. A dor havia feito o garoto despertar às 4 h da manhã do mesmo dia. Em relação ao caso clínico descrito anteriormente, julgue os próximos itens.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um paciente de trinta e dois anos de idade procurou atendimento médico com o seguinte quadro clínico: previamente hígido, dor lombar intensa à direita havia um dia, náuseas e vômitos, palidez cutânea e calafrios. Na ocasião, o paciente apresentava regular estado geral, saturação de O = 96%,\n\n2 PA: 112 mmHg × 66 mmHg, FC: 108 bpm. Exames complementares revelaram cálculo ureteral de 8 mm em ureter proximal, moderada dilatação de pelve renal, além de outro cálculo que ocupava parcialmente a pelve e outros dois cálices renais, com 2,1 cm em sua maior dimensão, e rim esquerdo sem alterações. Exames laboratoriais apresentaram 18.900 leucócitos com 5% de bastões, creatinina = 1,79 mg/dL e PCRUS = 36 mg/dL. Considerando o caso clínico precedente, julgue os itens subsecutivos.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um paciente de setenta e quatro anos de idade procurou emergência médica com o seguinte quadro clínico: globo vesical palpável, esforço miccional e hematúria. A ecografia revelou próstata de 108 g, com projeção de lobo mediano, dilatação dos sistemas coletores renais bilateralmente e perda de espessura do parênquima renal. Não foram identificadas lesões vesicais suspeitas. Os exames complementares revelaram hemoglobina = 10,1 g/dL; hematócrito = 33%; leucócitos totais = 5.600; plaquetas = 214.000; creatinina sérica = 3,6 mg/dL; ureia sérica = 106 mg/dL. O paciente foi submetido a sondagem vesical de demora com drenagem de 1.800 mL de urina hemática e coágulos. Foi realizada aspiração dos coágulos e ele foi colocado em sistema de irrigação vesical.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O transplante renal é a terapia renal substitutiva preferencial para a maioria dos pacientes com insuficiência renal crônica terminal, e é um procedimento que exige amplo conhecimento de reconstrução do trato urinário, imunologia e controle de infecção em pacientes imunossuprimidos. A respeito desse assunto, julgue os itens subsecutivos.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

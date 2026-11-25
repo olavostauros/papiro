@@ -115,6 +115,11 @@ def cmd_db(extra):
     return db.main(extra)
 
 
+def cmd_textos(extra):
+    from . import textos
+    return textos.main(extra)
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="python -m crawler")
     ap.add_argument("--banca", default="cebraspe", choices=sorted(bancas.BANCAS),
@@ -142,12 +147,14 @@ def main(argv=None):
     p.set_defaults(fn=cmd_assemble)
     for nome, helptext in (("discover", "gera o manifesto da banca"),
                            ("ingest", "pipeline manifesto → dataset"),
-                           ("db", "sync/stats do Postgres")):
+                           ("db", "sync/stats do Postgres"),
+                           ("textos", "backfill de textos-base nos shards")):
         p = sub.add_parser(nome, help=helptext)
         p.set_defaults(passthrough=True)
     args, extra = ap.parse_known_args(argv)
     if getattr(args, "passthrough", False):
-        fn = {"discover": cmd_discover, "ingest": cmd_ingest, "db": cmd_db}[args.cmd]
+        fn = {"discover": cmd_discover, "ingest": cmd_ingest, "db": cmd_db,
+              "textos": cmd_textos}[args.cmd]
         return (fn(extra) if args.cmd != "discover" else fn(args, extra)) or 0
     if extra:
         ap.error(f"unrecognized arguments: {' '.join(extra)}")

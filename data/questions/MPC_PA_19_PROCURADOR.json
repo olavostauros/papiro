@@ -1724,7 +1724,8 @@
     "A íntegra do crédito tributário decorrente do lançamento foi extinta pela decadência.",
     "O crédito tributário decorrente do lançamento não foi extinto, podendo, por essa razão, ser cobrado na execução fiscal ajuizada.",
     "O crédito tributário foi indevidamente constituído, pois a administração tributária não pode reavaliar a correção da classificação fiscal feita pelo contribuinte."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2018-mpcpa-procurador-contas-099",
@@ -1742,7 +1743,8 @@
     "a eventual sócio-gerente da empresa de bebidas é permitido, desde que este tenha ostentado essa condição ao tempo da dissolução irregular e da ocorrência do fato gerador, cumulativamente.",
     "a qualquer sócio de capital da empresa de bebidas é permitido.",
     "à empresa de calçados é permitido, uma vez que esta adquiriu o estabelecimento empresarial da empresa de bebidas."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2018-mpcpa-procurador-contas-100",
@@ -1761,6 +1763,14 @@
     "julho de 2019.",
     "fevereiro de 2019 e maio de 2019, respectivamente."
    ]
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Determinada empresa brasileira de bebidas passou a vender, em janeiro de 2012, bebida gaseificada com sabor artificial. Após consultar escritório de advocacia externo a respeito da tributação de ICMS sobre o produto, a empresa o classificou como água gaseificada, sobre a qual incide alíquota de ICMS de 15%, conforme lei estadual. Em fevereiro do mesmo ano, a empresa declarou — mas não pagou — o ICMS devido sobre a venda do produto.\n\nEm julho de 2017, a empresa foi notificada em auto de infração que exigia não somente o pagamento do ICMS declarado e não pago em fevereiro de 2012, mas também o de valor relativo a 5% adicionais de alíquota: para a fiscalização, o produto deveria ter sido classificado como refrigerante, com alíquota aplicável de 20%.\n\nA empresa apresentou defesa, alegando a decadência do referido lançamento, mas o pedido foi negado definitivamente pelo órgão de julgamento da administração tributária. Inscrito em dívida ativa o crédito decorrente do lançamento à alíquota de 20%, a Procuradoria-Geral do estado ajuizou execução fiscal. Contudo, o estabelecimento empresarial onde funcionava a empresa de bebidas havia sido adquirido por empresa de calçados, não tendo a empresa de bebidas comunicado esse fato ao fisco. Com isso, não foi possível a citação da empresa de bebidas, pois, à época da execução, a empresa de calçados já funcionava no domicílio declarado pela empresa de bebidas à administração tributária.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

@@ -2107,7 +2107,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “de software ou, até mesmo, de quebra” (penúltimo período do segundo parágrafo), a eliminação da primeira vírgula prejudicaria a correção do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-202",
@@ -2118,7 +2119,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último período do primeiro parágrafo, o emprego do hífen em “ético-jurídicos” é facultativo, razão por que estaria igualmente correta a grafia eticojurídicos .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-203",
@@ -2129,7 +2131,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do segundo parágrafo, a substituição de “Perante a” por Perante à comprometeria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-204",
@@ -2140,7 +2143,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do último período do primeiro parágrafo, a inserção de uma vírgula logo após a expressão “inteligência artificial” manteria a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-205",
@@ -2151,7 +2155,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, o vocábulo “que”, em “que culminou com escolhas” (antepenúltimo período) e “que hackers interfiram no sistema” (penúltimo período), pertence à mesma classe gramatical.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-206",
@@ -2162,7 +2167,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A classificação gramatical do vocábulo “como” em “como também se observa a existência de robôs” (segundo período do primeiro parágrafo) é distinta de sua classificação em “como naquelas em que não foram realizadas atualizações” (penúltimo período do segundo parágrafo).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-207",
@@ -2173,7 +2179,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do segundo parágrafo, o vocábulo “quais” classifica-se como conjunção integrante, pois introduz uma oração que funciona como complemento do verbo “diferenciar”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-208",
@@ -2184,7 +2191,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do primeiro parágrafo, o sujeito referencial da forma verbal “superando” é “robôs”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-209",
@@ -2195,7 +2203,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No penúltimo período do segundo parágrafo, o segmento “de quebra de deveres objetivos de cuidado” qualifica “situações”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-210",
@@ -2206,7 +2215,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do segundo parágrafo, a expressão “uma vez que” confere noção de consequência à oração “o processo decisório decorreu de um aprendizado automático”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-211",
@@ -2217,7 +2227,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último período do primeiro parágrafo, a oração “essa centralidade da culpa na responsabilidade civil se encontra desafiada pela realidade de sistemas de inteligência artificial” está coordenada, por adição, à oração imediatamente anterior a ela e ambas estão coordenadas à oração inicial desse período.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-212",
@@ -2228,7 +2239,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último período do segundo parágrafo, a oração “excluídas essas situações” expressa circunstância de modo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-213",
@@ -2239,7 +2251,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “em que se pode vislumbrar” (penúltimo período do segundo parágrafo), a ênclise do pronome “se” ao verbo auxiliar da locução verbal — em que pode-se vislumbrar —preservaria a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-214",
@@ -2250,7 +2263,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “Não apenas se vivencia” (segundo período do primeiro parágrafo), a ênclise do pronome “se” à forma verbal — não apenas vivencia-se — comprometeria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-215",
@@ -2261,7 +2275,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último período do primeiro parágrafo, o termo “desafiada” concorda com “centralidade”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-216",
@@ -2272,7 +2287,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No texto, os termos da expressão “da programada” (primeiro período do segundo parágrafo) poderiam ser flexionados no gênero masculino — do programado —, sem prejuízo para a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-217",
@@ -2283,7 +2299,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “os sistemas de IA passam a decidir” (primeiro período do segundo parágrafo), é facultativa a flexão da forma verbal “decidir” no plural, razão por que seria igualmente correta a expressão os sistemas de IA passam a decidirem .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-218",
@@ -2294,7 +2311,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “necessário para a responsabilização” (último período do segundo parágrafo), o segmento “para a” poderia ser substituído pelo vocábulo à .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-219",
@@ -2305,7 +2323,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em “culminou com escolhas” (segundo período do segundo parágrafo), a substituição da preposição “com” por em resultaria em incorreção gramatical no texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-220",
@@ -2316,7 +2335,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Haja vista a regência de “confrontado” (primeiro período do primeiro parágrafo) admitida no texto, o complemento regido por esse termo só pode ser introduzido pela preposição “com”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-221",
@@ -2327,7 +2347,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A oração “ao agir de forma autônoma” (primeiro período do segundo parágrafo) poderia ser substituída por quando agiu de forma autônoma , sem prejuízo da correção gramatical e do paralelismo temporal dos eventos tratados no período.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-222",
@@ -2338,7 +2359,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do segundo parágrafo, o tempo verbal em “seria” indica que se trata de um acontecimento que se deu no passado posteriormente a outro também ocorrido no passado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-223",
@@ -2349,7 +2371,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No penúltimo período do segundo parágrafo, o modo verbal expresso em “interfiram” denota, no texto, um desejo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-224",
@@ -2470,7 +2493,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem alteração da correção gramatical e das relações sintáticas estabelecidas originalmente no texto, o trecho “nos quais” (primeiro parágrafo) poderia ser substituído por onde .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-235",
@@ -2481,7 +2505,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O tempo verbal empregado no primeiro período do segundo parágrafo é denominado presente histórico e, em seu lugar, seria adequado o uso do pretérito perfeito do modo indicativo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-236",
@@ -2492,7 +2517,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, o sujeito das orações “tratava-se a instituição no Código de Processo Criminal” (segundo período) e “nomeando-se desembargadores, procuradores da Coroa, conhecidos como ‘chefe do parquet ’” (terceiro período) é indeterminado pelo emprego do pronome “se”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-237",
@@ -2503,7 +2529,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O segmento “a expressão ‘Ministério Público’” (último período do segundo parágrafo) contém um aposto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-238",
@@ -2514,7 +2541,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último período do texto, o segmento “como instituição permanente e essencial à função jurídica” funciona, sintaticamente, como predicativo do termo “o MP”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-239",
@@ -2525,7 +2553,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do terceiro parágrafo, o vocábulo “que” introduz uma oração subordinada adjetiva restritiva.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-240",
@@ -2536,7 +2565,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria preservada a correção gramatical do texto caso a oração “Atendendo às características federais do Estado brasileiro” (último parágrafo) fosse reescrita da seguinte maneira: Atendendo a características federais do Estado brasileiro .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-241",
@@ -2547,7 +2577,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último período do texto, a forma pronominal “cujas” resulta da contração do pronome relativo cujo com o artigo feminino definido as .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-242",
@@ -2558,7 +2589,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O segundo período do texto é iniciado por uma forma verbal impessoal.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-243",
@@ -2569,7 +2601,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em “opressão do homem” (segundo período do primeiro parágrafo) e “presente generoso dos deuses” (último período do primeiro parágrafo), a substituição das locuções adjetivas “do homem” e “dos deuses” pelos adjetivos humana e divino , respectivamente, manteria a correção gramatical e as relações coesivas do texto original.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-244",
@@ -2580,7 +2613,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último período do primeiro parágrafo, a substituição de “antidireito” por anti-direito faria o tex to ficar em desacordo com a ortografia oficial vigente no Brasil.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-245",
@@ -2591,7 +2625,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último período do primeiro parágrafo, a flexão de plural e de gênero masculino na forma pronominal “eles” justifica-se pelo fato de o referente desse pronome, no texto, ser constituído por mais de um termo e apresentar diferentes gêneros gramaticais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2023-mp-sc-promotor-de-justica-substituto-246",
@@ -4275,6 +4310,62 @@
    "tipo": "certo_errado",
    "enunciado": "A LCE n.o 738/2019 prevê a hipótese de acordo correcional, desde que seja necessário e suficiente para reprovação e prevenção da irregularidade.",
    "gabarito": "certo"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "portuguesa, julgue os itens que se seguem, relativamente ao texto 2A1-I.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": ", para cada item: o campo designado com o E , caso julgue o item ERRADO ; ou o campo designado\n\nFolha de Respostas , único documento Espaço livre ” — que constarem deste caderno de prova poderão\n\nP --",
+   "citacao": "2 No que se refere a aspectos gramaticais do texto 2A1-I, julgue os seguintes itens.",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Em relação às construções sintáticas do texto 2A1-I, julgue os próximos itens.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Tendo em vista as normas de colocação pronominal, julgue os itens subsequentes, relativos ao texto 2A1-I.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Com base nas regras de concordância nominal e verbal, julgue os seguintes itens, relativos ao texto 2A1-I.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "À luz das normas de regência nominal e verbal, julgue os itens seguintes, em relação ao texto 2A1-I.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Com relação a formas verbais empregadas no texto 2A1-I, julgue os itens subsequentes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A origem da instituição Ministério Público (MP) não é facilmente situada na história, não sendo possível precisar ou afirmar com certeza a data e o local nos quais se tenha originado. No Brasil, a figura do promotor de justiça só surge em 1609, quando é regulamentado o Tribunal de Relação na Bahia. No Império, tratava-se a instituição no Código de Processo Criminal, sem nenhuma referência constitucional. Somente na Constituição de 1824, foram criados o Supremo Tribunal de Justiça e os tribunais de relação, nomeando-se desembargadores, procuradores da Coroa, conhecidos como “chefe do parquet ”. No entanto, a expressão “Ministério Público” só seria utilizada no Decreto n.º 5.618, de 2 de maio de 1874. Foi na Constituição de 1891 que, pela primeira vez, o MP mereceu uma referência no texto fundamental. Já a Constituição Federal de 16 de julho de 1934 dispensou um tratamento mais alentador ao MP, definindo-lhe algumas atribuições básicas. As Constituições de 1946 a 1967 pouco disseram acerca do MP. A grande fase do MP foi inaugurada com a Constituição Federal de 1988 (CF), cujos termos são absolutamente inovadores, mesmo no nível internacional. A Constituição de 1988 é dotada de um capítulo próprio sobre o MP. Atendendo às características federais do Estado brasileiro, a CF trata do Ministério Público da União e daquele dos diversos estados-membros da Federação. A CF declara o MP como instituição permanente e essencial à função jurídica, incumbindo-lhe a defesa da ordem jurídica, do regime democrático e dos interesses sociais e individuais indisponíveis.\n\nInternet: www.anpr.org.br (com adaptações). Julgue os itens subsequentes, relativos a aspectos gramaticais do texto 2A2-II.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Justiça é justiça social. É atualização dos princípios condutores, emergindo nas lutas sociais, para levar à criação de uma sociedade em que cessem a exploração e a opressão do homem pelo homem. O direito não é mais, nem menos, do que a expressão daqueles princípios supremos, como modelo avançado de legítima organização social da liberdade. Mas até a injustiça como também o antidireito (isto é, a constituição de normas ilegítimas e sua imposição em sociedades mal organizadas) fazem parte do processo, pois nem a sociedade justa, nem a justiça corretamente vista, nem o direito mesmo, o legítimo, nascem de um berço metafísico ou são presente generoso dos deuses: eles brotam nas oposições, no conflito, no caminho penoso do progresso, com avanços e recuos. Direito é processo, dentro do processo histórico. Não é uma coisa feita, perfeita e acabada. É aquele vir a ser que se enriquece nos movimentos de libertação das classes e dos grupos ascendentes e que definha nas explorações e opressões que o contradizem, mas de cujas próprias contradições brotarão as novas conquistas.\n\nRoberto Lyra Filho. O que é direito . São Paulo: Brasiliense, 2003, p. 86 (com adaptações). Acerca de aspectos gramaticais do texto 2A2-III, julgue os itens subsequentes.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

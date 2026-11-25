@@ -62,7 +62,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Este paciente pode beneficiar-se com o uso de ferro por via oral como suplementação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-hub-transplante-rim-002",
@@ -73,7 +74,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso seja confirmada a deficiência absoluta de ferro, a dose de ataque de ferro parenteral deverá ser realizada com a administração de 1.000 mg de ferro divididos em dez sessões de hemodiálise.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-hub-transplante-rim-003",
@@ -84,7 +86,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O uso de inibidor de enzima de conversão da angiotensina é um dos fatores que pode ter contribuído para o quadro de anemia.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-hub-transplante-rim-004",
@@ -95,7 +98,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Um dos possíveis diagnósticos é o de anemia com deficiência relativa de ferro.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-hub-transplante-rim-005",
@@ -106,7 +110,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Cabe ao médico recomendar ao paciente a diminuição da ingestão de sódio (menor que 2 g/dia) e contra indicar o uso de inibidor de enzima de conversão de angiotensina (IECA) ou de bloqueador do receptor de angiotensina (BRA).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-hub-transplante-rim-006",
@@ -117,7 +122,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os exames do paciente apresentaram os valores recomendados de paratormônio (PTH) e de fósforo para o estágio da doença em que se encontra, não sendo necessário o uso de quelantes de fósforo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-hub-transplante-rim-007",
@@ -128,7 +134,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico do quadro clínico em questão é doença renal crônica em estágio 3-b.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-hub-transplante-rim-008",
@@ -139,7 +146,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entre os fatores que modificam a progressão da doença renal crônica deste paciente estão hipertensão não controlada, dislipidemia, tabagismo e albuminúria.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-hub-transplante-rim-009",
@@ -359,7 +367,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na doença renal crônica, os níveis plasmáticos de calcitriol caem nitidamente abaixo do normal quando a taxa de filtração glomerular está menor que 30 mL/minuto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-hub-transplante-rim-029",
@@ -370,7 +379,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O fator de crescimento derivado do fibroblasto 23 (FGF-23), um peptídeo cuja concentração aumenta em caso de insuficiência renal crônica, atua promovendo um aumento da síntese do calcitriol.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-hub-transplante-rim-030",
@@ -381,7 +391,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na doença renal crônica, a expressão dos receptores sensíveis ao cálcio está reduzida nas glândulas paratireoides hipertrofiadas, todavia, a administração de calcimiméticos tanto aumenta a sensibilidade dos receptores ao cálcio extracelular como reduz a secreção do PTH.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-hub-transplante-rim-031",
@@ -953,7 +964,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O equilíbrio ácido básico é afetado nas fases iniciais da insuficiência renal crônica. A excreção de amônio não se sustenta devido à incapacidade das células do túbulo proximal de aumentar a síntese de amônia, o que resulta em acidose metabólica.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-hub-transplante-rim-083",
@@ -964,7 +976,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os rins mantêm quase intacto o balanço de sódio até próximo às fases terminais da doença renal crônica, e a fração de excreção de sódio aumenta em proporção inversa à queda do ritmo de filtração glomerular.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-hub-transplante-rim-084",
@@ -975,7 +988,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nos pacientes com doença renal crônica, a dificuldade em concentrar a urina os predispõe à desidratação hipertônica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-hub-transplante-rim-085",
@@ -1052,7 +1066,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O estado urêmico é miocardiopático devido a seu envolvimento hemodinâmico, manifestado por hipotensão, depleção de volume e complacência arterial aumentada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-hub-transplante-rim-092",
@@ -1063,7 +1078,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O padrão-ouro para o diagnóstico de doença arterial coronariana é a cintilografia miocárdica, uma ferramenta diagnóstica moderna e menos invasiva que outras.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-hub-transplante-rim-093",
@@ -1074,7 +1090,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os inibidores da enzima conversora da angiotensina e os antagonistas da angiotensina II são considerados agentes de primeira linha para o tratamento da hipertensão arterial na maioria dos pacientes, devido ao efeito benéfico de retardar a progressão da DRC proteinúrica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-hub-transplante-rim-094",
@@ -1085,7 +1102,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hipertrofia do ventrículo esquerdo acomete cerca de 40% dos pacientes com insuficiência renal crônica moderada, sendo diabetes, hipertensão, tabagismo e anemia fatores que aceleram o desenvolvimento da miocardiopatia sintomática nesses pacientes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-hub-transplante-rim-095",
@@ -1096,7 +1114,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Após a ultrafiltração rápida na hemodiálise, é frequente a ocorrência de hipovolemia, que constitui indício clínico da presença de disfunção diastólica no paciente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-hub-transplante-rim-096",
@@ -6068,7 +6087,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A irritação do diafragma que desencadeia dor no ombro é um exemplo de dor parietal.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-hub-mastologia-072",
@@ -6079,7 +6099,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A Escherichia coli é um microrganismo bastante prevalente nos casos de peritonite primária.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-hub-mastologia-073",
@@ -6090,7 +6111,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A dor presente na colecistite aguda apresenta o mesmo padrão da cólica biliar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-hub-mastologia-074",
@@ -6101,7 +6123,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As causas de abdome agudo não variam conforme a idade do paciente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-hub-mastologia-075",
@@ -6112,7 +6135,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A porfiria aguda intermitente é uma das causas de abdome agudo não cirúrgico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-hub-mastologia-076",
@@ -6123,7 +6147,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A dor visceral no abdome tende a ser mais precisa e localizada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-hub-mastologia-077",
@@ -7047,7 +7072,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A porfiria aguda intermitente é uma das causas de abdome agudo não cirúrgico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-cirurgia-geral-042",
@@ -7058,7 +7084,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A dor visceral no abdome tende a ser mais precisa e localizada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-cirurgia-geral-043",
@@ -7069,7 +7096,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A irritação do diafragma que desencadeia dor no ombro é um exemplo de dor parietal.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-cirurgia-geral-044",
@@ -7080,7 +7108,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A Escherichia coli é um microrganismo bastante prevalente nos casos de peritonite primária.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-cirurgia-geral-045",
@@ -7091,7 +7120,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A dor presente na colecistite aguda apresenta o mesmo padrão da cólica biliar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-cirurgia-geral-046",
@@ -7102,7 +7132,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As causas de abdome agudo não variam conforme a idade do paciente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-cirurgia-geral-047",
@@ -7465,7 +7496,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso o referido paciente não apresente calcificações pancreáticas, deverá ser excluído o diagnóstico de pancreatite crônica.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-hub-cirurgia-geral-080",
@@ -7476,7 +7508,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No que se refere ao problema pancreático desse paciente, não é incomum a presença de tecido pancreático em sítios ectópicos, porém, grande parte do tecido pancreático ectópico não é funcionante.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-hub-cirurgia-geral-081",
@@ -7487,7 +7520,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A presença de diabetes melito e esteatorreia indicam que houve perda significativa das funções pancreáticas endócrina e exócrina, quadro mais compatível com pancreatite crônica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-hub-cirurgia-geral-082",
@@ -7498,7 +7532,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Uma das operações utilizadas para o tratamento desse paciente é a derivação do tipo Puestow, que, com suas modificações, envolve basicamente uma pancreaticojejunoanastomia longitudinal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-hub-cirurgia-geral-083",
@@ -8356,7 +8391,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A porfiria aguda intermitente é uma das causas de abdome agudo não cirúrgico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-clinica-medica-042",
@@ -8367,7 +8403,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A dor visceral no abdome tende a ser mais precisa e localizada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-clinica-medica-043",
@@ -8378,7 +8415,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A irritação do diafragma que desencadeia dor no ombro é um exemplo de dor parietal.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-clinica-medica-044",
@@ -8389,7 +8427,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A Escherichia coli é um microrganismo bastante prevalente nos casos de peritonite primária.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-clinica-medica-045",
@@ -8400,7 +8439,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A dor presente na colecistite aguda apresenta o mesmo padrão da cólica biliar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-clinica-medica-046",
@@ -8411,7 +8451,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As causas de abdome agudo não variam conforme a idade do paciente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-clinica-medica-047",
@@ -8774,7 +8815,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso o referido paciente não apresente calcificações pancreáticas, deverá ser excluído o diagnóstico de pancreatite crônica.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-hub-clinica-medica-080",
@@ -8785,7 +8827,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No que se refere ao problema pancreático desse paciente, não é incomum a presença de tecido pancreático em sítios ectópicos, porém, grande parte do tecido pancreático ectópico não é funcionante.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-hub-clinica-medica-081",
@@ -8796,7 +8839,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A presença de diabetes melito e esteatorreia indicam que houve perda significativa das funções pancreáticas endócrina e exócrina, quadro mais compatível com pancreatite crônica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-hub-clinica-medica-082",
@@ -8807,7 +8851,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Uma das operações utilizadas para o tratamento desse paciente é a derivação do tipo Puestow, que, com suas modificações, envolve basicamente uma pancreaticojejunoanastomia longitudinal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-hub-clinica-medica-083",
@@ -9665,7 +9710,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A porfiria aguda intermitente é uma das causas de abdome agudo não cirúrgico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-coloproctologia-042",
@@ -9676,7 +9722,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A dor visceral no abdome tende a ser mais precisa e localizada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-coloproctologia-043",
@@ -9687,7 +9734,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A irritação do diafragma que desencadeia dor no ombro é um exemplo de dor parietal.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-coloproctologia-044",
@@ -9698,7 +9746,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A Escherichia coli é um microrganismo bastante prevalente nos casos de peritonite primária.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-coloproctologia-045",
@@ -9709,7 +9758,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A dor presente na colecistite aguda apresenta o mesmo padrão da cólica biliar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-coloproctologia-046",
@@ -9720,7 +9770,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As causas de abdome agudo não variam conforme a idade do paciente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-coloproctologia-047",
@@ -10083,7 +10134,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso o referido paciente não apresente calcificações pancreáticas, deverá ser excluído o diagnóstico de pancreatite crônica.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-hub-coloproctologia-080",
@@ -10094,7 +10146,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No que se refere ao problema pancreático desse paciente, não é incomum a presença de tecido pancreático em sítios ectópicos, porém, grande parte do tecido pancreático ectópico não é funcionante.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-hub-coloproctologia-081",
@@ -10105,7 +10158,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A presença de diabetes melito e esteatorreia indicam que houve perda significativa das funções pancreáticas endócrina e exócrina, quadro mais compatível com pancreatite crônica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-hub-coloproctologia-082",
@@ -10116,7 +10170,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Uma das operações utilizadas para o tratamento desse paciente é a derivação do tipo Puestow, que, com suas modificações, envolve basicamente uma pancreaticojejunoanastomia longitudinal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-hub-coloproctologia-083",
@@ -10567,7 +10622,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É de moderada limitação do fluxo aéreo o quadro de um paciente com diagnóstico clínico de DPOC que apresenta, em um teste de função pulmonar, volume expiratório forçado no primeiro segundo (VEF1) de 36% do previsto e capacidade vital forçada (VEF1/CVF) de 57%.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-003",
@@ -10578,7 +10634,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O roflumilast, um inibidor da fosfodiesterase 4 (PDE4), aumenta a tolerância ao exercício, reduz o número de internações hospitalares e, consequentemente, melhora significativamente a qualidade de vida do paciente com DPOC, independentemente da gravidade da doença e do tratamento concomitante a que esteja submetido.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-004",
@@ -10589,7 +10646,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Está indicado o uso de nitrato de ação prolongada para a prevenção das crises referidas pelo paciente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-005",
@@ -10600,7 +10658,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Com vistas à redução da ocorrência de eventos cardiovasculares futuros, bem como do risco de mortalidade cardiovascular, indica-se o uso de ivabradina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-006",
@@ -10611,7 +10670,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Indica-se, nesse caso, a administração de vareniclina, um agonista seletivo do receptor nicotínico, para aumentar a probabilidade de cessação do tabagismo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-007",
@@ -10622,7 +10682,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Recomenda-se para esse paciente a realização de angiografia coronariana.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-008",
@@ -11128,7 +11189,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É possível inferir que houve alcalose metabólica no quadro em tela.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-056",
@@ -11139,7 +11201,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A plaquetopenia faz parte da fase anti-inflamatória da sepse.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-057",
@@ -11150,7 +11213,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A alteração da função renal poderá ser transitória. Para isso, é necessário tratar a paciente com antibioticoterapia, direcionada ao principal foco de infecção, sem ajuste de dose para a função renal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-058",
@@ -11161,7 +11225,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico gasométrico permite inferir que existe produção de ânions não mensuráveis consumindo bicarbonato.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-059",
@@ -11172,7 +11237,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O rebaixamento do nível de consciência exige uma propedêutica de imagem tomográfica, já que a probabilidade de malformação arteriovenosa, com ruptura de aneurisma, deve ser descartada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-060",
@@ -11183,7 +11249,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Justifica-se a intubação orotraqueal dado o risco de broncoaspiração, causado pelo rebaixamento do nível de consciência.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-061",
@@ -11326,7 +11393,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O fato de o paciente apresentar cor pulmonale caracteriza estágio avançado da DPOC.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-074",
@@ -11337,7 +11405,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Oximetria de 86% não é sinal de gravidade do referido caso clínico, uma vez que paciente com DPOC suporta baixos níveis de oxigenação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-075",
@@ -11348,7 +11417,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A causa mais provável da exacerbação da DPOC é infecção, sendo os vírus o agente etiológico de maior frequência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-076",
@@ -11359,7 +11429,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso clínico, a presença de hemoptise é um forte indício de diagnóstico de carcinoma broncogênico associado à DPOC.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-077",
@@ -11436,7 +11507,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A duração do tratamento deverá ser estendida até quarenta e oito horas após o período febril.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-085",
@@ -11447,7 +11519,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para a confirmação do provável diagnóstico do referido caso clínico, será necessária a realização de radiografia de tórax.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-086",
@@ -11458,7 +11531,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expectativa é que o resultado do exame de imagem identifique lesão na porção posterior do lobo superior direito.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-087",
@@ -11469,7 +11543,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O paciente deverá ser submetido a tratamento em regime ambulatorial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-088",
@@ -11601,7 +11676,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Diante desse quadro clínico, o médico deverá encaminhar o paciente à cirurgia vascular para a confecção de fístula arteriovenosa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-101",
@@ -11612,7 +11688,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hipótese diagnóstica mais provável para o referido quadro clínico é a de hipertensão essencial.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-102",
@@ -11623,7 +11700,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eritropoetina, produzida principalmente nas células epiteliais do tufo glomerular no seguimento anterior à arteríola eferente, estimula a medula óssea a produzir eritroblastos, atuando no controle hematimétrico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-103",
@@ -11634,7 +11712,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hipertensão caracteriza piora importante da função renal, apesar dos níveis estáveis de ureia e creatinina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-104",
@@ -11645,7 +11724,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O médico deverá suspender o uso da eritropoetina, que é o provável causador da hipertensão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-105",
@@ -11656,7 +11736,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considerando o resultado da eletroforese de proteínas, um dos diagnósticos prováveis seria o de mieloma múltiplo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-106",
@@ -11667,7 +11748,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A dor associada à proeminência vascular relatada e os referidos achados laboratoriais são compatíveis com quadro de crioglobulinemia mista, uma vasculite associada geralmente à hepatite C crônica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-107",
@@ -11678,7 +11760,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Dado o grau de fibrose encontrado na elastografia, uma opção de tratamento para a hepatite C é a associação de Sofosbuvir e Daclatasvir.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-108",
@@ -11689,7 +11772,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Uma das primeiras linhas de tratamento a ser adotada nesse caso é a pulsoterapia com corticosteroides.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-109",
@@ -11700,7 +11784,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os referidos achados laboratoriais são compatíveis com quadro de cirrose hepática.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-110",
@@ -11711,7 +11796,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O resultado da biometria do paciente indica piora no prognóstico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-111",
@@ -11722,7 +11808,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O provável diagnóstico de DPOC para esse paciente será confirmado com a realização de uma espirometria cujos resultados apresentem relação entre volume expiratório forçado no primeiro segundo (VEF1) e capacidade vital forçada (CVF) maior que 0,7 após o uso de broncodilatador.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-112",
@@ -11733,7 +11820,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O tabagismo é o principal fator de risco de DPOC, sendo essa uma patologia de evolução inexoravelmente progressiva, mesmo após o abandono do hábito de fumar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-113",
@@ -11744,7 +11832,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os portadores de doenças hereditárias com a deficiência de α-1-antitripsina apresentam maior risco de desenvolver DPOC.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-cardiologia-114",
@@ -11832,7 +11921,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A dor associada à proeminência vascular relatada e os referidos achados laboratoriais são compatíveis com quadro de crioglobulinemia mista, uma vasculite associada geralmente à hepatite C crônica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-gastroenterologia-106",
@@ -11843,7 +11933,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A dor associada à proeminência vascular relatada e os referidos achados laboratoriais são compatíveis com quadro de crioglobulinemia mista, uma vasculite associada geralmente à hepatite C crônica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-geriatria-002",
@@ -11854,7 +11945,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É de moderada limitação do fluxo aéreo o quadro de um paciente com diagnóstico clínico de DPOC que apresenta, em um teste de função pulmonar, volume expiratório forçado no primeiro segundo (VEF1) de 36% do previsto e capacidade vital forçada (VEF1/CVF) de 57%.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-hub-geriatria-003",
@@ -11865,7 +11957,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O roflumilast, um inibidor da fosfodiesterase 4 (PDE4), aumenta a tolerância ao exercício, reduz o número de internações hospitalares e, consequentemente, melhora significativamente a qualidade de vida do paciente com DPOC, independentemente da gravidade da doença e do tratamento concomitante a que esteja submetido.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-hub-geriatria-004",
@@ -11876,7 +11969,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Está indicado o uso de nitrato de ação prolongada para a prevenção das crises referidas pelo paciente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-geriatria-005",
@@ -11887,7 +11981,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Com vistas à redução da ocorrência de eventos cardiovasculares futuros, bem como do risco de mortalidade cardiovascular, indica-se o uso de ivabradina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-geriatria-006",
@@ -11898,7 +11993,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Indica-se, nesse caso, a administração de vareniclina, um agonista seletivo do receptor nicotínico, para aumentar a probabilidade de cessação do tabagismo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-geriatria-007",
@@ -11909,7 +12005,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Recomenda-se para esse paciente a realização de angiografia coronariana.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-geriatria-008",
@@ -12415,7 +12512,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É possível inferir que houve alcalose metabólica no quadro em tela.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-geriatria-056",
@@ -12426,7 +12524,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A plaquetopenia faz parte da fase anti-inflamatória da sepse.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-geriatria-057",
@@ -12437,7 +12536,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A alteração da função renal poderá ser transitória. Para isso, é necessário tratar a paciente com antibioticoterapia, direcionada ao principal foco de infecção, sem ajuste de dose para a função renal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-geriatria-058",
@@ -12448,7 +12548,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico gasométrico permite inferir que existe produção de ânions não mensuráveis consumindo bicarbonato.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-geriatria-059",
@@ -12459,7 +12560,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O rebaixamento do nível de consciência exige uma propedêutica de imagem tomográfica, já que a probabilidade de malformação arteriovenosa, com ruptura de aneurisma, deve ser descartada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-geriatria-060",
@@ -12470,7 +12572,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Justifica-se a intubação orotraqueal dado o risco de broncoaspiração, causado pelo rebaixamento do nível de consciência.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-geriatria-061",
@@ -12613,7 +12716,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O fato de o paciente apresentar cor pulmonale caracteriza estágio avançado da DPOC.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-geriatria-074",
@@ -12624,7 +12728,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Oximetria de 86% não é sinal de gravidade do referido caso clínico, uma vez que paciente com DPOC suporta baixos níveis de oxigenação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-geriatria-075",
@@ -12635,7 +12740,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A causa mais provável da exacerbação da DPOC é infecção, sendo os vírus o agente etiológico de maior frequência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-geriatria-076",
@@ -12646,7 +12752,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso clínico, a presença de hemoptise é um forte indício de diagnóstico de carcinoma broncogênico associado à DPOC.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-geriatria-077",
@@ -12723,7 +12830,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A duração do tratamento deverá ser estendida até quarenta e oito horas após o período febril.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-geriatria-085",
@@ -12734,7 +12842,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para a confirmação do provável diagnóstico do referido caso clínico, será necessária a realização de radiografia de tórax.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-geriatria-086",
@@ -12745,7 +12854,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expectativa é que o resultado do exame de imagem identifique lesão na porção posterior do lobo superior direito.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-geriatria-087",
@@ -12756,7 +12866,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O paciente deverá ser submetido a tratamento em regime ambulatorial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-geriatria-088",
@@ -12888,7 +12999,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Diante desse quadro clínico, o médico deverá encaminhar o paciente à cirurgia vascular para a confecção de fístula arteriovenosa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-geriatria-101",
@@ -12899,7 +13011,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hipótese diagnóstica mais provável para o referido quadro clínico é a de hipertensão essencial.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-geriatria-102",
@@ -12910,7 +13023,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eritropoetina, produzida principalmente nas células epiteliais do tufo glomerular no seguimento anterior à arteríola eferente, estimula a medula óssea a produzir eritroblastos, atuando no controle hematimétrico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-geriatria-103",
@@ -12921,7 +13035,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hipertensão caracteriza piora importante da função renal, apesar dos níveis estáveis de ureia e creatinina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-geriatria-104",
@@ -12932,7 +13047,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O médico deverá suspender o uso da eritropoetina, que é o provável causador da hipertensão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-geriatria-105",
@@ -12943,7 +13059,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considerando o resultado da eletroforese de proteínas, um dos diagnósticos prováveis seria o de mieloma múltiplo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-geriatria-106",
@@ -12954,7 +13071,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A dor associada à proeminência vascular relatada e os referidos achados laboratoriais são compatíveis com quadro de crioglobulinemia mista, uma vasculite associada geralmente à hepatite C crônica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-geriatria-107",
@@ -12965,7 +13083,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Dado o grau de fibrose encontrado na elastografia, uma opção de tratamento para a hepatite C é a associação de Sofosbuvir e Daclatasvir.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-geriatria-108",
@@ -12976,7 +13095,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Uma das primeiras linhas de tratamento a ser adotada nesse caso é a pulsoterapia com corticosteroides.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-geriatria-109",
@@ -12987,7 +13107,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os referidos achados laboratoriais são compatíveis com quadro de cirrose hepática.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-geriatria-110",
@@ -12998,7 +13119,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O resultado da biometria do paciente indica piora no prognóstico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-geriatria-111",
@@ -13009,7 +13131,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O provável diagnóstico de DPOC para esse paciente será confirmado com a realização de uma espirometria cujos resultados apresentem relação entre volume expiratório forçado no primeiro segundo (VEF1) e capacidade vital forçada (CVF) maior que 0,7 após o uso de broncodilatador.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-geriatria-112",
@@ -13020,7 +13143,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O tabagismo é o principal fator de risco de DPOC, sendo essa uma patologia de evolução inexoravelmente progressiva, mesmo após o abandono do hábito de fumar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-geriatria-113",
@@ -13031,7 +13155,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os portadores de doenças hereditárias com a deficiência de α-1-antitripsina apresentam maior risco de desenvolver DPOC.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-geriatria-114",
@@ -13119,7 +13244,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É de moderada limitação do fluxo aéreo o quadro de um paciente com diagnóstico clínico de DPOC que apresenta, em um teste de função pulmonar, volume expiratório forçado no primeiro segundo (VEF1) de 36% do previsto e capacidade vital forçada (VEF1/CVF) de 57%.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-003",
@@ -13130,7 +13256,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O roflumilast, um inibidor da fosfodiesterase 4 (PDE4), aumenta a tolerância ao exercício, reduz o número de internações hospitalares e, consequentemente, melhora significativamente a qualidade de vida do paciente com DPOC, independentemente da gravidade da doença e do tratamento concomitante a que esteja submetido.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-004",
@@ -13141,7 +13268,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Está indicado o uso de nitrato de ação prolongada para a prevenção das crises referidas pelo paciente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-005",
@@ -13152,7 +13280,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Com vistas à redução da ocorrência de eventos cardiovasculares futuros, bem como do risco de mortalidade cardiovascular, indica-se o uso de ivabradina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-006",
@@ -13163,7 +13292,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Indica-se, nesse caso, a administração de vareniclina, um agonista seletivo do receptor nicotínico, para aumentar a probabilidade de cessação do tabagismo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-007",
@@ -13174,7 +13304,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Recomenda-se para esse paciente a realização de angiografia coronariana.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-008",
@@ -13680,7 +13811,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É possível inferir que houve alcalose metabólica no quadro em tela.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-056",
@@ -13691,7 +13823,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A plaquetopenia faz parte da fase anti-inflamatória da sepse.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-057",
@@ -13702,7 +13835,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A alteração da função renal poderá ser transitória. Para isso, é necessário tratar a paciente com antibioticoterapia, direcionada ao principal foco de infecção, sem ajuste de dose para a função renal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-058",
@@ -13713,7 +13847,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico gasométrico permite inferir que existe produção de ânions não mensuráveis consumindo bicarbonato.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-059",
@@ -13724,7 +13859,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O rebaixamento do nível de consciência exige uma propedêutica de imagem tomográfica, já que a probabilidade de malformação arteriovenosa, com ruptura de aneurisma, deve ser descartada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-060",
@@ -13735,7 +13871,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Justifica-se a intubação orotraqueal dado o risco de broncoaspiração, causado pelo rebaixamento do nível de consciência.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-061",
@@ -13878,7 +14015,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O fato de o paciente apresentar cor pulmonale caracteriza estágio avançado da DPOC.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-074",
@@ -13889,7 +14027,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Oximetria de 86% não é sinal de gravidade do referido caso clínico, uma vez que paciente com DPOC suporta baixos níveis de oxigenação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-075",
@@ -13900,7 +14039,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A causa mais provável da exacerbação da DPOC é infecção, sendo os vírus o agente etiológico de maior frequência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-076",
@@ -13911,7 +14051,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso clínico, a presença de hemoptise é um forte indício de diagnóstico de carcinoma broncogênico associado à DPOC.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-077",
@@ -13988,7 +14129,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A duração do tratamento deverá ser estendida até quarenta e oito horas após o período febril.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-085",
@@ -13999,7 +14141,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para a confirmação do provável diagnóstico do referido caso clínico, será necessária a realização de radiografia de tórax.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-086",
@@ -14010,7 +14153,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expectativa é que o resultado do exame de imagem identifique lesão na porção posterior do lobo superior direito.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-087",
@@ -14021,7 +14165,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O paciente deverá ser submetido a tratamento em regime ambulatorial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-088",
@@ -14153,7 +14298,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Diante desse quadro clínico, o médico deverá encaminhar o paciente à cirurgia vascular para a confecção de fístula arteriovenosa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-101",
@@ -14164,7 +14310,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hipótese diagnóstica mais provável para o referido quadro clínico é a de hipertensão essencial.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-102",
@@ -14175,7 +14322,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eritropoetina, produzida principalmente nas células epiteliais do tufo glomerular no seguimento anterior à arteríola eferente, estimula a medula óssea a produzir eritroblastos, atuando no controle hematimétrico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-103",
@@ -14186,7 +14334,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hipertensão caracteriza piora importante da função renal, apesar dos níveis estáveis de ureia e creatinina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-104",
@@ -14197,7 +14346,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O médico deverá suspender o uso da eritropoetina, que é o provável causador da hipertensão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-105",
@@ -14208,7 +14358,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considerando o resultado da eletroforese de proteínas, um dos diagnósticos prováveis seria o de mieloma múltiplo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-106",
@@ -14219,7 +14370,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A dor associada à proeminência vascular relatada e os referidos achados laboratoriais são compatíveis com quadro de crioglobulinemia mista, uma vasculite associada geralmente à hepatite C crônica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-107",
@@ -14230,7 +14382,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Dado o grau de fibrose encontrado na elastografia, uma opção de tratamento para a hepatite C é a associação de Sofosbuvir e Daclatasvir.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-108",
@@ -14241,7 +14394,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Uma das primeiras linhas de tratamento a ser adotada nesse caso é a pulsoterapia com corticosteroides.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-109",
@@ -14252,7 +14406,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os referidos achados laboratoriais são compatíveis com quadro de cirrose hepática.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-110",
@@ -14263,7 +14418,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O resultado da biometria do paciente indica piora no prognóstico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-111",
@@ -14274,7 +14430,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O provável diagnóstico de DPOC para esse paciente será confirmado com a realização de uma espirometria cujos resultados apresentem relação entre volume expiratório forçado no primeiro segundo (VEF1) e capacidade vital forçada (CVF) maior que 0,7 após o uso de broncodilatador.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-112",
@@ -14285,7 +14442,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O tabagismo é o principal fator de risco de DPOC, sendo essa uma patologia de evolução inexoravelmente progressiva, mesmo após o abandono do hábito de fumar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-113",
@@ -14296,7 +14454,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os portadores de doenças hereditárias com a deficiência de α-1-antitripsina apresentam maior risco de desenvolver DPOC.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-nefrologia-114",
@@ -14384,7 +14543,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É de moderada limitação do fluxo aéreo o quadro de um paciente com diagnóstico clínico de DPOC que apresenta, em um teste de função pulmonar, volume expiratório forçado no primeiro segundo (VEF1) de 36% do previsto e capacidade vital forçada (VEF1/CVF) de 57%.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-003",
@@ -14395,7 +14555,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O roflumilast, um inibidor da fosfodiesterase 4 (PDE4), aumenta a tolerância ao exercício, reduz o número de internações hospitalares e, consequentemente, melhora significativamente a qualidade de vida do paciente com DPOC, independentemente da gravidade da doença e do tratamento concomitante a que esteja submetido.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-004",
@@ -14406,7 +14567,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Está indicado o uso de nitrato de ação prolongada para a prevenção das crises referidas pelo paciente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-005",
@@ -14417,7 +14579,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Com vistas à redução da ocorrência de eventos cardiovasculares futuros, bem como do risco de mortalidade cardiovascular, indica-se o uso de ivabradina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-006",
@@ -14428,7 +14591,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Indica-se, nesse caso, a administração de vareniclina, um agonista seletivo do receptor nicotínico, para aumentar a probabilidade de cessação do tabagismo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-007",
@@ -14439,7 +14603,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Recomenda-se para esse paciente a realização de angiografia coronariana.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-008",
@@ -14945,7 +15110,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É possível inferir que houve alcalose metabólica no quadro em tela.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-056",
@@ -14956,7 +15122,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A plaquetopenia faz parte da fase anti-inflamatória da sepse.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-057",
@@ -14967,7 +15134,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A alteração da função renal poderá ser transitória. Para isso, é necessário tratar a paciente com antibioticoterapia, direcionada ao principal foco de infecção, sem ajuste de dose para a função renal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-058",
@@ -14978,7 +15146,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico gasométrico permite inferir que existe produção de ânions não mensuráveis consumindo bicarbonato.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-059",
@@ -14989,7 +15158,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O rebaixamento do nível de consciência exige uma propedêutica de imagem tomográfica, já que a probabilidade de malformação arteriovenosa, com ruptura de aneurisma, deve ser descartada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-060",
@@ -15000,7 +15170,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Justifica-se a intubação orotraqueal dado o risco de broncoaspiração, causado pelo rebaixamento do nível de consciência.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-061",
@@ -15143,7 +15314,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O fato de o paciente apresentar cor pulmonale caracteriza estágio avançado da DPOC.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-074",
@@ -15154,7 +15326,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Oximetria de 86% não é sinal de gravidade do referido caso clínico, uma vez que paciente com DPOC suporta baixos níveis de oxigenação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-075",
@@ -15165,7 +15338,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A causa mais provável da exacerbação da DPOC é infecção, sendo os vírus o agente etiológico de maior frequência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-076",
@@ -15176,7 +15350,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso clínico, a presença de hemoptise é um forte indício de diagnóstico de carcinoma broncogênico associado à DPOC.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-077",
@@ -15253,7 +15428,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A duração do tratamento deverá ser estendida até quarenta e oito horas após o período febril.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-085",
@@ -15264,7 +15440,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para a confirmação do provável diagnóstico do referido caso clínico, será necessária a realização de radiografia de tórax.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-086",
@@ -15275,7 +15452,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expectativa é que o resultado do exame de imagem identifique lesão na porção posterior do lobo superior direito.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-087",
@@ -15286,7 +15464,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O paciente deverá ser submetido a tratamento em regime ambulatorial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-088",
@@ -15418,7 +15597,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Diante desse quadro clínico, o médico deverá encaminhar o paciente à cirurgia vascular para a confecção de fístula arteriovenosa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-101",
@@ -15429,7 +15609,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hipótese diagnóstica mais provável para o referido quadro clínico é a de hipertensão essencial.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-102",
@@ -15440,7 +15621,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eritropoetina, produzida principalmente nas células epiteliais do tufo glomerular no seguimento anterior à arteríola eferente, estimula a medula óssea a produzir eritroblastos, atuando no controle hematimétrico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-103",
@@ -15451,7 +15633,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hipertensão caracteriza piora importante da função renal, apesar dos níveis estáveis de ureia e creatinina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-104",
@@ -15462,7 +15645,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O médico deverá suspender o uso da eritropoetina, que é o provável causador da hipertensão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-105",
@@ -15473,7 +15657,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considerando o resultado da eletroforese de proteínas, um dos diagnósticos prováveis seria o de mieloma múltiplo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-106",
@@ -15484,7 +15669,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A dor associada à proeminência vascular relatada e os referidos achados laboratoriais são compatíveis com quadro de crioglobulinemia mista, uma vasculite associada geralmente à hepatite C crônica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-107",
@@ -15495,7 +15681,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Dado o grau de fibrose encontrado na elastografia, uma opção de tratamento para a hepatite C é a associação de Sofosbuvir e Daclatasvir.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-108",
@@ -15506,7 +15693,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Uma das primeiras linhas de tratamento a ser adotada nesse caso é a pulsoterapia com corticosteroides.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-109",
@@ -15517,7 +15705,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os referidos achados laboratoriais são compatíveis com quadro de cirrose hepática.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-110",
@@ -15528,7 +15717,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O resultado da biometria do paciente indica piora no prognóstico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-111",
@@ -15539,7 +15729,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O provável diagnóstico de DPOC para esse paciente será confirmado com a realização de uma espirometria cujos resultados apresentem relação entre volume expiratório forçado no primeiro segundo (VEF1) e capacidade vital forçada (CVF) maior que 0,7 após o uso de broncodilatador.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-112",
@@ -15550,7 +15741,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O tabagismo é o principal fator de risco de DPOC, sendo essa uma patologia de evolução inexoravelmente progressiva, mesmo após o abandono do hábito de fumar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-113",
@@ -15561,7 +15753,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os portadores de doenças hereditárias com a deficiência de α-1-antitripsina apresentam maior risco de desenvolver DPOC.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-pneumologia-114",
@@ -15649,7 +15842,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É de moderada limitação do fluxo aéreo o quadro de um paciente com diagnóstico clínico de DPOC que apresenta, em um teste de função pulmonar, volume expiratório forçado no primeiro segundo (VEF1) de 36% do previsto e capacidade vital forçada (VEF1/CVF) de 57%.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-003",
@@ -15660,7 +15854,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O roflumilast, um inibidor da fosfodiesterase 4 (PDE4), aumenta a tolerância ao exercício, reduz o número de internações hospitalares e, consequentemente, melhora significativamente a qualidade de vida do paciente com DPOC, independentemente da gravidade da doença e do tratamento concomitante a que esteja submetido.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-004",
@@ -15671,7 +15866,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Está indicado o uso de nitrato de ação prolongada para a prevenção das crises referidas pelo paciente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-005",
@@ -15682,7 +15878,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Com vistas à redução da ocorrência de eventos cardiovasculares futuros, bem como do risco de mortalidade cardiovascular, indica-se o uso de ivabradina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-006",
@@ -15693,7 +15890,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Indica-se, nesse caso, a administração de vareniclina, um agonista seletivo do receptor nicotínico, para aumentar a probabilidade de cessação do tabagismo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-007",
@@ -15704,7 +15902,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Recomenda-se para esse paciente a realização de angiografia coronariana.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-008",
@@ -16210,7 +16409,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É possível inferir que houve alcalose metabólica no quadro em tela.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-056",
@@ -16221,7 +16421,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A plaquetopenia faz parte da fase anti-inflamatória da sepse.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-057",
@@ -16232,7 +16433,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A alteração da função renal poderá ser transitória. Para isso, é necessário tratar a paciente com antibioticoterapia, direcionada ao principal foco de infecção, sem ajuste de dose para a função renal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-058",
@@ -16243,7 +16445,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico gasométrico permite inferir que existe produção de ânions não mensuráveis consumindo bicarbonato.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-059",
@@ -16254,7 +16457,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O rebaixamento do nível de consciência exige uma propedêutica de imagem tomográfica, já que a probabilidade de malformação arteriovenosa, com ruptura de aneurisma, deve ser descartada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-060",
@@ -16265,7 +16469,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Justifica-se a intubação orotraqueal dado o risco de broncoaspiração, causado pelo rebaixamento do nível de consciência.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-061",
@@ -16408,7 +16613,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O fato de o paciente apresentar cor pulmonale caracteriza estágio avançado da DPOC.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-074",
@@ -16419,7 +16625,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Oximetria de 86% não é sinal de gravidade do referido caso clínico, uma vez que paciente com DPOC suporta baixos níveis de oxigenação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-075",
@@ -16430,7 +16637,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A causa mais provável da exacerbação da DPOC é infecção, sendo os vírus o agente etiológico de maior frequência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-076",
@@ -16441,7 +16649,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso clínico, a presença de hemoptise é um forte indício de diagnóstico de carcinoma broncogênico associado à DPOC.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-077",
@@ -16518,7 +16727,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A duração do tratamento deverá ser estendida até quarenta e oito horas após o período febril.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-085",
@@ -16529,7 +16739,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para a confirmação do provável diagnóstico do referido caso clínico, será necessária a realização de radiografia de tórax.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-086",
@@ -16540,7 +16751,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expectativa é que o resultado do exame de imagem identifique lesão na porção posterior do lobo superior direito.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-087",
@@ -16551,7 +16763,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O paciente deverá ser submetido a tratamento em regime ambulatorial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-088",
@@ -16683,7 +16896,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Diante desse quadro clínico, o médico deverá encaminhar o paciente à cirurgia vascular para a confecção de fístula arteriovenosa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-101",
@@ -16694,7 +16908,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hipótese diagnóstica mais provável para o referido quadro clínico é a de hipertensão essencial.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-102",
@@ -16705,7 +16920,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eritropoetina, produzida principalmente nas células epiteliais do tufo glomerular no seguimento anterior à arteríola eferente, estimula a medula óssea a produzir eritroblastos, atuando no controle hematimétrico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-103",
@@ -16716,7 +16932,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hipertensão caracteriza piora importante da função renal, apesar dos níveis estáveis de ureia e creatinina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-104",
@@ -16727,7 +16944,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O médico deverá suspender o uso da eritropoetina, que é o provável causador da hipertensão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-105",
@@ -16738,7 +16956,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considerando o resultado da eletroforese de proteínas, um dos diagnósticos prováveis seria o de mieloma múltiplo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-106",
@@ -16749,7 +16968,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A dor associada à proeminência vascular relatada e os referidos achados laboratoriais são compatíveis com quadro de crioglobulinemia mista, uma vasculite associada geralmente à hepatite C crônica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-107",
@@ -16760,7 +16980,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Dado o grau de fibrose encontrado na elastografia, uma opção de tratamento para a hepatite C é a associação de Sofosbuvir e Daclatasvir.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-108",
@@ -16771,7 +16992,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Uma das primeiras linhas de tratamento a ser adotada nesse caso é a pulsoterapia com corticosteroides.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-109",
@@ -16782,7 +17004,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os referidos achados laboratoriais são compatíveis com quadro de cirrose hepática.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-110",
@@ -16793,7 +17016,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O resultado da biometria do paciente indica piora no prognóstico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-111",
@@ -16804,7 +17028,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O provável diagnóstico de DPOC para esse paciente será confirmado com a realização de uma espirometria cujos resultados apresentem relação entre volume expiratório forçado no primeiro segundo (VEF1) e capacidade vital forçada (CVF) maior que 0,7 após o uso de broncodilatador.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-112",
@@ -16815,7 +17040,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O tabagismo é o principal fator de risco de DPOC, sendo essa uma patologia de evolução inexoravelmente progressiva, mesmo após o abandono do hábito de fumar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-113",
@@ -16826,7 +17052,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os portadores de doenças hereditárias com a deficiência de α-1-antitripsina apresentam maior risco de desenvolver DPOC.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-reumatologia-114",
@@ -16936,7 +17163,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para a realização da gastrostomia endoscópica, o paciente deve suspender o uso das referidas medicações pelo menos cinco dias antes do procedimento e, durante o pré-operatório, deve substituí-las por heparina de baixo peso molecular, suspendendo seu uso, entretanto, vinte e quatro horas antes do procedimento cirúrgico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-hub-anestesiologia-004",
@@ -16980,7 +17208,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em relação à abordagem clínica dessa paciente, o exame mais adequado para se estabelecer o diagnóstico inicial seria a enteroscopia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-hub-anestesiologia-009",
@@ -16991,7 +17220,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso seja indicada cirurgia, a paciente deverá ser previamente submetida à broncoscopia, para que se tenha certeza de que não se trata de um quadro de neoplasia endobronquial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-hub-anestesiologia-010",
@@ -17002,7 +17232,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A decisão de submeter a paciente a tratamento cirúrgico seria inadequada, visto que a doença afeta apenas um segmento pulmonar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-hub-anestesiologia-011",
@@ -17035,7 +17266,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso, indica-se a administração da vacina antirrábica humana de cultivo celular, em cinco doses, bem como a administração de soro antirrábico, do qual deve ser administrada pelo menos metade da dose no local do ferimento no atendimento inicial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2016-hub-anestesiologia-014",
@@ -17068,7 +17300,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A paciente deve ser submetida à colecistectomia em caráter de urgência, devendo ser imediatamente iniciado o uso de antibióticos (quinolona associada a metronidazol), que deve se estender por pelo menos dez dias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2016-hub-anestesiologia-017",
@@ -17376,7 +17609,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Como a lesão valvar definitiva está plenamente instalada, a profilaxia secundária para febre reumática não é recomendada para a paciente em questão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-hub-anestesiologia-046",
@@ -17387,7 +17621,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso em consideração, o reforço pré-sistólico indica a presença de moderada regurgitação no nível da valva mitral.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-hub-anestesiologia-047",
@@ -17420,7 +17655,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente B representa o de uma criança com nanismo primário pré-pubertário.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-anestesiologia-050",
@@ -17431,7 +17667,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente C é o de uma criança com nanismo hipotiroidiano.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-anestesiologia-051",
@@ -17442,7 +17679,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente D corresponde ao de uma criança com nanismo pituitário.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-anestesiologia-052",
@@ -17453,7 +17691,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente E representa o de uma criança com nanismo acondroplásico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-anestesiologia-053",
@@ -17464,7 +17703,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente A corresponde ao de uma criança com crescimento normal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-anestesiologia-054",
@@ -17519,7 +17759,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ante as evidências sorológicas, o quadro clínico da paciente não deve ser atribuído à hepatite B.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-anestesiologia-059",
@@ -17530,7 +17771,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Após a cura clínica, a paciente deverá receber quatro doses da vacina contra o HPV em um intervalo de seis meses, se ainda não tiver sido vacinada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-anestesiologia-060",
@@ -17541,7 +17783,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico de dengue está descartado, pois o exame de detecção para o antígeno viral NS1 foi negativo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-anestesiologia-061",
@@ -17552,7 +17795,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hepatite A é uma hipótese de diagnóstico, apesar de o teste sorológico HVA IgM ser não reagente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-anestesiologia-062",
@@ -18201,7 +18445,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para a realização da gastrostomia endoscópica, o paciente deve suspender o uso das referidas medicações pelo menos cinco dias antes do procedimento e, durante o pré-operatório, deve substituí-las por heparina de baixo peso molecular, suspendendo seu uso, entretanto, vinte e quatro horas antes do procedimento cirúrgico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-hub-dermatologia-004",
@@ -18245,7 +18490,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em relação à abordagem clínica dessa paciente, o exame mais adequado para se estabelecer o diagnóstico inicial seria a enteroscopia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-hub-dermatologia-009",
@@ -18256,7 +18502,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso seja indicada cirurgia, a paciente deverá ser previamente submetida à broncoscopia, para que se tenha certeza de que não se trata de um quadro de neoplasia endobronquial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-hub-dermatologia-010",
@@ -18267,7 +18514,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A decisão de submeter a paciente a tratamento cirúrgico seria inadequada, visto que a doença afeta apenas um segmento pulmonar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-hub-dermatologia-011",
@@ -18300,7 +18548,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso, indica-se a administração da vacina antirrábica humana de cultivo celular, em cinco doses, bem como a administração de soro antirrábico, do qual deve ser administrada pelo menos metade da dose no local do ferimento no atendimento inicial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2016-hub-dermatologia-014",
@@ -18333,7 +18582,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A paciente deve ser submetida à colecistectomia em caráter de urgência, devendo ser imediatamente iniciado o uso de antibióticos (quinolona associada a metronidazol), que deve se estender por pelo menos dez dias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2016-hub-dermatologia-017",
@@ -18641,7 +18891,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Como a lesão valvar definitiva está plenamente instalada, a profilaxia secundária para febre reumática não é recomendada para a paciente em questão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-hub-dermatologia-046",
@@ -18652,7 +18903,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso em consideração, o reforço pré-sistólico indica a presença de moderada regurgitação no nível da valva mitral.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-hub-dermatologia-047",
@@ -18685,7 +18937,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente B representa o de uma criança com nanismo primário pré-pubertário.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-dermatologia-050",
@@ -18696,7 +18949,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente C é o de uma criança com nanismo hipotiroidiano.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-dermatologia-051",
@@ -18707,7 +18961,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente D corresponde ao de uma criança com nanismo pituitário.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-dermatologia-052",
@@ -18718,7 +18973,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente E representa o de uma criança com nanismo acondroplásico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-dermatologia-053",
@@ -18729,7 +18985,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente A corresponde ao de uma criança com crescimento normal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-dermatologia-054",
@@ -18784,7 +19041,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ante as evidências sorológicas, o quadro clínico da paciente não deve ser atribuído à hepatite B.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-dermatologia-059",
@@ -18795,7 +19053,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Após a cura clínica, a paciente deverá receber quatro doses da vacina contra o HPV em um intervalo de seis meses, se ainda não tiver sido vacinada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-dermatologia-060",
@@ -18806,7 +19065,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico de dengue está descartado, pois o exame de detecção para o antígeno viral NS1 foi negativo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-dermatologia-061",
@@ -18817,7 +19077,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hepatite A é uma hipótese de diagnóstico, apesar de o teste sorológico HVA IgM ser não reagente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-dermatologia-062",
@@ -19466,7 +19727,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para a realização da gastrostomia endoscópica, o paciente deve suspender o uso das referidas medicações pelo menos cinco dias antes do procedimento e, durante o pré-operatório, deve substituí-las por heparina de baixo peso molecular, suspendendo seu uso, entretanto, vinte e quatro horas antes do procedimento cirúrgico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-hub-infectologia-004",
@@ -19510,7 +19772,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em relação à abordagem clínica dessa paciente, o exame mais adequado para se estabelecer o diagnóstico inicial seria a enteroscopia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-hub-infectologia-009",
@@ -19521,7 +19784,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso seja indicada cirurgia, a paciente deverá ser previamente submetida à broncoscopia, para que se tenha certeza de que não se trata de um quadro de neoplasia endobronquial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-hub-infectologia-010",
@@ -19532,7 +19796,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A decisão de submeter a paciente a tratamento cirúrgico seria inadequada, visto que a doença afeta apenas um segmento pulmonar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-hub-infectologia-011",
@@ -19565,7 +19830,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso, indica-se a administração da vacina antirrábica humana de cultivo celular, em cinco doses, bem como a administração de soro antirrábico, do qual deve ser administrada pelo menos metade da dose no local do ferimento no atendimento inicial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2016-hub-infectologia-014",
@@ -19598,7 +19864,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A paciente deve ser submetida à colecistectomia em caráter de urgência, devendo ser imediatamente iniciado o uso de antibióticos (quinolona associada a metronidazol), que deve se estender por pelo menos dez dias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2016-hub-infectologia-017",
@@ -19906,7 +20173,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Como a lesão valvar definitiva está plenamente instalada, a profilaxia secundária para febre reumática não é recomendada para a paciente em questão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-hub-infectologia-046",
@@ -19917,7 +20185,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso em consideração, o reforço pré-sistólico indica a presença de moderada regurgitação no nível da valva mitral.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-hub-infectologia-047",
@@ -19950,7 +20219,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente B representa o de uma criança com nanismo primário pré-pubertário.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-infectologia-050",
@@ -19961,7 +20231,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente C é o de uma criança com nanismo hipotiroidiano.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-infectologia-051",
@@ -19972,7 +20243,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente D corresponde ao de uma criança com nanismo pituitário.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-infectologia-052",
@@ -19983,7 +20255,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente E representa o de uma criança com nanismo acondroplásico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-infectologia-053",
@@ -19994,7 +20267,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente A corresponde ao de uma criança com crescimento normal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-infectologia-054",
@@ -20049,7 +20323,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ante as evidências sorológicas, o quadro clínico da paciente não deve ser atribuído à hepatite B.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-infectologia-059",
@@ -20060,7 +20335,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Após a cura clínica, a paciente deverá receber quatro doses da vacina contra o HPV em um intervalo de seis meses, se ainda não tiver sido vacinada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-infectologia-060",
@@ -20071,7 +20347,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico de dengue está descartado, pois o exame de detecção para o antígeno viral NS1 foi negativo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-infectologia-061",
@@ -20082,7 +20359,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hepatite A é uma hipótese de diagnóstico, apesar de o teste sorológico HVA IgM ser não reagente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-infectologia-062",
@@ -20731,7 +21009,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para a realização da gastrostomia endoscópica, o paciente deve suspender o uso das referidas medicações pelo menos cinco dias antes do procedimento e, durante o pré-operatório, deve substituí-las por heparina de baixo peso molecular, suspendendo seu uso, entretanto, vinte e quatro horas antes do procedimento cirúrgico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-hub-oftalmologia-004",
@@ -20775,7 +21054,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em relação à abordagem clínica dessa paciente, o exame mais adequado para se estabelecer o diagnóstico inicial seria a enteroscopia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-hub-oftalmologia-009",
@@ -20786,7 +21066,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso seja indicada cirurgia, a paciente deverá ser previamente submetida à broncoscopia, para que se tenha certeza de que não se trata de um quadro de neoplasia endobronquial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-hub-oftalmologia-010",
@@ -20797,7 +21078,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A decisão de submeter a paciente a tratamento cirúrgico seria inadequada, visto que a doença afeta apenas um segmento pulmonar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-hub-oftalmologia-011",
@@ -20830,7 +21112,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso, indica-se a administração da vacina antirrábica humana de cultivo celular, em cinco doses, bem como a administração de soro antirrábico, do qual deve ser administrada pelo menos metade da dose no local do ferimento no atendimento inicial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2016-hub-oftalmologia-014",
@@ -20863,7 +21146,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A paciente deve ser submetida à colecistectomia em caráter de urgência, devendo ser imediatamente iniciado o uso de antibióticos (quinolona associada a metronidazol), que deve se estender por pelo menos dez dias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2016-hub-oftalmologia-017",
@@ -21171,7 +21455,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Como a lesão valvar definitiva está plenamente instalada, a profilaxia secundária para febre reumática não é recomendada para a paciente em questão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-hub-oftalmologia-046",
@@ -21182,7 +21467,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso em consideração, o reforço pré-sistólico indica a presença de moderada regurgitação no nível da valva mitral.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-hub-oftalmologia-047",
@@ -21215,7 +21501,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente B representa o de uma criança com nanismo primário pré-pubertário.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-oftalmologia-050",
@@ -21226,7 +21513,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente C é o de uma criança com nanismo hipotiroidiano.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-oftalmologia-051",
@@ -21237,7 +21525,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente D corresponde ao de uma criança com nanismo pituitário.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-oftalmologia-052",
@@ -21248,7 +21537,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente E representa o de uma criança com nanismo acondroplásico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-oftalmologia-053",
@@ -21259,7 +21549,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente A corresponde ao de uma criança com crescimento normal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-oftalmologia-054",
@@ -21314,7 +21605,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ante as evidências sorológicas, o quadro clínico da paciente não deve ser atribuído à hepatite B.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-oftalmologia-059",
@@ -21325,7 +21617,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Após a cura clínica, a paciente deverá receber quatro doses da vacina contra o HPV em um intervalo de seis meses, se ainda não tiver sido vacinada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-oftalmologia-060",
@@ -21336,7 +21629,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico de dengue está descartado, pois o exame de detecção para o antígeno viral NS1 foi negativo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-oftalmologia-061",
@@ -21347,7 +21641,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hepatite A é uma hipótese de diagnóstico, apesar de o teste sorológico HVA IgM ser não reagente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-oftalmologia-062",
@@ -21996,7 +22291,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para a realização da gastrostomia endoscópica, o paciente deve suspender o uso das referidas medicações pelo menos cinco dias antes do procedimento e, durante o pré-operatório, deve substituí-las por heparina de baixo peso molecular, suspendendo seu uso, entretanto, vinte e quatro horas antes do procedimento cirúrgico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-hub-otorrinolaringologia-004",
@@ -22040,7 +22336,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em relação à abordagem clínica dessa paciente, o exame mais adequado para se estabelecer o diagnóstico inicial seria a enteroscopia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-hub-otorrinolaringologia-009",
@@ -22051,7 +22348,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso seja indicada cirurgia, a paciente deverá ser previamente submetida à broncoscopia, para que se tenha certeza de que não se trata de um quadro de neoplasia endobronquial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-hub-otorrinolaringologia-010",
@@ -22062,7 +22360,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A decisão de submeter a paciente a tratamento cirúrgico seria inadequada, visto que a doença afeta apenas um segmento pulmonar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-hub-otorrinolaringologia-011",
@@ -22095,7 +22394,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso, indica-se a administração da vacina antirrábica humana de cultivo celular, em cinco doses, bem como a administração de soro antirrábico, do qual deve ser administrada pelo menos metade da dose no local do ferimento no atendimento inicial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2016-hub-otorrinolaringologia-014",
@@ -22128,7 +22428,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A paciente deve ser submetida à colecistectomia em caráter de urgência, devendo ser imediatamente iniciado o uso de antibióticos (quinolona associada a metronidazol), que deve se estender por pelo menos dez dias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2016-hub-otorrinolaringologia-017",
@@ -22436,7 +22737,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Como a lesão valvar definitiva está plenamente instalada, a profilaxia secundária para febre reumática não é recomendada para a paciente em questão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-hub-otorrinolaringologia-046",
@@ -22447,7 +22749,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso em consideração, o reforço pré-sistólico indica a presença de moderada regurgitação no nível da valva mitral.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-hub-otorrinolaringologia-047",
@@ -22480,7 +22783,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente B representa o de uma criança com nanismo primário pré-pubertário.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-otorrinolaringologia-050",
@@ -22491,7 +22795,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente C é o de uma criança com nanismo hipotiroidiano.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-otorrinolaringologia-051",
@@ -22502,7 +22807,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente D corresponde ao de uma criança com nanismo pituitário.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-otorrinolaringologia-052",
@@ -22513,7 +22819,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente E representa o de uma criança com nanismo acondroplásico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-otorrinolaringologia-053",
@@ -22524,7 +22831,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente A corresponde ao de uma criança com crescimento normal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-otorrinolaringologia-054",
@@ -22579,7 +22887,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ante as evidências sorológicas, o quadro clínico da paciente não deve ser atribuído à hepatite B.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-otorrinolaringologia-059",
@@ -22590,7 +22899,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Após a cura clínica, a paciente deverá receber quatro doses da vacina contra o HPV em um intervalo de seis meses, se ainda não tiver sido vacinada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-otorrinolaringologia-060",
@@ -22601,7 +22911,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico de dengue está descartado, pois o exame de detecção para o antígeno viral NS1 foi negativo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-otorrinolaringologia-061",
@@ -22612,7 +22923,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hepatite A é uma hipótese de diagnóstico, apesar de o teste sorológico HVA IgM ser não reagente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-otorrinolaringologia-062",
@@ -23261,7 +23573,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para a realização da gastrostomia endoscópica, o paciente deve suspender o uso das referidas medicações pelo menos cinco dias antes do procedimento e, durante o pré-operatório, deve substituí-las por heparina de baixo peso molecular, suspendendo seu uso, entretanto, vinte e quatro horas antes do procedimento cirúrgico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-hub-medicina-nuclear-004",
@@ -23305,7 +23618,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em relação à abordagem clínica dessa paciente, o exame mais adequado para se estabelecer o diagnóstico inicial seria a enteroscopia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-hub-medicina-nuclear-009",
@@ -23316,7 +23630,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso seja indicada cirurgia, a paciente deverá ser previamente submetida à broncoscopia, para que se tenha certeza de que não se trata de um quadro de neoplasia endobronquial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-hub-medicina-nuclear-010",
@@ -23327,7 +23642,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A decisão de submeter a paciente a tratamento cirúrgico seria inadequada, visto que a doença afeta apenas um segmento pulmonar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-hub-medicina-nuclear-011",
@@ -23360,7 +23676,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso, indica-se a administração da vacina antirrábica humana de cultivo celular, em cinco doses, bem como a administração de soro antirrábico, do qual deve ser administrada pelo menos metade da dose no local do ferimento no atendimento inicial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2016-hub-medicina-nuclear-014",
@@ -23393,7 +23710,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A paciente deve ser submetida à colecistectomia em caráter de urgência, devendo ser imediatamente iniciado o uso de antibióticos (quinolona associada a metronidazol), que deve se estender por pelo menos dez dias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2016-hub-medicina-nuclear-017",
@@ -23701,7 +24019,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Como a lesão valvar definitiva está plenamente instalada, a profilaxia secundária para febre reumática não é recomendada para a paciente em questão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-hub-medicina-nuclear-046",
@@ -23712,7 +24031,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso em consideração, o reforço pré-sistólico indica a presença de moderada regurgitação no nível da valva mitral.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-hub-medicina-nuclear-047",
@@ -23745,7 +24065,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente B representa o de uma criança com nanismo primário pré-pubertário.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-medicina-nuclear-050",
@@ -23756,7 +24077,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente C é o de uma criança com nanismo hipotiroidiano.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-medicina-nuclear-051",
@@ -23767,7 +24089,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente D corresponde ao de uma criança com nanismo pituitário.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-medicina-nuclear-052",
@@ -23778,7 +24101,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente E representa o de uma criança com nanismo acondroplásico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-medicina-nuclear-053",
@@ -23789,7 +24113,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente A corresponde ao de uma criança com crescimento normal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-medicina-nuclear-054",
@@ -23844,7 +24169,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ante as evidências sorológicas, o quadro clínico da paciente não deve ser atribuído à hepatite B.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-medicina-nuclear-059",
@@ -23855,7 +24181,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Após a cura clínica, a paciente deverá receber quatro doses da vacina contra o HPV em um intervalo de seis meses, se ainda não tiver sido vacinada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-medicina-nuclear-060",
@@ -23866,7 +24193,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico de dengue está descartado, pois o exame de detecção para o antígeno viral NS1 foi negativo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-medicina-nuclear-061",
@@ -23877,7 +24205,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hepatite A é uma hipótese de diagnóstico, apesar de o teste sorológico HVA IgM ser não reagente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-medicina-nuclear-062",
@@ -24526,7 +24855,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para a realização da gastrostomia endoscópica, o paciente deve suspender o uso das referidas medicações pelo menos cinco dias antes do procedimento e, durante o pré-operatório, deve substituí-las por heparina de baixo peso molecular, suspendendo seu uso, entretanto, vinte e quatro horas antes do procedimento cirúrgico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-hub-patologia-004",
@@ -24570,7 +24900,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em relação à abordagem clínica dessa paciente, o exame mais adequado para se estabelecer o diagnóstico inicial seria a enteroscopia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-hub-patologia-009",
@@ -24581,7 +24912,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso seja indicada cirurgia, a paciente deverá ser previamente submetida à broncoscopia, para que se tenha certeza de que não se trata de um quadro de neoplasia endobronquial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-hub-patologia-010",
@@ -24592,7 +24924,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A decisão de submeter a paciente a tratamento cirúrgico seria inadequada, visto que a doença afeta apenas um segmento pulmonar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-hub-patologia-011",
@@ -24625,7 +24958,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso, indica-se a administração da vacina antirrábica humana de cultivo celular, em cinco doses, bem como a administração de soro antirrábico, do qual deve ser administrada pelo menos metade da dose no local do ferimento no atendimento inicial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2016-hub-patologia-014",
@@ -24658,7 +24992,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A paciente deve ser submetida à colecistectomia em caráter de urgência, devendo ser imediatamente iniciado o uso de antibióticos (quinolona associada a metronidazol), que deve se estender por pelo menos dez dias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2016-hub-patologia-017",
@@ -24966,7 +25301,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Como a lesão valvar definitiva está plenamente instalada, a profilaxia secundária para febre reumática não é recomendada para a paciente em questão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-hub-patologia-046",
@@ -24977,7 +25313,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso em consideração, o reforço pré-sistólico indica a presença de moderada regurgitação no nível da valva mitral.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-hub-patologia-047",
@@ -25010,7 +25347,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente B representa o de uma criança com nanismo primário pré-pubertário.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-patologia-050",
@@ -25021,7 +25359,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente C é o de uma criança com nanismo hipotiroidiano.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-patologia-051",
@@ -25032,7 +25371,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente D corresponde ao de uma criança com nanismo pituitário.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-patologia-052",
@@ -25043,7 +25383,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente E representa o de uma criança com nanismo acondroplásico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-patologia-053",
@@ -25054,7 +25395,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente A corresponde ao de uma criança com crescimento normal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-patologia-054",
@@ -25109,7 +25451,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ante as evidências sorológicas, o quadro clínico da paciente não deve ser atribuído à hepatite B.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-patologia-059",
@@ -25120,7 +25463,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Após a cura clínica, a paciente deverá receber quatro doses da vacina contra o HPV em um intervalo de seis meses, se ainda não tiver sido vacinada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-patologia-060",
@@ -25131,7 +25475,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico de dengue está descartado, pois o exame de detecção para o antígeno viral NS1 foi negativo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-patologia-061",
@@ -25142,7 +25487,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hepatite A é uma hipótese de diagnóstico, apesar de o teste sorológico HVA IgM ser não reagente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-patologia-062",
@@ -25791,7 +26137,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para a realização da gastrostomia endoscópica, o paciente deve suspender o uso das referidas medicações pelo menos cinco dias antes do procedimento e, durante o pré-operatório, deve substituí-las por heparina de baixo peso molecular, suspendendo seu uso, entretanto, vinte e quatro horas antes do procedimento cirúrgico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-hub-pediatria-004",
@@ -25835,7 +26182,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em relação à abordagem clínica dessa paciente, o exame mais adequado para se estabelecer o diagnóstico inicial seria a enteroscopia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-hub-pediatria-009",
@@ -25846,7 +26194,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso seja indicada cirurgia, a paciente deverá ser previamente submetida à broncoscopia, para que se tenha certeza de que não se trata de um quadro de neoplasia endobronquial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-hub-pediatria-010",
@@ -25857,7 +26206,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A decisão de submeter a paciente a tratamento cirúrgico seria inadequada, visto que a doença afeta apenas um segmento pulmonar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-hub-pediatria-011",
@@ -25890,7 +26240,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso, indica-se a administração da vacina antirrábica humana de cultivo celular, em cinco doses, bem como a administração de soro antirrábico, do qual deve ser administrada pelo menos metade da dose no local do ferimento no atendimento inicial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2016-hub-pediatria-014",
@@ -25923,7 +26274,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A paciente deve ser submetida à colecistectomia em caráter de urgência, devendo ser imediatamente iniciado o uso de antibióticos (quinolona associada a metronidazol), que deve se estender por pelo menos dez dias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2016-hub-pediatria-017",
@@ -26231,7 +26583,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Como a lesão valvar definitiva está plenamente instalada, a profilaxia secundária para febre reumática não é recomendada para a paciente em questão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-hub-pediatria-046",
@@ -26242,7 +26595,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso em consideração, o reforço pré-sistólico indica a presença de moderada regurgitação no nível da valva mitral.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-hub-pediatria-047",
@@ -26275,7 +26629,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente B representa o de uma criança com nanismo primário pré-pubertário.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-pediatria-050",
@@ -26286,7 +26641,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente C é o de uma criança com nanismo hipotiroidiano.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-pediatria-051",
@@ -26297,7 +26653,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente D corresponde ao de uma criança com nanismo pituitário.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-pediatria-052",
@@ -26308,7 +26665,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente E representa o de uma criança com nanismo acondroplásico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-pediatria-053",
@@ -26319,7 +26677,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente A corresponde ao de uma criança com crescimento normal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-pediatria-054",
@@ -26374,7 +26733,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ante as evidências sorológicas, o quadro clínico da paciente não deve ser atribuído à hepatite B.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-pediatria-059",
@@ -26385,7 +26745,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Após a cura clínica, a paciente deverá receber quatro doses da vacina contra o HPV em um intervalo de seis meses, se ainda não tiver sido vacinada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-pediatria-060",
@@ -26396,7 +26757,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico de dengue está descartado, pois o exame de detecção para o antígeno viral NS1 foi negativo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-pediatria-061",
@@ -26407,7 +26769,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hepatite A é uma hipótese de diagnóstico, apesar de o teste sorológico HVA IgM ser não reagente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-pediatria-062",
@@ -27056,7 +27419,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para a realização da gastrostomia endoscópica, o paciente deve suspender o uso das referidas medicações pelo menos cinco dias antes do procedimento e, durante o pré-operatório, deve substituí-las por heparina de baixo peso molecular, suspendendo seu uso, entretanto, vinte e quatro horas antes do procedimento cirúrgico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-hub-psiquiatria-004",
@@ -27100,7 +27464,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em relação à abordagem clínica dessa paciente, o exame mais adequado para se estabelecer o diagnóstico inicial seria a enteroscopia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-hub-psiquiatria-009",
@@ -27111,7 +27476,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso seja indicada cirurgia, a paciente deverá ser previamente submetida à broncoscopia, para que se tenha certeza de que não se trata de um quadro de neoplasia endobronquial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-hub-psiquiatria-010",
@@ -27122,7 +27488,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A decisão de submeter a paciente a tratamento cirúrgico seria inadequada, visto que a doença afeta apenas um segmento pulmonar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-hub-psiquiatria-011",
@@ -27155,7 +27522,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso, indica-se a administração da vacina antirrábica humana de cultivo celular, em cinco doses, bem como a administração de soro antirrábico, do qual deve ser administrada pelo menos metade da dose no local do ferimento no atendimento inicial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2016-hub-psiquiatria-014",
@@ -27188,7 +27556,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A paciente deve ser submetida à colecistectomia em caráter de urgência, devendo ser imediatamente iniciado o uso de antibióticos (quinolona associada a metronidazol), que deve se estender por pelo menos dez dias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2016-hub-psiquiatria-017",
@@ -27496,7 +27865,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Como a lesão valvar definitiva está plenamente instalada, a profilaxia secundária para febre reumática não é recomendada para a paciente em questão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-hub-psiquiatria-046",
@@ -27507,7 +27877,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso em consideração, o reforço pré-sistólico indica a presença de moderada regurgitação no nível da valva mitral.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-hub-psiquiatria-047",
@@ -27540,7 +27911,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente B representa o de uma criança com nanismo primário pré-pubertário.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-psiquiatria-050",
@@ -27551,7 +27923,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente C é o de uma criança com nanismo hipotiroidiano.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-psiquiatria-051",
@@ -27562,7 +27935,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente D corresponde ao de uma criança com nanismo pituitário.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-psiquiatria-052",
@@ -27573,7 +27947,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente E representa o de uma criança com nanismo acondroplásico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-psiquiatria-053",
@@ -27584,7 +27959,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente A corresponde ao de uma criança com crescimento normal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-psiquiatria-054",
@@ -27639,7 +28015,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ante as evidências sorológicas, o quadro clínico da paciente não deve ser atribuído à hepatite B.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-psiquiatria-059",
@@ -27650,7 +28027,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Após a cura clínica, a paciente deverá receber quatro doses da vacina contra o HPV em um intervalo de seis meses, se ainda não tiver sido vacinada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-psiquiatria-060",
@@ -27661,7 +28039,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico de dengue está descartado, pois o exame de detecção para o antígeno viral NS1 foi negativo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-psiquiatria-061",
@@ -27672,7 +28051,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hepatite A é uma hipótese de diagnóstico, apesar de o teste sorológico HVA IgM ser não reagente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-psiquiatria-062",
@@ -28321,7 +28701,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para a realização da gastrostomia endoscópica, o paciente deve suspender o uso das referidas medicações pelo menos cinco dias antes do procedimento e, durante o pré-operatório, deve substituí-las por heparina de baixo peso molecular, suspendendo seu uso, entretanto, vinte e quatro horas antes do procedimento cirúrgico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-hub-radioterapia-004",
@@ -28365,7 +28746,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em relação à abordagem clínica dessa paciente, o exame mais adequado para se estabelecer o diagnóstico inicial seria a enteroscopia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-hub-radioterapia-009",
@@ -28376,7 +28758,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso seja indicada cirurgia, a paciente deverá ser previamente submetida à broncoscopia, para que se tenha certeza de que não se trata de um quadro de neoplasia endobronquial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-hub-radioterapia-010",
@@ -28387,7 +28770,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A decisão de submeter a paciente a tratamento cirúrgico seria inadequada, visto que a doença afeta apenas um segmento pulmonar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2016-hub-radioterapia-011",
@@ -28420,7 +28804,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nesse caso, indica-se a administração da vacina antirrábica humana de cultivo celular, em cinco doses, bem como a administração de soro antirrábico, do qual deve ser administrada pelo menos metade da dose no local do ferimento no atendimento inicial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2016-hub-radioterapia-014",
@@ -28453,7 +28838,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A paciente deve ser submetida à colecistectomia em caráter de urgência, devendo ser imediatamente iniciado o uso de antibióticos (quinolona associada a metronidazol), que deve se estender por pelo menos dez dias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2016-hub-radioterapia-017",
@@ -28761,7 +29147,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Como a lesão valvar definitiva está plenamente instalada, a profilaxia secundária para febre reumática não é recomendada para a paciente em questão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-hub-radioterapia-046",
@@ -28772,7 +29159,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso em consideração, o reforço pré-sistólico indica a presença de moderada regurgitação no nível da valva mitral.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2016-hub-radioterapia-047",
@@ -28805,7 +29193,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente B representa o de uma criança com nanismo primário pré-pubertário.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-radioterapia-050",
@@ -28816,7 +29205,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente C é o de uma criança com nanismo hipotiroidiano.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-radioterapia-051",
@@ -28827,7 +29217,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente D corresponde ao de uma criança com nanismo pituitário.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-radioterapia-052",
@@ -28838,7 +29229,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente E representa o de uma criança com nanismo acondroplásico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-radioterapia-053",
@@ -28849,7 +29241,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O auxograma do paciente A corresponde ao de uma criança com crescimento normal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2016-hub-radioterapia-054",
@@ -28904,7 +29297,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ante as evidências sorológicas, o quadro clínico da paciente não deve ser atribuído à hepatite B.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-radioterapia-059",
@@ -28915,7 +29309,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Após a cura clínica, a paciente deverá receber quatro doses da vacina contra o HPV em um intervalo de seis meses, se ainda não tiver sido vacinada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-radioterapia-060",
@@ -28926,7 +29321,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico de dengue está descartado, pois o exame de detecção para o antígeno viral NS1 foi negativo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-radioterapia-061",
@@ -28937,7 +29333,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hepatite A é uma hipótese de diagnóstico, apesar de o teste sorológico HVA IgM ser não reagente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2016-hub-radioterapia-062",
@@ -29554,6 +29951,146 @@
    "tipo": "certo_errado",
    "enunciado": "O tratamento para a coqueluche é o uso de antibiótico macrolídeo.",
    "gabarito": "certo"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Cada um dos itens da prova objetiva está vinculado ao comando que imediatamente o antecede. De acordo com o comando a que cada um deles esteja vinculado, marque, na folha de respostas , para cada item: o campo designado com o código CERTO ; ou o campo designado com o código E , caso julgue o item os campos não serão apenadas, ou seja, não receberão pontuação negativa. Para as devidas marcações, use a documento válido para a correção da sua prova objetiva. • Em sua prova, caso haja item(ns) constituído(s) pela estrutura Situação hipotética:\n\ncomo situação hipotética deverão ser considerados como premissa(s) para o julgamento da assertiva proposta. • Eventuais espaços livres — identificados ou não pela expressão “Espaço livre” — que constarem deste caderno de prova poderão ser\n\nutilizados para anotações, rascunhos etc.\n\nPROVA OBJETIVA",
+   "citacao": "Um paciente de trinta e três anos de idade, portador de doença renal crônica (DRC), decorrente de uma glomerulonefrite esclerosante focal (GESF), e hipertensão arterial, em uso de inibidor de enzima de conversão (IECA), entrara, havia seis meses, em programa de diálise crônica, permanecendo em esquema de hemodiálise três vezes por semana, com sessões de duração de quatro horas e acesso por fístula arteriovenosa em MSE. Os últimos exames realizados pelo paciente apresentaram os seguintes resultados: ferritina sérica = 150 ng/dL; saturação de transferrina = 15%; hemoglobina sérica = 9,0 g/dL.",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um paciente de sessenta e dois anos de idade, tabagista de um maço de cigarros ao dia, compareceu à consulta médica ambulatorial por insistência da esposa, que relatou ao médico que seu marido não obedece às orientações para o tratamento de hipertensão, que permanece mal controlada, e que nem ao menos vai com frequência ao ambulatório para acompanhamento do seu quadro clínico. Ao exame físico, os valores de pressão arterial aferidos variaram de 160 mmHg × 170 mmHg (sistólica) a 100 mmHg × 110 mmHg (diastólica). Os exames laboratoriais colhidos na última semana apresentaram creatinina sérica = 2,2 mg%; taxa de filtração glomerular estimada pela fórmula CKD-EPI = 42 mL/min/1,73 m 2 . O resultado do lipidograma indicou hipercolesterolemia com LDL aumentado; triglicerídeos = 230 mg/dL; HDL < 30 mg/dL. Em uma amostra de urina a relação albumina/creatinina (RAC) foi de 100 mg/g. Foram evidenciados, ainda, os seguintes resultados: PTH = 180 pg/mL; fósforo sérico = 5,6 mg/dL.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "8: Nefrologia\n\nAlterações no metabolismo mineral e na estrutura dos ossos\n\nocorrem precocemente na evolução da doença renal crônica e",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "– 4 – No caso de doença renal crônica, os rins podem adaptar-se na busca da manutenção da homeostase do organismo. A esse respeito,",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "8: Nefrologia\n\nSabendo que a doença cardiovascular é a principal causa de morte\n\nem pacientes com doença renal crônica (DRC), julgue os itens a\n\nseguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A instalação de um quadro de abdome agudo é acompanhada por dor abdominal importante, independentemente de sua causa, e requer geralmente a realização de uma intervenção cirúrgica para o seu tratamento. Com relação a esse assunto, julgue os próximos itens.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "– 2 – A instalação de um quadro de abdome agudo é acompanhada por dor abdominal importante, independentemente de sua causa, e requer geralmente a realização de uma intervenção cirúrgica para o seu tratamento. Com relação a esse assunto, julgue os próximos itens.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "3: Cirurgia Geral\n\nUm paciente de cinquenta anos de idade, etilista crônico,\n\nfoi encaminhado a serviço especializado por apresentar dor no\n\nandar superior do abdome que irradiava para o dorso. De acordo\n\ncom a família, esse quadro perdurava havia três anos e, com o\n\npassar do tempo, a dor tornou-se mais constante. O paciente\n\napresentava, ainda, esteatorreia e diabetes melito e foi\n\ndiagnosticado com problema pancreático.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um paciente com cinquenta e oito anos de idade, tabagista havia quarenta anos, referiu episódios de dor retroesternal constritiva de moderada intensidade, sem irradiação, durante caminhadas apressadas. Conforme seu relato, a dor, que cedia espontaneamente em menos de cinco minutos após o término do esforço físico, surgiu havia três meses, sem modificações do quadro clínico desde então. Ele negava outros sinais e sintomas correlatos ou doenças em tratamento. No momento da consulta, estava assintomático. Ao exame físico apresentou pressão arterial = 132 mmHg × 78 mmHg (média de três medidas), frequência cardíaca = 68 bpm e ritmo cardíaco regular em dois tempos sem sopros. O restante do exame físico foi normal. Os resultados da dosagem de CK-MB massa e da troponina da admissão no pronto atendimento foram normais. O eletrocardiograma realizado pelo paciente, com calibração padrão, é apresentado a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "– 3 – Uma paciente, previamente hígida, de vinte e sete anos de idade, chegou ao pronto-socorro apresentando dor lombar à direita, febre, náuseas, vômitos e piora do quadro de disúria, polaciúria e hematúria, iniciado três semanas antes desse atendimento e cujos sintomas haviam melhorado parcialmente após o uso de medicação adquirida sem prescrição médica pela paciente. Os exames mostraram os seguintes resultados: PEG, mucosas secas e hipocoradas; edema de MMII (+/+4); perfusão periférica débil; estado febril = 38,5 °C; PA = 80 mmHg × 60 mmHg; pulso = 120 bpm; FR = 28 irpm; peso basal = 60 kg; AR = pulmões limpos, esforço respiratório e uso de musculatura acessória; Sat O 2 90% (Venturi 50% 10 L/min.); ACV = BRNF, taquicárdicas, sem sopros; ADig = Giordano positivo à direita, sem visceromegalias; sistema nervoso = pupilas isocóricas e fotorreagentes, obnubilada; escala de coma de Glasgow = 13; diurese = 350 mL/12 h. Exames adicionais: hemograma: Hb = 10; leucograma = 3.500; bastão = 500; plaquetas = 105.000; ureia = 85; creatinina = 1,8; Na = 144; K = 5,1; C R = 102. Gasometria: pH = 7,2; HCO 3 = 16; PCO 2 = 28; PO 2 = 75; lactato = 2,6. Considerando o caso clínico apresentado, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "inspiratório, com ausculta pulmonar sem ruídos adventícios; e edema de membros inferiores. Nesse sentido, considere que a sigla DPOC, sempre que utilizada, refere-se a doença pulmonar obstrutiva crônica.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um paciente de vinte e cinco anos de idade procurou um posto de saúde por apresentar, havia três meses, quadro clínico de febre vespertina de até 38 ºC, sudorese noturna, tosse com eliminação de secreção amarelada e perda de 5 kg no período. No exame físico, o médico constatou crepitações expiratórias em região supraclavicular direita.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um homem de setenta e cinco anos de idade, portador de doença renal crônica secundária e glomerulonefrite, em tratamento conservador com a nefrologia, foi atendido em ambulatório com relato de quadro de cefaleia occipital, pulsátil, predominante no período vespertino, associada a tonturas e insônia.\n\nAo ser indagado, o paciente informou que esse quadro persistia havia três meses e que, por ser asmático, fazia uso crônico de broncodilatador e corticoide em doses baixas. Além disso, devido à anemia com estoques de ferro normais, havia três meses que fazia uso (três vezes por semana) de eritropoetina 4.000 UI SC.\n\nO médico foi informado, ainda, de que, nas últimas consultas, a pressão arterial do paciente estava normal e que, na consulta mais recente, apresentou os seguintes achados clínicos: PA = 160 mmHg × 100 mmHg (sem outras alterações cardiológicas); Cr = 4,3 mg\\dL; Ur = 88 mg\\dL (níveis semelhantes aos da consulta anterior); Hb = 12,6; Ht = 36%; Na = 138 mEq\\L; K+ = 3,5 mEq\\L; ausculta respiratória normal e peso = 89 kg.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "– 6 – Um homem de sessenta anos de idade, portador de hepatite C crônica diagnosticada havia vinte anos, refratária a tratamento prévio com Interferon e Ribavirina, foi atendido em ambulatório sem sinais clínicos e laboratoriais de insuficiência hepática. Ao ser indagado, negou histórico de hipertensão ou diabetes e disse que, havia cinco anos, não fazia mais uso de álcool e cigarro.\n\nO paciente informou que, dado o quadro de ansiedade, fazia uso de paroxetina e que, havia cerca de um mês, apresentava dor em membros inferiores, de forte intensidade, com aumento progressivo. De acordo com o relato do paciente, o médico foi informado, ainda, de episódio de proeminência dolorosa da veia orbitária, com resolução espontânea após uma semana, e piora das crises de dor em MMII, refratária a AINES e dipirona.\n\nNa investigação clínica, os resultados dos exames do paciente apresentaram as seguintes alterações: fator reumatoide = 1980 UI\\ml; C3 = 4 mg\\dL; pico policlonal de α 1 e β globulinas na eletroforese de proteínas com imunofixação; pesquisa de crioglobulinas positiva; elastografia hepática com grau 2\\3 (F2\\F3) de fibrose. No que se refere ao caso clínico precedente, julgue os itens que se seguem, em relação à hepatite C e suas complicações.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um paciente de cinquenta e cinco anos de idade, 65 kg e 1,81 m de altura, procurou assistência médica devido à dispneia, que inicialmente ocorria aos médios esforços e, havia cerca de um mês, aos mínimos esforços. O paciente informou que era tabagista de longa data, com carga tabágica de vinte cigarros por dia nos últimos trinta anos e que não apresentava outras patologias. Com relação ao caso clínico descrito e a patologia nele envolvida, julgue os próximos itens. Nesse sentido, considere que a sigla DPOC, sempre que utilizada, refere-se à doença pulmonar obstrutiva crônica.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Paciente do sexo masculino, de oitenta e três anos de idade, portador de mal de Alzheimer e que, havia seis anos, sofrera infarto agudo do miocárdio, o que motivou a colocação de stent em sua artéria coronária direita, apresentou quadro súbito de paralisia do dimidio esquerdo, bem como alteração da fala e do nível de consciência. Ao ter sido internado na UTI, diagnosticou-se AVCI no paciente. Durante o período de internação na UTI, ele apresentou dificuldade de se alimentar por via oral, com episódios de broncoaspiração associados, motivo por que foi necessário definir a SNE como via exclusiva de alimentação. Realizada avaliação da deglutição mediante videodeglutograma, foi diagnosticada disfagia orofaríngea grave. Foi solicitada ao paciente a realização de gastrostomia endoscópica. Nesse período, ele estava em uso de clopidogrel e AAS.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "– 1 – Paciente do sexo feminino, de cinquenta e três anos de idade, com quadro de anemia crônica por deficiência de ferro, compareceu a serviço médico, apresentando pesquisa de sangue oculto nas fezes com resultado positivo e os resultados de três videoendoscopias digestivas altas e duas colonoscopias, que indicaram boas condições de preparo, sem evidências de fonte de sangramento visível. Os exames foram realizados em um centro de referência para hemorragia digestiva. A paciente negou ocorrência anterior de sangramento digestivo visível.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Paciente do sexo feminino, de quarenta e cinco anos de idade, teve pelo menos três episódios de pneumonia nos últimos cinco anos. Nos dois primeiros episódios, houve necessidade de internação hospitalar por, no mínimo, dez dias. Nos últimos seis meses, a paciente passou a apresentar astenia, perda de peso, febre recorrente, tosse crônica com eliminação de bastante secreção esverdeada e hemoptise. Foi realizada tomografia computadorizada de tórax na paciente, e o resultado do exame revelou dilatação bronquial e bronquiectasia sacular difusa do segmento lobar inferior direito. O tratamento clínico desde então indicado à paciente não logrou melhora expressiva, havendo ainda recorrência dos sintomas. Em vista disso, a equipe médica reuniu-se para discutir a possibilidade de submeter a paciente a cirurgia.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "1: Programas de Residência Médica de Acesso Direto\n\nCriança de oito anos de idade, proveniente de região rural,\n\ndeu entrada no pronto-socorro após ter sido mordida por animal\n\nsilvestre (porco-do-mato), que desapareceu após o ocorrido. O\n\nferimento na criança era profundo e múltiplo, localizado no\n\nantebraço esquerdo, sem perda de substância. Foi realizada lavagem\n\nexaustiva do ferimento após anestesia local, com debridamento de\n\ntecido desvitalizado, hemostasia e realização de pontos distantes\n\npara aproximação.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Paciente do sexo feminino, portadora de colelitíase, compareceu ao pronto-socorro com quadro de confusão mental, icterícia, febre, dor e massa palpável no hipocôndrio direito. A paciente apresentava dor abdominal, vômitos e febre havia três dias. No pronto-socorro, indicaram-lhe a realização da ultrassonografia abdominal. O resultado desse exame evidenciou espessamento da parede da vesícula biliar, coleção pericolecística, dilatação das vias biliares e colelitíase. Os exames laboratoriais realizados mostraram leucocitose com desvio à esquerda, elevação das transaminases, das bilirrubinas e da fostase alcalina.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma professora do ensino fundamental, de vinte e oito anos de idade, procurou atendimento médico por apresentar dispneia aos médios esforços. O exame físico cardiovascular revelou ictus cordis visível e palpável no 5.º espaço intercostal na linha medioclavicular esquerda; presença de hiperfonese; e desdobramento fisiológico da segunda bulha em foco pulmonar. Na ausculta do foco mitral, observaram-se hiperfonese da primeira bulha, estalido de abertura da mitral e sopro protomesodiastólico — grau III de Levine — associado a reforço pré-sistólico. No exame clínico, não foram observadas outras alterações significativas. Após avaliação clínica e laboratorial, o médico estabeleceu o diagnóstico de cardiopatia reumática crônica, tipo estenose mitral, de moderada intensidade.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "– 4 – Pediatria Auxograma é um método gráfico para diagnóstico de distúrbios do crescimento no qual se registram diferentes aspectos do crescimento por meio de um sistema de coordenadas cartesianas que relacionam a idade cronológica com a idade e a altura, a idade e o peso, a idade óssea e a idade mental. A partir dessas informações, julgue os itens seguintes com base nos auxogramas dispostos na figura apresentada.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma menina de dez anos de idade, moradora da periferia de uma grande cidade, foi atendida na emergência, apresentando, de acordo com relato da mãe, febre alta havia seis dias. A mãe informou, ainda, que, após quarenta e oito horas do início da febre, esta havia sido seguida por cefaleia, vômitos, diarreia e urina escura. No exame físico, o médico observou escleróticas ictéricas, dor abdominal e discreta hepatomegalia. A mãe da menina relatou que havia um surto de dengue na região onde moravam. Exames laboratoriais realizados no terceiro dia da evolução do quadro clínico apresentaram os seguintes resultados: TGO = 90 UI; TGP = 280 UI; anti-HVA IgM e IgG não reagentes; anti-HBs Ag reagente; HBs Ag, HBeAg, anti-HBeAg, anti-HB C IgM e IgG não reagentes; o exame de detecção para antígeno da dengue NS1 foi negativo. Com referência ao caso clínico apresentado, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

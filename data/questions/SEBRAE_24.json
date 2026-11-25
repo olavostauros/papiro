@@ -3418,7 +3418,8 @@
     "à submissão dos brasileiros ao modo de agir e pensar dos estrangeiros, sobretudo os estadunidenses.",
     "ao risco de perda da pureza e da identidade original da língua portuguesa.",
     "ao nível de dominação de grupos sociais hegemônicos sobre as demais parcelas da população."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-sebrae-analista-educacao-002",
@@ -3435,7 +3436,8 @@
     "a presença de estrangeirismos em vitrines de lojas.",
     "o fato de as reações aos estrangeirismos serem, ao mesmo tempo, variadas e contraditórias.",
     "o fato de estrangeirismos provocarem reações afetivas e passionais."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-sebrae-analista-educacao-003",
@@ -3452,7 +3454,8 @@
     "Não que isso seja um problema ou uma ameaça à integridade do português brasileiro, tendo em vista que, nosso país, desde a sua origem, sempre teve um caráter plurilinguístico.",
     "Não que isso seja um problema ou uma ameaça à integridade do português brasileiro, no entanto nosso país, desde sua origem, sempre teve um caráter plurilinguístico.",
     "Não que isso seja um problema ou uma ameaça à integridade do português brasileiro, enquanto nosso país, desde a sua origem, sempre teve um caráter plurilinguístico."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-sebrae-analista-educacao-004",
@@ -3469,7 +3472,8 @@
     "proporcionalidade.",
     "contraste.",
     "causa e consequência."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-sebrae-analista-educacao-005",
@@ -3486,7 +3490,8 @@
     "esporádicas.",
     "prescindíveis.",
     "triviais."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-sebrae-analista-educacao-006",
@@ -3503,7 +3508,8 @@
     "são tão antigos quanto a humanidade.",
     "são os fatores que mais interferem na consolidação do prestígio das organizações.",
     "não repetem as coisas reais e concretas do mundo rotineiro."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-sebrae-analista-educacao-007",
@@ -3520,7 +3526,8 @@
     "na qual.",
     "cuja.",
     "pela qual."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-sebrae-analista-educacao-009",
@@ -3537,7 +3544,8 @@
     "A partir dele, é usado elementos e símbolos e é evocado a cultura e as crenças dos povos envolvidos.",
     "Nele se usa elementos e símbolos e evocam a cultura e as crenças dos povos envolvidos.",
     "Dele se usa elementos e símbolos e se evocam a cultura e as crenças dos povos envolvidos."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-sebrae-analista-educacao-010",
@@ -3554,7 +3562,8 @@
     "“ao aparecimento” (último período do segundo parágrafo) por à aparição .",
     "“sob a vigilância” (primeiro período do primeiro parágrafo) por ante à vigília .",
     "“a serviço” (segundo período do primeiro parágrafo) por à serviço ."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-sebrae-analista-educacao-011",
@@ -3894,7 +3903,8 @@
     "o número de pessoas brancas que concluíram o ensino médio nos períodos analisados foi maior que o número de pessoas pretas e pardas.",
     "a assimetria entre indivíduos pretos e pardos e indivíduos brancos no acesso à educação aumentou no Brasil, de 2016 para 2022.",
     "pessoas pretas e pardas estudam mais, no Brasil, que pessoas brancas."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-sebrae-analista-educacao-031",
@@ -3911,7 +3921,8 @@
     "Em 2022, um número maior de pessoas conseguiu concluir o ensino superior em relação a 2019.",
     "De 2019 para 2022, houve um aumento no percentual de crianças matriculadas na educação infantil.",
     "De acordo com os dados apresentados, o ensino fundamental não está universalizado."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-sebrae-analista-educacao-032",
@@ -11545,6 +11556,14 @@
     "criar gráficos de linha ( line charts ) com ggplot ou matplotlib para visualizar a evolução temporal do faturamento médio por setor, com dados já agregados e filtrados por setor e ano no banco de dados antes de carregá-los para R ou Python",
     "criar gráficos pizza ( pie charts ) com ggplot ou matplotlib para representar a proporção de empresas por setor, após carregar todos os dados brutos do banco de dados para R ou Python"
    ]
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "A Pnad Contínua reúne números que traçam um panorama relacionado com as assimetrias no acesso à educação. No Brasil, a proporção de pessoas com 25 anos de idade ou mais que concluíram o ensino médio manteve trajetória de crescimento e alcançou 53,2% no ano passado. O percentual da população com ensino superior completo saltou de 17,5% em 2019 para 19,2% em 2022. No entanto, notam-se novamente realidades distintas no recorte por cor ou raça: enquanto 60,7% dos brancos com pelo menos 25 anos de idade haviam finalizado o ensino médio, a taxa, entre os pretos e pardos , foi de 47%. \"Há uma diferença de 13,7 pontos percentuais entre os dois grupos analisados. De 2016 para 2022, essa diferença caiu um pouco – era de 16,6 pontos percentuais em 2016 –, porém se manteve em patamar elevado, indicando que as oportunidades educacionais eram distintas para esses grupos\", afirma o IBGE. O levantamento mostra ainda que pretos e pardos com 25 anos de idade ou mais estudam, em média, 1,7 anos a menos que pessoas brancas. Números relacionados ao ensino superior reiteram as assimetrias. Na faixa etária entre 18 e 24 anos de idade, 29,2% da população branca estava estudando em universidades no ano passado. Entre as pessoas pretas e pardas, essa taxa foi de 15,3%. A pesquisa mostra ainda pequena queda no percentual de crianças de 4 a 5 anos de idade que frequentavam a escola: saiu de 92,7% em 2019 para 91,5% em 2022. Entre 6 e 14 anos de idade, houve leve aumento, tendo chegado a 99,4%. A universalização do ensino nessa faixa etária já estava praticamente alcançada desde 2016, quando 99,2% das crianças frequentavam a escola.",
+   "citacao": "Leo Rodrigues. Agência Brasil, 2023. Internet: <https://agenciabrasil.ebc.com.br> (com adaptações).",
+   "imagem": false
   }
  ]
 }

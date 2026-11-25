@@ -5153,7 +5153,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Dada a estruturação do texto, é correto considerá-lo um artigo de opinião no qual a autora defende a ideia de que o dinheiro gera felicidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-gestao-financas-002",
@@ -5164,7 +5165,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No terceiro parágrafo, os travessões isolam uma oração de natureza explicativa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-bdmg-gestao-financas-003",
@@ -5175,7 +5177,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A “grande questão” mencionada no primeiro período do terceiro parágrafo retoma a pergunta apresentada no início do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-gestao-financas-004",
@@ -5186,7 +5189,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme os estudos citados no texto sobre a relação entre dinheiro e felicidade, quanto mais dinheiro uma pessoa tem, mais feliz ela é.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-gestao-financas-005",
@@ -5197,7 +5201,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido do texto seriam preservados caso o segundo período do último parágrafo fosse reescrito da seguinte maneira: Para entender onde cada estudo deixou a desejar, os dados coletados pelos pesquisadores nos Estados Unidos da América em 2010 e 2021 foram reanalisados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-gestao-financas-006",
@@ -5219,7 +5224,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Mantendo-se a correção gramatical do texto, poderia ser inserido o sinal indicativo de crase no vocábulo “a” presente no segmento “a uma conclusão” (terceiro período do último parágrafo), a exemplo do que ocorre em “à seguinte conclusão” (primeiro período do quarto parágrafo).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-gestao-financas-008",
@@ -5263,7 +5269,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e os sentidos do texto seriam mantidos caso a preposição “a”, em “Kahneman juntou-se a Killingsworth e Barbara Mellers” (primeiro período do último parágrafo), fosse substituída por com.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-gestao-financas-012",
@@ -5274,7 +5281,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No último período do texto, o emprego da preposição “de” subsequente aos dois-pontos deve-se à regência da forma verbal “sentem”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-gestao-financas-013",
@@ -5351,7 +5359,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em comparação ao grupo B, a distribuição da produtividade do grupo C apresenta a maior mediana, indicando que pelo menos 50% de seus valores estão acima da mediana da produtividade observada no grupo B.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-bdmg-gestao-financas-020",
@@ -5362,7 +5371,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A partir da análise gráfica da figura em apreço, observa-se que a produtividade máxima no grupo B é inferior a 100.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-bdmg-gestao-financas-021",
@@ -5373,7 +5383,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O desvio padrão da produtividade do grupo A é inferior a 25.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-bdmg-gestao-financas-022",
@@ -5648,7 +5659,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "The word “leveraging” as used in the second paragraph implies the act of taking as much advantage or profit as possible from something.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-gestao-financas-047",
@@ -5659,7 +5671,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "The primary motivation behind innovation in the food industry is to cater to the increasing demand for organic food products.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-gestao-financas-048",
@@ -5670,7 +5683,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Process innovation in the food industry primarily focuses on developing new and unique flavors for food products.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-infraestrutura-seguranca-001",
@@ -5681,7 +5695,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Dada a estruturação do texto, é correto considerá-lo um artigo de opinião no qual a autora defende a ideia de que o dinheiro gera felicidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-infraestrutura-seguranca-002",
@@ -5692,7 +5707,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No terceiro parágrafo, os travessões isolam uma oração de natureza explicativa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-bdmg-infraestrutura-seguranca-003",
@@ -5703,7 +5719,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A “grande questão” mencionada no primeiro período do terceiro parágrafo retoma a pergunta apresentada no início do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-infraestrutura-seguranca-004",
@@ -5714,7 +5731,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme os estudos citados no texto sobre a relação entre dinheiro e felicidade, quanto mais dinheiro uma pessoa tem, mais feliz ela é.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-infraestrutura-seguranca-005",
@@ -5725,7 +5743,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido do texto seriam preservados caso o segundo período do último parágrafo fosse reescrito da seguinte maneira: Para entender onde cada estudo deixou a desejar, os dados coletados pelos pesquisadores nos Estados Unidos da América em 2010 e 2021 foram reanalisados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-infraestrutura-seguranca-006",
@@ -5747,7 +5766,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Mantendo-se a correção gramatical do texto, poderia ser inserido o sinal indicativo de crase no vocábulo “a” presente no segmento “a uma conclusão” (terceiro período do último parágrafo), a exemplo do que ocorre em “à seguinte conclusão” (primeiro período do quarto parágrafo).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-infraestrutura-seguranca-008",
@@ -5791,7 +5811,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e os sentidos do texto seriam mantidos caso a preposição “a”, em “Kahneman juntou-se a Killingsworth e Barbara Mellers” (primeiro período do último parágrafo), fosse substituída por com.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-infraestrutura-seguranca-012",
@@ -5802,7 +5823,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No último período do texto, o emprego da preposição “de” subsequente aos dois-pontos deve-se à regência da forma verbal “sentem”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-infraestrutura-seguranca-013",
@@ -5879,7 +5901,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em comparação ao grupo B, a distribuição da produtividade do grupo C apresenta a maior mediana, indicando que pelo menos 50% de seus valores estão acima da mediana da produtividade observada no grupo B.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-bdmg-infraestrutura-seguranca-020",
@@ -5890,7 +5913,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A partir da análise gráfica da figura em apreço, observa-se que a produtividade máxima no grupo B é inferior a 100.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-bdmg-infraestrutura-seguranca-021",
@@ -5901,7 +5925,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O desvio padrão da produtividade do grupo A é inferior a 25.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-bdmg-infraestrutura-seguranca-022",
@@ -6176,7 +6201,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "The word “leveraging” as used in the second paragraph implies the act of taking as much advantage or profit as possible from something.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-infraestrutura-seguranca-047",
@@ -6187,7 +6213,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "The primary motivation behind innovation in the food industry is to cater to the increasing demand for organic food products.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-infraestrutura-seguranca-048",
@@ -6198,7 +6225,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Process innovation in the food industry primarily focuses on developing new and unique flavors for food products.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-engenharias-001",
@@ -6209,7 +6237,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Dada a estruturação do texto, é correto considerá-lo um artigo de opinião no qual a autora defende a ideia de que o dinheiro gera felicidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-engenharias-002",
@@ -6220,7 +6249,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No terceiro parágrafo, os travessões isolam uma oração de natureza explicativa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-bdmg-engenharias-003",
@@ -6231,7 +6261,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A “grande questão” mencionada no primeiro período do terceiro parágrafo retoma a pergunta apresentada no início do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-engenharias-004",
@@ -6242,7 +6273,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme os estudos citados no texto sobre a relação entre dinheiro e felicidade, quanto mais dinheiro uma pessoa tem, mais feliz ela é.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-engenharias-005",
@@ -6253,7 +6285,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido do texto seriam preservados caso o segundo período do último parágrafo fosse reescrito da seguinte maneira: Para entender onde cada estudo deixou a desejar, os dados coletados pelos pesquisadores nos Estados Unidos da América em 2010 e 2021 foram reanalisados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-engenharias-006",
@@ -6275,7 +6308,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Mantendo-se a correção gramatical do texto, poderia ser inserido o sinal indicativo de crase no vocábulo “a” presente no segmento “a uma conclusão” (terceiro período do último parágrafo), a exemplo do que ocorre em “à seguinte conclusão” (primeiro período do quarto parágrafo).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-engenharias-008",
@@ -6319,7 +6353,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e os sentidos do texto seriam mantidos caso a preposição “a”, em “Kahneman juntou-se a Killingsworth e Barbara Mellers” (primeiro período do último parágrafo), fosse substituída por com.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-engenharias-012",
@@ -6330,7 +6365,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No último período do texto, o emprego da preposição “de” subsequente aos dois-pontos deve-se à regência da forma verbal “sentem”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-engenharias-013",
@@ -6407,7 +6443,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em comparação ao grupo B, a distribuição da produtividade do grupo C apresenta a maior mediana, indicando que pelo menos 50% de seus valores estão acima da mediana da produtividade observada no grupo B.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-bdmg-engenharias-020",
@@ -6418,7 +6455,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A partir da análise gráfica da figura em apreço, observa-se que a produtividade máxima no grupo B é inferior a 100.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-bdmg-engenharias-021",
@@ -6429,7 +6467,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O desvio padrão da produtividade do grupo A é inferior a 25.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-bdmg-engenharias-022",
@@ -6704,7 +6743,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "The word “leveraging” as used in the second paragraph implies the act of taking as much advantage or profit as possible from something.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-engenharias-047",
@@ -6715,7 +6755,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "The primary motivation behind innovation in the food industry is to cater to the increasing demand for organic food products.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-engenharias-048",
@@ -6726,7 +6767,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Process innovation in the food industry primarily focuses on developing new and unique flavors for food products.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-sistemas-arquitetura-001",
@@ -6737,7 +6779,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Dada a estruturação do texto, é correto considerá-lo um artigo de opinião no qual a autora defende a ideia de que o dinheiro gera felicidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-sistemas-arquitetura-002",
@@ -6748,7 +6791,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No terceiro parágrafo, os travessões isolam uma oração de natureza explicativa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-bdmg-sistemas-arquitetura-003",
@@ -6759,7 +6803,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A “grande questão” mencionada no primeiro período do terceiro parágrafo retoma a pergunta apresentada no início do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-sistemas-arquitetura-004",
@@ -6770,7 +6815,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme os estudos citados no texto sobre a relação entre dinheiro e felicidade, quanto mais dinheiro uma pessoa tem, mais feliz ela é.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-sistemas-arquitetura-005",
@@ -6781,7 +6827,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido do texto seriam preservados caso o segundo período do último parágrafo fosse reescrito da seguinte maneira: Para entender onde cada estudo deixou a desejar, os dados coletados pelos pesquisadores nos Estados Unidos da América em 2010 e 2021 foram reanalisados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-sistemas-arquitetura-006",
@@ -6803,7 +6850,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Mantendo-se a correção gramatical do texto, poderia ser inserido o sinal indicativo de crase no vocábulo “a” presente no segmento “a uma conclusão” (terceiro período do último parágrafo), a exemplo do que ocorre em “à seguinte conclusão” (primeiro período do quarto parágrafo).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-sistemas-arquitetura-008",
@@ -6847,7 +6895,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e os sentidos do texto seriam mantidos caso a preposição “a”, em “Kahneman juntou-se a Killingsworth e Barbara Mellers” (primeiro período do último parágrafo), fosse substituída por com.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-sistemas-arquitetura-012",
@@ -6858,7 +6907,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No último período do texto, o emprego da preposição “de” subsequente aos dois-pontos deve-se à regência da forma verbal “sentem”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-sistemas-arquitetura-013",
@@ -6935,7 +6985,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em comparação ao grupo B, a distribuição da produtividade do grupo C apresenta a maior mediana, indicando que pelo menos 50% de seus valores estão acima da mediana da produtividade observada no grupo B.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-bdmg-sistemas-arquitetura-020",
@@ -6946,7 +6997,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A partir da análise gráfica da figura em apreço, observa-se que a produtividade máxima no grupo B é inferior a 100.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-bdmg-sistemas-arquitetura-021",
@@ -6957,7 +7009,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O desvio padrão da produtividade do grupo A é inferior a 25.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-bdmg-sistemas-arquitetura-022",
@@ -7232,7 +7285,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "The word “leveraging” as used in the second paragraph implies the act of taking as much advantage or profit as possible from something.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-sistemas-arquitetura-047",
@@ -7243,7 +7297,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "The primary motivation behind innovation in the food industry is to cater to the increasing demand for organic food products.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-sistemas-arquitetura-048",
@@ -7254,7 +7309,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Process innovation in the food industry primarily focuses on developing new and unique flavors for food products.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-bdmg-gestao-financas-049",
@@ -7716,7 +7772,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "A participação relativa dos estoques sobre os ativos circulantes reduziu em mais de 10% no período em questão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-bdmg-gestao-financas-095",
@@ -7727,7 +7784,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "No período indicado, cresceu a participação relativa dos capitais próprios no financiamento dos investimentos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-bdmg-gestao-financas-096",
@@ -7738,7 +7796,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Em relação ao volume de capitais próprios, o peso dos imobilizados passou de mais de 70% para menos de 60% no período em questão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-bdmg-gestao-financas-097",
@@ -10335,6 +10394,32 @@
    "tipo": "certo_errado",
    "enunciado": "Nas aplicações que usam blockchain, a entidade que inseriu um registro pode alterá-lo, sem necessidade de consentimento de outra parte, desde que devidamente justificado.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Innovation is crucial for the food industry to address several critical challenges. Firstly, it is essential to meet the rising demand for food products driven by a growing global population. By implementing new technologies and improving production processes, companies can significantly increase output. Secondly, innovation plays a vital role in enhancing the efficiency and reducing the costs associated with food production. This allows companies to remain competitive by offering affordable prices while maintaining profitability. Finally, innovation empowers companies to adapt to evolving consumer preferences. This includes developing new products that cater to specific dietary needs and preferences, such as healthier options or products with unique flavor combinations. Innovation in the food industry can be broadly categorized into four key areas: product innovation, process innovation, packaging innovation, and marketing/branding innovation. Product innovation focuses on creating new or improved food products with unique features and benefits for consumers. This may involve developing new flavors, textures, and incorporating healthier ingredients. Process innovation aims to optimize production processes by implementing new technologies and methods to increase output while maintaining or improving quality standards. Packaging innovation explores innovative ways to package and present food products to consumers, such as using eco-friendly materials, implementing unique designs, and incorporating features that extend shelf life. Finally, marketing/branding innovation involves developing creative strategies to promote food products to consumers, leveraging social media, influencer marketing, and engaging campaigns to build brand loyalty.",
+   "citacao": "Internet: <tastewise.io> (adapted).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "conhecimentos de informática menos que seja explicitamente informado o contrário, considere que todos os programas mencionados estão em configuração-padrão e que não há restrições de proteção, de funcionamento e de uso em relação aos programas, arquivos, diretórios, recursos e equipamentos mencionados. • Eventuais espaços livres — identificados ou não pela expressão “ poderão ser utilizados para rascunho.\n\n-- PROVAS OBJETIVAS --\n\n-- CONHECIMENTOS GERAIS --",
+   "citacao": "Dinheiro traz felicidade? Engana-se quem pensa que esta é só uma pergunta filosófica de boteco. Muito pelo contrário: quem se debruça para valer sobre a questão são vencedores do Nobel de Economia, o psicólogo israelense Daniel Kahneman e o economista americano Argus Deaton. Kahneman é considerado um dos fundadores da economia comportamental, uma área que se apoia na psicologia para entender quais fatores afetam as decisões financeiras de alguém. Foi por integrar conhecimentos da psicologia à economia que ele recebeu o prêmio da Academia Real de Ciências da Suécia, em 2002. Oito anos depois, Kahneman se juntou a Argus — que receberia o Nobel de Economia em 2015 por seus trabalhos sobre consumo, pobreza e bem-estar social — para tentar responder à grande questão. Eles publicaram um estudo que correlaciona o nível de renda de mil americanos com seu grau de satisfação pessoal e bem-estar emocional, segundo respostas fornecidas em um questionário entre 2008 e 2009. Eles chegaram à seguinte conclusão: quanto mais dinheiro alguém ganha, mais feliz e satisfeita essa pessoa se sente. Só que essa correlação não é tão evidente na faixa de pessoas que ganham entre 60 e 90 mil dólares por ano (entre R$ 5 e 7,5 mil mensais). E, entre aqueles que recebiam valores maiores que estes, mais dinheiro já não significava mais felicidade. O estudo foi amplamente divulgado na época. Mas ele também foi rebatido por Matthew Killingsworth, um pesquisador da Universidade da Pensilvânia que coleta dados sobre felicidade. Ele publicou uma pesquisa, em 2021, sugerindo que a felicidade média aumenta consistentemente com a renda. E então, qual seria a conclusão correta? Para resolver o impasse, Kahneman juntou-se a Killingsworth e Barbara Mellers, também da Universidade da Pensilvânia. Os pesquisadores reanalisaram os dados coletados nos Estados Unidos da América em 2010 e 2021 para entender onde cada estudo deixou a desejar. E assim chegaram a uma conclusão mais sutil: de que pessoas felizes se sentem ainda melhores conforme ganham mais dinheiro; por outro lado, entre pessoas infelizes, o bem-estar para de aumentar quando certo nível de renda é alcançado. Lúcia Costa. Dinheiro traz felicidade . In: Revista SuperInteressante , 7/3/2023. Internet: <super.abril.com.br> (com adaptações). No que se refere às características discursivas e aos aspectos linguísticos do texto apresentado, bem como às ideias nele",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Tendo como referência a figura precedente, em que diagramas esquemáticos ( box-plots ) comparam as distribuições das produtividades de três grupos de funcionários de certa empresa,",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Na tabela a seguir, são apresentados dados relativos às demonstrações contábeis de uma entidade entre os exercícios de 20X4 e 20X5, sendo 20X4 o exercício mais antigo. Os valores referidos estão em milhões de reais.\n\nitem 20X4 20X5 ativo circulante cíclico 154 137 ativo circulante financeiro 161 146 ativo não circulante 209 189\n\ntotal 524 472 passivo circulante cíclico 64 49 passivo circulante financeiro 131 123 passivo não circulante 329 300\n\ntotal 524 472\n\noutras informações estoques 54 49 imobilizado 188 145 patrimônio líquido 262 246",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

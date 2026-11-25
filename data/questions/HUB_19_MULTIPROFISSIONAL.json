@@ -286,7 +286,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A 8.ª Conferência Nacional da Saúde foi a primeira conferência nacional da saúde aberta à sociedade e resultou na implantação do Sistema Unificado e Descentralizado de Saúde (SUDS).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2019-hub-saude-coletiva-075",
@@ -297,7 +298,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Com a CF, o primeiro documento a colocar o direito à saúde definitivamente no ordenamento jurídico brasileiro, a saúde passou a ser um direito do cidadão e um dever do Estado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2019-hub-saude-coletiva-076",
@@ -308,7 +310,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em 1988, o SUS foi regulado por lei, que distribui todas as suas atribuições e funções como um sistema público e, além disso, dispõe sobre a participação da comunidade, gestão e o financiamento desse sistema unificado para a saúde dos brasileiros.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2019-hub-saude-coletiva-077",
@@ -319,7 +322,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O SUS é constituído pelo conjunto de ações e serviços de saúde prestados por órgãos e instituições públicas federais, estaduais e municipais, da administração direta e indireta e das fundações mantidas pelo poder público.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2019-hub-saude-coletiva-078",
@@ -330,7 +334,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A participação da iniciativa privada no SUS dá-se em caráter complementar.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2019-hub-saude-coletiva-079",
@@ -748,7 +753,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A técnica de meta-análise recomendada para esses dados é a de modelo de efeito fixo, uma vez que a heterogeneidade dos estudos foi alta, como observado pelo I2 = 79%.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2019-hub-saude-coletiva-117",
@@ -759,7 +765,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Foram analisados 16 estudos de intervenção, que demonstraram ser o saneamento fator protetor para diarreia (OR 0,75 IC 95% 0,64 – 0,88).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2019-hub-saude-coletiva-118",
@@ -770,7 +777,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A maior proteção observada foi nos estudos que compararam saneamento melhorado versus não melhorado (OR 0,96 IC 95% 0,92 – 0,99).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2019-hub-saude-coletiva-119",
@@ -781,7 +789,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A análise geral do gráfico permite concluir que o saneamento foi associado a uma probabilidade 13% menor de diarreia (OR 0,87, IC 95% 0,83 – 0,92, N = 27).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2019-hub-terapia-ocupacional-051",
@@ -902,7 +911,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma como esse homem chegou ao ambulatório e a sua idade não são indicativos de possível prescrição de equipamentos adaptados para aumentar sua segurança e independência.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2019-hub-terapia-ocupacional-062",
@@ -913,7 +923,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em geral, a anamnese é insuficiente para que o terapeuta identifique o foco de intervenção; por isso, são necessários exames complementares para o planejamento inicial do programa de reabilitação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2019-hub-terapia-ocupacional-063",
@@ -924,7 +935,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O método neuroevolutivo da hemiplegia em adultos, conhecido como Bobath, é uma intervenção terapêutica indicada para o paciente dessa situação.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2019-hub-terapia-ocupacional-064",
@@ -935,7 +947,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hipertensão é considerada fator de risco modificável isolado e importante nos casos de AVC hemorrágico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2019-hub-terapia-ocupacional-065",
@@ -946,7 +959,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na situação descrita, durante o processo de reabilitação para desenvolver uma atividade na postura sentada, será necessário estabelecer um alinhamento neutro, isto é, uma posição de prontidão para o funcionamento dos membros superiores.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2019-hub-terapia-ocupacional-066",
@@ -957,7 +971,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A incapacidade de assumir a postura de pé é bastante comum no pós-AVC, e as estratégias para um efetivo controle ereto depende das funções cognitivas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2019-hub-terapia-ocupacional-067",
@@ -2079,7 +2094,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo a Organização Mundial da Saúde, saúde é o total bem-estar biopsicossocial da pessoa, e não somente a ausência da doença.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2019-hub-psicologia-099",
@@ -2090,7 +2106,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O estado de cronicidade da doença implica uma elaboração psicológica existencial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2019-hub-psicologia-100",
@@ -2101,7 +2118,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Dependência, regressão e passividade fazem parte daquilo que alguns autores, entre eles Schneider, designam como tríade psicodinâmica do paciente crônico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2019-hub-psicologia-101",
@@ -2112,7 +2130,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A especialização de cada profissional da equipe multidisciplinar permite uma visão do paciente de forma global, sem riscos de uma visão dicotomizada e despersonalizada da pessoa enferma, de modo que a leitura multidisciplinar deve prevalecer sobre a interdisciplinar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2019-hub-psicologia-102",
@@ -2123,7 +2142,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De modo geral, no plano psicológico, o paciente portador de doença crônica concorda com a ideia de que ele é, sim, um doente crônico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2019-hub-psicologia-103",
@@ -2322,6 +2342,32 @@
    "tipo": "certo_errado",
    "enunciado": "A fase de depressão aparece vinculada tanto à possibilidade de morte real quanto simbólica, sendo esta ligada às perdas impostas em caráter permanente pela doença.",
    "gabarito": "certo"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Em 1986, foi realizada a histórica 8.ª Conferência Nacional de Saúde, cujo relatório final serviu como subsídio para os deputados constituintes elaborarem o art. 196 da Constituição Federal de 1988 (CF) – Da Saúde. A partir da promulgação da CF, a saúde ganhou rumos diferentes com a criação do Sistema Único de Saúde (SUS). Com relação ao assunto abordado no texto e aos vários aspectos",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O gráfico a seguir, extraído de uma revisão sistemática com meta-análise, realizada por Freeman e colaboradores (2017) e encomendada pela Organização Mundial da Saúde, apresenta a associação entre saneamento e diarreia.\n\nMeta-análise com exame da efetividade de intervenções sanitárias sobre a prevalência de diarreia\n\nMatthew C. Freeman et al . The impact of sanitation on infectious disease and nutritional status : A systematic\n\nreview and meta-analysis. International Journal of Hygiene and Environmental Health 220 (2017) 928-49. A respeito de revisões sistemáticas e meta-análises, julgue os próximos itens, considerando as informações do gráfico precedente. Nesse sentido, considere que a sigla OR refere-se Odds Ratio (em português, equivalente a razão das chances ou possibilidade).",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um homem de 64 anos de idade, com histórico de fibrilação atrial, compareceu ao ambulatório com quadro de fala ininteligível e incapacidade de movimentar o lado direito do corpo, problemas que tinham se iniciado pela manhã, após ele ter acordado. Exames mostraram grande acidente vascular cerebral direito na artéria cerebral média. Para proceder à avaliação do caso, o terapeuta realizou coleta das informações iniciais. A respeito da situação hipotética apresentada e dos múltiplos",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Tendo em vista que, no acompanhamento psicológico à pessoa portadora de doença crônica, é importante que o psicólogo tenha clareza quanto aos conceitos de saúde e doença, uma vez que eles nortearão a sua prática, julgue os itens a seguir, relativos a esses conceitos.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

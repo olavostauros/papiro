@@ -192,6 +192,13 @@ export function cardHtml(q: Questao): string {
   const grupo = opcoes
     ? `<div class="mt-3 grid gap-1.5${ce ? ' grid-cols-2' : ''}" role="radiogroup" aria-labelledby="enunciado-${esc(q.id)}">${opcoes}</div>`
     : '';
+  const textoBase = q.texto && (q.texto.conteudo || q.texto.imagem)
+    ? `<details class="mt-3 rounded-md border border-line bg-paper px-3 py-2"><summary class="cursor-pointer select-none text-xs font-medium text-ink-soft">Texto-base${q.texto.ref ? ` — ${esc(q.texto.ref)}` : ''}</summary>${
+        q.texto.imagem
+          ? '<p class="mt-2 text-sm text-ink-soft">O texto-base desta questão é uma imagem no caderno de prova — consulte a fonte oficial.</p>'
+          : `<div class="mt-2 space-y-3 font-serif text-sm leading-relaxed text-ink-soft">${paras(q.texto.conteudo)}</div>`
+      }${q.texto.citacao ? `<p class="mt-2 text-xs italic text-ink-faint">${esc(q.texto.citacao)}</p>` : ''}</details>`
+    : '';
   // MC rara sem alternativas (62 registros): sem botão, gabarito vai inline
   const resposta = opcoes
     ? `<button class="${BOTAO_CLS}" type="button" data-ver-gabarito>Ver gabarito</button><p data-resultado role="status" class="hidden font-medium"></p>`
@@ -223,7 +230,7 @@ export function cardHtml(q: Questao): string {
     `</div>` +
     `<div data-resultado class="empty:hidden"></div>` +
     `</div></questao-explicar>`;
-  return `<question-card data-id="${qid}" data-banca="${esc(q.banca)}" data-orgao="${esc(q.orgao)}" data-cargo="${esc(q.cargo)}" data-ano="${q.ano}" data-assunto="${esc(q.assunto)}" data-gabarito="${esc(q.gabarito)}" data-gabarito-texto="${esc(gab)}" data-filter-item><article class="rounded-xl border border-line bg-surface p-5" aria-label="${aria}">${meta}<p id="enunciado-${qid}" class="mt-3 font-serif text-base leading-relaxed sm:text-lg">${esc(q.enunciado)}</p>${grupo}<div class="mt-4 flex flex-wrap items-center gap-4 text-sm">${resposta}${toggle}<div class="ml-auto flex items-center gap-4">${permalink}${fonte}</div></div>${explicar}</article></question-card>`;
+  return `<question-card data-id="${qid}" data-banca="${esc(q.banca)}" data-orgao="${esc(q.orgao)}" data-cargo="${esc(q.cargo)}" data-ano="${q.ano}" data-assunto="${esc(q.assunto)}" data-gabarito="${esc(q.gabarito)}" data-gabarito-texto="${esc(gab)}" data-filter-item><article class="rounded-xl border border-line bg-surface p-5" aria-label="${aria}">${meta}<p id="enunciado-${qid}" class="mt-3 font-serif text-base leading-relaxed sm:text-lg">${esc(q.enunciado)}</p>${textoBase}${grupo}<div class="mt-4 flex flex-wrap items-center gap-4 text-sm">${resposta}${toggle}<div class="ml-auto flex items-center gap-4">${permalink}${fonte}</div></div>${explicar}</article></question-card>`;
 }
 
 /** Janela de páginas: primeira, última e ±2 ao redor da atual; `null` = reticências. */

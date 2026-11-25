@@ -69,7 +69,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A existência de vínculo com o pai ou a mãe registral não impede que o filho exerça o direito de busca da ancestralidade e da origem genética, dado que o reconhecimento do estado de filiação configura direito personalíssimo, indisponível e imprescritível.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-dpu-defensor-publico-federal-006",
@@ -80,7 +81,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Antes da regulamentação legal da união estável, era necessário, para futura partilha igualitária, comprovar o esforço comum dos companheiros na aquisição do patrimônio coletivo, o que não é mais necessário em razão da atual presunção de mútua assistência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-dpu-defensor-publico-federal-007",
@@ -91,7 +93,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A anulação de registro espontâneo de paternidade pelo pai socioafetivo é admitida na hipótese de “adoção à brasileira”, ainda que esta seja fonte de vínculo socioafetivo entre as partes, haja vista tratar-se de negócio jurídico fundamentado na mera liberalidade e realizado à margem do ordenamento pátrio.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-dpu-defensor-publico-federal-008",
@@ -344,7 +347,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ausência de contestação na ação rescisória faz presumir que são verdadeiras as alegações da petição inicial, haja vista que, nesse caso, a regra da revelia supera o princípio da preservação da coisa julgada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-dpu-defensor-publico-federal-032",
@@ -355,7 +359,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para garantir os pressupostos mencionados em sua exposição de motivos, o CPC estabelece, de forma exaustiva, as normas fundamentais do processo civil.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-dpu-defensor-publico-federal-033",
@@ -366,7 +371,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Voltado para a concepção democrática atual do processo justo, o CPC promoveu a evolução do contraditório, que passou a ser considerado efetivo apenas quando vai além da simples possibilidade formal de oitiva das partes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-dpu-defensor-publico-federal-034",
@@ -377,7 +383,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Apesar de o CPC garantir às partes a obtenção, em prazo razoável, da solução integral do mérito, esse direito já existia no ordenamento jurídico brasileiro até mesmo antes da Emenda Constitucional n.º 45/2004.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-dpu-defensor-publico-federal-035",
@@ -2160,6 +2167,20 @@
    "tipo": "certo_errado",
    "enunciado": "Dada a duração dos mandatos do presidente da República e dos parlamentares, o que estabelece regra mais previsível para governo e oposição, é correto afirmar que há uma relação positiva entre o sistema presidencialista, de um lado, e estabilidade política e democracia, de outro.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "No mundo contemporâneo (pós-moderno), a família perdeu o caráter natural, assumindo nova feição, forjada, agora, em fenômenos culturais. A família de hoje representa um “fenômeno humano em que se funda a sociedade, sendo impossível compreendê-la senão à luz da interdisciplinaridade, máxime na sociedade contemporânea, marcada por relações complexas, plurais, abertas, multifacetárias e (por que não?) globalizadas”.\n\nCristiano Chaves de Farias e Nelson Rosenvald. Curso de direito civil:\n\nfamílias . Vol. 6, 7.ª ed. São Paulo: Atlas, 2015, p. 3 (com adaptações). A respeito do assunto objeto do texto precedente, julgue os itens que se seguem, tendo como referência o entendimento dos tribunais superiores.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um sistema processual civil que não proporcione à sociedade o reconhecimento e a realização dos direitos, ameaçados ou violados, que tem cada um dos jurisdicionados, não se harmoniza com as garantias constitucionais de um Estado democrático de direito.\n\nSe é ineficiente o sistema processual, todo o ordenamento jurídico passa a carecer de real efetividade. De fato, as normas de direito material se transformam em pura ilusão, sem a garantia de sua correlata realização, no mundo empírico, por meio do processo.\n\nExposição de motivos do Código de Processo Civil/2015 ,\n\np. 248-53. Vade Mecum Acadêmico de Direito Rideel .\n\n22.ª ed. São Paulo, 2016 (com adaptações). Tendo o texto precedente como referência inicial, julgue os itens a seguir à luz do entendimento jurisprudencial e doutrinário acerca das normas fundamentais do processo civil.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

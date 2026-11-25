@@ -33,7 +33,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O caso clínico em exame é típico de telarca precoce isolada, e recomenda-se que a criança seja reavaliada entre 3 a 6 meses após essa consulta.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2019-hub-pediatria-002",
@@ -44,7 +45,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Exames laboratoriais poderão evidenciar concentração de FSH normal ou um pouco elevada, e níveis de estradiol baixos ou até mesmo indetectáveis nessa criança.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2019-hub-pediatria-003",
@@ -55,7 +57,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Exames laboratoriais evidenciarão, nessa criança, concentrações elevadas de androstenediona, testosterona e de 17-OH-progesterona.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2019-hub-pediatria-004",
@@ -154,7 +157,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os sintomas apresentados nesse caso clínico são insuficientes para a confirmação do diagnóstico de febre reumática.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2019-hub-pediatria-013",
@@ -165,7 +169,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É esperada a presença de sinais clínicos de faringite no momento do exame físico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2019-hub-pediatria-014",
@@ -176,7 +181,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se o médico solicitar pesquisa para antiestreptolisina O nesse paciente e o resultado for negativo, o diagnóstico de febre reumática deve ser descartado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2019-hub-pediatria-015",
@@ -187,7 +193,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso seja confirmado o diagnóstico de febre reumática, a profilaxia secundária deverá ser feita utilizando-se penicilina benzatina, por via intramuscular, na dose de 1.200.000 unidades, de 21 em 21 dias, se o paciente não for alérgico a essa medicação.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2019-hub-pediatria-016",
@@ -198,7 +205,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Um resultado de leucograma com 18.000 leucócitos por milímetro cúbico e predomínio de neutrófilos, nesse paciente, indica a presença de infecção bacteriana concomitante, e a antibioticoterapia deverá ser iniciada de forma precoce.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2019-hub-pediatria-017",
@@ -209,7 +217,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se, nos exames iniciais, o paciente apresentar hipopotassemia, mas se a função renal estiver preservada, deve-se adicionar potássio à solução, já a partir da primeira hora de tratamento.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2019-hub-pediatria-018",
@@ -220,7 +229,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso o paciente venha a apresentar poliúria acentuada, deverá ser reposto totalmente o volume urinário nas primeiras 24 horas, com volume que pode ultrapassar 4.000 mL por m2 nesse período.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2019-hub-pediatria-019",
@@ -286,7 +296,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Manobras vagais deverão ser evitadas em caso de pacientes que apresentem condições semelhantes às do referido lactente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2019-hub-pediatria-025",
@@ -297,7 +308,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os achados eletrocardiográficos esperados para esse caso são ausência de onda p, com intervalo R-R constante e complexo QRS estreito.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2019-hub-pediatria-026",
@@ -308,7 +320,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A adenosina poderia ser administrada por via intraóssea, caso não fosse possível obter acesso venoso.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2019-hub-pediatria-027",
@@ -319,7 +332,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A resposta positiva à administração de adenosina sugere um quadro de taquicardia supraventricular por reentrada, com envolvimento do nodo A-V.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2019-hub-pediatria-028",
@@ -759,7 +773,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Por ser portadora de leucemia, a referida criança apresenta mais risco de desenvolvimento de infecção do que crianças portadoras de tumores sólidos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2019-hub-pediatria-068",
@@ -770,7 +785,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A avaliação clínica inicial da criança deve incluir hemocultura de cateter e radiografia de tórax.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2019-hub-pediatria-069",
@@ -781,7 +797,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Duas amostras de hemocultura apresentarão mais sensibilidade na identificação do foco infeccioso se forem obtidas com intervalo de tempo superior a uma hora do que se forem obtidas simultaneamente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2019-hub-pediatria-070",
@@ -792,7 +809,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Cateteres totalmente implantáveis são associados a risco diminuído de infecção, quando comparados a cateteres centrais de inserção periférica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2019-hub-pediatria-071",
@@ -803,7 +821,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Devido ao risco de translocação bacteriana entérica e choque séptico, é contraindicado o uso de supositório ou de clister na criança em questão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2019-hub-pediatria-072",
@@ -814,7 +833,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na neutropenia induzida pela quimioterapia, a taxa documentada de infecção é baixa, sendo a bacteremia a infecção documentada com mais frequência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2019-hub-pediatria-073",
@@ -1342,7 +1362,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nos quadros epilépticos da infância, o epônimo síndrome de Lennox-Gastaut é reservado a crises de características variáveis, com pouca ou nenhuma resposta aos anticonvulsivantes, retardo mental e eletroencefalograma (EEG) com ponta-onda lenta.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2019-hub-cirurgia-geral-001",
@@ -1353,7 +1374,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Recomenda-se a prescrição de, no mínimo, 2.500 mL de solução fisiológica.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2019-hub-cirurgia-geral-002",
@@ -1364,7 +1386,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para evitar a cetose de jejum, deve-se prescrever pelo menos 400 kcal, se mantida a dieta zero.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2019-hub-cirurgia-geral-003",
@@ -1375,7 +1398,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "60 mEq de potássio são suficientes para manutenção, em dieta zero.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2019-hub-cirurgia-geral-004",
@@ -1386,7 +1410,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Deve-se administrar antibiótico profilático por 48 h.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2019-hub-cirurgia-geral-005",
@@ -1397,7 +1422,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A melhor maneira de evitar doença tromboembólica nesse paciente é administrar heparina de baixo peso molecular na dose de 2 mg/kg/dia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2019-hub-cirurgia-geral-006",
@@ -1738,7 +1764,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Trata-se de quadro de diverticulite aguda que, pela classificação de Hinchey, é de estágio I.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2019-hub-cirurgia-geral-037",
@@ -1749,7 +1776,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É recomendado tratamento inicial com administração de antibióticos: combinação de cefotriaxona 2,0 g/dia + metronidazol 500 mg de 8 h/8 h, durante dez a quatorze dias, de acordo com a evolução clínica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2019-hub-cirurgia-geral-038",
@@ -1760,7 +1788,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nova avaliação tomográfica deverá ser realizada precocemente, caso haja piora clínica, ou sete dias após o início do tratamento antibioticoterápico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2019-hub-cirurgia-geral-039",
@@ -1771,7 +1800,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em virtude do quadro parcial de estenose circunferencial parcial, a colonoscopia deve ser realizada precocemente em torno de trinta dias, após o fim do tratamento antibioticoterápico para exclusão de neoplasia colorretal associada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2019-hub-cirurgia-geral-040",
@@ -1782,7 +1812,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Há indicação de tratamento cirúrgico com realização de sigmoidectomia com anastomose colorretal, por videolaparoscopia, três meses após a resolução do quadro de diverticulite aguda.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2019-hub-cirurgia-geral-041",
@@ -1793,7 +1824,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A abordagem cirúrgica mais adequada para esse caso clínico é a realização da exploração do hematoma, pancreatectomia corpo-caudal com sutura mecânica com grampeador linear vascular ou sutura contínua com prolene 3.0 e drenagem da cavidade com dreno tubo-laminar Jackson-Pradd, e conduta conservadora na abordagem da lesão esplênica, com sutura com pontos interrompidos, evitando-se, assim, a realização de esplenectomia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2019-hub-cirurgia-geral-042",
@@ -1804,7 +1836,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A conduta adequada para remoção do dreno abdominal inclui a observação do débito do dreno abdominal diário e a dosagem da amilase do líquido drenado. Se esse débito estiver entre 50 mL e 100 mL, e se o teor da amilase for de no máximo 5 vezes o valor sérico do sangue, o dreno poderá ser removido.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2019-hub-cirurgia-geral-043",
@@ -1815,7 +1848,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A elevação contínua da amilase sérica e a leucocitose no pós-operatório, sem sinais de sepse, podem estar associadas ao desenvolvimento de pseudocisto pancreático, que deve ser tratado com laparotomia exploradora de forma precoce ou abordagem endoscópica, com a utilização de drenagem do pâncreas para o estômago por ecoendoscopia com colocação de stent.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2019-hub-cirurgia-geral-044",
@@ -1826,7 +1860,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A remoção do parênquima pancreático com a realização de pancreatectomia corpo-caudal nesse paciente não estaria associada ao desenvolvimento de insuficiência pancreática no pós-operatório.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2019-hub-cirurgia-geral-045",
@@ -1837,7 +1872,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Apesar de o paciente não ter apresentado instabilidade hemodinâmica durante a admissão, a indicação de laparotomia exploradora foi adequada, em virtude do grau da lesão pancreática.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2019-hub-cirurgia-geral-046",
@@ -2332,7 +2368,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico mais provável é uma diverticulite aguda de colo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2019-hub-cirurgia-geral-092",
@@ -2343,7 +2380,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Deve-se submeter o paciente a exame de tomografia computadorizada para o esclarecimento do diagnóstico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2019-hub-cirurgia-geral-093",
@@ -2354,7 +2392,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Deve-se considerar o diagnóstico diferencial de úlcera péptica perfurada para o paciente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2019-hub-cirurgia-geral-094",
@@ -2365,7 +2404,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se for utilizado o escore de Alvarado e constatada a presença de 4 pontos para esse paciente, deve-se indicar laparotomia exploradora imediata.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2019-hub-cirurgia-geral-095",
@@ -2376,7 +2416,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Uma radiografia simples de abdome em posição ortostática poderá mostrar níveis hidroaéreos na fossa ilíaca direita nesse paciente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2019-hub-cirurgia-geral-096",
@@ -2387,7 +2428,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para o diagnóstico da doença, se for feita a contagem de leucócitos e o resultado for normal, deve-se indicar uma tomografia computadorizada de abdome, que apresenta um resultado mais preciso do que a ultrassonografia de abdome.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2019-hub-cirurgia-geral-097",
@@ -2662,7 +2704,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A radiografia simples de abdome normal seria incompatível com esse caso.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-002",
@@ -2673,7 +2716,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Está indicada a realização de uma tomografia computadorizada de abdome com contraste oral.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-003",
@@ -2684,7 +2728,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Recomendam-se analgesia e o uso de antibióticos de largo espectro.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-004",
@@ -2695,7 +2740,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em casos semelhantes, a maioria dos pacientes poderá falecer se não for prontamente tratada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-005",
@@ -2794,7 +2840,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para melhorar a função pulmonar e reduzir o risco de recaída precoce, pode-se indicar o uso de corticoide sistêmico por breve período.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-014",
@@ -2805,7 +2852,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Recomenda-se a substituição do glicopirrônio pelo brometo de ipratrópio, alta do pronto-socorro e retorno ao pneumologista em até três dias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-015",
@@ -2816,7 +2864,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O resultado da prova de função pulmonar, demonstrando volume expiratório forçado no primeiro segundo (VEF1) pós-broncodilatador menor que 80% e maior ou igual a 50% do predito, seria compatível com o caso clínico descrito.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-016",
@@ -2871,7 +2920,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ventriculografia esquerda geralmente demonstra abaulamento apical com acinesia ou discinesia, acometendo de metade a dois terços do ventrículo esquerdo, e está associada à hiperdinamia dos segmentos basais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-021",
@@ -3080,7 +3130,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hipótese diagnóstica mais provável é uma crise aguda de gota.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-040",
@@ -3091,7 +3142,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico padrão-ouro nesse caso é a presença de cristais de oxalato de cálcio à microscopia óptica com luz polarizada apresentando birrefringência positiva.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-041",
@@ -3102,7 +3154,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O tratamento dessa paciente deve incluir compressa morna no local afetado três vezes ao dia por cinco dias, e administração de cefalexina 500 mg de 6 h em 6 h por dez dias e de ibuprofeno 600 mg de 8 h em 8 h por cinco dias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-042",
@@ -3113,7 +3166,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A paciente possui pelo menos três fatores de risco para a afecção que ela apresenta: obesidade, consumo excessivo de bebida alcoólica e uso de hidroclorotiazida.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-043",
@@ -3124,7 +3178,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O paciente em questão deve ser classificado como portador de DPOC moderada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-044",
@@ -3135,7 +3190,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso clínico em apreço, como se trata de paciente considerado um exacerbador frequente, deve ser indicada para ele terapia tripla para tratamento do DPOC.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-045",
@@ -3146,7 +3202,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O roflumilaste está indicado para pacientes com DPOC de leve a moderada na dose de 300 µg ao dia por via inalatória, antes de se tentar a associação de β2 agonista de longa duração e curta duração.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-046",
@@ -3157,7 +3214,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As vacinas anti-influenza e pneumocócica polivalente estão indicadas para todos os pacientes com DPOC e devem ser repetidas anualmente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-047",
@@ -3289,7 +3347,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com os critérios de Ranson para classificação de gravidade da pancreatite aguda, esse paciente pode ser classificado como paciente com pancreatite aguda grave.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-059",
@@ -3300,7 +3359,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O tratamento inicial para o paciente deve consistir em suspensão da dieta oral e suporte clínico mediante reposição volêmica vigorosa, manutenção da saturação de oxigênio maior que 95% e analgesia adequada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-060",
@@ -3311,7 +3371,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A principal hipótese diagnóstica para a causa da pancreatite aguda nesse paciente é hipertrigliceridemia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-061",
@@ -3377,7 +3438,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Valores de lipase e amilase três ou mais vezes acima da normalidade são suficientes para confirmar o diagnóstico de pancreatite aguda.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-067",
@@ -3388,7 +3450,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hemoconcentração e a azotemia são sinais clínicos preditores de doença grave.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-068",
@@ -3399,7 +3462,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O quadro clínico descrito sugere que o paciente sofre de pancreatite em terceira fase de evolução.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-069",
@@ -3410,7 +3474,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A hipertrigliceridemia é a causa mais provável para o quadro de pancreatite aguda do paciente em questão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-070",
@@ -3421,7 +3486,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico mais provável da paciente em questão é de hiponatremia crônica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-071",
@@ -3432,7 +3498,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Há grande probabilidade de os sinais de insuficiência respiratória apresentados pela paciente estarem relacionados a um quadro de edema pulmonar neurogênico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-072",
@@ -3443,7 +3510,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A condição clínica em apreço corresponde a um caso de hiponatremia euvolêmica, quadro no qual se espera uma dosagem de sódio urinário menor que 20 mEq/L.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-073",
@@ -3454,7 +3522,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O nível sérico de glicose deve ser desconsiderado na determinação da natremia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-074",
@@ -3465,7 +3534,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em casos de hiponatremia secundária com secreção inapropriada do hormônio antidiurético, os pacientes podem apresentar hipouricemia com nível de ácido úrico sérico menor que 4 mg/dL.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-075",
@@ -3476,7 +3546,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Complicação comum nos pacientes com hiponatremia crônica, a síndrome da desmielinização osmótica é desencadeada após correções na concentração plasmática de sódio menores que 10 mEq/L em 24 h.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-076",
@@ -3487,7 +3558,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Um paciente com hiponatremia hipervolêmica em consequência de insuficiência cardíaca congestiva pode melhorar após instituição ou intensificação de terapia com inibidores da enzima conversora de angiotensina.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-077",
@@ -3652,7 +3724,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Durante a primeira hora, desde a chegada da paciente na unidade hospitalar, devem ter sido realizados os seguintes procedimentos: expansão volêmica com cristaloide (30 mL/quilograma de peso); coleta de hemoculturas; início de antibioticoterapia de amplo espectro; coleta de lactato sérico e início de vasoamina, para pressão arterial média maior ou igual a 65 mmHg.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-092",
@@ -3663,7 +3736,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As alterações laboratoriais no hemograma justificam como principal suspeita diagnóstica do quadro clínico uma disfunção prévia de medula óssea, o que demanda uma propedêutica específica para a avaliação dessa disfunção.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-093",
@@ -3674,7 +3748,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A gasometria arterial é compatível com a história clínica e evidencia um padrão de normoxemia e acidose metabólica normoclorêmica descompensada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-094",
@@ -3685,7 +3760,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Por apresentar quick SOFA (q SOFA) maior que 2, a paciente constitui o grupo de alto risco para mortalidade. Ademais, é possível apontar ao menos uma disfunção de órgão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-095",
@@ -3696,7 +3772,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No cenário atual, a paciente possui diagnóstico de lesão renal, provável etiologia aguda, com indicação de terapia renal substitutiva.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-096",
@@ -3707,7 +3784,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na terapêutica do caso em análise, a intubação traqueal poderá ser postergada e outras opções de suporte ventilatório deverão ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-097",
@@ -3718,7 +3796,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No plano terapêutico, até a melhora clínica, deve constar a suspensão da hidroclorotiazida, do enalapril e do carbonato de lítio que, nesse último caso, ocorrerá mediante orientação do psiquiatra, caso exista uma opção terapêutica psiquiátrica alternativa ao tratamento.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-098",
@@ -3729,7 +3808,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A administração de ddAVP (acetato de desmopressina) promoverá a correção da poliúria, da hipocalemia e da hipernatremia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-099",
@@ -3740,7 +3820,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A alteração neurológica torna indispensável o exame de imagem do sistema nervoso central, independentemente da correção da hipernatremia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-100",
@@ -3751,7 +3832,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Após restabelecimento da volemia com cristaloide, deverá ser instituída solução hipotônica associada ao diurético amilorida.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-101",
@@ -3762,7 +3844,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso em tela, a insuficiência renal possui, ao menos, dois mecanismos etiológicos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-102",
@@ -3773,7 +3856,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico etiológico gasométrico é compatível com o caso clínico e possui as seguintes bases fisiopatológicas: comprometimento da função renal tubular em regenerar bicarbonato e consumo de bicarbonato, por hiperlactatemia.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-103",
@@ -3850,7 +3934,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com as informações desse caso clínico, o médico deve indicar terapia de substituição renal, terlipressina e albumina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-110",
@@ -3861,7 +3946,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A propedêutica do caso deverá contemplar sorologias para hepatites virais, ultrassonografia abdominal, dosagem do perfil de ferro, eletroneuromiografia e análise do líquido ascítico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-111",
@@ -3872,7 +3958,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ao utilizar o critério de gravidade, conclui-se que o paciente do referido caso clínico possui encefalopatia hepática estágio II.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-112",
@@ -3883,7 +3970,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se esse paciente não for vegetariano estrito, as causas clínicas de sua anemia, associadas à carência de vitamina em sua dieta, incluem déficit de vitamina B12, há meses, e de folato, há anos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-113",
@@ -3894,7 +3982,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na hipótese de o paciente ser portador de infecção pelo vírus da hepatite C, o risco relativo de progressão para cirrose hepática será aumentado, em mais de duas vezes, devido ao consumo etílico prévio.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-114",
@@ -3905,7 +3994,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A permanência do consumo de álcool pelo paciente é uma das causas mais comuns de descompensação aguda, da doença hepática instalada. Porém, caso a doença no paciente em questão evolua com insuficiência hepática, precipitada pelo álcool, o prognóstico tende a ser melhor que aqueles cuja evolução foi precipitada por hemorragia digestiva alta ou por infecções.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-115",
@@ -3916,7 +4006,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na situação 1, se não houver melhora no quadro da paciente após a administração de dipirona, recomenda-se, para a próxima medicação, o uso de opioide.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-116",
@@ -3927,7 +4018,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na situação 2, se a paciente for portadora de doença renal crônica estágio IV, a segunda medicação de escolha deverá ser a clorpromazina.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-117",
@@ -3938,7 +4030,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A propedêutica da paciente, na situação 2, deverá contemplar a solicitação de exame de imagem (tomografia computadorizada de crânio, sem contraste), como primeira conduta a ser feita, após o exame físico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-118",
@@ -3949,7 +4042,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se, com referência à situação 1, que a paciente possui mais de um tipo de cefaleia.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-119",
@@ -3960,7 +4054,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nas situações I e II, pode-se administrar clorpromazina, endovenosa, por até três vezes, com o cuidado de monitorar a estabilidade hemodinâmica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2019-hub-clinica-medica-120",
@@ -3971,7 +4066,136 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Após a correta sequência de administração de medicamentos, havendo melhora total dos sintomas na situação 1 e permanência dos sintomas na situação 2, a tomografia de crânio sem contraste deverá ser realizada, sendo necessário o acompanhamento de um neurologista.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Cada um dos itens da prova objetiva está vinculado ao comando que imediatamente o antecede. De acordo com o comando a que cada um deles esteja vinculado, marque, na Folha de Respostas , para cada item: o campo designado com o código CERTO ; ou o campo designado com o código E , caso julgue o item os campos não serão apenadas, ou seja, não receberão pontuação negativa. Para as devidas marcações, use a único documento válido para a correção da sua prova objetiva. • No(s) item(ns) eventualmente constituído(s) pela estrutura Situação hipotética\n\ncomo situação hipotética deverão ser considerados premissa(s) para o julgamento da assertiva proposta. • Eventuais espaços livres — identificados ou não pela expressão “Espaço livre” — que constarem deste caderno de prova poderão ser\n\nutilizados para rascunhos.\n\nPROVA OBJETIVA",
+   "citacao": "Uma criança do sexo feminino, com 7 anos e 8 meses de idade, foi levada pela mãe ao ambulatório pediátrico com quadro de aumento bilateral das mamas e ausência de dor mamária ou de odor nas axilas. No exame físico, constatou-se que as mamas estavam discretamente assimétricas, com pequena elevação, e a aréola se apresentava como um pequeno montículo. A criança não tinha pelos pubianos. O resultado da avaliação radiológica da idade óssea foi de 7 anos.",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Paciente de 7 anos de idade, com 22 quilogramas, morador de comunidade de baixa renda no Distrito Federal, foi trazido pela mãe ao pronto-socorro com edema em cotovelo direito e dor local, que piorava com a movimentação, com febre de 39 ºC e prostração. A criança, seis dias antes do atendimento médico, tinha apresentado quadro semelhante em joelho esquerdo, que melhorou em dois dias, após uso de anti-inflamatório, sem orientação médica.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Paciente de 5 anos de idade foi levado ao pronto-socorro com história de perda de 4 quilogramas na última semana que antecedeu o atendimento médico, e com poliúria e polidipsia. Um dia antes do atendimento, o quadro clínico da criança tinha evoluído com taquipneia, dor abdominal e, no dia do atendimento, a criança amanheceu sonolenta. No exame físico, constataram-se respiração irregular, com frequência respiratória de 40 incursões respiratórias por minuto, hálito cetótico, mucosa oral seca, olhos fundos e tempo de enchimento capilar maior que 3 segundos.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Lactente de 6 meses de vida foi levado à unidade de pronto atendimento devido a um quadro de irritabilidade súbita, com choro forte. Não havia história de febre. No exame físico, apresentava-se em regular estado geral, choroso, taquipneico e com frequência cardíaca de 230 bpm. A pressão arterial estava dentro dos valores normais para a idade. Os pulsos estavam cheios e simétricos.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma criança com três anos de idade, internada para tratamento de leucemia diagnosticada há três meses, foi examinada por um médico que constatou febre de início recente. A criança não apresentava sintomas respiratórios na admissão. A respeito desse quadro clínico e de aspectos diversos a ele",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Na avaliação de quadro convulsivo, é necessária uma avaliação",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma mulher com setenta anos de idade foi admitida no pronto-socorro, apresentando quadro de dor abdominal no flanco esquerdo, de início insidioso, nas últimas 24 h, associado a calafrios e febre que se intensificaram nas últimas 6 h. Foi realizada tomografia computadorizada de abdome com identificação de processo inflamatório no sigmoide, com estenose circunferencial parcial, vários divertículos, sendo que havia bloqueio associado do epiplon (flegmão), sem pneumoperitônio ou líquido livre na cavidade. A paciente nunca realizou colonoscopia.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um homem com vinte e oito anos de idade, vítima de traumatismo abdominal por joelhada durante jogo de futebol, deu entrada no serviço de pronto-socorro com quadro de intensa dor abdominal, associado à rigidez abdominal. O exame físico do abdome mostrou descompressão brusca dolorosa. Os exames laboratoriais revelaram leucocitose com desvio à esquerda, com aumento da amilase cinco vezes o valor normal. Foi indicada a realização de tomografia computadorizada do abdome com contraste, que evidenciou a presença de hematoma em corpo do pâncreas, sinais de laceração parcial do corpo pancreático em sua superfície anterior, coleção de líquido no espaço subfrênico esquerdo e junto ao pâncreas e ao polo inferior do baço. O paciente encontrava-se hemodinamicamente estável. Foi indicada a realização de laparotomia exploradora e, durante inventário da cavidade, foi identificada a secção parcial do corpo do pâncreas (25% do órgão) à esquerda, a 4 cm da formação da veia porta, em direção à cauda pancreática, sem exposição do ducto Wirsung, tendo-se identificado, ainda, hematoma superficial do polo superior do baço. Foi realizada rafia do pâncreas com pontos interrompidos, drenagem da cavidade com dreno tubo-laminar.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um homem com vinte e sete anos de idade foi atendido no pronto-socorro de um hospital geral, com história de aparecimento de dor abdominal em cólica na região epigástrica há 4 h, acompanhada de náuseas e hiporexia. Posteriormente, a dor migrou para a fossa ilíaca direita, tornando-se contínua e mais forte e o paciente referiu um episódio de vômito. O exame físico mostrou um bom estado geral, temperatura corporal de 37,5 ºC e abdome dolorido à palpação da fossa ilíaca direita, com sinal de Blumberg presente.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "verificou-se pressão arterial de 168 mmHg × 88 mmHg, ritmo cardíaco irregular em dois tempos sem sopros, abdome discretamente tenso, sem dor à descompressão brusca e com ruídos hidroaéros presentes. Constatou-se que a sua dor era desproporcional aos achados do exame físico. Os demais dados do exame físico foram normais. Os exames laboratoriais de rotina foram normais, incluindo a pesquisa de sangue nas fezes, amilase, lipase e lactato sérico. A seguir, é apresentado o eletrocardiograma dessa paciente (com calibração padrão).",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma viúva com setenta e sete anos de idade, portadora de doença pulmonar obstrutiva crônica (DPOC) severa, foi atendida no pronto-socorro com piora da dispneia e da tosse produtiva. Ela recebeu a segunda alta hospitalar neste ano, havia três semanas, devido a DPOC exacerbada. A paciente vivia só e realizava as atividades habituais diariamente sem auxílio. Estava em uso regular de indacaterol e glicopirrônio. No exame físico, apresentava saturação de oxigênio (em ar ambiente) de 87%, frequência respiratória de 32 irpm, pressão arterial de 134 mmHg × 74 mmHg (média de três medidas), frequência cardíaca de 102 bpm e ritmo cardíaco regular em dois tempos sem sopros. A ausculta respiratória revelou ruídos adventícios presentes com estertores crepitantes em bases e sibilos esparsos. O restante do exame físico foi normal. Após três nebulizações com brometo de ipratrópio e bromidrato de fenoterol, houve melhora da frequência respiratória para 28 irpm e da saturação de oxigênio (em ar ambiente) para 89%. O exame físico não apresentou modificações significativas.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma paciente de setenta e um anos de idade compareceu ao atendimento médico com o seguinte quadro clínico: hipertensa e diabética, dispneia e desconforto gástrico iniciados havia",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma mulher de cinquenta e quatro anos de idade deu entrada no pronto-socorro com quadro de dor, calor, rubor e edema no hálux esquerdo, sintomas que, segundo ela, se iniciaram na madrugada e pioraram ao longo do dia. Ela relatou ter participado de um churrasco no dia anterior, quando consumiu grande quantidade de carne vermelha e bebida destilada. Negou trauma local. A paciente é obesa e apresenta resistência à insulina e hipertensão arterial, para as quais faz uso de metiformina e hidroclorotiazida. Negou alergias medicamentosas e outras comorbidades. Foram solicitados exames laboratoriais e punção do líquido articular para auxiliar no diagnóstico e tratamento.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um homem de sessenta e oito anos de idade, que sofre de doença pulmonar obstrutiva crônica (DPOC) e em acompanhamento ambulatorial com clínico geral, foi atendido por um médico em consulta de rotina. Apresentou espirometria recente, com VEF 1 pós BD = 45%, dispneia de grau 2 pela escala mMRC e estado de saúde na classificação DPOC avaliado com escore CAT igual a 18. O paciente relatou ter usado antibiótico três vezes nos últimos seis meses por causa de “piora do catarro”. Considerando esse caso clínico e as recomendações da Sociedade Brasileira de Pneumologia e Tissologia sobre DPOC, julgue os itens seguintes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um homem de cinquenta e oito anos de idade deu entrada na emergência com quadro clínico de dor intensa em andar superior do abdome que irradiava para dorso e era acompanhada de náuseas, vômitos e febre não medida com termômetro. Os sintomas iniciaram-se havia dois dias e pioraram nas duas horas anteriores à chegada ao hospital. No exame físico, o paciente apresentou dor à palpação de andar superior do abdome, com defesa muscular e distensão abdominal; murmúrio vesicular abolido na base pulmonar esquerda; FC = 124 bpm; PA = 90 mmHg × 60 mmHg; e Tax = 38,2 C. Os exames laboratoriais apresentaram os seguintes resultados: leucócitos = 18.400/mm 3 com 7% de bastões; ALT = 178 UI/L; amilase = 230 U/L; lipase = 480 U/L; glicose = 240 mg/dL; triglicérides = 183 mg/dL.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um homem de sessenta e sete anos de idade, obeso mórbido, hipertenso e diabético, apresentava, havia um dia, quadro de dor intensa em andar superior do abdome, associada a náuseas e vômitos, após ter consumido grandes quantidades de alimentos em uma refeição. No exame físico, estava taquicárdico FC: 121 bpm, taquipneico FR: 22 irpm, hipotenso PA: 90 mmHg × 50 mmHg e saturando 92% com máscara não reinalante FiO2: 100%. No exame do abdome, constatou-se dor à palpação do andar superior. Os exames laboratoriais evidenciaram hemoglobina de 18 g/dL; hematócrito = 57,3%; leucócitos = 17.200; plaquetas = 351.000, glicemia = 283 mg/dL; Ureia = 98 mg/dL; creatinina = 1,85 mg/dL; DHL = 762 U/L; bilirrubina total = 5,2 mg/dL; bilirrubina direta = 4,4 mg/dL; triglicerídios = 400 mg/dL; amilase = 2.058 U/L e lipase = 15.897 U/L. A gasometria arterial mostrou pH = 7,36; pO = 58; pCO = 41,4; HCO = 22,8; e lactato = 2,6. 2 2 3 Com relação ao caso clínico apresentado e a aspectos diversos",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma paciente com setenta e dois anos de idade, hipertensa, foi admitida no serviço de emergência após sofrer queda da própria altura e consequente trauma craniencefálico leve. Familiares informaram que já havia três dias que a paciente estava mais lentificada, com dificuldade para caminhar e um pouco confusa. Durante a internação, o quadro da paciente evoluiu para cefaleia, náusea, vômitos e crises convulsivas generalizadas. No exame físico, constatou-se PA = 130 mmHg × 90 mmHg; FC = 52 bpm; FR = 11 irpm e SpO 2 = 88% em ar ambiente. Observou-se ainda que a paciente estava normocorada e hidratada. A ausculta respiratória evidenciou murmúrio vesicular globalmente reduzido. No exame neurológico, a paciente mostrava-se disártrica, sonolenta, confusa e desorientada no tempo e no espaço. Os resultados dos exames de hemograma, glicemia e funções renal e hepática estavam normais. A dosagem de eletrólitos evidenciou hiponatremia com dosagem sérica de 118 mEq/L.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "havia 3 semanas. Fez uso de medicação, sem prescrição médica, com melhora parcial. Procurou a emergência de um hospital para atendimento, após piora do estado geral, apresentando dor lombar à direita, febre, náuseas e vômitos. A paciente foi submetida a exames, que evidenciaram o quadro a seguir. GEG (grave estado geral): mucosas secas e hipocoradas; edema de membros inferiores (+/+4); perfusão periférica débil; febre (38,5°); PA = 80 mmHg/60 mmHg; pulso = 120 batimentos por minuto; FR = 28 incursões respiratórias por minuto; peso = 60 quilogramas. Aparelho respiratório: pulmões limpos, esforço respiratório e uso de musculatura acessória, Sat O 90% (máscara de venturi 50% e 10 litros por minuto). 2 Aparelho cardiovascular: bulhas rítmicas, normofonéticas e taquicárdicas, sem sopros. Aparelho digestório: Giordano positivo à direita, sem visceromegalias. Sistema nervoso: pupilas isocóricas e fotorreagentes, obnubilada, escala de coma de Glasgow 13. Diurese: 300 mL/12h. Os exames admissionais obtiveram os seguintes resultados. Hemograma: Hb = 10; leucograma = 3500; bastão = 500; plaquetas = 105.000; ureia = 85; creatinina = 1,8; Na = 144; K = 5,1; Cl = 102. Gasometria arterial: pH = 7,2; HCO = 16; PCO = 28; PO =75 Sat O = 91%; lactato = 2,6. 3 2 2",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma paciente de 39 anos de idade, com antecedente de transtorno afetivo bipolar (TAB), sob acompanhamento psiquiátrico havia oito anos, deu entrada na emergência de um hospital, trazida por familiares. A paciente apresentava o seguinte quadro clínico: lentificação psicomotora, fala empastada, emagrecimento de 6 kg em 1 mês, polidipsia e poliúria, sem outras comorbidades. Ela fazia uso, nos últimos 12 meses, de carbamazepina 1.200 mg/dia, carbonato de lítio 1.800 mg/dia, hidroclorotiazida 25 mg/dia e enalapril 10 mg/dia. Ao ser examinada, apresentou regular estado geral, mucosas coradas e desidratadas (++/4+), estava afebril e acianótica. O exame neurológico mostrou escala de coma de Glasgow 11 (abertura ocular: 3; resposta motora: 5; resposta verbal: 3), sem outras alterações neurológicas, sem sinais de irritação meníngea. Os demais exames apresentaram os seguintes resultados. Pressão arterial de 130 mmHg/80 mmHg; frequência cardíaca de 122 bpm; frequência respiratória de 24 incursões respiratórias por minuto; saturação de oxigênio (ar ambiente) de 95%. Não houve outras anormalidades. Exames laboratoriais na admissão: creatinina = 1,66; ureia = 59; K = 2,8; Na = 193; pH = 7,31; HCO = 17,9; pCO = 30; pO = 84;\n\n3 2 2 e lactato = 26.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um homem de 43 anos de idade, aposentado, que trabalhou em indústria de cimento, tinha hábitos alcoólicos superiores a 50 gramas/dia, nos últimos 20 anos. Notou, pela primeira vez, havia 3 anos, aumento do volume abdominal, edemas dos membros inferiores e face. Associado a esse quadro, apresentou parestesias dos quatro membros com evolução progressiva e, um mês antes da internação, necessitou ficar acamado por fadiga e adinamia. Foi internado na emergência para investigação. Durante o exame físico, o paciente estava consciente, orientado, com 41,9 quilogramas de peso e altura de l,69 metros. A pele apresentava rarefação pilosa e telangiectasias da face. As mucosas estavam úmidas e hipocoradas (+2/+4), e perfusão periférica com tempo de enchimento capilar menor que 2 segundos. Foram verificados, ainda, tórax e abdome com circulação colateral, edema da parede abdominal e dos quatro membros (+3/+4). Abdome ascítico, hepatomegalia de bordas lisas, indolor, palpável 4 centímetros abaixo do rebordo costal direito. O hábito intestinal do paciente era de uma evacuação a cada dois dias. Com relação ao sistema nervoso central, os membros superiores apresentavam hipoestesia bilateral em luva até os cotovelos e os inferiores, hipoestesia em meia até os joelhos, além de incapacidade de marcha. O paciente referiu inversão do ciclo sono e vigília.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Situação 1\n\nUma mulher de 35 anos de idade procurou a emergência havia duas horas e meia, com intensa cefaleia, inicialmente frontotemporal direita, depois holocraniana, pulsátil, acompanhada de náuseas, vômitos e fotofobia. A dor era agravada por movimentos da cabeça e deambulação. Na história patológica pregressa, referiu múltiplos episódios semelhantes prévios, com várias idas ao hospital devido à baixa resposta aos tratamentos ambulatoriais. Apresentava, também, crises de cefaleia mais leves, holocranianas, tipo peso, sem sintomas acompanhantes, que cediam à utilização de analgésicos comuns, com duração de várias horas, sem necessidade de procurar ajuda hospitalar. Ao exame neurológico, foi observado nível e qualidade da consciência normais, sem sinais meníngeos, sem déficits motores nos membros e sem febre. Situação 2\n\nApós dois meses, a mesma paciente retornou à emergência, com um quadro de cefaleia holocraniana severa, pulsátil, acompanhada de vômitos, com evolução de cerca de 1 hora. O acompanhante relatou que nunca a tinha visto tão mal. Ao exame neurológico, foi observado nível e qualidade da consciência normais, sem sinais meníngeos, sem déficits motores nos membros e sem febre.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

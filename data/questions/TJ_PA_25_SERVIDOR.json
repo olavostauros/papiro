@@ -563,7 +563,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A estatística F para testar H0: β1 = β2 = ⋯ = βk = 0 é dada por F = (SQM/k)/(SQR/(n − k − 1)).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2025-tjpa-analista-judiciario-estatistica-109",
@@ -640,7 +641,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que circuitos cerebrais de uma pessoa que sabe ler funcionam de maneira diferente dos de uma pessoa que não desenvolveu esse aprendizado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-oficial-de-justica-avaliador-002",
@@ -651,7 +653,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a pesquisadora mencionada no texto, a habilidade de leitura profunda deixará de existir, pois as pessoas estão desenvolvendo o hábito de se limitar a leituras fragmentadas e rápidas de textos online .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-oficial-de-justica-avaliador-003",
@@ -662,7 +665,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, o ato de ler possibilita que áreas cerebrais em desuso voltem a ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-oficial-de-justica-avaliador-004",
@@ -673,7 +677,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No início do primeiro parágrafo, a expressão “No momento em que” poderia ser substituída por Na medida que , sem prejuízo da correção gramatical e da coerência das ideias do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-oficial-de-justica-avaliador-005",
@@ -684,7 +689,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No final do primeiro parágrafo, o trecho “e criou algo que não existia quando a nossa espécie surgiu” poderia ser reescrito, sem alteração do sentido do texto e sem prejuízo da sua correção gramatical, da seguinte forma: e quando a nossa espécie surgiu, criou algo que não existia .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-oficial-de-justica-avaliador-006",
@@ -695,7 +701,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, as conjunções ‘Mas’ (segundo período) e ‘E’ (terceiro período) são intercambiáveis, de forma que a substituição de uma pela outra, embora alterasse o sentido do texto, não prejudicaria nem a sua correção gramatical nem a coerência das suas ideias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-oficial-de-justica-avaliador-007",
@@ -706,7 +713,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No terceiro período do segundo parágrafo, o pronome ‘você’ faz referência à coletividade, de maneira geral, ou, ainda, a um indivíduo inespecífico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-oficial-de-justica-avaliador-008",
@@ -717,7 +725,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “adverte” (primeiro período do terceiro parágrafo) poderia ser substituída por ensina , mantendo-se a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-oficial-de-justica-avaliador-009",
@@ -728,7 +737,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o “processo” mencionado no primeiro período do quarto parágrafo é o processo de mudança dos circuitos cerebrais que possibilitou ao ser humano a capacidade de ler.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-oficial-de-justica-avaliador-010",
@@ -739,7 +749,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se substituísse “existam” (segundo período do quarto parágrafo) por hajam .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-oficial-de-justica-avaliador-011",
@@ -750,7 +761,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-oficial-de-justica-avaliador-012",
@@ -761,7 +773,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a coerência das ideias do texto caso a forma verbal ‘reciclaram’ (último período do quinto parágrafo) fosse substituída pela locução tenham reciclado .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-oficial-de-justica-avaliador-013",
@@ -772,7 +785,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto e o seu sentido original seriam mantidos caso o vocábulo “aleatórios” (primeiro período do último parágrafo) fosse substituído pela expressão sem sentido .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-oficial-de-justica-avaliador-014",
@@ -783,7 +797,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do último parágrafo, a expressão “áreas muito mais amplas da visão” integra o sujeito da oração expressa pela forma verbal “ativavam-se”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-oficial-de-justica-avaliador-015",
@@ -1894,7 +1909,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que circuitos cerebrais de uma pessoa que sabe ler funcionam de maneira diferente dos de uma pessoa que não desenvolveu esse aprendizado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administrativa-002",
@@ -1905,7 +1921,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a pesquisadora mencionada no texto, a habilidade de leitura profunda deixará de existir, pois as pessoas estão desenvolvendo o hábito de se limitar a leituras fragmentadas e rápidas de textos online .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administrativa-003",
@@ -1916,7 +1933,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, o ato de ler possibilita que áreas cerebrais em desuso voltem a ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administrativa-004",
@@ -1927,7 +1945,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do primeiro parágrafo, a expressão “No momento em que” poderia ser substituída por Na medida que , sem prejuízo da correção gramatical e da coerência das ideias do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administrativa-005",
@@ -1938,7 +1957,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do primeiro parágrafo, o trecho “e criou algo que não existia quando a nossa espécie surgiu” poderia ser reescrito, sem alteração do sentido do texto e sem prejuízo da sua correção gramatical, da seguinte forma: e quando a nossa espécie surgiu, criou algo que não existia .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administrativa-006",
@@ -1949,7 +1969,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, as conjunções ‘Mas’ (segundo período) e ‘E’ (terceiro período) são intercambiáveis, de forma que a substituição de uma pela outra, embora alterasse o sentido do texto, não prejudicaria nem a sua correção gramatical nem a coerência das suas ideias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administrativa-007",
@@ -1960,7 +1981,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro período do segundo parágrafo, o pronome ‘você’ faz referência à coletividade, de maneira geral, ou, ainda, a um indivíduo inespecífico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administrativa-008",
@@ -1971,7 +1993,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “adverte” (primeiro período do terceiro parágrafo) poderia ser substituída por ensina , mantendo-se a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administrativa-009",
@@ -1982,7 +2005,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o “processo” mencionado no primeiro período do quarto parágrafo é o processo de mudança dos circuitos cerebrais que possibilitou ao ser humano a capacidade de ler.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administrativa-010",
@@ -1993,7 +2017,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se substituísse “existam” (segundo período do quarto parágrafo) por hajam .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administrativa-011",
@@ -2004,7 +2029,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administrativa-012",
@@ -2015,7 +2041,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a coerência das ideias do texto caso a forma verbal ‘reciclaram’ (último período do quinto parágrafo) fosse substituída pela locução tenham reciclado .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administrativa-013",
@@ -2026,7 +2053,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto e o seu sentido original seriam mantidos caso o vocábulo “aleatórios” (primeiro período do último parágrafo) fosse substituído pela expressão sem sentido .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administrativa-014",
@@ -2037,7 +2065,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do último parágrafo, a expressão “áreas muito mais amplas da visão” integra o sujeito da oração expressa pela forma verbal “ativavam-se”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administrativa-015",
@@ -2444,7 +2473,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que circuitos cerebrais de uma pessoa que sabe ler funcionam de maneira diferente dos de uma pessoa que não desenvolveu esse aprendizado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administracao-002",
@@ -2455,7 +2485,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a pesquisadora mencionada no texto, a habilidade de leitura profunda deixará de existir, pois as pessoas estão desenvolvendo o hábito de se limitar a leituras fragmentadas e rápidas de textos online .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administracao-003",
@@ -2466,7 +2497,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, o ato de ler possibilita que áreas cerebrais em desuso voltem a ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administracao-004",
@@ -2477,7 +2509,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do primeiro parágrafo, a expressão “No momento em que” poderia ser substituída por Na medida que , sem prejuízo da correção gramatical e da coerência das ideias do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administracao-005",
@@ -2488,7 +2521,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do primeiro parágrafo, o trecho “e criou algo que não existia quando a nossa espécie surgiu” poderia ser reescrito, sem alteração do sentido do texto e sem prejuízo da sua correção gramatical, da seguinte forma: e quando a nossa espécie surgiu, criou algo que não existia .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administracao-006",
@@ -2499,7 +2533,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, as conjunções ‘Mas’ (segundo período) e ‘E’ (terceiro período) são intercambiáveis, de forma que a substituição de uma pela outra, embora alterasse o sentido do texto, não prejudicaria nem a sua correção gramatical nem a coerência das suas ideias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administracao-007",
@@ -2510,7 +2545,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro período do segundo parágrafo, o pronome ‘você’ faz referência à coletividade, de maneira geral, ou, ainda, a um indivíduo inespecífico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administracao-008",
@@ -2521,7 +2557,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “adverte” (primeiro período do terceiro parágrafo) poderia ser substituída por ensina , mantendo-se a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administracao-009",
@@ -2532,7 +2569,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o “processo” mencionado no primeiro período do quarto parágrafo é o processo de mudança dos circuitos cerebrais que possibilitou ao ser humano a capacidade de ler.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administracao-010",
@@ -2543,7 +2581,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se substituísse “existam” (segundo período do quarto parágrafo) por hajam .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administracao-011",
@@ -2554,7 +2593,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administracao-012",
@@ -2565,7 +2605,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a coerência das ideias do texto caso a forma verbal ‘reciclaram’ (último período do quinto parágrafo) fosse substituída pela locução tenham reciclado .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administracao-013",
@@ -2576,7 +2617,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto e o seu sentido original seriam mantidos caso o vocábulo “aleatórios” (primeiro período do último parágrafo) fosse substituído pela expressão sem sentido .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administracao-014",
@@ -2587,7 +2629,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do último parágrafo, a expressão “áreas muito mais amplas da visão” integra o sujeito da oração expressa pela forma verbal “ativavam-se”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-administracao-015",
@@ -2994,7 +3037,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que circuitos cerebrais de uma pessoa que sabe ler funcionam de maneira diferente dos de uma pessoa que não desenvolveu esse aprendizado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-biblioteconomia-002",
@@ -3005,7 +3049,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a pesquisadora mencionada no texto, a habilidade de leitura profunda deixará de existir, pois as pessoas estão desenvolvendo o hábito de se limitar a leituras fragmentadas e rápidas de textos online .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-biblioteconomia-003",
@@ -3016,7 +3061,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, o ato de ler possibilita que áreas cerebrais em desuso voltem a ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-biblioteconomia-004",
@@ -3027,7 +3073,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do primeiro parágrafo, a expressão “No momento em que” poderia ser substituída por Na medida que , sem prejuízo da correção gramatical e da coerência das ideias do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-biblioteconomia-005",
@@ -3038,7 +3085,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do primeiro parágrafo, o trecho “e criou algo que não existia quando a nossa espécie surgiu” poderia ser reescrito, sem alteração do sentido do texto e sem prejuízo da sua correção gramatical, da seguinte forma: e quando a nossa espécie surgiu, criou algo que não existia .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-biblioteconomia-006",
@@ -3049,7 +3097,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, as conjunções ‘Mas’ (segundo período) e ‘E’ (terceiro período) são intercambiáveis, de forma que a substituição de uma pela outra, embora alterasse o sentido do texto, não prejudicaria nem a sua correção gramatical nem a coerência das suas ideias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-biblioteconomia-007",
@@ -3060,7 +3109,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro período do segundo parágrafo, o pronome ‘você’ faz referência à coletividade, de maneira geral, ou, ainda, a um indivíduo inespecífico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-biblioteconomia-008",
@@ -3071,7 +3121,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “adverte” (primeiro período do terceiro parágrafo) poderia ser substituída por ensina , mantendo-se a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-biblioteconomia-009",
@@ -3082,7 +3133,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o “processo” mencionado no primeiro período do quarto parágrafo é o processo de mudança dos circuitos cerebrais que possibilitou ao ser humano a capacidade de ler.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-biblioteconomia-010",
@@ -3093,7 +3145,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se substituísse “existam” (segundo período do quarto parágrafo) por hajam .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-biblioteconomia-011",
@@ -3104,7 +3157,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-biblioteconomia-012",
@@ -3115,7 +3169,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a coerência das ideias do texto caso a forma verbal ‘reciclaram’ (último período do quinto parágrafo) fosse substituída pela locução tenham reciclado .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-biblioteconomia-013",
@@ -3126,7 +3181,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto e o seu sentido original seriam mantidos caso o vocábulo “aleatórios” (primeiro período do último parágrafo) fosse substituído pela expressão sem sentido .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-biblioteconomia-014",
@@ -3137,7 +3193,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do último parágrafo, a expressão “áreas muito mais amplas da visão” integra o sujeito da oração expressa pela forma verbal “ativavam-se”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-biblioteconomia-015",
@@ -3544,7 +3601,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que circuitos cerebrais de uma pessoa que sabe ler funcionam de maneira diferente dos de uma pessoa que não desenvolveu esse aprendizado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-comunicacao-social-002",
@@ -3555,7 +3613,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a pesquisadora mencionada no texto, a habilidade de leitura profunda deixará de existir, pois as pessoas estão desenvolvendo o hábito de se limitar a leituras fragmentadas e rápidas de textos online .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-comunicacao-social-003",
@@ -3566,7 +3625,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, o ato de ler possibilita que áreas cerebrais em desuso voltem a ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-comunicacao-social-004",
@@ -3577,7 +3637,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do primeiro parágrafo, a expressão “No momento em que” poderia ser substituída por Na medida que , sem prejuízo da correção gramatical e da coerência das ideias do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-comunicacao-social-005",
@@ -3588,7 +3649,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do primeiro parágrafo, o trecho “e criou algo que não existia quando a nossa espécie surgiu” poderia ser reescrito, sem alteração do sentido do texto e sem prejuízo da sua correção gramatical, da seguinte forma: e quando a nossa espécie surgiu, criou algo que não existia .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-comunicacao-social-006",
@@ -3599,7 +3661,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, as conjunções ‘Mas’ (segundo período) e ‘E’ (terceiro período) são intercambiáveis, de forma que a substituição de uma pela outra, embora alterasse o sentido do texto, não prejudicaria nem a sua correção gramatical nem a coerência das suas ideias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-comunicacao-social-007",
@@ -3610,7 +3673,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro período do segundo parágrafo, o pronome ‘você’ faz referência à coletividade, de maneira geral, ou, ainda, a um indivíduo inespecífico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-comunicacao-social-008",
@@ -3621,7 +3685,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “adverte” (primeiro período do terceiro parágrafo) poderia ser substituída por ensina , mantendo-se a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-comunicacao-social-009",
@@ -3632,7 +3697,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o “processo” mencionado no primeiro período do quarto parágrafo é o processo de mudança dos circuitos cerebrais que possibilitou ao ser humano a capacidade de ler.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-comunicacao-social-010",
@@ -3643,7 +3709,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se substituísse “existam” (segundo período do quarto parágrafo) por hajam .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-comunicacao-social-011",
@@ -3654,7 +3721,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-comunicacao-social-012",
@@ -3665,7 +3733,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a coerência das ideias do texto caso a forma verbal ‘reciclaram’ (último período do quinto parágrafo) fosse substituída pela locução tenham reciclado .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-comunicacao-social-013",
@@ -3676,7 +3745,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto e o seu sentido original seriam mantidos caso o vocábulo “aleatórios” (primeiro período do último parágrafo) fosse substituído pela expressão sem sentido .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-comunicacao-social-014",
@@ -3687,7 +3757,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do último parágrafo, a expressão “áreas muito mais amplas da visão” integra o sujeito da oração expressa pela forma verbal “ativavam-se”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-comunicacao-social-015",
@@ -4094,7 +4165,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que circuitos cerebrais de uma pessoa que sabe ler funcionam de maneira diferente dos de uma pessoa que não desenvolveu esse aprendizado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-direito-002",
@@ -4105,7 +4177,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a pesquisadora mencionada no texto, a habilidade de leitura profunda deixará de existir, pois as pessoas estão desenvolvendo o hábito de se limitar a leituras fragmentadas e rápidas de textos online .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-direito-003",
@@ -4116,7 +4189,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, o ato de ler possibilita que áreas cerebrais em desuso voltem a ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-direito-004",
@@ -4127,7 +4201,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do primeiro parágrafo, a expressão “No momento em que” poderia ser substituída por Na medida que , sem prejuízo da correção gramatical e da coerência das ideias do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-direito-005",
@@ -4138,7 +4213,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do primeiro parágrafo, o trecho “e criou algo que não existia quando a nossa espécie surgiu” poderia ser reescrito, sem alteração do sentido do texto e sem prejuízo da sua correção gramatical, da seguinte forma: e quando a nossa espécie surgiu, criou algo que não existia .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-direito-006",
@@ -4149,7 +4225,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, as conjunções ‘Mas’ (segundo período) e ‘E’ (terceiro período) são intercambiáveis, de forma que a substituição de uma pela outra, embora alterasse o sentido do texto, não prejudicaria nem a sua correção gramatical nem a coerência das suas ideias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-direito-007",
@@ -4160,7 +4237,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro período do segundo parágrafo, o pronome ‘você’ faz referência à coletividade, de maneira geral, ou, ainda, a um indivíduo inespecífico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-direito-008",
@@ -4171,7 +4249,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “adverte” (primeiro período do terceiro parágrafo) poderia ser substituída por ensina , mantendo-se a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-direito-009",
@@ -4182,7 +4261,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o “processo” mencionado no primeiro período do quarto parágrafo é o processo de mudança dos circuitos cerebrais que possibilitou ao ser humano a capacidade de ler.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-direito-010",
@@ -4193,7 +4273,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se substituísse “existam” (segundo período do quarto parágrafo) por hajam .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-direito-011",
@@ -4204,7 +4285,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-direito-012",
@@ -4215,7 +4297,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a coerência das ideias do texto caso a forma verbal ‘reciclaram’ (último período do quinto parágrafo) fosse substituída pela locução tenham reciclado .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-direito-013",
@@ -4226,7 +4309,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto e o seu sentido original seriam mantidos caso o vocábulo “aleatórios” (primeiro período do último parágrafo) fosse substituído pela expressão sem sentido .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-direito-014",
@@ -4237,7 +4321,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do último parágrafo, a expressão “áreas muito mais amplas da visão” integra o sujeito da oração expressa pela forma verbal “ativavam-se”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-direito-015",
@@ -4644,7 +4729,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que circuitos cerebrais de uma pessoa que sabe ler funcionam de maneira diferente dos de uma pessoa que não desenvolveu esse aprendizado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-pedagogia-002",
@@ -4655,7 +4741,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a pesquisadora mencionada no texto, a habilidade de leitura profunda deixará de existir, pois as pessoas estão desenvolvendo o hábito de se limitar a leituras fragmentadas e rápidas de textos online .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-pedagogia-003",
@@ -4666,7 +4753,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, o ato de ler possibilita que áreas cerebrais em desuso voltem a ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-pedagogia-004",
@@ -4677,7 +4765,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do primeiro parágrafo, a expressão “No momento em que” poderia ser substituída por Na medida que , sem prejuízo da correção gramatical e da coerência das ideias do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-pedagogia-005",
@@ -4688,7 +4777,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do primeiro parágrafo, o trecho “e criou algo que não existia quando a nossa espécie surgiu” poderia ser reescrito, sem alteração do sentido do texto e sem prejuízo da sua correção gramatical, da seguinte forma: e quando a nossa espécie surgiu, criou algo que não existia .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-pedagogia-006",
@@ -4699,7 +4789,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, as conjunções ‘Mas’ (segundo período) e ‘E’ (terceiro período) são intercambiáveis, de forma que a substituição de uma pela outra, embora alterasse o sentido do texto, não prejudicaria nem a sua correção gramatical nem a coerência das suas ideias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-pedagogia-007",
@@ -4710,7 +4801,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro período do segundo parágrafo, o pronome ‘você’ faz referência à coletividade, de maneira geral, ou, ainda, a um indivíduo inespecífico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-pedagogia-008",
@@ -4721,7 +4813,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “adverte” (primeiro período do terceiro parágrafo) poderia ser substituída por ensina , mantendo-se a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-pedagogia-009",
@@ -4732,7 +4825,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o “processo” mencionado no primeiro período do quarto parágrafo é o processo de mudança dos circuitos cerebrais que possibilitou ao ser humano a capacidade de ler.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-pedagogia-010",
@@ -4743,7 +4837,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se substituísse “existam” (segundo período do quarto parágrafo) por hajam .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-pedagogia-011",
@@ -4754,7 +4849,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-pedagogia-012",
@@ -4765,7 +4861,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a coerência das ideias do texto caso a forma verbal ‘reciclaram’ (último período do quinto parágrafo) fosse substituída pela locução tenham reciclado .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-pedagogia-013",
@@ -4776,7 +4873,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto e o seu sentido original seriam mantidos caso o vocábulo “aleatórios” (primeiro período do último parágrafo) fosse substituído pela expressão sem sentido .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-pedagogia-014",
@@ -4787,7 +4885,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do último parágrafo, a expressão “áreas muito mais amplas da visão” integra o sujeito da oração expressa pela forma verbal “ativavam-se”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-pedagogia-015",
@@ -5194,7 +5293,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que circuitos cerebrais de uma pessoa que sabe ler funcionam de maneira diferente dos de uma pessoa que não desenvolveu esse aprendizado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-sistemas-002",
@@ -5205,7 +5305,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a pesquisadora mencionada no texto, a habilidade de leitura profunda deixará de existir, pois as pessoas estão desenvolvendo o hábito de se limitar a leituras fragmentadas e rápidas de textos online .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-sistemas-003",
@@ -5216,7 +5317,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, o ato de ler possibilita que áreas cerebrais em desuso voltem a ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-sistemas-004",
@@ -5227,7 +5329,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do primeiro parágrafo, a expressão “No momento em que” poderia ser substituída por Na medida que , sem prejuízo da correção gramatical e da coerência das ideias do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-sistemas-005",
@@ -5238,7 +5341,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do primeiro parágrafo, o trecho “e criou algo que não existia quando a nossa espécie surgiu” poderia ser reescrito, sem alteração do sentido do texto e sem prejuízo da sua correção gramatical, da seguinte forma: e quando a nossa espécie surgiu, criou algo que não existia .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-sistemas-006",
@@ -5249,7 +5353,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, as conjunções ‘Mas’ (segundo período) e ‘E’ (terceiro período) são intercambiáveis, de forma que a substituição de uma pela outra, embora alterasse o sentido do texto, não prejudicaria nem a sua correção gramatical nem a coerência das suas ideias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-sistemas-007",
@@ -5260,7 +5365,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro período do segundo parágrafo, o pronome ‘você’ faz referência à coletividade, de maneira geral, ou, ainda, a um indivíduo inespecífico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-analise-sistemas-008",
@@ -5271,7 +5377,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “adverte” (primeiro período do terceiro parágrafo) poderia ser substituída por ensina , mantendo-se a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-sistemas-009",
@@ -5282,7 +5389,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o “processo” mencionado no primeiro período do quarto parágrafo é o processo de mudança dos circuitos cerebrais que possibilitou ao ser humano a capacidade de ler.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-sistemas-010",
@@ -5293,7 +5401,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se substituísse “existam” (segundo período do quarto parágrafo) por hajam .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-sistemas-011",
@@ -5304,7 +5413,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-sistemas-012",
@@ -5315,7 +5425,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a coerência das ideias do texto caso a forma verbal ‘reciclaram’ (último período do quinto parágrafo) fosse substituída pela locução tenham reciclado .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-sistemas-013",
@@ -5326,7 +5437,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto e o seu sentido original seriam mantidos caso o vocábulo “aleatórios” (primeiro período do último parágrafo) fosse substituído pela expressão sem sentido .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-sistemas-014",
@@ -5337,7 +5449,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do último parágrafo, a expressão “áreas muito mais amplas da visão” integra o sujeito da oração expressa pela forma verbal “ativavam-se”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-analise-sistemas-015",
@@ -5711,7 +5824,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A probabilidade de se tirar do arquivo citado, de maneira aleatória, uma cópia de uma certidão de um casamento que aconteceu em Ananindeua é inferior a 0,09.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-sistemas-049",
@@ -5722,7 +5836,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As chances de se tirar do referido arquivo, de maneira aleatória, uma cópia de uma certidão de um casamento que não aconteceu em Redenção é inferior a 70%.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-sistemas-050",
@@ -5733,7 +5848,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A probabilidade de se tirar do arquivo em questão, de maneira aleatória, uma cópia de uma certidão de um casamento que aconteceu em Parauapebas corresponde a mais de 83% da probabilidade de se tirar uma cópia de uma certidão de casamento que aconteceu em Belém.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-suporte-001",
@@ -5744,7 +5860,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que circuitos cerebrais de uma pessoa que sabe ler funcionam de maneira diferente dos de uma pessoa que não desenvolveu esse aprendizado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-suporte-002",
@@ -5755,7 +5872,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a pesquisadora mencionada no texto, a habilidade de leitura profunda deixará de existir, pois as pessoas estão desenvolvendo o hábito de se limitar a leituras fragmentadas e rápidas de textos online .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-suporte-003",
@@ -5766,7 +5884,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, o ato de ler possibilita que áreas cerebrais em desuso voltem a ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-suporte-004",
@@ -5777,7 +5896,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do primeiro parágrafo, a expressão “No momento em que” poderia ser substituída por Na medida que , sem prejuízo da correção gramatical e da coerência das ideias do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-suporte-005",
@@ -5788,7 +5908,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do primeiro parágrafo, o trecho “e criou algo que não existia quando a nossa espécie surgiu” poderia ser reescrito, sem alteração do sentido do texto e sem prejuízo da sua correção gramatical, da seguinte forma: e quando a nossa espécie surgiu, criou algo que não existia .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-suporte-006",
@@ -5799,7 +5920,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, as conjunções ‘Mas’ (segundo período) e ‘E’ (terceiro período) são intercambiáveis, de forma que a substituição de uma pela outra, embora alterasse o sentido do texto, não prejudicaria nem a sua correção gramatical nem a coerência das suas ideias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-suporte-007",
@@ -5810,7 +5932,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro período do segundo parágrafo, o pronome ‘você’ faz referência à coletividade, de maneira geral, ou, ainda, a um indivíduo inespecífico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-analise-suporte-008",
@@ -5821,7 +5944,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “adverte” (primeiro período do terceiro parágrafo) poderia ser substituída por ensina , mantendo-se a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-suporte-009",
@@ -5832,7 +5956,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o “processo” mencionado no primeiro período do quarto parágrafo é o processo de mudança dos circuitos cerebrais que possibilitou ao ser humano a capacidade de ler.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-suporte-010",
@@ -5843,7 +5968,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se substituísse “existam” (segundo período do quarto parágrafo) por hajam .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-suporte-011",
@@ -5854,7 +5980,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-suporte-012",
@@ -5865,7 +5992,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a coerência das ideias do texto caso a forma verbal ‘reciclaram’ (último período do quinto parágrafo) fosse substituída pela locução tenham reciclado .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-suporte-013",
@@ -5876,7 +6004,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto e o seu sentido original seriam mantidos caso o vocábulo “aleatórios” (primeiro período do último parágrafo) fosse substituído pela expressão sem sentido .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-suporte-014",
@@ -5887,7 +6016,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do último parágrafo, a expressão “áreas muito mais amplas da visão” integra o sujeito da oração expressa pela forma verbal “ativavam-se”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-analise-suporte-015",
@@ -6261,7 +6391,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A probabilidade de se tirar do arquivo citado, de maneira aleatória, uma cópia de uma certidão de um casamento que aconteceu em Ananindeua é inferior a 0,09.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-suporte-049",
@@ -6272,7 +6403,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As chances de se tirar do referido arquivo, de maneira aleatória, uma cópia de uma certidão de um casamento que não aconteceu em Redenção é inferior a 70%.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-analise-suporte-050",
@@ -6283,7 +6415,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A probabilidade de se tirar do arquivo em questão, de maneira aleatória, uma cópia de uma certidão de um casamento que aconteceu em Parauapebas corresponde a mais de 83% da probabilidade de se tirar uma cópia de uma certidão de casamento que aconteceu em Belém.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-arquitetura-001",
@@ -6294,7 +6427,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que circuitos cerebrais de uma pessoa que sabe ler funcionam de maneira diferente dos de uma pessoa que não desenvolveu esse aprendizado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-arquitetura-002",
@@ -6305,7 +6439,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a pesquisadora mencionada no texto, a habilidade de leitura profunda deixará de existir, pois as pessoas estão desenvolvendo o hábito de se limitar a leituras fragmentadas e rápidas de textos online .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-arquitetura-003",
@@ -6316,7 +6451,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, o ato de ler possibilita que áreas cerebrais em desuso voltem a ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-arquitetura-004",
@@ -6327,7 +6463,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do primeiro parágrafo, a expressão “No momento em que” poderia ser substituída por Na medida que , sem prejuízo da correção gramatical e da coerência das ideias do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-arquitetura-005",
@@ -6338,7 +6475,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do primeiro parágrafo, o trecho “e criou algo que não existia quando a nossa espécie surgiu” poderia ser reescrito, sem alteração do sentido do texto e sem prejuízo da sua correção gramatical, da seguinte forma: e quando a nossa espécie surgiu, criou algo que não existia .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-arquitetura-006",
@@ -6349,7 +6487,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, as conjunções ‘Mas’ (segundo período) e ‘E’ (terceiro período) são intercambiáveis, de forma que a substituição de uma pela outra, embora alterasse o sentido do texto, não prejudicaria nem a sua correção gramatical nem a coerência das suas ideias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-arquitetura-007",
@@ -6360,7 +6499,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro período do segundo parágrafo, o pronome ‘você’ faz referência à coletividade, de maneira geral, ou, ainda, a um indivíduo inespecífico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-arquitetura-008",
@@ -6371,7 +6511,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “adverte” (primeiro período do terceiro parágrafo) poderia ser substituída por ensina , mantendo-se a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-arquitetura-009",
@@ -6382,7 +6523,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o “processo” mencionado no primeiro período do quarto parágrafo é o processo de mudança dos circuitos cerebrais que possibilitou ao ser humano a capacidade de ler.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-arquitetura-010",
@@ -6393,7 +6535,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se substituísse “existam” (segundo período do quarto parágrafo) por hajam .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-arquitetura-011",
@@ -6404,7 +6547,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-arquitetura-012",
@@ -6415,7 +6559,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a coerência das ideias do texto caso a forma verbal ‘reciclaram’ (último período do quinto parágrafo) fosse substituída pela locução tenham reciclado .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-arquitetura-013",
@@ -6426,7 +6571,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto e o seu sentido original seriam mantidos caso o vocábulo “aleatórios” (primeiro período do último parágrafo) fosse substituído pela expressão sem sentido .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-arquitetura-014",
@@ -6437,7 +6583,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do último parágrafo, a expressão “áreas muito mais amplas da visão” integra o sujeito da oração expressa pela forma verbal “ativavam-se”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-arquitetura-015",
@@ -6822,7 +6969,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As chances de se tirar do referido arquivo, de maneira aleatória, uma cópia de uma certidão de um casamento que não aconteceu em Redenção é inferior a 70%.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-arquitetura-050",
@@ -6833,7 +6981,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A probabilidade de se tirar do arquivo em questão, de maneira aleatória, uma cópia de uma certidão de um casamento que aconteceu em Parauapebas corresponde a mais de 83% da probabilidade de se tirar uma cópia de uma certidão de casamento que aconteceu em Belém.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-ciencias-contabeis-001",
@@ -6844,7 +6993,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que circuitos cerebrais de uma pessoa que sabe ler funcionam de maneira diferente dos de uma pessoa que não desenvolveu esse aprendizado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-ciencias-contabeis-002",
@@ -6855,7 +7005,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a pesquisadora mencionada no texto, a habilidade de leitura profunda deixará de existir, pois as pessoas estão desenvolvendo o hábito de se limitar a leituras fragmentadas e rápidas de textos online .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-ciencias-contabeis-003",
@@ -6866,7 +7017,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, o ato de ler possibilita que áreas cerebrais em desuso voltem a ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-ciencias-contabeis-004",
@@ -6877,7 +7029,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do primeiro parágrafo, a expressão “No momento em que” poderia ser substituída por Na medida que , sem prejuízo da correção gramatical e da coerência das ideias do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-ciencias-contabeis-005",
@@ -6888,7 +7041,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do primeiro parágrafo, o trecho “e criou algo que não existia quando a nossa espécie surgiu” poderia ser reescrito, sem alteração do sentido do texto e sem prejuízo da sua correção gramatical, da seguinte forma: e quando a nossa espécie surgiu, criou algo que não existia .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-ciencias-contabeis-006",
@@ -6899,7 +7053,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, as conjunções ‘Mas’ (segundo período) e ‘E’ (terceiro período) são intercambiáveis, de forma que a substituição de uma pela outra, embora alterasse o sentido do texto, não prejudicaria nem a sua correção gramatical nem a coerência das suas ideias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-ciencias-contabeis-007",
@@ -6910,7 +7065,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro período do segundo parágrafo, o pronome ‘você’ faz referência à coletividade, de maneira geral, ou, ainda, a um indivíduo inespecífico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-ciencias-contabeis-008",
@@ -6921,7 +7077,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “adverte” (primeiro período do terceiro parágrafo) poderia ser substituída por ensina , mantendo-se a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-ciencias-contabeis-009",
@@ -6932,7 +7089,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o “processo” mencionado no primeiro período do quarto parágrafo é o processo de mudança dos circuitos cerebrais que possibilitou ao ser humano a capacidade de ler.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-ciencias-contabeis-010",
@@ -6943,7 +7101,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se substituísse “existam” (segundo período do quarto parágrafo) por hajam .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-ciencias-contabeis-011",
@@ -6954,7 +7113,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-ciencias-contabeis-012",
@@ -6965,7 +7125,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a coerência das ideias do texto caso a forma verbal ‘reciclaram’ (último período do quinto parágrafo) fosse substituída pela locução tenham reciclado .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-ciencias-contabeis-013",
@@ -6976,7 +7137,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto e o seu sentido original seriam mantidos caso o vocábulo “aleatórios” (primeiro período do último parágrafo) fosse substituído pela expressão sem sentido .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-ciencias-contabeis-014",
@@ -6987,7 +7149,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do último parágrafo, a expressão “áreas muito mais amplas da visão” integra o sujeito da oração expressa pela forma verbal “ativavam-se”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-ciencias-contabeis-015",
@@ -7372,7 +7535,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As chances de se tirar do referido arquivo, de maneira aleatória, uma cópia de uma certidão de um casamento que não aconteceu em Redenção é inferior a 70%.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-ciencias-contabeis-050",
@@ -7383,7 +7547,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A probabilidade de se tirar do arquivo em questão, de maneira aleatória, uma cópia de uma certidão de um casamento que aconteceu em Parauapebas corresponde a mais de 83% da probabilidade de se tirar uma cópia de uma certidão de casamento que aconteceu em Belém.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-economia-001",
@@ -7394,7 +7559,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que circuitos cerebrais de uma pessoa que sabe ler funcionam de maneira diferente dos de uma pessoa que não desenvolveu esse aprendizado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-economia-002",
@@ -7405,7 +7571,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a pesquisadora mencionada no texto, a habilidade de leitura profunda deixará de existir, pois as pessoas estão desenvolvendo o hábito de se limitar a leituras fragmentadas e rápidas de textos online .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-economia-003",
@@ -7416,7 +7583,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, o ato de ler possibilita que áreas cerebrais em desuso voltem a ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-economia-004",
@@ -7427,7 +7595,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do primeiro parágrafo, a expressão “No momento em que” poderia ser substituída por Na medida que , sem prejuízo da correção gramatical e da coerência das ideias do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-economia-005",
@@ -7438,7 +7607,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do primeiro parágrafo, o trecho “e criou algo que não existia quando a nossa espécie surgiu” poderia ser reescrito, sem alteração do sentido do texto e sem prejuízo da sua correção gramatical, da seguinte forma: e quando a nossa espécie surgiu, criou algo que não existia .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-economia-006",
@@ -7449,7 +7619,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, as conjunções ‘Mas’ (segundo período) e ‘E’ (terceiro período) são intercambiáveis, de forma que a substituição de uma pela outra, embora alterasse o sentido do texto, não prejudicaria nem a sua correção gramatical nem a coerência das suas ideias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-economia-007",
@@ -7460,7 +7631,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro período do segundo parágrafo, o pronome ‘você’ faz referência à coletividade, de maneira geral, ou, ainda, a um indivíduo inespecífico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-economia-008",
@@ -7471,7 +7643,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “adverte” (primeiro período do terceiro parágrafo) poderia ser substituída por ensina , mantendo-se a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-economia-009",
@@ -7482,7 +7655,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o “processo” mencionado no primeiro período do quarto parágrafo é o processo de mudança dos circuitos cerebrais que possibilitou ao ser humano a capacidade de ler.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-economia-010",
@@ -7493,7 +7667,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se substituísse “existam” (segundo período do quarto parágrafo) por hajam .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-economia-011",
@@ -7504,7 +7679,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-economia-012",
@@ -7515,7 +7691,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a coerência das ideias do texto caso a forma verbal ‘reciclaram’ (último período do quinto parágrafo) fosse substituída pela locução tenham reciclado .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-economia-013",
@@ -7526,7 +7703,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto e o seu sentido original seriam mantidos caso o vocábulo “aleatórios” (primeiro período do último parágrafo) fosse substituído pela expressão sem sentido .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-economia-014",
@@ -7537,7 +7715,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do último parágrafo, a expressão “áreas muito mais amplas da visão” integra o sujeito da oração expressa pela forma verbal “ativavam-se”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-economia-015",
@@ -7922,7 +8101,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As chances de se tirar do referido arquivo, de maneira aleatória, uma cópia de uma certidão de um casamento que não aconteceu em Redenção é inferior a 70%.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-economia-050",
@@ -7933,7 +8113,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A probabilidade de se tirar do arquivo em questão, de maneira aleatória, uma cópia de uma certidão de um casamento que aconteceu em Parauapebas corresponde a mais de 83% da probabilidade de se tirar uma cópia de uma certidão de casamento que aconteceu em Belém.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-civil-001",
@@ -7944,7 +8125,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que circuitos cerebrais de uma pessoa que sabe ler funcionam de maneira diferente dos de uma pessoa que não desenvolveu esse aprendizado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-civil-002",
@@ -7955,7 +8137,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a pesquisadora mencionada no texto, a habilidade de leitura profunda deixará de existir, pois as pessoas estão desenvolvendo o hábito de se limitar a leituras fragmentadas e rápidas de textos online .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-civil-003",
@@ -7966,7 +8149,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, o ato de ler possibilita que áreas cerebrais em desuso voltem a ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-civil-004",
@@ -7977,7 +8161,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do primeiro parágrafo, a expressão “No momento em que” poderia ser substituída por Na medida que , sem prejuízo da correção gramatical e da coerência das ideias do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-civil-005",
@@ -7988,7 +8173,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do primeiro parágrafo, o trecho “e criou algo que não existia quando a nossa espécie surgiu” poderia ser reescrito, sem alteração do sentido do texto e sem prejuízo da sua correção gramatical, da seguinte forma: e quando a nossa espécie surgiu, criou algo que não existia .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-civil-006",
@@ -7999,7 +8185,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, as conjunções ‘Mas’ (segundo período) e ‘E’ (terceiro período) são intercambiáveis, de forma que a substituição de uma pela outra, embora alterasse o sentido do texto, não prejudicaria nem a sua correção gramatical nem a coerência das suas ideias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-civil-007",
@@ -8010,7 +8197,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro período do segundo parágrafo, o pronome ‘você’ faz referência à coletividade, de maneira geral, ou, ainda, a um indivíduo inespecífico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-civil-008",
@@ -8021,7 +8209,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “adverte” (primeiro período do terceiro parágrafo) poderia ser substituída por ensina , mantendo-se a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-civil-009",
@@ -8032,7 +8221,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o “processo” mencionado no primeiro período do quarto parágrafo é o processo de mudança dos circuitos cerebrais que possibilitou ao ser humano a capacidade de ler.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-civil-010",
@@ -8043,7 +8233,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se substituísse “existam” (segundo período do quarto parágrafo) por hajam .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-civil-011",
@@ -8054,7 +8245,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-civil-012",
@@ -8065,7 +8257,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a coerência das ideias do texto caso a forma verbal ‘reciclaram’ (último período do quinto parágrafo) fosse substituída pela locução tenham reciclado .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-civil-013",
@@ -8076,7 +8269,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto e o seu sentido original seriam mantidos caso o vocábulo “aleatórios” (primeiro período do último parágrafo) fosse substituído pela expressão sem sentido .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-civil-014",
@@ -8087,7 +8281,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do último parágrafo, a expressão “áreas muito mais amplas da visão” integra o sujeito da oração expressa pela forma verbal “ativavam-se”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-civil-015",
@@ -8472,7 +8667,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As chances de se tirar do referido arquivo, de maneira aleatória, uma cópia de uma certidão de um casamento que não aconteceu em Redenção é inferior a 70%.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-civil-050",
@@ -8483,7 +8679,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A probabilidade de se tirar do arquivo em questão, de maneira aleatória, uma cópia de uma certidão de um casamento que aconteceu em Parauapebas corresponde a mais de 83% da probabilidade de se tirar uma cópia de uma certidão de casamento que aconteceu em Belém.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-eletrica-001",
@@ -8494,7 +8691,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que circuitos cerebrais de uma pessoa que sabe ler funcionam de maneira diferente dos de uma pessoa que não desenvolveu esse aprendizado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-eletrica-002",
@@ -8505,7 +8703,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a pesquisadora mencionada no texto, a habilidade de leitura profunda deixará de existir, pois as pessoas estão desenvolvendo o hábito de se limitar a leituras fragmentadas e rápidas de textos online .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-eletrica-003",
@@ -8516,7 +8715,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, o ato de ler possibilita que áreas cerebrais em desuso voltem a ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-eletrica-004",
@@ -8527,7 +8727,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do primeiro parágrafo, a expressão “No momento em que” poderia ser substituída por Na medida que , sem prejuízo da correção gramatical e da coerência das ideias do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-eletrica-005",
@@ -8538,7 +8739,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do primeiro parágrafo, o trecho “e criou algo que não existia quando a nossa espécie surgiu” poderia ser reescrito, sem alteração do sentido do texto e sem prejuízo da sua correção gramatical, da seguinte forma: e quando a nossa espécie surgiu, criou algo que não existia .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-eletrica-006",
@@ -8549,7 +8751,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, as conjunções ‘Mas’ (segundo período) e ‘E’ (terceiro período) são intercambiáveis, de forma que a substituição de uma pela outra, embora alterasse o sentido do texto, não prejudicaria nem a sua correção gramatical nem a coerência das suas ideias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-eletrica-007",
@@ -8560,7 +8763,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro período do segundo parágrafo, o pronome ‘você’ faz referência à coletividade, de maneira geral, ou, ainda, a um indivíduo inespecífico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-eletrica-008",
@@ -8571,7 +8775,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “adverte” (primeiro período do terceiro parágrafo) poderia ser substituída por ensina , mantendo-se a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-eletrica-009",
@@ -8582,7 +8787,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o “processo” mencionado no primeiro período do quarto parágrafo é o processo de mudança dos circuitos cerebrais que possibilitou ao ser humano a capacidade de ler.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-eletrica-010",
@@ -8593,7 +8799,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se substituísse “existam” (segundo período do quarto parágrafo) por hajam .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-eletrica-011",
@@ -8604,7 +8811,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-eletrica-012",
@@ -8615,7 +8823,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a coerência das ideias do texto caso a forma verbal ‘reciclaram’ (último período do quinto parágrafo) fosse substituída pela locução tenham reciclado .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-eletrica-013",
@@ -8626,7 +8835,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto e o seu sentido original seriam mantidos caso o vocábulo “aleatórios” (primeiro período do último parágrafo) fosse substituído pela expressão sem sentido .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-eletrica-014",
@@ -8637,7 +8847,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do último parágrafo, a expressão “áreas muito mais amplas da visão” integra o sujeito da oração expressa pela forma verbal “ativavam-se”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-eletrica-015",
@@ -9022,7 +9233,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As chances de se tirar do referido arquivo, de maneira aleatória, uma cópia de uma certidão de um casamento que não aconteceu em Redenção é inferior a 70%.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-eletrica-050",
@@ -9033,7 +9245,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A probabilidade de se tirar do arquivo em questão, de maneira aleatória, uma cópia de uma certidão de um casamento que aconteceu em Parauapebas corresponde a mais de 83% da probabilidade de se tirar uma cópia de uma certidão de casamento que aconteceu em Belém.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-mecanica-001",
@@ -9044,7 +9257,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que circuitos cerebrais de uma pessoa que sabe ler funcionam de maneira diferente dos de uma pessoa que não desenvolveu esse aprendizado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-mecanica-002",
@@ -9055,7 +9269,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a pesquisadora mencionada no texto, a habilidade de leitura profunda deixará de existir, pois as pessoas estão desenvolvendo o hábito de se limitar a leituras fragmentadas e rápidas de textos online .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-mecanica-003",
@@ -9066,7 +9281,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, o ato de ler possibilita que áreas cerebrais em desuso voltem a ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-mecanica-004",
@@ -9077,7 +9293,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do primeiro parágrafo, a expressão “No momento em que” poderia ser substituída por Na medida que , sem prejuízo da correção gramatical e da coerência das ideias do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-mecanica-005",
@@ -9088,7 +9305,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do primeiro parágrafo, o trecho “e criou algo que não existia quando a nossa espécie surgiu” poderia ser reescrito, sem alteração do sentido do texto e sem prejuízo da sua correção gramatical, da seguinte forma: e quando a nossa espécie surgiu, criou algo que não existia .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-mecanica-006",
@@ -9099,7 +9317,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, as conjunções ‘Mas’ (segundo período) e ‘E’ (terceiro período) são intercambiáveis, de forma que a substituição de uma pela outra, embora alterasse o sentido do texto, não prejudicaria nem a sua correção gramatical nem a coerência das suas ideias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-mecanica-007",
@@ -9110,7 +9329,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro período do segundo parágrafo, o pronome ‘você’ faz referência à coletividade, de maneira geral, ou, ainda, a um indivíduo inespecífico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-mecanica-008",
@@ -9121,7 +9341,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “adverte” (primeiro período do terceiro parágrafo) poderia ser substituída por ensina , mantendo-se a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-mecanica-009",
@@ -9132,7 +9353,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o “processo” mencionado no primeiro período do quarto parágrafo é o processo de mudança dos circuitos cerebrais que possibilitou ao ser humano a capacidade de ler.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-mecanica-010",
@@ -9143,7 +9365,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se substituísse “existam” (segundo período do quarto parágrafo) por hajam .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-mecanica-011",
@@ -9154,7 +9377,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-mecanica-012",
@@ -9165,7 +9389,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a coerência das ideias do texto caso a forma verbal ‘reciclaram’ (último período do quinto parágrafo) fosse substituída pela locução tenham reciclado .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-mecanica-013",
@@ -9176,7 +9401,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto e o seu sentido original seriam mantidos caso o vocábulo “aleatórios” (primeiro período do último parágrafo) fosse substituído pela expressão sem sentido .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-mecanica-014",
@@ -9187,7 +9413,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do último parágrafo, a expressão “áreas muito mais amplas da visão” integra o sujeito da oração expressa pela forma verbal “ativavam-se”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-mecanica-015",
@@ -9572,7 +9799,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As chances de se tirar do referido arquivo, de maneira aleatória, uma cópia de uma certidão de um casamento que não aconteceu em Redenção é inferior a 70%.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-mecanica-050",
@@ -9583,7 +9811,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A probabilidade de se tirar do arquivo em questão, de maneira aleatória, uma cópia de uma certidão de um casamento que aconteceu em Parauapebas corresponde a mais de 83% da probabilidade de se tirar uma cópia de uma certidão de casamento que aconteceu em Belém.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-estatistica-001",
@@ -9594,7 +9823,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que circuitos cerebrais de uma pessoa que sabe ler funcionam de maneira diferente dos de uma pessoa que não desenvolveu esse aprendizado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-estatistica-002",
@@ -9605,7 +9835,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a pesquisadora mencionada no texto, a habilidade de leitura profunda deixará de existir, pois as pessoas estão desenvolvendo o hábito de se limitar a leituras fragmentadas e rápidas de textos online .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-estatistica-003",
@@ -9616,7 +9847,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, o ato de ler possibilita que áreas cerebrais em desuso voltem a ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-estatistica-004",
@@ -9627,7 +9859,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do primeiro parágrafo, a expressão “No momento em que” poderia ser substituída por Na medida que , sem prejuízo da correção gramatical e da coerência das ideias do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-estatistica-005",
@@ -9638,7 +9871,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do primeiro parágrafo, o trecho “e criou algo que não existia quando a nossa espécie surgiu” poderia ser reescrito, sem alteração do sentido do texto e sem prejuízo da sua correção gramatical, da seguinte forma: e quando a nossa espécie surgiu, criou algo que não existia .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-estatistica-006",
@@ -9649,7 +9883,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, as conjunções ‘Mas’ (segundo período) e ‘E’ (terceiro período) são intercambiáveis, de forma que a substituição de uma pela outra, embora alterasse o sentido do texto, não prejudicaria nem a sua correção gramatical nem a coerência das suas ideias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-estatistica-007",
@@ -9660,7 +9895,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro período do segundo parágrafo, o pronome ‘você’ faz referência à coletividade, de maneira geral, ou, ainda, a um indivíduo inespecífico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-estatistica-008",
@@ -9671,7 +9907,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “adverte” (primeiro período do terceiro parágrafo) poderia ser substituída por ensina , mantendo-se a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-estatistica-009",
@@ -9682,7 +9919,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o “processo” mencionado no primeiro período do quarto parágrafo é o processo de mudança dos circuitos cerebrais que possibilitou ao ser humano a capacidade de ler.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-estatistica-010",
@@ -9693,7 +9931,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se substituísse “existam” (segundo período do quarto parágrafo) por hajam .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-estatistica-011",
@@ -9704,7 +9943,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-estatistica-012",
@@ -9715,7 +9955,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a coerência das ideias do texto caso a forma verbal ‘reciclaram’ (último período do quinto parágrafo) fosse substituída pela locução tenham reciclado .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-estatistica-013",
@@ -9726,7 +9967,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto e o seu sentido original seriam mantidos caso o vocábulo “aleatórios” (primeiro período do último parágrafo) fosse substituído pela expressão sem sentido .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-estatistica-014",
@@ -9737,7 +9979,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do último parágrafo, a expressão “áreas muito mais amplas da visão” integra o sujeito da oração expressa pela forma verbal “ativavam-se”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-estatistica-015",
@@ -10122,7 +10365,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As chances de se tirar do referido arquivo, de maneira aleatória, uma cópia de uma certidão de um casamento que não aconteceu em Redenção é inferior a 70%.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-estatistica-050",
@@ -10133,7 +10377,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A probabilidade de se tirar do arquivo em questão, de maneira aleatória, uma cópia de uma certidão de um casamento que aconteceu em Parauapebas corresponde a mais de 83% da probabilidade de se tirar uma cópia de uma certidão de casamento que aconteceu em Belém.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-fiscal-arrecadacao-001",
@@ -10144,7 +10389,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que circuitos cerebrais de uma pessoa que sabe ler funcionam de maneira diferente dos de uma pessoa que não desenvolveu esse aprendizado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-fiscal-arrecadacao-002",
@@ -10155,7 +10401,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a pesquisadora mencionada no texto, a habilidade de leitura profunda deixará de existir, pois as pessoas estão desenvolvendo o hábito de se limitar a leituras fragmentadas e rápidas de textos online .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-fiscal-arrecadacao-003",
@@ -10166,7 +10413,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, o ato de ler possibilita que áreas cerebrais em desuso voltem a ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-fiscal-arrecadacao-004",
@@ -10177,7 +10425,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do primeiro parágrafo, a expressão “No momento em que” poderia ser substituída por Na medida que , sem prejuízo da correção gramatical e da coerência das ideias do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-fiscal-arrecadacao-005",
@@ -10188,7 +10437,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do primeiro parágrafo, o trecho “e criou algo que não existia quando a nossa espécie surgiu” poderia ser reescrito, sem alteração do sentido do texto e sem prejuízo da sua correção gramatical, da seguinte forma: e quando a nossa espécie surgiu, criou algo que não existia .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-fiscal-arrecadacao-006",
@@ -10199,7 +10449,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, as conjunções ‘Mas’ (segundo período) e ‘E’ (terceiro período) são intercambiáveis, de forma que a substituição de uma pela outra, embora alterasse o sentido do texto, não prejudicaria nem a sua correção gramatical nem a coerência das suas ideias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-fiscal-arrecadacao-007",
@@ -10210,7 +10461,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro período do segundo parágrafo, o pronome ‘você’ faz referência à coletividade, de maneira geral, ou, ainda, a um indivíduo inespecífico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-fiscal-arrecadacao-008",
@@ -10221,7 +10473,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “adverte” (primeiro período do terceiro parágrafo) poderia ser substituída por ensina , mantendo-se a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-fiscal-arrecadacao-009",
@@ -10232,7 +10485,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o “processo” mencionado no primeiro período do quarto parágrafo é o processo de mudança dos circuitos cerebrais que possibilitou ao ser humano a capacidade de ler.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-fiscal-arrecadacao-010",
@@ -10243,7 +10497,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se substituísse “existam” (segundo período do quarto parágrafo) por hajam .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-fiscal-arrecadacao-011",
@@ -10254,7 +10509,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-fiscal-arrecadacao-012",
@@ -10265,7 +10521,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a coerência das ideias do texto caso a forma verbal ‘reciclaram’ (último período do quinto parágrafo) fosse substituída pela locução tenham reciclado .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-fiscal-arrecadacao-013",
@@ -10276,7 +10533,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto e o seu sentido original seriam mantidos caso o vocábulo “aleatórios” (primeiro período do último parágrafo) fosse substituído pela expressão sem sentido .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-fiscal-arrecadacao-014",
@@ -10287,7 +10545,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do último parágrafo, a expressão “áreas muito mais amplas da visão” integra o sujeito da oração expressa pela forma verbal “ativavam-se”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-fiscal-arrecadacao-015",
@@ -10672,7 +10931,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As chances de se tirar do referido arquivo, de maneira aleatória, uma cópia de uma certidão de um casamento que não aconteceu em Redenção é inferior a 70%.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-fiscal-arrecadacao-050",
@@ -10683,7 +10943,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A probabilidade de se tirar do arquivo em questão, de maneira aleatória, uma cópia de uma certidão de um casamento que aconteceu em Parauapebas corresponde a mais de 83% da probabilidade de se tirar uma cópia de uma certidão de casamento que aconteceu em Belém.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2025-tjpa-enfermagem-001",
@@ -10694,7 +10955,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que circuitos cerebrais de uma pessoa que sabe ler funcionam de maneira diferente dos de uma pessoa que não desenvolveu esse aprendizado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-enfermagem-002",
@@ -10705,7 +10967,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a pesquisadora mencionada no texto, a habilidade de leitura profunda deixará de existir, pois as pessoas estão desenvolvendo o hábito de se limitar a leituras fragmentadas e rápidas de textos online .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-enfermagem-003",
@@ -10716,7 +10979,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, o ato de ler possibilita que áreas cerebrais em desuso voltem a ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-enfermagem-004",
@@ -10727,7 +10991,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do primeiro parágrafo, a expressão “No momento em que” poderia ser substituída por Na medida que , sem prejuízo da correção gramatical e da coerência das ideias do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-enfermagem-005",
@@ -10738,7 +11003,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do primeiro parágrafo, o trecho “e criou algo que não existia quando a nossa espécie surgiu” poderia ser reescrito, sem alteração do sentido do texto e sem prejuízo da sua correção gramatical, da seguinte forma: e quando a nossa espécie surgiu, criou algo que não existia .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-enfermagem-006",
@@ -10749,7 +11015,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, as conjunções ‘Mas’ (segundo período) e ‘E’ (terceiro período) são intercambiáveis, de forma que a substituição de uma pela outra, embora alterasse o sentido do texto, não prejudicaria nem a sua correção gramatical nem a coerência das suas ideias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-enfermagem-007",
@@ -10760,7 +11027,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro período do segundo parágrafo, o pronome ‘você’ faz referência à coletividade, de maneira geral, ou, ainda, a um indivíduo inespecífico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-enfermagem-008",
@@ -10771,7 +11039,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “adverte” (primeiro período do terceiro parágrafo) poderia ser substituída por ensina , mantendo-se a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-enfermagem-009",
@@ -10782,7 +11051,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o “processo” mencionado no primeiro período do quarto parágrafo é o processo de mudança dos circuitos cerebrais que possibilitou ao ser humano a capacidade de ler.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-enfermagem-010",
@@ -10793,7 +11063,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se substituísse “existam” (segundo período do quarto parágrafo) por hajam .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-enfermagem-011",
@@ -10804,7 +11075,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-enfermagem-012",
@@ -10815,7 +11087,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a coerência das ideias do texto caso a forma verbal ‘reciclaram’ (último período do quinto parágrafo) fosse substituída pela locução tenham reciclado .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-enfermagem-013",
@@ -10826,7 +11099,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto e o seu sentido original seriam mantidos caso o vocábulo “aleatórios” (primeiro período do último parágrafo) fosse substituído pela expressão sem sentido .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-enfermagem-014",
@@ -10837,7 +11111,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do último parágrafo, a expressão “áreas muito mais amplas da visão” integra o sujeito da oração expressa pela forma verbal “ativavam-se”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-enfermagem-015",
@@ -11244,7 +11519,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que circuitos cerebrais de uma pessoa que sabe ler funcionam de maneira diferente dos de uma pessoa que não desenvolveu esse aprendizado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-002",
@@ -11255,7 +11531,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a pesquisadora mencionada no texto, a habilidade de leitura profunda deixará de existir, pois as pessoas estão desenvolvendo o hábito de se limitar a leituras fragmentadas e rápidas de textos online .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-003",
@@ -11266,7 +11543,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, o ato de ler possibilita que áreas cerebrais em desuso voltem a ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-004",
@@ -11277,7 +11555,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do primeiro parágrafo, a expressão “No momento em que” poderia ser substituída por Na medida que , sem prejuízo da correção gramatical e da coerência das ideias do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-005",
@@ -11288,7 +11567,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do primeiro parágrafo, o trecho “e criou algo que não existia quando a nossa espécie surgiu” poderia ser reescrito, sem alteração do sentido do texto e sem prejuízo da sua correção gramatical, da seguinte forma: e quando a nossa espécie surgiu, criou algo que não existia .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-006",
@@ -11299,7 +11579,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, as conjunções ‘Mas’ (segundo período) e ‘E’ (terceiro período) são intercambiáveis, de forma que a substituição de uma pela outra, embora alterasse o sentido do texto, não prejudicaria nem a sua correção gramatical nem a coerência das suas ideias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-007",
@@ -11310,7 +11591,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro período do segundo parágrafo, o pronome ‘você’ faz referência à coletividade, de maneira geral, ou, ainda, a um indivíduo inespecífico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-008",
@@ -11321,7 +11603,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “adverte” (primeiro período do terceiro parágrafo) poderia ser substituída por ensina , mantendo-se a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-009",
@@ -11332,7 +11615,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o “processo” mencionado no primeiro período do quarto parágrafo é o processo de mudança dos circuitos cerebrais que possibilitou ao ser humano a capacidade de ler.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-010",
@@ -11343,7 +11627,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se substituísse “existam” (segundo período do quarto parágrafo) por hajam .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-011",
@@ -11354,7 +11639,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-012",
@@ -11365,7 +11651,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a coerência das ideias do texto caso a forma verbal ‘reciclaram’ (último período do quinto parágrafo) fosse substituída pela locução tenham reciclado .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-013",
@@ -11376,7 +11663,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto e o seu sentido original seriam mantidos caso o vocábulo “aleatórios” (primeiro período do último parágrafo) fosse substituído pela expressão sem sentido .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-014",
@@ -11387,7 +11675,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do último parágrafo, a expressão “áreas muito mais amplas da visão” integra o sujeito da oração expressa pela forma verbal “ativavam-se”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-015",
@@ -11794,7 +12083,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que circuitos cerebrais de uma pessoa que sabe ler funcionam de maneira diferente dos de uma pessoa que não desenvolveu esse aprendizado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psicologia-002",
@@ -11805,7 +12095,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a pesquisadora mencionada no texto, a habilidade de leitura profunda deixará de existir, pois as pessoas estão desenvolvendo o hábito de se limitar a leituras fragmentadas e rápidas de textos online .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psicologia-003",
@@ -11816,7 +12107,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, o ato de ler possibilita que áreas cerebrais em desuso voltem a ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psicologia-004",
@@ -11827,7 +12119,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do primeiro parágrafo, a expressão “No momento em que” poderia ser substituída por Na medida que , sem prejuízo da correção gramatical e da coerência das ideias do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psicologia-005",
@@ -11838,7 +12131,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do primeiro parágrafo, o trecho “e criou algo que não existia quando a nossa espécie surgiu” poderia ser reescrito, sem alteração do sentido do texto e sem prejuízo da sua correção gramatical, da seguinte forma: e quando a nossa espécie surgiu, criou algo que não existia .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psicologia-006",
@@ -11849,7 +12143,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, as conjunções ‘Mas’ (segundo período) e ‘E’ (terceiro período) são intercambiáveis, de forma que a substituição de uma pela outra, embora alterasse o sentido do texto, não prejudicaria nem a sua correção gramatical nem a coerência das suas ideias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psicologia-007",
@@ -11860,7 +12155,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro período do segundo parágrafo, o pronome ‘você’ faz referência à coletividade, de maneira geral, ou, ainda, a um indivíduo inespecífico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psicologia-008",
@@ -11871,7 +12167,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “adverte” (primeiro período do terceiro parágrafo) poderia ser substituída por ensina , mantendo-se a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psicologia-009",
@@ -11882,7 +12179,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o “processo” mencionado no primeiro período do quarto parágrafo é o processo de mudança dos circuitos cerebrais que possibilitou ao ser humano a capacidade de ler.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psicologia-010",
@@ -11893,7 +12191,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se substituísse “existam” (segundo período do quarto parágrafo) por hajam .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psicologia-011",
@@ -11904,7 +12203,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psicologia-012",
@@ -11915,7 +12215,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a coerência das ideias do texto caso a forma verbal ‘reciclaram’ (último período do quinto parágrafo) fosse substituída pela locução tenham reciclado .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psicologia-013",
@@ -11926,7 +12227,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto e o seu sentido original seriam mantidos caso o vocábulo “aleatórios” (primeiro período do último parágrafo) fosse substituído pela expressão sem sentido .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psicologia-014",
@@ -11937,7 +12239,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do último parágrafo, a expressão “áreas muito mais amplas da visão” integra o sujeito da oração expressa pela forma verbal “ativavam-se”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psicologia-015",
@@ -12344,7 +12647,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que circuitos cerebrais de uma pessoa que sabe ler funcionam de maneira diferente dos de uma pessoa que não desenvolveu esse aprendizado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psiquiatria-002",
@@ -12355,7 +12659,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a pesquisadora mencionada no texto, a habilidade de leitura profunda deixará de existir, pois as pessoas estão desenvolvendo o hábito de se limitar a leituras fragmentadas e rápidas de textos online .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psiquiatria-003",
@@ -12366,7 +12671,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, o ato de ler possibilita que áreas cerebrais em desuso voltem a ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psiquiatria-004",
@@ -12377,7 +12683,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do primeiro parágrafo, a expressão “No momento em que” poderia ser substituída por Na medida que , sem prejuízo da correção gramatical e da coerência das ideias do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psiquiatria-005",
@@ -12388,7 +12695,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do primeiro parágrafo, o trecho “e criou algo que não existia quando a nossa espécie surgiu” poderia ser reescrito, sem alteração do sentido do texto e sem prejuízo da sua correção gramatical, da seguinte forma: e quando a nossa espécie surgiu, criou algo que não existia .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psiquiatria-006",
@@ -12399,7 +12707,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, as conjunções ‘Mas’ (segundo período) e ‘E’ (terceiro período) são intercambiáveis, de forma que a substituição de uma pela outra, embora alterasse o sentido do texto, não prejudicaria nem a sua correção gramatical nem a coerência das suas ideias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psiquiatria-007",
@@ -12410,7 +12719,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro período do segundo parágrafo, o pronome ‘você’ faz referência à coletividade, de maneira geral, ou, ainda, a um indivíduo inespecífico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psiquiatria-008",
@@ -12421,7 +12731,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “adverte” (primeiro período do terceiro parágrafo) poderia ser substituída por ensina , mantendo-se a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psiquiatria-009",
@@ -12432,7 +12743,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o “processo” mencionado no primeiro período do quarto parágrafo é o processo de mudança dos circuitos cerebrais que possibilitou ao ser humano a capacidade de ler.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psiquiatria-010",
@@ -12443,7 +12755,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se substituísse “existam” (segundo período do quarto parágrafo) por hajam .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psiquiatria-011",
@@ -12454,7 +12767,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psiquiatria-012",
@@ -12465,7 +12779,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a coerência das ideias do texto caso a forma verbal ‘reciclaram’ (último período do quinto parágrafo) fosse substituída pela locução tenham reciclado .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psiquiatria-013",
@@ -12476,7 +12791,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto e o seu sentido original seriam mantidos caso o vocábulo “aleatórios” (primeiro período do último parágrafo) fosse substituído pela expressão sem sentido .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psiquiatria-014",
@@ -12487,7 +12803,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do último parágrafo, a expressão “áreas muito mais amplas da visão” integra o sujeito da oração expressa pela forma verbal “ativavam-se”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-psiquiatria-015",
@@ -12894,7 +13211,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que circuitos cerebrais de uma pessoa que sabe ler funcionam de maneira diferente dos de uma pessoa que não desenvolveu esse aprendizado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-servico-social-002",
@@ -12905,7 +13223,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a pesquisadora mencionada no texto, a habilidade de leitura profunda deixará de existir, pois as pessoas estão desenvolvendo o hábito de se limitar a leituras fragmentadas e rápidas de textos online .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-servico-social-003",
@@ -12916,7 +13235,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, o ato de ler possibilita que áreas cerebrais em desuso voltem a ser utilizadas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-servico-social-004",
@@ -12927,7 +13247,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do primeiro parágrafo, a expressão “No momento em que” poderia ser substituída por Na medida que , sem prejuízo da correção gramatical e da coerência das ideias do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-servico-social-005",
@@ -12938,7 +13259,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do primeiro parágrafo, o trecho “e criou algo que não existia quando a nossa espécie surgiu” poderia ser reescrito, sem alteração do sentido do texto e sem prejuízo da sua correção gramatical, da seguinte forma: e quando a nossa espécie surgiu, criou algo que não existia .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-servico-social-006",
@@ -12949,7 +13271,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, as conjunções ‘Mas’ (segundo período) e ‘E’ (terceiro período) são intercambiáveis, de forma que a substituição de uma pela outra, embora alterasse o sentido do texto, não prejudicaria nem a sua correção gramatical nem a coerência das suas ideias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-servico-social-007",
@@ -12960,7 +13283,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro período do segundo parágrafo, o pronome ‘você’ faz referência à coletividade, de maneira geral, ou, ainda, a um indivíduo inespecífico.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-servico-social-008",
@@ -12971,7 +13295,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal “adverte” (primeiro período do terceiro parágrafo) poderia ser substituída por ensina , mantendo-se a correção gramatical e os sentidos originais do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-servico-social-009",
@@ -12982,7 +13307,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o “processo” mencionado no primeiro período do quarto parágrafo é o processo de mudança dos circuitos cerebrais que possibilitou ao ser humano a capacidade de ler.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-servico-social-010",
@@ -12993,7 +13319,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto seria mantida caso se substituísse “existam” (segundo período do quarto parágrafo) por hajam .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-servico-social-011",
@@ -13004,7 +13331,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A eliminação do acento gráfico na palavra “hieróglifos” (final do quarto parágrafo) não geraria incorreção no texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-servico-social-012",
@@ -13015,7 +13343,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estaria mantida a coerência das ideias do texto caso a forma verbal ‘reciclaram’ (último período do quinto parágrafo) fosse substituída pela locução tenham reciclado .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-servico-social-013",
@@ -13026,7 +13355,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do texto e o seu sentido original seriam mantidos caso o vocábulo “aleatórios” (primeiro período do último parágrafo) fosse substituído pela expressão sem sentido .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-servico-social-014",
@@ -13037,7 +13367,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do último parágrafo, a expressão “áreas muito mais amplas da visão” integra o sujeito da oração expressa pela forma verbal “ativavam-se”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2025-tjpa-servico-social-015",
@@ -22057,7 +22388,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A força normal está aplicada fora do núcleo central de inércia.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-civil-093",
@@ -22068,7 +22400,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A tensão normal à seção no ponto B é igual a 13 Mpa de compressão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-civil-094",
@@ -22079,7 +22412,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A força cortante que atua sobre a viga no ponto médio do vão é de 80 kN.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-civil-095",
@@ -22090,7 +22424,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagrama de momento fletor pode ser obtido derivando-se a função da força cortante em relação à coordenada do eixo da barra.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-civil-096",
@@ -22101,7 +22436,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O esforço normal atuante no segmento AB é de compressão, com magnitude de 40 kN.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2025-tjpa-engenharia-civil-097",
@@ -23773,7 +24109,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A curtose negativa observada na vara A indica que a distribuição dos tempos de tramitação nessa vara é menos achatada do que uma distribuição normal, apresentando maior concentração em torno da média.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2025-tjpa-estatistica-052",
@@ -23784,7 +24121,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na vara B, o fato de a média ser superior à mediana, associado à curtose positiva, sugere que a distribuição dos tempos de tramitação possui cauda mais pesada à sua esquerda.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2025-tjpa-estatistica-053",
@@ -23795,7 +24133,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A distribuição dos tempos de tramitação na vara C apresenta assimetria negativa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2025-tjpa-estatistica-054",
@@ -23806,7 +24145,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Apesar de apresentarem médias iguais, as varas C e D diferem quanto à forma da distribuição: a curtose bastante elevada na vara D reflete a presença de pontos exteriores indicados no seu diagrama boxplot .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2025-tjpa-estatistica-055",
@@ -23817,7 +24157,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entre as quatro varas analisadas, a vara C apresenta o menor coeficiente de variação.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2025-tjpa-estatistica-057",
@@ -24136,7 +24477,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O coeficiente de determinação R 2 é igual à SQM/SQT, e incluir qualquer novo regressor (mesmo que estatisticamente insignificante) diminuirá o R 2.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2025-tjpa-estatistica-113",
@@ -25027,7 +25369,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico de insuficiência cardíaca deve ser afastado, já que a fração de ejeção do ventrículo esquerdo está acima de 50%.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-056",
@@ -25038,7 +25381,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Deve ser levantada a suspeita de amiloidose cardíaca, devido à baixa voltagem no complexo QRS no eletrocardiograma em conjunto com o espessamento ventricular esquerdo no ecocardiograma.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-057",
@@ -25049,7 +25393,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considerando-se o ritmo cardíaco apresentado no ECG da paciente, pontos de corte mais elevados devem ser considerados para interpretação do resultado do peptídeo natriurético.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-058",
@@ -25060,7 +25405,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com os ensaios clínicos mais recentes publicados, os inibidores de SGLT2 devem ser a primeira escolha no tratamento de emergência dessa paciente, enquanto os diuréticos de alço devem ser reservados para os casos refratários.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-059",
@@ -25115,7 +25461,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O quadro clínico descrito mostra uma exacerbação de asma grave, devendo ser iniciada a administração de salbutamol combinado a ipratrópio, via espaçador de 20/20 minutos na primeira hora, oxigenoterapia e metilprednisona intravenosa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-064",
@@ -25126,7 +25473,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considerando-se o diagnóstico principal de asma, conclui-se do caso clínico um fenótipo de asma exacerbada por aspirina, devido à presença de rinossinusite crônica, polipose nasal e sensibilidade a aspirina.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-065",
@@ -25137,7 +25485,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A paciente deve ser orientada a não fazer uso de aspirina nem de qualquer outro anti-inflamatório não esteroidal, devido à possibilidade de exacerbação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-066",
@@ -25148,7 +25497,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A piora do quadro com o uso da aspirina explica-se pela inibição da ciclo-oxigenase COX 2 e seu produto a prostaglandina E2, que leva à liberação de histamina, o que gera leucotrienos pelos basófilos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-067",
@@ -25159,7 +25509,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os próximos passos no atendimento do paciente deverão consistir em: internação em terapia intensiva; monitorização com múltiplos parâmetros; fornecimento de oxigênio com máscara oronasal; realização de acesso venoso para hidratação; reavaliação e coleta de gasometria arterial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-068",
@@ -25170,7 +25521,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico principal para o caso é de sepse de foco pulmonar, podendo a hipoxemia ser explicada pelo distúrbio ventilação-perfusão causado pela pneumonia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-069",
@@ -25181,7 +25533,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os exames a serem realizados, após as medidas de estabilização inicial, são a angiotomografia de tórax e o doppler de membro inferior direito a beira-leito.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-070",
@@ -25192,7 +25545,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O paciente deve ser tratado imediatamente com heparina não fracionada, e a alteplase deve ser considerada após excluídas contraindicações ao procedimento, uma vez que a probabilidade pré-teste para embolia pulmonar é alta e o paciente apresenta instabilidade hemodinâmica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-071",
@@ -25203,7 +25557,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para que o diagnóstico de doença pulmonar obstrutiva crônica seja estabelecido, é necessária tomografia de tórax que mostre enfisema e sinais de broncopatia inflamatória.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-072",
@@ -25214,7 +25569,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O paciente em questão deve ser tratado com um beta2-agonista de longa ação associado a um antimuscarínico de longa ação e a um corticoide inalatório.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-073",
@@ -25313,7 +25669,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Doença celíaca é um possível diagnóstico para esse paciente e deve ser investigada inicialmente com dosagem do anticorpo sérico anti-transglutaminase tecidual associada à dosagem de níveis séricos de IgA.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-083",
@@ -25665,7 +26022,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Recomenda-se o uso de ácido acetilsalicílico, nitrato sublingual e heparina não fracionada na admissão do paciente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-115",
@@ -25676,7 +26034,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A angioplastia primária é o tratamento de eleição no caso em questão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-116",
@@ -25687,7 +26046,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Após a alta hospitalar, cabe indicar ao referido paciente, com vistas à redução do risco de morte e de eventos cardiovasculares, a vacina contra influenza anualmente, desde que não haja contraindicação.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2025-tjpa-medicina-117",
@@ -26820,7 +27180,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Não existe nenhuma relação entre apresentar um transtorno mental e cometer crimes ou atos violentos, já que outros fatores de risco, como o gênero do autor, a sua idade e o consumo abusivo de substâncias, são os que realmente estão ligados ao cometimento de crimes.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2025-tjpa-psicologia-082",
@@ -26831,7 +27192,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A mídia de massa contribui para a propagação de concepções públicas negativas em relação aos transtornos e sua relação com os crimes, ao retratar de forma sensacionalista crimes violentos cometidos por pessoas com transtornos mentais, geralmente não reconhecendo que a maioria dos atos violentos na sociedade é praticada por pessoas sem transtornos mentais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2025-tjpa-psicologia-083",
@@ -26842,7 +27204,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O comportamento criminoso violento é um fenômeno multideterminado, ou seja, diversos fatores costumam influenciar na sua ocorrência, não sendo razoável supor que um único fator, como possuir um transtorno mental, será capaz de determinar sozinho se alguém cometerá um crime violento ou não.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2025-tjpa-psicologia-084",
@@ -26853,7 +27216,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em casos como o tratado no texto apresentado, é fácil identificar por meio de uma perícia quando o autor de um comportamento criminoso ou violento estava em um estado psicótico ou possuía algum transtorno, como esquizofrenia, no momento em que agiu de forma inadequada, principalmente porque a maior parte da população de esquizofrênicos comete atos de violência.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2025-tjpa-psicologia-085",
@@ -26864,7 +27228,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Um ambiente hostil, como o sistema prisional e hospital psiquiátrico, possui características que podem afetar drasticamente a saúde mental de indivíduos, podendo vir a provocar uma maior incidência de transtornos mentais nesses grupos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2025-tjpa-psicologia-086",
@@ -27260,7 +27625,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A variação cultural nos sintomas e nos modelos explicativos associados a conceitos culturais de sofrimento não influencia diretamente no julgamento da gravidade de um sintoma, porém influencia diretamente na atribuição do diagnóstico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2025-tjpa-psiquiatria-052",
@@ -27271,7 +27637,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conforme o DSM-V-TR, ataque de nervos caracteriza-se como uma síndrome observada especialmente em indivíduos de origem latina e marcada por perturbação emocional intensa, incluindo ansiedade aguda, raiva ou sofrimento, gritos e berros descontrolados, ataques de choro, tremores, sensação de calor no tórax que irradia para a cabeça, e agressividade física ou verbal. Esses ataques têm relação direta com vários transtornos que apresentam sobreposição sintomática com o quadro descrito.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2025-tjpa-psiquiatria-053",
@@ -27282,7 +27649,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O susto, segundo o DSM-V-TR, pode ser classificado em três tipos: interpessoal, pós-traumático ou com características somáticas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2025-tjpa-psiquiatria-054",
@@ -27293,7 +27661,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se por conceitos culturais de sofrimento a identificação dos grupos de pertencimento racial, étnico ou cultural do indivíduo, o que influencia suas relações interpessoais, o acesso a recursos e os modos como ele enfrenta desafios, conflitos e situações ao longo de sua trajetória de vida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2025-tjpa-psiquiatria-055",
@@ -28735,6 +29104,98 @@
    "tipo": "certo_errado",
    "enunciado": "A Lei Orgânica da Saúde foi alterada em 2023 para ampliar o direito da mulher de ter acompanhante nos atendimentos realizados em serviços de saúde públicos e privados.",
    "gabarito": "certo"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Para um modelo de regressão linear múltipla na forma = + + + ⋯ + + , em que são válidas as suposições clássicas usuais, a tabela de ANOVA decompõe a variação total na resposta ( y ) conforme a seguir. • SQT (soma de quadrados totais) = ∑ − • SQM (soma de quadrados do modelo) = ∑ − • SQR (soma de quadrados do resíduo) = ∑ − A partir dessas informações, e considerando que n denota o tamanho da amostra, julgue os itens seguintes acerca do uso da ANOVA para avaliar regressões lineares.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "-- CONHECIMENTOS ESPECÍFICOS – Em um estudo estatístico sobre o tempo médio de tramitação de processos judiciais em quatro varas cíveis de certo tribunal, considerou-se uma base de dados referentes ao tempo (em dias) de tramitação de 1.200 processos. A amostra foi estratificada por vara, e os dados foram tratados e analisados por meio de gráficos, tabelas e medidas descritivas, com o objetivo de identificar padrões, desvios e oportunidades de melhoria na gestão processual. A seguir, são apresentados diagramas boxplots elaborados para cada vara, bem como as medidas de tendência central, dispersão e curtose.\n\nmedida vara A vara B vara C vara D média 50 44 64 64 mediana 50 40,5 68 60 desvio padrão 12 13,5 14,5 18,5 curtose  1,2 2,0 1,7 16,0",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CG1A1",
+   "conteudo": "No momento em que realizamos uma leitura, ativamos circuitos cerebrais que nós, seres humanos, levamos milhares de anos para desenvolver: os da leitura. Decodificar letras, símbolos e significados transformou o nosso cérebro e nossa sociedade, e criou algo que não existia quando a nossa espécie surgiu. De acordo com Maryanne Wolf, cientista cognitiva, professora da Universidade da Califórnia em Los Angeles, “Nós pensamos na linguagem como algo natural, e deduzimos que o domínio da língua escrita é algo natural também. Mas não é, nem um pouco.” Ela completa: “E, quanto mais você lê, mais esse sistema molda o cérebro, de modo cumulativo. Dá a ele todo um conhecimento, toda uma construção de processos que eu chamo de habilidade de leitura profunda.” Wolf, no entanto, adverte que a habilidade de leitura profunda está sob risco, por causa dos hábitos digitais modernos, como o de apenas “passar os olhos” em textos online . A pesquisadora explica que um cérebro neurotípico já nasce com os circuitos que permitem que nossos olhos enxerguem e que as nossas cordas vocais produzam os sons da fala. Mas ele não nasce com um circuito projetado para a leitura. O processo provavelmente começou por volta do ano 3300 a.C., com o povo sumério, na Mesopotâmia, onde hoje fica o Iraque. Os sumérios criaram o sistema cuneiforme, de cunhar símbolos em argila — embora existam debates entre alguns cientistas de que os precursores da escrita possam ter sido os egípcios, com seus hieróglifos. De qualquer modo, decifrar símbolos passou a exigir mais do cérebro do que apenas enxergar. Era preciso associar aquele símbolo a algum objeto, conceito ou emoção, e também a algum som. Wolf explica: “Os símbolos de escrita começaram a surgir mais ou menos 6 mil anos atrás. E exigiram uma mudança no cérebro, em que um símbolo visual passou a representar um conceito e ser expressado por linguagem.” Ela acrescenta, ainda, que os cientistas acreditam que os nossos ancestrais “reciclaram” para a leitura circuitos antes usados para o reconhecimento de objetos. Em 1989, um grupo de pesquisadores acompanhou a atividade cerebral de pessoas enquanto elas olhavam uma série de caracteres — alguns deles com significado e outros aleatórios, que não significavam nada em particular. E, quando as pessoas olhavam para os caracteres que tinham significado real — ou seja, eram uma palavra de um idioma —, ativavam-se áreas muito mais amplas da visão e também células específicas que a nossa espécie desenvolveu para processar o sentido de letras, palavras e sons. Uma única palavra é capaz de despertar no cérebro todo um acervo de conceitos relacionados. Como exemplo, Wolf cita um experimento feito anos atrás pelo cientista cognitivo David Swinney. Os participantes do estudo, quando liam a palavra inglesa bug , pensavam não só no significado básico do termo — inseto —, como também em “ bugs de informática” e até mesmo no carro Fusca (que em inglês se chama beetle , nome de um inseto).\n\nInternet: <www.bbc.com> (com adaptações).\n\ntecnologia da informação , a menos que seja explicitamente",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Durante determinada Semana Estadual de Conciliação, iniciativa promovida pelo TJPA, foram realizados 320 casamentos, distribuídos em quatro localidades, conforme tabela a seguir. Uma cópia de cada uma das 320 certidões de casamento foi armazenada em um arquivo, inicialmente vazio.\n\nlocalidade número\n\nParauapebas 82\n\nAnanindeua 34\n\nRedenção 110\n\nBelém 94",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Na figura apresentada, cujas medidas são dadas em centímetros, é ilustrada a seção transversal de um pilar constituído de material elástico-linear, resistente à tração e sujeito a uma força de compressão excêntrica de 1.500 kN, aplicada no ponto A.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Com base na figura precedente, que apresenta, em esquema unifilar, o carregamento de uma viga biapoiada com vão de",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Considerando a figura precedente, que ilustra o esquema de uma treliça isostática composta por montantes verticais e banzos horizontais e diagonais que formam 45° com as peças adjacentes, julgue o item a seguir, desprezando as resistências das articulações e o peso próprio da estrutura.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma mulher de 72 anos de idade foi admitida no pronto-socorro com quadro de dispneia e fadiga progressivas nos últimos 3 meses, com piora significativa nos últimos 2 dias. No exame físico, apresentou ritmo cardíaco irregular, crepitações pulmonares finas bilaterais, turgência jugular e edema em membros inferiores. O eletrocardiograma (ECG) mostrou ritmo de fibrilação atrial e baixa voltagem do complexo QRS. O ecocardiograma revelou aumento biatrial, ventrículo esquerdo com hipertrofia concêntrica, disfunção diastólica moderada, fração de ejeção de 58% e ventrículo direito sem alterações. Foi coletado um BNP de 350 pg/mL. Considerando o caso clínico hipotético apresentado, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Paciente de 35 anos de idade, do sexo feminino, compareceu ao hospital para consulta médica, apresentando quadro de tosse seca, sibilos, dispneia e opressão torácica. Relatou que os sintomas apareciam e desapareciam no tempo e eram desencadeados com a mudança do clima, ao ficar mais frio, e quando tinha contato com livros velhos. Referiu ser alérgica a aspirina, pois, em uma das crises prévias, havia sido receitado esse medicamento e ela apresentara piora considerável dos sintomas de tosse, dispneia e sibilos, tendo tido que retornar ao pronto-socorro. Disse que, geralmente, quando em crise, faz uso de salbutamol, mas que desta vez esse medicamento não resolveu o problema. A paciente tem antecedentes pessoais de rinossinusite crônica e pólipos nasais, nega outras comorbidades, está em uso de budesonida nasal e faz lavagem nasal. No exame físico, demonstrou bom estado geral, estando anictérica, corada e acianótica; sentada inclinada sobre a mesa, falava frases incompletas e estava um pouco agitada. Sua saturação de oxigênio é de 90% em ar ambiente; frequência respiratória de 25 irpm; frequência cardíaca de 121 bpm; e pressão arterial de 125 mmHg × 90 mmHg. Seu aparelho cardiovascular apresenta ritmo cardíaco regular em dois tempos, com bulhas normofonéticas. Seu aparelho respiratório apresenta sons respiratórios presentes bilateralmente, com sibilos difusos, além de presença de retrações subcostais. A paciente apresentou radiografia de tórax realizada havia 4 dias, a qual não mostrou alterações. O pico de fluxo expiratório realizado na emergência mostrou um valor correspondente a 45% em relação ao predito. Considerando esse caso clínico hipotético, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Paciente do sexo masculino, com 65 anos de idade, tabagista, compareceu à consulta médica no hospital com quadro agudo de dispneia associada à dor torácica ventilatório-dependente. Estava em uso de amoxicilina-clavulanato e azitromicina, prescritos no dia anterior durante atendimento em pronto-socorro, ocasião em que recebera diagnóstico de pneumonia, segundo o paciente. Devido à piora dos sintomas respiratórios, procurou nova avaliação. O paciente tem antecedentes pessoais de hipertensão arterial sistêmica, neoplasia prostática, aguardando cirurgia, e dislipidemia. Faz uso contínuo de losartana e rosuvastatina. No exame físico, o paciente apresentou-se em regular estado geral, anictérico, corado, acianótico, agitado e desconfortável; com saturação de oxigênio igual a 89% em ar ambiente (saturação basal relatada de 94%); frequência respiratória de 25 irpm; frequência cardíaca de 115 bpm; pressão arterial de 85 mmHg × 60 mmHg (pressão basal relatada de 130 mmHg × 80 mmHg); aparelho cardiovascular com ritmo cardíaco regular em dois tempos, com hiperfonese do componente B2 no foco pulmonar e sopro em foco tricúspide; aparelho respiratório com sons respiratórios presentes bilateralmente, sem ruídos adventícios; uso de musculatura acessória; nas extremidades, edema em membro inferior direito, com cacifo positivo e dor à dorsiflexão do pé na panturrilha. O paciente apresentou CD de tomografia de tórax sem contraste realizada no pronto-socorro no dia anterior, que mostrava opacidade pulmonar com base pleural e relação entre os ventrículos direito e esquerdo (VD/VE) > 0,9. A partir do caso clínico hipotético precedente, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Paciente do sexo masculino, com 68 anos de idade, tabagista, compareceu a atendimento ambulatorial com quadro de tosse crônica e dispneia para andar 100 metros no plano, ao ponto de ter de interromper a marcha. Nega exacerbações no último ano ou internações. Tem antecedentes pessoais de hipertensão arterial e dislipidemia, estando em uso de losartana e rosuvastatina. Os dados a seguir referem-se a resultados de exames apresentados pelo paciente. • Espirometria, demonstrando os valores pré (% do predito) e pós-broncodilatador de cada parâmetro, respectivamente: CVF 2,58 (65%) – 2,99; VEF1 0,75 (24%) – 0,88; VEF1/CVF 0,29 – 0,29. Limite inferior do normal (LIN): CVF 3,06, VEF1 2,34 e VEF1/CVF 0,71. • Hemograma: hemoglobina 15 g/dL (12-16 g/dL); hematócrito 50% (36%-54%); leucócitos totais 7.800/mm3 (4.000-10.000/mm3); eosinófilos 90/mm3 (0-550/mm3); plaquetas 450.000/mm3 (150.000-450.000/mm3). Julgue os seguintes itens, referentes ao caso clínico hipotético apresentado.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Jovem de 17 anos de idade, do sexo masculino, feirante, procedente de Itaúnas – BA, compareceu a consulta ambulatorial por apresentar diarreia líquida intermitente, sem sangue ou muco, com frequência de 4 a 6 vezes ao dia, havia 6 meses, sem dor abdominal associada, e com perda ponderal de 5 kg no período. O paciente usara probióticos e loperamida, por indicação médica, com melhora parcial do quadro, mas houvera posterior recidiva. A partir do caso clínico hipotético precedente, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Na emergência de um hospital terciário com todos os recursos disponíveis, deu entrada um homem de 61 anos de idade, hipertenso, em uso regular de lisinopril (10 mg ao dia), com quadro de precordialgia em peso, ao repouso, sem irradiação, havia duas horas. No exame físico, apresentava palidez cutâneo mucosa, saturação de oxigênio (em ar ambiente) de 92%, pressão arterial de 88 mmHg × 64 mmHg (média de três medidas), frequência cardíaca de 94 bpm e ritmo cardíaco regular em dois tempos, sem sopros. O restante do exame físico foi normal. O resultado da troponina T ultrassensível foi 0,008 µg/mL (VR até 0,014 µg/L). O paciente foi submetido a eletrocardiograma, cujo resultado é apresentado a seguir. A respeito do quadro hipotético precedente, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O contabilista Mateus, que humilhou o entregador Matheus Barbosa, em Valinhos, no interior de São Paulo, será submetido a uma perícia para verificar sua sanidade mental. A informação foi passada pelo delegado responsável pelo caso, Luís Henrique. Ainda na delegacia, após Barbosa denunciar o caso de racismo, Fernando, pai do contabilista, informou aos policiais que seu filho sofre de esquizofrenia e que seria esse o motivo para o seu descontrole no condomínio.\n\nPolícia pedirá avaliação psicológica de racista que humilhou entregador\n\nem Valinhos . In : Brasil de Fato . 12/8/2020 (com adaptações). Considerando o texto precedente, julgue os itens a seguir, acerca da relação entre psicopatologia e criminalidade.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "-- CONHECIMENTOS ESPECÍFICOS -- Círculo vicioso Rita Lee Eu só quero brincar com a sua cabeça! Eu só quero brincar com a sua cabeça! No fim das contas Estamos dando voltas Num círculo vicioso Perigoso para o sistema nervoso Abalado, sempre disfarçado Atrás de um sorriso De Narciso afogado Ai, que nervosa estou Sou neurastênica Preciso me casar Senão, eu vou pra Jacarepaguá! A letra da música Círculo vicioso , de Rita Lee, expressa o sofrimento psíquico de forma culturalmente codificada — por meio de termos populares, referências geográficas simbólicas e crítica ao modelo psiquiátrico vigente. Ela é um ótimo exemplo de como a experiência de sofrimento é vivida e comunicada dentro de um contexto social e histórico específico, o que é exatamente o foco da formulação cultural que o DSM-V-TR explana. A partir das informações precedentes, julgue os itens a seguir, a respeito da cultura e do diagnóstico psiquiátrico.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

@@ -36,7 +36,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto trata de aspectos associados a litígios estruturais sem, contudo, apresentar explicitamente uma definição para esse conceito.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2019-pgmms-procurador-municipal-003",
@@ -47,7 +48,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A supressão do termo “tanto” (R.4) concomitantemente com a substituição do termo “quanto” (R.5) por e manteria a correção gramatical e a coerência do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2019-pgmms-procurador-municipal-004",
@@ -69,7 +71,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os dois-pontos empregados na linha 14 poderiam ser substituídos pelo termo porquanto entre vírgulas, sem alteração da correção gramatical e dos sentidos do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2019-pgmms-procurador-municipal-006",
@@ -80,7 +83,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na linha 18, o deslocamento do termo “se” para imediatamente após a forma verbal “pode” — pode-se — comprometeria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2019-pgmms-procurador-municipal-007",
@@ -102,7 +106,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A jurisdição constitucional está relacionada à conservação das bases estruturantes do Estado democrático.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2019-pgmms-procurador-municipal-009",
@@ -113,7 +118,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os sentidos e a correção gramatical do texto seriam mantidos caso se substituísse a forma verbal “garante” (R.3) por assegura.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2019-pgmms-procurador-municipal-010",
@@ -124,7 +130,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A supressão da vírgula empregada logo após a palavra “constitucional” (R.6) prejudicaria a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2019-pgmms-procurador-municipal-011",
@@ -135,7 +142,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Seria incorreto o emprego da forma quotidianamente em lugar de “cotidianamente” (R.4), pois aquela forma foi abolida do vocabulário oficial da língua portuguesa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2019-pgmms-procurador-municipal-012",
@@ -146,7 +154,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A supressão do vocábulo “do”, em “Mais do que isso”",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2019-pgmms-procurador-municipal-013",
@@ -1577,6 +1586,20 @@
    "tipo": "certo_errado",
    "enunciado": "Os honorários da sucumbência que pertencerem ao advogado que atuar na causa poderão ser por ele executados.",
    "gabarito": "certo"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "E. V. D. Lima. Litígios estruturais : decisão e implementação de mudanças socialmente relevantes pela via processual. In : Marco Félix Jobim e Sérgio Cruz Arenhart (Org.). Processos estruturais . 1.ª ed. Salvador: Editora Juspodivm, v. 1, 2017, p. 369-422 (com adaptações). Com relação às ideias e aos aspectos linguísticos do texto",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Emerson Ademir Borges de Oliveira. Jurisdição constitucional : entre a guarda da Constituição e o ativismo judicial. In : Revista Jurídica da Presidência . Brasília, v. 20, n.º 121, jun.-set./2018, p. 468-94 (com adaptações). A respeito das ideias e dos aspectos linguísticos do texto",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

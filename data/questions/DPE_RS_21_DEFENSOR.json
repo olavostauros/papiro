@@ -25,7 +25,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto afirma que os textos eletrônicos, dada sua mobilidade, maleabilidade e abertura, são escritos para serem modificados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-002",
@@ -36,7 +37,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem alteração dos sentidos do texto, a oração “O leitor pode intervir em seu próprio conteúdo” (segundo parágrafo) poderia ser corretamente reescrita como O leitor é capaz de intervir em seu próprio conteúdo , uma vez que o verbo poder foi empregado, nessa oração, no sentido de ser capaz .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-003",
@@ -47,7 +49,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nos textos eletrônicos, a interferência do leitor pode ir além da sua forma e atingir, também, o seu conteúdo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-004",
@@ -58,7 +61,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O mundo digital coloca em xeque o conceito de texto como se conhecia, bem como as tradicionais relações de autoria e propriedade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-005",
@@ -69,7 +73,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O autor do texto apresentado defende que os textos eletrônicos têm propriedades singulares que conduzem a uma revisão das fronteiras entre os diferentes tipos textuais, da noção jurídica de propriedade e das leis referentes à propriedade intelectual e ao copyright .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-006",
@@ -80,7 +85,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “Um registro de mutações ligadas ao mundo eletrônico se refere ao que chamo de a ordem das propriedades” (primeiro parágrafo), o verbo chamar , que está empregado com o mesmo sentido de classificar , denominar , tem dois complementos: um direto, que está elíptico, e outro indireto, que é o termo “de a ordem das propriedades”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-007",
@@ -91,7 +97,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Seria mantida a correção gramatical do texto se o pronome “se”, no primeiro parágrafo, fosse deslocado para imediatamente após a forma verbal “refere”, da seguinte maneira: refere-se.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-008",
@@ -135,7 +142,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A humanidade é um fator importante para o direito e para a justiça.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-012",
@@ -146,7 +154,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto argumenta que as demandas crescentes do direito tornaram imperativa a aproximação dessa área com a tecnologia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-013",
@@ -157,7 +166,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que o tradicionalismo característico da área do direito dificultou o uso da tecnologia nessa área, dada a recusa de seus operadores em se adaptar aos avanços tecnológicos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-014",
@@ -168,7 +178,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, as inovações eletrônicas e virtuais, por serem executadas sem parcimônia, põem em risco o trabalho dos operadores do direito na medida em que suprimem o lado humano da justiça.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-015",
@@ -179,7 +190,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É obrigatório o emprego da vírgula logo após a palavra “lados”, no segundo período do primeiro parágrafo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-016",
@@ -190,7 +202,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último parágrafo do texto, o emprego dos vocábulos “muito” e “sempre” enfatizam a opinião expressa pelo autor.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-017",
@@ -201,7 +214,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho “ como se necessárias para manter a integridade e a operacionalidade costumeira do sistema ” (primeiro parágrafo) expressa uma avaliação crítica do autor em relação a algumas práticas da área do direito.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-018",
@@ -212,7 +226,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No final do último parágrafo, a palavra “sobretudo” poderia ser substituída por mormente , sem prejuízo da correção gramatical e do sentido original do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-019",
@@ -223,7 +238,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A supressão do sinal indicativo de crase no vocábulo “às”, em “às mudanças tecnológicas” (segundo parágrafo), prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-020",
@@ -234,7 +250,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último período do texto, a preposição “para”, em suas três ocorrências, veicula uma ideia de finalidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-021",
@@ -245,7 +262,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto trata os termos “racismo”, “discriminação racial” e “preconceito racial” como semanticamente relacionados, embora distintos entre si.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-022",
@@ -256,7 +274,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se das ideias do texto que o sistema de cotas raciais em universidades e concursos públicos consiste em um tipo de discriminação indireta, “marcada pela ausência de intencionalidade explícita de discriminar pessoas”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-023",
@@ -267,7 +286,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical do último período do último parágrafo seria prejudicada se a forma verbal “leva” fosse substituída por levam .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-024",
@@ -278,7 +298,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que pessoas de determinados grupos raciais obtêm privilégios com as práticas de racismo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-025",
@@ -289,7 +310,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, o pronome relativo “que”, em “que se manifesta por meio de práticas conscientes ou inconscientes”, retoma o termo “raça”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-026",
@@ -300,7 +322,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e os sentidos originais do texto seriam mantidos se o trecho “acerca de indivíduos que pertençam a determinado grupo racializado” (segundo período do terceiro parágrafo) fosse reescrito da seguinte maneira: acerca dos indivíduos, que pertencem a um determinado grupo racializado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-027",
@@ -311,7 +334,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Feitas as devidas alterações de maiúsculas e minúsculas, no segundo período do quarto parágrafo, a conjunção “Portanto” poderia ser corretamente deslocada para logo depois da palavra “discriminação”, dispensando-se o emprego da vírgula.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-028",
@@ -322,7 +346,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A supressão da preposição “a”, em “lojas que se recusam a atender clientes de determinada raça” (quarto período do último parágrafo), prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-029",
@@ -333,7 +358,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que o termo “hipermodernidade”, empregado para designar o momento atual da sociedade humana, origina-se da referência a uma característica marcante da sociedade atual: o hiperconsumo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-030",
@@ -344,7 +370,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O movimento de hiperconsumismo é descomprometido com a manutenção de um meio ambiente ecologicamente equilibrado, segundo as informações do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-031",
@@ -355,7 +382,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conforme as ideias do texto, uma flor murcha e uma garrafa de plástico vazia, assim como certos objetos de consumo, são aprazíveis aos hiperconsumidores.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-032",
@@ -366,7 +394,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, a lógica do hiperconsumo se traduz em um movimento reiterado e sem fim.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-033",
@@ -377,7 +406,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, na sociedade hipermoderna, o consumo está atrelado ao tratamento de pessoas como coisas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-034",
@@ -388,7 +418,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro parágrafo, os sujeitos das formas verbais “pressupõe” e “é” são classificados como oracionais, por serem constituídos pelos verbos “fazer” e “curtir”, respectivamente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-035",
@@ -399,7 +430,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do segundo parágrafo, o pronome “Isso” poderia ser substituído por O que , sem prejuízo da coerência e da correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-036",
@@ -410,7 +442,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso o trecho “Ao mesmo tempo” (segundo período do terceiro parágrafo) fosse deslocado para imediatamente após a forma verbal “possuem” e fosse isolado por vírgulas, os sentidos originais do texto seriam prejudicados, embora sua correção gramatical fosse mantida, feitos os devidos ajustes de maiúsculas e minúsculas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-037",
@@ -421,7 +454,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O termo “apraz” (segundo período do primeiro parágrafo) corresponde a uma forma flexionada do verbo aprazar .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-038",
@@ -432,7 +466,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No texto, a palavra “logro” (primeiro período do terceiro parágrafo) foi empregada com o mesmo sentido de ganho , vantagem .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-039",
@@ -443,7 +478,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último período do quarto parágrafo, o vocábulo “Assim” é um advérbio que se refere ao modo como um desejo satisfeito torna-se prazeroso e excitante.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-040",
@@ -454,7 +490,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical e da coerência do texto, a oração “que se possuem e se consomem” (último período do terceiro parágrafo) poderia ser reescrita da seguinte maneira: que são possuídas e consumidas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-041",
@@ -982,7 +1019,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na data de hoje, Fábio pode cobrar eventuais prestações alimentares vencidas até dezembro de 2018.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-089",
@@ -993,7 +1031,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso Fábio possuísse crédito referente a um instrumento particular de confissão de dívida, o fato de ele ter composto a Força Nacional não alteraria o prazo prescricional para a proposição de ação que buscasse cobrar tal valor.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-090",
@@ -1004,7 +1043,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Supondo-se que, antes mesmo dos fatos narrados, Fábio tivesse alugado para Márcio um imóvel em prédio urbano e que este lhe devesse aluguéis vencidos até dezembro de 2016, seria cabível que Fábio tivesse cobrado, em 6/1/2020, tais aluguéis vencidos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-091",
@@ -1334,7 +1374,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Jorge poderá contatar a empresa Y e exigir um computador em consonância com o anunciado, ou, ainda, ingressar judicialmente contra a empresa, para o cumprimento da obrigação, sob pena de resolução em perdas e danos, pois o conteúdo da publicidade veiculada obrigou o fornecedor e integrou o contrato entre eles celebrado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2021-dpe-rs-defensor-publico-estado-121",
@@ -2215,6 +2256,44 @@
    "tipo": "certo_errado",
    "enunciado": "Nos termos da Lei Complementar estadual n.o 14.130/2012, a criação, alteração e extinção de defensorias públicas e de suas atribuições são de competência do Conselho Superior, mediante iniciativa do defensor público-geral do estado, do corregedor-geral da Defensoria Pública ou da maioria dos defensores públicos lotados nos órgãos de atuação da respectiva Defensoria Pública Regional.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "• Cada um dos itens da prova objetiva está vinculado ao comando que imediatamente o antecede. De acordo com o comando a que cada um deles esteja vinculado, marque, na Folha de Respostas o item CERTO ; ou o campo designado com o código E , caso julgue o item Respostas , único documento válido para a correção da sua prova objetiva. • Em sua prova, caso haja item(ns) constituído(s) pela estrutura apresentados como situação hipotética deverão ser considerados como premissa para o julgamento da assertiva proposta. • Eventuais espaços livres — identificados ou não pela expressão “Espaço livre” — que constarem deste caderno de prova poderão ser utilizados para rascunhos.\n\n-- PROVA OBJETIVA --\n\nBLOCO I",
+   "citacao": "Um registro de mutações ligadas ao mundo eletrônico se refere ao que chamo de a ordem das propriedades, tanto em um sentido jurídico — o que fundamenta a propriedade literária e o copyright — quanto em um sentido textual — o que define as características ou propriedades dos textos. O texto eletrônico, tal qual o conhecemos, é um texto móvel, maleável, aberto. O leitor pode intervir em seu próprio conteúdo, e não somente nos espaços deixados em branco pela composição tipográfica. Pode deslocar, recortar, estender, recompor as unidades textuais das quais se apodera. Nesse processo, desaparece a atribuição dos textos ao nome de seu autor, já que são constantemente modificados por uma escritura coletiva, múltipla, polifônica. Essa mobilidade lança um desafio aos critérios e às categorias que, pelo menos desde o século XVIII, identificam as obras com base na sua estabilidade, singularidade e originalidade. Há um estreito vínculo entre a identidade singular, estável, reproduzível dos textos e o regime de propriedade que protege os direitos dos autores e dos editores. É essa relação que coloca em questão o mundo digital, que propõe textos brandos, ubíquos, palimpsestos. Roger Chartier. Os desafios da escrita . Tradução de Fulvia M. L. Moreto. São Paulo: Editora UNESP, 2002, p. 24-25 (com adaptações). Com relação às ideias e aos aspectos linguísticos do texto",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A tecnologia finalmente está derrubando os muros do tradicionalismo que envolve o mundo do direito. Cercado de costumes e hábitos por todos os lados, o direito e seus operadores têm a fama de serem apegados a formalismos, praxes e arcaísmos resistentes a mudanças mais radicais. São práticas persistentes, passadas adiante por gerações e cultivadas como se necessárias para manter a integridade e a operacionalidade costumeira do sistema.\n\nNem mesmo o hermético universo do direito resistiu às mudanças tecnológicas trazidas pela rede mundial de computadores e pela possibilidade do uso de softwares de inteligência artificial para análise de grandes volumes de dados. Novidades cuja aplicação foi impulsionada pelo incessante crescimento de demandas judiciais e pela necessidade de implementar e efetivar o sistema de precedentes qualificados. Todas essas inovações, sem dúvida nenhuma, transformaram o sistema de justiça como o conhecíamos e o cotidiano dos operadores do direito. O direito, o processo decisório e os julgamentos são eminentemente de natureza humana e dependem do ser humano para serem bem realizados. Assim, mesmo que os avanços tecnológicos sejam inevitáveis, todas as inovações eletrônicas e virtuais devem sempre ser implementadas com parcimônia e vistas com muito cuidado, não apenas para sempre permitirem o exercício de direitos e garantias, mas também para não restringirem — e, sim, ampliarem — o acesso à justiça e, sobretudo, para manterem a insubstituível humanidade da justiça.\n\nRafael Muneratti. Justiça virtual e acesso à justiça . In : Revista da Defensoria\n\nPública do Estado do Rio Grande do Sul , ano 12, v. 1, n.º 28, 2021 (com adaptações). Com relação às ideias e aos aspectos linguísticos do texto",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Para falar de racismo, é preciso antes diferenciar o racismo de outras categorias que também aparecem associadas à ideia de raça: preconceito e discriminação.\n\nPodemos dizer que o racismo é uma forma sistemática de discriminação que tem a raça como fundamento e que se manifesta por meio de práticas conscientes ou inconscientes que culminam em desvantagens ou privilégios para indivíduos, a depender do grupo racial ao qual pertençam.\n\nEmbora haja relação entre os conceitos, o racismo difere do preconceito racial e da discriminação racial. O preconceito racial é o juízo baseado em estereótipos acerca de indivíduos que pertençam a determinado grupo racializado, o que pode ou não resultar em práticas discriminatórias. Considerar negros violentos e inconfiáveis, judeus avarentos ou orientais “naturalmente” preparados para as ciências exatas são exemplos de preconceitos.\n\nA discriminação racial, por sua vez, é a atribuição de tratamento diferenciado a membros de grupos racialmente identificados. Portanto, a discriminação tem como requisito fundamental o poder — ou seja, a possibilidade efetiva do uso da força —, sem o qual não é possível atribuir vantagens ou desvantagens por conta da raça. Assim, a discriminação pode ser direta ou indireta. A discriminação direta é o repúdio ostensivo a indivíduos ou grupos, motivado pela condição racial, exemplo do que ocorre em países que proíbem a entrada de negros, judeus, muçulmanos, pessoas de origem árabe ou persa, ou ainda lojas que se recusam a atender clientes de determinada raça. Já a discriminação indireta é um processo em que a situação específica de grupos minoritários é ignorada — discriminação de fato — ou sobre a qual são impostas regras de “neutralidade racial” sem que se leve em conta a existência de diferenças sociais significativas — discriminação pelo direito ou discriminação por impacto adverso. A discriminação indireta é marcada pela ausência de intencionalidade explícita de discriminar pessoas. Isso pode acontecer porque a norma ou prática não leva em consideração ou não pode prever de forma concreta as consequências da norma.",
+   "citacao": "Silvio Almeida. Racismo Estrutural (Feminismos Plurais). Editora Jandaíra. Edição do Kindle (com adaptações).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Na sociedade líquido-moderna da hipermodernidade globalizante, o fazer compras não pressupõe nenhum discurso. O consumidor — o hiperconsumidor — compra aquilo que lhe apraz. Ele segue as suas inclinações individuais. O curtir é o seu lema.\n\nEsse movimento social de hiperconsumismo, de vida para o consumo, guiou a pessoa natural para o caminho da necessidade, da vontade e do gosto pelo consumo, bem como impulsionou o descarte de cada vez mais recursos naturais finitos. Isso tem transformado negativamente o planeta, ao trazer prejuízos não apenas para as futuras gerações, como também para as atuais, o que resulta em problemas sociais, crises humanitárias e degradação do meio ambiente ecologicamente equilibrado, além de afetar o desenvolvimento humano, ao se precificar o ser racional, dissolvendo-se toda solidez social e trazendo-se à tona uma sociedade líquido-moderna de hiperconsumidores vorazes e indiferentes às consequências de seus atos sobre o meio ambiente ecologicamente equilibrado e sobre as gerações atuais e futuras.\n\nO consumismo é uma economia do logro, do excesso e do lixo, pois faz que o ser humano trabalhe duro para adquirir mais coisas, mas traz a sensação de insatisfação porque sempre há alguma coisa melhor, maior e mais rápida do que no presente. Ao mesmo tempo, as coisas que se possuem e se consomem enchem não apenas os armários, as garagens, as casas e as vidas, mas também as mentes das pessoas.\n\nNessa sociedade líquido-moderna de hiperconsumidores, o desejo satisfeito pelo consumo gera a sensação de algo ultrapassado; o fim de um consumo significa a vontade de iniciar qualquer outro. Nessa vida de hiperconsumo e para o hiperconsumo, a pessoa natural fica tentada com a gratificação própria imediata, mas, ao mesmo tempo, os cérebros não conseguem compreender o impacto cumulativo em um nível coletivo. Assim, um desejo satisfeito torna-se quase tão prazeroso e excitante quanto uma flor murcha ou uma garrafa de plástico vazia.\n\nO hiperconsumismo afeta não apenas a relação simbiótica entre o ser humano e o planeta, como também fere de morte a moral, ao passo que torna tudo e todos algo precificável, descartável e indiferente.",
+   "citacao": "Fellipe V. B. Fraga e Bruno B. de Oliveira. O consumo colaborativo como mecanismo de desenvolvimento sustentável na sociedade líquido-moderna . LAECC. Edição do Kindle (com adaptações).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Quando tinha 18 anos de idade, Fábio foi aprovado em concurso público e passou a compor os quadros da polícia militar. Aos 20 anos de idade, foi selecionado para fazer parte do quadro da Força Nacional, tendo atuado nela por seis meses, em outro estado da Federação. Considerando a situação hipotética apresentada, bem como admitindo que Fábio tenha completado 21 anos de idade em",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Em razão da pandemia de COVID-19, Jorge necessitou trabalhar em casa e, para tanto, adquiriu um computador pelo site da empresa Y. O computador foi entregue dentro do prazo, mas visivelmente estava em desacordo com as informações publicitárias veiculadas no site , já que o produto recebido era muito aquém do que Jorge havia comprado conforme o anúncio.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

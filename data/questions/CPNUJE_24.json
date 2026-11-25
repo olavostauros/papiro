@@ -144,7 +144,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "S = ĀC̅ + BCD + AB̅D̅",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-engenharia-eletrica-062",
@@ -320,7 +321,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O gráfico permite inferir que há uma assimetria à direita na distribuição dos dados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-estatistica-058",
@@ -331,7 +333,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As informações fornecidas permitem concluir que a média da série é maior que a sua mediana.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-estatistica-059",
@@ -342,7 +345,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Um diagrama box plot da série em questão será similar ao apresentado a seguir, em que a linha correspondente ao quantil q 2 está mais próxima daquela correspondente ao quantil q 1 que da correspondente ao quantil q 3 .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-estatistica-060",
@@ -353,7 +357,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se o melhor representante de cada classe for seu ponto médio, então a moda da série será igual a 35.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-estatistica-061",
@@ -364,7 +369,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se o melhor representante de cada classe for seu ponto médio, então o desvio médio da distribuição será superior a 40.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-estatistica-062",
@@ -375,7 +381,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O terceiro quartil da distribuição das empresas é superior a 90.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-estatistica-063",
@@ -386,7 +393,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se o melhor representante de cada classe for seu ponto médio, então a média da distribuição será superior a 65.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-estatistica-064",
@@ -397,7 +405,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considerando-se que o melhor representante de cada classe seja seu ponto médio, a classe (30, 40) é a que contribui com a maior parcela no cálculo da variância da distribuição.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-estatistica-065",
@@ -1035,7 +1044,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ao se executar esse trecho de código, será exibido o resultado a seguir.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-001",
@@ -1046,7 +1056,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, a expressão corrente ‘o cliente sempre tem razão’, apesar de comercialmente motivada, não condiz com a realidade determinada pelo arcabouço legal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-002",
@@ -1057,7 +1068,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o autor do texto, a lei prevê situações específicas em que o consumidor pode solicitar ao fornecedor a troca de um produto ou a devolução do dinheiro gasto na compra de determinado produto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-003",
@@ -1079,7 +1091,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, ao reclamar seus direitos, os consumidores brasileiros usam um critério pessoal de justiça derivado de sua falta de conhecimento acerca das leis, dos seus direitos e de como eles devem ser observados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-005",
@@ -1090,7 +1103,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O autor do texto defende a ideia de que, na perspectiva jurídica, nem sempre o consumidor tem direito de exigir que seus interesses sejam satisfeitos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-006",
@@ -1101,7 +1115,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seria mantida a correção gramatical e a coesão do último período do texto, caso a forma verbal “houver” fosse substituída por houvesse .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-007",
@@ -1112,7 +1127,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As formas verbais “acabou”, “queria” e “preferia” (primeiro período do quinto parágrafo) são núcleos de orações cujos sujeitos são elípticos e referem-se ao termo “uma pessoa”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-008",
@@ -1123,7 +1139,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Nas orações em que ocorrem, as expressões ‘o cliente sempre tem razão’ (primeiro período do primeiro parágrafo) e “direito do consumidor” (primeiro período do quarto parágrafo) desempenham a mesma função sintática.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-009",
@@ -1134,7 +1151,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Prejudicaria a correção gramatical do texto a substituição do trecho “a marcas e a lojas” (segundo período do primeiro parágrafo) por à marcas e à lojas .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-010",
@@ -1145,7 +1163,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Caso o pronome “se”, em “baseando-se em critério pessoal do que seria justo” (terceiro parágrafo) fosse deslocado para imediatamente antes da forma verbal “baseando” — escrevendo-se se baseando —, seria mantida a correção gramatical da frase e lhe seria conferido maior grau de formalidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-011",
@@ -1156,7 +1175,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No terceiro parágrafo do texto, o vocábulo “que”, presente na oração “que alega”, é utilizado como elemento de coesão referencial e tem como referente o termo “o consumidor”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-012",
@@ -1167,7 +1187,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No início do quinto parágrafo, a vírgula empregada após o verbo “ilustrar” é facultativa e sua supressão preservaria a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-013",
@@ -1178,7 +1199,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No último parágrafo do texto, o autor conclui que, sendo a ficção uma representação da realidade, o relato de uma situação passada caracteriza-se como ficção.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-014",
@@ -1189,7 +1211,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A ficção é um tipo de discurso por meio do qual se apreende o real, atualizando-o por meio de palavras.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-015",
@@ -1200,7 +1223,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os textos caracterizados como obras de ficção são bem delimitados e apresentam alcance reduzido.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-016",
@@ -1211,7 +1235,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os críticos e teóricos de cinema Jacques Aumont e Michel Marie caracterizam a ficção como um simulacro da realidade, em uma oposição explícita à visão comum nos meios acadêmicos segundo a qual a ficção é uma mentira.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-017",
@@ -1222,7 +1247,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, dada a natureza do jornalismo, matérias jornalísticas de natureza ficcional são inconcebíveis considerando-se a definição popular de ficção.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-018",
@@ -1233,7 +1259,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A forma pronominal “a” empregada no trecho “que a escreve ou lê” (primeiro período do terceiro parágrafo) se refere ao termo “a ficção”, no mesmo período.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-019",
@@ -1244,7 +1271,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No primeiro parágrafo, as três ocorrências da forma verbal “pode” expressam sentido de possibilidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-020",
@@ -1255,7 +1283,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Na organização das ideias do primeiro parágrafo do texto, o conteúdo do segmento “mas com enredo, personagens ou ambientes inventados” se opõe à informação anterior segundo a qual a ficção pode ser representada por uma fantasia, uma ficção científica, ou um romance comum.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-021",
@@ -1266,7 +1295,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do terceiro parágrafo, a substituição do vocábulo “franceses” por francês preservaria a correção gramatical do texto, embora alterasse o seu sentido e as relações sintáticas do período.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-022",
@@ -1277,7 +1307,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A locução “já que” (primeiro período do segundo parágrafo) introduz, na oração em que se insere, valor de causa, podendo ser corretamente substituída por uma vez que .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-023",
@@ -1288,7 +1319,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Mantendo-se o sentido original e a correção gramatical do texto, o primeiro período do quarto parágrafo poderia ser reescrito da seguinte maneira: Pode-se afirmar que, dessa forma, todo o relato trata-se de uma tentativa de representar a realidade por meio do uso de palavras.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-024",
@@ -1299,7 +1331,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Dada sua função na oração, o termo “da mente” (quarto período do quarto parágrafo) pode ser substituído pelo adjetivo mental , sem prejuízo da correção gramatical e do sentido original do trecho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-025",
@@ -1310,7 +1343,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seria mantida a correção gramatical do texto se o trecho “nos esquecer” (último período) fosse reescrito como esquecer .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-026",
@@ -1321,7 +1355,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No texto, rejeita-se a ideia comum de que o ato de comunicar, interagir, corresponde unicamente à transmissão pura e simples de informações.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-027",
@@ -1332,7 +1367,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Para atingir o seu propósito comunicativo, a autora constrói seu texto combinando as tipologias expositiva e narrativa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-028",
@@ -1343,7 +1379,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical do texto, as palavras “é” e “que”, presentes no segundo período do segundo parágrafo, poderiam ser suprimidas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-029",
@@ -1354,7 +1391,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do primeiro parágrafo, as duas ocorrências do pronome “se” têm o papel de indeterminar os agentes responsáveis pela ação de falar.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-030",
@@ -1365,7 +1403,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No trecho “dar uma ordem, expressar um sentimento, fazer um pedido, exercer algum tipo de influência, fazer o outro mudar de opinião...” (quarto período do primeiro parágrafo), as vírgulas foram empregadas para separar expressões de caráter explicativo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-031",
@@ -1376,7 +1415,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme o texto, Umberto Eco recorre, em seu livro, a fatos e personagens verídicos com “a finalidade de atribuir aos judeus uma fictícia conspiração para dominar o mundo” (segundo parágrafo).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-032",
@@ -1387,7 +1427,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do sétimo parágrafo, o trecho ‘sejam espalhadas’ poderia ser corretamente substituído por espalhem-se .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-033",
@@ -1398,7 +1439,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se do texto que a circulação d’ Os Protocolos dos Sábios de Sião atualmente está restrita à Internet, em formato de livro digital, dada a dificuldade de moderação de conteúdo falso no meio eletrônico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-034",
@@ -1409,7 +1451,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A supressão da vírgula empregada logo após “1897” (terceiro parágrafo) manteria a correção gramatical do texto, embora alterasse seu sentido: sem a vírgula, a interpretação seria a de que 1897 foi o ano em que Hitler utilizou os Protocolos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-035",
@@ -1420,7 +1463,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Um dos mecanismos de coesão presentes no texto é o emprego de sinônimos como “mentira”, “farsa” e “embuste”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-036",
@@ -1431,7 +1475,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do quinto parágrafo, o emprego do acento indicativo de crase no vocábulo “a”, em “dada a dificuldade em desmenti-las”, prejudicaria a correção gramatical e a coerência do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-037",
@@ -1442,7 +1487,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seria mantida a correção gramatical do quarto parágrafo do texto caso a forma pronominal “os”, em “e publicou-os em forma de livro”, fosse deslocada para imediatamente antes da forma verbal “publicou” — e os publicou .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-038",
@@ -1453,7 +1499,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No texto, que se classifica como narrativo, é empregado o tempo psicológico, já que os acontecimentos não são narrados na ordem em que ocorreram.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-039",
@@ -1464,7 +1511,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do último parágrafo do texto que, para Hadassa Ben-Itto, o conceito de liberdade de expressão relaciona-se à livre manifestação de ideias.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-040",
@@ -1475,7 +1523,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seriam preservadas a coerência e a correção gramatical do texto caso o período “‘Uma mentira deliberada não é uma ideia’, reforça” (segundo período do último parágrafo) fosse reescrito da seguinte forma: Hadassa Ben-Itto reforça que uma mentira deliberada não é uma ideia .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-041",
@@ -1486,7 +1535,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo “assassínios”, empregado no último período do texto, é sinônimo de assassinos .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-042",
@@ -1497,7 +1547,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A supressão do vocábulo “Mas”, no início do sexto parágrafo do texto, prejudicaria sua coerência, seu sentido e sua correção gramatical, ainda que feitos os devidos ajustes de maiúsculas e minúsculas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-043",
@@ -1508,7 +1559,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A substituição do vocábulo “Enquanto”, que inicia o último período do segundo parágrafo, por Se alteraria o sentido original do texto, mas manteria sua coerência e sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-044",
@@ -1519,7 +1571,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No trecho “A mentira tradicional implicava apenas particulares” (primeiro período do segundo parágrafo), o verbo implicar é empregado com o sentido de acarretar .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-045",
@@ -1530,7 +1583,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trecho “quando ele distingue entre o erro e a mentira — quer dizer, entre ‘involuntário e voluntário’ — é, de modo significativo, mais duro em relação àqueles que ‘chafurdam na ignorância de porcos’ que em relação aos mentirosos” (primeiro período do texto) é utilizado pela autora como argumento de autoridade para defender sua tese, expressa no primeiro período do segundo parágrafo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-046",
@@ -1541,7 +1595,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Dados os sentidos do texto, é correto concluir do trecho “uma mentira particular — quer dizer, uma falsificação que não se esforça por alterar todo o contexto” (segundo período do segundo parágrafo) que há, pelo menos, um outro tipo de mentira: uma falsificação que se esforça por alterar todo o contexto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-047",
@@ -1552,7 +1607,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Do desenvolvimento do texto depreende-se que a frase interrogativa que constitui o último parágrafo visa estimular a reflexão do leitor, e não fazer, de fato, uma pergunta sobre algo que a autora desconhece.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-048",
@@ -1563,7 +1619,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo “factual” (terceiro parágrafo) poderia ser corretamente grafado fatual .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-049",
@@ -1574,7 +1631,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seriam mantidos os sentidos originais do texto e sua correção gramatical caso o trecho “e não fatos novos” (terceiro parágrafo) fosse isolado por vírgulas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-050",
@@ -1585,7 +1643,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em “a mentira mostrar-se-á imediatamente de modo espontâneo” (segundo parágrafo), a partícula “se” classifica-se como pronome apassivador, podendo esse trecho ser corretamente reescrito, sem prejuízo do sentido original, da seguinte forma: seria a mentira imediatamente mostrada de modo espontâneo .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-051",
@@ -1937,7 +1996,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Segundo a jurisprudência do Supremo Tribunal Federal, ofende a liberdade de expressão e a liberdade de informação ato normativo de tribunal regional eleitoral que vede a utilização de simulador de urna eletrônica como veículo de propaganda eleitoral.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-087",
@@ -1948,7 +2008,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Ante o potencial desequilíbrio na distribuição do tempo de horário eleitoral gratuito, o Supremo Tribunal Federal considerou inconstitucional a distribuição do tempo de propaganda eleitoral gratuita proporcionalmente ao número de representantes na Câmara dos Deputados, levada em conta a representatividade dos seis maiores partidos políticos de determinada coligação formada para as eleições majoritárias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-088",
@@ -1959,7 +2020,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Os partidos políticos são pessoas jurídicas de direito privado, cuja aquisição da personalidade jurídica se dá na forma da lei civil, sendo-lhes assegurada autonomia para definir sua estrutura interna, sua organização e seu funcionamento.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-089",
@@ -1970,7 +2032,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "A instituição de federação partidária, embora prescinda de registro no Tribunal Superior Eleitoral, somente pode ser formalizada por partidos políticos que tenham registro definitivo no referido órgão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-090",
@@ -1981,7 +2044,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "A propaganda partidária gratuita mediante transmissão em bloco no rádio e na televisão será promovida por iniciativa e sob responsabilidade dos respectivos órgãos de direção partidária, por meio de inserções no intervalo da programação normal das emissoras.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-judiciario-area-judiciaria-091",
@@ -2311,7 +2375,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É correto concluir do texto que o Brasil adota o sistema de eleição por maioria relativa de votos, sem interrupções, desde a época do Império.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-judiciario-agente-da-policia-judicial-001",
@@ -2322,7 +2387,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a fala de Luiz Vianna Filho apresentada no texto, as cartas e os documentos reunidos pelo Sr. Homero Pires deixam clara a inexistência de consenso sobre a candidatura de Rui Barbosa ao cargo de deputado na Província da Bahia no ano de 1878.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-judiciario-programacao-de-sistemas-001",
@@ -2333,7 +2399,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a fala de Luiz Vianna Filho apresentada no texto, as cartas e os documentos reunidos pelo Sr. Homero Pires deixam clara a inexistência de consenso sobre a candidatura de Rui Barbosa ao cargo de deputado na Província da Bahia no ano de 1878.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-judiciario-programacao-de-sistemas-067",
@@ -2388,7 +2455,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considere que as tabelas e o relacionamento entre elas tenham sido corretamente criados, conforme o modelo apresentado, e que os seguintes comandos tenham sido executados com sucesso.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-judiciario-programacao-de-sistemas-072",
@@ -2399,7 +2467,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A execução do script SQL a seguir criará as tabelas e o relacionamento entre elas, conforme o modelo apresentado. CREATE TABLE Orgao ( IdOrgao INT NOT NULL PRIMARY KEY, NomeOrgao VARCHAR(45) NULL, FOREIGN KEY (Processo) REFERENCES Processo (IdOrgao) );",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-judiciario-programacao-de-sistemas-078",
@@ -2443,7 +2512,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O autor do texto defende a ideia de que, na perspectiva jurídica, nem sempre o consumidor tem direito de exigir que seus interesses sejam satisfeitos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-002",
@@ -2454,7 +2524,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O direito do consumidor é um conjunto de normas que regulamenta, entre outras ações, o comportamento do fornecedor conforme os anseios e desejos dos consumidores.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-003",
@@ -2465,7 +2536,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, a expressão corrente ‘o cliente sempre tem razão’, apesar de comercialmente motivada, não condiz com a realidade determinada pelo arcabouço legal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-004",
@@ -2498,7 +2570,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Seria mantida a correção gramatical e a coesão do último período do texto, caso a forma verbal “houver” fosse substituída por houvesse .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-007",
@@ -2509,7 +2582,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nas orações em que ocorrem, as expressões ‘o cliente sempre tem razão’ (primeiro período do primeiro parágrafo) e “direito do consumidor” (primeiro período do quarto parágrafo) desempenham a mesma função sintática.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-008",
@@ -2520,7 +2594,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Prejudicaria a correção gramatical do texto a substituição do trecho “a marcas e a lojas” (segundo período do primeiro parágrafo) por à marcas e à lojas .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-009",
@@ -2531,7 +2606,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso o pronome “se”, em “baseando-se em critério pessoal do que seria justo” (terceiro parágrafo) fosse deslocado para imediatamente antes da forma verbal “baseando” — escrevendo-se se baseando —, seria mantida a correção gramatical da frase e lhe seria conferido maior grau de formalidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-010",
@@ -2542,7 +2618,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro parágrafo do texto, o vocábulo “que”, presente na oração “que alega”, é utilizado como elemento de coesão referencial e tem como referente o termo “o consumidor”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-011",
@@ -2553,7 +2630,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As formas verbais “acabou”, “queria” e “preferia” (primeiro período do quinto parágrafo) são núcleos de orações cujos sujeitos são elípticos e referem-se ao termo “uma pessoa”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-012",
@@ -2564,7 +2642,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do quinto parágrafo, a vírgula empregada após o verbo “ilustrar” é facultativa e sua supressão preservaria a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-013",
@@ -2575,7 +2654,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os críticos e teóricos de cinema Jacques Aumont e Michel Marie caracterizam a ficção como um simulacro da realidade, em uma oposição explícita à visão comum nos meios acadêmicos segundo a qual a ficção é uma mentira.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-014",
@@ -2586,7 +2666,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No último parágrafo do texto, o autor conclui que, sendo a ficção uma representação da realidade, o relato de uma situação passada caracteriza-se como ficção.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-015",
@@ -2597,7 +2678,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A ficção é um tipo de discurso por meio do qual se apreende o real, atualizando-o por meio de palavras.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-016",
@@ -2608,7 +2690,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os textos caracterizados como obras de ficção são bem delimitados e apresentam alcance reduzido.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-017",
@@ -2619,7 +2702,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, dada a natureza do jornalismo, matérias jornalísticas de natureza ficcional são inconcebíveis considerando-se a definição popular de ficção.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-018",
@@ -2630,7 +2714,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A forma pronominal “a” empregada no trecho “que a escreve ou lê” (primeiro período do terceiro parágrafo) se refere ao termo “a ficção”, no mesmo período.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-019",
@@ -2641,7 +2726,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro parágrafo, as três ocorrências da forma verbal “pode” expressam sentido de possibilidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-020",
@@ -2652,7 +2738,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na organização das ideias do primeiro parágrafo do texto, o conteúdo do segmento “mas com enredo, personagens ou ambientes inventados” se opõe à informação anterior segundo a qual a ficção pode ser representada por uma fantasia, uma ficção científica, ou um romance comum.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-021",
@@ -2663,7 +2750,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do terceiro parágrafo, a substituição do vocábulo “franceses” por francês preservaria a correção gramatical do texto, embora alterasse o seu sentido e as relações sintáticas do período.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-022",
@@ -2674,7 +2762,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A locução “já que” (primeiro período do segundo parágrafo) introduz, na oração em que se insere, valor de causa, podendo ser corretamente substituída por uma vez que .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-023",
@@ -2685,7 +2774,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Mantendo-se o sentido original e a correção gramatical do texto, o primeiro período do quarto parágrafo poderia ser reescrito da seguinte maneira: Pode-se afirmar que, dessa forma, todo o relato trata-se de uma tentativa de representar a realidade por meio do uso de palavras.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-024",
@@ -2696,7 +2786,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Dada sua função na oração, o termo “da mente” (quarto período do quarto parágrafo) pode ser substituído pelo adjetivo mental , sem prejuízo da correção gramatical e do sentido original do trecho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-025",
@@ -2707,7 +2798,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Seria mantida a correção gramatical do texto se o trecho “nos esquecer” (último período) fosse reescrito como esquecer .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-026",
@@ -2718,7 +2810,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No texto, rejeita-se a ideia comum de que o ato de comunicar, interagir, corresponde unicamente à transmissão pura e simples de informações.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-027",
@@ -2729,7 +2822,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para atingir o seu propósito comunicativo, a autora constrói seu texto combinando as tipologias expositiva e narrativa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-028",
@@ -2740,7 +2834,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do primeiro parágrafo, as duas ocorrências do pronome “se” têm o papel de indeterminar os agentes responsáveis pela ação de falar.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-029",
@@ -2751,7 +2846,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical do texto, as palavras “é” e “que”, presentes no segundo período do segundo parágrafo, poderiam ser suprimidas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-030",
@@ -2762,7 +2858,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “dar uma ordem, expressar um sentimento, fazer um pedido, exercer algum tipo de influência, fazer o outro mudar de opinião...” (quarto período do primeiro parágrafo), as vírgulas foram empregadas para separar expressões de caráter explicativo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-contabilidade-031",
@@ -2993,7 +3090,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o autor do texto, a lei prevê situações específicas em que o consumidor pode solicitar ao fornecedor a troca de um produto ou a devolução do dinheiro gasto na compra de determinado produto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-administrativa-002",
@@ -3004,7 +3102,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o texto, a expressão corrente ‘o cliente sempre tem razão’, apesar de comercialmente motivada, não condiz com a realidade determinada pelo arcabouço legal.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-administrativa-003",
@@ -3015,7 +3114,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, ao reclamar seus direitos, os consumidores brasileiros usam um critério pessoal de justiça derivado de sua falta de conhecimento acerca das leis, dos seus direitos e de como eles devem ser observados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-administrativa-004",
@@ -3026,7 +3126,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As formas verbais “acabou”, “queria” e “preferia” (primeiro período do quinto parágrafo) são núcleos de orações cujos sujeitos são elípticos e referem-se ao termo “uma pessoa”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-administrativa-005",
@@ -3037,7 +3138,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nas orações em que ocorrem, as expressões ‘o cliente sempre tem razão’ (primeiro período do primeiro parágrafo) e “direito do consumidor” (primeiro período do quarto parágrafo) desempenham a mesma função sintática.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-administrativa-006",
@@ -3048,7 +3150,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Prejudicaria a correção gramatical do texto a substituição do trecho “a marcas e a lojas” (segundo período do primeiro parágrafo) por à marcas e à lojas .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-administrativa-007",
@@ -3059,7 +3162,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No início do quinto parágrafo, a vírgula empregada após o verbo “ilustrar” é facultativa e sua supressão preservaria a correção gramatical do texto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-administrativa-008",
@@ -3070,7 +3174,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No terceiro parágrafo do texto, o vocábulo “que”, presente na oração “que alega”, é utilizado como elemento de coesão referencial e tem como referente o termo “o consumidor”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-administrativa-009",
@@ -3114,7 +3219,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Dada sua função na oração, o termo “da mente” (quarto período do quarto parágrafo) pode ser substituído pelo adjetivo mental , sem prejuízo da correção gramatical e do sentido original do trecho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-administrativa-013",
@@ -3125,7 +3231,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Mantendo-se o sentido original e a correção gramatical do texto, o primeiro período do quarto parágrafo poderia ser reescrito da seguinte maneira: Pode-se afirmar que, dessa forma, todo o relato trata-se de uma tentativa de representar a realidade por meio do uso de palavras.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-administrativa-014",
@@ -3136,7 +3243,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro parágrafo, as três ocorrências da forma verbal “pode” expressam sentido de possibilidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-administrativa-015",
@@ -3147,7 +3255,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na organização das ideias do primeiro parágrafo do texto, o conteúdo do segmento “mas com enredo, personagens ou ambientes inventados” se opõe à informação anterior segundo a qual a ficção pode ser representada por uma fantasia, uma ficção científica, ou um romance comum.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-administrativa-016",
@@ -3158,7 +3267,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do terceiro parágrafo, a substituição do vocábulo “franceses” por francês preservaria a correção gramatical do texto, embora alterasse o seu sentido e as relações sintáticas do período.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-administrativa-017",
@@ -3169,7 +3279,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Seria mantida a correção gramatical do texto se o trecho “nos esquecer” (último período) fosse reescrito como esquecer .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-administrativa-018",
@@ -3180,7 +3291,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No texto, rejeita-se a ideia comum de que o ato de comunicar, interagir, corresponde unicamente à transmissão pura e simples de informações.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-administrativa-019",
@@ -3191,7 +3303,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical do texto, as palavras “é” e “que”, presentes no segundo período do segundo parágrafo, poderiam ser suprimidas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-administrativa-020",
@@ -3202,7 +3315,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para atingir o seu propósito comunicativo, a autora constrói seu texto combinando as tipologias expositiva e narrativa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2024-cpnuje-analista-administrativa-023",
@@ -3499,7 +3613,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "voto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2024-cpnuje-agente-policia-judicial-002",
@@ -3565,7 +3680,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência do texto seriam preservadas caso as vírgulas que isolam a oração “a que parece Rui ter concorrido” (primeiro período do sexto parágrafo) fossem suprimidas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2024-cpnuje-agente-policia-judicial-008",
@@ -3576,7 +3692,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expressão “uma vez que” (terceiro período do quarto parágrafo) poderia ser substituída, sem prejuízo da correção gramatical e do sentido original do texto, por vez que .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2024-cpnuje-agente-policia-judicial-009",
@@ -3587,7 +3704,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto apresenta, em diferentes trechos, orações invertidas, em que o sujeito aparece posposto ao verbo, como é o caso dos exemplos a seguir: ‘publica o Sr. Homero Pires uma circular’ e ‘pôs o Dr. Homero Pires a seguinte nota’ no primeiro período do quarto parágrafo, e ‘não houve reclamação’, no sétimo parágrafo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2024-cpnuje-agente-policia-judicial-010",
@@ -3598,7 +3716,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A omissão da preposição “a” no trecho “primeira eleição a que Rui Barbosa concorreu” (primeiro período do primeiro parágrafo) prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2024-cpnuje-agente-policia-judicial-011",
@@ -3609,7 +3728,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No excerto “Vagou-se um cargo na Assembleia Provincial” (segundo período do primeiro parágrafo), o pronome “se” classifica-se como índice de indeterminação do sujeito.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2024-cpnuje-agente-policia-judicial-012",
@@ -3620,7 +3740,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Mantendo-se a correção gramatical, o sentido original e as relações sintáticas entre os termos das orações, o trecho “no caso de ‘morte do deputado (...) nova eleição no mesmo distrito.” (segundo parágrafo) poderia ser reescrito da seguinte forma: se ocorresse “morte do deputado, opção por outro distrito, ou perda do seu lugar por qualquer motivo”, procederiam, no mesmo distrito, uma nova eleição.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2024-cpnuje-agente-policia-judicial-013",
@@ -3631,7 +3752,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho “far-se-ia” (segundo parágrafo) poderia ser substituído, mantendo-se a coerência e a correção gramatical do texto, por seria feita .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2024-cpnuje-agente-policia-judicial-014",
@@ -3642,7 +3764,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Mantendo-se a coerência e a correção gramatical do texto, a oração “não havendo suplentes” (segundo parágrafo) poderia ser substituída por se não houvesse suplentes .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2024-cpnuje-agente-policia-judicial-015",
@@ -3653,7 +3776,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo ‘prestimoso’ (primeiro período do quarto parágrafo) foi empregado no texto com o sentido de que tem utilidade .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2024-cpnuje-agente-policia-judicial-016",
@@ -3664,7 +3788,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No excerto “Conhecia-os; eram do meu quarteirão” (antepenúltimo parágrafo), a substituição do ponto e vírgula por um ponto final não prejudicaria os sentidos originais do texto nem sua correção gramatical, feitos os devidos ajustes de maiúsculas e minúsculas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-agente-policia-judicial-017",
@@ -3675,7 +3800,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É correto afirmar que o texto é parte de um conto, em função de sua estrutura narrativa, do desenvolvimento em torno de um único conflito e da abordagem de um fato cotidiano.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-agente-policia-judicial-018",
@@ -3686,7 +3812,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em “Nove décimos dos eleitores não respondiam por isto ou por aquilo” (décimo primeiro parágrafo), o termo “por isto ou por aquilo” funciona como complemento da forma verbal “respondiam”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-agente-policia-judicial-019",
@@ -3697,7 +3824,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A justificativa oferecida pelo narrador para a afirmação de que a lei lhe pareceu “opressiva da liberdade eleitoral” permite concluir que ele não é desfavorável à “lei nova”, ao contrário do que a afirmação possa inicialmente fazer crer.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-agente-policia-judicial-020",
@@ -3708,7 +3836,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo “vagar” (sexto período do primeiro parágrafo) classifica-se como verbo e foi empregado para expressar a ideia de vagueza.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-agente-policia-judicial-021",
@@ -3719,7 +3848,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em “Abriram-se as urnas” (quarto parágrafo), a partícula “se” exerce função de realce, podendo ser omitida sem alterar o sentido original do período e as relações sintáticas da oração.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-agente-policia-judicial-022",
@@ -3730,7 +3860,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nos períodos “Eram dez horas menos um minuto.” e “Havia quarenta e sete eleitores.” (primeiro e segundo períodos do quarto parágrafo), as formas verbais são impessoais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-agente-policia-judicial-023",
@@ -3741,7 +3872,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É possível concluir corretamente do texto que houve um alto índice de abstenção na seção eleitoral a que o narrador compareceu.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-agente-policia-judicial-024",
@@ -3752,7 +3884,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho “fumando e falando de moças bonitas” (antepenúltimo parágrafo) poderia ser reescrito, sem prejuízo do sentido original e da correção gramatical do texto, da seguinte forma: que fumavam e falavam de moças bonitas .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-agente-policia-judicial-025",
@@ -3763,7 +3896,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No período “Relevem a vulgaridade da ação” (penúltimo parágrafo), o vocábulo “ação” remete ao ato de votar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-agente-policia-judicial-026",
@@ -4049,7 +4183,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "voto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-002",
@@ -4115,7 +4250,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência do texto seriam preservadas caso as vírgulas que isolam a oração “a que parece Rui ter concorrido” (primeiro período do sexto parágrafo) fossem suprimidas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-008",
@@ -4126,7 +4262,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A expressão “uma vez que” (terceiro período do quarto parágrafo) poderia ser substituída, sem prejuízo da correção gramatical e do sentido original do texto, por vez que .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-009",
@@ -4137,7 +4274,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto apresenta, em diferentes trechos, orações invertidas, em que o sujeito aparece posposto ao verbo, como é o caso dos exemplos a seguir: ‘publica o Sr. Homero Pires uma circular’ e ‘pôs o Dr. Homero Pires a seguinte nota’ no primeiro período do quarto parágrafo, e ‘não houve reclamação’, no sétimo parágrafo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-010",
@@ -4148,7 +4286,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A omissão da preposição “a” no trecho “primeira eleição a que Rui Barbosa concorreu” (primeiro período do primeiro parágrafo) prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-011",
@@ -4159,7 +4298,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No excerto “Vagou-se um cargo na Assembleia Provincial” (segundo período do primeiro parágrafo), o pronome “se” classifica-se como índice de indeterminação do sujeito.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-012",
@@ -4170,7 +4310,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Mantendo-se a correção gramatical, o sentido original e as relações sintáticas entre os termos das orações, o trecho “no caso de ‘morte do deputado (...) nova eleição no mesmo distrito.” (segundo parágrafo) poderia ser reescrito da seguinte forma: se ocorresse “morte do deputado, opção por outro distrito, ou perda do seu lugar por qualquer motivo”, procederiam, no mesmo distrito, uma nova eleição.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 17
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-013",
@@ -4181,7 +4322,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho “far-se-ia” (segundo parágrafo) poderia ser substituído, mantendo-se a coerência e a correção gramatical do texto, por seria feita .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-014",
@@ -4192,7 +4334,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Mantendo-se a coerência e a correção gramatical do texto, a oração “não havendo suplentes” (segundo parágrafo) poderia ser substituída por se não houvesse suplentes .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-015",
@@ -4203,7 +4346,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo ‘prestimoso’ (primeiro período do quarto parágrafo) foi empregado no texto com o sentido de que tem utilidade .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-016",
@@ -4214,7 +4358,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No excerto “Conhecia-os; eram do meu quarteirão” (antepenúltimo parágrafo), a substituição do ponto e vírgula por um ponto final não prejudicaria os sentidos originais do texto nem sua correção gramatical, feitos os devidos ajustes de maiúsculas e minúsculas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-017",
@@ -4225,7 +4370,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É correto afirmar que o texto é parte de um conto, em função de sua estrutura narrativa, do desenvolvimento em torno de um único conflito e da abordagem de um fato cotidiano.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-018",
@@ -4236,7 +4382,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em “Nove décimos dos eleitores não respondiam por isto ou por aquilo” (décimo primeiro parágrafo), o termo “por isto ou por aquilo” funciona como complemento da forma verbal “respondiam”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-019",
@@ -4247,7 +4394,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A justificativa oferecida pelo narrador para a afirmação de que a lei lhe pareceu “opressiva da liberdade eleitoral” permite concluir que ele não é desfavorável à “lei nova”, ao contrário do que a afirmação possa inicialmente fazer crer.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-020",
@@ -4258,7 +4406,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo “vagar” (sexto período do primeiro parágrafo) classifica-se como verbo e foi empregado para expressar a ideia de vagueza.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-021",
@@ -4269,7 +4418,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em “Abriram-se as urnas” (quarto parágrafo), a partícula “se” exerce função de realce, podendo ser omitida sem alterar o sentido original do período e as relações sintáticas da oração.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-022",
@@ -4280,7 +4430,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nos períodos “Eram dez horas menos um minuto.” e “Havia quarenta e sete eleitores.” (primeiro e segundo períodos do quarto parágrafo), as formas verbais são impessoais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-023",
@@ -4291,7 +4442,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É possível concluir corretamente do texto que houve um alto índice de abstenção na seção eleitoral a que o narrador compareceu.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-024",
@@ -4302,7 +4454,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho “fumando e falando de moças bonitas” (antepenúltimo parágrafo) poderia ser reescrito, sem prejuízo do sentido original e da correção gramatical do texto, da seguinte forma: que fumavam e falavam de moças bonitas .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-025",
@@ -4313,7 +4466,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No período “Relevem a vulgaridade da ação” (penúltimo parágrafo), o vocábulo “ação” remete ao ato de votar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-026",
@@ -4599,7 +4753,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "voto.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-administrativa-002",
@@ -4610,7 +4765,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se da leitura dos parágrafos iniciais do texto que o deputado João Victor de Carvalho não tinha suplente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-administrativa-003",
@@ -4621,7 +4777,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com a fala de Luiz Vianna Filho apresentada no texto, as cartas e os documentos reunidos pelo Sr. Homero Pires deixam clara a inexistência de consenso sobre a candidatura de Rui Barbosa ao cargo de deputado na Província da Bahia no ano de 1878.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-administrativa-004",
@@ -4632,7 +4789,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se do texto que, para o biógrafo Luiz Vianna Filho, Rui Barbosa concorreu às eleições cinco vezes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-administrativa-005",
@@ -4643,7 +4801,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo ‘prestimoso’ (primeiro período do quarto parágrafo) foi empregado no texto com o sentido de que tem utilidade .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-administrativa-006",
@@ -4654,7 +4813,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e a coerência do texto seriam preservadas caso as vírgulas que isolam a oração “a que parece Rui ter concorrido” (primeiro período do sexto parágrafo) fossem suprimidas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-administrativa-007",
@@ -4665,7 +4825,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto apresenta, em diferentes trechos, orações invertidas, em que o sujeito aparece posposto ao verbo, como é o caso dos exemplos a seguir: ‘publica o Sr. Homero Pires uma circular’ e ‘pôs o Dr. Homero Pires a seguinte nota’ no primeiro período do quarto parágrafo, e ‘não houve reclamação’, no sétimo parágrafo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-administrativa-008",
@@ -4676,7 +4837,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A omissão da preposição “a” no trecho “primeira eleição a que Rui Barbosa concorreu” (primeiro período do primeiro parágrafo) prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-administrativa-009",
@@ -4687,7 +4849,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho “far-se-ia” (segundo parágrafo) poderia ser substituído, mantendo-se a coerência e a correção gramatical do texto, por seria feita .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-administrativa-010",
@@ -4698,7 +4861,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Mantendo-se a coerência e a correção gramatical do texto, a oração “não havendo suplentes” (segundo parágrafo) poderia ser substituída por se não houvesse suplentes .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-administrativa-011",
@@ -4709,7 +4873,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No excerto “Conhecia-os; eram do meu quarteirão” (antepenúltimo parágrafo), a substituição do ponto e vírgula por um ponto final não prejudicaria os sentidos originais do texto nem sua correção gramatical, feitos os devidos ajustes de maiúsculas e minúsculas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-administrativa-012",
@@ -4720,7 +4885,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É correto afirmar que o texto é parte de um conto, em função de sua estrutura narrativa, do desenvolvimento em torno de um único conflito e da abordagem de um fato cotidiano.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-administrativa-013",
@@ -4731,7 +4897,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A justificativa oferecida pelo narrador para a afirmação de que a lei lhe pareceu “opressiva da liberdade eleitoral” permite concluir que ele não é desfavorável à “lei nova”, ao contrário do que a afirmação possa inicialmente fazer crer.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-administrativa-014",
@@ -4742,7 +4909,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O vocábulo “vagar” (sexto período do primeiro parágrafo) classifica-se como verbo e foi empregado para expressar a ideia de vagueza.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-administrativa-015",
@@ -4753,7 +4921,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em “Abriram-se as urnas” (quarto parágrafo), a partícula “se” exerce função de realce, podendo ser omitida sem alterar o sentido original do período e as relações sintáticas da oração.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-administrativa-016",
@@ -4764,7 +4933,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nos períodos “Eram dez horas menos um minuto.” e “Havia quarenta e sete eleitores.” (primeiro e segundo períodos do quarto parágrafo), as formas verbais são impessoais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-administrativa-017",
@@ -4775,7 +4945,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É possível concluir corretamente do texto que houve um alto índice de abstenção na seção eleitoral a que o narrador compareceu.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-administrativa-018",
@@ -4786,7 +4957,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O trecho “fumando e falando de moças bonitas” (antepenúltimo parágrafo) poderia ser reescrito, sem prejuízo do sentido original e da correção gramatical do texto, da seguinte forma: que fumavam e falavam de moças bonitas .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-administrativa-019",
@@ -4797,7 +4969,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em “Nove décimos dos eleitores não respondiam por isto ou por aquilo” (décimo primeiro parágrafo), o termo “por isto ou por aquilo” funciona como complemento da forma verbal “respondiam”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-administrativa-020",
@@ -4808,7 +4981,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No período “Relevem a vulgaridade da ação” (penúltimo parágrafo), o vocábulo “ação” remete ao ato de votar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-administrativa-021",
@@ -6546,7 +6720,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os trabalhos de conservação e restauração devem ser acompanhados de uma documentação precisa, sob a forma de relatórios analíticos e críticos, ilustrados com desenhos e fotografias.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 22
   },
   {
    "id": "cebraspe-2024-cpnuje-arquitetura-052",
@@ -6557,7 +6732,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "As edificações tombadas devem ser adaptadas aos projetos de prevenção e combate ao incêndio, para assegurar a segurança dos usuários, sendo obrigatório que todas as escadas e rampas existentes, incluindo-se as que não compõem a rota de fuga nas edificações, adéquem-se às normativas do Corpo de Bombeiros.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2024-cpnuje-arquitetura-053",
@@ -6568,7 +6744,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No curso da restauração de um edifício de interesse patrimonial, deve-se buscar a unidade de estilo, de modo que as contribuições de épocas distintas sejam homogeneizadas, em favor da unidade compositiva.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2024-cpnuje-arquitetura-054",
@@ -6579,7 +6756,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os elementos de restauro destinados a substituir as partes faltantes devem se integrar harmoniosamente ao conjunto, mantendo-se a mesma linguagem arquitetônica, a fim de que a intervenção não se distinga do conjunto e conserve-se a integridade da obra.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2024-cpnuje-arquitetura-055",
@@ -6590,7 +6768,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O estudo de viabilidade do empreendimento (EVE) integra a fase de elaboração e desenvolvimento de projetos arquitetônicos para a anuência do cliente, que se diferencia da fase de preparação.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2024-cpnuje-arquitetura-056",
@@ -6601,7 +6780,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Após a realização das obras, a documentação do projeto completo deve receber a atualização para documentação conforme construído (“ as built ”), etapa que dispensa a anuência do cliente, por se tratar de obra concluída.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2024-cpnuje-arquitetura-057",
@@ -6612,7 +6792,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O memorial descritivo de projeto é o documento desenvolvido e elaborado por profissional habilitado, complementar aos desenhos do projeto, e que consiste na discriminação das atividades técnicas, das especificações e dos métodos construtivos a serem empregados na execução de determinada obra ou serviço técnico, em conformidade com o projeto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2024-cpnuje-arquitetura-058",
@@ -6623,7 +6804,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O estudo de viabilidade arquitetônica é a etapa destinada à elaboração de análise técnica e econômico-financeira de um empreendimento para fins de subsidiar planos, estudos e projetos da mesma natureza.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2024-cpnuje-arquitetura-059",
@@ -6667,7 +6849,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Concebida pelo urbanista Lucio Costa, Brasília foi originalmente estruturada em zonas e setores, posteriormente interpretados em quatro grandes escalas: monumental, residencial, gregária e bucólica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2024-cpnuje-arquitetura-063",
@@ -6678,7 +6861,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A primeira expressão da arquitetura moderna construída no Brasil se observa na tipologia residencial, na casa do arquiteto Gregori Warchavchick, por ele projetada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2024-cpnuje-arquitetura-064",
@@ -6689,7 +6873,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na década de 1930, o arquiteto Lucio Costa apresentou o projeto vencedor do concurso para anteprojetos da nova sede do então denominado Ministério da Educação e Saúde, no centro do Rio de Janeiro.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2024-cpnuje-arquitetura-065",
@@ -7470,7 +7655,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os referidos instrumentos só são necessários para a avaliação do conjunto arquivístico se os documentos que o integram forem de suporte físico, não sendo aplicáveis a documentos em suporte digital.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 25
   },
   {
    "id": "cebraspe-2024-cpnuje-arquivologia-069",
@@ -7481,7 +7667,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A aplicação dos dois instrumentos mencionados permitirá à organização delimitar as idades corrente, intermediária e permanente dos documentos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 25
   },
   {
    "id": "cebraspe-2024-cpnuje-arquivologia-070",
@@ -8482,7 +8669,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para atender a uma demanda de informação sobre a linha sucessória dos ministros efetivos do TSE, o bibliotecário de referência pode recorrer ao repositório institucional da justiça eleitoral como fonte primária, histórica e atualizada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 26
   },
   {
    "id": "cebraspe-2024-cpnuje-biblioteconomia-092",
@@ -8493,7 +8681,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Cidadãs e cidadãos podem denunciar conteúdos enganosos à justiça eleitoral por meio do Sistema de Alertas de Desinformação Eleitoral (SIADE) disponível no portal Gov.br do governo federal.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 26
   },
   {
    "id": "cebraspe-2024-cpnuje-biblioteconomia-093",
@@ -8504,7 +8693,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Um bibliotecário que atue no serviço de referência deve evitar o uso da página Fato ou Boato da justiça eleitoral para atender uma demanda de informação do usuário que esteja em dúvida sobre a veracidade de uma notícia disseminada nas redes sociais, pois essa página fomenta a circulação de conteúdos duvidosos e desinformação relacionada à democracia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 26
   },
   {
    "id": "cebraspe-2024-cpnuje-biblioteconomia-094",
@@ -8515,7 +8705,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No atendimento de um cidadão que queira ter acesso aos diplomas dos presidentes da República eleitos, o bibliotecário de referência pode informar que o acesso é restrito ao Museu do Voto na Biblioteca Digital da Justiça Eleitoral.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 26
   },
   {
    "id": "cebraspe-2024-cpnuje-biblioteconomia-095",
@@ -8526,7 +8717,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O serviço de referência de uma biblioteca deve contemplar iniciativas de capacitação de usuários contra a desinformação, a fim de que identifiquem a informação correta sobre a temática e denunciem conteúdos enganosos amplamente divulgados na sociedade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 26
   },
   {
    "id": "cebraspe-2024-cpnuje-biblioteconomia-096",
@@ -9252,7 +9444,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A relação entre o quantitativo de trabalho e de pessoal é um parâmetro mínimo para se estabelecer estratégias de qualidade do cuidado e da segurança do paciente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 27
   },
   {
    "id": "cebraspe-2024-cpnuje-enfermagem-097",
@@ -9263,7 +9456,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ao somar as médias de trabalho durante 24 horas de cuidados mínimos, realizados exclusivamente por técnicos de enfermagem, e de cuidados intermediários e de alta dependência, realizados exclusivamente por enfermeiros, obtém-se o total de horas de enfermagem (THE).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 27
   },
   {
    "id": "cebraspe-2024-cpnuje-enfermagem-098",
@@ -9637,7 +9831,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os valores das reações verticais nos apoios A e E são, respectivamente, iguais a 75 kN e 25 kN.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 28
   },
   {
    "id": "cebraspe-2024-cpnuje-engenharia-civil-064",
@@ -9648,7 +9843,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Trata-se de uma estrutura hiperestática.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 28
   },
   {
    "id": "cebraspe-2024-cpnuje-engenharia-civil-065",
@@ -10088,7 +10284,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A etapa de conferência documental no fluxograma de pagamentos de faturas é desnecessária se a fatura for emitida por um fornecedor de confiança.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-cpnuje-engenharia-civil-105",
@@ -10099,7 +10296,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A utilização de sistemas automatizados no fluxograma de pagamentos de faturas pode reduzir erros humanos e aumentar a eficiência do processo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-cpnuje-engenharia-civil-106",
@@ -10297,7 +10495,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para consumir a menor potência possível, o referido circuito combinacional deve ser construído com o uso de portas lógicas apenas da família NMOS.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-cpnuje-engenharia-eletrica-056",
@@ -10308,7 +10507,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O circuito combinacional em questão pode ser construído a partir de um multiplexador com 16 entradas e 1 saída, configurando-se as entradas do multiplexador de acordo com a tabela-verdade apresentada, sem a necessidade de portas lógicas adicionais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-cpnuje-engenharia-eletrica-057",
@@ -10682,7 +10882,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A utilização de sistemas automatizados no fluxograma de pagamentos de faturas pode reduzir erros humanos e aumentar a eficiência do processo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-cpnuje-engenharia-eletrica-093",
@@ -10693,7 +10894,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A etapa de conferência documental no fluxograma de pagamentos de faturas é desnecessária se a fatura for emitida por um fornecedor de confiança.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-cpnuje-engenharia-eletrica-094",
@@ -11408,7 +11610,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A etapa de conferência documental no fluxograma de pagamentos de faturas é desnecessária se a fatura for emitida por um fornecedor de confiança.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-cpnuje-engenharia-mecanica-093",
@@ -11419,7 +11622,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A utilização de sistemas automatizados no fluxograma de pagamentos de faturas pode reduzir erros humanos e aumentar a eficiência do processo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-cpnuje-engenharia-mecanica-094",
@@ -11925,7 +12129,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Diante da situação clínica da paciente, o médico assistente tem o dever ético de se opor à obtenção da segunda opinião solicitada pela família da paciente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-clinica-medica-070",
@@ -11936,7 +12141,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O médico assistente deve informar a família, em face da situação clínica da paciente, a respeito do diagnóstico, do prognóstico, dos riscos e dos objetivos do tratamento.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-clinica-medica-071",
@@ -11947,7 +12153,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Cabe ao médico assistente e não à família decidir sobre a execução de práticas terapêuticas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-clinica-medica-072",
@@ -12002,7 +12209,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No que diz respeito ao tabagismo, o médico deve avaliar o estágio motivacional da paciente; se este for de pré-contemplação, nenhuma medida deve ser tomada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-clinica-medica-078",
@@ -12013,7 +12221,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O médico deve prescrever um indutor do sono, pois a dificuldade da paciente de manter o sono provavelmente está relacionada com a sua incapacidade de iniciá-lo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-clinica-medica-079",
@@ -12024,7 +12233,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Quanto à prática de atividades físicas, uma vez apurada a inexistência de doença, o médico pode aconselhar a paciente a iniciar a prática de exercícios leves ou moderados sem restrições.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-clinica-medica-080",
@@ -12233,7 +12443,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O quadro apresentado por Maria deve ser classificado como doença relacionada ao trabalho, no grupo I de Schilling.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-clinica-medica-100",
@@ -12244,7 +12455,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Mesmo com sinal de Finkelstein positivo, não se pode afirmar que Maria tem diagnóstico de tendinite de Quervain.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-clinica-medica-101",
@@ -12255,7 +12467,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Maria deverá submeter-se a exames periódicos semestrais, no mínimo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-clinica-medica-102",
@@ -12266,7 +12479,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A empresa em que Maria trabalha poderá ser obrigada a realizar análise ergonômica do trabalho, apesar de ser considerada de pequeno porte e estar enquadrada no grau de risco 2.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-clinica-medica-103",
@@ -12299,7 +12513,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A elevação da cabeceira do leito em cerca de 15 cm e o abandono do tabagismo são medidas importantes no tratamento da paciente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-clinica-medica-106",
@@ -12310,7 +12525,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A domperidona deverá fazer parte da terapêutica no caso em questão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-clinica-medica-107",
@@ -12321,7 +12537,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Uma endoscopia digestiva alta normal é suficiente para afastar o diagnóstico de doença do refluxo gastroesofágico nessa paciente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-clinica-medica-108",
@@ -12332,7 +12549,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A troponina ultrassensível deverá ser dosada na paciente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-clinica-medica-109",
@@ -12343,7 +12561,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Recomenda-se a substituição da sinvastatina por rosuvastatina, a prescrição de metoprolol e ácido acetil salicílico como tratamento de escolha.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-clinica-medica-110",
@@ -12354,7 +12573,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A angiotomografia de artérias coronárias é o exame mais apropriado a ser solicitado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-clinica-medica-111",
@@ -13850,7 +14070,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Se João, após o tratamento, apresentar medula óssea com menos de 5% de blastos, regularização da contagem das células sanguíneas e remissão dos sintomas, o quadro sugerirá remissão completa da doença.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 29
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-trabalho-113",
@@ -13861,7 +14082,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O quadro clínico de João sugere diagnóstico de leucemia mieloide crônica.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 29
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-trabalho-114",
@@ -13872,7 +14094,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para estar em conformidade com as determinações da Organização Internacional do Trabalho (OIT), a empresa onde Maria trabalha deve submeter seus empregados a avaliações fonoaudiológicas de periodicidade anual.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 30
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-trabalho-115",
@@ -13883,7 +14106,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O quadro apresentado por Maria exclui o diagnóstico de perda auditiva induzida por ruído de origem ocupacional (PAIR) devido ao curto tempo de exposição e à presença de sintomas inespecíficos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 30
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-trabalho-116",
@@ -13894,7 +14118,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Embora Maria seja aposentada pelo INSS, a empresa deverá emitir comunicação de acidente de trabalho (CAT), em caso de correlação entre o quadro descrito e as atividades de trabalho de Maria.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 30
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-trabalho-117",
@@ -13905,7 +14130,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Como não há cura para a perda auditiva induzida por ruído de origem ocupacional (PAIR), o acompanhamento dos pacientes consiste no monitoramento da progressão da doença, por meio de avaliações audiológicas periódicas e ações de reabilitação.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 30
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-trabalho-118",
@@ -13916,7 +14142,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Ao verificar as funções mentais de Pedro, o médico perito deverá avaliar dois pontos de análise: a autopsíquica, como reconhecimento de seus dados pessoais e seus familiares; e a alopsíquica, como a capacidade de informar aspectos de sua enfermidade.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 31
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-trabalho-119",
@@ -13927,7 +14154,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Apesar de o exame pericial detectar sinais de hipomania, o quadro apresentado por Pedro é compatível com o diagnóstico atestado pelo médico assistente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 31
   },
   {
    "id": "cebraspe-2024-cpnuje-medicina-trabalho-120",
@@ -13938,7 +14166,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O prazo de afastamento sugerido pelo médico assistente é muito longo para o diagnóstico presumido de Pedro, e o perito deverá conceder afastamento menor, de no máximo 90 dias.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 31
   },
   {
    "id": "cebraspe-2024-cpnuje-odontologia-051",
@@ -14961,7 +15190,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É correto concluir que Sérgio apresenta quadro de transtorno mental induzido por estimulante, para o qual são indicadas técnicas de aconselhamento psicológico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 32
   },
   {
    "id": "cebraspe-2024-cpnuje-psicologia-077",
@@ -14972,7 +15202,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sérgio apresenta critérios suficientes para o diagnóstico de transtorno de ansiedade generalizada (TAG).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 32
   },
   {
    "id": "cebraspe-2024-cpnuje-psicologia-078",
@@ -14983,7 +15214,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No caso de Sérgio, a análise clínica é condição necessária e suficiente para a compreensão da gravidade e para a avaliação do grau de urgência da intervenção.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 32
   },
   {
    "id": "cebraspe-2024-cpnuje-psicologia-079",
@@ -14994,7 +15226,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os olhos arregalados, a transpiração e a agitação apresentados por Sérgio são condizentes com o diagnóstico de transtorno do pânico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 32
   },
   {
    "id": "cebraspe-2024-cpnuje-psicologia-080",
@@ -15005,7 +15238,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A fim de que se possa compreender a complexidade da crise de Sérgio, é fundamental que a equipe avalie a dimensão clínica, a rede de suporte e enfrentamento e sua posição subjetiva.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 32
   },
   {
    "id": "cebraspe-2024-cpnuje-psicologia-081",
@@ -15016,7 +15250,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na situação hipotética em tela, a promoção de um clima de segurança psicológica poderia melhorar o desempenho das equipes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 33
   },
   {
    "id": "cebraspe-2024-cpnuje-psicologia-082",
@@ -15027,7 +15262,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conforme as informações apresentadas, a organização adota uma atuação estratégica de pessoas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 33
   },
   {
    "id": "cebraspe-2024-cpnuje-psicologia-083",
@@ -15038,7 +15274,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A referida organização realiza recrutamento interno para processos seletivos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 33
   },
   {
    "id": "cebraspe-2024-cpnuje-psicologia-084",
@@ -15049,7 +15286,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os conflitos mencionados na situação hipotética configuram-se como conflitos de tarefas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 33
   },
   {
    "id": "cebraspe-2024-cpnuje-psicologia-085",
@@ -15060,7 +15298,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A avaliação de desempenho na organização em questão é baseada em resultados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 33
   },
   {
    "id": "cebraspe-2024-cpnuje-psicologia-086",
@@ -16633,7 +16872,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A execução do comando SQL a seguir apresentará a soma de todas as vendas cujo valor excede 150.00 .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnologia-informacao-095",
@@ -16644,7 +16884,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A operação para adicionar uma coluna nova à tabela vendas é realizada por meio de DML.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnologia-informacao-096",
@@ -16699,7 +16940,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Ao se executar esse trecho de código, será exibido o resultado a seguir. ['Alice', 'Aprovada'] curl_multi_setopt( cm, CURLMOPT_MAXCONNECTS,",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnologia-informacao-101",
@@ -16985,7 +17227,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A função de analista de processos tem o mesmo papel operacional e tático que a de analista de organização e métodos, sendo a principal diferença entre elas a adaptação às mudanças tecnológicas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 34
   },
   {
    "id": "cebraspe-2024-cpnuje-tecnico-administrativa-058",
@@ -18591,7 +18834,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "Considere que as tabelas e o relacionamento entre elas tenham sido corretamente criados, conforme o modelo apresentado, e que os seguintes comandos tenham sido executados com sucesso. INSERT INTO Orgao VALUES (1,'TRE-SC'); INSERT INTO Orgao VALUES (2,'TRE-PR'); INSERT INTO Processo VALUES (1,'111', 1); INSERT INTO Processo VALUES (2,'222', NULL); Nesse caso, a execução do comando a seguir apresentará 2 como resultado. SELECT count(orgao.IdOrgao) FROM Processo right JOIN Orgao ON processo.idorgao = orgao.idorgao;",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-072",
@@ -18602,7 +18846,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "A execução do script SQL a seguir criará as tabelas e o relacionamento entre elas, conforme o modelo apresentado. CREATE TABLE Orgao ( IdOrgao INT NOT NULL PRIMARY KEY, NomeOrgao VARCHAR(45) NULL, FOREIGN KEY (Processo) REFERENCES Processo (IdOrgao) ); CREATE TABLE Processo ( idProcesso INT NOT NULL PRIMARY KEY, NumeroProcesso VARCHAR(45) NULL,",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-073",
@@ -19053,7 +19298,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “biases” (last sentence of the text) is, in its context, an adverb.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-114",
@@ -19064,7 +19310,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Large Language Models are able to produce flawless scientific texts.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-115",
@@ -19075,7 +19322,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The expression “churn out” (last sentence of the text) could be replaced with crank out , without harming the correctness of the sentence or its original meaning.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-116",
@@ -19086,7 +19334,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The article mentioned in the first paragraph of the text was written with the help of LLMs.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-118",
@@ -19097,7 +19346,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “it”, in the last sentence of the text, refers to “bubble gum”, mentioned in the prior sentence.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-119",
@@ -19108,7 +19358,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The author suggests that the Internet is, metaphorically speaking, a malfunctioning machine.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2024-cpnuje-programacao-sistemas-120",
@@ -19119,7 +19370,220 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The Internet depends on software that is poorly maintained by a large team of volunteer programmers.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "A B C D S 0 0 0 0 1 0 0 0 1 1 0 0 1 0 0 0 0 1 1 0 0 1 0 0 1 0 1 0 1 X 0 1 1 0 0 0 1 1 1 1 1 0 0 0 1 1 0 0 1 0 1 0 1 0 X 1 0 1 1 0 1 1 0 0 0 1 1 0 1 0 1 1 1 0 0 1 1 1 1 1 Com relação a um circuito combinacional com quatro variáveis de entrada (A, B, C, D) e uma variável de saída (S), cujo comportamento é descrito pela tabela-verdade precedente, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Julgue os itens a seguir, relativos ao fluxograma de pagamentos de faturas em obras de engenharia civil.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Dispondo de uma série de estatísticas de ordem x 1 ≤ x 2 ≤ ... ≤ x 20 , um analista calculou a mediana m e da série e os números u i = m e − x i e v i = x (21 − i ) − m e , para i = 1, 2, ..., 10. A partir desses números, o analista plotou os pares ordenados ( u i , v i ) em um plano cartesiano, obtendo o gráfico a seguir.\n\n60\n\n50\n\n40\n\n30\n\n20\n\n10\n\n0\n\n- 10 20 30 40 50 60 Com relação à situação hipotética apresentada, julgue os itens subsequentes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O gráfico a seguir apresenta a distribuição de 250 empresas classificadas conforme seu número de empregados; os percentuais acima das barras indicam as frequências observadas de empresas em cada classe.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma paciente com 70 anos de idade foi levada por familiares para atendimento em um ambulatório de clínica médica. A família da paciente informou que ela apresentava, havia dois dias, quadro de desorientação temporoespacial e dificuldade em deambular. Após a avaliação dos dados de história clínica, do exame físico e dos resultados dos exames complementares realizados pela paciente, o médico assistente que a atendeu chegou ao diagnóstico de hipotireoidismo e prescreveu uma reposição hormonal. A família manifestou estranheza em relação ao diagnóstico estabelecido e informou ao médico assistente que iria buscar uma segunda opinião. Com base nessa situação hipotética e levando em consideração o Código de Ética Médica publicado pelo CFM em 2019, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma paciente com 40 anos de idade procurou atendimento em um serviço médico, informando que não tinha sintomas clínicos. No entanto, ela pediu para fazer todos os exames laboratoriais a que tinha direito, pois alegou que tinha convênio médico fazia anos e nunca o havia utilizado. Durante a consulta, foi constatado que a paciente fumava 10 cigarros por dia desde os 16 anos de idade; era sedentária, mas procurava fazer uma dieta rica em verduras e legumes; nunca bebeu ou fez uso de drogas ilícitas; sua atividade sexual era esporádica e sempre praticada com uso de medidas protetivas; tinha dificuldades de iniciar e manter o sono; seu esquema vacinal estava completo. O exame físico da paciente não apresentou alterações. A respeito da situação hipotética precedente, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Maria tem 47 anos de idade, é destra e trabalha como costureira há mais de 20 anos em uma empresa de pequeno porte enquadrada no grau de risco 2. Ela compareceu ao ambulatório de doenças ocupacionais com quadro de dor na região do processo estiloide do rádio à direita, com irradiação para o membro superior direito. Ao exame, apresentava dor à pronossupinação de punho direito, dificuldade para apreensão de objetos com a mão direita e sinal de Finkelstein positivo à direita.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma paciente de 42 anos de idade, tabagista, foi atendida com desconforto retroesternal de forte intensidade, que a despertara do sono havia quatro horas. O incômodo era em queimação e estava acompanhado de náuseas. Ela referiu ter feito uma refeição copiosa antes de deitar e relatou apresentar halitose e salivação excessiva havia dois meses, porém negou antecedentes patológicos pessoais ou familiares significativos. O exame físico não revelou anormalidades significativas. O eletrocardiograma demonstrou alterações inespecíficas da repolarização ventricular.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma paciente de 74 anos de idade compareceu ao ambulatório relatando quadro de dor torácica opressiva ao subir rapidamente as escadas de sua casa, com alívio ao repouso após três minutos, havia seis meses. De acordo com o histórico clínico, ela teve um episódio de síncope ao subir uma ladeira na última semana, sem liberação esfincteriana ou pródromos e com rápida recuperação da consciência, sem período pós-ictal ou sequelas. Ela apresentava dislipidemia havia 15 anos, tratada atualmente com sinvastatina 20 mg ao dia. Ao exame físico, observou-se frequência cardíaca de 82 bpm, pressão arterial de 132 mmHg × 78 mmHg, ritmo cardíaco regular em dois tempos, sopro mesossistólico de ejeção no 4.º espaço intercostal, linha paresternal à direita, do tipo crescendo-decrescendo com irradiação para as carótidas, de 3+/4 , com frêmito. Os demais dados do exame físico não revelaram anormalidades significativas. O eletrocardiograma revelou hipertrofia ventricular esquerda.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "import pandas as pd df = pd.DataFrame({ 'Nome': ['Alice', 'Maria', 'Ana'], 'Idade': [25, 30, 35], 'Disciplina': ['Direito', 'Direito', 'Direito'], 'Situacao': ['Aprovada', 'Reprovada', 'Aprovada'] }) colunas_interesse = ['Nome', 'Situacao'] tabela = df[colunas_interesse].values.tolist() print(tabela[0][0]) Com base no código precedente, julgue o item que se segue, relativo à linguagem de programação Python, considerando que o ambiente em uso possua as bibliotecas necessárias instaladas.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "idVenda idCliente dataVenda valorVenda 1 101 10/09/2023 150.00 2 102 12/09/2023 250.00 3 101 15/09/2023 200.00 4 103 20/09/2023 300.00 5 102 25/09/2023 180.00",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CB1A2",
+   "conteudo": "O sofista e o ignorante ocupam mais o pensamento de Platão que o mentiroso, e quando ele distingue entre o erro e a mentira — quer dizer, entre “involuntário e voluntário” — é, de modo significativo, mais duro em relação àqueles que “chafurdam na ignorância de porcos” que em relação aos mentirosos. Terá isso acontecido porque era ainda desconhecida a mentira organizada, que domina a coisa pública, à diferença do mentiroso privado que tenta a sua sorte por sua própria conta? A mentira tradicional implicava apenas particulares e nunca visava enganar literalmente toda a gente; dirigia-se ao inimigo e só a ele queria enganar. Como os fatos se produzem sempre num contexto, uma mentira particular — quer dizer, uma falsificação que não se esforça por alterar todo o contexto — faz, por assim dizer, um buraco no tecido dos fatos. Como todo o historiador sabe, pode-se detectar uma mentira observando-se incongruências, buracos, ou junturas dos espaços consertados. Enquanto a textura no seu todo for conservada intacta, a mentira mostrar-se-á imediatamente de modo espontâneo. Se as mentiras políticas modernas são tão grandes que requerem um completo rearranjo de toda a textura factual — o fabrico de uma outra realidade, por assim dizer, na qual se encaixam sem costuras, fendas nem fissuras, exatamente como os fatos encaixavam no seu contexto original —, o que é que impede estas histórias, imagens e não fatos novos de se tornarem um substituto adequado da realidade e da factualidade?\n\nHannah Arendt. Verdade e política .\n\nInternet: <edisciplinas.usp.br> (com adaptações).\n\nFimDoTexto No que se refere aos sentidos e às ideias do texto CB1A2-II,",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CB1A1",
+   "conteudo": "O aforismo “o cliente sempre tem razão” é bastante conhecido e muito citado como argumento econômico. Justifica-se para manter a fidelidade dos consumidores a marcas e a lojas a fim de evitar que a insatisfação individual se torne uma indesejada propaganda negativa. Será que, sob a ótica jurídica, a afirmativa corresponde à realidade? Não! O cliente (consumidor) só tem razão quando o direito, a lei, lhe dá amparo. Invariavelmente, baseando-se em critério pessoal do que seria justo como solução para problema de consumo, o consumidor realmente acredita que possui o direito que alega e, dentro da sua lógica, passa a exigir determinado comportamento do fornecedor. A expressão direito do consumidor tem sentido de conjunto de normas que regulam as relações entre consumidores e fornecedores; não significa necessariamente que o consumidor tem sempre direito de exigir a satisfação dos seus interesses. Para ilustrar, cite-se o exemplo, recorrente, de uma pessoa que acredita poder, em qualquer circunstância, trocar um produto que acabou de adquirir simplesmente porque, chegando em casa, percebeu que não era exatamente aquilo que queria, preferia de outra cor ou até haver gastado o dinheiro com algo mais interessante. Para a lei, a troca ou devolução do dinheiro pago só é possível em situações bem concretas: promessa do vendedor de trocar ou devolver o dinheiro (art. 30 do Código de Defesa do Consumidor); vício do produto (art. 18); compra fora do estabelecimento físico (art. 49). Daí a importância de que toda pessoa tenha uma noção básica de quais são os seus direitos e de como exigir a sua observância. Como é possível exigir respeito a sua condição de consumidor se não houver uma consciência mínima dos direitos?\n\nLeonardo Bessa. O cliente – nem sempre – tem razão! In: Metrópoles . 20/06/2024.\n\nInternet: <www.metropoles.com> (com adaptações).\n\nFimDoTexto A respeito das ideias veiculadas no texto CB1A1-I, julgue os itens subsequentes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CB1A2",
+   "conteudo": "Com o intuito de mostrar os procedimentos ardilosos de pessoas sem escrúpulos que movidas pelo ódio e por ambições políticas inventam mentiras e as transformam em supostas verdades, Umberto Eco escreveu O Cemitério de Praga , publicado em 2010. Tendo como base fatos e personagens verídicos que participaram da elaboração e da disseminação de Os Protocolos dos Sábios de Sião , o autor reconstrói o século 19 através de uma narração polêmica. Eco narra o nascimento e a evolução desse abjeto complô, criado com a finalidade de atribuir aos judeus uma fictícia conspiração para dominar o mundo. Os falsos documentos forjados pela polícia secreta do Czar Nicolau II, em 1897, foram utilizados por Hitler em sua política de extermínio, tendo sido incluídos em Mein Kampf , apesar de o jornal britânico The Times , em 1921, já ter desmascarado a farsa. Mesmo após a comprovação da farsa, o magnata Henry Ford levou os Protocolos, na tradução inglesa, para os EUA, e publicou-os em forma de livro, e o rei Faisal, da Arábia Saudita, costumava oferecê-los, em sua versão árabe, às autoridades que visitavam o país. Em uma de suas entrevistas aos jornais italianos, Umberto Eco ressaltou o perigo que se esconde nas chamadas “conspirações falsas”, pelo seu alto grau de manipulação e dada a dificuldade em desmenti-las. “A característica de uma conspiração verdadeira é que ela é invariavelmente descoberta”, analisa. “Hitler e o nazismo propagaram a falsa conspiração dos judeus como verdadeira e tiraram proveito dos Protocolos.” Mas por que as pessoas ainda consomem essa farsa? Será por ignorância? Por curiosidade? Os Protocolos, afinal, seguem sendo oferecidos e vendidos em uma dezena de idiomas, em formato de livro, com circulação livre na Internet. Juíza em Israel por mais de 30 anos, Hadassa Ben-Itto investigou o embuste durante seis anos e em 1998 publicou um livro sobre o assunto. “Escrevi esse livro como um desafio a todos aqueles que inadvertidamente permitem que essa e outras mentiras similares sejam espalhadas e provoquem danos contínuos”, explica. Em sua opinião, o conceito de “liberdade de expressão” não deveria acobertar mentiras. “Uma mentira deliberada não é uma ideia”, reforça. “Ela pode facilmente se transformar em uma arma perigosa e como tal deve ser banida, assim como outras armas que têm o potencial de causar assassínios em massa e destruição.”\n\nSheila Sacks. Internet: <observatoriodaimprensa.com.br> (com adaptações).\n\nFimDoTexto No que se refere aos sentidos e aos aspectos linguísticos do",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Com relação aos partidos políticos e à propaganda eleitoral, julgue os itens que se seguem, considerando a jurisprudência do Supremo Tribunal Federal e do Tribunal Superior Eleitoral.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CB4A1",
+   "conteudo": "Não se sabe exatamente se a primeira eleição a que Rui Barbosa concorreu foi para deputado provincial, na Bahia, em 1875. Vagou-se um cargo na Assembleia Provincial, em razão da morte de um de seus membros, João Victor de Carvalho. As províncias do Império foram divididas em distritos eleitorais de três deputados cada um, eleitos por maioria relativa de votos.\n\nA eleição dos membros das Assembleias Provinciais far-se-ia da mesma maneira que a dos deputados à Assembleia Geral, não havendo suplentes: no caso de “morte do deputado, opção por outro distrito, ou perda do seu lugar por qualquer motivo”, proceder-se-ia a uma nova eleição no mesmo distrito.\n\nLuiz Vianna Filho — que é, reconhecidamente, junto com João Mangabeira, um dos mais completos biógrafos de Rui — nega essa candidatura. E diz:\n\n“No prestimoso volume Correspondência, em que reuniu cartas e documentos de Rui Barbosa, publica o Sr. Homero Pires uma circular de Rui dirigida aos eleitores do 3.º Distrito, datada de 4 de outubro de 1875, e à qual pôs o Dr. Homero Pires a seguinte nota: ‘Somente em 1878 Rui Barbosa teve ingresso na Assembleia Legislativa Provincial da Bahia’. De fato, a circular existe em fac-símile no arquivo da Fundação Casa Rui Barbosa. Entretanto, uma vez que essa nota pode suscitar equívoco, deve ser esclarecido que, na realidade, Rui, candidato em 1878, o foi nesse ano pela primeira vez. Até porque, em 1875, estava o Partido Liberal afastado das lides eleitorais, atitude que só foi modificada em 19 de março de 1876.”\n\nVianna alega, ainda, que o próprio Rui, “ao responder à comissão promotora da candidatura dele pelo 1.º Distrito da Corte, em 1889, declara expressamente: ‘Nos cinco escrutínios em que corri os azares da luta eleitoral...’. Ora, os cinco escrutínios são o de 1878, o de 1881, o de 1884, o de 1886 e o de 1888”.\n\nMas, se a circular é de 4 de outubro de 1875, não se sabendo se teria sido distribuída, a eleição, a que parece Rui ter concorrido, foi em 10 de janeiro daquele ano. E há um parecer da Comissão de Poderes da Assembleia, lido em 3 de março de 1875, que indica o resultado do pleito: Francisco José da Costa – 182 votos; Tenente Coronel Manuel Jerônimo Ferreira –",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Quando eu cheguei à seção onde tinha de votar, achei três mesários e cinco eleitores. Os eleitores falavam do tempo. Contavam os maiores verões que temos tido; um deles opinava que o verão, em si mesmo, não era mau, mas que as febres é que o tornavam detestável. A quanto não ia a amarela? Chegaram mais três eleitores, depois um, depois sete, que, pelo ar, pareciam da mesma casa. Os minutos iam com aquele vagar do costume quando a gente está com pressa. Mais três eleitores. Nove horas e meia. Os conhecidos faziam roda. Uns falavam mal dos gelados, outros tratavam do câmbio. Nove e três quartos. Trinta e cinco eleitores. Alguns almoçados. Os almoçados interpretavam o regulamento eleitoral diferentemente dos que o não eram. Daí algumas conversações particulares à meia voz, dizendo uns que a chamada devia começar às dez horas em ponto, outros que antes. — Meus senhores, vai começar a chamada — disse o presidente da mesa. Eram dez horas menos um minuto. Havia quarenta e sete eleitores. Abriram-se as urnas, que foram mostradas aos eleitores, a fim de que eles vissem que não havia nada dentro. Os cinco mesários já estavam sentados, com os livros, papéis e penas. O presidente fez esta advertência: — Previno aos senhores eleitores que as cédulas que contiverem nomes riscados e substituídos não serão apuradas; é disposição da lei nova. Quis protestar contra a lei nova. Pareceu-me opressiva da liberdade eleitoral. Pois eu escolho um nome, para presidente da República, suponhamos; ou senador, ou deputado que seja; em caminho, ao descer do bonde, acho que o nome não é tão bom como o outro, e não posso entrar numa loja, abrir a cédula e trocar o voto? — Antônio José Pereira — chamava o mesário. — Está na Europa — dizia um eleitor, explicando o silêncio. — Pôncio Pilatos! — Morreu, senhor; está no Credo. Tinha começado a chamada e prosseguia lentamente para não dar lugar a reclamações. Nove décimos dos eleitores não respondiam por isto ou por aquilo. — Padre Diogo Antônio Feijó! — prosseguia o mesário. Pausa. — Padre Diogo Antônio Feijó! Pausa. Eu gemia em silêncio. Consultei o relógio; faltavam sete minutos para as onze, e ainda não começara o meu quarteirão. Quis espairecer, levantei-me, fui até a porta, onde achei dois eleitores, fumando e falando de moças bonitas. Conhecia-os; eram do meu quarteirão. Enfim, começou o meu quarteirão; respirei, mas respirei cedo, porque a lista era quase toda composta de abstencionistas, e os nomes dos ausentes ou mortos gastam mais tempo, pela necessidade de esperar que os donos apareçam. Chegou a minha vez. Votei e corri a almoçar. Relevem a vulgaridade da ação. Tartufo, neste ponto, emendaria o seu próprio autor: “ Ah! Pour être électeur, je n’en suis pas moins homme [Ah! Um eleitor, mas nem por isso menos homem].”\n\nMachado de Assis. Gazeta de Notícias . Rio de Janeiro, 4 de março de 1894 (com adaptações).\n\nFimDoTexto\n\nAcerca das características do texto precedente, bem como das\n\nideias nele veiculadas e de seus aspectos linguísticos, julgue os\n\nitens seguintes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CB4A1",
+   "conteudo": "Não se sabe exatamente se a primeira eleição a que Rui Barbosa concorreu foi para deputado provincial, na Bahia, em 1875.Vagou-se um cargo na Assembleia Provincial, em razão da morte de um de seus membros, João Victor de Carvalho. As províncias do Império foram divididas em distritos eleitorais de três deputados cada um, eleitos por maioria relativa de votos.\n\nA eleição dos membros das Assembleias Provinciais far-se-ia da mesma maneira que a dos deputados à Assembleia Geral, não havendo suplentes: no caso de “morte do deputado, opção por outro distrito, ou perda do seu lugar por qualquer motivo”, proceder-se-ia a uma nova eleição no mesmo distrito.\n\nLuiz Vianna Filho — que é, reconhecidamente, junto com João Mangabeira, um dos mais completos biógrafos de Rui — nega essa candidatura. E diz:\n\n“No prestimoso volume Correspondência, em que reuniu cartas e documentos de Rui Barbosa, publica o Sr. Homero Pires uma circular de Rui dirigida aos eleitores do 3.º Distrito, datada de 4 de outubro de 1875, e à qual pôs o Dr. Homero Pires a seguinte nota: ‘Somente em 1878 Rui Barbosa teve ingresso na Assembleia Legislativa Provincial da Bahia’. De fato, a circular existe em facsimile no arquivo da Fundação Casa Rui Barbosa. Entretanto, uma vez que essa nota pode suscitar equívoco, deve ser esclarecido que, na realidade, Rui, candidato em 1878, o foi nesse ano pela primeira vez. Até porque, em 1875, estava o Partido Liberal afastado das lides eleitorais, atitude que só foi modificada em 19 de março de 1876.”\n\nVianna alega, ainda, que o próprio Rui, “ao responder à comissão promotora da candidatura dele pelo 1.º Distrito da Corte, em 1889, declara expressamente: ‘Nos cinco escrutínios em que corri os azares da luta eleitoral...’. Ora, os cinco escrutínios são os de 1878, o de 1881, o de 1884, o de 1886 e o de 1888”.\n\nMas, se a circular é de 4 de outubro de 1875, não se sabendo se teria sido distribuída, a eleição, a que parece Rui ter concorrido, foi em 10 de janeiro daquele ano. E há um parecer da Comissão de Poderes da Assembleia, lido em 3 de março de 1875, que indica o resultado do pleito: Francisco José da Costa – 182 votos; Tenente Coronel Manuel Jerônimo Ferreira –",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "No modelo a seguir, idProcesso da tabela Processo e IdOrgao da tabela Orgao são chaves primárias, NN corresponde a not null e FK , a foreign key . Com base no modelo e nas informações precedentes, julgue os itens subsecutivos.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "“Certainly, here is a possible introduction for your topic...”, began a recent article in Surfaces and Interfaces , a scientific journal. Attentive readers might have wondered who exactly that bizarre opening line was addressing. They might also have wondered whether the article was written by a human or by a machine. It is a question ever more readers of scientific papers are asking. LLMs (Large Language Models) are now more than good enough to help write a scientific paper. They can breathe life into dense scientific prose and speed up the drafting process, especially for non-native English speakers. Such use also comes with risks: LLMs are particularly susceptible to reproducing biases, for example, and can churn out vast amounts of plausible nonsense.",
+   "citacao": "Internet:<economist.com>(adapted).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "The Internet, as anyone who works deep in its trenches will tell you, is not a smooth, well-oiled machine. It’s a messy patchwork that has been assembled over decades, and it is held together with the digital equivalent of duct tape and bubble gum. Much of it relies on open-source software that is thanklessly maintained by a small army of volunteer programmers who fix the bugs.\n\nInternet: <www.nytimes.com> (adapted). Considering the previous text and its linguistic aspects, judge the following items.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CB1A1",
+   "conteudo": "A palavra ficção nos remete a histórias inventadas (total ou parcialmente). Pode ser uma fantasia, que envolva monstros, heróis ou fantasmas, pode ser uma ficção científica, que envolva tecnologias que vão muito além daquelas que existem hoje, e também pode ser um romance comum, totalmente realista, mas com enredo, personagens ou ambientes inventados. Dessa forma, uma matéria jornalística jamais poderia ser considerada ficcional, já que um dos pilares do jornalismo é a busca pela verdade e a publicização das informações com precisão e veracidade. Um jornal que noticiasse ficções estaria ferindo um de seus princípios mais fundamentais. Apesar de essa definição de ficção ser bem popular, os críticos e teóricos de cinema franceses Jacques Aumont e Michel Marie afirmam que a ficção é uma forma de discurso que faz referência a personagens ou a ações que só existem na imaginação daquele que a escreve ou lê. Segundo eles, a ficção não é uma mentira, mas um simulacro da realidade, uma das possíveis maneiras de se representar o real. Assim, podemos dizer que todo relato é uma tentativa de representar a realidade por meio de palavras. Um relato de um acontecimento não é o próprio acontecimento em si. Os fatos ficam no passado, depois que acontecem. Qualquer tentativa de retomá-los no presente, por meio de uma história, será uma representação, será uma construção da mente de uma pessoa. Logo, será uma ficção.",
+   "citacao": "Lucia Mascarenhas de Miranda. A fronteira entre fato e ficção . In: Ciência Hoje , outubro de 2024. Internet: <cienciahoje.org.br> (com adaptações). FimDoTexto",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "-- CONHECIMENTOS ESPECÍFICOS --",
+   "citacao": "Portadoras de mensagem espiritual do passado, as obras monumentais de cada povo perduram no presente como o testemunho vivo de suas tradições seculares. A humanidade, cada vez mais consciente da unidade dos valores humanos, as considera um bem comum e, perante as gerações futuras, se reconhece solidariamente responsável por preservá-las, impondo a si mesma o dever de transmiti-las a plenitude de sua autenticidade. Carta de Veneza , maio de 1964. Internet: <portal.iphan.gov.br>. A partir do texto apresentado acerca do patrimônio cultural, ambiental e arquitetônico, em suas diversas dimensões, julgue os próximos itens.",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Conforme a ABNT NBR 16636-1:2017, as atividades técnicas necessárias para a realização de um projeto variam conforme sua natureza, a tipologia ou classe de edificações e espaços urbanos, seu porte e complexidade, o desempenho desejado e a localização geográfica. Dado o caráter evolutivo do processo de projeto, as atividades técnicas ocorrem ao longo de todo o seu desenvolvimento, mas com os variados graus de contribuição das diversas especialidades. Considerando o fragmento de texto apresentado, julgue os itens que se seguem, relativos a elaboração e desenvolvimento de serviços técnicos especializados de projetos arquitetônicos e urbanísticos.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "As primeiras duas décadas do século XX testemunharam transformações nas cidades brasileiras em uma escala e em um ritmo até então sem precedentes: altas taxas de crescimento populacional nas principais capitais pressionavam a demanda por habitação e serviços urbanos; a prosperidade proporcionada pelo café trazia benefícios materiais e novos padrões de consumo para alguns segmentos da população, mas as estruturas urbanas, em sua maioria herdadas do período colonial, não se coadunavam com as expectativas de uma sociedade que se urbanizava em passo acelerado, embora sustentada por uma economia agroexportadora de valores arraigadamente rurais. As cidades transformavam-se nas plataformas rumo ao mundo moderno, isto é, em busca de um nível de vida à maneira das grandes metrópoles europeias ou norte-americanas.\n\nHugo Segawa. Arquiteturas no Brasil 1900-1990 .\n\nSão Paulo: Editora da Universidade de São Paulo, 214, p. 22 (com adaptações). Tendo o fragmento de texto apresentado como referência inicial, julgue os itens seguintes, a respeito da arquitetura e do urbanismo modernos no Brasil.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Determinada organização pretende realizar a avaliação de um conjunto arquivístico e, para tanto, é necessária a aplicação de um plano de classificação e de uma tabela de temporalidade de documentos para a organização. A partir dessa situação hipotética, julgue os itens a seguir, relativos a programas de gestão de documentos.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "“Você se torna eternamente responsável por aquilo que compartilha”. Essa é a primeira mensagem divulgada pelas redes sociais do Tribunal Superior Eleitoral (TSE) nesta segunda, 1.º de abril, também conhecido como dia da mentira. A ação traz ao debate uma pauta bastante defendida pelo tribunal: o combate à desinformação e a responsabilização para quem dissemina conteúdos falsos.",
+   "citacao": "Internet: < www.tse.jus.br> (com adaptações).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Julgue os itens que se seguem, relativos ao dimensionamento do quadro de profissionais de enfermagem, segundo a Resolução COFEN n.º 743/2024.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Com base na figura precedente, que ilustra uma treliça plana reticulada, simétrica em relação ao eixo vertical que passa pelo trecho CF, com um apoio móvel no nó A e um fixo no nó E, e",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "João, de 56 anos de idade, frentista há 20 anos, apresenta quadro de fadiga, infecções de repetição e sangramentos espontâneos. Nega outros sintomas. Os sintomas surgiram há cerca de dois meses e têm se agravado.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Maria, de 62 anos de idade, aposentou-se por tempo de trabalho há 10 anos. Quatro anos pós a aposentadoria, começou a trabalhar em uma fábrica onde há locais com alto nível de ruído. Em atendimento em ambulatório de saúde ocupacional, queixa-se de irritabilidade, cefaleia, sintomas digestivos e zumbidos há cerca de um ano, com piora nos últimos meses. Negou sintomas semelhantes em sua vida pregressa.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Pedro, com 46 anos de idade, compareceu à perícia médica previdenciária. Relatou ter apresentado alguns episódios de quadro depressivo ao longo da vida, alguns prolongados, mas recentemente ter começado com quadro de elevação do humor e da atividade. Ele trouxe laudo psiquiátrico que atestou diagnóstico de transtorno afetivo bipolar, em fase maníaca, e sugerindo afastamento de 120 dias das atividades de trabalho. Ao exame, apresentou sinais de hipomania.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Sérgio, com 19 anos de idade, sempre foi um rapaz calmo e tranquilo. Apesar de tímido, tinha muitas amizades. Participava de um grupo religioso onde conheceu sua primeira namorada. Após um desentendimento com ela, resolveu sair com um colega recém-chegado ao grupo da igreja. Pouco tempo depois, chegou em casa muito agitado, falante, confuso e transpirando muito. De acordo com o relato materno, “estava com uma feição que nunca tinha visto. Tinha olhos arregalados, não falava coisa com coisa. Parecia fraco. Chegou a vomitar”. A família, estranhando o quadro, ligou para o Serviço de Atendimento Móvel de Urgência (SAMU). Sérgio, então, foi atendido por uma equipe multidisciplinar e encaminhado para o serviço especializado. Considerando a situação hipotética precedente, julgue os itens subsequentes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Determinada organização conta com diversos cargos em sua estrutura, distribuídos tanto nas filiais quanto na matriz. Em cada filial, há funções que envolvem a realização dos serviços prestados pela empresa; na matriz estão as funções que correspondem às áreas responsáveis pelo funcionamento do negócio. Todas as vagas são primeiramente divulgadas por meio de um aplicativo denominado Conectize , que pode ser acessado por todos os empregados. Em relação à seleção e ao desenvolvimento de lideranças, a organização busca indivíduos que possuam um bom relacionamento em equipe e interpessoal, boa comunicação e facilidade para negociação. Podem ser selecionados profissionais que já trabalham na organização ou que não fazem parte do quadro de funcionários. Com o intuito de acompanhar o desempenho dos funcionários, a organização adota um processo periódico de avaliação de desempenho: são avaliados, quadrimestralmente (e, de maneira mais informal, diariamente), quesitos como comprometimento, satisfação, respeito às normas e aos procedimentos organizacionais, assiduidade, relacionamento interpessoal, proatividade e produtividade. Os funcionários reclamam de conflitos entre as áreas e de supervisores que não dão a devida atenção para agressões verbais entre colegas de áreas diferentes. Além disso, há rivalidade entre equipes de vendas quanto ao alcance das metas estipuladas pela empresa. Os funcionários avaliam que a organização parece incentivar esses atritos, afirmando que a competição é benéfica para as vendas. A partir da situação hipotética apresentada, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "responsabilidade analista de organização e métodos analista de processos\n\ncompreensão das alinhamento dos processos entender necessidades dos clientes e com as metas estratégicas\n\nusuários\n\nmapeamento e mapeamento e modelagem levantar documentação dos com ferramentas modernas\n\nprocessos analisar identificação de problemas avaliação de desempenho e\n\ne oportunidades análise crítica desenvolver proposição de soluções desenvolvimento de\n\nalternativas soluções inovadoras\n\nimplementação e gerenciamento de implantar coordenação das mudanças mudanças e execução dos\n\nprojetos Tendo como referência o quadro precedente, julgue o próximo item, relativo à gestão de processos.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

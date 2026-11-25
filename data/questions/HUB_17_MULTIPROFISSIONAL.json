@@ -166,7 +166,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A incidência da doença foi de 16,7% da população.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-hub-odontologia-9-012",
@@ -177,7 +178,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A taxa de letalidade por pneumonia não foi apresentada na situação em análise. Caso fosse estudada, seria calculada a partir da divisão do número de óbitos pelo número total da amostra.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-hub-odontologia-9-013",
@@ -188,7 +190,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na situação em análise, considera-se que houve uma falha na efetividade da vacina contra influenza , pois não houve diferença de incidência da doença entre os expostos e os não expostos à vacina.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-hub-odontologia-9-014",
@@ -199,7 +202,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A cobertura vacinal contra influenza na comunidade foi de 90%.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-hub-odontologia-9-015",
@@ -276,7 +280,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo a recomendação atual do Ministério da Saúde, todos os usuários do serviço de saúde portadores de HIV devem ser tratados nos serviços de atenção especializada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-hub-odontologia-9-022",
@@ -287,7 +292,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os pacientes que ainda não tenham sido submetidos a tratamento, que não apresentem outras complicações clínicas, e que estejam assintomáticos estáveis devem utilizar a primeira linha de tratamento do TARV.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-hub-odontologia-9-023",
@@ -298,7 +304,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A má adesão ao TARV é uma das principais causas de falha terapêutica. Nesses casos, os pacientes normalmente necessitam de alterações em seus esquemas de antirretrovirais, sendo o novo tratamento denominado esquema de resgate.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-hub-odontologia-9-024",
@@ -309,7 +316,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo o Ministério da Saúde, não é recomendado o uso de TARV por gestantes durante o primeiro trimestre de gravidez.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-hub-odontologia-9-025",
@@ -320,7 +328,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A transmissão vertical do HIV/AIDS é um problema de saúde pública que pode ser evitado com a profilaxia no parto e puerpério. O uso de AZT no recém-nascido deve ser iniciado ainda na sala de parto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-hub-odontologia-9-026",
@@ -331,7 +340,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Após receber o diagnóstico da infecção por HIV, o paciente deve procurar um serviço de saúde para atendimento médico, no qual são feitos avaliação clínica, exame físico e solicitação de exames complementares, para realizar a estratificação de risco.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-hub-odontologia-9-027",
@@ -2036,7 +2046,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Apesar de suas especificidades, a circulação do capital como mercadoria na forma de empréstimo mantém as tradicionais transações comerciais de compra e venda de propriedade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-hub-nutricao-8-062",
@@ -2047,7 +2058,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O juro pode ser considerado parte da mais-valia, isto é, do trabalho não retribuído, mesmo não resultando do processo real de produção.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-hub-nutricao-8-063",
@@ -2058,7 +2070,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Apesar de o juro representar o vínculo de um capitalista com outro, ou seja, apresentar-se como uma determinação indiferente à relação do capital com o trabalho, ele resume o caráter alienado das condições trabalhistas em relação à atividade do sujeito.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-hub-nutricao-8-064",
@@ -2696,7 +2709,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A estimulação precoce para reduzir os prejuízos causados ao desenvolvimento de crianças com malformação deve se iniciar o mais cedo possível e se estender até os dois anos de idade, período conhecido como janela de oportunidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-hub-fisioterapia-7-002",
@@ -2707,7 +2721,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A ausência ou assimetria do reflexo de Moro, que consiste na resposta de flexão-adução dos braços desencadeada por um estímulo brusco, com posterior retorno à posição inicial, pode indicar lesão nervosa, muscular ou óssea.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-hub-fisioterapia-7-003",
@@ -2718,7 +2733,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O terapeuta ocupacional pode utilizar a escala de desenvolvimento Bayley para diagnosticar atrasos no desenvolvimento de crianças com idade entre um mês a quarenta e dois meses, a fim de planejar estratégias de intervenção.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-hub-fisioterapia-7-004",
@@ -2729,7 +2745,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Na perspectiva da terapia ocupacional, uma criança é considerada com atraso de desenvolvimento quando não é capaz de se engajar ou desempenhar atividades com um propósito no contexto que estão inseridas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-hub-fisioterapia-7-005",
@@ -2740,7 +2757,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Independentemente de sua etiologia, a microcefalia pode causar atraso no desenvolvimento neuropsicomotor.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-hub-fisioterapia-7-006",
@@ -3521,7 +3539,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O paciente poderá sentir náusea leve, tonturas e cianose, mas a presença desses sinais de alerta não impede a realização de atividades terapêuticas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-hub-fisioterapia-7-077",
@@ -3532,7 +3551,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Durante a realização de exercícios de condicionamento cardiorrespiratório e muscular, o terapeuta poderá mensurar o esforço do paciente por meio da escala de Borg.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-hub-fisioterapia-7-078",
@@ -3543,7 +3563,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O paciente deve ser estimulado a modificar sua postura; deverá, por exemplo, inclinar o tronco para frente e apoiar o corpo com o auxílio dos membros superiores, para minimizar a dispneia.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-hub-fisioterapia-7-079",
@@ -3554,7 +3575,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Uma vez que a DPOC é causada primariamente por fatores ambientais como agentes químicos e poeira, mudanças no ambiente de trabalho do paciente são essenciais a fim de ser evitada a progressão da doença.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-hub-fisioterapia-7-080",
@@ -3565,7 +3587,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A organização do ambiente de trabalho de tal forma que o paciente evite a execução de movimentos amplos do membro superior é uma técnica de conservação de energia a ser recomendada pelo terapeuta ocupacional.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-hub-fisioterapia-7-081",
@@ -3576,7 +3599,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O paciente poderá apresentar sintomas psicossociais como depressão, ansiedade, dificuldades de concentração e isolamento social, comuns aos pacientes com DPOC.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2016-hub-fisioterapia-7-082",
@@ -4126,7 +4150,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A gasometria indica uma acidose mista.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-hub-enfermagem-6-014",
@@ -4137,7 +4162,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "É correto inferir que, de acordo com a gasometria arterial, há uma tentativa do organismo de compensar o desequilíbrio ácido-básico, devido ao valor de HCO 3 obtido no exame de gasometria arterial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-hub-enfermagem-6-015",
@@ -4148,7 +4174,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A paciente tem indicação de manobras de recrutamento alveolar por possuir áreas de alta relação ventilação-perfusão (espaço morto) que ocorre nesses quadros de SARA.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-hub-enfermagem-6-016",
@@ -4159,7 +4186,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O índice de oxigenação da paciente está inferior a 100.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-hub-enfermagem-6-017",
@@ -4170,7 +4198,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "É correto inferir que a paciente possui áreas pulmonares perfundidas, porém não ventiladas, o que caracteriza shunt intrapulmonar.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-hub-enfermagem-6-018",
@@ -4181,7 +4210,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A paciente não tem indicação para uso de posição prona como auxílio na estratégia ventilatória.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2016-hub-enfermagem-6-019",
@@ -4258,7 +4288,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A asma é caracterizada por uma hiper-reatividade dos receptores das vias aéreas da parede brônquica, como resultado da liberação de mediadores pelo sistema nervoso simpático.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-enfermagem-6-026",
@@ -4269,7 +4300,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As doenças neuromusculares evoluem com características de doenças obstrutivas devido à incapacidade do paciente de realizar uma inspiração profunda, o que gera uma redução da sua capacidade vital forçada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-enfermagem-6-027",
@@ -4280,7 +4312,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As doenças obstrutivas são caracterizadas pelo aumento da capacidade residual funcional.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-enfermagem-6-028",
@@ -4291,7 +4324,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O fechamento prematuro das vias aéreas nos pacientes portadores de DPOC reduz a capacidade vital forçada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-enfermagem-6-029",
@@ -4302,7 +4336,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os pacientes com enfisema pulmonar possuem áreas de baixa relação ventilação-perfusão, o que caracteriza o chamado shunt intrapulmonar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-enfermagem-6-030",
@@ -4313,7 +4348,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os pacientes com DPOC podem evoluir com quadro de cor pulmonale por desenvolverem policitemia em resposta à hipoxemia.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2016-hub-enfermagem-6-031",
@@ -5347,7 +5383,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A curva A poderia ser a curva plasmática de um medicamento administrado pela via endovenosa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-007",
@@ -5457,7 +5494,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O tamanho dos glóbulos da fase interna interfere na estabilidade física da emulsão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-017",
@@ -5468,7 +5506,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A adição de gelificante à fase aquosa de uma emulsão óleo em água proporciona maior estabilidade física ao produto emulsionado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-018",
@@ -5479,7 +5518,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O tamanho dos glóbulos da fase interna interfere na dosagem do medicamento.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-019",
@@ -5490,7 +5530,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Solução de corante hidrossolúvel isenta de solventes orgânicos, ao corar a fase externa, auxilia na classificação do tipo da emulsão água em óleo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-020",
@@ -5501,7 +5542,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O tensoativo, que proporciona a estabilização da emulsão, é representado na figura como uma linha grossa que contorna a fase interna.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-021",
@@ -5677,7 +5719,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Impurezas presentes na matéria-prima do fornecedor 1 podem conter um íon comum ao sal do fármaco.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-037",
@@ -5688,7 +5731,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A matéria-prima do fornecedor 3 provavelmente contém impurezas que formam complexos e, por conseguinte, aumentam a solubilidade do fármaco.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-038",
@@ -5699,7 +5743,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O fornecedor da matéria-prima deve ser avaliado quando da escolha do solvente para a preparação de uma formulação líquida que irá conter o fármaco em questão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-039",
@@ -5710,7 +5755,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se a partir dos dados do gráfico que a matéria prima do fornecedor 2 é pura.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-040",
@@ -5721,7 +5767,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O fármaco x possui, no mínimo, duas formas polimórficas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-041",
@@ -5732,7 +5779,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As propriedades de moagem e a compactação de A e B provavelmente são distintas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-042",
@@ -5743,7 +5791,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Caso o fármaco x fosse usado no preparo de uma cápsula de uso oral, o início do efeito terapêutico seria mais rápido com a utilização do sólido representado no arranjo B.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-043",
@@ -5754,7 +5803,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O fármaco x é um sólido amorfo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-044",
@@ -5765,7 +5815,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O ponto de fusão do fármaco x independe do arranjo molecular, por isso A e B têm o mesmo ponto de fusão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-045",
@@ -5831,7 +5882,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Caso seja administrada pela via oral, a formulação B pode ser definida como uma formulação de liberação prolongada.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-051",
@@ -5842,7 +5894,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em função de sua farmacocinética, a formulação B pode levar à diminuição da flutuação dos níveis plasmáticos e, consequentemente, aumento da eficácia e(ou) segurança do tratamento.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-052",
@@ -5853,7 +5906,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Enzimas hepáticas distintas provavelmente estão envolvidas na metabolização do fármaco a partir das formulações A e B.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-053",
@@ -5864,7 +5918,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O perfil da formulação A é característico de administração pela via endovenosa.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-054",
@@ -6469,7 +6524,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Os dois principais fatores de risco das DCNTs referidas no texto são o sedentarismo e o baixo consumo de frutas e verduras.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-109",
@@ -6480,7 +6536,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A atuação do profissional farmacêutico, em relação às DCNTs, inicia-se após o diagnóstico e está concentrada nas fases de tratamento medicamentoso em domicílio ou em ambientes ambulatoriais e hospitalares.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-110",
@@ -6491,7 +6548,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico de diabetes melito pode ser realizado por três critérios diferentes: primeiro, pela presença de sinais e sintomas associados à glicemia casual acima de 200 mg/dL; segundo, glicemia em jejum acima de 126 mg/dL; terceiro, teste de tolerância à glicose com glicemia acima de 200 mg/dL.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-111",
@@ -6502,7 +6560,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O monitoramento e o controle glicêmico de pacientes em tratamento para diabetes melito podem ser realizados pelo próprio paciente com o uso de glicosímetros portáteis e por exames laboratoriais que meçam os níveis de hemoglobina glicada (HbA1c).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-112",
@@ -6513,7 +6572,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No tratamento de pacientes diabéticos e hipercolesterolêmicos devido à ação hipoglicemiante nas células pancreáticas, empregam-se fármacos da classe das estatinas, que são inibidores da enzima HMG-CoA redutase.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-113",
@@ -6524,7 +6584,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As lipoproteínas séricas são complexos macromoleculares, tipicamente sob a forma de partículas esféricas, com lipídeos neutros e ésteres de colesterol no cerne e fosfolipídios e colesterol livre na superfície.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2016-hub-saude-coletiva-114",
@@ -6898,7 +6959,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Ocorrendo suspeita de fratura do corpo da mandíbula, o profissional poderá optar pelas imagens conseguidas por meio da projeção cefalométrica lateral.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-odontologia-4-028",
@@ -6909,7 +6971,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Havendo suspeita de fratura do processo coronoide, o profissional poderá obter imagens satisfatórias por meio da projeção de Waters.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-odontologia-4-029",
@@ -6920,7 +6983,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No caso de suspeita de fratura de côndilo, o profissional poderá se valer de imagens satisfatórias por meio da projeção de Towne reversa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-odontologia-4-030",
@@ -6931,7 +6995,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Para confirmar a suspeita de fratura da região posterior da maxila, o profissional poderá obter imagens satisfatórias por meio da projeção panorâmica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2016-hub-odontologia-4-031",
@@ -7921,7 +7986,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No período em que conviveu com a mãe, Jonathas esteve inserido em contexto de abandono e negligência.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-hub-psicologia-002",
@@ -7932,7 +7998,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Jonathas apresenta, predominantemente, forma ativa de manifestação diante do contexto disfuncional experienciado por ele.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-hub-psicologia-003",
@@ -7943,7 +8010,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Jonathas apresenta consequências psicológicas típicas de um contexto de violência e situação familiar disfuncional.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-hub-psicologia-004",
@@ -7954,7 +8022,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Jonathas apresenta sintomas concernentes à violência sexual.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-hub-psicologia-005",
@@ -7965,7 +8034,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo violência intrafamiliar é inadequado ao contexto em que Jonathas esteve inserido quando conviveu com a mãe, tendo em vista que não há relato de lesão corporal.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-hub-psicologia-006",
@@ -9824,7 +9894,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Para o controle do volume hídrico corporal desses pacientes, dispensa-se a restrição de sódio, caso eles moderem a ingestão de líquidos por via oral.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-farmacia-2-058",
@@ -9835,7 +9906,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A dieta hiperproteica, em que pelo menos 50% das fontes proteicas são de alto valor biológico, promove o balanço nitrogenado positivo nesses pacientes, se clinicamente estáveis.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-farmacia-2-059",
@@ -9846,7 +9918,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A hipercalemia é comum nesses pacientes, assim eles ficam impedidos de ingerir alimentos ricos em cálcio, como leite e derivados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-farmacia-2-060",
@@ -9857,7 +9930,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O alto peso molecular do fosfato dificulta sua remoção pela máquina de diálise; assim, para manter a fosfatemia adequada, recomenda-se que o paciente diminua o consumo de proteínas de origem vegetal, ricas em fósforo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-farmacia-2-061",
@@ -9868,7 +9942,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A carambola, fruta que apresenta um composto neurotóxico, não deve ser consumida por esses pacientes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2016-hub-farmacia-2-062",
@@ -10088,7 +10163,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Caso um adulto com sobrepeso informe ao nutricionista estar satisfeita por conseguir fazer dieta e caminhadas há trinta dias, com perda de peso, embora nos dias chuvosos tenha vontade de não sair de casa, é correto afirmar que, apesar da tentação de retornar ao comportamento prévio, ela provavelmente se encontra no estágio de ação e necessita de apoio para a resolução de problemas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-hub-farmacia-2-082",
@@ -10099,7 +10175,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Se um adulto com sobrepeso informar ao nutricionista que não seguiu a dieta, embora tenha feito exercícios físicos durante seus quinze dias de férias, é correto afirmar que o relapso provocou o retorno desse paciente provavelmente ao estágio de preparo, pois as férias foram curtas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-hub-farmacia-2-083",
@@ -10110,7 +10187,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Se um adolescente obeso declarar ao nutricionista não estar disposto a fazer dieta e optar por manter seu peso, é correto afirmar que, de acordo com o modelo transteórico, esse indivíduo se encontra na fase de manutenção.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-hub-farmacia-2-084",
@@ -10121,7 +10199,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Caso um indivíduo obeso e hipertenso, desejando melhora da pressão arterial, já tenha se matriculado em uma academia e busque orientações alimentares com o nutricionista, é correto afirmar que esse indivíduo está na fase da contemplação do problema, pronto para aderir a um plano de dieta hipoenergética.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2016-hub-farmacia-2-085",
@@ -10231,7 +10310,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Na banda gástrica ajustada — figura C —, a pressão do anel é feita por corrente elétrica, o que favorece o surgimento da síndrome de Dumping após o consumo de alimentos açucarados.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-hub-farmacia-2-095",
@@ -10242,7 +10322,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Na cirurgia apresentada na figura D, realizam-se gastrectomia vertical e derivação biliopancreática, o que favorece a ocorrência de efeitos adversos como diarreia, flatus fétidos, desnutrição e deficiência de vitaminas lipossolúveis.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-hub-farmacia-2-096",
@@ -10253,7 +10334,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A cirurgia bariátrica é recomendada para indivíduos com obesidade grau 3, segundo o diagnóstico fundamentado no índice de massa corporal, podendo ser também indicada em casos em que há presença de comorbidades, como diabetes, para indivíduos obesos grau 2; além disso, podem também ser considerados o tempo da doença e a intratabilidade clínica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-hub-farmacia-2-097",
@@ -10264,7 +10346,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A figura A representa a cirurgia de derivação gástrica em Y de Roux, procedimento restritivo e disabsortivo que promove perda significativa do excesso de peso.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-hub-farmacia-2-098",
@@ -10275,7 +10358,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A figura B é um procedimento exclusivamente restritivo que promove perda de peso por mecanismos mecânicos associados ao controle da fome e à saciedade e que não estimula efeitos metabólicos pós-operatórios.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2016-hub-farmacia-2-099",
@@ -11816,6 +11900,110 @@
    "tipo": "certo_errado",
    "enunciado": "A sarcopenia é uma síndrome clínica caracterizada pela perda progressiva e generalizada de massa, força e desempenho muscular em idosos.",
    "gabarito": "certo"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "9: Saúde Coletiva\n\nC , caso julgue o item\n\nERRADO . A ausência de marcação ou a marcação de ambos\n\nfolha de respostas , único\n\n... seguida de Assertiva: ..., os dados apresentados\n\nEm uma amostra de base populacional com trezentas\n\npessoas idosas de uma comunidade do Distrito Federal, verificou-se\n\na frequência de infecção respiratória aguda no período de maio a\n\nagosto de 2015. No período de quatro meses de observação,\n\ncinquenta pessoas desenvolveram pneumonia compatível com\n\ninfecção respiratória aguda (IRA). Os dados coletados foram\n\ndistribuídos segundo a tabela a seguir.\n\npneumonia vacina contra influenza\n\nsim não total\n\nsim 40 10 50\n\nnão 200 50 250\n\ntotal 240 60 300",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Para enfrentar a epidemia de HIV/AIDS no Brasil, estabeleceu-se, desde o ano de 1996, o tratamento antirretroviral (TARV). A partir da introdução do TARV, houve um decréscimo na mortalidade anual associada à AIDS, ou seja, a doença tornou-se crônica, com a necessidade de reestruturação do cuidado direcionado às pessoas portadoras de HIV/AIDS. Acerca desse tema, julgue os próximos itens.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O juro, e não o lucro, aparece como criação de valor do capital, brotando do capital, portanto de sua mera propriedade. Daí o rendimento criado especialmente pelo capital. É dessa forma que se completa a figura fetichista do capital, assim como a representação do fetiche capital.\n\nKarl Marx. O rendimento e suas fontes: a economia vulgar .\n\nIn : Manuscritos econômico-filosóficos e outros textos escolhidos . São\n\nPaulo: Abril Cultural/Victor Civita, 1974, p. 274 (com adaptações). A partir do fragmento de texto apresentado, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Cada um dos itens da prova objetiva está vinculado ao comando que imediatamente o antecede. De acordo com o comando a que cada um deles esteja vinculado, marque, na folha de respostas , para cada item: o campo designado com o código CERTO ; ou o campo designado com o código E , caso julgue o item os campos não serão apenadas, ou seja, não receberão pontuação negativa. Para as devidas marcações, use a documento válido para a correção da sua prova objetiva. • Em sua prova, caso haja item(ns) constituído(s) pela estrutura Situação hipotética:\n\ncomo situação hipotética deverão ser considerados como premissa(s) para o julgamento da assertiva proposta. • Eventuais espaços livres — identificados ou não pela expressão “Espaço livre” — que constarem deste caderno de prova poderão ser\n\nutilizados para anotações, rascunhos etc.\n\nPROVA OBJETIVA",
+   "citacao": "O secretário de Atenção à Saúde do Ministério da Saúde, Alberto Beltrame, atendeu a imprensa dia 12/01/2016, às dez horas, e apresentou as diretrizes de estimulação precoce de crianças com atraso no desenvolvimento neuropsicomotor decorrente de microcefalia. O documento foi disponibilizado para profissionais de saúde. Internet: <http://portalsaude.saude.gov.br> (com adaptações). Com relação ao assunto do documento mencionado no texto, julgue os itens a seguir.",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um paciente de cinquenta e três anos de idade, engenheiro químico, tabagista, recebeu o diagnóstico de doença pulmonar obstrutiva crônica (DPOC), iniciando o tratamento com a equipe multiprofissional do setor de reabilitação cardiopulmonar.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "6: Fisioterapia\n\nC , caso julgue o item\n\nERRADO . A ausência de marcação ou a marcação de ambos\n\nfolha de respostas , único\n\n... seguida de Assertiva: ..., os dados apresentados\n\nPaciente do sexo feminino, de sessenta anos de idade,\n\ncom asma, etilista crônica e tabagista, evoluiu com\n\ninsuficiência respiratória e parada cardiorrespiratória seguida\n\nde reanimação. Foi diagnosticada a sepse, com evolução para\n\nsíndrome de angústia respiratória aguda (SARA). Houve\n\na necessidade de intubação orotraqueal e ventilação mecânica\n\ncom os seguintes parâmetros: modo A/C PCV; P ins 16 cmH 2 O;\n\nPEEP 12 cmH 2 O; FiO 2 de 80%; frequência respiratória de 18 irpm;\n\nVC de 350 mL. Após o procedimento, foram realizados\n\nos seguintes exames complementares: radiografia de tórax,\n\nque apresentou infiltrados bilaterais difusos; gasometria arterial:\n\npH = 7,18; PaO 2 = 60 mmHg; PaCO 2 = 66 mmHg;\n\nHCO 3 = 29 mmol/L; BE + 7 mmol/L; SpO 2 90%.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "– 1 – No que concerne à fisiopatologia pulmonar, julgue os itens a seguir. Nesse sentido, considere que a sigla DPOC, sempre que utilizada, refere-se à doença pulmonar obstrutiva crônica.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O gráfico precedente apresenta as curvas plasmáticas A, B, C e D de quatro medicamentos. Com relação aos aspectos farmacocinéticos e farmacotécnicos envolvidos nessas curvas,",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "– 1 – Considerando a figura precedente, que ilustra uma emulsão visualizada em microscópio óptico, julgue os próximos itens, relativos aos aspectos farmacotécnicos dessa emulsão.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "– 2 – Considerando que o gráfico apresentado mostra a solubilidade de um fármaco — matéria-prima obtida a partir de três fornecedores distintos —, em função da razão fármaco/fase solvente, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Considerando dois possíveis arranjos moleculares de um fármaco x no estado sólido, conforme representados de maneira esquemática nas figuras A e B, em que a forma B é mais estável, julgue os itens subsecutivos.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Considerando que o gráfico precedente apresenta a concentração plasmática de um fármaco em função do tempo de administração a partir de duas formulações farmacêuticas A e B diferentes, julgue os itens a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Atualmente, as doenças crônicas não transmissíveis (DCNTs) constituem o problema de saúde de maior magnitude e relevância e respondem por mais de 70% das causas de mortes no Brasil. As doenças cardiovasculares, o câncer, o diabetes melito, as enfermidades respiratórias crônicas e doenças neuropsiquiátricas — principais DCNTs — têm respondido pelo número elevado de mortes antes dos setenta anos de idade e pela perda de qualidade de vida, gerando incapacidades e alto grau de limitação das pessoas doentes em suas atividades de trabalho e de lazer.\n\nIBGE. Pesquisa nacional de saúde 2013: percepção do estado de\n\nsaúde, estilos de vida e doenças crônicas. Brasil, grandes regiões e\n\nunidades da Federação . Rio de Janeiro, IBGE, 2014. p. 35. Com referência ao texto e às DCNTs nele mencionadas, julgue os itens subsequentes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma jovem de dezesseis anos de idade, vítima de acidente automobilístico, sofreu traumatismo na região da face. Diante do quadro de urgência, o cirurgião-dentista, para melhor se orientar, solicitou alguns exames radiográficos.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Julgue os itens subsequentes, acerca da dietoterapia para pacientes portadores de doença renal crônica que iniciem um tratamento com terapia hemodialítica.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Prochaska e DiClementte, 1986. O modelo transteórico, também denominado modelo de estágios de mudança de comportamento, representado na figura precedente, explora o nível intraindividual de mudança de comportamento e objetiva avaliar se uma pessoa se encontra preparada ou não para",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A B C D As figuras precedentes esquematizam diferentes tipos de cirurgias bariátricas. Com relação às técnicas cirúrgicas e características a",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

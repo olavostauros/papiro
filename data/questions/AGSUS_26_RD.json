@@ -8932,7 +8932,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O esforço cortante em uma seção transversal situada no meio do vão tem intensidade igual a 2P.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-agsus-assistente-uinfra-engenharia-arquitetura-20-037",
@@ -8943,7 +8944,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O momento fletor na seção transversal situada à distância l/2 do apoio esquerdo é igual a Pl.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2026-agsus-assistente-uinfra-engenharia-arquitetura-20-038",
@@ -9691,7 +9693,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diâmetro nominal mínimo adotado para o tubo de queda é 150.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2026-agsus-assistente-uinfra-engenharia-arquitetura-22-026",
@@ -10560,7 +10563,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Considerando-se que, na faixa entre os níveis mínimo e máximo, o sistema possa ser aproximado por uma função linear em torno do nível de referência, o tempo máximo de abertura da válvula solenoide em um ciclo do processo é de 3,9 segundos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2026-agsus-assistente-uinfra-engenharia-arquitetura-24-025",
@@ -10571,7 +10575,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sistema de controle é em malha fechada, pois o controlador utiliza o sinal do sensor de pressão como uma entrada com sinal oposto à base processada no controlador.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2026-agsus-assistente-uinfra-engenharia-arquitetura-24-026",
@@ -11583,7 +11588,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Uma planta de implantação deve conter a localização, as dimensões da edificação — conjunto edificado ou espaços não edificados — e do edifício isolado no lote ou na área de intervenção, indicando, em escala compatível, as dimensões do terreno, recuos, projeção das coberturas e áreas permeáveis e impermeáveis.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2026-agsus-assistente-uinfra-engenharia-arquitetura-26-038",
@@ -11594,7 +11600,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nos projetos de arquitetura, o uso de linhas com a denominação tracejada estreita é indicado para arestas e contornos não visíveis.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2026-agsus-assistente-uinfra-engenharia-arquitetura-26-039",
@@ -11605,7 +11612,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O corte é uma representação gráfica realizada a partir de um plano secante vertical que divide o edifício ou outro objeto em uma parte, no sentido longitudinal.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2026-agsus-assistente-uinfra-engenharia-arquitetura-26-040",
@@ -11616,7 +11624,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em um projeto arquitetônico, um eixo deve ser representado por linha com a seguinte denominação: traço e dois pontos estreita.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2026-agsus-assistente-uinfra-engenharia-arquitetura-27-001",
@@ -12023,7 +12032,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Uma planta de implantação deve conter a localização, as dimensões da edificação — conjunto edificado ou espaços não edificados — e do edifício isolado no lote ou na área de intervenção, indicando, em escala compatível, as dimensões do terreno, recuos, projeção das coberturas e áreas permeáveis e impermeáveis.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2026-agsus-assistente-uinfra-engenharia-arquitetura-27-038",
@@ -12034,7 +12044,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nos projetos de arquitetura, o uso de linhas com a denominação tracejada estreita é indicado para arestas e contornos não visíveis.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2026-agsus-assistente-uinfra-engenharia-arquitetura-27-039",
@@ -12045,7 +12056,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O corte é uma representação gráfica realizada a partir de um plano secante vertical que divide o edifício ou outro objeto em uma parte, no sentido longitudinal.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2026-agsus-assistente-uinfra-engenharia-arquitetura-27-040",
@@ -12056,7 +12068,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em um projeto arquitetônico, um eixo deve ser representado por linha com a seguinte denominação: traço e dois pontos estreita.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2026-agsus-assistente-uinfra-engenharia-arquitetura-28-001",
@@ -12353,7 +12366,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Uma planta de implantação deve conter a localização, as dimensões da edificação — conjunto edificado ou espaços não edificados — e do edifício isolado no lote ou na área de intervenção, indicando, em escala compatível, as dimensões do terreno, recuos, projeção das coberturas e áreas permeáveis e impermeáveis.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2026-agsus-assistente-uinfra-engenharia-arquitetura-28-028",
@@ -12364,7 +12378,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nos projetos de arquitetura, o uso de linhas com a denominação tracejada estreita é indicado para arestas e contornos não visíveis.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2026-agsus-assistente-uinfra-engenharia-arquitetura-28-029",
@@ -12375,7 +12390,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O corte é uma representação gráfica realizada a partir de um plano secante vertical que divide o edifício ou outro objeto em uma parte, no sentido longitudinal.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2026-agsus-assistente-uinfra-engenharia-arquitetura-28-030",
@@ -12386,7 +12402,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Em um projeto arquitetônico, um eixo deve ser representado por linha com a seguinte denominação: traço e dois pontos estreita.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2026-agsus-assistente-uinfra-engenharia-arquitetura-28-031",
@@ -24453,7 +24470,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No mapa de riscos ocupacionais, os riscos são representados por triângulos, sempre com as mesmas dimensões, dispostos na planta baixa do ambiente onde a atividade de trabalho é executada.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2026-agsus-assistente-ugp-56-026",
@@ -24464,7 +24482,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para o mapeamento dos riscos ocupacionais, pode-se adotar entrevista in loco com os trabalhadores ou questionário no qual o trabalhador descreva suas atividades.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2026-agsus-assistente-ugp-56-027",
@@ -24475,7 +24494,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para a elaboração do mapa de riscos ocupacionais, é imprescindível uma planta baixa detalhada do local de trabalho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2026-agsus-assistente-ugp-56-028",
@@ -24486,7 +24506,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No mapa de riscos ocupacionais, os riscos ergonômicos são identificados na cor amarela.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2026-agsus-assistente-ugp-56-029",
@@ -30625,6 +30646,38 @@
    "tipo": "certo_errado",
    "enunciado": "O PowerPoint não permite salvar arquivos em diferentes formatos.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Considerando que a figura acima representa uma viga biapoiada, submetida a duas cargas concentradas, julgue o item a seguir.",
+   "citacao": "",
+   "imagem": true
+  },
+  {
+   "ref": "",
+   "conteudo": "Pretende-se dimensionar o tubo de queda que recolherá os dejetos sanitários dos banheiros de um edifício residencial de 15 pavimentos. Os banheiros são padronizados, contendo cada um deles uma banheira, duas bacias sanitárias, um chuveiro e um lavatório. O tubo de queda não sofrerá desvios da vertical ao longo de seu trajeto até a caixa de passagem situada no térreo do edifício. Nas tabelas 1 e 2, a seguir, adaptadas da NBR 8160, são fornecidas as informações necessárias para o dimensionamento.\n\nTabela 1 – Unidades de Hunter de contribuição\n\ndos aparelhos sanitários\n\nAparelho sanitário Número de unidades de\n\nHunter de contribuição\n\nBacia sanitária 6\n\nBanheira de residência 2\n\nChuveiro de residência 1\n\nLavatório de residência 1\n\nTabela 2 – Dimensionamento de tubos de queda\n\nNúmero máximo de unidades de\n\nDiâmetro Hunter de contribuição\n\nnominal do tubo Prédio de até Prédio com mais\n\ntrês pavimentos de três pavimentos\n\n40 4 8\n\n50 10 24\n\n75 30 70\n\n100 240 500\n\n150 960 1900\n\n200 2200 3600",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O sistema eletromecânico da figura I é utilizado em uma linha de produção para liberar de forma precisa a quantidade determinada de um líquido utilizado em certa etapa do processo produtivo. O sensor de pressão diferencial adotado no reservatório do líquido tem saída linear na faixa de 0 a 5V.\n\nMantendo-se uma margem de segurança no controle do processo, o nível de líquido no reservatório é mantido sempre entre um nível mínimo e um nível máximo, cujos valores de saída do sensor são 1,8V e 4,8V, respectivamente. Para gerar a saída PWM ( pulse width modulation ) de abertura da válvula solenoide, o controlador utiliza como base uma onda quadrada de tensão positiva de período constante, ajustada com base num nível de referência, de forma que ,quando a tensão de saída do sensor de pressão é igual a 3,6V, a duração do nível alto de saída para a válvula solenoide corresponde a 50% do período do ciclo.\n\nA figura II apresenta a visualização da saída do controlador na situação de abertura mínima da válvula.\n\nFigura I\n\nFigura II",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Julgue o seguinte item, referente à representação gráfica de projetos de arquitetura.",
+   "citacao": "",
+   "imagem": true
+  },
+  {
+   "ref": "",
+   "conteudo": "Acerca do mapa de riscos ocupacionais, julgue o seguinte item.",
+   "citacao": "",
+   "imagem": true
   }
  ]
 }

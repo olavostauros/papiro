@@ -2112,7 +2112,8 @@
     "R(5) + [R(6) ÷ R(7)]",
     "R(5) × R(F)",
     "R(5) ÷ R(F)"
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-pcpe-perito-area-1-084",
@@ -2130,7 +2131,8 @@
     "R(T) = Q(C) + R(A) × R(B) × R(D).",
     "R(T) = R(A) × R(B) − [R(C) × R(D)].",
     "R(T) = R(A) ÷ R(B) + [R(C) × R(D)]."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2016-pcpe-perito-area-1-085",
@@ -4416,7 +4418,8 @@
     "A potência ativa demandada pela carga é igual a 6 kW.",
     "A potência reativa necessária para suprir a carga é superior a 6,5 kVAr.",
     "Os ângulos das correntes de linha e de fase são iguais."
-   ]
+   ],
+   "texto": 1
   },
   {
    "id": "cebraspe-2016-pcpe-perito-area-3-078",
@@ -5334,7 +5337,8 @@
     "v = k × [S O 2 ! ] × [I G ] 3 . 2 8",
     "v = k × [S O 2 ! ] 3 × [I G ]. 2 8",
     "v = k × [S O 2 ! ] × [I G ] 2 . 2 8"
-   ]
+   ],
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-pcpe-perito-area-4-060",
@@ -5352,7 +5356,8 @@
     ".",
     ".",
     "."
-   ]
+   ],
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-pcpe-perito-area-4-061",
@@ -5478,7 +5483,8 @@
     "2%.",
     "4%.",
     "16%."
-   ]
+   ],
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-pcpe-perito-area-4-068",
@@ -5496,7 +5502,8 @@
     "cloreto de sódio; entre 4 e 5",
     "acetato de sódio; entre 2 e 3",
     "acetato de sódio; entre 3 e 4"
-   ]
+   ],
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-pcpe-perito-area-4-069",
@@ -5532,7 +5539,8 @@
     "a reação se encontrará em equilíbrio, e as velocidades das reações direta e inversa serão iguais.",
     "a reação não se encontrará em equilíbrio, e a velocidade da reação direta será superior à da reação inversa.",
     "a reação não se encontrará em equilíbrio, e a velocidade da reação inversa será superior à da reação direta."
-   ]
+   ],
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-pcpe-perito-area-4-071",
@@ -5550,7 +5558,8 @@
     "despressurização do sistema e adição de um catalisador.",
     "adição de um gás inerte e diminuição da temperatura.",
     "despressurização do sistema e aumento da temperatura."
-   ]
+   ],
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-pcpe-perito-area-4-072",
@@ -5568,7 +5577,8 @@
     "1,0.",
     "2,0.",
     "4,0."
-   ]
+   ],
+   "texto": 2
   },
   {
    "id": "cebraspe-2016-pcpe-perito-area-4-073",
@@ -12660,7 +12670,8 @@
     "200 Ω",
     "300 Ω",
     "500 Ω"
-   ]
+   ],
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-pcpe-perito-area-10-069",
@@ -12678,7 +12689,8 @@
     "7,5 mA.",
     "10 mA.",
     "15 mA."
-   ]
+   ],
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-pcpe-perito-area-10-070",
@@ -12696,7 +12708,8 @@
     "C / ER.",
     "EC.",
     "EC / R."
-   ]
+   ],
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-pcpe-perito-area-10-072",
@@ -13038,7 +13051,8 @@
     "λ tem velocidade c .",
     "f O elétron se mantém como partícula.",
     "Apesar de o fóton ter massa de repouso nula, ele tem momento linear , em que λ é o comprimento de onda do fóton."
-   ]
+   ],
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-pcpe-perito-area-10-091",
@@ -13056,7 +13070,8 @@
     "0,5 Å",
     "1,0 Å",
     "3,0 Å"
-   ]
+   ],
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-pcpe-perito-area-10-092",
@@ -13074,7 +13089,8 @@
     "0º.",
     "45º.",
     "90º."
-   ]
+   ],
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-pcpe-perito-area-10-093",
@@ -13164,7 +13180,8 @@
     "82 nêutrons e 56 prótons.",
     "26 nêutrons e 30 prótons.",
     "28 nêutrons e 28 prótons."
-   ]
+   ],
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-pcpe-perito-area-10-098",
@@ -13182,7 +13199,8 @@
     ".",
     ".",
     "."
-   ]
+   ],
+   "texto": 3
   },
   {
    "id": "cebraspe-2016-pcpe-perito-area-10-099",
@@ -25855,6 +25873,32 @@
     "dificuldade de captura dos documentos.",
     "obsolescência de hardware e de software ."
    ]
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "O circuito precedente apresenta a configuração de um sistema de confiabilidade com quatro subsistemas e oito componentes instalados, em série e paralelo. A confiabilidade total R(T) desse sistema é calculada a partir da combinação das confiabilidades dos subsistemas R(A), R(B), R(C), R(D) bem como da confiabilidade individual dos oito componentes R(1), R(2), R(3), R(4), R(5), R(6), R(7) e R(8).",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Figura 4A5AAA",
+   "citacao": "G. Cavalin e S. Cervelin. Instalações Elétricas Prediais . Editora Érica, 17.ª ed., São Paulo 2007, p. 137.",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Considere que, na temperatura T 0 , a constante de equilíbrio para a reação de decomposição do N 2 O 4 ( g ) apresentada a seguir seja igual a 4,0 e que o comportamento dos gases envolvidos nessa reação seja ideal.\n\nN O ( g ) + calor » 2NO ( g )",
+   "citacao": "2 4 2",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O núcleo atômico pode ser modelado como uma esfera de raio R que depende somente da quantidade A de núcleons existentes no núcleo. Em termos matemáticos, isso pode ser expresso por , em que R 0 é uma constante e A , chamado de número de massa, é o número inteiro mais próximo da massa do núcleo em unidades de massa atômica u .",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

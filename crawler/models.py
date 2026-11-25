@@ -61,6 +61,20 @@ class ProvaMeta(BaseModel):
     id_cargo: Optional[str] = None  # e.g. "escrivao"; defaults to first word
 
 
+class TextoBase(BaseModel):
+    """Texto-base que embasa um grupo de itens da mesma prova.
+
+    ``ref`` é o rótulo da banca ("CG1A1", "" quando sem rótulo); ``citacao``
+    é a linha bibliográfica do fim; ``imagem`` marca texto só em imagem no
+    PDF (conteúdo vazio — a fonte oficial é o caminho).
+    """
+
+    ref: str = ""
+    conteudo: str = ""
+    citacao: str = ""
+    imagem: bool = False
+
+
 class Questao(BaseModel):
     """Dataset record — the flat shape shard_to_records() emits and the API serves."""
 
@@ -75,6 +89,7 @@ class Questao(BaseModel):
     alternativas: list[str]
     gabarito: str
     fonte: str
+    texto: Optional[TextoBase] = None
 
 
 def make_id(meta: ProvaMeta, numero: int) -> str:
@@ -93,6 +108,7 @@ def to_questao(
     extraida: QuestaoExtraida,
     meta: ProvaMeta,
     gabarito: Optional[str] = None,
+    texto: Optional[dict] = None,
 ) -> Questao:
     tipo = infer_tipo(extraida.alternativas)
     gab = (gabarito or extraida.gabarito or "").strip().lower()
@@ -114,4 +130,5 @@ def to_questao(
         alternativas=extraida.alternativas,
         gabarito=gab,
         fonte=meta.fonte,
+        texto=TextoBase.model_validate(texto) if texto else None,
     )

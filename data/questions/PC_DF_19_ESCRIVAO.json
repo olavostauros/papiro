@@ -73,7 +73,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O principal objetivo do texto é alertar as mulheres sobre a violência letal cometida contra elas no ambiente doméstico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-pcdf-escrivao-007",
@@ -95,7 +96,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No trecho “Muitas delas saíram do espaço da casa como asilo (‘lugar onde ficam isentos da execução das leis os que a ele se recolhem’) para o necrotério” (ℓ. 10 a 12), a definição de asilo é um recurso utilizado para fazer referência direta à impunidade associada aos crimes contra as mulheres “assassinadas pela fúria do gênero” (ℓ. 4 e 5).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-pcdf-escrivao-009",
@@ -106,7 +108,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O texto é predominantemente argumentativo e um dos elementos principais em que se esteia é a evidência das provas, que se apresenta por meio de fatos comprovados por dados estatísticos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2021-pcdf-escrivao-010",
@@ -183,7 +186,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O fio dental enredado é usado pela personagem como metáfora para denotar não só o nível de desgaste do seu relacionamento infeliz, mas também para explicitar sua passividade diante de tal fato.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2021-pcdf-escrivao-018",
@@ -414,7 +418,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os núcleos urbanos de Planaltina e Brazlândia, preexistentes à construção de Brasília e à constituição do atual Distrito Federal, são cidades históricas nas quais o poder público impôs restrições à urbanização com vistas à preservação de seu patrimônio histórico.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2021-pcdf-escrivao-039",
@@ -1063,7 +1068,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Considerando-se que a célula D2 contenha a fórmula =(B$2+C$2) , é correto concluir que, ao se arrastar a alça de preenchimento para baixo até a célula D4 , o valor resultante nesta célula será 400.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-pcdf-escrivao-102",
@@ -1074,7 +1080,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Considerando-se que a célula D5 contenha a fórmula =SOMA(B2:C4) , é correto afirmar que o valor resultante nessa célula será 200.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2021-pcdf-escrivao-103",
@@ -2296,6 +2303,32 @@
    "tipo": "certo_errado",
    "enunciado": "Um promotor de justiça requisitou, mediante ofício, a imediata instauração de inquérito policial para apuração de notícia-crime recebida diretamente pelo Ministério Público. Nessa situação, o ofício requisitório, em regra, será a peça inicial do inquérito policial, não havendo necessidade de elaboração de portaria pela autoridade policial.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Débora Diniz. Perspectivas e articulações de uma pesquisa feminista . In : Estudos feministas e de gênero: articulações e perspectivas. Florianópolis: Ed. Mulheres, 2014 (com adaptações).",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Lygia Fagundes Telles. Noturno Amarelo . In : Mistérios . Rio de Janeiro: Nova Fronteira, 1981 (com adaptações). Julgue os itens seguintes, relativos aos sentidos e a aspectos linguísticos do texto precedente.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O território do Distrito Federal é um mosaico morfológico. Brasília não foi construída em território virgem: os núcleos urbanos de Planaltina (século XIX) e de Brazlândia (anos 30 do século XX) e sedes isoladas de fazendas preexistiram à edificação da nova capital. O modernismo clássico de Brasília, de início, contrastou com o vernáculo de construções seculares.",
+   "citacao": "Frederico Holanda. UnB, 2019 (com adaptações).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Tendo como referência a figura precedente, que apresenta parte de uma planilha sendo editada no Microsoft Office Excel, julgue os próximos itens.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

@@ -1329,7 +1329,8 @@
     "Apenas os itens I e II estão certos.",
     "Apenas os itens II e III estão certos.",
     "Todos os itens estão certos."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pcpe-escrivao-022",
@@ -1347,7 +1348,8 @@
     "O sujeito da oração que forma o período em questão classifica-se como simples.",
     "O verbo decorrer exige complemento introduzido por preposição.",
     "A substituição do termo “Disso” por Nisso seria gramaticalmente correta."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pcpe-escrivao-023",
@@ -1365,7 +1367,8 @@
     "Portanto quando alguém diz a uma pessoa gorda que ela é assim, porque quer ou porque não se esforça para emagrecer, está ignorando uma série de fatores, que podem dificultar muito esse processo.",
     "Quando alguém diz a uma pessoa gorda que ela é assim porque quer, ou porque não se esforça para emagrecer, está ignorando uma série de fatores, que podem, portanto, dificultar muito esse processo.",
     "Quando alguém diz a uma pessoa gorda que ela é assim porque quer ou porque não se esforça para emagrecer, está ignorando portanto uma série de fatores que podem dificultar muito esse processo."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pcpe-escrivao-025",
@@ -1383,7 +1386,8 @@
     "Apenas os itens I e II estão certos.",
     "Apenas os itens I e III estão certos.",
     "Todos os itens estão certos."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pcpe-escrivao-026",
@@ -1401,7 +1405,8 @@
     "às orientações de profissionais da saúde, como médicos e nutricionistas.",
     "à contratação de pessoas obesas.",
     "à culpabilização dos pais por fatores de risco para o desenvolvimento da obesidade em crianças."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pcpe-escrivao-027",
@@ -1419,7 +1424,8 @@
     "fomentar .",
     "despontar .",
     "irromper ."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pcpe-escrivao-028",
@@ -1437,7 +1443,8 @@
     "O personagem descreve os movimentos erráticos das tanajuras a fim de ressaltar como esses insetos marcaram sua infância.",
     "O personagem descreve seu pai como um homem pobre que costumava usar um gibão roto, com diversos enfeites, e camisa curta.",
     "O personagem narra que guardou na memória os gritos medonhos de revolta do pai pela chegada da seca."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pcpe-escrivao-029",
@@ -1455,7 +1462,8 @@
     "Apenas os itens I e II estão certos.",
     "Apenas os itens I e III estão certos.",
     "Todos os itens estão certos."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pcpe-escrivao-030",
@@ -1473,7 +1481,8 @@
     "Em “no de Amaro”, está elíptico o vocábulo pai diante da preposição “no”.",
     "O emprego do sinal indicativo de crase em “comparadas à chita de sinhá Leopoldina” deve-se ao fato de os termos da expressão “sinhá Leopoldina” serem femininos.",
     "Em “o abandonasse”, a forma pronominal “o” retoma “o poder”."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pcpe-escrivao-031",
@@ -1491,7 +1500,8 @@
     "Apenas o item II está certo.",
     "Apenas os itens I e III estão certos.",
     "Apenas os itens II e III estão certos."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pcpe-escrivao-032",
@@ -1671,7 +1681,8 @@
     "Revolver Short.",
     "Revolver Long.",
     "Winchester."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pcpe-escrivao-045",
@@ -1689,7 +1700,8 @@
     "28/1.225.",
     "45/1.225.",
     "66/1.225."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pcpe-escrivao-046",
@@ -1707,7 +1719,8 @@
     "13/25.",
     "18/25.",
     "21/25."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pcpe-escrivao-047",
@@ -1743,7 +1756,8 @@
     "Apenas os itens I e II estão certos.",
     "Apenas os itens I e III estão certos.",
     "Todos os itens estão certos."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pcpe-escrivao-049",
@@ -1761,7 +1775,8 @@
     "16% e 17%.",
     "17% e 18%.",
     "18% e 19%."
-   ]
+   ],
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-pcpe-escrivao-050",
@@ -5416,6 +5431,14 @@
     "refúgio de vida silvestre.",
     "reserva biológica."
    ]
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Os números de homicídios, de 2011 a 2021, de determinado país estão representados na tabela a seguir.\n\nnúmero de homicídios\n\nano\n\npor 100 mil habitantes\n\n2011 3.471\n\n2012 3.327\n\n2013 3.124\n\n2014 3.358\n\n2015 3.847\n\n2016 4.447\n\n2017 5.419\n\n2018 4.190\n\n2019 3.474\n\n2020 3.786\n\n2021 3.439",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

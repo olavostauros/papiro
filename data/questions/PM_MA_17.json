@@ -551,7 +551,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na arquitetura do computador da situação em apreço, assim como nas arquiteturas atuais, há uma BIOS para cada slot de memória.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-109",
@@ -562,7 +563,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A situação apresentada indica que o sistema operacional está configurado erroneamente, pois há um único processador e, por isso, somente poderia haver a identificação de um único processador.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-110",
@@ -573,7 +575,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os processadores mais recentes possuem, entre outras funcionalidades, a capacidade de ajustar dinamicamente seu desempenho de acordo com a demanda exigida pelo processamento.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-111",
@@ -584,7 +587,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A troca do processador do referido desktop para um processador com uma frequência de clock maior resultará necessariamente em melhora de desempenho do hardware e do software.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-112",
@@ -595,7 +599,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Na situação em apreço, dada a quantidade de slots de memória Espaço livre ocupados e de processadores, é impossível utilizar o dual-channel porque é necessário haver dois processadores físicos e dois pentes de memória instalados reconhecidos para que seja possível utilizar o dual-channel.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 0
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-113",
@@ -694,7 +699,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Prematuridade, assim como possíveis psicopatologias no meio familiar, pode constituir fator de risco para o desenvolvimento normal e saudável do bebê.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-062",
@@ -705,7 +711,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os comportamentos de Igor são típicos de um bebê de sua idade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-063",
@@ -716,7 +723,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A avaliação de algum sinal de risco psicológico não é adequada, tendo em vista a idade tenra do bebê.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-064",
@@ -727,7 +735,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os bebês já nascem com competências biológicas, cognitivas e emocionais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-065",
@@ -738,7 +747,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Leandra deveria ser encaminhada para acompanhamento psicológico individual, não sendo necessário Igor ser submetido a qualquer tratamento ou intervenção psicológica.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-066",
@@ -1343,7 +1353,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Prematuridade, assim como possíveis psicopatologias no meio familiar, pode constituir fator de risco para o desenvolvimento normal e saudável do bebê.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-062",
@@ -1354,7 +1365,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os comportamentos de Igor são típicos de um bebê de sua idade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-063",
@@ -1365,7 +1377,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A avaliação de algum sinal de risco psicológico não é adequada, tendo em vista a idade tenra do bebê.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-064",
@@ -1376,7 +1389,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os bebês já nascem com competências biológicas, cognitivas e emocionais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-065",
@@ -1387,7 +1401,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Leandra deveria ser encaminhada para acompanhamento psicológico individual, não sendo necessário Igor ser submetido a qualquer tratamento ou intervenção psicológica.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-066",
@@ -2663,7 +2678,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que, até 1993, a formação de oficiais da PM/MA acontecia em outros estados porque não havia academia de polícia militar no estado do Maranhão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-003",
@@ -2674,7 +2690,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O termo “a instituição” (R.4) recupera o sentido do termo “Corpo de Polícia da Província do Maranhão” (R.3), primeiro nome da PM/MA.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-004",
@@ -2696,7 +2713,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A forma verbal empregada no trecho ENTRE NESTA LUTA! sinaliza a intenção do autor do texto de levar os leitores a executarem determinada ação ou a desenvolverem determinado comportamento.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-006",
@@ -2707,7 +2725,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A vírgula logo após Prezado(a) Senhor(a) foi empregada para isolar um vocativo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-007",
@@ -2729,7 +2748,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O autor do texto optou pela utilização de um nível de linguagem predominantemente informal como estratégia para atrair o interesse dos leitores.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-009",
@@ -2740,7 +2760,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conforme o último parágrafo do texto, inexistem ações colaborativas entre o poder público e a sociedade civil na busca de segurança e de qualidade de vida para os cidadãos brasileiros.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-010",
@@ -2751,7 +2772,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No texto, predominam o uso de linguagem denotativa e o tipo textual argumentativo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-012",
@@ -2762,7 +2784,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, devido ao fato de praticamente não existirem discussões sobre a segurança pública no Brasil, a qualidade e a democratização do debate são desafios para o país.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-013",
@@ -2773,7 +2796,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No texto, a palavra “adstrito” (R.11) tem o mesmo sentido de limitado.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-014",
@@ -2784,7 +2808,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A locução “mas também” (R.15) estabelece uma relação de oposição no período em que ocorre. CESPE | CEBRASPE – PM/MA – Aplicação: 2017",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-015",
@@ -2795,7 +2820,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A vitória eleitoral de Getúlio Vargas, em 1930, pôs fim à República Velha, inaugurando uma nova fase da história política brasileira, rigorosamente oposta ao que se praticava até então.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-016",
@@ -2806,7 +2832,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O caráter essencialmente oligárquico da Primeira República, também denominada República Velha, deve-se ao domínio político das elites regionais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-017",
@@ -2817,7 +2844,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A expressão “política do café com leite”, normalmente utilizada para caracterizar a Primeira República, reflete a supremacia política dos dois estados economicamente mais poderosos no país à época, São Paulo e Minas Gerais.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-018",
@@ -2828,7 +2856,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Na Primeira República, o número de eleitores era bem elevado; e o voto secreto, amparado por eficiente justiça eleitoral, garantia a lisura das eleições.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-019",
@@ -2839,7 +2868,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Confirmando o que o texto sugere, o movimento tenentista da década de 20 do século XX contestou o modelo político vigente no país e, pelas armas, tentou derrubar as estruturas políticas em vigor.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-020",
@@ -2850,7 +2880,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A renúncia do presidente Jânio Quadros, em 1961, motivou profunda crise política no país, temporariamente solucionada com a adoção do sistema parlamentarista.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-021",
@@ -2861,7 +2892,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O ciclo autoritário ao qual o texto se refere foi desencadeado pela deposição do presidente João Goulart pelos militares.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-022",
@@ -2872,7 +2904,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A derrubada do regime militar, em 1985, deu-se em decorrência de revolta armada que havia unido setores civis e militares descontentes com o governo dos generais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-023",
@@ -2883,7 +2916,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Exemplo dramático das crises a que o texto se refere foi a morte do presidente Vargas, assassinado no auge da Guerra Fria por adversários políticos apoiados pela espionagem norte-americana.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-024",
@@ -2894,7 +2928,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O governo de Juscelino Kubitschek, na segunda metade da década de 50 do século XX, teve como marco a política desenvolvimentista e o ideal de fazer o Brasil progredir cinquenta anos em cinco.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 5
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-025",
@@ -2905,7 +2940,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No século XVII, o Maranhão foi local de conflito entre os colonos, que não aceitavam escravizar indígenas, e os jesuítas, que impediam a escravidão africana na região.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-026",
@@ -2916,7 +2952,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A revolta liderada pelo senhor de engenho Manuel Beckman foi vitoriosa: coroado rei, Beckman governou o Maranhão por muitos anos até ser condenado e enforcado pelo Tribunal do Santo Ofício, fato que resultou na reintegração da região ao Estado do Brasil.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-027",
@@ -2927,7 +2964,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O projeto de colonização francesa no Brasil teve início com a fundação da França Equinocial, na região do atual Maranhão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-028",
@@ -2938,7 +2976,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A construção do Forte de São Luís, localizado em uma ilha da baía de São Marcos, resultou da ação do francês Daniel de La Touche, senhor de La Ravardière.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-029",
@@ -2949,7 +2988,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A resistência francesa em defesa da França Equinocial, sob o comando de La Ravardière, impediu a conquista portuguesa do território do Maranhão, fato concretizado às vésperas da Independência do Brasil.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 6
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-031",
@@ -2960,7 +3000,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Ao negar-se a enfrentar os balaios, Luís Alves de Lima e Silva, o futuro Duque de Caxias, recusou-se, pela primeira e única vez, a cumprir uma ordem do governo central.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-032",
@@ -2971,7 +3012,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "À época da Balaiada, a economia maranhense estava assentada na agroindústria açucareira, pois as culturas de algodão e arroz haviam fracassado por completo.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-033",
@@ -2982,7 +3024,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A classe camponesa maranhense, no contexto das Regências, formou-se a partir de três matrizes: indígenas aldeados, escravos alforriados ou quilombolas e emigrantes do sertão cearense.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-034",
@@ -2993,7 +3036,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A Balaiada é considerada uma das grandes revoltas rurais da história do Brasil.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-035",
@@ -3048,7 +3092,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A expansão das fronteiras agrícolas, nos últimos anos, no território nacional reocupou terras agrícolas degradadas e de baixa produtividade nos biomas cerrado e caatinga e ocorreu em razão das demandas do mercado e da sociedade pela preservação do meio ambiente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-040",
@@ -3059,7 +3104,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A imagem do agronegócio foi construída para renovar a imagem da agricultura capitalista, para “modernizá-la”; trata-se de uma construção geográfico-ideológica que destaca o aumento da produção, da riqueza e das novas tecnologias.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-041",
@@ -3070,7 +3116,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O agronegócio integra a agricultura e a comercialização direta da produção, principalmente para o mercado interno, possibilitando a concentração de terras nas mãos de grandes empresas nacionais que atuam em diversos setores da economia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-042",
@@ -3158,7 +3205,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A criação do Consórcio Siderúrgico do Maranhão, a ALUMAR — siderúrgica produtora de ferro-gusa e aços inoxidáveis — foi um dos principais investimentos da política de industrialização tardia do Maranhão.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-052",
@@ -3246,7 +3294,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Considerando que AB seja igual a 1,70 m, que essa seja a altura dos olhos do agente e que 0,58 seja o valor aproximado para tg30º, então a câmera estava a uma altura inferior a 7 m.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-pmma-soldado-quadro-praca-060",
@@ -3257,7 +3306,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No dia da operação, caso precise evadir-se do estabelecimento pela porta de entrada e chegar ao ponto correspondente à base móvel, um agente que esteja no ponto C precisará se deslocar por, pelo menos, 26 m.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-001",
@@ -3268,7 +3318,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do acento indicativo de crase em “às células-tronco adultas” (R. 6 e 7) é facultativo, dada a presença de termo masculino na palavra composta “células-tronco”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-002",
@@ -3279,7 +3330,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Dado o emprego da partícula “se”, em “Esperava-se” (R.9) e “sabe-se” (R.15), é impossível determinar de modo preciso quem esperava “que (...) as células-tronco adultas pudessem originar vasos sanguíneos e células cardíacas” (R. 9 a 12) e quem sabe “que as células-tronco adultas não são tão versáteis quanto prometiam” (R. 15 e 16).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-003",
@@ -3290,7 +3342,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em ciência, um resultado negativo, embora também tenha seu valor na construção do saber, é considerado algo de menor prestígio, por não resultar em prêmios ou em publicações.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-004",
@@ -3301,7 +3354,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que apenas as células-tronco encontradas em embriões e no tecido adiposo são capazes de se transformar em células de diversos tipos, apesar de haver outras fontes de células-tronco.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-005",
@@ -3312,7 +3366,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O período “Teve início, então, uma série de ensaios clínicos — testes em pessoas —, que foram amplamente noticiados” (R. 12 a 14) poderia ser corretamente reescrito da seguinte forma: Iniciaram-se, então, vários ensaios clínicos — testes em pessoas —, os quais foram amplamente noticiados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-006",
@@ -3323,7 +3378,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No período “As células imploram pelo açúcar que não conseguem receber, e que sai, literalmente, na urina” (R. 11 a 13), o vocábulo “que”, nas duas ocorrências, tem o mesmo referente e desempenha a função sintática de sujeito nas orações em que se insere.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-007",
@@ -3345,7 +3401,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Há uma metáfora no período “Há séculos, sabe-se que a urina do diabético é uma festa para o formigueiro” (R. 15 a 17).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-009",
@@ -3356,7 +3413,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seriam mantidos a correção gramatical e os sentidos do texto caso o trecho “aos médicos” (R.17) fosse reescrito como dos médicos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-010",
@@ -3367,7 +3425,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As aspas foram empregadas em ‘barato’ (R.8) e em ‘As carnes se dissolvem na urina’ (R. 18 e 19) por motivos distintos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-011",
@@ -3378,7 +3437,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego das palavras “doido” e “véi” indica que há uma relação simétrica e informal entre os interlocutores.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-012",
@@ -3389,7 +3449,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se da fala do mosquito que está voando que ele se dirige a apenas um dos dois mosquitos que estão próximos ao vidro de vacina contra a dengue.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-013",
@@ -3598,7 +3659,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As cidades que apresentam maior grau de complexidade socioeconômica e polarizam todo o território brasileiro e parte da América do Sul são as metrópoles nacionais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-035",
@@ -3609,7 +3671,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A desconcentração espacial das atividades econômicas, a partir de 1990, promoveu o crescimento das cidades médias.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-036",
@@ -3620,7 +3683,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em 1970, as regiões Sudeste, Sul e Centro-Oeste evidenciavam um momento de pré-transição demográfica.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-037",
@@ -3631,7 +3695,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O processo de envelhecimento da população brasileira iniciou-se na década de 90 do século passado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-038",
@@ -3642,7 +3707,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A regularidade térmica observada na cidade de São Luís ao longo do ano, conforme indicado na figura I, deve-se ao efeito da continentalidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-039",
@@ -3653,7 +3719,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A maior pluviosidade nos meses de março e abril na porção norte do estado do Maranhão é efeito da zona de convergência intertropical (ZCIT).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-040",
@@ -3664,7 +3731,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em relação à variação sazonal, na cidade de Colinas, as temperaturas do ar mais elevadas ocorrem entre os meses de setembro e dezembro, em virtude das massas de ar seco. CESPE | CEBRASPE – PM/MA – Aplicação: 2017",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-041",
@@ -3763,7 +3831,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A altura em que o bloco se encontrava no início do movimento era superior a 2 m.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-050",
@@ -3774,7 +3843,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trabalho realizado pela força de atrito não é conservativo, visto que o atrito gera calor ao longo de todo o trajeto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-051",
@@ -3785,7 +3855,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A força resultante sobre o bloco é nula.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-052",
@@ -3796,7 +3867,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Ao se dobrar a massa desse bloco, a força de atrito atuante também será dobrada. CESPE | CEBRASPE – PM/MA – Aplicação: 2017",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2017-pmma-psicologo-053",
@@ -3895,7 +3967,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do acento indicativo de crase em “às células-tronco adultas” (R. 6 e 7) é facultativo, dada a presença de termo masculino na palavra composta “células-tronco”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-002",
@@ -3906,7 +3979,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Dado o emprego da partícula “se”, em “Esperava-se” (R.9) e “sabe-se” (R.15), é impossível determinar de modo preciso quem esperava “que (...) as células-tronco adultas pudessem originar vasos sanguíneos e células cardíacas” (R. 9 a 12) e quem sabe “que as células-tronco adultas não são tão versáteis quanto prometiam” (R. 15 e 16).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-003",
@@ -3917,7 +3991,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em ciência, um resultado negativo, embora também tenha seu valor na construção do saber, é considerado algo de menor prestígio, por não resultar em prêmios ou em publicações.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-004",
@@ -3928,7 +4003,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que apenas as células-tronco encontradas em embriões e no tecido adiposo são capazes de se transformar em células de diversos tipos, apesar de haver outras fontes de células-tronco.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-005",
@@ -3939,7 +4015,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O período “Teve início, então, uma série de ensaios clínicos — testes em pessoas —, que foram amplamente noticiados” (R. 12 a 14) poderia ser corretamente reescrito da seguinte forma: Iniciaram-se, então, vários ensaios clínicos — testes em pessoas —, os quais foram amplamente noticiados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-006",
@@ -3950,7 +4027,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No período “As células imploram pelo açúcar que não conseguem receber, e que sai, literalmente, na urina” (R. 11 a 13), o vocábulo “que”, nas duas ocorrências, tem o mesmo referente e desempenha a função sintática de sujeito nas orações em que se insere.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-007",
@@ -3972,7 +4050,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Há uma metáfora no período “Há séculos, sabe-se que a urina do diabético é uma festa para o formigueiro” (R. 15 a 17).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-009",
@@ -3983,7 +4062,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seriam mantidos a correção gramatical e os sentidos do texto caso o trecho “aos médicos” (R.17) fosse reescrito como dos médicos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-010",
@@ -3994,7 +4074,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As aspas foram empregadas em ‘barato’ (R.8) e em ‘As carnes se dissolvem na urina’ (R. 18 e 19) por motivos distintos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-011",
@@ -4005,7 +4086,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego das palavras “doido” e “véi” indica que há uma relação simétrica e informal entre os interlocutores.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-012",
@@ -4016,7 +4098,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se da fala do mosquito que está voando que ele se dirige a apenas um dos dois mosquitos que estão próximos ao vidro de vacina contra a dengue.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-013",
@@ -4225,7 +4308,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As cidades que apresentam maior grau de complexidade socioeconômica e polarizam todo o território brasileiro e parte da América do Sul são as metrópoles nacionais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-035",
@@ -4236,7 +4320,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A desconcentração espacial das atividades econômicas, a partir de 1990, promoveu o crescimento das cidades médias.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-036",
@@ -4247,7 +4332,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em 1970, as regiões Sudeste, Sul e Centro-Oeste evidenciavam um momento de pré-transição demográfica.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-037",
@@ -4258,7 +4344,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O processo de envelhecimento da população brasileira iniciou-se na década de 90 do século passado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-038",
@@ -4269,7 +4356,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A regularidade térmica observada na cidade de São Luís ao longo do ano, conforme indicado na figura I, deve-se ao efeito da continentalidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-039",
@@ -4280,7 +4368,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A maior pluviosidade nos meses de março e abril na porção norte do estado do Maranhão é efeito da zona de convergência intertropical (ZCIT).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-040",
@@ -4291,7 +4380,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em relação à variação sazonal, na cidade de Colinas, as temperaturas do ar mais elevadas ocorrem entre os meses de setembro e dezembro, em virtude das massas de ar seco. CESPE | CEBRASPE – PM/MA – Aplicação: 2017",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-041",
@@ -4390,7 +4480,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A altura em que o bloco se encontrava no início do movimento era superior a 2 m.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-050",
@@ -4401,7 +4492,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trabalho realizado pela força de atrito não é conservativo, visto que o atrito gera calor ao longo de todo o trajeto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-051",
@@ -4412,7 +4504,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A força resultante sobre o bloco é nula.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-052",
@@ -4423,7 +4516,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Ao se dobrar a massa desse bloco, a força de atrito atuante também será dobrada. CESPE | CEBRASPE – PM/MA – Aplicação: 2017",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2017-pmma-cirurgiao-dentista-053",
@@ -4522,7 +4616,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do acento indicativo de crase em “às células-tronco adultas” (R. 6 e 7) é facultativo, dada a presença de termo masculino na palavra composta “células-tronco”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-medico-veterinario-002",
@@ -4533,7 +4628,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Dado o emprego da partícula “se”, em “Esperava-se” (R.9) e “sabe-se” (R.15), é impossível determinar de modo preciso quem esperava “que (...) as células-tronco adultas pudessem originar vasos sanguíneos e células cardíacas” (R. 9 a 12) e quem sabe “que as células-tronco adultas não são tão versáteis quanto prometiam” (R. 15 e 16).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-medico-veterinario-003",
@@ -4544,7 +4640,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em ciência, um resultado negativo, embora também tenha seu valor na construção do saber, é considerado algo de menor prestígio, por não resultar em prêmios ou em publicações.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-medico-veterinario-004",
@@ -4555,7 +4652,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que apenas as células-tronco encontradas em embriões e no tecido adiposo são capazes de se transformar em células de diversos tipos, apesar de haver outras fontes de células-tronco.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-medico-veterinario-005",
@@ -4566,7 +4664,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O período “Teve início, então, uma série de ensaios clínicos — testes em pessoas —, que foram amplamente noticiados” (R. 12 a 14) poderia ser corretamente reescrito da seguinte forma: Iniciaram-se, então, vários ensaios clínicos — testes em pessoas —, os quais foram amplamente noticiados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-medico-veterinario-006",
@@ -4577,7 +4676,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No período “As células imploram pelo açúcar que não conseguem receber, e que sai, literalmente, na urina” (R. 11 a 13), o vocábulo “que”, nas duas ocorrências, tem o mesmo referente e desempenha a função sintática de sujeito nas orações em que se insere.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-medico-veterinario-007",
@@ -4599,7 +4699,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Há uma metáfora no período “Há séculos, sabe-se que a urina do diabético é uma festa para o formigueiro” (R. 15 a 17).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-medico-veterinario-009",
@@ -4610,7 +4711,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seriam mantidos a correção gramatical e os sentidos do texto caso o trecho “aos médicos” (R.17) fosse reescrito como dos médicos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-medico-veterinario-010",
@@ -4621,7 +4723,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As aspas foram empregadas em ‘barato’ (R.8) e em ‘As carnes se dissolvem na urina’ (R. 18 e 19) por motivos distintos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-medico-veterinario-011",
@@ -4632,7 +4735,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego das palavras “doido” e “véi” indica que há uma relação simétrica e informal entre os interlocutores.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-medico-veterinario-012",
@@ -4643,7 +4747,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se da fala do mosquito que está voando que ele se dirige a apenas um dos dois mosquitos que estão próximos ao vidro de vacina contra a dengue.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-medico-veterinario-013",
@@ -4852,7 +4957,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As cidades que apresentam maior grau de complexidade socioeconômica e polarizam todo o território brasileiro e parte da América do Sul são as metrópoles nacionais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2017-pmma-medico-veterinario-035",
@@ -4863,7 +4969,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A desconcentração espacial das atividades econômicas, a partir de 1990, promoveu o crescimento das cidades médias.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2017-pmma-medico-veterinario-036",
@@ -4874,7 +4981,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em 1970, as regiões Sudeste, Sul e Centro-Oeste evidenciavam um momento de pré-transição demográfica.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2017-pmma-medico-veterinario-037",
@@ -4885,7 +4993,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O processo de envelhecimento da população brasileira iniciou-se na década de 90 do século passado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2017-pmma-medico-veterinario-038",
@@ -4896,7 +5005,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A regularidade térmica observada na cidade de São Luís ao longo do ano, conforme indicado na figura I, deve-se ao efeito da continentalidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2017-pmma-medico-veterinario-039",
@@ -4907,7 +5017,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A maior pluviosidade nos meses de março e abril na porção norte do estado do Maranhão é efeito da zona de convergência intertropical (ZCIT).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2017-pmma-medico-veterinario-040",
@@ -4918,7 +5029,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em relação à variação sazonal, na cidade de Colinas, as temperaturas do ar mais elevadas ocorrem entre os meses de setembro e dezembro, em virtude das massas de ar seco. CESPE | CEBRASPE – PM/MA – Aplicação: 2017",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2017-pmma-medico-veterinario-041",
@@ -5017,7 +5129,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A altura em que o bloco se encontrava no início do movimento era superior a 2 m.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2017-pmma-medico-veterinario-050",
@@ -5028,7 +5141,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trabalho realizado pela força de atrito não é conservativo, visto que o atrito gera calor ao longo de todo o trajeto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2017-pmma-medico-veterinario-051",
@@ -5039,7 +5153,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A força resultante sobre o bloco é nula.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2017-pmma-medico-veterinario-052",
@@ -5050,7 +5165,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Ao se dobrar a massa desse bloco, a força de atrito atuante também será dobrada. CESPE | CEBRASPE – PM/MA – Aplicação: 2017",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2017-pmma-medico-veterinario-053",
@@ -5149,7 +5265,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego do acento indicativo de crase em “às células-tronco adultas” (R. 6 e 7) é facultativo, dada a presença de termo masculino na palavra composta “células-tronco”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-medico-002",
@@ -5160,7 +5277,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Dado o emprego da partícula “se”, em “Esperava-se” (R.9) e “sabe-se” (R.15), é impossível determinar de modo preciso quem esperava “que (...) as células-tronco adultas pudessem originar vasos sanguíneos e células cardíacas” (R. 9 a 12) e quem sabe “que as células-tronco adultas não são tão versáteis quanto prometiam” (R. 15 e 16).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-medico-003",
@@ -5171,7 +5289,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em ciência, um resultado negativo, embora também tenha seu valor na construção do saber, é considerado algo de menor prestígio, por não resultar em prêmios ou em publicações.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-medico-004",
@@ -5182,7 +5301,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Infere-se do texto que apenas as células-tronco encontradas em embriões e no tecido adiposo são capazes de se transformar em células de diversos tipos, apesar de haver outras fontes de células-tronco.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-medico-005",
@@ -5193,7 +5313,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O período “Teve início, então, uma série de ensaios clínicos — testes em pessoas —, que foram amplamente noticiados” (R. 12 a 14) poderia ser corretamente reescrito da seguinte forma: Iniciaram-se, então, vários ensaios clínicos — testes em pessoas —, os quais foram amplamente noticiados.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-medico-006",
@@ -5204,7 +5325,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "No período “As células imploram pelo açúcar que não conseguem receber, e que sai, literalmente, na urina” (R. 11 a 13), o vocábulo “que”, nas duas ocorrências, tem o mesmo referente e desempenha a função sintática de sujeito nas orações em que se insere.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-medico-007",
@@ -5226,7 +5348,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Há uma metáfora no período “Há séculos, sabe-se que a urina do diabético é uma festa para o formigueiro” (R. 15 a 17).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-medico-009",
@@ -5237,7 +5360,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Seriam mantidos a correção gramatical e os sentidos do texto caso o trecho “aos médicos” (R.17) fosse reescrito como dos médicos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-medico-010",
@@ -5248,7 +5372,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As aspas foram empregadas em ‘barato’ (R.8) e em ‘As carnes se dissolvem na urina’ (R. 18 e 19) por motivos distintos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-medico-011",
@@ -5259,7 +5384,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O emprego das palavras “doido” e “véi” indica que há uma relação simétrica e informal entre os interlocutores.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-medico-012",
@@ -5270,7 +5396,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se da fala do mosquito que está voando que ele se dirige a apenas um dos dois mosquitos que estão próximos ao vidro de vacina contra a dengue.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2017-pmma-medico-013",
@@ -5479,7 +5606,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "As cidades que apresentam maior grau de complexidade socioeconômica e polarizam todo o território brasileiro e parte da América do Sul são as metrópoles nacionais.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2017-pmma-medico-035",
@@ -5490,7 +5618,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A desconcentração espacial das atividades econômicas, a partir de 1990, promoveu o crescimento das cidades médias.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2017-pmma-medico-036",
@@ -5501,7 +5630,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em 1970, as regiões Sudeste, Sul e Centro-Oeste evidenciavam um momento de pré-transição demográfica.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2017-pmma-medico-037",
@@ -5512,7 +5642,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O processo de envelhecimento da população brasileira iniciou-se na década de 90 do século passado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 12
   },
   {
    "id": "cebraspe-2017-pmma-medico-038",
@@ -5523,7 +5654,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A regularidade térmica observada na cidade de São Luís ao longo do ano, conforme indicado na figura I, deve-se ao efeito da continentalidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2017-pmma-medico-039",
@@ -5534,7 +5666,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A maior pluviosidade nos meses de março e abril na porção norte do estado do Maranhão é efeito da zona de convergência intertropical (ZCIT).",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2017-pmma-medico-040",
@@ -5545,7 +5678,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Em relação à variação sazonal, na cidade de Colinas, as temperaturas do ar mais elevadas ocorrem entre os meses de setembro e dezembro, em virtude das massas de ar seco. CESPE | CEBRASPE – PM/MA – Aplicação: 2017",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2017-pmma-medico-041",
@@ -5644,7 +5778,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A altura em que o bloco se encontrava no início do movimento era superior a 2 m.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2017-pmma-medico-050",
@@ -5655,7 +5790,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "O trabalho realizado pela força de atrito não é conservativo, visto que o atrito gera calor ao longo de todo o trajeto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2017-pmma-medico-051",
@@ -5666,7 +5802,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "A força resultante sobre o bloco é nula.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 14
   },
   {
    "id": "cebraspe-2017-pmma-medico-052",
@@ -5677,7 +5814,8 @@
    "assunto": 1,
    "tipo": "certo_errado",
    "enunciado": "Ao se dobrar a massa desse bloco, a força de atrito atuante também será dobrada. CESPE | CEBRASPE – PM/MA – Aplicação: 2017",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 14
   },
   {
    "id": "cebraspe-2017-pmma-medico-053",
@@ -5809,7 +5947,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O sopro mesodiastólico descrito no referido caso clínico é denominado sopro de Austin-Flint.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 15
   },
   {
    "id": "cebraspe-2017-pmma-medico-065",
@@ -5820,7 +5959,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A profilaxia contra a febre reumática deverá ser mantida até os vinte e cinco anos de idade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2017-pmma-medico-066",
@@ -5831,7 +5971,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Recomenda-se para esse paciente o uso de enalapril e acompanhamento semestral.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 15
   },
   {
    "id": "cebraspe-2017-pmma-medico-067",
@@ -5875,7 +6016,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O uso de clopidogrel e ácido acetil salicílico pode ser indicado para a referida paciente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 16
   },
   {
    "id": "cebraspe-2017-pmma-medico-071",
@@ -5886,7 +6028,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A paciente deve ser orientada a retornar com novo perfil lipídico após três meses de dieta com redução da ingestão de gordura trans e saturada e, caso os exames indiquem persistência dos níveis de LDL colesterol acima de 100 mg/dL, deve iniciar o uso de sinvastatina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2017-pmma-medico-072",
@@ -5897,7 +6040,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Recomenda-se realizar cintilografia miocárdica de perfusão associada ao teste ergométrico nas primeiras vinte e quatro horas após a consulta da paciente para avaliação prognóstica.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 16
   },
   {
    "id": "cebraspe-2017-pmma-medico-073",
@@ -5908,7 +6052,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Macrófagos, neutrófilos, linfócitos T, células CD8 citotóxicas e células Th1, Th17, ILC-3, em conjunto com células epiteliais e outras estruturas celulares, liberam mediadores inflamatórios que podem potencializar o quadro clínico de DPOC.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 17
   },
   {
    "id": "cebraspe-2017-pmma-medico-074",
@@ -5919,7 +6064,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Dadas as características apresentadas e a sinergia entre os fármacos, o paciente se beneficiará da substituição do atenolol pelo besilato de anlodipino mais do que do aumento da dose do atenolol, quanto à redução da pressão arterial.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 18
   },
   {
    "id": "cebraspe-2017-pmma-medico-075",
@@ -5930,7 +6076,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Trata-se de um caso de hipertensão arterial resistente.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 18
   },
   {
    "id": "cebraspe-2017-pmma-medico-076",
@@ -5985,7 +6132,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A solicitação da sorologia para hepatite e HIV é importante para elucidar uma possível causa da doença que acomete o referido paciente.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 19
   },
   {
    "id": "cebraspe-2017-pmma-medico-082",
@@ -5996,7 +6144,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A formação do edema em membros inferiores decorre do aumento da pressão hidrostática capilar.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2017-pmma-medico-083",
@@ -6007,7 +6156,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Espera-se encontrar diminuição dos níveis séricos de colesterol e de triglicerídeos do paciente, em função do aumento da excreção renal de lipídeos.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 19
   },
   {
    "id": "cebraspe-2017-pmma-medico-084",
@@ -6018,7 +6168,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Rigidez matinal que dura mais de uma hora é característica da inflamação articular e indica a gravidade do processo.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2017-pmma-medico-085",
@@ -6029,7 +6180,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O diagnóstico de lúpus eritematoso sistêmico é menos provável nesse caso clínico, em face de não haver relato de manifestações clínicas em outros órgãos ou sistemas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 20
   },
   {
    "id": "cebraspe-2017-pmma-medico-086",
@@ -6040,7 +6192,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para o tratamento dessa paciente, devem-se prescrever anti-inflamatórios não esteroidais, uma vez que a doença cursa com resolução espontânea dos sintomas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2017-pmma-medico-087",
@@ -6051,7 +6204,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Trata-se de provável comprometimento articular por infecção viral, dado o envolvimento poliarticular sem deformidades por mais de seis semanas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 20
   },
   {
    "id": "cebraspe-2017-pmma-medico-088",
@@ -6062,7 +6216,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A manobra de Dix-Hallpike consiste em deixar a paciente de pé com os olhos fechados por três minutos com o objetivo de desencadear o quadro de vertigem.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2017-pmma-medico-089",
@@ -6073,7 +6228,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O tratamento dessa paciente pode apresentar bons resultados com a realização da manobra de Epley.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 21
   },
   {
    "id": "cebraspe-2017-pmma-medico-090",
@@ -6084,7 +6240,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Trata-se da descrição de um quadro de vertigem de origem central.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 21
   },
   {
    "id": "cebraspe-2017-pmma-medico-091",
@@ -6128,7 +6285,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os achados mostrados na figura correlacionam-se com baixa dificuldade de intubação orotraqueal.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2017-pmma-medico-095",
@@ -6139,7 +6297,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo a classificação de Cormack e Lehane, a inspeção mostrada na figura é classificada como tipo I.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 22
   },
   {
    "id": "cebraspe-2017-pmma-medico-096",
@@ -6150,7 +6309,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Nessa paciente, a etiologia básica da emergência em curso é a presença de infarto agudo do miocárdio.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 23
   },
   {
    "id": "cebraspe-2017-pmma-medico-097",
@@ -6161,7 +6321,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O principal diagnóstico do caso em tela é de paciente com edema agudo de pulmão.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 23
   },
   {
    "id": "cebraspe-2017-pmma-medico-098",
@@ -6304,7 +6465,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Mesmo que a empregada se recupere dos sintomas clínicos apresentados, o médico deverá considerá-la inapta para o trabalho e encaminhá-la para perícia do INSS, para concessão de licença-médica durante todo o período de gestação, a fim de prevenir a mãe e o feto de agravos relacionados a atividades perigosas e insalubres.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2017-pmma-medico-111",
@@ -6315,7 +6477,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "É atribuição exclusiva do médico especialista em medicina do trabalho investigar e avaliar a existência de relação entre a causa da doença na referida empregada e as atividades profissionais por ela exercidas, verificando, também, os fatores de risco no ambiente de trabalho.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2017-pmma-medico-112",
@@ -6326,7 +6489,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para o estabelecimento do nexo causal entre os transtornos de saúde e as atividades da empregada na empresa, além dos exames necessários, o médico deve considerar como fundamentais as opiniões do empregador e do sindicato da categoria.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 24
   },
   {
    "id": "cebraspe-2017-pmma-medico-113",
@@ -6337,7 +6501,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Cabe ao médico que atendeu a empregada emitir a comunicação de acidente do trabalho ou outro documento que comprove o evento infortunístico, mesmo com base na mera suspeita de nexo causal da doença com o trabalho.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 24
   },
   {
    "id": "cebraspe-2017-pmma-medico-114",
@@ -6415,6 +6580,158 @@
    "tipo": "certo_errado",
    "enunciado": "A etiologia do câncer de pele está associada à exposição a raios ultravioleta, por isso agricultores e trabalhadores da construção civil, por exemplo, tendem a apresentar taxas de incidência de câncer de pele mais elevadas que a população em geral e de outros trabalhadores cujas atividades são realizadas sem exposição à radiação solar.",
    "gabarito": "certo"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "Em um desktop foi instalada uma placa-mãe que contém quatro slots para memória DDR3 com suporte para dual-channel e com um processador recente da Intel da linha Core . Após a instalação do sistema operacional, foram obtidas as informações apresentadas na figura a seguir. Considerando a situação hipotética e a figura precedentes, julgue os itens seguintes, relativos a hardware e software para o ambiente de microinformática.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "CONHECIMENTOS ESPECÍFICOS",
+   "citacao": "Leandra, policial militar, mãe de Igor, com sete meses de idade, procurou atendimento psicológico para a avaliação de seu bebê, pois notava que ele tinha características muito semelhantes às do irmão mais velho, diagnosticado com autismo aos oito anos de idade. Igor, assim como o irmão, fica sob os cuidados da mãe e da avó paterna. O pai trabalha ao longo do dia e viaja frequentemente por motivos profissionais. Leandra tem quadro de depressão, faz uso de medicação e está afastada do serviço por tempo indeterminado em decorrência de crise de ansiedade importante há um mês. Sua sogra a auxilia cuidando das crianças, o que ajuda a evitar que Leandra fique sozinha com filhos e se sinta sobrecarregada com todos os afazeres de casa. Igor nasceu a termo. De acordo com o relato de Leandra, “mas sempre foi diferente. A gente colocava ele no colo, mas ele parecia não se acomodar. Passa boa parte do tempo olhando para o teto. Não tem nada mais difícil do que conseguir a atenção dele” ( sic ).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Na preparação de uma ação policial, um agente fez algumas medições em uma casa noturna, mostradas na figura a seguir. O agente, em pé no ponto A, de frente para a casa noturna, estava a 10 m de distância do ponto C, correspondente à porta de entrada da casa noturna. Do ponto B, posição dos olhos do agente, ele visualizava uma câmera de segurança no ponto D, no prédio da casa noturna, segundo um ângulo de visão de 30º com a horizontal. Perpendicularmente a AC, e a 24 m de A, ficava localizada uma base móvel para apoio à operação, no ponto E. Com referência às informações contidas na situação hipotética e na",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CG2A1",
+   "conteudo": "Internet: <www.pm.ma.gov.br> (com adaptações). Com relação às ideias e a aspectos linguísticos do",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Apesar dos conflitos políticos e sociais que sacudiam a República desde a sua implantação, as várias facções oligárquicas, a partir de suas bases políticas estaduais, mantinham o controle do Estado brasileiro. Os partidos regionais mais fortes, por elas controlados, eram o eixo do poder político da Primeira República. Entretanto, desde a década de 10 do século XX, sobretudo entre militares, intelectuais e membros das classes médias das capitais, crescia a insatisfação com esse modelo de política.\n\nMarcos Napolitano. História do Brasil República: da queda da Monarquia ao\n\nfim do Estado Novo . São Paulo: Contexto, 2016, p. 71-2 (com adaptações). Tendo o fragmento de texto precedente como referência inicial e considerando a história do Brasil republicano, julgue os itens seguintes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A experiência histórica vivida pelo Brasil a partir de 1945, quando chegou ao fim a ditadura do Estado Novo de Getúlio Vargas, não foi politicamente tranquila. A trajetória democrática entre 1946 e 1964 foi marcada por crises as mais diversas, algumas das quais verdadeiramente trágicas. O golpe de 1964 iniciou um período de duas décadas de regime autoritário, cujo epílogo se deu em 1985, quando nova fase democrática teve início, e se prolonga aos dias de hoje.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O século XVI marcou o início da colonização do território brasileiro pelos portugueses, mas as terras descobertas ao sul do continente americano e conquistadas por Portugal e Espanha foram, à época, cobiçadas por outros povos europeus como os franceses, ingleses e holandeses, que chegaram a ocupar os domínios portugueses e espanhóis no Novo Mundo. Em meio a essa disputa, ampliada quando Portugal foi incorporado pela Espanha na denominada União Ibérica (1580–1640), situa-se parte significativa da história do Maranhão no período colonial. Considerando o contexto histórico apresentado no texto precedente, julgue os seguintes itens relativos à história do Maranhão no período colonial.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Nas primeiras décadas após a Independência, o Brasil viveu verdadeira guerra civil. O Maranhão integrou esse quadro conflituoso, em que avulta a Balaiada (1838–1841), e que, também, envolveu o Piauí e parte do Ceará. Acerca desse assunto, julgue os próximos itens.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A agricultura capitalista — ou agricultura patronal, ou agricultura empresarial, ou agronegócio —, qualquer que seja o eufemismo utilizado para nomeá-la, não pode esconder o que está na sua raiz, na sua lógica: a concentração e a exploração. Em sua atual fase de desenvolvimento, o agronegócio procura representar a imagem da produtividade, da geração de riquezas para o país.\n\nBernardo Mançano. Educação do campo e território . Núcleo de Estudos,\n\nPesquisas e Projetos de Reforma Agrária – NERA, Universidade Estadual Paulista\n\n– UNESP, campus de Presidente Prudente – SP, 2017 (com adaptações). Tendo o texto precedente como referência inicial, julgue os itens seguintes, a respeito de aspectos diversos relacionados ao agronegócio.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O tardio processo de industrialização maranhense se iniciou no fim da década de 60 do século XX, com a construção da rodovia Belém–Brasília e de estradas regionais como São Luís–Belém e São Luís–Teresina. Porém, foi na década de 70, quando massivos aportes foram incorporados à política de industrialização, principalmente por meio do modelo de desenvolvimento do II PND (Plano Nacional de Desenvolvimento) e da criação da SUDAM e SUDENE, que esse processo tomou impulso.\n\nClaudiomar M. R. Filho. Formação econômica do Maranhão : de\n\nprovíncia próspera ao estado mais pobre da Federação: o que deu tão\n\nerrado? Dissertação de Mestrado, FACE, Brasília, 2016 (com adaptações). Com relação ao texto precedente e aos múltiplos aspectos a ele",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CG1A1",
+   "conteudo": "Alexandra Ozorio de Almeida. Dois passos para trás, um para frente . In : Revista Pesquisa Fapesp , 260.ª ed., out./2017, p. 7 (com adaptações).",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "O vertiginoso processo de urbanização no Brasil deu origem, em poucas décadas, a centros urbanos de todo porte, que, espalhados pelo país, passaram a ordenar os fluxos de pessoas, mercadorias, informações e capitais no território brasileiro, configurando uma complexa rede geográfica de cidades. Com relação ao texto apresentado e aos múltiplos aspectos a ele",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Fonte: IBGE – Censos Demográficos de 1950 a 2010\n\nPirâmide etária brasileira entre 1950 e 2010. A. M. N. Vasconcelos; M. M. F. Gomes.\n\nTransição demográfica : experiência brasileira . Epidemiol. Serv. Saúde, Brasília,\n\n21(4):539-48, out.-dez./2012. Internet: <http://scielo.iec.pa.gov.br> (com adaptações).\n\nÍndice de envelhecimento das regiões do Brasil. 1970-2010. Vera Elizabeth Closs e Carla\n\nHelena Augustin Schwanke. A evolução do índice de envelhecimento no Brasil, nas suas\n\nregiões e unidades federativas no período de 1970 a 2010. Rev. Bras. Geriatr. Gerontol .\n\nRio de Janeiro, 2012; 15(3):443-58, p. 447 (com adaptações).",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Figura I F. Mendonça; Dani Oliveira I. M. Climatologia : noções básicas e climas do Brasil. São Paulo: Oficina de Textos, 2007 (com adaptações).\n\nFigura II Tendo como referência inicial as figuras precedentes e",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Figura I Figura II A figura I precedente ilustra um bloco de massa M que parte do repouso e desliza sobre um plano inclinado de 30°, com atrito, durante 5 s, até atingir sua base. A figura II mostra o gráfico do módulo da velocidade, v , do bloco nesse intervalo de tempo.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um paciente de vinte e três anos de idade, com quadro de febre reumática desde a infância, compareceu ao atendimento médico queixando-se de dispneia ao subir escadas ou correr havia seis meses, com piora progressiva nos últimos dois meses. O paciente relatou dispneia para realizar atividades habituais, como caminhar mais de cinquenta metros. Ao exame físico, o paciente apresentava-se eupneico, acianótico, normocorado, com frequência respiratória de 20 irpm, pressão arterial de 160 mmHg × 60 mmHg (média de três medidas), frequência cardíaca de 94 bpm, ritmo cardíaco em três tempos (terceira bulha), além de ictus visível e palpável no 6.º espaço intercostal à esquerda na linha axilar anterior. O pulso carotídeo apresentava ascenso rápido e com alta amplitude. Apresentava bulhas normofonéticas, sopro holodiastólico de alta frequência em decrescendo e aspirativo de 4+/6 e mais audível no 4.º espaço intercostal na linha paresternal à esquerda e no 2.º espaço intercostal na linha paresternal à direita, além de sopro suave mesodiastólico em 5.º espaço intercostal, na linha hemiclavicular à esquerda. A manobra de handgrip intensificou ambos os sopros. Os demais dados do exame físico não apresentavam alterações significativas. O eletrocardiograma revelou somente hipertrofia ventricular esquerda.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma paciente de setenta e sete anos de idade, diabética havia quinze anos, compareceu ao atendimento médico relatando episódios de dor retroesternal em queimação de moderada intensidade havia um mês e que geralmente surgia quando ela subia escadas ou andava aceleradamente, mas que desaparecia espontaneamente, em menos de cinco minutos, após o término do esforço. A paciente informou que, na última semana antes do atendimento médico, havia observado que tais episódios ocorriam a esforços menores que os habituais, como tomar banho. Um dia antes do atendimento ela teve um episódio de dor semelhante, porém de maior intensidade, que a despertou do sono e que desapareceu em torno de vinte minutos. No momento da consulta, a paciente estava assintomática. Ao exame físico, apresentava saturação de oxigênio (em ar ambiente) de 95%, pressão arterial de 134 mmHg × 74 mmHg (média de três medidas), frequência cardíaca de 92 bpm e ritmo cardíaco regular em dois tempos sem sopros. O restante do exame físico foi normal. Os resultados dos exames laboratoriais foram os seguintes: triglicerídeos de 155 mg/dL, colesterol total de 204 mg/dL; HDL colesterol de 39 mg/dL, LDL colesterol de 134 mg/dL, glicemia 118 mg/dL. A dosagem de CK-MB massa e troponina da admissão no pronto-socorro foram normais. O exame de eletrocardiograma (com calibração padrão) evidenciou o resultado mostrado na figura a seguir.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Com relação à doença pulmonar obstrutiva crônica (DPOC), julgue o seguinte item.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um paciente afrodescendente de sessenta e seis anos de idade, hipertenso sem comorbidades e que usava regularmente atenolol 50 mg e enalapril 20 mg, ambos uma vez ao dia, retornou à consulta com os exames solicitados. No dia da consulta, sua pressão arterial era de 162 mmHg × 82 mmHg, semelhantemente às últimas avaliações. A monitorização ambulatorial da pressão arterial de vinte e quatro horas (MAPA) revelou média da pressão arterial de 150 mmHg × 74 mmHg no período total, 160 mmHg × 78 mmHg no período da vigília e 148 mmHg × 68 mmHg no período do sono. Os demais exames de rotina solicitados foram todos normais. Com relação ao caso clínico precedente, julgue os itens subsequentes.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Um paciente com quarenta e cinco anos de idade procurou atendimento médico com quadro, havia três meses, de edema mole, frio e indolor localizado no terço médio dos membros inferiores, associado a ganho de 5 kg e eliminação de urina espumosa. O paciente não tinha antecedentes mórbidos pessoais. Ao exame físico, constatou-se edema bipalpebral e bilateral. O exame de urina revelou a presença de proteína classificada em 3+. Considerando o caso clínico apresentado, julgue os itens subsecutivos.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma paciente com vinte e oito anos de idade compareceu ao atendimento médico com quadro clínico, havia um ano, de rigidez e edema de características inflamatórias que ocorriam de forma simétrica nas articulações das mãos, com duração de cerca de duas semanas e melhora espontânea. A paciente informou que a rigidez das articulações costumava ser matinal e persistia por mais de duas horas e que isso prejudicava a execução de suas atividades de trabalho em sua profissão. O exame físico comprovou dor, edema e eritema nas articulações de ambas as mãos. Não foram observadas outras alterações.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma paciente com quarenta e cinco anos de idade, sem antecedentes patológicos, compareceu ao serviço de emergência apresentando quadro de tontura rotatória associada a náuseas, vômitos e zumbidos auditivos bilaterais havia duas horas. Os sintomas agravavam-se com a movimentação da cabeça. Não havia cefaleia, escotomas, turvação visual e perda auditiva. Ela informou que caíra da própria altura assim que acordou. O exame físico mostrou a presença de vertigem e nistagmo com a realização da manobra de Dix-Hallpike. Em relação ao caso clínico apresentado, julgue os itens que se seguem.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A figura a seguir mostra a representação do que foi observado durante a inspeção da orofaringe de um paciente de trinta e cinco anos de idade que compareceu ao atendimento médico com insuficiência respiratória aguda e indicação de intubação orotraqueal. A inspeção foi realizada com abertura máxima da boca e protrusão da língua, em posição sentada.",
+   "citacao": "John M. Oropello et al . Critical Care 2017 , McGraw-Hill Education, 2017, cap. 17 (com adaptações).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Uma jovem de vinte e três anos de idade foi levada para o atendimento médico com quadro de dispneia intensa, tosse produtiva com expectoração rósea e espumosa. O exame físico revelou: pressão arterial de 110 mmHg × 70 mmHg; frequência cardíaca de 110 bpm; presença de estertores em ambos os campos pulmonares (das bases aos ápices) associados a sibilos e roncos esparsos; ictus cordis in situ ; ritmo cardíaco regular taquicárdico em 2 tempos; hiperfonese da primeira bulha em foco mitral; estalido de abertura da mitral; ruflar diastólico e reforço pré-sistólico melhor audíveis na região do ictus cordis ; abdome livre, sem visceromegalias; e extremidades sem edema, cianóticas (+2/+4).",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "No exame periódico de saúde em uma empresa, o médico constatou que uma trabalhadora estava exposta a risco ergonômico decorrente de levantamento e transporte manual de peso. Ela, que estava na oitava semana de gestação, informou ao médico que apresentava quadro sintomatológico compatível com lombociatalgia. Considerando o caso clínico apresentado, julgue os seguintes itens, com relação às normas que regem a atuação dos médicos da área trabalhista.",
+   "citacao": "",
+   "imagem": false
   }
  ]
 }

@@ -118,7 +118,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura III pode ser expresso como [A ∩ (B ∪ C)^c], em que (B ∪ C)^c significa o complementar do conjunto (B ∪ C) em U.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-administrativo-administracao-014",
@@ -129,7 +130,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura II pode ser expresso como [(C ∩ B) − A].",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-administrativo-contabilidade-013",
@@ -140,7 +142,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura III pode ser expresso como [A ∩ (B ∪ C)^c], em que (B ∪ C)^c significa o complementar do conjunto (B ∪ C) em U.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-administrativo-contabilidade-014",
@@ -151,7 +154,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura II pode ser expresso como [(C ∩ B) − A].",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-administrativo-contabilidade-070",
@@ -184,7 +188,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura III pode ser expresso como [A ∩ (B ∪ C)^c], em que (B ∪ C)^c significa o complementar do conjunto (B ∪ C) em U.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-administrativo-direito-014",
@@ -195,7 +200,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura II pode ser expresso como [(C ∩ B) − A].",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-administrativo-engenharia-civil-013",
@@ -206,7 +212,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura III pode ser expresso como [A ∩ (B ∪ C)^c], em que (B ∪ C)^c significa o complementar do conjunto (B ∪ C) em U.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-administrativo-engenharia-civil-014",
@@ -217,7 +224,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura II pode ser expresso como [(C ∩ B) − A].",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-administrativo-pedagogia-013",
@@ -228,7 +236,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura III pode ser expresso como [A ∩ (B ∪ C)^c], em que (B ∪ C)^c significa o complementar do conjunto (B ∪ C) em U.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-administrativo-pedagogia-014",
@@ -239,7 +248,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura II pode ser expresso como [(C ∩ B) − A].",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-de-tecnologia-da-informacao-gestao-de-dados-014",
@@ -250,7 +260,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura III pode ser expresso como [A ∩ (B ∪ C)^c], em que (B ∪ C)^c significa o complementar do conjunto (B ∪ C) em U.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-de-tecnologia-da-informacao-gestao-de-dados-015",
@@ -261,7 +272,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura II pode ser expresso como [(C ∩ B) − A].",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-de-tecnologia-da-informacao-gestao-de-dados-070",
@@ -272,7 +284,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A consulta SQL a seguir cria uma view para listar o total de gastos por município e hospital, bem como agrupa os resultados por município e hospital, calcula a soma dos valores gastos e ordena os resultados, de forma decrescente, pelo maior gasto e, depois, pelo nome do município e do hospital.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-de-tecnologia-da-informacao-infraestrutura-de-ti-014",
@@ -283,7 +296,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura III pode ser expresso como [A ∩ (B ∪ C)^c], em que (B ∪ C)^c significa o complementar do conjunto (B ∪ C) em U.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-de-tecnologia-da-informacao-infraestrutura-de-ti-015",
@@ -294,7 +308,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura II pode ser expresso como [(C ∩ B) − A].",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-de-tecnologia-da-informacao-planejamento-de-ti-014",
@@ -305,7 +320,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura III pode ser expresso como [A ∩ (B ∪ C)^c], em que (B ∪ C)^c significa o complementar do conjunto (B ∪ C) em U.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-de-tecnologia-da-informacao-planejamento-de-ti-015",
@@ -316,7 +332,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura II pode ser expresso como [(C ∩ B) − A].",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-de-tecnologia-da-informacao-projetos-de-ti-014",
@@ -327,7 +344,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura III pode ser expresso como [A ∩ (B ∪ C)^c], em que (B ∪ C)^c significa o complementar do conjunto (B ∪ C) em U.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-de-tecnologia-da-informacao-projetos-de-ti-015",
@@ -338,7 +356,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura II pode ser expresso como [(C ∩ B) − A].",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-de-tecnologia-da-informacao-seguranca-da-informacao-014",
@@ -349,7 +368,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura III pode ser expresso como [A ∩ (B ∪ C)^c], em que (B ∪ C)^c significa o complementar do conjunto (B ∪ C) em U.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-de-tecnologia-da-informacao-seguranca-da-informacao-015",
@@ -360,7 +380,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura II pode ser expresso como [(C ∩ B) − A].",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-de-tecnologia-da-informacao-seguranca-da-informacao-091",
@@ -382,7 +403,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura III pode ser expresso como [A ∩ (B ∪ C)^c], em que (B ∪ C)^c significa o complementar do conjunto (B ∪ C) em U.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-de-tecnologia-da-informacao-sistemas-de-informacao-015",
@@ -393,7 +415,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura II pode ser expresso como [(C ∩ B) − A].",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-de-tecnologia-da-informacao-sistemas-de-informacao-070",
@@ -415,7 +438,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura III pode ser expresso como [A ∩ (B ∪ C)^c], em que (B ∪ C)^c significa o complementar do conjunto (B ∪ C) em U.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-ministerial-administracao-014",
@@ -426,7 +450,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura II pode ser expresso como [(C ∩ B) − A].",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-ministerial-direito-013",
@@ -437,7 +462,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura III pode ser expresso como [A ∩ (B ∪ C)^c], em que (B ∪ C)^c significa o complementar do conjunto (B ∪ C) em U.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-analista-ministerial-direito-014",
@@ -448,7 +474,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O subconjunto destacado na figura II pode ser expresso como [(C ∩ B) − A].",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 0
   },
   {
    "id": "cebraspe-2024-tce-ac-auditor-de-controle-externo-contabilidade-071",
@@ -470,7 +497,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A deformação total da barra, para um carregamento que não extrapole o regime elástico do material, é dada por PA/EL.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 5
   },
   {
    "id": "cebraspe-2024-tce-ac-tecnico-de-controle-externo-tecnico-administrativo-instrutivo-013",
@@ -547,7 +575,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo as informações do texto, a média de gastos anual nas diferentes esferas de governo no Brasil é maior que a média de gastos públicos por ano que se verifica em países da OCDE.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-gestao-dados-002",
@@ -558,7 +587,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no vocábulo “a” presente no primeiro período do texto prejudicaria a sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-gestao-dados-003",
@@ -569,7 +599,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, o acesso à informação pela população, o aumento da consciência sobre seus direitos e a expectativa crescente com relação ao papel do Estado têm sido importantes entraves para o oferecimento de serviços públicos de qualidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-gestao-dados-004",
@@ -580,7 +611,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o desenvolvimento de serviços públicos inovadores é considerado essencial para o enfrentamento de desafios sociais e o aprimoramento do bem-estar social da população.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-gestao-dados-005",
@@ -591,7 +623,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que, nos países da União Europeia, a inovação é fortemente influenciada pelas compras públicas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-gestao-dados-006",
@@ -635,7 +668,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Without harming the meaning and the correctness of the text, the word “ensuring” (second sentence of the text) could be correctly replaced with to make sure .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-gestao-dados-010",
@@ -646,7 +680,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “gauge”, in the last sentence of the text, has a similar meaning as the one of estimate .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-gestao-dados-011",
@@ -657,7 +692,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The author believes the risk of a fiscal policy not having its expected long-term impacts is increased in the years following the COVID-19 pandemic.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-gestao-dados-012",
@@ -668,7 +704,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is correct to conclude from the text that long-term budget assessments and stress tests are two crucial tools for states that seek to establish more than a short-term approach to their budgets.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-gestao-dados-013",
@@ -679,7 +716,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "In the first sentence of the second paragraph, the word “jeopardize” is being used with a similar meaning as the one of enhance .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-gestao-dados-016",
@@ -1075,7 +1113,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo as informações do texto, a média de gastos anual nas diferentes esferas de governo no Brasil é maior que a média de gastos públicos por ano que se verifica em países da OCDE.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-infraestrutura-ti-002",
@@ -1086,7 +1125,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no vocábulo “a” presente no primeiro período do texto prejudicaria a sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-infraestrutura-ti-003",
@@ -1097,7 +1137,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, o acesso à informação pela população, o aumento da consciência sobre seus direitos e a expectativa crescente com relação ao papel do Estado têm sido importantes entraves para o oferecimento de serviços públicos de qualidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-infraestrutura-ti-004",
@@ -1108,7 +1149,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o desenvolvimento de serviços públicos inovadores é considerado essencial para o enfrentamento de desafios sociais e o aprimoramento do bem-estar social da população.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-infraestrutura-ti-005",
@@ -1119,7 +1161,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que, nos países da União Europeia, a inovação é fortemente influenciada pelas compras públicas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-infraestrutura-ti-006",
@@ -1163,7 +1206,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Without harming the meaning and the correctness of the text, the word “ensuring” (second sentence of the text) could be correctly replaced with to make sure .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-infraestrutura-ti-010",
@@ -1174,7 +1218,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “gauge”, in the last sentence of the text, has a similar meaning as the one of estimate .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-infraestrutura-ti-011",
@@ -1185,7 +1230,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The author believes the risk of a fiscal policy not having its expected long-term impacts is increased in the years following the COVID-19 pandemic.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-infraestrutura-ti-012",
@@ -1196,7 +1242,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is correct to conclude from the text that long-term budget assessments and stress tests are two crucial tools for states that seek to establish more than a short-term approach to their budgets.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-infraestrutura-ti-013",
@@ -1207,7 +1254,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "In the first sentence of the second paragraph, the word “jeopardize” is being used with a similar meaning as the one of enhance .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-infraestrutura-ti-016",
@@ -1603,7 +1651,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo as informações do texto, a média de gastos anual nas diferentes esferas de governo no Brasil é maior que a média de gastos públicos por ano que se verifica em países da OCDE.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-planejamento-ti-002",
@@ -1614,7 +1663,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no vocábulo “a” presente no primeiro período do texto prejudicaria a sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-planejamento-ti-003",
@@ -1625,7 +1675,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, o acesso à informação pela população, o aumento da consciência sobre seus direitos e a expectativa crescente com relação ao papel do Estado têm sido importantes entraves para o oferecimento de serviços públicos de qualidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-planejamento-ti-004",
@@ -1636,7 +1687,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o desenvolvimento de serviços públicos inovadores é considerado essencial para o enfrentamento de desafios sociais e o aprimoramento do bem-estar social da população.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-planejamento-ti-005",
@@ -1647,7 +1699,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que, nos países da União Europeia, a inovação é fortemente influenciada pelas compras públicas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-planejamento-ti-006",
@@ -1691,7 +1744,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Without harming the meaning and the correctness of the text, the word “ensuring” (second sentence of the text) could be correctly replaced with to make sure .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-planejamento-ti-010",
@@ -1702,7 +1756,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “gauge”, in the last sentence of the text, has a similar meaning as the one of estimate .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-planejamento-ti-011",
@@ -1713,7 +1768,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The author believes the risk of a fiscal policy not having its expected long-term impacts is increased in the years following the COVID-19 pandemic.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-planejamento-ti-012",
@@ -1724,7 +1780,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is correct to conclude from the text that long-term budget assessments and stress tests are two crucial tools for states that seek to establish more than a short-term approach to their budgets.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-planejamento-ti-013",
@@ -1735,7 +1792,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "In the first sentence of the second paragraph, the word “jeopardize” is being used with a similar meaning as the one of enhance .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-planejamento-ti-016",
@@ -2131,7 +2189,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo as informações do texto, a média de gastos anual nas diferentes esferas de governo no Brasil é maior que a média de gastos públicos por ano que se verifica em países da OCDE.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-projetos-ti-002",
@@ -2142,7 +2201,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no vocábulo “a” presente no primeiro período do texto prejudicaria a sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-projetos-ti-003",
@@ -2153,7 +2213,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, o acesso à informação pela população, o aumento da consciência sobre seus direitos e a expectativa crescente com relação ao papel do Estado têm sido importantes entraves para o oferecimento de serviços públicos de qualidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-projetos-ti-004",
@@ -2164,7 +2225,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o desenvolvimento de serviços públicos inovadores é considerado essencial para o enfrentamento de desafios sociais e o aprimoramento do bem-estar social da população.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-projetos-ti-005",
@@ -2175,7 +2237,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que, nos países da União Europeia, a inovação é fortemente influenciada pelas compras públicas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-projetos-ti-006",
@@ -2219,7 +2282,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Without harming the meaning and the correctness of the text, the word “ensuring” (second sentence of the text) could be correctly replaced with to make sure .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-projetos-ti-010",
@@ -2230,7 +2294,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “gauge”, in the last sentence of the text, has a similar meaning as the one of estimate .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-projetos-ti-011",
@@ -2241,7 +2306,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The author believes the risk of a fiscal policy not having its expected long-term impacts is increased in the years following the COVID-19 pandemic.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-projetos-ti-012",
@@ -2252,7 +2318,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is correct to conclude from the text that long-term budget assessments and stress tests are two crucial tools for states that seek to establish more than a short-term approach to their budgets.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-projetos-ti-013",
@@ -2263,7 +2330,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "In the first sentence of the second paragraph, the word “jeopardize” is being used with a similar meaning as the one of enhance .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-projetos-ti-016",
@@ -2659,7 +2727,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo as informações do texto, a média de gastos anual nas diferentes esferas de governo no Brasil é maior que a média de gastos públicos por ano que se verifica em países da OCDE.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-seguranca-informacao-002",
@@ -2670,7 +2739,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no vocábulo “a” presente no primeiro período do texto prejudicaria a sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-seguranca-informacao-003",
@@ -2681,7 +2751,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, o acesso à informação pela população, o aumento da consciência sobre seus direitos e a expectativa crescente com relação ao papel do Estado têm sido importantes entraves para o oferecimento de serviços públicos de qualidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-seguranca-informacao-004",
@@ -2692,7 +2763,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o desenvolvimento de serviços públicos inovadores é considerado essencial para o enfrentamento de desafios sociais e o aprimoramento do bem-estar social da população.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-seguranca-informacao-005",
@@ -2703,7 +2775,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que, nos países da União Europeia, a inovação é fortemente influenciada pelas compras públicas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-seguranca-informacao-006",
@@ -2747,7 +2820,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Without harming the meaning and the correctness of the text, the word “ensuring” (second sentence of the text) could be correctly replaced with to make sure .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-seguranca-informacao-010",
@@ -2758,7 +2832,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “gauge”, in the last sentence of the text, has a similar meaning as the one of estimate .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-seguranca-informacao-011",
@@ -2769,7 +2844,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The author believes the risk of a fiscal policy not having its expected long-term impacts is increased in the years following the COVID-19 pandemic.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-seguranca-informacao-012",
@@ -2780,7 +2856,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is correct to conclude from the text that long-term budget assessments and stress tests are two crucial tools for states that seek to establish more than a short-term approach to their budgets.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-seguranca-informacao-013",
@@ -2791,7 +2868,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "In the first sentence of the second paragraph, the word “jeopardize” is being used with a similar meaning as the one of enhance .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-seguranca-informacao-016",
@@ -3187,7 +3265,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo as informações do texto, a média de gastos anual nas diferentes esferas de governo no Brasil é maior que a média de gastos públicos por ano que se verifica em países da OCDE.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-sistemas-informacao-002",
@@ -3198,7 +3277,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no vocábulo “a” presente no primeiro período do texto prejudicaria a sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-sistemas-informacao-003",
@@ -3209,7 +3289,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, o acesso à informação pela população, o aumento da consciência sobre seus direitos e a expectativa crescente com relação ao papel do Estado têm sido importantes entraves para o oferecimento de serviços públicos de qualidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-sistemas-informacao-004",
@@ -3220,7 +3301,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o desenvolvimento de serviços públicos inovadores é considerado essencial para o enfrentamento de desafios sociais e o aprimoramento do bem-estar social da população.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-sistemas-informacao-005",
@@ -3231,7 +3313,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que, nos países da União Europeia, a inovação é fortemente influenciada pelas compras públicas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-sistemas-informacao-006",
@@ -3275,7 +3358,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Without harming the meaning and the correctness of the text, the word “ensuring” (second sentence of the text) could be correctly replaced with to make sure .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-sistemas-informacao-010",
@@ -3286,7 +3370,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “gauge”, in the last sentence of the text, has a similar meaning as the one of estimate .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-sistemas-informacao-011",
@@ -3297,7 +3382,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The author believes the risk of a fiscal policy not having its expected long-term impacts is increased in the years following the COVID-19 pandemic.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-sistemas-informacao-012",
@@ -3308,7 +3394,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is correct to conclude from the text that long-term budget assessments and stress tests are two crucial tools for states that seek to establish more than a short-term approach to their budgets.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-sistemas-informacao-013",
@@ -3319,7 +3406,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "In the first sentence of the second paragraph, the word “jeopardize” is being used with a similar meaning as the one of enhance .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-sistemas-informacao-016",
@@ -3715,7 +3803,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no vocábulo “a” presente no primeiro período do texto prejudicaria a sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-administracao-1-002",
@@ -3726,7 +3815,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, o acesso à informação pela população, o aumento da consciência sobre seus direitos e a expectativa crescente com relação ao papel do Estado têm sido importantes entraves para o oferecimento de serviços públicos de qualidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-administracao-1-003",
@@ -3737,7 +3827,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o desenvolvimento de serviços públicos inovadores é considerado essencial para o enfrentamento de desafios sociais e o aprimoramento do bem-estar social da população.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-administracao-1-004",
@@ -3748,7 +3839,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo as informações do texto, a média de gastos anual nas diferentes esferas de governo no Brasil é maior que a média de gastos públicos por ano que se verifica em países da OCDE.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-administracao-1-005",
@@ -3759,7 +3851,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que, nos países da União Europeia, a inovação é fortemente influenciada pelas compras públicas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-administracao-1-006",
@@ -3803,7 +3896,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The author believes the risk of a fiscal policy not having its expected long-term impacts is increased in the years following the COVID-19 pandemic.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-administracao-1-010",
@@ -3814,7 +3908,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “gauge”, in the last sentence of the text, has a similar meaning as the one of estimate .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-administracao-1-011",
@@ -3825,7 +3920,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is correct to conclude from the text that long-term budget assessments and stress tests are two crucial tools for states that seek to establish more than a short-term approach to their budgets.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-administracao-1-012",
@@ -3836,7 +3932,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "In the first sentence of the second paragraph, the word “jeopardize” is being used with a similar meaning as the one of enhance .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-administracao-1-015",
@@ -4243,7 +4340,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no vocábulo “a” presente no primeiro período do texto prejudicaria a sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-contabilidade-002",
@@ -4254,7 +4352,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, o acesso à informação pela população, o aumento da consciência sobre seus direitos e a expectativa crescente com relação ao papel do Estado têm sido importantes entraves para o oferecimento de serviços públicos de qualidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-contabilidade-003",
@@ -4265,7 +4364,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o desenvolvimento de serviços públicos inovadores é considerado essencial para o enfrentamento de desafios sociais e o aprimoramento do bem-estar social da população.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-contabilidade-004",
@@ -4276,7 +4376,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo as informações do texto, a média de gastos anual nas diferentes esferas de governo no Brasil é maior que a média de gastos públicos por ano que se verifica em países da OCDE.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-contabilidade-005",
@@ -4287,7 +4388,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que, nos países da União Europeia, a inovação é fortemente influenciada pelas compras públicas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-contabilidade-006",
@@ -4331,7 +4433,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The author believes the risk of a fiscal policy not having its expected long-term impacts is increased in the years following the COVID-19 pandemic.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-contabilidade-010",
@@ -4342,7 +4445,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “gauge”, in the last sentence of the text, has a similar meaning as the one of estimate .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-contabilidade-011",
@@ -4353,7 +4457,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is correct to conclude from the text that long-term budget assessments and stress tests are two crucial tools for states that seek to establish more than a short-term approach to their budgets.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-contabilidade-012",
@@ -4364,7 +4469,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "In the first sentence of the second paragraph, the word “jeopardize” is being used with a similar meaning as the one of enhance .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-contabilidade-015",
@@ -4771,7 +4877,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no vocábulo “a” presente no primeiro período do texto prejudicaria a sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-direito-3-002",
@@ -4782,7 +4889,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, o acesso à informação pela população, o aumento da consciência sobre seus direitos e a expectativa crescente com relação ao papel do Estado têm sido importantes entraves para o oferecimento de serviços públicos de qualidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-direito-3-003",
@@ -4793,7 +4901,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o desenvolvimento de serviços públicos inovadores é considerado essencial para o enfrentamento de desafios sociais e o aprimoramento do bem-estar social da população.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-direito-3-004",
@@ -4804,7 +4913,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo as informações do texto, a média de gastos anual nas diferentes esferas de governo no Brasil é maior que a média de gastos públicos por ano que se verifica em países da OCDE.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-direito-3-005",
@@ -4815,7 +4925,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que, nos países da União Europeia, a inovação é fortemente influenciada pelas compras públicas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-direito-3-006",
@@ -4859,7 +4970,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The author believes the risk of a fiscal policy not having its expected long-term impacts is increased in the years following the COVID-19 pandemic.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-direito-3-010",
@@ -4870,7 +4982,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “gauge”, in the last sentence of the text, has a similar meaning as the one of estimate .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-direito-3-011",
@@ -4881,7 +4994,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is correct to conclude from the text that long-term budget assessments and stress tests are two crucial tools for states that seek to establish more than a short-term approach to their budgets.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-direito-3-012",
@@ -4892,7 +5006,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "In the first sentence of the second paragraph, the word “jeopardize” is being used with a similar meaning as the one of enhance .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-direito-3-015",
@@ -5299,7 +5414,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no vocábulo “a” presente no primeiro período do texto prejudicaria a sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-engenharia-civil-002",
@@ -5310,7 +5426,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, o acesso à informação pela população, o aumento da consciência sobre seus direitos e a expectativa crescente com relação ao papel do Estado têm sido importantes entraves para o oferecimento de serviços públicos de qualidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-engenharia-civil-003",
@@ -5321,7 +5438,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o desenvolvimento de serviços públicos inovadores é considerado essencial para o enfrentamento de desafios sociais e o aprimoramento do bem-estar social da população.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-engenharia-civil-004",
@@ -5332,7 +5450,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo as informações do texto, a média de gastos anual nas diferentes esferas de governo no Brasil é maior que a média de gastos públicos por ano que se verifica em países da OCDE.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-engenharia-civil-005",
@@ -5343,7 +5462,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que, nos países da União Europeia, a inovação é fortemente influenciada pelas compras públicas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-engenharia-civil-006",
@@ -5387,7 +5507,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The author believes the risk of a fiscal policy not having its expected long-term impacts is increased in the years following the COVID-19 pandemic.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-engenharia-civil-010",
@@ -5398,7 +5519,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “gauge”, in the last sentence of the text, has a similar meaning as the one of estimate .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-engenharia-civil-011",
@@ -5409,7 +5531,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is correct to conclude from the text that long-term budget assessments and stress tests are two crucial tools for states that seek to establish more than a short-term approach to their budgets.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-engenharia-civil-012",
@@ -5420,7 +5543,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "In the first sentence of the second paragraph, the word “jeopardize” is being used with a similar meaning as the one of enhance .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-engenharia-civil-015",
@@ -5827,7 +5951,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no vocábulo “a” presente no primeiro período do texto prejudicaria a sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-pedagogia-002",
@@ -5838,7 +5963,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, o acesso à informação pela população, o aumento da consciência sobre seus direitos e a expectativa crescente com relação ao papel do Estado têm sido importantes entraves para o oferecimento de serviços públicos de qualidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-pedagogia-003",
@@ -5849,7 +5975,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o desenvolvimento de serviços públicos inovadores é considerado essencial para o enfrentamento de desafios sociais e o aprimoramento do bem-estar social da população.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-pedagogia-004",
@@ -5860,7 +5987,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo as informações do texto, a média de gastos anual nas diferentes esferas de governo no Brasil é maior que a média de gastos públicos por ano que se verifica em países da OCDE.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-pedagogia-005",
@@ -5871,7 +5999,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que, nos países da União Europeia, a inovação é fortemente influenciada pelas compras públicas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-pedagogia-006",
@@ -5915,7 +6044,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The author believes the risk of a fiscal policy not having its expected long-term impacts is increased in the years following the COVID-19 pandemic.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-pedagogia-010",
@@ -5926,7 +6056,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “gauge”, in the last sentence of the text, has a similar meaning as the one of estimate .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-pedagogia-011",
@@ -5937,7 +6068,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is correct to conclude from the text that long-term budget assessments and stress tests are two crucial tools for states that seek to establish more than a short-term approach to their budgets.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-pedagogia-012",
@@ -5948,7 +6080,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "In the first sentence of the second paragraph, the word “jeopardize” is being used with a similar meaning as the one of enhance .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-pedagogia-015",
@@ -6355,7 +6488,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no vocábulo “a” presente no primeiro período do texto prejudicaria a sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-administracao-12-002",
@@ -6366,7 +6500,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, o acesso à informação pela população, o aumento da consciência sobre seus direitos e a expectativa crescente com relação ao papel do Estado têm sido importantes entraves para o oferecimento de serviços públicos de qualidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-administracao-12-003",
@@ -6377,7 +6512,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o desenvolvimento de serviços públicos inovadores é considerado essencial para o enfrentamento de desafios sociais e o aprimoramento do bem-estar social da população.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-administracao-12-004",
@@ -6388,7 +6524,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo as informações do texto, a média de gastos anual nas diferentes esferas de governo no Brasil é maior que a média de gastos públicos por ano que se verifica em países da OCDE.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-administracao-12-005",
@@ -6399,7 +6536,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que, nos países da União Europeia, a inovação é fortemente influenciada pelas compras públicas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-administracao-12-006",
@@ -6443,7 +6581,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The author believes the risk of a fiscal policy not having its expected long-term impacts is increased in the years following the COVID-19 pandemic.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-administracao-12-010",
@@ -6454,7 +6593,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “gauge”, in the last sentence of the text, has a similar meaning as the one of estimate .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-administracao-12-011",
@@ -6465,7 +6605,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is correct to conclude from the text that long-term budget assessments and stress tests are two crucial tools for states that seek to establish more than a short-term approach to their budgets.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-administracao-12-012",
@@ -6476,7 +6617,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "In the first sentence of the second paragraph, the word “jeopardize” is being used with a similar meaning as the one of enhance .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-administracao-12-015",
@@ -6883,7 +7025,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O emprego do sinal indicativo de crase no vocábulo “a” presente no primeiro período do texto prejudicaria a sua correção gramatical.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-direito-13-002",
@@ -6894,7 +7037,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "De acordo com o texto, o acesso à informação pela população, o aumento da consciência sobre seus direitos e a expectativa crescente com relação ao papel do Estado têm sido importantes entraves para o oferecimento de serviços públicos de qualidade.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-direito-13-003",
@@ -6905,7 +7049,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Entende-se da leitura do texto que o desenvolvimento de serviços públicos inovadores é considerado essencial para o enfrentamento de desafios sociais e o aprimoramento do bem-estar social da população.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-direito-13-004",
@@ -6916,7 +7061,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Segundo as informações do texto, a média de gastos anual nas diferentes esferas de governo no Brasil é maior que a média de gastos públicos por ano que se verifica em países da OCDE.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-direito-13-005",
@@ -6927,7 +7073,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Depreende-se do texto que, nos países da União Europeia, a inovação é fortemente influenciada pelas compras públicas.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-analista-direito-13-006",
@@ -6971,7 +7118,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The author believes the risk of a fiscal policy not having its expected long-term impacts is increased in the years following the COVID-19 pandemic.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-direito-13-010",
@@ -6982,7 +7130,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “gauge”, in the last sentence of the text, has a similar meaning as the one of estimate .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-direito-13-011",
@@ -6993,7 +7142,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "It is correct to conclude from the text that long-term budget assessments and stress tests are two crucial tools for states that seek to establish more than a short-term approach to their budgets.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-direito-13-012",
@@ -7004,7 +7154,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "In the first sentence of the second paragraph, the word “jeopardize” is being used with a similar meaning as the one of enhance .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 2
   },
   {
    "id": "cebraspe-2024-tceac-analista-direito-13-015",
@@ -7411,7 +7562,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do segundo parágrafo, a oração “Ridicularizar Descartes” funciona como complemento da forma verbal “tornou-se”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-administracao-002",
@@ -7422,7 +7574,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se da leitura do texto que seu autor tem uma visão negativa do trabalho de Descartes, o que se comprova pelo emprego, no terceiro período do segundo parágrafo, do adjetivo “reducionista” e da expressão “análise mecânica da mente humana”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-administracao-003",
@@ -7433,7 +7586,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conforme as ideias do texto, a distinção entre mente e corpo como objetos de estudo já era conhecida desde a Antiguidade, mas apenas com René Descartes essa distinção foi teorizada e difundida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-administracao-004",
@@ -7444,7 +7598,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O último período do texto é construído com base na tipologia argumentativa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-administracao-005",
@@ -7455,7 +7610,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do primeiro parágrafo, os dois pontos são empregados para introduzir uma explicação.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-administracao-006",
@@ -7466,7 +7622,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A supressão do acento indicativo de crase em “às leis da física” (segundo período do primeiro parágrafo) prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-administracao-007",
@@ -7477,7 +7634,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso se suprimisse a vírgula logo após a palavra “pioneiro” (terceiro período do segundo parágrafo), não haveria prejuízo da correção gramatical nem da coerência textual embora o sentido original do texto fosse alterado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-administracao-008",
@@ -7488,7 +7646,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Even though both forms are used to indicate an action in the past, replacing “have lowered” (first sentence of the third paragraph) with lowered would make the sentence grammatically wrong.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-tceac-auditor-administracao-009",
@@ -7499,7 +7658,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "According to the text, the tax policy of the state of Iowa is seen by some as being too heavy on taxpayers.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-tceac-auditor-administracao-010",
@@ -7510,7 +7670,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “Some” (fifth sentence of the second paragraph) indicates that the author is providing an approximate number of states that have cut individual income taxes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-tceac-auditor-administracao-011",
@@ -7521,7 +7682,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Iowa is going to cut down its taxes by a rate of 3.9% in the next two years.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-tceac-auditor-administracao-012",
@@ -7939,7 +8101,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do segundo parágrafo, a oração “Ridicularizar Descartes” funciona como complemento da forma verbal “tornou-se”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-arquitetura-002",
@@ -7950,7 +8113,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se da leitura do texto que seu autor tem uma visão negativa do trabalho de Descartes, o que se comprova pelo emprego, no terceiro período do segundo parágrafo, do adjetivo “reducionista” e da expressão “análise mecânica da mente humana”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-arquitetura-003",
@@ -7961,7 +8125,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conforme as ideias do texto, a distinção entre mente e corpo como objetos de estudo já era conhecida desde a Antiguidade, mas apenas com René Descartes essa distinção foi teorizada e difundida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-arquitetura-004",
@@ -7972,7 +8137,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O último período do texto é construído com base na tipologia argumentativa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-arquitetura-005",
@@ -7983,7 +8149,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do primeiro parágrafo, os dois pontos são empregados para introduzir uma explicação.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-arquitetura-006",
@@ -7994,7 +8161,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A supressão do acento indicativo de crase em “às leis da física” (segundo período do primeiro parágrafo) prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-arquitetura-007",
@@ -8005,7 +8173,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso se suprimisse a vírgula logo após a palavra “pioneiro” (terceiro período do segundo parágrafo), não haveria prejuízo da correção gramatical nem da coerência textual embora o sentido original do texto fosse alterado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-arquitetura-008",
@@ -8016,7 +8185,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Even though both forms are used to indicate an action in the past, replacing “have lowered” (first sentence of the third paragraph) with lowered would make the sentence grammatically wrong.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-tceac-arquitetura-009",
@@ -8027,7 +8197,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "According to the text, the tax policy of the state of Iowa is seen by some as being too heavy on taxpayers.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-tceac-arquitetura-010",
@@ -8038,7 +8209,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “Some” (fifth sentence of the second paragraph) indicates that the author is providing an approximate number of states that have cut individual income taxes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-tceac-arquitetura-011",
@@ -8049,7 +8221,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Iowa is going to cut down its taxes by a rate of 3.9% in the next two years.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-tceac-arquitetura-012",
@@ -8467,7 +8640,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do segundo parágrafo, a oração “Ridicularizar Descartes” funciona como complemento da forma verbal “tornou-se”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-contabilidade-002",
@@ -8478,7 +8652,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se da leitura do texto que seu autor tem uma visão negativa do trabalho de Descartes, o que se comprova pelo emprego, no terceiro período do segundo parágrafo, do adjetivo “reducionista” e da expressão “análise mecânica da mente humana”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-contabilidade-003",
@@ -8489,7 +8664,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conforme as ideias do texto, a distinção entre mente e corpo como objetos de estudo já era conhecida desde a Antiguidade, mas apenas com René Descartes essa distinção foi teorizada e difundida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-contabilidade-004",
@@ -8500,7 +8676,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O último período do texto é construído com base na tipologia argumentativa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-contabilidade-005",
@@ -8511,7 +8688,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do primeiro parágrafo, os dois pontos são empregados para introduzir uma explicação.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-contabilidade-006",
@@ -8522,7 +8700,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A supressão do acento indicativo de crase em “às leis da física” (segundo período do primeiro parágrafo) prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-contabilidade-007",
@@ -8533,7 +8712,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso se suprimisse a vírgula logo após a palavra “pioneiro” (terceiro período do segundo parágrafo), não haveria prejuízo da correção gramatical nem da coerência textual embora o sentido original do texto fosse alterado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-contabilidade-008",
@@ -8544,7 +8724,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Even though both forms are used to indicate an action in the past, replacing “have lowered” (first sentence of the third paragraph) with lowered would make the sentence grammatically wrong.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-tceac-auditor-contabilidade-009",
@@ -8555,7 +8736,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "According to the text, the tax policy of the state of Iowa is seen by some as being too heavy on taxpayers.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-tceac-auditor-contabilidade-010",
@@ -8566,7 +8748,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “Some” (fifth sentence of the second paragraph) indicates that the author is providing an approximate number of states that have cut individual income taxes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-tceac-auditor-contabilidade-011",
@@ -8577,7 +8760,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Iowa is going to cut down its taxes by a rate of 3.9% in the next two years.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-tceac-auditor-contabilidade-012",
@@ -8995,7 +9179,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do segundo parágrafo, a oração “Ridicularizar Descartes” funciona como complemento da forma verbal “tornou-se”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-direito-002",
@@ -9006,7 +9191,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se da leitura do texto que seu autor tem uma visão negativa do trabalho de Descartes, o que se comprova pelo emprego, no terceiro período do segundo parágrafo, do adjetivo “reducionista” e da expressão “análise mecânica da mente humana”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-direito-003",
@@ -9017,7 +9203,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conforme as ideias do texto, a distinção entre mente e corpo como objetos de estudo já era conhecida desde a Antiguidade, mas apenas com René Descartes essa distinção foi teorizada e difundida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-direito-004",
@@ -9028,7 +9215,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O último período do texto é construído com base na tipologia argumentativa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-direito-005",
@@ -9039,7 +9227,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do primeiro parágrafo, os dois pontos são empregados para introduzir uma explicação.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-direito-006",
@@ -9050,7 +9239,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A supressão do acento indicativo de crase em “às leis da física” (segundo período do primeiro parágrafo) prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-direito-007",
@@ -9061,7 +9251,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso se suprimisse a vírgula logo após a palavra “pioneiro” (terceiro período do segundo parágrafo), não haveria prejuízo da correção gramatical nem da coerência textual embora o sentido original do texto fosse alterado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-direito-008",
@@ -9072,7 +9263,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Even though both forms are used to indicate an action in the past, replacing “have lowered” (first sentence of the third paragraph) with lowered would make the sentence grammatically wrong.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-tceac-auditor-direito-009",
@@ -9083,7 +9275,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "According to the text, the tax policy of the state of Iowa is seen by some as being too heavy on taxpayers.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-tceac-auditor-direito-010",
@@ -9094,7 +9287,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “Some” (fifth sentence of the second paragraph) indicates that the author is providing an approximate number of states that have cut individual income taxes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-tceac-auditor-direito-011",
@@ -9105,7 +9299,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Iowa is going to cut down its taxes by a rate of 3.9% in the next two years.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-tceac-auditor-direito-012",
@@ -9523,7 +9718,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do segundo parágrafo, a oração “Ridicularizar Descartes” funciona como complemento da forma verbal “tornou-se”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-engenharia-civil-002",
@@ -9534,7 +9730,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conclui-se da leitura do texto que seu autor tem uma visão negativa do trabalho de Descartes, o que se comprova pelo emprego, no terceiro período do segundo parágrafo, do adjetivo “reducionista” e da expressão “análise mecânica da mente humana”.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-engenharia-civil-003",
@@ -9545,7 +9742,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Conforme as ideias do texto, a distinção entre mente e corpo como objetos de estudo já era conhecida desde a Antiguidade, mas apenas com René Descartes essa distinção foi teorizada e difundida.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-engenharia-civil-004",
@@ -9556,7 +9754,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O último período do texto é construído com base na tipologia argumentativa.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-engenharia-civil-005",
@@ -9567,7 +9766,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo período do primeiro parágrafo, os dois pontos são empregados para introduzir uma explicação.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-engenharia-civil-006",
@@ -9578,7 +9778,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A supressão do acento indicativo de crase em “às leis da física” (segundo período do primeiro parágrafo) prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-engenharia-civil-007",
@@ -9589,7 +9790,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Caso se suprimisse a vírgula logo após a palavra “pioneiro” (terceiro período do segundo parágrafo), não haveria prejuízo da correção gramatical nem da coerência textual embora o sentido original do texto fosse alterado.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 1
   },
   {
    "id": "cebraspe-2024-tceac-auditor-engenharia-civil-008",
@@ -9600,7 +9802,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Even though both forms are used to indicate an action in the past, replacing “have lowered” (first sentence of the third paragraph) with lowered would make the sentence grammatically wrong.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-tceac-auditor-engenharia-civil-009",
@@ -9611,7 +9814,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "According to the text, the tax policy of the state of Iowa is seen by some as being too heavy on taxpayers.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-tceac-auditor-engenharia-civil-010",
@@ -9622,7 +9826,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "The word “Some” (fifth sentence of the second paragraph) indicates that the author is providing an approximate number of states that have cut individual income taxes.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-tceac-auditor-engenharia-civil-011",
@@ -9633,7 +9838,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Iowa is going to cut down its taxes by a rate of 3.9% in the next two years.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 10
   },
   {
    "id": "cebraspe-2024-tceac-auditor-engenharia-civil-012",
@@ -10117,7 +10323,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A substituição do segmento “contribuir para” (quarto parágrafo) por contribuir com manteria a correção gramatical e a coerência do texto, mas não o seu sentido original.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2024-tceac-tecnico-informatica-008",
@@ -10128,7 +10335,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Seria correto o emprego do sinal indicativo de crase no vocábulo “a” em “a atender” (último período do texto).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2024-tceac-tecnico-informatica-009",
@@ -10139,7 +10347,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro parágrafo, o emprego das aspas tem a finalidade de destacar a existência de redundância na expressão ‘o uso humano dos seres humanos’.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2024-tceac-tecnico-informatica-010",
@@ -10150,7 +10359,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, a inserção de uma vírgula imediatamente após a palavra “países” prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2024-tceac-tecnico-informatica-011",
@@ -10161,7 +10371,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sem prejuízo da correção gramatical do texto, o segmento ‘seriam considerados’ (segundo período do terceiro parágrafo) poderia ser reescrito como se consideraria .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2024-tceac-tecnico-informatica-012",
@@ -10172,7 +10383,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do terceiro parágrafo, o vocábulo “algo” tem como referente a expressão “a IA aplicada na educação”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2024-tceac-tecnico-informatica-013",
@@ -10183,7 +10395,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido do primeiro período do terceiro parágrafo seriam preservados se o trecho “há mais de três décadas” fosse substituído por fazem mais de três décadas .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 9
   },
   {
    "id": "cebraspe-2024-tceac-tecnico-informatica-014",
@@ -10194,7 +10407,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estariam mantidas as relações de coesão estabelecidas no texto bem como a sua correção gramatical caso se substituísse o termo “Para” (segundo período do terceiro parágrafo) por Consoante .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 9
   },
   {
    "id": "cebraspe-2024-tceac-tecnico-informatica-017",
@@ -10645,7 +10859,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A substituição do segmento “contribuir para” (quarto parágrafo) por contribuir com manteria a correção gramatical e a coerência do texto, mas não o seu sentido original.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-tceac-instrutivo-008",
@@ -10656,7 +10871,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro parágrafo, o emprego das aspas tem a finalidade de destacar a existência de redundância na expressão ‘o uso humano dos seres humanos’.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-tceac-instrutivo-009",
@@ -10667,7 +10883,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No segundo parágrafo, a inserção de uma vírgula imediatamente após a palavra “países” prejudicaria a correção gramatical do texto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-tceac-instrutivo-010",
@@ -10678,7 +10895,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Estariam mantidas as relações de coesão estabelecidas no texto bem como a sua correção gramatical caso se substituísse o termo “Para” (segundo período do terceiro parágrafo) por Consoante .",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-tceac-instrutivo-011",
@@ -10689,7 +10907,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No primeiro período do terceiro parágrafo, o vocábulo “algo” tem como referente a expressão “a IA aplicada na educação”.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-tceac-instrutivo-012",
@@ -10700,7 +10919,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A correção gramatical e o sentido do primeiro período do terceiro parágrafo seriam preservados se o trecho “há mais de três décadas” fosse substituído por fazem mais de três décadas .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 8
   },
   {
    "id": "cebraspe-2024-tceac-instrutivo-014",
@@ -15133,7 +15353,8 @@
    "assunto": 2,
    "tipo": "certo_errado",
    "enunciado": "A consulta SQL a seguir cria uma view para listar o total de gastos por município e hospital, bem como agrupa os resultados por município e hospital, calcula a soma dos valores gastos e ordena os resultados, de forma decrescente, pelo maior gasto e, depois, pelo nome do município e do hospital. create view total_gastos_por_municipio as select nome_municipio as municipio, nome_hospital as hospital, sum(valor_gasto) as total from municipio m join hospital h on m.id_municipio = h.id_municipio join gastos g on h.id_hospital = g.id_hospital group by 1,2 order by 3 desc,1,2",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-tceac-gestao-dados-071",
@@ -15144,7 +15365,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O código a seguir cria a tabela gastos, de acordo com os relacionamentos com as outras tabelas.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-tceac-gestao-dados-072",
@@ -15155,7 +15377,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A execução da consulta SQL a seguir listará os nomes dos hospitais que tiveram gastos superiores à média geral de gastos.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-tceac-gestao-dados-073",
@@ -15166,7 +15389,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A seguinte consulta SQL lista os hospitais que não tiveram gastos com fisioterapia.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 3
   },
   {
    "id": "cebraspe-2024-tceac-gestao-dados-074",
@@ -18983,7 +19207,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No diagrama apresentado, seria adequado utilizar o diagrama de estrutura composta para, caso se queira, descrever os detalhes das partes internas que compõem uma classe e a forma como elas colaboram entre si.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 4
   },
   {
    "id": "cebraspe-2024-tceac-sistemas-informacao-073",
@@ -18994,7 +19219,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "O caso de uso informar endereço será acionado opcionalmente ao se acionar o caso de uso finalizar compra .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2024-tceac-sistemas-informacao-074",
@@ -19005,7 +19231,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Quando o ator sistema acionar o caso de uso verificar dados do cartão de crédito , este acionará, obrigatoriamente, o caso de uso preencher dados do cartão de crédito .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 4
   },
   {
    "id": "cebraspe-2024-tceac-sistemas-informacao-075",
@@ -21821,7 +22048,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "No que diz respeito à forma das cidades, estruturas orgânicas são aquelas que surgem totalmente ao acaso, de modo espontâneo, sem intenção, como, por exemplo, as cidades coloniais brasileiras, os núcleos medievais europeus e os assentamentos fundados pelos espanhóis na América Latina.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-tceac-arquitetura-052",
@@ -21832,7 +22060,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Foi nos séculos XIX e XX que surgiram as primeiras cidades integralmente planejadas no mundo, caracterizadas por geometrias rígidas e construídas especialmente para serem centros de poder, cerimoniais ou políticos, a exemplo de Moenjodaro (Paquistão), Teotihuacan (México), Washington (EUA), Camberra (Austrália) e Brasília (Brasil).",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-tceac-arquitetura-053",
@@ -21843,7 +22072,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Os atributos físicos de uma cidade podem ser analisados por meio de estratégias relacionadas à morfologia urbana, que compreende o estudo de aspectos da forma, da função e do desenvolvimento diacrônico do espaço construído.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 11
   },
   {
    "id": "cebraspe-2024-tceac-arquitetura-054",
@@ -21854,7 +22084,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Sob a perspectiva da evolução urbana, uma cidade resiliente é aquela capaz de permanecer continuamente ocupada ao longo de sua existência, a despeito de adversidades, obstáculos e pressões.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-tceac-arquitetura-055",
@@ -21865,7 +22096,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A condição em que se realizam os deslocamentos de pessoas e cargas no espaço urbano é habitualmente denominada mobilidade urbana.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 12
   },
   {
    "id": "cebraspe-2024-tceac-arquitetura-056",
@@ -21876,7 +22108,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A paisagem cultural pode ser compreendida como um conjunto espacial resultante de elementos materiais construídos associados a determinadas morfologias e dinâmicas naturais, que se vinculam a conteúdos e significados dados socialmente, sendo o contexto da cidade do Rio de Janeiro emblemático no Brasil quanto a esse assunto.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 13
   },
   {
    "id": "cebraspe-2024-tceac-arquitetura-057",
@@ -21887,7 +22120,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Define-se tombamento como a inclusão de um edifício ou conjunto urbano à lista de patrimônio mundial da UNESCO.",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 13
   },
   {
    "id": "cebraspe-2024-tceac-arquitetura-058",
@@ -24307,7 +24541,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "Para uma variação de temperatura positiva, o esforço normal de compressão será o único atuante sobre a viga.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2024-tceac-auditor-engenharia-civil-074",
@@ -24318,7 +24553,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A tensão atuante na barra, considerando-se que a solicitação permaneça dentro do regime elástico, em módulo, é igual a EαΔT , em que α é o coeficiente de dilatação térmica.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 6
   },
   {
    "id": "cebraspe-2024-tceac-auditor-engenharia-civil-075",
@@ -24329,7 +24565,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A armadura longitudinal principal deve ser posicionada próxima à face superior da viga, a fim de reforçar a região tracionada da peça, já que o concreto é um material pouco resistente à tração.",
-   "gabarito": "certo"
+   "gabarito": "certo",
+   "texto": 7
   },
   {
    "id": "cebraspe-2024-tceac-auditor-engenharia-civil-076",
@@ -24340,7 +24577,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A função do esforço cortante ao longo do eixo x é dada por V ( x ) = −30 − 10 x .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2024-tceac-auditor-engenharia-civil-077",
@@ -24351,7 +24589,8 @@
    "assunto": 0,
    "tipo": "certo_errado",
    "enunciado": "A função do momento fletor ao longo do eixo x é dada por M ( x ) = −45 − 30 x − 5 x 2 .",
-   "gabarito": "errado"
+   "gabarito": "errado",
+   "texto": 7
   },
   {
    "id": "cebraspe-2024-tceac-auditor-engenharia-civil-078",
@@ -26343,6 +26582,92 @@
    "tipo": "certo_errado",
    "enunciado": "A assinatura digital e o certificado digital têm o mesmo objetivo: apenas autenticar a identidade de uma pessoa em documentos eletrônicos.",
    "gabarito": "errado"
+  }
+ ],
+ "textos": [
+  {
+   "ref": "",
+   "conteudo": "A seguir, a figura I apresenta o conjunto U e três subconjuntos identificados por A, B e C, e as figuras II e III destacam subconjuntos específicos do conjunto U.\n\nFigura I\n\nFigura II\n\nFigura III Com base nessas informações, julgue os itens seguintes, relacionados à descrição dos subconjuntos destacados nas figuras II e III.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "conhecimentos de informática e(ou) informado o contrário, considere que todos os programas mencionados estão em configuração-padrão e que não há restrições de proteção, de funcionamento e de uso em relação aos programas, arquivos, diretórios, recursos e equipamentos mencionados. • Eventuais espaços livres — identificados ou não pela expressão “ poderão ser utilizados para rascunho.\n\n-- PROVAS OBJETIVAS --\n\n-- CONHECIMENTOS BÁSICOS --",
+   "citacao": "O setor público enfrenta o desafio particular de oferecer serviços públicos cada vez melhores a uma população gradualmente mais bem informada, mais consciente de seus direitos e com expectativas crescentes quanto ao papel do Estado. Devido aos recursos limitados, desenvolver serviços públicos inovadores tem sido visto crescentemente como fator fundamental para sustentar um alto nível de serviços para cidadãos e negócios, bem como para enfrentar desafios sociais e aprimorar o bem-estar social da população. Diante desse cenário, o discurso científico sobre inovação em compras públicas ganhou maior atenção nas últimas décadas. A União Europeia reconheceu as compras públicas como instrumento de inovação e de provimento de mercados pioneiros para novos produtos, definindo-as como compras de bens e serviços que ainda não existem, que precisam ser aperfeiçoados ou que requerem pesquisa e inovação para atender às necessidades especificadas pelos usuários. As compras públicas representam grande parte da execução da despesa pública. Entre países da Organização para a Cooperação e Desenvolvimento Econômico (OCDE), a média de gastos públicos representa 12% do GDP (equivalente ao PIB) por ano. No Brasil, anualmente o governo federal gasta, em média, 5% do PIB em compras apenas de bens e serviços. Quando se incluem nos cálculos as despesas efetuadas por estados, municípios e estatais, o percentual chega próximo a 15% do PIB, ou R$ 900 bilhões. Internet: <www.realp.unb.br> (com adaptações).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Responsible state fiscal policy requires more than just balancing the current year’s budget. It must also include ensuring that the budget is on a sustainable path. Otherwise, policymakers cannot have the lasting impact they hope for. This risk is especially high in the aftermath of the COVID-19 pandemic. Record budget surpluses, driven largely by federal pandemic aid, empowered states to adopt historically large tax cuts and spending increases from 2021 to 2023. State leaders must be able to assess whether their decisions will be affordable over the long term or will jeopardize their ability to solve state problems or even sustain programs and services in the future. Unfortunately, the nature of state budget processes discourages such long-term thinking. State policymakers devote much of their time to developing, enacting, and implementing annual or biennial budgets, a prime opportunity to achieve immediate policy goals. One key strategy for changing this short-term focus is for states to use long-term budget assessments and budget stress tests to regularly measure risks, anticipate potential shortfalls, and identify ways to address impending challenges. Long-term budget assessments project revenue and spending several years into the future, and stress tests estimate the size of temporary budget shortfalls that would result from recessions or other economic events and gauge whether states are prepared for these events.\n\nInternet: <https://www.pewtrusts.org> (adapted). Considering the ideas conveyed in the previous text, as well as its",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A figura a seguir representa um projeto de banco de dados para a análise de gastos em saúde por município e por hospital.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Tendo como referência o diagrama de caso de uso apresentado anteriormente, julgue os próximos itens, relativos a UML ( unified modeling language ).",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A figura a seguir ilustra uma barra homogênea de comprimento L , seção transversal uniforme de área A , constituída por um material que apresenta módulo de elasticidade E , sendo solicitada por uma força axial centrada P (desprezam-se os efeitos do peso próprio da barra). Com base nessas informações, julgue o item a seguir, relativo a esforços em uma seção.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "ா௅ A figura seguinte ilustra uma viga biengastada, constituída de um material homogêneo de módulo de elasticidade E , comprimento L e seção transversal uniforme de área A , submetida a uma variação de temperatura de intensidade ΔT (desprezam-se os efeitos do peso próprio da viga).",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "A figura seguinte representa uma viga de concreto armado, engastada, de seção transversal retangular, com comprimento L = 3 m, submetida exclusivamente a um carregamento uniformemente distribuído q = 10 kN/m. A partir dessas informações, julgue os itens a seguir, considerando um eixo horizontal x orientado da esquerda para a direita e com origem no engaste.",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CB4A1",
+   "conteudo": "Existem desde previsões de que a inteligência artificial (IA) substituirá os seres humanos e eliminará uma lista de profissões até alegações de que ela contribuirá para “o uso humano dos seres humanos” (parafraseando-se o subtítulo do livro de 1954 do matemático considerado fundador da cibernética, Norbert Wiener), liberando-os para usarem melhor o tempo enquanto assume as tarefas repetitivas.\n\nUm grupo de pesquisadores de diversos países produziu a publicação Inteligência Liberada — um argumento para a IA na educação , para demonstrar os benefícios da IA para a educação. É importante, nesse ponto, definir o que é a IA aplicada na educação — algo que vem sendo estudado no meio acadêmico há mais de três décadas. Para os autores da publicação mencionada, IA corresponde a “sistemas de computador que foram projetados para interagir com o mundo por meio de capacidades (por exemplo, percepção visual e reconhecimento de fala) e comportamentos inteligentes (por exemplo, avaliar as informações disponíveis e, em seguida, tomar a ação mais sensata para atingir um objetivo declarado) que seriam considerados essencialmente humanos”. Um dos objetivos do uso da IA na educação é abrir a chamada “caixa-preta do aprendizado”, ou, em outras palavras, contribuir para uma compreensão mais profunda e detalhada de como o aprendizado realmente acontece (por exemplo, como é influenciado pelo contexto socioeconômico e físico dos alunos ou por tecnologia). Nesse contexto, a IA na educação oferece a possibilidade de uma aprendizagem mais personalizada, flexível, inclusiva e envolvente. Além disso, as ferramentas fornecem informações não apenas sobre o que está sendo aprendido, mas também como está sendo aprendido e como os alunos estão se sentindo. Ainda, a IA pode ajudar os professores a criar ambientes de aprendizagem colaborativa e a atender as necessidades de seus alunos por meio de técnicas de mineração de dados educacionais para “rastrear” o comportamento dos alunos.\n\nInternet: <observatoriodeeducacao.institutounibanco.org.br> (com adaptações).\n\ntecnologia da informação , a menos que seja explicitamente",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "CB4A1",
+   "conteudo": "Existem desde previsões de que a inteligência artificial (IA) substituirá os seres humanos e eliminará uma lista de profissões até alegações de que ela contribuirá para “o uso humano dos seres humanos” (parafraseando-se o subtítulo do livro de 1954 do matemático considerado fundador da cibernética, Norbert Wiener), liberando-os para usarem melhor o tempo enquanto assume as tarefas repetitivas.\n\nUm grupo de pesquisadores de diversos países produziu a publicação Inteligência Liberada — um argumento para a IA na educação , para demonstrar os benefícios da IA para a educação. É importante, nesse ponto, definir o que é a IA aplicada na educação — algo que vem sendo estudado no meio acadêmico há mais de três décadas. Para os autores da publicação mencionada, IA corresponde a “sistemas de computador que foram projetados para interagir com o mundo por meio de capacidades (por exemplo, percepção visual e reconhecimento de fala) e comportamentos inteligentes (por exemplo, avaliar as informações disponíveis e, em seguida, tomar a ação mais sensata para atingir um objetivo declarado) que seriam considerados essencialmente humanos”. Um dos objetivos do uso da IA na educação é abrir a chamada “caixa-preta do aprendizado”, ou, em outras palavras, contribuir para uma compreensão mais profunda e detalhada de como o aprendizado realmente acontece (por exemplo, como é influenciado pelo contexto socioeconômico e físico dos alunos ou por tecnologia). Nesse contexto, a IA na educação oferece a possibilidade de uma aprendizagem mais personalizada, flexível, inclusiva e envolvente. Além disso, as ferramentas fornecem informações não apenas sobre o que está sendo aprendido, mas também como está sendo aprendido e como os alunos estão se sentindo. Ainda, a IA pode ajudar os professores a criar ambientes de aprendizagem colaborativa e a atender as necessidades de seus alunos por meio de técnicas de mineração de dados educacionais para “rastrear” o comportamento dos alunos.\n\nInternet: <observatoriodeeducacao.institutounibanco.org.br> (com adaptações).\n\ntecnologia da informação , a menos que seja explicitamente\n\nEspaço livre ” — que constarem deste caderno de provas",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "tecnologia da informação , a menos que seja explicitamente Espaço livre ” — que constarem deste caderno de provas Iowa, a small midwestern state, finds itself in the national economic spotlight. For conservative commentators, Iowa has emerged as America’s tax-cutting champion, a paragon of fiscal responsibility. To critics it looks more like an example of economic recklessness. Either way, Iowa is playing an outsized role in a bigger debate about how American states ought to manage their revenues and spending. Until a few years ago it had one of the highest income-tax rates in America. By 2026 it will be down to a flat tax of 3.9%. Iowa is far from alone. Some 25 states have cut individual income taxes over the past years. A handful, including Georgia and Idaho, are shifting to a flat tax. And a few others want to eliminate their income taxes altogether. Virtually all states, regardless of political make-up, have lowered their citizens’ tax bills since 2021. Overall, this has been a rough decline in states’ tax revenues during this time, the steepest such reduction in at least four decades. But the most aggressive moves have been cuts to income taxes, and Iowa has been at the forefront of these efforts.\n\nThe Economist. A tax-cutting wave is sweeping over America’s states.\n\nInternet: <https://www.economist.com>. (adapted). Based on the ideas of the preceding text and on its linguistic",
+   "citacao": "",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "-- CONHECIMENTOS ESPECÍFICOS --",
+   "citacao": "Em arquitetura não se lida com um espaço abstrato, tal como em economia (o espaço econômico) ou na ciência política (o espaço político). Como parte continente e recipiente dos entes materiais, o espaço da arquitetura possui atributos físicos que permitem aos indivíduos captá-los em quaisquer experiências concretas. G. Kohlsdorf, M. Kohlsdorf. Ensaio sobre o desempenho morfológico dos lugares . Brasília: FRBH, 2017, p. 31 (com adaptações).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Podemos definir as cidades como agrupamentos de população que não produzem seus próprios meios de subsistência alimentar. A existência das cidades pressupõe, portanto, desde a sua origem, uma divisão técnica, social e espacial da produção, e implica trocas de natureza diversa entre aqueles que produzem os bens de subsistência e os que produzem bens manufaturados (artesãos), bens simbólicos (religiosos, artistas etc.), o poder e a proteção (guerreiros). A dinâmica da urbanização está ligada ao potencial de interação oferecido pelas cidades, à sua “urbanidade”, ou seja, à potência multiforme que gera o reagrupamento de uma grande quantidade de pessoas em um mesmo lugar. O crescimento das cidades esteve correlacionado, ao longo da história, com o desenvolvimento dos meios de transporte e armazenamento dos bens necessários para abastecer populações crescentes em qualquer estação do ano. Também esteve vinculado às técnicas de estocagem das informações necessárias à organização do trabalho e das trocas, como demonstra o aparecimento conjunto da escrita e da contabilidade.",
+   "citacao": "François Ascher. Os novos princípios do urbanismo. São Paulo: Romano Guerra, 2010, p. 19 (com adaptações).",
+   "imagem": false
+  },
+  {
+   "ref": "",
+   "conteudo": "Os bens tombados se subdividem em bens móveis e imóveis, entre os quais se incluem conjuntos urbanos, edificações, coleções e acervos, equipamentos urbanos e de infraestrutura, paisagens, ruínas, jardins e parques históricos, terreiros e sítios arqueológicos. O objetivo do tombamento de um bem cultural é impedir sua destruição ou mutilação, mantendo-o preservado para as gerações futuras.",
+   "citacao": "Internet:<portal.iphan.gov.br>(com adaptações).",
+   "imagem": false
   }
  ]
 }
