@@ -71,8 +71,11 @@ Proposta técnica consolidada para o agente de IA do **Papiro** (HackBrasil — 
 ## 5. Custos, limites e segurança
 
 - **Cache em memória por `questao_id` (LRU + TTL 24h):** chamadas sem `duvida` nem `resposta_usuario` reutilizam a resposta com zero tokens extras.
-- **Rate limit por IP em memória (`CF-Connecting-IP`):** `5 req/min` e `30 req/dia` por IP (`429` + `Retry-After`).
+- **Rate limit por IP em memória (`CF-Connecting-IP`):** `5 req/min` e `30 req/dia` por IP (`429` + `Retry-After`). O header só é honrado de peers confiáveis (loopback + redes privadas por default, ajustável via `TRUSTED_PROXY_IPS` em CIDRs); peers fora do conjunto caem no IP da conexão — fail-closed. O mapa de IPs tem teto duro com evicção LRU (`AGENTE_MAX_TRACKED_IPS`, default 10 mil).
 - **Teto global diário:** `200` chamadas reais/dia ao LLM (`AGENTE_DAILY_GLOBAL_CAP`), evitando estouro de cota gratuita.
+- **Gate de concorrência + deadline:** no máximo `AGENTE_MAX_CONCURRENT` (default 4) chamadas LLM em voo — acima disso `503` imediato com `Retry-After`, sem ocupar thread nem queimar cota; cada request tem deadline total de `AGENTE_REQUEST_DEADLINE_S` (default 30 s) cobrindo retry, fallback e consultas ao banco. Os handlers são `async` (`httpx.AsyncClient`) e toda consulta síncrona roda em `anyio.to_thread` com limiter dedicado (`AGENTE_DB_THREADS`, default 8) — um flood no `/agente` não esgota o pool que serve `/questoes`, `/health` etc.
+- **Neutralização de marcação nos campos livres:** `duvida`, `texto_edital`, `banca` e `cargo` passam por `_sem_marcacao` (remove `<`/`>`) antes de entrar no prompt — nenhum fragmento do usuário pode fechar `<duvida_usuario>`/`<conteudo_edital>` nem injetar delimitadores falsos (breakout de prompt).
+- **Contrato de renderização (XSS):** todo campo gerado pelo LLM na resposta (`explicacao`, `armadilha_banca`, `conceito_chave`, `pontos_chave`, `disciplina_inferida`, `resumo`, `banca_identificada`, `topico`, `disciplina`, `termo_busca`, `enunciado_resumo`) é texto potencialmente hostil — o consumidor (`web/` ou terceiros) **deve** renderizá-lo apenas como texto (`textContent`, template escapado), nunca via `innerHTML`/`set:html`/markdown não sanitizado.
 - **Segredos:** `GEMINI_API_KEY` lida somente de variável de ambiente (`.env/docker.env` no compose, sem valores commitados).
 
 ---
@@ -167,7 +170,7 @@ Proposta técnica consolidada para o agente de IA do **Papiro** (HackBrasil — 
 | `404` | `questao_id` não existe no Postgres. | Exibir aviso de questão não encontrada. |
 | `422` | JSON inválido, `duvida > 500` chars ou `resposta_usuario` incompatível com `tipo`. | Validar entrada no formulário. |
 | `429` | Rate limit por IP (`5/min`, `30/dia`) ou teto diário global (`200/dia`); inclui header `Retry-After`. | Exibir aviso amigável com tempo de espera. |
-| `503` | `GEMINI_API_KEY` ausente ou falha/sobrecarga simultânea no modelo principal e fallback. | Exibir botão de tentar novamente (demais rotas da API seguem operando). |
+| `503` | `GEMINI_API_KEY` ausente, falha/sobrecarga simultânea no modelo principal e fallback, gate de concorrência cheio (`Retry-After`) ou deadline total do request. | Exibir botão de tentar novamente (demais rotas da API seguem operando). |
 
 ### Exemplo `curl`
 

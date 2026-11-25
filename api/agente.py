@@ -12,13 +12,30 @@ Regras centrais:
   (``GEMINI_MODEL``), faz 1 nova tentativa após ~1 s e, persistindo a falha,
   faz 1 tentativa no modelo de fallback (``GEMINI_FALLBACK_MODEL``).
 - Proteções em memória compatíveis com a role somente leitura ``papiro_ro``:
-  cache LRU+TTL por ``questao_id``, rate limit por IP e teto diário global.
+  cache LRU+TTL por ``questao_id``, rate limit por IP, teto diário global,
+  gate de concorrência e deadline total por request.
+- Handlers ``async``: a espera de rede usa ``httpx.AsyncClient`` e todo
+  trabalho síncrono (SQLAlchemy/ILike) vai para ``anyio.to_thread`` num
+  limiter dedicado — nenhum handler bloqueia o event loop nem o threadpool
+  que serve o resto da API.
+- Campos livres do usuário (``duvida``, ``texto_edital``, ``banca``,
+  ``cargo``) passam por ``_sem_marcacao`` antes de entrar no prompt —
+  nenhum fragmento pode fechar os delimitadores ``<duvida_usuario>`` /
+  ``<conteudo_edital>``. **Contrato de saída:** todos os campos gerados
+  pelo LLM (``explicacao``, ``armadilha_banca``, ``pontos_chave``,
+  ``resumo``, ``topico``, ``disciplina``, ``termo_busca``) são texto
+  hostil em potencial — o ``web/`` deve renderizá-los somente via
+  ``textContent``/template escapado, nunca ``innerHTML``/``set:html``.
+- ``cf-connecting-ip`` só é honrado quando o peer da conexão é confiável
+  (loopback ou rede privada — ver ``_client_ip``/``TRUSTED_PROXY_IPS``);
+  peers públicos usam o IP da conexão (fail-closed).
 """
 
 from __future__ import annotations
 
 from collections import OrderedDict, deque
 from datetime import datetime, timezone
+from ipaddress import ip_address, ip_network
 import json
 import logging
 import os
@@ -27,6 +44,9 @@ import threading
 import time
 from typing import Any, Callable, Literal, Optional
 
+import anyio
+import anyio.to_thread
+from anyio import CapacityLimiter
 from fastapi import APIRouter, Depends, HTTPException, Request
 import httpx
 from pydantic import BaseModel, Field, ValidationError
@@ -50,6 +70,24 @@ DEFAULT_PRIMARY_COOLDOWN_S = 300.0
 DEFAULT_RELACIONADAS_TIMEOUT_MS = 1200
 MAX_EDITAL_TOPICOS = 6
 DEFAULT_EDITAL_QUERY_TIMEOUT_MS = 2500
+DEFAULT_AGENTE_MAX_CONCURRENT = 4      # gate de concorrência do agente
+DEFAULT_AGENTE_DEADLINE_S = 30.0       # deadline total por request (LLM+consultas)
+DEFAULT_AGENTE_DB_THREADS = 8          # limiter dedicado p/ to_thread de consultas
+DEFAULT_MAX_IP_TRACKED = 10_000        # teto duro do dict de rate limit por IP
+AGENTE_BUSY_RETRY_AFTER_S = "10"       # Retry-After do 503 do gate de concorrência
+
+# Peers que podem sobrescrever a identidade do cliente via header de proxy
+# (cf-connecting-ip): loopback + redes privadas — a única forma de chegar à
+# API hoje é o cloudflared na rede interna do compose (publish em 127.0.0.1).
+# Se a topologia mudar (porta pública, outro proxy), ajustar TRUSTED_PROXY_IPS.
+_DEFAULT_TRUSTED_PROXY_NETS = (
+    ip_network("127.0.0.0/8"),
+    ip_network("::1/128"),
+    ip_network("10.0.0.0/8"),
+    ip_network("172.16.0.0/12"),
+    ip_network("192.168.0.0/16"),
+    ip_network("fd00::/8"),
+)
 
 _OVERLOAD_STATUSES = frozenset({429, 503})
 _VALID_GABARITOS = {
@@ -275,11 +313,25 @@ class AgenteState:
 
     def __init__(self) -> None:
         self._lock = threading.Lock()
-        self._ip_hits: dict[str, deque[float]] = {}
+        self._ip_hits: OrderedDict[str, deque[float]] = OrderedDict()
         self._cache: OrderedDict[str, tuple[float, ExplicarResponse]] = OrderedDict()
         self._global_day = _utc_day()
         self._global_calls = 0
         self._primary_open_until: float = 0.0
+        self._inflight = 0
+
+    def try_acquire_slot(self, limite: int) -> bool:
+        """Gate de concorrência do agente — não-bloqueante (contador)."""
+        with self._lock:
+            if limite <= 0 or self._inflight >= limite:
+                return False
+            self._inflight += 1
+            return True
+
+    def release_slot(self) -> None:
+        with self._lock:
+            if self._inflight > 0:
+                self._inflight -= 1
 
     def primary_circuit_open(self, now: Optional[float] = None) -> bool:
         ts = time.monotonic() if now is None else now
@@ -300,9 +352,19 @@ class AgenteState:
     ) -> Optional[int]:
         """Registra acesso do IP ou retorna ``Retry-After`` em segundos."""
         ts = time.monotonic() if now is None else now
+        max_tracked = max(1, _env_int("AGENTE_MAX_TRACKED_IPS", DEFAULT_MAX_IP_TRACKED))
         with self._lock:
             self._prune_idle_ips(ts)
-            q = self._ip_hits.setdefault(ip, deque())
+            q = self._ip_hits.get(ip)
+            if q is None:
+                # Teto duro: flood de IPs forjados não pode crescer o dict sem
+                # teto — acima do limite, evicta o IP menos recentemente usado.
+                while len(self._ip_hits) >= max_tracked:
+                    self._ip_hits.popitem(last=False)
+                q = deque()
+                self._ip_hits[ip] = q
+            else:
+                self._ip_hits.move_to_end(ip)
             while q and q[0] <= ts - 86400.0:
                 q.popleft()
             if per_day > 0 and len(q) >= per_day:
@@ -369,14 +431,20 @@ class AgenteState:
 # Cliente Gemini (Interactions API v1) com retry e fallback
 # ---------------------------------------------------------------------------
 
-def _post_interaction(
+async def _post_interaction(
     url: str,
     headers: dict[str, str],
     payload: dict[str, Any],
     timeout: float,
 ) -> httpx.Response:
-    with httpx.Client(timeout=timeout) as client:
-        return client.post(url, headers=headers, json=payload)
+    async with httpx.AsyncClient(timeout=timeout) as client:
+        return await client.post(url, headers=headers, json=payload)
+
+
+async def _esperar_retry(segundos: float) -> None:
+    """Backoff async do retry — nunca ``time.sleep`` (bloquearia o loop)."""
+    if segundos > 0:
+        await anyio.sleep(segundos)
 
 
 def _extract_model_json(data: dict[str, Any]) -> dict[str, Any]:
@@ -409,7 +477,7 @@ def _attempt_timeout(specific_env: str, default: float) -> float:
     return default
 
 
-def call_gemini(
+async def call_gemini(
     system_instruction: str,
     user_input: str,
     response_schema: dict[str, Any],
@@ -435,7 +503,7 @@ def call_gemini(
         "Content-Type": "application/json",
     }
 
-    def invoke(
+    async def invoke(
         model_name: str, req_timeout: float
     ) -> tuple[Optional[httpx.Response], Optional[Exception]]:
         payload = {
@@ -452,7 +520,7 @@ def call_gemini(
         }
         t0 = time.perf_counter()
         try:
-            r = _post_interaction(url, headers, payload, req_timeout)
+            r = await _post_interaction(url, headers, payload, req_timeout)
             ms = int((time.perf_counter() - t0) * 1000)
             logger.info(
                 "agente.gemini attempt model=%s status=%s ms=%d timeout=%.1fs",
@@ -477,7 +545,7 @@ def call_gemini(
 
     if state is not None and can_fallback and state.primary_circuit_open():
         logger.info("agente.gemini circuit_skip primary=%s fallback=%s", primary, fallback)
-        fb_resp, fb_err = invoke(fallback, fallback_timeout)
+        fb_resp, fb_err = await invoke(fallback, fallback_timeout)
         if fb_err is None and fb_resp is not None and fb_resp.status_code == 200:
             try:
                 return _extract_model_json(fb_resp.json()), fallback
@@ -485,12 +553,12 @@ def call_gemini(
                 raise HTTPException(503, "agente indisponível: resposta inválida do provedor")
         raise HTTPException(503, "agente indisponível no provedor no momento")
 
-    resp, err = invoke(primary, primary_timeout)
+    resp, err = await invoke(primary, primary_timeout)
 
     # Em 503/429 de sobrecarga: aguarda ~1s e tenta 1x mais no principal
     if resp is not None and resp.status_code in _OVERLOAD_STATUSES:
-        time.sleep(retry_delay)
-        resp, err = invoke(primary, primary_timeout)
+        await _esperar_retry(retry_delay)
+        resp, err = await invoke(primary, primary_timeout)
 
     if resp is not None and resp.status_code == 200:
         try:
@@ -515,7 +583,7 @@ def call_gemini(
         resp is not None and (resp.status_code in _OVERLOAD_STATUSES or resp.status_code >= 500)
     )
     if can_fallback and retryable_failure:
-        fb_resp, fb_err = invoke(fallback, fallback_timeout)
+        fb_resp, fb_err = await invoke(fallback, fallback_timeout)
         if fb_err is None and fb_resp is not None and fb_resp.status_code == 200:
             try:
                 return _extract_model_json(fb_resp.json()), fallback
@@ -529,11 +597,65 @@ def call_gemini(
 # Regras pedagógicas, guardrail de gabarito e questões relacionadas
 # ---------------------------------------------------------------------------
 
+def _trusted_proxy_nets() -> tuple[Any, ...]:
+    """Redes cujo peer pode sobrescrever o IP do cliente via header de proxy.
+
+    Default: loopback + RFC1918/ULA (rede interna do compose onde o
+    cloudflared roda). ``TRUSTED_PROXY_IPS`` (CIDRs separados por vírgula)
+    sobrescreve o conjunto; entradas inválidas são descartadas (fail-closed).
+    """
+    raw = _env_str("TRUSTED_PROXY_IPS")
+    if not raw:
+        return _DEFAULT_TRUSTED_PROXY_NETS
+    nets = []
+    for tok in raw.split(","):
+        tok = tok.strip()
+        if not tok:
+            continue
+        try:
+            nets.append(ip_network(tok, strict=False))
+        except ValueError:
+            continue
+    return tuple(nets)
+
+
 def _client_ip(request: Request) -> str:
-    cf_ip = request.headers.get("cf-connecting-ip", "").strip()
-    if cf_ip:
-        return cf_ip
-    return request.client.host if request.client else "unknown"
+    """IP do cliente para rate limit — cf-connecting-ip só de peer confiável.
+
+    Honrar o header cegamente permitiria a qualquer origem forjar IPs e
+    esvaziar o rate limit por IP; só aceita quando o peer da conexão está
+    em ``_trusted_proxy_nets`` (túnel/loopback). Fallback: IP da conexão.
+    """
+    peer = request.client.host if request.client else ""
+    trusted = False
+    try:
+        peer_ip = ip_address(peer)
+        trusted = any(peer_ip in net for net in _trusted_proxy_nets())
+    except ValueError:
+        trusted = False
+    if trusted:
+        cf_ip = request.headers.get("cf-connecting-ip", "").strip()
+        if cf_ip:
+            try:
+                ip_address(cf_ip)
+                return cf_ip
+            except ValueError:
+                pass
+    return peer or "unknown"
+
+
+_MARCACAO_RE = re.compile(r"[<>]+")
+
+
+def _sem_marcacao(texto: str) -> str:
+    """Neutraliza ``<``/``>`` em campos livres antes de montar o prompt.
+
+    Fail-closed: em vez de tentar distinguir marcação "real" de texto,
+    remove todo par de colchetes angulares — nenhum fragmento do usuário
+    pode fechar ``<duvida_usuario>``/``<conteudo_edital>`` ou abrir
+    delimitadores falsos dentro deles.
+    """
+    return _MARCACAO_RE.sub(" ", texto)
 
 
 def _contradiz_gabarito(texto: str, gabarito: str, tipo: str) -> bool:
@@ -639,7 +761,9 @@ def _build_explicar_prompts(
         status_resp = "ACERTOU" if resposta_usuario == gabarito else "ERROU"
         linhas.append(f"Resposta marcada pelo estudante: {resposta_usuario.upper()} ({status_resp})")
     if duvida:
-        linhas.append(f"<duvida_usuario>\n{duvida}\n</duvida_usuario>")
+        # _sem_marcacao impede que a dúvida feche o delimitador e escape
+        # do par de tags (breakout de prompt — conteúdo hostil estrutural).
+        linhas.append(f"<duvida_usuario>\n{_sem_marcacao(duvida)}\n</duvida_usuario>")
 
     return system_instruction, "\n\n".join(linhas)
 
@@ -852,10 +976,12 @@ def _build_edital_prompts(
     )
     partes = []
     if banca:
-        partes.append(f"Banca informada: {banca}")
+        partes.append(f"Banca informada: {_sem_marcacao(banca)}")
     if cargo:
-        partes.append(f"Cargo informado: {cargo}")
-    partes.append(f"<conteudo_edital>\n{texto_edital}\n</conteudo_edital>")
+        partes.append(f"Cargo informado: {_sem_marcacao(cargo)}")
+    # _sem_marcacao impede breakout de </conteudo_edital> com instruções
+    # embutidas fora do par de tags.
+    partes.append(f"<conteudo_edital>\n{_sem_marcacao(texto_edital)}\n</conteudo_edital>")
     return system_instruction, "\n\n".join(partes)
 
 
@@ -935,6 +1061,33 @@ def _consumir_cota_llm(state: AgenteState) -> None:
         )
 
 
+def _adquirir_slot_agente(state: AgenteState) -> None:
+    """Gate de concorrência: acima do teto de chamadas LLM em voo → 503.
+
+    Não-bloqueante de propósito — a alternativa (fila) deixaria o flood
+    segurar slots até o deadline; melhor rejeitar imediato com Retry-After.
+    Deve rodar DEPOIS dos caminhos baratos (rate-limit, 404, validação,
+    cache, curto-circuitos) para não ocupar slot nem queimar cota à toa.
+    """
+    limite = _env_int("AGENTE_MAX_CONCURRENT", DEFAULT_AGENTE_MAX_CONCURRENT)
+    if not state.try_acquire_slot(limite):
+        raise HTTPException(
+            503,
+            "agente temporariamente sobrecarregado; tente novamente em instantes",
+            headers={"Retry-After": AGENTE_BUSY_RETRY_AFTER_S},
+        )
+
+
+def _buscar_questao_row(session: Session, questao_id: str):
+    return session.execute(
+        queries.base_questao().where(QuestaoDB.id == questao_id)
+    ).first()
+
+
+def _deadline_s() -> float:
+    return _env_float("AGENTE_REQUEST_DEADLINE_S", DEFAULT_AGENTE_DEADLINE_S)
+
+
 # ---------------------------------------------------------------------------
 # Router FastAPI
 # ---------------------------------------------------------------------------
@@ -943,18 +1096,23 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
     """Cria o router ``/agente`` compartilhando a sessão read-only da API."""
     router = APIRouter(prefix="/agente", tags=["agente"])
     state = AgenteState()
+    # Limiter dedicado p/ consultas síncronas (SQLAlchemy) — fora do
+    # threadpool default que serve os demais handlers da API.
+    db_limiter = CapacityLimiter(
+        _env_int("AGENTE_DB_THREADS", DEFAULT_AGENTE_DB_THREADS)
+    )
 
     @router.post("/explicar", response_model=ExplicarResponse)
-    def explicar(
+    async def explicar(
         body: ExplicarRequest,
         request: Request,
         s: Session = Depends(session_dep),
     ):
         _checar_rate_limit(state, request)
 
-        row = s.execute(
-            queries.base_questao().where(QuestaoDB.id == body.questao_id)
-        ).first()
+        row = await anyio.to_thread.run_sync(
+            _buscar_questao_row, s, body.questao_id, limiter=db_limiter
+        )
         if row is None:
             raise HTTPException(404, "questão não encontrada")
         questao = queries.row_to_questao(row)
@@ -1033,7 +1191,9 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
                     f"Gabarito oficial confirmado: {gab_desc}",
                     f"Texto externo ({ref_texto}) ausente no recorte — consulte a fonte oficial.",
                 ],
-                questoes_relacionadas=_buscar_relacionadas(s, questao, "", limit=3),
+                questoes_relacionadas=await anyio.to_thread.run_sync(
+                    _buscar_relacionadas, s, questao, "", limiter=db_limiter
+                ),
                 modelo="nenhum",
                 cached=False,
             )
@@ -1043,48 +1203,61 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
                 )
             return resp_ausente
 
-        _consumir_cota_llm(state)
-
-        sys_prompt, user_prompt = _build_explicar_prompts(
-            questao, gab_oficial, resp_usuario, duvida
-        )
-        raw_llm, modelo_usado = call_gemini(
-            sys_prompt, user_prompt, _EXPLICAR_JSON_SCHEMA, state=state
-        )
+        # Caminhos baratos acima ficam fora do gate; daqui em diante o request
+        # segura 1 slot de concorrência até o fim (ou o deadline).
+        _adquirir_slot_agente(state)
         try:
-            llm_out = _LLMExplicacao.model_validate(raw_llm)
-        except ValidationError:
-            raise HTTPException(503, "agente indisponível: formato inesperado do provedor")
+            with anyio.fail_after(_deadline_s()):
+                _consumir_cota_llm(state)
 
-        explicacao = llm_out.explicacao.strip()
-        armadilha = llm_out.armadilha_banca.strip()
-        if _contradiz_gabarito(f"{explicacao}\n{armadilha}", gab_oficial, questao["tipo"]):
-            explicacao = (
-                f"De acordo com o gabarito oficial definitivo da banca ({questao['banca']}), "
-                f"a resposta correta é '{gab_oficial.upper()}'. Consulte o item completo e o "
-                f"gabarito na fonte oficial: {questao['fonte']}."
-            )
-            armadilha = ""
+                sys_prompt, user_prompt = _build_explicar_prompts(
+                    questao, gab_oficial, resp_usuario, duvida
+                )
+                raw_llm, modelo_usado = await call_gemini(
+                    sys_prompt, user_prompt, _EXPLICAR_JSON_SCHEMA, state=state
+                )
+                try:
+                    llm_out = _LLMExplicacao.model_validate(raw_llm)
+                except ValidationError:
+                    raise HTTPException(503, "agente indisponível: formato inesperado do provedor")
 
-        relacionadas = _buscar_relacionadas(s, questao, llm_out.termo_busca, limit=3)
+                explicacao = llm_out.explicacao.strip()
+                armadilha = llm_out.armadilha_banca.strip()
+                if _contradiz_gabarito(f"{explicacao}\n{armadilha}", gab_oficial, questao["tipo"]):
+                    explicacao = (
+                        f"De acordo com o gabarito oficial definitivo da banca ({questao['banca']}), "
+                        f"a resposta correta é '{gab_oficial.upper()}'. Consulte o item completo e o "
+                        f"gabarito na fonte oficial: {questao['fonte']}."
+                    )
+                    armadilha = ""
 
-        resposta = ExplicarResponse(
-            questao_id=questao["id"],
-            gabarito_oficial=gab_oficial,
-            fonte=questao["fonte"],
-            anulada=False,
-            acertou=acertou,
-            disciplina_inferida=(
-                llm_out.disciplina_inferida.strip() or questao.get("assunto") or ""
-            ),
-            explicacao=explicacao,
-            armadilha_banca=armadilha,
-            conceito_chave=llm_out.conceito_chave.strip(),
-            pontos_chave=[p.strip() for p in llm_out.pontos_chave if p.strip()][:5],
-            questoes_relacionadas=relacionadas,
-            modelo=modelo_usado,
-            cached=False,
-        )
+                relacionadas = await anyio.to_thread.run_sync(
+                    _buscar_relacionadas, s, questao, llm_out.termo_busca,
+                    limiter=db_limiter,
+                )
+
+                resposta = ExplicarResponse(
+                    questao_id=questao["id"],
+                    gabarito_oficial=gab_oficial,
+                    fonte=questao["fonte"],
+                    anulada=False,
+                    acertou=acertou,
+                    disciplina_inferida=(
+                        llm_out.disciplina_inferida.strip() or questao.get("assunto") or ""
+                    ),
+                    explicacao=explicacao,
+                    armadilha_banca=armadilha,
+                    conceito_chave=llm_out.conceito_chave.strip(),
+                    pontos_chave=[p.strip() for p in llm_out.pontos_chave if p.strip()][:5],
+                    questoes_relacionadas=relacionadas,
+                    modelo=modelo_usado,
+                    cached=False,
+                )
+        except TimeoutError:
+            raise HTTPException(503, "agente indisponível: tempo de resposta esgotado")
+        finally:
+            state.release_slot()
+
         if cacheable:
             state.set_cached(
                 questao["id"], resposta, _env_int("AGENTE_CACHE_MAX", 500)
@@ -1092,67 +1265,83 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
         return resposta
 
     @router.post("/edital", response_model=EditalResponse)
-    def edital(
+    async def edital(
         body: EditalRequest,
         request: Request,
         s: Session = Depends(session_dep),
     ):
         _checar_rate_limit(state, request)
-        _consumir_cota_llm(state)
 
         banca_req = body.banca.strip() if body.banca and body.banca.strip() else None
         cargo_req = body.cargo.strip() if body.cargo and body.cargo.strip() else None
-        sys_prompt, user_prompt = _build_edital_prompts(
-            body.texto_edital.strip(), banca_req, cargo_req
-        )
-        raw_llm, modelo_usado = call_gemini(
-            sys_prompt, user_prompt, _EDITAL_JSON_SCHEMA, state=state
-        )
+
+        # Caminhos baratos acima ficam fora do gate; o slot cobre LLM + o
+        # loop de consultas ILIKE (a parte mais pesada do endpoint).
+        _adquirir_slot_agente(state)
         try:
-            llm_out = _LLMEdital.model_validate(raw_llm)
-        except ValidationError:
-            raise HTTPException(503, "agente indisponível: formato inesperado do provedor")
+            with anyio.fail_after(_deadline_s()):
+                _consumir_cota_llm(state)
 
-        banca_ident = (llm_out.banca_identificada or "").strip() or banca_req
-        banca_db = _resolver_banca(s, banca_req or llm_out.banca_identificada)
-        timeout_ms = _env_int(
-            "AGENTE_EDITAL_QUERY_TIMEOUT_MS", DEFAULT_EDITAL_QUERY_TIMEOUT_MS
-        )
-
-        topicos_out: list[TopicoEdital] = []
-        tempo_total_ms = 0
-        for item in llm_out.topicos[:MAX_EDITAL_TOPICOS]:
-            termo = _normalizar_termo_busca(item.termo_busca)
-            qtd, timed_out, elapsed_ms = _contar_questoes_por_termo(
-                s, termo, banca_db, timeout_ms
-            )
-            if not timed_out and qtd is not None and qtd < 5:
-                curto = _termo_mais_curto(termo)
-                if curto:
-                    qtd2, timed_out2, elapsed2 = _contar_questoes_por_termo(
-                        s, curto, banca_db, timeout_ms
-                    )
-                    elapsed_ms += elapsed2
-                    if not timed_out2 and qtd2 is not None and qtd2 > qtd:
-                        termo = curto
-                        qtd = qtd2
-
-            tempo_total_ms += elapsed_ms
-            filtro: dict[str, str] = {"q": termo} if termo else {}
-            if banca_db:
-                filtro["banca"] = banca_db
-            topicos_out.append(
-                TopicoEdital(
-                    disciplina=item.disciplina.strip() or "Geral",
-                    topico=item.topico.strip(),
-                    prioridade=_norm_prioridade(item.prioridade),
-                    termo_busca=termo,
-                    questoes_disponiveis=qtd,
-                    timeout_consulta=timed_out,
-                    tempo_consulta_ms=elapsed_ms,
-                    filtro_sugerido=filtro,
+                sys_prompt, user_prompt = _build_edital_prompts(
+                    body.texto_edital.strip(), banca_req, cargo_req
                 )
-            )
+                raw_llm, modelo_usado = await call_gemini(
+                    sys_prompt, user_prompt, _EDITAL_JSON_SCHEMA, state=state
+                )
+                try:
+                    llm_out = _LLMEdital.model_validate(raw_llm)
+                except ValidationError:
+                    raise HTTPException(503, "agente indisponível: formato inesperado do provedor")
+
+                banca_ident = (llm_out.banca_identificada or "").strip() or banca_req
+                banca_db = await anyio.to_thread.run_sync(
+                    _resolver_banca, s, banca_req or llm_out.banca_identificada,
+                    limiter=db_limiter,
+                )
+                timeout_ms = _env_int(
+                    "AGENTE_EDITAL_QUERY_TIMEOUT_MS", DEFAULT_EDITAL_QUERY_TIMEOUT_MS
+                )
+
+                topicos_out: list[TopicoEdital] = []
+                tempo_total_ms = 0
+                for item in llm_out.topicos[:MAX_EDITAL_TOPICOS]:
+                    termo = _normalizar_termo_busca(item.termo_busca)
+                    qtd, timed_out, elapsed_ms = await anyio.to_thread.run_sync(
+                        _contar_questoes_por_termo, s, termo, banca_db, timeout_ms,
+                        limiter=db_limiter,
+                    )
+                    if not timed_out and qtd is not None and qtd < 5:
+                        curto = _termo_mais_curto(termo)
+                        if curto:
+                            qtd2, timed_out2, elapsed2 = await anyio.to_thread.run_sync(
+                                _contar_questoes_por_termo, s, curto, banca_db,
+                                timeout_ms, limiter=db_limiter,
+                            )
+                            elapsed_ms += elapsed2
+                            if not timed_out2 and qtd2 is not None and qtd2 > qtd:
+                                termo = curto
+                                qtd = qtd2
+
+                    tempo_total_ms += elapsed_ms
+                    filtro: dict[str, str] = {"q": termo} if termo else {}
+                    if banca_db:
+                        filtro["banca"] = banca_db
+                    topicos_out.append(
+                        TopicoEdital(
+                            disciplina=item.disciplina.strip() or "Geral",
+                            topico=item.topico.strip(),
+                            prioridade=_norm_prioridade(item.prioridade),
+                            termo_busca=termo,
+                            questoes_disponiveis=qtd,
+                            timeout_consulta=timed_out,
+                            tempo_consulta_ms=elapsed_ms,
+                            filtro_sugerido=filtro,
+                        )
+                    )
+        except TimeoutError:
+            raise HTTPException(503, "agente indisponível: tempo de resposta esgotado")
+        finally:
+            state.release_slot()
 
         return EditalResponse(
             resumo=llm_out.resumo.strip(),

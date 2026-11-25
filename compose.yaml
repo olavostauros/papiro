@@ -9,6 +9,10 @@
 # Variáveis: ficam no agregado `.env/docker.env` (KEY=VAL) — o compose exige
 # `--env-file` porque `.env/` é diretório; alternativa: exportar no shell.
 # Esperadas: POSTGRES_PASSWORD, POSTGRES_RO_PASSWORD, FIRECRAWL_API_KEY.
+# Opcionais do agente: GEMINI_API_KEY, GEMINI_MODEL, GEMINI_FALLBACK_MODEL
+# (ausentes → /agente responde 503, resto da API sobe normal) e
+# TRUSTED_PROXY_IPS (CIDRs que podem injetar cf-connecting-ip — default
+# loopback+privadas; ver .agents/docs/deploy-gcp.md §invariante de topologia).
 # O crawler roda sob o profile `crawler` (one-shot por comando); na VM o loop
 # de ingest fica em cron/systemd timer chamando `compose run` — restart-loop
 # direto no compose reexecutaria `next` em busy-loop sem efeito.
@@ -43,6 +47,7 @@ services:
       GEMINI_API_KEY: ${GEMINI_API_KEY:-}
       GEMINI_MODEL: ${GEMINI_MODEL:-}
       GEMINI_FALLBACK_MODEL: ${GEMINI_FALLBACK_MODEL:-}
+      TRUSTED_PROXY_IPS: ${TRUSTED_PROXY_IPS:-}
     depends_on:
       db:
         condition: service_healthy
