@@ -28,7 +28,7 @@ Stack: **Astro + Tailwind CSS v4** (via `@tailwindcss/vite`). Não existe
 `@fontsource-variable` (Inter e Source Serif 4). Sem React/Vue: interatividade é
 JavaScript vanilla na forma de **custom elements** (`design/elements/`) —
 `<question-browser>`, `<question-card>`, `<facet-combobox>`, `<evento-list>`,
-`<questao-view>`, `<theme-toggle>` —
+`<questao-view>`, `<questao-explicar>`, `<edital-cruzamento>`, `<theme-toggle>` —
 que envolvem o markup
 dos componentes e se auto-inicializam em `connectedCallback`, com escopo por
 instância (`this.querySelector`) em vez de queries globais no `document`.
@@ -218,6 +218,16 @@ vazia) · `value?: string` (seleção inicial).
 busca textual (`data-q` no question-browser) e filtros de lista client-side
 (`data-busca` no evento-list).
 
+### Textarea
+
+`label: string` · `rows?: number` (default 4) · `placeholder?` · `value?`.
+
+`<label>` + `<textarea>` rotulados com o mesmo visual do `Input`. Usado no
+campo de dúvida do `<questao-explicar>` e no texto do edital do
+`<edital-cruzamento>` — o contador de caracteres (`{n}/500`, `{n}/30.000`)
+fica fora do componente, ligado por `aria-describedby` repassado via
+`...rest`.
+
 ### FacetCombobox
 
 `dim: 'banca' | 'orgao' | 'cargo' | 'ano' | 'assunto'` · `label: string` ·
@@ -367,6 +377,48 @@ Contrato interno: `data-api-url`, `[data-alvo]` (recebe o card via
 `cardHtml`; se o SSR já renderizou `<question-card data-id>` igual ao da URL,
 não refaz o fetch) e `[data-status]`.
 
+### questao-explicar
+
+Elemento wrapper (`design/elements/questao-explicar.ts`) do bloco "Explicar a
+questão" na página `/questao/`, servido por `POST /agente/explicar` (client
+`data/agente.ts`). Fica **dentro** do `<questao-view>`: no clique lê a opção
+marcada no `<question-card>` (`[data-opcao][aria-checked="true"]`) e a envia
+como `resposta_usuario` — o servidor devolve `acertou` e a UI inflete
+"Você acertou/errou — gabarito: …". Contrato interno:
+
+- `data-api-url` — sem ela (ou sem `?id=` na URL) o `[data-painel]` se
+  esconde; `[data-sem-js]` é a nota exibida sem JavaScript;
+- `[data-form]` — `[data-duvida]` (máx. 500, contador `[data-contador]`
+  "{n}/500"), `[data-acao]` (aria-label "Explicar a questão — {id}") e
+  `[data-erro]` (`role=alert`) de validação;
+- `[data-status]` (`role=status`) — `[data-status-msg]`/`[data-status-aux]`
+  durante a chamada (~30 s);
+- `[data-resultado]` — gabarito/acertou, disciplina inferida e seções
+  (Explicação, Armadilha da banca, Conceito-chave, Pontos-chave, Questões
+  relacionadas com CTA "Resolver" → `/questao/?id=`); seção vazia some.
+  `anulada`/`texto_base_ausente` (200 sem LLM) viram aviso fixo, não erro.
+  Erros: 404/422/429 (`Retry-After` humanizado por `esperaHumana` em
+  `templates.ts`)/503 e rede — 503 e rede ganham botão `[data-retry]`.
+
+### edital-cruzamento
+
+Elemento wrapper (`design/elements/edital-cruzamento.ts`) da página
+`/edital/` — "Cruzar o edital" via `POST /agente/edital`. Valida o texto
+(50–30.000 chars) no cliente antes do POST. Cada tópico da resposta vira um
+item com badge de prioridade, contagem (`questoes_disponiveis` null →
+microcopy de timeout — comum hoje, o CTA segue funcionando) e link "Resolver
+as questões" para `/?q=…&banca=…` — o `filtro_sugerido` do servidor usa os
+mesmos nomes de parâmetro que o `<question-browser>` lê da URL. Contrato
+espelha o do questao-explicar: `data-api-url`, `[data-painel]`,
+`[data-sem-js]`, `form[data-form]` (`[data-texto]`, `[data-contador]`,
+`[data-banca]`, `[data-cargo]`, `[data-acao]`, `[data-erro]`),
+`[data-status]` e `[data-resultado]` (`role=alert` + `[data-retry]` nos
+erros 503/rede).
+
+Ambos os elementos do agente: campos do LLM passam por `esc()` antes do
+`innerHTML`, o foco é movido ao resultado renderizado (`[data-inner]`) e a
+redação segue `design/copy.md` §"Agente".
+
 ### Logo
 
 `href?: string` · `size?: 'lg' | 'xl'` (default `xl`).
@@ -446,8 +498,8 @@ import Container from '../design/components/Container.astro';
 import PageHeader from '../design/components/PageHeader.astro';
 import Card from '../design/components/Card.astro';
 import Button from '../design/components/Button.astro';
-// Badge, Link, Select, Input, FacetCombobox, Alternativa, QuestionMeta,
-// QuestionCard, EmptyState, Logo, ThemeToggle, icons/* — mesmo diretório
+// Badge, Link, Select, Input, Textarea, FacetCombobox, Alternativa,
+// QuestionMeta, QuestionCard, EmptyState, Logo, ThemeToggle, icons/* — mesmo diretório
 ---
 
 <Layout title="papiro — título">

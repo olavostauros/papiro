@@ -1,0 +1,29 @@
+---
+interface Props {
+  label: string;
+  rows?: number;
+  placeholder?: string;
+  value?: string;
+  class?: string;
+}
+
+const {
+  label,
+  rows = 4,
+  placeholder = '',
+  value,
+  class: className,
+  ...rest
+} = Astro.props;
+---
+
+<label class:list={['flex flex-col gap-1 text-xs font-medium text-ink-soft', className]}>
+  {label}
+  <textarea
+    rows={rows}
+    placeholder={placeholder}
+    {...rest}
+    class="rounded-md border border-line-strong bg-surface px-2 py-1.5 text-base text-ink focus-visible:border-accent focus-visible:focus-ring sm:text-sm"
+    >{value}</textarea
+  >
+</label>

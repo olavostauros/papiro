@@ -8,7 +8,9 @@ question-browser,
 question-card,
 facet-combobox,
 evento-list,
-questao-view {
+questao-view,
+questao-explicar,
+edital-cruzamento {
   display: block;
 }
 

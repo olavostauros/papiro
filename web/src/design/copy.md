@@ -56,3 +56,114 @@ componentes e custom elements. Curto e vinculante: em dúvida, siga a tabela.
 - **Texto do dataset é dado, não copy**: enunciados, alternativas, nomes de
   cargo/órgão passam por `esc()` e nunca são reescritos — inclusive caixa
   ALL-CAPS, que se corrige na fonte, não na exibição.
+
+## Agente — explicação e cruzamento de edital
+
+O agente (`POST /agente/explicar`, `POST /agente/edital`) é um recurso de IA
+ancorado no acervo. Além das regras gerais, valem as suas:
+
+- **Explica, não corrige.** O resultado é sempre "explicação" — nunca
+  "correção" nem promessa de precisão. Quem corrige é o **gabarito oficial**,
+  que vem do Postgres, não do modelo.
+- **"Inteligência artificial" uma vez por resultado**, só no disclaimer.
+  Fora dele, "o agente" — minúsculo, sem marca e sem antropomorfismo de
+  marketing ("o agente está lendo" é estado, não personificação).
+- **Campos do LLM são dado, não copy** — `explicacao`, `armadilha_banca`,
+  `conceito_chave`, `pontos_chave`, `resumo`, `topico`, `disciplina`,
+  `enunciado_resumo` passam por `esc()`/`textContent`, nunca `innerHTML`
+  (contrato de segurança do `api/agente.py`).
+- **Seção vazia some.** `armadilha_banca` `""`, `pontos_chave` `[]`,
+  `questoes_relacionadas` `[]`, `disciplina_inferida` `""`,
+  `banca_identificada` `null`, `modelo` `"nenhum"` — omitir; a UI nunca
+  escreve "não informado".
+- **O aviso não é erro.** `anulada` e `texto_base_ausente` são respostas
+  `200` — tratar como conteúdo, não como falha.
+
+### Terminologia do agente
+
+| Conceito | Termo | Notas |
+|---|---|---|
+| recurso de IA | **o agente** | minúsculo; "O agente está lendo a questão…" |
+| resultado de `/agente/explicar` | **explicação** | nunca "correção" |
+| ação na página da questão | **Explicar a questão** | botão |
+| página/nav de `/agente/edital` | **Edital** (nav) · **Cruzar o edital** (H1, botão, `title`) | |
+| questão sem gabarito vigente | **anulada** | mesma palavra do dataset |
+| enunciado sem o texto que o embasa | **texto-base ausente** | aviso, não erro |
+| questões sugeridas ao final | **Questões relacionadas** | CTA "Resolver" |
+| prioridade do tópico | **Prioridade alta · média · baixa** | redação do badge |
+
+### Explicar a questão (`POST /agente/explicar`)
+
+| Estado | Redação |
+|---|---|
+| botão | **Explicar a questão** — aria-label "Explicar a questão — {id}" |
+| carregando (status) | "O agente está lendo a questão…" |
+| carregando (linha auxiliar) | "Isso pode levar até 30 segundos." |
+| sem JavaScript | "A explicação do agente só funciona com JavaScript ativado." |
+| campo dúvida — label | "Dúvida sobre a questão (opcional)" |
+| campo dúvida — placeholder | "O que não ficou claro nesta questão?" |
+| campo dúvida — contador | "{n}/500" |
+| dúvida acima do limite | "A dúvida pode ter no máximo 500 caracteres." |
+| linha do gabarito | "Gabarito oficial: {Certo · Errado · Alternativa X}" — mesma inflexão do card |
+| `acertou: true` | "Você acertou — gabarito: {gabarito}" |
+| `acertou: false` | "Você errou — gabarito: {gabarito}" |
+| títulos de seção | **Explicação** · **Armadilha da banca** · **Conceito-chave** · **Pontos-chave** · **Questões relacionadas** |
+| disciplina inferida | "Disciplina inferida: {disciplina_inferida}" |
+| relacionada — meta | "{banca} · {orgao} · {ano}" |
+| relacionada — CTA | "Resolver" — aria-label "Resolver a questão — {id}" |
+| relacionada — fonte | link secundário ao lado do CTA — "Fonte oficial"/"PDF oficial", aria "{rótulo} — {id}" |
+| `anulada: true` | título "Questão anulada"; corpo "A banca anulou esta questão — não há gabarito vigente nem explicação. Confira os comunicados na fonte oficial." |
+| `texto_base_ausente: true` | título "Texto-base ausente"; corpo "Esta questão remete a um texto-base externo que não está no recorte do acervo. O gabarito oficial está confirmado, mas a justificativa depende do texto — consulte a fonte oficial." — a linha do gabarito/feedback também abre este aviso |
+| link da fonte | "Fonte oficial"; `.pdf` → "PDF oficial" |
+| disclaimer | "Explicação gerada por inteligência artificial — pode conter imprecisões. O gabarito é o oficial da banca; em caso de divergência, vale o PDF oficial da prova." |
+| modelo | sufixo do disclaimer: " · modelo {modelo}" — omitir quando `"nenhum"`; `cached` nunca aparece |
+
+### Cruzar o edital (`POST /agente/edital`)
+
+| Estado | Redação |
+|---|---|
+| nav | "Edital" |
+| `Layout title` | "papiro — edital" |
+| PageHeader — título | "Cruzar o edital" |
+| PageHeader — descrição | "Cole o conteúdo programático do edital e veja quantas questões do acervo cobrem cada tópico — cada um vira uma lista pronta para resolver." |
+| textarea — label | "Conteúdo programático do edital" |
+| textarea — placeholder | "Cole aqui o trecho do edital com as disciplinas e os tópicos da prova…" |
+| textarea — ajuda | "Entre 50 e 30.000 caracteres — só o conteúdo programático, não o edital inteiro." |
+| textarea — contador | "{n}/30.000" |
+| banca — label / placeholder | "Banca (opcional)" / "Ex.: Cebraspe" |
+| cargo — label / placeholder | "Cargo (opcional)" / "Ex.: Escrivão de Polícia Federal" |
+| botão submit | "Cruzar o edital" |
+| carregando (status) | "O agente está lendo o edital…" |
+| carregando (linha auxiliar) | "Isso pode levar até 40 segundos — inclui a contagem de questões no acervo." |
+| sem JavaScript | "O cruzamento do edital só funciona com JavaScript ativado." |
+| sem API (EmptyState do SSR) | "O cruzamento do edital depende da API — indisponível no momento." — sem o "restante do site segue funcionando" do 503 (sem API, as listas também não carregam) |
+| validação — texto curto | "Cole o conteúdo programático — o texto precisa de pelo menos 50 caracteres." |
+| validação — texto longo | "O texto passa de 30.000 caracteres — cole apenas o conteúdo programático do edital." |
+| seção do resumo | "Resumo" |
+| banca identificada | "Banca identificada: {banca_identificada} — aplicada aos filtros dos tópicos." (omitir se `null`) |
+| seção dos tópicos | "Tópicos do edital" |
+| badge de prioridade | "Prioridade alta" · "Prioridade média" · "Prioridade baixa" |
+| contagem por tópico | "{n} questões no acervo" (plural correto); `0` → "Nenhuma questão no acervo" |
+| `questoes_disponiveis: null` | "Contagem indisponível no momento — o filtro para as questões funciona mesmo assim." |
+| CTA por tópico | "Resolver as questões" — aria-label "Resolver as questões — {tópico}" |
+| `topicos: []` | "O agente não extraiu tópicos deste texto — confira se o trecho colado é o conteúdo programático do edital e tente novamente." |
+| disclaimer | "Leitura gerada por inteligência artificial — o conteúdo programático que vale é o do edital oficial da banca." (+ " · modelo {modelo}") |
+
+### Erros do agente (compartilhados pelos dois endpoints)
+
+Fato primeiro, causa depois; com ação sempre que houver. O detalhe técnico do
+`detail` da API nunca aparece na UI.
+
+| Estado | Redação |
+|---|---|
+| 404 (só `/explicar`) | "Questão não encontrada — verifique o identificador ou tente novamente mais tarde." |
+| 422 — `/explicar` | "A dúvida pode ter no máximo 500 caracteres." |
+| 422 — `/edital` | "O conteúdo programático precisa ter entre 50 e 30.000 caracteres." |
+| 429 | "Limite de uso do agente atingido — tente novamente em {espera}." |
+| 503 | "O agente está indisponível no momento — o restante do site segue funcionando." + botão "Tentar novamente" |
+| rede/timeout | "Não foi possível contatar o agente — verifique a conexão e tente novamente." + botão "Tentar novamente" |
+| falha genérica | "Não foi possível obter a explicação — tente novamente." / "Não foi possível cruzar o edital — tente novamente." |
+
+`{espera}` humaniza o `Retry-After` (segundos): < 60 s → "alguns segundos";
+< 60 min → "{n} minuto(s)"; < 24 h → "{n} hora(s)"; acima disso → "amanhã"
+(cobre o teto diário global, que vira na meia-noite UTC).

@@ -96,6 +96,34 @@ export function plural(n: number, singular: string, pluralForm = `${singular}s`)
   return `${n.toLocaleString('pt-BR')} ${n === 1 ? singular : pluralForm}`;
 }
 
+/**
+ * Rótulo do link de fonte oficial: "PDF oficial" quando a URL aponta para um
+ * arquivo .pdf; "Fonte oficial" para outra URL http(s); "Fonte indisponível"
+ * para fonte que não é URL (diretório, texto solto — nunca vira link).
+ */
+export function rotuloFonte(fonte: string): string {
+  if (!fonteEhUrl(fonte)) return 'Fonte indisponível';
+  return arquivoFonte(fonte)?.toLowerCase().endsWith('.pdf')
+    ? 'PDF oficial'
+    : 'Fonte oficial';
+}
+
+/**
+ * Humaniza o Retry-After (segundos) do 429/503 do agente para a mensagem
+ * "tente novamente em {espera}": < 60 s → "alguns segundos"; < 60 min →
+ * "N minuto(s)"; < 24 h → "N hora(s)"; acima → "amanhã" (o teto diário
+ * global vira na meia-noite UTC). Arredonda para cima — nunca promete antes.
+ */
+export function esperaHumana(segundos: number | null): string {
+  const s = segundos ?? 0;
+  if (s < 60) return 'alguns segundos';
+  const min = Math.ceil(s / 60);
+  if (min < 60) return plural(min, 'minuto', 'minutos');
+  const h = Math.ceil(s / 3600);
+  if (h < 24) return plural(h, 'hora', 'horas');
+  return 'amanhã';
+}
+
 /** Anos únicos em ordem desc: até 3 → "2024, 2023"; mais → "2018–2024". */
 export function resumoAnos(anos: number[]): string {
   const unicos = [...new Set(anos)].sort((a, b) => b - a);

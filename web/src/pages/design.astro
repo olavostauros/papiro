@@ -11,6 +11,7 @@ import Badge from '../design/components/Badge.astro';
 import Link from '../design/components/Link.astro';
 import Select from '../design/components/Select.astro';
 import Input from '../design/components/Input.astro';
+import Textarea from '../design/components/Textarea.astro';
 import FacetCombobox from '../design/components/FacetCombobox.astro';
 import Alternativa from '../design/components/Alternativa.astro';
 import QuestionMeta from '../design/components/QuestionMeta.astro';
@@ -246,7 +247,7 @@ const exemplo = (await fetchQuestoes({ tipo: 'multipla_escolha', per_page: 1 })
     <DocSection
       id="campos"
       title="Campos"
-      desc="Select para listas pequenas, Input para texto e FacetCombobox para facetas grandes buscadas na API."
+      desc="Select para listas pequenas, Input para texto, Textarea para texto longo e FacetCombobox para facetas grandes buscadas na API."
     >
       <Card class="grid gap-3 sm:grid-cols-3">
         <Select label="Banca" options={['Cebraspe', 'FGV', 'FCC']} />
@@ -259,6 +260,11 @@ const exemplo = (await fetchQuestoes({ tipo: 'multipla_escolha', per_page: 1 })
         />
         <Select label="Por página" placeholder="" value="20" options={['20', '50', '100']} />
         <Input label="Buscar no enunciado" type="search" placeholder="Palavra ou trecho…" />
+        <Textarea
+          label="Dúvida sobre a questão (opcional)"
+          rows={3}
+          placeholder="O que não ficou claro nesta questão?"
+        />
         <FacetCombobox dim="cargo" label="Cargo" />
         <FacetCombobox dim="assunto" label="Assunto" />
       </Card>
