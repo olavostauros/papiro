@@ -59,6 +59,12 @@ from crawler.db import Assunto, Banca, Evento, Orgao, Prova, QuestaoDB, unaccent
 from . import queries
 
 logger = logging.getLogger("papiro.agente")
+if not logger.handlers:  # uvicorn não captura este logger — handler próprio p/ docker logs
+    _handler = logging.StreamHandler()
+    _handler.setFormatter(logging.Formatter("%(levelname)s %(name)s: %(message)s"))
+    logger.addHandler(_handler)
+    logger.setLevel(logging.INFO)
+    logger.propagate = False
 
 DEFAULT_API_URL = "https://generativelanguage.googleapis.com/v1/interactions"
 API_REVISION = "2026-05-20"
@@ -529,6 +535,12 @@ async def call_gemini(
                 ms,
                 req_timeout,
             )
+            if r.status_code == 402:
+                logger.warning(
+                    "agente.gemini billing_blocked model=%s — 402 "
+                    "(saldo/billing do provedor esgotado)",
+                    model_name,
+                )
             return r, None
         except httpx.HTTPError as exc:
             ms = int((time.perf_counter() - t0) * 1000)
