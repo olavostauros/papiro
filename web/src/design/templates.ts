@@ -8,6 +8,10 @@
  * <question-card> (design/elements/question-card.ts): data-id, data-banca,
  * data-orgao, data-cargo, data-ano, data-assunto, data-gabarito,
  * data-gabarito-texto, data-filter-item, data-opcao, data-ver-gabarito,
+ * data-resultado — e o bloco embutido do agente lido por
+ * <questao-explicar>: data-explicar-toggle + <questao-explicar> com
+ * data-painel (id `explicar-{questao.id}`), data-form/data-duvida/
+ * data-contador (`duvida-contador-{id}`)/data-acao/data-erro/data-status/
  * data-resultado. AO MUDAR UM, MUDE O OUTRO.
  *
  * `paginacaoHtml` gera âncoras (`?page=N`) — deep-links que funcionam sem JS;
@@ -42,12 +46,24 @@ const ALTERNATIVA_CLS =
 
 const BOTAO_CLS =
   'inline-flex cursor-pointer items-center justify-center rounded-md font-medium transition-colors focus-visible:focus-ring px-3 py-1.5 text-xs text-accent hover:bg-accent-soft';
+/** Button variant="primary" size="sm" — submit "Explicar a questão" no card. */
+const BOTAO_PRIMARY_CLS =
+  'inline-flex cursor-pointer items-center justify-center rounded-md font-medium transition-colors focus-visible:focus-ring px-3 py-1.5 text-xs bg-accent text-paper hover:bg-accent-strong';
+/** Classes do <textarea> do Textarea.astro — replicadas no cardHtml. */
+const TEXTAREA_CLS =
+  'rounded-md border border-line-strong bg-surface px-2 py-1.5 text-base text-ink focus-visible:border-accent focus-visible:focus-ring sm:text-sm';
 const PAG_CLS =
   'inline-flex items-center justify-center rounded-md font-medium transition-colors focus-visible:focus-ring px-3 py-1.5 text-xs border border-line-strong bg-surface text-ink hover:bg-accent-soft aria-disabled:pointer-events-none aria-disabled:opacity-50';
 const ATUAL_CLS =
   'inline-flex items-center justify-center rounded-md px-3 py-1.5 text-xs font-medium border border-accent bg-accent-soft text-accent';
-const LINK_CLS =
+/** Link underline — compartilhado com os elementos do agente. */
+export const LINK_CLS =
   'rounded-sm text-ink-soft transition-colors hover:text-ink focus-visible:focus-ring underline decoration-line underline-offset-2';
+/** Botão "Tentar novamente" dentro de erro role=alert (elementos do agente). */
+export const RETRY_CLS =
+  'mt-2 inline-flex cursor-pointer items-center justify-center rounded-md px-3 py-1.5 text-xs font-medium text-accent transition-colors hover:bg-surface focus-visible:focus-ring';
+/** Título de seção dentro dos resultados do agente (Explicação, Resumo…). */
+export const H2_CLS = 'text-sm font-medium text-ink';
 const PERMALINK_CLS =
   'rounded-sm text-ink-soft transition-colors hover:text-ink focus-visible:focus-ring';
 
@@ -57,6 +73,16 @@ export function esc(s: string): string {
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;');
+}
+
+/** Texto do LLM → parágrafos (quebra em qualquer linha em branco). */
+export function paras(t: string): string {
+  return t
+    .split(/\n+/)
+    .map((s) => s.trim())
+    .filter(Boolean)
+    .map((s) => `<p>${esc(s)}</p>`)
+    .join('');
 }
 
 // fonte vira href: só http(s) é clicável (banca futura com fonte arbitrária)
@@ -173,7 +199,31 @@ export function cardHtml(q: Questao): string {
   const fonte = FONTE_URL.test(q.fonte)
     ? `<a href="${esc(q.fonte)}" class="${LINK_CLS}" aria-label="Fonte oficial — ${aria}">Fonte oficial</a>`
     : '<span>Fonte indisponível</span>';
-  return `<question-card data-id="${esc(q.id)}" data-banca="${esc(q.banca)}" data-orgao="${esc(q.orgao)}" data-cargo="${esc(q.cargo)}" data-ano="${q.ano}" data-assunto="${esc(q.assunto)}" data-gabarito="${esc(q.gabarito)}" data-gabarito-texto="${esc(gab)}" data-filter-item><article class="rounded-xl border border-line bg-surface p-5" aria-label="${aria}">${meta}<p id="enunciado-${esc(q.id)}" class="mt-3 font-serif text-base leading-relaxed sm:text-lg">${esc(q.enunciado)}</p>${grupo}<div class="mt-4 flex flex-wrap items-center gap-4 text-sm">${resposta}<div class="ml-auto flex items-center gap-4">${permalink}${fonte}</div></div></article></question-card>`;
+  // Bloco embutido do agente — replica o markup de QuestionCard.astro.
+  // Toggle nasce hidden: <questao-explicar> só o revela com id + API
+  // resolvidos; dentro de <questao-view> ele fica inerte (dedup — a página
+  // /questao/ tem seu próprio painel).
+  const qid = esc(q.id);
+  const toggle = `<button class="${BOTAO_CLS}" type="button" data-explicar-toggle aria-expanded="false" aria-controls="explicar-${qid}" aria-label="Explicar a questão — ${qid}" hidden>Explicar a questão</button>`;
+  const explicar =
+    `<questao-explicar>` +
+    `<div data-painel id="explicar-${qid}" hidden class="mt-4 space-y-3 border-t border-line pt-4">` +
+    `<div data-form class="space-y-3">` +
+    `<label class="flex flex-col gap-1 text-xs font-medium text-ink-soft">Dúvida sobre a questão (opcional)` +
+    `<textarea rows="2" placeholder="O que não ficou claro nesta questão?" data-duvida aria-describedby="duvida-contador-${qid}" class="${TEXTAREA_CLS}"></textarea></label>` +
+    `<div class="flex flex-wrap items-center justify-between gap-3">` +
+    `<p id="duvida-contador-${qid}" data-contador class="text-xs text-ink-faint">0/500</p>` +
+    `<button type="button" data-acao aria-label="Explicar a questão — ${qid}" class="${BOTAO_PRIMARY_CLS}">Explicar a questão</button>` +
+    `</div>` +
+    `<p data-erro role="alert" class="text-sm font-medium text-danger" hidden></p>` +
+    `</div>` +
+    `<div data-status role="status" hidden>` +
+    `<p data-status-msg class="text-sm font-medium"></p>` +
+    `<p data-status-aux class="mt-0.5 text-sm text-ink-soft"></p>` +
+    `</div>` +
+    `<div data-resultado class="empty:hidden"></div>` +
+    `</div></questao-explicar>`;
+  return `<question-card data-id="${qid}" data-banca="${esc(q.banca)}" data-orgao="${esc(q.orgao)}" data-cargo="${esc(q.cargo)}" data-ano="${q.ano}" data-assunto="${esc(q.assunto)}" data-gabarito="${esc(q.gabarito)}" data-gabarito-texto="${esc(gab)}" data-filter-item><article class="rounded-xl border border-line bg-surface p-5" aria-label="${aria}">${meta}<p id="enunciado-${qid}" class="mt-3 font-serif text-base leading-relaxed sm:text-lg">${esc(q.enunciado)}</p>${grupo}<div class="mt-4 flex flex-wrap items-center gap-4 text-sm">${resposta}${toggle}<div class="ml-auto flex items-center gap-4">${permalink}${fonte}</div></div>${explicar}</article></question-card>`;
 }
 
 /** Janela de páginas: primeira, última e ±2 ao redor da atual; `null` = reticências. */

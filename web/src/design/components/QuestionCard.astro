@@ -4,6 +4,7 @@ import Button from './Button.astro';
 import Card from './Card.astro';
 import Link from './Link.astro';
 import QuestionMeta from './QuestionMeta.astro';
+import Textarea from './Textarea.astro';
 import type { Questao } from '../../data/questions';
 
 interface Props {
@@ -77,6 +78,22 @@ const rotulo = `Questão — ${q.banca}, ${q.cargo}, ${q.ano}`;
           </p>
         )
       }
+      {
+        // Toggle do agente — nasce hidden; <questao-explicar> o revela com
+        // id + API resolvidos. cardHtml (templates.ts) replica este markup.
+      }
+      <Button
+        variant="ghost"
+        size="sm"
+        type="button"
+        data-explicar-toggle
+        aria-expanded="false"
+        aria-controls={`explicar-${q.id}`}
+        aria-label={`Explicar a questão — ${q.id}`}
+        hidden
+      >
+        Explicar a questão
+      </Button>
       <div class="ml-auto flex items-center gap-4">
         <Link
           href={`${base}/questao/?id=${encodeURIComponent(q.id)}`}
@@ -99,9 +116,43 @@ const rotulo = `Questão — ${q.banca}, ${q.cargo}, ${q.ano}`;
         }
       </div>
     </div>
+
+    {
+      // Painel embutido do agente — recolhido (hidden); o toggle no rodapé
+      // o abre. Dentro de <questao-view> o elemento fica inerte (dedup —
+      // a página tem o painel próprio). cardHtml replica este markup.
+    }
+    <questao-explicar>
+      <div data-painel id={`explicar-${q.id}`} hidden class="mt-4 space-y-3 border-t border-line pt-4">
+        <div data-form class="space-y-3">
+          <Textarea
+            label="Dúvida sobre a questão (opcional)"
+            rows={2}
+            placeholder="O que não ficou claro nesta questão?"
+            data-duvida
+            aria-describedby={`duvida-contador-${q.id}`}
+          />
+          <div class="flex flex-wrap items-center justify-between gap-3">
+            <p id={`duvida-contador-${q.id}`} data-contador class="text-xs text-ink-faint">
+              0/500
+            </p>
+            <Button type="button" size="sm" data-acao aria-label={`Explicar a questão — ${q.id}`}>
+              Explicar a questão
+            </Button>
+          </div>
+          <p data-erro role="alert" class="text-sm font-medium text-danger" hidden></p>
+        </div>
+        <div data-status role="status" hidden>
+          <p data-status-msg class="text-sm font-medium"></p>
+          <p data-status-aux class="mt-0.5 text-sm text-ink-soft"></p>
+        </div>
+        <div data-resultado class="empty:hidden"></div>
+      </div>
+    </questao-explicar>
   </Card>
 </question-card>
 
 <script>
   import '../elements/question-card';
+  import '../elements/questao-explicar';
 </script>

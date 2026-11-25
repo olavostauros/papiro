@@ -318,6 +318,16 @@ const exemplo = (await fetchQuestoes({ tipo: 'multipla_escolha', per_page: 1 })
         />
       </Card>
       <QuestionCard q={exemplo} />
+      <p class="mt-4 text-sm text-ink-soft">
+        O cartão já traz o gatilho do agente (<code
+          class="rounded-sm bg-accent-soft px-1 py-0.5 font-mono text-xs text-accent"
+          >data-explicar-toggle</code
+        >) e o <code
+          class="rounded-sm bg-accent-soft px-1 py-0.5 font-mono text-xs text-accent"
+          >&lt;questao-explicar&gt;</code
+        > embutido — inertes aqui por dependerem de API viva; na listagem e no permalink eles
+        se ativam sozinhos.
+      </p>
     </DocSection>
 
     <DocSection

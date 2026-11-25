@@ -14,7 +14,8 @@ edital-cruzamento {
   display: block;
 }
 
-question-card[hidden] {
+question-card[hidden],
+questao-explicar[hidden] {
   display: none;
 }
 

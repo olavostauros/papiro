@@ -1,5 +1,8 @@
 import { fetchQuestao } from '../../data/questions';
 import './question-card';
+// o cardHtml traz um <questao-explicar> embutido (inerte aqui — dedup,
+// pois o card fica dentro de <questao-view>)
+import './questao-explicar';
 import { cardHtml } from '../templates';
 
 /**

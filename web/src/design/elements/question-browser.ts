@@ -7,6 +7,8 @@ import {
 // cards inseridos dinamicamente precisam do elemento definido mesmo quando o
 // SSR veio vazio (API fora no build) — senão nada importaria question-card.ts
 import './question-card';
+// idem para o <questao-explicar> embutido que o cardHtml carrega
+import './questao-explicar';
 import './facet-combobox';
 import {
   arquivoFonte,

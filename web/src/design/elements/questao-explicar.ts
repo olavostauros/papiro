@@ -1,15 +1,44 @@
 import { AgenteError, postExplicar, type ExplicarResponse } from '../../data/agente';
-import { BASE, esc, esperaHumana, fonteEhUrl, rotuloFonte } from '../templates';
+import {
+  BASE,
+  esc,
+  esperaHumana,
+  fonteEhUrl,
+  H2_CLS,
+  LINK_CLS,
+  paras,
+  RETRY_CLS,
+  rotuloFonte,
+} from '../templates';
 
 /**
- * <questao-explicar> — "Explicar a questão" na página /questao/, servido por
- * POST /agente/explicar. Vive DENTRO de <questao-view>: no clique lê a opção
- * marcada no <question-card> ([data-opcao][aria-checked="true"]) e a envia
- * como resposta_usuario (o servidor devolve `acertou`).
+ * <questao-explicar> — "Explicar a questão", servido por POST
+ * /agente/explicar. Dois modos de hospedagem:
  *
- * Contrato:
- * - `data-api-url` — sem ela (ou sem `?id=` na URL) o [data-painel] se esconde
- *   e o elemento fica inerte. Sem JS, a nota de [data-sem-js] permanece.
+ * - MODO PÁGINA — bloco próprio dentro de <questao-view> (página /questao/):
+ *   o [data-painel] fica sempre visível, com a nota [data-sem-js] trocada
+ *   pelo [data-form] quando o JS sobe.
+ * - MODO CARD — embutido num <question-card> (index/question-browser): um
+ *   toggle disclosure [data-explicar-toggle] no rodapé do card (nasce
+ *   `hidden` e fora deste elemento) abre/fecha o [data-painel], que nasce
+ *   recolhido (`hidden` + aria-expanded/aria-controls apontando para
+ *   `explicar-{id}`). Sem JS, toggle e painel ficam ocultos — o card segue
+ *   íntegro.
+ *
+ * Resolução de contexto (válida nos dois modos):
+ * - questão: `data-questao-id` no elemento → `data-id` do <question-card>
+ *   ancestral → `?id=` da URL.
+ * - API: `data-api-url` no elemento ou no ancestral mais próximo que o
+ *   carregue (<question-browser>, <questao-view>) — cobre SSR e cards
+ *   renderidos no cliente. Sem id ou sem API, toggle+painel ficam ocultos.
+ * - resposta_usuario: opção marcada ([data-opcao][aria-checked="true"]) no
+ *   escopo `closest('questao-view') ?? closest('question-card') ?? this`.
+ *
+ * DEDUP: um <questao-explicar> embutido num card que está DENTRO de
+ * <questao-view> fica oculto e inerte — a página /questao/ já tem seu
+ * painel próprio (o cardHtml é compartilhado entre os dois).
+ *
+ * Contrato interno (igual nos dois modos):
  * - `[data-form]` — textarea [data-duvida] (máx. 500, contador [data-contador]
  *   "{n}/500"), botão [data-acao] e [data-erro] (role=alert) de validação.
  * - `[data-status]` (role=status) — [data-status-msg] + [data-status-aux]
@@ -23,13 +52,8 @@ import { BASE, esc, esperaHumana, fonteEhUrl, rotuloFonte } from '../templates';
  * por esc() antes do innerHTML.
  */
 
-const LINK_CLS =
-  'rounded-sm text-ink-soft transition-colors hover:text-ink focus-visible:focus-ring underline decoration-line underline-offset-2';
-const RETRY_CLS =
-  'mt-2 inline-flex cursor-pointer items-center justify-center rounded-md px-3 py-1.5 text-xs font-medium text-accent transition-colors hover:bg-surface focus-visible:focus-ring';
 const RESOLVER_CLS =
   'inline-flex items-center justify-center rounded-md px-3 py-1.5 text-xs font-medium text-accent transition-colors hover:bg-accent-soft focus-visible:focus-ring';
-const H2_CLS = 'text-sm font-medium text-ink';
 
 /** Gabarito do acervo → mesma inflexão do card ("Certo"/"Errado"/"Alternativa X"). */
 function gabaritoRotulo(g: string): string {
@@ -38,16 +62,6 @@ function gabaritoRotulo(g: string): string {
   if (v === 'errado') return 'Errado';
   if (/^[a-e]$/.test(v)) return `Alternativa ${v.toUpperCase()}`;
   return g; // 'anulada' e afins não chegam à linha de gabarito
-}
-
-/** Texto do LLM → parágrafos (quebra em qualquer linha em branco). */
-function paras(t: string): string {
-  return t
-    .split(/\n+/)
-    .map((s) => s.trim())
-    .filter(Boolean)
-    .map((s) => `<p>${esc(s)}</p>`)
-    .join('');
 }
 
 function fonteHtml(fonte: string, contexto: string): string {
@@ -71,14 +85,37 @@ export class QuestaoExplicarElement extends HTMLElement {
   private statusAux: HTMLElement | null = null;
   private resultado: HTMLElement | null = null;
   private questaoId = '';
+  private toggle: HTMLButtonElement | null = null;
   private abort: AbortController | null = null;
 
   connectedCallback() {
-    this.questaoId = new URLSearchParams(location.search).get('id') ?? '';
+    const card = this.closest<HTMLElement>('question-card');
     this.painel = this.querySelector('[data-painel]');
-    // Sem questão na URL ou sem API: o bloco some por inteiro.
-    if (!this.questaoId || !this.dataset.apiUrl) {
+    // Toggle do modo card: vive no rodapé do <question-card>, fora deste
+    // elemento (também aceita um toggle interno, para reuso futuro).
+    this.toggle =
+      card?.querySelector<HTMLButtonElement>('[data-explicar-toggle]') ??
+      this.querySelector<HTMLButtonElement>('[data-explicar-toggle]');
+    // Dedup: card embutido num <questao-view> — a página já tem o painel
+    // próprio; este elemento e o toggle do card ficam ocultos e inertes.
+    if (card?.closest('questao-view')) {
+      this.hidden = true;
+      if (this.toggle) this.toggle.hidden = true;
+      return;
+    }
+    // Id: data-questao-id → data-id do card ancestral → ?id= da URL.
+    this.questaoId =
+      this.dataset.questaoId ||
+      card?.dataset.id ||
+      new URLSearchParams(location.search).get('id') ||
+      '';
+    // API: data-api-url no elemento ou no ancestral mais próximo que o
+    // carregue (<question-browser>, <questao-view>).
+    const apiUrl = this.closest<HTMLElement>('[data-api-url]')?.dataset.apiUrl;
+    // Sem questão resolvida ou sem API: painel e toggle ficam ocultos.
+    if (!this.questaoId || !apiUrl) {
       if (this.painel) this.painel.hidden = true;
+      if (this.toggle) this.toggle.hidden = true;
       return;
     }
     this.duvida = this.querySelector('[data-duvida]');
@@ -102,15 +139,24 @@ export class QuestaoExplicarElement extends HTMLElement {
     this.resultado?.addEventListener('click', (e) => {
       if ((e.target as HTMLElement).closest?.('[data-retry]')) this.explicar();
     });
+    // Modo card: o toggle (que nasce hidden) vira disclosure do painel.
+    if (this.toggle && this.painel) {
+      this.toggle.hidden = false;
+      this.toggle.addEventListener('click', () => {
+        const abrir = this.painel!.hidden;
+        this.painel!.hidden = !abrir;
+        this.toggle!.setAttribute('aria-expanded', String(abrir));
+      });
+    }
   }
 
   disconnectedCallback() {
     this.abort?.abort();
   }
 
-  /** Opção marcada no card da questão (mesmo escopo do <questao-view>). */
+  /** Opção marcada no card da questão (escopo: página, card hospedeiro ou o próprio elemento). */
   private respostaUsuario(): string | undefined {
-    const raiz = this.closest('questao-view') ?? this;
+    const raiz = this.closest('questao-view') ?? this.closest('question-card') ?? this;
     const sel = raiz.querySelector<HTMLElement>('[data-opcao][aria-checked="true"]');
     return sel?.dataset.opcao || undefined;
   }

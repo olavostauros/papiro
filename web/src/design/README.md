@@ -14,7 +14,8 @@ web/src/
 ├── design/
 │   ├── tokens.css          # todos os design tokens (@theme do Tailwind v4) + modo escuro
 │   ├── nav.ts              # itens de navegação usados por SiteHeader e SiteFooter
-│   ├── templates.ts        # markup de string SSR↔elemento (card, paginação) — puro
+│   ├── templates.ts        # markup de string SSR↔elemento (card, paginação) + classes/
+│   │                       # helpers compartilhados pelos elementos do agente — puro
 │   ├── components/         # componentes base (.astro, sem framework de UI)
 │   │   └── icons/          # ícones SVG (Check, Moon, Sun, X)
 │   └── elements/           # custom elements (.ts) — comportamento dos componentes
@@ -294,6 +295,13 @@ esses atributos ao alterar o componente. Questão sem alternativas (MC rara)
 não renderiza `radiogroup` nem `data-ver-gabarito` — o gabarito vai inline
 em `data-resultado`.
 
+O card também carrega o agente embutido: o botão `data-explicar-toggle` no
+rodapé (nasce `hidden` — `<questao-explicar>` o revela e o liga ao painel)
+e, ao fim do Card, um `<questao-explicar>` com `[data-painel]` recolhido
+(`id="explicar-{questao.id}"`, `hidden`) contendo o formulário de dúvida —
+ver o contrato na seção do elemento. O `cardHtml` em `templates.ts` replica
+todo esse markup.
+
 ### question-browser
 
 Elemento wrapper (`design/elements/question-browser.ts`) — lista paginada de
@@ -379,15 +387,37 @@ não refaz o fetch) e `[data-status]`.
 
 ### questao-explicar
 
-Elemento wrapper (`design/elements/questao-explicar.ts`) do bloco "Explicar a
-questão" na página `/questao/`, servido por `POST /agente/explicar` (client
-`data/agente.ts`). Fica **dentro** do `<questao-view>`: no clique lê a opção
-marcada no `<question-card>` (`[data-opcao][aria-checked="true"]`) e a envia
-como `resposta_usuario` — o servidor devolve `acertou` e a UI inflete
-"Você acertou/errou — gabarito: …". Contrato interno:
+Elemento (`design/elements/questao-explicar.ts`) do "Explicar a questão",
+servido por `POST /agente/explicar` (client `data/agente.ts`). No clique lê
+a opção marcada (`[data-opcao][aria-checked="true"]`) e a envia como
+`resposta_usuario` — o servidor devolve `acertou` e a UI inflete
+"Você acertou/errou — gabarito: …". Dois modos de hospedagem com o mesmo
+contrato interno:
 
-- `data-api-url` — sem ela (ou sem `?id=` na URL) o `[data-painel]` se
-  esconde; `[data-sem-js]` é a nota exibida sem JavaScript;
+- **Modo página** — bloco próprio dentro de `<questao-view>` (página
+  `/questao/`): o `[data-painel]` fica sempre visível e `[data-sem-js]`
+  cobre o caso sem JavaScript;
+- **Modo card** — embutido num `<question-card>` (o `QuestionCard` já o
+  traz: index/question-browser, `/questao/`, showcase): o botão
+  `data-explicar-toggle` no rodapé do card (nasce `hidden`, fora do
+  elemento) vira disclosure do `[data-painel]`, que nasce recolhido com
+  `id="explicar-{questao.id}"` referenciado por `aria-controls` +
+  `aria-expanded` no toggle.
+
+Resolução de contexto (os dois modos): **id** = `data-questao-id` no
+elemento → `data-id` do `<question-card>` ancestral → `?id=` da URL;
+**API** = `data-api-url` no elemento ou no ancestral mais próximo que o
+carregue (`<question-browser>`, `<questao-view>` — cobre SSR e cards
+renderizados no cliente). Sem id ou sem API, toggle+painel ficam ocultos.
+**Escopo de `resposta_usuario`** =
+`closest('questao-view') ?? closest('question-card') ?? this`; questão sem
+alternativas simplesmente a omite. **Dedup**: embutido num card que está
+dentro de `<questao-view>`, o elemento (e o toggle do card) fica oculto e
+inerte — a página `/questao/` já tem seu painel próprio, e o `cardHtml` é
+compartilhado entre os dois contextos.
+
+Contrato interno (os dois modos):
+
 - `[data-form]` — `[data-duvida]` (máx. 500, contador `[data-contador]`
   "{n}/500"), `[data-acao]` (aria-label "Explicar a questão — {id}") e
   `[data-erro]` (`role=alert`) de validação;
@@ -415,9 +445,24 @@ espelha o do questao-explicar: `data-api-url`, `[data-painel]`,
 `[data-status]` e `[data-resultado]` (`role=alert` + `[data-retry]` nos
 erros 503/rede).
 
-Ambos os elementos do agente: campos do LLM passam por `esc()` antes do
-`innerHTML`, o foco é movido ao resultado renderizado (`[data-inner]`) e a
-redação segue `design/copy.md` §"Agente".
+### Elementos do agente — contrato comum
+
+`<questao-explicar>` e `<edital-cruzamento>` dividem as mesmas regras:
+
+- `data-api-url` no elemento ou no ancestral mais próximo — sem ela o
+  `[data-painel]` se esconde e o elemento fica inerte;
+- `[data-sem-js]` — nota exibida sem JavaScript, trocada pelo `[data-form]`
+  quando o elemento sobe (no modo card do questao-explicar o painel já
+  nasce `hidden`, dispensando a nota);
+- `[data-form]` com validação no cliente + `[data-erro]` (`role=alert`);
+  `[data-status]` (`role=status`) com `[data-status-msg]`/`[data-status-aux]`
+  durante a chamada;
+- `[data-resultado]` — conteúdo ou erro (`role=alert` + `[data-retry]`
+  quando cabível); o foco é movido para `[data-inner]` ao renderizar;
+- todo texto do LLM/dataset passa por `esc()` antes do `innerHTML`;
+- classes e helpers de UI compartilhados (`LINK_CLS`, `RETRY_CLS`,
+  `H2_CLS`, `paras()`) vivem exportados em `templates.ts`;
+- a redação segue `design/copy.md` §"Agente".
 
 ### Logo
 

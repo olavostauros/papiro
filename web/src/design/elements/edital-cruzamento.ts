@@ -1,5 +1,5 @@
 import { AgenteError, postEdital, type EditalResponse, type TopicoEdital } from '../../data/agente';
-import { BASE, esc, esperaHumana, plural } from '../templates';
+import { BASE, esc, esperaHumana, H2_CLS, paras, plural, RETRY_CLS } from '../templates';
 
 /**
  * <edital-cruzamento> — "Cruzar o edital" na página /edital/, servido por
@@ -9,9 +9,9 @@ import { BASE, esc, esperaHumana, plural } from '../templates';
  * filtro_sugerido do servidor usa os mesmos nomes de parâmetro da URL).
  *
  * Contrato:
- * - `data-api-url` — sem ela o [data-painel] se esconde (a página já
- *   renderiza EmptyState quando PUBLIC_API_URL está ausente). Sem JS, a nota
- *   de [data-sem-js] permanece.
+ * - `data-api-url` — no elemento ou no ancestral mais próximo; sem ela o
+ *   [data-painel] se esconde (a página já renderiza EmptyState quando
+ *   PUBLIC_API_URL está ausente). Sem JS, a nota de [data-sem-js] permanece.
  * - `form[data-form]` — textarea [data-texto] (contador [data-contador]
  *   "{n}/30.000"), inputs [data-banca]/[data-cargo] opcionais, submit
  *   [data-acao] e [data-erro] (role=alert) de validação.
@@ -25,8 +25,6 @@ import { BASE, esc, esperaHumana, plural } from '../templates';
  * campo do LLM/dataset passa por esc() antes do innerHTML.
  */
 
-const RETRY_CLS =
-  'mt-2 inline-flex cursor-pointer items-center justify-center rounded-md px-3 py-1.5 text-xs font-medium text-accent transition-colors hover:bg-surface focus-visible:focus-ring';
 const CTA_CLS =
   'inline-flex items-center justify-center rounded-md border border-line-strong bg-surface px-3 py-1.5 text-xs font-medium text-ink transition-colors hover:bg-accent-soft focus-visible:focus-ring';
 const BADGE_BASE = 'inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium';
@@ -41,15 +39,6 @@ const PRIORIDADES: Record<string, { rotulo: string; cls: string }> = {
 
 const MIN_CHARS = 50;
 const MAX_CHARS = 30_000;
-
-function paras(t: string): string {
-  return t
-    .split(/\n+/)
-    .map((s) => s.trim())
-    .filter(Boolean)
-    .map((s) => `<p>${esc(s)}</p>`)
-    .join('');
-}
 
 function contagemTopico(t: TopicoEdital): string {
   if (t.questoes_disponiveis === null || t.questoes_disponiveis === undefined) {
@@ -94,7 +83,7 @@ export class EditalCruzamentoElement extends HTMLElement {
 
   connectedCallback() {
     this.painel = this.querySelector('[data-painel]');
-    if (!this.dataset.apiUrl) {
+    if (!this.closest<HTMLElement>('[data-api-url]')?.dataset.apiUrl) {
       if (this.painel) this.painel.hidden = true;
       return;
     }
@@ -229,7 +218,7 @@ export class EditalCruzamentoElement extends HTMLElement {
     const partes: string[] = ['<div tabindex="-1" data-inner>'];
     if (res.resumo.trim()) {
       partes.push(
-        `<section><h2 class="text-sm font-medium text-ink">Resumo</h2>` +
+        `<section><h2 class="${H2_CLS}">Resumo</h2>` +
           `<div class="mt-1 space-y-2 text-sm text-ink-soft">${paras(res.resumo)}</div></section>`,
       );
     }
@@ -238,7 +227,7 @@ export class EditalCruzamentoElement extends HTMLElement {
         `<p class="mt-3 text-sm text-ink-soft">Banca identificada: ${esc(res.banca_identificada)} — aplicada aos filtros dos tópicos.</p>`,
       );
     }
-    partes.push('<h2 class="mt-5 text-sm font-medium text-ink">Tópicos do edital</h2>');
+    partes.push(`<h2 class="mt-5 ${H2_CLS}">Tópicos do edital</h2>`);
     if (res.topicos.length) {
       partes.push(
         `<ul class="mt-3 space-y-3">${res.topicos.map(topicoHtml).join('')}</ul>`,
