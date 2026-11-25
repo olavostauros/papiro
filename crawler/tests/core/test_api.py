@@ -64,7 +64,8 @@ def test_questoes_pagina_e_shape(client):
     assert len(body["items"]) == 2
     q = body["items"][0]
     assert set(q) == {"id", "banca", "orgao", "cargo", "ano", "assunto",
-                      "tipo", "enunciado", "alternativas", "gabarito", "fonte"}
+                      "tipo", "enunciado", "alternativas", "gabarito", "fonte",
+                      "texto"}
     assert q["ano"] == 2024  # ordenado por ano desc
 
 
