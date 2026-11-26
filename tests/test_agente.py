@@ -1146,3 +1146,164 @@ def test_explicar_stub_so_imagem_aviso_no_prompt_e_curto_circuito(tmp_path, monk
     assert r_tab.status_code == 200
     assert r_tab.json()["texto_base_ausente"] is False
     assert len(seen) == 3
+
+
+def test_explicar_modo_diagnostico_erro_acerto_e_sem_resposta(client, monkeypatch):
+    """Modo diagnóstico: preenche novos campos só quando o aluno erra."""
+    seen: list[dict[str, Any]] = []
+
+    async def fake_post(u, headers, payload, timeout):
+        seen.append(payload)
+        return _gemini_ok_response(
+            _sample_llm_json(
+                por_que_parecia_certa=(
+                    "Você marcou Errado porque confundiu ato vinculado com ato discricionário."
+                ),
+                topico_para_revisar="Atos administrativos vinculados e motivação expressa legal",
+            )
+        )
+
+    monkeypatch.setattr(agente, "_post_interaction", fake_post)
+    monkeypatch.setenv("AGENTE_RATE_PER_MIN", "30")
+
+    # 1. Erro em Certo/Errado -> ativa diagnóstico, trunca tópico p/ <= 6 palavras, não cacheia
+    r_err_ce = client.post(
+        "/agente/explicar",
+        json={"questao_id": "cebraspe-2024-pf-escrivao-001", "resposta_usuario": "errado"},
+    )
+    assert r_err_ce.status_code == 200
+    b_err_ce = r_err_ce.json()
+    assert b_err_ce["acertou"] is False
+    assert b_err_ce["cached"] is False
+    assert b_err_ce["por_que_parecia_certa"].startswith("Você marcou Errado porque")
+    assert len(b_err_ce["topico_para_revisar"].split()) <= 6
+    assert "MODO DIAGNÓSTICO" in seen[0]["system_instruction"]
+    assert "por_que_parecia_certa" in seen[0]["response_format"]["schema"]["required"]
+    assert "topico_para_revisar" in seen[0]["response_format"]["schema"]["required"]
+
+    # 2. Erro em Múltipla Escolha -> prompt inclui texto da alternativa marcada
+    r_err_mc = client.post(
+        "/agente/explicar",
+        json={"questao_id": "fcc-2024-tj-analista-001", "resposta_usuario": "b"},
+    )
+    assert r_err_mc.status_code == 200
+    assert r_err_mc.json()["acertou"] is False
+    assert "Alternativa B — Ato precário" in seen[1]["input"]
+
+    # 3. Acerto -> mantém comportamento padrão e zera campos diagnósticos
+    r_ok = client.post(
+        "/agente/explicar",
+        json={"questao_id": "cebraspe-2024-pf-escrivao-001", "resposta_usuario": "certo"},
+    )
+    assert r_ok.status_code == 200
+    b_ok = r_ok.json()
+    assert b_ok["acertou"] is True
+    assert b_ok["por_que_parecia_certa"] == ""
+    assert b_ok["topico_para_revisar"] == ""
+    assert "MODO DIAGNÓSTICO" not in seen[2]["system_instruction"]
+    assert "por_que_parecia_certa" not in seen[2]["response_format"]["schema"]["required"]
+
+    # 4. Sem resposta -> zera campos diagnósticos e entra no cache na chamada seguinte
+    r_none = client.post("/agente/explicar", json={"questao_id": "cebraspe-2024-pf-escrivao-001"})
+    assert r_none.status_code == 200
+    b_none = r_none.json()
+    assert b_none["acertou"] is None
+    assert b_none["por_que_parecia_certa"] == ""
+    assert b_none["topico_para_revisar"] == ""
+    assert len(seen) == 4
+
+    r_cached = client.post("/agente/explicar", json={"questao_id": "cebraspe-2024-pf-escrivao-001"})
+    assert r_cached.status_code == 200
+    assert r_cached.json()["cached"] is True
+    assert r_cached.json()["por_que_parecia_certa"] == ""
+    assert r_cached.json()["topico_para_revisar"] == ""
+    assert len(seen) == 4
+
+
+def test_explicar_modo_diagnostico_com_texto_base_presente_e_ausente(tmp_path, monkeypatch):
+    """Erro com texto-base presente gera diagnóstico; com texto ausente faz curto-circuito."""
+    recs = RECS + [
+        _rec(
+            "cebraspe-2022-inss-texto-001",
+            enunciado="De acordo com o texto CB1A1, o trabalho de cuidados cresceu.",
+            gabarito="certo",
+            texto={
+                "ref": "CB1A1",
+                "conteudo": "O trabalho de cuidados remunerado expandiu na última década.",
+                "citacao": "Relatório OIT, 2022.",
+                "imagem": False,
+            },
+        ),
+        _rec(
+            "cebraspe-2022-inss-sem-texto-002",
+            enunciado="Segundo o texto CB1A2, a economia informal diminuiu.",
+            gabarito="certo",
+        ),
+    ]
+    url = f"sqlite:///{tmp_path / 'diag_texto.db'}"
+    eng = db.get_engine(url)
+    db.create_schema(eng)
+    db.sync_records(recs, eng)
+    from api.main import create_app
+
+    monkeypatch.setenv("AGENTE_RATE_PER_MIN", "30")
+    cli = TestClient(create_app(url))
+    seen: list[dict[str, Any]] = []
+
+    async def fake_post(u, headers, payload, timeout):
+        seen.append(payload)
+        return _gemini_ok_response(
+            _sample_llm_json(
+                por_que_parecia_certa="Você marcou Errado porque associou cuidados apenas ao âmbito familiar.",
+                topico_para_revisar="Compreensão e interpretação de texto",
+            )
+        )
+
+    monkeypatch.setattr(agente, "_post_interaction", fake_post)
+
+    # Texto-base presente + erro -> LLM recebe Texto-base + modo diagnóstico
+    r_pres = cli.post(
+        "/agente/explicar",
+        json={"questao_id": "cebraspe-2022-inss-texto-001", "resposta_usuario": "errado"},
+    )
+    assert r_pres.status_code == 200
+    b_pres = r_pres.json()
+    assert b_pres["texto_base_ausente"] is False
+    assert b_pres["acertou"] is False
+    assert "Texto-base (CB1A1)" in seen[0]["input"]
+    assert "Você marcou Errado porque" in b_pres["por_que_parecia_certa"]
+    assert b_pres["topico_para_revisar"] == "Compreensão e interpretação de texto"
+
+    # Texto-base ausente + erro -> curto-circuito determinístico, campos diagnósticos vazios
+    r_aus = cli.post(
+        "/agente/explicar",
+        json={"questao_id": "cebraspe-2022-inss-sem-texto-002", "resposta_usuario": "errado"},
+    )
+    assert r_aus.status_code == 200
+    b_aus = r_aus.json()
+    assert b_aus["texto_base_ausente"] is True
+    assert b_aus["acertou"] is False
+    assert b_aus["modelo"] == "nenhum"
+    assert b_aus["por_que_parecia_certa"] == ""
+    assert b_aus["topico_para_revisar"] == ""
+    assert len(seen) == 1
+
+
+def test_explicar_diagnostico_guardrail_limpa_contradicao(client, monkeypatch):
+    monkeypatch.setattr(
+        agente,
+        "_post_interaction",
+        _post_ok(
+            _sample_llm_json(
+                por_que_parecia_certa="Na verdade, a banca errou ao dar certo como gabarito."
+            )
+        ),
+    )
+    r = client.post(
+        "/agente/explicar",
+        json={"questao_id": "cebraspe-2024-pf-escrivao-001", "resposta_usuario": "errado"},
+    )
+    assert r.status_code == 200
+    body = r.json()
+    assert body["por_que_parecia_certa"] == ""
+    assert "gabarito oficial definitivo" in body["explicacao"].lower()
