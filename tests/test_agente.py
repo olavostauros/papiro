@@ -183,9 +183,15 @@ def test_explicar_sucesso_e_ancoragem_gabarito(client, monkeypatch):
 
     rel_ids = [q["id"] for q in body["questoes_relacionadas"]]
     assert "cebraspe-2024-pf-escrivao-001" not in rel_ids
+    # "ato" (<4 letras) é descartado; busca por "administrativo" prioriza (Cebraspe, PF)
+    assert set(rel_ids[:2]) == {
+        "cebraspe-2023-pf-escrivao-002",
+        "cebraspe-2022-pf-escrivao-003",
+    }
     assert set(rel_ids) == {
         "cebraspe-2023-pf-escrivao-002",
         "cebraspe-2022-pf-escrivao-003",
+        "fcc-2024-tj-analista-001",
     }
 
 
@@ -1649,3 +1655,78 @@ def test_thinking_level_configuravel_por_env(client, monkeypatch):
     )
     assert r2.status_code == 200
     assert seen[-1] == ("gemini-3.5-flash-lite", "low")
+
+
+def test_explicar_relacionadas_termo_4_palavras_extrai_e_isola_em_banca_orgao(
+    tmp_path, monkeypatch
+):
+    """Termo com 4 palavras extrai até 3 palavras >= 4 chars, acha isoladas em (Banca, Orgao) e não na global."""
+    assert agente._palavras_termo_busca("Aposentadoria pessoa com deficiência") == [
+        "aposentadoria",
+        "deficiencia",
+        "pessoa",
+    ]
+    assert agente._palavras_termo_busca("de do ato em lei no") == []
+
+    recs = [
+        _rec(
+            "cebraspe-2022-inss-alvo-112",
+            orgao="INSS",
+            assunto="",
+            enunciado="A renda mensal da aposentadoria por idade devida ao segurado com deficiência.",
+            gabarito="errado",
+        ),
+        _rec(
+            "cebraspe-2022-inss-apenas-aposentadoria",
+            orgao="INSS",
+            assunto="",
+            enunciado="O cálculo da aposentadoria especial segue critérios próprios.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2022-inss-apenas-deficiencia",
+            orgao="INSS",
+            assunto="",
+            enunciado="O BPC ampara a pessoa idosa e a com deficiência em situação de miserabilidade.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2022-inss-portugues",
+            orgao="INSS",
+            assunto="",
+            enunciado="O envelhecimento populacional exige novas políticas públicas.",
+            gabarito="errado",
+        ),
+        _rec(
+            "cebraspe-2022-agu-global-isolada",
+            orgao="AGU",
+            assunto="",
+            enunciado="Regra geral sobre aposentadoria compulsória no serviço público.",
+            gabarito="certo",
+        ),
+    ]
+    url = f"sqlite:///{tmp_path / 'rel_palavras.db'}"
+    eng = db.get_engine(url)
+    db.create_schema(eng)
+    db.sync_records(recs, eng)
+    from api.main import create_app
+
+    monkeypatch.setenv("AGENTE_RATE_PER_MIN", "30")
+    cli = TestClient(create_app(url))
+    monkeypatch.setattr(
+        agente,
+        "_post_interaction",
+        _post_ok(_sample_llm_json(termo_busca="Aposentadoria pessoa com deficiência")),
+    )
+
+    r = cli.post("/agente/explicar", json={"questao_id": "cebraspe-2022-inss-alvo-112"})
+    assert r.status_code == 200
+    body = r.json()
+    assert body["relacionadas_ok"] is True
+    ids = [q["id"] for q in body["questoes_relacionadas"]]
+    # Achou na etapa restrita (Cebraspe, INSS) as que têm só "aposentadoria" e só "deficiencia";
+    # NÃO trouxe português do INSS nem "agu-global-isolada" (etapa global exige AND de todas).
+    assert set(ids) == {
+        "cebraspe-2022-inss-apenas-aposentadoria",
+        "cebraspe-2022-inss-apenas-deficiencia",
+    }

@@ -143,6 +143,10 @@ _STOPWORDS_BUSCA = frozenset({
     "em", "no", "na", "nos", "nas", "para", "por", "com", "sobre",
     "ao", "aos", "um", "uma", "texto", "textos",
 })
+_STOPWORDS_RELACIONADAS = frozenset({
+    "de", "da", "do", "com", "para", "por", "em", "a",
+    "o", "e", "ao", "na", "no", "das", "dos", "que",
+})
 
 
 # ---------------------------------------------------------------------------
@@ -984,6 +988,20 @@ def _run_with_timeout(
         return None, True, int((time.perf_counter() - t0) * 1000)
 
 
+def _palavras_termo_busca(termo_busca: str) -> list[str]:
+    """Normaliza ``termo_busca`` em até 3 palavras significativas (len >= 4, mais longas primeiro)."""
+    norm = (unaccent_str(termo_busca) or "").lower()
+    unicas: list[str] = []
+    vistos: set[str] = set()
+    for tok in re.findall(r"[a-z0-9]+", norm):
+        if len(tok) < 4 or tok in _STOPWORDS_RELACIONADAS or tok in vistos:
+            continue
+        vistos.add(tok)
+        unicas.append(tok)
+    unicas.sort(key=len, reverse=True)
+    return unicas[:3]
+
+
 def _buscar_relacionadas(
     session: Session,
     questao: dict[str, Any],
@@ -992,9 +1010,11 @@ def _buscar_relacionadas(
 ) -> tuple[list[QuestaoRelacionada], bool]:
     """Busca até ``limit`` questões relacionadas por termo/assunto sem fallback genérico.
 
-    Quando há ``termo_busca`` (>= 3 chars), prioriza a busca restrita à mesma
-    ``(banca, orgao)`` da questão e só amplia para o banco todo se faltarem
-    itens. Não faz fallback por ``(banca, orgao)`` sem termo.
+    Extrai até 3 palavras significativas de ``termo_busca`` (mais longas
+    primeiro), prioriza ``(banca, orgao)`` (AND completo e depois palavra a
+    palavra), amplia para o banco todo apenas com o AND completo e, se
+    necessário, segue para ``assunto``. Sem fallback por ``(banca, orgao)``
+    sem termo.
     """
     encontradas: list[QuestaoRelacionada] = []
     vistos = {questao["id"]}
@@ -1034,27 +1054,42 @@ def _buscar_relacionadas(
         registrar(session.execute(q).all())
         return False
 
-    termo = " ".join(termo_busca.split()).strip()
-    if len(termo) >= 3:
+    palavras = _palavras_termo_busca(termo_busca)
+    if palavras:
         rel_timeout = _env_int(
             "AGENTE_RELACIONADAS_TIMEOUT_MS", DEFAULT_RELACIONADAS_TIMEOUT_MS
         )
-        # 1) Busca por termo restrita à mesma banca e órgão (excluindo a própria questão)
-        timed_out = coletar(
+        filtros_and = [queries.unaccent_ilike(QuestaoDB.enunciado, p) for p in palavras]
+        # 1a) (Banca, Orgao) exigindo TODAS as palavras significativas no enunciado
+        timed_out_local = coletar(
             queries.base_questao().where(
                 Banca.nome == questao["banca"],
                 Orgao.nome == questao["orgao"],
-                queries.unaccent_ilike(QuestaoDB.enunciado, termo),
+                *filtros_and,
             ),
             ordenar=False,
             timeout_ms=rel_timeout,
         )
-        # 2) Se ainda faltarem itens, segue para a busca global por termo
-        if not timed_out and len(encontradas) < limit:
+        # 1b) Faltando itens, tenta cada palavra isolada (da mais longa à mais curta) em (Banca, Orgao)
+        if not timed_out_local and len(palavras) > 1 and len(encontradas) < limit:
+            for palavra in palavras:
+                if len(encontradas) >= limit:
+                    break
+                if coletar(
+                    queries.base_questao().where(
+                        Banca.nome == questao["banca"],
+                        Orgao.nome == questao["orgao"],
+                        queries.unaccent_ilike(QuestaoDB.enunciado, palavra),
+                    ),
+                    ordenar=False,
+                    timeout_ms=rel_timeout,
+                ):
+                    timed_out_local = True
+                    break
+        # 2) Faltando itens, uma única query global com AND de todas as palavras (nunca isolada)
+        if not timed_out_local and len(encontradas) < limit:
             coletar(
-                queries.base_questao().where(
-                    queries.unaccent_ilike(QuestaoDB.enunciado, termo)
-                ),
+                queries.base_questao().where(*filtros_and),
                 ordenar=False,
                 timeout_ms=rel_timeout,
             )
