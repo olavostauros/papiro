@@ -130,6 +130,10 @@ _REF_TEXTO_EXTERNO_RE = re.compile(
     re.IGNORECASE,
 )
 _TRECHO_CITADO_RE = re.compile(r'["“«][^"”»]{45,}["”»]')
+_REF_MATERIAL_VISUAL_RE = re.compile(
+    r"\b(figuras?|gr[aá]ficos?|charges?|imag(?:em|ens)|tabelas?|mapas?)\b",
+    re.IGNORECASE,
+)
 
 _STOPWORDS_BUSCA = frozenset({
     "a", "o", "as", "os", "e", "de", "da", "do", "das", "dos",
@@ -704,6 +708,20 @@ def _texto_base_ausente(enunciado: str) -> tuple[bool, Optional[str]]:
     return True, especifico
 
 
+def _imagem_base_ausente(
+    enunciado: str, texto_base: Optional[dict[str, Any]]
+) -> tuple[bool, Optional[str]]:
+    """Detecta material-base apenas visual (imagem=True sem conteúdo) citado no enunciado."""
+    tb = texto_base or {}
+    if not bool(tb.get("imagem")) or bool((tb.get("conteudo") or "").strip()):
+        return False, None
+    m = _REF_MATERIAL_VISUAL_RE.search(enunciado)
+    if not m:
+        return False, None
+    ref = (tb.get("ref") or "").strip() or m.group(0).strip()
+    return True, ref
+
+
 def _formatar_gabarito_prompt(questao: dict[str, Any], gabarito: str) -> str:
     if questao["tipo"] == "certo_errado":
         return gabarito.upper()
@@ -766,14 +784,22 @@ def _build_explicar_prompts(
         f"Assunto cadastrado: {questao['assunto'] or '(não informado)'}",
         f"Tipo: {questao['tipo']}",
     ]
-    texto_base = (questao.get("texto") or {})
-    if texto_base.get("conteudo"):
-        rotulo = f" ({texto_base['ref']})" if texto_base.get("ref") else ""
-        bloco = f"Texto-base{rotulo}:\n{texto_base['conteudo']}"
-        if texto_base.get("imagem"):
-            bloco += ("\n[O material-base inclui figura/imagem disponível "
-                      "apenas no caderno oficial — não afirme seu conteúdo "
-                      "visual]")
+    texto_base = questao.get("texto") or {}
+    conteudo_base = (texto_base.get("conteudo") or "").strip()
+    tem_imagem_base = bool(texto_base.get("imagem"))
+    if conteudo_base or tem_imagem_base:
+        ref_base = (texto_base.get("ref") or "").strip()
+        rotulo = f" ({ref_base})" if ref_base else ""
+        if conteudo_base:
+            bloco = f"Texto-base{rotulo}:\n{conteudo_base}"
+        else:
+            bloco = f"Material-base{rotulo}:"
+        if tem_imagem_base:
+            bloco += (
+                "\n[O material-base inclui figura/imagem disponível "
+                "apenas no caderno oficial — não afirme seu conteúdo "
+                "visual]"
+            )
         if texto_base.get("citacao"):
             bloco += f"\nFonte do texto: {texto_base['citacao']}"
         linhas.append(bloco)
@@ -1188,15 +1214,35 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
             if cached is not None:
                 return cached
 
-        tem_texto = bool((questao.get("texto") or {}).get("conteudo"))
+        texto_base = questao.get("texto") or {}
+        tem_texto = bool((texto_base.get("conteudo") or "").strip())
         ausente, ref_texto = _texto_base_ausente(questao["enunciado"])
-        if ausente and not tem_texto:
+        img_ausente, ref_img = _imagem_base_ausente(questao["enunciado"], texto_base)
+        if (ausente and not tem_texto) or img_ausente:
             gab_desc = _formatar_gabarito_prompt(questao, gab_oficial).rstrip(".")
             extra_mc = (
                 " nem por que as demais alternativas falham"
                 if questao["tipo"] == "multipla_escolha"
                 else ""
             )
+            if ausente and not tem_texto:
+                motivo_explicacao = (
+                    f"Como o enunciado faz referência a um texto externo ({ref_texto}) que "
+                    f"não consta nos dados desta questão, não é possível justificar a "
+                    f"resposta com base no texto{extra_mc}. Consulte o texto-base e o "
+                    f"gabarito na fonte oficial: {questao['fonte']}."
+                )
+                conceito_ausente = "Questão dependente de texto-base externo"
+                ponto_ausente = f"Texto externo ({ref_texto}) ausente no recorte — consulte a fonte oficial."
+            else:
+                motivo_explicacao = (
+                    f"Como o enunciado faz referência a um material visual ({ref_img}) disponível "
+                    f"apenas no caderno oficial da prova, não é possível justificar a resposta "
+                    f"sem visualizar a figura/imagem{extra_mc}. Consulte o material-base e o "
+                    f"gabarito na fonte oficial: {questao['fonte']}."
+                )
+                conceito_ausente = "Questão dependente de material visual externo"
+                ponto_ausente = f"Material visual ({ref_img}) ausente no recorte — consulte a fonte oficial."
             resp_ausente = ExplicarResponse(
                 questao_id=questao["id"],
                 gabarito_oficial=gab_oficial,
@@ -1207,17 +1253,13 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
                 disciplina_inferida=questao.get("assunto") or "",
                 explicacao=(
                     f"Segundo o gabarito oficial definitivo da banca ({questao['banca']}), "
-                    f"a resposta correta é: {gab_desc}. "
-                    f"Como o enunciado faz referência a um texto externo ({ref_texto}) que "
-                    f"não consta nos dados desta questão, não é possível justificar a "
-                    f"resposta com base no texto{extra_mc}. Consulte o texto-base e o "
-                    f"gabarito na fonte oficial: {questao['fonte']}."
+                    f"a resposta correta é: {gab_desc}. {motivo_explicacao}"
                 ),
                 armadilha_banca="",
-                conceito_chave="Questão dependente de texto-base externo",
+                conceito_chave=conceito_ausente,
                 pontos_chave=[
                     f"Gabarito oficial confirmado: {gab_desc}",
-                    f"Texto externo ({ref_texto}) ausente no recorte — consulte a fonte oficial.",
+                    ponto_ausente,
                 ],
                 questoes_relacionadas=await anyio.to_thread.run_sync(
                     _buscar_relacionadas, s, questao, "", limiter=db_limiter

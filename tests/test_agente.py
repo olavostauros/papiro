@@ -1026,3 +1026,123 @@ def test_explicar_texto_base_ausente_espanhol(tmp_path, monkeypatch):
         assert "não é possível justificar a resposta com base no texto" in body["explicacao"]
 
     assert called is False
+
+
+def test_explicar_stub_so_imagem_aviso_no_prompt_e_curto_circuito(tmp_path, monkeypatch):
+    """Stub só de imagem sem conteúdo: aviso sempre no prompt e curto-circuito p/ termo visual."""
+    recs = RECS + [
+        _rec(
+            "cebraspe-2026-img-sem-termo-001",
+            enunciado="Acerca dos princípios do controle interno administrativo, julgue o item a seguir.",
+            gabarito="certo",
+            texto={"ref": "Figura 1", "conteudo": "", "citacao": "", "imagem": True},
+        ),
+        _rec(
+            "cebraspe-2026-img-com-texto-002",
+            enunciado="De acordo com a tabela apresentada, a carga máxima é constante.",
+            gabarito="certo",
+            texto={
+                "ref": "Tabela I",
+                "conteudo": "Considerando o ensaio de laboratório descrito no manual técnico.",
+                "citacao": "",
+                "imagem": True,
+            },
+        ),
+        _rec(
+            "cebraspe-2026-img-figura-003",
+            enunciado="Com base na figura apresentada, o ponto A sofre tração.",
+            gabarito="certo",
+            texto={"ref": "Figura 2", "conteudo": "", "citacao": "", "imagem": True},
+        ),
+        _rec(
+            "cebraspe-2026-img-grafico-004",
+            enunciado="O gráfico indica crescimento exponencial no período.",
+            gabarito="errado",
+            texto={"ref": "", "conteudo": "", "citacao": "", "imagem": True},
+        ),
+        _rec(
+            "cebraspe-2026-img-charge-005",
+            enunciado="A charge critica a desigualdade digital.",
+            gabarito="certo",
+            texto={"ref": "", "conteudo": "", "citacao": "", "imagem": True},
+        ),
+        _rec(
+            "cebraspe-2026-img-imagem-006",
+            enunciado="A imagem reproduz uma campanha institucional.",
+            gabarito="certo",
+            texto={"ref": "", "conteudo": "", "citacao": "", "imagem": True},
+        ),
+        _rec(
+            "cebraspe-2026-img-tabela-007",
+            enunciado="Conforme a tabela, a alíquota aplicável é de 14%.",
+            gabarito="errado",
+            texto={"ref": "", "conteudo": "", "citacao": "", "imagem": True},
+        ),
+        _rec(
+            "cebraspe-2026-img-mapa-008",
+            enunciado="O mapa destaca a região Norte como foco logístico.",
+            gabarito="certo",
+            texto={"ref": "", "conteudo": "", "citacao": "", "imagem": True},
+        ),
+        _rec(
+            "cebraspe-2026-sem-stub-tabela-009",
+            enunciado="A tabela verdade da conjunção resulta verdadeira apenas quando ambas as proposições são verdadeiras.",
+            gabarito="certo",
+        ),
+    ]
+    url = f"sqlite:///{tmp_path / 'imagem_stub.db'}"
+    eng = db.get_engine(url)
+    db.create_schema(eng)
+    db.sync_records(recs, eng)
+    from api.main import create_app
+
+    monkeypatch.setenv("AGENTE_RATE_PER_MIN", "30")
+    cli = TestClient(create_app(url))
+    seen: list[tuple[str, str]] = []
+
+    async def fake_post(u, headers, payload, timeout):
+        seen.append((payload["input"], payload["system_instruction"]))
+        return _gemini_ok_response(_sample_llm_json())
+
+    monkeypatch.setattr(agente, "_post_interaction", fake_post)
+
+    # 1. Stub imagem=True sem conteúdo e sem termo visual: chama LLM levando o aviso visual
+    r1 = cli.post("/agente/explicar", json={"questao_id": "cebraspe-2026-img-sem-termo-001"})
+    assert r1.status_code == 200
+    assert r1.json()["texto_base_ausente"] is False
+    assert len(seen) == 1
+    assert "não afirme seu conteúdo visual" in seen[0][0]
+    assert "Material-base (Figura 1):" in seen[0][0]
+
+    # 2. Material com conteúdo + imagem=True citando "tabela": chama LLM com conteúdo e aviso
+    r2 = cli.post("/agente/explicar", json={"questao_id": "cebraspe-2026-img-com-texto-002"})
+    assert r2.status_code == 200
+    assert r2.json()["texto_base_ausente"] is False
+    assert len(seen) == 2
+    assert "Considerando o ensaio de laboratório" in seen[1][0]
+    assert "não afirme seu conteúdo visual" in seen[1][0]
+
+    # 3. Stub só imagem + termos visuais: curto-circuito sem chamar LLM
+    for qid in (
+        "cebraspe-2026-img-figura-003",
+        "cebraspe-2026-img-grafico-004",
+        "cebraspe-2026-img-charge-005",
+        "cebraspe-2026-img-imagem-006",
+        "cebraspe-2026-img-tabela-007",
+        "cebraspe-2026-img-mapa-008",
+    ):
+        r = cli.post("/agente/explicar", json={"questao_id": qid})
+        assert r.status_code == 200
+        body = r.json()
+        assert body["texto_base_ausente"] is True
+        assert body["modelo"] == "nenhum"
+        assert body["fonte"] in body["explicacao"]
+        assert "material visual" in body["explicacao"]
+
+    assert len(seen) == 2  # nenhum dos 6 casos visuais chamou o LLM
+
+    # 4. Questão sem stub de imagem citando "tabela" segue normal
+    r_tab = cli.post("/agente/explicar", json={"questao_id": "cebraspe-2026-sem-stub-tabela-009"})
+    assert r_tab.status_code == 200
+    assert r_tab.json()["texto_base_ausente"] is False
+    assert len(seen) == 3
