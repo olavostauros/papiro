@@ -102,9 +102,24 @@ context) and `.devin/agents/` (local-only, gitignored). Layout here:
   lives here: the VM must see exactly one agent — the one that administers
   it — and it is also the only profile `COPY`ed into the image.
 - `.agents/host-agents/` — host-only charters (`perito`, `sentinela`,
-  `arquivista`, `escriba`, `iluminista`), tracked for versioning but NOT auto-discovered. On the
+  `arquivista`, `escriba`, `iluminista`, `papiro-logo`), tracked for versioning but NOT auto-discovered. On the
   host, activate them once per clone:
   `mkdir -p .devin/agents && cd .devin/agents && ln -sf ../../.agents/host-agents/*.md .`
+
+For Codex, the `papiro-logo` adapter also lives in
+`.agents/host-agents/papiro-logo.toml` and loads the Markdown charter as its
+source of instructions. After unlocking/deobfuscating `.agents/`, activate
+it locally from the repository root:
+
+```bash
+mkdir -p .codex/agents
+ln -s ../../.agents/host-agents/papiro-logo.toml .codex/agents/papiro-logo.toml
+```
+
+`.codex/` is local-only and gitignored, including the symlink. Never stage
+or force-add its contents; version the charter and adapter under `.agents/`
+through the notes pipeline. In Codex, delegate logo work to `papiro-logo`;
+the Devin equivalent is `run_subagent(profile: "papiro-logo", ...)`.
 
 Spawn the host profiles with `run_subagent(profile: ...)`. `auditor` is
 the exception: `run_subagent` always executes on the host, and the
@@ -156,6 +171,13 @@ instead.
   (`web/src/design/copy.md`). Emits a **rubrica** (textos, voz,
   verificações, devoluções). Spawn it for copywriting, microcopy,
   empty-state/error wording, and copy review of new UI.
+- `papiro-logo` — visual identity designer. Owns `brand/`: the papiro
+  symbol and wordmark, SVG sources, light/dark and monochrome variants,
+  previews, and usage documentation. Preserves existing work, validates
+  SVG geometry and legibility at small sizes, and records font/color
+  provenance. Site integration goes to `escriba`, interface wording to
+  `iluminista`. Reports as a **memorial de marca**. Spawn it for logo
+  creation, refinement, exports, and visual identity review.
 - `arquivista` — data-operations archivist on the **host**. Runs the whole
   ingest workflow — `next/files/fetch`, job.json curation, `audit`,
   `assemble --write`, shard hygiene scan, `crawler.db sync`, batch
