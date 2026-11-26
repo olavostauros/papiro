@@ -1,9 +1,11 @@
 ---
-interface Props {
-  href?: string;
+import type { HTMLAttributes } from 'astro/types';
+import Papiro from '../assets/papiro.svg';
+
+type Props = HTMLAttributes<'a'> & HTMLAttributes<'p'> & {
   size?: 'lg' | 'xl';
   class?: string;
-}
+};
 
 const { href, size = 'xl', class: className, ...rest } = Astro.props;
 const Tag = href ? 'a' : 'p';
@@ -13,10 +15,11 @@ const Tag = href ? 'a' : 'p';
   href={href}
   {...rest}
   class:list={[
-    'rounded-sm font-serif font-bold tracking-tight text-accent focus-visible:focus-ring',
-    size === 'xl' ? 'text-xl' : 'text-lg',
+    'inline-flex shrink-0 rounded-sm text-accent focus-visible:focus-ring dark:text-ink',
+    size === 'xl' ? 'w-44' : 'w-40',
     className,
   ]}
 >
-  papiro
+  <Papiro class="block h-auto w-full" aria-hidden="true" focusable="false" />
+  <span class="sr-only">papiro</span>
 </Tag>
