@@ -134,8 +134,32 @@ _REF_TEXTO_EXTERNO_RE = re.compile(
     re.IGNORECASE,
 )
 _TRECHO_CITADO_RE = re.compile(r'["“«][^"”»]{45,}["”»]')
+_VISUAL_NOUN_PAT = (
+    r"(?:figuras?|gr[aá]ficos?|charges?|tirinhas?|cartu(?:ns|m)|"
+    r"imag(?:em|ens)|tabelas?|mapas?|quadros?|esquemas?|"
+    r"ilustra[cç](?:[oõ]es|[aã]o)|fluxogramas?|diagramas?)"
+)
+_VISUAL_DEITICO_POS_PAT = (
+    r"(?:acima|abaixo|anterior(?:es)?|seguinte(?:s)?|precedente(?:s)?|"
+    r"a\s+seguir|apresentad[ao]s?|ilustrad[ao]s?|mostrad[ao]s?|"
+    r"exibid[ao]s?|reproduzid[ao]s?|fornecid[ao]s?|ao\s+lado|em\s+quest[aã]o)"
+)
+_VISUAL_ROTULO_PAT = r"(?:[A-Z]{0,3}\d+[A-Z0-9-]*|(?-i:[IVX]{1,4})\b)"
+_VISUAL_CONCEITUAL_NEG_PAT = (
+    r"(?!\s+(?:cl[ií]nic[ao]s?|conceitua(?:l|is)|verdade|peri[oó]dic[ao]s?|"
+    r"ascii|digital|digitais|mentais|mental|pessoal|funcional|geral|"
+    r"de\s+(?:classes|objetos|ishikawa|karnaugh|fluxo|blocos|rede|banco|dados|entidade|sequ[eê]ncia|atividades|estados|casos)|"
+    r"do\s+s[ií]tio))"
+)
 _REF_MATERIAL_VISUAL_RE = re.compile(
-    r"\b(figuras?|gr[aá]ficos?|charges?|imag(?:em|ens)|tabelas?|mapas?)\b",
+    rf"\b(?:"
+    rf"{_VISUAL_NOUN_PAT}\s+(?:{_VISUAL_DEITICO_POS_PAT}|{_VISUAL_ROTULO_PAT})|"
+    rf"(?:com\s+base\s+n[ao]s?|a\s+partir\s+d[ao]s?|de\s+acordo\s+com\s+[ao]s?|"
+    rf"conforme\s+[ao]s?|segundo\s+[ao]s?|"
+    rf"(?:mostrad[ao]s?|representad[ao]s?|ilustrad[ao]s?|apresentad[ao]s?|observad[ao]s?|indicad[ao]s?)\s+n[ao]s?)"
+    rf"\s+{_VISUAL_NOUN_PAT}\b{_VISUAL_CONCEITUAL_NEG_PAT}|"
+    rf"n[ao]s?\s+(?:figuras?|gr[aá]ficos?|charges?|tirinhas?|cartu(?:ns|m)|ilustra[cç](?:[oõ]es|[aã]o))\b{_VISUAL_CONCEITUAL_NEG_PAT}"
+    rf")",
     re.IGNORECASE,
 )
 
@@ -217,6 +241,10 @@ class ExplicarResponse(BaseModel):
     fonte: str
     anulada: bool = False
     texto_base_ausente: bool = False
+    material_ausente: Optional[Literal["texto", "imagem"]] = Field(
+        default=None,
+        description="Tipo de material-base ausente quando texto_base_ausente=True ('texto' ou 'imagem'); None nos demais casos.",
+    )
     acertou: Optional[bool] = Field(
         default=None,
         description="True/False quando resposta_usuario é informada e a questão não é anulada; None caso contrário.",
@@ -774,15 +802,24 @@ def _texto_base_ausente(enunciado: str) -> tuple[bool, Optional[str]]:
 def _imagem_base_ausente(
     enunciado: str, texto_base: Optional[dict[str, Any]]
 ) -> tuple[bool, Optional[str]]:
-    """Detecta material-base apenas visual (imagem=True sem conteúdo) citado no enunciado."""
+    """Detecta material visual não transcrito (``texto.imagem=True`` ou dêitico sem texto)."""
     tb = texto_base or {}
-    if not bool(tb.get("imagem")) or bool((tb.get("conteudo") or "").strip()):
+    if bool(tb.get("imagem")):
+        m = _REF_MATERIAL_VISUAL_RE.search(enunciado) or _REF_MATERIAL_VISUAL_RE.search(
+            tb.get("conteudo") or ""
+        )
+        ref = (
+            (tb.get("ref") or "").strip()
+            or (m.group(0).strip() if m else "")
+            or "figura/imagem do caderno oficial"
+        )
+        return True, ref
+    if texto_base:
         return False, None
     m = _REF_MATERIAL_VISUAL_RE.search(enunciado)
     if not m:
         return False, None
-    ref = (tb.get("ref") or "").strip() or m.group(0).strip()
-    return True, ref
+    return True, m.group(0).strip()
 
 
 def _formatar_opcao_prompt(
@@ -1375,18 +1412,30 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
             if cached is not None:
                 return cached
 
-        texto_base = questao.get("texto") or {}
+        texto_base_raw = questao.get("texto")
+        texto_base = texto_base_raw or {}
         tem_texto = bool((texto_base.get("conteudo") or "").strip())
         ausente, ref_texto = _texto_base_ausente(questao["enunciado"])
-        img_ausente, ref_img = _imagem_base_ausente(questao["enunciado"], texto_base)
-        if (ausente and not tem_texto) or img_ausente:
+        img_ausente, ref_img = _imagem_base_ausente(questao["enunciado"], texto_base_raw)
+        if img_ausente or (ausente and not tem_texto):
             gab_desc = _formatar_gabarito_prompt(questao, gab_oficial).rstrip(".")
             extra_mc = (
                 " nem por que as demais alternativas falham"
                 if questao["tipo"] == "multipla_escolha"
                 else ""
             )
-            if ausente and not tem_texto:
+            if img_ausente:
+                material_ausente: Literal["texto", "imagem"] = "imagem"
+                motivo_explicacao = (
+                    f"Como a questão depende de material visual ({ref_img}) disponível "
+                    f"apenas no caderno oficial da prova, não é possível justificar a resposta "
+                    f"sem visualizar a figura/imagem{extra_mc}. Consulte o material-base e o "
+                    f"gabarito na fonte oficial: {questao['fonte']}."
+                )
+                conceito_ausente = "Questão dependente de material visual externo"
+                ponto_ausente = f"Material visual ({ref_img}) ausente no recorte — consulte a fonte oficial."
+            else:
+                material_ausente = "texto"
                 motivo_explicacao = (
                     f"Como o enunciado faz referência a um texto externo ({ref_texto}) que "
                     f"não consta nos dados desta questão, não é possível justificar a "
@@ -1395,15 +1444,6 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
                 )
                 conceito_ausente = "Questão dependente de texto-base externo"
                 ponto_ausente = f"Texto externo ({ref_texto}) ausente no recorte — consulte a fonte oficial."
-            else:
-                motivo_explicacao = (
-                    f"Como o enunciado faz referência a um material visual ({ref_img}) disponível "
-                    f"apenas no caderno oficial da prova, não é possível justificar a resposta "
-                    f"sem visualizar a figura/imagem{extra_mc}. Consulte o material-base e o "
-                    f"gabarito na fonte oficial: {questao['fonte']}."
-                )
-                conceito_ausente = "Questão dependente de material visual externo"
-                ponto_ausente = f"Material visual ({ref_img}) ausente no recorte — consulte a fonte oficial."
             relacionadas_ausente, relacionadas_ausente_ok = await anyio.to_thread.run_sync(
                 _buscar_relacionadas, s, questao, "", limiter=db_limiter
             )
@@ -1413,6 +1453,7 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
                 fonte=questao["fonte"],
                 anulada=False,
                 texto_base_ausente=True,
+                material_ausente=material_ausente,
                 acertou=acertou,
                 disciplina_inferida=questao.get("assunto") or "",
                 explicacao=(
@@ -1463,7 +1504,9 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
                 por_que = llm_out.por_que_parecia_certa.strip() if errou else ""
                 topico_rev = _normalizar_topico_revisao(llm_out.topico_para_revisar) if errou else ""
                 if _contradiz_gabarito(
-                    f"{explicacao}\n{armadilha}\n{por_que}", gab_oficial, questao["tipo"]
+                    f"{explicacao}\n{armadilha}\n{por_que}\n{topico_rev}",
+                    gab_oficial,
+                    questao["tipo"],
                 ):
                     explicacao = (
                         f"De acordo com o gabarito oficial definitivo da banca ({questao['banca']}), "
@@ -1472,6 +1515,7 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
                     )
                     armadilha = ""
                     por_que = ""
+                    topico_rev = ""
 
                 relacionadas, relacionadas_ok = await anyio.to_thread.run_sync(
                     _buscar_relacionadas, s, questao, llm_out.termo_busca,

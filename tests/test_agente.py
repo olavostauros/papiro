@@ -630,6 +630,7 @@ def test_explicar_texto_base_ausente_curto_circuito(tmp_path, monkeypatch):
         assert r.status_code == 200
         body = r.json()
         assert body["texto_base_ausente"] is True
+        assert body["material_ausente"] == "texto"
         assert body["modelo"] == "nenhum"
         assert body["armadilha_banca"] == ""
         assert body["fonte"] in body["explicacao"]
@@ -640,6 +641,7 @@ def test_explicar_texto_base_ausente_curto_circuito(tmp_path, monkeypatch):
     r_const = cli.post("/agente/explicar", json={"questao_id": "cebraspe-2025-const-004"})
     assert r_const.status_code == 200
     assert r_const.json()["texto_base_ausente"] is False
+    assert r_const.json()["material_ausente"] is None
     assert llm_calls == 1
 
 
@@ -1059,6 +1061,7 @@ def test_explicar_texto_base_ausente_espanhol(tmp_path, monkeypatch):
         assert r.status_code == 200
         body = r.json()
         assert body["texto_base_ausente"] is True
+        assert body["material_ausente"] == "texto"
         assert body["modelo"] == "nenhum"
         assert body["fonte"] in body["explicacao"]
         assert "não é possível justificar a resposta com base no texto" in body["explicacao"]
@@ -1067,64 +1070,99 @@ def test_explicar_texto_base_ausente_espanhol(tmp_path, monkeypatch):
 
 
 def test_explicar_stub_so_imagem_aviso_no_prompt_e_curto_circuito(tmp_path, monkeypatch):
-    """Stub só de imagem sem conteúdo: aviso sempre no prompt e curto-circuito p/ termo visual."""
+    """Material visual (imagem=True mesmo com intro, ou dêitico sem texto) dispara curto-circuito."""
     recs = RECS + [
         _rec(
-            "cebraspe-2026-img-sem-termo-001",
+            "cebraspe-2026-img-vazio-001",
             enunciado="Acerca dos princípios do controle interno administrativo, julgue o item a seguir.",
             gabarito="certo",
             texto={"ref": "Figura 1", "conteudo": "", "citacao": "", "imagem": True},
         ),
         _rec(
-            "cebraspe-2026-img-com-texto-002",
-            enunciado="De acordo com a tabela apresentada, a carga máxima é constante.",
-            gabarito="certo",
+            "cebraspe-2016-tcepa-analista-suporte-092-mock",
+            enunciado="De acordo com a figura, não é necessário que uma licitação tenha uma modalidade.",
+            gabarito="errado",
             texto={
-                "ref": "Tabela I",
-                "conteudo": "Considerando o ensaio de laboratório descrito no manual técnico.",
+                "ref": "",
+                "conteudo": "Considerando a figura apresentada, que ilustra o modelo de um banco de dados hipotético, julgue os itens que se seguem.",
                 "citacao": "",
                 "imagem": True,
             },
         ),
         _rec(
-            "cebraspe-2026-img-figura-003",
+            "cebraspe-2026-sem-texto-figura-003",
             enunciado="Com base na figura apresentada, o ponto A sofre tração.",
             gabarito="certo",
-            texto={"ref": "Figura 2", "conteudo": "", "citacao": "", "imagem": True},
         ),
         _rec(
-            "cebraspe-2026-img-grafico-004",
-            enunciado="O gráfico indica crescimento exponencial no período.",
+            "cebraspe-2026-sem-texto-grafico-004",
+            enunciado="O gráfico acima indica crescimento exponencial no período.",
             gabarito="errado",
-            texto={"ref": "", "conteudo": "", "citacao": "", "imagem": True},
         ),
         _rec(
-            "cebraspe-2026-img-charge-005",
-            enunciado="A charge critica a desigualdade digital.",
+            "cebraspe-2026-sem-texto-quadro-005",
+            enunciado="De acordo com o quadro a seguir, o saldo foi positivo.",
             gabarito="certo",
-            texto={"ref": "", "conteudo": "", "citacao": "", "imagem": True},
         ),
         _rec(
-            "cebraspe-2026-img-imagem-006",
-            enunciado="A imagem reproduz uma campanha institucional.",
+            "cebraspe-2026-sem-texto-esquema-006",
+            enunciado="No esquema precedente, o sinal é invertido na saída.",
             gabarito="certo",
-            texto={"ref": "", "conteudo": "", "citacao": "", "imagem": True},
         ),
         _rec(
-            "cebraspe-2026-img-tabela-007",
-            enunciado="Conforme a tabela, a alíquota aplicável é de 14%.",
+            "cebraspe-2026-sem-texto-ilustracao-007",
+            enunciado="Conforme a ilustração abaixo, ocorre corrosão galvânica.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2026-sem-texto-fluxograma-008",
+            enunciado="No fluxograma seguinte, a decisão encerra o laço.",
             gabarito="errado",
-            texto={"ref": "", "conteudo": "", "citacao": "", "imagem": True},
         ),
         _rec(
-            "cebraspe-2026-img-mapa-008",
-            enunciado="O mapa destaca a região Norte como foco logístico.",
+            "cebraspe-2026-sem-texto-diagrama-009",
+            enunciado="Segundo o diagrama apresentado, há dependência cíclica.",
             gabarito="certo",
-            texto={"ref": "", "conteudo": "", "citacao": "", "imagem": True},
         ),
         _rec(
-            "cebraspe-2026-sem-stub-tabela-009",
+            "cebraspe-2026-sem-texto-tabela-010",
+            enunciado="De acordo com a tabela precedente, a alíquota é de 14%.",
+            gabarito="errado",
+        ),
+        _rec(
+            "cebraspe-2026-sem-texto-mapa-011",
+            enunciado="No mapa acima, a região Norte concentra os focos.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2026-sem-texto-charge-012",
+            enunciado="A charge a seguir critica o excesso de burocracia.",
+            gabarito="certo",
+        ),
+        # Usos conceituais / palavras soltas SEM referência dêitica NÃO devem disparar
+        _rec(
+            "cebraspe-2026-conceitual-tabela-verdade",
             enunciado="A tabela verdade da conjunção resulta verdadeira apenas quando ambas as proposições são verdadeiras.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2026-conceitual-mapa-sitio",
+            enunciado="Os elementos fundamentais de um portal incluem barra de acessibilidade e mapa do sítio.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2026-conceitual-ishikawa",
+            enunciado="O diagrama de Ishikawa tem a finalidade de mapear causas e efeitos de um problema.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2026-conceitual-fluxograma",
+            enunciado="No mapeamento de processos, o fluxograma possibilita visão geral das etapas.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2026-conceitual-quadro-clinico",
+            enunciado="A avaliação do quadro clínico do paciente deve preceder o exame de imagem.",
             gabarito="certo",
         ),
     ]
@@ -1134,56 +1172,58 @@ def test_explicar_stub_so_imagem_aviso_no_prompt_e_curto_circuito(tmp_path, monk
     db.sync_records(recs, eng)
     from api.main import create_app
 
-    monkeypatch.setenv("AGENTE_RATE_PER_MIN", "30")
+    monkeypatch.setenv("AGENTE_RATE_PER_MIN", "50")
     cli = TestClient(create_app(url))
-    seen: list[tuple[str, str]] = []
+    seen: list[str] = []
 
     async def fake_post(u, headers, payload, timeout):
-        seen.append((payload["input"], payload["system_instruction"]))
+        seen.append(payload["input"])
         return _gemini_ok_response(_sample_llm_json())
 
     monkeypatch.setattr(agente, "_post_interaction", fake_post)
 
-    # 1. Stub imagem=True sem conteúdo e sem termo visual: chama LLM levando o aviso visual
-    r1 = cli.post("/agente/explicar", json={"questao_id": "cebraspe-2026-img-sem-termo-001"})
-    assert r1.status_code == 200
-    assert r1.json()["texto_base_ausente"] is False
-    assert len(seen) == 1
-    assert "não afirme seu conteúdo visual" in seen[0][0]
-    assert "Material-base (Figura 1):" in seen[0][0]
-
-    # 2. Material com conteúdo + imagem=True citando "tabela": chama LLM com conteúdo e aviso
-    r2 = cli.post("/agente/explicar", json={"questao_id": "cebraspe-2026-img-com-texto-002"})
-    assert r2.status_code == 200
-    assert r2.json()["texto_base_ausente"] is False
-    assert len(seen) == 2
-    assert "Considerando o ensaio de laboratório" in seen[1][0]
-    assert "não afirme seu conteúdo visual" in seen[1][0]
-
-    # 3. Stub só imagem + termos visuais: curto-circuito sem chamar LLM
+    # 1. Todos os casos com imagem=True (com ou sem conteúdo) + termos visuais dêiticos sem texto:
+    #    devem fazer curto-circuito com material_ausente="imagem" sem chamar o LLM.
     for qid in (
-        "cebraspe-2026-img-figura-003",
-        "cebraspe-2026-img-grafico-004",
-        "cebraspe-2026-img-charge-005",
-        "cebraspe-2026-img-imagem-006",
-        "cebraspe-2026-img-tabela-007",
-        "cebraspe-2026-img-mapa-008",
+        "cebraspe-2026-img-vazio-001",
+        "cebraspe-2016-tcepa-analista-suporte-092-mock",
+        "cebraspe-2026-sem-texto-figura-003",
+        "cebraspe-2026-sem-texto-grafico-004",
+        "cebraspe-2026-sem-texto-quadro-005",
+        "cebraspe-2026-sem-texto-esquema-006",
+        "cebraspe-2026-sem-texto-ilustracao-007",
+        "cebraspe-2026-sem-texto-fluxograma-008",
+        "cebraspe-2026-sem-texto-diagrama-009",
+        "cebraspe-2026-sem-texto-tabela-010",
+        "cebraspe-2026-sem-texto-mapa-011",
+        "cebraspe-2026-sem-texto-charge-012",
     ):
         r = cli.post("/agente/explicar", json={"questao_id": qid})
         assert r.status_code == 200
         body = r.json()
         assert body["texto_base_ausente"] is True
+        assert body["material_ausente"] == "imagem"
         assert body["modelo"] == "nenhum"
         assert body["fonte"] in body["explicacao"]
         assert "material visual" in body["explicacao"]
 
-    assert len(seen) == 2  # nenhum dos 6 casos visuais chamou o LLM
+    assert len(seen) == 0
 
-    # 4. Questão sem stub de imagem citando "tabela" segue normal
-    r_tab = cli.post("/agente/explicar", json={"questao_id": "cebraspe-2026-sem-stub-tabela-009"})
-    assert r_tab.status_code == 200
-    assert r_tab.json()["texto_base_ausente"] is False
-    assert len(seen) == 3
+    # 2. Questões com palavras visuais soltas/conceituais NÃO disparam curto-circuito
+    for qid in (
+        "cebraspe-2026-conceitual-tabela-verdade",
+        "cebraspe-2026-conceitual-mapa-sitio",
+        "cebraspe-2026-conceitual-ishikawa",
+        "cebraspe-2026-conceitual-fluxograma",
+        "cebraspe-2026-conceitual-quadro-clinico",
+    ):
+        r = cli.post("/agente/explicar", json={"questao_id": qid})
+        assert r.status_code == 200
+        body = r.json()
+        assert body["texto_base_ausente"] is False
+        assert body["material_ausente"] is None
+
+    assert len(seen) == 5
 
 
 def test_explicar_modo_diagnostico_erro_acerto_e_sem_resposta(client, monkeypatch):
@@ -1344,7 +1384,30 @@ def test_explicar_diagnostico_guardrail_limpa_contradicao(client, monkeypatch):
     assert r.status_code == 200
     body = r.json()
     assert body["por_que_parecia_certa"] == ""
+    assert body["topico_para_revisar"] == ""
     assert "gabarito oficial definitivo" in body["explicacao"].lower()
+
+    # Contradição apenas em topico_para_revisar também dispara e zera tudo
+    monkeypatch.setattr(
+        agente,
+        "_post_interaction",
+        _post_ok(
+            _sample_llm_json(
+                por_que_parecia_certa="Você marcou Errado por descuido.",
+                topico_para_revisar="gabarito oficial está errado",
+            )
+        ),
+    )
+    r2 = client.post(
+        "/agente/explicar",
+        json={"questao_id": "fcc-2024-tj-analista-001", "resposta_usuario": "b"},
+    )
+    assert r2.status_code == 200
+    b2 = r2.json()
+    assert b2["topico_para_revisar"] == ""
+    assert b2["por_que_parecia_certa"] == ""
+    assert b2["armadilha_banca"] == ""
+    assert "gabarito oficial definitivo" in b2["explicacao"].lower()
 
 
 def test_explicar_relacionadas_sem_fallback_generico(tmp_path, monkeypatch):
