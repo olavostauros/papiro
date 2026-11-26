@@ -103,7 +103,7 @@ const exemplo = (await fetchQuestoes({ tipo: 'multipla_escolha', per_page: 1 })
     <DocSection
       id="cores"
       title="Cores"
-      desc="Oliva energizada de alto croma, fundos limpos e feedback vibrante — a paleta mantém o concurseiro alerta nos dois temas."
+      desc="Acentos em oliva de alto croma, fundos limpos e cores de feedback consistentes nos temas claro e escuro."
     >
       <div class="space-y-6">
         <div>
@@ -333,15 +333,15 @@ const exemplo = (await fetchQuestoes({ tipo: 'multipla_escolha', per_page: 1 })
     <DocSection
       id="marca"
       title="Marca e ícones"
-      desc="Miolo: livro aberto e lettering geométrico em contornos. A assinatura e o símbolo preservam o desenho aprovado."
+      desc="A identidade Miolo combina um livro aberto com desenho tipográfico geométrico em contornos. A assinatura reúne o símbolo e o nome papiro; o favicon usa só o símbolo."
     >
       <Card class="flex flex-wrap items-end gap-x-10 gap-y-6">
         <div>
-          <p class="mb-2 font-mono text-xs text-ink-faint">Logo · xl · 176 px</p>
+          <p class="mb-2 font-mono text-xs text-ink-faint">Assinatura · xl · 176 px</p>
           <Logo />
         </div>
         <div>
-          <p class="mb-2 font-mono text-xs text-ink-faint">Logo · lg · 160 px</p>
+          <p class="mb-2 font-mono text-xs text-ink-faint">Assinatura · lg · 160 px</p>
           <Logo size="lg" />
         </div>
         <div>
@@ -352,7 +352,7 @@ const exemplo = (await fetchQuestoes({ tipo: 'multipla_escolha', per_page: 1 })
                 src={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/favicon.svg`}
                 width={size}
                 height={size}
-                alt="Símbolo do papiro"
+                alt={`Símbolo do papiro em ${size} px`}
               />
             ))}
           </div>
@@ -374,7 +374,7 @@ const exemplo = (await fetchQuestoes({ tipo: 'multipla_escolha', per_page: 1 })
       <p class="mt-3 text-sm text-ink-soft">
         A marca usa desenho vetorial próprio, sem depender das fontes da interface.
         Preserve a proporção e o respiro; a assinatura tem largura mínima de 160 px.
-        O favicon acompanha o tema do navegador.
+        O favicon acompanha o esquema claro/escuro do navegador.
       </p>
     </DocSection>
   </Container>
