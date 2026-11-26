@@ -1035,7 +1035,6 @@ def _buscar_relacionadas(
         return False
 
     termo = " ".join(termo_busca.split()).strip()
-    timed_out = False
     if len(termo) >= 3:
         rel_timeout = _env_int(
             "AGENTE_RELACIONADAS_TIMEOUT_MS", DEFAULT_RELACIONADAS_TIMEOUT_MS
@@ -1052,18 +1051,14 @@ def _buscar_relacionadas(
         )
         # 2) Se ainda faltarem itens, segue para a busca global por termo
         if not timed_out and len(encontradas) < limit:
-            timed_out = coletar(
+            coletar(
                 queries.base_questao().where(
                     queries.unaccent_ilike(QuestaoDB.enunciado, termo)
                 ),
                 ordenar=False,
                 timeout_ms=rel_timeout,
             )
-    if (
-        not timed_out
-        and len(encontradas) < limit
-        and _assunto_util(questao.get("assunto") or "")
-    ):
+    if len(encontradas) < limit and _assunto_util(questao.get("assunto") or ""):
         coletar(queries.base_questao().where(Assunto.nome == questao["assunto"]))
     return encontradas, bool(encontradas)
 

@@ -1513,6 +1513,40 @@ def test_explicar_relacionadas_prioriza_banca_e_orgao_com_termo(tmp_path, monkey
         "cebraspe-2016-inss-local-002",
     }
 
+    # 3. Se a busca global estourar timeout e houver assunto útil, continua para a busca por assunto
+    recs_assunto = recs + [
+        _rec(
+            "cebraspe-2022-inss-assunto-200",
+            orgao="INSS",
+            assunto="Direito Previdenciário",
+            enunciado="Segurado especial tem regras próprias de contribuição.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2024-agu-assunto-201",
+            orgao="AGU",
+            assunto="Direito Previdenciário",
+            enunciado="Auxílio-doença exige período de carência em regra.",
+            gabarito="certo",
+        ),
+    ]
+    db.sync_records(recs_assunto, eng)
+    monkeypatch.setattr(
+        agente,
+        "_run_with_timeout",
+        lambda session, fn, timeout_ms: (None, True, timeout_ms + 1),
+    )
+    r3 = cli.post(
+        "/agente/explicar",
+        json={"questao_id": "cebraspe-2022-inss-assunto-200"},
+    )
+    assert r3.status_code == 200
+    b3 = r3.json()
+    assert b3["relacionadas_ok"] is True
+    assert [q["id"] for q in b3["questoes_relacionadas"]] == [
+        "cebraspe-2024-agu-assunto-201"
+    ]
+
 
 def test_explicar_cache_por_resposta_usuario_e_duvida_fora(client, monkeypatch):
     """Cacheia por (questao_id, resposta_usuario) quando duvida=None; duvida fica fora."""
