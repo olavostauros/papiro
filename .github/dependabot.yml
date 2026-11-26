@@ -10,6 +10,11 @@ updates:
     schedule:
       interval: weekly
     open-pull-requests-limit: 5
+    ignore:
+      # tsgo (typescript@7) é binário nativo — @astrojs/check exige ^5||^6
+      # (API JS via Volar). Revisitar quando o check suportar o compilador Go.
+      - dependency-name: typescript
+        update-types: ["version-update:semver-major"]
   # digests das base images (Dockerfile + compose.yaml)
   - package-ecosystem: docker
     directory: /
