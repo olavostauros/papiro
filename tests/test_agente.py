@@ -1418,6 +1418,102 @@ def test_explicar_relacionadas_sem_fallback_generico(tmp_path, monkeypatch):
     assert [q["id"] for q in b_ok["questoes_relacionadas"]] == ["cebraspe-2022-agu-prev-046"]
 
 
+def test_explicar_relacionadas_prioriza_banca_e_orgao_com_termo(tmp_path, monkeypatch):
+    """Prioriza termo na mesma banca+órgão (sem a própria questão) e só complementa globalmente."""
+    recs = [
+        _rec(
+            "cebraspe-2022-inss-alvo-112",
+            orgao="INSS",
+            assunto="",
+            enunciado="Aposentadoria por idade do segurado com deficiência no RGPS.",
+            gabarito="errado",
+        ),
+        _rec(
+            "cebraspe-2022-inss-local-001",
+            orgao="INSS",
+            assunto="",
+            enunciado="Outra questão do INSS sobre aposentadoria especial.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2016-inss-local-002",
+            orgao="INSS",
+            ano=2016,
+            assunto="",
+            enunciado="Regra de aposentadoria por tempo de contribuição no INSS.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2022-agu-global-003",
+            orgao="AGU",
+            assunto="",
+            enunciado="Questão global de aposentadoria na AGU.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2024-agu-global-004",
+            orgao="AGU",
+            assunto="",
+            enunciado="Outra questão global de aposentadoria.",
+            gabarito="certo",
+        ),
+    ]
+    url = f"sqlite:///{tmp_path / 'rel_prio.db'}"
+    eng = db.get_engine(url)
+    db.create_schema(eng)
+    db.sync_records(recs, eng)
+    from api.main import create_app
+
+    monkeypatch.setenv("AGENTE_RATE_PER_MIN", "30")
+    cli = TestClient(create_app(url))
+    monkeypatch.setattr(
+        agente,
+        "_post_interaction",
+        _post_ok(_sample_llm_json(termo_busca="aposentadoria")),
+    )
+
+    # 1. Traz as 2 de (Cebraspe, INSS) primeiro (sem repetir a própria 112) + 1 global para fechar 3
+    r = cli.post("/agente/explicar", json={"questao_id": "cebraspe-2022-inss-alvo-112"})
+    assert r.status_code == 200
+    body = r.json()
+    assert body["relacionadas_ok"] is True
+    ids = [q["id"] for q in body["questoes_relacionadas"]]
+    assert len(ids) == 3
+    assert "cebraspe-2022-inss-alvo-112" not in ids
+    assert ids[:2] == [
+        "cebraspe-2022-inss-local-001",
+        "cebraspe-2016-inss-local-002",
+    ] or set(ids[:2]) == {
+        "cebraspe-2022-inss-local-001",
+        "cebraspe-2016-inss-local-002",
+    }
+    assert ids[2] in {"cebraspe-2022-agu-global-003", "cebraspe-2024-agu-global-004"}
+
+    # 2. Se a 2ª chamada (global) estourar timeout, preserva as 2 locais encontradas na 1ª
+    chamadas = 0
+    orig_timeout = agente._run_with_timeout
+
+    def timeout_na_global(session, fn, timeout_ms):
+        nonlocal chamadas
+        chamadas += 1
+        if chamadas == 1:
+            return orig_timeout(session, fn, timeout_ms)
+        return None, True, timeout_ms + 1
+
+    monkeypatch.setattr(agente, "_run_with_timeout", timeout_na_global)
+    r2 = cli.post(
+        "/agente/explicar",
+        json={"questao_id": "cebraspe-2022-inss-alvo-112", "duvida": "sem cache"},
+    )
+    assert r2.status_code == 200
+    b2 = r2.json()
+    assert b2["relacionadas_ok"] is True
+    assert {q["id"] for q in b2["questoes_relacionadas"]} == {
+        "cebraspe-2022-inss-local-001",
+        "cebraspe-2016-inss-local-002",
+    }
+
+
 def test_explicar_cache_por_resposta_usuario_e_duvida_fora(client, monkeypatch):
     """Cacheia por (questao_id, resposta_usuario) quando duvida=None; duvida fica fora."""
     calls = 0

@@ -55,7 +55,7 @@ from sqlalchemy import func, select, text
 from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.orm import Session
 
-from crawler.db import Assunto, Banca, Evento, Prova, QuestaoDB, unaccent_str
+from crawler.db import Assunto, Banca, Evento, Orgao, Prova, QuestaoDB, unaccent_str
 
 from . import queries
 
@@ -992,9 +992,9 @@ def _buscar_relacionadas(
 ) -> tuple[list[QuestaoRelacionada], bool]:
     """Busca até ``limit`` questões relacionadas por termo/assunto sem fallback genérico.
 
-    Retorna ``(itens, relacionadas_ok)``. Sem fallback por banca/órgão: se o
-    termo estourar o timeout ou nada relevante for encontrado, devolve
-    ``([], False)``.
+    Quando há ``termo_busca`` (>= 3 chars), prioriza a busca restrita à mesma
+    ``(banca, orgao)`` da questão e só amplia para o banco todo se faltarem
+    itens. Não faz fallback por ``(banca, orgao)`` sem termo.
     """
     encontradas: list[QuestaoRelacionada] = []
     vistos = {questao["id"]}
@@ -1035,20 +1035,35 @@ def _buscar_relacionadas(
         return False
 
     termo = " ".join(termo_busca.split()).strip()
+    timed_out = False
     if len(termo) >= 3:
-        # Sem ORDER BY no ILIKE para o LIMIT 3 parar assim que encontrar 3 itens
+        rel_timeout = _env_int(
+            "AGENTE_RELACIONADAS_TIMEOUT_MS", DEFAULT_RELACIONADAS_TIMEOUT_MS
+        )
+        # 1) Busca por termo restrita à mesma banca e órgão (excluindo a própria questão)
         timed_out = coletar(
             queries.base_questao().where(
-                queries.unaccent_ilike(QuestaoDB.enunciado, termo)
+                Banca.nome == questao["banca"],
+                Orgao.nome == questao["orgao"],
+                queries.unaccent_ilike(QuestaoDB.enunciado, termo),
             ),
             ordenar=False,
-            timeout_ms=_env_int(
-                "AGENTE_RELACIONADAS_TIMEOUT_MS", DEFAULT_RELACIONADAS_TIMEOUT_MS
-            ),
+            timeout_ms=rel_timeout,
         )
-        if timed_out:
-            return [], False
-    if len(encontradas) < limit and _assunto_util(questao.get("assunto") or ""):
+        # 2) Se ainda faltarem itens, segue para a busca global por termo
+        if not timed_out and len(encontradas) < limit:
+            timed_out = coletar(
+                queries.base_questao().where(
+                    queries.unaccent_ilike(QuestaoDB.enunciado, termo)
+                ),
+                ordenar=False,
+                timeout_ms=rel_timeout,
+            )
+    if (
+        not timed_out
+        and len(encontradas) < limit
+        and _assunto_util(questao.get("assunto") or "")
+    ):
         coletar(queries.base_questao().where(Assunto.nome == questao["assunto"]))
     return encontradas, bool(encontradas)
 
