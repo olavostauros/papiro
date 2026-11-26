@@ -186,7 +186,7 @@ export function cardHtml(q: Questao): string {
     .join('');
   const meta = `<p class="flex flex-wrap gap-x-2 gap-y-1 text-xs text-ink-soft"><span class="font-medium text-ink">${esc(q.banca)}</span><span aria-hidden="true">·</span><span>${esc(q.orgao)}</span><span aria-hidden="true">·</span><span>${esc(q.cargo)}</span><span aria-hidden="true">·</span><span>${q.ano}</span>${
     q.assunto
-      ? `<span class="ml-auto inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium bg-accent-soft text-accent">${esc(q.assunto)}</span>`
+      ? `<span aria-hidden="true">·</span><span><span class="sr-only">Assunto: </span>${esc(q.assunto)}</span>`
       : ''
   }</p>`;
   const grupo = opcoes

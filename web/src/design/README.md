@@ -279,8 +279,17 @@ só `dataset.state`.
 
 `banca`, `orgao`, `cargo: string` · `ano: number` · `assunto: string`.
 
-Linha de metadados da questão: `Banca · Órgão · Cargo · Ano` + `Badge` de
-assunto à direita (`ml-auto`).
+Linha de metadados da questão: série uniforme de itens pequenos separados por
+`·` (aria-hidden) — `Banca · Órgão · Cargo · Ano`. O assunto, quando presente,
+é o **item final do fluxo, em texto puro** (sem pílula), precedido de rótulo
+`sr-only` "Assunto: " — o valor sozinho não é autoevidente para leitor de
+tela. Ausente, a linha simplesmente termina no ano. O tratamento deliberadamente
+não dá destaque: o campo vem de cabeçalhos de seção dos PDFs das bancas e é
+frequentemente vazio ou ruído ("PROVAS OBJETIVAS", "Conhecimentos Básicos"),
+e valores podem passar de 100 caracteres — em fluxo, valores longos quebram junto
+com a linha e a posição é determinística em qualquer largura de viewport.
+(Antes era um `Badge` accent destacado por `ml-auto`: flutuava desconectado
+no canto direito e caía em posição imprevisível quando a meta quebrava.)
 
 ### QuestionCard
 

@@ -65,6 +65,10 @@ componentes e custom elements. Curto e vinculante: em dúvida, siga a tabela.
 - **Texto do dataset é dado, não copy**: enunciados, alternativas, nomes de
   cargo/órgão passam por `esc()` e nunca são reescritos — inclusive caixa
   ALL-CAPS, que se corrige na fonte, não na exibição.
+- **Notas monospace do showcase (`/design`)**: rótulo de exemplo com inicial
+  maiúscula ("Assinatura · xl · 176 px"); nota de comportamento em minúsculas,
+  sem ponto final — condição antes do travessão, comportamento depois
+  ("sem assunto — a linha termina no ano").
 
 ## Agente — explicação e cruzamento de edital
 
