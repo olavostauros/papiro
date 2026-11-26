@@ -12,8 +12,8 @@ Regras centrais:
   (``GEMINI_MODEL``), faz 1 nova tentativa após ~1 s e, persistindo a falha,
   faz 1 tentativa no modelo de fallback (``GEMINI_FALLBACK_MODEL``).
 - Proteções em memória compatíveis com a role somente leitura ``papiro_ro``:
-  cache LRU+TTL por ``questao_id``, rate limit por IP, teto diário global,
-  gate de concorrência e deadline total por request.
+  cache LRU+TTL por ``(questao_id, resposta_usuario)``, rate limit por IP,
+  teto diário global, gate de concorrência e deadline total por request.
 - Handlers ``async``: a espera de rede usa ``httpx.AsyncClient`` e todo
   trabalho síncrono (SQLAlchemy/ILike) vai para ``anyio.to_thread`` num
   limiter dedicado — nenhum handler bloqueia o event loop nem o threadpool
@@ -55,7 +55,7 @@ from sqlalchemy import func, select, text
 from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.orm import Session
 
-from crawler.db import Assunto, Banca, Evento, Orgao, Prova, QuestaoDB, unaccent_str
+from crawler.db import Assunto, Banca, Evento, Prova, QuestaoDB, unaccent_str
 
 from . import queries
 
@@ -71,6 +71,8 @@ DEFAULT_API_URL = "https://generativelanguage.googleapis.com/v1/interactions"
 API_REVISION = "2026-05-20"
 DEFAULT_MODEL = "gemini-4-hydrogen"
 DEFAULT_FALLBACK_MODEL = "gemini-3.5-flash-lite"
+DEFAULT_THINKING_LEVEL = "low"
+_VALID_THINKING_LEVELS = frozenset({"minimal", "low", "medium", "high"})
 DEFAULT_PRIMARY_TIMEOUT_S = 10.0
 DEFAULT_FALLBACK_TIMEOUT_S = 15.0
 DEFAULT_PRIMARY_COOLDOWN_S = 300.0
@@ -172,6 +174,15 @@ def _env_float(name: str, default: float) -> float:
         return default
 
 
+def _thinking_level(env_name: str, fallback_env: Optional[str] = None) -> str:
+    """Resolve thinking_level válido a partir das variáveis de ambiente (default 'low')."""
+    raw = _env_str(env_name)
+    if not raw and fallback_env:
+        raw = _env_str(fallback_env)
+    cand = raw.lower()
+    return cand if cand in _VALID_THINKING_LEVELS else DEFAULT_THINKING_LEVEL
+
+
 # ---------------------------------------------------------------------------
 # Contratos HTTP e esquema de saída estruturada do LLM
 # ---------------------------------------------------------------------------
@@ -219,6 +230,10 @@ class ExplicarResponse(BaseModel):
     )
     pontos_chave: list[str] = Field(default_factory=list)
     questoes_relacionadas: list[QuestaoRelacionada] = Field(default_factory=list)
+    relacionadas_ok: bool = Field(
+        default=False,
+        description="True quando a busca por questões relacionadas encontrou itens sem timeout; False quando não encontrou correspondências, estourou o timeout ou foi pulada (ex.: questão anulada).",
+    )
     modelo: str
     cached: bool = False
 
@@ -356,7 +371,9 @@ class AgenteState:
     def __init__(self) -> None:
         self._lock = threading.Lock()
         self._ip_hits: OrderedDict[str, deque[float]] = OrderedDict()
-        self._cache: OrderedDict[str, tuple[float, ExplicarResponse]] = OrderedDict()
+        self._cache: OrderedDict[
+            tuple[str, Optional[str]], tuple[float, ExplicarResponse]
+        ] = OrderedDict()
         self._global_day = _utc_day()
         self._global_calls = 0
         self._primary_open_until: float = 0.0
@@ -425,23 +442,26 @@ class AgenteState:
             del self._ip_hits[k]
 
     def get_cached(
-        self, questao_id: str, ttl_s: float, now: Optional[float] = None
+        self,
+        cache_key: tuple[str, Optional[str]],
+        ttl_s: float,
+        now: Optional[float] = None,
     ) -> Optional[ExplicarResponse]:
         ts = time.monotonic() if now is None else now
         with self._lock:
-            item = self._cache.get(questao_id)
+            item = self._cache.get(cache_key)
             if item is None:
                 return None
             saved_ts, resp = item
             if ttl_s > 0 and (ts - saved_ts) > ttl_s:
-                del self._cache[questao_id]
+                del self._cache[cache_key]
                 return None
-            self._cache.move_to_end(questao_id)
+            self._cache.move_to_end(cache_key)
             return resp.model_copy(update={"cached": True})
 
     def set_cached(
         self,
-        questao_id: str,
+        cache_key: tuple[str, Optional[str]],
         resp: ExplicarResponse,
         max_items: int,
         now: Optional[float] = None,
@@ -451,8 +471,8 @@ class AgenteState:
         ts = time.monotonic() if now is None else now
         stored = resp.model_copy(update={"cached": False})
         with self._lock:
-            self._cache[questao_id] = (ts, stored)
-            self._cache.move_to_end(questao_id)
+            self._cache[cache_key] = (ts, stored)
+            self._cache.move_to_end(cache_key)
             while len(self._cache) > max_items:
                 self._cache.popitem(last=False)
 
@@ -533,6 +553,10 @@ async def call_gemini(
 
     primary = _env_str("GEMINI_MODEL", DEFAULT_MODEL)
     fallback = _env_str("GEMINI_FALLBACK_MODEL", DEFAULT_FALLBACK_MODEL)
+    primary_thinking = _thinking_level("GEMINI_THINKING_LEVEL")
+    fallback_thinking = _thinking_level(
+        "GEMINI_FALLBACK_THINKING_LEVEL", "GEMINI_THINKING_LEVEL"
+    )
     url = _env_str("GEMINI_API_URL", DEFAULT_API_URL)
     primary_timeout = _attempt_timeout("AGENTE_PRIMARY_TIMEOUT_S", DEFAULT_PRIMARY_TIMEOUT_S)
     fallback_timeout = _attempt_timeout("AGENTE_FALLBACK_TIMEOUT_S", DEFAULT_FALLBACK_TIMEOUT_S)
@@ -546,14 +570,14 @@ async def call_gemini(
     }
 
     async def invoke(
-        model_name: str, req_timeout: float
+        model_name: str, req_timeout: float, thinking_level: str
     ) -> tuple[Optional[httpx.Response], Optional[Exception]]:
         payload = {
             "model": model_name,
             "system_instruction": system_instruction,
             "input": user_input,
             "store": False,
-            "generation_config": {"thinking_level": "low"},
+            "generation_config": {"thinking_level": thinking_level},
             "response_format": {
                 "type": "text",
                 "mime_type": "application/json",
@@ -565,8 +589,9 @@ async def call_gemini(
             r = await _post_interaction(url, headers, payload, req_timeout)
             ms = int((time.perf_counter() - t0) * 1000)
             logger.info(
-                "agente.gemini attempt model=%s status=%s ms=%d timeout=%.1fs",
+                "agente.gemini attempt model=%s thinking=%s status=%s ms=%d timeout=%.1fs",
                 model_name,
+                thinking_level,
                 r.status_code,
                 ms,
                 req_timeout,
@@ -581,8 +606,9 @@ async def call_gemini(
         except httpx.HTTPError as exc:
             ms = int((time.perf_counter() - t0) * 1000)
             logger.info(
-                "agente.gemini attempt model=%s status=%s ms=%d timeout=%.1fs",
+                "agente.gemini attempt model=%s thinking=%s status=%s ms=%d timeout=%.1fs",
                 model_name,
+                thinking_level,
                 type(exc).__name__,
                 ms,
                 req_timeout,
@@ -593,7 +619,7 @@ async def call_gemini(
 
     if state is not None and can_fallback and state.primary_circuit_open():
         logger.info("agente.gemini circuit_skip primary=%s fallback=%s", primary, fallback)
-        fb_resp, fb_err = await invoke(fallback, fallback_timeout)
+        fb_resp, fb_err = await invoke(fallback, fallback_timeout, fallback_thinking)
         if fb_err is None and fb_resp is not None and fb_resp.status_code == 200:
             try:
                 return _extract_model_json(fb_resp.json()), fallback
@@ -601,12 +627,12 @@ async def call_gemini(
                 raise HTTPException(503, "agente indisponível: resposta inválida do provedor")
         raise HTTPException(503, "agente indisponível no provedor no momento")
 
-    resp, err = await invoke(primary, primary_timeout)
+    resp, err = await invoke(primary, primary_timeout, primary_thinking)
 
     # Em 503/429 de sobrecarga: aguarda ~1s e tenta 1x mais no principal
     if resp is not None and resp.status_code in _OVERLOAD_STATUSES:
         await _esperar_retry(retry_delay)
-        resp, err = await invoke(primary, primary_timeout)
+        resp, err = await invoke(primary, primary_timeout, primary_thinking)
 
     if resp is not None and resp.status_code == 200:
         try:
@@ -631,7 +657,7 @@ async def call_gemini(
         resp is not None and (resp.status_code in _OVERLOAD_STATUSES or resp.status_code >= 500)
     )
     if can_fallback and retryable_failure:
-        fb_resp, fb_err = await invoke(fallback, fallback_timeout)
+        fb_resp, fb_err = await invoke(fallback, fallback_timeout, fallback_thinking)
         if fb_err is None and fb_resp is not None and fb_resp.status_code == 200:
             try:
                 return _extract_model_json(fb_resp.json()), fallback
@@ -963,8 +989,13 @@ def _buscar_relacionadas(
     questao: dict[str, Any],
     termo_busca: str,
     limit: int = 3,
-) -> list[QuestaoRelacionada]:
-    """Busca até ``limit`` questões reais no banco sem gastar tokens extras."""
+) -> tuple[list[QuestaoRelacionada], bool]:
+    """Busca até ``limit`` questões relacionadas por termo/assunto sem fallback genérico.
+
+    Retorna ``(itens, relacionadas_ok)``. Sem fallback por banca/órgão: se o
+    termo estourar o timeout ou nada relevante for encontrado, devolve
+    ``([], False)``.
+    """
     encontradas: list[QuestaoRelacionada] = []
     vistos = {questao["id"]}
 
@@ -984,26 +1015,29 @@ def _buscar_relacionadas(
                 )
             )
 
-    def coletar(stmt, *, ordenar: bool = True, timeout_ms: int = 0) -> None:
+    def coletar(stmt, *, ordenar: bool = True, timeout_ms: int = 0) -> bool:
         faltam = limit - len(encontradas)
         if faltam <= 0:
-            return
+            return False
         q = stmt.where(QuestaoDB.id.notin_(vistos))
         if ordenar:
             q = q.order_by(QuestaoDB.ano.desc(), QuestaoDB.id)
         q = q.limit(faltam)
         if timeout_ms > 0:
-            rows, _, _ = _run_with_timeout(
+            rows, timed_out, _ = _run_with_timeout(
                 session, lambda: session.execute(q).all(), timeout_ms
             )
+            if timed_out:
+                return True
             registrar(rows)
-        else:
-            registrar(session.execute(q).all())
+            return False
+        registrar(session.execute(q).all())
+        return False
 
     termo = " ".join(termo_busca.split()).strip()
     if len(termo) >= 3:
         # Sem ORDER BY no ILIKE para o LIMIT 3 parar assim que encontrar 3 itens
-        coletar(
+        timed_out = coletar(
             queries.base_questao().where(
                 queries.unaccent_ilike(QuestaoDB.enunciado, termo)
             ),
@@ -1012,16 +1046,11 @@ def _buscar_relacionadas(
                 "AGENTE_RELACIONADAS_TIMEOUT_MS", DEFAULT_RELACIONADAS_TIMEOUT_MS
             ),
         )
+        if timed_out:
+            return [], False
     if len(encontradas) < limit and _assunto_util(questao.get("assunto") or ""):
         coletar(queries.base_questao().where(Assunto.nome == questao["assunto"]))
-    if len(encontradas) < limit:
-        coletar(
-            queries.base_questao().where(
-                Banca.nome == questao["banca"],
-                Orgao.nome == questao["orgao"],
-            )
-        )
-    return encontradas
+    return encontradas, bool(encontradas)
 
 
 def _norm_prioridade(raw: str) -> Literal["alta", "media", "baixa"]:
@@ -1278,11 +1307,12 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
 
         duvida = body.duvida.strip() if body.duvida and body.duvida.strip() else None
         acertou = (resp_usuario == gab_oficial) if resp_usuario is not None else None
-        cacheable = resp_usuario is None and duvida is None
+        cacheable = duvida is None
+        cache_key = (questao["id"], resp_usuario)
 
         if cacheable:
             cached = state.get_cached(
-                questao["id"], _env_float("AGENTE_CACHE_TTL_S", 86400.0)
+                cache_key, _env_float("AGENTE_CACHE_TTL_S", 86400.0)
             )
             if cached is not None:
                 return cached
@@ -1316,6 +1346,9 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
                 )
                 conceito_ausente = "Questão dependente de material visual externo"
                 ponto_ausente = f"Material visual ({ref_img}) ausente no recorte — consulte a fonte oficial."
+            relacionadas_ausente, relacionadas_ausente_ok = await anyio.to_thread.run_sync(
+                _buscar_relacionadas, s, questao, "", limiter=db_limiter
+            )
             resp_ausente = ExplicarResponse(
                 questao_id=questao["id"],
                 gabarito_oficial=gab_oficial,
@@ -1334,15 +1367,14 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
                     f"Gabarito oficial confirmado: {gab_desc}",
                     ponto_ausente,
                 ],
-                questoes_relacionadas=await anyio.to_thread.run_sync(
-                    _buscar_relacionadas, s, questao, "", limiter=db_limiter
-                ),
+                questoes_relacionadas=relacionadas_ausente,
+                relacionadas_ok=relacionadas_ausente_ok,
                 modelo="nenhum",
                 cached=False,
             )
             if cacheable:
                 state.set_cached(
-                    questao["id"], resp_ausente, _env_int("AGENTE_CACHE_MAX", 500)
+                    cache_key, resp_ausente, _env_int("AGENTE_CACHE_MAX", 500)
                 )
             return resp_ausente
 
@@ -1383,7 +1415,7 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
                     armadilha = ""
                     por_que = ""
 
-                relacionadas = await anyio.to_thread.run_sync(
+                relacionadas, relacionadas_ok = await anyio.to_thread.run_sync(
                     _buscar_relacionadas, s, questao, llm_out.termo_busca,
                     limiter=db_limiter,
                 )
@@ -1404,6 +1436,7 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
                     topico_para_revisar=topico_rev,
                     pontos_chave=[p.strip() for p in llm_out.pontos_chave if p.strip()][:5],
                     questoes_relacionadas=relacionadas,
+                    relacionadas_ok=relacionadas_ok,
                     modelo=modelo_usado,
                     cached=False,
                 )
@@ -1414,7 +1447,7 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
 
         if cacheable:
             state.set_cached(
-                questao["id"], resposta, _env_int("AGENTE_CACHE_MAX", 500)
+                cache_key, resposta, _env_int("AGENTE_CACHE_MAX", 500)
             )
         return resposta
 

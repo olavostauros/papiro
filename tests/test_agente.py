@@ -17,7 +17,7 @@ from fastapi.testclient import TestClient
 
 from api import agente, queries
 from crawler import db
-from scripts.aquecer_cache_agente import aquecer_cache, carregar_ids
+from scripts.aquecer_cache_agente import aquecer_cache, carregar_ids, carregar_itens
 
 
 def _rec(qid: str, **kw: Any) -> dict[str, Any]:
@@ -385,6 +385,7 @@ def test_cors_permite_post(client):
 
 
 def test_script_aquecer_cache(client, tmp_path: Path, monkeypatch):
+    monkeypatch.setenv("AGENTE_RATE_PER_MIN", "30")
     calls = 0
 
     async def fake_post(url, headers, payload, timeout):
@@ -410,6 +411,37 @@ def test_script_aquecer_cache(client, tmp_path: Path, monkeypatch):
     res2 = aquecer_cache(ids, base_url="", intervalo=0.0, client=client)
     assert all(item.ok and item.cached is True for item in res2)
     assert calls == 2
+
+    # Aquecimento com resposta simulada (ex.: diagnóstico pré-demo)
+    arq_resp = tmp_path / "diag_ids.txt"
+    arq_resp.write_text(
+        "cebraspe-2024-pf-escrivao-001:errado\nfcc-2024-tj-analista-001 b\n",
+        encoding="utf-8",
+    )
+    itens = carregar_itens([], arq_resp)
+    assert itens == [
+        ("cebraspe-2024-pf-escrivao-001", "errado"),
+        ("fcc-2024-tj-analista-001", "b"),
+    ]
+    res_diag1 = aquecer_cache(
+        ["cebraspe-2024-pf-escrivao-001"],
+        resposta_usuario="errado",
+        base_url="",
+        intervalo=0.0,
+        client=client,
+    )
+    assert res_diag1[0].ok and res_diag1[0].cached is False
+    assert res_diag1[0].resposta_usuario == "errado"
+    assert calls == 3
+
+    res_diag2 = aquecer_cache(
+        ["cebraspe-2024-pf-escrivao-001:errado"],
+        base_url="",
+        intervalo=0.0,
+        client=client,
+    )
+    assert res_diag2[0].ok and res_diag2[0].cached is True
+    assert calls == 3
 
 
 def _sample_edital_json(qtd_topicos: int = 8) -> dict[str, Any]:
@@ -1166,7 +1198,7 @@ def test_explicar_modo_diagnostico_erro_acerto_e_sem_resposta(client, monkeypatc
     monkeypatch.setattr(agente, "_post_interaction", fake_post)
     monkeypatch.setenv("AGENTE_RATE_PER_MIN", "30")
 
-    # 1. Erro em Certo/Errado -> ativa diagnóstico, trunca tópico p/ <= 6 palavras, não cacheia
+    # 1. Erro em Certo/Errado -> ativa diagnóstico e trunca tópico p/ <= 6 palavras
     r_err_ce = client.post(
         "/agente/explicar",
         json={"questao_id": "cebraspe-2024-pf-escrivao-001", "resposta_usuario": "errado"},
@@ -1307,3 +1339,183 @@ def test_explicar_diagnostico_guardrail_limpa_contradicao(client, monkeypatch):
     body = r.json()
     assert body["por_que_parecia_certa"] == ""
     assert "gabarito oficial definitivo" in body["explicacao"].lower()
+
+
+def test_explicar_relacionadas_sem_fallback_generico(tmp_path, monkeypatch):
+    """Sem busca por banca/órgão: termo sem match ou timeout retorna [] e relacionadas_ok=False."""
+    recs = [
+        _rec(
+            "cebraspe-2022-inss-prev-112",
+            orgao="INSS",
+            assunto="",
+            enunciado="A renda mensal da aposentadoria por idade devida ao segurado com deficiência.",
+            gabarito="errado",
+        ),
+        _rec(
+            "cebraspe-2022-inss-port-001",
+            orgao="INSS",
+            assunto="",
+            enunciado="O envelhecimento da população mundial amplia a presença feminina.",
+            gabarito="errado",
+        ),
+        _rec(
+            "cebraspe-2022-agu-prev-046",
+            orgao="AGU",
+            assunto="",
+            enunciado="A aposentadoria da pessoa com deficiência observa requisitos específicos.",
+            gabarito="certo",
+        ),
+    ]
+    url = f"sqlite:///{tmp_path / 'rel.db'}"
+    eng = db.get_engine(url)
+    db.create_schema(eng)
+    db.sync_records(recs, eng)
+    from api.main import create_app
+
+    monkeypatch.setenv("AGENTE_RATE_PER_MIN", "30")
+    cli = TestClient(create_app(url))
+
+    # 1. Termo inexistente na mesma banca/órgão -> NÃO cai em INSS Português; retorna [] + False
+    monkeypatch.setattr(
+        agente,
+        "_post_interaction",
+        _post_ok(_sample_llm_json(termo_busca="compensacao previdenciaria inexistente")),
+    )
+    r_vazio = cli.post("/agente/explicar", json={"questao_id": "cebraspe-2022-inss-prev-112"})
+    assert r_vazio.status_code == 200
+    assert r_vazio.json()["questoes_relacionadas"] == []
+    assert r_vazio.json()["relacionadas_ok"] is False
+
+    # 2. Timeout na busca por termo -> retorna [] e relacionadas_ok=False
+    monkeypatch.setattr(
+        agente,
+        "_post_interaction",
+        _post_ok(_sample_llm_json(termo_busca="aposentadoria")),
+    )
+    orig_timeout = agente._run_with_timeout
+    monkeypatch.setattr(
+        agente,
+        "_run_with_timeout",
+        lambda session, fn, timeout_ms: (None, True, timeout_ms + 1),
+    )
+    r_to = cli.post(
+        "/agente/explicar",
+        json={"questao_id": "cebraspe-2022-inss-prev-112", "duvida": "sem cache"},
+    )
+    assert r_to.status_code == 200
+    assert r_to.json()["questoes_relacionadas"] == []
+    assert r_to.json()["relacionadas_ok"] is False
+
+    # 3. Termo válido sem timeout -> encontra a questão do tema em outro órgão e relacionadas_ok=True
+    monkeypatch.setattr(agente, "_run_with_timeout", orig_timeout)
+    r_ok = cli.post(
+        "/agente/explicar",
+        json={"questao_id": "cebraspe-2022-inss-prev-112", "resposta_usuario": "certo"},
+    )
+    assert r_ok.status_code == 200
+    b_ok = r_ok.json()
+    assert b_ok["relacionadas_ok"] is True
+    assert [q["id"] for q in b_ok["questoes_relacionadas"]] == ["cebraspe-2022-agu-prev-046"]
+
+
+def test_explicar_cache_por_resposta_usuario_e_duvida_fora(client, monkeypatch):
+    """Cacheia por (questao_id, resposta_usuario) quando duvida=None; duvida fica fora."""
+    calls = 0
+
+    async def fake_post(u, headers, payload, timeout):
+        nonlocal calls
+        calls += 1
+        return _gemini_ok_response(
+            _sample_llm_json(
+                por_que_parecia_certa="Você marcou Errado por confundir ato vinculado e discricionário.",
+                topico_para_revisar="Atos administrativos vinculados",
+            )
+        )
+
+    monkeypatch.setattr(agente, "_post_interaction", fake_post)
+    monkeypatch.setenv("AGENTE_RATE_PER_MIN", "30")
+
+    # Erro -> miss na 1ª, hit na 2ª preservando diagnóstico
+    r1 = client.post(
+        "/agente/explicar",
+        json={"questao_id": "cebraspe-2024-pf-escrivao-001", "resposta_usuario": "errado"},
+    )
+    r2 = client.post(
+        "/agente/explicar",
+        json={"questao_id": "cebraspe-2024-pf-escrivao-001", "resposta_usuario": "errado"},
+    )
+    assert r1.status_code == 200 and r1.json()["cached"] is False
+    assert r2.status_code == 200 and r2.json()["cached"] is True
+    assert r2.json()["por_que_parecia_certa"].startswith("Você marcou Errado")
+    assert r2.json()["topico_para_revisar"] == "Atos administrativos vinculados"
+    assert calls == 1
+
+    # Resposta diferente (acerto) e sem resposta usam chaves distintas
+    r_certo = client.post(
+        "/agente/explicar",
+        json={"questao_id": "cebraspe-2024-pf-escrivao-001", "resposta_usuario": "certo"},
+    )
+    assert r_certo.status_code == 200 and r_certo.json()["cached"] is False
+    assert r_certo.json()["por_que_parecia_certa"] == ""
+    assert calls == 2
+
+    r_sem = client.post("/agente/explicar", json={"questao_id": "cebraspe-2024-pf-escrivao-001"})
+    assert r_sem.status_code == 200 and r_sem.json()["cached"] is False
+    assert calls == 3
+
+    # Com duvida (mesmo mantendo resposta já cacheada) -> nunca usa nem grava cache
+    r_duv1 = client.post(
+        "/agente/explicar",
+        json={
+            "questao_id": "cebraspe-2024-pf-escrivao-001",
+            "resposta_usuario": "errado",
+            "duvida": "Qual a diferença?",
+        },
+    )
+    r_duv2 = client.post(
+        "/agente/explicar",
+        json={
+            "questao_id": "cebraspe-2024-pf-escrivao-001",
+            "resposta_usuario": "errado",
+            "duvida": "Qual a diferença?",
+        },
+    )
+    assert r_duv1.status_code == 200 and r_duv1.json()["cached"] is False
+    assert r_duv2.status_code == 200 and r_duv2.json()["cached"] is False
+    assert calls == 5
+
+
+def test_thinking_level_configuravel_por_env(client, monkeypatch):
+    seen: list[tuple[str, str]] = []
+
+    async def fake_post(u, headers, payload, timeout):
+        model = payload["model"]
+        lvl = payload["generation_config"]["thinking_level"]
+        seen.append((model, lvl))
+        if model == "gemini-4-hydrogen" and len(seen) <= 2:
+            return httpx.Response(503, json={"error": {"message": "high demand"}})
+        return _gemini_ok_response(_sample_llm_json())
+
+    monkeypatch.setattr(agente, "_esperar_retry", _sleep_noop)
+    monkeypatch.setattr(agente, "_post_interaction", fake_post)
+    monkeypatch.setenv("AGENTE_RATE_PER_MIN", "30")
+
+    monkeypatch.setenv("GEMINI_THINKING_LEVEL", "medium")
+    monkeypatch.setenv("GEMINI_FALLBACK_THINKING_LEVEL", "high")
+    r1 = client.post("/agente/explicar", json={"questao_id": "cebraspe-2024-pf-escrivao-001"})
+    assert r1.status_code == 200
+    assert seen == [
+        ("gemini-4-hydrogen", "medium"),
+        ("gemini-4-hydrogen", "medium"),
+        ("gemini-3.5-flash-lite", "high"),
+    ]
+
+    # Valor inválido cai no padrão "low"
+    monkeypatch.setenv("GEMINI_THINKING_LEVEL", "turbinado")
+    monkeypatch.setenv("GEMINI_FALLBACK_THINKING_LEVEL", "invalido")
+    r2 = client.post(
+        "/agente/explicar",
+        json={"questao_id": "fcc-2024-tj-analista-001", "duvida": "teste"},
+    )
+    assert r2.status_code == 200
+    assert seen[-1] == ("gemini-3.5-flash-lite", "low")
