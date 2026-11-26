@@ -1,34 +1,34 @@
-@theme {
-  /* Cold olive — green-leaning, low chroma */
-  --color-olive-50: oklch(0.965 0.015 128);
-  --color-olive-100: oklch(0.93 0.025 128);
-  --color-olive-200: oklch(0.865 0.04 129);
-  --color-olive-300: oklch(0.765 0.06 130);
-  --color-olive-400: oklch(0.65 0.078 131);
-  --color-olive-500: oklch(0.545 0.09 132);
-  --color-olive-600: oklch(0.445 0.085 134);
-  --color-olive-700: oklch(0.365 0.075 135);
-  --color-olive-800: oklch(0.295 0.058 136);
-  --color-olive-900: oklch(0.24 0.045 137);
-  --color-olive-950: oklch(0.175 0.032 138);
+@theme static {
+  /* Energized olive — green-leaning, high chroma; the palette keeps the student alert */
+  --color-olive-50: oklch(0.975 0.04 140);
+  --color-olive-100: oklch(0.94 0.065 140);
+  --color-olive-200: oklch(0.885 0.11 140);
+  --color-olive-300: oklch(0.78 0.2 140);
+  --color-olive-400: oklch(0.7 0.19 140);
+  --color-olive-500: oklch(0.6 0.19 140);
+  --color-olive-600: oklch(0.5 0.16 140);
+  --color-olive-700: oklch(0.44 0.14 140);
+  --color-olive-800: oklch(0.35 0.11 140);
+  --color-olive-900: oklch(0.275 0.075 140);
+  --color-olive-950: oklch(0.19 0.045 140);
 
   /* Semantic colors */
-  --color-paper: oklch(0.97 0.012 120);
-  --color-surface: oklch(0.985 0.007 118);
-  --color-line: var(--color-olive-200);
-  --color-line-strong: var(--color-olive-500);
-  --color-ink: oklch(0.265 0.04 136);
-  --color-ink-soft: oklch(0.47 0.045 133);
-  --color-ink-faint: var(--color-olive-600);
-  --color-accent: var(--color-olive-700);
-  --color-accent-strong: var(--color-olive-800);
+  --color-paper: oklch(0.978 0.004 110);
+  --color-surface: oklch(0.995 0.002 110);
+  --color-line: oklch(0.895 0.025 140);
+  --color-line-strong: oklch(0.58 0.08 140);
+  --color-ink: oklch(0.24 0.025 140);
+  --color-ink-soft: oklch(0.45 0.035 140);
+  --color-ink-faint: oklch(0.5 0.045 140);
+  --color-accent: var(--color-olive-600);
+  --color-accent-strong: var(--color-olive-700);
   --color-accent-soft: var(--color-olive-100);
-  --color-success: oklch(0.42 0.11 150);
-  --color-success-soft: oklch(0.93 0.03 150);
-  --color-success-line: oklch(0.77 0.08 150);
-  --color-danger: oklch(0.42 0.15 30);
-  --color-danger-soft: oklch(0.93 0.03 30);
-  --color-danger-line: oklch(0.77 0.1 30);
+  --color-success: oklch(0.48 0.13 150);
+  --color-success-soft: oklch(0.94 0.05 150);
+  --color-success-line: oklch(0.72 0.15 150);
+  --color-danger: oklch(0.52 0.2 30);
+  --color-danger-soft: oklch(0.93 0.035 30);
+  --color-danger-line: oklch(0.72 0.15 30);
   --color-paper-glass: color-mix(in oklch, var(--color-paper) 80%, transparent);
 
   /* Typography — sans for UI, serif for enunciados and display */
@@ -73,22 +73,22 @@
 }
 
 .dark {
-  --color-paper: oklch(0.185 0.028 136);
-  --color-surface: oklch(0.235 0.032 135);
-  --color-line: var(--color-olive-400);
-  --color-line-strong: var(--color-olive-300);
-  --color-ink: oklch(0.935 0.015 128);
-  --color-ink-soft: oklch(0.78 0.035 132);
-  --color-ink-faint: var(--color-olive-300);
-  --color-accent: var(--color-olive-200);
-  --color-accent-strong: var(--color-olive-100);
-  --color-accent-soft: var(--color-olive-800);
-  --color-success: oklch(0.75 0.13 155);
-  --color-success-soft: oklch(0.29 0.05 152);
-  --color-success-line: oklch(0.47 0.09 152);
-  --color-danger: oklch(0.75 0.15 32);
-  --color-danger-soft: oklch(0.31 0.06 32);
-  --color-danger-line: oklch(0.47 0.11 32);
+  --color-paper: oklch(0.19 0.015 140);
+  --color-surface: oklch(0.26 0.018 140);
+  --color-line: oklch(0.38 0.035 140);
+  --color-line-strong: oklch(0.55 0.07 140);
+  --color-ink: oklch(0.94 0.008 120);
+  --color-ink-soft: oklch(0.78 0.025 140);
+  --color-ink-faint: oklch(0.65 0.04 140);
+  --color-accent: var(--color-olive-300);
+  --color-accent-strong: oklch(0.84 0.18 140);
+  --color-accent-soft: oklch(0.32 0.08 140);
+  --color-success: oklch(0.78 0.17 155);
+  --color-success-soft: oklch(0.3 0.06 155);
+  --color-success-line: oklch(0.5 0.12 155);
+  --color-danger: oklch(0.7 0.19 30);
+  --color-danger-soft: oklch(0.28 0.06 30);
+  --color-danger-line: oklch(0.5 0.14 30);
 }
 
 @media (prefers-reduced-motion: reduce) {
