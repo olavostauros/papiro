@@ -10,9 +10,10 @@ Neste briefing, **semi-optics** é o nome de trabalho para explorar a relação
 entre **semiótica** — o que uma forma representa e sugere — e **percepção
 visual** — como essa forma é vista, distinguida e reconhecida.
 
-O objetivo é produzir hipóteses visuais que possam ser comparadas. Nenhuma
-direção estética está aprovada. As associações abaixo são possibilidades de
-design, não resultados de pesquisa com o público.
+Este documento registra o roteiro de exploração. Em 26/11/2026, o usuário
+aprovou **Miolo, opção 03 da rodada 03**, conforme [README.md](README.md).
+As associações abaixo são hipóteses de design da fase exploratória, não
+resultados de pesquisa com o público.
 
 ## Pergunta central
 
@@ -79,9 +80,10 @@ Estas famílias são pontos de partida independentes, sem ordem de preferência:
 - **Letra como estrutura:** investigar um pê ou a relação entre os dois pês,
   preservando uma leitura clara e uma silhueta distinta.
 
-A primeira proposta em `./` foi rejeitada pelo usuário. Essa rejeição
+A primeira proposta de pergaminho foi rejeitada pelo usuário. Essa rejeição
 não estabelece, por si só, uma proibição de serifas, pergaminhos ou monogramas.
-O motivo específico e a preferência estética ainda não foram confirmados.
+O motivo específico dessa rejeição não foi confirmado. A escolha posterior
+foi Miolo, com livro de planos sólidos e lettering geométrico original.
 
 ## Registro de cada experimento
 

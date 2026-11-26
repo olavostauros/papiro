@@ -1,0 +1,20 @@
+[
+  {
+    "id": "01-margens",
+    "name": "Margens",
+    "candidate": "alternativa B",
+    "raw": "raw/01-margens-b.svg",
+    "remove_root_children": [0, 1],
+    "compound_evenodd": true,
+    "description": "Estudo Recraft selecionado: molduras preservadas e contraformas fechadas. Curvas originais do modelo; lettering original recomposto."
+  },
+  {
+    "id": "02-lombada",
+    "name": "Lombada",
+    "candidate": "alternativa B",
+    "raw": "raw/02-lombada-b.svg",
+    "remove_root_children": [0, 1],
+    "compound_evenodd": true,
+    "description": "Estudo Recraft selecionado: contraformas amplas e lombada contínua. Curvas originais do modelo; lettering original recomposto."
+  }
+]

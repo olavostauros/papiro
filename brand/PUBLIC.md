@@ -69,9 +69,10 @@ automática dessas escolhas para o novo logo.
 ## Estado do trabalho de logo
 
 - O usuário solicitou um logo em **SVG**.
-- A primeira proposta foi rejeitada. Os arquivos em `./` são uma
-  tentativa descartada, não uma referência aprovada.
-- Nenhuma nova direção estética foi escolhida até o momento.
+- A primeira proposta de pergaminho foi rejeitada e não é a marca atual.
+- Em 26/11/2026, o usuário aprovou **Miolo, opção 03 da rodada 03**.
+  A geometria é a da rodada 02, reapresentada sem alterações. Os arquivos
+  canônicos e o registro de adoção estão em [README.md](README.md).
 - A entrega deve conter geometria vetorial editável; uma imagem raster
   embutida em um SVG não atende ao objetivo.
 - Apresentar também uma imagem PNG renderizada para avaliação visual.
