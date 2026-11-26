@@ -37,6 +37,7 @@ from __future__ import annotations
 from collections import OrderedDict, deque
 from datetime import datetime, timezone
 from ipaddress import ip_address, ip_network
+from itertools import combinations
 import json
 import logging
 import os
@@ -1060,32 +1061,44 @@ def _buscar_relacionadas(
             "AGENTE_RELACIONADAS_TIMEOUT_MS", DEFAULT_RELACIONADAS_TIMEOUT_MS
         )
         filtros_and = [queries.unaccent_ilike(QuestaoDB.enunciado, p) for p in palavras]
+
+        def coletar_banca_orgao(*filtros: Any) -> bool:
+            return coletar(
+                queries.base_questao().where(
+                    Banca.nome == questao["banca"],
+                    Orgao.nome == questao["orgao"],
+                    *filtros,
+                ),
+                ordenar=False,
+                timeout_ms=rel_timeout,
+            )
+
         # 1a) (Banca, Orgao) exigindo TODAS as palavras significativas no enunciado
-        timed_out_local = coletar(
-            queries.base_questao().where(
-                Banca.nome == questao["banca"],
-                Orgao.nome == questao["orgao"],
-                *filtros_and,
-            ),
-            ordenar=False,
-            timeout_ms=rel_timeout,
-        )
-        # 1b) Faltando itens, tenta cada palavra isolada (da mais longa à mais curta) em (Banca, Orgao)
+        timed_out_local = coletar_banca_orgao(*filtros_and)
+
+        # 1b) Faltando itens com 3 palavras, tenta pares (AND de 2), começando pelas duas mais longas
+        if not timed_out_local and len(palavras) > 2 and len(encontradas) < limit:
+            for p1, p2 in combinations(palavras, 2):
+                if len(encontradas) >= limit:
+                    break
+                if coletar_banca_orgao(
+                    queries.unaccent_ilike(QuestaoDB.enunciado, p1),
+                    queries.unaccent_ilike(QuestaoDB.enunciado, p2),
+                ):
+                    timed_out_local = True
+                    break
+
+        # 1c) Palavra isolada (da mais longa à mais curta) em (Banca, Orgao) só se ainda faltar item
         if not timed_out_local and len(palavras) > 1 and len(encontradas) < limit:
             for palavra in palavras:
                 if len(encontradas) >= limit:
                     break
-                if coletar(
-                    queries.base_questao().where(
-                        Banca.nome == questao["banca"],
-                        Orgao.nome == questao["orgao"],
-                        queries.unaccent_ilike(QuestaoDB.enunciado, palavra),
-                    ),
-                    ordenar=False,
-                    timeout_ms=rel_timeout,
+                if coletar_banca_orgao(
+                    queries.unaccent_ilike(QuestaoDB.enunciado, palavra)
                 ):
                     timed_out_local = True
                     break
+
         # 2) Faltando itens, uma única query global com AND de todas as palavras (nunca isolada)
         if not timed_out_local and len(encontradas) < limit:
             coletar(

@@ -1730,3 +1730,70 @@ def test_explicar_relacionadas_termo_4_palavras_extrai_e_isola_em_banca_orgao(
         "cebraspe-2022-inss-apenas-aposentadoria",
         "cebraspe-2022-inss-apenas-deficiencia",
     }
+
+
+def test_explicar_relacionadas_pares_antes_de_palavra_isolada(tmp_path, monkeypatch):
+    """Em (Banca, Orgao), tenta pares (AND de 2, começando pelas duas mais longas) antes de isoladas."""
+    recs = [
+        _rec(
+            "cebraspe-2022-inss-alvo",
+            orgao="INSS",
+            assunto="",
+            enunciado="Aposentadoria da pessoa com deficiência no RGPS.",
+            gabarito="errado",
+        ),
+        _rec(
+            "cebraspe-2022-inss-so-aposentadoria",
+            orgao="INSS",
+            assunto="",
+            enunciado="Regras gerais de aposentadoria por tempo de contribuição.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2022-inss-par-top2",
+            orgao="INSS",
+            assunto="",
+            enunciado="Aposentadoria especial para segurado com deficiência auditiva.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2022-inss-par-secundario",
+            orgao="INSS",
+            assunto="",
+            enunciado="Benefício assistencial à pessoa com deficiência.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2022-inss-tres-palavras",
+            orgao="INSS",
+            assunto="",
+            enunciado="Critérios de aposentadoria para pessoa com deficiência física.",
+            gabarito="certo",
+        ),
+    ]
+    url = f"sqlite:///{tmp_path / 'rel_pares.db'}"
+    eng = db.get_engine(url)
+    db.create_schema(eng)
+    db.sync_records(recs, eng)
+    from api.main import create_app
+
+    monkeypatch.setenv("AGENTE_RATE_PER_MIN", "30")
+    cli = TestClient(create_app(url))
+    monkeypatch.setattr(
+        agente,
+        "_post_interaction",
+        _post_ok(_sample_llm_json(termo_busca="Aposentadoria pessoa com deficiência")),
+    )
+
+    r = cli.post("/agente/explicar", json={"questao_id": "cebraspe-2022-inss-alvo"})
+    assert r.status_code == 200
+    body = r.json()
+    assert body["relacionadas_ok"] is True
+    ids = [q["id"] for q in body["questoes_relacionadas"]]
+    # Ordem: 3 palavras -> par das 2 mais longas -> par secundário; palavra isolada não é usada
+    assert ids == [
+        "cebraspe-2022-inss-tres-palavras",
+        "cebraspe-2022-inss-par-top2",
+        "cebraspe-2022-inss-par-secundario",
+    ]
+    assert "cebraspe-2022-inss-so-aposentadoria" not in ids
