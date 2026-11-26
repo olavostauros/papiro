@@ -64,6 +64,7 @@ export interface Evento {
   evento: string;
   banca: string;
   questoes: number;
+  itens?: number;
   provas: number;
   orgaos?: string[];
   cargos?: string[];
@@ -75,6 +76,7 @@ export interface Prova {
   evento: string;
   fonte: string;
   questoes: number;
+  itens?: number;
   cargos?: string[];
   anos?: number[];
   tipos?: string[];
