@@ -2,13 +2,15 @@
 
 from __future__ import annotations
 
+import json
+
 import pytest
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
 from crawler import db
 from crawler.db import (Assunto, Cargo, Evento, Orgao, Prova, QuestaoDB,
-                        sync_records, sync_shard)
+                        Texto, prune_event, sync_records, sync_shard)
 from crawler.shards import write_shard
 
 pytestmark = pytest.mark.skipif(
@@ -56,8 +58,127 @@ def test_sync_idempotente(engine):
     recs = [rec("cebraspe-2024-pf-escrivao-001")]
     sync_records(recs, engine)
     st = sync_records(recs, engine)
-    assert st.inserted == 0 and st.skipped == 1
+    assert st.inserted == 0 and st.updated == 0 and st.skipped == 1
     assert count(engine, QuestaoDB) == 1
+
+
+def test_sync_atualiza_proveniencia_e_campos_mutaveis(engine):
+    qid = "cebraspe-2024-pf-escrivao-001"
+    sync_records([rec(qid, gabarito="certo")], engine)
+    fonte2 = "https://cdn.cebraspe.org.br/concursos/PF_24/arquivos/p2.pdf"
+    st = sync_records([
+        rec(qid, fonte=fonte2, gabarito="errado", enunciado="corrigido")
+    ], engine)
+    assert st.inserted == 0 and st.updated == 1 and st.skipped == 0
+    with Session(engine) as s:
+        q = s.scalar(select(QuestaoDB).where(QuestaoDB.id == qid))
+        fonte = s.scalar(select(Prova.fonte).where(Prova.id == q.prova_id))
+    assert fonte == fonte2
+    assert q.gabarito == "errado" and q.enunciado == "corrigido"
+    assert count(engine, Prova) == 2
+
+
+def test_sync_shard_prune_remove_ausentes_e_prova_vazia(engine, tmp_path):
+    q1 = rec("cebraspe-2024-pf-escrivao-001")
+    q2 = rec("cebraspe-2024-pf-escrivao-002")
+    sync_records([q1, q2], engine)
+    shard_dir = tmp_path / "shards"
+    fonte2 = "https://cdn.cebraspe.org.br/concursos/PF_24/arquivos/p2.pdf"
+    write_shard("PF_24", [rec(q1["id"], fonte=fonte2)], shard_dir)
+    st = sync_shard(shard_dir / "PF_24.json", engine, prune=True)
+    assert st.updated == 1 and st.deleted == 1
+    assert count(engine, QuestaoDB) == 1
+    assert count(engine, Prova) == 1
+    with Session(engine) as s:
+        assert s.scalar(select(Prova.fonte)) == fonte2
+        assert s.scalar(select(QuestaoDB.id)) == q1["id"]
+
+
+def test_sync_atualiza_alternativas_json_null_nas_duas_direcoes(engine):
+    qid = "cebraspe-2024-pf-escrivao-001"
+    sync_records([rec(qid)], engine)
+    st = sync_records([
+        rec(qid, tipo="multipla_escolha", alternativas=["A", "B", "C"],
+            gabarito="a")
+    ], engine)
+    assert st.updated == 1
+    with Session(engine) as s:
+        q = s.scalar(select(QuestaoDB).where(QuestaoDB.id == qid))
+        assert q.alternativas == ["A", "B", "C"]
+    st = sync_records([rec(qid)], engine)
+    assert st.updated == 1
+    with Session(engine) as s:
+        q = s.scalar(select(QuestaoDB).where(QuestaoDB.id == qid))
+        assert q.alternativas is None
+
+
+def test_prune_remove_textos_orfaos_com_prova_vazia(engine, tmp_path):
+    texto = {"ref": "T1", "conteudo": "texto-base", "citacao": "",
+             "imagem": False}
+    q1 = rec("cebraspe-2024-pf-escrivao-001", texto=texto)
+    q2 = rec("cebraspe-2024-pf-escrivao-002")
+    sync_records([q1, q2], engine)
+    assert count(engine, Texto) == 1
+    shard_dir = tmp_path / "shards"
+    fonte2 = "https://cdn.cebraspe.org.br/concursos/PF_24/arquivos/p2.pdf"
+    write_shard("PF_24", [rec(q1["id"], fonte=fonte2, texto=texto)], shard_dir)
+    st = sync_shard(shard_dir / "PF_24.json", engine, prune=True)
+    assert st.updated == 1 and st.deleted == 1
+    assert count(engine, QuestaoDB) == 1
+    assert count(engine, Prova) == 1
+    assert count(engine, Texto) == 1
+    with Session(engine) as s:
+        q = s.scalar(select(QuestaoDB).where(QuestaoDB.id == q1["id"]))
+        t = s.scalar(select(Texto).where(Texto.id == q.texto_id))
+        p = s.scalar(select(Prova).where(Prova.id == t.prova_id))
+        assert p.fonte == fonte2
+
+
+def test_sync_shard_prune_recusa_shard_vazio(engine, tmp_path):
+    sync_records([rec("cebraspe-2024-pf-escrivao-001")], engine)
+    shard_dir = tmp_path / "shards"
+    shard_dir.mkdir()
+    vazio = {
+        "evento": "PF_24", "banca": "Cebraspe", "orgaos": [], "cargos": [],
+        "assuntos": [], "provas": [], "itens": [],
+    }
+    path = shard_dir / "PF_24.json"
+    path.write_text(json.dumps(vazio), encoding="utf-8")
+    with pytest.raises(ValueError, match="shard vazio"):
+        sync_shard(path, engine, prune=True)
+    assert count(engine, QuestaoDB) == 1
+    assert count(engine, Prova) == 1
+
+
+def test_prune_preserva_texto_referenciado_e_remove_somente_orfaos(engine, tmp_path):
+    texto = {"ref": "T1", "conteudo": "texto-base", "citacao": "",
+             "imagem": False}
+    fonte2 = "https://cdn.cebraspe.org.br/concursos/PF_24/arquivos/p2.pdf"
+    q1 = rec("cebraspe-2024-pf-escrivao-001", texto=texto)
+    q2 = rec("cebraspe-2024-pf-escrivao-002", fonte=fonte2)
+    sync_records([q1, q2], engine)
+
+    shard_dir = tmp_path / "shards"
+    write_shard("PF_24", [q2], shard_dir)
+    sync_shard(shard_dir / "PF_24.json", engine)
+
+    with Session(engine) as s:
+        antiga = s.scalar(select(Texto))
+        qkeep = s.scalar(select(QuestaoDB).where(QuestaoDB.id == q2["id"]))
+        qkeep.texto_id = antiga.id
+        s.add(Texto(prova_id=antiga.prova_id, ref="ORFAO", conteudo="órfão"))
+        s.commit()
+        antiga_id = antiga.id
+
+    apagados = prune_event(engine, "PF_24", {q2["id"]})
+    assert apagados == 1
+    assert count(engine, QuestaoDB) == 1
+    assert count(engine, Prova) == 2
+    assert count(engine, Texto) == 1
+    with Session(engine) as s:
+        t = s.scalar(select(Texto))
+        qkeep = s.scalar(select(QuestaoDB).where(QuestaoDB.id == q2["id"]))
+        assert t.id == antiga_id and qkeep.texto_id == antiga_id
 
 
 def test_cargo_e_par_orgao_nome(engine):
@@ -113,6 +234,31 @@ def test_get_engine_coage_driver_postgres(monkeypatch):
     monkeypatch.setenv("DATABASE_URL", "postgresql://u:p@host:5432/db")
     e = db.get_engine()
     assert e.url.drivername == "postgresql+psycopg"
+
+
+def test_cli_prune_exige_evento(tmp_path, capsys):
+    code = db.main([
+        "sync", "--url", f"sqlite:///{tmp_path / 't.db'}",
+        "--shard-dir", str(tmp_path), "--prune",
+    ])
+    assert code == 2
+    assert "--prune exige --evento" in capsys.readouterr().err
+
+
+def test_cli_evento_inexistente_ou_invalido_falha(tmp_path, capsys):
+    url = f"sqlite:///{tmp_path / 't.db'}"
+    code = db.main([
+        "sync", "--url", url, "--shard-dir", str(tmp_path),
+        "--evento", "NAO_EXISTE",
+    ])
+    assert code == 2
+    assert "shard não encontrado" in capsys.readouterr().err
+    code = db.main([
+        "sync", "--url", url, "--shard-dir", str(tmp_path),
+        "--evento", "../ABIN_17",
+    ])
+    assert code == 2
+    assert "nome de evento inválido" in capsys.readouterr().err
 
 
 def test_normalize_nome():

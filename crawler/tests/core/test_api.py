@@ -160,6 +160,34 @@ def test_eventos_e_provas(client):
     assert provas[0]["tipos"] == ["certo_errado"]
 
 
+def test_eventos_e_provas_contam_itens_fisicos_distintos(tmp_path, monkeypatch):
+    monkeypatch.undo()
+    from fastapi.testclient import TestClient
+
+    from api.main import create_app
+
+    fonte = "https://cdn.cebraspe.org.br/concursos/PF_24/arquivos/cb1.pdf"
+    recs = [
+        rec("cebraspe-2024-pf-escrivao-001", cargo="Escrivão",
+            enunciado="item compartilhado", fonte=fonte),
+        rec("cebraspe-2024-pf-agente-001", cargo="Agente",
+            enunciado="item compartilhado", fonte=fonte),
+        rec("cebraspe-2024-pf-agente-002", cargo="Agente",
+            enunciado="item só do agente", fonte=fonte),
+    ]
+    url = f"sqlite:///{tmp_path / 'shared.db'}"
+    engine = db.get_engine(url)
+    db.create_schema(engine)
+    db.sync_records(recs, engine)
+    client = TestClient(create_app(url))
+
+    ev = next(e for e in client.get("/eventos").json()
+              if e["evento"] == "PF_24")
+    assert ev["questoes"] == 3 and ev["itens"] == 2
+    prova = client.get("/provas", params={"evento": "PF_24"}).json()[0]
+    assert prova["questoes"] == 3 and prova["itens"] == 2
+
+
 def test_questoes_filtro_fonte(client):
     fonte = "https://cdn.cebraspe.org.br/concursos/PF_23/arquivos/p1.pdf"
     r = client.get("/questoes", params={"fonte": fonte})
