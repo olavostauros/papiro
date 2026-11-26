@@ -6,12 +6,12 @@ Falham (exit 1):
 
 - shard que não parseia via ``crawler.shards.load_shard_records``;
 - registro sem ``id``, ``enunciado`` ou ``gabarito``;
-- ``id`` repetido dentro do mesmo shard;
+- ``id`` repetido dentro do mesmo shard ou entre shards distintos — a
+  identidade é global porque ``questao.id`` é a PK do banco;
 - padrão de segredo em ``data/`` (SECURITY.md §6 — varrer shards novos);
   o relatório nunca imprime o trecho casado, só o nome do padrão.
 
-Aviso (não falha): ``id`` repetido entre shards distintos — baseline
-conhecido HUB_20×HUB_21; reportar ao arquivista para reconciliação.
+Aviso (não falha): fonte-diretório de proveniência legada imprecisa.
 """
 
 from __future__ import annotations
@@ -70,7 +70,17 @@ def main() -> int:
             locais.add(rid)
             outro = donos.setdefault(rid, path.name)
             if outro != path.name:
-                avisos.append(f"id em shards distintos: {rid} ({outro}, {path.name})")
+                erros.append(f"id em shards distintos: {rid} ({outro}, {path.name})")
+
+        fontes_dir = {
+            rec.get("fonte", "") for rec in records
+            if re.search(r"/concursos/[^/]+/(?:arquivos/?)?$",
+                         rec.get("fonte", ""))
+        }
+        if fontes_dir:
+            avisos.append(
+                f"{path.name}: {len(fontes_dir)} fonte(s) de diretório — "
+                "proveniência legada imprecisa; reparar para o PDF oficial")
 
         texto = path.read_text(encoding="utf-8")
         for nome, padrao in SEGREDOS.items():
