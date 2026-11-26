@@ -1,10 +1,9 @@
-# papiro — identidade aprovada
+# papiro — identidade visual
 
-**Miolo, opção 03 apresentada na rodada 03, aprovada pelo usuário em
-26/11/2026:** “round três opção três miolo aprovado”. Os arquivos canônicos
-estão neste diretório, com o desenho e a composição exatos da opção escolhida.
+**Miolo** é a identidade do papiro. Os arquivos canônicos estão neste
+diretório, com o desenho e a composição exatos da versão adotada.
 
-![Assinatura aprovada](papiro.png)
+![Assinatura do papiro](papiro.png)
 
 ## Arquivos
 
@@ -32,14 +31,13 @@ central de 12 unidades mantém a abertura visível em redução. O lettering
 geométrico original vem integralmente da proposta
 [01 — Nome](studies/2026-11-26/01-nome/papiro.svg), sem substituição por fonte.
 
-A opção aprovada aparece na terceira coluna da
+A versão adotada aparece na terceira coluna da
 [prancha da rodada 03](studies/2026-11-26-round-03-recraft/comparison.png).
 Seu símbolo foi desenhado localmente na
 [rodada 02](studies/2026-11-26-round-02/03-miolo/papiro.svg) e reapresentado
-sem alterações na rodada 03. A tentativa de geração de Miolo no Recraft
-falhou por saldo insuficiente; a marca aprovada não é uma saída do Recraft.
-Nesta adoção foram alterados apenas título e descrição acessíveis dos SVGs
-canônicos; toda a geometria, composição e cor foram preservadas.
+sem alterações na rodada 03. Nesta adoção foram alterados apenas título e
+descrição acessíveis dos SVGs canônicos; toda a geometria, composição e cor
+foram preservadas.
 
 | Cor | Hex | Origem |
 | --- | --- | --- |
@@ -82,4 +80,4 @@ Nenhuma alteração no site foi feita nesta adoção.
 - A primeira proposta de pergaminho foi rejeitada. Ela não é a marca atual.
 
 As pranchas, geradores e registros de execução permanecem como histórico da
-exploração e podem conter rótulos de estado anteriores à aprovação.
+exploração e podem conter rótulos de estado anteriores à adoção.
