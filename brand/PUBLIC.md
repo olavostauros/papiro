@@ -69,7 +69,7 @@ automática dessas escolhas para o novo logo.
 ## Estado do trabalho de logo
 
 - O usuário solicitou um logo em **SVG**.
-- A primeira proposta foi rejeitada. Os arquivos em `../brand/` são uma
+- A primeira proposta foi rejeitada. Os arquivos em `./` são uma
   tentativa descartada, não uma referência aprovada.
 - Nenhuma nova direção estética foi escolhida até o momento.
 - A entrega deve conter geometria vetorial editável; uma imagem raster

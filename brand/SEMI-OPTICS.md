@@ -79,7 +79,7 @@ Estas famílias são pontos de partida independentes, sem ordem de preferência:
 - **Letra como estrutura:** investigar um pê ou a relação entre os dois pês,
   preservando uma leitura clara e uma silhueta distinta.
 
-A primeira proposta em `../brand/` foi rejeitada pelo usuário. Essa rejeição
+A primeira proposta em `./` foi rejeitada pelo usuário. Essa rejeição
 não estabelece, por si só, uma proibição de serifas, pergaminhos ou monogramas.
 O motivo específico e a preferência estética ainda não foram confirmados.
 
