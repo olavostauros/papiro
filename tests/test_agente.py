@@ -1070,14 +1070,32 @@ def test_explicar_texto_base_ausente_espanhol(tmp_path, monkeypatch):
 
 
 def test_explicar_stub_so_imagem_aviso_no_prompt_e_curto_circuito(tmp_path, monkeypatch):
-    """Material visual (imagem=True mesmo com intro, ou dêitico sem texto) dispara curto-circuito."""
+    """Material visual: imagem=True exige match visual; sem imagem/sem texto verifica enunciado+texto."""
     recs = RECS + [
+        # 1. Casos reais da revisão que TÊM imagem=True mas SEM referência visual -> NÃO devem barrar
         _rec(
-            "cebraspe-2026-img-vazio-001",
-            enunciado="Acerca dos princípios do controle interno administrativo, julgue o item a seguir.",
+            "cebraspe-2026-agsus-arquitetura-26-037-mock",
+            enunciado="Uma planta de implantação deve conter a localização, as dimensões da edificação.",
             gabarito="certo",
-            texto={"ref": "Figura 1", "conteudo": "", "citacao": "", "imagem": True},
+            texto={
+                "ref": "",
+                "conteudo": "Julgue o seguinte item, referente à representação gráfica de projetos de arquitetura.",
+                "citacao": "",
+                "imagem": True,
+            },
         ),
+        _rec(
+            "cebraspe-2024-codevasf-publicidade-057-mock",
+            enunciado="O conceito criativo é a expressão em texto do posicionamento da empresa.",
+            gabarito="certo",
+            texto={
+                "ref": "",
+                "conteudo": "Com base na Lei n.º 12.232/2010, que estabelece normas gerais para licitação e contratação.",
+                "citacao": "",
+                "imagem": True,
+            },
+        ),
+        # 2. Caso real TCE_PA_16-092 (imagem=True COM referência visual) -> DEVE barrar
         _rec(
             "cebraspe-2016-tcepa-analista-suporte-092-mock",
             enunciado="De acordo com a figura, não é necessário que uma licitação tenha uma modalidade.",
@@ -1089,80 +1107,84 @@ def test_explicar_stub_so_imagem_aviso_no_prompt_e_curto_circuito(tmp_path, monk
                 "imagem": True,
             },
         ),
+        # 3. Caso real ANM_21_PSS (imagem=False com referência às figuras A e B no texto ligado) -> DEVE barrar
         _rec(
-            "cebraspe-2026-sem-texto-figura-003",
-            enunciado="Com base na figura apresentada, o ponto A sofre tração.",
+            "cebraspe-2021-anm-seguranca-056-mock",
+            enunciado="Admitindo-se que a permeabilidade horizontal seja equivalente a 10 −7 m/s, conclui-se que o fluxo dobra.",
+            gabarito="errado",
+            texto={
+                "ref": "",
+                "conteudo": "Considerando as barragens de terra e as características apresentadas nas figuras A e B anteriores, julgue os itens a seguir.",
+                "citacao": "",
+                "imagem": False,
+            },
+        ),
+        # 4. Caso real PREF_CAMACARI_BA_23 (>= 15 dígitos transcritos) -> NÃO deve barrar
+        _rec(
+            "cebraspe-2023-camacari-tabela-transcrita",
+            enunciado="masculino 123 58 23 feminino 116 66 14 Escolhendo-se ao acaso um dos contratos da tabela a seguir, a chance de ser mulher com até 40 anos é maior.",
+            gabarito="certo",
+        ),
+        # 5. Novos vocábulos + lacuna de até 4 palavras entre substantivo e dêitico -> DEVEM barrar
+        _rec(
+            "cebraspe-2026-sem-texto-circuito-001",
+            enunciado="No circuito acima, a corrente que percorre o resistor R1 é constante.",
             gabarito="certo",
         ),
         _rec(
-            "cebraspe-2026-sem-texto-grafico-004",
-            enunciado="O gráfico acima indica crescimento exponencial no período.",
+            "cebraspe-2026-sem-texto-radiografia-002",
+            enunciado="Na radiografia apresentada, observa-se fratura linear no rádio.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2026-sem-texto-planta-003",
+            enunciado="Conforme a planta a seguir, a sala técnica possui acesso independente.",
             gabarito="errado",
         ),
         _rec(
-            "cebraspe-2026-sem-texto-quadro-005",
-            enunciado="De acordo com o quadro a seguir, o saldo foi positivo.",
+            "cebraspe-2026-sem-texto-foto-004",
+            enunciado="A foto abaixo evidencia desgaste prematuro do rolamento.",
             gabarito="certo",
         ),
         _rec(
-            "cebraspe-2026-sem-texto-esquema-006",
-            enunciado="No esquema precedente, o sinal é invertido na saída.",
-            gabarito="certo",
-        ),
-        _rec(
-            "cebraspe-2026-sem-texto-ilustracao-007",
-            enunciado="Conforme a ilustração abaixo, ocorre corrosão galvânica.",
-            gabarito="certo",
-        ),
-        _rec(
-            "cebraspe-2026-sem-texto-fluxograma-008",
-            enunciado="No fluxograma seguinte, a decisão encerra o laço.",
+            "cebraspe-2026-sem-texto-fotografia-005",
+            enunciado="Na fotografia precedente, o instrumento está calibrado.",
             gabarito="errado",
         ),
         _rec(
-            "cebraspe-2026-sem-texto-diagrama-009",
-            enunciado="Segundo o diagrama apresentado, há dependência cíclica.",
+            "cebraspe-2026-sem-texto-diagrama-gap4",
+            enunciado="De acordo com o diagrama de caso de uso apresentado anteriormente, o ator realiza login.",
+            gabarito="certo",
+        ),
+        # 6. Usos metafóricos e palavras conceituais -> NÃO devem barrar
+        _rec(
+            "cebraspe-2026-metafora-quadro-clinico",
+            enunciado="O quadro clínico apresentado exige conduta imediata do plantonista.",
             gabarito="certo",
         ),
         _rec(
-            "cebraspe-2026-sem-texto-tabela-010",
-            enunciado="De acordo com a tabela precedente, a alíquota é de 14%.",
-            gabarito="errado",
-        ),
-        _rec(
-            "cebraspe-2026-sem-texto-mapa-011",
-            enunciado="No mapa acima, a região Norte concentra os focos.",
+            "cebraspe-2026-metafora-quadro-paciente",
+            enunciado="Diante do quadro do paciente acima descrito, suspende-se a medicação.",
             gabarito="certo",
         ),
         _rec(
-            "cebraspe-2026-sem-texto-charge-012",
-            enunciado="A charge a seguir critica o excesso de burocracia.",
+            "cebraspe-2026-metafora-figura-gerente",
+            enunciado="A responsabilidade solidária alcança a figura do gerente apresentada no contrato social.",
             gabarito="certo",
         ),
-        # Usos conceituais / palavras soltas SEM referência dêitica NÃO devem disparar
+        _rec(
+            "cebraspe-2026-metafora-figura-atos",
+            enunciado="Com base na figura dos atos administrativos, a revogação produz efeitos ex nunc.",
+            gabarito="certo",
+        ),
         _rec(
             "cebraspe-2026-conceitual-tabela-verdade",
             enunciado="A tabela verdade da conjunção resulta verdadeira apenas quando ambas as proposições são verdadeiras.",
             gabarito="certo",
         ),
         _rec(
-            "cebraspe-2026-conceitual-mapa-sitio",
-            enunciado="Os elementos fundamentais de um portal incluem barra de acessibilidade e mapa do sítio.",
-            gabarito="certo",
-        ),
-        _rec(
             "cebraspe-2026-conceitual-ishikawa",
             enunciado="O diagrama de Ishikawa tem a finalidade de mapear causas e efeitos de um problema.",
-            gabarito="certo",
-        ),
-        _rec(
-            "cebraspe-2026-conceitual-fluxograma",
-            enunciado="No mapeamento de processos, o fluxograma possibilita visão geral das etapas.",
-            gabarito="certo",
-        ),
-        _rec(
-            "cebraspe-2026-conceitual-quadro-clinico",
-            enunciado="A avaliação do quadro clínico do paciente deve preceder o exame de imagem.",
             gabarito="certo",
         ),
     ]
@@ -1182,48 +1204,48 @@ def test_explicar_stub_so_imagem_aviso_no_prompt_e_curto_circuito(tmp_path, monk
 
     monkeypatch.setattr(agente, "_post_interaction", fake_post)
 
-    # 1. Todos os casos com imagem=True (com ou sem conteúdo) + termos visuais dêiticos sem texto:
-    #    devem fazer curto-circuito com material_ausente="imagem" sem chamar o LLM.
+    # Casos que DEVEM barrar com material_ausente="imagem"
     for qid in (
-        "cebraspe-2026-img-vazio-001",
         "cebraspe-2016-tcepa-analista-suporte-092-mock",
-        "cebraspe-2026-sem-texto-figura-003",
-        "cebraspe-2026-sem-texto-grafico-004",
-        "cebraspe-2026-sem-texto-quadro-005",
-        "cebraspe-2026-sem-texto-esquema-006",
-        "cebraspe-2026-sem-texto-ilustracao-007",
-        "cebraspe-2026-sem-texto-fluxograma-008",
-        "cebraspe-2026-sem-texto-diagrama-009",
-        "cebraspe-2026-sem-texto-tabela-010",
-        "cebraspe-2026-sem-texto-mapa-011",
-        "cebraspe-2026-sem-texto-charge-012",
+        "cebraspe-2021-anm-seguranca-056-mock",
+        "cebraspe-2026-sem-texto-circuito-001",
+        "cebraspe-2026-sem-texto-radiografia-002",
+        "cebraspe-2026-sem-texto-planta-003",
+        "cebraspe-2026-sem-texto-foto-004",
+        "cebraspe-2026-sem-texto-fotografia-005",
+        "cebraspe-2026-sem-texto-diagrama-gap4",
     ):
         r = cli.post("/agente/explicar", json={"questao_id": qid})
-        assert r.status_code == 200
+        assert r.status_code == 200, qid
         body = r.json()
-        assert body["texto_base_ausente"] is True
-        assert body["material_ausente"] == "imagem"
-        assert body["modelo"] == "nenhum"
-        assert body["fonte"] in body["explicacao"]
-        assert "material visual" in body["explicacao"]
+        assert body["texto_base_ausente"] is True, qid
+        assert body["material_ausente"] == "imagem", qid
+        assert body["modelo"] == "nenhum", qid
+        assert body["fonte"] in body["explicacao"], qid
+        assert "material visual" in body["explicacao"], qid
 
     assert len(seen) == 0
 
-    # 2. Questões com palavras visuais soltas/conceituais NÃO disparam curto-circuito
-    for qid in (
+    # Casos que NÃO devem barrar (AGSUS, CODEVASF, Camaçari >=15 dígitos, metáforas, conceituais)
+    nao_barram = (
+        "cebraspe-2026-agsus-arquitetura-26-037-mock",
+        "cebraspe-2024-codevasf-publicidade-057-mock",
+        "cebraspe-2023-camacari-tabela-transcrita",
+        "cebraspe-2026-metafora-quadro-clinico",
+        "cebraspe-2026-metafora-quadro-paciente",
+        "cebraspe-2026-metafora-figura-gerente",
+        "cebraspe-2026-metafora-figura-atos",
         "cebraspe-2026-conceitual-tabela-verdade",
-        "cebraspe-2026-conceitual-mapa-sitio",
         "cebraspe-2026-conceitual-ishikawa",
-        "cebraspe-2026-conceitual-fluxograma",
-        "cebraspe-2026-conceitual-quadro-clinico",
-    ):
+    )
+    for qid in nao_barram:
         r = cli.post("/agente/explicar", json={"questao_id": qid})
-        assert r.status_code == 200
+        assert r.status_code == 200, qid
         body = r.json()
-        assert body["texto_base_ausente"] is False
-        assert body["material_ausente"] is None
+        assert body["texto_base_ausente"] is False, qid
+        assert body["material_ausente"] is None, qid
 
-    assert len(seen) == 5
+    assert len(seen) == len(nao_barram)
 
 
 def test_explicar_modo_diagnostico_erro_acerto_e_sem_resposta(client, monkeypatch):
@@ -1582,7 +1604,8 @@ def test_explicar_relacionadas_prioriza_banca_e_orgao_com_termo(tmp_path, monkey
         "cebraspe-2016-inss-local-002",
     }
 
-    # 3. Se a busca global estourar timeout e houver assunto útil, continua para a busca por assunto
+    # 3. Orçamento total por request: quando o orçamento zera, para; enquanto sobra saldo,
+    #    cada consulta recebe o restante e pode seguir até assunto.
     recs_assunto = recs + [
         _rec(
             "cebraspe-2022-inss-assunto-200",
@@ -1600,21 +1623,45 @@ def test_explicar_relacionadas_prioriza_banca_e_orgao_com_termo(tmp_path, monkey
         ),
     ]
     db.sync_records(recs_assunto, eng)
-    monkeypatch.setattr(
-        agente,
-        "_run_with_timeout",
-        lambda session, fn, timeout_ms: (None, True, timeout_ms + 1),
-    )
+    monkeypatch.setenv("AGENTE_RELACIONADAS_TIMEOUT_MS", "1200")
+    timeouts_vistos: list[int] = []
+
+    def consome_parcial_e_acha_no_assunto(session, fn, timeout_ms):
+        timeouts_vistos.append(timeout_ms)
+        if len(timeouts_vistos) <= 2:
+            return [], False, 400
+        return orig_timeout(session, fn, timeout_ms)
+
+    monkeypatch.setattr(agente, "_run_with_timeout", consome_parcial_e_acha_no_assunto)
     r3 = cli.post(
         "/agente/explicar",
         json={"questao_id": "cebraspe-2022-inss-assunto-200"},
     )
     assert r3.status_code == 200
     b3 = r3.json()
+    assert timeouts_vistos == [1200, 800, 400]
     assert b3["relacionadas_ok"] is True
     assert [q["id"] for q in b3["questoes_relacionadas"]] == [
         "cebraspe-2024-agu-assunto-201"
     ]
+
+    # Quando a 1ª consulta zera o orçamento, interrompe de imediato sem novas queries
+    chamadas_zeradas = 0
+
+    def estoura_tudo(session, fn, timeout_ms):
+        nonlocal chamadas_zeradas
+        chamadas_zeradas += 1
+        return None, True, timeout_ms
+
+    monkeypatch.setattr(agente, "_run_with_timeout", estoura_tudo)
+    r4 = cli.post(
+        "/agente/explicar",
+        json={"questao_id": "cebraspe-2022-inss-assunto-200", "duvida": "orcamento zero"},
+    )
+    assert r4.status_code == 200
+    assert r4.json()["questoes_relacionadas"] == []
+    assert r4.json()["relacionadas_ok"] is False
+    assert chamadas_zeradas == 1
 
 
 def test_explicar_cache_por_resposta_usuario_e_duvida_fora(client, monkeypatch):
@@ -1860,3 +1907,40 @@ def test_explicar_relacionadas_pares_antes_de_palavra_isolada(tmp_path, monkeypa
         "cebraspe-2022-inss-par-secundario",
     ]
     assert "cebraspe-2022-inss-so-aposentadoria" not in ids
+
+
+def test_explicar_limites_server_side_truncam_e_tokenizer_aceita_siglas(client, monkeypatch):
+    """Truncamento server-side nos campos do LLM + siglas maiúsculas (STF/CPC/OAB) no tokenizer."""
+    assert agente._palavras_termo_busca("Recurso DO STF no CPC e OAB") == [
+        "recurso",
+        "stf",
+        "cpc",
+    ]
+    assert agente._palavras_termo_busca("DE DA DO") == []
+
+    monkeypatch.setattr(
+        agente,
+        "_post_interaction",
+        _post_ok(
+            _sample_llm_json(
+                termo_busca="A" * 90,
+                topico_para_revisar="B" * 90,
+                por_que_parecia_certa="C" * 800,
+                explicacao="D" * 2500,
+                armadilha_banca="E" * 800,
+                pontos_chave=["F" * 300, "G" * 50],
+            )
+        ),
+    )
+
+    r = client.post(
+        "/agente/explicar",
+        json={"questao_id": "cebraspe-2024-pf-escrivao-001", "resposta_usuario": "errado"},
+    )
+    assert r.status_code == 200
+    b = r.json()
+    assert len(b["topico_para_revisar"]) == 60
+    assert len(b["por_que_parecia_certa"]) == 600
+    assert len(b["explicacao"]) == 2000
+    assert len(b["armadilha_banca"]) == 600
+    assert [len(p) for p in b["pontos_chave"]] == [200, 50]

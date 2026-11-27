@@ -137,28 +137,48 @@ _TRECHO_CITADO_RE = re.compile(r'["“«][^"”»]{45,}["”»]')
 _VISUAL_NOUN_PAT = (
     r"(?:figuras?|gr[aá]ficos?|charges?|tirinhas?|cartu(?:ns|m)|"
     r"imag(?:em|ens)|tabelas?|mapas?|quadros?|esquemas?|"
-    r"ilustra[cç](?:[oõ]es|[aã]o)|fluxogramas?|diagramas?)"
+    r"ilustra[cç](?:[oõ]es|[aã]o)|fluxogramas?|diagramas?|"
+    r"circuitos?|radiografias?|plantas?|fotos?|fotografias?)"
 )
 _VISUAL_DEITICO_POS_PAT = (
-    r"(?:acima|abaixo|anterior(?:es)?|seguinte(?:s)?|precedente(?:s)?|"
+    r"(?:acima|abaixo|anterior(?:es|mente)?|seguinte(?:s)?|precedente(?:s)?|"
     r"a\s+seguir|apresentad[ao]s?|ilustrad[ao]s?|mostrad[ao]s?|"
     r"exibid[ao]s?|reproduzid[ao]s?|fornecid[ao]s?|ao\s+lado|em\s+quest[aã]o)"
 )
 _VISUAL_ROTULO_PAT = r"(?:[A-Z]{0,3}\d+[A-Z0-9-]*|(?-i:[IVX]{1,4})\b)"
 _VISUAL_CONCEITUAL_NEG_PAT = (
-    r"(?!\s+(?:cl[ií]nic[ao]s?|conceitua(?:l|is)|verdade|peri[oó]dic[ao]s?|"
-    r"ascii|digital|digitais|mentais|mental|pessoal|funcional|geral|"
-    r"de\s+(?:classes|objetos|ishikawa|karnaugh|fluxo|blocos|rede|banco|dados|entidade|sequ[eê]ncia|atividades|estados|casos)|"
-    r"do\s+s[ií]tio))"
+    r"(?!\s+(?:"
+    r"cl[ií]nic[ao]s?|d[ao]\s+paciente|de\s+sa[uú]de|patol[oó]gic[ao]s?|"
+    r"epidemiol[oó]gic[ao]s?|sintom[aá]tic[ao]s?|infeccios[ao]s?|agud[ao]s?|graves?|"
+    r"conceitua(?:l|is)|verdade|peri[oó]dic[ao]s?|ascii|digital|digitais|"
+    r"mentais|mental|pessoal|funcional|geral|pol[ií]tic[ao]s?|econ[oô]mic[ao]s?|socia(?:l|is)|"
+    r"jur[ií]dic[ao]s?|normativ[ao]s?|lega(?:l|is)|pena(?:l|is)|t[ií]pic[ao]s?|p[uú]blic[ao]s?|"
+    r"de\s+(?:linguagem|estilo|pensamento|sintaxe|ret[oó]rica|pessoal|servidores|carreira|vagas|ishikawa|karnaugh|implanta[cç][aã]o)|"
+    r"do\s+s[ií]tio|"
+    r"d[ao]s?\s+(?:gerentes?|atos?|servidores?|administradores?|empregadores?|empregados?|"
+    r"contribuintes?|segurados?|cidad[aã]os?|ju[ií]z(?:es)?|legisladores?|gestores?|"
+    r"diretores?|presidentes?|prefeitos?|governadores?|ministros?|autores?|r[eé]us?|"
+    r"agentes?|fiscais?|auditores?|procuradores?|defensores?|delegados?|estados?|"
+    r"uni[aã]o|munic[ií]pios?|contratos?|crimes?|delitos?|tributos?|impostos?|"
+    r"recursos?|processos?|institutos?|direitos?|deveres?|obriga[cç][oõ]es|"
+    r"poderes?|mandatos?|cargos?|fun[cç][oõ]es|s[oó]cios?|terceiros?|herdeiros?|"
+    r"consumidores?|fornecedores?|pais|m[aã]es?|filhos?|mulheres?|homens?|pessoas?|"
+    r"trabalhadores?|pacientes?|usu[aá]rios?|clientes?|partes?|v[ií]timas?|"
+    r"testemunhas?|peritos?|conciliadores?|mediadores?|pregoeiros?|prepostos?|"
+    r"empres[aá]rios?|advogados?|licita[cç][aã]o|arbitragem|desconsidera[cç][aã]o|"
+    r"prescri[cç][aã]o|decad[eê]ncia)"
+    r")\b)"
 )
+_VISUAL_GAP_4_PAT = r"(?:\s+[^\s,.;:!?()]+){0,4}"
 _REF_MATERIAL_VISUAL_RE = re.compile(
     rf"\b(?:"
-    rf"{_VISUAL_NOUN_PAT}\s+(?:{_VISUAL_DEITICO_POS_PAT}|{_VISUAL_ROTULO_PAT})|"
+    rf"{_VISUAL_NOUN_PAT}{_VISUAL_CONCEITUAL_NEG_PAT}{_VISUAL_GAP_4_PAT}\s+{_VISUAL_DEITICO_POS_PAT}\b|"
+    rf"{_VISUAL_NOUN_PAT}{_VISUAL_CONCEITUAL_NEG_PAT}\s+{_VISUAL_ROTULO_PAT}|"
     rf"(?:com\s+base\s+n[ao]s?|a\s+partir\s+d[ao]s?|de\s+acordo\s+com\s+[ao]s?|"
     rf"conforme\s+[ao]s?|segundo\s+[ao]s?|"
     rf"(?:mostrad[ao]s?|representad[ao]s?|ilustrad[ao]s?|apresentad[ao]s?|observad[ao]s?|indicad[ao]s?)\s+n[ao]s?)"
     rf"\s+{_VISUAL_NOUN_PAT}\b{_VISUAL_CONCEITUAL_NEG_PAT}|"
-    rf"n[ao]s?\s+(?:figuras?|gr[aá]ficos?|charges?|tirinhas?|cartu(?:ns|m)|ilustra[cç](?:[oõ]es|[aã]o))\b{_VISUAL_CONCEITUAL_NEG_PAT}"
+    rf"n[ao]s?\s+(?:figuras?|gr[aá]ficos?|charges?|tirinhas?|cartu(?:ns|m)|ilustra[cç](?:[oõ]es|[aã]o)|radiografias?|fotografias?)\b{_VISUAL_CONCEITUAL_NEG_PAT}"
     rf")",
     re.IGNORECASE,
 )
@@ -265,7 +285,7 @@ class ExplicarResponse(BaseModel):
     questoes_relacionadas: list[QuestaoRelacionada] = Field(default_factory=list)
     relacionadas_ok: bool = Field(
         default=False,
-        description="True quando a busca por questões relacionadas encontrou itens sem timeout; False quando não encontrou correspondências, estourou o timeout ou foi pulada (ex.: questão anulada).",
+        description="true quando ao menos um item relacionado foi encontrado",
     )
     modelo: str
     cached: bool = False
@@ -799,27 +819,44 @@ def _texto_base_ausente(enunciado: str) -> tuple[bool, Optional[str]]:
     return True, especifico
 
 
+def _contar_digitos(texto: str) -> int:
+    return sum(c.isdigit() for c in texto)
+
+
+def _truncar(texto: str, limite: int) -> str:
+    limpo = texto.strip()
+    if len(limpo) <= limite:
+        return limpo
+    return limpo[:limite].rstrip()
+
+
 def _imagem_base_ausente(
     enunciado: str, texto_base: Optional[dict[str, Any]]
 ) -> tuple[bool, Optional[str]]:
-    """Detecta material visual não transcrito (``texto.imagem=True`` ou dêitico sem texto)."""
+    """Detecta material visual não transcrito a partir de referência visual no enunciado ou texto."""
     tb = texto_base or {}
+    conteudo = tb.get("conteudo") or ""
     if bool(tb.get("imagem")):
         m = _REF_MATERIAL_VISUAL_RE.search(enunciado) or _REF_MATERIAL_VISUAL_RE.search(
-            tb.get("conteudo") or ""
+            conteudo
         )
-        ref = (
-            (tb.get("ref") or "").strip()
-            or (m.group(0).strip() if m else "")
-            or "figura/imagem do caderno oficial"
-        )
+        if not m:
+            return False, None
+        ref = (tb.get("ref") or "").strip() or m.group(0).strip()
         return True, ref
-    if texto_base:
+
+    if _contar_digitos(enunciado) >= 15:
         return False, None
+
     m = _REF_MATERIAL_VISUAL_RE.search(enunciado)
-    if not m:
-        return False, None
-    return True, m.group(0).strip()
+    if m:
+        return True, m.group(0).strip()
+    if conteudo and _contar_digitos(conteudo) < 15:
+        m_txt = _REF_MATERIAL_VISUAL_RE.search(conteudo)
+        if m_txt:
+            ref = (tb.get("ref") or "").strip() or m_txt.group(0).strip()
+            return True, ref
+    return False, None
 
 
 def _formatar_opcao_prompt(
@@ -1027,15 +1064,17 @@ def _run_with_timeout(
 
 
 def _palavras_termo_busca(termo_busca: str) -> list[str]:
-    """Normaliza ``termo_busca`` em até 3 palavras significativas (len >= 4, mais longas primeiro)."""
-    norm = (unaccent_str(termo_busca) or "").lower()
+    """Normaliza ``termo_busca`` em até 3 palavras (len >= 4 ou sigla MAIÚSCULA de 2-4 letras)."""
+    raw = unaccent_str(termo_busca) or ""
     unicas: list[str] = []
     vistos: set[str] = set()
-    for tok in re.findall(r"[a-z0-9]+", norm):
-        if len(tok) < 4 or tok in _STOPWORDS_RELACIONADAS or tok in vistos:
+    for tok in re.findall(r"[A-Za-z0-9]+", raw):
+        low = tok.lower()
+        is_sigla = 2 <= len(tok) <= 4 and tok.isupper() and tok.isalpha()
+        if (len(low) < 4 and not is_sigla) or low in _STOPWORDS_RELACIONADAS or low in vistos:
             continue
-        vistos.add(tok)
-        unicas.append(tok)
+        vistos.add(low)
+        unicas.append(low)
     unicas.sort(key=len, reverse=True)
     return unicas[:3]
 
@@ -1046,16 +1085,20 @@ def _buscar_relacionadas(
     termo_busca: str,
     limit: int = 3,
 ) -> tuple[list[QuestaoRelacionada], bool]:
-    """Busca até ``limit`` questões relacionadas por termo/assunto sem fallback genérico.
+    """Busca até ``limit`` questões relacionadas por termo/assunto com orçamento total de tempo.
 
-    Extrai até 3 palavras significativas de ``termo_busca`` (mais longas
-    primeiro), prioriza ``(banca, orgao)`` (AND completo e depois palavra a
-    palavra), amplia para o banco todo apenas com o AND completo e, se
-    necessário, segue para ``assunto``. Sem fallback por ``(banca, orgao)``
-    sem termo.
+    Extrai até 3 palavras significativas (ou siglas maiúsculas de 2-4 letras),
+    prioriza ``(banca, orgao)`` (AND completo -> pares -> palavra isolada), amplia
+    para o banco todo apenas com o AND completo e, se faltar, busca por ``assunto``.
+    ``AGENTE_RELACIONADAS_TIMEOUT_MS`` atua como orçamento total por request.
     """
     encontradas: list[QuestaoRelacionada] = []
     vistos = {questao["id"]}
+    budget_ms = _env_int(
+        "AGENTE_RELACIONADAS_TIMEOUT_MS", DEFAULT_RELACIONADAS_TIMEOUT_MS
+    )
+    use_budget = budget_ms > 0
+    remaining_ms = budget_ms
 
     def registrar(rows) -> None:
         for r in rows or ():
@@ -1073,30 +1116,32 @@ def _buscar_relacionadas(
                 )
             )
 
-    def coletar(stmt, *, ordenar: bool = True, timeout_ms: int = 0) -> bool:
+    def coletar(stmt, *, ordenar: bool = True) -> bool:
+        nonlocal remaining_ms
         faltam = limit - len(encontradas)
         if faltam <= 0:
             return False
+        if use_budget and remaining_ms <= 0:
+            return True
         q = stmt.where(QuestaoDB.id.notin_(vistos))
         if ordenar:
             q = q.order_by(QuestaoDB.ano.desc(), QuestaoDB.id)
         q = q.limit(faltam)
-        if timeout_ms > 0:
-            rows, timed_out, _ = _run_with_timeout(
-                session, lambda: session.execute(q).all(), timeout_ms
+        if use_budget:
+            rows, timed_out, elapsed_ms = _run_with_timeout(
+                session, lambda: session.execute(q).all(), remaining_ms
             )
+            remaining_ms = max(0, remaining_ms - max(elapsed_ms, 1 if timed_out else 0))
             if timed_out:
+                remaining_ms = 0
                 return True
             registrar(rows)
-            return False
+            return remaining_ms <= 0
         registrar(session.execute(q).all())
         return False
 
     palavras = _palavras_termo_busca(termo_busca)
     if palavras:
-        rel_timeout = _env_int(
-            "AGENTE_RELACIONADAS_TIMEOUT_MS", DEFAULT_RELACIONADAS_TIMEOUT_MS
-        )
         filtros_and = [queries.unaccent_ilike(QuestaoDB.enunciado, p) for p in palavras]
 
         def coletar_banca_orgao(*filtros: Any) -> bool:
@@ -1107,44 +1152,39 @@ def _buscar_relacionadas(
                     *filtros,
                 ),
                 ordenar=False,
-                timeout_ms=rel_timeout,
             )
 
         # 1a) (Banca, Orgao) exigindo TODAS as palavras significativas no enunciado
-        timed_out_local = coletar_banca_orgao(*filtros_and)
+        budget_esgotado = coletar_banca_orgao(*filtros_and)
 
         # 1b) Faltando itens com 3 palavras, tenta pares (AND de 2), começando pelas duas mais longas
-        if not timed_out_local and len(palavras) > 2 and len(encontradas) < limit:
+        if not budget_esgotado and len(palavras) > 2 and len(encontradas) < limit:
             for p1, p2 in combinations(palavras, 2):
-                if len(encontradas) >= limit:
+                if len(encontradas) >= limit or budget_esgotado:
                     break
-                if coletar_banca_orgao(
+                budget_esgotado = coletar_banca_orgao(
                     queries.unaccent_ilike(QuestaoDB.enunciado, p1),
                     queries.unaccent_ilike(QuestaoDB.enunciado, p2),
-                ):
-                    timed_out_local = True
-                    break
+                )
 
         # 1c) Palavra isolada (da mais longa à mais curta) em (Banca, Orgao) só se ainda faltar item
-        if not timed_out_local and len(palavras) > 1 and len(encontradas) < limit:
+        if not budget_esgotado and len(palavras) > 1 and len(encontradas) < limit:
             for palavra in palavras:
-                if len(encontradas) >= limit:
+                if len(encontradas) >= limit or budget_esgotado:
                     break
-                if coletar_banca_orgao(
+                budget_esgotado = coletar_banca_orgao(
                     queries.unaccent_ilike(QuestaoDB.enunciado, palavra)
-                ):
-                    timed_out_local = True
-                    break
+                )
 
         # 2) Faltando itens, uma única query global com AND de todas as palavras (nunca isolada)
-        if not timed_out_local and len(encontradas) < limit:
+        if not budget_esgotado and len(encontradas) < limit:
             coletar(
                 queries.base_questao().where(*filtros_and),
                 ordenar=False,
-                timeout_ms=rel_timeout,
             )
     if len(encontradas) < limit and _assunto_util(questao.get("assunto") or ""):
-        coletar(queries.base_questao().where(Assunto.nome == questao["assunto"]))
+        if not use_budget or remaining_ms > 0:
+            coletar(queries.base_questao().where(Assunto.nome == questao["assunto"]))
     return encontradas, bool(encontradas)
 
 
@@ -1503,6 +1543,7 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
                 armadilha = llm_out.armadilha_banca.strip()
                 por_que = llm_out.por_que_parecia_certa.strip() if errou else ""
                 topico_rev = _normalizar_topico_revisao(llm_out.topico_para_revisar) if errou else ""
+                termo_busca = _truncar(llm_out.termo_busca, 60)
                 if _contradiz_gabarito(
                     f"{explicacao}\n{armadilha}\n{por_que}\n{topico_rev}",
                     gab_oficial,
@@ -1517,8 +1558,16 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
                     por_que = ""
                     topico_rev = ""
 
+                explicacao = _truncar(explicacao, 2000)
+                armadilha = _truncar(armadilha, 600)
+                por_que = _truncar(por_que, 600)
+                topico_rev = _truncar(topico_rev, 60)
+                pontos_chave = [
+                    _truncar(p, 200) for p in llm_out.pontos_chave if p.strip()
+                ][:5]
+
                 relacionadas, relacionadas_ok = await anyio.to_thread.run_sync(
-                    _buscar_relacionadas, s, questao, llm_out.termo_busca,
+                    _buscar_relacionadas, s, questao, termo_busca,
                     limiter=db_limiter,
                 )
 
@@ -1536,7 +1585,7 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
                     conceito_chave=llm_out.conceito_chave.strip(),
                     por_que_parecia_certa=por_que,
                     topico_para_revisar=topico_rev,
-                    pontos_chave=[p.strip() for p in llm_out.pontos_chave if p.strip()][:5],
+                    pontos_chave=pontos_chave,
                     questoes_relacionadas=relacionadas,
                     relacionadas_ok=relacionadas_ok,
                     modelo=modelo_usado,
