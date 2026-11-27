@@ -1124,8 +1124,8 @@ def _buscar_relacionadas(
     """Busca até ``limit`` questões relacionadas por termo/assunto com orçamento total de tempo.
 
     Extrai até 3 palavras significativas (ou siglas maiúsculas de 2-4 letras),
-    prioriza escopo local (AND completo local -> pares locais), depois tenta
-    AND completo global e só então palavra isolada local; se faltar, busca por
+    prioriza escopo local (AND completo local -> pares locais -> palavra
+    isolada local), depois tenta AND completo global; se faltar, busca por
     ``assunto``. ``AGENTE_RELACIONADAS_TIMEOUT_MS`` atua como orçamento total
     por request.
     """
@@ -1205,17 +1205,7 @@ def _buscar_relacionadas(
                     queries.unaccent_ilike(QuestaoDB.enunciado, p2),
                 )
 
-        # 3) AND completo no acervo inteiro: vem depois dos pares locais porque,
-        # sem índice trigrama, é a consulta mais lenta e, se estourar o orçamento
-        # antes, os pares (rápidos e do mesmo tema) nunca rodam; continua antes
-        # da palavra isolada, que é o match mais fraco.
-        if not budget_esgotado and len(encontradas) < limit:
-            budget_esgotado = coletar(
-                queries.base_questao().where(*filtros_and),
-                ordenar=False,
-            )
-
-        # 4) Palavra isolada local (da mais longa à mais curta) só se ainda faltar item.
+        # 3) Palavra isolada local (da mais longa à mais curta) só se ainda faltar item.
         if not budget_esgotado and len(palavras) > 1 and len(encontradas) < limit:
             for palavra in palavras:
                 if len(encontradas) >= limit or budget_esgotado:
@@ -1223,6 +1213,15 @@ def _buscar_relacionadas(
                 budget_esgotado = coletar_banca_orgao(
                     queries.unaccent_ilike(QuestaoDB.enunciado, palavra)
                 )
+
+        # 4) AND completo no acervo inteiro: sem índice trigrama, é a consulta
+        # mais lenta e pode consumir todo o orçamento; por isso roda depois de
+        # todos os fallbacks locais (rápidos e com filtro de banca/órgão).
+        if not budget_esgotado and len(encontradas) < limit:
+            budget_esgotado = coletar(
+                queries.base_questao().where(*filtros_and),
+                ordenar=False,
+            )
     if len(encontradas) < limit and _assunto_util(questao.get("assunto") or ""):
         if not use_budget or remaining_ms > 0:
             coletar(queries.base_questao().where(Assunto.nome == questao["assunto"]))

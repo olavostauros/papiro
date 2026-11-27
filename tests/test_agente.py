@@ -1999,10 +1999,10 @@ def test_explicar_relacionadas_pares_antes_de_palavra_isolada(tmp_path, monkeypa
     assert "cebraspe-2022-inss-so-aposentadoria" not in ids
 
 
-def test_explicar_relacionadas_global_forte_antes_de_fallback_local_fraco(
+def test_explicar_relacionadas_palavra_isolada_local_antes_de_global_forte(
     tmp_path, monkeypatch
 ):
-    """AND completo global tem precedência sobre par/palavra isolada apenas em (banca, órgão)."""
+    """Palavra isolada em (banca, órgão) precede o AND global, que ainda complementa vagas."""
     recs = [
         _rec(
             "cebraspe-2022-inss-alvo-global",
@@ -2052,11 +2052,11 @@ def test_explicar_relacionadas_global_forte_antes_de_fallback_local_fraco(
     body = r.json()
     assert body["relacionadas_ok"] is True
     ids = [q["id"] for q in body["questoes_relacionadas"]]
-    assert ids[0] == "cebraspe-2024-agu-global-and-completo"
-    assert set(ids[1:]) == {
+    assert ids == [
         "cebraspe-2022-inss-so-aposentadoria-global",
         "cebraspe-2022-inss-so-deficiencia-global",
-    }
+        "cebraspe-2024-agu-global-and-completo",
+    ]
 
 
 def test_explicar_relacionadas_timeout_global_nao_bloqueia_pares_locais(
@@ -2125,6 +2125,73 @@ def test_explicar_relacionadas_timeout_global_nao_bloqueia_pares_locais(
         "cebraspe-2022-inss-par-001",
         "cebraspe-2022-inss-par-002",
     }
+
+
+def test_explicar_relacionadas_timeout_global_nao_bloqueia_palavra_isolada(
+    tmp_path, monkeypatch
+):
+    """Com termo fora do vocabulário local, palavra isolada em (banca, órgão) roda antes da global."""
+    from sqlalchemy import event
+    from sqlalchemy.engine import Engine
+    from sqlalchemy.exc import OperationalError
+
+    recs = [
+        _rec(
+            "cebraspe-2022-inss-alvo-timeout-isolada",
+            orgao="INSS",
+            assunto="",
+            enunciado="Aposentadoria da pessoa com deficiência no RGPS.",
+            gabarito="errado",
+        ),
+        _rec(
+            "cebraspe-2022-inss-isolada-aposentadoria",
+            orgao="INSS",
+            assunto="",
+            enunciado="Regras gerais de aposentadoria por tempo de contribuição.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2024-agu-global-deficiente",
+            orgao="AGU",
+            assunto="",
+            enunciado="Critérios de aposentadoria para pessoa deficiente no serviço público.",
+            gabarito="certo",
+        ),
+    ]
+    url = f"sqlite:///{tmp_path / 'rel_timeout_global_isolada.db'}"
+    eng = db.get_engine(url)
+    db.create_schema(eng)
+    db.sync_records(recs, eng)
+    from api.main import create_app
+
+    monkeypatch.setenv("AGENTE_RATE_PER_MIN", "30")
+    cli = TestClient(create_app(url))
+    monkeypatch.setattr(
+        agente,
+        "_post_interaction",
+        _post_ok(_sample_llm_json(termo_busca="aposentadoria deficiente")),
+    )
+
+    def _timeout_na_global(conn, cursor, statement, parameters, context, executemany):
+        sql = statement.lower()
+        if "like" in sql and "banca.nome =" not in sql:
+            raise OperationalError(statement, parameters, Exception("statement timeout"))
+
+    event.listen(Engine, "before_cursor_execute", _timeout_na_global)
+    try:
+        r = cli.post(
+            "/agente/explicar",
+            json={"questao_id": "cebraspe-2022-inss-alvo-timeout-isolada"},
+        )
+    finally:
+        event.remove(Engine, "before_cursor_execute", _timeout_na_global)
+
+    assert r.status_code == 200
+    body = r.json()
+    assert body["relacionadas_ok"] is True
+    assert [q["id"] for q in body["questoes_relacionadas"]] == [
+        "cebraspe-2022-inss-isolada-aposentadoria"
+    ]
 
 
 def test_explicar_limites_server_side_truncam_e_tokenizer_aceita_siglas(client, monkeypatch):
