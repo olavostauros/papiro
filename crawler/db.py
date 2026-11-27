@@ -15,7 +15,10 @@ global tables:
 Decisions (see .agents/docs/docker-postgres.md):
 
 - Identity = ``questao.id`` (text PK, ``cebraspe-2024-pf-escrivao-042``) —
-  the same dedup criterion as ``assemble``: existing ids are skipped.
+  the same dedup criterion as ``assemble``. Existing ids are updated so the
+  DB converges to the authoritative shard (provenance/gabarito repairs are
+  not invisible no-ops); ``sync --prune`` additionally removes rows whose ids
+  disappeared from a shard synced in full.
 - ``cargo`` is the pair (orgao, nome) — "Analista Judiciário" at TRT8 is a
   different row than at TRF6.
 - ``assunto_id`` NULL = sem assunto (shard interned ""→NULL).
@@ -280,7 +283,9 @@ class SyncStats:
     eventos: int = 0
     records: int = 0
     inserted: int = 0
+    updated: int = 0
     skipped: int = 0
+    deleted: int = 0
     errors: list[str] = field(default_factory=list)
 
 
@@ -314,8 +319,8 @@ def sync_records(records: Iterable[dict], engine: Engine, *,
                  stats: Optional[SyncStats] = None) -> SyncStats:
     """Upsert flat ``Questao`` records (shard_to_records/model_dump shape).
 
-    Idempotent: existing ``questao.id`` rows are skipped (same criterion as
-    ``assemble``). One transaction per evento group.
+    Idempotent: existing ``questao.id`` rows converge to the shard payload;
+    unchanged rows are skipped. One transaction per evento group.
     """
     stats = stats or SyncStats()
     # global dimension caches — shared across eventos within the call
@@ -370,57 +375,115 @@ def sync_records(records: Iterable[dict], engine: Engine, *,
             for i in range(0, len(recs), BATCH):
                 chunk = recs[i:i + BATCH]
                 ids = [r["id"] for r in chunk]
-                existing = {qid: tid for qid, tid in session.execute(
-                    select(QuestaoDB.id, QuestaoDB.texto_id)
-                    .where(QuestaoDB.id.in_(ids)))}
-                rows = [{
-                    "id": r["id"],
-                    "prova_id": prova_ids[r["fonte"]],
-                    "cargo_id": cargo_id(r),
-                    "assunto_id": assunto_id(r),
-                    "texto_id": texto_id(r),
-                    "ano": r["ano"],
-                    "tipo": r["tipo"],
-                    "enunciado": r["enunciado"],
-                    "alternativas": (None if r["alternativas"] == CERTO_ERRADO
-                                     else r["alternativas"]),
-                    "gabarito": r["gabarito"],
-                } for r in chunk if r["id"] not in existing]
+                existing = {q.id: q for q in session.scalars(
+                    select(QuestaoDB).where(QuestaoDB.id.in_(ids)))}
+                rows, updates = [], []
+                for r in chunk:
+                    payload = {
+                        "id": r["id"],
+                        "prova_id": prova_ids[r["fonte"]],
+                        "cargo_id": cargo_id(r),
+                        "assunto_id": assunto_id(r),
+                        "texto_id": texto_id(r),
+                        "ano": r["ano"],
+                        "tipo": r["tipo"],
+                        "enunciado": r["enunciado"],
+                        "alternativas": (None if r["alternativas"] == CERTO_ERRADO
+                                         else r["alternativas"]),
+                        "gabarito": r["gabarito"],
+                    }
+                    q = existing.get(r["id"])
+                    if q is None:
+                        rows.append(payload)
+                        continue
+                    changed = {k: v for k, v in payload.items()
+                               if k != "id" and getattr(q, k) != v}
+                    if changed:
+                        updates.append(payload)
                 if rows:
                     session.execute(insert(QuestaoDB), rows)
-                # backfill: rows antigas sem texto_id ganham o link quando o
-                # shard passa a carregar o texto-base
-                fills = [{"qid": r["id"], "tid": t}
-                         for r in chunk
-                         if r["id"] in existing
-                         and existing[r["id"]] is None
-                         and (t := texto_id(r)) is not None]
-                if fills:
+                if updates:
                     session.execute(
                         update(QuestaoDB)
-                        .execution_options(synchronize_session=None),
-                        [{"id": f["qid"], "texto_id": f["tid"]}
-                         for f in fills])
+                        .execution_options(synchronize_session=False),
+                        updates)
                 stats.inserted += len(rows)
-                stats.skipped += len(chunk) - len(rows)
+                stats.updated += len(updates)
+                stats.skipped += len(chunk) - len(rows) - len(updates)
             session.commit()
     return stats
 
 
+def prune_event(engine: Engine, evento: str, keep_ids: set[str],
+                stats: Optional[SyncStats] = None) -> int:
+    """Remove questões do evento ausentes do shard completo e provas vazias.
+
+    Só é seguro quando o shard foi sincronizado inteiro — daí ficar fora de
+    ``sync_records``, que também recebe lotes parciais durante o ingest.
+    """
+    stats = stats or SyncStats()
+    with Session(engine) as session:
+        evento_id = session.scalar(
+            select(Evento.id).where(Evento.evento == evento))
+        if evento_id is None:
+            return 0
+        atuais = set(session.scalars(
+            select(QuestaoDB.id)
+            .join(Prova, QuestaoDB.prova_id == Prova.id)
+            .where(Prova.evento_id == evento_id)))
+        stale = sorted(atuais - keep_ids)
+        for i in range(0, len(stale), BATCH):
+            session.execute(
+                delete(QuestaoDB).where(QuestaoDB.id.in_(stale[i:i + BATCH])))
+        stats.deleted += len(stale)
+
+        for pid in list(session.scalars(
+                select(Prova.id).where(Prova.evento_id == evento_id))):
+            nquestoes = session.scalar(
+                select(func.count()).select_from(QuestaoDB)
+                .where(QuestaoDB.prova_id == pid))
+            if nquestoes:
+                continue
+            tids = list(session.scalars(
+                select(Texto.id).where(Texto.prova_id == pid)))
+            referenciados = set(session.scalars(
+                select(QuestaoDB.texto_id)
+                .where(QuestaoDB.texto_id.in_(tids))
+                .distinct())) if tids else set()
+            livres = [tid for tid in tids if tid not in referenciados]
+            if livres:
+                session.execute(delete(Texto).where(Texto.id.in_(livres)))
+            if not referenciados:
+                session.execute(delete(Prova).where(Prova.id == pid))
+        session.commit()
+    return len(stale)
+
+
 def sync_shard(path: Path, engine: Engine, *,
-               stats: Optional[SyncStats] = None) -> SyncStats:
+               stats: Optional[SyncStats] = None,
+               prune: bool = False) -> SyncStats:
     """Sync one ``data/questions/<EVENTO>.json`` file."""
-    return sync_records(load_shard_records(path), engine,
-                        evento=path.stem, stats=stats)
+    records = load_shard_records(path)
+    if prune and not records:
+        raise ValueError(f"{path.name}: shard vazio — prune abortado")
+    stats = sync_records(records, engine, evento=path.stem, stats=stats)
+    if prune:
+        prune_event(engine, path.stem, {r["id"] for r in records}, stats)
+    return stats
 
 
-def sync_all(engine: Engine, shard_dir: Path = SHARD_DIR) -> SyncStats:
+def sync_all(engine: Engine, shard_dir: Path = SHARD_DIR, *,
+             evento: Optional[str] = None,
+             prune: bool = False) -> SyncStats:
     """Sync every shard under ``shard_dir`` (idempotent, resumable)."""
     stats = SyncStats()
-    for path in sorted(shard_dir.glob("*.json")):
+    paths = sorted(shard_dir.glob("*.json"))
+    if evento:
+        paths = [p for p in paths if p.stem == evento]
+    for path in paths:
         before = stats.inserted
         try:
-            sync_shard(path, engine, stats=stats)
+            sync_shard(path, engine, stats=stats, prune=prune)
         except Exception as exc:  # keep going; report at the end
             sessionless = f"{path.name}: {exc}"
             stats.errors.append(sessionless)
@@ -489,11 +552,25 @@ def normalize_dims(engine: Engine,
 # ---------------------------------------------------------------------------
 
 def _cmd_sync(args) -> int:
+    shard_dir = Path(args.shard_dir)
+    if args.prune and not args.evento:
+        print("erro: --prune exige --evento (operação destrutiva)", file=sys.stderr)
+        return 2
+    if args.evento:
+        if not re.fullmatch(r"[A-Za-z0-9_.-]+", args.evento):
+            print(f"erro: nome de evento inválido: {args.evento!r}", file=sys.stderr)
+            return 2
+        if not (shard_dir / f"{args.evento}.json").is_file():
+            print(f"erro: shard não encontrado: {shard_dir / (args.evento + '.json')}",
+                  file=sys.stderr)
+            return 2
     engine = get_engine(args.url)
     create_schema(engine)
-    stats = sync_all(engine, Path(args.shard_dir))
+    stats = sync_all(engine, shard_dir,
+                     evento=args.evento, prune=args.prune)
     print(f"\nsync: {stats.eventos} eventos, {stats.records} records, "
-          f"{stats.inserted} inseridos, {stats.skipped} já existentes"
+          f"{stats.inserted} inseridos, {stats.updated} atualizados, "
+          f"{stats.skipped} inalterados, {stats.deleted} removidos"
           + (f", {len(stats.errors)} erros" if stats.errors else ""))
     return 1 if stats.errors else 0
 
@@ -516,6 +593,9 @@ def main(argv: Optional[list[str]] = None) -> int:
     p = sub.add_parser("sync", parents=[common],
                        help="cria o schema e sincroniza os shards")
     p.add_argument("--shard-dir", default=str(SHARD_DIR))
+    p.add_argument("--evento", help="sincroniza só data/questions/<EVENTO>.json")
+    p.add_argument("--prune", action="store_true",
+                   help="remove do DB ids ausentes do shard completo")
     p.set_defaults(fn=_cmd_sync)
     p = sub.add_parser("init", parents=[common], help="só cria o schema")
     p.set_defaults(fn=lambda a: (create_schema(get_engine(a.url)), 0)[1])

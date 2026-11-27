@@ -59,7 +59,7 @@ export function provaHtml(p: Prova, indice: number): string {
   if (anos) meta.push(anos);
   // prova só de certo/errado conta "itens"; MC e listas mistas, "questões"
   const soCe = p.tipos?.length === 1 && p.tipos[0] === 'certo_errado';
-  meta.push(plural(p.questoes, soCe ? 'item' : 'questão', soCe ? 'itens' : 'questões'));
+  meta.push(plural(p.itens ?? p.questoes, soCe ? 'item' : 'questão', soCe ? 'itens' : 'questões'));
 
   const resolver =
     `<a href="${BASE}/?evento=${encodeURIComponent(p.evento)}&fonte=${encodeURIComponent(p.fonte)}&prova=${encodeURIComponent(rotulo)}"` +

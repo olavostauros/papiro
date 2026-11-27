@@ -91,6 +91,39 @@ Docs: https://docs.firecrawl.dev/ (index: https://docs.firecrawl.dev/llms.txt)
   full tool surface needs `Authorization: Bearer` (key in
   `.devin/mcp_config.local.json`) or the OAuth endpoint + `devin mcp login`.
 
+## Hosts
+
+**host** = any operator workstation with a clone of this repo — the
+complement of the one fixed machine in the system, the VM `papiro-vm`.
+There is no canonical host: Olavo's and Leandro's machines are both
+hosts, the host charters apply verbatim on either, and concurrent work
+on different hosts reconciles through git like any other parallel
+work. What differs per host is provisioning, not identity:
+
+- **Plaintext work** (`crawler/`, `api/`, `web/`, `data/`) — nothing
+  beyond the clone.
+- **`.agents/` + host agents** — git-crypt unlock, which requires the
+  operator's GPG key as a collaborator (add it with `notes add-user
+  --gpg-key <fpr>` from an already-unlocked host), then
+  `notes install-hooks` + `notes deobfuscate --dir .agents` and the
+  `.devin/agents` symlink step (§Subagents). A locked clone is a host
+  only for plaintext work — the charters themselves are ciphertext.
+- **Ingest** (arquivista) — `.venv` + poppler; `DATABASE_URL`/compose
+  `db` needs `.env/docker.env`; the Firecrawl key only for fallback
+  paths. Secrets are provisioned per host out-of-band — never
+  committed, never assumed present.
+- **VM access** (deploy launch, herdr bridge, `gcloud compute
+  ssh/scp`) — the operator's own gcloud account needs IAM on the GCP
+  project plus a local herdr `papiro-vm` profile.
+- **Machine flavor** (OS, editor, paths) is detected at runtime, never
+  assumed — the Omarchy/nvim note in §Development describes Olavo's
+  machine; other hosts differ.
+
+Canonical history lives on **GitHub** — hosts push, the VM never does.
+When the auditor ships a `git bundle` "to the host", any unlocked host
+can receive it: once reviewed and pushed there, every other host syncs
+through the remote.
+
 ## Subagents
 
 Subagent profiles are markdown charters. The Devin CLI discovers
@@ -102,24 +135,24 @@ context) and `.devin/agents/` (local-only, gitignored). Layout here:
   lives here: the VM must see exactly one agent — the one that administers
   it — and it is also the only profile `COPY`ed into the image.
 - `.agents/host-agents/` — host-only charters (`perito`, `sentinela`,
-  `arquivista`, `escriba`, `iluminista`, `papiro-logo`), tracked for versioning but NOT auto-discovered. On the
+  `arquivista`, `escriba`, `iluminista`, `publicitario`), tracked for versioning but NOT auto-discovered. On the
   host, activate them once per clone:
   `mkdir -p .devin/agents && cd .devin/agents && ln -sf ../../.agents/host-agents/*.md .`
 
-For Codex, the `papiro-logo` adapter also lives in
-`.agents/host-agents/papiro-logo.toml` and loads the Markdown charter as its
+For Codex, the `publicitario` adapter also lives in
+`.agents/host-agents/publicitario.toml` and loads the Markdown charter as its
 source of instructions. After unlocking/deobfuscating `.agents/`, activate
 it locally from the repository root:
 
 ```bash
 mkdir -p .codex/agents
-ln -s ../../.agents/host-agents/papiro-logo.toml .codex/agents/papiro-logo.toml
+ln -s ../../.agents/host-agents/publicitario.toml .codex/agents/publicitario.toml
 ```
 
 `.codex/` is local-only and gitignored, including the symlink. Never stage
 or force-add its contents; version the charter and adapter under `.agents/`
-through the notes pipeline. In Codex, delegate logo work to `papiro-logo`;
-the Devin equivalent is `run_subagent(profile: "papiro-logo", ...)`.
+through the notes pipeline. In Codex, delegate logo work to `publicitario`;
+the Devin equivalent is `run_subagent(profile: "publicitario", ...)`.
 
 Spawn the host profiles with `run_subagent(profile: ...)`. `auditor` is
 the exception: `run_subagent` always executes on the host, and the
@@ -171,7 +204,8 @@ instead.
   (`web/src/design/copy.md`). Emits a **rubrica** (textos, voz,
   verificações, devoluções). Spawn it for copywriting, microcopy,
   empty-state/error wording, and copy review of new UI.
-- `papiro-logo` — visual identity designer. Owns `brand/`: the papiro
+- `publicitario` (Publicitário) — visual identity designer, named after
+  the public-sector communications role found in concursos. Owns `brand/`: the papiro
   symbol and wordmark, SVG sources, light/dark and monochrome variants,
   previews, and usage documentation. Preserves existing work, validates
   SVG geometry and legibility at small sizes, and records font/color
@@ -258,9 +292,10 @@ hardcoded to `notes/` — run `notes deobfuscate --dir .agents` manually.
 
 ## Development
 
-Host: Omarchy (Arch) — editor padrão é `nvim`. A VM `papiro-vm`
-(Debian 12) também tem neovim instalado via apt (0.7.2) — prefira-o
-a vim/nano em edições remotas.
+Hosts are operator workstations (§Hosts) — a máquina do Olavo é
+Omarchy (Arch), editor padrão `nvim`; outros hosts variam, detecte o
+flavor em runtime. A VM `papiro-vm` (Debian 12) também tem neovim
+instalado via apt (0.7.2) — prefira-o a vim/nano em edições remotas.
 
 The site lives in `web/` — run all npm/Astro commands from that directory.
 

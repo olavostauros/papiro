@@ -35,6 +35,15 @@ componentes e custom elements. Curto e vinculante: em dúvida, siga a tabela.
 | ir para a lista filtrada | **Resolver as questões** | destino = question-browser |
 | o que o site reúne | **acervo** | preferir a "dataset", "banco", "coleção" |
 
+### Terminologia de marca
+
+| Conceito | Termo | Notas |
+|---|---|---|
+| identidade visual como guarda-chuva | **marca** ou **identidade** | **Miolo** é o nome da identidade aprovada |
+| composição completa símbolo + nome | **assinatura** | usar nos rótulos e orientações do showcase |
+| livro aberto isolado | **símbolo** | também usado como favicon |
+| componente de código | **`Logo`** | só em contexto técnico |
+
 ## Regras de microcopy
 
 - **Plural sempre correto**: "1 questão" / "42 questões", "e mais 1 cargo" /

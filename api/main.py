@@ -62,6 +62,7 @@ class EventoInfo(BaseModel):
     evento: str
     banca: str
     questoes: int
+    itens: int
     provas: int
     orgaos: list[str]
     cargos: list[str]
@@ -72,6 +73,7 @@ class ProvaInfo(BaseModel):
     evento: str
     fonte: str
     questoes: int
+    itens: int
     cargos: list[str]
     anos: list[int]
     tipos: list[str]
@@ -242,7 +244,7 @@ def create_app(database_url: Optional[str] = None) -> FastAPI:
     @app.get("/eventos", response_model=list[EventoInfo])
     def eventos(s: Session = Depends(session)):
         counts = s.execute(
-            select(Evento.evento, Banca.nome,
+            select(Evento.id.label("evento_id"), Evento.evento, Banca.nome,
                    func.count(QuestaoDB.id).label("questoes"),
                    func.count(func.distinct(Prova.id)).label("provas"))
             .select_from(Evento)
@@ -252,6 +254,13 @@ def create_app(database_url: Optional[str] = None) -> FastAPI:
             .group_by(Evento.id, Evento.evento, Banca.nome)
             .order_by(Evento.evento)
         ).all()
+        dist = (select(Prova.evento_id.label("evento_id"),
+                       QuestaoDB.enunciado, QuestaoDB.alternativas)
+                .select_from(QuestaoDB)
+                .join(Prova, QuestaoDB.prova_id == Prova.id)
+                .distinct().subquery())
+        itens = {eid: n for eid, n in s.execute(
+            select(dist.c.evento_id, func.count()).group_by(dist.c.evento_id))}
         dims = s.execute(
             select(Evento.evento, Orgao.nome, Cargo.nome, QuestaoDB.ano)
             .select_from(Evento)
@@ -270,7 +279,9 @@ def create_app(database_url: Optional[str] = None) -> FastAPI:
             d["anos"].add(ano)
         vazio = {"orgaos": set(), "cargos": set(), "anos": set()}
         return [EventoInfo(evento=r.evento, banca=r.nome,
-                           questoes=r.questoes, provas=r.provas,
+                           questoes=r.questoes,
+                           itens=itens.get(r.evento_id, 0),
+                           provas=r.provas,
                            orgaos=sorted(d["orgaos"]),
                            cargos=sorted(d["cargos"]),
                            anos=sorted(d["anos"], reverse=True))
@@ -295,9 +306,21 @@ def create_app(database_url: Optional[str] = None) -> FastAPI:
             .join(Cargo, QuestaoDB.cargo_id == Cargo.id)
             .distinct()
         )
+        dist = (
+            select(Prova.id.label("prova_id"),
+                   QuestaoDB.enunciado, QuestaoDB.alternativas)
+            .select_from(QuestaoDB)
+            .join(Prova, QuestaoDB.prova_id == Prova.id)
+            .join(Evento, Prova.evento_id == Evento.id)
+            .distinct()
+        )
         if evento:
             stmt = stmt.where(Evento.evento == evento)
             dims = dims.where(Evento.evento == evento)
+            dist = dist.where(Evento.evento == evento)
+        dist = dist.subquery()
+        itens = {pid: n for pid, n in s.execute(
+            select(dist.c.prova_id, func.count()).group_by(dist.c.prova_id))}
         detalhes: dict[int, dict[str, set]] = {}
         for pid, cargo, ano, tipo in s.execute(dims):
             d = detalhes.setdefault(
@@ -308,6 +331,7 @@ def create_app(database_url: Optional[str] = None) -> FastAPI:
         vazio = {"cargos": set(), "anos": set(), "tipos": set()}
         return [ProvaInfo(evento=r.evento, fonte=r.fonte,
                           questoes=r.questoes,
+                          itens=itens.get(r.id, 0),
                           cargos=sorted(d["cargos"]),
                           anos=sorted(d["anos"], reverse=True),
                           tipos=sorted(d["tipos"]))

@@ -14,7 +14,9 @@ const current = normalize(Astro.url.pathname);
     <Logo href={import.meta.env.BASE_URL} />
 
     <div class="flex items-center gap-3 sm:order-3">
-      <Badge class="hidden sm:inline-flex">HackBrasil</Badge>
+      <div class="hidden sm:block">
+        <Badge>HackBrasil</Badge>
+      </div>
       <ThemeToggle />
     </div>
 

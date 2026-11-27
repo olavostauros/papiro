@@ -14,6 +14,7 @@ web/src/
 ├── design/
 │   ├── tokens.css          # todos os design tokens (@theme do Tailwind v4) + modo escuro
 │   ├── nav.ts              # itens de navegação usados por SiteHeader e SiteFooter
+│   ├── assets/papiro.svg   # geometria da marca Miolo aprovada, usada pelo Logo
 │   ├── templates.ts        # markup de string SSR↔elemento (card, paginação) + classes/
 │   │                       # helpers compartilhados pelos elementos do agente — puro
 │   ├── components/         # componentes base (.astro, sem framework de UI)
@@ -61,13 +62,23 @@ paginação) vive em `design/templates.ts` — módulo puro, sem side effects.
 
 ## Tokens
 
-Todos os tokens vivem em `tokens.css`, dentro de `@theme` (Tailwind v4). A
-convenção `--color-x` gera as utilidades `bg-x`, `text-x`, `border-x`, etc.
+Todos os tokens vivem em `tokens.css`, dentro de `@theme static` (Tailwind
+v4) — o modificador `static` mantém a escala primitiva inteira disponível
+como variável CSS para o showcase. A convenção `--color-x` gera as
+utilidades `bg-x`, `text-x`, `border-x`, etc.
 
 ### Escala `olive` (primitiva — não usar diretamente em UI)
 
-`--color-olive-50` … `--color-olive-950`, em OKLCh. Verde-azeitona frio, de baixo
-croma. Use apenas dentro de `tokens.css` para compor tokens semânticos.
+`--color-olive-50` … `--color-olive-950`, em OKLCh. Oliva energizada, de alto
+croma e matiz verde (140): a escala concentra a energia nos tons médios sem
+sair da família verde da marca. Use apenas dentro de `tokens.css` para compor
+tokens semânticos.
+
+**Diretriz permanente da paleta:** ela existe para manter o concurseiro
+alerta durante o estudo. O acento deve ser a primeira nota cromática da
+página — vigor e energia, sem sacrificar legibilidade nem contraste WCAG AA.
+Os fundos permanecem limpos e quase neutros para o verde pulsar por
+contraste; `success` e `danger` acompanham a mesma intensidade.
 
 ### Cores semânticas (use estas)
 
@@ -99,7 +110,7 @@ Padrão de uso: `border-success-line bg-success-soft text-success`.
 | Token | Família | Uso |
 |---|---|---|
 | `--font-sans` → `font-sans` | Inter Variable | UI inteira (padrão no `<body>`) |
-| `--font-serif` → `font-serif` | Source Serif 4 Variable | títulos (`PageHeader`, `Logo`), enunciados de questões |
+| `--font-serif` → `font-serif` | Source Serif 4 Variable | títulos (`PageHeader`), enunciados de questões |
 
 Pesos usados: `font-normal`, `font-medium`, `font-bold`. Títulos sempre com
 `tracking-tight`.
@@ -474,8 +485,27 @@ erros 503/rede).
 
 `href?: string` · `size?: 'lg' | 'xl'` (default `xl`).
 
-Wordmark "papiro" em serif bold, `text-accent`. Com `href` renderiza `<a>`,
-senão `<p>`.
+Assinatura **Miolo**, aprovada em 26/11/2026: livro aberto com dois planos
+sólidos e lettering geométrico próprio em contornos. Não depende de fonte.
+Com `href` renderiza `<a>`, senão `<p>`. `xl` mede 176 px de largura (cabeçalho)
+e `lg` mede 160 px (rodapé), mínimo provisório da assinatura. A altura é
+proporcional ao `viewBox` de 568 × 132; preserve toda a margem interna.
+
+`assets/papiro.svg` preserva a geometria de `brand/papiro.svg`, sem os
+metadados acessíveis com IDs fixos: o SVG é decorativo dentro do componente,
+e um texto `sr-only` fornece o nome “papiro” uma única vez. A cor vem de
+`currentColor`, com `text-accent` no tema claro e `dark:text-ink` no escuro.
+Use o componente em vez de reconstruir o nome com texto ou fonte.
+
+O favicon em `web/public/favicon.svg` usa a geometria exata de
+`brand/papiro-mark.svg`, com `viewBox` 104 × 104. O SVG muda entre oliva
+`#227702` e claro `#eaece6` via `prefers-color-scheme` do navegador; esses
+valores estáticos são as conversões sRGB do `accent` claro e do `ink`
+escuro, pois o favicon é um documento separado e não herda os tokens da
+página. `favicon.ico` oferece fallback transparente em 16, 32 e 48 px. O
+`Layout` publica ambos com o prefixo de `BASE_URL`, dando preferência ao SVG.
+O símbolo foi verificado a partir de 16 px; não reduza a assinatura para
+esse tamanho. O showcase reúne a assinatura e as reduções do favicon.
 
 ### SiteHeader / SiteFooter
 

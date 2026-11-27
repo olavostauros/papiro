@@ -36,7 +36,9 @@ One-shot conversion from the old monolith: `.venv/bin/python -m crawler.shards`
 from __future__ import annotations
 
 import json
+import os
 import re
+import tempfile
 import unicodedata
 from pathlib import Path
 
@@ -169,7 +171,18 @@ def write_shard(evento: str, records: list[dict], shard_dir: Path = SHARD_DIR) -
     if not path.is_relative_to(shard_dir.resolve()):
         raise ValueError(f"evento fora do diretório de shards: {evento!r}")
     shard = records_to_shard(evento, records)
-    path.write_text(json.dumps(shard, ensure_ascii=False, indent=1) + "\n")
+    payload = json.dumps(shard, ensure_ascii=False, indent=1) + "\n"
+    fd, tmpname = tempfile.mkstemp(
+        dir=shard_dir, prefix=f".{evento}.", suffix=".tmp")
+    tmp = Path(tmpname)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            f.write(payload)
+        tmp.chmod(0o644)
+        tmp.replace(path)
+    except Exception:
+        tmp.unlink(missing_ok=True)
+        raise
     return path
 
 
