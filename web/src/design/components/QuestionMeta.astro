@@ -1,6 +1,4 @@
 ---
-import Badge from './Badge.astro';
-
 interface Props {
   banca: string;
   orgao: string;
@@ -20,5 +18,23 @@ const { banca, orgao, cargo, ano, assunto } = Astro.props;
   <span>{cargo}</span>
   <span aria-hidden="true">·</span>
   <span>{ano}</span>
-  {assunto && <Badge class="ml-auto">{assunto}</Badge>}
+  {
+    // Assunto é o item final do fluxo — texto puro, sem pílula: o valor é
+    // frequentemente ausente ou ruído de seção do PDF ("PROVAS OBJETIVAS"),
+    // e a pílula accent destacada por ml-auto dava a ele peso de rótulo do
+    // card inteiro, flutuando desconectada da linha. Em fluxo, a posição é
+    // determinística mesmo quando a meta quebra em várias linhas. O rótulo
+    // sr-only desambigua o campo para leitor de tela — o valor sozinho não
+    // é autoevidente como os demais (banca/órgão são nomes próprios, ano é
+    // número). cardHtml (templates.ts) replica este markup.
+    assunto && (
+      <>
+        <span aria-hidden="true">·</span>
+        <span>
+          <span class="sr-only">{'Assunto: '}</span>
+          {assunto}
+        </span>
+      </>
+    )
+  }
 </p>

@@ -308,15 +308,52 @@ const exemplo = (await fetchQuestoes({ tipo: 'multipla_escolha', per_page: 1 })
       title="QuestionMeta e QuestionCard"
       desc="A linha de metadados da questão e o cartão completo, composto e interativo — resolva e confira o gabarito."
     >
-      <Card class="mb-4">
-        <QuestionMeta
-          banca="Cebraspe"
-          orgao="Polícia Federal"
-          cargo="Escrivão de Polícia Federal"
-          ano={2024}
-          assunto="Direito Administrativo"
-        />
-      </Card>
+      <div class="mb-4 grid gap-4">
+        <Card>
+          <p class="mb-2 font-mono text-xs text-ink-faint">assunto presente — item final do fluxo, em texto puro</p>
+          <QuestionMeta
+            banca="Cebraspe"
+            orgao="Polícia Federal"
+            cargo="Escrivão de Polícia Federal"
+            ano={2024}
+            assunto="Direito Administrativo"
+          />
+        </Card>
+        <Card>
+          <p class="mb-2 font-mono text-xs text-ink-faint">
+            assunto que é ruído (valor real do acervo) — mesmo tratamento, sem destaque
+          </p>
+          <QuestionMeta
+            banca="Cebraspe"
+            orgao="Agência Reguladora de Serviços Públicos Delegados do Paraná"
+            cargo="Especialista em Regulação – Especialidade: Administração"
+            ano={2026}
+            assunto="PROVAS OBJETIVAS"
+          />
+        </Card>
+        <Card>
+          <p class="mb-2 font-mono text-xs text-ink-faint">
+            assunto longo (valor real do acervo) — quebra junto com a linha, sem posição especial
+          </p>
+          <QuestionMeta
+            banca="Cebraspe"
+            orgao="Polícia Civil do Maranhão"
+            cargo="Delegado de Polícia"
+            ano={2026}
+            assunto="GRUPO III DIREITO PENAL, DIREITO PROCESSUAL PENAL, LEGISLAÇÃO PENAL E PROCESSUAL PENAL E CRIMINOLOGIA"
+          />
+        </Card>
+        <Card>
+          <p class="mb-2 font-mono text-xs text-ink-faint">sem assunto — a linha termina no ano</p>
+          <QuestionMeta
+            banca="Cebraspe"
+            orgao="Polícia Federal"
+            cargo="Escrivão de Polícia Federal"
+            ano={2024}
+            assunto=""
+          />
+        </Card>
+      </div>
       <QuestionCard q={exemplo} />
       <p class="mt-4 text-sm text-ink-soft">
         O cartão já traz o gatilho do agente (<code
