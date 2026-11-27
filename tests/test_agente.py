@@ -2059,6 +2059,74 @@ def test_explicar_relacionadas_global_forte_antes_de_fallback_local_fraco(
     }
 
 
+def test_explicar_relacionadas_timeout_global_nao_bloqueia_pares_locais(
+    tmp_path, monkeypatch
+):
+    """Timeout no AND global não impede que pares locais em (banca, órgão) já tenham rodado."""
+    from sqlalchemy import event
+    from sqlalchemy.engine import Engine
+    from sqlalchemy.exc import OperationalError
+
+    recs = [
+        _rec(
+            "cebraspe-2022-inss-alvo-timeout",
+            orgao="INSS",
+            assunto="",
+            enunciado="Aposentadoria da pessoa com deficiência no RGPS.",
+            gabarito="errado",
+        ),
+        _rec(
+            "cebraspe-2022-inss-par-001",
+            orgao="INSS",
+            assunto="",
+            enunciado="Aposentadoria especial para segurado com deficiência auditiva.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2022-inss-par-002",
+            orgao="INSS",
+            assunto="",
+            enunciado="Concessão de aposentadoria ao segurado com deficiência grave.",
+            gabarito="certo",
+        ),
+    ]
+    url = f"sqlite:///{tmp_path / 'rel_timeout_global.db'}"
+    eng = db.get_engine(url)
+    db.create_schema(eng)
+    db.sync_records(recs, eng)
+    from api.main import create_app
+
+    monkeypatch.setenv("AGENTE_RATE_PER_MIN", "30")
+    cli = TestClient(create_app(url))
+    monkeypatch.setattr(
+        agente,
+        "_post_interaction",
+        _post_ok(_sample_llm_json(termo_busca="Aposentadoria pessoa com deficiência")),
+    )
+
+    def _timeout_na_global(conn, cursor, statement, parameters, context, executemany):
+        sql = statement.lower()
+        if "like" in sql and "banca.nome =" not in sql:
+            raise OperationalError(statement, parameters, Exception("statement timeout"))
+
+    event.listen(Engine, "before_cursor_execute", _timeout_na_global)
+    try:
+        r = cli.post(
+            "/agente/explicar",
+            json={"questao_id": "cebraspe-2022-inss-alvo-timeout"},
+        )
+    finally:
+        event.remove(Engine, "before_cursor_execute", _timeout_na_global)
+
+    assert r.status_code == 200
+    body = r.json()
+    assert body["relacionadas_ok"] is True
+    assert {q["id"] for q in body["questoes_relacionadas"]} == {
+        "cebraspe-2022-inss-par-001",
+        "cebraspe-2022-inss-par-002",
+    }
+
+
 def test_explicar_limites_server_side_truncam_e_tokenizer_aceita_siglas(client, monkeypatch):
     """Truncamento server-side nos campos do LLM + siglas maiúsculas (STF/CPC/OAB) no tokenizer."""
     assert agente._palavras_termo_busca("Recurso DO STF no CPC e OAB") == [

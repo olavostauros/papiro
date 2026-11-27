@@ -1124,8 +1124,8 @@ def _buscar_relacionadas(
     """Busca até ``limit`` questões relacionadas por termo/assunto com orçamento total de tempo.
 
     Extrai até 3 palavras significativas (ou siglas maiúsculas de 2-4 letras),
-    prioriza força do match (AND completo local -> AND completo global) e só
-    então fallbacks locais (pares -> palavra isolada); se faltar, busca por
+    prioriza escopo local (AND completo local -> pares locais), depois tenta
+    AND completo global e só então palavra isolada local; se faltar, busca por
     ``assunto``. ``AGENTE_RELACIONADAS_TIMEOUT_MS`` atua como orçamento total
     por request.
     """
@@ -1194,15 +1194,7 @@ def _buscar_relacionadas(
         # 1) (Banca, Orgao) exigindo TODAS as palavras significativas no enunciado
         budget_esgotado = coletar_banca_orgao(*filtros_and)
 
-        # 2) AND completo no acervo inteiro: match global forte vem antes de
-        # fallback local fraco (pares/palavra isolada), que é menos relevante.
-        if not budget_esgotado and len(encontradas) < limit:
-            budget_esgotado = coletar(
-                queries.base_questao().where(*filtros_and),
-                ordenar=False,
-            )
-
-        # 3) Faltando itens com 3 palavras, tenta pares locais (AND de 2),
+        # 2) Faltando itens com 3 palavras, tenta pares locais (AND de 2),
         # começando pelas duas mais longas.
         if not budget_esgotado and len(palavras) > 2 and len(encontradas) < limit:
             for p1, p2 in combinations(palavras, 2):
@@ -1212,6 +1204,16 @@ def _buscar_relacionadas(
                     queries.unaccent_ilike(QuestaoDB.enunciado, p1),
                     queries.unaccent_ilike(QuestaoDB.enunciado, p2),
                 )
+
+        # 3) AND completo no acervo inteiro: vem depois dos pares locais porque,
+        # sem índice trigrama, é a consulta mais lenta e, se estourar o orçamento
+        # antes, os pares (rápidos e do mesmo tema) nunca rodam; continua antes
+        # da palavra isolada, que é o match mais fraco.
+        if not budget_esgotado and len(encontradas) < limit:
+            budget_esgotado = coletar(
+                queries.base_questao().where(*filtros_and),
+                ordenar=False,
+            )
 
         # 4) Palavra isolada local (da mais longa à mais curta) só se ainda faltar item.
         if not budget_esgotado and len(palavras) > 1 and len(encontradas) < limit:
