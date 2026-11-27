@@ -62,6 +62,9 @@ componentes e custom elements. Curto e vinculante: em dúvida, siga a tabela.
   acrescenta o contexto: "Resolver as questões — {prova}".
 - **Jargão de pipeline proibido na UI**: ingerido, shard, crawler, registro.
   Prefira "catalogado", "reunido no acervo".
+- **Lacuna do acervo é limitação nossa, não da prova**: "não está transcrito
+  no acervo" (texto) / "não está reproduzido no acervo" (material visual),
+  sempre com a fonte oficial como caminho — nunca "não foi processado".
 - **Texto do dataset é dado, não copy**: enunciados, alternativas, nomes de
   cargo/órgão passam por `esc()` e nunca são reescritos — inclusive caixa
   ALL-CAPS, que se corrige na fonte, não na exibição.
@@ -98,7 +101,10 @@ ancorado no acervo. Além das regras gerais, valem as suas:
 | página/nav de `/agente/edital` | **Edital** (nav) · **Cruzar o edital** (H1, botão, `title`) | |
 | questão sem gabarito vigente | **anulada** | mesma palavra do dataset |
 | enunciado sem o texto que o embasa | **texto-base ausente** | aviso, não erro |
-| questões sugeridas ao final | **Questões relacionadas** | CTA "Resolver" |
+| figura/gráfico/tabela/circuito/planta necessário, fora do acervo | **material visual** | aviso "Material visual ausente"; nunca chamar de texto-base |
+| seção que explica o erro do usuário | **Por que parecia certa?** | pergunta direta — nunca "Diagnóstico do erro"; só quando `acertou: false` |
+| tópico curto sugerido para revisão | **Tópico de revisão** | label antes do badge, dentro da seção do erro; o tópico vem do LLM em estilo de item de edital |
+| questões sugeridas ao final | **Questões relacionadas** | CTA "Resolver"; só se `relacionadas_ok=true` |
 | prioridade do tópico | **Prioridade alta · média · baixa** | redação do badge |
 
 ### Explicar a questão (`POST /agente/explicar`)
@@ -122,7 +128,10 @@ ancorado no acervo. Além das regras gerais, valem as suas:
 | relacionada — CTA | "Resolver" — aria-label "Resolver a questão — {id}" |
 | relacionada — fonte | link secundário ao lado do CTA — "Fonte oficial"/"PDF oficial", aria "{rótulo} — {id}" |
 | `anulada: true` | título "Questão anulada"; corpo "A banca anulou esta questão — não há gabarito vigente nem explicação. Confira os comunicados na fonte oficial." |
-| `texto_base_ausente: true` | título "Texto-base ausente"; corpo "Esta questão remete a um texto-base externo que não está no recorte do acervo. O gabarito oficial está confirmado, mas a justificativa depende do texto — consulte a fonte oficial." — a linha do gabarito/feedback também abre este aviso |
+| `texto_base_ausente: true`, `material_ausente: "texto"` | título "Texto-base ausente"; corpo "Esta questão remete a um texto-base que não está transcrito no acervo. O gabarito oficial está confirmado, mas a explicação depende do texto — consulte a fonte oficial." — a linha do gabarito/feedback também abre este aviso |
+| `texto_base_ausente: true`, `material_ausente: "imagem"` | título "Material visual ausente"; corpo "O material visual desta questão (figura, gráfico ou tabela) não está reproduzido no acervo. O gabarito oficial está confirmado, mas a explicação depende desse material — consulte a fonte oficial." — a linha do gabarito/feedback também abre este aviso |
+| seção do erro (`acertou: false` + `por_que_parecia_certa` + `topico_para_revisar` preenchidos) | bloco destacado antes da Explicação — título "Por que parecia certa?"; some quando um dos campos vem vazio |
+| seção do erro — label do tópico | "Tópico de revisão" — os dois-pontos ficam fora da string; tópico em badge |
 | link da fonte | "Fonte oficial"; `.pdf` → "PDF oficial" |
 | disclaimer | "Explicação gerada por inteligência artificial — pode conter imprecisões. O gabarito é o oficial da banca; em caso de divergência, vale o PDF oficial da prova." |
 | modelo | sufixo do disclaimer: " · modelo {modelo}" — omitir quando `"nenhum"`; `cached` nunca aparece |

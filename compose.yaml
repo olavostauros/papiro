@@ -9,8 +9,9 @@
 # Variáveis: ficam no agregado `.env/docker.env` (KEY=VAL) — o compose exige
 # `--env-file` porque `.env/` é diretório; alternativa: exportar no shell.
 # Esperadas: POSTGRES_PASSWORD, POSTGRES_RO_PASSWORD, FIRECRAWL_API_KEY.
-# Opcionais do agente: GEMINI_API_KEY, GEMINI_MODEL, GEMINI_FALLBACK_MODEL
-# (ausentes → /agente responde 503, resto da API sobe normal) e
+# Opcionais do agente: GEMINI_API_KEY, GEMINI_MODEL, GEMINI_FALLBACK_MODEL,
+# GEMINI_THINKING_LEVEL, GEMINI_FALLBACK_THINKING_LEVEL, GEMINI_MAX_OUTPUT_TOKENS
+# (ausentes → /agente responde 503 ou usa defaults, resto da API sobe normal) e
 # TRUSTED_PROXY_IPS (CIDRs que podem injetar cf-connecting-ip — default
 # loopback+privadas; ver .agents/docs/deploy-gcp.md §invariante de topologia).
 # O crawler roda sob o profile `crawler` (one-shot por comando); na VM o loop
@@ -47,6 +48,9 @@ services:
       GEMINI_API_KEY: ${GEMINI_API_KEY:-}
       GEMINI_MODEL: ${GEMINI_MODEL:-}
       GEMINI_FALLBACK_MODEL: ${GEMINI_FALLBACK_MODEL:-}
+      GEMINI_THINKING_LEVEL: ${GEMINI_THINKING_LEVEL:-}
+      GEMINI_FALLBACK_THINKING_LEVEL: ${GEMINI_FALLBACK_THINKING_LEVEL:-}
+      GEMINI_MAX_OUTPUT_TOKENS: ${GEMINI_MAX_OUTPUT_TOKENS:-}
       TRUSTED_PROXY_IPS: ${TRUSTED_PROXY_IPS:-}
     depends_on:
       db:
