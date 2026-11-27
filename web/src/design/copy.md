@@ -63,8 +63,8 @@ componentes e custom elements. Curto e vinculante: em dúvida, siga a tabela.
 - **Jargão de pipeline proibido na UI**: ingerido, shard, crawler, registro.
   Prefira "catalogado", "reunido no acervo".
 - **Lacuna do acervo é limitação nossa, não da prova**: "não está transcrito
-  no acervo" (texto) / "não está reproduzido no acervo" (material visual) —
-  nunca "não foi processado" nem ausência sem explicação.
+  no acervo" (texto) / "não está reproduzido no acervo" (material visual),
+  sempre com a fonte oficial como caminho — nunca "não foi processado".
 - **Texto do dataset é dado, não copy**: enunciados, alternativas, nomes de
   cargo/órgão passam por `esc()` e nunca são reescritos — inclusive caixa
   ALL-CAPS, que se corrige na fonte, não na exibição.
@@ -129,7 +129,7 @@ ancorado no acervo. Além das regras gerais, valem as suas:
 | relacionada — fonte | link secundário ao lado do CTA — "Fonte oficial"/"PDF oficial", aria "{rótulo} — {id}" |
 | `anulada: true` | título "Questão anulada"; corpo "A banca anulou esta questão — não há gabarito vigente nem explicação. Confira os comunicados na fonte oficial." |
 | `texto_base_ausente: true`, `material_ausente: "texto"` | título "Texto-base ausente"; corpo "Esta questão remete a um texto-base que não está transcrito no acervo. O gabarito oficial está confirmado, mas a explicação depende do texto — consulte a fonte oficial." — a linha do gabarito/feedback também abre este aviso |
-| `texto_base_ausente: true`, `material_ausente: "imagem"` | título "Material visual ausente"; corpo "Esta questão exige material visual (figura, gráfico ou tabela) que não está reproduzido no acervo. O gabarito oficial está confirmado, mas a explicação depende desse material — consulte a fonte oficial." — a linha do gabarito/feedback também abre este aviso |
+| `texto_base_ausente: true`, `material_ausente: "imagem"` | título "Material visual ausente"; corpo "O material visual desta questão (figura, gráfico ou tabela) não está reproduzido no acervo. O gabarito oficial está confirmado, mas a explicação depende desse material — consulte a fonte oficial." — a linha do gabarito/feedback também abre este aviso |
 | seção do erro (`acertou: false` + `por_que_parecia_certa` + `topico_para_revisar` preenchidos) | bloco destacado antes da Explicação — título "Por que parecia certa?"; some quando um dos campos vem vazio |
 | seção do erro — label do tópico | "Tópico de revisão" — os dois-pontos ficam fora da string; tópico em badge |
 | link da fonte | "Fonte oficial"; `.pdf` → "PDF oficial" |

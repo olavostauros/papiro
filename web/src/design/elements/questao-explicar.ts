@@ -68,7 +68,7 @@ const MATERIAL_AUSENTE_COPY = {
   imagem: {
     titulo: 'Material visual ausente',
     corpo:
-      'Esta questão exige material visual (figura, gráfico ou tabela) que não está reproduzido no acervo. O gabarito oficial está confirmado, mas a explicação depende desse material — consulte a fonte oficial.',
+      'O material visual desta questão (figura, gráfico ou tabela) não está reproduzido no acervo. O gabarito oficial está confirmado, mas a explicação depende desse material — consulte a fonte oficial.',
   },
 } as const;
 
