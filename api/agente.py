@@ -149,7 +149,7 @@ _VISUAL_DEITICO_FORTE_PAT = (
 _VISUAL_DEITICO_POSICIONAL_PAT = r"(?:acima|abaixo|ao\s+lado)"
 _VISUAL_ROTULO_PAT = r"(?:[A-Z]{0,3}\d+[A-Z0-9-]*|(?-i:[IVX]{1,4})\b)"
 _VISUAL_CONCEITUAL_NEG_PAT = (
-    r"(?!\s+(?:"
+    r"(?!(?:\s+|-)(?:"
     r"cl[ií]nic[ao]s?|d[ao]\s+paciente|de\s+sa[uú]de|patol[oó]gic[ao]s?|"
     r"epidemiol[oó]gic[ao]s?|sintom[aá]tic[ao]s?|infeccios[ao]s?|agud[ao]s?|graves?|"
     r"conceitua(?:l|is)|verdade|peri[oó]dic[ao]s?|ascii|digital|digitais|[23]d|"
@@ -842,21 +842,28 @@ def _truncar(texto: str, limite: int) -> str:
     return limpo[:limite].rstrip()
 
 
+def _evidencia_tabela_transcrita(texto: str) -> bool:
+    """Evidência de tabela/quadro transcritos: densidade numérica ou grade V/F."""
+    if _contar_digitos(texto) >= 15:
+        return True
+    # Tabelas-verdade transcritas viram sequências longas de V/F soltos
+    # (o cabeçalho P/Q/R fica de fora por não usar essas letras isoladas).
+    return len(re.findall(r"(?<![A-Za-z])[VF](?![A-Za-z])", texto)) >= 8
+
+
 def _match_material_visual(
-    texto: str, *, ignorar_tabela_transcrita: bool = False
+    texto: str, *, tabela_transcrita: bool = False
 ) -> Optional[re.Match[str]]:
     """Primeira referência visual relevante, ignorando tabela/quadro já transcritos.
 
-    Densidade numérica alta é evidência útil de dados tabulares transcritos no
-    próprio texto, mas não de que uma figura/circuito/planta tenha sido
-    convertida em linguagem natural — por isso a exceção vale só para
-    ``tabela``/``quadro``.
+    A exceção vale só para ``tabela``/``quadro``: números ou símbolos no
+    entorno podem evidenciar transcrição tabular, mas não provam que uma
+    figura/circuito/planta tenha sido convertida em linguagem natural.
     """
     if not texto:
         return None
-    tabular_transcrito = ignorar_tabela_transcrita and _contar_digitos(texto) >= 15
     for m in _REF_MATERIAL_VISUAL_RE.finditer(texto):
-        if tabular_transcrito and _VISUAL_TABULAR_RE.search(m.group(0)):
+        if tabela_transcrita and _VISUAL_TABULAR_RE.search(m.group(0)):
             continue
         return m
     return None
@@ -868,19 +875,20 @@ def _imagem_base_ausente(
     """Detecta material visual não transcrito a partir de referência visual no enunciado ou texto."""
     tb = texto_base or {}
     conteudo = tb.get("conteudo") or ""
+    tabela_transcrita = _evidencia_tabela_transcrita(f"{enunciado}\n{conteudo}")
     if bool(tb.get("imagem")):
-        m = _REF_MATERIAL_VISUAL_RE.search(enunciado) or _REF_MATERIAL_VISUAL_RE.search(
-            conteudo
-        )
+        m = _match_material_visual(
+            enunciado, tabela_transcrita=tabela_transcrita
+        ) or _match_material_visual(conteudo, tabela_transcrita=tabela_transcrita)
         if not m:
             return False, None
         ref = (tb.get("ref") or "").strip() or m.group(0).strip()
         return True, ref
 
-    m = _match_material_visual(enunciado, ignorar_tabela_transcrita=True)
+    m = _match_material_visual(enunciado, tabela_transcrita=tabela_transcrita)
     if m:
         return True, m.group(0).strip()
-    m_txt = _match_material_visual(conteudo, ignorar_tabela_transcrita=True)
+    m_txt = _match_material_visual(conteudo, tabela_transcrita=tabela_transcrita)
     if m_txt:
         ref = (tb.get("ref") or "").strip() or m_txt.group(0).strip()
         return True, ref
@@ -1594,8 +1602,8 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
                 por_que = _truncar(por_que, 600)
                 topico_rev = _truncar(topico_rev, 60)
                 pontos_chave = [
-                    _truncar(p, 200) for p in llm_out.pontos_chave if p.strip()
-                ][:5]
+                    _truncar(p, 200) for p in llm_out.pontos_chave[:5] if p.strip()
+                ]
 
                 relacionadas, relacionadas_ok = await anyio.to_thread.run_sync(
                     _buscar_relacionadas, s, questao, termo_busca,
@@ -1663,7 +1671,10 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
                 except ValidationError:
                     raise HTTPException(503, "agente indisponível: formato inesperado do provedor")
 
-                banca_ident = (llm_out.banca_identificada or "").strip() or banca_req
+                banca_ident = _truncar(
+                    (llm_out.banca_identificada or "").strip() or banca_req or "",
+                    120,
+                )
                 banca_db = await anyio.to_thread.run_sync(
                     _resolver_banca, s, banca_req or llm_out.banca_identificada,
                     limiter=db_limiter,
@@ -1675,7 +1686,7 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
                 topicos_out: list[TopicoEdital] = []
                 tempo_total_ms = 0
                 for item in llm_out.topicos[:MAX_EDITAL_TOPICOS]:
-                    termo = _normalizar_termo_busca(item.termo_busca)
+                    termo = _truncar(_normalizar_termo_busca(item.termo_busca), 60)
                     qtd, timed_out, elapsed_ms = await anyio.to_thread.run_sync(
                         _contar_questoes_por_termo, s, termo, banca_db, timeout_ms,
                         limiter=db_limiter,
@@ -1698,8 +1709,8 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
                         filtro["banca"] = banca_db
                     topicos_out.append(
                         TopicoEdital(
-                            disciplina=item.disciplina.strip() or "Geral",
-                            topico=item.topico.strip(),
+                            disciplina=_truncar(item.disciplina.strip() or "Geral", 120),
+                            topico=_truncar(item.topico.strip(), 300),
                             prioridade=_norm_prioridade(item.prioridade),
                             termo_busca=termo,
                             questoes_disponiveis=qtd,
@@ -1714,7 +1725,7 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
             state.release_slot()
 
         return EditalResponse(
-            resumo=llm_out.resumo.strip(),
+            resumo=_truncar(llm_out.resumo.strip(), 1200),
             banca_identificada=banca_ident,
             topicos=topicos_out,
             tempo_total_consultas_ms=tempo_total_ms,

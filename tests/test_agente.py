@@ -508,6 +508,29 @@ def test_edital_sucesso_max_6_topicos_e_contagem_real(client, monkeypatch):
     assert body["tempo_total_consultas_ms"] >= 0
 
 
+def test_edital_limites_server_side_truncam_campos_longos(client, monkeypatch):
+    payload = _sample_edital_json(2)
+    payload["resumo"] = "R" * 1400
+    payload["banca_identificada"] = "B" * 140
+    payload["topicos"][0].update({
+        "disciplina": "D" * 140,
+        "topico": "T" * 340,
+        "termo_busca": "ato administrativo",
+    })
+    monkeypatch.setattr(agente, "_post_interaction", _post_ok(payload))
+
+    r = client.post(
+        "/agente/edital",
+        json={"texto_edital": "Conteúdo programático de exemplo suficientemente longo para validação."},
+    )
+    assert r.status_code == 200
+    b = r.json()
+    assert len(b["resumo"]) == 1200
+    assert len(b["banca_identificada"]) == 120
+    assert len(b["topicos"][0]["disciplina"]) == 120
+    assert len(b["topicos"][0]["topico"]) == 300
+
+
 def test_edital_timeout_consulta_degrada_sem_quebrar(client, monkeypatch):
     monkeypatch.setattr(
         agente,
@@ -1128,7 +1151,42 @@ def test_explicar_stub_so_imagem_aviso_no_prompt_e_curto_circuito(tmp_path, monk
             enunciado="masculino 123 58 23 feminino 116 66 14 Escolhendo-se ao acaso um dos contratos da tabela a seguir, a chance de ser mulher com até 40 anos é maior.",
             gabarito="certo",
         ),
-        # 5. Densidade numérica não abrange figura/circuito — só tabela/quadro transcritos
+        # 5. Tabelas transcritas no texto-base livram o item mesmo quando a
+        # referência aparece só no enunciado (casos reais EMBRAPA/DER-AL/BNB)
+        _rec(
+            "cebraspe-2024-embrapa-analista-opcao-40000012-023-mock",
+            enunciado="As medidas de posição mostradas na tabela sugerem que a distribuição das alturas apresenta assimetria negativa.",
+            gabarito="errado",
+            texto={
+                "ref": "",
+                "conteudo": "Na tabela a seguir, são registradas estatísticas de 100 indivíduos. média 150 mediana 152 moda 154 amplitude total 40 desvio padrão 15",
+                "citacao": "",
+                "imagem": False,
+            },
+        ),
+        _rec(
+            "cebraspe-2026-deral-assessor-tecnico-rodoviario-engenharia-civil-092-mock",
+            enunciado="O valor C indicado na tabela, referente ao saldo contratual reajustado em abril de 2026, é igual a R$ 11.165.700,00.",
+            gabarito="certo",
+            texto={
+                "ref": "",
+                "conteudo": "Os dados da tabela a seguir referem-se a contrato. abril/2024 40.000.000,00 5,00 A abril/2025 30.000.000,00 4,00 B abril/2026 10.000.000,00 4,50 C",
+                "citacao": "",
+                "imagem": False,
+            },
+        ),
+        _rec(
+            "cebraspe-2018-bancodonordeste-qualificador-analista-043-mock",
+            enunciado="Os elementos da coluna da tabela-verdade correspondente à proposição Pv(QwR) são V / V / V / V / F / V / F / F.",
+            gabarito="errado",
+            texto={
+                "ref": "",
+                "conteudo": "A tabela a seguir mostra o início da construção de tabelas-verdade. P Q R\nV V V\nV V F\nV F V\nV F F\nF V V\nF V F\nF F V\nF F F",
+                "citacao": "",
+                "imagem": False,
+            },
+        ),
+        # 6. Densidade numérica não abrange figura/circuito — só tabela/quadro transcritos
         _rec(
             "cebraspe-2026-sem-texto-circuito-digitos",
             enunciado="Considere os resistores R1 = 10 Ω, R2 = 20 Ω, R3 = 30 Ω, R4 = 40 Ω e R5 = 50 Ω. No circuito representado na figura precedente, a corrente total é 2 A em 12 V.",
@@ -1256,6 +1314,9 @@ def test_explicar_stub_so_imagem_aviso_no_prompt_e_curto_circuito(tmp_path, monk
         "cebraspe-2026-agsus-arquitetura-26-037-mock",
         "cebraspe-2024-codevasf-publicidade-057-mock",
         "cebraspe-2023-camacari-tabela-transcrita",
+        "cebraspe-2024-embrapa-analista-opcao-40000012-023-mock",
+        "cebraspe-2026-deral-assessor-tecnico-rodoviario-engenharia-civil-092-mock",
+        "cebraspe-2018-bancodonordeste-qualificador-analista-043-mock",
         "cebraspe-2026-metafora-quadro-clinico",
         "cebraspe-2026-metafora-quadro-paciente",
         "cebraspe-2026-metafora-figura-gerente",
