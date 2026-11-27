@@ -63,18 +63,18 @@ const MATERIAL_AUSENTE_COPY = {
   texto: {
     titulo: 'Texto-base ausente',
     corpo:
-      'Esta questão remete a um texto-base externo que não está no recorte do acervo. O gabarito oficial está confirmado, mas a justificativa depende do texto — consulte a fonte oficial.',
+      'Esta questão remete a um texto-base que não está transcrito no acervo. O gabarito oficial está confirmado, mas a explicação depende do texto — consulte a fonte oficial.',
   },
   imagem: {
     titulo: 'Material visual ausente',
     corpo:
-      'Esta questão depende de material visual (figura, gráfico, tabela ou imagem) disponível apenas no caderno oficial da prova. O gabarito oficial está confirmado, mas a justificativa depende desse material — consulte a fonte oficial.',
+      'Esta questão exige material visual (figura, gráfico ou tabela) que não está reproduzido no acervo. O gabarito oficial está confirmado, mas a explicação depende desse material — consulte a fonte oficial.',
   },
 } as const;
 
 const DIAGNOSTICO_COPY = {
-  titulo: 'Diagnóstico do erro',
-  topico: 'Tópico para revisar',
+  titulo: 'Por que parecia certa?',
+  topico: 'Tópico de revisão',
 } as const;
 
 /** Gabarito do acervo → mesma inflexão do card ("Certo"/"Errado"/"Alternativa X"). */
