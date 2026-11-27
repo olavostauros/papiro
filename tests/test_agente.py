@@ -155,7 +155,10 @@ def test_explicar_sucesso_e_ancoragem_gabarito(client, monkeypatch):
         seen_payloads.append(payload)
         assert headers["Api-Revision"] == "2026-05-20"
         assert payload["store"] is False
-        assert payload["generation_config"] == {"thinking_level": "low"}
+        assert payload["generation_config"] == {
+            "thinking_level": "low",
+            "max_output_tokens": 2048,
+        }
         return _gemini_ok_response(_sample_llm_json())
 
     monkeypatch.setattr(agente, "_post_interaction", fake_post)
@@ -1125,7 +1128,13 @@ def test_explicar_stub_so_imagem_aviso_no_prompt_e_curto_circuito(tmp_path, monk
             enunciado="masculino 123 58 23 feminino 116 66 14 Escolhendo-se ao acaso um dos contratos da tabela a seguir, a chance de ser mulher com até 40 anos é maior.",
             gabarito="certo",
         ),
-        # 5. Novos vocábulos + lacuna de até 4 palavras entre substantivo e dêitico -> DEVEM barrar
+        # 5. Densidade numérica não abrange figura/circuito — só tabela/quadro transcritos
+        _rec(
+            "cebraspe-2026-sem-texto-circuito-digitos",
+            enunciado="Considere os resistores R1 = 10 Ω, R2 = 20 Ω, R3 = 30 Ω, R4 = 40 Ω e R5 = 50 Ω. No circuito representado na figura precedente, a corrente total é 2 A em 12 V.",
+            gabarito="certo",
+        ),
+        # 6. Novos vocábulos + lacuna de até 4 palavras entre substantivo e dêitico -> DEVEM barrar
         _rec(
             "cebraspe-2026-sem-texto-circuito-001",
             enunciado="No circuito acima, a corrente que percorre o resistor R1 é constante.",
@@ -1187,6 +1196,21 @@ def test_explicar_stub_so_imagem_aviso_no_prompt_e_curto_circuito(tmp_path, monk
             enunciado="O diagrama de Ishikawa tem a finalidade de mapear causas e efeitos de um problema.",
             gabarito="certo",
         ),
+        _rec(
+            "cebraspe-2026-conceitual-grafico-dominancia",
+            enunciado="Se F(x) possui dominância estocástica de primeira ordem sobre G(x), então o gráfico de F estará sempre abaixo do gráfico de G.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2026-conceitual-imagem-3d",
+            enunciado="Na ultrassonografia, as imagens 3D podem ser obtidas por meio da rotação ou oscilação de um transdutor.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2026-conceitual-tabelas-sql",
+            enunciado="Em um sistema de biblioteca, existem três tabelas com as seguintes colunas. livros: id, título, autor_id; autores: id, nome; categorias: id, nome.",
+            gabarito="certo",
+        ),
     ]
     url = f"sqlite:///{tmp_path / 'imagem_stub.db'}"
     eng = db.get_engine(url)
@@ -1209,6 +1233,7 @@ def test_explicar_stub_so_imagem_aviso_no_prompt_e_curto_circuito(tmp_path, monk
         "cebraspe-2016-tcepa-analista-suporte-092-mock",
         "cebraspe-2021-anm-seguranca-056-mock",
         "cebraspe-2026-sem-texto-circuito-001",
+        "cebraspe-2026-sem-texto-circuito-digitos",
         "cebraspe-2026-sem-texto-radiografia-002",
         "cebraspe-2026-sem-texto-planta-003",
         "cebraspe-2026-sem-texto-foto-004",
@@ -1237,6 +1262,9 @@ def test_explicar_stub_so_imagem_aviso_no_prompt_e_curto_circuito(tmp_path, monk
         "cebraspe-2026-metafora-figura-atos",
         "cebraspe-2026-conceitual-tabela-verdade",
         "cebraspe-2026-conceitual-ishikawa",
+        "cebraspe-2026-conceitual-grafico-dominancia",
+        "cebraspe-2026-conceitual-imagem-3d",
+        "cebraspe-2026-conceitual-tabelas-sql",
     )
     for qid in nao_barram:
         r = cli.post("/agente/explicar", json={"questao_id": qid})
@@ -1732,12 +1760,12 @@ def test_explicar_cache_por_resposta_usuario_e_duvida_fora(client, monkeypatch):
 
 
 def test_thinking_level_configuravel_por_env(client, monkeypatch):
-    seen: list[tuple[str, str]] = []
+    seen: list[tuple[str, str, int]] = []
 
     async def fake_post(u, headers, payload, timeout):
         model = payload["model"]
-        lvl = payload["generation_config"]["thinking_level"]
-        seen.append((model, lvl))
+        cfg = payload["generation_config"]
+        seen.append((model, cfg["thinking_level"], cfg["max_output_tokens"]))
         if model == "gemini-4-hydrogen" and len(seen) <= 2:
             return httpx.Response(503, json={"error": {"message": "high demand"}})
         return _gemini_ok_response(_sample_llm_json())
@@ -1748,12 +1776,13 @@ def test_thinking_level_configuravel_por_env(client, monkeypatch):
 
     monkeypatch.setenv("GEMINI_THINKING_LEVEL", "medium")
     monkeypatch.setenv("GEMINI_FALLBACK_THINKING_LEVEL", "high")
+    monkeypatch.setenv("GEMINI_MAX_OUTPUT_TOKENS", "1536")
     r1 = client.post("/agente/explicar", json={"questao_id": "cebraspe-2024-pf-escrivao-001"})
     assert r1.status_code == 200
     assert seen == [
-        ("gemini-4-hydrogen", "medium"),
-        ("gemini-4-hydrogen", "medium"),
-        ("gemini-3.5-flash-lite", "high"),
+        ("gemini-4-hydrogen", "medium", 1536),
+        ("gemini-4-hydrogen", "medium", 1536),
+        ("gemini-3.5-flash-lite", "high", 1536),
     ]
 
     # Valor inválido cai no padrão "low"
@@ -1764,7 +1793,7 @@ def test_thinking_level_configuravel_por_env(client, monkeypatch):
         json={"questao_id": "fcc-2024-tj-analista-001", "duvida": "teste"},
     )
     assert r2.status_code == 200
-    assert seen[-1] == ("gemini-3.5-flash-lite", "low")
+    assert seen[-1] == ("gemini-3.5-flash-lite", "low", 1536)
 
 
 def test_explicar_relacionadas_termo_4_palavras_extrai_e_isola_em_banca_orgao(
@@ -1909,6 +1938,66 @@ def test_explicar_relacionadas_pares_antes_de_palavra_isolada(tmp_path, monkeypa
     assert "cebraspe-2022-inss-so-aposentadoria" not in ids
 
 
+def test_explicar_relacionadas_global_forte_antes_de_fallback_local_fraco(
+    tmp_path, monkeypatch
+):
+    """AND completo global tem precedência sobre par/palavra isolada apenas em (banca, órgão)."""
+    recs = [
+        _rec(
+            "cebraspe-2022-inss-alvo-global",
+            orgao="INSS",
+            assunto="",
+            enunciado="Aposentadoria da pessoa com deficiência no RGPS.",
+            gabarito="errado",
+        ),
+        _rec(
+            "cebraspe-2022-inss-so-aposentadoria-global",
+            orgao="INSS",
+            assunto="",
+            enunciado="Regras gerais de aposentadoria por tempo de contribuição.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2022-inss-so-deficiencia-global",
+            orgao="INSS",
+            assunto="",
+            enunciado="A deficiência auditiva exige adaptação razoável no ambiente de trabalho.",
+            gabarito="certo",
+        ),
+        _rec(
+            "cebraspe-2024-agu-global-and-completo",
+            orgao="AGU",
+            assunto="",
+            enunciado="Critérios de aposentadoria para pessoa com deficiência física no serviço público.",
+            gabarito="certo",
+        ),
+    ]
+    url = f"sqlite:///{tmp_path / 'rel_global_forte.db'}"
+    eng = db.get_engine(url)
+    db.create_schema(eng)
+    db.sync_records(recs, eng)
+    from api.main import create_app
+
+    monkeypatch.setenv("AGENTE_RATE_PER_MIN", "30")
+    cli = TestClient(create_app(url))
+    monkeypatch.setattr(
+        agente,
+        "_post_interaction",
+        _post_ok(_sample_llm_json(termo_busca="Aposentadoria pessoa com deficiência")),
+    )
+
+    r = cli.post("/agente/explicar", json={"questao_id": "cebraspe-2022-inss-alvo-global"})
+    assert r.status_code == 200
+    body = r.json()
+    assert body["relacionadas_ok"] is True
+    ids = [q["id"] for q in body["questoes_relacionadas"]]
+    assert ids[0] == "cebraspe-2024-agu-global-and-completo"
+    assert set(ids[1:]) == {
+        "cebraspe-2022-inss-so-aposentadoria-global",
+        "cebraspe-2022-inss-so-deficiencia-global",
+    }
+
+
 def test_explicar_limites_server_side_truncam_e_tokenizer_aceita_siglas(client, monkeypatch):
     """Truncamento server-side nos campos do LLM + siglas maiúsculas (STF/CPC/OAB) no tokenizer."""
     assert agente._palavras_termo_busca("Recurso DO STF no CPC e OAB") == [
@@ -1928,6 +2017,8 @@ def test_explicar_limites_server_side_truncam_e_tokenizer_aceita_siglas(client, 
                 por_que_parecia_certa="C" * 800,
                 explicacao="D" * 2500,
                 armadilha_banca="E" * 800,
+                disciplina_inferida="H" * 150,
+                conceito_chave="I" * 350,
                 pontos_chave=["F" * 300, "G" * 50],
             )
         ),
@@ -1943,4 +2034,6 @@ def test_explicar_limites_server_side_truncam_e_tokenizer_aceita_siglas(client, 
     assert len(b["por_que_parecia_certa"]) == 600
     assert len(b["explicacao"]) == 2000
     assert len(b["armadilha_banca"]) == 600
+    assert len(b["disciplina_inferida"]) == 120
+    assert len(b["conceito_chave"]) == 300
     assert [len(p) for p in b["pontos_chave"]] == [200, 50]

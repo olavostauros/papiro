@@ -77,6 +77,7 @@ _VALID_THINKING_LEVELS = frozenset({"minimal", "low", "medium", "high"})
 DEFAULT_PRIMARY_TIMEOUT_S = 10.0
 DEFAULT_FALLBACK_TIMEOUT_S = 15.0
 DEFAULT_PRIMARY_COOLDOWN_S = 300.0
+DEFAULT_GEMINI_MAX_OUTPUT_TOKENS = 2048
 DEFAULT_RELACIONADAS_TIMEOUT_MS = 1200
 MAX_EDITAL_TOPICOS = 6
 DEFAULT_EDITAL_QUERY_TIMEOUT_MS = 2500
@@ -140,17 +141,18 @@ _VISUAL_NOUN_PAT = (
     r"ilustra[cç](?:[oõ]es|[aã]o)|fluxogramas?|diagramas?|"
     r"circuitos?|radiografias?|plantas?|fotos?|fotografias?)"
 )
-_VISUAL_DEITICO_POS_PAT = (
-    r"(?:acima|abaixo|anterior(?:es|mente)?|seguinte(?:s)?|precedente(?:s)?|"
+_VISUAL_DEITICO_FORTE_PAT = (
+    r"(?:anterior(?:es|mente)?|seguinte(?:s)?|precedente(?:s)?|"
     r"a\s+seguir|apresentad[ao]s?|ilustrad[ao]s?|mostrad[ao]s?|"
-    r"exibid[ao]s?|reproduzid[ao]s?|fornecid[ao]s?|ao\s+lado|em\s+quest[aã]o)"
+    r"exibid[ao]s?|reproduzid[ao]s?|fornecid[ao]s?|em\s+quest[aã]o)"
 )
+_VISUAL_DEITICO_POSICIONAL_PAT = r"(?:acima|abaixo|ao\s+lado)"
 _VISUAL_ROTULO_PAT = r"(?:[A-Z]{0,3}\d+[A-Z0-9-]*|(?-i:[IVX]{1,4})\b)"
 _VISUAL_CONCEITUAL_NEG_PAT = (
     r"(?!\s+(?:"
     r"cl[ií]nic[ao]s?|d[ao]\s+paciente|de\s+sa[uú]de|patol[oó]gic[ao]s?|"
     r"epidemiol[oó]gic[ao]s?|sintom[aá]tic[ao]s?|infeccios[ao]s?|agud[ao]s?|graves?|"
-    r"conceitua(?:l|is)|verdade|peri[oó]dic[ao]s?|ascii|digital|digitais|"
+    r"conceitua(?:l|is)|verdade|peri[oó]dic[ao]s?|ascii|digital|digitais|[23]d|"
     r"mentais|mental|pessoal|funcional|geral|pol[ií]tic[ao]s?|econ[oô]mic[ao]s?|socia(?:l|is)|"
     r"jur[ií]dic[ao]s?|normativ[ao]s?|lega(?:l|is)|pena(?:l|is)|t[ií]pic[ao]s?|p[uú]blic[ao]s?|"
     r"de\s+(?:linguagem|estilo|pensamento|sintaxe|ret[oó]rica|pessoal|servidores|carreira|vagas|ishikawa|karnaugh|implanta[cç][aã]o)|"
@@ -166,13 +168,16 @@ _VISUAL_CONCEITUAL_NEG_PAT = (
     r"trabalhadores?|pacientes?|usu[aá]rios?|clientes?|partes?|v[ií]timas?|"
     r"testemunhas?|peritos?|conciliadores?|mediadores?|pregoeiros?|prepostos?|"
     r"empres[aá]rios?|advogados?|licita[cç][aã]o|arbitragem|desconsidera[cç][aã]o|"
-    r"prescri[cç][aã]o|decad[eê]ncia)"
-    r")\b)"
+    r"prescri[cç][aã]o|decad[eê]ncia)|"
+    r"com\s+(?:as|os)\s+seguintes\s+colunas)"
+    r"\b)"
 )
 _VISUAL_GAP_4_PAT = r"(?:\s+[^\s,.;:!?()]+){0,4}"
+_VISUAL_GAP_2_PAT = r"(?:\s+[^\s,.;:!?()]+){0,2}"
 _REF_MATERIAL_VISUAL_RE = re.compile(
     rf"\b(?:"
-    rf"{_VISUAL_NOUN_PAT}{_VISUAL_CONCEITUAL_NEG_PAT}{_VISUAL_GAP_4_PAT}\s+{_VISUAL_DEITICO_POS_PAT}\b|"
+    rf"{_VISUAL_NOUN_PAT}{_VISUAL_CONCEITUAL_NEG_PAT}{_VISUAL_GAP_4_PAT}\s+{_VISUAL_DEITICO_FORTE_PAT}\b|"
+    rf"{_VISUAL_NOUN_PAT}{_VISUAL_CONCEITUAL_NEG_PAT}{_VISUAL_GAP_2_PAT}\s+{_VISUAL_DEITICO_POSICIONAL_PAT}\b|"
     rf"{_VISUAL_NOUN_PAT}{_VISUAL_CONCEITUAL_NEG_PAT}\s+{_VISUAL_ROTULO_PAT}|"
     rf"(?:com\s+base\s+n[ao]s?|a\s+partir\s+d[ao]s?|de\s+acordo\s+com\s+[ao]s?|"
     rf"conforme\s+[ao]s?|segundo\s+[ao]s?|"
@@ -182,6 +187,7 @@ _REF_MATERIAL_VISUAL_RE = re.compile(
     rf")",
     re.IGNORECASE,
 )
+_VISUAL_TABULAR_RE = re.compile(r"\b(?:tabelas?|quadros?)\b", re.IGNORECASE)
 
 _STOPWORDS_BUSCA = frozenset({
     "a", "o", "as", "os", "e", "de", "da", "do", "das", "dos",
@@ -285,7 +291,7 @@ class ExplicarResponse(BaseModel):
     questoes_relacionadas: list[QuestaoRelacionada] = Field(default_factory=list)
     relacionadas_ok: bool = Field(
         default=False,
-        description="true quando ao menos um item relacionado foi encontrado",
+        description="True quando ao menos um item relacionado foi encontrado, mesmo que a busca tenha sido parcial por timeout; False quando nenhum item foi encontrado ou quando a busca foi pulada (ex.: questão anulada).",
     )
     modelo: str
     cached: bool = False
@@ -615,6 +621,9 @@ async def call_gemini(
     fallback_timeout = _attempt_timeout("AGENTE_FALLBACK_TIMEOUT_S", DEFAULT_FALLBACK_TIMEOUT_S)
     retry_delay = max(0.0, _env_float("AGENTE_RETRY_DELAY_S", 1.0))
     cooldown_s = _env_float("AGENTE_PRIMARY_COOLDOWN_S", DEFAULT_PRIMARY_COOLDOWN_S)
+    max_output_tokens = max(
+        1, _env_int("GEMINI_MAX_OUTPUT_TOKENS", DEFAULT_GEMINI_MAX_OUTPUT_TOKENS)
+    )
 
     headers = {
         "x-goog-api-key": api_key,
@@ -630,7 +639,10 @@ async def call_gemini(
             "system_instruction": system_instruction,
             "input": user_input,
             "store": False,
-            "generation_config": {"thinking_level": thinking_level},
+            "generation_config": {
+                "thinking_level": thinking_level,
+                "max_output_tokens": max_output_tokens,
+            },
             "response_format": {
                 "type": "text",
                 "mime_type": "application/json",
@@ -830,6 +842,26 @@ def _truncar(texto: str, limite: int) -> str:
     return limpo[:limite].rstrip()
 
 
+def _match_material_visual(
+    texto: str, *, ignorar_tabela_transcrita: bool = False
+) -> Optional[re.Match[str]]:
+    """Primeira referência visual relevante, ignorando tabela/quadro já transcritos.
+
+    Densidade numérica alta é evidência útil de dados tabulares transcritos no
+    próprio texto, mas não de que uma figura/circuito/planta tenha sido
+    convertida em linguagem natural — por isso a exceção vale só para
+    ``tabela``/``quadro``.
+    """
+    if not texto:
+        return None
+    tabular_transcrito = ignorar_tabela_transcrita and _contar_digitos(texto) >= 15
+    for m in _REF_MATERIAL_VISUAL_RE.finditer(texto):
+        if tabular_transcrito and _VISUAL_TABULAR_RE.search(m.group(0)):
+            continue
+        return m
+    return None
+
+
 def _imagem_base_ausente(
     enunciado: str, texto_base: Optional[dict[str, Any]]
 ) -> tuple[bool, Optional[str]]:
@@ -845,17 +877,13 @@ def _imagem_base_ausente(
         ref = (tb.get("ref") or "").strip() or m.group(0).strip()
         return True, ref
 
-    if _contar_digitos(enunciado) >= 15:
-        return False, None
-
-    m = _REF_MATERIAL_VISUAL_RE.search(enunciado)
+    m = _match_material_visual(enunciado, ignorar_tabela_transcrita=True)
     if m:
         return True, m.group(0).strip()
-    if conteudo and _contar_digitos(conteudo) < 15:
-        m_txt = _REF_MATERIAL_VISUAL_RE.search(conteudo)
-        if m_txt:
-            ref = (tb.get("ref") or "").strip() or m_txt.group(0).strip()
-            return True, ref
+    m_txt = _match_material_visual(conteudo, ignorar_tabela_transcrita=True)
+    if m_txt:
+        ref = (tb.get("ref") or "").strip() or m_txt.group(0).strip()
+        return True, ref
     return False, None
 
 
@@ -1088,9 +1116,10 @@ def _buscar_relacionadas(
     """Busca até ``limit`` questões relacionadas por termo/assunto com orçamento total de tempo.
 
     Extrai até 3 palavras significativas (ou siglas maiúsculas de 2-4 letras),
-    prioriza ``(banca, orgao)`` (AND completo -> pares -> palavra isolada), amplia
-    para o banco todo apenas com o AND completo e, se faltar, busca por ``assunto``.
-    ``AGENTE_RELACIONADAS_TIMEOUT_MS`` atua como orçamento total por request.
+    prioriza força do match (AND completo local -> AND completo global) e só
+    então fallbacks locais (pares -> palavra isolada); se faltar, busca por
+    ``assunto``. ``AGENTE_RELACIONADAS_TIMEOUT_MS`` atua como orçamento total
+    por request.
     """
     encontradas: list[QuestaoRelacionada] = []
     vistos = {questao["id"]}
@@ -1154,10 +1183,19 @@ def _buscar_relacionadas(
                 ordenar=False,
             )
 
-        # 1a) (Banca, Orgao) exigindo TODAS as palavras significativas no enunciado
+        # 1) (Banca, Orgao) exigindo TODAS as palavras significativas no enunciado
         budget_esgotado = coletar_banca_orgao(*filtros_and)
 
-        # 1b) Faltando itens com 3 palavras, tenta pares (AND de 2), começando pelas duas mais longas
+        # 2) AND completo no acervo inteiro: match global forte vem antes de
+        # fallback local fraco (pares/palavra isolada), que é menos relevante.
+        if not budget_esgotado and len(encontradas) < limit:
+            budget_esgotado = coletar(
+                queries.base_questao().where(*filtros_and),
+                ordenar=False,
+            )
+
+        # 3) Faltando itens com 3 palavras, tenta pares locais (AND de 2),
+        # começando pelas duas mais longas.
         if not budget_esgotado and len(palavras) > 2 and len(encontradas) < limit:
             for p1, p2 in combinations(palavras, 2):
                 if len(encontradas) >= limit or budget_esgotado:
@@ -1167,7 +1205,7 @@ def _buscar_relacionadas(
                     queries.unaccent_ilike(QuestaoDB.enunciado, p2),
                 )
 
-        # 1c) Palavra isolada (da mais longa à mais curta) em (Banca, Orgao) só se ainda faltar item
+        # 4) Palavra isolada local (da mais longa à mais curta) só se ainda faltar item.
         if not budget_esgotado and len(palavras) > 1 and len(encontradas) < limit:
             for palavra in palavras:
                 if len(encontradas) >= limit or budget_esgotado:
@@ -1175,13 +1213,6 @@ def _buscar_relacionadas(
                 budget_esgotado = coletar_banca_orgao(
                     queries.unaccent_ilike(QuestaoDB.enunciado, palavra)
                 )
-
-        # 2) Faltando itens, uma única query global com AND de todas as palavras (nunca isolada)
-        if not budget_esgotado and len(encontradas) < limit:
-            coletar(
-                queries.base_questao().where(*filtros_and),
-                ordenar=False,
-            )
     if len(encontradas) < limit and _assunto_util(questao.get("assunto") or ""):
         if not use_budget or remaining_ms > 0:
             coletar(queries.base_questao().where(Assunto.nome == questao["assunto"]))
@@ -1577,12 +1608,13 @@ def create_agente_router(session_dep: Callable[..., Any]) -> APIRouter:
                     fonte=questao["fonte"],
                     anulada=False,
                     acertou=acertou,
-                    disciplina_inferida=(
-                        llm_out.disciplina_inferida.strip() or questao.get("assunto") or ""
+                    disciplina_inferida=_truncar(
+                        llm_out.disciplina_inferida.strip() or questao.get("assunto") or "",
+                        120,
                     ),
                     explicacao=explicacao,
                     armadilha_banca=armadilha,
-                    conceito_chave=llm_out.conceito_chave.strip(),
+                    conceito_chave=_truncar(llm_out.conceito_chave.strip(), 300),
                     por_que_parecia_certa=por_que,
                     topico_para_revisar=topico_rev,
                     pontos_chave=pontos_chave,
