@@ -162,6 +162,23 @@ No front-end, o design system será construído em `web/src/design/`: tokens de 
 tipografia e espaçamento (via `@theme` do Tailwind) e os componentes base do site — botões,
 ícones, cards, inputs e o que mais a interface precisar.
 
+## Licença
+
+**Todos os direitos reservados** — ver [LICENSE](LICENSE).
+
+- **Código-fonte** (crawler, api, web): público apenas para visualização. Copiar, modificar,
+  redistribuir ou usar — comercialmente ou não — exige autorização prévia e por escrito.
+- **Curadoria do banco de questões** (seleção e organização das provas, estrutura e formato dos
+  dados, metadados, identificadores e o vínculo de cada questão ao gabarito definitivo e à fonte
+  oficial): também reservada. Reproduzir, redistribuir ou usar o dataset, no todo ou em parte,
+  exige autorização.
+- **Texto das questões, provas e gabaritos**: pertence às respectivas bancas organizadoras e aos
+  órgãos públicos que os publicaram. O papiro não detém direitos sobre esse conteúdo, reproduzido
+  para fins educacionais e sempre com indicação da fonte oficial.
+
+Interessado em usar o código ou o banco de questões em um projeto — comercial ou não? Fale com a
+gente antes: **olavostauros@outlook.com**
+
 ## O nome
 
 **papiro** é gíria de concurseiro para o calhamaço de estudo — a apostila, o livro, o edital
