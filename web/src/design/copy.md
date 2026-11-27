@@ -98,7 +98,10 @@ ancorado no acervo. Além das regras gerais, valem as suas:
 | página/nav de `/agente/edital` | **Edital** (nav) · **Cruzar o edital** (H1, botão, `title`) | |
 | questão sem gabarito vigente | **anulada** | mesma palavra do dataset |
 | enunciado sem o texto que o embasa | **texto-base ausente** | aviso, não erro |
-| questões sugeridas ao final | **Questões relacionadas** | CTA "Resolver" |
+| figura/gráfico/tabela não transcrita | **material visual ausente** | aviso, não erro; nunca chamar de texto-base |
+| explicação do erro do usuário | **Diagnóstico do erro** | só quando `acertou=false` |
+| assunto curto sugerido pelo agente | **Tópico para revisar** | badge dentro do diagnóstico |
+| questões sugeridas ao final | **Questões relacionadas** | CTA "Resolver"; só se `relacionadas_ok=true` |
 | prioridade do tópico | **Prioridade alta · média · baixa** | redação do badge |
 
 ### Explicar a questão (`POST /agente/explicar`)
@@ -122,7 +125,9 @@ ancorado no acervo. Além das regras gerais, valem as suas:
 | relacionada — CTA | "Resolver" — aria-label "Resolver a questão — {id}" |
 | relacionada — fonte | link secundário ao lado do CTA — "Fonte oficial"/"PDF oficial", aria "{rótulo} — {id}" |
 | `anulada: true` | título "Questão anulada"; corpo "A banca anulou esta questão — não há gabarito vigente nem explicação. Confira os comunicados na fonte oficial." |
-| `texto_base_ausente: true` | título "Texto-base ausente"; corpo "Esta questão remete a um texto-base externo que não está no recorte do acervo. O gabarito oficial está confirmado, mas a justificativa depende do texto — consulte a fonte oficial." — a linha do gabarito/feedback também abre este aviso |
+| `texto_base_ausente: true`, `material_ausente: "texto"` | título "Texto-base ausente"; corpo "Esta questão remete a um texto-base externo que não está no recorte do acervo. O gabarito oficial está confirmado, mas a justificativa depende do texto — consulte a fonte oficial." — a linha do gabarito/feedback também abre este aviso |
+| `texto_base_ausente: true`, `material_ausente: "imagem"` | título "Material visual ausente"; corpo "Esta questão depende de material visual (figura, gráfico, tabela ou imagem) disponível apenas no caderno oficial da prova. O gabarito oficial está confirmado, mas a justificativa depende desse material — consulte a fonte oficial." |
+| diagnóstico | título "Diagnóstico do erro"; label "Tópico para revisar" — só quando `acertou=false` e os dois campos vierem preenchidos |
 | link da fonte | "Fonte oficial"; `.pdf` → "PDF oficial" |
 | disclaimer | "Explicação gerada por inteligência artificial — pode conter imprecisões. O gabarito é o oficial da banca; em caso de divergência, vale o PDF oficial da prova." |
 | modelo | sufixo do disclaimer: " · modelo {modelo}" — omitir quando `"nenhum"`; `cached` nunca aparece |
