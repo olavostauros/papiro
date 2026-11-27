@@ -16,17 +16,18 @@ RUN pip install --no-cache-dir --require-hashes -r crawler/requirements.lock
 
 COPY --chown=papiro:papiro crawler/ crawler/
 COPY --chown=papiro:papiro api/ api/
-# único subagente embarcado — `auditor` administra a stack na VM
-# (descoberto como agente de projeto quando a sessão roda com cwd=/app).
-# `.agents/agents/` é o único dir de perfis descoberto em todo clone (incl.
-# a VM) — perfis host-only ficam em `.agents/host-agents/`, fora do build
-# context e da descoberta. Agentes novos NÃO entram na imagem nem na VM a
-# menos que tenham COPY explícito aqui e residam em `.agents/agents/`.
-COPY --chown=papiro:papiro .agents/agents/auditor.md .agents/agents/auditor.md
+# único subagente embarcado — `auditor` administra a stack em produção.
+# Perfis tracked não são auto-descobertos (não existe dir `agents` literal
+# no repo): a ativação é sempre um symlink em `.devin/agents/` — na imagem
+# ele é criado no RUN abaixo e a sessão com cwd=/app descobre o perfil por
+# ele. Agentes novos NÃO entram na imagem nem em produção a menos que
+# tenham COPY explícito aqui e residam em `.agents/prod-agents/`.
+COPY --chown=papiro:papiro .agents/prod-agents/auditor.md .agents/prod-agents/auditor.md
 # data/ e jobs entram por bind mount em runtime (ver compose.yaml);
 # crawler/.cache e work/ são named volumes — o dono tem que ser o usuário
 # da imagem para o primeiro mount herdar permissão de escrita
-RUN install -d -o papiro -g papiro /app/work /app/crawler/.cache
+RUN install -d -o papiro -g papiro /app/work /app/crawler/.cache /app/.devin/agents \
+    && ln -s ../../.agents/prod-agents/auditor.md /app/.devin/agents/auditor.md
 
 USER papiro
 ENV PYTHONUNBUFFERED=1

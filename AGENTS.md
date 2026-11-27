@@ -91,62 +91,72 @@ Docs: https://docs.firecrawl.dev/ (index: https://docs.firecrawl.dev/llms.txt)
   full tool surface needs `Authorization: Bearer` (key in
   `.devin/mcp_config.local.json`) or the OAuth endpoint + `devin mcp login`.
 
-## Hosts
+## Environments
 
-**host** = any operator workstation with a clone of this repo — the
-complement of the one fixed machine in the system, the VM `papiro-vm`.
-There is no canonical host: Olavo's and Leandro's machines are both
-hosts, the host charters apply verbatim on either, and concurrent work
-on different hosts reconciles through git like any other parallel
-work. What differs per host is provisioning, not identity:
+**development environment** = any operator workstation with a clone of
+this repo; **production** = the one fixed machine in the system, the VM
+`papiro-vm`. There is no canonical development machine: Olavo's and
+Leandro's machines are both development environments, the dev charters
+apply verbatim on either, and concurrent work in different development
+environments reconciles through git like any other parallel work. What
+differs per machine is provisioning, not identity:
 
 - **Plaintext work** (`crawler/`, `api/`, `web/`, `data/`) — nothing
   beyond the clone.
-- **`.agents/` + host agents** — git-crypt unlock, which requires the
+- **`.agents/` + dev agents** — git-crypt unlock, which requires the
   operator's GPG key as a collaborator (add it with `notes add-user
-  --gpg-key <fpr>` from an already-unlocked host), then
+  --gpg-key <fpr>` from an already-unlocked machine), then
   `notes install-hooks` + `notes deobfuscate --dir .agents` and the
-  `.devin/agents` symlink step (§Subagents). A locked clone is a host
-  only for plaintext work — the charters themselves are ciphertext.
+  `.devin/agents` symlink step (§Subagents). A locked clone is a
+  development environment only for plaintext work — the charters
+  themselves are ciphertext.
 - **Ingest** (arquivista) — `.venv` + poppler; `DATABASE_URL`/compose
   `db` needs `.env/docker.env`; the Firecrawl key only for fallback
-  paths. Secrets are provisioned per host out-of-band — never
+  paths. Secrets are provisioned per machine out-of-band — never
   committed, never assumed present.
-- **VM access** (deploy launch, herdr bridge, `gcloud compute
+- **Production access** (deploy launch, herdr bridge, `gcloud compute
   ssh/scp`) — the operator's own gcloud account needs IAM on the GCP
   project plus a local herdr `papiro-vm` profile.
 - **Machine flavor** (OS, editor, paths) is detected at runtime, never
   assumed — the Omarchy/nvim note in §Development describes Olavo's
-  machine; other hosts differ.
+  machine; other development machines differ.
 
-Canonical history lives on **GitHub** — hosts push, the VM never does.
-When the auditor ships a `git bundle` "to the host", any unlocked host
-can receive it: once reviewed and pushed there, every other host syncs
-through the remote.
+Canonical history lives on **GitHub** — development environments push,
+the VM never does. When the auditor ships a `git bundle` "to a
+development environment", any unlocked machine can receive it: once
+reviewed and pushed there, every other machine syncs through the
+remote.
 
 ## Subagents
 
-Subagent profiles are markdown charters. The Devin CLI discovers
-project-level profiles from `agents/` dirs: `.agents/agents/` (tracked —
-present in **every** clone, including the VM checkout and the image build
-context) and `.devin/agents/` (local-only, gitignored). Layout here:
+Subagent profiles are markdown charters. The Devin CLI only
+auto-discovers project-level profiles from two dirs: `.devin/agents/`
+(local-only, gitignored) and a literally-named `.agents/agents/` —
+**this repo tracks no profile under either**. Tracked charters live in
+`.agents/dev-agents/` and `.agents/prod-agents/`, never auto-discovered;
+activation is always an explicit symlink into `.devin/agents/`, per
+environment:
 
-- `.agents/agents/` — profiles valid in every environment. Only `auditor`
-  lives here: the VM must see exactly one agent — the one that administers
-  it — and it is also the only profile `COPY`ed into the image.
-- `.agents/host-agents/` — host-only charters (`perito`, `sentinela`,
-  `arquivista`, `escriba`, `iluminista`, `publicitario`), tracked for versioning but NOT auto-discovered. On the
-  host, activate them once per clone:
-  `mkdir -p .devin/agents && cd .devin/agents && ln -sf ../../.agents/host-agents/*.md .`
+- `.agents/prod-agents/` — production charters. Only `auditor` lives
+  here: production must see exactly one agent — the one that
+  administers it. Activated on the VM checkout as
+  `~/papiro/.devin/agents/auditor.md` → `../../.agents/prod-agents/auditor.md`
+  (one-time provisioning — deploy-gcp.md §4) and baked into the image
+  the same way (`/app/.agents/prod-agents/` + `/app/.devin/agents/`
+  symlink). Development machines never see it.
+- `.agents/dev-agents/` — development charters (`perito`, `sentinela`,
+  `arquivista`, `escriba`, `iluminista`, `publicitario`), tracked for
+  versioning. On a development machine, activate them once per clone:
+  `mkdir -p .devin/agents && cd .devin/agents && ln -sf ../../.agents/dev-agents/*.md .`
 
 For Codex, the `publicitario` adapter also lives in
-`.agents/host-agents/publicitario.toml` and loads the Markdown charter as its
+`.agents/dev-agents/publicitario.toml` and loads the Markdown charter as its
 source of instructions. After unlocking/deobfuscating `.agents/`, activate
 it locally from the repository root:
 
 ```bash
 mkdir -p .codex/agents
-ln -s ../../.agents/host-agents/publicitario.toml .codex/agents/publicitario.toml
+ln -s ../../.agents/dev-agents/publicitario.toml .codex/agents/publicitario.toml
 ```
 
 `.codex/` is local-only and gitignored, including the symlink. Never stage
@@ -154,10 +164,10 @@ or force-add its contents; version the charter and adapter under `.agents/`
 through the notes pipeline. In Codex, delegate logo work to `publicitario`;
 the Devin equivalent is `run_subagent(profile: "publicitario", ...)`.
 
-Spawn the host profiles with `run_subagent(profile: ...)`. `auditor` is
-the exception: `run_subagent` always executes on the host, and the
-charter forbids it there — delegate via the herdr bridge (next section)
-instead.
+Spawn the dev profiles with `run_subagent(profile: ...)`. `auditor` is
+the exception: `run_subagent` always executes in the development
+environment, and the charter forbids it there — delegate via the herdr
+bridge (next section) instead.
 
 - `perito` — cybersecurity examiner (Perito Criminal Federal Área 14). Audits
   code/config/pipeline against `.agents/docs/SECURITY.md` — secrets handling,
@@ -174,15 +184,17 @@ instead.
   `SECURITY.md`/laudos. Emits a **relatório de remediação** (FIX/FIX-PARCIAL/
   ADIADO per achado + verifications + pendências). Spawn it to remediate a
   laudo — not to audit (that is perito).
-- `auditor` — VM operations auditor (TCU/Receita do roster). The **only**
-  profile under `.agents/agents/` and the only one shipped in the image
-  (`COPY .agents/agents/auditor.md` → `/app/.agents/agents/`); administers the compose
+- `auditor` — production operations auditor (TCU/Receita do roster). The
+  **only** profile under `.agents/prod-agents/` and the only one shipped
+  in the image (`COPY .agents/prod-agents/auditor.md`, activated at
+  `/app/.devin/agents/`); administers the compose
   stack on the VM **as the non-root `papiro` user** (uid 10001 — bind
   mounts `data/`/`crawler/jobs/` must be writable by it), runs the
   scheduled ingest via `compose run`, verifies posture (no db port, no
   secret dumps), and **owns the VM git lifecycle** — watches the
   `papiro-git-sync` timer, resolves rebase CONFLITOs, and decides when
-  local commits ship to the host via `git bundle` + `gcloud scp`. Emits
+  local commits ship to a development environment via `git bundle` +
+  `gcloud scp`. Emits
   a **relatório de fiscalização** com não conformidades + determinações.
   Reach it through the herdr bridge below — never `run_subagent`.
 - `escriba` — frontend engineer scribe. Owns `web/` (Astro + Tailwind v4,
@@ -212,22 +224,23 @@ instead.
   provenance. Site integration goes to `escriba`, interface wording to
   `iluminista`. Reports as a **memorial de marca**. Spawn it for logo
   creation, refinement, exports, and visual identity review.
-- `arquivista` — data-operations archivist on the **host**. Runs the whole
+- `arquivista` — data-operations archivist in the **development
+  environment**. Runs the whole
   ingest workflow — `next/files/fetch`, job.json curation, `audit`,
   `assemble --write`, shard hygiene scan, `crawler.db sync`, batch
   commits — and edits only job configs/`crawler/jobs/` (pipeline code bugs
-  get handed back). Also **launches the GCP deploy** host-side via
+  get handed back). Also **launches the GCP deploy** dev-side via
   `gcloud` per `.agents/docs/deploy-gcp.md`, then hands the VM to
   `auditor` (it never administers it). Emits a **guia de remessa**
   (acervo, irregularidades, destino, devoluções). Spawn it to ingest an
   evento, reconcile the dataset, or launch the deploy.
 
-## Reaching the VM agent (herdr)
+## Reaching the production agent (herdr)
 
 A Devin session lives on `papiro-vm` inside a pane of the VM's own
-`herdr` server. The host reaches it through herdr's machine forwarding
-(saved profile `papiro-vm`, SSH over IAP) — this is the delegation path
-for `auditor` work:
+`herdr` server. A development machine reaches it through herdr's
+machine forwarding (saved profile `papiro-vm`, SSH over IAP) — this is
+the delegation path for `auditor` work:
 
 ```
 herdr --machine papiro-vm agent list                # discover the pane id
@@ -240,7 +253,7 @@ herdr --machine papiro-vm agent read <PANE> --lines 80
   is unnamed; optionally name it once per session
   (`agent rename <PANE> auditor`) or rediscover the pane id each time.
 - Omitting `--machine` targets the *local* session — where the only
-  agent is the host Devin itself.
+  agent is the development machine's own Devin.
 - Forwarding never installs or starts the remote server. The VM's
   `herdr server` is an unsupervised daemon and the devin pane is
   ephemeral — after a VM reboot the channel is dead until restarted
@@ -260,7 +273,7 @@ History was rewritten (filter-repo) — plaintext .agents exists in no
 reachable commit; old SHAs may linger in GitHub caches — treat
 pre-2026-11-24 content as previously public.
 
-On unlocked machines (host, VM) files just work — read/write normally.
+On unlocked machines (development, production) files just work — read/write normally.
 Commit changes through the notes pipeline so blobs stay encrypted and
 names opaque:
 
@@ -275,8 +288,8 @@ Joining an existing clone: `git crypt unlock` (needs a collaborator
 GPG key in the local keyring) → `notes install-hooks --yes --dir
 .agents` → `notes deobfuscate --dir .agents`. Plain `git pull` then
 auto-deobfuscates via the post-merge hook. The VM (`~/papiro`) is a GPG
-collaborator — add users with `notes add-user --gpg-key <fpr>` from the
-host; symmetric break-glass key at `.env/git-crypt/papiro.key` +
+collaborator — add users with `notes add-user --gpg-key <fpr>` from a
+development machine; symmetric break-glass key at `.env/git-crypt/papiro.key` +
 1Password doc "papiro git-crypt symmetric key" (vault Agents).
 
 **Caveat (notes 0.10.3):** the package's hook templates drop `--dir` on
@@ -292,10 +305,11 @@ hardcoded to `notes/` — run `notes deobfuscate --dir .agents` manually.
 
 ## Development
 
-Hosts are operator workstations (§Hosts) — a máquina do Olavo é
-Omarchy (Arch), editor padrão `nvim`; outros hosts variam, detecte o
-flavor em runtime. A VM `papiro-vm` (Debian 12) também tem neovim
-instalado via apt (0.7.2) — prefira-o a vim/nano em edições remotas.
+Ambientes de desenvolvimento são as estações dos operadores
+(§Environments) — a máquina do Olavo é
+Omarchy (Arch), editor padrão `nvim`; outras máquinas variam, detecte o
+flavor em runtime. A VM `papiro-vm` (Debian 12) — produção — também tem
+neovim instalado via apt (0.7.2) — prefira-o a vim/nano em edições remotas.
 
 The site lives in `web/` — run all npm/Astro commands from that directory.
 

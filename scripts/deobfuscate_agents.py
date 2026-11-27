@@ -3,7 +3,7 @@
 
 Uso: CI, após ``git crypt unlock`` — o checkout tem os blobs plaintext mas
 com nomes ofuscados (``.agents/<8-hex>``); o Dockerfile precisa de
-``.agents/agents/auditor.md``. É o equivalente mínimo de
+``.agents/prod-agents/auditor.md``. É o equivalente mínimo de
 ``notes deobfuscate --dir .agents`` para quem só precisa do build context.
 """
 

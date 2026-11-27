@@ -2,7 +2,7 @@
 """Todo blob rastreado sob ``.agents/`` deve ser ciphertext git-crypt.
 
 Lê o índice (``git ls-files -s`` + ``git cat-file blob``), não o working
-tree — funciona igual em clones destravados (host/VM, onde os arquivos em
+tree — funciona igual em clones destravados (desenvolvimento/produção, onde os arquivos em
 disco são plaintext) e no checkout do CI (que não tem a chave). Um blob sem
 o magic ``\\x00GITCRYPT`` é plaintext prestes a vazar para o repo público.
 """

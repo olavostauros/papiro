@@ -33,7 +33,7 @@ jobs:
         with:
           persist-credentials: false
       # no checkout .agents/ é blob git-crypt com nomes ofuscados — o
-      # Dockerfile precisa de .agents/agents/auditor.md destravado.
+      # Dockerfile precisa de .agents/prod-agents/auditor.md destravado.
       # secrets.GIT_CRYPT_KEY = base64 da chave simétrica break-glass
       # (.env/git-crypt/papiro.key).
       - name: Unlock .agents (git-crypt)
