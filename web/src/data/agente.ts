@@ -52,13 +52,21 @@ export interface ExplicarResponse {
   fonte: string;
   anulada: boolean;
   texto_base_ausente: boolean;
+  /** Tipo do material-base ausente quando texto_base_ausente=true; null nos demais casos. */
+  material_ausente: 'texto' | 'imagem' | null;
   acertou: boolean | null;
   disciplina_inferida: string;
   explicacao: string;
   armadilha_banca: string;
   conceito_chave: string;
+  /** Modo diagnóstico — preenchido apenas quando acertou=false e não há curto-circuito. */
+  por_que_parecia_certa: string;
+  /** Modo diagnóstico — tópico curto de revisão; acompanha por_que_parecia_certa. */
+  topico_para_revisar: string;
   pontos_chave: string[];
   questoes_relacionadas: QuestaoRelacionada[];
+  /** true quando ao menos uma questão relacionada foi encontrada. */
+  relacionadas_ok: boolean;
   modelo: string;
   /** Servido do cache em memória — não exibir na UI. */
   cached: boolean;

@@ -428,9 +428,13 @@ Contrato interno (os dois modos):
 - `[data-resultado]` — gabarito/acertou, disciplina inferida e seções
   (Explicação, Armadilha da banca, Conceito-chave, Pontos-chave, Questões
   relacionadas com CTA "Resolver" → `/questao/?id=`); seção vazia some.
-  `anulada`/`texto_base_ausente` (200 sem LLM) viram aviso fixo, não erro.
-  Erros: 404/422/429 (`Retry-After` humanizado por `esperaHumana` em
-  `templates.ts`)/503 e rede — 503 e rede ganham botão `[data-retry]`.
+  Com `acertou=false` e `por_que_parecia_certa` + `topico_para_revisar`
+  preenchidos, o modo diagnóstico aparece antes da Explicação. Questões
+  relacionadas só renderizam com `relacionadas_ok=true` e itens na lista.
+  `anulada`/`texto_base_ausente` (200 sem LLM) viram aviso fixo, não erro —
+  `material_ausente="imagem"` diferencia o aviso de material visual do de
+  texto-base. Erros: 404/422/429 (`Retry-After` humanizado por `esperaHumana`
+  em `templates.ts`)/503 e rede — 503 e rede ganham botão `[data-retry]`.
 
 ### edital-cruzamento
 

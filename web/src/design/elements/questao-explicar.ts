@@ -44,16 +44,38 @@ import {
  * - `[data-status]` (role=status) — [data-status-msg] + [data-status-aux]
  *   durante a chamada (pode levar ~30 s).
  * - `[data-resultado]` — explicação seccionada, aviso fixo de anulada/
- *   texto-base ausente, ou erro (role=alert + [data-retry] quando cabível).
- *   O foco é movido para o resultado ao renderizar.
+ *   material-base ausente (texto ou imagem/material visual), ou erro
+ *   (role=alert + [data-retry] quando cabível). O foco é movido para o
+ *   resultado ao renderizar.
  *
- * Seção vazia some (armadilha "", pontos [], relacionadas [], disciplina "",
- * modelo "nenhum"); `cached` nunca aparece. Todo campo do LLM/dataset passa
- * por esc() antes do innerHTML.
+ * Com acertou=false e os campos por_que_parecia_certa + topico_para_revisar
+ * preenchidos, o modo diagnóstico aparece antes da Explicação. Questões
+ * relacionadas só entram quando relacionadas_ok=true e há itens. Seções vazias
+ * são omitidas (armadilha "", pontos [], disciplina "", modelo "nenhum");
+ * `cached` nunca aparece. Todo campo do LLM/dataset passa por esc() antes do
+ * innerHTML.
  */
 
 const RESOLVER_CLS =
   'inline-flex items-center justify-center rounded-md px-3 py-1.5 text-xs font-medium text-accent transition-colors hover:bg-accent-soft focus-visible:focus-ring';
+
+const MATERIAL_AUSENTE_COPY = {
+  texto: {
+    titulo: 'Texto-base ausente',
+    corpo:
+      'Esta questão remete a um texto-base externo que não está no recorte do acervo. O gabarito oficial está confirmado, mas a justificativa depende do texto — consulte a fonte oficial.',
+  },
+  imagem: {
+    titulo: 'Material visual ausente',
+    corpo:
+      'Esta questão depende de material visual (figura, gráfico, tabela ou imagem) disponível apenas no caderno oficial da prova. O gabarito oficial está confirmado, mas a justificativa depende desse material — consulte a fonte oficial.',
+  },
+} as const;
+
+const DIAGNOSTICO_COPY = {
+  titulo: 'Diagnóstico do erro',
+  topico: 'Tópico para revisar',
+} as const;
 
 /** Gabarito do acervo → mesma inflexão do card ("Certo"/"Errado"/"Alternativa X"). */
 function gabaritoRotulo(g: string): string {
@@ -72,6 +94,22 @@ function fonteHtml(fonte: string, contexto: string): string {
 
 function secao(titulo: string, corpo: string): string {
   return `<section class="mt-4"><h2 class="${H2_CLS}">${titulo}</h2><div class="mt-1 space-y-1 text-sm text-ink-soft">${corpo}</div></section>`;
+}
+
+/** Modo diagnóstico — só com erro do usuário e os dois campos preenchidos. */
+function diagnosticoHtml(res: ExplicarResponse): string {
+  const porQue = (res.por_que_parecia_certa || '').trim();
+  const topico = (res.topico_para_revisar || '').trim();
+  if (res.acertou !== false || !porQue || !topico) return '';
+  return (
+    `<section class="mt-4 rounded-lg border border-line bg-paper p-4">` +
+    `<h2 class="${H2_CLS}">${esc(DIAGNOSTICO_COPY.titulo)}</h2>` +
+    `<div class="mt-2 space-y-2 text-sm text-ink-soft">${paras(porQue)}</div>` +
+    `<p class="mt-3 flex flex-wrap items-center gap-2 text-sm text-ink-soft">` +
+    `<span class="font-medium text-ink">${esc(DIAGNOSTICO_COPY.topico)}:</span>` +
+    `<span class="inline-flex max-w-full items-center rounded-full bg-accent-soft px-2.5 py-0.5 text-xs font-medium break-words text-accent">${esc(topico)}</span>` +
+    `</p></section>`
+  );
 }
 
 export class QuestaoExplicarElement extends HTMLElement {
@@ -283,15 +321,19 @@ export class QuestaoExplicarElement extends HTMLElement {
         `<p class="mt-3 text-sm">${fonte}</p>` +
         `</div>`;
     } else if (res.texto_base_ausente) {
+      const material =
+        MATERIAL_AUSENTE_COPY[res.material_ausente === 'imagem' ? 'imagem' : 'texto'];
       this.resultado.innerHTML =
         `<div tabindex="-1" data-inner>` +
         this.linhaGabarito(res, gab) +
-        `<h2 class="mt-4 font-medium text-ink">Texto-base ausente</h2>` +
-        `<p class="mt-1 text-sm text-ink-soft">Esta questão remete a um texto-base externo que não está no recorte do acervo. O gabarito oficial está confirmado, mas a justificativa depende do texto — consulte a fonte oficial.</p>` +
+        `<h2 class="mt-4 font-medium text-ink">${esc(material.titulo)}</h2>` +
+        `<p class="mt-1 text-sm text-ink-soft">${esc(material.corpo)}</p>` +
         `<p class="mt-3 text-sm">${fonte}</p>` +
         `</div>`;
     } else {
       const secoes: string[] = [];
+      const diagnostico = diagnosticoHtml(res);
+      if (diagnostico) secoes.push(diagnostico);
       if (res.explicacao.trim()) {
         secoes.push(
           `<section class="mt-4"><h2 class="${H2_CLS}">Explicação</h2>` +
@@ -313,7 +355,7 @@ export class QuestaoExplicarElement extends HTMLElement {
           ),
         );
       }
-      if (res.questoes_relacionadas.length) {
+      if (res.relacionadas_ok === true && res.questoes_relacionadas.length) {
         secoes.push(
           secao(
             'Questões relacionadas',
