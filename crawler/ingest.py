@@ -69,24 +69,47 @@ class Dataset:
     _chave: Optional[Callable[[str], str]] = field(default=None, repr=False)
     _novos: list[dict] = field(default_factory=list)    # p/ upsert no banco
     _dirty: set[str] = field(default_factory=set)       # eventos a regravar
+    _evento_por_id: dict[str, str] = field(default_factory=dict)
+    _evento_por_fonte: dict[str, str] = field(default_factory=dict)
 
     @classmethod
     def carregar(cls, path: Path = DATASET, adapter=None) -> "Dataset":
-        # path = diretório de shards (padrão) ou um JSON flat legado
-        qs = list(shards.iter_records(path))
+        # path = diretório de shards (padrão) ou um JSON flat legado. Num
+        # diretório, o stem do shard é a identidade do evento — inferir pela
+        # URL quebraria bancas cujos PDFs não vivem sob /concursos/<EVENTO>/.
+        qs: list[dict] = []
+        eventos: dict[str, str] = {}
+        path = Path(path)
+        if path.is_dir():
+            for shard_path in sorted(path.glob("*.json")):
+                recs = shards.load_shard_records(shard_path)
+                for q in recs:
+                    eventos[q["id"]] = shard_path.stem
+                qs.extend(recs)
+        elif path.exists():
+            qs = list(shards.iter_records(path))
         ds = cls(path=path, questoes=qs,
                  _chave=getattr(adapter, "chave_prova", None))
         for q in qs:
             ds.ids.add(q["id"])
             f = q.get("fonte", "")
             ds.fontes.add(f.lower())
+            evento = eventos.get(q["id"]) or shards.evento_key(f, q)
+            ds._evento_por_id[q["id"]] = evento
+            if f:
+                ds._evento_por_fonte[f.lower()] = evento
             if ds._chave:
-                ds.cadernos.setdefault(
-                    shards.evento_key(f, q), set()).add(ds._chave(f))
+                ds.cadernos.setdefault(evento, set()).add(ds._chave(f))
             m = re.search(r"/concursos/([^/]+)/(?:arquivos/?)?$", f)
             if m:
                 ds.eventos_pasta.add(m.group(1).upper())
         return ds
+
+    def _evento_de(self, q: dict) -> str:
+        f = q.get("fonte", "")
+        return (self._evento_por_id.get(q["id"])
+                or self._evento_por_fonte.get(f.lower())
+                or evento_key(f, q))
 
     def ja_ingerida(self, entrada: dict, adapter=None) -> Optional[str]:
         if entrada["url_prova"].lower() in self.fontes:
@@ -100,21 +123,23 @@ class Dataset:
                 return "prova já ingerida (outra revisão do arquivo)"
         return None
 
-    def append(self, novas: list[Questao]) -> tuple[int, list[str]]:
+    def append(self, novas: list[Questao], evento: Optional[str] = None) -> tuple[int, list[str]]:
         add, colisoes = 0, []
         for q in novas:
             if q.id in self.ids:
                 colisoes.append(q.id)
                 continue
             d = q.model_dump()
+            ev = evento or self._evento_de(d)
             self.questoes.append(d)
             self._novos.append(d)
-            self._dirty.add(evento_key(q.fonte, d))
+            self._dirty.add(ev)
             self.ids.add(q.id)
             self.fontes.add(q.fonte.lower())
+            self._evento_por_id[q.id] = ev
+            self._evento_por_fonte[q.fonte.lower()] = ev
             if self._chave:
-                self.cadernos.setdefault(
-                    evento_key(q.fonte, d), set()).add(self._chave(q.fonte))
+                self.cadernos.setdefault(ev, set()).add(self._chave(q.fonte))
             add += 1
         return add, colisoes
 
@@ -132,7 +157,7 @@ class Dataset:
         """Regrava só os shards tocados e faz upsert no banco (DATABASE_URL)."""
         by_evento: dict[str, list[dict]] = {}
         for q in self.questoes:
-            by_evento.setdefault(evento_key(q["fonte"], q), []).append(q)
+            by_evento.setdefault(self._evento_de(q), []).append(q)
         for ev in sorted(self._dirty):
             write_shard(ev, by_evento[ev], shard_dir=self.path)
             print(f"shard {ev}: {len(by_evento[ev])} itens")
@@ -223,17 +248,25 @@ def total_ledger(path: Path = usage.LEDGER) -> int:
 
 
 def _pdf_leitura(adapter):
-    """Callables url→texto/itens ligados ao adapter (motores locais)."""
+    """Callables url→texto/itens ligados ao adapter (motores locais).
+
+    ``itens_pdf``/``mc_pdf`` são o motor secundário (``pdftotext -layout``) e
+    são opcionais: bancas mcxml ficam só com o parser de coordenadas.
+    """
+    itens_secundario = getattr(adapter, "itens_pdf", None)
+    mc_secundario = getattr(adapter, "mc_pdf", None)
+
     def pdf_itens(url, esperados):
-        return adapter.itens_pdf(pdfmod.baixar(url), esperados)
+        return itens_secundario(pdfmod.baixar(url), esperados)
 
     def pdf_mc(url, esperados):
-        return adapter.mc_pdf(pdfmod.baixar(url), esperados)
+        return mc_secundario(pdfmod.baixar(url), esperados)
 
     def coord_leitura(url, esperados, mc):
         pdf = pdfmod.baixar(url)
         melhor = {}
-        for variant in ("modern", "old"):          # old = era PF_18 e anteriores
+        variants = getattr(adapter, "prova_variants", ("modern", "old"))
+        for variant in variants:                   # old = era PF_18 e anteriores
             try:
                 its = adapter.parse_prova(pdf, tipo="mc" if mc else "ce",
                                           variant=variant)
@@ -244,7 +277,9 @@ def _pdf_leitura(adapter):
         if not melhor:
             raise RuntimeError("parser de coordenadas não extraiu itens")
         if mc:
-            return {n: (v["enunciado"], v["alternativas"]) for n, v in melhor.items()}
+            return {n: (v["enunciado"], v["alternativas"],
+                        {"assunto": v.get("assunto", ""), "texto": v.get("texto")})
+                    for n, v in melhor.items()}
         return {n: v["enunciado"] for n, v in melhor.items()}
 
     def coord_itens(url, esperados):
@@ -259,7 +294,9 @@ def _pdf_leitura(adapter):
     def page_counter(url):
         return pdfmod.contar_paginas(pdfmod.baixar(url))
 
-    return pdf_itens, pdf_mc, pdf_texto, page_counter, coord_itens, coord_mc
+    return ((pdf_itens if itens_secundario else None),
+            (pdf_mc if mc_secundario else None),
+            pdf_texto, page_counter, coord_itens, coord_mc)
 
 
 def task_de(e: dict, adapter) -> str:
@@ -279,17 +316,20 @@ def extracao_cache(e: dict) -> Path:
 
 
 def montar_questoes(e: dict, prova: ProvaExtraida, gab: gabmod.Gabarito,
-                    adapter=None) -> list[Questao]:
+                    adapter=None, assuntos: Optional[dict[int, str]] = None) -> list[Questao]:
     adapter = adapter or bancas.get_adapter("cebraspe")
     out = []
     for c in e["cargos"]:
-        meta = ProvaMeta(banca=adapter.dataset_banca, orgao=e["orgao"], cargo=c["nome"],
-                         ano=e["ano"], fonte=e["url_prova"], assunto=e.get("assunto") or "",
-                         id_orgao=e.get("id_orgao"), id_cargo=c.get("id_cargo"))
+        meta0 = ProvaMeta(banca=adapter.dataset_banca, orgao=e["orgao"], cargo=c["nome"],
+                          ano=e["ano"], fonte=e["url_prova"], assunto=e.get("assunto") or "",
+                          id_orgao=e.get("id_orgao"), id_cargo=c.get("id_cargo"))
         for q in prova.questoes:
             g = gab.para_dataset(q.numero)
             if g is None:  # anulado (X) → não vira registro
                 continue
+            meta = meta0
+            if assuntos and q.numero in assuntos:
+                meta = meta0.model_copy(update={"assunto": assuntos[q.numero]})
             out.append(to_questao(q, meta, gabarito=g))
     return out
 
@@ -300,6 +340,7 @@ class Plano:
     gab: gabmod.Gabarito
     itens_local: Optional[dict[int, str]] = None      # numero → enunciado (C/E ou MC)
     mc_local: Optional[dict[int, tuple[str, list[str]]]] = None  # MC: (enunciado, A–E)
+    assuntos: dict[int, str] = field(default_factory=dict)  # MC por item (opt-in do adapter)
     itens_verif: Optional[dict[int, str]] = None     # subconjunto lido pelo motor de texto
     via_coord: set[int] = field(default_factory=set)  # registro veio do parser de coordenadas
     firecrawl: Optional[str] = None          # None | "itens" | "prova"
@@ -353,9 +394,19 @@ def planejar(e: dict, gab: gabmod.Gabarito, *, extrator: str,
             (lidos_coord if coord else lidos_text)[n] = v
     if lidos:
         if mc:
-            pl.mc_local = lidos
-            pl.itens_local = {n: en for n, (en, _) in lidos.items()}
-            pl.itens_verif = {n: en for n, (en, _) in lidos_text.items()}
+            def partes(v):
+                return v[0], v[1], (v[2] if len(v) > 2 else {})
+            pl.mc_local = {}
+            for n, v in lidos.items():
+                en, alts, meta = partes(v)
+                pl.mc_local[n] = (en, alts)
+                if getattr(adapter, "assunto_por_item", False) and meta.get("assunto"):
+                    pl.assuntos[n] = meta["assunto"]
+            pl.itens_local = {n: en for n, (en, _) in pl.mc_local.items()}
+            pl.itens_verif = {}
+            for n, v in lidos_text.items():
+                en, _alts, _meta = partes(v)
+                pl.itens_verif[n] = en
         else:
             pl.itens_local = lidos
             pl.itens_verif = lidos_text
@@ -561,13 +612,13 @@ def processar(e: dict, ds: Dataset, *, plano: Plano, extrator: str, extractor: E
         return res
 
     try:
-        novas = montar_questoes(e, prova, gab, adapter)
+        novas = montar_questoes(e, prova, gab, adapter, assuntos=plano.assuntos)
     except ValueError as exc:
         rel.aprovada = False
         rel.erros.append(f"to_questao: {exc}")
         res.status = "reprovada"
         return res
-    res.adicionadas, res.colisoes = ds.append(novas)
+    res.adicionadas, res.colisoes = ds.append(novas, evento=e["evento"])
     res.status = "aprovada"
     return res
 
